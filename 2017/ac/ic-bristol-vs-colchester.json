@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1743cbb1-9492-45f4-8115-a9c4aa9e518d",
   "name": "IC Bristol vs Colchester",
   "sport": "ac",
   "firstDay": "2017-09-17",
   "lastDay": "2017-09-17",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "David Goacher",
-        "Martin Murray",
-        "Richard Smith",
-        "Robert Wilkinson",
-        "Robert Wilkinson and David Goacher"
+        {
+          "playerId": "team-player/1e0861ec-a0c1-439c-8c4b-d2b2f6cf28ca",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/e5021df5-acf1-415a-947d-687197b55c21",
+          "name": "Martin Murray"
+        },
+        {
+          "playerId": "team-player/2018af1a-ee50-43f8-849b-cf7a95be4d3a",
+          "name": "Richard Smith"
+        },
+        {
+          "playerId": "team-player/989d9631-8b0a-41d6-8892-adf1cf47c49e",
+          "name": "Robert Wilkinson"
+        },
+        {
+          "playerId": "team-player/b725d37a-1470-4ac8-abed-20d87bf9440e",
+          "name": "Robert Wilkinson and David Goacher"
+        }
       ]
     },
     {
       "name": "Colchester",
       "shortName": "Colchester",
       "players": [
-        "Jack Wicks",
-        "Jack Wicks and Nick Steiner",
-        "Nick Steiner",
-        "Rich Waterman",
-        "Steve Woolnough"
+        {
+          "playerId": "team-player/16323e47-c8e0-43b8-a4c1-4416c6a0e322",
+          "name": "Jack Wicks"
+        },
+        {
+          "playerId": "team-player/d9a50eb4-0290-4599-8cfe-ece5ab61567b",
+          "name": "Jack Wicks and Nick Steiner"
+        },
+        {
+          "playerId": "team-player/02a3c436-b952-4e0d-8e88-c30e2b0b69a8",
+          "name": "Nick Steiner"
+        },
+        {
+          "playerId": "team-player/2876a48f-b6e8-49a7-bd19-c5d39e32e82b",
+          "name": "Rich Waterman"
+        },
+        {
+          "playerId": "team-player/f40c5967-99bf-49c9-8115-e45d5afb33ce",
+          "name": "Steve Woolnough"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/24630774-f2dd-4f26-a928-0056a0a92fb2",
       "teams": [
         "Bristol",
         "Colchester"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Robert Wilkinson and David Goacher",
-            "Jack Wicks and Nick Steiner"
+            {
+              "playerId": "team-player/b725d37a-1470-4ac8-abed-20d87bf9440e",
+              "name": "Robert Wilkinson and David Goacher"
+            },
+            {
+              "playerId": "team-player/d9a50eb4-0290-4599-8cfe-ece5ab61567b",
+              "name": "Jack Wicks and Nick Steiner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad638f4c-e131-48ba-a3b0-671323d4d225",
               "players": [
                 {
+                  "playerId": "team-player/b725d37a-1470-4ac8-abed-20d87bf9440e",
                   "name": "Robert Wilkinson and David Goacher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d9a50eb4-0290-4599-8cfe-ece5ab61567b",
                   "name": "Jack Wicks and Nick Steiner",
                   "score": "24"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Richard Smith",
-            "Rich Waterman"
+            {
+              "playerId": "team-player/2018af1a-ee50-43f8-849b-cf7a95be4d3a",
+              "name": "Richard Smith"
+            },
+            {
+              "playerId": "team-player/2876a48f-b6e8-49a7-bd19-c5d39e32e82b",
+              "name": "Rich Waterman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/63574bc4-3ded-441f-a8db-88fb5cc39ada",
               "players": [
                 {
+                  "playerId": "team-player/2018af1a-ee50-43f8-849b-cf7a95be4d3a",
                   "name": "Richard Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2876a48f-b6e8-49a7-bd19-c5d39e32e82b",
                   "name": "Rich Waterman",
                   "score": "1"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "Steve Woolnough"
+            {
+              "playerId": "team-player/e5021df5-acf1-415a-947d-687197b55c21",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/f40c5967-99bf-49c9-8115-e45d5afb33ce",
+              "name": "Steve Woolnough"
+            }
           ],
           "games": [
             {
+              "gameId": "game/60be8cf2-1145-46f6-9dff-062e5af6cca4",
               "players": [
                 {
+                  "playerId": "team-player/e5021df5-acf1-415a-947d-687197b55c21",
                   "name": "Martin Murray",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f40c5967-99bf-49c9-8115-e45d5afb33ce",
                   "name": "Steve Woolnough",
                   "score": "14"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson",
-            "Jack Wicks"
+            {
+              "playerId": "team-player/989d9631-8b0a-41d6-8892-adf1cf47c49e",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/16323e47-c8e0-43b8-a4c1-4416c6a0e322",
+              "name": "Jack Wicks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d4741a92-b98c-4bc9-9ca8-02b3f30b8f8d",
               "players": [
                 {
+                  "playerId": "team-player/989d9631-8b0a-41d6-8892-adf1cf47c49e",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/16323e47-c8e0-43b8-a4c1-4416c6a0e322",
                   "name": "Jack Wicks",
                   "score": "9"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Richard Smith",
-            "Steve Woolnough"
+            {
+              "playerId": "team-player/2018af1a-ee50-43f8-849b-cf7a95be4d3a",
+              "name": "Richard Smith"
+            },
+            {
+              "playerId": "team-player/f40c5967-99bf-49c9-8115-e45d5afb33ce",
+              "name": "Steve Woolnough"
+            }
           ],
           "games": [
             {
+              "gameId": "game/400df4da-0253-4a1e-a673-0b1a76232c0c",
               "players": [
                 {
+                  "playerId": "team-player/2018af1a-ee50-43f8-849b-cf7a95be4d3a",
                   "name": "Richard Smith",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/f40c5967-99bf-49c9-8115-e45d5afb33ce",
                   "name": "Steve Woolnough",
                   "score": "26"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Nick Steiner"
+            {
+              "playerId": "team-player/1e0861ec-a0c1-439c-8c4b-d2b2f6cf28ca",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/02a3c436-b952-4e0d-8e88-c30e2b0b69a8",
+              "name": "Nick Steiner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f48dbef7-2d68-4d8e-aa90-fc8074c233e0",
               "players": [
                 {
+                  "playerId": "team-player/1e0861ec-a0c1-439c-8c4b-d2b2f6cf28ca",
                   "name": "David Goacher",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/02a3c436-b952-4e0d-8e88-c30e2b0b69a8",
                   "name": "Nick Steiner",
                   "score": "14"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "Rich Waterman"
+            {
+              "playerId": "team-player/e5021df5-acf1-415a-947d-687197b55c21",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/2876a48f-b6e8-49a7-bd19-c5d39e32e82b",
+              "name": "Rich Waterman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/72fa7d0f-be63-457b-984b-f840beb2050f",
               "players": [
                 {
+                  "playerId": "team-player/e5021df5-acf1-415a-947d-687197b55c21",
                   "name": "Martin Murray",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2876a48f-b6e8-49a7-bd19-c5d39e32e82b",
                   "name": "Rich Waterman",
                   "score": "11"
                 }

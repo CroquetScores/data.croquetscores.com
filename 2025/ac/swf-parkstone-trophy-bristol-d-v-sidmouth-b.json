@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/74a08181-b65b-4c2a-a5d1-df11422dc3b7",
   "name": "SWF Parkstone Trophy Bristol D v Sidmouth B",
   "sport": "ac",
   "firstDay": "2025-05-30",
   "lastDay": "2025-05-30",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol D",
       "shortName": "Bristol D",
       "players": [
-        "Bob Whiffen",
-        "Des Wakely",
-        "Frances Ransom",
-        "Frances Ransom & Des Wakely",
-        "Gill Pocock"
+        {
+          "playerId": "team-player/78e9c49a-b723-42fa-944a-ce5bc91dfeb5",
+          "name": "Bob Whiffen"
+        },
+        {
+          "playerId": "team-player/871fc27c-700e-435f-b288-40010d79494c",
+          "name": "Des Wakely"
+        },
+        {
+          "playerId": "team-player/cb808f2f-b365-4cc9-b340-68fee4a76e43",
+          "name": "Frances Ransom"
+        },
+        {
+          "playerId": "team-player/d3b4acba-f876-45e8-829e-af0b51f12f73",
+          "name": "Frances Ransom & Des Wakely"
+        },
+        {
+          "playerId": "team-player/e30340e9-1549-40a3-befd-0fc7fc564033",
+          "name": "Gill Pocock"
+        }
       ]
     },
     {
       "name": "Sidmouth B",
       "shortName": "Sidmouth B",
       "players": [
-        "Andrew Thomas",
-        "Chris Donovan",
-        "Chris Donovan & Ed Dolphin",
-        "Colin Walls",
-        "Ed Dolphin"
+        {
+          "playerId": "team-player/ec72ad4d-ab8c-4802-813b-e6b0549dbb6f",
+          "name": "Andrew Thomas"
+        },
+        {
+          "playerId": "team-player/bcc8ec94-b424-4584-89ce-5d70a4d5a5f0",
+          "name": "Chris Donovan"
+        },
+        {
+          "playerId": "team-player/7e664056-70a1-4f5a-8442-0ded97bc6e75",
+          "name": "Chris Donovan & Ed Dolphin"
+        },
+        {
+          "playerId": "team-player/f222d2dd-59d3-4856-b23a-df7ef6b1720b",
+          "name": "Colin Walls"
+        },
+        {
+          "playerId": "team-player/07719552-087a-4ac2-9b4d-b4c700a8427d",
+          "name": "Ed Dolphin"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/6fd966e1-0a1f-4243-b329-968886a7086d",
       "teams": [
         "Bristol D",
         "Sidmouth B"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Frances Ransom & Des Wakely",
-            "Chris Donovan & Ed Dolphin"
+            {
+              "playerId": "team-player/d3b4acba-f876-45e8-829e-af0b51f12f73",
+              "name": "Frances Ransom & Des Wakely"
+            },
+            {
+              "playerId": "team-player/7e664056-70a1-4f5a-8442-0ded97bc6e75",
+              "name": "Chris Donovan & Ed Dolphin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9b10114-7f5b-4cc0-ab8c-98ba3d66ab9a",
               "players": [
                 {
+                  "playerId": "team-player/d3b4acba-f876-45e8-829e-af0b51f12f73",
                   "name": "Frances Ransom & Des Wakely",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/7e664056-70a1-4f5a-8442-0ded97bc6e75",
                   "name": "Chris Donovan & Ed Dolphin",
                   "score": "19"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Bob Whiffen",
-            "Colin Walls"
+            {
+              "playerId": "team-player/78e9c49a-b723-42fa-944a-ce5bc91dfeb5",
+              "name": "Bob Whiffen"
+            },
+            {
+              "playerId": "team-player/f222d2dd-59d3-4856-b23a-df7ef6b1720b",
+              "name": "Colin Walls"
+            }
           ],
           "games": [
             {
+              "gameId": "game/649df76f-af9e-4611-9bc7-b50046b5d96d",
               "players": [
                 {
+                  "playerId": "team-player/78e9c49a-b723-42fa-944a-ce5bc91dfeb5",
                   "name": "Bob Whiffen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f222d2dd-59d3-4856-b23a-df7ef6b1720b",
                   "name": "Colin Walls",
                   "score": "11"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Gill Pocock",
-            "Andrew Thomas"
+            {
+              "playerId": "team-player/e30340e9-1549-40a3-befd-0fc7fc564033",
+              "name": "Gill Pocock"
+            },
+            {
+              "playerId": "team-player/ec72ad4d-ab8c-4802-813b-e6b0549dbb6f",
+              "name": "Andrew Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0aaff357-2a11-448b-aa94-65ea8f4feded",
               "players": [
                 {
+                  "playerId": "team-player/e30340e9-1549-40a3-befd-0fc7fc564033",
                   "name": "Gill Pocock",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ec72ad4d-ab8c-4802-813b-e6b0549dbb6f",
                   "name": "Andrew Thomas",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Bob Whiffen",
-            "Andrew Thomas"
+            {
+              "playerId": "team-player/78e9c49a-b723-42fa-944a-ce5bc91dfeb5",
+              "name": "Bob Whiffen"
+            },
+            {
+              "playerId": "team-player/ec72ad4d-ab8c-4802-813b-e6b0549dbb6f",
+              "name": "Andrew Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2a7656ff-b64a-4a22-9f62-30e0e8eec602",
               "players": [
                 {
+                  "playerId": "team-player/78e9c49a-b723-42fa-944a-ce5bc91dfeb5",
                   "name": "Bob Whiffen",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/ec72ad4d-ab8c-4802-813b-e6b0549dbb6f",
                   "name": "Andrew Thomas",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Frances Ransom",
-            "Chris Donovan"
+            {
+              "playerId": "team-player/cb808f2f-b365-4cc9-b340-68fee4a76e43",
+              "name": "Frances Ransom"
+            },
+            {
+              "playerId": "team-player/bcc8ec94-b424-4584-89ce-5d70a4d5a5f0",
+              "name": "Chris Donovan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a0dc4a9d-05a5-4766-bfa2-d8f77a88375c",
               "players": [
                 {
+                  "playerId": "team-player/cb808f2f-b365-4cc9-b340-68fee4a76e43",
                   "name": "Frances Ransom",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/bcc8ec94-b424-4584-89ce-5d70a4d5a5f0",
                   "name": "Chris Donovan",
                   "score": "22"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Gill Pocock",
-            "Colin Walls"
+            {
+              "playerId": "team-player/e30340e9-1549-40a3-befd-0fc7fc564033",
+              "name": "Gill Pocock"
+            },
+            {
+              "playerId": "team-player/f222d2dd-59d3-4856-b23a-df7ef6b1720b",
+              "name": "Colin Walls"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b2155129-5710-4cac-85ef-c6a79da21b11",
               "players": [
                 {
+                  "playerId": "team-player/e30340e9-1549-40a3-befd-0fc7fc564033",
                   "name": "Gill Pocock",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f222d2dd-59d3-4856-b23a-df7ef6b1720b",
                   "name": "Colin Walls",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Des Wakely",
-            "Ed Dolphin"
+            {
+              "playerId": "team-player/871fc27c-700e-435f-b288-40010d79494c",
+              "name": "Des Wakely"
+            },
+            {
+              "playerId": "team-player/07719552-087a-4ac2-9b4d-b4c700a8427d",
+              "name": "Ed Dolphin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ae6fd4d-97c9-4f4c-a3fd-3d095a5e012b",
               "players": [
                 {
+                  "playerId": "team-player/871fc27c-700e-435f-b288-40010d79494c",
                   "name": "Des Wakely",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/07719552-087a-4ac2-9b4d-b4c700a8427d",
                   "name": "Ed Dolphin",
                   "score": "11"
                 }

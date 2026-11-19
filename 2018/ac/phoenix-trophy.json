@@ -1,66 +1,133 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2758cf9f-3ee6-47bc-aaf5-8ba382d3d3f8",
   "name": "Phoenix Trophy",
   "sport": "ac",
   "firstDay": "2018-04-12",
   "lastDay": "2018-07-27",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Victorious Secret",
       "shortName": "Victorious",
       "players": [
-        "Fred van Vugt",
-        "Fred Van Vugt & Geraldine Trivett",
-        "Fred van Vugt & Kathleen Colclough",
-        "Geraldine Trivett",
-        "Geraldine Trivett & Michael Eddiehausen",
-        "Kathleen Colclough",
-        "Michael Eddiehausen"
+        {
+          "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
+          "name": "Fred van Vugt"
+        },
+        {
+          "playerId": "team-player/22300753-2a75-4d2c-9deb-a939039b0513",
+          "name": "Fred Van Vugt & Geraldine Trivett"
+        },
+        {
+          "playerId": "team-player/2a75f660-c72a-49b8-b44d-3c5c1923874b",
+          "name": "Fred van Vugt & Kathleen Colclough"
+        },
+        {
+          "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
+          "name": "Geraldine Trivett"
+        },
+        {
+          "playerId": "team-player/341c0c4f-1fbd-486b-b106-ec843c86d12d",
+          "name": "Geraldine Trivett & Michael Eddiehausen"
+        },
+        {
+          "playerId": "team-player/8ce55cfa-784d-4a38-b16d-fa6d8b1fe42b",
+          "name": "Kathleen Colclough"
+        },
+        {
+          "playerId": "team-player/e8c01348-059e-499a-b417-3008d3d08b12",
+          "name": "Michael Eddiehausen"
+        }
       ]
     },
     {
       "name": "HB 2",
       "shortName": "HB 2",
       "players": [
-        "Bob Dawson",
-        "Bob Dawson (2)",
-        "Hedi Trask",
-        "Hedi Trask (2)",
-        "Hedi Trask & Bob Dawson"
+        {
+          "playerId": "team-player/904ea83e-4a45-4d74-9cdd-fceaef4e0c0b",
+          "name": "Bob Dawson"
+        },
+        {
+          "playerId": "team-player/a80db643-4cd4-4545-8037-21e1f7b72e41",
+          "name": "Bob Dawson (2)"
+        },
+        {
+          "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
+          "name": "Hedi Trask"
+        },
+        {
+          "playerId": "team-player/378dae34-7cb0-417b-a94e-e6186e15dcd7",
+          "name": "Hedi Trask (2)"
+        },
+        {
+          "playerId": "team-player/7236134b-65da-4836-b499-cbbe6b6039d3",
+          "name": "Hedi Trask & Bob Dawson"
+        }
       ]
     },
     {
       "name": "Bribie Flames",
       "shortName": "Bribie Fla",
       "players": [
-        "Greg",
-        "Greg & Lynda",
-        "Lynda"
+        {
+          "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
+          "name": "Greg"
+        },
+        {
+          "playerId": "team-player/8ac794ac-f960-4d01-a85e-575a89cba1bc",
+          "name": "Greg & Lynda"
+        },
+        {
+          "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
+          "name": "Lynda"
+        }
       ]
     },
     {
       "name": "H & M",
       "shortName": "H & M",
       "players": [
-        "Helen Matchett",
-        "Helen Matchett & Murray Tinker",
-        "Murray Tinker"
+        {
+          "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
+          "name": "Helen Matchett"
+        },
+        {
+          "playerId": "team-player/9bef8eb8-9f5d-4ec6-9bb3-5a843be82731",
+          "name": "Helen Matchett & Murray Tinker"
+        },
+        {
+          "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
+          "name": "Murray Tinker"
+        }
       ]
     },
     {
       "name": "Elegant Lines",
       "shortName": "Elegant Li",
       "players": [
-        "Lindsay David",
-        "Lindsay David & Sue Cunningham",
-        "Sue Cunningham"
+        {
+          "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
+          "name": "Lindsay David"
+        },
+        {
+          "playerId": "team-player/fa8c2a92-70b9-4565-831c-0f0e5d813a43",
+          "name": "Lindsay David & Sue Cunningham"
+        },
+        {
+          "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
+          "name": "Sue Cunningham"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2badcc6b-d663-4423-9fdd-80396131f920",
       "teams": [
         "Victorious Secret",
         "HB 2"
@@ -70,17 +137,26 @@
       "matches": [
         {
           "players": [
-            "Fred Van Vugt & Geraldine Trivett",
-            "Hedi Trask & Bob Dawson"
+            {
+              "playerId": "team-player/22300753-2a75-4d2c-9deb-a939039b0513",
+              "name": "Fred Van Vugt & Geraldine Trivett"
+            },
+            {
+              "playerId": "team-player/7236134b-65da-4836-b499-cbbe6b6039d3",
+              "name": "Hedi Trask & Bob Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/742c33e1-1c31-49ff-82af-811b9599ab2f",
               "players": [
                 {
+                  "playerId": "team-player/22300753-2a75-4d2c-9deb-a939039b0513",
                   "name": "Fred Van Vugt & Geraldine Trivett",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/7236134b-65da-4836-b499-cbbe6b6039d3",
                   "name": "Hedi Trask & Bob Dawson",
                   "score": "17"
                 }
@@ -92,17 +168,26 @@
         },
         {
           "players": [
-            "Geraldine Trivett",
-            "Hedi Trask"
+            {
+              "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
+              "name": "Geraldine Trivett"
+            },
+            {
+              "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
+              "name": "Hedi Trask"
+            }
           ],
           "games": [
             {
+              "gameId": "game/523d63b3-1c37-4df1-8403-6934afeaf8ed",
               "players": [
                 {
+                  "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
                   "name": "Geraldine Trivett",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
                   "name": "Hedi Trask",
                   "score": "26"
                 }
@@ -114,17 +199,26 @@
         },
         {
           "players": [
-            "Fred van Vugt",
-            "Bob Dawson"
+            {
+              "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
+              "name": "Fred van Vugt"
+            },
+            {
+              "playerId": "team-player/904ea83e-4a45-4d74-9cdd-fceaef4e0c0b",
+              "name": "Bob Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/14e36f22-a89c-4c18-9fc9-b8cd7393e5cb",
               "players": [
                 {
+                  "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
                   "name": "Fred van Vugt",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/904ea83e-4a45-4d74-9cdd-fceaef4e0c0b",
                   "name": "Bob Dawson",
                   "score": "22"
                 }
@@ -136,17 +230,26 @@
         },
         {
           "players": [
-            "Fred van Vugt",
-            "Hedi Trask"
+            {
+              "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
+              "name": "Fred van Vugt"
+            },
+            {
+              "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
+              "name": "Hedi Trask"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d04ca818-2384-462a-b731-35cab61a9450",
               "players": [
                 {
+                  "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
                   "name": "Fred van Vugt",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
                   "name": "Hedi Trask",
                   "score": "26"
                 }
@@ -158,17 +261,26 @@
         },
         {
           "players": [
-            "Geraldine Trivett",
-            "Bob Dawson"
+            {
+              "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
+              "name": "Geraldine Trivett"
+            },
+            {
+              "playerId": "team-player/904ea83e-4a45-4d74-9cdd-fceaef4e0c0b",
+              "name": "Bob Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/214c7864-22cc-4c37-93ad-199e88acc1dc",
               "players": [
                 {
+                  "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
                   "name": "Geraldine Trivett",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/904ea83e-4a45-4d74-9cdd-fceaef4e0c0b",
                   "name": "Bob Dawson",
                   "score": "14"
                 }
@@ -181,6 +293,7 @@
       ]
     },
     {
+      "competitionId": "competition/c19d951a-486e-4c5e-be6b-a50242e7b947",
       "teams": [
         "Bribie Flames",
         "H & M"
@@ -190,17 +303,26 @@
       "matches": [
         {
           "players": [
-            "Greg & Lynda",
-            "Helen Matchett & Murray Tinker"
+            {
+              "playerId": "team-player/8ac794ac-f960-4d01-a85e-575a89cba1bc",
+              "name": "Greg & Lynda"
+            },
+            {
+              "playerId": "team-player/9bef8eb8-9f5d-4ec6-9bb3-5a843be82731",
+              "name": "Helen Matchett & Murray Tinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7232840-bfb7-4f55-97ff-067c7fd9788d",
               "players": [
                 {
+                  "playerId": "team-player/8ac794ac-f960-4d01-a85e-575a89cba1bc",
                   "name": "Greg & Lynda",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/9bef8eb8-9f5d-4ec6-9bb3-5a843be82731",
                   "name": "Helen Matchett & Murray Tinker",
                   "score": "13"
                 }
@@ -212,17 +334,26 @@
         },
         {
           "players": [
-            "Greg",
-            "Murray Tinker"
+            {
+              "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
+              "name": "Greg"
+            },
+            {
+              "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
+              "name": "Murray Tinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9a553801-5fd4-4a6d-9c73-a4f7fe8db5d0",
               "players": [
                 {
+                  "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
                   "name": "Greg",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
                   "name": "Murray Tinker",
                   "score": "0"
                 }
@@ -234,17 +365,26 @@
         },
         {
           "players": [
-            "Greg",
-            "Helen Matchett"
+            {
+              "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
+              "name": "Greg"
+            },
+            {
+              "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
+              "name": "Helen Matchett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/149001f1-3c5a-4dd6-8881-7c4c29dbd6db",
               "players": [
                 {
+                  "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
                   "name": "Greg",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
                   "name": "Helen Matchett",
                   "score": "3"
                 }
@@ -256,17 +396,26 @@
         },
         {
           "players": [
-            "Lynda",
-            "Helen Matchett"
+            {
+              "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
+              "name": "Lynda"
+            },
+            {
+              "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
+              "name": "Helen Matchett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca519510-21f3-4d90-9925-f693f99d156e",
               "players": [
                 {
+                  "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
                   "name": "Lynda",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
                   "name": "Helen Matchett",
                   "score": "9"
                 }
@@ -278,17 +427,26 @@
         },
         {
           "players": [
-            "Lynda",
-            "Murray Tinker"
+            {
+              "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
+              "name": "Lynda"
+            },
+            {
+              "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
+              "name": "Murray Tinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4da77688-5e18-4f0d-8767-3e08041789be",
               "players": [
                 {
+                  "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
                   "name": "Lynda",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
                   "name": "Murray Tinker",
                   "score": "14"
                 }
@@ -301,6 +459,7 @@
       ]
     },
     {
+      "competitionId": "competition/e8fd6272-5bea-4fac-b86a-6f95076ee1df",
       "teams": [
         "Elegant Lines",
         "H & M"
@@ -310,17 +469,26 @@
       "matches": [
         {
           "players": [
-            "Lindsay David & Sue Cunningham",
-            "Helen Matchett & Murray Tinker"
+            {
+              "playerId": "team-player/fa8c2a92-70b9-4565-831c-0f0e5d813a43",
+              "name": "Lindsay David & Sue Cunningham"
+            },
+            {
+              "playerId": "team-player/9bef8eb8-9f5d-4ec6-9bb3-5a843be82731",
+              "name": "Helen Matchett & Murray Tinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aca7c112-e5a0-45f1-a1b3-929484992880",
               "players": [
                 {
+                  "playerId": "team-player/fa8c2a92-70b9-4565-831c-0f0e5d813a43",
                   "name": "Lindsay David & Sue Cunningham",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/9bef8eb8-9f5d-4ec6-9bb3-5a843be82731",
                   "name": "Helen Matchett & Murray Tinker",
                   "score": "25"
                 }
@@ -332,17 +500,26 @@
         },
         {
           "players": [
-            "Lindsay David",
-            "Murray Tinker"
+            {
+              "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
+              "name": "Lindsay David"
+            },
+            {
+              "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
+              "name": "Murray Tinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bd28fca5-7507-4bc4-8ff8-4f7dbe9c0c2e",
               "players": [
                 {
+                  "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
                   "name": "Lindsay David",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
                   "name": "Murray Tinker",
                   "score": "10"
                 }
@@ -354,17 +531,26 @@
         },
         {
           "players": [
-            "Lindsay David",
-            "Helen Matchett"
+            {
+              "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
+              "name": "Lindsay David"
+            },
+            {
+              "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
+              "name": "Helen Matchett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/da595d4c-5624-452e-b2c2-cc657672ac55",
               "players": [
                 {
+                  "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
                   "name": "Lindsay David",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
                   "name": "Helen Matchett",
                   "score": "14"
                 }
@@ -376,17 +562,26 @@
         },
         {
           "players": [
-            "Sue Cunningham",
-            "Helen Matchett"
+            {
+              "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
+              "name": "Sue Cunningham"
+            },
+            {
+              "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
+              "name": "Helen Matchett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7a319ab-23de-4d48-bebf-ebea797f8b97",
               "players": [
                 {
+                  "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
                   "name": "Sue Cunningham",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
                   "name": "Helen Matchett",
                   "score": "26"
                 }
@@ -398,17 +593,26 @@
         },
         {
           "players": [
-            "Sue Cunningham",
-            "Murray Tinker"
+            {
+              "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
+              "name": "Sue Cunningham"
+            },
+            {
+              "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
+              "name": "Murray Tinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/600e3dcb-8e2e-4715-8e7b-f0a258b70316",
               "players": [
                 {
+                  "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
                   "name": "Sue Cunningham",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
                   "name": "Murray Tinker",
                   "score": "26"
                 }
@@ -421,6 +625,7 @@
       ]
     },
     {
+      "competitionId": "competition/20acd52e-6354-48f3-a95c-ddacdad6d8ad",
       "teams": [
         "Bribie Flames",
         "HB 2"
@@ -430,17 +635,26 @@
       "matches": [
         {
           "players": [
-            "Greg & Lynda",
-            "Hedi Trask & Bob Dawson"
+            {
+              "playerId": "team-player/8ac794ac-f960-4d01-a85e-575a89cba1bc",
+              "name": "Greg & Lynda"
+            },
+            {
+              "playerId": "team-player/7236134b-65da-4836-b499-cbbe6b6039d3",
+              "name": "Hedi Trask & Bob Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aeedd33a-21ac-4baa-bf0f-574f8f0969e9",
               "players": [
                 {
+                  "playerId": "team-player/8ac794ac-f960-4d01-a85e-575a89cba1bc",
                   "name": "Greg & Lynda",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/7236134b-65da-4836-b499-cbbe6b6039d3",
                   "name": "Hedi Trask & Bob Dawson",
                   "score": "10"
                 }
@@ -452,17 +666,26 @@
         },
         {
           "players": [
-            "Greg",
-            "Bob Dawson (2)"
+            {
+              "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
+              "name": "Greg"
+            },
+            {
+              "playerId": "team-player/a80db643-4cd4-4545-8037-21e1f7b72e41",
+              "name": "Bob Dawson (2)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f0c81d8-1e6b-4bb2-93a6-c3527ee7b763",
               "players": [
                 {
+                  "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
                   "name": "Greg",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a80db643-4cd4-4545-8037-21e1f7b72e41",
                   "name": "Bob Dawson (2)",
                   "score": "0"
                 }
@@ -474,17 +697,26 @@
         },
         {
           "players": [
-            "Lynda",
-            "Hedi Trask (2)"
+            {
+              "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
+              "name": "Lynda"
+            },
+            {
+              "playerId": "team-player/378dae34-7cb0-417b-a94e-e6186e15dcd7",
+              "name": "Hedi Trask (2)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a70f8a34-9eda-4f0f-a4df-57e116bb2e8d",
               "players": [
                 {
+                  "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
                   "name": "Lynda",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/378dae34-7cb0-417b-a94e-e6186e15dcd7",
                   "name": "Hedi Trask (2)",
                   "score": "13"
                 }
@@ -496,17 +728,26 @@
         },
         {
           "players": [
-            "Lynda",
-            "Bob Dawson (2)"
+            {
+              "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
+              "name": "Lynda"
+            },
+            {
+              "playerId": "team-player/a80db643-4cd4-4545-8037-21e1f7b72e41",
+              "name": "Bob Dawson (2)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9534604d-6b3a-4ddf-9812-dbc91494936f",
               "players": [
                 {
+                  "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
                   "name": "Lynda",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/a80db643-4cd4-4545-8037-21e1f7b72e41",
                   "name": "Bob Dawson (2)",
                   "score": "6"
                 }
@@ -518,17 +759,26 @@
         },
         {
           "players": [
-            "Greg",
-            "Hedi Trask"
+            {
+              "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
+              "name": "Greg"
+            },
+            {
+              "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
+              "name": "Hedi Trask"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d6bd2e03-19ee-4d53-8e18-94afebc1e130",
               "players": [
                 {
+                  "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
                   "name": "Greg",
                   "score": "26 tp"
                 },
                 {
+                  "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
                   "name": "Hedi Trask",
                   "score": "3"
                 }
@@ -541,6 +791,7 @@
       ]
     },
     {
+      "competitionId": "competition/c1896e99-65ac-4fbb-8ef2-297cbf4d4ceb",
       "teams": [
         "HB 2",
         "Elegant Lines"
@@ -550,17 +801,26 @@
       "matches": [
         {
           "players": [
-            "Hedi Trask & Bob Dawson",
-            "Lindsay David & Sue Cunningham"
+            {
+              "playerId": "team-player/7236134b-65da-4836-b499-cbbe6b6039d3",
+              "name": "Hedi Trask & Bob Dawson"
+            },
+            {
+              "playerId": "team-player/fa8c2a92-70b9-4565-831c-0f0e5d813a43",
+              "name": "Lindsay David & Sue Cunningham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/66b992ac-06f9-4107-9722-b2c3ff4ee91d",
               "players": [
                 {
+                  "playerId": "team-player/7236134b-65da-4836-b499-cbbe6b6039d3",
                   "name": "Hedi Trask & Bob Dawson",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/fa8c2a92-70b9-4565-831c-0f0e5d813a43",
                   "name": "Lindsay David & Sue Cunningham",
                   "score": "19"
                 }
@@ -572,17 +832,26 @@
         },
         {
           "players": [
-            "Hedi Trask (2)",
-            "Sue Cunningham"
+            {
+              "playerId": "team-player/378dae34-7cb0-417b-a94e-e6186e15dcd7",
+              "name": "Hedi Trask (2)"
+            },
+            {
+              "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
+              "name": "Sue Cunningham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3e20c4e2-6997-423d-91fc-9300c8fa3e59",
               "players": [
                 {
+                  "playerId": "team-player/378dae34-7cb0-417b-a94e-e6186e15dcd7",
                   "name": "Hedi Trask (2)",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
                   "name": "Sue Cunningham",
                   "score": "4"
                 }
@@ -594,17 +863,26 @@
         },
         {
           "players": [
-            "Hedi Trask (2)",
-            "Lindsay David"
+            {
+              "playerId": "team-player/378dae34-7cb0-417b-a94e-e6186e15dcd7",
+              "name": "Hedi Trask (2)"
+            },
+            {
+              "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
+              "name": "Lindsay David"
+            }
           ],
           "games": [
             {
+              "gameId": "game/122043e7-a611-4594-b8a4-3ce0e68532a6",
               "players": [
                 {
+                  "playerId": "team-player/378dae34-7cb0-417b-a94e-e6186e15dcd7",
                   "name": "Hedi Trask (2)",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
                   "name": "Lindsay David",
                   "score": "26"
                 }
@@ -616,17 +894,26 @@
         },
         {
           "players": [
-            "Bob Dawson (2)",
-            "Lindsay David"
+            {
+              "playerId": "team-player/a80db643-4cd4-4545-8037-21e1f7b72e41",
+              "name": "Bob Dawson (2)"
+            },
+            {
+              "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
+              "name": "Lindsay David"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac8198d3-30e1-455d-bf6c-fcd52c497c07",
               "players": [
                 {
+                  "playerId": "team-player/a80db643-4cd4-4545-8037-21e1f7b72e41",
                   "name": "Bob Dawson (2)",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
                   "name": "Lindsay David",
                   "score": "26"
                 }
@@ -638,17 +925,26 @@
         },
         {
           "players": [
-            "Bob Dawson (2)",
-            "Sue Cunningham"
+            {
+              "playerId": "team-player/a80db643-4cd4-4545-8037-21e1f7b72e41",
+              "name": "Bob Dawson (2)"
+            },
+            {
+              "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
+              "name": "Sue Cunningham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a9c7eaf7-5169-418b-b31c-ae0d209c5642",
               "players": [
                 {
+                  "playerId": "team-player/a80db643-4cd4-4545-8037-21e1f7b72e41",
                   "name": "Bob Dawson (2)",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
                   "name": "Sue Cunningham",
                   "score": "10"
                 }
@@ -661,6 +957,7 @@
       ]
     },
     {
+      "competitionId": "competition/9a2286f4-b961-4397-b700-2336e11468de",
       "teams": [
         "Bribie Flames",
         "Victorious Secret"
@@ -670,17 +967,26 @@
       "matches": [
         {
           "players": [
-            "Greg & Lynda",
-            "Fred Van Vugt & Geraldine Trivett"
+            {
+              "playerId": "team-player/8ac794ac-f960-4d01-a85e-575a89cba1bc",
+              "name": "Greg & Lynda"
+            },
+            {
+              "playerId": "team-player/22300753-2a75-4d2c-9deb-a939039b0513",
+              "name": "Fred Van Vugt & Geraldine Trivett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5d705d3b-3460-414a-9584-8a180939b224",
               "players": [
                 {
+                  "playerId": "team-player/8ac794ac-f960-4d01-a85e-575a89cba1bc",
                   "name": "Greg & Lynda",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/22300753-2a75-4d2c-9deb-a939039b0513",
                   "name": "Fred Van Vugt & Geraldine Trivett",
                   "score": "5"
                 }
@@ -692,17 +998,26 @@
         },
         {
           "players": [
-            "Greg",
-            "Geraldine Trivett"
+            {
+              "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
+              "name": "Greg"
+            },
+            {
+              "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
+              "name": "Geraldine Trivett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1466144c-07d2-4aa2-bd9e-83a64d2da47b",
               "players": [
                 {
+                  "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
                   "name": "Greg",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
                   "name": "Geraldine Trivett",
                   "score": "2"
                 }
@@ -714,17 +1029,26 @@
         },
         {
           "players": [
-            "Greg",
-            "Fred van Vugt"
+            {
+              "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
+              "name": "Greg"
+            },
+            {
+              "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
+              "name": "Fred van Vugt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17bde1ef-1b54-4a58-971a-3f3929dc22a3",
               "players": [
                 {
+                  "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
                   "name": "Greg",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
                   "name": "Fred van Vugt",
                   "score": "2"
                 }
@@ -736,17 +1060,26 @@
         },
         {
           "players": [
-            "Lynda",
-            "Fred van Vugt"
+            {
+              "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
+              "name": "Lynda"
+            },
+            {
+              "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
+              "name": "Fred van Vugt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/634e67c5-48a5-431c-80e3-083fe2e1b716",
               "players": [
                 {
+                  "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
                   "name": "Lynda",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
                   "name": "Fred van Vugt",
                   "score": "9"
                 }
@@ -758,17 +1091,26 @@
         },
         {
           "players": [
-            "Lynda",
-            "Geraldine Trivett"
+            {
+              "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
+              "name": "Lynda"
+            },
+            {
+              "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
+              "name": "Geraldine Trivett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c82789de-5234-4eca-96c1-e7b84dd4e94f",
               "players": [
                 {
+                  "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
                   "name": "Lynda",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
                   "name": "Geraldine Trivett",
                   "score": "9"
                 }
@@ -781,6 +1123,7 @@
       ]
     },
     {
+      "competitionId": "competition/ac0ae6af-ac00-4978-9950-45dc595c1b9b",
       "teams": [
         "H & M",
         "HB 2"
@@ -790,17 +1133,26 @@
       "matches": [
         {
           "players": [
-            "Helen Matchett & Murray Tinker",
-            "Hedi Trask & Bob Dawson"
+            {
+              "playerId": "team-player/9bef8eb8-9f5d-4ec6-9bb3-5a843be82731",
+              "name": "Helen Matchett & Murray Tinker"
+            },
+            {
+              "playerId": "team-player/7236134b-65da-4836-b499-cbbe6b6039d3",
+              "name": "Hedi Trask & Bob Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3d65702f-78ea-4f5f-b078-bec22b27b5b6",
               "players": [
                 {
+                  "playerId": "team-player/9bef8eb8-9f5d-4ec6-9bb3-5a843be82731",
                   "name": "Helen Matchett & Murray Tinker",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/7236134b-65da-4836-b499-cbbe6b6039d3",
                   "name": "Hedi Trask & Bob Dawson",
                   "score": "11"
                 }
@@ -812,17 +1164,26 @@
         },
         {
           "players": [
-            "Helen Matchett",
-            "Hedi Trask"
+            {
+              "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
+              "name": "Helen Matchett"
+            },
+            {
+              "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
+              "name": "Hedi Trask"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3a6c677-faae-474d-9e3e-7b8348b7805a",
               "players": [
                 {
+                  "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
                   "name": "Helen Matchett",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
                   "name": "Hedi Trask",
                   "score": "24"
                 }
@@ -834,17 +1195,26 @@
         },
         {
           "players": [
-            "Murray Tinker",
-            "Bob Dawson"
+            {
+              "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
+              "name": "Murray Tinker"
+            },
+            {
+              "playerId": "team-player/904ea83e-4a45-4d74-9cdd-fceaef4e0c0b",
+              "name": "Bob Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0555ab1c-bece-4b08-8cd2-e6f1fa5b772b",
               "players": [
                 {
+                  "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
                   "name": "Murray Tinker",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/904ea83e-4a45-4d74-9cdd-fceaef4e0c0b",
                   "name": "Bob Dawson",
                   "score": "5"
                 }
@@ -856,17 +1226,26 @@
         },
         {
           "players": [
-            "Helen Matchett",
-            "Bob Dawson"
+            {
+              "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
+              "name": "Helen Matchett"
+            },
+            {
+              "playerId": "team-player/904ea83e-4a45-4d74-9cdd-fceaef4e0c0b",
+              "name": "Bob Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fe0c50f3-5db3-411e-88d7-65c09ff45770",
               "players": [
                 {
+                  "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
                   "name": "Helen Matchett",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/904ea83e-4a45-4d74-9cdd-fceaef4e0c0b",
                   "name": "Bob Dawson",
                   "score": "10"
                 }
@@ -878,17 +1257,26 @@
         },
         {
           "players": [
-            "Murray Tinker",
-            "Hedi Trask"
+            {
+              "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
+              "name": "Murray Tinker"
+            },
+            {
+              "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
+              "name": "Hedi Trask"
+            }
           ],
           "games": [
             {
+              "gameId": "game/acf5fbf2-c1f2-4963-a383-0d8f992beaee",
               "players": [
                 {
+                  "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
                   "name": "Murray Tinker",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/63757e5d-82e2-4c8f-99a0-2724a3d9e63d",
                   "name": "Hedi Trask",
                   "score": "20"
                 }
@@ -901,6 +1289,7 @@
       ]
     },
     {
+      "competitionId": "competition/dc326908-3cdc-42a2-b6ff-b27515d2173b",
       "teams": [
         "Elegant Lines",
         "Victorious Secret"
@@ -910,17 +1299,26 @@
       "matches": [
         {
           "players": [
-            "Lindsay David & Sue Cunningham",
-            "Geraldine Trivett & Michael Eddiehausen"
+            {
+              "playerId": "team-player/fa8c2a92-70b9-4565-831c-0f0e5d813a43",
+              "name": "Lindsay David & Sue Cunningham"
+            },
+            {
+              "playerId": "team-player/341c0c4f-1fbd-486b-b106-ec843c86d12d",
+              "name": "Geraldine Trivett & Michael Eddiehausen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b3cd6f6-ab0d-41e9-b3fa-50c1c6858982",
               "players": [
                 {
+                  "playerId": "team-player/fa8c2a92-70b9-4565-831c-0f0e5d813a43",
                   "name": "Lindsay David & Sue Cunningham",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/341c0c4f-1fbd-486b-b106-ec843c86d12d",
                   "name": "Geraldine Trivett & Michael Eddiehausen",
                   "score": "20"
                 }
@@ -932,17 +1330,26 @@
         },
         {
           "players": [
-            "Lindsay David",
-            "Michael Eddiehausen"
+            {
+              "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
+              "name": "Lindsay David"
+            },
+            {
+              "playerId": "team-player/e8c01348-059e-499a-b417-3008d3d08b12",
+              "name": "Michael Eddiehausen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7ff7db1d-3ebd-4385-8313-2cc7f4d48878",
               "players": [
                 {
+                  "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
                   "name": "Lindsay David",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/e8c01348-059e-499a-b417-3008d3d08b12",
                   "name": "Michael Eddiehausen",
                   "score": "26"
                 }
@@ -954,17 +1361,26 @@
         },
         {
           "players": [
-            "Sue Cunningham",
-            "Michael Eddiehausen"
+            {
+              "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
+              "name": "Sue Cunningham"
+            },
+            {
+              "playerId": "team-player/e8c01348-059e-499a-b417-3008d3d08b12",
+              "name": "Michael Eddiehausen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/71078e87-639d-48bf-af92-ef427a1f9d9d",
               "players": [
                 {
+                  "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
                   "name": "Sue Cunningham",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e8c01348-059e-499a-b417-3008d3d08b12",
                   "name": "Michael Eddiehausen",
                   "score": "26"
                 }
@@ -976,17 +1392,26 @@
         },
         {
           "players": [
-            "Sue Cunningham",
-            "Geraldine Trivett"
+            {
+              "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
+              "name": "Sue Cunningham"
+            },
+            {
+              "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
+              "name": "Geraldine Trivett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7ceb97ed-137f-405a-9c03-10b3ba313e0e",
               "players": [
                 {
+                  "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
                   "name": "Sue Cunningham",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
                   "name": "Geraldine Trivett",
                   "score": "20"
                 }
@@ -998,17 +1423,26 @@
         },
         {
           "players": [
-            "Lindsay David",
-            "Geraldine Trivett"
+            {
+              "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
+              "name": "Lindsay David"
+            },
+            {
+              "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
+              "name": "Geraldine Trivett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c55bea6a-c30c-40f9-b9d1-607e506d227a",
               "players": [
                 {
+                  "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
                   "name": "Lindsay David",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/bcd409ef-3b6e-4751-a81a-1890e5b821a2",
                   "name": "Geraldine Trivett",
                   "score": "26"
                 }
@@ -1021,6 +1455,7 @@
       ]
     },
     {
+      "competitionId": "competition/22ec35cb-b48c-4419-9bb1-524be982c07e",
       "teams": [
         "Victorious Secret",
         "H & M"
@@ -1030,17 +1465,26 @@
       "matches": [
         {
           "players": [
-            "Fred van Vugt & Kathleen Colclough",
-            "Helen Matchett & Murray Tinker"
+            {
+              "playerId": "team-player/2a75f660-c72a-49b8-b44d-3c5c1923874b",
+              "name": "Fred van Vugt & Kathleen Colclough"
+            },
+            {
+              "playerId": "team-player/9bef8eb8-9f5d-4ec6-9bb3-5a843be82731",
+              "name": "Helen Matchett & Murray Tinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f84da5f5-8260-4be8-b17a-cb2788c5ac76",
               "players": [
                 {
+                  "playerId": "team-player/2a75f660-c72a-49b8-b44d-3c5c1923874b",
                   "name": "Fred van Vugt & Kathleen Colclough",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/9bef8eb8-9f5d-4ec6-9bb3-5a843be82731",
                   "name": "Helen Matchett & Murray Tinker",
                   "score": "12"
                 }
@@ -1052,17 +1496,26 @@
         },
         {
           "players": [
-            "Fred van Vugt",
-            "Murray Tinker"
+            {
+              "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
+              "name": "Fred van Vugt"
+            },
+            {
+              "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
+              "name": "Murray Tinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f19350fa-cda9-4654-96f9-28923fedabbe",
               "players": [
                 {
+                  "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
                   "name": "Fred van Vugt",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
                   "name": "Murray Tinker",
                   "score": "21"
                 }
@@ -1074,17 +1527,26 @@
         },
         {
           "players": [
-            "Fred van Vugt",
-            "Helen Matchett"
+            {
+              "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
+              "name": "Fred van Vugt"
+            },
+            {
+              "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
+              "name": "Helen Matchett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e0e621f-9091-457d-bdde-35b5f0ea7945",
               "players": [
                 {
+                  "playerId": "team-player/23d41e47-ab03-4005-ba16-453a5a8537ba",
                   "name": "Fred van Vugt",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
                   "name": "Helen Matchett",
                   "score": "18"
                 }
@@ -1096,17 +1558,26 @@
         },
         {
           "players": [
-            "Kathleen Colclough",
-            "Murray Tinker"
+            {
+              "playerId": "team-player/8ce55cfa-784d-4a38-b16d-fa6d8b1fe42b",
+              "name": "Kathleen Colclough"
+            },
+            {
+              "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
+              "name": "Murray Tinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a8742940-61d9-4282-abd6-78990a0b2f4f",
               "players": [
                 {
+                  "playerId": "team-player/8ce55cfa-784d-4a38-b16d-fa6d8b1fe42b",
                   "name": "Kathleen Colclough",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/6a2792c2-f1e5-4613-bd78-b5667aae9f7d",
                   "name": "Murray Tinker",
                   "score": "15"
                 }
@@ -1118,17 +1589,26 @@
         },
         {
           "players": [
-            "Kathleen Colclough",
-            "Helen Matchett"
+            {
+              "playerId": "team-player/8ce55cfa-784d-4a38-b16d-fa6d8b1fe42b",
+              "name": "Kathleen Colclough"
+            },
+            {
+              "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
+              "name": "Helen Matchett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/33e88f95-2fe4-4ec3-9e6e-1a4b9d6cd172",
               "players": [
                 {
+                  "playerId": "team-player/8ce55cfa-784d-4a38-b16d-fa6d8b1fe42b",
                   "name": "Kathleen Colclough",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/fc5ff169-b01d-4af9-8409-e9e214be5912",
                   "name": "Helen Matchett",
                   "score": "15"
                 }
@@ -1141,6 +1621,7 @@
       ]
     },
     {
+      "competitionId": "competition/1fc6a479-b416-4fa6-8e9f-1200924bae2c",
       "teams": [
         "Bribie Flames",
         "Elegant Lines"
@@ -1150,17 +1631,26 @@
       "matches": [
         {
           "players": [
-            "Greg & Lynda",
-            "Lindsay David & Sue Cunningham"
+            {
+              "playerId": "team-player/8ac794ac-f960-4d01-a85e-575a89cba1bc",
+              "name": "Greg & Lynda"
+            },
+            {
+              "playerId": "team-player/fa8c2a92-70b9-4565-831c-0f0e5d813a43",
+              "name": "Lindsay David & Sue Cunningham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/efaa0a92-f83e-404d-a7cf-e0112ed04d89",
               "players": [
                 {
+                  "playerId": "team-player/8ac794ac-f960-4d01-a85e-575a89cba1bc",
                   "name": "Greg & Lynda",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/fa8c2a92-70b9-4565-831c-0f0e5d813a43",
                   "name": "Lindsay David & Sue Cunningham",
                   "score": "15"
                 }
@@ -1172,17 +1662,26 @@
         },
         {
           "players": [
-            "Greg",
-            "Lindsay David"
+            {
+              "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
+              "name": "Greg"
+            },
+            {
+              "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
+              "name": "Lindsay David"
+            }
           ],
           "games": [
             {
+              "gameId": "game/be693142-b3a6-44c8-934e-6016607c9416",
               "players": [
                 {
+                  "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
                   "name": "Greg",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
                   "name": "Lindsay David",
                   "score": "16"
                 }
@@ -1194,17 +1693,26 @@
         },
         {
           "players": [
-            "Greg",
-            "Sue Cunningham"
+            {
+              "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
+              "name": "Greg"
+            },
+            {
+              "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
+              "name": "Sue Cunningham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7eea7ca4-fcbd-4814-ae6f-53bc3cb0debf",
               "players": [
                 {
+                  "playerId": "team-player/ac495ba3-a842-4e80-9a07-a0d2fcf623a6",
                   "name": "Greg",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
                   "name": "Sue Cunningham",
                   "score": "1"
                 }
@@ -1216,17 +1724,26 @@
         },
         {
           "players": [
-            "Lynda",
-            "Sue Cunningham"
+            {
+              "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
+              "name": "Lynda"
+            },
+            {
+              "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
+              "name": "Sue Cunningham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/79e63b4d-d705-427b-af7c-1a54a0d3d956",
               "players": [
                 {
+                  "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
                   "name": "Lynda",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/df50fa28-4fb7-44e8-9432-1bd88802cb5c",
                   "name": "Sue Cunningham",
                   "score": "4"
                 }
@@ -1238,17 +1755,26 @@
         },
         {
           "players": [
-            "Lynda",
-            "Lindsay David"
+            {
+              "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
+              "name": "Lynda"
+            },
+            {
+              "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
+              "name": "Lindsay David"
+            }
           ],
           "games": [
             {
+              "gameId": "game/de930ee8-0feb-444e-9811-8a999826d77c",
               "players": [
                 {
+                  "playerId": "team-player/a83b4df1-214d-49aa-822b-c0b5a364189f",
                   "name": "Lynda",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e2f8b0d8-45ee-4700-a92b-5f0c59e60498",
                   "name": "Lindsay David",
                   "score": "14"
                 }

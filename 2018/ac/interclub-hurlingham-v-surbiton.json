@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1662b757-e7d8-4b37-b4d3-f4fecb555f97",
   "name": "Interclub. Hurlingham v. Surbiton",
   "sport": "ac",
   "firstDay": "2018-09-16",
   "lastDay": "2018-09-16",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Hurlingham",
       "shortName": "Hurlingham",
       "players": [
-        "Andrew Wise",
-        "Dayal Gunasekera",
-        "Mark Ormerod",
-        "Ormerod and Coles",
-        "Tom Coles"
+        {
+          "playerId": "team-player/562ed44a-1fc2-4504-93b9-7e61d0000abd",
+          "name": "Andrew Wise"
+        },
+        {
+          "playerId": "team-player/09a3c421-4cb2-496a-a028-086d1f59760b",
+          "name": "Dayal Gunasekera"
+        },
+        {
+          "playerId": "team-player/3b0a153b-84f1-48eb-848d-265b201d7efc",
+          "name": "Mark Ormerod"
+        },
+        {
+          "playerId": "team-player/74c3a9a8-3384-401e-9c84-e44592f335ab",
+          "name": "Ormerod and Coles"
+        },
+        {
+          "playerId": "team-player/757feb2b-5c1e-49c9-860d-c63d5d861735",
+          "name": "Tom Coles"
+        }
       ]
     },
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Chris Farthing",
-        "Nick Parish",
-        "Patel and Murray",
-        "Sam Murray",
-        "Samir Patel"
+        {
+          "playerId": "team-player/72132209-1a06-4631-8e55-850d9b67a633",
+          "name": "Chris Farthing"
+        },
+        {
+          "playerId": "team-player/eebd68dc-1924-41de-b5bb-14bc67985336",
+          "name": "Nick Parish"
+        },
+        {
+          "playerId": "team-player/ce8a4643-b85e-45b2-a202-186a77998155",
+          "name": "Patel and Murray"
+        },
+        {
+          "playerId": "team-player/7350b734-9be9-49bc-8e30-13a2bd2fa75e",
+          "name": "Sam Murray"
+        },
+        {
+          "playerId": "team-player/de441d7d-54ca-4c35-9d15-0ba18c3c53d4",
+          "name": "Samir Patel"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/5cdbf1f1-f20d-4c40-8bf6-0b64291cefad",
       "teams": [
         "Hurlingham",
         "Surbiton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Ormerod and Coles",
-            "Patel and Murray"
+            {
+              "playerId": "team-player/74c3a9a8-3384-401e-9c84-e44592f335ab",
+              "name": "Ormerod and Coles"
+            },
+            {
+              "playerId": "team-player/ce8a4643-b85e-45b2-a202-186a77998155",
+              "name": "Patel and Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b137ddb-4ca0-4b9b-b5e8-198327cdfb87",
               "players": [
                 {
+                  "playerId": "team-player/74c3a9a8-3384-401e-9c84-e44592f335ab",
                   "name": "Ormerod and Coles",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/ce8a4643-b85e-45b2-a202-186a77998155",
                   "name": "Patel and Murray",
                   "score": "26tp(P)"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Dayal Gunasekera",
-            "Chris Farthing"
+            {
+              "playerId": "team-player/09a3c421-4cb2-496a-a028-086d1f59760b",
+              "name": "Dayal Gunasekera"
+            },
+            {
+              "playerId": "team-player/72132209-1a06-4631-8e55-850d9b67a633",
+              "name": "Chris Farthing"
+            }
           ],
           "games": [
             {
+              "gameId": "game/efc7abd3-873c-4ef1-bd72-62a3525d06bc",
               "players": [
                 {
+                  "playerId": "team-player/09a3c421-4cb2-496a-a028-086d1f59760b",
                   "name": "Dayal Gunasekera",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/72132209-1a06-4631-8e55-850d9b67a633",
                   "name": "Chris Farthing",
                   "score": "26tp"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Andrew Wise",
-            "Nick Parish"
+            {
+              "playerId": "team-player/562ed44a-1fc2-4504-93b9-7e61d0000abd",
+              "name": "Andrew Wise"
+            },
+            {
+              "playerId": "team-player/eebd68dc-1924-41de-b5bb-14bc67985336",
+              "name": "Nick Parish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca1f3650-297f-4d80-a89c-dd09e2f646cf",
               "players": [
                 {
+                  "playerId": "team-player/562ed44a-1fc2-4504-93b9-7e61d0000abd",
                   "name": "Andrew Wise",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/eebd68dc-1924-41de-b5bb-14bc67985336",
                   "name": "Nick Parish",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Tom Coles",
-            "Sam Murray"
+            {
+              "playerId": "team-player/757feb2b-5c1e-49c9-860d-c63d5d861735",
+              "name": "Tom Coles"
+            },
+            {
+              "playerId": "team-player/7350b734-9be9-49bc-8e30-13a2bd2fa75e",
+              "name": "Sam Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/111d39a6-d41b-4581-ba45-8da9c0f48170",
               "players": [
                 {
+                  "playerId": "team-player/757feb2b-5c1e-49c9-860d-c63d5d861735",
                   "name": "Tom Coles",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/7350b734-9be9-49bc-8e30-13a2bd2fa75e",
                   "name": "Sam Murray",
                   "score": "26tp"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Mark Ormerod",
-            "Samir Patel"
+            {
+              "playerId": "team-player/3b0a153b-84f1-48eb-848d-265b201d7efc",
+              "name": "Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/de441d7d-54ca-4c35-9d15-0ba18c3c53d4",
+              "name": "Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a69e17cc-7be4-4522-891f-b75c64951e64",
               "players": [
                 {
+                  "playerId": "team-player/3b0a153b-84f1-48eb-848d-265b201d7efc",
                   "name": "Mark Ormerod",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/de441d7d-54ca-4c35-9d15-0ba18c3c53d4",
                   "name": "Samir Patel",
                   "score": "26tp"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Dayal Gunasekera",
-            "Nick Parish"
+            {
+              "playerId": "team-player/09a3c421-4cb2-496a-a028-086d1f59760b",
+              "name": "Dayal Gunasekera"
+            },
+            {
+              "playerId": "team-player/eebd68dc-1924-41de-b5bb-14bc67985336",
+              "name": "Nick Parish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c4ff2cd4-2fab-4b28-893e-eb5fea1421a1",
               "players": [
                 {
+                  "playerId": "team-player/09a3c421-4cb2-496a-a028-086d1f59760b",
                   "name": "Dayal Gunasekera",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/eebd68dc-1924-41de-b5bb-14bc67985336",
                   "name": "Nick Parish",
                   "score": "0"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Andrew Wise",
-            "Chris Farthing"
+            {
+              "playerId": "team-player/562ed44a-1fc2-4504-93b9-7e61d0000abd",
+              "name": "Andrew Wise"
+            },
+            {
+              "playerId": "team-player/72132209-1a06-4631-8e55-850d9b67a633",
+              "name": "Chris Farthing"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2847d815-6021-459f-a4a4-8f5b8dabd470",
               "players": [
                 {
+                  "playerId": "team-player/562ed44a-1fc2-4504-93b9-7e61d0000abd",
                   "name": "Andrew Wise",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/72132209-1a06-4631-8e55-850d9b67a633",
                   "name": "Chris Farthing",
                   "score": "26tp"
                 }

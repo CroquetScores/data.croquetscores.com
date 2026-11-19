@@ -1,58 +1,119 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5e2e6673-2800-4825-b9ce-c0026c59b574",
   "name": "Fyrslaget 2021",
   "sport": "gc",
   "firstDay": "2021-09-11",
   "lastDay": "2021-09-11",
   "country": "se",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Karlstad Croquet",
       "shortName": "Karlstad C",
       "players": [
-        "Mattias Vainio",
-        "Pål Nilsson",
-        "Thomas Sandstrom",
-        "Thomas Sandstrom / Mattias Vainio",
-        "Thomas Sandström / Pål Nilsson"
+        {
+          "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
+          "name": "Mattias Vainio"
+        },
+        {
+          "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
+          "name": "Pål Nilsson"
+        },
+        {
+          "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
+          "name": "Thomas Sandstrom"
+        },
+        {
+          "playerId": "team-player/8791a136-ab87-452b-845f-986063e41086",
+          "name": "Thomas Sandstrom / Mattias Vainio"
+        },
+        {
+          "playerId": "team-player/1648ed1a-1978-43aa-8d85-15d127e96d4c",
+          "name": "Thomas Sandström / Pål Nilsson"
+        }
       ]
     },
     {
       "name": "Poseidon Croquet Club",
       "shortName": "Poseidon C",
       "players": [
-        "Anna Furberg",
-        "Björn Kamne",
-        "Otto Kamne",
-        "Otto Kamne / Anna Furberg",
-        "Otto Kamne / Björn Kamne"
+        {
+          "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
+          "name": "Anna Furberg"
+        },
+        {
+          "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
+          "name": "Björn Kamne"
+        },
+        {
+          "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
+          "name": "Otto Kamne"
+        },
+        {
+          "playerId": "team-player/daad68f8-d0d1-4cb5-be5d-e666d1c15de7",
+          "name": "Otto Kamne / Anna Furberg"
+        },
+        {
+          "playerId": "team-player/4f42b005-afe2-4420-ab67-a92fc63b4f19",
+          "name": "Otto Kamne / Björn Kamne"
+        }
       ]
     },
     {
       "name": "Borås Krocketsällskap",
       "shortName": "Borås Kroc",
       "players": [
-        "Ivar Rasmussen",
-        "Ivar Rasmussen / Thomas Johansson",
-        "Peter Groenborg",
-        "Thomas Johansson"
+        {
+          "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
+          "name": "Ivar Rasmussen"
+        },
+        {
+          "playerId": "team-player/5b22ef5b-c033-4393-928e-39721f67ac67",
+          "name": "Ivar Rasmussen / Thomas Johansson"
+        },
+        {
+          "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
+          "name": "Peter Groenborg"
+        },
+        {
+          "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
+          "name": "Thomas Johansson"
+        }
       ]
     },
     {
       "name": "Skara Krocketsällskap",
       "shortName": "Skara Kroc",
       "players": [
-        "Erik Svensson",
-        "Erik Svensson / Mathias Johansson",
-        "Fredrik Hylander",
-        "Mathias Johansson",
-        "Mathias Johansson / Erik Svensson"
+        {
+          "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
+          "name": "Erik Svensson"
+        },
+        {
+          "playerId": "team-player/42f9ee30-3230-4185-8c3c-20ee2d9cf220",
+          "name": "Erik Svensson / Mathias Johansson"
+        },
+        {
+          "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
+          "name": "Fredrik Hylander"
+        },
+        {
+          "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
+          "name": "Mathias Johansson"
+        },
+        {
+          "playerId": "team-player/13d94881-dde3-4548-9128-2f10d10e3c64",
+          "name": "Mathias Johansson / Erik Svensson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/f82748ed-1880-4ab6-b8a4-6e98e1c5f556",
       "teams": [
         "Karlstad Croquet",
         "Poseidon Croquet Club"
@@ -62,17 +123,26 @@
       "matches": [
         {
           "players": [
-            "Thomas Sandstrom",
-            "Otto Kamne"
+            {
+              "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
+              "name": "Thomas Sandstrom"
+            },
+            {
+              "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
+              "name": "Otto Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b301c55b-b179-4078-8b1c-7d5281ac9893",
               "players": [
                 {
+                  "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
                   "name": "Thomas Sandstrom",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
                   "name": "Otto Kamne",
                   "score": "2"
                 }
@@ -84,17 +154,26 @@
         },
         {
           "players": [
-            "Pål Nilsson",
-            "Björn Kamne"
+            {
+              "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
+              "name": "Pål Nilsson"
+            },
+            {
+              "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
+              "name": "Björn Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d6e28f26-cd35-4896-bd84-73850655ee1b",
               "players": [
                 {
+                  "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
                   "name": "Pål Nilsson",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
                   "name": "Björn Kamne",
                   "score": "7"
                 }
@@ -106,17 +185,26 @@
         },
         {
           "players": [
-            "Mattias Vainio",
-            "Anna Furberg"
+            {
+              "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
+              "name": "Mattias Vainio"
+            },
+            {
+              "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
+              "name": "Anna Furberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/92e7a998-8fbf-4c30-a4cb-ce65598723b6",
               "players": [
                 {
+                  "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
                   "name": "Mattias Vainio",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
                   "name": "Anna Furberg",
                   "score": "5"
                 }
@@ -128,17 +216,26 @@
         },
         {
           "players": [
-            "Pål Nilsson",
-            "Otto Kamne"
+            {
+              "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
+              "name": "Pål Nilsson"
+            },
+            {
+              "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
+              "name": "Otto Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bb93ff84-1bce-4a79-aae1-667f4ac3b600",
               "players": [
                 {
+                  "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
                   "name": "Pål Nilsson",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
                   "name": "Otto Kamne",
                   "score": "7"
                 }
@@ -150,17 +247,26 @@
         },
         {
           "players": [
-            "Mattias Vainio",
-            "Björn Kamne"
+            {
+              "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
+              "name": "Mattias Vainio"
+            },
+            {
+              "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
+              "name": "Björn Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4acac8c8-09e3-4d76-8691-2590076d43eb",
               "players": [
                 {
+                  "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
                   "name": "Mattias Vainio",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
                   "name": "Björn Kamne",
                   "score": "5"
                 }
@@ -172,17 +278,26 @@
         },
         {
           "players": [
-            "Thomas Sandstrom",
-            "Anna Furberg"
+            {
+              "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
+              "name": "Thomas Sandstrom"
+            },
+            {
+              "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
+              "name": "Anna Furberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/59f500c7-88e6-48ce-a0db-ebcebb20fd07",
               "players": [
                 {
+                  "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
                   "name": "Thomas Sandstrom",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
                   "name": "Anna Furberg",
                   "score": "7"
                 }
@@ -194,17 +309,26 @@
         },
         {
           "players": [
-            "Mattias Vainio",
-            "Otto Kamne"
+            {
+              "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
+              "name": "Mattias Vainio"
+            },
+            {
+              "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
+              "name": "Otto Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b71568bd-cfe8-4896-9f80-9a6f51b73ef8",
               "players": [
                 {
+                  "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
                   "name": "Mattias Vainio",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
                   "name": "Otto Kamne",
                   "score": "4"
                 }
@@ -216,17 +340,26 @@
         },
         {
           "players": [
-            "Thomas Sandstrom",
-            "Björn Kamne"
+            {
+              "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
+              "name": "Thomas Sandstrom"
+            },
+            {
+              "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
+              "name": "Björn Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/991ff7fc-5405-4237-9a17-c74a38d05b3c",
               "players": [
                 {
+                  "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
                   "name": "Thomas Sandstrom",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
                   "name": "Björn Kamne",
                   "score": "7"
                 }
@@ -238,17 +371,26 @@
         },
         {
           "players": [
-            "Pål Nilsson",
-            "Anna Furberg"
+            {
+              "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
+              "name": "Pål Nilsson"
+            },
+            {
+              "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
+              "name": "Anna Furberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/582c2b1b-56f5-42e9-ab11-888c03618838",
               "players": [
                 {
+                  "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
                   "name": "Pål Nilsson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
                   "name": "Anna Furberg",
                   "score": "7"
                 }
@@ -260,17 +402,26 @@
         },
         {
           "players": [
-            "Thomas Sandstrom / Mattias Vainio",
-            "Otto Kamne / Björn Kamne"
+            {
+              "playerId": "team-player/8791a136-ab87-452b-845f-986063e41086",
+              "name": "Thomas Sandstrom / Mattias Vainio"
+            },
+            {
+              "playerId": "team-player/4f42b005-afe2-4420-ab67-a92fc63b4f19",
+              "name": "Otto Kamne / Björn Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/99670468-13b5-4ba6-bf36-3992e0ebb86b",
               "players": [
                 {
+                  "playerId": "team-player/8791a136-ab87-452b-845f-986063e41086",
                   "name": "Thomas Sandstrom / Mattias Vainio",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4f42b005-afe2-4420-ab67-a92fc63b4f19",
                   "name": "Otto Kamne / Björn Kamne",
                   "score": "4"
                 }
@@ -283,6 +434,7 @@
       ]
     },
     {
+      "competitionId": "competition/01494f11-cc45-448f-8773-e0fecb2e7768",
       "teams": [
         "Borås Krocketsällskap",
         "Skara Krocketsällskap"
@@ -292,17 +444,26 @@
       "matches": [
         {
           "players": [
-            "Ivar Rasmussen",
-            "Mathias Johansson"
+            {
+              "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
+              "name": "Mathias Johansson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f930b68-ec20-4d33-bb2e-11377dfe312b",
               "players": [
                 {
+                  "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
                   "name": "Ivar Rasmussen",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
                   "name": "Mathias Johansson",
                   "score": "7"
                 }
@@ -314,17 +475,26 @@
         },
         {
           "players": [
-            "Thomas Johansson",
-            "Fredrik Hylander"
+            {
+              "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
+              "name": "Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
+              "name": "Fredrik Hylander"
+            }
           ],
           "games": [
             {
+              "gameId": "game/46e754a7-13c5-448b-9882-f8d102b7ed42",
               "players": [
                 {
+                  "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
                   "name": "Thomas Johansson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
                   "name": "Fredrik Hylander",
                   "score": "7"
                 }
@@ -336,17 +506,26 @@
         },
         {
           "players": [
-            "Peter Groenborg",
-            "Erik Svensson"
+            {
+              "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
+              "name": "Peter Groenborg"
+            },
+            {
+              "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
+              "name": "Erik Svensson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/568c4759-2fe5-4724-9adc-85d51e1a3151",
               "players": [
                 {
+                  "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
                   "name": "Peter Groenborg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
                   "name": "Erik Svensson",
                   "score": "5"
                 }
@@ -358,17 +537,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Fredrik Hylander"
+            {
+              "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
+              "name": "Fredrik Hylander"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b814682e-a217-45ad-aa8a-ae8f0c7b9a5a",
               "players": [
                 {
+                  "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
                   "name": "Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
                   "name": "Fredrik Hylander",
                   "score": "4"
                 }
@@ -380,17 +568,26 @@
         },
         {
           "players": [
-            "Thomas Johansson",
-            "Erik Svensson"
+            {
+              "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
+              "name": "Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
+              "name": "Erik Svensson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ea6af57-e348-4d24-859b-31c28c575888",
               "players": [
                 {
+                  "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
                   "name": "Thomas Johansson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
                   "name": "Erik Svensson",
                   "score": "7"
                 }
@@ -402,17 +599,26 @@
         },
         {
           "players": [
-            "Peter Groenborg",
-            "Mathias Johansson"
+            {
+              "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
+              "name": "Peter Groenborg"
+            },
+            {
+              "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
+              "name": "Mathias Johansson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0dcb87ea-1aec-40eb-9412-b2e519ac2ae6",
               "players": [
                 {
+                  "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
                   "name": "Peter Groenborg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
                   "name": "Mathias Johansson",
                   "score": "6"
                 }
@@ -424,17 +630,26 @@
         },
         {
           "players": [
-            "Peter Groenborg",
-            "Fredrik Hylander"
+            {
+              "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
+              "name": "Peter Groenborg"
+            },
+            {
+              "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
+              "name": "Fredrik Hylander"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4177af4b-40aa-4ab6-a342-c10f34e336d8",
               "players": [
                 {
+                  "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
                   "name": "Peter Groenborg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
                   "name": "Fredrik Hylander",
                   "score": "5"
                 }
@@ -446,17 +661,26 @@
         },
         {
           "players": [
-            "Thomas Johansson",
-            "Mathias Johansson"
+            {
+              "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
+              "name": "Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
+              "name": "Mathias Johansson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c6dacdf-9a30-4b2a-8222-62c942bd7967",
               "players": [
                 {
+                  "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
                   "name": "Thomas Johansson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
                   "name": "Mathias Johansson",
                   "score": "7"
                 }
@@ -468,17 +692,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Erik Svensson"
+            {
+              "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
+              "name": "Erik Svensson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/41e8514e-8630-488e-83cf-72bab1f1de51",
               "players": [
                 {
+                  "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
                   "name": "Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
                   "name": "Erik Svensson",
                   "score": "5"
                 }
@@ -490,17 +723,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen / Thomas Johansson",
-            "Erik Svensson / Mathias Johansson"
+            {
+              "playerId": "team-player/5b22ef5b-c033-4393-928e-39721f67ac67",
+              "name": "Ivar Rasmussen / Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/42f9ee30-3230-4185-8c3c-20ee2d9cf220",
+              "name": "Erik Svensson / Mathias Johansson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/74120017-14c6-4c07-84bb-f77df0840fb7",
               "players": [
                 {
+                  "playerId": "team-player/5b22ef5b-c033-4393-928e-39721f67ac67",
                   "name": "Ivar Rasmussen / Thomas Johansson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/42f9ee30-3230-4185-8c3c-20ee2d9cf220",
                   "name": "Erik Svensson / Mathias Johansson",
                   "score": "7"
                 }
@@ -513,6 +755,7 @@
       ]
     },
     {
+      "competitionId": "competition/815d0542-ba06-4f5a-aa44-2bb3a47adb9a",
       "teams": [
         "Borås Krocketsällskap",
         "Karlstad Croquet"
@@ -522,17 +765,26 @@
       "matches": [
         {
           "players": [
-            "Peter Groenborg",
-            "Pål Nilsson"
+            {
+              "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
+              "name": "Peter Groenborg"
+            },
+            {
+              "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
+              "name": "Pål Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f9df47c1-d6e3-484f-9095-e21381a0e410",
               "players": [
                 {
+                  "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
                   "name": "Peter Groenborg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
                   "name": "Pål Nilsson",
                   "score": "4"
                 }
@@ -544,17 +796,26 @@
         },
         {
           "players": [
-            "Thomas Johansson",
-            "Mattias Vainio"
+            {
+              "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
+              "name": "Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
+              "name": "Mattias Vainio"
+            }
           ],
           "games": [
             {
+              "gameId": "game/45bbf08d-0bda-41e6-a94e-ca811518b67f",
               "players": [
                 {
+                  "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
                   "name": "Thomas Johansson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
                   "name": "Mattias Vainio",
                   "score": "7"
                 }
@@ -566,17 +827,26 @@
         },
         {
           "players": [
-            "Peter Groenborg",
-            "Thomas Sandstrom"
+            {
+              "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
+              "name": "Peter Groenborg"
+            },
+            {
+              "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
+              "name": "Thomas Sandstrom"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2a3afa38-8c22-4139-9ad1-6b2732b7e513",
               "players": [
                 {
+                  "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
                   "name": "Peter Groenborg",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
                   "name": "Thomas Sandstrom",
                   "score": "7"
                 }
@@ -588,17 +858,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Thomas Sandstrom"
+            {
+              "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
+              "name": "Thomas Sandstrom"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1366d67-566c-4844-8f09-1ed632df6b6b",
               "players": [
                 {
+                  "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
                   "name": "Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
                   "name": "Thomas Sandstrom",
                   "score": "5"
                 }
@@ -610,17 +889,26 @@
         },
         {
           "players": [
-            "Thomas Johansson",
-            "Pål Nilsson"
+            {
+              "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
+              "name": "Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
+              "name": "Pål Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b0d08aa7-b754-4384-a193-3081ca2cfbc2",
               "players": [
                 {
+                  "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
                   "name": "Thomas Johansson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
                   "name": "Pål Nilsson",
                   "score": "7"
                 }
@@ -632,17 +920,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Mattias Vainio"
+            {
+              "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
+              "name": "Mattias Vainio"
+            }
           ],
           "games": [
             {
+              "gameId": "game/12579220-fdf1-495a-93ce-f37e64c48ae1",
               "players": [
                 {
+                  "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
                   "name": "Ivar Rasmussen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
                   "name": "Mattias Vainio",
                   "score": "7"
                 }
@@ -654,17 +951,26 @@
         },
         {
           "players": [
-            "Thomas Johansson",
-            "Thomas Sandstrom"
+            {
+              "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
+              "name": "Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
+              "name": "Thomas Sandstrom"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30342f95-3850-4528-9c9e-4a956bced06d",
               "players": [
                 {
+                  "playerId": "team-player/103879f2-ddca-43e0-b6ef-25c6b220af30",
                   "name": "Thomas Johansson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/574f16ee-4cd7-4913-bf39-cdda7f941c5e",
                   "name": "Thomas Sandstrom",
                   "score": "7"
                 }
@@ -676,17 +982,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Pål Nilsson"
+            {
+              "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
+              "name": "Pål Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/576113fd-cc88-4ec8-b83e-f1daef9a6fd1",
               "players": [
                 {
+                  "playerId": "team-player/076bab77-dad4-4e07-bc9a-2b6d5a14a8a6",
                   "name": "Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7e84d29a-7577-48ee-b0a7-a07e3ca8a70a",
                   "name": "Pål Nilsson",
                   "score": "3"
                 }
@@ -698,17 +1013,26 @@
         },
         {
           "players": [
-            "Peter Groenborg",
-            "Mattias Vainio"
+            {
+              "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
+              "name": "Peter Groenborg"
+            },
+            {
+              "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
+              "name": "Mattias Vainio"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8a4bc16d-f981-420f-8cd7-0ac9d283b51a",
               "players": [
                 {
+                  "playerId": "team-player/0fcf630b-d22e-4db3-b588-29a2f77f725a",
                   "name": "Peter Groenborg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d563935a-7acc-48c0-972b-29d446d059ea",
                   "name": "Mattias Vainio",
                   "score": "6"
                 }
@@ -720,17 +1044,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen / Thomas Johansson",
-            "Thomas Sandström / Pål Nilsson"
+            {
+              "playerId": "team-player/5b22ef5b-c033-4393-928e-39721f67ac67",
+              "name": "Ivar Rasmussen / Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/1648ed1a-1978-43aa-8d85-15d127e96d4c",
+              "name": "Thomas Sandström / Pål Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/44d90ac6-327e-4f78-a3b2-cee80a4c7154",
               "players": [
                 {
+                  "playerId": "team-player/5b22ef5b-c033-4393-928e-39721f67ac67",
                   "name": "Ivar Rasmussen / Thomas Johansson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1648ed1a-1978-43aa-8d85-15d127e96d4c",
                   "name": "Thomas Sandström / Pål Nilsson",
                   "score": "6"
                 }
@@ -743,6 +1076,7 @@
       ]
     },
     {
+      "competitionId": "competition/05b00986-1277-4579-9163-f116a4417e33",
       "teams": [
         "Skara Krocketsällskap",
         "Poseidon Croquet Club"
@@ -752,17 +1086,26 @@
       "matches": [
         {
           "players": [
-            "Mathias Johansson",
-            "Otto Kamne"
+            {
+              "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
+              "name": "Mathias Johansson"
+            },
+            {
+              "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
+              "name": "Otto Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c19ff6d5-fee7-4853-8c1d-395f4e82b8f0",
               "players": [
                 {
+                  "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
                   "name": "Mathias Johansson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
                   "name": "Otto Kamne",
                   "score": "1"
                 }
@@ -774,17 +1117,26 @@
         },
         {
           "players": [
-            "Erik Svensson",
-            "Björn Kamne"
+            {
+              "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
+              "name": "Erik Svensson"
+            },
+            {
+              "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
+              "name": "Björn Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/84e94bcd-8229-4687-ac1a-b627ac20b5d8",
               "players": [
                 {
+                  "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
                   "name": "Erik Svensson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
                   "name": "Björn Kamne",
                   "score": "7"
                 }
@@ -796,17 +1148,26 @@
         },
         {
           "players": [
-            "Erik Svensson",
-            "Anna Furberg"
+            {
+              "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
+              "name": "Erik Svensson"
+            },
+            {
+              "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
+              "name": "Anna Furberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e75fe5c2-629c-4789-a0c8-6d2e3467665c",
               "players": [
                 {
+                  "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
                   "name": "Erik Svensson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
                   "name": "Anna Furberg",
                   "score": "3"
                 }
@@ -818,17 +1179,26 @@
         },
         {
           "players": [
-            "Fredrik Hylander",
-            "Otto Kamne"
+            {
+              "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
+              "name": "Fredrik Hylander"
+            },
+            {
+              "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
+              "name": "Otto Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3747e155-358a-4c40-8ab9-4305c6866e2f",
               "players": [
                 {
+                  "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
                   "name": "Fredrik Hylander",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
                   "name": "Otto Kamne",
                   "score": "5"
                 }
@@ -840,17 +1210,26 @@
         },
         {
           "players": [
-            "Fredrik Hylander",
-            "Anna Furberg"
+            {
+              "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
+              "name": "Fredrik Hylander"
+            },
+            {
+              "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
+              "name": "Anna Furberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c863047d-d761-429b-a2ee-f21e152f9b8c",
               "players": [
                 {
+                  "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
                   "name": "Fredrik Hylander",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
                   "name": "Anna Furberg",
                   "score": "6"
                 }
@@ -862,17 +1241,26 @@
         },
         {
           "players": [
-            "Mathias Johansson",
-            "Björn Kamne"
+            {
+              "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
+              "name": "Mathias Johansson"
+            },
+            {
+              "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
+              "name": "Björn Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c070d8be-4106-4044-88a2-1b583b06b80f",
               "players": [
                 {
+                  "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
                   "name": "Mathias Johansson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
                   "name": "Björn Kamne",
                   "score": "4"
                 }
@@ -884,17 +1272,26 @@
         },
         {
           "players": [
-            "Erik Svensson",
-            "Otto Kamne"
+            {
+              "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
+              "name": "Erik Svensson"
+            },
+            {
+              "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
+              "name": "Otto Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca026192-cbe8-43d5-b1ca-f8b8c3004f50",
               "players": [
                 {
+                  "playerId": "team-player/cd4ee465-b1af-4e4c-9a38-b5580ee05a4d",
                   "name": "Erik Svensson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/903e5032-de7e-42fa-b016-e22664503e66",
                   "name": "Otto Kamne",
                   "score": "5"
                 }
@@ -906,17 +1303,26 @@
         },
         {
           "players": [
-            "Mathias Johansson",
-            "Anna Furberg"
+            {
+              "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
+              "name": "Mathias Johansson"
+            },
+            {
+              "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
+              "name": "Anna Furberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b151ef3-b8e9-4edf-bfe7-54aa957fe6e4",
               "players": [
                 {
+                  "playerId": "team-player/e9adf67f-c8c8-4873-a677-3e42a9d69354",
                   "name": "Mathias Johansson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52f217a2-9bd7-47d9-a95c-7fa466674199",
                   "name": "Anna Furberg",
                   "score": "5"
                 }
@@ -928,17 +1334,26 @@
         },
         {
           "players": [
-            "Fredrik Hylander",
-            "Björn Kamne"
+            {
+              "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
+              "name": "Fredrik Hylander"
+            },
+            {
+              "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
+              "name": "Björn Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6e152d5-decc-4de2-ac59-6b982cb7775d",
               "players": [
                 {
+                  "playerId": "team-player/7dc7b79a-d103-4082-9dd1-cbec39995d67",
                   "name": "Fredrik Hylander",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/74b49919-65e0-4ba3-9d6b-7fc1e8a7cc29",
                   "name": "Björn Kamne",
                   "score": "6"
                 }
@@ -950,17 +1365,26 @@
         },
         {
           "players": [
-            "Mathias Johansson / Erik Svensson",
-            "Otto Kamne / Anna Furberg"
+            {
+              "playerId": "team-player/13d94881-dde3-4548-9128-2f10d10e3c64",
+              "name": "Mathias Johansson / Erik Svensson"
+            },
+            {
+              "playerId": "team-player/daad68f8-d0d1-4cb5-be5d-e666d1c15de7",
+              "name": "Otto Kamne / Anna Furberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e3f16017-a4a1-44f7-88e5-3cc9e4bbe622",
               "players": [
                 {
+                  "playerId": "team-player/13d94881-dde3-4548-9128-2f10d10e3c64",
                   "name": "Mathias Johansson / Erik Svensson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/daad68f8-d0d1-4cb5-be5d-e666d1c15de7",
                   "name": "Otto Kamne / Anna Furberg",
                   "score": "7"
                 }

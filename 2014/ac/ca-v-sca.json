@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a7bde728-bdb5-41eb-8427-59628466157f",
   "name": "CA v SCA",
   "sport": "ac",
   "firstDay": "2014-08-30",
   "lastDay": "2014-08-31",
   "country": "scotland",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Croquet Association",
       "shortName": "Croquet As",
       "players": [
-        "Andrew Killick",
-        "Barry Keen",
-        "Charles Waterfield",
-        "CW & AK",
-        "Derek Watts",
-        "EC & BK",
-        "Eugene Chang",
-        "PE & DW",
-        "Phil Errington"
+        {
+          "playerId": "team-player/87dc15f1-8e1c-4a0d-a069-f62b128bd8fd",
+          "name": "Andrew Killick"
+        },
+        {
+          "playerId": "team-player/64ca858f-e88b-4fd5-859e-21bdb24cea2e",
+          "name": "Barry Keen"
+        },
+        {
+          "playerId": "team-player/b86c0313-c549-4165-a57f-7e7e87b70e4a",
+          "name": "Charles Waterfield"
+        },
+        {
+          "playerId": "team-player/269f0d58-d8c4-4f50-bb7c-a9dc04510816",
+          "name": "CW & AK"
+        },
+        {
+          "playerId": "team-player/5f3f3d78-5714-4793-8c29-b7cdf235d6a7",
+          "name": "Derek Watts"
+        },
+        {
+          "playerId": "team-player/7366dc60-bdc8-4bf2-aa27-c167c93b95a0",
+          "name": "EC & BK"
+        },
+        {
+          "playerId": "team-player/a4492255-f559-4a0c-a45d-5529e781f754",
+          "name": "Eugene Chang"
+        },
+        {
+          "playerId": "team-player/cb3cc351-54e0-4acd-aed6-bf63c9b0b8e4",
+          "name": "PE & DW"
+        },
+        {
+          "playerId": "team-player/0bb2e317-784a-4854-bda6-a460f3200ea1",
+          "name": "Phil Errington"
+        }
       ]
     },
     {
       "name": "Scottish Croquet Association",
       "shortName": "Scottish C",
       "players": [
-        "Alan Wilson",
-        "BM & DK",
-        "Brian Murdoch",
-        "David Magee",
-        "Derek Knight",
-        "DM & AW",
-        "Fergus McInnes",
-        "Sam Murray",
-        "SM & FM"
+        {
+          "playerId": "team-player/5bc896b7-0caf-4e80-8d65-1d2ad509899c",
+          "name": "Alan Wilson"
+        },
+        {
+          "playerId": "team-player/3d2cd692-291e-47ee-ad33-38dfd7549640",
+          "name": "BM & DK"
+        },
+        {
+          "playerId": "team-player/837ee4f1-6fec-45f3-b6fb-080c015b0e89",
+          "name": "Brian Murdoch"
+        },
+        {
+          "playerId": "team-player/34c3cef0-a727-4ae2-8488-1e39e2997fcd",
+          "name": "David Magee"
+        },
+        {
+          "playerId": "team-player/42730fd2-83ae-483a-b934-71bd7f4c6a29",
+          "name": "Derek Knight"
+        },
+        {
+          "playerId": "team-player/5f9d456a-4d57-4981-baba-98cfda6524e5",
+          "name": "DM & AW"
+        },
+        {
+          "playerId": "team-player/1caca65a-0cd6-41c4-9ffb-9d34b01de546",
+          "name": "Fergus McInnes"
+        },
+        {
+          "playerId": "team-player/5d31daf0-363c-4464-bfa9-45544352495c",
+          "name": "Sam Murray"
+        },
+        {
+          "playerId": "team-player/eb90d0f9-bdeb-4db1-88a6-17ec68e5dd73",
+          "name": "SM & FM"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/cf9dc307-c1a8-45b5-ae36-72bdc49537a0",
       "teams": [
         "Croquet Association",
         "Scottish Croquet Association"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "EC & BK",
-            "DM & AW"
+            {
+              "playerId": "team-player/7366dc60-bdc8-4bf2-aa27-c167c93b95a0",
+              "name": "EC & BK"
+            },
+            {
+              "playerId": "team-player/5f9d456a-4d57-4981-baba-98cfda6524e5",
+              "name": "DM & AW"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9431a4f5-e76c-4323-a533-d16ff82029d4",
               "players": [
                 {
+                  "playerId": "team-player/7366dc60-bdc8-4bf2-aa27-c167c93b95a0",
                   "name": "EC & BK",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/5f9d456a-4d57-4981-baba-98cfda6524e5",
                   "name": "DM & AW",
                   "score": "26"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "CW & AK",
-            "SM & FM"
+            {
+              "playerId": "team-player/269f0d58-d8c4-4f50-bb7c-a9dc04510816",
+              "name": "CW & AK"
+            },
+            {
+              "playerId": "team-player/eb90d0f9-bdeb-4db1-88a6-17ec68e5dd73",
+              "name": "SM & FM"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ab89a0d0-d367-45d7-8e2c-7900b5022c66",
               "players": [
                 {
+                  "playerId": "team-player/269f0d58-d8c4-4f50-bb7c-a9dc04510816",
                   "name": "CW & AK",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/eb90d0f9-bdeb-4db1-88a6-17ec68e5dd73",
                   "name": "SM & FM",
                   "score": "7"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "PE & DW",
-            "BM & DK"
+            {
+              "playerId": "team-player/cb3cc351-54e0-4acd-aed6-bf63c9b0b8e4",
+              "name": "PE & DW"
+            },
+            {
+              "playerId": "team-player/3d2cd692-291e-47ee-ad33-38dfd7549640",
+              "name": "BM & DK"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9fbf9dc9-be94-4226-be3a-5e43be8b281e",
               "players": [
                 {
+                  "playerId": "team-player/cb3cc351-54e0-4acd-aed6-bf63c9b0b8e4",
                   "name": "PE & DW",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/3d2cd692-291e-47ee-ad33-38dfd7549640",
                   "name": "BM & DK",
                   "score": "26"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Charles Waterfield",
-            "Sam Murray"
+            {
+              "playerId": "team-player/b86c0313-c549-4165-a57f-7e7e87b70e4a",
+              "name": "Charles Waterfield"
+            },
+            {
+              "playerId": "team-player/5d31daf0-363c-4464-bfa9-45544352495c",
+              "name": "Sam Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dae5519b-e71e-4a37-8d9c-3d5397478f95",
               "players": [
                 {
+                  "playerId": "team-player/b86c0313-c549-4165-a57f-7e7e87b70e4a",
                   "name": "Charles Waterfield",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/5d31daf0-363c-4464-bfa9-45544352495c",
                   "name": "Sam Murray",
                   "score": "25"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "Eugene Chang",
-            "David Magee"
+            {
+              "playerId": "team-player/a4492255-f559-4a0c-a45d-5529e781f754",
+              "name": "Eugene Chang"
+            },
+            {
+              "playerId": "team-player/34c3cef0-a727-4ae2-8488-1e39e2997fcd",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1471c459-2ded-41e1-a991-ae2a462d5dc3",
               "players": [
                 {
+                  "playerId": "team-player/a4492255-f559-4a0c-a45d-5529e781f754",
                   "name": "Eugene Chang",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/34c3cef0-a727-4ae2-8488-1e39e2997fcd",
                   "name": "David Magee",
                   "score": "0"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Phil Errington",
-            "Brian Murdoch"
+            {
+              "playerId": "team-player/0bb2e317-784a-4854-bda6-a460f3200ea1",
+              "name": "Phil Errington"
+            },
+            {
+              "playerId": "team-player/837ee4f1-6fec-45f3-b6fb-080c015b0e89",
+              "name": "Brian Murdoch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b9e696d-1a45-4f9d-95d1-addd7951cf47",
               "players": [
                 {
+                  "playerId": "team-player/0bb2e317-784a-4854-bda6-a460f3200ea1",
                   "name": "Phil Errington",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/837ee4f1-6fec-45f3-b6fb-080c015b0e89",
                   "name": "Brian Murdoch",
                   "score": "26"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Derek Watts",
-            "Derek Knight"
+            {
+              "playerId": "team-player/5f3f3d78-5714-4793-8c29-b7cdf235d6a7",
+              "name": "Derek Watts"
+            },
+            {
+              "playerId": "team-player/42730fd2-83ae-483a-b934-71bd7f4c6a29",
+              "name": "Derek Knight"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dfc16fda-afbc-4439-a01a-5488776eb7b0",
               "players": [
                 {
+                  "playerId": "team-player/5f3f3d78-5714-4793-8c29-b7cdf235d6a7",
                   "name": "Derek Watts",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/42730fd2-83ae-483a-b934-71bd7f4c6a29",
                   "name": "Derek Knight",
                   "score": "26"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Barry Keen",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/64ca858f-e88b-4fd5-859e-21bdb24cea2e",
+              "name": "Barry Keen"
+            },
+            {
+              "playerId": "team-player/5bc896b7-0caf-4e80-8d65-1d2ad509899c",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf5992fc-248f-454a-b688-4193f05575eb",
               "players": [
                 {
+                  "playerId": "team-player/64ca858f-e88b-4fd5-859e-21bdb24cea2e",
                   "name": "Barry Keen",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/5bc896b7-0caf-4e80-8d65-1d2ad509899c",
                   "name": "Alan Wilson",
                   "score": "6"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "Andrew Killick",
-            "Fergus McInnes"
+            {
+              "playerId": "team-player/87dc15f1-8e1c-4a0d-a069-f62b128bd8fd",
+              "name": "Andrew Killick"
+            },
+            {
+              "playerId": "team-player/1caca65a-0cd6-41c4-9ffb-9d34b01de546",
+              "name": "Fergus McInnes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3e4ef4ff-dd97-4f16-b136-5ddcb461f332",
               "players": [
                 {
+                  "playerId": "team-player/87dc15f1-8e1c-4a0d-a069-f62b128bd8fd",
                   "name": "Andrew Killick",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1caca65a-0cd6-41c4-9ffb-9d34b01de546",
                   "name": "Fergus McInnes",
                   "score": "8"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "Phil Errington",
-            "Sam Murray"
+            {
+              "playerId": "team-player/0bb2e317-784a-4854-bda6-a460f3200ea1",
+              "name": "Phil Errington"
+            },
+            {
+              "playerId": "team-player/5d31daf0-363c-4464-bfa9-45544352495c",
+              "name": "Sam Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30a937da-a681-40ac-9248-2904ca4592a9",
               "players": [
                 {
+                  "playerId": "team-player/0bb2e317-784a-4854-bda6-a460f3200ea1",
                   "name": "Phil Errington",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5d31daf0-363c-4464-bfa9-45544352495c",
                   "name": "Sam Murray",
                   "score": "26"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "Charles Waterfield",
-            "David Magee"
+            {
+              "playerId": "team-player/b86c0313-c549-4165-a57f-7e7e87b70e4a",
+              "name": "Charles Waterfield"
+            },
+            {
+              "playerId": "team-player/34c3cef0-a727-4ae2-8488-1e39e2997fcd",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d09502f4-6176-4b2e-a15c-4342429c390b",
               "players": [
                 {
+                  "playerId": "team-player/b86c0313-c549-4165-a57f-7e7e87b70e4a",
                   "name": "Charles Waterfield",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/34c3cef0-a727-4ae2-8488-1e39e2997fcd",
                   "name": "David Magee",
                   "score": "21"
                 }
@@ -291,17 +448,26 @@
         },
         {
           "players": [
-            "Eugene Chang",
-            "Brian Murdoch"
+            {
+              "playerId": "team-player/a4492255-f559-4a0c-a45d-5529e781f754",
+              "name": "Eugene Chang"
+            },
+            {
+              "playerId": "team-player/837ee4f1-6fec-45f3-b6fb-080c015b0e89",
+              "name": "Brian Murdoch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/08625de9-288d-42a6-aaf3-fb204e8060bf",
               "players": [
                 {
+                  "playerId": "team-player/a4492255-f559-4a0c-a45d-5529e781f754",
                   "name": "Eugene Chang",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/837ee4f1-6fec-45f3-b6fb-080c015b0e89",
                   "name": "Brian Murdoch",
                   "score": "3"
                 }
@@ -313,17 +479,26 @@
         },
         {
           "players": [
-            "Barry Keen",
-            "Derek Knight"
+            {
+              "playerId": "team-player/64ca858f-e88b-4fd5-859e-21bdb24cea2e",
+              "name": "Barry Keen"
+            },
+            {
+              "playerId": "team-player/42730fd2-83ae-483a-b934-71bd7f4c6a29",
+              "name": "Derek Knight"
+            }
           ],
           "games": [
             {
+              "gameId": "game/31f0cd54-133a-489f-ba62-d36c9372c36c",
               "players": [
                 {
+                  "playerId": "team-player/64ca858f-e88b-4fd5-859e-21bdb24cea2e",
                   "name": "Barry Keen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/42730fd2-83ae-483a-b934-71bd7f4c6a29",
                   "name": "Derek Knight",
                   "score": "20"
                 }
@@ -335,17 +510,26 @@
         },
         {
           "players": [
-            "Andrew Killick",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/87dc15f1-8e1c-4a0d-a069-f62b128bd8fd",
+              "name": "Andrew Killick"
+            },
+            {
+              "playerId": "team-player/5bc896b7-0caf-4e80-8d65-1d2ad509899c",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3d8565c2-04b2-46dd-b0e1-bf1cbbcef131",
               "players": [
                 {
+                  "playerId": "team-player/87dc15f1-8e1c-4a0d-a069-f62b128bd8fd",
                   "name": "Andrew Killick",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5bc896b7-0caf-4e80-8d65-1d2ad509899c",
                   "name": "Alan Wilson",
                   "score": "16"
                 }
@@ -357,17 +541,26 @@
         },
         {
           "players": [
-            "Derek Watts",
-            "Fergus McInnes"
+            {
+              "playerId": "team-player/5f3f3d78-5714-4793-8c29-b7cdf235d6a7",
+              "name": "Derek Watts"
+            },
+            {
+              "playerId": "team-player/1caca65a-0cd6-41c4-9ffb-9d34b01de546",
+              "name": "Fergus McInnes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/23151c72-d9e6-434d-9c54-0723b34390ea",
               "players": [
                 {
+                  "playerId": "team-player/5f3f3d78-5714-4793-8c29-b7cdf235d6a7",
                   "name": "Derek Watts",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1caca65a-0cd6-41c4-9ffb-9d34b01de546",
                   "name": "Fergus McInnes",
                   "score": "1"
                 }
@@ -379,17 +572,26 @@
         },
         {
           "players": [
-            "Andrew Killick",
-            "Sam Murray"
+            {
+              "playerId": "team-player/87dc15f1-8e1c-4a0d-a069-f62b128bd8fd",
+              "name": "Andrew Killick"
+            },
+            {
+              "playerId": "team-player/5d31daf0-363c-4464-bfa9-45544352495c",
+              "name": "Sam Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/426885b0-800d-4968-b1e9-640fb2c8d156",
               "players": [
                 {
+                  "playerId": "team-player/87dc15f1-8e1c-4a0d-a069-f62b128bd8fd",
                   "name": "Andrew Killick",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/5d31daf0-363c-4464-bfa9-45544352495c",
                   "name": "Sam Murray",
                   "score": "22"
                 }
@@ -401,17 +603,26 @@
         },
         {
           "players": [
-            "Derek Watts",
-            "David Magee"
+            {
+              "playerId": "team-player/5f3f3d78-5714-4793-8c29-b7cdf235d6a7",
+              "name": "Derek Watts"
+            },
+            {
+              "playerId": "team-player/34c3cef0-a727-4ae2-8488-1e39e2997fcd",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b39fe05-0b6b-495e-a5b5-2e81a29ca05b",
               "players": [
                 {
+                  "playerId": "team-player/5f3f3d78-5714-4793-8c29-b7cdf235d6a7",
                   "name": "Derek Watts",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/34c3cef0-a727-4ae2-8488-1e39e2997fcd",
                   "name": "David Magee",
                   "score": "20"
                 }
@@ -423,17 +634,26 @@
         },
         {
           "players": [
-            "Barry Keen",
-            "Brian Murdoch"
+            {
+              "playerId": "team-player/64ca858f-e88b-4fd5-859e-21bdb24cea2e",
+              "name": "Barry Keen"
+            },
+            {
+              "playerId": "team-player/837ee4f1-6fec-45f3-b6fb-080c015b0e89",
+              "name": "Brian Murdoch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ddaef2a8-36db-4a07-9f28-bc49d8b4a743",
               "players": [
                 {
+                  "playerId": "team-player/64ca858f-e88b-4fd5-859e-21bdb24cea2e",
                   "name": "Barry Keen",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/837ee4f1-6fec-45f3-b6fb-080c015b0e89",
                   "name": "Brian Murdoch",
                   "score": "26"
                 }
@@ -445,17 +665,26 @@
         },
         {
           "players": [
-            "Eugene Chang",
-            "Derek Knight"
+            {
+              "playerId": "team-player/a4492255-f559-4a0c-a45d-5529e781f754",
+              "name": "Eugene Chang"
+            },
+            {
+              "playerId": "team-player/42730fd2-83ae-483a-b934-71bd7f4c6a29",
+              "name": "Derek Knight"
+            }
           ],
           "games": [
             {
+              "gameId": "game/31abe822-54cb-449c-bca2-37f3816b8f94",
               "players": [
                 {
+                  "playerId": "team-player/a4492255-f559-4a0c-a45d-5529e781f754",
                   "name": "Eugene Chang",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/42730fd2-83ae-483a-b934-71bd7f4c6a29",
                   "name": "Derek Knight",
                   "score": "24"
                 }
@@ -467,17 +696,26 @@
         },
         {
           "players": [
-            "Phil Errington",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/0bb2e317-784a-4854-bda6-a460f3200ea1",
+              "name": "Phil Errington"
+            },
+            {
+              "playerId": "team-player/5bc896b7-0caf-4e80-8d65-1d2ad509899c",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0cf95f6e-a391-4dcb-926e-756f0b707fa6",
               "players": [
                 {
+                  "playerId": "team-player/0bb2e317-784a-4854-bda6-a460f3200ea1",
                   "name": "Phil Errington",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/5bc896b7-0caf-4e80-8d65-1d2ad509899c",
                   "name": "Alan Wilson",
                   "score": "23"
                 }
@@ -489,17 +727,26 @@
         },
         {
           "players": [
-            "Charles Waterfield",
-            "Fergus McInnes"
+            {
+              "playerId": "team-player/b86c0313-c549-4165-a57f-7e7e87b70e4a",
+              "name": "Charles Waterfield"
+            },
+            {
+              "playerId": "team-player/1caca65a-0cd6-41c4-9ffb-9d34b01de546",
+              "name": "Fergus McInnes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1c93b270-dabb-49d0-bdcf-ac471cfc0e03",
               "players": [
                 {
+                  "playerId": "team-player/b86c0313-c549-4165-a57f-7e7e87b70e4a",
                   "name": "Charles Waterfield",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/1caca65a-0cd6-41c4-9ffb-9d34b01de546",
                   "name": "Fergus McInnes",
                   "score": "7"
                 }
@@ -511,17 +758,26 @@
         },
         {
           "players": [
-            "Eugene Chang",
-            "Sam Murray"
+            {
+              "playerId": "team-player/a4492255-f559-4a0c-a45d-5529e781f754",
+              "name": "Eugene Chang"
+            },
+            {
+              "playerId": "team-player/5d31daf0-363c-4464-bfa9-45544352495c",
+              "name": "Sam Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a75aefa-6047-4948-a87e-5a7881407f21",
               "players": [
                 {
+                  "playerId": "team-player/a4492255-f559-4a0c-a45d-5529e781f754",
                   "name": "Eugene Chang",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/5d31daf0-363c-4464-bfa9-45544352495c",
                   "name": "Sam Murray",
                   "score": "26"
                 }
@@ -533,17 +789,26 @@
         },
         {
           "players": [
-            "Phil Errington",
-            "David Magee"
+            {
+              "playerId": "team-player/0bb2e317-784a-4854-bda6-a460f3200ea1",
+              "name": "Phil Errington"
+            },
+            {
+              "playerId": "team-player/34c3cef0-a727-4ae2-8488-1e39e2997fcd",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/539a7ff0-cf7b-4ab1-aaf7-3e11dd4303b9",
               "players": [
                 {
+                  "playerId": "team-player/0bb2e317-784a-4854-bda6-a460f3200ea1",
                   "name": "Phil Errington",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/34c3cef0-a727-4ae2-8488-1e39e2997fcd",
                   "name": "David Magee",
                   "score": "8"
                 }
@@ -555,17 +820,26 @@
         },
         {
           "players": [
-            "Charles Waterfield",
-            "Brian Murdoch"
+            {
+              "playerId": "team-player/b86c0313-c549-4165-a57f-7e7e87b70e4a",
+              "name": "Charles Waterfield"
+            },
+            {
+              "playerId": "team-player/837ee4f1-6fec-45f3-b6fb-080c015b0e89",
+              "name": "Brian Murdoch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/14c0c2c9-aaea-45d0-afd4-c0b0e6edb48c",
               "players": [
                 {
+                  "playerId": "team-player/b86c0313-c549-4165-a57f-7e7e87b70e4a",
                   "name": "Charles Waterfield",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/837ee4f1-6fec-45f3-b6fb-080c015b0e89",
                   "name": "Brian Murdoch",
                   "score": "0"
                 }
@@ -577,17 +851,26 @@
         },
         {
           "players": [
-            "Andrew Killick",
-            "Derek Knight"
+            {
+              "playerId": "team-player/87dc15f1-8e1c-4a0d-a069-f62b128bd8fd",
+              "name": "Andrew Killick"
+            },
+            {
+              "playerId": "team-player/42730fd2-83ae-483a-b934-71bd7f4c6a29",
+              "name": "Derek Knight"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d0682b10-edec-4a85-a688-73b9eeefc0c8",
               "players": [
                 {
+                  "playerId": "team-player/87dc15f1-8e1c-4a0d-a069-f62b128bd8fd",
                   "name": "Andrew Killick",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/42730fd2-83ae-483a-b934-71bd7f4c6a29",
                   "name": "Derek Knight",
                   "score": "26"
                 }
@@ -599,17 +882,26 @@
         },
         {
           "players": [
-            "Derek Watts",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/5f3f3d78-5714-4793-8c29-b7cdf235d6a7",
+              "name": "Derek Watts"
+            },
+            {
+              "playerId": "team-player/5bc896b7-0caf-4e80-8d65-1d2ad509899c",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c34f144-8585-4f80-ab5a-c038dbff640f",
               "players": [
                 {
+                  "playerId": "team-player/5f3f3d78-5714-4793-8c29-b7cdf235d6a7",
                   "name": "Derek Watts",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5bc896b7-0caf-4e80-8d65-1d2ad509899c",
                   "name": "Alan Wilson",
                   "score": "3"
                 }
@@ -621,17 +913,26 @@
         },
         {
           "players": [
-            "Barry Keen",
-            "Fergus McInnes"
+            {
+              "playerId": "team-player/64ca858f-e88b-4fd5-859e-21bdb24cea2e",
+              "name": "Barry Keen"
+            },
+            {
+              "playerId": "team-player/1caca65a-0cd6-41c4-9ffb-9d34b01de546",
+              "name": "Fergus McInnes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2b606d2f-e681-459a-8ceb-eba4960e6592",
               "players": [
                 {
+                  "playerId": "team-player/64ca858f-e88b-4fd5-859e-21bdb24cea2e",
                   "name": "Barry Keen",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/1caca65a-0cd6-41c4-9ffb-9d34b01de546",
                   "name": "Fergus McInnes",
                   "score": "20"
                 }

@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/804de1e7-4641-4376-96fc-205dbe6cad9e",
   "name": "SECF GL Match",
   "sport": "gc",
   "firstDay": "2022-06-22",
   "lastDay": "2022-06-22",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Andrew Wilson",
-        "Bridget Goodman",
-        "Dave Evans",
-        "Jane Powell"
+        {
+          "playerId": "team-player/d13bf854-366e-45a9-80d5-932d2bd8dfab",
+          "name": "Andrew Wilson"
+        },
+        {
+          "playerId": "team-player/cf198699-26a4-4662-b361-9d127cdeb260",
+          "name": "Bridget Goodman"
+        },
+        {
+          "playerId": "team-player/6b9efd3a-5696-4b37-8c0c-91d72c7e8ad1",
+          "name": "Dave Evans"
+        },
+        {
+          "playerId": "team-player/93ada97c-8e6e-4d9e-904c-22fb26f79f47",
+          "name": "Jane Powell"
+        }
       ]
     },
     {
       "name": "Merton",
       "shortName": "Merton",
       "players": [
-        "Carolyn Doswell",
-        "Graham Withrington",
-        "Julie Sheahan",
-        "Simon Emdin"
+        {
+          "playerId": "team-player/f6c5a040-b75a-4ab8-b56c-ec33d00a2016",
+          "name": "Carolyn Doswell"
+        },
+        {
+          "playerId": "team-player/0398e0b2-e3ad-4d54-a302-bf40e8866b0d",
+          "name": "Graham Withrington"
+        },
+        {
+          "playerId": "team-player/bb238861-ca10-46e8-86e1-6f187212466f",
+          "name": "Julie Sheahan"
+        },
+        {
+          "playerId": "team-player/6b8fc290-564f-4b59-8f9b-b34dc8f6a6ef",
+          "name": "Simon Emdin"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1800a284-5e98-4106-8a1c-f7478c3940ca",
       "teams": [
         "Surbiton",
         "Merton"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Andrew Wilson",
-            "Graham Withrington"
+            {
+              "playerId": "team-player/d13bf854-366e-45a9-80d5-932d2bd8dfab",
+              "name": "Andrew Wilson"
+            },
+            {
+              "playerId": "team-player/0398e0b2-e3ad-4d54-a302-bf40e8866b0d",
+              "name": "Graham Withrington"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f1a79a5-981b-4616-92de-3b7ad820c443",
               "players": [
                 {
+                  "playerId": "team-player/d13bf854-366e-45a9-80d5-932d2bd8dfab",
                   "name": "Andrew Wilson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0398e0b2-e3ad-4d54-a302-bf40e8866b0d",
                   "name": "Graham Withrington",
                   "score": "6"
                 }
@@ -58,12 +95,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9ae421ce-7267-436e-b1bf-52f8f27cdc08",
               "players": [
                 {
+                  "playerId": "team-player/d13bf854-366e-45a9-80d5-932d2bd8dfab",
                   "name": "Andrew Wilson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0398e0b2-e3ad-4d54-a302-bf40e8866b0d",
                   "name": "Graham Withrington",
                   "score": "5"
                 }
@@ -75,17 +115,26 @@
         },
         {
           "players": [
-            "Dave Evans",
-            "Carolyn Doswell"
+            {
+              "playerId": "team-player/6b9efd3a-5696-4b37-8c0c-91d72c7e8ad1",
+              "name": "Dave Evans"
+            },
+            {
+              "playerId": "team-player/f6c5a040-b75a-4ab8-b56c-ec33d00a2016",
+              "name": "Carolyn Doswell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/57cf5360-13b9-4b0a-aeb9-74c00fbe33c2",
               "players": [
                 {
+                  "playerId": "team-player/6b9efd3a-5696-4b37-8c0c-91d72c7e8ad1",
                   "name": "Dave Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f6c5a040-b75a-4ab8-b56c-ec33d00a2016",
                   "name": "Carolyn Doswell",
                   "score": "1"
                 }
@@ -94,12 +143,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/09383969-2009-4941-9652-56443d87a8c4",
               "players": [
                 {
+                  "playerId": "team-player/6b9efd3a-5696-4b37-8c0c-91d72c7e8ad1",
                   "name": "Dave Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f6c5a040-b75a-4ab8-b56c-ec33d00a2016",
                   "name": "Carolyn Doswell",
                   "score": "5"
                 }
@@ -111,17 +163,26 @@
         },
         {
           "players": [
-            "Bridget Goodman",
-            "Simon Emdin"
+            {
+              "playerId": "team-player/cf198699-26a4-4662-b361-9d127cdeb260",
+              "name": "Bridget Goodman"
+            },
+            {
+              "playerId": "team-player/6b8fc290-564f-4b59-8f9b-b34dc8f6a6ef",
+              "name": "Simon Emdin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c3bd16e-63da-4fdb-93cf-ba5bb8e2ff9b",
               "players": [
                 {
+                  "playerId": "team-player/cf198699-26a4-4662-b361-9d127cdeb260",
                   "name": "Bridget Goodman",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/6b8fc290-564f-4b59-8f9b-b34dc8f6a6ef",
                   "name": "Simon Emdin",
                   "score": "7"
                 }
@@ -130,12 +191,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2b6e1048-2766-4a64-b2c7-e0da1cd2676f",
               "players": [
                 {
+                  "playerId": "team-player/cf198699-26a4-4662-b361-9d127cdeb260",
                   "name": "Bridget Goodman",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/6b8fc290-564f-4b59-8f9b-b34dc8f6a6ef",
                   "name": "Simon Emdin",
                   "score": "7"
                 }
@@ -147,17 +211,26 @@
         },
         {
           "players": [
-            "Jane Powell",
-            "Julie Sheahan"
+            {
+              "playerId": "team-player/93ada97c-8e6e-4d9e-904c-22fb26f79f47",
+              "name": "Jane Powell"
+            },
+            {
+              "playerId": "team-player/bb238861-ca10-46e8-86e1-6f187212466f",
+              "name": "Julie Sheahan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ae5ee43-c10a-4531-8b65-db24d750b912",
               "players": [
                 {
+                  "playerId": "team-player/93ada97c-8e6e-4d9e-904c-22fb26f79f47",
                   "name": "Jane Powell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/bb238861-ca10-46e8-86e1-6f187212466f",
                   "name": "Julie Sheahan",
                   "score": "7"
                 }
@@ -166,12 +239,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fa2ba5b2-29ba-4799-95c6-3291b205aa39",
               "players": [
                 {
+                  "playerId": "team-player/93ada97c-8e6e-4d9e-904c-22fb26f79f47",
                   "name": "Jane Powell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/bb238861-ca10-46e8-86e1-6f187212466f",
                   "name": "Julie Sheahan",
                   "score": "7"
                 }
@@ -183,17 +259,26 @@
         },
         {
           "players": [
-            "Jane Powell",
-            "Simon Emdin"
+            {
+              "playerId": "team-player/93ada97c-8e6e-4d9e-904c-22fb26f79f47",
+              "name": "Jane Powell"
+            },
+            {
+              "playerId": "team-player/6b8fc290-564f-4b59-8f9b-b34dc8f6a6ef",
+              "name": "Simon Emdin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bded7eca-9179-4d9e-b389-2de82d2c0ff0",
               "players": [
                 {
+                  "playerId": "team-player/93ada97c-8e6e-4d9e-904c-22fb26f79f47",
                   "name": "Jane Powell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6b8fc290-564f-4b59-8f9b-b34dc8f6a6ef",
                   "name": "Simon Emdin",
                   "score": "3"
                 }
@@ -202,12 +287,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3856ab6c-2223-4478-b3e6-091a2dd18f51",
               "players": [
                 {
+                  "playerId": "team-player/93ada97c-8e6e-4d9e-904c-22fb26f79f47",
                   "name": "Jane Powell",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/6b8fc290-564f-4b59-8f9b-b34dc8f6a6ef",
                   "name": "Simon Emdin",
                   "score": "7"
                 }
@@ -216,12 +304,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/087c5dbb-f1f3-4a51-8446-09aec07b5af9",
               "players": [
                 {
+                  "playerId": "team-player/93ada97c-8e6e-4d9e-904c-22fb26f79f47",
                   "name": "Jane Powell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6b8fc290-564f-4b59-8f9b-b34dc8f6a6ef",
                   "name": "Simon Emdin",
                   "score": "6"
                 }
@@ -233,17 +324,26 @@
         },
         {
           "players": [
-            "Bridget Goodman",
-            "Julie Sheahan"
+            {
+              "playerId": "team-player/cf198699-26a4-4662-b361-9d127cdeb260",
+              "name": "Bridget Goodman"
+            },
+            {
+              "playerId": "team-player/bb238861-ca10-46e8-86e1-6f187212466f",
+              "name": "Julie Sheahan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9714be7a-506b-4525-a6b9-dc37fe8fc86e",
               "players": [
                 {
+                  "playerId": "team-player/cf198699-26a4-4662-b361-9d127cdeb260",
                   "name": "Bridget Goodman",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bb238861-ca10-46e8-86e1-6f187212466f",
                   "name": "Julie Sheahan",
                   "score": "5"
                 }
@@ -252,12 +352,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ae74ce7e-22e1-46e7-b5d2-c731ab114dd0",
               "players": [
                 {
+                  "playerId": "team-player/cf198699-26a4-4662-b361-9d127cdeb260",
                   "name": "Bridget Goodman",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/bb238861-ca10-46e8-86e1-6f187212466f",
                   "name": "Julie Sheahan",
                   "score": "7"
                 }
@@ -266,12 +369,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/80e3d11c-3f62-4949-b8dc-b08bc33d55c7",
               "players": [
                 {
+                  "playerId": "team-player/cf198699-26a4-4662-b361-9d127cdeb260",
                   "name": "Bridget Goodman",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bb238861-ca10-46e8-86e1-6f187212466f",
                   "name": "Julie Sheahan",
                   "score": "5"
                 }

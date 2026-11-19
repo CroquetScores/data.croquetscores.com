@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/99c1bd98-e7bc-4b67-8eee-61fa672897d3",
   "name": "Bristol v Cheltenham SWF",
   "sport": "ac",
   "firstDay": "2023-05-07",
   "lastDay": "2023-05-07",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "David Goacher",
-        "Ed Duckworth",
-        "Richard M Smith",
-        "Richard M Smith & David Goacher",
-        "Robert Wilkinson",
-        "Robert Wilkinson & Ed Duckworth"
+        {
+          "playerId": "team-player/1805021a-b21f-4340-a30b-1ae718a6d778",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/b40a4271-557b-4dca-8e72-2f9b16611be8",
+          "name": "Ed Duckworth"
+        },
+        {
+          "playerId": "team-player/764923e4-4fcd-486f-8525-cfd417086eec",
+          "name": "Richard M Smith"
+        },
+        {
+          "playerId": "team-player/fe8b8897-b719-48da-983f-44782c97ff25",
+          "name": "Richard M Smith & David Goacher"
+        },
+        {
+          "playerId": "team-player/1301cc80-e68d-4029-ba47-2437a53ad02c",
+          "name": "Robert Wilkinson"
+        },
+        {
+          "playerId": "team-player/ec87bb08-5dd5-4397-b7c7-1866e36dee78",
+          "name": "Robert Wilkinson & Ed Duckworth"
+        }
       ]
     },
     {
       "name": "Cheltenham",
       "shortName": "Cheltenham",
       "players": [
-        "James Death",
-        "Mark Suter",
-        "Mark Suter & James Death",
-        "Paul Smith",
-        "Sarah Hayes",
-        "Sarah Hayes & Paul Smith"
+        {
+          "playerId": "team-player/a9c0be78-e241-4dc3-a7c5-55b1a7a70738",
+          "name": "James Death"
+        },
+        {
+          "playerId": "team-player/b7a3c26d-9afc-4fca-8c9e-d0703ea62e97",
+          "name": "Mark Suter"
+        },
+        {
+          "playerId": "team-player/a9d00572-77d2-45f2-b365-bcc9c1d24c74",
+          "name": "Mark Suter & James Death"
+        },
+        {
+          "playerId": "team-player/436e9e55-8a4b-40ee-9830-69cd3b34a96f",
+          "name": "Paul Smith"
+        },
+        {
+          "playerId": "team-player/5861bb52-34e8-4b64-b294-572b4187c3b1",
+          "name": "Sarah Hayes"
+        },
+        {
+          "playerId": "team-player/8ef5532b-16a4-458f-8b7c-58c8d5359709",
+          "name": "Sarah Hayes & Paul Smith"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2452e98e-e0de-4331-bcd2-2b5db638eb75",
       "teams": [
         "Bristol",
         "Cheltenham"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Robert Wilkinson",
-            "Paul Smith"
+            {
+              "playerId": "team-player/1301cc80-e68d-4029-ba47-2437a53ad02c",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/436e9e55-8a4b-40ee-9830-69cd3b34a96f",
+              "name": "Paul Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/12bbfd80-f008-4c19-9954-fa01ed218d22",
               "players": [
                 {
+                  "playerId": "team-player/1301cc80-e68d-4029-ba47-2437a53ad02c",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/436e9e55-8a4b-40ee-9830-69cd3b34a96f",
                   "name": "Paul Smith",
                   "score": "10"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Mark Suter"
+            {
+              "playerId": "team-player/1805021a-b21f-4340-a30b-1ae718a6d778",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/b7a3c26d-9afc-4fca-8c9e-d0703ea62e97",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e8eb46ff-9477-4cac-bcb0-17f3a3530814",
               "players": [
                 {
+                  "playerId": "team-player/1805021a-b21f-4340-a30b-1ae718a6d778",
                   "name": "David Goacher",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/b7a3c26d-9afc-4fca-8c9e-d0703ea62e97",
                   "name": "Mark Suter",
                   "score": "2"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "James Death"
+            {
+              "playerId": "team-player/764923e4-4fcd-486f-8525-cfd417086eec",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/a9c0be78-e241-4dc3-a7c5-55b1a7a70738",
+              "name": "James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/daa8f139-3450-42be-aae1-28714c8b9623",
               "players": [
                 {
+                  "playerId": "team-player/764923e4-4fcd-486f-8525-cfd417086eec",
                   "name": "Richard M Smith",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/a9c0be78-e241-4dc3-a7c5-55b1a7a70738",
                   "name": "James Death",
                   "score": "26"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson & Ed Duckworth",
-            "Sarah Hayes & Paul Smith"
+            {
+              "playerId": "team-player/ec87bb08-5dd5-4397-b7c7-1866e36dee78",
+              "name": "Robert Wilkinson & Ed Duckworth"
+            },
+            {
+              "playerId": "team-player/8ef5532b-16a4-458f-8b7c-58c8d5359709",
+              "name": "Sarah Hayes & Paul Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e69e500-2446-4d29-aac6-91831b0422c7",
               "players": [
                 {
+                  "playerId": "team-player/ec87bb08-5dd5-4397-b7c7-1866e36dee78",
                   "name": "Robert Wilkinson & Ed Duckworth",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/8ef5532b-16a4-458f-8b7c-58c8d5359709",
                   "name": "Sarah Hayes & Paul Smith",
                   "score": "17"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "James Death"
+            {
+              "playerId": "team-player/1805021a-b21f-4340-a30b-1ae718a6d778",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/a9c0be78-e241-4dc3-a7c5-55b1a7a70738",
+              "name": "James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1072ae94-f9c6-4da2-b324-8c1358bafa92",
               "players": [
                 {
+                  "playerId": "team-player/1805021a-b21f-4340-a30b-1ae718a6d778",
                   "name": "David Goacher",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/a9c0be78-e241-4dc3-a7c5-55b1a7a70738",
                   "name": "James Death",
                   "score": "26tp"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Mark Suter"
+            {
+              "playerId": "team-player/764923e4-4fcd-486f-8525-cfd417086eec",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/b7a3c26d-9afc-4fca-8c9e-d0703ea62e97",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/46498d48-cb01-4ed1-88be-6c3a783665f1",
               "players": [
                 {
+                  "playerId": "team-player/764923e4-4fcd-486f-8525-cfd417086eec",
                   "name": "Richard M Smith",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/b7a3c26d-9afc-4fca-8c9e-d0703ea62e97",
                   "name": "Mark Suter",
                   "score": "26"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "Ed Duckworth",
-            "Sarah Hayes"
+            {
+              "playerId": "team-player/b40a4271-557b-4dca-8e72-2f9b16611be8",
+              "name": "Ed Duckworth"
+            },
+            {
+              "playerId": "team-player/5861bb52-34e8-4b64-b294-572b4187c3b1",
+              "name": "Sarah Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/671f276e-b2b5-4ee7-96ba-3f06646ff228",
               "players": [
                 {
+                  "playerId": "team-player/b40a4271-557b-4dca-8e72-2f9b16611be8",
                   "name": "Ed Duckworth",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/5861bb52-34e8-4b64-b294-572b4187c3b1",
                   "name": "Sarah Hayes",
                   "score": "26"
                 }

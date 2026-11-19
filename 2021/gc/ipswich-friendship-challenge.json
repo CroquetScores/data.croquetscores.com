@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0d5823d0-666f-4b6c-83ae-8e8db2178215",
   "name": "Ipswich Friendship Challenge",
   "sport": "gc",
   "firstDay": "2021-09-26",
   "lastDay": "2021-09-26",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Ipswich",
       "shortName": "Ipswich",
       "players": [
-        "Elaine and Robyn",
-        "Heather and John J",
-        "Jannene and Terry",
-        "John W and Hans",
-        "Nev and Rosemary"
+        {
+          "playerId": "team-player/64cc49f1-c534-48a6-a4fb-8607d8170cac",
+          "name": "Elaine and Robyn"
+        },
+        {
+          "playerId": "team-player/2caa4907-e429-4c7b-8c65-07e68dd94b58",
+          "name": "Heather and John J"
+        },
+        {
+          "playerId": "team-player/fab86689-e130-49ac-852a-74cc8f4f6db0",
+          "name": "Jannene and Terry"
+        },
+        {
+          "playerId": "team-player/90731acc-1452-4661-8ed6-4493f5e8a6fc",
+          "name": "John W and Hans"
+        },
+        {
+          "playerId": "team-player/93b51c52-d622-49d2-baa2-6d9a67ed7c99",
+          "name": "Nev and Rosemary"
+        }
       ]
     },
     {
       "name": "Stephens",
       "shortName": "Stephens",
       "players": [
-        "Ces and Kathy",
-        "David and Val",
-        "Gail and Tony",
-        "Jeremy and Louise",
-        "Maude and Julie"
+        {
+          "playerId": "team-player/2c800b69-369f-4c41-aed1-4682d3d45a37",
+          "name": "Ces and Kathy"
+        },
+        {
+          "playerId": "team-player/3d4d56d6-4fa8-4bcc-be80-a6f9521bc0dd",
+          "name": "David and Val"
+        },
+        {
+          "playerId": "team-player/aa00ed44-20b0-40a3-ae29-dff993fcf00f",
+          "name": "Gail and Tony"
+        },
+        {
+          "playerId": "team-player/49dd2ad2-0f65-440f-91c3-87ca1c7ba4dc",
+          "name": "Jeremy and Louise"
+        },
+        {
+          "playerId": "team-player/5e15d219-e6de-417b-9782-23e6d2d6c136",
+          "name": "Maude and Julie"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/a36404ff-5bda-4e3c-9d21-229ccc425fe4",
       "teams": [
         "Ipswich",
         "Stephens"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Elaine and Robyn",
-            "Gail and Tony"
+            {
+              "playerId": "team-player/64cc49f1-c534-48a6-a4fb-8607d8170cac",
+              "name": "Elaine and Robyn"
+            },
+            {
+              "playerId": "team-player/aa00ed44-20b0-40a3-ae29-dff993fcf00f",
+              "name": "Gail and Tony"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f6d7a7e-65c8-4183-85eb-1177f1a649ef",
               "players": [
                 {
+                  "playerId": "team-player/64cc49f1-c534-48a6-a4fb-8607d8170cac",
                   "name": "Elaine and Robyn",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/aa00ed44-20b0-40a3-ae29-dff993fcf00f",
                   "name": "Gail and Tony",
                   "score": "7"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Jannene and Terry",
-            "Ces and Kathy"
+            {
+              "playerId": "team-player/fab86689-e130-49ac-852a-74cc8f4f6db0",
+              "name": "Jannene and Terry"
+            },
+            {
+              "playerId": "team-player/2c800b69-369f-4c41-aed1-4682d3d45a37",
+              "name": "Ces and Kathy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/012c5992-3c1b-4a0b-afa2-ac14e40ea4ac",
               "players": [
                 {
+                  "playerId": "team-player/fab86689-e130-49ac-852a-74cc8f4f6db0",
                   "name": "Jannene and Terry",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2c800b69-369f-4c41-aed1-4682d3d45a37",
                   "name": "Ces and Kathy",
                   "score": "5"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Nev and Rosemary",
-            "David and Val"
+            {
+              "playerId": "team-player/93b51c52-d622-49d2-baa2-6d9a67ed7c99",
+              "name": "Nev and Rosemary"
+            },
+            {
+              "playerId": "team-player/3d4d56d6-4fa8-4bcc-be80-a6f9521bc0dd",
+              "name": "David and Val"
+            }
           ],
           "games": [
             {
+              "gameId": "game/64d744bd-d14f-410a-8522-b495cff269c9",
               "players": [
                 {
+                  "playerId": "team-player/93b51c52-d622-49d2-baa2-6d9a67ed7c99",
                   "name": "Nev and Rosemary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3d4d56d6-4fa8-4bcc-be80-a6f9521bc0dd",
                   "name": "David and Val",
                   "score": "5"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "John W and Hans",
-            "Jeremy and Louise"
+            {
+              "playerId": "team-player/90731acc-1452-4661-8ed6-4493f5e8a6fc",
+              "name": "John W and Hans"
+            },
+            {
+              "playerId": "team-player/49dd2ad2-0f65-440f-91c3-87ca1c7ba4dc",
+              "name": "Jeremy and Louise"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e66b75cb-a56a-4f25-82fc-0d780dedc28c",
               "players": [
                 {
+                  "playerId": "team-player/90731acc-1452-4661-8ed6-4493f5e8a6fc",
                   "name": "John W and Hans",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/49dd2ad2-0f65-440f-91c3-87ca1c7ba4dc",
                   "name": "Jeremy and Louise",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Jannene and Terry",
-            "Maude and Julie"
+            {
+              "playerId": "team-player/fab86689-e130-49ac-852a-74cc8f4f6db0",
+              "name": "Jannene and Terry"
+            },
+            {
+              "playerId": "team-player/5e15d219-e6de-417b-9782-23e6d2d6c136",
+              "name": "Maude and Julie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a914e08-281e-40b1-9fc3-55b4a5dc5862",
               "players": [
                 {
+                  "playerId": "team-player/fab86689-e130-49ac-852a-74cc8f4f6db0",
                   "name": "Jannene and Terry",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5e15d219-e6de-417b-9782-23e6d2d6c136",
                   "name": "Maude and Julie",
                   "score": "5"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Nev and Rosemary",
-            "Ces and Kathy"
+            {
+              "playerId": "team-player/93b51c52-d622-49d2-baa2-6d9a67ed7c99",
+              "name": "Nev and Rosemary"
+            },
+            {
+              "playerId": "team-player/2c800b69-369f-4c41-aed1-4682d3d45a37",
+              "name": "Ces and Kathy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4fa77f3d-0b68-475d-8745-2e1816207578",
               "players": [
                 {
+                  "playerId": "team-player/93b51c52-d622-49d2-baa2-6d9a67ed7c99",
                   "name": "Nev and Rosemary",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/2c800b69-369f-4c41-aed1-4682d3d45a37",
                   "name": "Ces and Kathy",
                   "score": "7"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Elaine and Robyn",
-            "Jeremy and Louise"
+            {
+              "playerId": "team-player/64cc49f1-c534-48a6-a4fb-8607d8170cac",
+              "name": "Elaine and Robyn"
+            },
+            {
+              "playerId": "team-player/49dd2ad2-0f65-440f-91c3-87ca1c7ba4dc",
+              "name": "Jeremy and Louise"
+            }
           ],
           "games": [
             {
+              "gameId": "game/73c265c9-4091-4b5f-acfc-5423a51fca5e",
               "players": [
                 {
+                  "playerId": "team-player/64cc49f1-c534-48a6-a4fb-8607d8170cac",
                   "name": "Elaine and Robyn",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/49dd2ad2-0f65-440f-91c3-87ca1c7ba4dc",
                   "name": "Jeremy and Louise",
                   "score": "5"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Heather and John J",
-            "Gail and Tony"
+            {
+              "playerId": "team-player/2caa4907-e429-4c7b-8c65-07e68dd94b58",
+              "name": "Heather and John J"
+            },
+            {
+              "playerId": "team-player/aa00ed44-20b0-40a3-ae29-dff993fcf00f",
+              "name": "Gail and Tony"
+            }
           ],
           "games": [
             {
+              "gameId": "game/478d1208-3bae-4d71-a07c-5bd5d77657d2",
               "players": [
                 {
+                  "playerId": "team-player/2caa4907-e429-4c7b-8c65-07e68dd94b58",
                   "name": "Heather and John J",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/aa00ed44-20b0-40a3-ae29-dff993fcf00f",
                   "name": "Gail and Tony",
                   "score": "7"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "John W and Hans",
-            "David and Val"
+            {
+              "playerId": "team-player/90731acc-1452-4661-8ed6-4493f5e8a6fc",
+              "name": "John W and Hans"
+            },
+            {
+              "playerId": "team-player/3d4d56d6-4fa8-4bcc-be80-a6f9521bc0dd",
+              "name": "David and Val"
+            }
           ],
           "games": [
             {
+              "gameId": "game/806db7de-2cf7-45bc-800a-e90af0b73934",
               "players": [
                 {
+                  "playerId": "team-player/90731acc-1452-4661-8ed6-4493f5e8a6fc",
                   "name": "John W and Hans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3d4d56d6-4fa8-4bcc-be80-a6f9521bc0dd",
                   "name": "David and Val",
                   "score": "5"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Jannene and Terry",
-            "Gail and Tony"
+            {
+              "playerId": "team-player/fab86689-e130-49ac-852a-74cc8f4f6db0",
+              "name": "Jannene and Terry"
+            },
+            {
+              "playerId": "team-player/aa00ed44-20b0-40a3-ae29-dff993fcf00f",
+              "name": "Gail and Tony"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ce49c43b-d6fa-4f3e-9e77-5c0223da7fd6",
               "players": [
                 {
+                  "playerId": "team-player/fab86689-e130-49ac-852a-74cc8f4f6db0",
                   "name": "Jannene and Terry",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/aa00ed44-20b0-40a3-ae29-dff993fcf00f",
                   "name": "Gail and Tony",
                   "score": "4"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Heather and John J",
-            "Jeremy and Louise"
+            {
+              "playerId": "team-player/2caa4907-e429-4c7b-8c65-07e68dd94b58",
+              "name": "Heather and John J"
+            },
+            {
+              "playerId": "team-player/49dd2ad2-0f65-440f-91c3-87ca1c7ba4dc",
+              "name": "Jeremy and Louise"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b5e5d00-5ba1-41b6-ba5c-d38702c3d128",
               "players": [
                 {
+                  "playerId": "team-player/2caa4907-e429-4c7b-8c65-07e68dd94b58",
                   "name": "Heather and John J",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/49dd2ad2-0f65-440f-91c3-87ca1c7ba4dc",
                   "name": "Jeremy and Louise",
                   "score": "3"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Heather and John J",
-            "Maude and Julie"
+            {
+              "playerId": "team-player/2caa4907-e429-4c7b-8c65-07e68dd94b58",
+              "name": "Heather and John J"
+            },
+            {
+              "playerId": "team-player/5e15d219-e6de-417b-9782-23e6d2d6c136",
+              "name": "Maude and Julie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/848d7da8-67c9-4bf5-a359-ed2b937d0625",
               "players": [
                 {
+                  "playerId": "team-player/2caa4907-e429-4c7b-8c65-07e68dd94b58",
                   "name": "Heather and John J",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5e15d219-e6de-417b-9782-23e6d2d6c136",
                   "name": "Maude and Julie",
                   "score": "7"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Nev and Rosemary",
-            "Maude and Julie"
+            {
+              "playerId": "team-player/93b51c52-d622-49d2-baa2-6d9a67ed7c99",
+              "name": "Nev and Rosemary"
+            },
+            {
+              "playerId": "team-player/5e15d219-e6de-417b-9782-23e6d2d6c136",
+              "name": "Maude and Julie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2ccd3e69-4d66-4fe0-9ed3-eb41bfedb141",
               "players": [
                 {
+                  "playerId": "team-player/93b51c52-d622-49d2-baa2-6d9a67ed7c99",
                   "name": "Nev and Rosemary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5e15d219-e6de-417b-9782-23e6d2d6c136",
                   "name": "Maude and Julie",
                   "score": "6"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Elaine and Robyn",
-            "David and Val"
+            {
+              "playerId": "team-player/64cc49f1-c534-48a6-a4fb-8607d8170cac",
+              "name": "Elaine and Robyn"
+            },
+            {
+              "playerId": "team-player/3d4d56d6-4fa8-4bcc-be80-a6f9521bc0dd",
+              "name": "David and Val"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8731a0a4-810c-49e0-8bb8-30ed45e3d929",
               "players": [
                 {
+                  "playerId": "team-player/64cc49f1-c534-48a6-a4fb-8607d8170cac",
                   "name": "Elaine and Robyn",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3d4d56d6-4fa8-4bcc-be80-a6f9521bc0dd",
                   "name": "David and Val",
                   "score": "7"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "John W and Hans",
-            "Ces and Kathy"
+            {
+              "playerId": "team-player/90731acc-1452-4661-8ed6-4493f5e8a6fc",
+              "name": "John W and Hans"
+            },
+            {
+              "playerId": "team-player/2c800b69-369f-4c41-aed1-4682d3d45a37",
+              "name": "Ces and Kathy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e16dc7c1-0775-4128-83b9-eab539ed69fa",
               "players": [
                 {
+                  "playerId": "team-player/90731acc-1452-4661-8ed6-4493f5e8a6fc",
                   "name": "John W and Hans",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/2c800b69-369f-4c41-aed1-4682d3d45a37",
                   "name": "Ces and Kathy",
                   "score": "7"
                 }

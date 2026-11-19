@@ -1,36 +1,67 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/43e2fcc0-e62e-4626-b43e-a620c98f47a9",
   "name": "CA NWF LPG Pendle v Bowdon",
   "sport": "gc",
   "firstDay": "2022-07-05",
   "lastDay": "2022-07-05",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Pendle & Craven",
       "shortName": "Pendle & C",
       "players": [
-        "Andrea Widdison",
-        "Andrea Widdison - meet again",
-        "Libby Dixon",
-        "Libby Dixon - meet again",
-        "Paul Dowdall",
-        "Paul Dowdall - meet again"
+        {
+          "playerId": "team-player/0b76697b-f4c4-4377-be61-3fecf9036b16",
+          "name": "Andrea Widdison"
+        },
+        {
+          "playerId": "team-player/d464745d-6a9a-4305-9f18-1af34ef5d0bb",
+          "name": "Andrea Widdison - meet again"
+        },
+        {
+          "playerId": "team-player/e4f8940f-ab56-46ff-9f8f-f193bc00fc5a",
+          "name": "Libby Dixon"
+        },
+        {
+          "playerId": "team-player/c6154775-a610-4c4b-b576-96837caf3fab",
+          "name": "Libby Dixon - meet again"
+        },
+        {
+          "playerId": "team-player/2348c79b-6c88-421f-9f63-e9b50dc3dc8b",
+          "name": "Paul Dowdall"
+        },
+        {
+          "playerId": "team-player/2eaf9819-d803-4526-819e-057fec480fad",
+          "name": "Paul Dowdall - meet again"
+        }
       ]
     },
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Alan Mayne",
-        "Angharrad Walters",
-        "David Holland"
+        {
+          "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
+          "name": "Alan Mayne"
+        },
+        {
+          "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
+          "name": "Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
+          "name": "David Holland"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2ea415c1-d71f-4623-96c3-c2216396f989",
       "teams": [
         "Pendle & Craven",
         "Bowdon"
@@ -40,17 +71,26 @@
       "matches": [
         {
           "players": [
-            "Paul Dowdall",
-            "David Holland"
+            {
+              "playerId": "team-player/2348c79b-6c88-421f-9f63-e9b50dc3dc8b",
+              "name": "Paul Dowdall"
+            },
+            {
+              "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/73581a38-97cb-488f-a9a0-0211b03c874f",
               "players": [
                 {
+                  "playerId": "team-player/2348c79b-6c88-421f-9f63-e9b50dc3dc8b",
                   "name": "Paul Dowdall",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
                   "name": "David Holland",
                   "score": "2"
                 }
@@ -62,17 +102,26 @@
         },
         {
           "players": [
-            "Libby Dixon",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/e4f8940f-ab56-46ff-9f8f-f193bc00fc5a",
+              "name": "Libby Dixon"
+            },
+            {
+              "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cbf899c3-1bf3-4719-8869-fc562b403106",
               "players": [
                 {
+                  "playerId": "team-player/e4f8940f-ab56-46ff-9f8f-f193bc00fc5a",
                   "name": "Libby Dixon",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -84,17 +133,26 @@
         },
         {
           "players": [
-            "Andrea Widdison",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/0b76697b-f4c4-4377-be61-3fecf9036b16",
+              "name": "Andrea Widdison"
+            },
+            {
+              "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb1fc464-fe8e-4cba-9ea1-6a1aa4b8dfcb",
               "players": [
                 {
+                  "playerId": "team-player/0b76697b-f4c4-4377-be61-3fecf9036b16",
                   "name": "Andrea Widdison",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -106,17 +164,26 @@
         },
         {
           "players": [
-            "Paul Dowdall",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/2348c79b-6c88-421f-9f63-e9b50dc3dc8b",
+              "name": "Paul Dowdall"
+            },
+            {
+              "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1bde175f-8ea0-4224-9c3a-8a92fc3c829f",
               "players": [
                 {
+                  "playerId": "team-player/2348c79b-6c88-421f-9f63-e9b50dc3dc8b",
                   "name": "Paul Dowdall",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -128,17 +195,26 @@
         },
         {
           "players": [
-            "Libby Dixon",
-            "David Holland"
+            {
+              "playerId": "team-player/e4f8940f-ab56-46ff-9f8f-f193bc00fc5a",
+              "name": "Libby Dixon"
+            },
+            {
+              "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e56538f-f066-4bf4-8383-75f473f1cb58",
               "players": [
                 {
+                  "playerId": "team-player/e4f8940f-ab56-46ff-9f8f-f193bc00fc5a",
                   "name": "Libby Dixon",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
                   "name": "David Holland",
                   "score": "7"
                 }
@@ -150,17 +226,26 @@
         },
         {
           "players": [
-            "Andrea Widdison",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/0b76697b-f4c4-4377-be61-3fecf9036b16",
+              "name": "Andrea Widdison"
+            },
+            {
+              "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2d8def63-6675-4189-9d86-d29ba455428c",
               "players": [
                 {
+                  "playerId": "team-player/0b76697b-f4c4-4377-be61-3fecf9036b16",
                   "name": "Andrea Widdison",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -172,17 +257,26 @@
         },
         {
           "players": [
-            "Paul Dowdall",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/2348c79b-6c88-421f-9f63-e9b50dc3dc8b",
+              "name": "Paul Dowdall"
+            },
+            {
+              "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f008d19f-9e59-4fd1-bff4-505a619a5030",
               "players": [
                 {
+                  "playerId": "team-player/2348c79b-6c88-421f-9f63-e9b50dc3dc8b",
                   "name": "Paul Dowdall",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -194,17 +288,26 @@
         },
         {
           "players": [
-            "Libby Dixon",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/e4f8940f-ab56-46ff-9f8f-f193bc00fc5a",
+              "name": "Libby Dixon"
+            },
+            {
+              "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/50fbe139-4821-4c45-89ca-cb93566aceff",
               "players": [
                 {
+                  "playerId": "team-player/e4f8940f-ab56-46ff-9f8f-f193bc00fc5a",
                   "name": "Libby Dixon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
                   "name": "Alan Mayne",
                   "score": "6"
                 }
@@ -216,17 +319,26 @@
         },
         {
           "players": [
-            "Andrea Widdison",
-            "David Holland"
+            {
+              "playerId": "team-player/0b76697b-f4c4-4377-be61-3fecf9036b16",
+              "name": "Andrea Widdison"
+            },
+            {
+              "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/57aab72a-84c0-4e6d-a539-536053452eae",
               "players": [
                 {
+                  "playerId": "team-player/0b76697b-f4c4-4377-be61-3fecf9036b16",
                   "name": "Andrea Widdison",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
                   "name": "David Holland",
                   "score": "7"
                 }
@@ -238,17 +350,26 @@
         },
         {
           "players": [
-            "Paul Dowdall - meet again",
-            "David Holland"
+            {
+              "playerId": "team-player/2eaf9819-d803-4526-819e-057fec480fad",
+              "name": "Paul Dowdall - meet again"
+            },
+            {
+              "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/347e2180-da24-41e5-a2d1-c4951395fa74",
               "players": [
                 {
+                  "playerId": "team-player/2eaf9819-d803-4526-819e-057fec480fad",
                   "name": "Paul Dowdall - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
                   "name": "David Holland",
                   "score": "7"
                 }
@@ -260,17 +381,26 @@
         },
         {
           "players": [
-            "Libby Dixon - meet again",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/c6154775-a610-4c4b-b576-96837caf3fab",
+              "name": "Libby Dixon - meet again"
+            },
+            {
+              "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/31e07d36-c401-4283-84f6-0bcf75aed6d9",
               "players": [
                 {
+                  "playerId": "team-player/c6154775-a610-4c4b-b576-96837caf3fab",
                   "name": "Libby Dixon - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -282,17 +412,26 @@
         },
         {
           "players": [
-            "Andrea Widdison - meet again",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/d464745d-6a9a-4305-9f18-1af34ef5d0bb",
+              "name": "Andrea Widdison - meet again"
+            },
+            {
+              "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/99d674b1-b666-4009-bc75-3b361b722ba3",
               "players": [
                 {
+                  "playerId": "team-player/d464745d-6a9a-4305-9f18-1af34ef5d0bb",
                   "name": "Andrea Widdison - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -304,17 +443,26 @@
         },
         {
           "players": [
-            "Paul Dowdall - meet again",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/2eaf9819-d803-4526-819e-057fec480fad",
+              "name": "Paul Dowdall - meet again"
+            },
+            {
+              "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2b4fc459-3dae-4ba3-8392-700cf9551273",
               "players": [
                 {
+                  "playerId": "team-player/2eaf9819-d803-4526-819e-057fec480fad",
                   "name": "Paul Dowdall - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
                   "name": "Alan Mayne",
                   "score": "6"
                 }
@@ -326,17 +474,26 @@
         },
         {
           "players": [
-            "Libby Dixon - meet again",
-            "David Holland"
+            {
+              "playerId": "team-player/c6154775-a610-4c4b-b576-96837caf3fab",
+              "name": "Libby Dixon - meet again"
+            },
+            {
+              "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8e597332-6761-41ba-861e-2efcd6282400",
               "players": [
                 {
+                  "playerId": "team-player/c6154775-a610-4c4b-b576-96837caf3fab",
                   "name": "Libby Dixon - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
                   "name": "David Holland",
                   "score": "4"
                 }
@@ -348,17 +505,26 @@
         },
         {
           "players": [
-            "Andrea Widdison - meet again",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/d464745d-6a9a-4305-9f18-1af34ef5d0bb",
+              "name": "Andrea Widdison - meet again"
+            },
+            {
+              "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bf508e41-2c3e-403d-bfd7-a0c665781423",
               "players": [
                 {
+                  "playerId": "team-player/d464745d-6a9a-4305-9f18-1af34ef5d0bb",
                   "name": "Andrea Widdison - meet again",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -370,17 +536,26 @@
         },
         {
           "players": [
-            "Paul Dowdall - meet again",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/2eaf9819-d803-4526-819e-057fec480fad",
+              "name": "Paul Dowdall - meet again"
+            },
+            {
+              "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/64187236-319a-4446-8050-64d2c5ddf232",
               "players": [
                 {
+                  "playerId": "team-player/2eaf9819-d803-4526-819e-057fec480fad",
                   "name": "Paul Dowdall - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/492347a2-0fdf-4ce2-8662-d0ff011fe3da",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -392,17 +567,26 @@
         },
         {
           "players": [
-            "Libby Dixon - meet again",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/c6154775-a610-4c4b-b576-96837caf3fab",
+              "name": "Libby Dixon - meet again"
+            },
+            {
+              "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5fd568ef-b4f0-4358-ab05-2d9402eb74b5",
               "players": [
                 {
+                  "playerId": "team-player/c6154775-a610-4c4b-b576-96837caf3fab",
                   "name": "Libby Dixon - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5da0cc03-f199-45b9-b59a-4efd5f9dd2cb",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -414,17 +598,26 @@
         },
         {
           "players": [
-            "Andrea Widdison - meet again",
-            "David Holland"
+            {
+              "playerId": "team-player/d464745d-6a9a-4305-9f18-1af34ef5d0bb",
+              "name": "Andrea Widdison - meet again"
+            },
+            {
+              "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6e14bac8-0870-4e97-bf77-42f1a1152a4c",
               "players": [
                 {
+                  "playerId": "team-player/d464745d-6a9a-4305-9f18-1af34ef5d0bb",
                   "name": "Andrea Widdison - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3bdb04ec-b4f1-484a-833f-7723f5e6082a",
                   "name": "David Holland",
                   "score": "5"
                 }

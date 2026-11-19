@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/33b09da8-2cf3-4b35-a03a-72e927f11eff",
   "name": "GC Bowl Ashby v High Wycombe",
   "sport": "gc",
   "firstDay": "2026-07-13",
   "lastDay": "2026-07-13",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Ashby",
       "shortName": "Ashby",
       "players": [
-        "ColinP Carr",
-        "Heather Hardy",
-        "Heather Hardy & Ormond Hooper",
-        "Martin Wroughton",
-        "Ormond Hooper"
+        {
+          "playerId": "team-player/eea721c3-a591-4030-b590-d8b76ab0133a",
+          "name": "ColinP Carr"
+        },
+        {
+          "playerId": "team-player/62167e62-6ffb-4b23-8b94-07c6edb19bfc",
+          "name": "Heather Hardy"
+        },
+        {
+          "playerId": "team-player/1a2b98dd-f1b1-48a8-a72c-ecf67fa32f79",
+          "name": "Heather Hardy & Ormond Hooper"
+        },
+        {
+          "playerId": "team-player/f1bfea9e-990f-4043-a2dc-42fb4572436d",
+          "name": "Martin Wroughton"
+        },
+        {
+          "playerId": "team-player/39c4adfc-3f92-42eb-9810-0b7b28c76a26",
+          "name": "Ormond Hooper"
+        }
       ]
     },
     {
       "name": "High Wycombe",
       "shortName": "High Wycom",
       "players": [
-        "Andrew Maclay",
-        "James Gamon",
-        "Keith Toovey",
-        "Keith Toovey & Andrew Maclay",
-        "Nigel Moore"
+        {
+          "playerId": "team-player/63e1309a-fc30-461e-b8ce-9c7321c2ce24",
+          "name": "Andrew Maclay"
+        },
+        {
+          "playerId": "team-player/7e18e215-a499-4266-abb3-9806ba1fa3a5",
+          "name": "James Gamon"
+        },
+        {
+          "playerId": "team-player/806c16db-fd3e-4e17-b23d-fdf72dbccee6",
+          "name": "Keith Toovey"
+        },
+        {
+          "playerId": "team-player/f63bd0f1-793f-4c7b-b802-4e998a249136",
+          "name": "Keith Toovey & Andrew Maclay"
+        },
+        {
+          "playerId": "team-player/eb45d929-f92e-4b2f-be40-40ad30a6b58b",
+          "name": "Nigel Moore"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/522eee7d-916e-4396-b375-80e4980f0757",
       "teams": [
         "Ashby",
         "High Wycombe"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Heather Hardy & Ormond Hooper",
-            "Keith Toovey & Andrew Maclay"
+            {
+              "playerId": "team-player/1a2b98dd-f1b1-48a8-a72c-ecf67fa32f79",
+              "name": "Heather Hardy & Ormond Hooper"
+            },
+            {
+              "playerId": "team-player/f63bd0f1-793f-4c7b-b802-4e998a249136",
+              "name": "Keith Toovey & Andrew Maclay"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3aa0799-d7cb-41d0-b9b7-61efb914b05b",
               "players": [
                 {
+                  "playerId": "team-player/1a2b98dd-f1b1-48a8-a72c-ecf67fa32f79",
                   "name": "Heather Hardy & Ormond Hooper",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f63bd0f1-793f-4c7b-b802-4e998a249136",
                   "name": "Keith Toovey & Andrew Maclay",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8f819829-a536-44b8-9a5f-8092f7ac2e8f",
               "players": [
                 {
+                  "playerId": "team-player/1a2b98dd-f1b1-48a8-a72c-ecf67fa32f79",
                   "name": "Heather Hardy & Ormond Hooper",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f63bd0f1-793f-4c7b-b802-4e998a249136",
                   "name": "Keith Toovey & Andrew Maclay",
                   "score": "6"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Martin Wroughton",
-            "James Gamon"
+            {
+              "playerId": "team-player/f1bfea9e-990f-4043-a2dc-42fb4572436d",
+              "name": "Martin Wroughton"
+            },
+            {
+              "playerId": "team-player/7e18e215-a499-4266-abb3-9806ba1fa3a5",
+              "name": "James Gamon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3af5ecf4-f214-4acc-be79-350b0c8df710",
               "players": [
                 {
+                  "playerId": "team-player/f1bfea9e-990f-4043-a2dc-42fb4572436d",
                   "name": "Martin Wroughton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7e18e215-a499-4266-abb3-9806ba1fa3a5",
                   "name": "James Gamon",
                   "score": "6"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0cc506c6-1390-4a3a-b41a-49061eea7059",
               "players": [
                 {
+                  "playerId": "team-player/f1bfea9e-990f-4043-a2dc-42fb4572436d",
                   "name": "Martin Wroughton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7e18e215-a499-4266-abb3-9806ba1fa3a5",
                   "name": "James Gamon",
                   "score": "2"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "ColinP Carr",
-            "Nigel Moore"
+            {
+              "playerId": "team-player/eea721c3-a591-4030-b590-d8b76ab0133a",
+              "name": "ColinP Carr"
+            },
+            {
+              "playerId": "team-player/eb45d929-f92e-4b2f-be40-40ad30a6b58b",
+              "name": "Nigel Moore"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c12736ed-4a82-4756-abb2-740bd2a5de96",
               "players": [
                 {
+                  "playerId": "team-player/eea721c3-a591-4030-b590-d8b76ab0133a",
                   "name": "ColinP Carr",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/eb45d929-f92e-4b2f-be40-40ad30a6b58b",
                   "name": "Nigel Moore",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f8a778e0-0f55-4c06-8cc2-67d28de54815",
               "players": [
                 {
+                  "playerId": "team-player/eea721c3-a591-4030-b590-d8b76ab0133a",
                   "name": "ColinP Carr",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/eb45d929-f92e-4b2f-be40-40ad30a6b58b",
                   "name": "Nigel Moore",
                   "score": "7"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "Heather Hardy",
-            "Keith Toovey"
+            {
+              "playerId": "team-player/62167e62-6ffb-4b23-8b94-07c6edb19bfc",
+              "name": "Heather Hardy"
+            },
+            {
+              "playerId": "team-player/806c16db-fd3e-4e17-b23d-fdf72dbccee6",
+              "name": "Keith Toovey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/58996c60-2622-4387-abd7-a787f0d965cc",
               "players": [
                 {
+                  "playerId": "team-player/62167e62-6ffb-4b23-8b94-07c6edb19bfc",
                   "name": "Heather Hardy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/806c16db-fd3e-4e17-b23d-fdf72dbccee6",
                   "name": "Keith Toovey",
                   "score": "6"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c734621f-20bc-4977-a410-355041f06a22",
               "players": [
                 {
+                  "playerId": "team-player/62167e62-6ffb-4b23-8b94-07c6edb19bfc",
                   "name": "Heather Hardy",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/806c16db-fd3e-4e17-b23d-fdf72dbccee6",
                   "name": "Keith Toovey",
                   "score": "7"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3d9c5a3c-77f9-4454-affe-21f3d218114a",
               "players": [
                 {
+                  "playerId": "team-player/62167e62-6ffb-4b23-8b94-07c6edb19bfc",
                   "name": "Heather Hardy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/806c16db-fd3e-4e17-b23d-fdf72dbccee6",
                   "name": "Keith Toovey",
                   "score": "3"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Ormond Hooper",
-            "Andrew Maclay"
+            {
+              "playerId": "team-player/39c4adfc-3f92-42eb-9810-0b7b28c76a26",
+              "name": "Ormond Hooper"
+            },
+            {
+              "playerId": "team-player/63e1309a-fc30-461e-b8ce-9c7321c2ce24",
+              "name": "Andrew Maclay"
+            }
           ],
           "games": [
             {
+              "gameId": "game/be7f83b4-4c64-4f75-98fb-810d8b8a8210",
               "players": [
                 {
+                  "playerId": "team-player/39c4adfc-3f92-42eb-9810-0b7b28c76a26",
                   "name": "Ormond Hooper",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/63e1309a-fc30-461e-b8ce-9c7321c2ce24",
                   "name": "Andrew Maclay",
                   "score": "2"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ddd9c867-96f6-4a69-9a10-4d055f9844d3",
               "players": [
                 {
+                  "playerId": "team-player/39c4adfc-3f92-42eb-9810-0b7b28c76a26",
                   "name": "Ormond Hooper",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/63e1309a-fc30-461e-b8ce-9c7321c2ce24",
                   "name": "Andrew Maclay",
                   "score": "7"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e75f0271-9578-46d0-a342-9430924806c8",
               "players": [
                 {
+                  "playerId": "team-player/39c4adfc-3f92-42eb-9810-0b7b28c76a26",
                   "name": "Ormond Hooper",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/63e1309a-fc30-461e-b8ce-9c7321c2ce24",
                   "name": "Andrew Maclay",
                   "score": "5"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Martin Wroughton",
-            "Nigel Moore"
+            {
+              "playerId": "team-player/f1bfea9e-990f-4043-a2dc-42fb4572436d",
+              "name": "Martin Wroughton"
+            },
+            {
+              "playerId": "team-player/eb45d929-f92e-4b2f-be40-40ad30a6b58b",
+              "name": "Nigel Moore"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c4418ee-7599-4627-8d75-187867d70a52",
               "players": [
                 {
+                  "playerId": "team-player/f1bfea9e-990f-4043-a2dc-42fb4572436d",
                   "name": "Martin Wroughton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/eb45d929-f92e-4b2f-be40-40ad30a6b58b",
                   "name": "Nigel Moore",
                   "score": "6"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9067f1f8-042d-4e08-a1db-5761c6489c22",
               "players": [
                 {
+                  "playerId": "team-player/f1bfea9e-990f-4043-a2dc-42fb4572436d",
                   "name": "Martin Wroughton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/eb45d929-f92e-4b2f-be40-40ad30a6b58b",
                   "name": "Nigel Moore",
                   "score": "7"
                 }
@@ -282,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d87451a9-32d4-4120-a10b-c46b27d6cd74",
               "players": [
                 {
+                  "playerId": "team-player/f1bfea9e-990f-4043-a2dc-42fb4572436d",
                   "name": "Martin Wroughton",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/eb45d929-f92e-4b2f-be40-40ad30a6b58b",
                   "name": "Nigel Moore",
                   "score": "7"
                 }
@@ -299,17 +414,26 @@
         },
         {
           "players": [
-            "ColinP Carr",
-            "James Gamon"
+            {
+              "playerId": "team-player/eea721c3-a591-4030-b590-d8b76ab0133a",
+              "name": "ColinP Carr"
+            },
+            {
+              "playerId": "team-player/7e18e215-a499-4266-abb3-9806ba1fa3a5",
+              "name": "James Gamon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/57f10212-0c39-4b69-a1a1-2e15ae9f24ff",
               "players": [
                 {
+                  "playerId": "team-player/eea721c3-a591-4030-b590-d8b76ab0133a",
                   "name": "ColinP Carr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7e18e215-a499-4266-abb3-9806ba1fa3a5",
                   "name": "James Gamon",
                   "score": "5"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fd12b59c-7a78-4775-98c9-0f7471d4cb6f",
               "players": [
                 {
+                  "playerId": "team-player/eea721c3-a591-4030-b590-d8b76ab0133a",
                   "name": "ColinP Carr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7e18e215-a499-4266-abb3-9806ba1fa3a5",
                   "name": "James Gamon",
                   "score": "2"
                 }

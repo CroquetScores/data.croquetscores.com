@@ -1,38 +1,75 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/06b8c05f-5189-441f-ac80-d05f44cf15c2",
   "name": "Mary Rose heat",
   "sport": "ac",
   "firstDay": "2016-07-11",
   "lastDay": "2016-07-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Dyffryn",
       "shortName": "Dyffryn",
       "players": [
-        "Adrian Trickey",
-        "Kevin Ham",
-        "Robert Upton",
-        "Sarah Melvin",
-        "Sarah Melvin & Kevin Ham"
+        {
+          "playerId": "team-player/f76afb03-f9e9-4b2f-a1a2-779eb26431f1",
+          "name": "Adrian Trickey"
+        },
+        {
+          "playerId": "team-player/dc51c668-bd63-49b2-8933-99537c609388",
+          "name": "Kevin Ham"
+        },
+        {
+          "playerId": "team-player/01e8e913-512f-4bd8-ab03-09c652e5b112",
+          "name": "Robert Upton"
+        },
+        {
+          "playerId": "team-player/abee8e51-c53d-4440-80a9-87d18831b398",
+          "name": "Sarah Melvin"
+        },
+        {
+          "playerId": "team-player/8d612598-5d62-432a-9209-3ed081f14c85",
+          "name": "Sarah Melvin & Kevin Ham"
+        }
       ]
     },
     {
       "name": "East Dorset",
       "shortName": "East Dorse",
       "players": [
-        "David Kendrick",
-        "David Kendrick & Tom Weston",
-        "David Williams",
-        "Tim Dennis",
-        "Timothy Dennis",
-        "Tom Weston"
+        {
+          "playerId": "team-player/dc62be46-299b-4618-8e13-8185d0427a8f",
+          "name": "David Kendrick"
+        },
+        {
+          "playerId": "team-player/b88fe072-3efc-4132-b928-a00dae5b5a76",
+          "name": "David Kendrick & Tom Weston"
+        },
+        {
+          "playerId": "team-player/63cd7b64-a9e3-4c5d-941e-ce9fc4b3d621",
+          "name": "David Williams"
+        },
+        {
+          "playerId": "team-player/338115d9-64be-4d44-a951-f122e4b721c9",
+          "name": "Tim Dennis"
+        },
+        {
+          "playerId": "team-player/71b694dc-d18d-4bc9-9821-b6234148f43a",
+          "name": "Timothy Dennis"
+        },
+        {
+          "playerId": "team-player/60334f62-187c-43f7-9c4e-e49feb59b67e",
+          "name": "Tom Weston"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/9cf69bd5-c467-4d33-8f33-921c2380a70f",
       "teams": [
         "Dyffryn",
         "East Dorset"
@@ -42,17 +79,26 @@
       "matches": [
         {
           "players": [
-            "Sarah Melvin & Kevin Ham",
-            "David Kendrick & Tom Weston"
+            {
+              "playerId": "team-player/8d612598-5d62-432a-9209-3ed081f14c85",
+              "name": "Sarah Melvin & Kevin Ham"
+            },
+            {
+              "playerId": "team-player/b88fe072-3efc-4132-b928-a00dae5b5a76",
+              "name": "David Kendrick & Tom Weston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ee3eaf89-28e5-41db-b09f-37b6f546d70c",
               "players": [
                 {
+                  "playerId": "team-player/8d612598-5d62-432a-9209-3ed081f14c85",
                   "name": "Sarah Melvin & Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b88fe072-3efc-4132-b928-a00dae5b5a76",
                   "name": "David Kendrick & Tom Weston",
                   "score": "26"
                 }
@@ -64,17 +110,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Tim Dennis"
+            {
+              "playerId": "team-player/01e8e913-512f-4bd8-ab03-09c652e5b112",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/338115d9-64be-4d44-a951-f122e4b721c9",
+              "name": "Tim Dennis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d81b2e62-6b0a-4188-87fb-35597b2e5caf",
               "players": [
                 {
+                  "playerId": "team-player/01e8e913-512f-4bd8-ab03-09c652e5b112",
                   "name": "Robert Upton",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/338115d9-64be-4d44-a951-f122e4b721c9",
                   "name": "Tim Dennis",
                   "score": "22"
                 }
@@ -86,17 +141,26 @@
         },
         {
           "players": [
-            "Adrian Trickey",
-            "David Williams"
+            {
+              "playerId": "team-player/f76afb03-f9e9-4b2f-a1a2-779eb26431f1",
+              "name": "Adrian Trickey"
+            },
+            {
+              "playerId": "team-player/63cd7b64-a9e3-4c5d-941e-ce9fc4b3d621",
+              "name": "David Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6a345787-f13e-45de-91e1-1cee04a3ad1d",
               "players": [
                 {
+                  "playerId": "team-player/f76afb03-f9e9-4b2f-a1a2-779eb26431f1",
                   "name": "Adrian Trickey",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/63cd7b64-a9e3-4c5d-941e-ce9fc4b3d621",
                   "name": "David Williams",
                   "score": "26"
                 }
@@ -108,17 +172,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "David Kendrick"
+            {
+              "playerId": "team-player/abee8e51-c53d-4440-80a9-87d18831b398",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/dc62be46-299b-4618-8e13-8185d0427a8f",
+              "name": "David Kendrick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3551cf15-a474-428e-b641-d90f918d251a",
               "players": [
                 {
+                  "playerId": "team-player/abee8e51-c53d-4440-80a9-87d18831b398",
                   "name": "Sarah Melvin",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/dc62be46-299b-4618-8e13-8185d0427a8f",
                   "name": "David Kendrick",
                   "score": "26"
                 }
@@ -130,17 +203,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Tom Weston"
+            {
+              "playerId": "team-player/dc51c668-bd63-49b2-8933-99537c609388",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/60334f62-187c-43f7-9c4e-e49feb59b67e",
+              "name": "Tom Weston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b853277-4c85-4775-af40-db103403261c",
               "players": [
                 {
+                  "playerId": "team-player/dc51c668-bd63-49b2-8933-99537c609388",
                   "name": "Kevin Ham",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/60334f62-187c-43f7-9c4e-e49feb59b67e",
                   "name": "Tom Weston",
                   "score": "15"
                 }
@@ -152,17 +234,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "David Williams"
+            {
+              "playerId": "team-player/01e8e913-512f-4bd8-ab03-09c652e5b112",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/63cd7b64-a9e3-4c5d-941e-ce9fc4b3d621",
+              "name": "David Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e91b43f8-b283-4120-884a-f63777883b8f",
               "players": [
                 {
+                  "playerId": "team-player/01e8e913-512f-4bd8-ab03-09c652e5b112",
                   "name": "Robert Upton",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/63cd7b64-a9e3-4c5d-941e-ce9fc4b3d621",
                   "name": "David Williams",
                   "score": "15"
                 }
@@ -174,17 +265,26 @@
         },
         {
           "players": [
-            "Adrian Trickey",
-            "Tim Dennis"
+            {
+              "playerId": "team-player/f76afb03-f9e9-4b2f-a1a2-779eb26431f1",
+              "name": "Adrian Trickey"
+            },
+            {
+              "playerId": "team-player/338115d9-64be-4d44-a951-f122e4b721c9",
+              "name": "Tim Dennis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff7007f6-645c-4d99-b8f4-3d78e329e0c8",
               "players": [
                 {
+                  "playerId": "team-player/f76afb03-f9e9-4b2f-a1a2-779eb26431f1",
                   "name": "Adrian Trickey",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/338115d9-64be-4d44-a951-f122e4b721c9",
                   "name": "Tim Dennis",
                   "score": "26"
                 }

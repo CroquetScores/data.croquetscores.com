@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/16d0e4b4-503e-4d30-8c47-e9c2399597cc",
   "name": "Geographe Challenge",
   "sport": "gc",
   "firstDay": "2024-10-05",
   "lastDay": "2024-10-05",
   "country": "au",
   "region": "wa",
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Busselton",
       "shortName": "Busselton",
       "players": [
-        "Allan & Vicki",
-        "Barry & Roger",
-        "Steve & Ellen",
-        "Trevor & Betty"
+        {
+          "playerId": "team-player/28e7d6cd-de71-4ba7-a196-bd3b26f33c68",
+          "name": "Allan & Vicki"
+        },
+        {
+          "playerId": "team-player/f42cb614-4565-4b78-a2e0-1eaa3d1cac2c",
+          "name": "Barry & Roger"
+        },
+        {
+          "playerId": "team-player/e9f31f30-bc42-47ac-8df6-1218df7908b3",
+          "name": "Steve & Ellen"
+        },
+        {
+          "playerId": "team-player/49f6c323-5549-49ba-bf25-004fb4a33ef6",
+          "name": "Trevor & Betty"
+        }
       ]
     },
     {
       "name": "Dunsborough",
       "shortName": "Dunsboroug",
       "players": [
-        "Anthony & Brian",
-        "Janice & Allan",
-        "Odette & Graeme",
-        "Wendy & Richard"
+        {
+          "playerId": "team-player/b5c43c64-b652-4a28-9d3f-e86a9f278ad8",
+          "name": "Anthony & Brian"
+        },
+        {
+          "playerId": "team-player/99f1d14f-f8a9-492c-a984-1c5d19a3cc6a",
+          "name": "Janice & Allan"
+        },
+        {
+          "playerId": "team-player/fd2a21cd-195b-40cf-bd43-258560b97653",
+          "name": "Odette & Graeme"
+        },
+        {
+          "playerId": "team-player/41147bae-63cb-4a8c-a93b-60eed79ae55f",
+          "name": "Wendy & Richard"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2ea4adb4-4256-4432-b082-735aaf27a7a0",
       "teams": [
         "Busselton",
         "Dunsborough"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Allan & Vicki",
-            "Anthony & Brian"
+            {
+              "playerId": "team-player/28e7d6cd-de71-4ba7-a196-bd3b26f33c68",
+              "name": "Allan & Vicki"
+            },
+            {
+              "playerId": "team-player/b5c43c64-b652-4a28-9d3f-e86a9f278ad8",
+              "name": "Anthony & Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/11c16f6d-f736-465e-93af-a8ad2830f52d",
               "players": [
                 {
+                  "playerId": "team-player/28e7d6cd-de71-4ba7-a196-bd3b26f33c68",
                   "name": "Allan & Vicki",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/b5c43c64-b652-4a28-9d3f-e86a9f278ad8",
                   "name": "Anthony & Brian",
                   "score": "6"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Barry & Roger",
-            "Wendy & Richard"
+            {
+              "playerId": "team-player/f42cb614-4565-4b78-a2e0-1eaa3d1cac2c",
+              "name": "Barry & Roger"
+            },
+            {
+              "playerId": "team-player/41147bae-63cb-4a8c-a93b-60eed79ae55f",
+              "name": "Wendy & Richard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c61c565a-bcb3-42e2-83b1-b07549a6260e",
               "players": [
                 {
+                  "playerId": "team-player/f42cb614-4565-4b78-a2e0-1eaa3d1cac2c",
                   "name": "Barry & Roger",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/41147bae-63cb-4a8c-a93b-60eed79ae55f",
                   "name": "Wendy & Richard",
                   "score": "7"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Trevor & Betty",
-            "Odette & Graeme"
+            {
+              "playerId": "team-player/49f6c323-5549-49ba-bf25-004fb4a33ef6",
+              "name": "Trevor & Betty"
+            },
+            {
+              "playerId": "team-player/fd2a21cd-195b-40cf-bd43-258560b97653",
+              "name": "Odette & Graeme"
+            }
           ],
           "games": [
             {
+              "gameId": "game/79755ad1-89a1-4880-a254-406fa61180c7",
               "players": [
                 {
+                  "playerId": "team-player/49f6c323-5549-49ba-bf25-004fb4a33ef6",
                   "name": "Trevor & Betty",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/fd2a21cd-195b-40cf-bd43-258560b97653",
                   "name": "Odette & Graeme",
                   "score": "6"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Steve & Ellen",
-            "Janice & Allan"
+            {
+              "playerId": "team-player/e9f31f30-bc42-47ac-8df6-1218df7908b3",
+              "name": "Steve & Ellen"
+            },
+            {
+              "playerId": "team-player/99f1d14f-f8a9-492c-a984-1c5d19a3cc6a",
+              "name": "Janice & Allan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/651f9c32-fb35-4183-94e7-61e5b64e3b09",
               "players": [
                 {
+                  "playerId": "team-player/e9f31f30-bc42-47ac-8df6-1218df7908b3",
                   "name": "Steve & Ellen",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/99f1d14f-f8a9-492c-a984-1c5d19a3cc6a",
                   "name": "Janice & Allan",
                   "score": "7"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Allan & Vicki",
-            "Janice & Allan"
+            {
+              "playerId": "team-player/28e7d6cd-de71-4ba7-a196-bd3b26f33c68",
+              "name": "Allan & Vicki"
+            },
+            {
+              "playerId": "team-player/99f1d14f-f8a9-492c-a984-1c5d19a3cc6a",
+              "name": "Janice & Allan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d91845e9-fedf-4de9-80fc-766c0b9a09ab",
               "players": [
                 {
+                  "playerId": "team-player/28e7d6cd-de71-4ba7-a196-bd3b26f33c68",
                   "name": "Allan & Vicki",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/99f1d14f-f8a9-492c-a984-1c5d19a3cc6a",
                   "name": "Janice & Allan",
                   "score": "3"
                 }
@@ -149,17 +222,26 @@
         },
         {
           "players": [
-            "Barry & Roger",
-            "Anthony & Brian"
+            {
+              "playerId": "team-player/f42cb614-4565-4b78-a2e0-1eaa3d1cac2c",
+              "name": "Barry & Roger"
+            },
+            {
+              "playerId": "team-player/b5c43c64-b652-4a28-9d3f-e86a9f278ad8",
+              "name": "Anthony & Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/612d6c2f-d9bc-43df-9fe7-13f3b1e9dba9",
               "players": [
                 {
+                  "playerId": "team-player/f42cb614-4565-4b78-a2e0-1eaa3d1cac2c",
                   "name": "Barry & Roger",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/b5c43c64-b652-4a28-9d3f-e86a9f278ad8",
                   "name": "Anthony & Brian",
                   "score": "5"
                 }
@@ -171,17 +253,26 @@
         },
         {
           "players": [
-            "Trevor & Betty",
-            "Wendy & Richard"
+            {
+              "playerId": "team-player/49f6c323-5549-49ba-bf25-004fb4a33ef6",
+              "name": "Trevor & Betty"
+            },
+            {
+              "playerId": "team-player/41147bae-63cb-4a8c-a93b-60eed79ae55f",
+              "name": "Wendy & Richard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d04e1cb4-01d2-4964-b78d-84323f775422",
               "players": [
                 {
+                  "playerId": "team-player/49f6c323-5549-49ba-bf25-004fb4a33ef6",
                   "name": "Trevor & Betty",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/41147bae-63cb-4a8c-a93b-60eed79ae55f",
                   "name": "Wendy & Richard",
                   "score": "6"
                 }
@@ -193,17 +284,26 @@
         },
         {
           "players": [
-            "Steve & Ellen",
-            "Odette & Graeme"
+            {
+              "playerId": "team-player/e9f31f30-bc42-47ac-8df6-1218df7908b3",
+              "name": "Steve & Ellen"
+            },
+            {
+              "playerId": "team-player/fd2a21cd-195b-40cf-bd43-258560b97653",
+              "name": "Odette & Graeme"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ceb5d11d-806d-46a1-b7b7-9f7c9128b106",
               "players": [
                 {
+                  "playerId": "team-player/e9f31f30-bc42-47ac-8df6-1218df7908b3",
                   "name": "Steve & Ellen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd2a21cd-195b-40cf-bd43-258560b97653",
                   "name": "Odette & Graeme",
                   "score": "6"
                 }
@@ -215,17 +315,26 @@
         },
         {
           "players": [
-            "Allan & Vicki",
-            "Odette & Graeme"
+            {
+              "playerId": "team-player/28e7d6cd-de71-4ba7-a196-bd3b26f33c68",
+              "name": "Allan & Vicki"
+            },
+            {
+              "playerId": "team-player/fd2a21cd-195b-40cf-bd43-258560b97653",
+              "name": "Odette & Graeme"
+            }
           ],
           "games": [
             {
+              "gameId": "game/36969ab6-f235-4f05-abdb-cc06c84b5f6a",
               "players": [
                 {
+                  "playerId": "team-player/28e7d6cd-de71-4ba7-a196-bd3b26f33c68",
                   "name": "Allan & Vicki",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd2a21cd-195b-40cf-bd43-258560b97653",
                   "name": "Odette & Graeme",
                   "score": "4"
                 }
@@ -237,17 +346,26 @@
         },
         {
           "players": [
-            "Barry & Roger",
-            "Janice & Allan"
+            {
+              "playerId": "team-player/f42cb614-4565-4b78-a2e0-1eaa3d1cac2c",
+              "name": "Barry & Roger"
+            },
+            {
+              "playerId": "team-player/99f1d14f-f8a9-492c-a984-1c5d19a3cc6a",
+              "name": "Janice & Allan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5144abd-828f-4025-969c-d6b43757eae5",
               "players": [
                 {
+                  "playerId": "team-player/f42cb614-4565-4b78-a2e0-1eaa3d1cac2c",
                   "name": "Barry & Roger",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/99f1d14f-f8a9-492c-a984-1c5d19a3cc6a",
                   "name": "Janice & Allan",
                   "score": "6"
                 }
@@ -259,17 +377,26 @@
         },
         {
           "players": [
-            "Trevor & Betty",
-            "Anthony & Brian"
+            {
+              "playerId": "team-player/49f6c323-5549-49ba-bf25-004fb4a33ef6",
+              "name": "Trevor & Betty"
+            },
+            {
+              "playerId": "team-player/b5c43c64-b652-4a28-9d3f-e86a9f278ad8",
+              "name": "Anthony & Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b97a1811-7b9f-48ab-a72b-3e80f64ebdea",
               "players": [
                 {
+                  "playerId": "team-player/49f6c323-5549-49ba-bf25-004fb4a33ef6",
                   "name": "Trevor & Betty",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/b5c43c64-b652-4a28-9d3f-e86a9f278ad8",
                   "name": "Anthony & Brian",
                   "score": "7"
                 }
@@ -281,17 +408,26 @@
         },
         {
           "players": [
-            "Steve & Ellen",
-            "Wendy & Richard"
+            {
+              "playerId": "team-player/e9f31f30-bc42-47ac-8df6-1218df7908b3",
+              "name": "Steve & Ellen"
+            },
+            {
+              "playerId": "team-player/41147bae-63cb-4a8c-a93b-60eed79ae55f",
+              "name": "Wendy & Richard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3bfec7a2-4a8d-4906-afc9-1048bd348f2d",
               "players": [
                 {
+                  "playerId": "team-player/e9f31f30-bc42-47ac-8df6-1218df7908b3",
                   "name": "Steve & Ellen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/41147bae-63cb-4a8c-a93b-60eed79ae55f",
                   "name": "Wendy & Richard",
                   "score": "7"
                 }
@@ -303,17 +439,26 @@
         },
         {
           "players": [
-            "Steve & Ellen",
-            "Anthony & Brian"
+            {
+              "playerId": "team-player/e9f31f30-bc42-47ac-8df6-1218df7908b3",
+              "name": "Steve & Ellen"
+            },
+            {
+              "playerId": "team-player/b5c43c64-b652-4a28-9d3f-e86a9f278ad8",
+              "name": "Anthony & Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/056f07ab-6f67-4f3d-b90b-d7a21231be4a",
               "players": [
                 {
+                  "playerId": "team-player/e9f31f30-bc42-47ac-8df6-1218df7908b3",
                   "name": "Steve & Ellen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b5c43c64-b652-4a28-9d3f-e86a9f278ad8",
                   "name": "Anthony & Brian",
                   "score": "7"
                 }
@@ -325,17 +470,26 @@
         },
         {
           "players": [
-            "Barry & Roger",
-            "Odette & Graeme"
+            {
+              "playerId": "team-player/f42cb614-4565-4b78-a2e0-1eaa3d1cac2c",
+              "name": "Barry & Roger"
+            },
+            {
+              "playerId": "team-player/fd2a21cd-195b-40cf-bd43-258560b97653",
+              "name": "Odette & Graeme"
+            }
           ],
           "games": [
             {
+              "gameId": "game/519bb6b8-7b20-4696-b059-90ec22e6e3f5",
               "players": [
                 {
+                  "playerId": "team-player/f42cb614-4565-4b78-a2e0-1eaa3d1cac2c",
                   "name": "Barry & Roger",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd2a21cd-195b-40cf-bd43-258560b97653",
                   "name": "Odette & Graeme",
                   "score": "6"
                 }
@@ -347,17 +501,26 @@
         },
         {
           "players": [
-            "Allan & Vicki",
-            "Wendy & Richard"
+            {
+              "playerId": "team-player/28e7d6cd-de71-4ba7-a196-bd3b26f33c68",
+              "name": "Allan & Vicki"
+            },
+            {
+              "playerId": "team-player/41147bae-63cb-4a8c-a93b-60eed79ae55f",
+              "name": "Wendy & Richard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ea4e3359-b1d7-4202-a1ed-572bfdc361f0",
               "players": [
                 {
+                  "playerId": "team-player/28e7d6cd-de71-4ba7-a196-bd3b26f33c68",
                   "name": "Allan & Vicki",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/41147bae-63cb-4a8c-a93b-60eed79ae55f",
                   "name": "Wendy & Richard",
                   "score": "3"
                 }
@@ -369,17 +532,26 @@
         },
         {
           "players": [
-            "Trevor & Betty",
-            "Janice & Allan"
+            {
+              "playerId": "team-player/49f6c323-5549-49ba-bf25-004fb4a33ef6",
+              "name": "Trevor & Betty"
+            },
+            {
+              "playerId": "team-player/99f1d14f-f8a9-492c-a984-1c5d19a3cc6a",
+              "name": "Janice & Allan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/366f7567-e298-4ce4-9c39-426f7a414372",
               "players": [
                 {
+                  "playerId": "team-player/49f6c323-5549-49ba-bf25-004fb4a33ef6",
                   "name": "Trevor & Betty",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/99f1d14f-f8a9-492c-a984-1c5d19a3cc6a",
                   "name": "Janice & Allan",
                   "score": "5"
                 }

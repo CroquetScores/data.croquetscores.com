@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5c75d2bc-e84a-4775-a489-253ea1e67e31",
   "name": "The Winter International",
   "sport": "gc",
   "firstDay": "2025-01-25",
   "lastDay": "2025-01-25",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Wales",
       "shortName": "WAL",
       "players": [
-        "Angharrad Walters",
-        "Angharrad Walters & Dave Evans",
-        "Chris Roberts",
-        "Dave Evans",
-        "Ian Burridge",
-        "Ian Burridge & Chris Roberts"
+        {
+          "playerId": "team-player/85ef19dd-d160-4810-a98b-3752f9f70714",
+          "name": "Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/96a2ea9b-85bc-4b74-aaeb-f0c7e91d77ae",
+          "name": "Angharrad Walters & Dave Evans"
+        },
+        {
+          "playerId": "team-player/0cea19b9-6410-458f-9f06-bc3ad711bf82",
+          "name": "Chris Roberts"
+        },
+        {
+          "playerId": "team-player/a5d665c3-f330-486d-9f92-c3d7a3643863",
+          "name": "Dave Evans"
+        },
+        {
+          "playerId": "team-player/f437db87-19b9-4ae2-97c0-8274de0b0d0d",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/849d216b-496b-4387-8c4d-d9d325cfb096",
+          "name": "Ian Burridge & Chris Roberts"
+        }
       ]
     },
     {
       "name": "England OS Squad",
       "shortName": "England OS",
       "players": [
-        "Aston Wade",
-        "Euan Burridge",
-        "Euan Burridge & James Death",
-        "Jack Good",
-        "Jack Good & Aston Wade",
-        "James Death"
+        {
+          "playerId": "team-player/412d84a2-d5ef-4cb2-84fe-8b575af4dcbb",
+          "name": "Aston Wade"
+        },
+        {
+          "playerId": "team-player/76238158-d132-4cdb-a1e1-881f78135cd4",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/0f35da11-95d4-449b-82fe-99c48b2b36ba",
+          "name": "Euan Burridge & James Death"
+        },
+        {
+          "playerId": "team-player/877795c7-f2df-4c03-8f8a-c08f32a8bfd0",
+          "name": "Jack Good"
+        },
+        {
+          "playerId": "team-player/d3373427-1e19-436a-ab00-2d88af748547",
+          "name": "Jack Good & Aston Wade"
+        },
+        {
+          "playerId": "team-player/6fd4138d-a3f7-49db-88c3-28021d8ee9d5",
+          "name": "James Death"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/6205dde6-2df5-4e99-b64b-73e2865dd42c",
       "teams": [
         "Wales",
         "England OS Squad"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Angharrad Walters & Dave Evans",
-            "Jack Good & Aston Wade"
+            {
+              "playerId": "team-player/96a2ea9b-85bc-4b74-aaeb-f0c7e91d77ae",
+              "name": "Angharrad Walters & Dave Evans"
+            },
+            {
+              "playerId": "team-player/d3373427-1e19-436a-ab00-2d88af748547",
+              "name": "Jack Good & Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f71dbf88-41db-4fa3-97ed-7002666eed9c",
               "players": [
                 {
+                  "playerId": "team-player/96a2ea9b-85bc-4b74-aaeb-f0c7e91d77ae",
                   "name": "Angharrad Walters & Dave Evans",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d3373427-1e19-436a-ab00-2d88af748547",
                   "name": "Jack Good & Aston Wade",
                   "score": "7"
                 }
@@ -62,12 +111,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cd5cc090-9cde-4e55-89ed-85185cc8579d",
               "players": [
                 {
+                  "playerId": "team-player/96a2ea9b-85bc-4b74-aaeb-f0c7e91d77ae",
                   "name": "Angharrad Walters & Dave Evans",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d3373427-1e19-436a-ab00-2d88af748547",
                   "name": "Jack Good & Aston Wade",
                   "score": "7"
                 }
@@ -79,17 +131,26 @@
         },
         {
           "players": [
-            "Ian Burridge & Chris Roberts",
-            "Euan Burridge & James Death"
+            {
+              "playerId": "team-player/849d216b-496b-4387-8c4d-d9d325cfb096",
+              "name": "Ian Burridge & Chris Roberts"
+            },
+            {
+              "playerId": "team-player/0f35da11-95d4-449b-82fe-99c48b2b36ba",
+              "name": "Euan Burridge & James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f9bc3a9-28bc-4d34-9fbd-b69e243f9eba",
               "players": [
                 {
+                  "playerId": "team-player/849d216b-496b-4387-8c4d-d9d325cfb096",
                   "name": "Ian Burridge & Chris Roberts",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0f35da11-95d4-449b-82fe-99c48b2b36ba",
                   "name": "Euan Burridge & James Death",
                   "score": "7"
                 }
@@ -98,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f61458b6-2bc8-469e-a017-cb2dfcce6928",
               "players": [
                 {
+                  "playerId": "team-player/849d216b-496b-4387-8c4d-d9d325cfb096",
                   "name": "Ian Burridge & Chris Roberts",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/0f35da11-95d4-449b-82fe-99c48b2b36ba",
                   "name": "Euan Burridge & James Death",
                   "score": "7"
                 }
@@ -115,17 +179,26 @@
         },
         {
           "players": [
-            "Dave Evans",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/a5d665c3-f330-486d-9f92-c3d7a3643863",
+              "name": "Dave Evans"
+            },
+            {
+              "playerId": "team-player/76238158-d132-4cdb-a1e1-881f78135cd4",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9da64694-02e6-4869-be54-98c4aeb18bbe",
               "players": [
                 {
+                  "playerId": "team-player/a5d665c3-f330-486d-9f92-c3d7a3643863",
                   "name": "Dave Evans",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/76238158-d132-4cdb-a1e1-881f78135cd4",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -134,12 +207,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/05b01d03-e549-43db-bc3d-84d4d7b42d32",
               "players": [
                 {
+                  "playerId": "team-player/a5d665c3-f330-486d-9f92-c3d7a3643863",
                   "name": "Dave Evans",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/76238158-d132-4cdb-a1e1-881f78135cd4",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -151,17 +227,26 @@
         },
         {
           "players": [
-            "Angharrad Walters",
-            "James Death"
+            {
+              "playerId": "team-player/85ef19dd-d160-4810-a98b-3752f9f70714",
+              "name": "Angharrad Walters"
+            },
+            {
+              "playerId": "team-player/6fd4138d-a3f7-49db-88c3-28021d8ee9d5",
+              "name": "James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d3871767-d0c2-4867-8937-645df8a0b907",
               "players": [
                 {
+                  "playerId": "team-player/85ef19dd-d160-4810-a98b-3752f9f70714",
                   "name": "Angharrad Walters",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/6fd4138d-a3f7-49db-88c3-28021d8ee9d5",
                   "name": "James Death",
                   "score": "7"
                 }
@@ -170,12 +255,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e1088a52-bf29-46cc-83f7-3e7925fbdafd",
               "players": [
                 {
+                  "playerId": "team-player/85ef19dd-d160-4810-a98b-3752f9f70714",
                   "name": "Angharrad Walters",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6fd4138d-a3f7-49db-88c3-28021d8ee9d5",
                   "name": "James Death",
                   "score": "5"
                 }
@@ -187,17 +275,26 @@
         },
         {
           "players": [
-            "Ian Burridge & Chris Roberts",
-            "Jack Good & Aston Wade"
+            {
+              "playerId": "team-player/849d216b-496b-4387-8c4d-d9d325cfb096",
+              "name": "Ian Burridge & Chris Roberts"
+            },
+            {
+              "playerId": "team-player/d3373427-1e19-436a-ab00-2d88af748547",
+              "name": "Jack Good & Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eeddf03f-5349-4208-85f6-0b5be80b9c42",
               "players": [
                 {
+                  "playerId": "team-player/849d216b-496b-4387-8c4d-d9d325cfb096",
                   "name": "Ian Burridge & Chris Roberts",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d3373427-1e19-436a-ab00-2d88af748547",
                   "name": "Jack Good & Aston Wade",
                   "score": "7"
                 }
@@ -206,12 +303,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d4530dd8-7fc3-4c21-9a1a-816a0c3e33c6",
               "players": [
                 {
+                  "playerId": "team-player/849d216b-496b-4387-8c4d-d9d325cfb096",
                   "name": "Ian Burridge & Chris Roberts",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/d3373427-1e19-436a-ab00-2d88af748547",
                   "name": "Jack Good & Aston Wade",
                   "score": "7"
                 }
@@ -223,17 +323,26 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "Jack Good"
+            {
+              "playerId": "team-player/f437db87-19b9-4ae2-97c0-8274de0b0d0d",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/877795c7-f2df-4c03-8f8a-c08f32a8bfd0",
+              "name": "Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f11d3240-0feb-422d-a3d9-3f6c6d5c6338",
               "players": [
                 {
+                  "playerId": "team-player/f437db87-19b9-4ae2-97c0-8274de0b0d0d",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/877795c7-f2df-4c03-8f8a-c08f32a8bfd0",
                   "name": "Jack Good",
                   "score": "3"
                 }
@@ -242,12 +351,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b01ca7f8-1e02-4bf8-9b93-d823c4ea04aa",
               "players": [
                 {
+                  "playerId": "team-player/f437db87-19b9-4ae2-97c0-8274de0b0d0d",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/877795c7-f2df-4c03-8f8a-c08f32a8bfd0",
                   "name": "Jack Good",
                   "score": "6"
                 }
@@ -259,17 +371,26 @@
         },
         {
           "players": [
-            "Angharrad Walters",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/85ef19dd-d160-4810-a98b-3752f9f70714",
+              "name": "Angharrad Walters"
+            },
+            {
+              "playerId": "team-player/76238158-d132-4cdb-a1e1-881f78135cd4",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cb0ba085-e58a-4a8f-908b-83571d586565",
               "players": [
                 {
+                  "playerId": "team-player/85ef19dd-d160-4810-a98b-3752f9f70714",
                   "name": "Angharrad Walters",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/76238158-d132-4cdb-a1e1-881f78135cd4",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -278,12 +399,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e46ce5b5-103d-419c-8338-4f3f9b2da3a8",
               "players": [
                 {
+                  "playerId": "team-player/85ef19dd-d160-4810-a98b-3752f9f70714",
                   "name": "Angharrad Walters",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/76238158-d132-4cdb-a1e1-881f78135cd4",
                   "name": "Euan Burridge",
                   "score": "6"
                 }
@@ -295,17 +419,26 @@
         },
         {
           "players": [
-            "Chris Roberts",
-            "Aston Wade"
+            {
+              "playerId": "team-player/0cea19b9-6410-458f-9f06-bc3ad711bf82",
+              "name": "Chris Roberts"
+            },
+            {
+              "playerId": "team-player/412d84a2-d5ef-4cb2-84fe-8b575af4dcbb",
+              "name": "Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4dc955d8-2a53-4ebb-a99e-fd7eb1e77f34",
               "players": [
                 {
+                  "playerId": "team-player/0cea19b9-6410-458f-9f06-bc3ad711bf82",
                   "name": "Chris Roberts",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/412d84a2-d5ef-4cb2-84fe-8b575af4dcbb",
                   "name": "Aston Wade",
                   "score": "6"
                 }
@@ -314,12 +447,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/007bbeb2-159f-4d88-ad24-e07dbfc37a80",
               "players": [
                 {
+                  "playerId": "team-player/0cea19b9-6410-458f-9f06-bc3ad711bf82",
                   "name": "Chris Roberts",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/412d84a2-d5ef-4cb2-84fe-8b575af4dcbb",
                   "name": "Aston Wade",
                   "score": "7"
                 }
@@ -331,17 +467,26 @@
         },
         {
           "players": [
-            "Dave Evans",
-            "James Death"
+            {
+              "playerId": "team-player/a5d665c3-f330-486d-9f92-c3d7a3643863",
+              "name": "Dave Evans"
+            },
+            {
+              "playerId": "team-player/6fd4138d-a3f7-49db-88c3-28021d8ee9d5",
+              "name": "James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff128c2d-6ecc-4b78-8341-5083484e2dc2",
               "players": [
                 {
+                  "playerId": "team-player/a5d665c3-f330-486d-9f92-c3d7a3643863",
                   "name": "Dave Evans",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6fd4138d-a3f7-49db-88c3-28021d8ee9d5",
                   "name": "James Death",
                   "score": "7"
                 }
@@ -350,12 +495,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/20112fc0-e35b-46b8-8dbd-8030f17e60dd",
               "players": [
                 {
+                  "playerId": "team-player/a5d665c3-f330-486d-9f92-c3d7a3643863",
                   "name": "Dave Evans",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6fd4138d-a3f7-49db-88c3-28021d8ee9d5",
                   "name": "James Death",
                   "score": "7"
                 }

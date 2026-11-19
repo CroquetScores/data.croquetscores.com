@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/654a9b64-efa7-440f-9a44-adf1bfed6e4d",
   "name": "SWF: Bristol v Dyffryn",
   "sport": "ac",
   "firstDay": "2017-10-07",
   "lastDay": "2017-10-07",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "David Goacher",
-        "David Goacher & Martin Murray",
-        "Martin Murray",
-        "Richard M Smith"
+        {
+          "playerId": "team-player/ffdd2d17-9b78-477d-bf2d-1f7f1e05c570",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/f04d8f21-7e20-44de-a598-11486590c232",
+          "name": "David Goacher & Martin Murray"
+        },
+        {
+          "playerId": "team-player/6f738c41-3449-40b5-b9d2-785fb2361441",
+          "name": "Martin Murray"
+        },
+        {
+          "playerId": "team-player/2ae90af7-3e1e-44c4-ab84-a09b07d01a13",
+          "name": "Richard M Smith"
+        }
       ]
     },
     {
       "name": "Dyffryn",
       "shortName": "Dyffryn",
       "players": [
-        "Chris Williams",
-        "Chris Williams & Sarah Melvin",
-        "Garry McElwain",
-        "Sarah Melvin"
+        {
+          "playerId": "team-player/2bd82d09-a6e8-40d5-a825-d62a0d1fdf64",
+          "name": "Chris Williams"
+        },
+        {
+          "playerId": "team-player/0a242dc9-dbbf-4963-9532-637d35380405",
+          "name": "Chris Williams & Sarah Melvin"
+        },
+        {
+          "playerId": "team-player/00ed69f0-9398-4667-9526-2fea4fa28375",
+          "name": "Garry McElwain"
+        },
+        {
+          "playerId": "team-player/c2edc785-557e-4f9d-b658-9f5dc4d4553e",
+          "name": "Sarah Melvin"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2f6dc89c-95a7-4a50-8c49-2b655e5337e1",
       "teams": [
         "Bristol",
         "Dyffryn"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "David Goacher & Martin Murray",
-            "Chris Williams & Sarah Melvin"
+            {
+              "playerId": "team-player/f04d8f21-7e20-44de-a598-11486590c232",
+              "name": "David Goacher & Martin Murray"
+            },
+            {
+              "playerId": "team-player/0a242dc9-dbbf-4963-9532-637d35380405",
+              "name": "Chris Williams & Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2347d3dd-a36e-4bc9-af6a-153b99ef616e",
               "players": [
                 {
+                  "playerId": "team-player/f04d8f21-7e20-44de-a598-11486590c232",
                   "name": "David Goacher & Martin Murray",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/0a242dc9-dbbf-4963-9532-637d35380405",
                   "name": "Chris Williams & Sarah Melvin",
                   "score": "23"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/2ae90af7-3e1e-44c4-ab84-a09b07d01a13",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/00ed69f0-9398-4667-9526-2fea4fa28375",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/76ded6b9-5383-4983-a290-128c2e1672cd",
               "players": [
                 {
+                  "playerId": "team-player/2ae90af7-3e1e-44c4-ab84-a09b07d01a13",
                   "name": "Richard M Smith",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/00ed69f0-9398-4667-9526-2fea4fa28375",
                   "name": "Garry McElwain",
                   "score": "0"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/2ae90af7-3e1e-44c4-ab84-a09b07d01a13",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/c2edc785-557e-4f9d-b658-9f5dc4d4553e",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b44eda6b-0248-48ac-b99d-a871784b7ee6",
               "players": [
                 {
+                  "playerId": "team-player/2ae90af7-3e1e-44c4-ab84-a09b07d01a13",
                   "name": "Richard M Smith",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/c2edc785-557e-4f9d-b658-9f5dc4d4553e",
                   "name": "Sarah Melvin",
                   "score": "26"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/6f738c41-3449-40b5-b9d2-785fb2361441",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/00ed69f0-9398-4667-9526-2fea4fa28375",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f71f91f9-3a4f-4aa7-a6a4-751b71217fb5",
               "players": [
                 {
+                  "playerId": "team-player/6f738c41-3449-40b5-b9d2-785fb2361441",
                   "name": "Martin Murray",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/00ed69f0-9398-4667-9526-2fea4fa28375",
                   "name": "Garry McElwain",
                   "score": "13"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Chris Williams"
+            {
+              "playerId": "team-player/ffdd2d17-9b78-477d-bf2d-1f7f1e05c570",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/2bd82d09-a6e8-40d5-a825-d62a0d1fdf64",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/45aa06fd-8df8-4310-bd92-5e822c912df6",
               "players": [
                 {
+                  "playerId": "team-player/ffdd2d17-9b78-477d-bf2d-1f7f1e05c570",
                   "name": "David Goacher",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/2bd82d09-a6e8-40d5-a825-d62a0d1fdf64",
                   "name": "Chris Williams",
                   "score": "14"
                 }

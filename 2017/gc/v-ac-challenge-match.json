@@ -1,50 +1,123 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/00ea0988-7719-46bc-98fa-297921544010",
   "name": "GC v AC, GC Challenge Match",
   "sport": "gc",
   "firstDay": "2017-10-07",
   "lastDay": "2017-10-08",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "GC",
       "shortName": "GC",
       "players": [
-        "Ian Burridge",
-        "Ian Burridge & Rachel Rowe",
-        "Ian Burridge & Rachel Rowe - meet again",
-        "John-Paul Moberly",
-        "John-Paul Moberly & Tobi Savage",
-        "John-Paul Moberly & Tobi Savage - meet again",
-        "Jonathan Powe",
-        "Rachel Rowe",
-        "Tobi Savage",
-        "Will Gee",
-        "Will Gee & Jonathan Powe",
-        "Will Gee & Jonathan Powe - meet again"
+        {
+          "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
+          "name": "Ian Burridge & Rachel Rowe"
+        },
+        {
+          "playerId": "team-player/8be742c0-1fa0-4200-85c1-72df4e3b486e",
+          "name": "Ian Burridge & Rachel Rowe - meet again"
+        },
+        {
+          "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+          "name": "John-Paul Moberly"
+        },
+        {
+          "playerId": "team-player/84aeafdc-3c1c-4e1a-8d42-302ba4c3d2b1",
+          "name": "John-Paul Moberly & Tobi Savage"
+        },
+        {
+          "playerId": "team-player/00622337-3298-488e-8dcd-9a5c1011888b",
+          "name": "John-Paul Moberly & Tobi Savage - meet again"
+        },
+        {
+          "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+          "name": "Jonathan Powe"
+        },
+        {
+          "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+          "name": "Rachel Rowe"
+        },
+        {
+          "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+          "name": "Tobi Savage"
+        },
+        {
+          "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+          "name": "Will Gee"
+        },
+        {
+          "playerId": "team-player/5958112c-1da2-4399-b41c-40fb1c975ce7",
+          "name": "Will Gee & Jonathan Powe"
+        },
+        {
+          "playerId": "team-player/3ce5aed6-1f56-46c2-8634-afc6fa4c4892",
+          "name": "Will Gee & Jonathan Powe - meet again"
+        }
       ]
     },
     {
       "name": "AC",
       "shortName": "AC",
       "players": [
-        "James Death",
-        "James Death & Samir Patel",
-        "Jamie Burch",
-        "Jeff Dawson",
-        "Jeff Dawson & Mike Town",
-        "Jeff Dawson & Mike Town - meet again",
-        "Mike Town",
-        "Rutger Beijderwellen",
-        "Rutger Beijderwellen & Jamie Burch",
-        "Rutger Beijderwellen & Jamie Burch - meet again",
-        "Samir Patel"
+        {
+          "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+          "name": "James Death"
+        },
+        {
+          "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
+          "name": "James Death & Samir Patel"
+        },
+        {
+          "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+          "name": "Jamie Burch"
+        },
+        {
+          "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+          "name": "Jeff Dawson"
+        },
+        {
+          "playerId": "team-player/640eab59-4c39-44b8-b971-8b7065b3a441",
+          "name": "Jeff Dawson & Mike Town"
+        },
+        {
+          "playerId": "team-player/0c4e31c2-e048-4560-b31d-b1a07a9d087b",
+          "name": "Jeff Dawson & Mike Town - meet again"
+        },
+        {
+          "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+          "name": "Mike Town"
+        },
+        {
+          "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+          "name": "Rutger Beijderwellen"
+        },
+        {
+          "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
+          "name": "Rutger Beijderwellen & Jamie Burch"
+        },
+        {
+          "playerId": "team-player/1c25a104-fa95-46b4-ab84-f7cf0a4c169a",
+          "name": "Rutger Beijderwellen & Jamie Burch - meet again"
+        },
+        {
+          "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+          "name": "Samir Patel"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/93df6e6f-f717-4b07-9f70-cdae923b6541",
       "teams": [
         "GC",
         "AC"
@@ -54,17 +127,26 @@
       "matches": [
         {
           "players": [
-            "Ian Burridge & Rachel Rowe",
-            "Rutger Beijderwellen & Jamie Burch"
+            {
+              "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
+              "name": "Ian Burridge & Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
+              "name": "Rutger Beijderwellen & Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/790d49f1-4dec-442b-99ab-77589b6d8c70",
               "players": [
                 {
+                  "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
                   "name": "Ian Burridge & Rachel Rowe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
                   "name": "Rutger Beijderwellen & Jamie Burch",
                   "score": "6"
                 }
@@ -76,17 +158,26 @@
         },
         {
           "players": [
-            "Ian Burridge & Rachel Rowe",
-            "Rutger Beijderwellen & Jamie Burch - meet again"
+            {
+              "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
+              "name": "Ian Burridge & Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/1c25a104-fa95-46b4-ab84-f7cf0a4c169a",
+              "name": "Rutger Beijderwellen & Jamie Burch - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eedde637-0f28-4ddf-b8f4-fbb65961736e",
               "players": [
                 {
+                  "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
                   "name": "Ian Burridge & Rachel Rowe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1c25a104-fa95-46b4-ab84-f7cf0a4c169a",
                   "name": "Rutger Beijderwellen & Jamie Burch - meet again",
                   "score": "3"
                 }
@@ -98,17 +189,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly & Tobi Savage",
-            "James Death & Samir Patel"
+            {
+              "playerId": "team-player/84aeafdc-3c1c-4e1a-8d42-302ba4c3d2b1",
+              "name": "John-Paul Moberly & Tobi Savage"
+            },
+            {
+              "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
+              "name": "James Death & Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2b4497ea-ec51-4223-9d31-f17f19ba1bb8",
               "players": [
                 {
+                  "playerId": "team-player/84aeafdc-3c1c-4e1a-8d42-302ba4c3d2b1",
                   "name": "John-Paul Moberly & Tobi Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
                   "name": "James Death & Samir Patel",
                   "score": "5"
                 }
@@ -120,17 +220,26 @@
         },
         {
           "players": [
-            "Will Gee & Jonathan Powe",
-            "Jeff Dawson & Mike Town"
+            {
+              "playerId": "team-player/5958112c-1da2-4399-b41c-40fb1c975ce7",
+              "name": "Will Gee & Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/640eab59-4c39-44b8-b971-8b7065b3a441",
+              "name": "Jeff Dawson & Mike Town"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e0a8f865-03a0-470f-b4bd-da037896e1c0",
               "players": [
                 {
+                  "playerId": "team-player/5958112c-1da2-4399-b41c-40fb1c975ce7",
                   "name": "Will Gee & Jonathan Powe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/640eab59-4c39-44b8-b971-8b7065b3a441",
                   "name": "Jeff Dawson & Mike Town",
                   "score": "5"
                 }
@@ -142,17 +251,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly & Tobi Savage - meet again",
-            "James Death & Samir Patel"
+            {
+              "playerId": "team-player/00622337-3298-488e-8dcd-9a5c1011888b",
+              "name": "John-Paul Moberly & Tobi Savage - meet again"
+            },
+            {
+              "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
+              "name": "James Death & Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5952250d-ebcc-4191-a8f3-737cd65b860e",
               "players": [
                 {
+                  "playerId": "team-player/00622337-3298-488e-8dcd-9a5c1011888b",
                   "name": "John-Paul Moberly & Tobi Savage - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
                   "name": "James Death & Samir Patel",
                   "score": "7"
                 }
@@ -164,17 +282,26 @@
         },
         {
           "players": [
-            "Will Gee & Jonathan Powe",
-            "Jeff Dawson & Mike Town - meet again"
+            {
+              "playerId": "team-player/5958112c-1da2-4399-b41c-40fb1c975ce7",
+              "name": "Will Gee & Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/0c4e31c2-e048-4560-b31d-b1a07a9d087b",
+              "name": "Jeff Dawson & Mike Town - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/52828d40-b5a9-4c36-955d-95bd5e931bcb",
               "players": [
                 {
+                  "playerId": "team-player/5958112c-1da2-4399-b41c-40fb1c975ce7",
                   "name": "Will Gee & Jonathan Powe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0c4e31c2-e048-4560-b31d-b1a07a9d087b",
                   "name": "Jeff Dawson & Mike Town - meet again",
                   "score": "2"
                 }
@@ -186,17 +313,26 @@
         },
         {
           "players": [
-            "Ian Burridge & Rachel Rowe",
-            "Jeff Dawson & Mike Town"
+            {
+              "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
+              "name": "Ian Burridge & Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/640eab59-4c39-44b8-b971-8b7065b3a441",
+              "name": "Jeff Dawson & Mike Town"
+            }
           ],
           "games": [
             {
+              "gameId": "game/63f3e7f8-8f1b-4525-8c9f-4ae3db8e1576",
               "players": [
                 {
+                  "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
                   "name": "Ian Burridge & Rachel Rowe",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/640eab59-4c39-44b8-b971-8b7065b3a441",
                   "name": "Jeff Dawson & Mike Town",
                   "score": "7"
                 }
@@ -208,17 +344,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly & Tobi Savage",
-            "Rutger Beijderwellen & Jamie Burch"
+            {
+              "playerId": "team-player/84aeafdc-3c1c-4e1a-8d42-302ba4c3d2b1",
+              "name": "John-Paul Moberly & Tobi Savage"
+            },
+            {
+              "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
+              "name": "Rutger Beijderwellen & Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b021441-fc3c-4c00-b1de-f73e77c81f0d",
               "players": [
                 {
+                  "playerId": "team-player/84aeafdc-3c1c-4e1a-8d42-302ba4c3d2b1",
                   "name": "John-Paul Moberly & Tobi Savage",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
                   "name": "Rutger Beijderwellen & Jamie Burch",
                   "score": "7"
                 }
@@ -230,17 +375,26 @@
         },
         {
           "players": [
-            "Will Gee & Jonathan Powe",
-            "James Death & Samir Patel"
+            {
+              "playerId": "team-player/5958112c-1da2-4399-b41c-40fb1c975ce7",
+              "name": "Will Gee & Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
+              "name": "James Death & Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e026c10d-e9cb-448d-b303-8465690486be",
               "players": [
                 {
+                  "playerId": "team-player/5958112c-1da2-4399-b41c-40fb1c975ce7",
                   "name": "Will Gee & Jonathan Powe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
                   "name": "James Death & Samir Patel",
                   "score": "4"
                 }
@@ -252,17 +406,26 @@
         },
         {
           "players": [
-            "Will Gee & Jonathan Powe - meet again",
-            "James Death & Samir Patel"
+            {
+              "playerId": "team-player/3ce5aed6-1f56-46c2-8634-afc6fa4c4892",
+              "name": "Will Gee & Jonathan Powe - meet again"
+            },
+            {
+              "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
+              "name": "James Death & Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/41134fea-f731-4c63-948a-e36bef8615c8",
               "players": [
                 {
+                  "playerId": "team-player/3ce5aed6-1f56-46c2-8634-afc6fa4c4892",
                   "name": "Will Gee & Jonathan Powe - meet again",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
                   "name": "James Death & Samir Patel",
                   "score": "7"
                 }
@@ -274,17 +437,26 @@
         },
         {
           "players": [
-            "Ian Burridge & Rachel Rowe",
-            "Jeff Dawson & Mike Town - meet again"
+            {
+              "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
+              "name": "Ian Burridge & Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/0c4e31c2-e048-4560-b31d-b1a07a9d087b",
+              "name": "Jeff Dawson & Mike Town - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e8411c3d-6e43-4e09-8df1-b9d3ca16a801",
               "players": [
                 {
+                  "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
                   "name": "Ian Burridge & Rachel Rowe",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0c4e31c2-e048-4560-b31d-b1a07a9d087b",
                   "name": "Jeff Dawson & Mike Town - meet again",
                   "score": "7"
                 }
@@ -296,17 +468,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly & Tobi Savage - meet again",
-            "Rutger Beijderwellen & Jamie Burch"
+            {
+              "playerId": "team-player/00622337-3298-488e-8dcd-9a5c1011888b",
+              "name": "John-Paul Moberly & Tobi Savage - meet again"
+            },
+            {
+              "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
+              "name": "Rutger Beijderwellen & Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa23b54c-0f4f-4543-8e5e-84ddfea1947f",
               "players": [
                 {
+                  "playerId": "team-player/00622337-3298-488e-8dcd-9a5c1011888b",
                   "name": "John-Paul Moberly & Tobi Savage - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
                   "name": "Rutger Beijderwellen & Jamie Burch",
                   "score": "6"
                 }
@@ -318,17 +499,26 @@
         },
         {
           "players": [
-            "Will Gee & Jonathan Powe",
-            "Rutger Beijderwellen & Jamie Burch"
+            {
+              "playerId": "team-player/5958112c-1da2-4399-b41c-40fb1c975ce7",
+              "name": "Will Gee & Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
+              "name": "Rutger Beijderwellen & Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4a9941e-e19c-4c9f-96d7-bd3d94423e63",
               "players": [
                 {
+                  "playerId": "team-player/5958112c-1da2-4399-b41c-40fb1c975ce7",
                   "name": "Will Gee & Jonathan Powe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
                   "name": "Rutger Beijderwellen & Jamie Burch",
                   "score": "4"
                 }
@@ -340,17 +530,26 @@
         },
         {
           "players": [
-            "Ian Burridge & Rachel Rowe",
-            "James Death & Samir Patel"
+            {
+              "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
+              "name": "Ian Burridge & Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
+              "name": "James Death & Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a810d243-c53c-478c-a7bb-a1f801ddbddc",
               "players": [
                 {
+                  "playerId": "team-player/4a7fadc2-703e-42f9-8507-018d4e8f60fa",
                   "name": "Ian Burridge & Rachel Rowe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
                   "name": "James Death & Samir Patel",
                   "score": "5"
                 }
@@ -362,17 +561,26 @@
         },
         {
           "players": [
-            "Will Gee & Jonathan Powe - meet again",
-            "Rutger Beijderwellen & Jamie Burch"
+            {
+              "playerId": "team-player/3ce5aed6-1f56-46c2-8634-afc6fa4c4892",
+              "name": "Will Gee & Jonathan Powe - meet again"
+            },
+            {
+              "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
+              "name": "Rutger Beijderwellen & Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4c4bb3d-872d-4c52-93f9-2ee5f6c411c4",
               "players": [
                 {
+                  "playerId": "team-player/3ce5aed6-1f56-46c2-8634-afc6fa4c4892",
                   "name": "Will Gee & Jonathan Powe - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9371c8c9-d8c4-4636-90e2-0a8148961338",
                   "name": "Rutger Beijderwellen & Jamie Burch",
                   "score": "6"
                 }
@@ -384,17 +592,26 @@
         },
         {
           "players": [
-            "Ian Burridge & Rachel Rowe - meet again",
-            "James Death & Samir Patel"
+            {
+              "playerId": "team-player/8be742c0-1fa0-4200-85c1-72df4e3b486e",
+              "name": "Ian Burridge & Rachel Rowe - meet again"
+            },
+            {
+              "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
+              "name": "James Death & Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cda42321-c674-4cc2-bebd-7e1eba839916",
               "players": [
                 {
+                  "playerId": "team-player/8be742c0-1fa0-4200-85c1-72df4e3b486e",
                   "name": "Ian Burridge & Rachel Rowe - meet again",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a92973c7-f401-4383-9bbb-35b6e781b0a3",
                   "name": "James Death & Samir Patel",
                   "score": "7"
                 }
@@ -406,17 +623,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly & Tobi Savage",
-            "Jeff Dawson & Mike Town"
+            {
+              "playerId": "team-player/84aeafdc-3c1c-4e1a-8d42-302ba4c3d2b1",
+              "name": "John-Paul Moberly & Tobi Savage"
+            },
+            {
+              "playerId": "team-player/640eab59-4c39-44b8-b971-8b7065b3a441",
+              "name": "Jeff Dawson & Mike Town"
+            }
           ],
           "games": [
             {
+              "gameId": "game/253e1144-656e-469b-95a1-f91387d5bf99",
               "players": [
                 {
+                  "playerId": "team-player/84aeafdc-3c1c-4e1a-8d42-302ba4c3d2b1",
                   "name": "John-Paul Moberly & Tobi Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/640eab59-4c39-44b8-b971-8b7065b3a441",
                   "name": "Jeff Dawson & Mike Town",
                   "score": "6"
                 }
@@ -428,17 +654,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly & Tobi Savage - meet again",
-            "Jeff Dawson & Mike Town"
+            {
+              "playerId": "team-player/00622337-3298-488e-8dcd-9a5c1011888b",
+              "name": "John-Paul Moberly & Tobi Savage - meet again"
+            },
+            {
+              "playerId": "team-player/640eab59-4c39-44b8-b971-8b7065b3a441",
+              "name": "Jeff Dawson & Mike Town"
+            }
           ],
           "games": [
             {
+              "gameId": "game/99abaeda-058e-44ab-b288-b2d5e482412e",
               "players": [
                 {
+                  "playerId": "team-player/00622337-3298-488e-8dcd-9a5c1011888b",
                   "name": "John-Paul Moberly & Tobi Savage - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/640eab59-4c39-44b8-b971-8b7065b3a441",
                   "name": "Jeff Dawson & Mike Town",
                   "score": "3"
                 }
@@ -450,17 +685,26 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "James Death"
+            {
+              "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+              "name": "James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7359ec1e-37ab-4e2c-9648-c5aa7e993f21",
               "players": [
                 {
+                  "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
                   "name": "James Death",
                   "score": "2"
                 }
@@ -472,17 +716,26 @@
         },
         {
           "players": [
-            "Will Gee",
-            "Jeff Dawson"
+            {
+              "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+              "name": "Will Gee"
+            },
+            {
+              "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+              "name": "Jeff Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/68d7023a-2a67-4cfe-b06a-93723f41cdeb",
               "players": [
                 {
+                  "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
                   "name": "Will Gee",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
                   "name": "Jeff Dawson",
                   "score": "5"
                 }
@@ -494,17 +747,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly",
-            "Rutger Beijderwellen"
+            {
+              "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+              "name": "Rutger Beijderwellen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8a2aa93b-499b-48f1-9eb7-5bcc9f4c54ad",
               "players": [
                 {
+                  "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
                   "name": "John-Paul Moberly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
                   "name": "Rutger Beijderwellen",
                   "score": "5"
                 }
@@ -516,17 +778,26 @@
         },
         {
           "players": [
-            "Jonathan Powe",
-            "Samir Patel"
+            {
+              "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+              "name": "Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+              "name": "Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ec9cda18-e12c-4e5c-b064-8c4d7c4cbc15",
               "players": [
                 {
+                  "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
                   "name": "Jonathan Powe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
                   "name": "Samir Patel",
                   "score": "5"
                 }
@@ -538,17 +809,26 @@
         },
         {
           "players": [
-            "Rachel Rowe",
-            "Mike Town"
+            {
+              "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+              "name": "Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+              "name": "Mike Town"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9cbd7864-11a6-410f-aa36-9c372bf250ca",
               "players": [
                 {
+                  "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
                   "name": "Rachel Rowe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
                   "name": "Mike Town",
                   "score": "6"
                 }
@@ -560,17 +840,26 @@
         },
         {
           "players": [
-            "Tobi Savage",
-            "Jamie Burch"
+            {
+              "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+              "name": "Tobi Savage"
+            },
+            {
+              "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+              "name": "Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/29c0bdc9-716f-4816-8269-8f526c47d288",
               "players": [
                 {
+                  "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
                   "name": "Tobi Savage",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
                   "name": "Jamie Burch",
                   "score": "7"
                 }
@@ -582,17 +871,26 @@
         },
         {
           "players": [
-            "Jonathan Powe",
-            "James Death"
+            {
+              "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+              "name": "Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+              "name": "James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/80812978-0378-41d1-ab3f-e577eefabdfa",
               "players": [
                 {
+                  "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
                   "name": "Jonathan Powe",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
                   "name": "James Death",
                   "score": "7"
                 }
@@ -604,348 +902,27 @@
         },
         {
           "players": [
-            "John-Paul Moberly",
-            "Mike Town"
+            {
+              "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+              "name": "Mike Town"
+            }
           ],
           "games": [
             {
+              "gameId": "game/425d1e8d-e44d-4311-a5c6-9c999473eb38",
               "players": [
                 {
+                  "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
                   "name": "John-Paul Moberly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
                   "name": "Mike Town",
-                  "score": "3"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Rachel Rowe",
-            "Jeff Dawson"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Rachel Rowe",
-                  "score": "7"
-                },
-                {
-                  "name": "Jeff Dawson",
-                  "score": "6"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Ian Burridge",
-            "Jamie Burch"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Ian Burridge",
-                  "score": "6"
-                },
-                {
-                  "name": "Jamie Burch",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Will Gee",
-            "Samir Patel"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Will Gee",
-                  "score": "7"
-                },
-                {
-                  "name": "Samir Patel",
-                  "score": "6"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Tobi Savage",
-            "Rutger Beijderwellen"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Tobi Savage",
-                  "score": "7"
-                },
-                {
-                  "name": "Rutger Beijderwellen",
-                  "score": "5"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Tobi Savage",
-            "James Death"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Tobi Savage",
-                  "score": "2"
-                },
-                {
-                  "name": "James Death",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Will Gee",
-            "Mike Town"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Will Gee",
-                  "score": "7"
-                },
-                {
-                  "name": "Mike Town",
-                  "score": "6"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "John-Paul Moberly",
-            "Jeff Dawson"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "John-Paul Moberly",
-                  "score": "4"
-                },
-                {
-                  "name": "Jeff Dawson",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Rachel Rowe",
-            "Samir Patel"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Rachel Rowe",
-                  "score": "7"
-                },
-                {
-                  "name": "Samir Patel",
-                  "score": "5"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Ian Burridge",
-            "Rutger Beijderwellen"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Ian Burridge",
-                  "score": "4"
-                },
-                {
-                  "name": "Rutger Beijderwellen",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Jonathan Powe",
-            "Jamie Burch"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Jonathan Powe",
-                  "score": "6"
-                },
-                {
-                  "name": "Jamie Burch",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Ian Burridge",
-            "Samir Patel"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Ian Burridge",
-                  "score": "5"
-                },
-                {
-                  "name": "Samir Patel",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Jonathan Powe",
-            "Jeff Dawson"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Jonathan Powe",
-                  "score": "7"
-                },
-                {
-                  "name": "Jeff Dawson",
-                  "score": "2"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "John-Paul Moberly",
-            "Jamie Burch"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "John-Paul Moberly",
-                  "score": "4"
-                },
-                {
-                  "name": "Jamie Burch",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Will Gee",
-            "James Death"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Will Gee",
-                  "score": "7"
-                },
-                {
-                  "name": "James Death",
-                  "score": "5"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Rachel Rowe",
-            "Rutger Beijderwellen"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Rachel Rowe",
-                  "score": "7"
-                },
-                {
-                  "name": "Rutger Beijderwellen",
                   "score": "3"
                 }
               ],
@@ -956,83 +933,57 @@
         },
         {
           "players": [
-            "Tobi Savage",
-            "Mike Town"
+            {
+              "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+              "name": "Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+              "name": "Jeff Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/92c080ea-9109-46fd-b354-b083a1b72e69",
               "players": [
                 {
-                  "name": "Tobi Savage",
+                  "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+                  "name": "Rachel Rowe",
+                  "score": "7"
+                },
+                {
+                  "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+                  "name": "Jeff Dawson",
+                  "score": "6"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+              "name": "Jamie Burch"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/b82cfb1c-e0c7-479d-8123-563c19564f1c",
+              "players": [
+                {
+                  "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+                  "name": "Ian Burridge",
                   "score": "6"
                 },
                 {
-                  "name": "Mike Town",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "John-Paul Moberly",
-            "James Death"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "John-Paul Moberly",
-                  "score": "5"
-                },
-                {
-                  "name": "James Death",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Will Gee",
-            "Rutger Beijderwellen"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Will Gee",
-                  "score": "7"
-                },
-                {
-                  "name": "Rutger Beijderwellen",
-                  "score": "2"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Rachel Rowe",
-            "Jamie Burch"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Rachel Rowe",
-                  "score": "2"
-                },
-                {
+                  "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
                   "name": "Jamie Burch",
                   "score": "7"
                 }
@@ -1044,17 +995,150 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "Jeff Dawson"
+            {
+              "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+              "name": "Will Gee"
+            },
+            {
+              "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+              "name": "Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a5c41841-4cc5-46e6-92f4-b9beff7c831b",
               "players": [
                 {
-                  "name": "Ian Burridge",
-                  "score": "5"
+                  "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+                  "name": "Will Gee",
+                  "score": "7"
                 },
                 {
+                  "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+                  "name": "Samir Patel",
+                  "score": "6"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+              "name": "Tobi Savage"
+            },
+            {
+              "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+              "name": "Rutger Beijderwellen"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/32ad79e9-8dd2-4531-9ebe-07684fa83757",
+              "players": [
+                {
+                  "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+                  "name": "Tobi Savage",
+                  "score": "7"
+                },
+                {
+                  "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+                  "name": "Rutger Beijderwellen",
+                  "score": "5"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+              "name": "Tobi Savage"
+            },
+            {
+              "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+              "name": "James Death"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/377f1431-f063-4b23-96e5-c357d647bd94",
+              "players": [
+                {
+                  "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+                  "name": "Tobi Savage",
+                  "score": "2"
+                },
+                {
+                  "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+                  "name": "James Death",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+              "name": "Will Gee"
+            },
+            {
+              "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+              "name": "Mike Town"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/3899842a-6c60-4863-a285-83d9df9bc4cf",
+              "players": [
+                {
+                  "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+                  "name": "Will Gee",
+                  "score": "7"
+                },
+                {
+                  "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+                  "name": "Mike Town",
+                  "score": "6"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+              "name": "Jeff Dawson"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/88b347ee-986b-4c5b-8e52-4951f3a98a4d",
+              "players": [
+                {
+                  "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+                  "name": "John-Paul Moberly",
+                  "score": "4"
+                },
+                {
+                  "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
                   "name": "Jeff Dawson",
                   "score": "7"
                 }
@@ -1066,84 +1150,58 @@
         },
         {
           "players": [
-            "Tobi Savage",
-            "Samir Patel"
-          ],
-          "games": [
             {
-              "players": [
-                {
-                  "name": "Tobi Savage",
-                  "score": "5"
-                },
-                {
-                  "name": "Samir Patel",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
+              "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+              "name": "Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+              "name": "Samir Patel"
             }
-          ]
-        },
-        {
-          "players": [
-            "Jonathan Powe",
-            "Mike Town"
           ],
           "games": [
             {
+              "gameId": "game/23c96e6a-1cd5-4452-ad23-5d3498611868",
               "players": [
                 {
-                  "name": "Jonathan Powe",
-                  "score": "7"
-                },
-                {
-                  "name": "Mike Town",
-                  "score": "5"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Ian Burridge",
-            "Mike Town"
-          ],
-          "games": [
-            {
-              "players": [
-                {
-                  "name": "Ian Burridge",
-                  "score": "6"
-                },
-                {
-                  "name": "Mike Town",
-                  "score": "7"
-                }
-              ],
-              "drawn": false,
-              "withdrawn": false
-            }
-          ]
-        },
-        {
-          "players": [
-            "Rachel Rowe",
-            "James Death"
-          ],
-          "games": [
-            {
-              "players": [
-                {
+                  "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
                   "name": "Rachel Rowe",
+                  "score": "7"
+                },
+                {
+                  "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+                  "name": "Samir Patel",
+                  "score": "5"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+              "name": "Rutger Beijderwellen"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/b5baca53-869a-460e-85a4-d682fe43b831",
+              "players": [
+                {
+                  "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+                  "name": "Ian Burridge",
                   "score": "4"
                 },
                 {
-                  "name": "James Death",
+                  "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+                  "name": "Rutger Beijderwellen",
                   "score": "7"
                 }
               ],
@@ -1154,17 +1212,26 @@
         },
         {
           "players": [
-            "Will Gee",
-            "Jamie Burch"
+            {
+              "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+              "name": "Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+              "name": "Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5d8240cb-704a-47b4-9f5d-04fa53d2f1e3",
               "players": [
                 {
-                  "name": "Will Gee",
+                  "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+                  "name": "Jonathan Powe",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
                   "name": "Jamie Burch",
                   "score": "7"
                 }
@@ -1176,17 +1243,491 @@
         },
         {
           "players": [
-            "John-Paul Moberly",
-            "Samir Patel"
+            {
+              "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+              "name": "Samir Patel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/274d8f93-23e7-4984-87ce-8d9a6e493964",
               "players": [
                 {
+                  "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+                  "name": "Ian Burridge",
+                  "score": "5"
+                },
+                {
+                  "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+                  "name": "Samir Patel",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+              "name": "Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+              "name": "Jeff Dawson"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/70275558-f675-4862-89a1-6d8eaca8acf3",
+              "players": [
+                {
+                  "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+                  "name": "Jonathan Powe",
+                  "score": "7"
+                },
+                {
+                  "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+                  "name": "Jeff Dawson",
+                  "score": "2"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+              "name": "Jamie Burch"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/c8c85cf8-64a9-41b6-b34c-d89150680354",
+              "players": [
+                {
+                  "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+                  "name": "John-Paul Moberly",
+                  "score": "4"
+                },
+                {
+                  "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+                  "name": "Jamie Burch",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+              "name": "Will Gee"
+            },
+            {
+              "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+              "name": "James Death"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/1a1abe39-f99b-4e4a-bd17-b920d89ade1a",
+              "players": [
+                {
+                  "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+                  "name": "Will Gee",
+                  "score": "7"
+                },
+                {
+                  "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+                  "name": "James Death",
+                  "score": "5"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+              "name": "Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+              "name": "Rutger Beijderwellen"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/dda6d745-7f80-405f-a984-5c8015fa4f26",
+              "players": [
+                {
+                  "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+                  "name": "Rachel Rowe",
+                  "score": "7"
+                },
+                {
+                  "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+                  "name": "Rutger Beijderwellen",
+                  "score": "3"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+              "name": "Tobi Savage"
+            },
+            {
+              "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+              "name": "Mike Town"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/4129ffb4-bae1-4f3c-b98e-c73648a9a2f0",
+              "players": [
+                {
+                  "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+                  "name": "Tobi Savage",
+                  "score": "6"
+                },
+                {
+                  "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+                  "name": "Mike Town",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+              "name": "James Death"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/7c5535c0-742e-4d54-9481-15624b026df0",
+              "players": [
+                {
+                  "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+                  "name": "John-Paul Moberly",
+                  "score": "5"
+                },
+                {
+                  "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+                  "name": "James Death",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+              "name": "Will Gee"
+            },
+            {
+              "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+              "name": "Rutger Beijderwellen"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/e0f25497-116e-4f21-95a2-986499c19f6f",
+              "players": [
+                {
+                  "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+                  "name": "Will Gee",
+                  "score": "7"
+                },
+                {
+                  "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+                  "name": "Rutger Beijderwellen",
+                  "score": "2"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+              "name": "Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+              "name": "Jamie Burch"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/c2fa112a-35d4-4039-a834-955dadf68ebd",
+              "players": [
+                {
+                  "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+                  "name": "Rachel Rowe",
+                  "score": "2"
+                },
+                {
+                  "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+                  "name": "Jamie Burch",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+              "name": "Jeff Dawson"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/49a93b8c-a951-4642-96a7-80dd8ea4d20c",
+              "players": [
+                {
+                  "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+                  "name": "Ian Burridge",
+                  "score": "5"
+                },
+                {
+                  "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+                  "name": "Jeff Dawson",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+              "name": "Tobi Savage"
+            },
+            {
+              "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+              "name": "Samir Patel"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/89878abb-974d-46bb-952f-940eee0b1c4a",
+              "players": [
+                {
+                  "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+                  "name": "Tobi Savage",
+                  "score": "5"
+                },
+                {
+                  "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+                  "name": "Samir Patel",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+              "name": "Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+              "name": "Mike Town"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/e8441407-8a87-4230-a839-375a7a3b6776",
+              "players": [
+                {
+                  "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+                  "name": "Jonathan Powe",
+                  "score": "7"
+                },
+                {
+                  "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+                  "name": "Mike Town",
+                  "score": "5"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+              "name": "Mike Town"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/9564ebb6-3750-434d-a587-e0985f238a23",
+              "players": [
+                {
+                  "playerId": "team-player/27ed38b5-ada9-419c-badc-c6d455fc4b7c",
+                  "name": "Ian Burridge",
+                  "score": "6"
+                },
+                {
+                  "playerId": "team-player/11b296c6-86d9-4b6e-80b2-a548d663e139",
+                  "name": "Mike Town",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+              "name": "Rachel Rowe"
+            },
+            {
+              "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+              "name": "James Death"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/0949c33e-2a6c-40c9-90b8-91bbf5a88e3d",
+              "players": [
+                {
+                  "playerId": "team-player/002109ae-c281-461b-8c3b-983ad2d3f012",
+                  "name": "Rachel Rowe",
+                  "score": "4"
+                },
+                {
+                  "playerId": "team-player/52a00d77-4027-4cb3-a87a-4a53ddc04c84",
+                  "name": "James Death",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+              "name": "Will Gee"
+            },
+            {
+              "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+              "name": "Jamie Burch"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/860b50af-3a7f-4fff-89c1-0589b191dca0",
+              "players": [
+                {
+                  "playerId": "team-player/d677fc1e-5aad-4a69-9c85-b4605cb8c71e",
+                  "name": "Will Gee",
+                  "score": "6"
+                },
+                {
+                  "playerId": "team-player/dc6d96c5-b0c3-44c0-b6c4-3d3b5c445c2f",
+                  "name": "Jamie Burch",
+                  "score": "7"
+                }
+              ],
+              "drawn": false,
+              "withdrawn": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
+              "name": "Samir Patel"
+            }
+          ],
+          "games": [
+            {
+              "gameId": "game/be8c09bf-ac9e-478d-a9a7-7b15f9ff2f19",
+              "players": [
+                {
+                  "playerId": "team-player/63256752-94da-4a2e-8a9d-48278b4ca82a",
                   "name": "John-Paul Moberly",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/75e96c02-de87-47bc-8221-97ea8b5dfbee",
                   "name": "Samir Patel",
                   "score": "1w/o"
                 }
@@ -1198,17 +1739,26 @@
         },
         {
           "players": [
-            "Jonathan Powe",
-            "Rutger Beijderwellen"
+            {
+              "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
+              "name": "Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
+              "name": "Rutger Beijderwellen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2c6f6c28-3c63-416e-b689-41785821e598",
               "players": [
                 {
+                  "playerId": "team-player/c277594b-6ffc-486b-82f5-067ae3f1b868",
                   "name": "Jonathan Powe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1bbb5b3-c1e3-40bb-9c82-af6cbaf64576",
                   "name": "Rutger Beijderwellen",
                   "score": "2"
                 }
@@ -1220,17 +1770,26 @@
         },
         {
           "players": [
-            "Tobi Savage",
-            "Jeff Dawson"
+            {
+              "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
+              "name": "Tobi Savage"
+            },
+            {
+              "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
+              "name": "Jeff Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fd7ee2ba-2f41-44a3-b78c-b4bcac8fb7fb",
               "players": [
                 {
+                  "playerId": "team-player/a9f2d91b-dce4-4a8c-8795-8c6703093674",
                   "name": "Tobi Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4c44ff97-ffe4-4e60-926a-625fb31f2795",
                   "name": "Jeff Dawson",
                   "score": "3"
                 }

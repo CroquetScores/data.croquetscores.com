@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/fb597773-5559-4ea8-9f50-235e9105be22",
   "name": "GC Test -  England v Spain (Roehampton)",
   "sport": "gc",
   "firstDay": "2024-06-21",
   "lastDay": "2024-06-23",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "England",
       "shortName": "ENG",
       "players": [
-        "Aston Wade",
-        "Euan Burridge",
-        "Jamie Burch",
-        "Jamie Burch & Euan Burridge",
-        "John-Paul Moberly",
-        "John-Paul Moberly & Aston Wade",
-        "Stuart M Smith & Tobi Savage",
-        "StuartM Smith",
-        "Tobi  Savage"
+        {
+          "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
+          "name": "Aston Wade"
+        },
+        {
+          "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
+          "name": "Jamie Burch"
+        },
+        {
+          "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
+          "name": "Jamie Burch & Euan Burridge"
+        },
+        {
+          "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
+          "name": "John-Paul Moberly"
+        },
+        {
+          "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
+          "name": "John-Paul Moberly & Aston Wade"
+        },
+        {
+          "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
+          "name": "Stuart M Smith & Tobi Savage"
+        },
+        {
+          "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
+          "name": "StuartM Smith"
+        },
+        {
+          "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
+          "name": "Tobi  Savage"
+        }
       ]
     },
     {
       "name": "Spain",
       "shortName": "ESP",
       "players": [
-        "Andres Alvarez-Sala",
-        "Andres Alvarez-Sala & Manuel Alvarez-Sala",
-        "Jose Riva",
-        "Jose Riva & Juan Ojeda",
-        "Juan Ojeda",
-        "Manuel Alvarez-Sala",
-        "Nicolas Denizot",
-        "Patricio Jnr Garay",
-        "Patricio Jnr Garay & Nicolas Denizot"
+        {
+          "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
+          "name": "Andres Alvarez-Sala"
+        },
+        {
+          "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
+          "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala"
+        },
+        {
+          "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
+          "name": "Jose Riva"
+        },
+        {
+          "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
+          "name": "Jose Riva & Juan Ojeda"
+        },
+        {
+          "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
+          "name": "Juan Ojeda"
+        },
+        {
+          "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
+          "name": "Manuel Alvarez-Sala"
+        },
+        {
+          "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
+          "name": "Nicolas Denizot"
+        },
+        {
+          "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
+          "name": "Patricio Jnr Garay"
+        },
+        {
+          "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
+          "name": "Patricio Jnr Garay & Nicolas Denizot"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/8706be98-f637-4733-b2ef-b4b83ac42fb5",
       "teams": [
         "England",
         "Spain"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Jamie Burch & Euan Burridge",
-            "Patricio Jnr Garay & Nicolas Denizot"
+            {
+              "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
+              "name": "Jamie Burch & Euan Burridge"
+            },
+            {
+              "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
+              "name": "Patricio Jnr Garay & Nicolas Denizot"
+            }
           ],
           "games": [
             {
+              "gameId": "game/53076514-5c3d-4225-8303-e0bd648e5c2b",
               "players": [
                 {
+                  "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
                   "name": "Patricio Jnr Garay & Nicolas Denizot",
                   "score": "4"
                 }
@@ -68,12 +135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7fe2956f-d1ba-4cd3-abeb-274f082b2249",
               "players": [
                 {
+                  "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
                   "name": "Patricio Jnr Garay & Nicolas Denizot",
                   "score": "7"
                 }
@@ -82,12 +152,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1e2fcc7c-e1eb-4d9b-9f01-0407f03ef217",
               "players": [
                 {
+                  "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
                   "name": "Patricio Jnr Garay & Nicolas Denizot",
                   "score": "1"
                 }
@@ -99,17 +172,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly & Aston Wade",
-            "Jose Riva & Juan Ojeda"
+            {
+              "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
+              "name": "John-Paul Moberly & Aston Wade"
+            },
+            {
+              "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
+              "name": "Jose Riva & Juan Ojeda"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9aa147c5-abde-40a5-ae00-d903fd18a129",
               "players": [
                 {
+                  "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
                   "name": "John-Paul Moberly & Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
                   "name": "Jose Riva & Juan Ojeda",
                   "score": "3"
                 }
@@ -118,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9d98fb9e-f16c-4995-9409-a6fab4600107",
               "players": [
                 {
+                  "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
                   "name": "John-Paul Moberly & Aston Wade",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
                   "name": "Jose Riva & Juan Ojeda",
                   "score": "7"
                 }
@@ -132,12 +217,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a0ed8e0f-e19b-4858-8efe-720c3cc585f4",
               "players": [
                 {
+                  "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
                   "name": "John-Paul Moberly & Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
                   "name": "Jose Riva & Juan Ojeda",
                   "score": "4"
                 }
@@ -149,17 +237,26 @@
         },
         {
           "players": [
-            "Stuart M Smith & Tobi Savage",
-            "Andres Alvarez-Sala & Manuel Alvarez-Sala"
+            {
+              "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
+              "name": "Stuart M Smith & Tobi Savage"
+            },
+            {
+              "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
+              "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2c0d3d85-14ee-4d03-8818-7e2ad8d74cc2",
               "players": [
                 {
+                  "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
                   "name": "Stuart M Smith & Tobi Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
                   "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala",
                   "score": "5"
                 }
@@ -168,12 +265,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ed5d97a8-f53a-4dd2-8b1b-1042a32e89dd",
               "players": [
                 {
+                  "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
                   "name": "Stuart M Smith & Tobi Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
                   "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala",
                   "score": "5"
                 }
@@ -185,17 +285,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly & Aston Wade",
-            "Patricio Jnr Garay & Nicolas Denizot"
+            {
+              "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
+              "name": "John-Paul Moberly & Aston Wade"
+            },
+            {
+              "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
+              "name": "Patricio Jnr Garay & Nicolas Denizot"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6f10378e-ce10-443f-aca4-66d4d9322780",
               "players": [
                 {
+                  "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
                   "name": "John-Paul Moberly & Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
                   "name": "Patricio Jnr Garay & Nicolas Denizot",
                   "score": "4"
                 }
@@ -204,12 +313,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/02482f07-810d-4b93-a5ac-7a54d23815d5",
               "players": [
                 {
+                  "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
                   "name": "John-Paul Moberly & Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
                   "name": "Patricio Jnr Garay & Nicolas Denizot",
                   "score": "4"
                 }
@@ -221,17 +333,26 @@
         },
         {
           "players": [
-            "Jamie Burch & Euan Burridge",
-            "Andres Alvarez-Sala & Manuel Alvarez-Sala"
+            {
+              "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
+              "name": "Jamie Burch & Euan Burridge"
+            },
+            {
+              "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
+              "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e1141d33-759e-4a0f-b6b2-ccd1aaa6e731",
               "players": [
                 {
+                  "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
                   "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala",
                   "score": "6"
                 }
@@ -240,12 +361,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e1d38a56-fc9e-42a7-8fdd-4b31975cb2c9",
               "players": [
                 {
+                  "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
                   "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala",
                   "score": "7"
                 }
@@ -254,12 +378,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/97b26334-d31e-4745-a8da-5512559e53eb",
               "players": [
                 {
+                  "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
                   "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala",
                   "score": "7"
                 }
@@ -271,17 +398,26 @@
         },
         {
           "players": [
-            "Stuart M Smith & Tobi Savage",
-            "Jose Riva & Juan Ojeda"
+            {
+              "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
+              "name": "Stuart M Smith & Tobi Savage"
+            },
+            {
+              "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
+              "name": "Jose Riva & Juan Ojeda"
+            }
           ],
           "games": [
             {
+              "gameId": "game/00113926-274d-4378-86e1-288a3fa1af75",
               "players": [
                 {
+                  "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
                   "name": "Stuart M Smith & Tobi Savage",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
                   "name": "Jose Riva & Juan Ojeda",
                   "score": "7"
                 }
@@ -290,12 +426,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/73b47352-a295-4adf-91eb-7ea90099622d",
               "players": [
                 {
+                  "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
                   "name": "Stuart M Smith & Tobi Savage",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
                   "name": "Jose Riva & Juan Ojeda",
                   "score": "7"
                 }
@@ -307,17 +446,26 @@
         },
         {
           "players": [
-            "Aston Wade",
-            "Juan Ojeda"
+            {
+              "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
+              "name": "Aston Wade"
+            },
+            {
+              "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
+              "name": "Juan Ojeda"
+            }
           ],
           "games": [
             {
+              "gameId": "game/110ebbf0-b317-48b2-afb4-f927d8866c54",
               "players": [
                 {
+                  "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
                   "name": "Aston Wade",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
                   "name": "Juan Ojeda",
                   "score": "7"
                 }
@@ -326,12 +474,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e493e966-21b2-4dbc-a495-d68cf94aaaa5",
               "players": [
                 {
+                  "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
                   "name": "Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
                   "name": "Juan Ojeda",
                   "score": "2"
                 }
@@ -340,12 +491,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3c8640b5-fb46-4c4a-9229-5ee69b8459ec",
               "players": [
                 {
+                  "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
                   "name": "Aston Wade",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
                   "name": "Juan Ojeda",
                   "score": "7"
                 }
@@ -357,17 +511,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly",
-            "Manuel Alvarez-Sala"
+            {
+              "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
+              "name": "Manuel Alvarez-Sala"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f64e362-70d6-4479-80f3-26ee83a2c4f7",
               "players": [
                 {
+                  "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
                   "name": "John-Paul Moberly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
                   "name": "Manuel Alvarez-Sala",
                   "score": "6"
                 }
@@ -376,12 +539,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0a9cfbcd-6273-48a3-9927-ed7d332a68dc",
               "players": [
                 {
+                  "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
                   "name": "John-Paul Moberly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
                   "name": "Manuel Alvarez-Sala",
                   "score": "6"
                 }
@@ -393,17 +559,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Jose Riva"
+            {
+              "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
+              "name": "Jose Riva"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6eac0d1-e3f1-468a-8a1a-21f37dd23d51",
               "players": [
                 {
+                  "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
                   "name": "Euan Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
                   "name": "Jose Riva",
                   "score": "7"
                 }
@@ -412,12 +587,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/71e4aa92-57a1-41e4-bc2a-2722d460878e",
               "players": [
                 {
+                  "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
                   "name": "Euan Burridge",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
                   "name": "Jose Riva",
                   "score": "7"
                 }
@@ -429,17 +607,26 @@
         },
         {
           "players": [
-            "Tobi  Savage",
-            "Patricio Jnr Garay"
+            {
+              "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
+              "name": "Tobi  Savage"
+            },
+            {
+              "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
+              "name": "Patricio Jnr Garay"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34472438-ce45-4241-82bd-7205f7eed62a",
               "players": [
                 {
+                  "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
                   "name": "Tobi  Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
                   "name": "Patricio Jnr Garay",
                   "score": "6"
                 }
@@ -448,12 +635,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5ed95291-e464-4605-b939-6a7ef1ffb759",
               "players": [
                 {
+                  "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
                   "name": "Tobi  Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
                   "name": "Patricio Jnr Garay",
                   "score": "4"
                 }
@@ -465,17 +655,26 @@
         },
         {
           "players": [
-            "StuartM Smith",
-            "Juan Ojeda"
+            {
+              "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
+              "name": "StuartM Smith"
+            },
+            {
+              "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
+              "name": "Juan Ojeda"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4781284c-0711-493e-95a5-4a022aaddbaa",
               "players": [
                 {
+                  "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
                   "name": "StuartM Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
                   "name": "Juan Ojeda",
                   "score": "5"
                 }
@@ -484,12 +683,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/63368ca8-820a-48be-9c92-33891cf67b47",
               "players": [
                 {
+                  "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
                   "name": "StuartM Smith",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
                   "name": "Juan Ojeda",
                   "score": "7"
                 }
@@ -498,12 +700,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1a6ade30-acc0-4bea-85e8-b246c0735902",
               "players": [
                 {
+                  "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
                   "name": "StuartM Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
                   "name": "Juan Ojeda",
                   "score": "5"
                 }
@@ -515,17 +720,26 @@
         },
         {
           "players": [
-            "Jamie Burch",
-            "Manuel Alvarez-Sala"
+            {
+              "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
+              "name": "Jamie Burch"
+            },
+            {
+              "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
+              "name": "Manuel Alvarez-Sala"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1953faa2-971d-4332-aeca-0c6166b7b1d4",
               "players": [
                 {
+                  "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
                   "name": "Jamie Burch",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
                   "name": "Manuel Alvarez-Sala",
                   "score": "7"
                 }
@@ -534,12 +748,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a0b13ba2-2d5c-4bea-b207-c6fa22960b31",
               "players": [
                 {
+                  "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
                   "name": "Jamie Burch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
                   "name": "Manuel Alvarez-Sala",
                   "score": "4"
                 }
@@ -548,12 +765,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c8909b69-6817-433a-bc2c-42c515dd02f9",
               "players": [
                 {
+                  "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
                   "name": "Jamie Burch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
                   "name": "Manuel Alvarez-Sala",
                   "score": "6"
                 }
@@ -565,17 +785,26 @@
         },
         {
           "players": [
-            "Tobi  Savage",
-            "Nicolas Denizot"
+            {
+              "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
+              "name": "Tobi  Savage"
+            },
+            {
+              "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
+              "name": "Nicolas Denizot"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3f5714f5-7af8-40ad-b18f-d4285aee944b",
               "players": [
                 {
+                  "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
                   "name": "Tobi  Savage",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
                   "name": "Nicolas Denizot",
                   "score": "7"
                 }
@@ -584,12 +813,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a5377af4-d5b3-40a5-a506-3bff4049bb7f",
               "players": [
                 {
+                  "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
                   "name": "Tobi  Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
                   "name": "Nicolas Denizot",
                   "score": "4"
                 }
@@ -598,12 +830,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/57c6e4d8-c2e7-4c48-8b15-66e6c5e65b33",
               "players": [
                 {
+                  "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
                   "name": "Tobi  Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
                   "name": "Nicolas Denizot",
                   "score": "4"
                 }
@@ -615,17 +850,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Andres Alvarez-Sala"
+            {
+              "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
+              "name": "Andres Alvarez-Sala"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54ae831e-42cb-43b7-bc8e-374010181e68",
               "players": [
                 {
+                  "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
                   "name": "Andres Alvarez-Sala",
                   "score": "6"
                 }
@@ -634,12 +878,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1bb5bb96-8663-448a-80bf-13fb01b6b621",
               "players": [
                 {
+                  "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
                   "name": "Andres Alvarez-Sala",
                   "score": "4"
                 }
@@ -651,17 +898,26 @@
         },
         {
           "players": [
-            "Aston Wade",
-            "Nicolas Denizot"
+            {
+              "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
+              "name": "Aston Wade"
+            },
+            {
+              "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
+              "name": "Nicolas Denizot"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dc3f64c3-582d-4b0e-91a3-46c4cddc17ac",
               "players": [
                 {
+                  "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
                   "name": "Aston Wade",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
                   "name": "Nicolas Denizot",
                   "score": "7"
                 }
@@ -670,12 +926,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d738ac6f-b894-43e1-9527-4b9671331e5d",
               "players": [
                 {
+                  "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
                   "name": "Aston Wade",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
                   "name": "Nicolas Denizot",
                   "score": "7"
                 }
@@ -687,17 +946,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly",
-            "Andres Alvarez-Sala"
+            {
+              "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
+              "name": "Andres Alvarez-Sala"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32d883a5-2d83-42af-aa0d-78931b2b81bc",
               "players": [
                 {
+                  "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
                   "name": "John-Paul Moberly",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
                   "name": "Andres Alvarez-Sala",
                   "score": "7"
                 }
@@ -706,12 +974,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/04c70437-5747-40ff-bac7-13bcdbefe634",
               "players": [
                 {
+                  "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
                   "name": "John-Paul Moberly",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
                   "name": "Andres Alvarez-Sala",
                   "score": "7"
                 }
@@ -723,17 +994,26 @@
         },
         {
           "players": [
-            "Jamie Burch",
-            "Jose Riva"
+            {
+              "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
+              "name": "Jamie Burch"
+            },
+            {
+              "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
+              "name": "Jose Riva"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b11bbc0-3a95-4a04-9916-fcfbb9d4e5b0",
               "players": [
                 {
+                  "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
                   "name": "Jamie Burch",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
                   "name": "Jose Riva",
                   "score": "7"
                 }
@@ -742,12 +1022,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f2b9f23b-af8f-466b-9d43-a11e87fe93f9",
               "players": [
                 {
+                  "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
                   "name": "Jamie Burch",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
                   "name": "Jose Riva",
                   "score": "7"
                 }
@@ -759,17 +1042,26 @@
         },
         {
           "players": [
-            "StuartM Smith",
-            "Patricio Jnr Garay"
+            {
+              "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
+              "name": "StuartM Smith"
+            },
+            {
+              "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
+              "name": "Patricio Jnr Garay"
+            }
           ],
           "games": [
             {
+              "gameId": "game/72ed2823-fd9e-4653-bd28-62adffd4909d",
               "players": [
                 {
+                  "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
                   "name": "StuartM Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
                   "name": "Patricio Jnr Garay",
                   "score": "6"
                 }
@@ -778,12 +1070,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2281d0aa-be72-472c-abe9-f5dfdc19b806",
               "players": [
                 {
+                  "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
                   "name": "StuartM Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
                   "name": "Patricio Jnr Garay",
                   "score": "5"
                 }
@@ -795,17 +1090,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly & Aston Wade",
-            "Andres Alvarez-Sala & Manuel Alvarez-Sala"
+            {
+              "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
+              "name": "John-Paul Moberly & Aston Wade"
+            },
+            {
+              "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
+              "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c94e04c7-55fd-417c-afee-44decf2134f6",
               "players": [
                 {
+                  "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
                   "name": "John-Paul Moberly & Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
                   "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala",
                   "score": "4"
                 }
@@ -814,12 +1118,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c8f9f8fa-1d55-438b-ad39-a4acd34a4020",
               "players": [
                 {
+                  "playerId": "team-player/7480310a-b0f1-4ffa-8aa0-e2df2f788ff4",
                   "name": "John-Paul Moberly & Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc59f097-b3a4-449a-8c4c-a1b5041a0fe2",
                   "name": "Andres Alvarez-Sala & Manuel Alvarez-Sala",
                   "score": "1"
                 }
@@ -831,17 +1138,26 @@
         },
         {
           "players": [
-            "Stuart M Smith & Tobi Savage",
-            "Patricio Jnr Garay & Nicolas Denizot"
+            {
+              "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
+              "name": "Stuart M Smith & Tobi Savage"
+            },
+            {
+              "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
+              "name": "Patricio Jnr Garay & Nicolas Denizot"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9172e41f-26e5-4f41-9ed2-6567a977e69c",
               "players": [
                 {
+                  "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
                   "name": "Stuart M Smith & Tobi Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
                   "name": "Patricio Jnr Garay & Nicolas Denizot",
                   "score": "4"
                 }
@@ -850,12 +1166,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6b8674a2-5852-4b6c-bc2e-58bbe083cb65",
               "players": [
                 {
+                  "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
                   "name": "Stuart M Smith & Tobi Savage",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
                   "name": "Patricio Jnr Garay & Nicolas Denizot",
                   "score": "7"
                 }
@@ -864,12 +1183,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/07abba63-b413-40a9-92cb-817ec75b6533",
               "players": [
                 {
+                  "playerId": "team-player/7bbb4fe0-6458-47eb-a89b-df8ca19d6f16",
                   "name": "Stuart M Smith & Tobi Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3802229f-e656-46f6-86b1-1ea44994d43e",
                   "name": "Patricio Jnr Garay & Nicolas Denizot",
                   "score": "2"
                 }
@@ -881,17 +1203,26 @@
         },
         {
           "players": [
-            "Jamie Burch & Euan Burridge",
-            "Jose Riva & Juan Ojeda"
+            {
+              "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
+              "name": "Jamie Burch & Euan Burridge"
+            },
+            {
+              "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
+              "name": "Jose Riva & Juan Ojeda"
+            }
           ],
           "games": [
             {
+              "gameId": "game/07489934-f0c1-4376-a556-317a8ac5d7d5",
               "players": [
                 {
+                  "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
                   "name": "Jose Riva & Juan Ojeda",
                   "score": "6"
                 }
@@ -900,12 +1231,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/135b3c13-ab33-4885-b84c-43cf4f472e98",
               "players": [
                 {
+                  "playerId": "team-player/b4e2bcd5-41ed-4f8b-bd1b-4c4189bbcec6",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c8425eb2-cd70-4cd7-b167-77ffc73587ba",
                   "name": "Jose Riva & Juan Ojeda",
                   "score": "3"
                 }
@@ -917,17 +1251,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Manuel Alvarez-Sala"
+            {
+              "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
+              "name": "Manuel Alvarez-Sala"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05383ee6-69fa-425e-892d-527da8b64844",
               "players": [
                 {
+                  "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
                   "name": "Euan Burridge",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
                   "name": "Manuel Alvarez-Sala",
                   "score": "7"
                 }
@@ -936,12 +1279,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/379bd315-a0b3-41d1-b9e3-21d87fb7f14b",
               "players": [
                 {
+                  "playerId": "team-player/1f2e1be9-a6e5-4218-b46c-9d23c591a328",
                   "name": "Euan Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/22dcafdd-291a-4814-881b-6015d312fd31",
                   "name": "Manuel Alvarez-Sala",
                   "score": "7"
                 }
@@ -953,17 +1299,26 @@
         },
         {
           "players": [
-            "Jamie Burch",
-            "Andres Alvarez-Sala"
+            {
+              "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
+              "name": "Jamie Burch"
+            },
+            {
+              "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
+              "name": "Andres Alvarez-Sala"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b4e33a7d-1b25-4f62-bb72-bee438285f56",
               "players": [
                 {
+                  "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
                   "name": "Jamie Burch",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
                   "name": "Andres Alvarez-Sala",
                   "score": "7"
                 }
@@ -972,12 +1327,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/87f65cf6-3948-49a4-94e3-26004189fc24",
               "players": [
                 {
+                  "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
                   "name": "Jamie Burch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
                   "name": "Andres Alvarez-Sala",
                   "score": "4"
                 }
@@ -986,12 +1344,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f3f58803-4e2e-4e7b-b100-09f775303d13",
               "players": [
                 {
+                  "playerId": "team-player/bb5b09cf-af66-49f8-b7bf-e20c6d21bb28",
                   "name": "Jamie Burch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2bc5fb94-e777-4a33-a820-beb483ee216c",
                   "name": "Andres Alvarez-Sala",
                   "score": "6"
                 }
@@ -1003,17 +1364,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly",
-            "Jose Riva"
+            {
+              "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
+              "name": "Jose Riva"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e8bce63-a17b-4df3-b9e1-0f340d715c25",
               "players": [
                 {
+                  "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
                   "name": "John-Paul Moberly",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
                   "name": "Jose Riva",
                   "score": "7"
                 }
@@ -1022,12 +1392,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ecf4e213-ec5a-4d71-a91d-048dd346a37c",
               "players": [
                 {
+                  "playerId": "team-player/d0794101-d105-4104-9aa0-9b9b63a36c0b",
                   "name": "John-Paul Moberly",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4db92dc3-efb7-446d-9c4e-467941619b08",
                   "name": "Jose Riva",
                   "score": "7"
                 }
@@ -1039,17 +1412,26 @@
         },
         {
           "players": [
-            "Aston Wade",
-            "Patricio Jnr Garay"
+            {
+              "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
+              "name": "Aston Wade"
+            },
+            {
+              "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
+              "name": "Patricio Jnr Garay"
+            }
           ],
           "games": [
             {
+              "gameId": "game/300e6379-652d-4428-a1cd-48f3585c8bf4",
               "players": [
                 {
+                  "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
                   "name": "Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
                   "name": "Patricio Jnr Garay",
                   "score": "4"
                 }
@@ -1058,12 +1440,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7e2354ef-3e1e-421e-8ef0-ff4656c3e6fb",
               "players": [
                 {
+                  "playerId": "team-player/80a1f137-4231-4f75-a691-aa9930f5d18c",
                   "name": "Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/441f24a3-eba7-41cb-bc5d-74f5fe8ee819",
                   "name": "Patricio Jnr Garay",
                   "score": "2"
                 }
@@ -1075,17 +1460,26 @@
         },
         {
           "players": [
-            "StuartM Smith",
-            "Nicolas Denizot"
+            {
+              "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
+              "name": "StuartM Smith"
+            },
+            {
+              "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
+              "name": "Nicolas Denizot"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1cb58258-fb4f-4579-b4ad-0c3f6383c4ea",
               "players": [
                 {
+                  "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
                   "name": "StuartM Smith",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
                   "name": "Nicolas Denizot",
                   "score": "7"
                 }
@@ -1094,12 +1488,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/12648bf5-1bd8-402a-9fd2-480c774c68ea",
               "players": [
                 {
+                  "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
                   "name": "StuartM Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
                   "name": "Nicolas Denizot",
                   "score": "4"
                 }
@@ -1108,12 +1505,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3ef76fba-fba6-45bf-bdfe-aaf6a9a8ea40",
               "players": [
                 {
+                  "playerId": "team-player/cb530687-9fac-4a09-8953-b8740cb46cb9",
                   "name": "StuartM Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7b51347b-1df4-490e-a2ce-a3539618a47d",
                   "name": "Nicolas Denizot",
                   "score": "2"
                 }
@@ -1125,17 +1525,26 @@
         },
         {
           "players": [
-            "Tobi  Savage",
-            "Juan Ojeda"
+            {
+              "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
+              "name": "Tobi  Savage"
+            },
+            {
+              "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
+              "name": "Juan Ojeda"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac8d02f6-28d3-41a3-a44e-8b61bcd363a7",
               "players": [
                 {
+                  "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
                   "name": "Tobi  Savage",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
                   "name": "Juan Ojeda",
                   "score": "7"
                 }
@@ -1144,12 +1553,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f13e2eff-b26b-4753-b4bf-bd81d6fc16d6",
               "players": [
                 {
+                  "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
                   "name": "Tobi  Savage",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
                   "name": "Juan Ojeda",
                   "score": "2"
                 }
@@ -1158,12 +1570,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/107f0050-3431-4308-be17-2033357199b0",
               "players": [
                 {
+                  "playerId": "team-player/42411f01-7bb5-4f45-9047-0ea20dd87a0f",
                   "name": "Tobi  Savage",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5c2430f7-6f58-4863-ba73-2042468c4771",
                   "name": "Juan Ojeda",
                   "score": "7"
                 }

@@ -1,47 +1,64 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4f2d64bf-0fc9-42b0-b7f2-4fccbcb4451b",
   "name": "Bermuda",
   "sport": "a6w",
   "firstDay": "2024-10-24",
   "lastDay": "2024-10-27",
   "country": "bm",
   "region": null,
+  "national": false,
+  "international": false,
   "players": [
     {
+      "playerId": "tournament-player/2ea75bfe-835d-40ae-8401-aa97bc271dce",
       "name": "Douglas Moore",
       "representing": null
     },
     {
+      "playerId": "tournament-player/b5e3a3ec-e290-4752-9de9-feb2f964abd7",
       "name": "John Young III",
       "representing": null
     },
     {
+      "playerId": "tournament-player/257f5f00-5f41-40ac-83a4-367856f6d59c",
       "name": "John Young III - Ron Eccles",
       "representing": null
     },
     {
+      "playerId": "tournament-player/42db10fb-889d-4533-81a3-911f990f48c2",
       "name": "Rich Curtis - Britt Ruby",
       "representing": null
     }
   ],
   "competitions": [
     {
+      "competitionId": "competition/bf65c0a1-b35a-41a6-ad78-ce4c1a813b35",
       "name": "Finals",
       "kind": "knockout",
       "matches": [
         {
           "players": [
-            "John Young III",
-            "Douglas Moore"
+            {
+              "playerId": "tournament-player/b5e3a3ec-e290-4752-9de9-feb2f964abd7",
+              "name": "John Young III"
+            },
+            {
+              "playerId": "tournament-player/2ea75bfe-835d-40ae-8401-aa97bc271dce",
+              "name": "Douglas Moore"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d49de804-df2a-4334-84dc-741a28c7c80f",
               "players": [
                 {
+                  "playerId": "tournament-player/b5e3a3ec-e290-4752-9de9-feb2f964abd7",
                   "name": "John Young III",
                   "score": "18"
                 },
                 {
+                  "playerId": "tournament-player/2ea75bfe-835d-40ae-8401-aa97bc271dce",
                   "name": "Douglas Moore",
                   "score": "8"
                 }
@@ -54,22 +71,32 @@
       ]
     },
     {
+      "competitionId": "competition/d47b174a-0a91-42d5-99e3-cb2339872263",
       "name": "Doubles Finals",
       "kind": "knockout",
       "matches": [
         {
           "players": [
-            "Rich Curtis - Britt Ruby",
-            "John Young III - Ron Eccles"
+            {
+              "playerId": "tournament-player/42db10fb-889d-4533-81a3-911f990f48c2",
+              "name": "Rich Curtis - Britt Ruby"
+            },
+            {
+              "playerId": "tournament-player/257f5f00-5f41-40ac-83a4-367856f6d59c",
+              "name": "John Young III - Ron Eccles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/04f2a2bd-57b2-4cde-8457-0dec05cb24f6",
               "players": [
                 {
+                  "playerId": "tournament-player/42db10fb-889d-4533-81a3-911f990f48c2",
                   "name": "Rich Curtis - Britt Ruby",
                   "score": "13"
                 },
                 {
+                  "playerId": "tournament-player/257f5f00-5f41-40ac-83a4-367856f6d59c",
                   "name": "John Young III - Ron Eccles",
                   "score": "10"
                 }

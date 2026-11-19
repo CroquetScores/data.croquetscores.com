@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/d8270be7-2b35-4363-8258-fb9cad8a31e3",
   "name": "Sweden Norway International",
   "sport": "gc",
   "firstDay": "2023-06-17",
   "lastDay": "2023-06-18",
   "country": "no",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Sweden",
       "shortName": "SWE",
       "players": [
-        "Eje Elebo",
-        "Ewa Berg",
-        "Ivar Rasmussen",
-        "Khemisti Taleb",
-        "Krister Ekholm",
-        "Martin Artman"
+        {
+          "playerId": "team-player/f7cbc4e7-d4ed-4ad7-8742-7db57e1283c0",
+          "name": "Eje Elebo"
+        },
+        {
+          "playerId": "team-player/61ad2082-7f83-4cbd-8e37-365de6f5c6bd",
+          "name": "Ewa Berg"
+        },
+        {
+          "playerId": "team-player/c2b51111-83fb-4f39-b630-d1327496596d",
+          "name": "Ivar Rasmussen"
+        },
+        {
+          "playerId": "team-player/6f93999f-1935-4f0b-a4b5-1816811faabf",
+          "name": "Khemisti Taleb"
+        },
+        {
+          "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
+          "name": "Krister Ekholm"
+        },
+        {
+          "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
+          "name": "Martin Artman"
+        }
       ]
     },
     {
       "name": "Norway",
       "shortName": "NOR",
       "players": [
-        "Glenn Fauske",
-        "Harald Sponnich",
-        "Magnus Myhrene",
-        "Marius Thorne",
-        "Trond Jansen",
-        "Viggo Olsen"
+        {
+          "playerId": "team-player/55fbb32c-4b96-43c2-845c-7c5f13e2682c",
+          "name": "Glenn Fauske"
+        },
+        {
+          "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
+          "name": "Harald Sponnich"
+        },
+        {
+          "playerId": "team-player/948d1d1d-89d2-4396-966a-4aa54d65c6d6",
+          "name": "Magnus Myhrene"
+        },
+        {
+          "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
+          "name": "Marius Thorne"
+        },
+        {
+          "playerId": "team-player/41ab5a0d-d34a-4775-8902-c8ce4da7e08c",
+          "name": "Trond Jansen"
+        },
+        {
+          "playerId": "team-player/f957fb60-b4b7-4ce1-85b7-508f86223c94",
+          "name": "Viggo Olsen"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/36f86a93-da70-4f6d-813c-d1bf272d6c20",
       "teams": [
         "Sweden",
         "Norway"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Eje Elebo",
-            "Marius Thorne"
+            {
+              "playerId": "team-player/f7cbc4e7-d4ed-4ad7-8742-7db57e1283c0",
+              "name": "Eje Elebo"
+            },
+            {
+              "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
+              "name": "Marius Thorne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/38c9fb69-e3e7-4929-9970-b419988374d7",
               "players": [
                 {
+                  "playerId": "team-player/f7cbc4e7-d4ed-4ad7-8742-7db57e1283c0",
                   "name": "Eje Elebo",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
                   "name": "Marius Thorne",
                   "score": "7"
                 }
@@ -62,12 +111,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/40d0f940-bc2e-4b72-a264-c1bae7632f5a",
               "players": [
                 {
+                  "playerId": "team-player/f7cbc4e7-d4ed-4ad7-8742-7db57e1283c0",
                   "name": "Eje Elebo",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
                   "name": "Marius Thorne",
                   "score": "7"
                 }
@@ -79,17 +131,26 @@
         },
         {
           "players": [
-            "Krister Ekholm",
-            "Glenn Fauske"
+            {
+              "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
+              "name": "Krister Ekholm"
+            },
+            {
+              "playerId": "team-player/55fbb32c-4b96-43c2-845c-7c5f13e2682c",
+              "name": "Glenn Fauske"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b93ab8f1-e7e7-40f1-8edd-cf5019211ec8",
               "players": [
                 {
+                  "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
                   "name": "Krister Ekholm",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/55fbb32c-4b96-43c2-845c-7c5f13e2682c",
                   "name": "Glenn Fauske",
                   "score": "6"
                 }
@@ -98,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/275013ee-a279-4899-b6a1-38fee56d1718",
               "players": [
                 {
+                  "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
                   "name": "Krister Ekholm",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/55fbb32c-4b96-43c2-845c-7c5f13e2682c",
                   "name": "Glenn Fauske",
                   "score": "6"
                 }
@@ -115,17 +179,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Trond Jansen"
+            {
+              "playerId": "team-player/c2b51111-83fb-4f39-b630-d1327496596d",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/41ab5a0d-d34a-4775-8902-c8ce4da7e08c",
+              "name": "Trond Jansen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88586851-d26f-48e7-acb9-ed790eb8ba9a",
               "players": [
                 {
+                  "playerId": "team-player/c2b51111-83fb-4f39-b630-d1327496596d",
                   "name": "Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/41ab5a0d-d34a-4775-8902-c8ce4da7e08c",
                   "name": "Trond Jansen",
                   "score": "5"
                 }
@@ -134,12 +207,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bb40ce8e-d5ec-4625-b71a-dead4403b984",
               "players": [
                 {
+                  "playerId": "team-player/c2b51111-83fb-4f39-b630-d1327496596d",
                   "name": "Ivar Rasmussen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/41ab5a0d-d34a-4775-8902-c8ce4da7e08c",
                   "name": "Trond Jansen",
                   "score": "7"
                 }
@@ -148,12 +224,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d716b23d-f746-4321-bc99-b20506409d41",
               "players": [
                 {
+                  "playerId": "team-player/c2b51111-83fb-4f39-b630-d1327496596d",
                   "name": "Ivar Rasmussen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/41ab5a0d-d34a-4775-8902-c8ce4da7e08c",
                   "name": "Trond Jansen",
                   "score": "7"
                 }
@@ -165,17 +244,26 @@
         },
         {
           "players": [
-            "Khemisti Taleb",
-            "Harald Sponnich"
+            {
+              "playerId": "team-player/6f93999f-1935-4f0b-a4b5-1816811faabf",
+              "name": "Khemisti Taleb"
+            },
+            {
+              "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
+              "name": "Harald Sponnich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/532486dd-8686-48ff-aa18-d9d843ccca93",
               "players": [
                 {
+                  "playerId": "team-player/6f93999f-1935-4f0b-a4b5-1816811faabf",
                   "name": "Khemisti Taleb",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
                   "name": "Harald Sponnich",
                   "score": "7"
                 }
@@ -184,12 +272,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bb3b5e91-e50e-4660-ab50-bbdd065a0b99",
               "players": [
                 {
+                  "playerId": "team-player/6f93999f-1935-4f0b-a4b5-1816811faabf",
                   "name": "Khemisti Taleb",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
                   "name": "Harald Sponnich",
                   "score": "7"
                 }
@@ -201,17 +292,26 @@
         },
         {
           "players": [
-            "Martin Artman",
-            "Viggo Olsen"
+            {
+              "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
+              "name": "Martin Artman"
+            },
+            {
+              "playerId": "team-player/f957fb60-b4b7-4ce1-85b7-508f86223c94",
+              "name": "Viggo Olsen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad743b5b-803d-4751-b87b-ba1b553b9fab",
               "players": [
                 {
+                  "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
                   "name": "Martin Artman",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f957fb60-b4b7-4ce1-85b7-508f86223c94",
                   "name": "Viggo Olsen",
                   "score": "6"
                 }
@@ -220,12 +320,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/94fd8441-d09c-41f3-87b8-12d9faae30ed",
               "players": [
                 {
+                  "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
                   "name": "Martin Artman",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f957fb60-b4b7-4ce1-85b7-508f86223c94",
                   "name": "Viggo Olsen",
                   "score": "7"
                 }
@@ -234,12 +337,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f1f3b709-a7e9-410c-9738-9ed951b9deae",
               "players": [
                 {
+                  "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
                   "name": "Martin Artman",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f957fb60-b4b7-4ce1-85b7-508f86223c94",
                   "name": "Viggo Olsen",
                   "score": "5"
                 }
@@ -251,17 +357,26 @@
         },
         {
           "players": [
-            "Ewa Berg",
-            "Magnus Myhrene"
+            {
+              "playerId": "team-player/61ad2082-7f83-4cbd-8e37-365de6f5c6bd",
+              "name": "Ewa Berg"
+            },
+            {
+              "playerId": "team-player/948d1d1d-89d2-4396-966a-4aa54d65c6d6",
+              "name": "Magnus Myhrene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2437fc77-b3f7-4028-899b-a3e33d237037",
               "players": [
                 {
+                  "playerId": "team-player/61ad2082-7f83-4cbd-8e37-365de6f5c6bd",
                   "name": "Ewa Berg",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/948d1d1d-89d2-4396-966a-4aa54d65c6d6",
                   "name": "Magnus Myhrene",
                   "score": "7"
                 }
@@ -270,12 +385,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f78405b6-85fb-470a-a4cb-ef7c8e6adf0f",
               "players": [
                 {
+                  "playerId": "team-player/61ad2082-7f83-4cbd-8e37-365de6f5c6bd",
                   "name": "Ewa Berg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/948d1d1d-89d2-4396-966a-4aa54d65c6d6",
                   "name": "Magnus Myhrene",
                   "score": "6"
                 }
@@ -284,12 +402,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f2bf381b-7836-464b-b328-c4b0ef7594a7",
               "players": [
                 {
+                  "playerId": "team-player/61ad2082-7f83-4cbd-8e37-365de6f5c6bd",
                   "name": "Ewa Berg",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/948d1d1d-89d2-4396-966a-4aa54d65c6d6",
                   "name": "Magnus Myhrene",
                   "score": "7"
                 }
@@ -301,17 +422,26 @@
         },
         {
           "players": [
-            "Martin Artman",
-            "Harald Sponnich"
+            {
+              "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
+              "name": "Martin Artman"
+            },
+            {
+              "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
+              "name": "Harald Sponnich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4946a88e-d1be-46d5-a7e1-dabd421e0822",
               "players": [
                 {
+                  "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
                   "name": "Martin Artman",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
                   "name": "Harald Sponnich",
                   "score": "7"
                 }
@@ -320,12 +450,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1d2cdac6-a2bd-4a2a-9e9f-76cf299864ec",
               "players": [
                 {
+                  "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
                   "name": "Martin Artman",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
                   "name": "Harald Sponnich",
                   "score": "2"
                 }
@@ -334,12 +467,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5af76e42-8a66-40d1-83b2-8ff9367a1190",
               "players": [
                 {
+                  "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
                   "name": "Martin Artman",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
                   "name": "Harald Sponnich",
                   "score": "7"
                 }
@@ -351,17 +487,26 @@
         },
         {
           "players": [
-            "Ewa Berg",
-            "Viggo Olsen"
+            {
+              "playerId": "team-player/61ad2082-7f83-4cbd-8e37-365de6f5c6bd",
+              "name": "Ewa Berg"
+            },
+            {
+              "playerId": "team-player/f957fb60-b4b7-4ce1-85b7-508f86223c94",
+              "name": "Viggo Olsen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/609405bf-8e07-453b-8e38-c85ca2eb6937",
               "players": [
                 {
+                  "playerId": "team-player/61ad2082-7f83-4cbd-8e37-365de6f5c6bd",
                   "name": "Ewa Berg",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f957fb60-b4b7-4ce1-85b7-508f86223c94",
                   "name": "Viggo Olsen",
                   "score": "10"
                 }
@@ -373,17 +518,26 @@
         },
         {
           "players": [
-            "Eje Elebo",
-            "Trond Jansen"
+            {
+              "playerId": "team-player/f7cbc4e7-d4ed-4ad7-8742-7db57e1283c0",
+              "name": "Eje Elebo"
+            },
+            {
+              "playerId": "team-player/41ab5a0d-d34a-4775-8902-c8ce4da7e08c",
+              "name": "Trond Jansen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2659ee54-7a40-478f-a283-b3a529eba306",
               "players": [
                 {
+                  "playerId": "team-player/f7cbc4e7-d4ed-4ad7-8742-7db57e1283c0",
                   "name": "Eje Elebo",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/41ab5a0d-d34a-4775-8902-c8ce4da7e08c",
                   "name": "Trond Jansen",
                   "score": "3"
                 }
@@ -395,17 +549,26 @@
         },
         {
           "players": [
-            "Krister Ekholm",
-            "Marius Thorne"
+            {
+              "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
+              "name": "Krister Ekholm"
+            },
+            {
+              "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
+              "name": "Marius Thorne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/08b2d73e-695e-4858-9c22-0b12d5a3130e",
               "players": [
                 {
+                  "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
                   "name": "Krister Ekholm",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
                   "name": "Marius Thorne",
                   "score": "7"
                 }
@@ -414,12 +577,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ef89f198-e6e3-457a-8dca-6eac63d5856f",
               "players": [
                 {
+                  "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
                   "name": "Krister Ekholm",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
                   "name": "Marius Thorne",
                   "score": "4"
                 }
@@ -428,12 +594,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/735fb936-4baa-4354-af5c-a913264725f3",
               "players": [
                 {
+                  "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
                   "name": "Krister Ekholm",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
                   "name": "Marius Thorne",
                   "score": "5"
                 }
@@ -445,17 +614,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Glenn Fauske"
+            {
+              "playerId": "team-player/c2b51111-83fb-4f39-b630-d1327496596d",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/55fbb32c-4b96-43c2-845c-7c5f13e2682c",
+              "name": "Glenn Fauske"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3eefaf57-1a73-4c62-8cb3-243e8fad3919",
               "players": [
                 {
+                  "playerId": "team-player/c2b51111-83fb-4f39-b630-d1327496596d",
                   "name": "Ivar Rasmussen",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/55fbb32c-4b96-43c2-845c-7c5f13e2682c",
                   "name": "Glenn Fauske",
                   "score": "10"
                 }
@@ -467,17 +645,26 @@
         },
         {
           "players": [
-            "Khemisti Taleb",
-            "Magnus Myhrene"
+            {
+              "playerId": "team-player/6f93999f-1935-4f0b-a4b5-1816811faabf",
+              "name": "Khemisti Taleb"
+            },
+            {
+              "playerId": "team-player/948d1d1d-89d2-4396-966a-4aa54d65c6d6",
+              "name": "Magnus Myhrene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f0192ff-84c4-4385-9103-2fd23cef33fa",
               "players": [
                 {
+                  "playerId": "team-player/6f93999f-1935-4f0b-a4b5-1816811faabf",
                   "name": "Khemisti Taleb",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/948d1d1d-89d2-4396-966a-4aa54d65c6d6",
                   "name": "Magnus Myhrene",
                   "score": "10"
                 }
@@ -489,17 +676,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Marius Thorne"
+            {
+              "playerId": "team-player/c2b51111-83fb-4f39-b630-d1327496596d",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
+              "name": "Marius Thorne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a601377b-0ea3-4e5a-9873-ffed37ebbd87",
               "players": [
                 {
+                  "playerId": "team-player/c2b51111-83fb-4f39-b630-d1327496596d",
                   "name": "Ivar Rasmussen",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/d861cc5b-2308-479e-b7c2-92177ba62c33",
                   "name": "Marius Thorne",
                   "score": "9"
                 }
@@ -511,17 +707,26 @@
         },
         {
           "players": [
-            "Khemisti Taleb",
-            "Viggo Olsen"
+            {
+              "playerId": "team-player/6f93999f-1935-4f0b-a4b5-1816811faabf",
+              "name": "Khemisti Taleb"
+            },
+            {
+              "playerId": "team-player/f957fb60-b4b7-4ce1-85b7-508f86223c94",
+              "name": "Viggo Olsen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/db4b7f00-65ac-4816-9f1b-e8c55ce9b97e",
               "players": [
                 {
+                  "playerId": "team-player/6f93999f-1935-4f0b-a4b5-1816811faabf",
                   "name": "Khemisti Taleb",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/f957fb60-b4b7-4ce1-85b7-508f86223c94",
                   "name": "Viggo Olsen",
                   "score": "10"
                 }
@@ -533,17 +738,26 @@
         },
         {
           "players": [
-            "Martin Artman",
-            "Magnus Myhrene"
+            {
+              "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
+              "name": "Martin Artman"
+            },
+            {
+              "playerId": "team-player/948d1d1d-89d2-4396-966a-4aa54d65c6d6",
+              "name": "Magnus Myhrene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/edfb3aaa-b85d-4bb5-b5c4-cf2d5c01199a",
               "players": [
                 {
+                  "playerId": "team-player/d130c5c0-4e64-4826-a62d-06399b74a1e4",
                   "name": "Martin Artman",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/948d1d1d-89d2-4396-966a-4aa54d65c6d6",
                   "name": "Magnus Myhrene",
                   "score": "5"
                 }
@@ -555,17 +769,26 @@
         },
         {
           "players": [
-            "Ewa Berg",
-            "Harald Sponnich"
+            {
+              "playerId": "team-player/61ad2082-7f83-4cbd-8e37-365de6f5c6bd",
+              "name": "Ewa Berg"
+            },
+            {
+              "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
+              "name": "Harald Sponnich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff688ead-ce71-452e-94b0-1856255234cc",
               "players": [
                 {
+                  "playerId": "team-player/61ad2082-7f83-4cbd-8e37-365de6f5c6bd",
                   "name": "Ewa Berg",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/52538ecd-9044-488c-96e1-98786199a1d0",
                   "name": "Harald Sponnich",
                   "score": "10"
                 }
@@ -577,17 +800,26 @@
         },
         {
           "players": [
-            "Eje Elebo",
-            "Glenn Fauske"
+            {
+              "playerId": "team-player/f7cbc4e7-d4ed-4ad7-8742-7db57e1283c0",
+              "name": "Eje Elebo"
+            },
+            {
+              "playerId": "team-player/55fbb32c-4b96-43c2-845c-7c5f13e2682c",
+              "name": "Glenn Fauske"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3abc550a-cca4-424e-b353-e7e27ec2bae5",
               "players": [
                 {
+                  "playerId": "team-player/f7cbc4e7-d4ed-4ad7-8742-7db57e1283c0",
                   "name": "Eje Elebo",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/55fbb32c-4b96-43c2-845c-7c5f13e2682c",
                   "name": "Glenn Fauske",
                   "score": "10"
                 }
@@ -599,17 +831,26 @@
         },
         {
           "players": [
-            "Krister Ekholm",
-            "Trond Jansen"
+            {
+              "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
+              "name": "Krister Ekholm"
+            },
+            {
+              "playerId": "team-player/41ab5a0d-d34a-4775-8902-c8ce4da7e08c",
+              "name": "Trond Jansen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/262ffbca-b04e-47cb-9287-cebb7ad6b2f8",
               "players": [
                 {
+                  "playerId": "team-player/9d485dcf-0972-4206-a754-351ebeb18bd8",
                   "name": "Krister Ekholm",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/41ab5a0d-d34a-4775-8902-c8ce4da7e08c",
                   "name": "Trond Jansen",
                   "score": "8"
                 }

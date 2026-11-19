@@ -1,47 +1,111 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/25ba7f25-5e92-4880-86e2-a25ce992b4b6",
   "name": "USCA Development Squad April Test",
   "sport": "ac",
   "firstDay": "2022-04-08",
   "lastDay": "2022-04-10",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "MacRob Team",
       "shortName": "MacRob Tea",
       "players": [
-        "Ben Rothman",
-        "Ben Rothman & Stephen Morgan",
-        "Jeff Soo",
-        "Jeff Soo & Tom Balding",
-        "Matthew Essick",
-        "Matthew Essick & Zack Watson",
-        "Stephen Morgan",
-        "Tom Balding",
-        "Zack Watson"
+        {
+          "playerId": "team-player/40577fbf-0825-4df8-9401-a62e78f9a524",
+          "name": "Ben Rothman"
+        },
+        {
+          "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
+          "name": "Ben Rothman & Stephen Morgan"
+        },
+        {
+          "playerId": "team-player/dce70687-3331-42d4-bfee-dc7502ad3c86",
+          "name": "Jeff Soo"
+        },
+        {
+          "playerId": "team-player/a0f50740-3f3c-4b74-9ab0-624eb2f8bc71",
+          "name": "Jeff Soo & Tom Balding"
+        },
+        {
+          "playerId": "team-player/9e1d2a2e-14dc-40c9-b330-9577169e515b",
+          "name": "Matthew Essick"
+        },
+        {
+          "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
+          "name": "Matthew Essick & Zack Watson"
+        },
+        {
+          "playerId": "team-player/f8765a25-b953-4ce8-b084-7ca4721cc88c",
+          "name": "Stephen Morgan"
+        },
+        {
+          "playerId": "team-player/28961ef5-4364-44b1-893a-46a1133dc641",
+          "name": "Tom Balding"
+        },
+        {
+          "playerId": "team-player/ec329de2-60e3-4648-a9fd-f8d75477cf5b",
+          "name": "Zack Watson"
+        }
       ]
     },
     {
       "name": "Development Squad",
       "shortName": "Developmen",
       "players": [
-        "Blake Fields",
-        "Blake Fields & Kyle Maloof",
-        "Brian Lozano",
-        "Kyle Maloof",
-        "Michael Albert",
-        "Paul Bennett",
-        "Paul Neubecker",
-        "Paul Neubecker & Brian Lozano",
-        "Paul Neubecker & Michael Albert",
-        "Stuart Lawrence",
-        "Stuart Lawrence & Paul Bennett"
+        {
+          "playerId": "team-player/d8d8baaa-13be-474b-916d-07a418eb5d6b",
+          "name": "Blake Fields"
+        },
+        {
+          "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
+          "name": "Blake Fields & Kyle Maloof"
+        },
+        {
+          "playerId": "team-player/f50c08d3-8fc1-429d-980a-f5018469a0c4",
+          "name": "Brian Lozano"
+        },
+        {
+          "playerId": "team-player/ac5ff326-1c50-4939-890a-2f94ba521474",
+          "name": "Kyle Maloof"
+        },
+        {
+          "playerId": "team-player/405e5bf5-fa74-4176-b7f0-41fd40785c83",
+          "name": "Michael Albert"
+        },
+        {
+          "playerId": "team-player/db6be9a4-a5f4-4684-8d01-01c1266c8098",
+          "name": "Paul Bennett"
+        },
+        {
+          "playerId": "team-player/971e9ba3-b9df-4349-aa36-fbe2591d3524",
+          "name": "Paul Neubecker"
+        },
+        {
+          "playerId": "team-player/c94195ee-b08a-42d2-a259-3f3168f7bb0e",
+          "name": "Paul Neubecker & Brian Lozano"
+        },
+        {
+          "playerId": "team-player/1c3f15f4-4057-4018-84f8-aea6f56516f5",
+          "name": "Paul Neubecker & Michael Albert"
+        },
+        {
+          "playerId": "team-player/36400e9f-d57c-49a1-8641-679e59acf32f",
+          "name": "Stuart Lawrence"
+        },
+        {
+          "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
+          "name": "Stuart Lawrence & Paul Bennett"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/04d6cdd6-08c7-4c0c-ad64-1f7880884d95",
       "teams": [
         "MacRob Team",
         "Development Squad"
@@ -51,17 +115,26 @@
       "matches": [
         {
           "players": [
-            "Jeff Soo",
-            "Paul Neubecker"
+            {
+              "playerId": "team-player/dce70687-3331-42d4-bfee-dc7502ad3c86",
+              "name": "Jeff Soo"
+            },
+            {
+              "playerId": "team-player/971e9ba3-b9df-4349-aa36-fbe2591d3524",
+              "name": "Paul Neubecker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8f7bbd3b-3b1d-428d-bb7f-fc9d31d58c3b",
               "players": [
                 {
+                  "playerId": "team-player/dce70687-3331-42d4-bfee-dc7502ad3c86",
                   "name": "Jeff Soo",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/971e9ba3-b9df-4349-aa36-fbe2591d3524",
                   "name": "Paul Neubecker",
                   "score": "8"
                 }
@@ -70,12 +143,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d26f6e3d-294f-4bf5-bb0b-dfa5b434fd34",
               "players": [
                 {
+                  "playerId": "team-player/dce70687-3331-42d4-bfee-dc7502ad3c86",
                   "name": "Jeff Soo",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/971e9ba3-b9df-4349-aa36-fbe2591d3524",
                   "name": "Paul Neubecker",
                   "score": "10"
                 }
@@ -87,17 +163,26 @@
         },
         {
           "players": [
-            "Jeff Soo & Tom Balding",
-            "Blake Fields & Kyle Maloof"
+            {
+              "playerId": "team-player/a0f50740-3f3c-4b74-9ab0-624eb2f8bc71",
+              "name": "Jeff Soo & Tom Balding"
+            },
+            {
+              "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
+              "name": "Blake Fields & Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/11738e4d-4d5b-4075-9b98-a2e56f6a092d",
               "players": [
                 {
+                  "playerId": "team-player/a0f50740-3f3c-4b74-9ab0-624eb2f8bc71",
                   "name": "Jeff Soo & Tom Balding",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
                   "name": "Blake Fields & Kyle Maloof",
                   "score": "9"
                 }
@@ -106,12 +191,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c80a685e-8eeb-48bd-9383-f6f94def1a1b",
               "players": [
                 {
+                  "playerId": "team-player/a0f50740-3f3c-4b74-9ab0-624eb2f8bc71",
                   "name": "Jeff Soo & Tom Balding",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
                   "name": "Blake Fields & Kyle Maloof",
                   "score": "9"
                 }
@@ -123,17 +211,26 @@
         },
         {
           "players": [
-            "Matthew Essick & Zack Watson",
-            "Paul Neubecker & Michael Albert"
+            {
+              "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
+              "name": "Matthew Essick & Zack Watson"
+            },
+            {
+              "playerId": "team-player/1c3f15f4-4057-4018-84f8-aea6f56516f5",
+              "name": "Paul Neubecker & Michael Albert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7626c107-8a52-436f-b8a1-36b9b9fa472b",
               "players": [
                 {
+                  "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1c3f15f4-4057-4018-84f8-aea6f56516f5",
                   "name": "Paul Neubecker & Michael Albert",
                   "score": "3"
                 }
@@ -142,12 +239,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f0de9451-dbe7-4a14-884a-782cef93fce8",
               "players": [
                 {
+                  "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26tp (E)"
                 },
                 {
+                  "playerId": "team-player/1c3f15f4-4057-4018-84f8-aea6f56516f5",
                   "name": "Paul Neubecker & Michael Albert",
                   "score": "2"
                 }
@@ -159,17 +259,26 @@
         },
         {
           "players": [
-            "Ben Rothman & Stephen Morgan",
-            "Stuart Lawrence & Paul Bennett"
+            {
+              "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
+              "name": "Ben Rothman & Stephen Morgan"
+            },
+            {
+              "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
+              "name": "Stuart Lawrence & Paul Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f0594f7-31bb-4388-8695-5f215609359e",
               "players": [
                 {
+                  "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
                   "name": "Ben Rothman & Stephen Morgan",
                   "score": "26tp (R)"
                 },
                 {
+                  "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
                   "name": "Stuart Lawrence & Paul Bennett",
                   "score": "12"
                 }
@@ -178,12 +287,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2f862fa7-1c8a-4870-ad94-e95f8079c251",
               "players": [
                 {
+                  "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
                   "name": "Ben Rothman & Stephen Morgan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
                   "name": "Stuart Lawrence & Paul Bennett",
                   "score": "6"
                 }
@@ -195,17 +307,26 @@
         },
         {
           "players": [
-            "Matthew Essick & Zack Watson",
-            "Stuart Lawrence & Paul Bennett"
+            {
+              "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
+              "name": "Matthew Essick & Zack Watson"
+            },
+            {
+              "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
+              "name": "Stuart Lawrence & Paul Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fd804746-abad-450d-889e-da790733a2fe",
               "players": [
                 {
+                  "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26tp (E)"
                 },
                 {
+                  "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
                   "name": "Stuart Lawrence & Paul Bennett",
                   "score": "0"
                 }
@@ -214,12 +335,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b89e2b70-ff59-4e26-b99b-8d03788a8f85",
               "players": [
                 {
+                  "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26tp (E)"
                 },
                 {
+                  "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
                   "name": "Stuart Lawrence & Paul Bennett",
                   "score": "0"
                 }
@@ -231,17 +355,26 @@
         },
         {
           "players": [
-            "Ben Rothman & Stephen Morgan",
-            "Blake Fields & Kyle Maloof"
+            {
+              "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
+              "name": "Ben Rothman & Stephen Morgan"
+            },
+            {
+              "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
+              "name": "Blake Fields & Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b1801a2d-2c2e-40b0-a33a-854057b2eac4",
               "players": [
                 {
+                  "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
                   "name": "Ben Rothman & Stephen Morgan",
                   "score": "26tp (R)"
                 },
                 {
+                  "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
                   "name": "Blake Fields & Kyle Maloof",
                   "score": "9"
                 }
@@ -250,12 +383,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c32dc8b7-a842-4677-9990-14fe73e947e2",
               "players": [
                 {
+                  "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
                   "name": "Ben Rothman & Stephen Morgan",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
                   "name": "Blake Fields & Kyle Maloof",
                   "score": "26tp (M)"
                 }
@@ -264,12 +400,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/80239324-03a9-4774-8c96-8aeae2cf7d88",
               "players": [
                 {
+                  "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
                   "name": "Ben Rothman & Stephen Morgan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
                   "name": "Blake Fields & Kyle Maloof",
                   "score": "17"
                 }
@@ -281,17 +420,26 @@
         },
         {
           "players": [
-            "Stephen Morgan",
-            "Blake Fields"
+            {
+              "playerId": "team-player/f8765a25-b953-4ce8-b084-7ca4721cc88c",
+              "name": "Stephen Morgan"
+            },
+            {
+              "playerId": "team-player/d8d8baaa-13be-474b-916d-07a418eb5d6b",
+              "name": "Blake Fields"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e88dd7ab-cce0-4bfe-a492-528303526ab5",
               "players": [
                 {
+                  "playerId": "team-player/f8765a25-b953-4ce8-b084-7ca4721cc88c",
                   "name": "Stephen Morgan",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/d8d8baaa-13be-474b-916d-07a418eb5d6b",
                   "name": "Blake Fields",
                   "score": "0"
                 }
@@ -300,12 +448,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d8210c16-62b9-44d5-977d-5ce58bcbcee8",
               "players": [
                 {
+                  "playerId": "team-player/f8765a25-b953-4ce8-b084-7ca4721cc88c",
                   "name": "Stephen Morgan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d8d8baaa-13be-474b-916d-07a418eb5d6b",
                   "name": "Blake Fields",
                   "score": "10"
                 }
@@ -317,17 +468,26 @@
         },
         {
           "players": [
-            "Tom Balding",
-            "Paul Neubecker"
+            {
+              "playerId": "team-player/28961ef5-4364-44b1-893a-46a1133dc641",
+              "name": "Tom Balding"
+            },
+            {
+              "playerId": "team-player/971e9ba3-b9df-4349-aa36-fbe2591d3524",
+              "name": "Paul Neubecker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f451af68-9ae0-4a3a-86bc-1ccf1e269758",
               "players": [
                 {
+                  "playerId": "team-player/28961ef5-4364-44b1-893a-46a1133dc641",
                   "name": "Tom Balding",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/971e9ba3-b9df-4349-aa36-fbe2591d3524",
                   "name": "Paul Neubecker",
                   "score": "9"
                 }
@@ -336,12 +496,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8aadf26f-a4c2-4d3d-82e0-093f9ca47a1e",
               "players": [
                 {
+                  "playerId": "team-player/28961ef5-4364-44b1-893a-46a1133dc641",
                   "name": "Tom Balding",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/971e9ba3-b9df-4349-aa36-fbe2591d3524",
                   "name": "Paul Neubecker",
                   "score": "0"
                 }
@@ -353,17 +516,26 @@
         },
         {
           "players": [
-            "Matthew Essick",
-            "Paul Bennett"
+            {
+              "playerId": "team-player/9e1d2a2e-14dc-40c9-b330-9577169e515b",
+              "name": "Matthew Essick"
+            },
+            {
+              "playerId": "team-player/db6be9a4-a5f4-4684-8d01-01c1266c8098",
+              "name": "Paul Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b3e9503b-bcfa-4503-bb81-f43be26f0d22",
               "players": [
                 {
+                  "playerId": "team-player/9e1d2a2e-14dc-40c9-b330-9577169e515b",
                   "name": "Matthew Essick",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/db6be9a4-a5f4-4684-8d01-01c1266c8098",
                   "name": "Paul Bennett",
                   "score": "16"
                 }
@@ -372,12 +544,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/797f799e-11d3-496a-a85c-98f2f56b4886",
               "players": [
                 {
+                  "playerId": "team-player/9e1d2a2e-14dc-40c9-b330-9577169e515b",
                   "name": "Matthew Essick",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/db6be9a4-a5f4-4684-8d01-01c1266c8098",
                   "name": "Paul Bennett",
                   "score": "1"
                 }
@@ -389,17 +564,26 @@
         },
         {
           "players": [
-            "Ben Rothman",
-            "Kyle Maloof"
+            {
+              "playerId": "team-player/40577fbf-0825-4df8-9401-a62e78f9a524",
+              "name": "Ben Rothman"
+            },
+            {
+              "playerId": "team-player/ac5ff326-1c50-4939-890a-2f94ba521474",
+              "name": "Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eee6ee55-2268-4cab-9736-275c35314e18",
               "players": [
                 {
+                  "playerId": "team-player/40577fbf-0825-4df8-9401-a62e78f9a524",
                   "name": "Ben Rothman",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/ac5ff326-1c50-4939-890a-2f94ba521474",
                   "name": "Kyle Maloof",
                   "score": "26"
                 }
@@ -408,12 +592,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/95562f2d-ee5c-416f-87da-4e71850e52a3",
               "players": [
                 {
+                  "playerId": "team-player/40577fbf-0825-4df8-9401-a62e78f9a524",
                   "name": "Ben Rothman",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/ac5ff326-1c50-4939-890a-2f94ba521474",
                   "name": "Kyle Maloof",
                   "score": "9"
                 }
@@ -422,12 +609,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/eba90377-e5ef-4421-888f-7e37572d6aa5",
               "players": [
                 {
+                  "playerId": "team-player/40577fbf-0825-4df8-9401-a62e78f9a524",
                   "name": "Ben Rothman",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/ac5ff326-1c50-4939-890a-2f94ba521474",
                   "name": "Kyle Maloof",
                   "score": "9"
                 }
@@ -439,17 +629,26 @@
         },
         {
           "players": [
-            "Jeff Soo & Tom Balding",
-            "Stuart Lawrence & Paul Bennett"
+            {
+              "playerId": "team-player/a0f50740-3f3c-4b74-9ab0-624eb2f8bc71",
+              "name": "Jeff Soo & Tom Balding"
+            },
+            {
+              "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
+              "name": "Stuart Lawrence & Paul Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/23c29d43-dbad-420a-b746-93f617a4ee19",
               "players": [
                 {
+                  "playerId": "team-player/a0f50740-3f3c-4b74-9ab0-624eb2f8bc71",
                   "name": "Jeff Soo & Tom Balding",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
                   "name": "Stuart Lawrence & Paul Bennett",
                   "score": "22"
                 }
@@ -458,12 +657,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/19853490-e53b-4434-afda-3dd5c282e4ab",
               "players": [
                 {
+                  "playerId": "team-player/a0f50740-3f3c-4b74-9ab0-624eb2f8bc71",
                   "name": "Jeff Soo & Tom Balding",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
                   "name": "Stuart Lawrence & Paul Bennett",
                   "score": "26"
                 }
@@ -472,12 +674,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ffc7fde4-b79e-4bf8-8fbf-25e96a272a90",
               "players": [
                 {
+                  "playerId": "team-player/a0f50740-3f3c-4b74-9ab0-624eb2f8bc71",
                   "name": "Jeff Soo & Tom Balding",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/de5e2d3d-2117-4704-97ec-8de7f06f1225",
                   "name": "Stuart Lawrence & Paul Bennett",
                   "score": "26tp (L)"
                 }
@@ -489,17 +694,26 @@
         },
         {
           "players": [
-            "Matthew Essick & Zack Watson",
-            "Blake Fields & Kyle Maloof"
+            {
+              "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
+              "name": "Matthew Essick & Zack Watson"
+            },
+            {
+              "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
+              "name": "Blake Fields & Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d3f45059-f384-45eb-bc0a-ca57c34612f6",
               "players": [
                 {
+                  "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
                   "name": "Blake Fields & Kyle Maloof",
                   "score": "26"
                 }
@@ -508,12 +722,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/83bcc3db-53d8-4b96-9101-7dbd45011433",
               "players": [
                 {
+                  "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26tp (E)"
                 },
                 {
+                  "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
                   "name": "Blake Fields & Kyle Maloof",
                   "score": "0"
                 }
@@ -522,12 +739,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ea75570f-020c-4f34-8b35-4ed5ad5a146a",
               "players": [
                 {
+                  "playerId": "team-player/c8c045db-9111-4539-a59a-8744b402188a",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26tp (E)"
                 },
                 {
+                  "playerId": "team-player/e102403d-34df-4968-9463-377ce098efa2",
                   "name": "Blake Fields & Kyle Maloof",
                   "score": "9"
                 }
@@ -539,17 +759,26 @@
         },
         {
           "players": [
-            "Ben Rothman & Stephen Morgan",
-            "Paul Neubecker & Michael Albert"
+            {
+              "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
+              "name": "Ben Rothman & Stephen Morgan"
+            },
+            {
+              "playerId": "team-player/1c3f15f4-4057-4018-84f8-aea6f56516f5",
+              "name": "Paul Neubecker & Michael Albert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/04e18666-b591-4a3f-8b25-37852bab6d16",
               "players": [
                 {
+                  "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
                   "name": "Ben Rothman & Stephen Morgan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1c3f15f4-4057-4018-84f8-aea6f56516f5",
                   "name": "Paul Neubecker & Michael Albert",
                   "score": "0"
                 }
@@ -558,12 +787,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/39a419a0-3b6c-4cb4-9188-f2b50b3959b1",
               "players": [
                 {
+                  "playerId": "team-player/75b5c436-e222-4b55-a3fb-f797e6a09eeb",
                   "name": "Ben Rothman & Stephen Morgan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1c3f15f4-4057-4018-84f8-aea6f56516f5",
                   "name": "Paul Neubecker & Michael Albert",
                   "score": "11"
                 }
@@ -575,17 +807,26 @@
         },
         {
           "players": [
-            "Tom Balding",
-            "Michael Albert"
+            {
+              "playerId": "team-player/28961ef5-4364-44b1-893a-46a1133dc641",
+              "name": "Tom Balding"
+            },
+            {
+              "playerId": "team-player/405e5bf5-fa74-4176-b7f0-41fd40785c83",
+              "name": "Michael Albert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf9a0e79-b58d-4bcd-b59b-81d4d4314736",
               "players": [
                 {
+                  "playerId": "team-player/28961ef5-4364-44b1-893a-46a1133dc641",
                   "name": "Tom Balding",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/405e5bf5-fa74-4176-b7f0-41fd40785c83",
                   "name": "Michael Albert",
                   "score": "1"
                 }
@@ -594,12 +835,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/650f3fc8-2f4c-4204-9239-ffede7c547d3",
               "players": [
                 {
+                  "playerId": "team-player/28961ef5-4364-44b1-893a-46a1133dc641",
                   "name": "Tom Balding",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/405e5bf5-fa74-4176-b7f0-41fd40785c83",
                   "name": "Michael Albert",
                   "score": "2"
                 }
@@ -611,17 +855,26 @@
         },
         {
           "players": [
-            "Stephen Morgan",
-            "Kyle Maloof"
+            {
+              "playerId": "team-player/f8765a25-b953-4ce8-b084-7ca4721cc88c",
+              "name": "Stephen Morgan"
+            },
+            {
+              "playerId": "team-player/ac5ff326-1c50-4939-890a-2f94ba521474",
+              "name": "Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e01e91b-3f7e-4b39-a01c-ae3d4b79a7e6",
               "players": [
                 {
+                  "playerId": "team-player/f8765a25-b953-4ce8-b084-7ca4721cc88c",
                   "name": "Stephen Morgan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ac5ff326-1c50-4939-890a-2f94ba521474",
                   "name": "Kyle Maloof",
                   "score": "10"
                 }
@@ -630,12 +883,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8c6427ee-e9a4-4185-bee5-6f170b3f4298",
               "players": [
                 {
+                  "playerId": "team-player/f8765a25-b953-4ce8-b084-7ca4721cc88c",
                   "name": "Stephen Morgan",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/ac5ff326-1c50-4939-890a-2f94ba521474",
                   "name": "Kyle Maloof",
                   "score": "26"
                 }
@@ -644,12 +900,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/901c532e-0171-468e-9dbc-8f68cb8ab4f9",
               "players": [
                 {
+                  "playerId": "team-player/f8765a25-b953-4ce8-b084-7ca4721cc88c",
                   "name": "Stephen Morgan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ac5ff326-1c50-4939-890a-2f94ba521474",
                   "name": "Kyle Maloof",
                   "score": "11"
                 }
@@ -661,17 +920,26 @@
         },
         {
           "players": [
-            "Zack Watson",
-            "Paul Bennett"
+            {
+              "playerId": "team-player/ec329de2-60e3-4648-a9fd-f8d75477cf5b",
+              "name": "Zack Watson"
+            },
+            {
+              "playerId": "team-player/db6be9a4-a5f4-4684-8d01-01c1266c8098",
+              "name": "Paul Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9df4d149-04e4-4db1-9adc-49dd91ee161c",
               "players": [
                 {
+                  "playerId": "team-player/ec329de2-60e3-4648-a9fd-f8d75477cf5b",
                   "name": "Zack Watson",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/db6be9a4-a5f4-4684-8d01-01c1266c8098",
                   "name": "Paul Bennett",
                   "score": "0"
                 }
@@ -680,12 +948,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/043ba4ac-e25d-4168-9c81-c44048585467",
               "players": [
                 {
+                  "playerId": "team-player/ec329de2-60e3-4648-a9fd-f8d75477cf5b",
                   "name": "Zack Watson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/db6be9a4-a5f4-4684-8d01-01c1266c8098",
                   "name": "Paul Bennett",
                   "score": "11"
                 }
@@ -697,17 +968,26 @@
         },
         {
           "players": [
-            "Ben Rothman",
-            "Blake Fields"
+            {
+              "playerId": "team-player/40577fbf-0825-4df8-9401-a62e78f9a524",
+              "name": "Ben Rothman"
+            },
+            {
+              "playerId": "team-player/d8d8baaa-13be-474b-916d-07a418eb5d6b",
+              "name": "Blake Fields"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ace552bf-e298-41bb-ac4d-f43243dc3dd9",
               "players": [
                 {
+                  "playerId": "team-player/40577fbf-0825-4df8-9401-a62e78f9a524",
                   "name": "Ben Rothman",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d8d8baaa-13be-474b-916d-07a418eb5d6b",
                   "name": "Blake Fields",
                   "score": "0"
                 }
@@ -716,12 +996,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/12a2657b-ef25-49c5-9708-7ebd36488769",
               "players": [
                 {
+                  "playerId": "team-player/40577fbf-0825-4df8-9401-a62e78f9a524",
                   "name": "Ben Rothman",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/d8d8baaa-13be-474b-916d-07a418eb5d6b",
                   "name": "Blake Fields",
                   "score": "7"
                 }
@@ -733,17 +1016,26 @@
         },
         {
           "players": [
-            "Matthew Essick",
-            "Stuart Lawrence"
+            {
+              "playerId": "team-player/9e1d2a2e-14dc-40c9-b330-9577169e515b",
+              "name": "Matthew Essick"
+            },
+            {
+              "playerId": "team-player/36400e9f-d57c-49a1-8641-679e59acf32f",
+              "name": "Stuart Lawrence"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8e309ebd-88fb-4451-a5dc-2c4f248132e5",
               "players": [
                 {
+                  "playerId": "team-player/9e1d2a2e-14dc-40c9-b330-9577169e515b",
                   "name": "Matthew Essick",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/36400e9f-d57c-49a1-8641-679e59acf32f",
                   "name": "Stuart Lawrence",
                   "score": "3"
                 }
@@ -752,12 +1044,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6ca294c2-c449-4d62-becf-14cd3e07ab88",
               "players": [
                 {
+                  "playerId": "team-player/9e1d2a2e-14dc-40c9-b330-9577169e515b",
                   "name": "Matthew Essick",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/36400e9f-d57c-49a1-8641-679e59acf32f",
                   "name": "Stuart Lawrence",
                   "score": "21"
                 }
@@ -769,17 +1064,26 @@
         },
         {
           "players": [
-            "Zack Watson",
-            "Stuart Lawrence"
+            {
+              "playerId": "team-player/ec329de2-60e3-4648-a9fd-f8d75477cf5b",
+              "name": "Zack Watson"
+            },
+            {
+              "playerId": "team-player/36400e9f-d57c-49a1-8641-679e59acf32f",
+              "name": "Stuart Lawrence"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c2de7125-b338-4ecf-82e1-b96e05361265",
               "players": [
                 {
+                  "playerId": "team-player/ec329de2-60e3-4648-a9fd-f8d75477cf5b",
                   "name": "Zack Watson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/36400e9f-d57c-49a1-8641-679e59acf32f",
                   "name": "Stuart Lawrence",
                   "score": "9"
                 }
@@ -788,12 +1092,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fd460def-1add-486f-bb81-b438ec271a19",
               "players": [
                 {
+                  "playerId": "team-player/ec329de2-60e3-4648-a9fd-f8d75477cf5b",
                   "name": "Zack Watson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/36400e9f-d57c-49a1-8641-679e59acf32f",
                   "name": "Stuart Lawrence",
                   "score": "9"
                 }

@@ -1,55 +1,107 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0ac4ce10-df2f-4afd-b124-5e725fe33446",
   "name": "Northeast Amatuer",
   "sport": "gc",
   "firstDay": "2025-05-03",
   "lastDay": "2025-05-03",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "NYCC",
       "shortName": "NYCC",
       "players": [
-        "David Isaacs",
-        "Karen Leoncavallo",
-        "Paul Neubecker",
-        "Stephen Tasker"
+        {
+          "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
+          "name": "David Isaacs"
+        },
+        {
+          "playerId": "team-player/7fb9e37c-63f0-47ae-a03e-22f2bf572e14",
+          "name": "Karen Leoncavallo"
+        },
+        {
+          "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
+          "name": "Paul Neubecker"
+        },
+        {
+          "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
+          "name": "Stephen Tasker"
+        }
       ]
     },
     {
       "name": "Merion CC",
       "shortName": "Merion CC",
       "players": [
-        "Bob Stevens",
-        "Darrell DeMoss",
-        "David McQuaid",
-        "Eric Rabe"
+        {
+          "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
+          "name": "Bob Stevens"
+        },
+        {
+          "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
+          "name": "Darrell DeMoss"
+        },
+        {
+          "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
+          "name": "David McQuaid"
+        },
+        {
+          "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
+          "name": "Eric Rabe"
+        }
       ]
     },
     {
       "name": "Green Gables",
       "shortName": "Green Gabl",
       "players": [
-        "Dennis Leddy",
-        "Jim Daniels",
-        "Scott Kennedy",
-        "Scott McMurray"
+        {
+          "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
+          "name": "Dennis Leddy"
+        },
+        {
+          "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
+          "name": "Jim Daniels"
+        },
+        {
+          "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
+          "name": "Scott Kennedy"
+        },
+        {
+          "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
+          "name": "Scott McMurray"
+        }
       ]
     },
     {
       "name": "Rumson CC",
       "shortName": "Rumson CC",
       "players": [
-        "Bob Niederer",
-        "Cat Niederer",
-        "Clay Kingsbury",
-        "Michael Jeary"
+        {
+          "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
+          "name": "Bob Niederer"
+        },
+        {
+          "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
+          "name": "Cat Niederer"
+        },
+        {
+          "playerId": "team-player/ba445049-31da-4f88-aa0c-57ed7bcbd735",
+          "name": "Clay Kingsbury"
+        },
+        {
+          "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
+          "name": "Michael Jeary"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/df05231d-02d0-4ea0-8512-8a31b104f59f",
       "teams": [
         "NYCC",
         "Merion CC"
@@ -59,17 +111,26 @@
       "matches": [
         {
           "players": [
-            "Paul Neubecker",
-            "Darrell DeMoss"
+            {
+              "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
+              "name": "Paul Neubecker"
+            },
+            {
+              "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
+              "name": "Darrell DeMoss"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05b630ee-0c9c-427f-ba8d-224df01192e3",
               "players": [
                 {
+                  "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
                   "name": "Paul Neubecker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
                   "name": "Darrell DeMoss",
                   "score": "3"
                 }
@@ -78,12 +139,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3eeee961-a6b8-4625-ad6d-098a854b9a27",
               "players": [
                 {
+                  "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
                   "name": "Paul Neubecker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
                   "name": "Darrell DeMoss",
                   "score": "4"
                 }
@@ -95,17 +159,26 @@
         },
         {
           "players": [
-            "David Isaacs",
-            "David McQuaid"
+            {
+              "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
+              "name": "David Isaacs"
+            },
+            {
+              "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
+              "name": "David McQuaid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cbe931d0-65b9-4b7e-8fee-9a7acc4d72e2",
               "players": [
                 {
+                  "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
                   "name": "David Isaacs",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
                   "name": "David McQuaid",
                   "score": "5"
                 }
@@ -114,12 +187,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a3cbd9c3-675e-41fd-a6c1-47b21f8138ec",
               "players": [
                 {
+                  "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
                   "name": "David Isaacs",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
                   "name": "David McQuaid",
                   "score": "4"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Karen Leoncavallo",
-            "Eric Rabe"
+            {
+              "playerId": "team-player/7fb9e37c-63f0-47ae-a03e-22f2bf572e14",
+              "name": "Karen Leoncavallo"
+            },
+            {
+              "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
+              "name": "Eric Rabe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/937a761d-3f8b-42ba-a69c-12df95af101a",
               "players": [
                 {
+                  "playerId": "team-player/7fb9e37c-63f0-47ae-a03e-22f2bf572e14",
                   "name": "Karen Leoncavallo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
                   "name": "Eric Rabe",
                   "score": "2"
                 }
@@ -150,12 +235,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5211bb0d-6b7e-43d5-9781-7bef305216e1",
               "players": [
                 {
+                  "playerId": "team-player/7fb9e37c-63f0-47ae-a03e-22f2bf572e14",
                   "name": "Karen Leoncavallo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
                   "name": "Eric Rabe",
                   "score": "4"
                 }
@@ -167,17 +255,26 @@
         },
         {
           "players": [
-            "Stephen Tasker",
-            "Bob Stevens"
+            {
+              "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
+              "name": "Stephen Tasker"
+            },
+            {
+              "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
+              "name": "Bob Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b4203bc3-9be2-4ccb-8793-cf7a76823471",
               "players": [
                 {
+                  "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
                   "name": "Stephen Tasker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
                   "name": "Bob Stevens",
                   "score": "5"
                 }
@@ -186,12 +283,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/688b99ed-d304-4e55-b24d-77d4a40e446e",
               "players": [
                 {
+                  "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
                   "name": "Stephen Tasker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
                   "name": "Bob Stevens",
                   "score": "2"
                 }
@@ -204,6 +304,7 @@
       ]
     },
     {
+      "competitionId": "competition/5e84b3ab-c8cc-43f8-9e60-32c6a96b4154",
       "teams": [
         "NYCC",
         "Green Gables"
@@ -213,17 +314,26 @@
       "matches": [
         {
           "players": [
-            "Paul Neubecker",
-            "Dennis Leddy"
+            {
+              "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
+              "name": "Paul Neubecker"
+            },
+            {
+              "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
+              "name": "Dennis Leddy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/74a8fb3f-1929-484d-9534-2b972d74000b",
               "players": [
                 {
+                  "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
                   "name": "Paul Neubecker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
                   "name": "Dennis Leddy",
                   "score": "3"
                 }
@@ -232,12 +342,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3897da18-9c00-4917-8498-df9946f3f72f",
               "players": [
                 {
+                  "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
                   "name": "Paul Neubecker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
                   "name": "Dennis Leddy",
                   "score": "5"
                 }
@@ -249,17 +362,26 @@
         },
         {
           "players": [
-            "David Isaacs",
-            "Scott Kennedy"
+            {
+              "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
+              "name": "David Isaacs"
+            },
+            {
+              "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
+              "name": "Scott Kennedy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/38b8fcc5-ba4e-467c-bcbd-bbef69a9095b",
               "players": [
                 {
+                  "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
                   "name": "David Isaacs",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
                   "name": "Scott Kennedy",
                   "score": "6"
                 }
@@ -268,12 +390,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/69955c19-87f4-4481-881d-8075409f9143",
               "players": [
                 {
+                  "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
                   "name": "David Isaacs",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
                   "name": "Scott Kennedy",
                   "score": "7"
                 }
@@ -282,12 +407,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6d0cc759-1ff4-4605-96bf-842fdc28a4a8",
               "players": [
                 {
+                  "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
                   "name": "David Isaacs",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
                   "name": "Scott Kennedy",
                   "score": "6"
                 }
@@ -299,17 +427,26 @@
         },
         {
           "players": [
-            "Karen Leoncavallo",
-            "Scott McMurray"
+            {
+              "playerId": "team-player/7fb9e37c-63f0-47ae-a03e-22f2bf572e14",
+              "name": "Karen Leoncavallo"
+            },
+            {
+              "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
+              "name": "Scott McMurray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fd98418e-5197-478c-800f-1c2db99e32e1",
               "players": [
                 {
+                  "playerId": "team-player/7fb9e37c-63f0-47ae-a03e-22f2bf572e14",
                   "name": "Karen Leoncavallo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
                   "name": "Scott McMurray",
                   "score": "2"
                 }
@@ -318,12 +455,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0e66b946-83fe-4cfa-96f5-97b6d99e3aca",
               "players": [
                 {
+                  "playerId": "team-player/7fb9e37c-63f0-47ae-a03e-22f2bf572e14",
                   "name": "Karen Leoncavallo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
                   "name": "Scott McMurray",
                   "score": "5"
                 }
@@ -335,17 +475,26 @@
         },
         {
           "players": [
-            "Stephen Tasker",
-            "Jim Daniels"
+            {
+              "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
+              "name": "Stephen Tasker"
+            },
+            {
+              "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
+              "name": "Jim Daniels"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2ab47efd-8c43-4e58-a7e9-d966429c251b",
               "players": [
                 {
+                  "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
                   "name": "Stephen Tasker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
                   "name": "Jim Daniels",
                   "score": "5"
                 }
@@ -354,12 +503,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4321f38a-c75d-46f4-978d-9822130b7160",
               "players": [
                 {
+                  "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
                   "name": "Stephen Tasker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
                   "name": "Jim Daniels",
                   "score": "5"
                 }
@@ -372,6 +524,7 @@
       ]
     },
     {
+      "competitionId": "competition/756e6160-028c-4476-a77e-cca389bbfc50",
       "teams": [
         "NYCC",
         "Rumson CC"
@@ -381,17 +534,26 @@
       "matches": [
         {
           "players": [
-            "Paul Neubecker",
-            "Bob Niederer"
+            {
+              "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
+              "name": "Paul Neubecker"
+            },
+            {
+              "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
+              "name": "Bob Niederer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7e092be9-5c81-485c-a19e-9d23ebbbc2d5",
               "players": [
                 {
+                  "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
                   "name": "Paul Neubecker",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
                   "name": "Bob Niederer",
                   "score": "7"
                 }
@@ -400,12 +562,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0acad19a-f6dd-4efe-ab34-3b35f4f4c292",
               "players": [
                 {
+                  "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
                   "name": "Paul Neubecker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
                   "name": "Bob Niederer",
                   "score": "3"
                 }
@@ -414,12 +579,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5127699f-55c8-41a6-86a9-7a9f2c0b56d6",
               "players": [
                 {
+                  "playerId": "team-player/b4f1957f-547f-423d-b72e-2db028523592",
                   "name": "Paul Neubecker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
                   "name": "Bob Niederer",
                   "score": "3"
                 }
@@ -431,17 +599,26 @@
         },
         {
           "players": [
-            "David Isaacs",
-            "Cat Niederer"
+            {
+              "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
+              "name": "David Isaacs"
+            },
+            {
+              "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
+              "name": "Cat Niederer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2df6d200-5406-4206-af09-d613bcce65fa",
               "players": [
                 {
+                  "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
                   "name": "David Isaacs",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
                   "name": "Cat Niederer",
                   "score": "2"
                 }
@@ -450,12 +627,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/90cd6fad-a040-483a-b376-912f5e9873c1",
               "players": [
                 {
+                  "playerId": "team-player/fb6aa78a-1615-4e84-adfe-5e6245084ee9",
                   "name": "David Isaacs",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
                   "name": "Cat Niederer",
                   "score": "7"
                 }
@@ -467,17 +647,26 @@
         },
         {
           "players": [
-            "Karen Leoncavallo",
-            "Clay Kingsbury"
+            {
+              "playerId": "team-player/7fb9e37c-63f0-47ae-a03e-22f2bf572e14",
+              "name": "Karen Leoncavallo"
+            },
+            {
+              "playerId": "team-player/ba445049-31da-4f88-aa0c-57ed7bcbd735",
+              "name": "Clay Kingsbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/90cacf2a-46a7-47a1-bf8d-6e02195a0f7c",
               "players": [
                 {
+                  "playerId": "team-player/7fb9e37c-63f0-47ae-a03e-22f2bf572e14",
                   "name": "Karen Leoncavallo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ba445049-31da-4f88-aa0c-57ed7bcbd735",
                   "name": "Clay Kingsbury",
                   "score": "6"
                 }
@@ -489,17 +678,26 @@
         },
         {
           "players": [
-            "Stephen Tasker",
-            "Michael Jeary"
+            {
+              "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
+              "name": "Stephen Tasker"
+            },
+            {
+              "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
+              "name": "Michael Jeary"
+            }
           ],
           "games": [
             {
+              "gameId": "game/06f1ee2f-7724-45fa-b801-856c35a07926",
               "players": [
                 {
+                  "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
                   "name": "Stephen Tasker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
                   "name": "Michael Jeary",
                   "score": "6"
                 }
@@ -508,12 +706,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f758481b-1b08-45b8-9681-05a302099abe",
               "players": [
                 {
+                  "playerId": "team-player/34124eb2-8029-4999-a091-7279861954d7",
                   "name": "Stephen Tasker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
                   "name": "Michael Jeary",
                   "score": "2"
                 }
@@ -526,6 +727,7 @@
       ]
     },
     {
+      "competitionId": "competition/b5c01318-bd6f-47ab-babf-944f9aba02f8",
       "teams": [
         "Green Gables",
         "Rumson CC"
@@ -535,17 +737,26 @@
       "matches": [
         {
           "players": [
-            "Jim Daniels",
-            "Michael Jeary"
+            {
+              "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
+              "name": "Jim Daniels"
+            },
+            {
+              "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
+              "name": "Michael Jeary"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17852eb8-4954-4c2d-8e11-25aa60c4785f",
               "players": [
                 {
+                  "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
                   "name": "Jim Daniels",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
                   "name": "Michael Jeary",
                   "score": "6"
                 }
@@ -554,12 +765,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c5ff433e-c82f-495b-9616-6c9ff927b67e",
               "players": [
                 {
+                  "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
                   "name": "Jim Daniels",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
                   "name": "Michael Jeary",
                   "score": "1"
                 }
@@ -571,17 +785,26 @@
         },
         {
           "players": [
-            "Dennis Leddy",
-            "Bob Niederer"
+            {
+              "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
+              "name": "Dennis Leddy"
+            },
+            {
+              "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
+              "name": "Bob Niederer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7210366a-b156-43cb-b3aa-037ace56d094",
               "players": [
                 {
+                  "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
                   "name": "Dennis Leddy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
                   "name": "Bob Niederer",
                   "score": "3"
                 }
@@ -590,12 +813,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5cd8d5f5-df56-48a4-9817-cd74a79dacbd",
               "players": [
                 {
+                  "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
                   "name": "Dennis Leddy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
                   "name": "Bob Niederer",
                   "score": "3"
                 }
@@ -607,17 +833,26 @@
         },
         {
           "players": [
-            "Scott Kennedy",
-            "Cat Niederer"
+            {
+              "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
+              "name": "Scott Kennedy"
+            },
+            {
+              "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
+              "name": "Cat Niederer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b23b7310-46f4-46c1-b5a3-564dbf5942eb",
               "players": [
                 {
+                  "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
                   "name": "Scott Kennedy",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
                   "name": "Cat Niederer",
                   "score": "7"
                 }
@@ -626,12 +861,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a25d6a90-d561-4354-aba5-941e274576ef",
               "players": [
                 {
+                  "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
                   "name": "Scott Kennedy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
                   "name": "Cat Niederer",
                   "score": "3"
                 }
@@ -643,17 +881,26 @@
         },
         {
           "players": [
-            "Scott McMurray",
-            "Clay Kingsbury"
+            {
+              "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
+              "name": "Scott McMurray"
+            },
+            {
+              "playerId": "team-player/ba445049-31da-4f88-aa0c-57ed7bcbd735",
+              "name": "Clay Kingsbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4af72c7a-48c8-4112-b807-108c2db4fc5f",
               "players": [
                 {
+                  "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
                   "name": "Scott McMurray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ba445049-31da-4f88-aa0c-57ed7bcbd735",
                   "name": "Clay Kingsbury",
                   "score": "3"
                 }
@@ -662,12 +909,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a8717c3b-5285-4ff9-a739-d2f100e6da25",
               "players": [
                 {
+                  "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
                   "name": "Scott McMurray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ba445049-31da-4f88-aa0c-57ed7bcbd735",
                   "name": "Clay Kingsbury",
                   "score": "6"
                 }
@@ -680,6 +930,7 @@
       ]
     },
     {
+      "competitionId": "competition/dc471326-cf2b-4016-b262-8cc81148b855",
       "teams": [
         "Green Gables",
         "Merion CC"
@@ -689,17 +940,26 @@
       "matches": [
         {
           "players": [
-            "Dennis Leddy",
-            "Darrell DeMoss"
+            {
+              "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
+              "name": "Dennis Leddy"
+            },
+            {
+              "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
+              "name": "Darrell DeMoss"
+            }
           ],
           "games": [
             {
+              "gameId": "game/16a9de85-b9bb-42ea-8db9-72ff752c4a03",
               "players": [
                 {
+                  "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
                   "name": "Dennis Leddy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
                   "name": "Darrell DeMoss",
                   "score": "5"
                 }
@@ -708,12 +968,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0f0b833a-58fd-4746-9b81-f223a14d8514",
               "players": [
                 {
+                  "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
                   "name": "Dennis Leddy",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
                   "name": "Darrell DeMoss",
                   "score": "7"
                 }
@@ -722,12 +985,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/07d80b57-151d-443f-b6b5-a04488502a8a",
               "players": [
                 {
+                  "playerId": "team-player/3fa90a87-ab44-4e66-b23a-b520bddc42e6",
                   "name": "Dennis Leddy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
                   "name": "Darrell DeMoss",
                   "score": "5"
                 }
@@ -739,17 +1005,26 @@
         },
         {
           "players": [
-            "Scott Kennedy",
-            "David McQuaid"
+            {
+              "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
+              "name": "Scott Kennedy"
+            },
+            {
+              "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
+              "name": "David McQuaid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/33778358-f9d0-4adb-acca-87f656c31b5a",
               "players": [
                 {
+                  "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
                   "name": "Scott Kennedy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
                   "name": "David McQuaid",
                   "score": "4"
                 }
@@ -758,12 +1033,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a6c14f0b-4746-46f0-9209-dc9efcb2b199",
               "players": [
                 {
+                  "playerId": "team-player/e530cb2c-a7de-4158-a8d9-7e73cdcbcbe3",
                   "name": "Scott Kennedy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
                   "name": "David McQuaid",
                   "score": "5"
                 }
@@ -775,17 +1053,26 @@
         },
         {
           "players": [
-            "Scott McMurray",
-            "Eric Rabe"
+            {
+              "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
+              "name": "Scott McMurray"
+            },
+            {
+              "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
+              "name": "Eric Rabe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8ab6d95e-86c5-4cff-8ab0-6831bb9ef1fd",
               "players": [
                 {
+                  "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
                   "name": "Scott McMurray",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
                   "name": "Eric Rabe",
                   "score": "7"
                 }
@@ -794,12 +1081,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ddb32f2f-fbfb-4d7f-b7a2-0333daf8015e",
               "players": [
                 {
+                  "playerId": "team-player/0119e9d3-1c39-4a04-924b-308d6fde30f0",
                   "name": "Scott McMurray",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
                   "name": "Eric Rabe",
                   "score": "7"
                 }
@@ -811,17 +1101,26 @@
         },
         {
           "players": [
-            "Jim Daniels",
-            "Bob Stevens"
+            {
+              "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
+              "name": "Jim Daniels"
+            },
+            {
+              "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
+              "name": "Bob Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e0021369-2a6e-4575-b681-abb704aedde0",
               "players": [
                 {
+                  "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
                   "name": "Jim Daniels",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
                   "name": "Bob Stevens",
                   "score": "5"
                 }
@@ -830,12 +1129,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2b9d1f1d-59cb-4b44-9bbb-3990515342af",
               "players": [
                 {
+                  "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
                   "name": "Jim Daniels",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
                   "name": "Bob Stevens",
                   "score": "7"
                 }
@@ -844,12 +1146,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/315e897c-9f3b-4424-b631-240b110e8ea2",
               "players": [
                 {
+                  "playerId": "team-player/564be84a-4abc-4094-83c1-46c8b2a323d2",
                   "name": "Jim Daniels",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
                   "name": "Bob Stevens",
                   "score": "7"
                 }
@@ -862,6 +1167,7 @@
       ]
     },
     {
+      "competitionId": "competition/52685d7b-14b4-4b6c-b1e1-e4cff99c09bf",
       "teams": [
         "Rumson CC",
         "Merion CC"
@@ -871,17 +1177,26 @@
       "matches": [
         {
           "players": [
-            "Bob Niederer",
-            "Bob Stevens"
+            {
+              "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
+              "name": "Bob Niederer"
+            },
+            {
+              "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
+              "name": "Bob Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7878b338-f6aa-4e88-8229-5616417f25bb",
               "players": [
                 {
+                  "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
                   "name": "Bob Niederer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
                   "name": "Bob Stevens",
                   "score": "6"
                 }
@@ -890,12 +1205,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/737c1f77-435e-449d-82fe-9fc946e59232",
               "players": [
                 {
+                  "playerId": "team-player/0c72fd62-268a-430f-be36-498eb49496c5",
                   "name": "Bob Niederer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e72b4b33-a17b-4585-aa81-80b60e6b0a44",
                   "name": "Bob Stevens",
                   "score": "4"
                 }
@@ -907,17 +1225,26 @@
         },
         {
           "players": [
-            "Clay Kingsbury",
-            "Eric Rabe"
+            {
+              "playerId": "team-player/ba445049-31da-4f88-aa0c-57ed7bcbd735",
+              "name": "Clay Kingsbury"
+            },
+            {
+              "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
+              "name": "Eric Rabe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f44ea42-6e3c-45c2-9a3f-d08cd9cf7ebf",
               "players": [
                 {
+                  "playerId": "team-player/ba445049-31da-4f88-aa0c-57ed7bcbd735",
                   "name": "Clay Kingsbury",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
                   "name": "Eric Rabe",
                   "score": "7"
                 }
@@ -926,12 +1253,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/abb5bc0b-5452-41b1-906d-57388705fb1e",
               "players": [
                 {
+                  "playerId": "team-player/ba445049-31da-4f88-aa0c-57ed7bcbd735",
                   "name": "Clay Kingsbury",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/07b1d3fd-37db-439c-a79c-01ccc27f8597",
                   "name": "Eric Rabe",
                   "score": "7"
                 }
@@ -943,17 +1273,26 @@
         },
         {
           "players": [
-            "Cat Niederer",
-            "David McQuaid"
+            {
+              "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
+              "name": "Cat Niederer"
+            },
+            {
+              "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
+              "name": "David McQuaid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e415f3a-589a-45b2-8469-ca0664e08433",
               "players": [
                 {
+                  "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
                   "name": "Cat Niederer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
                   "name": "David McQuaid",
                   "score": "5"
                 }
@@ -962,12 +1301,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/250cf1ff-11d4-49f1-ae01-29e9426b8ca3",
               "players": [
                 {
+                  "playerId": "team-player/735cd33c-2497-4c4d-b5b0-492b549cce6d",
                   "name": "Cat Niederer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/901700c6-663e-46ec-81a8-2339c1a2cf09",
                   "name": "David McQuaid",
                   "score": "6"
                 }
@@ -979,17 +1321,26 @@
         },
         {
           "players": [
-            "Michael Jeary",
-            "Darrell DeMoss"
+            {
+              "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
+              "name": "Michael Jeary"
+            },
+            {
+              "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
+              "name": "Darrell DeMoss"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f50f472-cd4c-4e42-9cdc-bb0f9b6604fd",
               "players": [
                 {
+                  "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
                   "name": "Michael Jeary",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
                   "name": "Darrell DeMoss",
                   "score": "7"
                 }
@@ -998,12 +1349,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bba40af5-f0a1-4255-87b9-0d202fe50b31",
               "players": [
                 {
+                  "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
                   "name": "Michael Jeary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
                   "name": "Darrell DeMoss",
                   "score": "6"
                 }
@@ -1012,12 +1366,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dea5f53a-4524-46a1-b1bc-ad5fc3953642",
               "players": [
                 {
+                  "playerId": "team-player/da2822c2-2f91-4932-b560-e2f21a3e7126",
                   "name": "Michael Jeary",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/b03db30e-716f-4e34-9cfc-13d5bf7ab6eb",
                   "name": "Darrell DeMoss",
                   "score": "7"
                 }

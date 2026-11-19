@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/dec6a5a1-a7bb-4a7f-ad92-4031e2798915",
   "name": "Croquetwest AC Country versus City",
   "sport": "ac",
   "firstDay": "2024-05-20",
   "lastDay": "2024-05-20",
   "country": "au",
   "region": "wa",
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Country",
       "shortName": "Country",
       "players": [
-        "Carmel Hodges",
-        "Judith Nicholls",
-        "Judith Nicholls & Robyn Dart",
-        "Marcus McGavock",
-        "Marty Clarke",
-        "Marty Clarke & Marcus McGavock",
-        "Max Kewish",
-        "Max Kewish & Carmel Hodges",
-        "Robyn Dart"
+        {
+          "playerId": "team-player/9f2330ba-0bed-4cda-95da-c6993d860d9a",
+          "name": "Carmel Hodges"
+        },
+        {
+          "playerId": "team-player/313acbcf-9060-40f0-841c-f2af3ac28625",
+          "name": "Judith Nicholls"
+        },
+        {
+          "playerId": "team-player/e8b8b2b4-f210-46e7-b246-c94e4e9306e2",
+          "name": "Judith Nicholls & Robyn Dart"
+        },
+        {
+          "playerId": "team-player/a86688ca-af99-4254-8ed5-3a8534ba7fa6",
+          "name": "Marcus McGavock"
+        },
+        {
+          "playerId": "team-player/2d1276d8-230f-45eb-b44e-e0a83a600eea",
+          "name": "Marty Clarke"
+        },
+        {
+          "playerId": "team-player/f4b0a2be-0057-41b9-823d-d8dbf96cf77e",
+          "name": "Marty Clarke & Marcus McGavock"
+        },
+        {
+          "playerId": "team-player/4170fa3b-8646-4ea1-8d79-440f85678fd2",
+          "name": "Max Kewish"
+        },
+        {
+          "playerId": "team-player/a67c6aaf-738e-4357-a88f-edda5935e797",
+          "name": "Max Kewish & Carmel Hodges"
+        },
+        {
+          "playerId": "team-player/6f109a42-7f8a-4c06-bf9b-4179392cdc59",
+          "name": "Robyn Dart"
+        }
       ]
     },
     {
       "name": "City",
       "shortName": "City",
       "players": [
-        "Elizabeth Petrich",
-        "Harry Goff",
-        "Harry Goff & Elizabeth Petrich",
-        "Jeff Newcombe",
-        "Jeff Newcombe & Tim Barkes",
-        "John Doepel",
-        "John Doepel & Megan Fardon",
-        "Megan Fardon",
-        "Tim Barkes"
+        {
+          "playerId": "team-player/5841d50e-3bf7-4f1d-9c0d-6a0f03a1b6ed",
+          "name": "Elizabeth Petrich"
+        },
+        {
+          "playerId": "team-player/40ba2b54-7bf8-4277-b9ec-ec79f26ba543",
+          "name": "Harry Goff"
+        },
+        {
+          "playerId": "team-player/0dbcba38-6925-421f-b614-b094eff7fb42",
+          "name": "Harry Goff & Elizabeth Petrich"
+        },
+        {
+          "playerId": "team-player/2093b878-f286-4c07-a1d3-46083ab37621",
+          "name": "Jeff Newcombe"
+        },
+        {
+          "playerId": "team-player/5f6271e4-6d01-40d9-8962-67fc467c2844",
+          "name": "Jeff Newcombe & Tim Barkes"
+        },
+        {
+          "playerId": "team-player/58d15c08-cdf6-459d-aa9b-6d94724384b0",
+          "name": "John Doepel"
+        },
+        {
+          "playerId": "team-player/1bc2970a-1d80-4f1a-b7d9-18dbc34d529a",
+          "name": "John Doepel & Megan Fardon"
+        },
+        {
+          "playerId": "team-player/2ebc142b-9582-4dbc-b1d5-c2b78a938925",
+          "name": "Megan Fardon"
+        },
+        {
+          "playerId": "team-player/eec7b48d-7acb-4146-b3d0-8b33e38e2887",
+          "name": "Tim Barkes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/3d8d1d67-f0a0-462a-a0fa-96a84a046cf9",
       "teams": [
         "Country",
         "City"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Judith Nicholls & Robyn Dart",
-            "John Doepel & Megan Fardon"
+            {
+              "playerId": "team-player/e8b8b2b4-f210-46e7-b246-c94e4e9306e2",
+              "name": "Judith Nicholls & Robyn Dart"
+            },
+            {
+              "playerId": "team-player/1bc2970a-1d80-4f1a-b7d9-18dbc34d529a",
+              "name": "John Doepel & Megan Fardon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/77fe54dd-35f6-472e-9a36-415acf0e517d",
               "players": [
                 {
+                  "playerId": "team-player/e8b8b2b4-f210-46e7-b246-c94e4e9306e2",
                   "name": "Judith Nicholls & Robyn Dart",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/1bc2970a-1d80-4f1a-b7d9-18dbc34d529a",
                   "name": "John Doepel & Megan Fardon",
                   "score": "12"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "Marty Clarke & Marcus McGavock",
-            "Jeff Newcombe & Tim Barkes"
+            {
+              "playerId": "team-player/f4b0a2be-0057-41b9-823d-d8dbf96cf77e",
+              "name": "Marty Clarke & Marcus McGavock"
+            },
+            {
+              "playerId": "team-player/5f6271e4-6d01-40d9-8962-67fc467c2844",
+              "name": "Jeff Newcombe & Tim Barkes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49180f82-72d5-44ab-8542-c36186bd2091",
               "players": [
                 {
+                  "playerId": "team-player/f4b0a2be-0057-41b9-823d-d8dbf96cf77e",
                   "name": "Marty Clarke & Marcus McGavock",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/5f6271e4-6d01-40d9-8962-67fc467c2844",
                   "name": "Jeff Newcombe & Tim Barkes",
                   "score": "21"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Max Kewish & Carmel Hodges",
-            "Harry Goff & Elizabeth Petrich"
+            {
+              "playerId": "team-player/a67c6aaf-738e-4357-a88f-edda5935e797",
+              "name": "Max Kewish & Carmel Hodges"
+            },
+            {
+              "playerId": "team-player/0dbcba38-6925-421f-b614-b094eff7fb42",
+              "name": "Harry Goff & Elizabeth Petrich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/703795ca-b5bf-412b-bfd1-1c64a42bea99",
               "players": [
                 {
+                  "playerId": "team-player/a67c6aaf-738e-4357-a88f-edda5935e797",
                   "name": "Max Kewish & Carmel Hodges",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/0dbcba38-6925-421f-b614-b094eff7fb42",
                   "name": "Harry Goff & Elizabeth Petrich",
                   "score": "8"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Marcus McGavock",
-            "Jeff Newcombe"
+            {
+              "playerId": "team-player/a86688ca-af99-4254-8ed5-3a8534ba7fa6",
+              "name": "Marcus McGavock"
+            },
+            {
+              "playerId": "team-player/2093b878-f286-4c07-a1d3-46083ab37621",
+              "name": "Jeff Newcombe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8cba1401-f4c9-4978-996f-4a88ff5509e2",
               "players": [
                 {
+                  "playerId": "team-player/a86688ca-af99-4254-8ed5-3a8534ba7fa6",
                   "name": "Marcus McGavock",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/2093b878-f286-4c07-a1d3-46083ab37621",
                   "name": "Jeff Newcombe",
                   "score": "26"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "Marty Clarke",
-            "Tim Barkes"
+            {
+              "playerId": "team-player/2d1276d8-230f-45eb-b44e-e0a83a600eea",
+              "name": "Marty Clarke"
+            },
+            {
+              "playerId": "team-player/eec7b48d-7acb-4146-b3d0-8b33e38e2887",
+              "name": "Tim Barkes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7673e3f9-96fd-44fa-b421-ffc30c72a132",
               "players": [
                 {
+                  "playerId": "team-player/2d1276d8-230f-45eb-b44e-e0a83a600eea",
                   "name": "Marty Clarke",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/eec7b48d-7acb-4146-b3d0-8b33e38e2887",
                   "name": "Tim Barkes",
                   "score": "12"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Max Kewish",
-            "Harry Goff"
+            {
+              "playerId": "team-player/4170fa3b-8646-4ea1-8d79-440f85678fd2",
+              "name": "Max Kewish"
+            },
+            {
+              "playerId": "team-player/40ba2b54-7bf8-4277-b9ec-ec79f26ba543",
+              "name": "Harry Goff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6b76b615-b6c0-451b-a099-104477f30e52",
               "players": [
                 {
+                  "playerId": "team-player/4170fa3b-8646-4ea1-8d79-440f85678fd2",
                   "name": "Max Kewish",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/40ba2b54-7bf8-4277-b9ec-ec79f26ba543",
                   "name": "Harry Goff",
                   "score": "10"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Carmel Hodges",
-            "Elizabeth Petrich"
+            {
+              "playerId": "team-player/9f2330ba-0bed-4cda-95da-c6993d860d9a",
+              "name": "Carmel Hodges"
+            },
+            {
+              "playerId": "team-player/5841d50e-3bf7-4f1d-9c0d-6a0f03a1b6ed",
+              "name": "Elizabeth Petrich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c2b970fa-ebc9-42fe-8f4d-51c4b3188aa1",
               "players": [
                 {
+                  "playerId": "team-player/9f2330ba-0bed-4cda-95da-c6993d860d9a",
                   "name": "Carmel Hodges",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5841d50e-3bf7-4f1d-9c0d-6a0f03a1b6ed",
                   "name": "Elizabeth Petrich",
                   "score": "9"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Robyn Dart",
-            "John Doepel"
+            {
+              "playerId": "team-player/6f109a42-7f8a-4c06-bf9b-4179392cdc59",
+              "name": "Robyn Dart"
+            },
+            {
+              "playerId": "team-player/58d15c08-cdf6-459d-aa9b-6d94724384b0",
+              "name": "John Doepel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f9c45488-39d2-4a16-99e7-3cfa5cbd43f4",
               "players": [
                 {
+                  "playerId": "team-player/6f109a42-7f8a-4c06-bf9b-4179392cdc59",
                   "name": "Robyn Dart",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/58d15c08-cdf6-459d-aa9b-6d94724384b0",
                   "name": "John Doepel",
                   "score": "6"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "Judith Nicholls",
-            "Megan Fardon"
+            {
+              "playerId": "team-player/313acbcf-9060-40f0-841c-f2af3ac28625",
+              "name": "Judith Nicholls"
+            },
+            {
+              "playerId": "team-player/2ebc142b-9582-4dbc-b1d5-c2b78a938925",
+              "name": "Megan Fardon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/776f5ae5-3308-4f3a-82ce-70795062c421",
               "players": [
                 {
+                  "playerId": "team-player/313acbcf-9060-40f0-841c-f2af3ac28625",
                   "name": "Judith Nicholls",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2ebc142b-9582-4dbc-b1d5-c2b78a938925",
                   "name": "Megan Fardon",
                   "score": "13"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "Max Kewish",
-            "Elizabeth Petrich"
+            {
+              "playerId": "team-player/4170fa3b-8646-4ea1-8d79-440f85678fd2",
+              "name": "Max Kewish"
+            },
+            {
+              "playerId": "team-player/5841d50e-3bf7-4f1d-9c0d-6a0f03a1b6ed",
+              "name": "Elizabeth Petrich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/574fa885-b79d-4882-9ca6-b9da7b84c947",
               "players": [
                 {
+                  "playerId": "team-player/4170fa3b-8646-4ea1-8d79-440f85678fd2",
                   "name": "Max Kewish",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/5841d50e-3bf7-4f1d-9c0d-6a0f03a1b6ed",
                   "name": "Elizabeth Petrich",
                   "score": "15"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "Carmel Hodges",
-            "Harry Goff"
+            {
+              "playerId": "team-player/9f2330ba-0bed-4cda-95da-c6993d860d9a",
+              "name": "Carmel Hodges"
+            },
+            {
+              "playerId": "team-player/40ba2b54-7bf8-4277-b9ec-ec79f26ba543",
+              "name": "Harry Goff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d19a8205-b9fa-43d5-9853-41ce6cfc25e0",
               "players": [
                 {
+                  "playerId": "team-player/9f2330ba-0bed-4cda-95da-c6993d860d9a",
                   "name": "Carmel Hodges",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/40ba2b54-7bf8-4277-b9ec-ec79f26ba543",
                   "name": "Harry Goff",
                   "score": "22"
                 }
@@ -291,17 +448,26 @@
         },
         {
           "players": [
-            "Robyn Dart",
-            "Megan Fardon"
+            {
+              "playerId": "team-player/6f109a42-7f8a-4c06-bf9b-4179392cdc59",
+              "name": "Robyn Dart"
+            },
+            {
+              "playerId": "team-player/2ebc142b-9582-4dbc-b1d5-c2b78a938925",
+              "name": "Megan Fardon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fcaf91b1-dd9f-49d8-b2cc-af9de33aa171",
               "players": [
                 {
+                  "playerId": "team-player/6f109a42-7f8a-4c06-bf9b-4179392cdc59",
                   "name": "Robyn Dart",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/2ebc142b-9582-4dbc-b1d5-c2b78a938925",
                   "name": "Megan Fardon",
                   "score": "9"
                 }
@@ -313,17 +479,26 @@
         },
         {
           "players": [
-            "Judith Nicholls",
-            "John Doepel"
+            {
+              "playerId": "team-player/313acbcf-9060-40f0-841c-f2af3ac28625",
+              "name": "Judith Nicholls"
+            },
+            {
+              "playerId": "team-player/58d15c08-cdf6-459d-aa9b-6d94724384b0",
+              "name": "John Doepel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f769cd93-f11a-45c0-bac5-f89032f25f82",
               "players": [
                 {
+                  "playerId": "team-player/313acbcf-9060-40f0-841c-f2af3ac28625",
                   "name": "Judith Nicholls",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/58d15c08-cdf6-459d-aa9b-6d94724384b0",
                   "name": "John Doepel",
                   "score": "17"
                 }
@@ -335,17 +510,26 @@
         },
         {
           "players": [
-            "Marty Clarke",
-            "Jeff Newcombe"
+            {
+              "playerId": "team-player/2d1276d8-230f-45eb-b44e-e0a83a600eea",
+              "name": "Marty Clarke"
+            },
+            {
+              "playerId": "team-player/2093b878-f286-4c07-a1d3-46083ab37621",
+              "name": "Jeff Newcombe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f9fe914-bf42-4aa7-8308-c9d0bb9513de",
               "players": [
                 {
+                  "playerId": "team-player/2d1276d8-230f-45eb-b44e-e0a83a600eea",
                   "name": "Marty Clarke",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/2093b878-f286-4c07-a1d3-46083ab37621",
                   "name": "Jeff Newcombe",
                   "score": "22"
                 }
@@ -357,17 +541,26 @@
         },
         {
           "players": [
-            "Marcus McGavock",
-            "Tim Barkes"
+            {
+              "playerId": "team-player/a86688ca-af99-4254-8ed5-3a8534ba7fa6",
+              "name": "Marcus McGavock"
+            },
+            {
+              "playerId": "team-player/eec7b48d-7acb-4146-b3d0-8b33e38e2887",
+              "name": "Tim Barkes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/40329235-7f7e-40b1-be43-221f25213182",
               "players": [
                 {
+                  "playerId": "team-player/a86688ca-af99-4254-8ed5-3a8534ba7fa6",
                   "name": "Marcus McGavock",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/eec7b48d-7acb-4146-b3d0-8b33e38e2887",
                   "name": "Tim Barkes",
                   "score": "15"
                 }

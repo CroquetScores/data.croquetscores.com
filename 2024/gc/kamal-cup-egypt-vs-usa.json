@@ -1,40 +1,83 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/9c842d0c-07cc-425f-afd7-a51eb5a6c229",
   "name": "Kamal Cup: Egypt vs USA",
   "sport": "gc",
   "firstDay": "2024-09-29",
   "lastDay": "2024-09-30",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Egypt",
       "shortName": "EGY",
       "players": [
-        "Khaled Kamel",
-        "Khaled Kamel & Mohamed Walid",
-        "Mohamed Nasr",
-        "Mohamed Walid",
-        "Yasser Sayed",
-        "Yasser Sayed & Mohamed Nasr",
-        "Yasser Sayed & Mohamed Walid"
+        {
+          "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
+          "name": "Khaled Kamel"
+        },
+        {
+          "playerId": "team-player/6cdc8295-cc65-497e-9741-91c9490880e7",
+          "name": "Khaled Kamel & Mohamed Walid"
+        },
+        {
+          "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
+          "name": "Mohamed Nasr"
+        },
+        {
+          "playerId": "team-player/48533a60-b84f-4b81-ab87-63738c09287a",
+          "name": "Mohamed Walid"
+        },
+        {
+          "playerId": "team-player/79c84b70-8e14-44dc-ace8-54cb1566eb1c",
+          "name": "Yasser Sayed"
+        },
+        {
+          "playerId": "team-player/d5bcfdc1-a3f8-4e4d-a440-c07a180041ef",
+          "name": "Yasser Sayed & Mohamed Nasr"
+        },
+        {
+          "playerId": "team-player/40139b87-f2ff-4393-8a24-f51ce15e84f0",
+          "name": "Yasser Sayed & Mohamed Walid"
+        }
       ]
     },
     {
       "name": "United States of America",
       "shortName": "United Sta",
       "players": [
-        "Ahab Abdelwahab",
-        "Ben Rothman",
-        "Ben Rothman & Ahab Abdelwahab",
-        "Sherif Abdelwahab",
-        "Sherif Abdelwahab & Tamer Hatata",
-        "Tamer Hatata"
+        {
+          "playerId": "team-player/53c24f96-898d-46c8-bcb4-d1dc43162670",
+          "name": "Ahab Abdelwahab"
+        },
+        {
+          "playerId": "team-player/6c3cca7c-6cb5-4158-a561-f6bc1c40cf5d",
+          "name": "Ben Rothman"
+        },
+        {
+          "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
+          "name": "Ben Rothman & Ahab Abdelwahab"
+        },
+        {
+          "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
+          "name": "Sherif Abdelwahab"
+        },
+        {
+          "playerId": "team-player/ace0fb18-98d2-4741-9d26-5a70899aa9f5",
+          "name": "Sherif Abdelwahab & Tamer Hatata"
+        },
+        {
+          "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
+          "name": "Tamer Hatata"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/79e1b312-4028-4683-85b0-00ff364db522",
       "teams": [
         "Egypt",
         "United States of America"
@@ -44,17 +87,26 @@
       "matches": [
         {
           "players": [
-            "Yasser Sayed & Mohamed Nasr",
-            "Ben Rothman & Ahab Abdelwahab"
+            {
+              "playerId": "team-player/d5bcfdc1-a3f8-4e4d-a440-c07a180041ef",
+              "name": "Yasser Sayed & Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
+              "name": "Ben Rothman & Ahab Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cfb2cc49-264c-4977-97ec-e9af0077ae0b",
               "players": [
                 {
+                  "playerId": "team-player/d5bcfdc1-a3f8-4e4d-a440-c07a180041ef",
                   "name": "Yasser Sayed & Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
                   "name": "Ben Rothman & Ahab Abdelwahab",
                   "score": "4"
                 }
@@ -63,12 +115,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0ce8c892-c272-4946-ba50-f0b613c0b30b",
               "players": [
                 {
+                  "playerId": "team-player/d5bcfdc1-a3f8-4e4d-a440-c07a180041ef",
                   "name": "Yasser Sayed & Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
                   "name": "Ben Rothman & Ahab Abdelwahab",
                   "score": "5"
                 }
@@ -80,17 +135,26 @@
         },
         {
           "players": [
-            "Khaled Kamel & Mohamed Walid",
-            "Sherif Abdelwahab & Tamer Hatata"
+            {
+              "playerId": "team-player/6cdc8295-cc65-497e-9741-91c9490880e7",
+              "name": "Khaled Kamel & Mohamed Walid"
+            },
+            {
+              "playerId": "team-player/ace0fb18-98d2-4741-9d26-5a70899aa9f5",
+              "name": "Sherif Abdelwahab & Tamer Hatata"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d3b7b508-68ff-484c-a4eb-7ae69eddb052",
               "players": [
                 {
+                  "playerId": "team-player/6cdc8295-cc65-497e-9741-91c9490880e7",
                   "name": "Khaled Kamel & Mohamed Walid",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ace0fb18-98d2-4741-9d26-5a70899aa9f5",
                   "name": "Sherif Abdelwahab & Tamer Hatata",
                   "score": "6"
                 }
@@ -99,12 +163,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d2049aa1-d73e-45c9-9f9c-994151123420",
               "players": [
                 {
+                  "playerId": "team-player/6cdc8295-cc65-497e-9741-91c9490880e7",
                   "name": "Khaled Kamel & Mohamed Walid",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ace0fb18-98d2-4741-9d26-5a70899aa9f5",
                   "name": "Sherif Abdelwahab & Tamer Hatata",
                   "score": "6"
                 }
@@ -116,17 +183,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
+              "name": "Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/6c3cca7c-6cb5-4158-a561-f6bc1c40cf5d",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/64d095d3-49a7-4c01-9c51-46de6569f57a",
               "players": [
                 {
+                  "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6c3cca7c-6cb5-4158-a561-f6bc1c40cf5d",
                   "name": "Ben Rothman",
                   "score": "5"
                 }
@@ -135,12 +211,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/acde5d9b-0df3-4462-be65-f0fd2c6377db",
               "players": [
                 {
+                  "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6c3cca7c-6cb5-4158-a561-f6bc1c40cf5d",
                   "name": "Ben Rothman",
                   "score": "3"
                 }
@@ -152,17 +231,26 @@
         },
         {
           "players": [
-            "Khaled Kamel",
-            "Ahab Abdelwahab"
+            {
+              "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
+              "name": "Khaled Kamel"
+            },
+            {
+              "playerId": "team-player/53c24f96-898d-46c8-bcb4-d1dc43162670",
+              "name": "Ahab Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a5c31994-239b-4030-98bc-1161bcb3b468",
               "players": [
                 {
+                  "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
                   "name": "Khaled Kamel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/53c24f96-898d-46c8-bcb4-d1dc43162670",
                   "name": "Ahab Abdelwahab",
                   "score": "4"
                 }
@@ -171,12 +259,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/968d08d4-c529-4edc-b15b-b79cef49b64a",
               "players": [
                 {
+                  "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
                   "name": "Khaled Kamel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/53c24f96-898d-46c8-bcb4-d1dc43162670",
                   "name": "Ahab Abdelwahab",
                   "score": "6"
                 }
@@ -188,17 +279,26 @@
         },
         {
           "players": [
-            "Yasser Sayed",
-            "Sherif Abdelwahab"
+            {
+              "playerId": "team-player/79c84b70-8e14-44dc-ace8-54cb1566eb1c",
+              "name": "Yasser Sayed"
+            },
+            {
+              "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
+              "name": "Sherif Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cfc2b848-9c7c-4f6c-a902-821458aa8d76",
               "players": [
                 {
+                  "playerId": "team-player/79c84b70-8e14-44dc-ace8-54cb1566eb1c",
                   "name": "Yasser Sayed",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 }
@@ -207,12 +307,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9265f8e8-0de3-492c-a317-a681b0a0e94c",
               "players": [
                 {
+                  "playerId": "team-player/79c84b70-8e14-44dc-ace8-54cb1566eb1c",
                   "name": "Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
                   "name": "Sherif Abdelwahab",
                   "score": "1"
                 }
@@ -221,12 +324,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5370a278-ba45-4b2c-a5ef-5e4b742c1088",
               "players": [
                 {
+                  "playerId": "team-player/79c84b70-8e14-44dc-ace8-54cb1566eb1c",
                   "name": "Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
                   "name": "Sherif Abdelwahab",
                   "score": "5"
                 }
@@ -238,17 +344,26 @@
         },
         {
           "players": [
-            "Mohamed Walid",
-            "Tamer Hatata"
+            {
+              "playerId": "team-player/48533a60-b84f-4b81-ab87-63738c09287a",
+              "name": "Mohamed Walid"
+            },
+            {
+              "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
+              "name": "Tamer Hatata"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4182b490-8a30-4a29-afb7-22259086f440",
               "players": [
                 {
+                  "playerId": "team-player/48533a60-b84f-4b81-ab87-63738c09287a",
                   "name": "Mohamed Walid",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
                   "name": "Tamer Hatata",
                   "score": "4"
                 }
@@ -257,12 +372,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b5d9fb15-dfee-4ef9-8eab-387d2b42db49",
               "players": [
                 {
+                  "playerId": "team-player/48533a60-b84f-4b81-ab87-63738c09287a",
                   "name": "Mohamed Walid",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
                   "name": "Tamer Hatata",
                   "score": "7"
                 }
@@ -271,12 +389,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0baaec73-b8ac-410e-977b-1285fd57b786",
               "players": [
                 {
+                  "playerId": "team-player/48533a60-b84f-4b81-ab87-63738c09287a",
                   "name": "Mohamed Walid",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
                   "name": "Tamer Hatata",
                   "score": "7"
                 }
@@ -288,17 +409,26 @@
         },
         {
           "players": [
-            "Khaled Kamel",
-            "Sherif Abdelwahab"
+            {
+              "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
+              "name": "Khaled Kamel"
+            },
+            {
+              "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
+              "name": "Sherif Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/65e923fc-6ac1-45c8-90e7-964a4060862e",
               "players": [
                 {
+                  "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
                   "name": "Khaled Kamel",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 }
@@ -307,12 +437,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/57408f09-190c-4690-955e-883b3d969faa",
               "players": [
                 {
+                  "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
                   "name": "Khaled Kamel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
                   "name": "Sherif Abdelwahab",
                   "score": "3"
                 }
@@ -321,12 +454,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/91c87a57-2aea-42c2-8f1f-05e6cb300b20",
               "players": [
                 {
+                  "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
                   "name": "Khaled Kamel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
                   "name": "Sherif Abdelwahab",
                   "score": "6"
                 }
@@ -338,17 +474,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr",
-            "Tamer Hatata"
+            {
+              "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
+              "name": "Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
+              "name": "Tamer Hatata"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bb64e3eb-4e38-42b9-a059-731cf33fabcc",
               "players": [
                 {
+                  "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
                   "name": "Tamer Hatata",
                   "score": "6"
                 }
@@ -357,12 +502,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2db98b07-87b7-414c-8768-7f14021e9e9a",
               "players": [
                 {
+                  "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
                   "name": "Tamer Hatata",
                   "score": "3"
                 }
@@ -374,17 +522,26 @@
         },
         {
           "players": [
-            "Yasser Sayed & Mohamed Walid",
-            "Ben Rothman & Ahab Abdelwahab"
+            {
+              "playerId": "team-player/40139b87-f2ff-4393-8a24-f51ce15e84f0",
+              "name": "Yasser Sayed & Mohamed Walid"
+            },
+            {
+              "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
+              "name": "Ben Rothman & Ahab Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1343d88c-663a-4c83-9320-36e4ef169740",
               "players": [
                 {
+                  "playerId": "team-player/40139b87-f2ff-4393-8a24-f51ce15e84f0",
                   "name": "Yasser Sayed & Mohamed Walid",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
                   "name": "Ben Rothman & Ahab Abdelwahab",
                   "score": "6"
                 }
@@ -393,12 +550,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8288fbb5-ab85-4549-a283-8507c0350f75",
               "players": [
                 {
+                  "playerId": "team-player/40139b87-f2ff-4393-8a24-f51ce15e84f0",
                   "name": "Yasser Sayed & Mohamed Walid",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
                   "name": "Ben Rothman & Ahab Abdelwahab",
                   "score": "6"
                 }
@@ -410,17 +570,26 @@
         },
         {
           "players": [
-            "Yasser Sayed & Mohamed Nasr",
-            "Sherif Abdelwahab & Tamer Hatata"
+            {
+              "playerId": "team-player/d5bcfdc1-a3f8-4e4d-a440-c07a180041ef",
+              "name": "Yasser Sayed & Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/ace0fb18-98d2-4741-9d26-5a70899aa9f5",
+              "name": "Sherif Abdelwahab & Tamer Hatata"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d7a499f-3373-4d69-9bc7-8850130d8a3e",
               "players": [
                 {
+                  "playerId": "team-player/d5bcfdc1-a3f8-4e4d-a440-c07a180041ef",
                   "name": "Yasser Sayed & Mohamed Nasr",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ace0fb18-98d2-4741-9d26-5a70899aa9f5",
                   "name": "Sherif Abdelwahab & Tamer Hatata",
                   "score": "7"
                 }
@@ -429,12 +598,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/32d79bdc-ad7d-4c36-b8a8-832d7e49cf12",
               "players": [
                 {
+                  "playerId": "team-player/d5bcfdc1-a3f8-4e4d-a440-c07a180041ef",
                   "name": "Yasser Sayed & Mohamed Nasr",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/ace0fb18-98d2-4741-9d26-5a70899aa9f5",
                   "name": "Sherif Abdelwahab & Tamer Hatata",
                   "score": "7"
                 }
@@ -446,17 +618,26 @@
         },
         {
           "players": [
-            "Khaled Kamel & Mohamed Walid",
-            "Ben Rothman & Ahab Abdelwahab"
+            {
+              "playerId": "team-player/6cdc8295-cc65-497e-9741-91c9490880e7",
+              "name": "Khaled Kamel & Mohamed Walid"
+            },
+            {
+              "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
+              "name": "Ben Rothman & Ahab Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/87c0c8d7-e739-4b62-b21b-86c7618d4e6f",
               "players": [
                 {
+                  "playerId": "team-player/6cdc8295-cc65-497e-9741-91c9490880e7",
                   "name": "Khaled Kamel & Mohamed Walid",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
                   "name": "Ben Rothman & Ahab Abdelwahab",
                   "score": "5"
                 }
@@ -465,12 +646,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/01296aa2-e478-42e3-800c-21f6f8e22f2f",
               "players": [
                 {
+                  "playerId": "team-player/6cdc8295-cc65-497e-9741-91c9490880e7",
                   "name": "Khaled Kamel & Mohamed Walid",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7a8b3f1-9678-4afb-89b2-fd9575bef760",
                   "name": "Ben Rothman & Ahab Abdelwahab",
                   "score": "6"
                 }
@@ -482,17 +666,26 @@
         },
         {
           "players": [
-            "Mohamed Walid",
-            "Ahab Abdelwahab"
+            {
+              "playerId": "team-player/48533a60-b84f-4b81-ab87-63738c09287a",
+              "name": "Mohamed Walid"
+            },
+            {
+              "playerId": "team-player/53c24f96-898d-46c8-bcb4-d1dc43162670",
+              "name": "Ahab Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49d8d53e-b631-491a-ab7c-15e8b273b01e",
               "players": [
                 {
+                  "playerId": "team-player/48533a60-b84f-4b81-ab87-63738c09287a",
                   "name": "Mohamed Walid",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/53c24f96-898d-46c8-bcb4-d1dc43162670",
                   "name": "Ahab Abdelwahab",
                   "score": "3"
                 }
@@ -501,12 +694,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7b3a3841-03e3-444b-b118-8c39424d162c",
               "players": [
                 {
+                  "playerId": "team-player/48533a60-b84f-4b81-ab87-63738c09287a",
                   "name": "Mohamed Walid",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/53c24f96-898d-46c8-bcb4-d1dc43162670",
                   "name": "Ahab Abdelwahab",
                   "score": "7"
                 }
@@ -515,12 +711,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d25a2191-40b4-4fc3-87fc-53cf1e864236",
               "players": [
                 {
+                  "playerId": "team-player/48533a60-b84f-4b81-ab87-63738c09287a",
                   "name": "Mohamed Walid",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/53c24f96-898d-46c8-bcb4-d1dc43162670",
                   "name": "Ahab Abdelwahab",
                   "score": "4"
                 }
@@ -532,17 +731,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr",
-            "Sherif Abdelwahab"
+            {
+              "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
+              "name": "Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
+              "name": "Sherif Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f99d3991-95cb-4bba-9afe-ffcfdf6749e8",
               "players": [
                 {
+                  "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
                   "name": "Mohamed Nasr",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 }
@@ -551,12 +759,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d0f1146f-ab26-43f0-92d7-4b36e6124009",
               "players": [
                 {
+                  "playerId": "team-player/52ad0cf5-fe39-4687-a18f-fb0904d0bdb5",
                   "name": "Mohamed Nasr",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/9795904a-90a1-4f38-9f83-6da1184bd9a5",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 }
@@ -568,17 +779,26 @@
         },
         {
           "players": [
-            "Khaled Kamel",
-            "Tamer Hatata"
+            {
+              "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
+              "name": "Khaled Kamel"
+            },
+            {
+              "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
+              "name": "Tamer Hatata"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8eef63b-4400-47f8-affe-dfddb69afdf0",
               "players": [
                 {
+                  "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
                   "name": "Khaled Kamel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
                   "name": "Tamer Hatata",
                   "score": "4"
                 }
@@ -587,12 +807,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0a0c007e-5681-475d-995e-4e183d7a2fe6",
               "players": [
                 {
+                  "playerId": "team-player/8ae19ee1-45c1-4c8a-91eb-190fbafa9ad0",
                   "name": "Khaled Kamel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/15810e83-7eb9-40dd-ae47-42499cc26658",
                   "name": "Tamer Hatata",
                   "score": "4"
                 }
@@ -604,17 +827,26 @@
         },
         {
           "players": [
-            "Yasser Sayed",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/79c84b70-8e14-44dc-ace8-54cb1566eb1c",
+              "name": "Yasser Sayed"
+            },
+            {
+              "playerId": "team-player/6c3cca7c-6cb5-4158-a561-f6bc1c40cf5d",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9de5442e-08f9-4f14-bf95-2b3ea395aceb",
               "players": [
                 {
+                  "playerId": "team-player/79c84b70-8e14-44dc-ace8-54cb1566eb1c",
                   "name": "Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6c3cca7c-6cb5-4158-a561-f6bc1c40cf5d",
                   "name": "Ben Rothman",
                   "score": "2"
                 }
@@ -623,12 +855,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/234468b8-91ec-4ec9-aec1-923d78a8e114",
               "players": [
                 {
+                  "playerId": "team-player/79c84b70-8e14-44dc-ace8-54cb1566eb1c",
                   "name": "Yasser Sayed",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/6c3cca7c-6cb5-4158-a561-f6bc1c40cf5d",
                   "name": "Ben Rothman",
                   "score": "7"
                 }
@@ -637,12 +872,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/eada1f66-748f-46f1-828a-6bc0052fa690",
               "players": [
                 {
+                  "playerId": "team-player/79c84b70-8e14-44dc-ace8-54cb1566eb1c",
                   "name": "Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6c3cca7c-6cb5-4158-a561-f6bc1c40cf5d",
                   "name": "Ben Rothman",
                   "score": "5"
                 }

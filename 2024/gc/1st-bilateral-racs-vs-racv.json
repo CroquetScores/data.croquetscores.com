@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/3a441507-7ab9-440c-87dc-b727bb68ebd7",
   "name": "2nd GC RACS-RACV Test Match",
   "sport": "gc",
   "firstDay": "2024-10-18",
   "lastDay": "2024-10-18",
   "country": "es",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "RACS",
       "shortName": "RACS",
       "players": [
-        "Francisco Gomez",
-        "Francisco Gomez/Guillermo Gomez Pombo",
-        "Guillermo Gomez Pombo",
-        "Juan Manuel Seoane",
-        "Juan Manuel Seoane/Maria Luisa Rios",
-        "Mar Lago",
-        "Maria Luisa Rios",
-        "Ricardo Rua",
-        "Ricardo Rua/Mar Lago"
+        {
+          "playerId": "team-player/70217a6b-1cad-4f4c-bcfd-c38ec3343ee5",
+          "name": "Francisco Gomez"
+        },
+        {
+          "playerId": "team-player/65935d5b-78c3-4f8e-83ee-c90c8d485397",
+          "name": "Francisco Gomez/Guillermo Gomez Pombo"
+        },
+        {
+          "playerId": "team-player/d395a050-832c-4eb4-ae7b-3d4a799d17c4",
+          "name": "Guillermo Gomez Pombo"
+        },
+        {
+          "playerId": "team-player/134dffd7-86a6-43d3-a237-45d8db057e09",
+          "name": "Juan Manuel Seoane"
+        },
+        {
+          "playerId": "team-player/edbfc0b2-4863-4d32-9926-dea226c6aa68",
+          "name": "Juan Manuel Seoane/Maria Luisa Rios"
+        },
+        {
+          "playerId": "team-player/f8812fcf-c6e2-4dfb-b1f4-99b4ae013d6f",
+          "name": "Mar Lago"
+        },
+        {
+          "playerId": "team-player/1f71eeb4-0b64-4512-926b-0f154c44b84f",
+          "name": "Maria Luisa Rios"
+        },
+        {
+          "playerId": "team-player/b531e280-67c6-485f-903a-78babd5d161d",
+          "name": "Ricardo Rua"
+        },
+        {
+          "playerId": "team-player/e3fafb2b-32a4-4ab9-a58a-6c2a4790c102",
+          "name": "Ricardo Rua/Mar Lago"
+        }
       ]
     },
     {
       "name": "RACV",
       "shortName": "RACV",
       "players": [
-        "Carmen Gil Pena",
-        "Fernando Vidal-Ribas",
-        "Fernando Vidal-Ribas/Gonzaga de la Calle",
-        "Gonzaga de la Calle",
-        "Gonzalo Prado",
-        "Jorge Barreras",
-        "Jorge Barreras/Gonzalo Prado",
-        "Milagros Reboreda",
-        "Milagros Reboreda/Carmen Gil"
+        {
+          "playerId": "team-player/505e344a-eba7-47d9-87fb-b293f9c9a8c7",
+          "name": "Carmen Gil Pena"
+        },
+        {
+          "playerId": "team-player/272a71e2-dea9-434d-85ab-d5b012ee34a1",
+          "name": "Fernando Vidal-Ribas"
+        },
+        {
+          "playerId": "team-player/95cce3af-7fc0-4518-abd7-4efab73339b7",
+          "name": "Fernando Vidal-Ribas/Gonzaga de la Calle"
+        },
+        {
+          "playerId": "team-player/da3666c9-9db7-4e20-9da9-32d467eb235e",
+          "name": "Gonzaga de la Calle"
+        },
+        {
+          "playerId": "team-player/fbe5683a-7fbf-4c43-9cec-6da957023bed",
+          "name": "Gonzalo Prado"
+        },
+        {
+          "playerId": "team-player/cc88726b-27b5-49c5-9904-96422446d24b",
+          "name": "Jorge Barreras"
+        },
+        {
+          "playerId": "team-player/9185654a-9989-4fa6-bec6-f1e3b5f431f2",
+          "name": "Jorge Barreras/Gonzalo Prado"
+        },
+        {
+          "playerId": "team-player/4aa1d9b3-12a2-4b7e-a771-b102ea6be520",
+          "name": "Milagros Reboreda"
+        },
+        {
+          "playerId": "team-player/7744ef9e-8026-433f-a198-a6fd1069cf4f",
+          "name": "Milagros Reboreda/Carmen Gil"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/8b48d852-8c51-4662-ae46-e2cb2c3c8570",
       "teams": [
         "RACS",
         "RACV"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Ricardo Rua/Mar Lago",
-            "Milagros Reboreda/Carmen Gil"
+            {
+              "playerId": "team-player/e3fafb2b-32a4-4ab9-a58a-6c2a4790c102",
+              "name": "Ricardo Rua/Mar Lago"
+            },
+            {
+              "playerId": "team-player/7744ef9e-8026-433f-a198-a6fd1069cf4f",
+              "name": "Milagros Reboreda/Carmen Gil"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dfd4e791-799b-4344-907e-3198fec336f4",
               "players": [
                 {
+                  "playerId": "team-player/e3fafb2b-32a4-4ab9-a58a-6c2a4790c102",
                   "name": "Ricardo Rua/Mar Lago",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7744ef9e-8026-433f-a198-a6fd1069cf4f",
                   "name": "Milagros Reboreda/Carmen Gil",
                   "score": "4"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "Francisco Gomez/Guillermo Gomez Pombo",
-            "Jorge Barreras/Gonzalo Prado"
+            {
+              "playerId": "team-player/65935d5b-78c3-4f8e-83ee-c90c8d485397",
+              "name": "Francisco Gomez/Guillermo Gomez Pombo"
+            },
+            {
+              "playerId": "team-player/9185654a-9989-4fa6-bec6-f1e3b5f431f2",
+              "name": "Jorge Barreras/Gonzalo Prado"
+            }
           ],
           "games": [
             {
+              "gameId": "game/724f2446-c974-49b1-932a-b22420d4840a",
               "players": [
                 {
+                  "playerId": "team-player/65935d5b-78c3-4f8e-83ee-c90c8d485397",
                   "name": "Francisco Gomez/Guillermo Gomez Pombo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9185654a-9989-4fa6-bec6-f1e3b5f431f2",
                   "name": "Jorge Barreras/Gonzalo Prado",
                   "score": "5"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Juan Manuel Seoane/Maria Luisa Rios",
-            "Fernando Vidal-Ribas/Gonzaga de la Calle"
+            {
+              "playerId": "team-player/edbfc0b2-4863-4d32-9926-dea226c6aa68",
+              "name": "Juan Manuel Seoane/Maria Luisa Rios"
+            },
+            {
+              "playerId": "team-player/95cce3af-7fc0-4518-abd7-4efab73339b7",
+              "name": "Fernando Vidal-Ribas/Gonzaga de la Calle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/505edaa9-1f77-421b-9d22-a937ccfc2b2b",
               "players": [
                 {
+                  "playerId": "team-player/edbfc0b2-4863-4d32-9926-dea226c6aa68",
                   "name": "Juan Manuel Seoane/Maria Luisa Rios",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/95cce3af-7fc0-4518-abd7-4efab73339b7",
                   "name": "Fernando Vidal-Ribas/Gonzaga de la Calle",
                   "score": "3"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Guillermo Gomez Pombo",
-            "Carmen Gil Pena"
+            {
+              "playerId": "team-player/d395a050-832c-4eb4-ae7b-3d4a799d17c4",
+              "name": "Guillermo Gomez Pombo"
+            },
+            {
+              "playerId": "team-player/505e344a-eba7-47d9-87fb-b293f9c9a8c7",
+              "name": "Carmen Gil Pena"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b15e281-87fc-4a98-952f-2c827373cd46",
               "players": [
                 {
+                  "playerId": "team-player/d395a050-832c-4eb4-ae7b-3d4a799d17c4",
                   "name": "Guillermo Gomez Pombo",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/505e344a-eba7-47d9-87fb-b293f9c9a8c7",
                   "name": "Carmen Gil Pena",
                   "score": "7"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "Mar Lago",
-            "Fernando Vidal-Ribas"
+            {
+              "playerId": "team-player/f8812fcf-c6e2-4dfb-b1f4-99b4ae013d6f",
+              "name": "Mar Lago"
+            },
+            {
+              "playerId": "team-player/272a71e2-dea9-434d-85ab-d5b012ee34a1",
+              "name": "Fernando Vidal-Ribas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/95b11818-92e2-4240-85bd-f7cae56341e0",
               "players": [
                 {
+                  "playerId": "team-player/f8812fcf-c6e2-4dfb-b1f4-99b4ae013d6f",
                   "name": "Mar Lago",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/272a71e2-dea9-434d-85ab-d5b012ee34a1",
                   "name": "Fernando Vidal-Ribas",
                   "score": "7"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Ricardo Rua",
-            "Milagros Reboreda"
+            {
+              "playerId": "team-player/b531e280-67c6-485f-903a-78babd5d161d",
+              "name": "Ricardo Rua"
+            },
+            {
+              "playerId": "team-player/4aa1d9b3-12a2-4b7e-a771-b102ea6be520",
+              "name": "Milagros Reboreda"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7ae9538e-144e-42cf-bcf1-f18b4bc14242",
               "players": [
                 {
+                  "playerId": "team-player/b531e280-67c6-485f-903a-78babd5d161d",
                   "name": "Ricardo Rua",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4aa1d9b3-12a2-4b7e-a771-b102ea6be520",
                   "name": "Milagros Reboreda",
                   "score": "10"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Maria Luisa Rios",
-            "Gonzaga de la Calle"
+            {
+              "playerId": "team-player/1f71eeb4-0b64-4512-926b-0f154c44b84f",
+              "name": "Maria Luisa Rios"
+            },
+            {
+              "playerId": "team-player/da3666c9-9db7-4e20-9da9-32d467eb235e",
+              "name": "Gonzaga de la Calle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa45f221-350b-49b6-b009-0fa196004879",
               "players": [
                 {
+                  "playerId": "team-player/1f71eeb4-0b64-4512-926b-0f154c44b84f",
                   "name": "Maria Luisa Rios",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/da3666c9-9db7-4e20-9da9-32d467eb235e",
                   "name": "Gonzaga de la Calle",
                   "score": "5"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Francisco Gomez",
-            "Gonzalo Prado"
+            {
+              "playerId": "team-player/70217a6b-1cad-4f4c-bcfd-c38ec3343ee5",
+              "name": "Francisco Gomez"
+            },
+            {
+              "playerId": "team-player/fbe5683a-7fbf-4c43-9cec-6da957023bed",
+              "name": "Gonzalo Prado"
+            }
           ],
           "games": [
             {
+              "gameId": "game/00e3cc96-52b1-4fe5-b92d-add999c66d7a",
               "players": [
                 {
+                  "playerId": "team-player/70217a6b-1cad-4f4c-bcfd-c38ec3343ee5",
                   "name": "Francisco Gomez",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/fbe5683a-7fbf-4c43-9cec-6da957023bed",
                   "name": "Gonzalo Prado",
                   "score": "10"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "Juan Manuel Seoane",
-            "Jorge Barreras"
+            {
+              "playerId": "team-player/134dffd7-86a6-43d3-a237-45d8db057e09",
+              "name": "Juan Manuel Seoane"
+            },
+            {
+              "playerId": "team-player/cc88726b-27b5-49c5-9904-96422446d24b",
+              "name": "Jorge Barreras"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6434a4b6-a6f5-479e-8386-472dba68c1da",
               "players": [
                 {
+                  "playerId": "team-player/134dffd7-86a6-43d3-a237-45d8db057e09",
                   "name": "Juan Manuel Seoane",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/cc88726b-27b5-49c5-9904-96422446d24b",
                   "name": "Jorge Barreras",
                   "score": "8"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "Mar Lago",
-            "Carmen Gil Pena"
+            {
+              "playerId": "team-player/f8812fcf-c6e2-4dfb-b1f4-99b4ae013d6f",
+              "name": "Mar Lago"
+            },
+            {
+              "playerId": "team-player/505e344a-eba7-47d9-87fb-b293f9c9a8c7",
+              "name": "Carmen Gil Pena"
+            }
           ],
           "games": [
             {
+              "gameId": "game/43bbf2c5-d530-4deb-92a4-3920f175d359",
               "players": [
                 {
+                  "playerId": "team-player/f8812fcf-c6e2-4dfb-b1f4-99b4ae013d6f",
                   "name": "Mar Lago",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/505e344a-eba7-47d9-87fb-b293f9c9a8c7",
                   "name": "Carmen Gil Pena",
                   "score": "10"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "Guillermo Gomez Pombo",
-            "Fernando Vidal-Ribas"
+            {
+              "playerId": "team-player/d395a050-832c-4eb4-ae7b-3d4a799d17c4",
+              "name": "Guillermo Gomez Pombo"
+            },
+            {
+              "playerId": "team-player/272a71e2-dea9-434d-85ab-d5b012ee34a1",
+              "name": "Fernando Vidal-Ribas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c918745e-2894-42eb-9f7e-8c696eda78b8",
               "players": [
                 {
+                  "playerId": "team-player/d395a050-832c-4eb4-ae7b-3d4a799d17c4",
                   "name": "Guillermo Gomez Pombo",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/272a71e2-dea9-434d-85ab-d5b012ee34a1",
                   "name": "Fernando Vidal-Ribas",
                   "score": "10"
                 }
@@ -291,17 +448,26 @@
         },
         {
           "players": [
-            "Maria Luisa Rios",
-            "Milagros Reboreda"
+            {
+              "playerId": "team-player/1f71eeb4-0b64-4512-926b-0f154c44b84f",
+              "name": "Maria Luisa Rios"
+            },
+            {
+              "playerId": "team-player/4aa1d9b3-12a2-4b7e-a771-b102ea6be520",
+              "name": "Milagros Reboreda"
+            }
           ],
           "games": [
             {
+              "gameId": "game/65bd2cfd-f77b-4805-8bea-f79de85c7ea0",
               "players": [
                 {
+                  "playerId": "team-player/1f71eeb4-0b64-4512-926b-0f154c44b84f",
                   "name": "Maria Luisa Rios",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4aa1d9b3-12a2-4b7e-a771-b102ea6be520",
                   "name": "Milagros Reboreda",
                   "score": "10"
                 }
@@ -313,17 +479,26 @@
         },
         {
           "players": [
-            "Ricardo Rua",
-            "Gonzaga de la Calle"
+            {
+              "playerId": "team-player/b531e280-67c6-485f-903a-78babd5d161d",
+              "name": "Ricardo Rua"
+            },
+            {
+              "playerId": "team-player/da3666c9-9db7-4e20-9da9-32d467eb235e",
+              "name": "Gonzaga de la Calle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ede5030e-61a3-48c0-8489-7988d0b66fd6",
               "players": [
                 {
+                  "playerId": "team-player/b531e280-67c6-485f-903a-78babd5d161d",
                   "name": "Ricardo Rua",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/da3666c9-9db7-4e20-9da9-32d467eb235e",
                   "name": "Gonzaga de la Calle",
                   "score": "7"
                 }
@@ -335,17 +510,26 @@
         },
         {
           "players": [
-            "Juan Manuel Seoane",
-            "Gonzalo Prado"
+            {
+              "playerId": "team-player/134dffd7-86a6-43d3-a237-45d8db057e09",
+              "name": "Juan Manuel Seoane"
+            },
+            {
+              "playerId": "team-player/fbe5683a-7fbf-4c43-9cec-6da957023bed",
+              "name": "Gonzalo Prado"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a5827a6c-0018-4354-a6ed-1924ce87064c",
               "players": [
                 {
+                  "playerId": "team-player/134dffd7-86a6-43d3-a237-45d8db057e09",
                   "name": "Juan Manuel Seoane",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fbe5683a-7fbf-4c43-9cec-6da957023bed",
                   "name": "Gonzalo Prado",
                   "score": "0"
                 }
@@ -357,17 +541,26 @@
         },
         {
           "players": [
-            "Francisco Gomez",
-            "Jorge Barreras"
+            {
+              "playerId": "team-player/70217a6b-1cad-4f4c-bcfd-c38ec3343ee5",
+              "name": "Francisco Gomez"
+            },
+            {
+              "playerId": "team-player/cc88726b-27b5-49c5-9904-96422446d24b",
+              "name": "Jorge Barreras"
+            }
           ],
           "games": [
             {
+              "gameId": "game/00852a36-bb98-4190-a322-41c26251fdcc",
               "players": [
                 {
+                  "playerId": "team-player/70217a6b-1cad-4f4c-bcfd-c38ec3343ee5",
                   "name": "Francisco Gomez",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/cc88726b-27b5-49c5-9904-96422446d24b",
                   "name": "Jorge Barreras",
                   "score": "7"
                 }

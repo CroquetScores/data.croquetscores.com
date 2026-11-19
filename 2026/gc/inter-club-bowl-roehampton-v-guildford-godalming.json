@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/39bfdbe4-2fa0-46e6-bb53-19a57522944d",
   "name": "Inter Club Bowl - Roehampton v Guildford & Godalming",
   "sport": "gc",
   "firstDay": "2026-08-15",
   "lastDay": "2026-08-15",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Chris Bray",
-        "Emile Fernandes",
-        "Kevin O'Connor",
-        "Mark Green",
-        "O'Connor & Green"
+        {
+          "playerId": "team-player/e4fdc83a-b24a-47ec-879b-fea151ae99e1",
+          "name": "Chris Bray"
+        },
+        {
+          "playerId": "team-player/3d6c5afd-f2f2-47f5-a7fc-1632a1b6b15b",
+          "name": "Emile Fernandes"
+        },
+        {
+          "playerId": "team-player/f9849953-334a-4b2f-91af-372b4fa18003",
+          "name": "Kevin O'Connor"
+        },
+        {
+          "playerId": "team-player/d6a0d848-96db-4233-b31d-922bafa39b20",
+          "name": "Mark Green"
+        },
+        {
+          "playerId": "team-player/e4846a68-ad8d-4c25-b097-84d523d35aea",
+          "name": "O'Connor & Green"
+        }
       ]
     },
     {
       "name": "Guildford & Godalming",
       "shortName": "Guildford",
       "players": [
-        "Hilary Bird",
-        "Iain Richardson",
-        "Martin Birch",
-        "Salt & Bird",
-        "Vernon Salt"
+        {
+          "playerId": "team-player/838486f5-e921-49e4-b9d4-aa1bac2fbab3",
+          "name": "Hilary Bird"
+        },
+        {
+          "playerId": "team-player/96681c76-ca65-4ee4-9876-ddf505684847",
+          "name": "Iain Richardson"
+        },
+        {
+          "playerId": "team-player/04e0331f-41f3-4502-9e37-c8c428ada354",
+          "name": "Martin Birch"
+        },
+        {
+          "playerId": "team-player/568a125c-d22d-4869-9914-0b8403075067",
+          "name": "Salt & Bird"
+        },
+        {
+          "playerId": "team-player/ae308cd7-dc34-416b-970e-0e26d0c2a98e",
+          "name": "Vernon Salt"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/204a0972-fde2-460b-840b-5a7b2e16f09b",
       "teams": [
         "Roehampton",
         "Guildford & Godalming"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "O'Connor & Green",
-            "Salt & Bird"
+            {
+              "playerId": "team-player/e4846a68-ad8d-4c25-b097-84d523d35aea",
+              "name": "O'Connor & Green"
+            },
+            {
+              "playerId": "team-player/568a125c-d22d-4869-9914-0b8403075067",
+              "name": "Salt & Bird"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fec07078-bc1f-4407-8d9f-9c3e1ecc013d",
               "players": [
                 {
+                  "playerId": "team-player/e4846a68-ad8d-4c25-b097-84d523d35aea",
                   "name": "O'Connor & Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/568a125c-d22d-4869-9914-0b8403075067",
                   "name": "Salt & Bird",
                   "score": "3"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1b92de2a-9c1e-4371-be9f-ddeeeea47579",
               "players": [
                 {
+                  "playerId": "team-player/e4846a68-ad8d-4c25-b097-84d523d35aea",
                   "name": "O'Connor & Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/568a125c-d22d-4869-9914-0b8403075067",
                   "name": "Salt & Bird",
                   "score": "3"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Chris Bray",
-            "Iain Richardson"
+            {
+              "playerId": "team-player/e4fdc83a-b24a-47ec-879b-fea151ae99e1",
+              "name": "Chris Bray"
+            },
+            {
+              "playerId": "team-player/96681c76-ca65-4ee4-9876-ddf505684847",
+              "name": "Iain Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc93435f-41e8-4e57-b171-d257d15b85b1",
               "players": [
                 {
+                  "playerId": "team-player/e4fdc83a-b24a-47ec-879b-fea151ae99e1",
                   "name": "Chris Bray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/96681c76-ca65-4ee4-9876-ddf505684847",
                   "name": "Iain Richardson",
                   "score": "6"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c2abfe34-2bb0-45cd-9bbe-fd69dd27a2f3",
               "players": [
                 {
+                  "playerId": "team-player/e4fdc83a-b24a-47ec-879b-fea151ae99e1",
                   "name": "Chris Bray",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/96681c76-ca65-4ee4-9876-ddf505684847",
                   "name": "Iain Richardson",
                   "score": "7"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/95770b54-526a-4bfe-8eee-d5d37345ec1c",
               "players": [
                 {
+                  "playerId": "team-player/e4fdc83a-b24a-47ec-879b-fea151ae99e1",
                   "name": "Chris Bray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/96681c76-ca65-4ee4-9876-ddf505684847",
                   "name": "Iain Richardson",
                   "score": "1"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Emile Fernandes",
-            "Martin Birch"
+            {
+              "playerId": "team-player/3d6c5afd-f2f2-47f5-a7fc-1632a1b6b15b",
+              "name": "Emile Fernandes"
+            },
+            {
+              "playerId": "team-player/04e0331f-41f3-4502-9e37-c8c428ada354",
+              "name": "Martin Birch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d0ffcc8-6ce5-4853-99e2-4f359d350d5b",
               "players": [
                 {
+                  "playerId": "team-player/3d6c5afd-f2f2-47f5-a7fc-1632a1b6b15b",
                   "name": "Emile Fernandes",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/04e0331f-41f3-4502-9e37-c8c428ada354",
                   "name": "Martin Birch",
                   "score": "7"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a886b2f9-59af-4029-a078-bd62078eead2",
               "players": [
                 {
+                  "playerId": "team-player/3d6c5afd-f2f2-47f5-a7fc-1632a1b6b15b",
                   "name": "Emile Fernandes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/04e0331f-41f3-4502-9e37-c8c428ada354",
                   "name": "Martin Birch",
                   "score": "1"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Mark Green",
-            "Hilary Bird"
+            {
+              "playerId": "team-player/d6a0d848-96db-4233-b31d-922bafa39b20",
+              "name": "Mark Green"
+            },
+            {
+              "playerId": "team-player/838486f5-e921-49e4-b9d4-aa1bac2fbab3",
+              "name": "Hilary Bird"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b2f1a268-db44-4097-992d-d02be9441f5e",
               "players": [
                 {
+                  "playerId": "team-player/d6a0d848-96db-4233-b31d-922bafa39b20",
                   "name": "Mark Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/838486f5-e921-49e4-b9d4-aa1bac2fbab3",
                   "name": "Hilary Bird",
                   "score": "3"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d45a7b62-18cb-4f30-b8de-751ea0f569e4",
               "players": [
                 {
+                  "playerId": "team-player/d6a0d848-96db-4233-b31d-922bafa39b20",
                   "name": "Mark Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/838486f5-e921-49e4-b9d4-aa1bac2fbab3",
                   "name": "Hilary Bird",
                   "score": "5"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Kevin O'Connor",
-            "Vernon Salt"
+            {
+              "playerId": "team-player/f9849953-334a-4b2f-91af-372b4fa18003",
+              "name": "Kevin O'Connor"
+            },
+            {
+              "playerId": "team-player/ae308cd7-dc34-416b-970e-0e26d0c2a98e",
+              "name": "Vernon Salt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e728f558-bb87-490e-a29f-a178b7793e87",
               "players": [
                 {
+                  "playerId": "team-player/f9849953-334a-4b2f-91af-372b4fa18003",
                   "name": "Kevin O'Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ae308cd7-dc34-416b-970e-0e26d0c2a98e",
                   "name": "Vernon Salt",
                   "score": "4"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/eb53ed90-c3cd-4898-9457-f897596e3640",
               "players": [
                 {
+                  "playerId": "team-player/f9849953-334a-4b2f-91af-372b4fa18003",
                   "name": "Kevin O'Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ae308cd7-dc34-416b-970e-0e26d0c2a98e",
                   "name": "Vernon Salt",
                   "score": "3"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Chris Bray",
-            "Martin Birch"
+            {
+              "playerId": "team-player/e4fdc83a-b24a-47ec-879b-fea151ae99e1",
+              "name": "Chris Bray"
+            },
+            {
+              "playerId": "team-player/04e0331f-41f3-4502-9e37-c8c428ada354",
+              "name": "Martin Birch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/80c69319-9fe0-40a2-aa66-8de6a5ae9481",
               "players": [
                 {
+                  "playerId": "team-player/e4fdc83a-b24a-47ec-879b-fea151ae99e1",
                   "name": "Chris Bray",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/04e0331f-41f3-4502-9e37-c8c428ada354",
                   "name": "Martin Birch",
                   "score": "7"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/20203336-aa72-4bff-a664-82a180bf3f88",
               "players": [
                 {
+                  "playerId": "team-player/e4fdc83a-b24a-47ec-879b-fea151ae99e1",
                   "name": "Chris Bray",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/04e0331f-41f3-4502-9e37-c8c428ada354",
                   "name": "Martin Birch",
                   "score": "7"
                 }
@@ -271,17 +380,26 @@
         },
         {
           "players": [
-            "Emile Fernandes",
-            "Iain Richardson"
+            {
+              "playerId": "team-player/3d6c5afd-f2f2-47f5-a7fc-1632a1b6b15b",
+              "name": "Emile Fernandes"
+            },
+            {
+              "playerId": "team-player/96681c76-ca65-4ee4-9876-ddf505684847",
+              "name": "Iain Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c6c842e7-976c-4567-8f01-d8c36f723560",
               "players": [
                 {
+                  "playerId": "team-player/3d6c5afd-f2f2-47f5-a7fc-1632a1b6b15b",
                   "name": "Emile Fernandes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/96681c76-ca65-4ee4-9876-ddf505684847",
                   "name": "Iain Richardson",
                   "score": "4"
                 }
@@ -290,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/220d4737-7286-48be-8133-f9e401706f26",
               "players": [
                 {
+                  "playerId": "team-player/3d6c5afd-f2f2-47f5-a7fc-1632a1b6b15b",
                   "name": "Emile Fernandes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/96681c76-ca65-4ee4-9876-ddf505684847",
                   "name": "Iain Richardson",
                   "score": "5"
                 }

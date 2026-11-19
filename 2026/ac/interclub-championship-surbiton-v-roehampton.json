@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/8de2f970-faee-412d-b3af-c70470d196ba",
   "name": "InterClub Championship - Surbiton v Roehampton",
   "sport": "ac",
   "firstDay": "2026-09-13",
   "lastDay": "2026-09-13",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Adam Swinton",
-        "Dave Evans",
-        "Samir Patel",
-        "Samir Patel & Tim Wilkins",
-        "Tim Wilkins"
+        {
+          "playerId": "team-player/ae56f9e8-91e4-4a8c-82eb-0ab624ea1adf",
+          "name": "Adam Swinton"
+        },
+        {
+          "playerId": "team-player/fcb1a055-efe5-43d9-8128-0ba8a6b30cec",
+          "name": "Dave Evans"
+        },
+        {
+          "playerId": "team-player/56e1e46d-3405-4c7a-a6bd-a0b6d53ba1e6",
+          "name": "Samir Patel"
+        },
+        {
+          "playerId": "team-player/47a98658-b6bd-41d5-89ab-7df7f47ded1b",
+          "name": "Samir Patel & Tim Wilkins"
+        },
+        {
+          "playerId": "team-player/f67f8154-d535-4664-93e7-44fba9e90c58",
+          "name": "Tim Wilkins"
+        }
       ]
     },
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Harry Fisher",
-        "Harry Fisher & Mark van Loon",
-        "Joel Taylor",
-        "Mark van Loon",
-        "Tim Russell"
+        {
+          "playerId": "team-player/5e76cbbe-c407-4754-afea-5c54d4f5b4e8",
+          "name": "Harry Fisher"
+        },
+        {
+          "playerId": "team-player/8b4b075e-e50e-4136-bb7a-d325647174ca",
+          "name": "Harry Fisher & Mark van Loon"
+        },
+        {
+          "playerId": "team-player/fe76f1b2-09ee-43a6-90fc-dccfbf4f798a",
+          "name": "Joel Taylor"
+        },
+        {
+          "playerId": "team-player/e1f33dbe-5071-444b-8630-4f6d50b55fad",
+          "name": "Mark van Loon"
+        },
+        {
+          "playerId": "team-player/8f00a111-00cc-4b44-9a3a-62ac7ddcd83a",
+          "name": "Tim Russell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/f09af944-55d6-4d67-a92a-18a170f1480e",
       "teams": [
         "Surbiton",
         "Roehampton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Samir Patel & Tim Wilkins",
-            "Harry Fisher & Mark van Loon"
+            {
+              "playerId": "team-player/47a98658-b6bd-41d5-89ab-7df7f47ded1b",
+              "name": "Samir Patel & Tim Wilkins"
+            },
+            {
+              "playerId": "team-player/8b4b075e-e50e-4136-bb7a-d325647174ca",
+              "name": "Harry Fisher & Mark van Loon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/87e6bfaa-5e3e-4ba1-adb6-01c6d8ba5484",
               "players": [
                 {
+                  "playerId": "team-player/47a98658-b6bd-41d5-89ab-7df7f47ded1b",
                   "name": "Samir Patel & Tim Wilkins",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/8b4b075e-e50e-4136-bb7a-d325647174ca",
                   "name": "Harry Fisher & Mark van Loon",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Dave Evans",
-            "Joel Taylor"
+            {
+              "playerId": "team-player/fcb1a055-efe5-43d9-8128-0ba8a6b30cec",
+              "name": "Dave Evans"
+            },
+            {
+              "playerId": "team-player/fe76f1b2-09ee-43a6-90fc-dccfbf4f798a",
+              "name": "Joel Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/61cc6505-e906-437d-8683-be6e7044f146",
               "players": [
                 {
+                  "playerId": "team-player/fcb1a055-efe5-43d9-8128-0ba8a6b30cec",
                   "name": "Dave Evans",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/fe76f1b2-09ee-43a6-90fc-dccfbf4f798a",
                   "name": "Joel Taylor",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Adam Swinton",
-            "Tim Russell"
+            {
+              "playerId": "team-player/ae56f9e8-91e4-4a8c-82eb-0ab624ea1adf",
+              "name": "Adam Swinton"
+            },
+            {
+              "playerId": "team-player/8f00a111-00cc-4b44-9a3a-62ac7ddcd83a",
+              "name": "Tim Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/351af18b-f3dd-470f-bcb6-c25354105176",
               "players": [
                 {
+                  "playerId": "team-player/ae56f9e8-91e4-4a8c-82eb-0ab624ea1adf",
                   "name": "Adam Swinton",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/8f00a111-00cc-4b44-9a3a-62ac7ddcd83a",
                   "name": "Tim Russell",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "Harry Fisher"
+            {
+              "playerId": "team-player/56e1e46d-3405-4c7a-a6bd-a0b6d53ba1e6",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/5e76cbbe-c407-4754-afea-5c54d4f5b4e8",
+              "name": "Harry Fisher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/743880f3-37d5-4456-9780-259b0d4d8562",
               "players": [
                 {
+                  "playerId": "team-player/56e1e46d-3405-4c7a-a6bd-a0b6d53ba1e6",
                   "name": "Samir Patel",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/5e76cbbe-c407-4754-afea-5c54d4f5b4e8",
                   "name": "Harry Fisher",
                   "score": "26"
                 }

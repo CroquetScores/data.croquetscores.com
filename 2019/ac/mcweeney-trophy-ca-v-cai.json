@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/d31609e4-c530-4c73-b4b5-824eaebc050d",
   "name": "McWeeney Trophy (CA v CAI)",
   "sport": "ac",
   "firstDay": "2019-07-20",
   "lastDay": "2019-07-21",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "England (CA)",
       "shortName": "England (C",
       "players": [
-        "Brian Havill",
-        "Brian Havill & Paul Hetherington",
-        "Jim Field",
-        "Jim Field & Sophie McGlen",
-        "Kevin Carter",
-        "Kevin Carter & Richard Peperell",
-        "Paul Hetherington",
-        "Richard Peperell",
-        "Sophie McGlen"
+        {
+          "playerId": "team-player/0ebf285a-3231-4fa2-b9be-382b9c1de1d7",
+          "name": "Brian Havill"
+        },
+        {
+          "playerId": "team-player/a91155bc-fcd2-444c-b503-8df51b49fc1b",
+          "name": "Brian Havill & Paul Hetherington"
+        },
+        {
+          "playerId": "team-player/b85faf4a-e581-42f4-93ed-aa942db14026",
+          "name": "Jim Field"
+        },
+        {
+          "playerId": "team-player/b1c991fa-1988-40ab-b955-e11a738eb64f",
+          "name": "Jim Field & Sophie McGlen"
+        },
+        {
+          "playerId": "team-player/15303aae-67bd-4331-a15f-6f30d35e3bfb",
+          "name": "Kevin Carter"
+        },
+        {
+          "playerId": "team-player/e7cf4e4a-4f21-40b2-b486-91838b2e4777",
+          "name": "Kevin Carter & Richard Peperell"
+        },
+        {
+          "playerId": "team-player/90247fb1-822a-4c66-8880-8a7bcc147ae6",
+          "name": "Paul Hetherington"
+        },
+        {
+          "playerId": "team-player/8962f1c4-f71e-4f6f-8075-7b90d00959e9",
+          "name": "Richard Peperell"
+        },
+        {
+          "playerId": "team-player/971529e4-ca2b-41c4-9c68-03874505b0b1",
+          "name": "Sophie McGlen"
+        }
       ]
     },
     {
       "name": "Ireland (CAI)",
       "shortName": "Ireland (C",
       "players": [
-        "Conor Broderick",
-        "Conor Broderick & Dave McGrath",
-        "Dave McGrath",
-        "Jane Morrison",
-        "Jane Morrison & Myles McWeeney",
-        "Myles McWeeney",
-        "Nathaniel Healy",
-        "Nathaniel Healy & Sandy Greig",
-        "Sandy Greig"
+        {
+          "playerId": "team-player/6c00a49d-1199-485c-ad79-d27bdae8bf97",
+          "name": "Conor Broderick"
+        },
+        {
+          "playerId": "team-player/b85b484c-a8d2-4791-a826-4614fe10022b",
+          "name": "Conor Broderick & Dave McGrath"
+        },
+        {
+          "playerId": "team-player/7b1e114d-51ad-4173-9efb-7d876f6f1cb6",
+          "name": "Dave McGrath"
+        },
+        {
+          "playerId": "team-player/926f234b-c72e-45f6-909a-ae51a2d8cff5",
+          "name": "Jane Morrison"
+        },
+        {
+          "playerId": "team-player/46e36dca-cb73-48be-94d1-086b03c969d3",
+          "name": "Jane Morrison & Myles McWeeney"
+        },
+        {
+          "playerId": "team-player/e607315b-9f00-4fe4-a89a-d1070eb5a21e",
+          "name": "Myles McWeeney"
+        },
+        {
+          "playerId": "team-player/bb58b3b9-5fd5-4513-8eb8-fa90dc3c2b61",
+          "name": "Nathaniel Healy"
+        },
+        {
+          "playerId": "team-player/b4f01649-b34b-4ba2-9dba-87462ca5203f",
+          "name": "Nathaniel Healy & Sandy Greig"
+        },
+        {
+          "playerId": "team-player/93281986-d0e8-4ebe-ad16-d6b90a792ed7",
+          "name": "Sandy Greig"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/840859a4-267e-42ac-bdc9-82b7b82b4a14",
       "teams": [
         "England (CA)",
         "Ireland (CAI)"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Jim Field & Sophie McGlen",
-            "Conor Broderick & Dave McGrath"
+            {
+              "playerId": "team-player/b1c991fa-1988-40ab-b955-e11a738eb64f",
+              "name": "Jim Field & Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/b85b484c-a8d2-4791-a826-4614fe10022b",
+              "name": "Conor Broderick & Dave McGrath"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6b5c1b89-61da-4e8a-92e0-53e15b59d703",
               "players": [
                 {
+                  "playerId": "team-player/b1c991fa-1988-40ab-b955-e11a738eb64f",
                   "name": "Jim Field & Sophie McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b85b484c-a8d2-4791-a826-4614fe10022b",
                   "name": "Conor Broderick & Dave McGrath",
                   "score": "9"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "Kevin Carter & Richard Peperell",
-            "Nathaniel Healy & Sandy Greig"
+            {
+              "playerId": "team-player/e7cf4e4a-4f21-40b2-b486-91838b2e4777",
+              "name": "Kevin Carter & Richard Peperell"
+            },
+            {
+              "playerId": "team-player/b4f01649-b34b-4ba2-9dba-87462ca5203f",
+              "name": "Nathaniel Healy & Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/385b77a8-f970-4f64-9a05-f00084285aef",
               "players": [
                 {
+                  "playerId": "team-player/e7cf4e4a-4f21-40b2-b486-91838b2e4777",
                   "name": "Kevin Carter & Richard Peperell",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/b4f01649-b34b-4ba2-9dba-87462ca5203f",
                   "name": "Nathaniel Healy & Sandy Greig",
                   "score": "26"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Brian Havill & Paul Hetherington",
-            "Jane Morrison & Myles McWeeney"
+            {
+              "playerId": "team-player/a91155bc-fcd2-444c-b503-8df51b49fc1b",
+              "name": "Brian Havill & Paul Hetherington"
+            },
+            {
+              "playerId": "team-player/46e36dca-cb73-48be-94d1-086b03c969d3",
+              "name": "Jane Morrison & Myles McWeeney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b65c2e1e-fbee-4a45-a506-f52aab4be23a",
               "players": [
                 {
+                  "playerId": "team-player/a91155bc-fcd2-444c-b503-8df51b49fc1b",
                   "name": "Brian Havill & Paul Hetherington",
                   "score": "22(t)"
                 },
                 {
+                  "playerId": "team-player/46e36dca-cb73-48be-94d1-086b03c969d3",
                   "name": "Jane Morrison & Myles McWeeney",
                   "score": "21"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Jim Field",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/b85faf4a-e581-42f4-93ed-aa942db14026",
+              "name": "Jim Field"
+            },
+            {
+              "playerId": "team-player/bb58b3b9-5fd5-4513-8eb8-fa90dc3c2b61",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2afe5a6a-dcbb-4168-833b-cb943a259e46",
               "players": [
                 {
+                  "playerId": "team-player/b85faf4a-e581-42f4-93ed-aa942db14026",
                   "name": "Jim Field",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bb58b3b9-5fd5-4513-8eb8-fa90dc3c2b61",
                   "name": "Nathaniel Healy",
                   "score": "3"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "Sophie McGlen",
-            "Sandy Greig"
+            {
+              "playerId": "team-player/971529e4-ca2b-41c4-9c68-03874505b0b1",
+              "name": "Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/93281986-d0e8-4ebe-ad16-d6b90a792ed7",
+              "name": "Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e726589f-bad6-4ec8-83d3-35a282ff6426",
               "players": [
                 {
+                  "playerId": "team-player/971529e4-ca2b-41c4-9c68-03874505b0b1",
                   "name": "Sophie McGlen",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/93281986-d0e8-4ebe-ad16-d6b90a792ed7",
                   "name": "Sandy Greig",
                   "score": "26"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Richard Peperell",
-            "Myles McWeeney"
+            {
+              "playerId": "team-player/8962f1c4-f71e-4f6f-8075-7b90d00959e9",
+              "name": "Richard Peperell"
+            },
+            {
+              "playerId": "team-player/e607315b-9f00-4fe4-a89a-d1070eb5a21e",
+              "name": "Myles McWeeney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5745ee75-04f6-401e-9383-20be09bb6cd3",
               "players": [
                 {
+                  "playerId": "team-player/8962f1c4-f71e-4f6f-8075-7b90d00959e9",
                   "name": "Richard Peperell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e607315b-9f00-4fe4-a89a-d1070eb5a21e",
                   "name": "Myles McWeeney",
                   "score": "6"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Paul Hetherington",
-            "Dave McGrath"
+            {
+              "playerId": "team-player/90247fb1-822a-4c66-8880-8a7bcc147ae6",
+              "name": "Paul Hetherington"
+            },
+            {
+              "playerId": "team-player/7b1e114d-51ad-4173-9efb-7d876f6f1cb6",
+              "name": "Dave McGrath"
+            }
           ],
           "games": [
             {
+              "gameId": "game/062b9963-b854-48a0-863e-2a256a0b0673",
               "players": [
                 {
+                  "playerId": "team-player/90247fb1-822a-4c66-8880-8a7bcc147ae6",
                   "name": "Paul Hetherington",
                   "score": "24(t)"
                 },
                 {
+                  "playerId": "team-player/7b1e114d-51ad-4173-9efb-7d876f6f1cb6",
                   "name": "Dave McGrath",
                   "score": "23"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Kevin Carter",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/15303aae-67bd-4331-a15f-6f30d35e3bfb",
+              "name": "Kevin Carter"
+            },
+            {
+              "playerId": "team-player/926f234b-c72e-45f6-909a-ae51a2d8cff5",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/39e2ba6e-15f1-463f-9776-109c4b0ca8dc",
               "players": [
                 {
+                  "playerId": "team-player/15303aae-67bd-4331-a15f-6f30d35e3bfb",
                   "name": "Kevin Carter",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/926f234b-c72e-45f6-909a-ae51a2d8cff5",
                   "name": "Jane Morrison",
                   "score": "24"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "Brian Havill",
-            "Conor Broderick"
+            {
+              "playerId": "team-player/0ebf285a-3231-4fa2-b9be-382b9c1de1d7",
+              "name": "Brian Havill"
+            },
+            {
+              "playerId": "team-player/6c00a49d-1199-485c-ad79-d27bdae8bf97",
+              "name": "Conor Broderick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a25fe140-6d8d-4821-85d4-749930de2b6b",
               "players": [
                 {
+                  "playerId": "team-player/0ebf285a-3231-4fa2-b9be-382b9c1de1d7",
                   "name": "Brian Havill",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/6c00a49d-1199-485c-ad79-d27bdae8bf97",
                   "name": "Conor Broderick",
                   "score": "26"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "Paul Hetherington",
-            "Myles McWeeney"
+            {
+              "playerId": "team-player/90247fb1-822a-4c66-8880-8a7bcc147ae6",
+              "name": "Paul Hetherington"
+            },
+            {
+              "playerId": "team-player/e607315b-9f00-4fe4-a89a-d1070eb5a21e",
+              "name": "Myles McWeeney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bea2142e-aaba-4006-9abe-4f139545389e",
               "players": [
                 {
+                  "playerId": "team-player/90247fb1-822a-4c66-8880-8a7bcc147ae6",
                   "name": "Paul Hetherington",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e607315b-9f00-4fe4-a89a-d1070eb5a21e",
                   "name": "Myles McWeeney",
                   "score": "0"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "Kevin Carter",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/15303aae-67bd-4331-a15f-6f30d35e3bfb",
+              "name": "Kevin Carter"
+            },
+            {
+              "playerId": "team-player/bb58b3b9-5fd5-4513-8eb8-fa90dc3c2b61",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bdb84071-2145-423c-9bf4-d48d51d18030",
               "players": [
                 {
+                  "playerId": "team-player/15303aae-67bd-4331-a15f-6f30d35e3bfb",
                   "name": "Kevin Carter",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/bb58b3b9-5fd5-4513-8eb8-fa90dc3c2b61",
                   "name": "Nathaniel Healy",
                   "score": "26"
                 }
@@ -291,17 +448,26 @@
         },
         {
           "players": [
-            "Jim Field",
-            "Conor Broderick"
+            {
+              "playerId": "team-player/b85faf4a-e581-42f4-93ed-aa942db14026",
+              "name": "Jim Field"
+            },
+            {
+              "playerId": "team-player/6c00a49d-1199-485c-ad79-d27bdae8bf97",
+              "name": "Conor Broderick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/44b9d371-d327-4e4a-bf73-46cce6347e21",
               "players": [
                 {
+                  "playerId": "team-player/b85faf4a-e581-42f4-93ed-aa942db14026",
                   "name": "Jim Field",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/6c00a49d-1199-485c-ad79-d27bdae8bf97",
                   "name": "Conor Broderick",
                   "score": "26"
                 }
@@ -313,17 +479,26 @@
         },
         {
           "players": [
-            "Brian Havill",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/0ebf285a-3231-4fa2-b9be-382b9c1de1d7",
+              "name": "Brian Havill"
+            },
+            {
+              "playerId": "team-player/926f234b-c72e-45f6-909a-ae51a2d8cff5",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/29fcf5b5-8555-466b-9900-28e8efe139d4",
               "players": [
                 {
+                  "playerId": "team-player/0ebf285a-3231-4fa2-b9be-382b9c1de1d7",
                   "name": "Brian Havill",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/926f234b-c72e-45f6-909a-ae51a2d8cff5",
                   "name": "Jane Morrison",
                   "score": "26"
                 }
@@ -335,17 +510,26 @@
         },
         {
           "players": [
-            "Sophie McGlen",
-            "Dave McGrath"
+            {
+              "playerId": "team-player/971529e4-ca2b-41c4-9c68-03874505b0b1",
+              "name": "Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/7b1e114d-51ad-4173-9efb-7d876f6f1cb6",
+              "name": "Dave McGrath"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d5f9f32-7ed6-4178-a7cb-e6df5698c664",
               "players": [
                 {
+                  "playerId": "team-player/971529e4-ca2b-41c4-9c68-03874505b0b1",
                   "name": "Sophie McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7b1e114d-51ad-4173-9efb-7d876f6f1cb6",
                   "name": "Dave McGrath",
                   "score": "4"
                 }
@@ -357,17 +541,26 @@
         },
         {
           "players": [
-            "Richard Peperell",
-            "Sandy Greig"
+            {
+              "playerId": "team-player/8962f1c4-f71e-4f6f-8075-7b90d00959e9",
+              "name": "Richard Peperell"
+            },
+            {
+              "playerId": "team-player/93281986-d0e8-4ebe-ad16-d6b90a792ed7",
+              "name": "Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cd356228-adb7-4af1-9ad5-f8ce3b4cd15d",
               "players": [
                 {
+                  "playerId": "team-player/8962f1c4-f71e-4f6f-8075-7b90d00959e9",
                   "name": "Richard Peperell",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/93281986-d0e8-4ebe-ad16-d6b90a792ed7",
                   "name": "Sandy Greig",
                   "score": "26"
                 }
@@ -379,17 +572,26 @@
         },
         {
           "players": [
-            "Jim Field & Sophie McGlen",
-            "Nathaniel Healy & Sandy Greig"
+            {
+              "playerId": "team-player/b1c991fa-1988-40ab-b955-e11a738eb64f",
+              "name": "Jim Field & Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/b4f01649-b34b-4ba2-9dba-87462ca5203f",
+              "name": "Nathaniel Healy & Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b165c633-9267-4217-bebd-c47254e507fe",
               "players": [
                 {
+                  "playerId": "team-player/b1c991fa-1988-40ab-b955-e11a738eb64f",
                   "name": "Jim Field & Sophie McGlen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b4f01649-b34b-4ba2-9dba-87462ca5203f",
                   "name": "Nathaniel Healy & Sandy Greig",
                   "score": "26"
                 }
@@ -401,17 +603,26 @@
         },
         {
           "players": [
-            "Kevin Carter & Richard Peperell",
-            "Jane Morrison & Myles McWeeney"
+            {
+              "playerId": "team-player/e7cf4e4a-4f21-40b2-b486-91838b2e4777",
+              "name": "Kevin Carter & Richard Peperell"
+            },
+            {
+              "playerId": "team-player/46e36dca-cb73-48be-94d1-086b03c969d3",
+              "name": "Jane Morrison & Myles McWeeney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/28543951-e43f-4d0f-a3f1-d3272665d7b3",
               "players": [
                 {
+                  "playerId": "team-player/e7cf4e4a-4f21-40b2-b486-91838b2e4777",
                   "name": "Kevin Carter & Richard Peperell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/46e36dca-cb73-48be-94d1-086b03c969d3",
                   "name": "Jane Morrison & Myles McWeeney",
                   "score": "22"
                 }
@@ -423,17 +634,26 @@
         },
         {
           "players": [
-            "Brian Havill & Paul Hetherington",
-            "Conor Broderick & Dave McGrath"
+            {
+              "playerId": "team-player/a91155bc-fcd2-444c-b503-8df51b49fc1b",
+              "name": "Brian Havill & Paul Hetherington"
+            },
+            {
+              "playerId": "team-player/b85b484c-a8d2-4791-a826-4614fe10022b",
+              "name": "Conor Broderick & Dave McGrath"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1d46aee9-ceb5-442d-9f48-bda9f528e15f",
               "players": [
                 {
+                  "playerId": "team-player/a91155bc-fcd2-444c-b503-8df51b49fc1b",
                   "name": "Brian Havill & Paul Hetherington",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/b85b484c-a8d2-4791-a826-4614fe10022b",
                   "name": "Conor Broderick & Dave McGrath",
                   "score": "21(t)"
                 }
@@ -445,17 +665,26 @@
         },
         {
           "players": [
-            "Kevin Carter",
-            "Conor Broderick"
+            {
+              "playerId": "team-player/15303aae-67bd-4331-a15f-6f30d35e3bfb",
+              "name": "Kevin Carter"
+            },
+            {
+              "playerId": "team-player/6c00a49d-1199-485c-ad79-d27bdae8bf97",
+              "name": "Conor Broderick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34b6992b-0e5e-4378-a464-29600c93e726",
               "players": [
                 {
+                  "playerId": "team-player/15303aae-67bd-4331-a15f-6f30d35e3bfb",
                   "name": "Kevin Carter",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6c00a49d-1199-485c-ad79-d27bdae8bf97",
                   "name": "Conor Broderick",
                   "score": "26"
                 }
@@ -467,17 +696,26 @@
         },
         {
           "players": [
-            "Brian Havill",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/0ebf285a-3231-4fa2-b9be-382b9c1de1d7",
+              "name": "Brian Havill"
+            },
+            {
+              "playerId": "team-player/bb58b3b9-5fd5-4513-8eb8-fa90dc3c2b61",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/95574b1c-5501-41ef-a074-502b1d78b900",
               "players": [
                 {
+                  "playerId": "team-player/0ebf285a-3231-4fa2-b9be-382b9c1de1d7",
                   "name": "Brian Havill",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/bb58b3b9-5fd5-4513-8eb8-fa90dc3c2b61",
                   "name": "Nathaniel Healy",
                   "score": "26"
                 }
@@ -489,17 +727,26 @@
         },
         {
           "players": [
-            "Jim Field",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/b85faf4a-e581-42f4-93ed-aa942db14026",
+              "name": "Jim Field"
+            },
+            {
+              "playerId": "team-player/926f234b-c72e-45f6-909a-ae51a2d8cff5",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/22f8e01b-c7b0-4dba-bf4b-ad1481855a97",
               "players": [
                 {
+                  "playerId": "team-player/b85faf4a-e581-42f4-93ed-aa942db14026",
                   "name": "Jim Field",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/926f234b-c72e-45f6-909a-ae51a2d8cff5",
                   "name": "Jane Morrison",
                   "score": "26"
                 }
@@ -511,17 +758,26 @@
         },
         {
           "players": [
-            "Sophie McGlen",
-            "Myles McWeeney"
+            {
+              "playerId": "team-player/971529e4-ca2b-41c4-9c68-03874505b0b1",
+              "name": "Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/e607315b-9f00-4fe4-a89a-d1070eb5a21e",
+              "name": "Myles McWeeney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/540303b2-084f-4810-899b-0c479b956c42",
               "players": [
                 {
+                  "playerId": "team-player/971529e4-ca2b-41c4-9c68-03874505b0b1",
                   "name": "Sophie McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e607315b-9f00-4fe4-a89a-d1070eb5a21e",
                   "name": "Myles McWeeney",
                   "score": "6"
                 }
@@ -533,17 +789,26 @@
         },
         {
           "players": [
-            "Richard Peperell",
-            "Dave McGrath"
+            {
+              "playerId": "team-player/8962f1c4-f71e-4f6f-8075-7b90d00959e9",
+              "name": "Richard Peperell"
+            },
+            {
+              "playerId": "team-player/7b1e114d-51ad-4173-9efb-7d876f6f1cb6",
+              "name": "Dave McGrath"
+            }
           ],
           "games": [
             {
+              "gameId": "game/31bc6739-8aec-49e7-9423-8d15593240b3",
               "players": [
                 {
+                  "playerId": "team-player/8962f1c4-f71e-4f6f-8075-7b90d00959e9",
                   "name": "Richard Peperell",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/7b1e114d-51ad-4173-9efb-7d876f6f1cb6",
                   "name": "Dave McGrath",
                   "score": "26"
                 }
@@ -555,17 +820,26 @@
         },
         {
           "players": [
-            "Paul Hetherington",
-            "Sandy Greig"
+            {
+              "playerId": "team-player/90247fb1-822a-4c66-8880-8a7bcc147ae6",
+              "name": "Paul Hetherington"
+            },
+            {
+              "playerId": "team-player/93281986-d0e8-4ebe-ad16-d6b90a792ed7",
+              "name": "Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9cc558be-df1f-4c13-85aa-91b572b742c1",
               "players": [
                 {
+                  "playerId": "team-player/90247fb1-822a-4c66-8880-8a7bcc147ae6",
                   "name": "Paul Hetherington",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/93281986-d0e8-4ebe-ad16-d6b90a792ed7",
                   "name": "Sandy Greig",
                   "score": "26"
                 }

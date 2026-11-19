@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/76fda0c9-9a83-469a-a523-113151cb43dc",
   "name": "SECF GL Match",
   "sport": "gc",
   "firstDay": "2022-08-24",
   "lastDay": "2022-08-24",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Andrew Wilson",
-        "Barry Holland",
-        "Don Beck",
-        "Martin  Burger"
+        {
+          "playerId": "team-player/677429c1-e06f-40c9-ba10-a9c5671c8e15",
+          "name": "Andrew Wilson"
+        },
+        {
+          "playerId": "team-player/ad740032-6c36-4a19-b80c-1e39c2f51312",
+          "name": "Barry Holland"
+        },
+        {
+          "playerId": "team-player/7ba077b8-d3a0-43e5-b3bc-4ed974175582",
+          "name": "Don Beck"
+        },
+        {
+          "playerId": "team-player/a3c89dd4-189c-4e0a-8d88-75964bb2d912",
+          "name": "Martin  Burger"
+        }
       ]
     },
     {
       "name": "Sussex A",
       "shortName": "Sussex A",
       "players": [
-        "Liz Farrow",
-        "Morgan Case",
-        "Paul Castell",
-        "Richard Brooks"
+        {
+          "playerId": "team-player/aa6c8632-58c3-4d46-8233-37795227789d",
+          "name": "Liz Farrow"
+        },
+        {
+          "playerId": "team-player/5ca09d6b-0861-4a37-be2f-c180ba4ffc3d",
+          "name": "Morgan Case"
+        },
+        {
+          "playerId": "team-player/17407600-593c-4227-bba3-30ea0760c682",
+          "name": "Paul Castell"
+        },
+        {
+          "playerId": "team-player/1bc78fd6-9a8a-4b61-9eae-cbcfa36eb1ff",
+          "name": "Richard Brooks"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/912e184a-476f-4aae-8c1c-4952c3f8843a",
       "teams": [
         "Surbiton",
         "Sussex A"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Martin  Burger",
-            "Liz Farrow"
+            {
+              "playerId": "team-player/a3c89dd4-189c-4e0a-8d88-75964bb2d912",
+              "name": "Martin  Burger"
+            },
+            {
+              "playerId": "team-player/aa6c8632-58c3-4d46-8233-37795227789d",
+              "name": "Liz Farrow"
+            }
           ],
           "games": [
             {
+              "gameId": "game/080b6c79-7e10-4eae-a5d9-77bc001ccff0",
               "players": [
                 {
+                  "playerId": "team-player/a3c89dd4-189c-4e0a-8d88-75964bb2d912",
                   "name": "Martin  Burger",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/aa6c8632-58c3-4d46-8233-37795227789d",
                   "name": "Liz Farrow",
                   "score": "7"
                 }
@@ -58,12 +95,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0f42bdbf-5925-483a-9769-416248fe2b65",
               "players": [
                 {
+                  "playerId": "team-player/a3c89dd4-189c-4e0a-8d88-75964bb2d912",
                   "name": "Martin  Burger",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/aa6c8632-58c3-4d46-8233-37795227789d",
                   "name": "Liz Farrow",
                   "score": "7"
                 }
@@ -75,17 +115,26 @@
         },
         {
           "players": [
-            "Barry Holland",
-            "Paul Castell"
+            {
+              "playerId": "team-player/ad740032-6c36-4a19-b80c-1e39c2f51312",
+              "name": "Barry Holland"
+            },
+            {
+              "playerId": "team-player/17407600-593c-4227-bba3-30ea0760c682",
+              "name": "Paul Castell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1779a259-a0ef-4b26-a7b5-9c74fd4d841b",
               "players": [
                 {
+                  "playerId": "team-player/ad740032-6c36-4a19-b80c-1e39c2f51312",
                   "name": "Barry Holland",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/17407600-593c-4227-bba3-30ea0760c682",
                   "name": "Paul Castell",
                   "score": "5"
                 }
@@ -94,12 +143,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/16f93069-3ca4-4e8c-9e3d-67e367d8f6ba",
               "players": [
                 {
+                  "playerId": "team-player/ad740032-6c36-4a19-b80c-1e39c2f51312",
                   "name": "Barry Holland",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/17407600-593c-4227-bba3-30ea0760c682",
                   "name": "Paul Castell",
                   "score": "4"
                 }
@@ -111,17 +163,26 @@
         },
         {
           "players": [
-            "Don Beck",
-            "Richard Brooks"
+            {
+              "playerId": "team-player/7ba077b8-d3a0-43e5-b3bc-4ed974175582",
+              "name": "Don Beck"
+            },
+            {
+              "playerId": "team-player/1bc78fd6-9a8a-4b61-9eae-cbcfa36eb1ff",
+              "name": "Richard Brooks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e8a9ee55-f131-42da-bec8-86a6c96eafde",
               "players": [
                 {
+                  "playerId": "team-player/7ba077b8-d3a0-43e5-b3bc-4ed974175582",
                   "name": "Don Beck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1bc78fd6-9a8a-4b61-9eae-cbcfa36eb1ff",
                   "name": "Richard Brooks",
                   "score": "5"
                 }
@@ -130,12 +191,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1c940ffa-cd59-4480-a2e0-d84afd9a0d2c",
               "players": [
                 {
+                  "playerId": "team-player/7ba077b8-d3a0-43e5-b3bc-4ed974175582",
                   "name": "Don Beck",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/1bc78fd6-9a8a-4b61-9eae-cbcfa36eb1ff",
                   "name": "Richard Brooks",
                   "score": "7"
                 }
@@ -144,12 +208,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/12cf1148-fc4a-4f66-9cef-2eaf10ba91a9",
               "players": [
                 {
+                  "playerId": "team-player/7ba077b8-d3a0-43e5-b3bc-4ed974175582",
                   "name": "Don Beck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1bc78fd6-9a8a-4b61-9eae-cbcfa36eb1ff",
                   "name": "Richard Brooks",
                   "score": "3"
                 }
@@ -161,17 +228,26 @@
         },
         {
           "players": [
-            "Andrew Wilson",
-            "Morgan Case"
+            {
+              "playerId": "team-player/677429c1-e06f-40c9-ba10-a9c5671c8e15",
+              "name": "Andrew Wilson"
+            },
+            {
+              "playerId": "team-player/5ca09d6b-0861-4a37-be2f-c180ba4ffc3d",
+              "name": "Morgan Case"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a626996b-fa5c-4041-9627-b0eb76a49665",
               "players": [
                 {
+                  "playerId": "team-player/677429c1-e06f-40c9-ba10-a9c5671c8e15",
                   "name": "Andrew Wilson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/5ca09d6b-0861-4a37-be2f-c180ba4ffc3d",
                   "name": "Morgan Case",
                   "score": "7"
                 }
@@ -180,12 +256,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e187f81b-a1f3-4a82-b195-3b4fd44ee0cc",
               "players": [
                 {
+                  "playerId": "team-player/677429c1-e06f-40c9-ba10-a9c5671c8e15",
                   "name": "Andrew Wilson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/5ca09d6b-0861-4a37-be2f-c180ba4ffc3d",
                   "name": "Morgan Case",
                   "score": "7"
                 }
@@ -197,17 +276,26 @@
         },
         {
           "players": [
-            "Barry Holland",
-            "Liz Farrow"
+            {
+              "playerId": "team-player/ad740032-6c36-4a19-b80c-1e39c2f51312",
+              "name": "Barry Holland"
+            },
+            {
+              "playerId": "team-player/aa6c8632-58c3-4d46-8233-37795227789d",
+              "name": "Liz Farrow"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5db05395-0038-4a41-8927-f5ee6ead6a57",
               "players": [
                 {
+                  "playerId": "team-player/ad740032-6c36-4a19-b80c-1e39c2f51312",
                   "name": "Barry Holland",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/aa6c8632-58c3-4d46-8233-37795227789d",
                   "name": "Liz Farrow",
                   "score": "7"
                 }
@@ -216,12 +304,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/38f0b04a-6225-4094-a5ec-988faf8267ad",
               "players": [
                 {
+                  "playerId": "team-player/ad740032-6c36-4a19-b80c-1e39c2f51312",
                   "name": "Barry Holland",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/aa6c8632-58c3-4d46-8233-37795227789d",
                   "name": "Liz Farrow",
                   "score": "5"
                 }
@@ -230,12 +321,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/249de7bc-4bff-491d-8427-1620d1136bb8",
               "players": [
                 {
+                  "playerId": "team-player/ad740032-6c36-4a19-b80c-1e39c2f51312",
                   "name": "Barry Holland",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/aa6c8632-58c3-4d46-8233-37795227789d",
                   "name": "Liz Farrow",
                   "score": "7"
                 }
@@ -247,17 +341,26 @@
         },
         {
           "players": [
-            "Martin  Burger",
-            "Paul Castell"
+            {
+              "playerId": "team-player/a3c89dd4-189c-4e0a-8d88-75964bb2d912",
+              "name": "Martin  Burger"
+            },
+            {
+              "playerId": "team-player/17407600-593c-4227-bba3-30ea0760c682",
+              "name": "Paul Castell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/877e18b5-dab2-48e3-bb1d-bca48c68d65d",
               "players": [
                 {
+                  "playerId": "team-player/a3c89dd4-189c-4e0a-8d88-75964bb2d912",
                   "name": "Martin  Burger",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/17407600-593c-4227-bba3-30ea0760c682",
                   "name": "Paul Castell",
                   "score": "6"
                 }
@@ -266,12 +369,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bb8891b9-4d34-4696-9736-bda755275c94",
               "players": [
                 {
+                  "playerId": "team-player/a3c89dd4-189c-4e0a-8d88-75964bb2d912",
                   "name": "Martin  Burger",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/17407600-593c-4227-bba3-30ea0760c682",
                   "name": "Paul Castell",
                   "score": "7"
                 }

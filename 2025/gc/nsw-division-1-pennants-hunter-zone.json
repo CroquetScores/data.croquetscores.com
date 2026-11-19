@@ -1,51 +1,109 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5ba07b44-73c6-4a7f-be0e-db152752c1db",
   "name": "NSW GC Division 1 Pennants - Hunter Zone",
   "sport": "gc",
   "firstDay": "2025-05-09",
   "lastDay": "2025-07-11",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Maitland",
       "shortName": "Maitland",
       "players": [
-        "Bob Kerr",
-        "Bob Kerr & Brenda Wilde",
-        "Bob Kerr & Pam Gentle",
-        "Brenda Wild & Ken Green",
-        "Brenda-Lee Peet",
-        "John Pace",
-        "Ken Green",
-        "Ken Green & John Pace",
-        "Rod Peet"
+        {
+          "playerId": "team-player/72468dbd-b51c-4557-a8e6-d87b79112cd5",
+          "name": "Bob Kerr"
+        },
+        {
+          "playerId": "team-player/8de78e99-6e5f-4f26-9a0a-0cae78972ca2",
+          "name": "Bob Kerr & Brenda Wilde"
+        },
+        {
+          "playerId": "team-player/fd2a5563-bdec-44d3-8dff-9f2374c01125",
+          "name": "Bob Kerr & Pam Gentle"
+        },
+        {
+          "playerId": "team-player/a2053a2a-c828-41ee-96d3-5df40afcebbf",
+          "name": "Brenda Wild & Ken Green"
+        },
+        {
+          "playerId": "team-player/5803c10e-0987-4592-936a-b3b3e0ceb88d",
+          "name": "Brenda-Lee Peet"
+        },
+        {
+          "playerId": "team-player/9bf8df9f-219f-4025-beef-1c27d0d8a324",
+          "name": "John Pace"
+        },
+        {
+          "playerId": "team-player/59a7daba-266a-4915-9d42-8e7ec67a81d8",
+          "name": "Ken Green"
+        },
+        {
+          "playerId": "team-player/5147d6c2-217b-472f-b021-89cbb28a3366",
+          "name": "Ken Green & John Pace"
+        },
+        {
+          "playerId": "team-player/146a9576-c05c-4d06-9164-17e6a74e1fb0",
+          "name": "Rod Peet"
+        }
       ]
     },
     {
       "name": "Toronto",
       "shortName": "Toronto",
       "players": [
-        "Chris Robertson & Glenn Sellers",
-        "Chris Williamson",
-        "Glenn Sellers & Nancy Ainsworth",
-        "Sue Sellers"
+        {
+          "playerId": "team-player/b2f7245c-f6b6-4e8f-a823-7971edb73f5a",
+          "name": "Chris Robertson & Glenn Sellers"
+        },
+        {
+          "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
+          "name": "Chris Williamson"
+        },
+        {
+          "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
+          "name": "Glenn Sellers & Nancy Ainsworth"
+        },
+        {
+          "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
+          "name": "Sue Sellers"
+        }
       ]
     },
     {
       "name": "Newcastle",
       "shortName": "Newcastle",
       "players": [
-        "Chris Gill",
-        "David Kelly & Tony Hammond",
-        "Derek Bull",
-        "Derek Bull & Alastair Torrance",
-        "Ruth Mulvaney"
+        {
+          "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
+          "name": "Chris Gill"
+        },
+        {
+          "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
+          "name": "David Kelly & Tony Hammond"
+        },
+        {
+          "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
+          "name": "Derek Bull"
+        },
+        {
+          "playerId": "team-player/daef0f37-d147-4d2b-ae6d-bc29b96d73d3",
+          "name": "Derek Bull & Alastair Torrance"
+        },
+        {
+          "playerId": "team-player/a3626729-8bd3-4a65-8d07-a4e4afd3df6e",
+          "name": "Ruth Mulvaney"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/589df545-146c-4797-a114-725e306fba9b",
       "teams": [
         "Maitland",
         "Toronto"
@@ -55,17 +113,26 @@
       "matches": [
         {
           "players": [
-            "Ken Green & John Pace",
-            "Glenn Sellers & Nancy Ainsworth"
+            {
+              "playerId": "team-player/5147d6c2-217b-472f-b021-89cbb28a3366",
+              "name": "Ken Green & John Pace"
+            },
+            {
+              "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
+              "name": "Glenn Sellers & Nancy Ainsworth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4cca5db-476c-4306-8736-b5a09a119d66",
               "players": [
                 {
+                  "playerId": "team-player/5147d6c2-217b-472f-b021-89cbb28a3366",
                   "name": "Ken Green & John Pace",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "4"
                 }
@@ -74,12 +141,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e24fc0c1-ec51-4acd-ae4b-437eca045ce0",
               "players": [
                 {
+                  "playerId": "team-player/5147d6c2-217b-472f-b021-89cbb28a3366",
                   "name": "Ken Green & John Pace",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "2"
                 }
@@ -91,17 +161,26 @@
         },
         {
           "players": [
-            "Brenda-Lee Peet",
-            "Chris Williamson"
+            {
+              "playerId": "team-player/5803c10e-0987-4592-936a-b3b3e0ceb88d",
+              "name": "Brenda-Lee Peet"
+            },
+            {
+              "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
+              "name": "Chris Williamson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/29641e1d-e35e-4e75-8fbc-e042ab4acaa7",
               "players": [
                 {
+                  "playerId": "team-player/5803c10e-0987-4592-936a-b3b3e0ceb88d",
                   "name": "Brenda-Lee Peet",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "7"
                 }
@@ -110,12 +189,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e09875f9-baad-4fa5-a6e8-0e688643086c",
               "players": [
                 {
+                  "playerId": "team-player/5803c10e-0987-4592-936a-b3b3e0ceb88d",
                   "name": "Brenda-Lee Peet",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "2"
                 }
@@ -124,12 +206,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/64b6a5a3-c00c-4bc5-b953-6e540453e385",
               "players": [
                 {
+                  "playerId": "team-player/5803c10e-0987-4592-936a-b3b3e0ceb88d",
                   "name": "Brenda-Lee Peet",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "7"
                 }
@@ -141,17 +226,26 @@
         },
         {
           "players": [
-            "Bob Kerr",
-            "Sue Sellers"
+            {
+              "playerId": "team-player/72468dbd-b51c-4557-a8e6-d87b79112cd5",
+              "name": "Bob Kerr"
+            },
+            {
+              "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
+              "name": "Sue Sellers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/850cbae9-470b-4791-85b2-1fa64f26e291",
               "players": [
                 {
+                  "playerId": "team-player/72468dbd-b51c-4557-a8e6-d87b79112cd5",
                   "name": "Bob Kerr",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "7"
                 }
@@ -160,12 +254,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d47a91a6-9b5a-468b-8e02-07c17a8a87d0",
               "players": [
                 {
+                  "playerId": "team-player/72468dbd-b51c-4557-a8e6-d87b79112cd5",
                   "name": "Bob Kerr",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "7"
                 }
@@ -178,6 +275,7 @@
       ]
     },
     {
+      "competitionId": "competition/1b7c7071-29af-4662-8a3e-874fa51395c7",
       "teams": [
         "Newcastle",
         "Toronto"
@@ -187,17 +285,26 @@
       "matches": [
         {
           "players": [
-            "David Kelly & Tony Hammond",
-            "Glenn Sellers & Nancy Ainsworth"
+            {
+              "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
+              "name": "David Kelly & Tony Hammond"
+            },
+            {
+              "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
+              "name": "Glenn Sellers & Nancy Ainsworth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7761ee19-581c-46e6-9674-83ef23abc5f8",
               "players": [
                 {
+                  "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
                   "name": "David Kelly & Tony Hammond",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "1"
                 }
@@ -206,12 +313,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/891a45a2-37e6-4ec9-81fc-210eab50dc07",
               "players": [
                 {
+                  "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
                   "name": "David Kelly & Tony Hammond",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "7"
                 }
@@ -220,12 +330,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3fa81a25-ff24-4100-a50b-3bc223e5cbfe",
               "players": [
                 {
+                  "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
                   "name": "David Kelly & Tony Hammond",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "4"
                 }
@@ -237,17 +350,26 @@
         },
         {
           "players": [
-            "Derek Bull",
-            "Chris Williamson"
+            {
+              "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
+              "name": "Derek Bull"
+            },
+            {
+              "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
+              "name": "Chris Williamson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/544a4757-3578-443f-8cd2-8cd1a06f018e",
               "players": [
                 {
+                  "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
                   "name": "Derek Bull",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "5"
                 }
@@ -256,12 +378,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7cd94a79-f3a2-4bbc-afdb-72ed78ebc81a",
               "players": [
                 {
+                  "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
                   "name": "Derek Bull",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "7"
                 }
@@ -270,12 +395,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/082bdf4d-e6cb-489c-a15d-e69ae14ff492",
               "players": [
                 {
+                  "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
                   "name": "Derek Bull",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "3"
                 }
@@ -287,17 +415,26 @@
         },
         {
           "players": [
-            "Chris Gill",
-            "Sue Sellers"
+            {
+              "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
+              "name": "Chris Gill"
+            },
+            {
+              "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
+              "name": "Sue Sellers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c471f15f-9b87-4c8e-bc1b-9f21b4ebe1d8",
               "players": [
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "7"
                 }
@@ -306,12 +443,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1210b035-0d99-4af2-bfa0-9cee4a63015b",
               "players": [
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "5"
                 }
@@ -320,12 +460,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a1bc794b-f3f1-4ddc-a48a-bdf365fdb201",
               "players": [
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "6"
                 }
@@ -338,6 +481,7 @@
       ]
     },
     {
+      "competitionId": "competition/21d4c394-7708-422e-82f5-8888f9a191a1",
       "teams": [
         "Toronto",
         "Newcastle"
@@ -347,17 +491,26 @@
       "matches": [
         {
           "players": [
-            "Glenn Sellers & Nancy Ainsworth",
-            "David Kelly & Tony Hammond"
+            {
+              "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
+              "name": "Glenn Sellers & Nancy Ainsworth"
+            },
+            {
+              "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
+              "name": "David Kelly & Tony Hammond"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8d559fab-99f3-42d0-b7c7-21ab9006a078",
               "players": [
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
                   "name": "David Kelly & Tony Hammond",
                   "score": "7"
                 }
@@ -366,12 +519,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1da2b2bc-05c7-4812-b00f-4404b30e55ae",
               "players": [
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
                   "name": "David Kelly & Tony Hammond",
                   "score": "5"
                 }
@@ -380,12 +536,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/70e340f1-c9f8-4e7c-9dff-3d117d8cf34b",
               "players": [
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
                   "name": "David Kelly & Tony Hammond",
                   "score": "7"
                 }
@@ -397,17 +556,26 @@
         },
         {
           "players": [
-            "Chris Williamson",
-            "Derek Bull"
+            {
+              "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
+              "name": "Chris Williamson"
+            },
+            {
+              "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
+              "name": "Derek Bull"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d4a9b899-4f22-4899-a38e-e81498f2614f",
               "players": [
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
                   "name": "Derek Bull",
                   "score": "7"
                 }
@@ -416,12 +584,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cc0195f4-0418-4f13-86ef-5e89a3aceb6d",
               "players": [
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
                   "name": "Derek Bull",
                   "score": "7"
                 }
@@ -433,17 +604,26 @@
         },
         {
           "players": [
-            "Sue Sellers",
-            "Chris Gill"
+            {
+              "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
+              "name": "Sue Sellers"
+            },
+            {
+              "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
+              "name": "Chris Gill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7ecbe59d-3a91-4b20-8332-49874277c66f",
               "players": [
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "7"
                 }
@@ -452,12 +632,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ce87c938-ceba-4e40-8ac9-dafd5699c394",
               "players": [
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "6"
                 }
@@ -466,12 +649,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d5d2139e-86fd-4b5e-bbe7-0d8c6959a508",
               "players": [
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "7"
                 }
@@ -484,6 +670,7 @@
       ]
     },
     {
+      "competitionId": "competition/6e3fa167-8b59-40de-a0e5-53a882367b00",
       "teams": [
         "Newcastle",
         "Maitland"
@@ -493,17 +680,26 @@
       "matches": [
         {
           "players": [
-            "David Kelly & Tony Hammond",
-            "Brenda Wild & Ken Green"
+            {
+              "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
+              "name": "David Kelly & Tony Hammond"
+            },
+            {
+              "playerId": "team-player/a2053a2a-c828-41ee-96d3-5df40afcebbf",
+              "name": "Brenda Wild & Ken Green"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f97c06e-48b9-4cfb-93fe-868860b1159a",
               "players": [
                 {
+                  "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
                   "name": "David Kelly & Tony Hammond",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/a2053a2a-c828-41ee-96d3-5df40afcebbf",
                   "name": "Brenda Wild & Ken Green",
                   "score": "7"
                 }
@@ -512,12 +708,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3d5cbb02-36b3-4e44-a34a-4a1a081eceab",
               "players": [
                 {
+                  "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
                   "name": "David Kelly & Tony Hammond",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a2053a2a-c828-41ee-96d3-5df40afcebbf",
                   "name": "Brenda Wild & Ken Green",
                   "score": "6"
                 }
@@ -526,12 +725,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6dd54782-4cb4-45d3-b4fb-ab2d704b189c",
               "players": [
                 {
+                  "playerId": "team-player/9431086f-992a-4199-8eca-a4d8a52f7f75",
                   "name": "David Kelly & Tony Hammond",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a2053a2a-c828-41ee-96d3-5df40afcebbf",
                   "name": "Brenda Wild & Ken Green",
                   "score": "7"
                 }
@@ -543,17 +745,26 @@
         },
         {
           "players": [
-            "Derek Bull",
-            "John Pace"
+            {
+              "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
+              "name": "Derek Bull"
+            },
+            {
+              "playerId": "team-player/9bf8df9f-219f-4025-beef-1c27d0d8a324",
+              "name": "John Pace"
+            }
           ],
           "games": [
             {
+              "gameId": "game/96efcdb5-8b07-4727-90de-eefc066aab88",
               "players": [
                 {
+                  "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
                   "name": "Derek Bull",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9bf8df9f-219f-4025-beef-1c27d0d8a324",
                   "name": "John Pace",
                   "score": "3"
                 }
@@ -562,12 +773,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c2f39230-7fb7-49de-a352-a6b268e31c49",
               "players": [
                 {
+                  "playerId": "team-player/525ff51d-5c2c-4cdb-93e6-506681dcef2b",
                   "name": "Derek Bull",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9bf8df9f-219f-4025-beef-1c27d0d8a324",
                   "name": "John Pace",
                   "score": "3"
                 }
@@ -579,17 +793,26 @@
         },
         {
           "players": [
-            "Chris Gill",
-            "Bob Kerr"
+            {
+              "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
+              "name": "Chris Gill"
+            },
+            {
+              "playerId": "team-player/72468dbd-b51c-4557-a8e6-d87b79112cd5",
+              "name": "Bob Kerr"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6f6e310-31d4-4990-94d3-30df5d2c4bf4",
               "players": [
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72468dbd-b51c-4557-a8e6-d87b79112cd5",
                   "name": "Bob Kerr",
                   "score": "4"
                 }
@@ -598,12 +821,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/05b6e77f-c13b-4b0d-a889-56966e4632da",
               "players": [
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72468dbd-b51c-4557-a8e6-d87b79112cd5",
                   "name": "Bob Kerr",
                   "score": "3"
                 }
@@ -616,6 +842,7 @@
       ]
     },
     {
+      "competitionId": "competition/6b16e7e9-a4ba-4719-9d8d-1940271fe18b",
       "teams": [
         "Maitland",
         "Newcastle"
@@ -625,17 +852,26 @@
       "matches": [
         {
           "players": [
-            "Bob Kerr & Brenda Wilde",
-            "Derek Bull & Alastair Torrance"
+            {
+              "playerId": "team-player/8de78e99-6e5f-4f26-9a0a-0cae78972ca2",
+              "name": "Bob Kerr & Brenda Wilde"
+            },
+            {
+              "playerId": "team-player/daef0f37-d147-4d2b-ae6d-bc29b96d73d3",
+              "name": "Derek Bull & Alastair Torrance"
+            }
           ],
           "games": [
             {
+              "gameId": "game/06b92ae6-936f-43fe-83f4-5f990bbc62d8",
               "players": [
                 {
+                  "playerId": "team-player/8de78e99-6e5f-4f26-9a0a-0cae78972ca2",
                   "name": "Bob Kerr & Brenda Wilde",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/daef0f37-d147-4d2b-ae6d-bc29b96d73d3",
                   "name": "Derek Bull & Alastair Torrance",
                   "score": "7"
                 }
@@ -644,12 +880,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f3518c98-bb54-4a95-93c1-6dbf24977663",
               "players": [
                 {
+                  "playerId": "team-player/8de78e99-6e5f-4f26-9a0a-0cae78972ca2",
                   "name": "Bob Kerr & Brenda Wilde",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/daef0f37-d147-4d2b-ae6d-bc29b96d73d3",
                   "name": "Derek Bull & Alastair Torrance",
                   "score": "7"
                 }
@@ -661,17 +900,26 @@
         },
         {
           "players": [
-            "Ken Green",
-            "Chris Gill"
+            {
+              "playerId": "team-player/59a7daba-266a-4915-9d42-8e7ec67a81d8",
+              "name": "Ken Green"
+            },
+            {
+              "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
+              "name": "Chris Gill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a23dedb2-0c71-434a-b166-b09e0cf630d2",
               "players": [
                 {
+                  "playerId": "team-player/59a7daba-266a-4915-9d42-8e7ec67a81d8",
                   "name": "Ken Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "5"
                 }
@@ -680,12 +928,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3032f302-efcb-426e-a95e-f392ea5a1d96",
               "players": [
                 {
+                  "playerId": "team-player/59a7daba-266a-4915-9d42-8e7ec67a81d8",
                   "name": "Ken Green",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "7"
                 }
@@ -694,12 +945,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b510eec6-419f-4fc0-9311-a23bdce1dcf5",
               "players": [
                 {
+                  "playerId": "team-player/59a7daba-266a-4915-9d42-8e7ec67a81d8",
                   "name": "Ken Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5fadf4b9-1a73-4831-9bf1-7a469bd5988b",
                   "name": "Chris Gill",
                   "score": "5"
                 }
@@ -711,17 +965,26 @@
         },
         {
           "players": [
-            "John Pace",
-            "Ruth Mulvaney"
+            {
+              "playerId": "team-player/9bf8df9f-219f-4025-beef-1c27d0d8a324",
+              "name": "John Pace"
+            },
+            {
+              "playerId": "team-player/a3626729-8bd3-4a65-8d07-a4e4afd3df6e",
+              "name": "Ruth Mulvaney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/466e4cae-1229-4166-adbd-594067afd1bc",
               "players": [
                 {
+                  "playerId": "team-player/9bf8df9f-219f-4025-beef-1c27d0d8a324",
                   "name": "John Pace",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a3626729-8bd3-4a65-8d07-a4e4afd3df6e",
                   "name": "Ruth Mulvaney",
                   "score": "6"
                 }
@@ -730,12 +993,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e4abb2cb-8326-4353-b5a6-03603f488f51",
               "players": [
                 {
+                  "playerId": "team-player/9bf8df9f-219f-4025-beef-1c27d0d8a324",
                   "name": "John Pace",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a3626729-8bd3-4a65-8d07-a4e4afd3df6e",
                   "name": "Ruth Mulvaney",
                   "score": "5"
                 }
@@ -748,6 +1014,7 @@
       ]
     },
     {
+      "competitionId": "competition/2dafa760-dff8-4f44-a44d-9e7809f705a5",
       "teams": [
         "Toronto",
         "Maitland"
@@ -757,17 +1024,26 @@
       "matches": [
         {
           "players": [
-            "Glenn Sellers & Nancy Ainsworth",
-            "Bob Kerr & Pam Gentle"
+            {
+              "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
+              "name": "Glenn Sellers & Nancy Ainsworth"
+            },
+            {
+              "playerId": "team-player/fd2a5563-bdec-44d3-8dff-9f2374c01125",
+              "name": "Bob Kerr & Pam Gentle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b637938-e8a3-4e77-a681-29332eb85c3e",
               "players": [
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd2a5563-bdec-44d3-8dff-9f2374c01125",
                   "name": "Bob Kerr & Pam Gentle",
                   "score": "6"
                 }
@@ -776,12 +1052,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/aed2adab-fc75-4ef3-a40f-8399524627ed",
               "players": [
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/fd2a5563-bdec-44d3-8dff-9f2374c01125",
                   "name": "Bob Kerr & Pam Gentle",
                   "score": "7"
                 }
@@ -790,12 +1069,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/122a36bb-bd70-4591-8929-2170e4bf8449",
               "players": [
                 {
+                  "playerId": "team-player/d9916ce8-826c-45e7-8ec7-49d629cb4833",
                   "name": "Glenn Sellers & Nancy Ainsworth",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd2a5563-bdec-44d3-8dff-9f2374c01125",
                   "name": "Bob Kerr & Pam Gentle",
                   "score": "6"
                 }
@@ -807,17 +1089,26 @@
         },
         {
           "players": [
-            "Chris Williamson",
-            "Brenda-Lee Peet"
+            {
+              "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
+              "name": "Chris Williamson"
+            },
+            {
+              "playerId": "team-player/5803c10e-0987-4592-936a-b3b3e0ceb88d",
+              "name": "Brenda-Lee Peet"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5198b4b4-1a97-4beb-9286-e5cac9698ab9",
               "players": [
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5803c10e-0987-4592-936a-b3b3e0ceb88d",
                   "name": "Brenda-Lee Peet",
                   "score": "7"
                 }
@@ -826,12 +1117,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ce48a080-97a9-4f9c-b758-ec442952f264",
               "players": [
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5803c10e-0987-4592-936a-b3b3e0ceb88d",
                   "name": "Brenda-Lee Peet",
                   "score": "2"
                 }
@@ -840,12 +1134,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2e4f93e8-92db-4e32-9679-9651cb61734f",
               "players": [
                 {
+                  "playerId": "team-player/80ad1020-646d-4eff-b5be-cc191a72a231",
                   "name": "Chris Williamson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5803c10e-0987-4592-936a-b3b3e0ceb88d",
                   "name": "Brenda-Lee Peet",
                   "score": "7"
                 }
@@ -857,17 +1154,26 @@
         },
         {
           "players": [
-            "Sue Sellers",
-            "Rod Peet"
+            {
+              "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
+              "name": "Sue Sellers"
+            },
+            {
+              "playerId": "team-player/146a9576-c05c-4d06-9164-17e6a74e1fb0",
+              "name": "Rod Peet"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cad104e2-ebf1-4c55-b7fa-e14da6883300",
               "players": [
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/146a9576-c05c-4d06-9164-17e6a74e1fb0",
                   "name": "Rod Peet",
                   "score": "5"
                 }
@@ -876,12 +1182,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/889195b6-0cc5-44d8-823c-e7b768651649",
               "players": [
                 {
+                  "playerId": "team-player/ce5bd06c-c50e-4773-9609-9005210a45a7",
                   "name": "Sue Sellers",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/146a9576-c05c-4d06-9164-17e6a74e1fb0",
                   "name": "Rod Peet",
                   "score": "3"
                 }

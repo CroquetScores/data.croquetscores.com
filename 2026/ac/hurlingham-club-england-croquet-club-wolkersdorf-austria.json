@@ -1,36 +1,67 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2772b75c-a4df-428a-93c2-c21c912d8fcc",
   "name": "Hurlingham Club (England) - Croquet Club Wolkersdorf (Austria)",
   "sport": "ac",
   "firstDay": "2026-09-12",
   "lastDay": "2026-09-13",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Hurlingham Club",
       "shortName": "Hurlingham",
       "players": [
-        "Alan Chance",
-        "Andrew Wise",
-        "Ludolph van Hasselt",
-        "Martin Read",
-        "Richard Andrews"
+        {
+          "playerId": "team-player/bf73c4d1-b080-4ba8-8bed-ce5ee9b750e3",
+          "name": "Alan Chance"
+        },
+        {
+          "playerId": "team-player/bf4f271f-5322-4ac7-9108-9639c0fa127b",
+          "name": "Andrew Wise"
+        },
+        {
+          "playerId": "team-player/2ba74b5d-b46d-40e1-87ca-b0b83d7eb252",
+          "name": "Ludolph van Hasselt"
+        },
+        {
+          "playerId": "team-player/2ff921a1-dfe7-404a-b885-1d0549fbca6d",
+          "name": "Martin Read"
+        },
+        {
+          "playerId": "team-player/3b290795-5d6f-4ea8-b17a-b0f54d73b601",
+          "name": "Richard Andrews"
+        }
       ]
     },
     {
       "name": "Croquet Club Wolkersdorf",
       "shortName": "Croquet Cl",
       "players": [
-        "Christophe Bergen",
-        "Heinz Hackl",
-        "Leopold Walderdorff",
-        "Miroslav Havlik"
+        {
+          "playerId": "team-player/d80acecb-c700-4383-ad3b-06d3f4bcbc51",
+          "name": "Christophe Bergen"
+        },
+        {
+          "playerId": "team-player/ab0eb4e8-b90a-4163-8e78-a44c547f4dd7",
+          "name": "Heinz Hackl"
+        },
+        {
+          "playerId": "team-player/987e5a81-bfd7-49fd-a935-51f7f3ed319f",
+          "name": "Leopold Walderdorff"
+        },
+        {
+          "playerId": "team-player/30e5bfaa-7001-4339-88b9-124d45d6f690",
+          "name": "Miroslav Havlik"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/99cab1b6-dff2-453b-9a9f-f070963fa11d",
       "teams": [
         "Hurlingham Club",
         "Croquet Club Wolkersdorf"
@@ -40,17 +71,26 @@
       "matches": [
         {
           "players": [
-            "Alan Chance",
-            "Leopold Walderdorff"
+            {
+              "playerId": "team-player/bf73c4d1-b080-4ba8-8bed-ce5ee9b750e3",
+              "name": "Alan Chance"
+            },
+            {
+              "playerId": "team-player/987e5a81-bfd7-49fd-a935-51f7f3ed319f",
+              "name": "Leopold Walderdorff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e4b2030-96c1-4684-a426-59792e39a237",
               "players": [
                 {
+                  "playerId": "team-player/bf73c4d1-b080-4ba8-8bed-ce5ee9b750e3",
                   "name": "Alan Chance",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/987e5a81-bfd7-49fd-a935-51f7f3ed319f",
                   "name": "Leopold Walderdorff",
                   "score": "14"
                 }
@@ -62,17 +102,26 @@
         },
         {
           "players": [
-            "Martin Read",
-            "Miroslav Havlik"
+            {
+              "playerId": "team-player/2ff921a1-dfe7-404a-b885-1d0549fbca6d",
+              "name": "Martin Read"
+            },
+            {
+              "playerId": "team-player/30e5bfaa-7001-4339-88b9-124d45d6f690",
+              "name": "Miroslav Havlik"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7a6d6d98-0612-426c-9819-ade2811d97d7",
               "players": [
                 {
+                  "playerId": "team-player/2ff921a1-dfe7-404a-b885-1d0549fbca6d",
                   "name": "Martin Read",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/30e5bfaa-7001-4339-88b9-124d45d6f690",
                   "name": "Miroslav Havlik",
                   "score": "26"
                 }
@@ -84,17 +133,26 @@
         },
         {
           "players": [
-            "Andrew Wise",
-            "Heinz Hackl"
+            {
+              "playerId": "team-player/bf4f271f-5322-4ac7-9108-9639c0fa127b",
+              "name": "Andrew Wise"
+            },
+            {
+              "playerId": "team-player/ab0eb4e8-b90a-4163-8e78-a44c547f4dd7",
+              "name": "Heinz Hackl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1a6a0d49-e657-4026-8df9-47c98cc42591",
               "players": [
                 {
+                  "playerId": "team-player/bf4f271f-5322-4ac7-9108-9639c0fa127b",
                   "name": "Andrew Wise",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/ab0eb4e8-b90a-4163-8e78-a44c547f4dd7",
                   "name": "Heinz Hackl",
                   "score": "26"
                 }
@@ -106,17 +164,26 @@
         },
         {
           "players": [
-            "Ludolph van Hasselt",
-            "Christophe Bergen"
+            {
+              "playerId": "team-player/2ba74b5d-b46d-40e1-87ca-b0b83d7eb252",
+              "name": "Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/d80acecb-c700-4383-ad3b-06d3f4bcbc51",
+              "name": "Christophe Bergen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7390b0a4-f831-4b63-96b3-0e7121415ee8",
               "players": [
                 {
+                  "playerId": "team-player/2ba74b5d-b46d-40e1-87ca-b0b83d7eb252",
                   "name": "Ludolph van Hasselt",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d80acecb-c700-4383-ad3b-06d3f4bcbc51",
                   "name": "Christophe Bergen",
                   "score": "4"
                 }
@@ -128,17 +195,26 @@
         },
         {
           "players": [
-            "Andrew Wise",
-            "Leopold Walderdorff"
+            {
+              "playerId": "team-player/bf4f271f-5322-4ac7-9108-9639c0fa127b",
+              "name": "Andrew Wise"
+            },
+            {
+              "playerId": "team-player/987e5a81-bfd7-49fd-a935-51f7f3ed319f",
+              "name": "Leopold Walderdorff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88f7b302-4c4b-4a49-afd4-53495ccc1f71",
               "players": [
                 {
+                  "playerId": "team-player/bf4f271f-5322-4ac7-9108-9639c0fa127b",
                   "name": "Andrew Wise",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/987e5a81-bfd7-49fd-a935-51f7f3ed319f",
                   "name": "Leopold Walderdorff",
                   "score": "12"
                 }
@@ -150,17 +226,26 @@
         },
         {
           "players": [
-            "Ludolph van Hasselt",
-            "Miroslav Havlik"
+            {
+              "playerId": "team-player/2ba74b5d-b46d-40e1-87ca-b0b83d7eb252",
+              "name": "Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/30e5bfaa-7001-4339-88b9-124d45d6f690",
+              "name": "Miroslav Havlik"
+            }
           ],
           "games": [
             {
+              "gameId": "game/208dbed1-f1b5-4723-84b6-fa076f2f983c",
               "players": [
                 {
+                  "playerId": "team-player/2ba74b5d-b46d-40e1-87ca-b0b83d7eb252",
                   "name": "Ludolph van Hasselt",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/30e5bfaa-7001-4339-88b9-124d45d6f690",
                   "name": "Miroslav Havlik",
                   "score": "26"
                 }
@@ -172,17 +257,26 @@
         },
         {
           "players": [
-            "Alan Chance",
-            "Heinz Hackl"
+            {
+              "playerId": "team-player/bf73c4d1-b080-4ba8-8bed-ce5ee9b750e3",
+              "name": "Alan Chance"
+            },
+            {
+              "playerId": "team-player/ab0eb4e8-b90a-4163-8e78-a44c547f4dd7",
+              "name": "Heinz Hackl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e0051368-1f95-41c8-90d7-4e11cc743198",
               "players": [
                 {
+                  "playerId": "team-player/bf73c4d1-b080-4ba8-8bed-ce5ee9b750e3",
                   "name": "Alan Chance",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ab0eb4e8-b90a-4163-8e78-a44c547f4dd7",
                   "name": "Heinz Hackl",
                   "score": "24"
                 }
@@ -194,17 +288,26 @@
         },
         {
           "players": [
-            "Martin Read",
-            "Christophe Bergen"
+            {
+              "playerId": "team-player/2ff921a1-dfe7-404a-b885-1d0549fbca6d",
+              "name": "Martin Read"
+            },
+            {
+              "playerId": "team-player/d80acecb-c700-4383-ad3b-06d3f4bcbc51",
+              "name": "Christophe Bergen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b43c835e-abff-465e-975e-8099e4e1d72a",
               "players": [
                 {
+                  "playerId": "team-player/2ff921a1-dfe7-404a-b885-1d0549fbca6d",
                   "name": "Martin Read",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d80acecb-c700-4383-ad3b-06d3f4bcbc51",
                   "name": "Christophe Bergen",
                   "score": "3"
                 }
@@ -216,17 +319,26 @@
         },
         {
           "players": [
-            "Ludolph van Hasselt",
-            "Leopold Walderdorff"
+            {
+              "playerId": "team-player/2ba74b5d-b46d-40e1-87ca-b0b83d7eb252",
+              "name": "Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/987e5a81-bfd7-49fd-a935-51f7f3ed319f",
+              "name": "Leopold Walderdorff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b783a66-b847-4565-9384-b5bab62f3345",
               "players": [
                 {
+                  "playerId": "team-player/2ba74b5d-b46d-40e1-87ca-b0b83d7eb252",
                   "name": "Ludolph van Hasselt",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/987e5a81-bfd7-49fd-a935-51f7f3ed319f",
                   "name": "Leopold Walderdorff",
                   "score": "24"
                 }
@@ -238,17 +350,26 @@
         },
         {
           "players": [
-            "Richard Andrews",
-            "Miroslav Havlik"
+            {
+              "playerId": "team-player/3b290795-5d6f-4ea8-b17a-b0f54d73b601",
+              "name": "Richard Andrews"
+            },
+            {
+              "playerId": "team-player/30e5bfaa-7001-4339-88b9-124d45d6f690",
+              "name": "Miroslav Havlik"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e84def86-69e4-4a3e-af76-c5a192b17206",
               "players": [
                 {
+                  "playerId": "team-player/3b290795-5d6f-4ea8-b17a-b0f54d73b601",
                   "name": "Richard Andrews",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/30e5bfaa-7001-4339-88b9-124d45d6f690",
                   "name": "Miroslav Havlik",
                   "score": "26"
                 }
@@ -260,17 +381,26 @@
         },
         {
           "players": [
-            "Martin Read",
-            "Heinz Hackl"
+            {
+              "playerId": "team-player/2ff921a1-dfe7-404a-b885-1d0549fbca6d",
+              "name": "Martin Read"
+            },
+            {
+              "playerId": "team-player/ab0eb4e8-b90a-4163-8e78-a44c547f4dd7",
+              "name": "Heinz Hackl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4088db1a-3d0f-4d07-b045-a45545200ee6",
               "players": [
                 {
+                  "playerId": "team-player/2ff921a1-dfe7-404a-b885-1d0549fbca6d",
                   "name": "Martin Read",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/ab0eb4e8-b90a-4163-8e78-a44c547f4dd7",
                   "name": "Heinz Hackl",
                   "score": "26"
                 }
@@ -282,17 +412,26 @@
         },
         {
           "players": [
-            "Alan Chance",
-            "Christophe Bergen"
+            {
+              "playerId": "team-player/bf73c4d1-b080-4ba8-8bed-ce5ee9b750e3",
+              "name": "Alan Chance"
+            },
+            {
+              "playerId": "team-player/d80acecb-c700-4383-ad3b-06d3f4bcbc51",
+              "name": "Christophe Bergen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/51327414-8868-40dd-882f-b884046a899a",
               "players": [
                 {
+                  "playerId": "team-player/bf73c4d1-b080-4ba8-8bed-ce5ee9b750e3",
                   "name": "Alan Chance",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d80acecb-c700-4383-ad3b-06d3f4bcbc51",
                   "name": "Christophe Bergen",
                   "score": "13"
                 }
@@ -304,17 +443,26 @@
         },
         {
           "players": [
-            "Martin Read",
-            "Leopold Walderdorff"
+            {
+              "playerId": "team-player/2ff921a1-dfe7-404a-b885-1d0549fbca6d",
+              "name": "Martin Read"
+            },
+            {
+              "playerId": "team-player/987e5a81-bfd7-49fd-a935-51f7f3ed319f",
+              "name": "Leopold Walderdorff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a515f1b0-2539-46b9-b64a-bf63ad9225fb",
               "players": [
                 {
+                  "playerId": "team-player/2ff921a1-dfe7-404a-b885-1d0549fbca6d",
                   "name": "Martin Read",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/987e5a81-bfd7-49fd-a935-51f7f3ed319f",
                   "name": "Leopold Walderdorff",
                   "score": "21"
                 }
@@ -326,17 +474,26 @@
         },
         {
           "players": [
-            "Alan Chance",
-            "Miroslav Havlik"
+            {
+              "playerId": "team-player/bf73c4d1-b080-4ba8-8bed-ce5ee9b750e3",
+              "name": "Alan Chance"
+            },
+            {
+              "playerId": "team-player/30e5bfaa-7001-4339-88b9-124d45d6f690",
+              "name": "Miroslav Havlik"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e3e687c9-c5e2-4a63-8776-f3237aff323f",
               "players": [
                 {
+                  "playerId": "team-player/bf73c4d1-b080-4ba8-8bed-ce5ee9b750e3",
                   "name": "Alan Chance",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/30e5bfaa-7001-4339-88b9-124d45d6f690",
                   "name": "Miroslav Havlik",
                   "score": "26"
                 }
@@ -348,17 +505,26 @@
         },
         {
           "players": [
-            "Ludolph van Hasselt",
-            "Heinz Hackl"
+            {
+              "playerId": "team-player/2ba74b5d-b46d-40e1-87ca-b0b83d7eb252",
+              "name": "Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/ab0eb4e8-b90a-4163-8e78-a44c547f4dd7",
+              "name": "Heinz Hackl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9d9c6160-833e-4753-a615-fc5c322dbe57",
               "players": [
                 {
+                  "playerId": "team-player/2ba74b5d-b46d-40e1-87ca-b0b83d7eb252",
                   "name": "Ludolph van Hasselt",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/ab0eb4e8-b90a-4163-8e78-a44c547f4dd7",
                   "name": "Heinz Hackl",
                   "score": "26"
                 }
@@ -370,17 +536,26 @@
         },
         {
           "players": [
-            "Richard Andrews",
-            "Christophe Bergen"
+            {
+              "playerId": "team-player/3b290795-5d6f-4ea8-b17a-b0f54d73b601",
+              "name": "Richard Andrews"
+            },
+            {
+              "playerId": "team-player/d80acecb-c700-4383-ad3b-06d3f4bcbc51",
+              "name": "Christophe Bergen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/595803ba-12f0-49f1-9b35-26f395e054cd",
               "players": [
                 {
+                  "playerId": "team-player/3b290795-5d6f-4ea8-b17a-b0f54d73b601",
                   "name": "Richard Andrews",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/d80acecb-c700-4383-ad3b-06d3f4bcbc51",
                   "name": "Christophe Bergen",
                   "score": "21"
                 }

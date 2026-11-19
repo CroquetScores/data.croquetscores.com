@@ -1,51 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/009e087f-bec5-4093-98c5-0cbc09ecff34",
   "name": "2024 Mountain Challenge",
   "sport": "gc",
   "firstDay": "2024-08-29",
   "lastDay": "2024-08-29",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Saphire Valley",
       "shortName": "Saphire Va",
       "players": [
-        "Adrienne Leucke and Kathie Gamble",
-        "Billy Harper and John Monaco",
-        "Ken Scoggins and Gary Gamble"
+        {
+          "playerId": "team-player/3ee553eb-130e-48be-8595-294f2d826709",
+          "name": "Adrienne Leucke and Kathie Gamble"
+        },
+        {
+          "playerId": "team-player/b79f50c0-2488-454c-806b-13d06556ac96",
+          "name": "Billy Harper and John Monaco"
+        },
+        {
+          "playerId": "team-player/e8c2a5c3-9c49-44b9-bc6f-1a49edf258da",
+          "name": "Ken Scoggins and Gary Gamble"
+        }
       ]
     },
     {
       "name": "Trillium",
       "shortName": "Trillium",
       "players": [
-        "Barbara Jamison and Juan Milciunas",
-        "Jan Spoerl and Scott Spoerl",
-        "Jim Jamison and Craig Sellner"
+        {
+          "playerId": "team-player/52e9265a-53ba-4456-a263-a9f8d8bb4bb8",
+          "name": "Barbara Jamison and Juan Milciunas"
+        },
+        {
+          "playerId": "team-player/02c46505-1340-4739-bd38-318587dea79f",
+          "name": "Jan Spoerl and Scott Spoerl"
+        },
+        {
+          "playerId": "team-player/6361d2c5-daf5-44ac-85de-2c7b7d46cad1",
+          "name": "Jim Jamison and Craig Sellner"
+        }
       ]
     },
     {
       "name": "Highlands",
       "shortName": "Highlands",
       "players": [
-        "Dallas Denny and Ellen Nielsen",
-        "Hammond Rauers and Matt Calvert",
-        "Jack Howard and Susie Day"
+        {
+          "playerId": "team-player/0b0e5198-08b9-4aee-ac5c-7e7f7bc9b8ec",
+          "name": "Dallas Denny and Ellen Nielsen"
+        },
+        {
+          "playerId": "team-player/348dd5e9-fdb9-453f-9b41-6d61e99d13ab",
+          "name": "Hammond Rauers and Matt Calvert"
+        },
+        {
+          "playerId": "team-player/82b2ee29-42a7-4178-9696-b103fa1bac75",
+          "name": "Jack Howard and Susie Day"
+        }
       ]
     },
     {
       "name": "Lake Toxaway",
       "shortName": "Lake Toxaw",
       "players": [
-        "Bob Hamilton & Robb Turner",
-        "Mark Ulsk and Grady Price",
-        "Mary Anne Hamilton and Lori Roberts"
+        {
+          "playerId": "team-player/62870018-e8c2-4989-979f-b148eab20522",
+          "name": "Bob Hamilton & Robb Turner"
+        },
+        {
+          "playerId": "team-player/89466f41-d829-4037-9397-d563a0ac42ad",
+          "name": "Mark Ulsk and Grady Price"
+        },
+        {
+          "playerId": "team-player/279e0a2c-2f9d-40f7-adae-44a1737e4743",
+          "name": "Mary Anne Hamilton and Lori Roberts"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/266bd066-d7b4-4d7d-a831-4e070c1e83d0",
       "teams": [
         "Saphire Valley",
         "Trillium"
@@ -55,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Billy Harper and John Monaco",
-            "Jan Spoerl and Scott Spoerl"
+            {
+              "playerId": "team-player/b79f50c0-2488-454c-806b-13d06556ac96",
+              "name": "Billy Harper and John Monaco"
+            },
+            {
+              "playerId": "team-player/02c46505-1340-4739-bd38-318587dea79f",
+              "name": "Jan Spoerl and Scott Spoerl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6918082a-52a9-41dc-817a-4d222edc8551",
               "players": [
                 {
+                  "playerId": "team-player/b79f50c0-2488-454c-806b-13d06556ac96",
                   "name": "Billy Harper and John Monaco",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/02c46505-1340-4739-bd38-318587dea79f",
                   "name": "Jan Spoerl and Scott Spoerl",
                   "score": "7"
                 }
@@ -77,17 +126,26 @@
         },
         {
           "players": [
-            "Ken Scoggins and Gary Gamble",
-            "Jim Jamison and Craig Sellner"
+            {
+              "playerId": "team-player/e8c2a5c3-9c49-44b9-bc6f-1a49edf258da",
+              "name": "Ken Scoggins and Gary Gamble"
+            },
+            {
+              "playerId": "team-player/6361d2c5-daf5-44ac-85de-2c7b7d46cad1",
+              "name": "Jim Jamison and Craig Sellner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4df8a2aa-42e8-45b2-b17e-0bc4adb229a0",
               "players": [
                 {
+                  "playerId": "team-player/e8c2a5c3-9c49-44b9-bc6f-1a49edf258da",
                   "name": "Ken Scoggins and Gary Gamble",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6361d2c5-daf5-44ac-85de-2c7b7d46cad1",
                   "name": "Jim Jamison and Craig Sellner",
                   "score": "6"
                 }
@@ -99,17 +157,26 @@
         },
         {
           "players": [
-            "Adrienne Leucke and Kathie Gamble",
-            "Barbara Jamison and Juan Milciunas"
+            {
+              "playerId": "team-player/3ee553eb-130e-48be-8595-294f2d826709",
+              "name": "Adrienne Leucke and Kathie Gamble"
+            },
+            {
+              "playerId": "team-player/52e9265a-53ba-4456-a263-a9f8d8bb4bb8",
+              "name": "Barbara Jamison and Juan Milciunas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b7b0ccd-89d6-4664-9602-dfc9650c638b",
               "players": [
                 {
+                  "playerId": "team-player/3ee553eb-130e-48be-8595-294f2d826709",
                   "name": "Adrienne Leucke and Kathie Gamble",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/52e9265a-53ba-4456-a263-a9f8d8bb4bb8",
                   "name": "Barbara Jamison and Juan Milciunas",
                   "score": "6"
                 }
@@ -122,6 +189,7 @@
       ]
     },
     {
+      "competitionId": "competition/89609e88-779f-4852-9e1a-a28289ee69fe",
       "teams": [
         "Highlands",
         "Lake Toxaway"
@@ -131,17 +199,26 @@
       "matches": [
         {
           "players": [
-            "Hammond Rauers and Matt Calvert",
-            "Mary Anne Hamilton and Lori Roberts"
+            {
+              "playerId": "team-player/348dd5e9-fdb9-453f-9b41-6d61e99d13ab",
+              "name": "Hammond Rauers and Matt Calvert"
+            },
+            {
+              "playerId": "team-player/279e0a2c-2f9d-40f7-adae-44a1737e4743",
+              "name": "Mary Anne Hamilton and Lori Roberts"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e2e4ced4-8c47-40b0-9299-3737cabca0ae",
               "players": [
                 {
+                  "playerId": "team-player/348dd5e9-fdb9-453f-9b41-6d61e99d13ab",
                   "name": "Hammond Rauers and Matt Calvert",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/279e0a2c-2f9d-40f7-adae-44a1737e4743",
                   "name": "Mary Anne Hamilton and Lori Roberts",
                   "score": "1"
                 }
@@ -153,17 +230,26 @@
         },
         {
           "players": [
-            "Jack Howard and Susie Day",
-            "Mark Ulsk and Grady Price"
+            {
+              "playerId": "team-player/82b2ee29-42a7-4178-9696-b103fa1bac75",
+              "name": "Jack Howard and Susie Day"
+            },
+            {
+              "playerId": "team-player/89466f41-d829-4037-9397-d563a0ac42ad",
+              "name": "Mark Ulsk and Grady Price"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4c05f8f0-deb4-474d-a2e1-b1865cac4705",
               "players": [
                 {
+                  "playerId": "team-player/82b2ee29-42a7-4178-9696-b103fa1bac75",
                   "name": "Jack Howard and Susie Day",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/89466f41-d829-4037-9397-d563a0ac42ad",
                   "name": "Mark Ulsk and Grady Price",
                   "score": "6"
                 }
@@ -175,17 +261,26 @@
         },
         {
           "players": [
-            "Dallas Denny and Ellen Nielsen",
-            "Bob Hamilton & Robb Turner"
+            {
+              "playerId": "team-player/0b0e5198-08b9-4aee-ac5c-7e7f7bc9b8ec",
+              "name": "Dallas Denny and Ellen Nielsen"
+            },
+            {
+              "playerId": "team-player/62870018-e8c2-4989-979f-b148eab20522",
+              "name": "Bob Hamilton & Robb Turner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/412c6efd-f28d-4c2d-a044-ca828a980a79",
               "players": [
                 {
+                  "playerId": "team-player/0b0e5198-08b9-4aee-ac5c-7e7f7bc9b8ec",
                   "name": "Dallas Denny and Ellen Nielsen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/62870018-e8c2-4989-979f-b148eab20522",
                   "name": "Bob Hamilton & Robb Turner",
                   "score": "6"
                 }
@@ -198,6 +293,7 @@
       ]
     },
     {
+      "competitionId": "competition/0242624a-7df2-42ca-b166-b2144ed038e4",
       "teams": [
         "Highlands",
         "Trillium"
@@ -207,17 +303,26 @@
       "matches": [
         {
           "players": [
-            "Jack Howard and Susie Day",
-            "Jan Spoerl and Scott Spoerl"
+            {
+              "playerId": "team-player/82b2ee29-42a7-4178-9696-b103fa1bac75",
+              "name": "Jack Howard and Susie Day"
+            },
+            {
+              "playerId": "team-player/02c46505-1340-4739-bd38-318587dea79f",
+              "name": "Jan Spoerl and Scott Spoerl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a17b09e9-5b86-4516-9953-871849547331",
               "players": [
                 {
+                  "playerId": "team-player/82b2ee29-42a7-4178-9696-b103fa1bac75",
                   "name": "Jack Howard and Susie Day",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/02c46505-1340-4739-bd38-318587dea79f",
                   "name": "Jan Spoerl and Scott Spoerl",
                   "score": "7"
                 }
@@ -229,17 +334,26 @@
         },
         {
           "players": [
-            "Hammond Rauers and Matt Calvert",
-            "Jim Jamison and Craig Sellner"
+            {
+              "playerId": "team-player/348dd5e9-fdb9-453f-9b41-6d61e99d13ab",
+              "name": "Hammond Rauers and Matt Calvert"
+            },
+            {
+              "playerId": "team-player/6361d2c5-daf5-44ac-85de-2c7b7d46cad1",
+              "name": "Jim Jamison and Craig Sellner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/67fa3d82-3025-4c62-b57a-cb6240625ace",
               "players": [
                 {
+                  "playerId": "team-player/348dd5e9-fdb9-453f-9b41-6d61e99d13ab",
                   "name": "Hammond Rauers and Matt Calvert",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6361d2c5-daf5-44ac-85de-2c7b7d46cad1",
                   "name": "Jim Jamison and Craig Sellner",
                   "score": "7"
                 }

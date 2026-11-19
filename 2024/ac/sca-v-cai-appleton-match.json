@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/237b6941-4e56-48bf-ad2e-ee7f7f16a521",
   "name": "SCA v CAI Appleton Match",
   "sport": "ac",
   "firstDay": "2024-05-11",
   "lastDay": "2024-05-12",
   "country": "scotland",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "SCA",
       "shortName": "SCA",
       "players": [
-        "Alastair Burn-Murdoch",
-        "Alastair Burn-Murdoch & Andrew Symons",
-        "Andrew Symons",
-        "David Magee",
-        "John Owen",
-        "John Owen & David Magee",
-        "Rosemary Saunders Robertson",
-        "Stefan Colling",
-        "Stefan Colling & Rosemary Saunders Robertson"
+        {
+          "playerId": "team-player/e65951f1-8411-4e71-bc58-e99525cd6086",
+          "name": "Alastair Burn-Murdoch"
+        },
+        {
+          "playerId": "team-player/9a85ed8a-8d65-43af-87d9-d1cbdd0fd09b",
+          "name": "Alastair Burn-Murdoch & Andrew Symons"
+        },
+        {
+          "playerId": "team-player/e86e340a-1261-4a0b-84bd-f71c4451306e",
+          "name": "Andrew Symons"
+        },
+        {
+          "playerId": "team-player/829c4cb9-6330-4adc-b169-98fe5f6301f1",
+          "name": "David Magee"
+        },
+        {
+          "playerId": "team-player/86dc5ea9-a4e8-424f-9233-e10276db077b",
+          "name": "John Owen"
+        },
+        {
+          "playerId": "team-player/c19b6f9e-adb8-4762-9e4d-c671ce2f3420",
+          "name": "John Owen & David Magee"
+        },
+        {
+          "playerId": "team-player/0491e995-c46f-4227-8574-214f28231bbc",
+          "name": "Rosemary Saunders Robertson"
+        },
+        {
+          "playerId": "team-player/deda0b07-7383-49aa-87a1-f9925abc03cf",
+          "name": "Stefan Colling"
+        },
+        {
+          "playerId": "team-player/8433e768-71c5-4a5f-90c0-f7af33abd79b",
+          "name": "Stefan Colling & Rosemary Saunders Robertson"
+        }
       ]
     },
     {
       "name": "CAI",
       "shortName": "CAI",
       "players": [
-        "Duncan Styles",
-        "Fiachra Carroll",
-        "Fiachra Carroll & Fred Rogerson",
-        "Fred Rogerson",
-        "Jane Morrison",
-        "Nathaniel Healy",
-        "Nathaniel Healy & Jane Morrison",
-        "Russell Harris",
-        "Russell Harris & Duncan Styles"
+        {
+          "playerId": "team-player/193a0578-b50e-402b-82d2-4429beda4f0a",
+          "name": "Duncan Styles"
+        },
+        {
+          "playerId": "team-player/95ee8f90-816b-4f08-801e-92d4dc2b9a4d",
+          "name": "Fiachra Carroll"
+        },
+        {
+          "playerId": "team-player/0ea7842c-e20a-45d8-8947-0d27f859070d",
+          "name": "Fiachra Carroll & Fred Rogerson"
+        },
+        {
+          "playerId": "team-player/793e4972-3174-42fa-811e-0b0e4e929a2a",
+          "name": "Fred Rogerson"
+        },
+        {
+          "playerId": "team-player/acd21a55-5310-48ea-83cd-35fef70e065a",
+          "name": "Jane Morrison"
+        },
+        {
+          "playerId": "team-player/68ce1253-b059-498d-8100-4251e9ce318a",
+          "name": "Nathaniel Healy"
+        },
+        {
+          "playerId": "team-player/2df2c306-5c9e-4c01-bd67-77f58f8e4724",
+          "name": "Nathaniel Healy & Jane Morrison"
+        },
+        {
+          "playerId": "team-player/2aed8183-2bf4-4df5-b883-3fed06073950",
+          "name": "Russell Harris"
+        },
+        {
+          "playerId": "team-player/2d653173-e6ea-42cc-9967-90a9e1257c61",
+          "name": "Russell Harris & Duncan Styles"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/3b1e9b8f-0914-43d9-9c51-37f8739ff780",
       "teams": [
         "SCA",
         "CAI"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Stefan Colling & Rosemary Saunders Robertson",
-            "Nathaniel Healy & Jane Morrison"
+            {
+              "playerId": "team-player/8433e768-71c5-4a5f-90c0-f7af33abd79b",
+              "name": "Stefan Colling & Rosemary Saunders Robertson"
+            },
+            {
+              "playerId": "team-player/2df2c306-5c9e-4c01-bd67-77f58f8e4724",
+              "name": "Nathaniel Healy & Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c9d80e6b-024a-43bb-99ae-ece483377cf4",
               "players": [
                 {
+                  "playerId": "team-player/8433e768-71c5-4a5f-90c0-f7af33abd79b",
                   "name": "Stefan Colling & Rosemary Saunders Robertson",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/2df2c306-5c9e-4c01-bd67-77f58f8e4724",
                   "name": "Nathaniel Healy & Jane Morrison",
                   "score": "16"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "John Owen & David Magee",
-            "Russell Harris & Duncan Styles"
+            {
+              "playerId": "team-player/c19b6f9e-adb8-4762-9e4d-c671ce2f3420",
+              "name": "John Owen & David Magee"
+            },
+            {
+              "playerId": "team-player/2d653173-e6ea-42cc-9967-90a9e1257c61",
+              "name": "Russell Harris & Duncan Styles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/97e7129c-8dbe-47b9-812d-fd2f736ca074",
               "players": [
                 {
+                  "playerId": "team-player/c19b6f9e-adb8-4762-9e4d-c671ce2f3420",
                   "name": "John Owen & David Magee",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/2d653173-e6ea-42cc-9967-90a9e1257c61",
                   "name": "Russell Harris & Duncan Styles",
                   "score": "12"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Alastair Burn-Murdoch & Andrew Symons",
-            "Fiachra Carroll & Fred Rogerson"
+            {
+              "playerId": "team-player/9a85ed8a-8d65-43af-87d9-d1cbdd0fd09b",
+              "name": "Alastair Burn-Murdoch & Andrew Symons"
+            },
+            {
+              "playerId": "team-player/0ea7842c-e20a-45d8-8947-0d27f859070d",
+              "name": "Fiachra Carroll & Fred Rogerson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a0f0ab4b-be16-4155-a07f-879ec1eccf87",
               "players": [
                 {
+                  "playerId": "team-player/9a85ed8a-8d65-43af-87d9-d1cbdd0fd09b",
                   "name": "Alastair Burn-Murdoch & Andrew Symons",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/0ea7842c-e20a-45d8-8947-0d27f859070d",
                   "name": "Fiachra Carroll & Fred Rogerson",
                   "score": "21"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Stefan Colling",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/deda0b07-7383-49aa-87a1-f9925abc03cf",
+              "name": "Stefan Colling"
+            },
+            {
+              "playerId": "team-player/acd21a55-5310-48ea-83cd-35fef70e065a",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cfb09f46-d930-4310-87e0-395c6df5c297",
               "players": [
                 {
+                  "playerId": "team-player/deda0b07-7383-49aa-87a1-f9925abc03cf",
                   "name": "Stefan Colling",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/acd21a55-5310-48ea-83cd-35fef70e065a",
                   "name": "Jane Morrison",
                   "score": "8"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "David Magee",
-            "Duncan Styles"
+            {
+              "playerId": "team-player/829c4cb9-6330-4adc-b169-98fe5f6301f1",
+              "name": "David Magee"
+            },
+            {
+              "playerId": "team-player/193a0578-b50e-402b-82d2-4429beda4f0a",
+              "name": "Duncan Styles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2553680f-aa70-44c2-a9e6-eb13e6f8b821",
               "players": [
                 {
+                  "playerId": "team-player/829c4cb9-6330-4adc-b169-98fe5f6301f1",
                   "name": "David Magee",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/193a0578-b50e-402b-82d2-4429beda4f0a",
                   "name": "Duncan Styles",
                   "score": "9"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Andrew Symons",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/e86e340a-1261-4a0b-84bd-f71c4451306e",
+              "name": "Andrew Symons"
+            },
+            {
+              "playerId": "team-player/68ce1253-b059-498d-8100-4251e9ce318a",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5110323b-8c44-4562-a9f1-c45a11c6802b",
               "players": [
                 {
+                  "playerId": "team-player/e86e340a-1261-4a0b-84bd-f71c4451306e",
                   "name": "Andrew Symons",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/68ce1253-b059-498d-8100-4251e9ce318a",
                   "name": "Nathaniel Healy",
                   "score": "21"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Rosemary Saunders Robertson",
-            "Russell Harris"
+            {
+              "playerId": "team-player/0491e995-c46f-4227-8574-214f28231bbc",
+              "name": "Rosemary Saunders Robertson"
+            },
+            {
+              "playerId": "team-player/2aed8183-2bf4-4df5-b883-3fed06073950",
+              "name": "Russell Harris"
+            }
           ],
           "games": [
             {
+              "gameId": "game/94cb8f07-2888-41e5-84f9-3d7ff5b73ca2",
               "players": [
                 {
+                  "playerId": "team-player/0491e995-c46f-4227-8574-214f28231bbc",
                   "name": "Rosemary Saunders Robertson",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/2aed8183-2bf4-4df5-b883-3fed06073950",
                   "name": "Russell Harris",
                   "score": "26"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Alastair Burn-Murdoch",
-            "Fred Rogerson"
+            {
+              "playerId": "team-player/e65951f1-8411-4e71-bc58-e99525cd6086",
+              "name": "Alastair Burn-Murdoch"
+            },
+            {
+              "playerId": "team-player/793e4972-3174-42fa-811e-0b0e4e929a2a",
+              "name": "Fred Rogerson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/515da640-c5a1-4f87-b241-c2d5ccd68739",
               "players": [
                 {
+                  "playerId": "team-player/e65951f1-8411-4e71-bc58-e99525cd6086",
                   "name": "Alastair Burn-Murdoch",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/793e4972-3174-42fa-811e-0b0e4e929a2a",
                   "name": "Fred Rogerson",
                   "score": "20"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "John Owen",
-            "Fiachra Carroll"
+            {
+              "playerId": "team-player/86dc5ea9-a4e8-424f-9233-e10276db077b",
+              "name": "John Owen"
+            },
+            {
+              "playerId": "team-player/95ee8f90-816b-4f08-801e-92d4dc2b9a4d",
+              "name": "Fiachra Carroll"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f5737cec-a42b-45ae-8fb8-52868349a6f7",
               "players": [
                 {
+                  "playerId": "team-player/86dc5ea9-a4e8-424f-9233-e10276db077b",
                   "name": "John Owen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/95ee8f90-816b-4f08-801e-92d4dc2b9a4d",
                   "name": "Fiachra Carroll",
                   "score": "17"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "John Owen",
-            "Fred Rogerson"
+            {
+              "playerId": "team-player/86dc5ea9-a4e8-424f-9233-e10276db077b",
+              "name": "John Owen"
+            },
+            {
+              "playerId": "team-player/793e4972-3174-42fa-811e-0b0e4e929a2a",
+              "name": "Fred Rogerson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d63d919d-4b4e-4713-afcf-87f8ceec3f24",
               "players": [
                 {
+                  "playerId": "team-player/86dc5ea9-a4e8-424f-9233-e10276db077b",
                   "name": "John Owen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/793e4972-3174-42fa-811e-0b0e4e929a2a",
                   "name": "Fred Rogerson",
                   "score": "8"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "Rosemary Saunders Robertson",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/0491e995-c46f-4227-8574-214f28231bbc",
+              "name": "Rosemary Saunders Robertson"
+            },
+            {
+              "playerId": "team-player/acd21a55-5310-48ea-83cd-35fef70e065a",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/51d2f808-ac50-4369-9a44-216d3eb2ef84",
               "players": [
                 {
+                  "playerId": "team-player/0491e995-c46f-4227-8574-214f28231bbc",
                   "name": "Rosemary Saunders Robertson",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/acd21a55-5310-48ea-83cd-35fef70e065a",
                   "name": "Jane Morrison",
                   "score": "13"
                 }
@@ -291,17 +448,26 @@
         },
         {
           "players": [
-            "Alastair Burn-Murdoch",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/e65951f1-8411-4e71-bc58-e99525cd6086",
+              "name": "Alastair Burn-Murdoch"
+            },
+            {
+              "playerId": "team-player/68ce1253-b059-498d-8100-4251e9ce318a",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c02812b6-e6f0-47b2-aac2-44cf1555b5d1",
               "players": [
                 {
+                  "playerId": "team-player/e65951f1-8411-4e71-bc58-e99525cd6086",
                   "name": "Alastair Burn-Murdoch",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/68ce1253-b059-498d-8100-4251e9ce318a",
                   "name": "Nathaniel Healy",
                   "score": "19"
                 }
@@ -313,17 +479,26 @@
         },
         {
           "players": [
-            "Stefan Colling",
-            "Duncan Styles"
+            {
+              "playerId": "team-player/deda0b07-7383-49aa-87a1-f9925abc03cf",
+              "name": "Stefan Colling"
+            },
+            {
+              "playerId": "team-player/193a0578-b50e-402b-82d2-4429beda4f0a",
+              "name": "Duncan Styles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/479fd9b2-eaee-4f44-b779-e0bb5438d26f",
               "players": [
                 {
+                  "playerId": "team-player/deda0b07-7383-49aa-87a1-f9925abc03cf",
                   "name": "Stefan Colling",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/193a0578-b50e-402b-82d2-4429beda4f0a",
                   "name": "Duncan Styles",
                   "score": "7"
                 }
@@ -335,17 +510,26 @@
         },
         {
           "players": [
-            "Andrew Symons",
-            "Fiachra Carroll"
+            {
+              "playerId": "team-player/e86e340a-1261-4a0b-84bd-f71c4451306e",
+              "name": "Andrew Symons"
+            },
+            {
+              "playerId": "team-player/95ee8f90-816b-4f08-801e-92d4dc2b9a4d",
+              "name": "Fiachra Carroll"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0dfd5fe7-4280-407c-9d6e-2960a0529ed8",
               "players": [
                 {
+                  "playerId": "team-player/e86e340a-1261-4a0b-84bd-f71c4451306e",
                   "name": "Andrew Symons",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/95ee8f90-816b-4f08-801e-92d4dc2b9a4d",
                   "name": "Fiachra Carroll",
                   "score": "17"
                 }
@@ -357,17 +541,26 @@
         },
         {
           "players": [
-            "David Magee",
-            "Russell Harris"
+            {
+              "playerId": "team-player/829c4cb9-6330-4adc-b169-98fe5f6301f1",
+              "name": "David Magee"
+            },
+            {
+              "playerId": "team-player/2aed8183-2bf4-4df5-b883-3fed06073950",
+              "name": "Russell Harris"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b63321bd-7d5b-401f-8187-14b6c89c5033",
               "players": [
                 {
+                  "playerId": "team-player/829c4cb9-6330-4adc-b169-98fe5f6301f1",
                   "name": "David Magee",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/2aed8183-2bf4-4df5-b883-3fed06073950",
                   "name": "Russell Harris",
                   "score": "13"
                 }
@@ -379,17 +572,26 @@
         },
         {
           "players": [
-            "Alastair Burn-Murdoch & Andrew Symons",
-            "Nathaniel Healy & Jane Morrison"
+            {
+              "playerId": "team-player/9a85ed8a-8d65-43af-87d9-d1cbdd0fd09b",
+              "name": "Alastair Burn-Murdoch & Andrew Symons"
+            },
+            {
+              "playerId": "team-player/2df2c306-5c9e-4c01-bd67-77f58f8e4724",
+              "name": "Nathaniel Healy & Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b9288bdc-29e9-4998-ab19-913db8ffd358",
               "players": [
                 {
+                  "playerId": "team-player/9a85ed8a-8d65-43af-87d9-d1cbdd0fd09b",
                   "name": "Alastair Burn-Murdoch & Andrew Symons",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/2df2c306-5c9e-4c01-bd67-77f58f8e4724",
                   "name": "Nathaniel Healy & Jane Morrison",
                   "score": "20"
                 }
@@ -401,17 +603,26 @@
         },
         {
           "players": [
-            "Stefan Colling & Rosemary Saunders Robertson",
-            "Russell Harris & Duncan Styles"
+            {
+              "playerId": "team-player/8433e768-71c5-4a5f-90c0-f7af33abd79b",
+              "name": "Stefan Colling & Rosemary Saunders Robertson"
+            },
+            {
+              "playerId": "team-player/2d653173-e6ea-42cc-9967-90a9e1257c61",
+              "name": "Russell Harris & Duncan Styles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/59aef618-bf03-4b22-9de9-cd18904f3a18",
               "players": [
                 {
+                  "playerId": "team-player/8433e768-71c5-4a5f-90c0-f7af33abd79b",
                   "name": "Stefan Colling & Rosemary Saunders Robertson",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/2d653173-e6ea-42cc-9967-90a9e1257c61",
                   "name": "Russell Harris & Duncan Styles",
                   "score": "20"
                 }
@@ -423,17 +634,26 @@
         },
         {
           "players": [
-            "John Owen & David Magee",
-            "Fiachra Carroll & Fred Rogerson"
+            {
+              "playerId": "team-player/c19b6f9e-adb8-4762-9e4d-c671ce2f3420",
+              "name": "John Owen & David Magee"
+            },
+            {
+              "playerId": "team-player/0ea7842c-e20a-45d8-8947-0d27f859070d",
+              "name": "Fiachra Carroll & Fred Rogerson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30d3c80e-49a1-43e1-abfa-b1d3eeeb2073",
               "players": [
                 {
+                  "playerId": "team-player/c19b6f9e-adb8-4762-9e4d-c671ce2f3420",
                   "name": "John Owen & David Magee",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/0ea7842c-e20a-45d8-8947-0d27f859070d",
                   "name": "Fiachra Carroll & Fred Rogerson",
                   "score": "19"
                 }
@@ -445,17 +665,26 @@
         },
         {
           "players": [
-            "John Owen",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/86dc5ea9-a4e8-424f-9233-e10276db077b",
+              "name": "John Owen"
+            },
+            {
+              "playerId": "team-player/68ce1253-b059-498d-8100-4251e9ce318a",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/039b6282-89b2-49f1-81a0-7df525387f9c",
               "players": [
                 {
+                  "playerId": "team-player/86dc5ea9-a4e8-424f-9233-e10276db077b",
                   "name": "John Owen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/68ce1253-b059-498d-8100-4251e9ce318a",
                   "name": "Nathaniel Healy",
                   "score": "5"
                 }
@@ -467,17 +696,26 @@
         },
         {
           "players": [
-            "David Magee",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/829c4cb9-6330-4adc-b169-98fe5f6301f1",
+              "name": "David Magee"
+            },
+            {
+              "playerId": "team-player/acd21a55-5310-48ea-83cd-35fef70e065a",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac01d47e-6bef-4c2a-a347-8defc5aa402c",
               "players": [
                 {
+                  "playerId": "team-player/829c4cb9-6330-4adc-b169-98fe5f6301f1",
                   "name": "David Magee",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/acd21a55-5310-48ea-83cd-35fef70e065a",
                   "name": "Jane Morrison",
                   "score": "26"
                 }
@@ -489,17 +727,26 @@
         },
         {
           "players": [
-            "Stefan Colling",
-            "Russell Harris"
+            {
+              "playerId": "team-player/deda0b07-7383-49aa-87a1-f9925abc03cf",
+              "name": "Stefan Colling"
+            },
+            {
+              "playerId": "team-player/2aed8183-2bf4-4df5-b883-3fed06073950",
+              "name": "Russell Harris"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d628f92-ad89-4085-b663-f5a3c48dd3db",
               "players": [
                 {
+                  "playerId": "team-player/deda0b07-7383-49aa-87a1-f9925abc03cf",
                   "name": "Stefan Colling",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/2aed8183-2bf4-4df5-b883-3fed06073950",
                   "name": "Russell Harris",
                   "score": "26"
                 }
@@ -511,17 +758,26 @@
         },
         {
           "players": [
-            "Alastair Burn-Murdoch",
-            "Fiachra Carroll"
+            {
+              "playerId": "team-player/e65951f1-8411-4e71-bc58-e99525cd6086",
+              "name": "Alastair Burn-Murdoch"
+            },
+            {
+              "playerId": "team-player/95ee8f90-816b-4f08-801e-92d4dc2b9a4d",
+              "name": "Fiachra Carroll"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7044cc5d-9387-4256-9090-38ac252db206",
               "players": [
                 {
+                  "playerId": "team-player/e65951f1-8411-4e71-bc58-e99525cd6086",
                   "name": "Alastair Burn-Murdoch",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/95ee8f90-816b-4f08-801e-92d4dc2b9a4d",
                   "name": "Fiachra Carroll",
                   "score": "26"
                 }
@@ -533,17 +789,26 @@
         },
         {
           "players": [
-            "Rosemary Saunders Robertson",
-            "Duncan Styles"
+            {
+              "playerId": "team-player/0491e995-c46f-4227-8574-214f28231bbc",
+              "name": "Rosemary Saunders Robertson"
+            },
+            {
+              "playerId": "team-player/193a0578-b50e-402b-82d2-4429beda4f0a",
+              "name": "Duncan Styles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ac2f451-effe-473d-8dc4-2221e03205b3",
               "players": [
                 {
+                  "playerId": "team-player/0491e995-c46f-4227-8574-214f28231bbc",
                   "name": "Rosemary Saunders Robertson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/193a0578-b50e-402b-82d2-4429beda4f0a",
                   "name": "Duncan Styles",
                   "score": "2"
                 }
@@ -555,17 +820,26 @@
         },
         {
           "players": [
-            "Andrew Symons",
-            "Fred Rogerson"
+            {
+              "playerId": "team-player/e86e340a-1261-4a0b-84bd-f71c4451306e",
+              "name": "Andrew Symons"
+            },
+            {
+              "playerId": "team-player/793e4972-3174-42fa-811e-0b0e4e929a2a",
+              "name": "Fred Rogerson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d1ff7be0-6836-4c6a-83d2-a50d43261e7a",
               "players": [
                 {
+                  "playerId": "team-player/e86e340a-1261-4a0b-84bd-f71c4451306e",
                   "name": "Andrew Symons",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/793e4972-3174-42fa-811e-0b0e4e929a2a",
                   "name": "Fred Rogerson",
                   "score": "17"
                 }

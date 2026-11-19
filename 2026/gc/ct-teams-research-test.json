@@ -1,33 +1,55 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e8b3d3a1-74ff-4afe-a7d8-db406839161b",
   "name": "CT Teams Research Test",
   "sport": "gc",
   "firstDay": "2026-08-30",
   "lastDay": "2026-08-30",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Canada",
       "shortName": "CAN",
       "players": [
-        "Casey Clip",
-        "Jimmy Jumper",
-        "Jimmy Jumper & Casey Clip"
+        {
+          "playerId": "team-player/b62dbf8b-febf-46f7-b7c7-78c7de292644",
+          "name": "Casey Clip"
+        },
+        {
+          "playerId": "team-player/3de69610-425c-4c5e-9c4f-779b1d9a2cee",
+          "name": "Jimmy Jumper"
+        },
+        {
+          "playerId": "team-player/1b18a9c8-3132-48c0-b733-deb9a717eeaf",
+          "name": "Jimmy Jumper & Casey Clip"
+        }
       ]
     },
     {
       "name": "Sweden",
       "shortName": "SWE",
       "players": [
-        "Sven Svensson",
-        "Sven Svensson & Ulla Ulriksson",
-        "Ulla Ulriksson"
+        {
+          "playerId": "team-player/d8cab93d-6bca-402a-a786-ba68858cbb0d",
+          "name": "Sven Svensson"
+        },
+        {
+          "playerId": "team-player/f7e033ea-2f62-46ca-8d6b-af96203dbcad",
+          "name": "Sven Svensson & Ulla Ulriksson"
+        },
+        {
+          "playerId": "team-player/cd54c726-91f0-42c2-b47d-888aa0799eb9",
+          "name": "Ulla Ulriksson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/3da34619-3b1b-48e7-a5fa-a494191d4b9c",
       "teams": [
         "Canada",
         "Sweden"
@@ -37,17 +59,26 @@
       "matches": [
         {
           "players": [
-            "Jimmy Jumper",
-            "Sven Svensson"
+            {
+              "playerId": "team-player/3de69610-425c-4c5e-9c4f-779b1d9a2cee",
+              "name": "Jimmy Jumper"
+            },
+            {
+              "playerId": "team-player/d8cab93d-6bca-402a-a786-ba68858cbb0d",
+              "name": "Sven Svensson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c5f7b16-57da-4ab1-8afb-499a65bb666a",
               "players": [
                 {
+                  "playerId": "team-player/3de69610-425c-4c5e-9c4f-779b1d9a2cee",
                   "name": "Jimmy Jumper",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d8cab93d-6bca-402a-a786-ba68858cbb0d",
                   "name": "Sven Svensson",
                   "score": "5"
                 }
@@ -56,12 +87,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/93389fba-4a9f-4397-92fb-4affc38fd98e",
               "players": [
                 {
+                  "playerId": "team-player/3de69610-425c-4c5e-9c4f-779b1d9a2cee",
                   "name": "Jimmy Jumper",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d8cab93d-6bca-402a-a786-ba68858cbb0d",
                   "name": "Sven Svensson",
                   "score": "7"
                 }
@@ -70,12 +104,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/65ffa851-b43e-42de-a138-ee9d94435067",
               "players": [
                 {
+                  "playerId": "team-player/3de69610-425c-4c5e-9c4f-779b1d9a2cee",
                   "name": "Jimmy Jumper",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d8cab93d-6bca-402a-a786-ba68858cbb0d",
                   "name": "Sven Svensson",
                   "score": "3"
                 }
@@ -87,17 +124,26 @@
         },
         {
           "players": [
-            "Casey Clip",
-            "Ulla Ulriksson"
+            {
+              "playerId": "team-player/b62dbf8b-febf-46f7-b7c7-78c7de292644",
+              "name": "Casey Clip"
+            },
+            {
+              "playerId": "team-player/cd54c726-91f0-42c2-b47d-888aa0799eb9",
+              "name": "Ulla Ulriksson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/871215a4-8df5-4821-9d03-1375ba3d3173",
               "players": [
                 {
+                  "playerId": "team-player/b62dbf8b-febf-46f7-b7c7-78c7de292644",
                   "name": "Casey Clip",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cd54c726-91f0-42c2-b47d-888aa0799eb9",
                   "name": "Ulla Ulriksson",
                   "score": "4"
                 }
@@ -106,12 +152,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/819a709e-506b-4bad-ad56-38c10c252443",
               "players": [
                 {
+                  "playerId": "team-player/b62dbf8b-febf-46f7-b7c7-78c7de292644",
                   "name": "Casey Clip",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cd54c726-91f0-42c2-b47d-888aa0799eb9",
                   "name": "Ulla Ulriksson",
                   "score": "2"
                 }
@@ -123,17 +172,26 @@
         },
         {
           "players": [
-            "Jimmy Jumper & Casey Clip",
-            "Sven Svensson & Ulla Ulriksson"
+            {
+              "playerId": "team-player/1b18a9c8-3132-48c0-b733-deb9a717eeaf",
+              "name": "Jimmy Jumper & Casey Clip"
+            },
+            {
+              "playerId": "team-player/f7e033ea-2f62-46ca-8d6b-af96203dbcad",
+              "name": "Sven Svensson & Ulla Ulriksson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/745ae4ac-961c-46fc-a704-8bb646b55f97",
               "players": [
                 {
+                  "playerId": "team-player/1b18a9c8-3132-48c0-b733-deb9a717eeaf",
                   "name": "Jimmy Jumper & Casey Clip",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f7e033ea-2f62-46ca-8d6b-af96203dbcad",
                   "name": "Sven Svensson & Ulla Ulriksson",
                   "score": "7"
                 }
@@ -142,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/61335270-3cd3-464c-bf1e-1568912d71e9",
               "players": [
                 {
+                  "playerId": "team-player/1b18a9c8-3132-48c0-b733-deb9a717eeaf",
                   "name": "Jimmy Jumper & Casey Clip",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f7e033ea-2f62-46ca-8d6b-af96203dbcad",
                   "name": "Sven Svensson & Ulla Ulriksson",
                   "score": "7"
                 }

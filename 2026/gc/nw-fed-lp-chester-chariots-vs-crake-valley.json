@@ -1,36 +1,67 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/aff3a670-cdb7-45cd-b039-ee1a15150ed1",
   "name": "NW Fed LP GC Chester Chariots vs Crake Valley",
   "sport": "gc",
   "firstDay": "2026-08-08",
   "lastDay": "2026-08-08",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Chester Chariots",
       "shortName": "Chester Ch",
       "players": [
-        "Christine Thomas",
-        "Garry Greenwood",
-        "Garry Greenwood - meet again",
-        "Sarah Clements"
+        {
+          "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
+          "name": "Christine Thomas"
+        },
+        {
+          "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
+          "name": "Garry Greenwood"
+        },
+        {
+          "playerId": "team-player/be6422ec-8ce2-4022-92f9-46ec2192b317",
+          "name": "Garry Greenwood - meet again"
+        },
+        {
+          "playerId": "team-player/f5258f6e-10d9-40fc-90fc-3baec08a2bb4",
+          "name": "Sarah Clements"
+        }
       ]
     },
     {
       "name": "Crake Valley",
       "shortName": "Crake Vall",
       "players": [
-        "ChrisX Williamson",
-        "ChrisX Williamson - meet again",
-        "John Bowes",
-        "John Bowes - meet again",
-        "Paul Galley"
+        {
+          "playerId": "team-player/43026108-7d81-4e07-95e1-55bcc74f5f3d",
+          "name": "ChrisX Williamson"
+        },
+        {
+          "playerId": "team-player/c9399a96-25fe-4468-aa38-a2d60433f54d",
+          "name": "ChrisX Williamson - meet again"
+        },
+        {
+          "playerId": "team-player/a37a7228-8651-4672-ac3c-cf4e2ecf8665",
+          "name": "John Bowes"
+        },
+        {
+          "playerId": "team-player/102554b4-79cf-4511-b4d1-a3f21f25e893",
+          "name": "John Bowes - meet again"
+        },
+        {
+          "playerId": "team-player/18d806e6-81b8-4e72-9055-a2c5694bb80e",
+          "name": "Paul Galley"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b013b44f-b968-409a-a6d1-a1921e03b089",
       "teams": [
         "Chester Chariots",
         "Crake Valley"
@@ -40,17 +71,26 @@
       "matches": [
         {
           "players": [
-            "Sarah Clements",
-            "John Bowes"
+            {
+              "playerId": "team-player/f5258f6e-10d9-40fc-90fc-3baec08a2bb4",
+              "name": "Sarah Clements"
+            },
+            {
+              "playerId": "team-player/a37a7228-8651-4672-ac3c-cf4e2ecf8665",
+              "name": "John Bowes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b27f08d-1c5b-44de-9ed9-391077744f3b",
               "players": [
                 {
+                  "playerId": "team-player/f5258f6e-10d9-40fc-90fc-3baec08a2bb4",
                   "name": "Sarah Clements",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a37a7228-8651-4672-ac3c-cf4e2ecf8665",
                   "name": "John Bowes",
                   "score": "3"
                 }
@@ -62,17 +102,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "Paul Galley"
+            {
+              "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/18d806e6-81b8-4e72-9055-a2c5694bb80e",
+              "name": "Paul Galley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/851cf32a-2211-4d87-87bd-d61fd46a27ef",
               "players": [
                 {
+                  "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
                   "name": "Garry Greenwood",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/18d806e6-81b8-4e72-9055-a2c5694bb80e",
                   "name": "Paul Galley",
                   "score": "7"
                 }
@@ -84,17 +133,26 @@
         },
         {
           "players": [
-            "Christine Thomas",
-            "ChrisX Williamson"
+            {
+              "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
+              "name": "Christine Thomas"
+            },
+            {
+              "playerId": "team-player/43026108-7d81-4e07-95e1-55bcc74f5f3d",
+              "name": "ChrisX Williamson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bdd29b32-cae2-40d5-bd0e-6aaf6e01f6fc",
               "players": [
                 {
+                  "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
                   "name": "Christine Thomas",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/43026108-7d81-4e07-95e1-55bcc74f5f3d",
                   "name": "ChrisX Williamson",
                   "score": "7"
                 }
@@ -106,17 +164,26 @@
         },
         {
           "players": [
-            "Sarah Clements",
-            "ChrisX Williamson"
+            {
+              "playerId": "team-player/f5258f6e-10d9-40fc-90fc-3baec08a2bb4",
+              "name": "Sarah Clements"
+            },
+            {
+              "playerId": "team-player/43026108-7d81-4e07-95e1-55bcc74f5f3d",
+              "name": "ChrisX Williamson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b526584-2239-4ab4-bd1e-6be06401b119",
               "players": [
                 {
+                  "playerId": "team-player/f5258f6e-10d9-40fc-90fc-3baec08a2bb4",
                   "name": "Sarah Clements",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/43026108-7d81-4e07-95e1-55bcc74f5f3d",
                   "name": "ChrisX Williamson",
                   "score": "5"
                 }
@@ -128,17 +195,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "John Bowes"
+            {
+              "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/a37a7228-8651-4672-ac3c-cf4e2ecf8665",
+              "name": "John Bowes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ded3855-c7b8-4fca-8e3e-eb9524c6d5a0",
               "players": [
                 {
+                  "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
                   "name": "Garry Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a37a7228-8651-4672-ac3c-cf4e2ecf8665",
                   "name": "John Bowes",
                   "score": "4"
                 }
@@ -150,17 +226,26 @@
         },
         {
           "players": [
-            "Christine Thomas",
-            "Paul Galley"
+            {
+              "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
+              "name": "Christine Thomas"
+            },
+            {
+              "playerId": "team-player/18d806e6-81b8-4e72-9055-a2c5694bb80e",
+              "name": "Paul Galley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a65e7142-32b4-42cf-bb82-d55de21a212b",
               "players": [
                 {
+                  "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
                   "name": "Christine Thomas",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/18d806e6-81b8-4e72-9055-a2c5694bb80e",
                   "name": "Paul Galley",
                   "score": "7"
                 }
@@ -172,17 +257,26 @@
         },
         {
           "players": [
-            "Sarah Clements",
-            "Paul Galley"
+            {
+              "playerId": "team-player/f5258f6e-10d9-40fc-90fc-3baec08a2bb4",
+              "name": "Sarah Clements"
+            },
+            {
+              "playerId": "team-player/18d806e6-81b8-4e72-9055-a2c5694bb80e",
+              "name": "Paul Galley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5da9bce0-8144-461b-b4a8-097bddb57100",
               "players": [
                 {
+                  "playerId": "team-player/f5258f6e-10d9-40fc-90fc-3baec08a2bb4",
                   "name": "Sarah Clements",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/18d806e6-81b8-4e72-9055-a2c5694bb80e",
                   "name": "Paul Galley",
                   "score": "5"
                 }
@@ -194,17 +288,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "ChrisX Williamson"
+            {
+              "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/43026108-7d81-4e07-95e1-55bcc74f5f3d",
+              "name": "ChrisX Williamson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bf772635-737c-4a71-a2c3-a4ff385636cc",
               "players": [
                 {
+                  "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
                   "name": "Garry Greenwood",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/43026108-7d81-4e07-95e1-55bcc74f5f3d",
                   "name": "ChrisX Williamson",
                   "score": "7"
                 }
@@ -216,17 +319,26 @@
         },
         {
           "players": [
-            "Christine Thomas",
-            "John Bowes"
+            {
+              "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
+              "name": "Christine Thomas"
+            },
+            {
+              "playerId": "team-player/a37a7228-8651-4672-ac3c-cf4e2ecf8665",
+              "name": "John Bowes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e8803c7-d995-42ca-a704-d155f2564e0d",
               "players": [
                 {
+                  "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
                   "name": "Christine Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a37a7228-8651-4672-ac3c-cf4e2ecf8665",
                   "name": "John Bowes",
                   "score": "5"
                 }
@@ -238,17 +350,26 @@
         },
         {
           "players": [
-            "Sarah Clements",
-            "John Bowes - meet again"
+            {
+              "playerId": "team-player/f5258f6e-10d9-40fc-90fc-3baec08a2bb4",
+              "name": "Sarah Clements"
+            },
+            {
+              "playerId": "team-player/102554b4-79cf-4511-b4d1-a3f21f25e893",
+              "name": "John Bowes - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/69e952a2-14e8-46a0-aed7-6704f356e4e1",
               "players": [
                 {
+                  "playerId": "team-player/f5258f6e-10d9-40fc-90fc-3baec08a2bb4",
                   "name": "Sarah Clements",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/102554b4-79cf-4511-b4d1-a3f21f25e893",
                   "name": "John Bowes - meet again",
                   "score": "2"
                 }
@@ -260,17 +381,26 @@
         },
         {
           "players": [
-            "Christine Thomas",
-            "ChrisX Williamson - meet again"
+            {
+              "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
+              "name": "Christine Thomas"
+            },
+            {
+              "playerId": "team-player/c9399a96-25fe-4468-aa38-a2d60433f54d",
+              "name": "ChrisX Williamson - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3a67fa0c-9652-4531-b0a1-e387265cc6be",
               "players": [
                 {
+                  "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
                   "name": "Christine Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c9399a96-25fe-4468-aa38-a2d60433f54d",
                   "name": "ChrisX Williamson - meet again",
                   "score": "3"
                 }
@@ -282,17 +412,26 @@
         },
         {
           "players": [
-            "Garry Greenwood - meet again",
-            "Paul Galley"
+            {
+              "playerId": "team-player/be6422ec-8ce2-4022-92f9-46ec2192b317",
+              "name": "Garry Greenwood - meet again"
+            },
+            {
+              "playerId": "team-player/18d806e6-81b8-4e72-9055-a2c5694bb80e",
+              "name": "Paul Galley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a164f345-a662-42f2-b1db-3c4a0a84d1b8",
               "players": [
                 {
+                  "playerId": "team-player/be6422ec-8ce2-4022-92f9-46ec2192b317",
                   "name": "Garry Greenwood - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/18d806e6-81b8-4e72-9055-a2c5694bb80e",
                   "name": "Paul Galley",
                   "score": "7"
                 }
@@ -304,17 +443,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "John Bowes - meet again"
+            {
+              "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/102554b4-79cf-4511-b4d1-a3f21f25e893",
+              "name": "John Bowes - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2cd08f79-7393-44ce-bc63-881b8b1e24b8",
               "players": [
                 {
+                  "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
                   "name": "Garry Greenwood",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/102554b4-79cf-4511-b4d1-a3f21f25e893",
                   "name": "John Bowes - meet again",
                   "score": "7"
                 }
@@ -326,17 +474,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "ChrisX Williamson - meet again"
+            {
+              "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/c9399a96-25fe-4468-aa38-a2d60433f54d",
+              "name": "ChrisX Williamson - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/91314cf7-d3a4-4b50-a1f1-ce7f30c49a8b",
               "players": [
                 {
+                  "playerId": "team-player/1ff67ec6-65f2-404f-871a-feadd07f3c92",
                   "name": "Garry Greenwood",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c9399a96-25fe-4468-aa38-a2d60433f54d",
                   "name": "ChrisX Williamson - meet again",
                   "score": "7"
                 }
@@ -348,17 +505,26 @@
         },
         {
           "players": [
-            "Christine Thomas",
-            "John Bowes - meet again"
+            {
+              "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
+              "name": "Christine Thomas"
+            },
+            {
+              "playerId": "team-player/102554b4-79cf-4511-b4d1-a3f21f25e893",
+              "name": "John Bowes - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f9a69b01-2287-42c8-97eb-8aa4f32b63a3",
               "players": [
                 {
+                  "playerId": "team-player/caafca89-0d47-491f-988e-3c8f358913a0",
                   "name": "Christine Thomas",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/102554b4-79cf-4511-b4d1-a3f21f25e893",
                   "name": "John Bowes - meet again",
                   "score": "7"
                 }

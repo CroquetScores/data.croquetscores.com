@@ -1,46 +1,89 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/09b302e6-75d5-4924-869e-dac6d712a752",
   "name": "Rheingoldpokal GC",
   "sport": "gc",
   "firstDay": "2015-05-23",
   "lastDay": "2015-05-25",
   "country": "ch",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Germany",
       "shortName": "DEU",
       "players": [
-        "Jochen Haldenwanger",
-        "Joern Vinnen",
-        "Michael Boeer",
-        "Peter Eckford-Jones",
-        "Peter Ockelmann",
-        "Rainer Kaltenthaler",
-        "Sabine Kaltenthaler"
+        {
+          "playerId": "team-player/ef320b61-b911-449b-9424-a8903e4cf319",
+          "name": "Jochen Haldenwanger"
+        },
+        {
+          "playerId": "team-player/0a67e31a-b4d0-4216-86b0-1b9eddca2833",
+          "name": "Joern Vinnen"
+        },
+        {
+          "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
+          "name": "Michael Boeer"
+        },
+        {
+          "playerId": "team-player/b8d6c2f6-90a5-4288-b57c-367c0d4bf981",
+          "name": "Peter Eckford-Jones"
+        },
+        {
+          "playerId": "team-player/ea57349d-e574-441a-9208-b03640c887b3",
+          "name": "Peter Ockelmann"
+        },
+        {
+          "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
+          "name": "Rainer Kaltenthaler"
+        },
+        {
+          "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
+          "name": "Sabine Kaltenthaler"
+        }
       ]
     },
     {
       "name": "Austria",
       "shortName": "AUT",
       "players": [
-        "Georg Schorr",
-        "Martin Guentner",
-        "Max Walderdorff"
+        {
+          "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
+          "name": "Georg Schorr"
+        },
+        {
+          "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
+          "name": "Martin Guentner"
+        },
+        {
+          "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
+          "name": "Max Walderdorff"
+        }
       ]
     },
     {
       "name": "Switzerland",
       "shortName": "CHE",
       "players": [
-        "Dave Underhill",
-        "Desmond George",
-        "Norman Eatough"
+        {
+          "playerId": "team-player/afeb4d43-283e-4b9e-b5fd-bdb6d9e57a4b",
+          "name": "Dave Underhill"
+        },
+        {
+          "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
+          "name": "Desmond George"
+        },
+        {
+          "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
+          "name": "Norman Eatough"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/43726bca-d01a-44c1-aa4c-9568e3932162",
       "teams": [
         "Germany",
         "Austria"
@@ -50,17 +93,26 @@
       "matches": [
         {
           "players": [
-            "Michael Boeer",
-            "Max Walderdorff"
+            {
+              "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
+              "name": "Michael Boeer"
+            },
+            {
+              "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
+              "name": "Max Walderdorff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a17bc40a-a2f0-4ec9-bea8-8c45b1939c78",
               "players": [
                 {
+                  "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
                   "name": "Michael Boeer",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
                   "name": "Max Walderdorff",
                   "score": "7"
                 }
@@ -72,17 +124,26 @@
         },
         {
           "players": [
-            "Rainer Kaltenthaler",
-            "Georg Schorr"
+            {
+              "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
+              "name": "Rainer Kaltenthaler"
+            },
+            {
+              "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
+              "name": "Georg Schorr"
+            }
           ],
           "games": [
             {
+              "gameId": "game/58a3a51a-903b-40cd-b6a9-3cd7d7292bad",
               "players": [
                 {
+                  "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
                   "name": "Rainer Kaltenthaler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "2"
                 }
@@ -91,12 +152,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d338bfff-aac4-4e49-a25b-f6d6cea02abf",
               "players": [
                 {
+                  "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
                   "name": "Rainer Kaltenthaler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "4"
                 }
@@ -108,17 +172,26 @@
         },
         {
           "players": [
-            "Sabine Kaltenthaler",
-            "Max Walderdorff"
+            {
+              "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
+              "name": "Sabine Kaltenthaler"
+            },
+            {
+              "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
+              "name": "Max Walderdorff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6b78c355-4625-4fa7-a2df-92a3ae76c2bf",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
                   "name": "Max Walderdorff",
                   "score": "7"
                 }
@@ -127,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5f7cce4b-a029-4f6d-81e9-ce4a53791bcb",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
                   "name": "Max Walderdorff",
                   "score": "7"
                 }
@@ -144,17 +220,26 @@
         },
         {
           "players": [
-            "Michael Boeer",
-            "Martin Guentner"
+            {
+              "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
+              "name": "Michael Boeer"
+            },
+            {
+              "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
+              "name": "Martin Guentner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/624af02d-b7a4-40cd-8658-3ab1db98c354",
               "players": [
                 {
+                  "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
                   "name": "Michael Boeer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "6"
                 }
@@ -163,12 +248,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/09aa3f92-3517-4995-918f-d8c237dfbd36",
               "players": [
                 {
+                  "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
                   "name": "Michael Boeer",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "7"
                 }
@@ -177,12 +265,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/826cd279-acad-401b-8427-e56751fdf055",
               "players": [
                 {
+                  "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
                   "name": "Michael Boeer",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "7"
                 }
@@ -194,17 +285,26 @@
         },
         {
           "players": [
-            "Sabine Kaltenthaler",
-            "Georg Schorr"
+            {
+              "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
+              "name": "Sabine Kaltenthaler"
+            },
+            {
+              "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
+              "name": "Georg Schorr"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8aa5b686-d249-46ca-9cb1-eb600bf4f4f1",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "5"
                 }
@@ -213,12 +313,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8a785d3b-558e-40e5-a7a7-a1f92825d00f",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "5"
                 }
@@ -230,17 +333,26 @@
         },
         {
           "players": [
-            "Joern Vinnen",
-            "Martin Guentner"
+            {
+              "playerId": "team-player/0a67e31a-b4d0-4216-86b0-1b9eddca2833",
+              "name": "Joern Vinnen"
+            },
+            {
+              "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
+              "name": "Martin Guentner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/21548ad4-627f-4426-ad31-4e5b30198331",
               "players": [
                 {
+                  "playerId": "team-player/0a67e31a-b4d0-4216-86b0-1b9eddca2833",
                   "name": "Joern Vinnen",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "7"
                 }
@@ -249,12 +361,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3e049c8b-4a8b-4f97-bda9-4aa3adacd999",
               "players": [
                 {
+                  "playerId": "team-player/0a67e31a-b4d0-4216-86b0-1b9eddca2833",
                   "name": "Joern Vinnen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "6"
                 }
@@ -263,12 +378,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4dd5a79e-5992-454d-ac96-4ae3c138f92e",
               "players": [
                 {
+                  "playerId": "team-player/0a67e31a-b4d0-4216-86b0-1b9eddca2833",
                   "name": "Joern Vinnen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "7"
                 }
@@ -280,17 +398,26 @@
         },
         {
           "players": [
-            "Joern Vinnen",
-            "Georg Schorr"
+            {
+              "playerId": "team-player/0a67e31a-b4d0-4216-86b0-1b9eddca2833",
+              "name": "Joern Vinnen"
+            },
+            {
+              "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
+              "name": "Georg Schorr"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b0fea057-759d-4668-b786-f8e7e52fbcf7",
               "players": [
                 {
+                  "playerId": "team-player/0a67e31a-b4d0-4216-86b0-1b9eddca2833",
                   "name": "Joern Vinnen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "5"
                 }
@@ -302,17 +429,26 @@
         },
         {
           "players": [
-            "Peter Eckford-Jones",
-            "Georg Schorr"
+            {
+              "playerId": "team-player/b8d6c2f6-90a5-4288-b57c-367c0d4bf981",
+              "name": "Peter Eckford-Jones"
+            },
+            {
+              "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
+              "name": "Georg Schorr"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e06b2734-58ed-4066-b86b-b3a61f8cd4c8",
               "players": [
                 {
+                  "playerId": "team-player/b8d6c2f6-90a5-4288-b57c-367c0d4bf981",
                   "name": "Peter Eckford-Jones",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "7"
                 }
@@ -321,12 +457,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e9b1acbe-3a30-4bf1-af27-272531c9866d",
               "players": [
                 {
+                  "playerId": "team-player/b8d6c2f6-90a5-4288-b57c-367c0d4bf981",
                   "name": "Peter Eckford-Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "5"
                 }
@@ -335,12 +474,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5c8aedbe-c35d-4bfe-affe-b0429cd5ca2b",
               "players": [
                 {
+                  "playerId": "team-player/b8d6c2f6-90a5-4288-b57c-367c0d4bf981",
                   "name": "Peter Eckford-Jones",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "7"
                 }
@@ -353,6 +495,7 @@
       ]
     },
     {
+      "competitionId": "competition/4be66b6a-88f9-4307-bc94-9e6b6aae6643",
       "teams": [
         "Austria",
         "Switzerland"
@@ -362,17 +505,26 @@
       "matches": [
         {
           "players": [
-            "Georg Schorr",
-            "Norman Eatough"
+            {
+              "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
+              "name": "Georg Schorr"
+            },
+            {
+              "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
+              "name": "Norman Eatough"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5cf595ab-7c6a-4b1a-96e8-763647bacf96",
               "players": [
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "7"
                 }
@@ -381,12 +533,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/722b93cb-83e7-4648-b9ec-e11a933a3c94",
               "players": [
                 {
+                  "playerId": "team-player/f5886160-cbf0-46b6-93bc-cccc12d351ff",
                   "name": "Georg Schorr",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "7"
                 }
@@ -398,17 +553,26 @@
         },
         {
           "players": [
-            "Martin Guentner",
-            "Norman Eatough"
+            {
+              "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
+              "name": "Martin Guentner"
+            },
+            {
+              "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
+              "name": "Norman Eatough"
+            }
           ],
           "games": [
             {
+              "gameId": "game/24b41a97-835d-49f4-8029-8fbe2becd23e",
               "players": [
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "4"
                 }
@@ -417,12 +581,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4f506c6f-803d-4d54-84aa-2802e75d5a99",
               "players": [
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "4"
                 }
@@ -434,17 +601,26 @@
         },
         {
           "players": [
-            "Martin Guentner",
-            "Dave Underhill"
+            {
+              "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
+              "name": "Martin Guentner"
+            },
+            {
+              "playerId": "team-player/afeb4d43-283e-4b9e-b5fd-bdb6d9e57a4b",
+              "name": "Dave Underhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6df9652c-3d33-48f4-9be9-cdf1c63da564",
               "players": [
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/afeb4d43-283e-4b9e-b5fd-bdb6d9e57a4b",
                   "name": "Dave Underhill",
                   "score": "6"
                 }
@@ -453,12 +629,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1933a250-389d-4b26-8725-87dd95d62b2c",
               "players": [
                 {
+                  "playerId": "team-player/3e715eb0-8d65-4f3e-8ee8-0c25d5cc0de2",
                   "name": "Martin Guentner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/afeb4d43-283e-4b9e-b5fd-bdb6d9e57a4b",
                   "name": "Dave Underhill",
                   "score": "2"
                 }
@@ -470,17 +649,26 @@
         },
         {
           "players": [
-            "Max Walderdorff",
-            "Norman Eatough"
+            {
+              "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
+              "name": "Max Walderdorff"
+            },
+            {
+              "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
+              "name": "Norman Eatough"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6b502c71-ce77-4ab1-85ac-4d270f3f09e9",
               "players": [
                 {
+                  "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
                   "name": "Max Walderdorff",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "5"
                 }
@@ -489,12 +677,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ddc8a0d9-7490-4cc0-b4a4-7726e648e2bc",
               "players": [
                 {
+                  "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
                   "name": "Max Walderdorff",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "7"
                 }
@@ -503,12 +694,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e6cf3a69-27ef-4b2d-810f-d85006afb5ed",
               "players": [
                 {
+                  "playerId": "team-player/478dcf0c-78ea-41ac-8038-c29e787182a8",
                   "name": "Max Walderdorff",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "2"
                 }
@@ -521,6 +715,7 @@
       ]
     },
     {
+      "competitionId": "competition/8ad4487b-4862-45d4-a00b-ddc577a1452e",
       "teams": [
         "Germany",
         "Switzerland"
@@ -530,17 +725,26 @@
       "matches": [
         {
           "players": [
-            "Rainer Kaltenthaler",
-            "Norman Eatough"
+            {
+              "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
+              "name": "Rainer Kaltenthaler"
+            },
+            {
+              "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
+              "name": "Norman Eatough"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f9b6c4a-589e-412b-96d2-06dc137e26d1",
               "players": [
                 {
+                  "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
                   "name": "Rainer Kaltenthaler",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "7"
                 }
@@ -552,17 +756,26 @@
         },
         {
           "players": [
-            "Sabine Kaltenthaler",
-            "Desmond George"
+            {
+              "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
+              "name": "Sabine Kaltenthaler"
+            },
+            {
+              "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
+              "name": "Desmond George"
+            }
           ],
           "games": [
             {
+              "gameId": "game/968712b5-b5ea-49c5-854e-cb7433d73c30",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "4"
                 }
@@ -571,12 +784,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/608bd03b-f3a6-4c25-a71e-67ef8ff5b9ab",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "7"
                 }
@@ -585,12 +801,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2b6948c2-4202-4dd5-9072-f26e76cf3be1",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "4"
                 }
@@ -602,17 +821,26 @@
         },
         {
           "players": [
-            "Rainer Kaltenthaler",
-            "Dave Underhill"
+            {
+              "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
+              "name": "Rainer Kaltenthaler"
+            },
+            {
+              "playerId": "team-player/afeb4d43-283e-4b9e-b5fd-bdb6d9e57a4b",
+              "name": "Dave Underhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2f751579-4290-4cfa-91ef-656f53a8e34d",
               "players": [
                 {
+                  "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
                   "name": "Rainer Kaltenthaler",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/afeb4d43-283e-4b9e-b5fd-bdb6d9e57a4b",
                   "name": "Dave Underhill",
                   "score": "7"
                 }
@@ -621,12 +849,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5417745b-0673-4c54-b64c-fe1999879b5c",
               "players": [
                 {
+                  "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
                   "name": "Rainer Kaltenthaler",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/afeb4d43-283e-4b9e-b5fd-bdb6d9e57a4b",
                   "name": "Dave Underhill",
                   "score": "7"
                 }
@@ -638,17 +869,26 @@
         },
         {
           "players": [
-            "Michael Boeer",
-            "Norman Eatough"
+            {
+              "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
+              "name": "Michael Boeer"
+            },
+            {
+              "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
+              "name": "Norman Eatough"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05f21e6a-8415-4121-a7ce-5ee46041a955",
               "players": [
                 {
+                  "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
                   "name": "Michael Boeer",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "7"
                 }
@@ -657,12 +897,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/52ec1298-e9ca-45e7-bf5d-30a22a464628",
               "players": [
                 {
+                  "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
                   "name": "Michael Boeer",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "7"
                 }
@@ -674,17 +917,26 @@
         },
         {
           "players": [
-            "Michael Boeer",
-            "Desmond George"
+            {
+              "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
+              "name": "Michael Boeer"
+            },
+            {
+              "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
+              "name": "Desmond George"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9376bc5-5416-449b-8eda-7ea024ed7ad4",
               "players": [
                 {
+                  "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
                   "name": "Michael Boeer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "6"
                 }
@@ -693,12 +945,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/de7a579e-c5b0-4333-9b24-d762e6f3d038",
               "players": [
                 {
+                  "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
                   "name": "Michael Boeer",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "7"
                 }
@@ -707,12 +962,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/35e7e9b4-29fe-4757-9f2c-f6dd6589d25d",
               "players": [
                 {
+                  "playerId": "team-player/8759c619-0ea1-4a7c-9a9f-6e1156b4c2f9",
                   "name": "Michael Boeer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "4"
                 }
@@ -724,17 +982,26 @@
         },
         {
           "players": [
-            "Sabine Kaltenthaler",
-            "Norman Eatough"
+            {
+              "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
+              "name": "Sabine Kaltenthaler"
+            },
+            {
+              "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
+              "name": "Norman Eatough"
+            }
           ],
           "games": [
             {
+              "gameId": "game/60990c6b-4909-43fb-9444-543220485bda",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "4"
                 }
@@ -743,12 +1010,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bf4523c4-6d86-4e0d-b763-17d74de35ba5",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "7"
                 }
@@ -757,12 +1027,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f29a8d30-0270-4a4d-9c87-8a64316fe42f",
               "players": [
                 {
+                  "playerId": "team-player/4218646a-72ae-4eea-ac0c-4fc181ef0466",
                   "name": "Sabine Kaltenthaler",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/459ee5a7-9294-41c4-b6ca-c145542072b7",
                   "name": "Norman Eatough",
                   "score": "7"
                 }
@@ -774,17 +1047,26 @@
         },
         {
           "players": [
-            "Jochen Haldenwanger",
-            "Desmond George"
+            {
+              "playerId": "team-player/ef320b61-b911-449b-9424-a8903e4cf319",
+              "name": "Jochen Haldenwanger"
+            },
+            {
+              "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
+              "name": "Desmond George"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f528de0-3769-4e07-bed3-7569f8777577",
               "players": [
                 {
+                  "playerId": "team-player/ef320b61-b911-449b-9424-a8903e4cf319",
                   "name": "Jochen Haldenwanger",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "7"
                 }
@@ -793,12 +1075,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a1f09a22-bedd-4c03-b2ad-9bd1097c2c0a",
               "players": [
                 {
+                  "playerId": "team-player/ef320b61-b911-449b-9424-a8903e4cf319",
                   "name": "Jochen Haldenwanger",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "7"
                 }
@@ -810,17 +1095,26 @@
         },
         {
           "players": [
-            "Rainer Kaltenthaler",
-            "Desmond George"
+            {
+              "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
+              "name": "Rainer Kaltenthaler"
+            },
+            {
+              "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
+              "name": "Desmond George"
+            }
           ],
           "games": [
             {
+              "gameId": "game/02b2ffcc-ce16-4ac6-a518-3f6ebfa81d0e",
               "players": [
                 {
+                  "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
                   "name": "Rainer Kaltenthaler",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "7"
                 }
@@ -829,12 +1123,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9ffa4ef3-c661-4259-a9d1-c7f3777f8828",
               "players": [
                 {
+                  "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
                   "name": "Rainer Kaltenthaler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "4"
                 }
@@ -843,12 +1140,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/124775f9-a5bc-45e1-a0e5-32e53802a888",
               "players": [
                 {
+                  "playerId": "team-player/eb48e43d-c16c-4fe3-8860-850d95104ca5",
                   "name": "Rainer Kaltenthaler",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/b64dd46c-d18d-45ef-908f-9e175689d8f7",
                   "name": "Desmond George",
                   "score": "7"
                 }

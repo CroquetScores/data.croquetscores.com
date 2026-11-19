@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/417844cf-2300-4ca6-af4a-4b88e9ab1a47",
   "name": "Solomon Trophy",
   "sport": "ac",
   "firstDay": "2018-08-07",
   "lastDay": "2018-08-10",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Great Britain",
       "shortName": "Great Brit",
       "players": [
-        "Carter & Patel",
-        "Christian Carter",
-        "Jeff Dawson",
-        "Jonathan Kirby",
-        "Kirby & Dawson",
-        "Mark Suter",
-        "Samir Patel",
-        "Stephen Mulliner",
-        "Suter & Mulliner"
+        {
+          "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
+          "name": "Carter & Patel"
+        },
+        {
+          "playerId": "team-player/49d6c407-76a8-4f90-9a15-54286beb18ce",
+          "name": "Christian Carter"
+        },
+        {
+          "playerId": "team-player/24f38aee-bbc2-45fb-97ad-60aaa6257d72",
+          "name": "Jeff Dawson"
+        },
+        {
+          "playerId": "team-player/d253bca3-abe0-4322-8ef0-9844fe64fd16",
+          "name": "Jonathan Kirby"
+        },
+        {
+          "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
+          "name": "Kirby & Dawson"
+        },
+        {
+          "playerId": "team-player/c2d874d2-eac9-4f16-8e0d-e1e9a1da68e4",
+          "name": "Mark Suter"
+        },
+        {
+          "playerId": "team-player/51988e4d-f35b-4aff-af46-1caef25234d4",
+          "name": "Samir Patel"
+        },
+        {
+          "playerId": "team-player/f69e84a3-c23f-4b2e-b099-5a78f4032c0b",
+          "name": "Stephen Mulliner"
+        },
+        {
+          "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
+          "name": "Suter & Mulliner"
+        }
       ]
     },
     {
       "name": "USA",
       "shortName": "USA",
       "players": [
-        "Abdelwahab & Rothman",
-        "Ben Rothman",
-        "Danny Huneycutt",
-        "Essick & Lawrence",
-        "Huneycutt & Morgan",
-        "Matthew Essick",
-        "Sherif Abdelwahab",
-        "Stephen Morgan",
-        "Stuart Lawrence"
+        {
+          "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
+          "name": "Abdelwahab & Rothman"
+        },
+        {
+          "playerId": "team-player/0f874876-a9d0-4ff6-8b2e-98762caa0cae",
+          "name": "Ben Rothman"
+        },
+        {
+          "playerId": "team-player/cd903eb7-1075-4760-a678-70be1aab1e1d",
+          "name": "Danny Huneycutt"
+        },
+        {
+          "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
+          "name": "Essick & Lawrence"
+        },
+        {
+          "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
+          "name": "Huneycutt & Morgan"
+        },
+        {
+          "playerId": "team-player/ad60a8f9-44a2-44f6-afac-ffd48ef20ce9",
+          "name": "Matthew Essick"
+        },
+        {
+          "playerId": "team-player/88ed3b81-18b0-47b9-9c6f-9ef60512988f",
+          "name": "Sherif Abdelwahab"
+        },
+        {
+          "playerId": "team-player/c610085d-3a38-45e8-9ac8-1bb2b6f93af1",
+          "name": "Stephen Morgan"
+        },
+        {
+          "playerId": "team-player/a3535f5b-3051-4f74-be50-5d8024823650",
+          "name": "Stuart Lawrence"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/24e42045-1c57-40d9-aee7-ee18b8c810ec",
       "teams": [
         "Great Britain",
         "USA"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Stephen Mulliner",
-            "Matthew Essick"
+            {
+              "playerId": "team-player/f69e84a3-c23f-4b2e-b099-5a78f4032c0b",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/ad60a8f9-44a2-44f6-afac-ffd48ef20ce9",
+              "name": "Matthew Essick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ab2b4497-ac6e-4e0b-9f42-aaeede456d7d",
               "players": [
                 {
+                  "playerId": "team-player/f69e84a3-c23f-4b2e-b099-5a78f4032c0b",
                   "name": "Stephen Mulliner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ad60a8f9-44a2-44f6-afac-ffd48ef20ce9",
                   "name": "Matthew Essick",
                   "score": "7"
                 }
@@ -68,12 +135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fde57501-1611-4d95-8196-eb3704a1946d",
               "players": [
                 {
+                  "playerId": "team-player/f69e84a3-c23f-4b2e-b099-5a78f4032c0b",
                   "name": "Stephen Mulliner",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/ad60a8f9-44a2-44f6-afac-ffd48ef20ce9",
                   "name": "Matthew Essick",
                   "score": "26"
                 }
@@ -82,12 +152,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fc1b38b2-c66c-4feb-9c24-9e6979486676",
               "players": [
                 {
+                  "playerId": "team-player/f69e84a3-c23f-4b2e-b099-5a78f4032c0b",
                   "name": "Stephen Mulliner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ad60a8f9-44a2-44f6-afac-ffd48ef20ce9",
                   "name": "Matthew Essick",
                   "score": "22"
                 }
@@ -99,17 +172,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "Danny Huneycutt"
+            {
+              "playerId": "team-player/51988e4d-f35b-4aff-af46-1caef25234d4",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/cd903eb7-1075-4760-a678-70be1aab1e1d",
+              "name": "Danny Huneycutt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fd52e5be-b6cc-41cd-877d-bf5c3c5e1e78",
               "players": [
                 {
+                  "playerId": "team-player/51988e4d-f35b-4aff-af46-1caef25234d4",
                   "name": "Samir Patel",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cd903eb7-1075-4760-a678-70be1aab1e1d",
                   "name": "Danny Huneycutt",
                   "score": "4"
                 }
@@ -118,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/284e4995-0d85-4d93-8564-5ef86cc22a0b",
               "players": [
                 {
+                  "playerId": "team-player/51988e4d-f35b-4aff-af46-1caef25234d4",
                   "name": "Samir Patel",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cd903eb7-1075-4760-a678-70be1aab1e1d",
                   "name": "Danny Huneycutt",
                   "score": "0"
                 }
@@ -135,17 +220,26 @@
         },
         {
           "players": [
-            "Mark Suter",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/c2d874d2-eac9-4f16-8e0d-e1e9a1da68e4",
+              "name": "Mark Suter"
+            },
+            {
+              "playerId": "team-player/0f874876-a9d0-4ff6-8b2e-98762caa0cae",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/47b1a633-7145-4f4a-a340-07e5a27930d6",
               "players": [
                 {
+                  "playerId": "team-player/c2d874d2-eac9-4f16-8e0d-e1e9a1da68e4",
                   "name": "Mark Suter",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/0f874876-a9d0-4ff6-8b2e-98762caa0cae",
                   "name": "Ben Rothman",
                   "score": "26"
                 }
@@ -154,12 +248,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6c2f891f-4d52-4b38-bce0-efdf3d400eb6",
               "players": [
                 {
+                  "playerId": "team-player/c2d874d2-eac9-4f16-8e0d-e1e9a1da68e4",
                   "name": "Mark Suter",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/0f874876-a9d0-4ff6-8b2e-98762caa0cae",
                   "name": "Ben Rothman",
                   "score": "26"
                 }
@@ -171,17 +268,26 @@
         },
         {
           "players": [
-            "Christian Carter",
-            "Sherif Abdelwahab"
+            {
+              "playerId": "team-player/49d6c407-76a8-4f90-9a15-54286beb18ce",
+              "name": "Christian Carter"
+            },
+            {
+              "playerId": "team-player/88ed3b81-18b0-47b9-9c6f-9ef60512988f",
+              "name": "Sherif Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f9ab6b75-33d4-4380-b35f-8cbbb7007783",
               "players": [
                 {
+                  "playerId": "team-player/49d6c407-76a8-4f90-9a15-54286beb18ce",
                   "name": "Christian Carter",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/88ed3b81-18b0-47b9-9c6f-9ef60512988f",
                   "name": "Sherif Abdelwahab",
                   "score": "0"
                 }
@@ -190,12 +296,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8c404898-3d55-4d8c-9348-66e552823bef",
               "players": [
                 {
+                  "playerId": "team-player/49d6c407-76a8-4f90-9a15-54286beb18ce",
                   "name": "Christian Carter",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/88ed3b81-18b0-47b9-9c6f-9ef60512988f",
                   "name": "Sherif Abdelwahab",
                   "score": "0"
                 }
@@ -207,17 +316,26 @@
         },
         {
           "players": [
-            "Jonathan Kirby",
-            "Stephen Morgan"
+            {
+              "playerId": "team-player/d253bca3-abe0-4322-8ef0-9844fe64fd16",
+              "name": "Jonathan Kirby"
+            },
+            {
+              "playerId": "team-player/c610085d-3a38-45e8-9ac8-1bb2b6f93af1",
+              "name": "Stephen Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/92d6fb4e-ac60-4ae0-a330-cb98dc9be51c",
               "players": [
                 {
+                  "playerId": "team-player/d253bca3-abe0-4322-8ef0-9844fe64fd16",
                   "name": "Jonathan Kirby",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c610085d-3a38-45e8-9ac8-1bb2b6f93af1",
                   "name": "Stephen Morgan",
                   "score": "13"
                 }
@@ -226,12 +344,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/98422392-66fa-415c-bd5b-0185d3f3fae7",
               "players": [
                 {
+                  "playerId": "team-player/d253bca3-abe0-4322-8ef0-9844fe64fd16",
                   "name": "Jonathan Kirby",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c610085d-3a38-45e8-9ac8-1bb2b6f93af1",
                   "name": "Stephen Morgan",
                   "score": "14"
                 }
@@ -243,17 +364,26 @@
         },
         {
           "players": [
-            "Jeff Dawson",
-            "Stuart Lawrence"
+            {
+              "playerId": "team-player/24f38aee-bbc2-45fb-97ad-60aaa6257d72",
+              "name": "Jeff Dawson"
+            },
+            {
+              "playerId": "team-player/a3535f5b-3051-4f74-be50-5d8024823650",
+              "name": "Stuart Lawrence"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f06e2b53-e071-40b7-b1c5-28817470f761",
               "players": [
                 {
+                  "playerId": "team-player/24f38aee-bbc2-45fb-97ad-60aaa6257d72",
                   "name": "Jeff Dawson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a3535f5b-3051-4f74-be50-5d8024823650",
                   "name": "Stuart Lawrence",
                   "score": "26"
                 }
@@ -262,12 +392,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/eb747000-461d-4e29-bd2e-73bf12d8433e",
               "players": [
                 {
+                  "playerId": "team-player/24f38aee-bbc2-45fb-97ad-60aaa6257d72",
                   "name": "Jeff Dawson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a3535f5b-3051-4f74-be50-5d8024823650",
                   "name": "Stuart Lawrence",
                   "score": "21"
                 }
@@ -276,12 +409,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e65057a9-c565-46c0-86a9-5077d35c70a8",
               "players": [
                 {
+                  "playerId": "team-player/24f38aee-bbc2-45fb-97ad-60aaa6257d72",
                   "name": "Jeff Dawson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a3535f5b-3051-4f74-be50-5d8024823650",
                   "name": "Stuart Lawrence",
                   "score": "9"
                 }
@@ -293,17 +429,26 @@
         },
         {
           "players": [
-            "Carter & Patel",
-            "Abdelwahab & Rothman"
+            {
+              "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
+              "name": "Carter & Patel"
+            },
+            {
+              "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
+              "name": "Abdelwahab & Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/75b06db3-efa2-4e24-acaa-834148da500f",
               "players": [
                 {
+                  "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
                   "name": "Carter & Patel",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
                   "name": "Abdelwahab & Rothman",
                   "score": "15"
                 }
@@ -312,12 +457,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/aac7e40b-78ce-40f5-8559-c3b66c7cb2b0",
               "players": [
                 {
+                  "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
                   "name": "Carter & Patel",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
                   "name": "Abdelwahab & Rothman",
                   "score": "26"
                 }
@@ -326,12 +474,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/93f1fd50-9677-4570-b82a-dbeeddd3499c",
               "players": [
                 {
+                  "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
                   "name": "Carter & Patel",
                   "score": "26tp(P)"
                 },
                 {
+                  "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
                   "name": "Abdelwahab & Rothman",
                   "score": "7"
                 }
@@ -343,17 +494,26 @@
         },
         {
           "players": [
-            "Suter & Mulliner",
-            "Huneycutt & Morgan"
+            {
+              "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
+              "name": "Suter & Mulliner"
+            },
+            {
+              "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
+              "name": "Huneycutt & Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac3991b0-64e0-48e4-8ff5-f461a3c4b8c4",
               "players": [
                 {
+                  "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
                   "name": "Suter & Mulliner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
                   "name": "Huneycutt & Morgan",
                   "score": "25"
                 }
@@ -362,12 +522,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9ddb0ef4-eba5-4d3f-bc7c-2d98355bf079",
               "players": [
                 {
+                  "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
                   "name": "Suter & Mulliner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
                   "name": "Huneycutt & Morgan",
                   "score": "24"
                 }
@@ -379,17 +542,26 @@
         },
         {
           "players": [
-            "Carter & Patel",
-            "Huneycutt & Morgan"
+            {
+              "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
+              "name": "Carter & Patel"
+            },
+            {
+              "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
+              "name": "Huneycutt & Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/768e2ec9-975f-4268-945e-562de901d90d",
               "players": [
                 {
+                  "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
                   "name": "Carter & Patel",
                   "score": "26tp(P)"
                 },
                 {
+                  "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
                   "name": "Huneycutt & Morgan",
                   "score": "9"
                 }
@@ -398,12 +570,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a6f4b8f7-5e46-4a46-99f4-44e0174ef0c7",
               "players": [
                 {
+                  "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
                   "name": "Carter & Patel",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
                   "name": "Huneycutt & Morgan",
                   "score": "15"
                 }
@@ -415,17 +590,26 @@
         },
         {
           "players": [
-            "Suter & Mulliner",
-            "Essick & Lawrence"
+            {
+              "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
+              "name": "Suter & Mulliner"
+            },
+            {
+              "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
+              "name": "Essick & Lawrence"
+            }
           ],
           "games": [
             {
+              "gameId": "game/25202129-ef8c-4379-8001-a86b66dac0ad",
               "players": [
                 {
+                  "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
                   "name": "Suter & Mulliner",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
                   "name": "Essick & Lawrence",
                   "score": "26"
                 }
@@ -434,12 +618,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ac0f72d3-f7e2-4f3d-a403-df04e0c0554c",
               "players": [
                 {
+                  "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
                   "name": "Suter & Mulliner",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
                   "name": "Essick & Lawrence",
                   "score": "26tp(L)"
                 }
@@ -451,17 +638,26 @@
         },
         {
           "players": [
-            "Kirby & Dawson",
-            "Abdelwahab & Rothman"
+            {
+              "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
+              "name": "Kirby & Dawson"
+            },
+            {
+              "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
+              "name": "Abdelwahab & Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/62a8a5c9-19f2-4d4d-a36d-6c9172a0f38f",
               "players": [
                 {
+                  "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
                   "name": "Kirby & Dawson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
                   "name": "Abdelwahab & Rothman",
                   "score": "10"
                 }
@@ -470,12 +666,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/742ef11b-eee6-44c4-9c2a-cf033f703cae",
               "players": [
                 {
+                  "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
                   "name": "Kirby & Dawson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
                   "name": "Abdelwahab & Rothman",
                   "score": "21"
                 }
@@ -487,17 +686,26 @@
         },
         {
           "players": [
-            "Kirby & Dawson",
-            "Essick & Lawrence"
+            {
+              "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
+              "name": "Kirby & Dawson"
+            },
+            {
+              "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
+              "name": "Essick & Lawrence"
+            }
           ],
           "games": [
             {
+              "gameId": "game/61e2560a-1e89-4937-8af0-b5d36802e148",
               "players": [
                 {
+                  "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
                   "name": "Kirby & Dawson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
                   "name": "Essick & Lawrence",
                   "score": "22"
                 }
@@ -509,17 +717,26 @@
         },
         {
           "players": [
-            "Carter & Patel",
-            "Essick & Lawrence"
+            {
+              "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
+              "name": "Carter & Patel"
+            },
+            {
+              "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
+              "name": "Essick & Lawrence"
+            }
           ],
           "games": [
             {
+              "gameId": "game/36a4a769-1034-451e-b19f-4eba6eac5b46",
               "players": [
                 {
+                  "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
                   "name": "Carter & Patel",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
                   "name": "Essick & Lawrence",
                   "score": "19"
                 }
@@ -528,12 +745,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/da4d5d8e-d6de-4140-8dc9-12eda63f7698",
               "players": [
                 {
+                  "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
                   "name": "Carter & Patel",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
                   "name": "Essick & Lawrence",
                   "score": "26stp(L)"
                 }
@@ -542,12 +762,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/68511e31-45ab-4d58-b5eb-0a2b5bacdeae",
               "players": [
                 {
+                  "playerId": "team-player/666e632d-3f65-4a38-8cf0-b4f0daf774bc",
                   "name": "Carter & Patel",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/5b0dcbf3-54da-4908-bd03-91e2b4746a13",
                   "name": "Essick & Lawrence",
                   "score": "26otp(P)"
                 }
@@ -559,17 +782,26 @@
         },
         {
           "players": [
-            "Kirby & Dawson",
-            "Huneycutt & Morgan"
+            {
+              "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
+              "name": "Kirby & Dawson"
+            },
+            {
+              "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
+              "name": "Huneycutt & Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b0350bbf-3f16-4713-bb50-23d0f2b909e4",
               "players": [
                 {
+                  "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
                   "name": "Kirby & Dawson",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
                   "name": "Huneycutt & Morgan",
                   "score": "26"
                 }
@@ -578,12 +810,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/284f2de6-9e0a-454c-8d51-364dd03ec192",
               "players": [
                 {
+                  "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
                   "name": "Kirby & Dawson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
                   "name": "Huneycutt & Morgan",
                   "score": "6"
                 }
@@ -592,12 +827,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/859b1572-eb0f-423a-88bc-ca9365a3b0f0",
               "players": [
                 {
+                  "playerId": "team-player/324136d4-caf3-407e-98b9-5fa9b5f12215",
                   "name": "Kirby & Dawson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e30eb6da-4186-4ab3-be09-b81f034b3a32",
                   "name": "Huneycutt & Morgan",
                   "score": "26"
                 }
@@ -609,17 +847,26 @@
         },
         {
           "players": [
-            "Suter & Mulliner",
-            "Abdelwahab & Rothman"
+            {
+              "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
+              "name": "Suter & Mulliner"
+            },
+            {
+              "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
+              "name": "Abdelwahab & Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bd73bccc-9fbf-4ba0-9349-92f634f8fcdb",
               "players": [
                 {
+                  "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
                   "name": "Suter & Mulliner",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
                   "name": "Abdelwahab & Rothman",
                   "score": "26"
                 }
@@ -628,12 +875,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b6d0f644-c52a-46fb-a823-a00d8556a431",
               "players": [
                 {
+                  "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
                   "name": "Suter & Mulliner",
                   "score": "26tp(S)"
                 },
                 {
+                  "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
                   "name": "Abdelwahab & Rothman",
                   "score": "0"
                 }
@@ -642,12 +892,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d63243c6-2856-4658-88a6-1e47ac03ab58",
               "players": [
                 {
+                  "playerId": "team-player/17584cb2-7687-4ebd-b267-0470fd5774b1",
                   "name": "Suter & Mulliner",
                   "score": "26tp(S)"
                 },
                 {
+                  "playerId": "team-player/d413ab9d-9bb3-48d6-a08e-21cee9bf9709",
                   "name": "Abdelwahab & Rothman",
                   "score": "0"
                 }
@@ -659,17 +912,26 @@
         },
         {
           "players": [
-            "Mark Suter",
-            "Matthew Essick"
+            {
+              "playerId": "team-player/c2d874d2-eac9-4f16-8e0d-e1e9a1da68e4",
+              "name": "Mark Suter"
+            },
+            {
+              "playerId": "team-player/ad60a8f9-44a2-44f6-afac-ffd48ef20ce9",
+              "name": "Matthew Essick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d6bb246a-58a4-487a-a18d-156f0942f2c2",
               "players": [
                 {
+                  "playerId": "team-player/c2d874d2-eac9-4f16-8e0d-e1e9a1da68e4",
                   "name": "Mark Suter",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/ad60a8f9-44a2-44f6-afac-ffd48ef20ce9",
                   "name": "Matthew Essick",
                   "score": "26tp"
                 }
@@ -678,12 +940,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/49ecf03b-f924-49be-806f-2ddebfe68782",
               "players": [
                 {
+                  "playerId": "team-player/c2d874d2-eac9-4f16-8e0d-e1e9a1da68e4",
                   "name": "Mark Suter",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/ad60a8f9-44a2-44f6-afac-ffd48ef20ce9",
                   "name": "Matthew Essick",
                   "score": "26tp"
                 }
@@ -695,17 +960,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "Stephen Morgan"
+            {
+              "playerId": "team-player/51988e4d-f35b-4aff-af46-1caef25234d4",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/c610085d-3a38-45e8-9ac8-1bb2b6f93af1",
+              "name": "Stephen Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3e5bea44-b301-4bff-a6af-80135094736b",
               "players": [
                 {
+                  "playerId": "team-player/51988e4d-f35b-4aff-af46-1caef25234d4",
                   "name": "Samir Patel",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/c610085d-3a38-45e8-9ac8-1bb2b6f93af1",
                   "name": "Stephen Morgan",
                   "score": "7"
                 }
@@ -714,12 +988,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/08baf13c-dd26-43e4-acca-75f822508203",
               "players": [
                 {
+                  "playerId": "team-player/51988e4d-f35b-4aff-af46-1caef25234d4",
                   "name": "Samir Patel",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/c610085d-3a38-45e8-9ac8-1bb2b6f93af1",
                   "name": "Stephen Morgan",
                   "score": "14"
                 }
@@ -731,17 +1008,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/f69e84a3-c23f-4b2e-b099-5a78f4032c0b",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/0f874876-a9d0-4ff6-8b2e-98762caa0cae",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/10e0ec64-cef7-495a-95a1-20c0420d216e",
               "players": [
                 {
+                  "playerId": "team-player/f69e84a3-c23f-4b2e-b099-5a78f4032c0b",
                   "name": "Stephen Mulliner",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/0f874876-a9d0-4ff6-8b2e-98762caa0cae",
                   "name": "Ben Rothman",
                   "score": "0"
                 }
@@ -750,12 +1036,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0cb0e352-ddf1-4c86-9ed8-8def442816c8",
               "players": [
                 {
+                  "playerId": "team-player/f69e84a3-c23f-4b2e-b099-5a78f4032c0b",
                   "name": "Stephen Mulliner",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/0f874876-a9d0-4ff6-8b2e-98762caa0cae",
                   "name": "Ben Rothman",
                   "score": "26tp"
                 }
@@ -764,12 +1053,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/987960dd-2499-49b0-b76c-e3e9c16b77b4",
               "players": [
                 {
+                  "playerId": "team-player/f69e84a3-c23f-4b2e-b099-5a78f4032c0b",
                   "name": "Stephen Mulliner",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/0f874876-a9d0-4ff6-8b2e-98762caa0cae",
                   "name": "Ben Rothman",
                   "score": "0"
                 }
@@ -781,17 +1073,26 @@
         },
         {
           "players": [
-            "Christian Carter",
-            "Stuart Lawrence"
+            {
+              "playerId": "team-player/49d6c407-76a8-4f90-9a15-54286beb18ce",
+              "name": "Christian Carter"
+            },
+            {
+              "playerId": "team-player/a3535f5b-3051-4f74-be50-5d8024823650",
+              "name": "Stuart Lawrence"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4c40f16e-dd83-4e46-828e-86432d758c6a",
               "players": [
                 {
+                  "playerId": "team-player/49d6c407-76a8-4f90-9a15-54286beb18ce",
                   "name": "Christian Carter",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/a3535f5b-3051-4f74-be50-5d8024823650",
                   "name": "Stuart Lawrence",
                   "score": "0"
                 }
@@ -800,12 +1101,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f61aebd5-5561-470b-98f7-7ef40c221706",
               "players": [
                 {
+                  "playerId": "team-player/49d6c407-76a8-4f90-9a15-54286beb18ce",
                   "name": "Christian Carter",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/a3535f5b-3051-4f74-be50-5d8024823650",
                   "name": "Stuart Lawrence",
                   "score": "26qp"
                 }
@@ -817,17 +1121,26 @@
         },
         {
           "players": [
-            "Jonathan Kirby",
-            "Danny Huneycutt"
+            {
+              "playerId": "team-player/d253bca3-abe0-4322-8ef0-9844fe64fd16",
+              "name": "Jonathan Kirby"
+            },
+            {
+              "playerId": "team-player/cd903eb7-1075-4760-a678-70be1aab1e1d",
+              "name": "Danny Huneycutt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8abb004-6d71-4870-9221-0db1686e32e8",
               "players": [
                 {
+                  "playerId": "team-player/d253bca3-abe0-4322-8ef0-9844fe64fd16",
                   "name": "Jonathan Kirby",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cd903eb7-1075-4760-a678-70be1aab1e1d",
                   "name": "Danny Huneycutt",
                   "score": "26"
                 }
@@ -836,12 +1149,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e4ad60d6-b9e2-4e65-b919-cd4d4ce2a5bd",
               "players": [
                 {
+                  "playerId": "team-player/d253bca3-abe0-4322-8ef0-9844fe64fd16",
                   "name": "Jonathan Kirby",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/cd903eb7-1075-4760-a678-70be1aab1e1d",
                   "name": "Danny Huneycutt",
                   "score": "20"
                 }
@@ -853,17 +1169,26 @@
         },
         {
           "players": [
-            "Jeff Dawson",
-            "Sherif Abdelwahab"
+            {
+              "playerId": "team-player/24f38aee-bbc2-45fb-97ad-60aaa6257d72",
+              "name": "Jeff Dawson"
+            },
+            {
+              "playerId": "team-player/88ed3b81-18b0-47b9-9c6f-9ef60512988f",
+              "name": "Sherif Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/97638ce0-3d0a-489e-8e19-fb74b144cdc2",
               "players": [
                 {
+                  "playerId": "team-player/24f38aee-bbc2-45fb-97ad-60aaa6257d72",
                   "name": "Jeff Dawson",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/88ed3b81-18b0-47b9-9c6f-9ef60512988f",
                   "name": "Sherif Abdelwahab",
                   "score": "2"
                 }
@@ -872,12 +1197,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7ed850f6-113b-4f86-adb3-952a9caf28d4",
               "players": [
                 {
+                  "playerId": "team-player/24f38aee-bbc2-45fb-97ad-60aaa6257d72",
                   "name": "Jeff Dawson",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/88ed3b81-18b0-47b9-9c6f-9ef60512988f",
                   "name": "Sherif Abdelwahab",
                   "score": "26tp"
                 }

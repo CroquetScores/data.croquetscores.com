@@ -1,45 +1,57 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/fbdb047d-119e-4b08-9cac-9e26d259ef59",
   "name": "San Miguel Doubles",
   "sport": "gc",
   "firstDay": "2021-08-14",
   "lastDay": "2021-08-15",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "players": [
     {
+      "playerId": "tournament-player/556a1413-7d85-43de-8cd1-92b8eb265533",
       "name": "Levine/Levine",
       "representing": null
     },
     {
+      "playerId": "tournament-player/8d570a24-0b6f-4524-882b-401f3b11b028",
       "name": "Levine/Sullivan",
       "representing": null
     },
     {
+      "playerId": "tournament-player/8cb08065-7ff2-4b70-b3b4-038f621781df",
       "name": "Levine/Tisler",
       "representing": null
     },
     {
+      "playerId": "tournament-player/5a2b270a-19ae-4dcb-b285-95b3f1bb4a49",
       "name": "Lozano/Gutierrez",
       "representing": null
     },
     {
+      "playerId": "tournament-player/3aca703b-5f30-445a-a5e5-0869dbbe0944",
       "name": "Novell/Tisler",
       "representing": null
     }
   ],
   "competitions": [
     {
+      "competitionId": "competition/7a113bd8-284b-454d-a5e4-2b2d038f8a63",
       "name": "Doubles Block",
       "kind": "block",
       "games": [
         {
+          "gameId": "game/c46d8a34-337e-4aac-91fe-487c4e61d5ff",
           "players": [
             {
+              "playerId": "tournament-player/5a2b270a-19ae-4dcb-b285-95b3f1bb4a49",
               "name": "Lozano/Gutierrez",
               "score": "7"
             },
             {
+              "playerId": "tournament-player/3aca703b-5f30-445a-a5e5-0869dbbe0944",
               "name": "Novell/Tisler",
               "score": "3"
             }
@@ -48,12 +60,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/b2eceb29-b3a3-401d-a04d-23440d9efccd",
           "players": [
             {
+              "playerId": "tournament-player/5a2b270a-19ae-4dcb-b285-95b3f1bb4a49",
               "name": "Lozano/Gutierrez",
               "score": "7"
             },
             {
+              "playerId": "tournament-player/8d570a24-0b6f-4524-882b-401f3b11b028",
               "name": "Levine/Sullivan",
               "score": "3"
             }
@@ -62,12 +77,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/dbb14742-1b83-44b5-9c18-9ccdd2c3d04d",
           "players": [
             {
+              "playerId": "tournament-player/3aca703b-5f30-445a-a5e5-0869dbbe0944",
               "name": "Novell/Tisler",
               "score": "7"
             },
             {
+              "playerId": "tournament-player/8d570a24-0b6f-4524-882b-401f3b11b028",
               "name": "Levine/Sullivan",
               "score": "4"
             }
@@ -79,22 +97,32 @@
       "bestOf": 1
     },
     {
+      "competitionId": "competition/77c8e0c9-1b4c-48ef-9033-cdf43f6dbe4c",
       "name": "Doubles Playoff",
       "kind": "knockout",
       "matches": [
         {
           "players": [
-            "Levine/Levine",
-            "Novell/Tisler"
+            {
+              "playerId": "tournament-player/556a1413-7d85-43de-8cd1-92b8eb265533",
+              "name": "Levine/Levine"
+            },
+            {
+              "playerId": "tournament-player/3aca703b-5f30-445a-a5e5-0869dbbe0944",
+              "name": "Novell/Tisler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/90ba0f11-22f4-4752-93a6-694ce76a6ecb",
               "players": [
                 {
+                  "playerId": "tournament-player/556a1413-7d85-43de-8cd1-92b8eb265533",
                   "name": "Levine/Levine",
                   "score": "7"
                 },
                 {
+                  "playerId": "tournament-player/3aca703b-5f30-445a-a5e5-0869dbbe0944",
                   "name": "Novell/Tisler",
                   "score": "4"
                 }
@@ -107,22 +135,32 @@
       ]
     },
     {
+      "competitionId": "competition/8f47c9dd-6956-4b81-8629-ec18fb492e0e",
       "name": "Doubles Final Match",
       "kind": "knockout",
       "matches": [
         {
           "players": [
-            "Lozano/Gutierrez",
-            "Levine/Tisler"
+            {
+              "playerId": "tournament-player/5a2b270a-19ae-4dcb-b285-95b3f1bb4a49",
+              "name": "Lozano/Gutierrez"
+            },
+            {
+              "playerId": "tournament-player/8cb08065-7ff2-4b70-b3b4-038f621781df",
+              "name": "Levine/Tisler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a6943c01-f441-4e9e-a6ea-3ab62c1a53c4",
               "players": [
                 {
+                  "playerId": "tournament-player/5a2b270a-19ae-4dcb-b285-95b3f1bb4a49",
                   "name": "Lozano/Gutierrez",
                   "score": "7"
                 },
                 {
+                  "playerId": "tournament-player/8cb08065-7ff2-4b70-b3b4-038f621781df",
                   "name": "Levine/Tisler",
                   "score": "6"
                 }

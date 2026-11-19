@@ -1,41 +1,87 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/48efc1a9-b120-4123-8197-e6fdab51abc0",
   "name": "SWCF: Dyffryn v Cheltenham",
   "sport": "gc",
   "firstDay": "2018-06-07",
   "lastDay": "2018-06-07",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Dyffryn",
       "shortName": "Dyffryn",
       "players": [
-        "John Cording",
-        "John Cording & Paul Pristavec",
-        "John Evans",
-        "John Evans & Kevin Ham",
-        "Kevin Ham",
-        "Paul Pristavec"
+        {
+          "playerId": "team-player/c426c695-719c-4be0-9e3b-2cdb7ff354f5",
+          "name": "John Cording"
+        },
+        {
+          "playerId": "team-player/d363a7d0-44e4-4eee-8a3d-96c6129bf5d9",
+          "name": "John Cording & Paul Pristavec"
+        },
+        {
+          "playerId": "team-player/1899a7e3-1ccd-4437-8622-a6e1405d56d1",
+          "name": "John Evans"
+        },
+        {
+          "playerId": "team-player/ac010dd9-1086-46f5-8691-391a6cb58568",
+          "name": "John Evans & Kevin Ham"
+        },
+        {
+          "playerId": "team-player/28568630-eec4-405e-9da0-70b1a743e7a3",
+          "name": "Kevin Ham"
+        },
+        {
+          "playerId": "team-player/3c268a05-0a52-42dc-bc98-4dc772ec9948",
+          "name": "Paul Pristavec"
+        }
       ]
     },
     {
       "name": "Cheltenham",
       "shortName": "Cheltenham",
       "players": [
-        "Andrew Cowing",
-        "Andrew Cowing & Klim Seabright",
-        "Andrew Cowing & Richard Raby",
-        "Darryl Whitehead",
-        "Klim Seabright",
-        "Klim Seabright & Darryl Whitehead",
-        "Richard Raby",
-        "Richard Raby & Darryl Whitehead"
+        {
+          "playerId": "team-player/731f36c7-310d-499d-83f9-3d23b6291412",
+          "name": "Andrew Cowing"
+        },
+        {
+          "playerId": "team-player/d63b1f76-5eff-4891-a545-f59d1784e90b",
+          "name": "Andrew Cowing & Klim Seabright"
+        },
+        {
+          "playerId": "team-player/22cad144-190c-4457-b29c-ba967fd3f027",
+          "name": "Andrew Cowing & Richard Raby"
+        },
+        {
+          "playerId": "team-player/d42b4142-d2fa-4f1c-8307-39a3421b7af3",
+          "name": "Darryl Whitehead"
+        },
+        {
+          "playerId": "team-player/530c345a-e83a-440d-9c77-37f638300249",
+          "name": "Klim Seabright"
+        },
+        {
+          "playerId": "team-player/9bf5e6ec-10d2-4cd6-b7a5-7effb486b3b2",
+          "name": "Klim Seabright & Darryl Whitehead"
+        },
+        {
+          "playerId": "team-player/248f56e6-2000-4f67-872f-5bf744971c8e",
+          "name": "Richard Raby"
+        },
+        {
+          "playerId": "team-player/b7442081-10a1-4078-af07-ae217aad93a5",
+          "name": "Richard Raby & Darryl Whitehead"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/6744679d-6973-4321-998f-dd63ad795034",
       "teams": [
         "Dyffryn",
         "Cheltenham"
@@ -45,17 +91,26 @@
       "matches": [
         {
           "players": [
-            "John Evans & Kevin Ham",
-            "Andrew Cowing & Richard Raby"
+            {
+              "playerId": "team-player/ac010dd9-1086-46f5-8691-391a6cb58568",
+              "name": "John Evans & Kevin Ham"
+            },
+            {
+              "playerId": "team-player/22cad144-190c-4457-b29c-ba967fd3f027",
+              "name": "Andrew Cowing & Richard Raby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a7f23674-0e7f-44be-b0c8-9367600ef46b",
               "players": [
                 {
+                  "playerId": "team-player/ac010dd9-1086-46f5-8691-391a6cb58568",
                   "name": "John Evans & Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/22cad144-190c-4457-b29c-ba967fd3f027",
                   "name": "Andrew Cowing & Richard Raby",
                   "score": "4"
                 }
@@ -67,17 +122,26 @@
         },
         {
           "players": [
-            "John Cording & Paul Pristavec",
-            "Klim Seabright & Darryl Whitehead"
+            {
+              "playerId": "team-player/d363a7d0-44e4-4eee-8a3d-96c6129bf5d9",
+              "name": "John Cording & Paul Pristavec"
+            },
+            {
+              "playerId": "team-player/9bf5e6ec-10d2-4cd6-b7a5-7effb486b3b2",
+              "name": "Klim Seabright & Darryl Whitehead"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8c20efcb-cb49-445d-b413-8be8b66bc421",
               "players": [
                 {
+                  "playerId": "team-player/d363a7d0-44e4-4eee-8a3d-96c6129bf5d9",
                   "name": "John Cording & Paul Pristavec",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/9bf5e6ec-10d2-4cd6-b7a5-7effb486b3b2",
                   "name": "Klim Seabright & Darryl Whitehead",
                   "score": "7"
                 }
@@ -89,17 +153,26 @@
         },
         {
           "players": [
-            "John Evans & Kevin Ham",
-            "Richard Raby & Darryl Whitehead"
+            {
+              "playerId": "team-player/ac010dd9-1086-46f5-8691-391a6cb58568",
+              "name": "John Evans & Kevin Ham"
+            },
+            {
+              "playerId": "team-player/b7442081-10a1-4078-af07-ae217aad93a5",
+              "name": "Richard Raby & Darryl Whitehead"
+            }
           ],
           "games": [
             {
+              "gameId": "game/29ff3c58-e2c0-4892-b237-317c4003ed54",
               "players": [
                 {
+                  "playerId": "team-player/ac010dd9-1086-46f5-8691-391a6cb58568",
                   "name": "John Evans & Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b7442081-10a1-4078-af07-ae217aad93a5",
                   "name": "Richard Raby & Darryl Whitehead",
                   "score": "6"
                 }
@@ -111,17 +184,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Darryl Whitehead"
+            {
+              "playerId": "team-player/1899a7e3-1ccd-4437-8622-a6e1405d56d1",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/d42b4142-d2fa-4f1c-8307-39a3421b7af3",
+              "name": "Darryl Whitehead"
+            }
           ],
           "games": [
             {
+              "gameId": "game/39c273be-651d-4b2b-8a30-89c105f3ce34",
               "players": [
                 {
+                  "playerId": "team-player/1899a7e3-1ccd-4437-8622-a6e1405d56d1",
                   "name": "John Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d42b4142-d2fa-4f1c-8307-39a3421b7af3",
                   "name": "Darryl Whitehead",
                   "score": "1"
                 }
@@ -133,17 +215,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Klim Seabright"
+            {
+              "playerId": "team-player/28568630-eec4-405e-9da0-70b1a743e7a3",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/530c345a-e83a-440d-9c77-37f638300249",
+              "name": "Klim Seabright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c54822c0-d1c3-4a4c-bbe7-f7240efa1cc2",
               "players": [
                 {
+                  "playerId": "team-player/28568630-eec4-405e-9da0-70b1a743e7a3",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/530c345a-e83a-440d-9c77-37f638300249",
                   "name": "Klim Seabright",
                   "score": "5"
                 }
@@ -155,17 +246,26 @@
         },
         {
           "players": [
-            "Paul Pristavec",
-            "Richard Raby"
+            {
+              "playerId": "team-player/3c268a05-0a52-42dc-bc98-4dc772ec9948",
+              "name": "Paul Pristavec"
+            },
+            {
+              "playerId": "team-player/248f56e6-2000-4f67-872f-5bf744971c8e",
+              "name": "Richard Raby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3f8e49cb-236c-46f8-b6fb-b03f51c04776",
               "players": [
                 {
+                  "playerId": "team-player/3c268a05-0a52-42dc-bc98-4dc772ec9948",
                   "name": "Paul Pristavec",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/248f56e6-2000-4f67-872f-5bf744971c8e",
                   "name": "Richard Raby",
                   "score": "7"
                 }
@@ -177,17 +277,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Andrew Cowing"
+            {
+              "playerId": "team-player/c426c695-719c-4be0-9e3b-2cdb7ff354f5",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/731f36c7-310d-499d-83f9-3d23b6291412",
+              "name": "Andrew Cowing"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ce3ddeab-d1ad-4849-8d96-41132ab6a93d",
               "players": [
                 {
+                  "playerId": "team-player/c426c695-719c-4be0-9e3b-2cdb7ff354f5",
                   "name": "John Cording",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/731f36c7-310d-499d-83f9-3d23b6291412",
                   "name": "Andrew Cowing",
                   "score": "7"
                 }
@@ -199,17 +308,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Klim Seabright"
+            {
+              "playerId": "team-player/1899a7e3-1ccd-4437-8622-a6e1405d56d1",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/530c345a-e83a-440d-9c77-37f638300249",
+              "name": "Klim Seabright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/342e6043-fc46-4371-b10c-82740b04a0cb",
               "players": [
                 {
+                  "playerId": "team-player/1899a7e3-1ccd-4437-8622-a6e1405d56d1",
                   "name": "John Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/530c345a-e83a-440d-9c77-37f638300249",
                   "name": "Klim Seabright",
                   "score": "2"
                 }
@@ -221,17 +339,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Darryl Whitehead"
+            {
+              "playerId": "team-player/28568630-eec4-405e-9da0-70b1a743e7a3",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/d42b4142-d2fa-4f1c-8307-39a3421b7af3",
+              "name": "Darryl Whitehead"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6f09224-2811-4ead-8468-16cac0144f57",
               "players": [
                 {
+                  "playerId": "team-player/28568630-eec4-405e-9da0-70b1a743e7a3",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d42b4142-d2fa-4f1c-8307-39a3421b7af3",
                   "name": "Darryl Whitehead",
                   "score": "2"
                 }
@@ -243,17 +370,26 @@
         },
         {
           "players": [
-            "Paul Pristavec",
-            "Andrew Cowing"
+            {
+              "playerId": "team-player/3c268a05-0a52-42dc-bc98-4dc772ec9948",
+              "name": "Paul Pristavec"
+            },
+            {
+              "playerId": "team-player/731f36c7-310d-499d-83f9-3d23b6291412",
+              "name": "Andrew Cowing"
+            }
           ],
           "games": [
             {
+              "gameId": "game/062e0138-b861-4d9e-b970-0a63467330f8",
               "players": [
                 {
+                  "playerId": "team-player/3c268a05-0a52-42dc-bc98-4dc772ec9948",
                   "name": "Paul Pristavec",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/731f36c7-310d-499d-83f9-3d23b6291412",
                   "name": "Andrew Cowing",
                   "score": "7"
                 }
@@ -265,17 +401,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Richard Raby"
+            {
+              "playerId": "team-player/c426c695-719c-4be0-9e3b-2cdb7ff354f5",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/248f56e6-2000-4f67-872f-5bf744971c8e",
+              "name": "Richard Raby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c1098e83-c670-4031-a7b2-8500f2c5bc80",
               "players": [
                 {
+                  "playerId": "team-player/c426c695-719c-4be0-9e3b-2cdb7ff354f5",
                   "name": "John Cording",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/248f56e6-2000-4f67-872f-5bf744971c8e",
                   "name": "Richard Raby",
                   "score": "7"
                 }
@@ -287,17 +432,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Richard Raby"
+            {
+              "playerId": "team-player/1899a7e3-1ccd-4437-8622-a6e1405d56d1",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/248f56e6-2000-4f67-872f-5bf744971c8e",
+              "name": "Richard Raby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8118a206-6ef2-437f-aba2-5ddd017a748b",
               "players": [
                 {
+                  "playerId": "team-player/1899a7e3-1ccd-4437-8622-a6e1405d56d1",
                   "name": "John Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/248f56e6-2000-4f67-872f-5bf744971c8e",
                   "name": "Richard Raby",
                   "score": "5"
                 }
@@ -309,17 +463,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Andrew Cowing"
+            {
+              "playerId": "team-player/28568630-eec4-405e-9da0-70b1a743e7a3",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/731f36c7-310d-499d-83f9-3d23b6291412",
+              "name": "Andrew Cowing"
+            }
           ],
           "games": [
             {
+              "gameId": "game/798b23bb-0fe5-4d40-8941-87e647e026d4",
               "players": [
                 {
+                  "playerId": "team-player/28568630-eec4-405e-9da0-70b1a743e7a3",
                   "name": "Kevin Ham",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/731f36c7-310d-499d-83f9-3d23b6291412",
                   "name": "Andrew Cowing",
                   "score": "7"
                 }
@@ -331,17 +494,26 @@
         },
         {
           "players": [
-            "Paul Pristavec",
-            "Klim Seabright"
+            {
+              "playerId": "team-player/3c268a05-0a52-42dc-bc98-4dc772ec9948",
+              "name": "Paul Pristavec"
+            },
+            {
+              "playerId": "team-player/530c345a-e83a-440d-9c77-37f638300249",
+              "name": "Klim Seabright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ddb8c5b8-ea99-4871-99ed-2c705702d95a",
               "players": [
                 {
+                  "playerId": "team-player/3c268a05-0a52-42dc-bc98-4dc772ec9948",
                   "name": "Paul Pristavec",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/530c345a-e83a-440d-9c77-37f638300249",
                   "name": "Klim Seabright",
                   "score": "7"
                 }
@@ -353,17 +525,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Darryl Whitehead"
+            {
+              "playerId": "team-player/c426c695-719c-4be0-9e3b-2cdb7ff354f5",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/d42b4142-d2fa-4f1c-8307-39a3421b7af3",
+              "name": "Darryl Whitehead"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05e3d8a3-ef6d-4b14-b96d-42d2dc7cb391",
               "players": [
                 {
+                  "playerId": "team-player/c426c695-719c-4be0-9e3b-2cdb7ff354f5",
                   "name": "John Cording",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d42b4142-d2fa-4f1c-8307-39a3421b7af3",
                   "name": "Darryl Whitehead",
                   "score": "7"
                 }
@@ -375,17 +556,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Andrew Cowing"
+            {
+              "playerId": "team-player/1899a7e3-1ccd-4437-8622-a6e1405d56d1",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/731f36c7-310d-499d-83f9-3d23b6291412",
+              "name": "Andrew Cowing"
+            }
           ],
           "games": [
             {
+              "gameId": "game/78926431-0d7c-4132-ada3-15e5b84a1a3e",
               "players": [
                 {
+                  "playerId": "team-player/1899a7e3-1ccd-4437-8622-a6e1405d56d1",
                   "name": "John Evans",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/731f36c7-310d-499d-83f9-3d23b6291412",
                   "name": "Andrew Cowing",
                   "score": "7"
                 }
@@ -397,17 +587,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Richard Raby"
+            {
+              "playerId": "team-player/28568630-eec4-405e-9da0-70b1a743e7a3",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/248f56e6-2000-4f67-872f-5bf744971c8e",
+              "name": "Richard Raby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3cd92525-0420-420c-8727-4dff9d991246",
               "players": [
                 {
+                  "playerId": "team-player/28568630-eec4-405e-9da0-70b1a743e7a3",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/248f56e6-2000-4f67-872f-5bf744971c8e",
                   "name": "Richard Raby",
                   "score": "6"
                 }
@@ -419,17 +618,26 @@
         },
         {
           "players": [
-            "Paul Pristavec",
-            "Darryl Whitehead"
+            {
+              "playerId": "team-player/3c268a05-0a52-42dc-bc98-4dc772ec9948",
+              "name": "Paul Pristavec"
+            },
+            {
+              "playerId": "team-player/d42b4142-d2fa-4f1c-8307-39a3421b7af3",
+              "name": "Darryl Whitehead"
+            }
           ],
           "games": [
             {
+              "gameId": "game/772e4ec1-9dfa-48f6-b246-9b5ec62a7268",
               "players": [
                 {
+                  "playerId": "team-player/3c268a05-0a52-42dc-bc98-4dc772ec9948",
                   "name": "Paul Pristavec",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d42b4142-d2fa-4f1c-8307-39a3421b7af3",
                   "name": "Darryl Whitehead",
                   "score": "5"
                 }
@@ -441,17 +649,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Klim Seabright"
+            {
+              "playerId": "team-player/c426c695-719c-4be0-9e3b-2cdb7ff354f5",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/530c345a-e83a-440d-9c77-37f638300249",
+              "name": "Klim Seabright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf575c2e-b588-4f9b-b9ac-d0e6d58e8da1",
               "players": [
                 {
+                  "playerId": "team-player/c426c695-719c-4be0-9e3b-2cdb7ff354f5",
                   "name": "John Cording",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/530c345a-e83a-440d-9c77-37f638300249",
                   "name": "Klim Seabright",
                   "score": "7"
                 }

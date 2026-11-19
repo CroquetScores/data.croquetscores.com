@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/bdf460cf-0486-4d50-afa0-818dfa036441",
   "name": "CAGC Inter Club Nottingham vs High Wycombe",
   "sport": "gc",
   "firstDay": "2023-04-27",
   "lastDay": "2023-04-27",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "Cathy Turski",
-        "Euan Burridge",
-        "Euan Burridge & Ian Burridge",
-        "Ian Burridge",
-        "Ian Vincent"
+        {
+          "playerId": "team-player/de3cccd8-6b88-4627-b2ee-0b5659dfa08d",
+          "name": "Cathy Turski"
+        },
+        {
+          "playerId": "team-player/a913244c-07e3-4239-8d52-0e1bde97fa28",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/05c63561-4415-4252-bc7e-4cc5f8e2adb4",
+          "name": "Euan Burridge & Ian Burridge"
+        },
+        {
+          "playerId": "team-player/9aea79df-cdd2-403f-bf42-4ddd2bbc3c3f",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/d74ff3ce-49e1-4848-bd4d-d74425d92c83",
+          "name": "Ian Vincent"
+        }
       ]
     },
     {
       "name": "High Wycombe",
       "shortName": "High Wycom",
       "players": [
-        "Ian Shore",
-        "Ian Shore & Rick Lilley",
-        "Michael Bowker",
-        "Richard Peperell",
-        "Rick Lilley"
+        {
+          "playerId": "team-player/b40a2c3d-4c95-446a-94ec-a4423d540e1a",
+          "name": "Ian Shore"
+        },
+        {
+          "playerId": "team-player/0c6b00a8-505e-4049-9e5f-cf0d4b62d431",
+          "name": "Ian Shore & Rick Lilley"
+        },
+        {
+          "playerId": "team-player/5ffa720e-cd11-41e5-a6f5-24b27db607e7",
+          "name": "Michael Bowker"
+        },
+        {
+          "playerId": "team-player/19768852-3bf0-4090-8952-b78c260e8d1d",
+          "name": "Richard Peperell"
+        },
+        {
+          "playerId": "team-player/55a73149-f9f9-48cc-b62e-e1186952d467",
+          "name": "Rick Lilley"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/0076888e-82e0-4bbb-b96b-da03702d5777",
       "teams": [
         "Nottingham",
         "High Wycombe"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Euan Burridge & Ian Burridge",
-            "Ian Shore & Rick Lilley"
+            {
+              "playerId": "team-player/05c63561-4415-4252-bc7e-4cc5f8e2adb4",
+              "name": "Euan Burridge & Ian Burridge"
+            },
+            {
+              "playerId": "team-player/0c6b00a8-505e-4049-9e5f-cf0d4b62d431",
+              "name": "Ian Shore & Rick Lilley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a3ac2638-fc1d-4f7a-b299-eb460bc8c8d7",
               "players": [
                 {
+                  "playerId": "team-player/05c63561-4415-4252-bc7e-4cc5f8e2adb4",
                   "name": "Euan Burridge & Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0c6b00a8-505e-4049-9e5f-cf0d4b62d431",
                   "name": "Ian Shore & Rick Lilley",
                   "score": "5"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6729f629-427b-4678-9fff-d6f87d9736b6",
               "players": [
                 {
+                  "playerId": "team-player/05c63561-4415-4252-bc7e-4cc5f8e2adb4",
                   "name": "Euan Burridge & Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0c6b00a8-505e-4049-9e5f-cf0d4b62d431",
                   "name": "Ian Shore & Rick Lilley",
                   "score": "6"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Ian Vincent",
-            "Michael Bowker"
+            {
+              "playerId": "team-player/d74ff3ce-49e1-4848-bd4d-d74425d92c83",
+              "name": "Ian Vincent"
+            },
+            {
+              "playerId": "team-player/5ffa720e-cd11-41e5-a6f5-24b27db607e7",
+              "name": "Michael Bowker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7897a5aa-9d40-4b8c-a8ad-d8f602e7e796",
               "players": [
                 {
+                  "playerId": "team-player/d74ff3ce-49e1-4848-bd4d-d74425d92c83",
                   "name": "Ian Vincent",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5ffa720e-cd11-41e5-a6f5-24b27db607e7",
                   "name": "Michael Bowker",
                   "score": "6"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7dcbf774-8a88-4bbb-b2fe-3ea10e41c6dc",
               "players": [
                 {
+                  "playerId": "team-player/d74ff3ce-49e1-4848-bd4d-d74425d92c83",
                   "name": "Ian Vincent",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5ffa720e-cd11-41e5-a6f5-24b27db607e7",
                   "name": "Michael Bowker",
                   "score": "1"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Cathy Turski",
-            "Richard Peperell"
+            {
+              "playerId": "team-player/de3cccd8-6b88-4627-b2ee-0b5659dfa08d",
+              "name": "Cathy Turski"
+            },
+            {
+              "playerId": "team-player/19768852-3bf0-4090-8952-b78c260e8d1d",
+              "name": "Richard Peperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0eaa8fd1-2444-4e51-aa32-e88d8c3ead67",
               "players": [
                 {
+                  "playerId": "team-player/de3cccd8-6b88-4627-b2ee-0b5659dfa08d",
                   "name": "Cathy Turski",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/19768852-3bf0-4090-8952-b78c260e8d1d",
                   "name": "Richard Peperell",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b2cb008c-1520-450f-9bc8-6f6e354835a2",
               "players": [
                 {
+                  "playerId": "team-player/de3cccd8-6b88-4627-b2ee-0b5659dfa08d",
                   "name": "Cathy Turski",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/19768852-3bf0-4090-8952-b78c260e8d1d",
                   "name": "Richard Peperell",
                   "score": "7"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Ian Shore"
+            {
+              "playerId": "team-player/a913244c-07e3-4239-8d52-0e1bde97fa28",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/b40a2c3d-4c95-446a-94ec-a4423d540e1a",
+              "name": "Ian Shore"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88cc615c-25b4-49ea-b326-dc5c55186622",
               "players": [
                 {
+                  "playerId": "team-player/a913244c-07e3-4239-8d52-0e1bde97fa28",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b40a2c3d-4c95-446a-94ec-a4423d540e1a",
                   "name": "Ian Shore",
                   "score": "2"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e6b53ad8-b9ce-45c2-b44d-fb9022a5b774",
               "players": [
                 {
+                  "playerId": "team-player/a913244c-07e3-4239-8d52-0e1bde97fa28",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b40a2c3d-4c95-446a-94ec-a4423d540e1a",
                   "name": "Ian Shore",
                   "score": "3"
                 }
@@ -185,17 +267,26 @@
         },
         {
           "players": [
-            "Ian Vincent",
-            "Richard Peperell"
+            {
+              "playerId": "team-player/d74ff3ce-49e1-4848-bd4d-d74425d92c83",
+              "name": "Ian Vincent"
+            },
+            {
+              "playerId": "team-player/19768852-3bf0-4090-8952-b78c260e8d1d",
+              "name": "Richard Peperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8f3b1dc3-171f-4236-86d7-6f80c4aa12a6",
               "players": [
                 {
+                  "playerId": "team-player/d74ff3ce-49e1-4848-bd4d-d74425d92c83",
                   "name": "Ian Vincent",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/19768852-3bf0-4090-8952-b78c260e8d1d",
                   "name": "Richard Peperell",
                   "score": "4"
                 }
@@ -204,12 +295,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/92ca461d-2988-4005-b0be-3533cf53d149",
               "players": [
                 {
+                  "playerId": "team-player/d74ff3ce-49e1-4848-bd4d-d74425d92c83",
                   "name": "Ian Vincent",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/19768852-3bf0-4090-8952-b78c260e8d1d",
                   "name": "Richard Peperell",
                   "score": "5"
                 }
@@ -221,17 +315,26 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "Rick Lilley"
+            {
+              "playerId": "team-player/9aea79df-cdd2-403f-bf42-4ddd2bbc3c3f",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/55a73149-f9f9-48cc-b62e-e1186952d467",
+              "name": "Rick Lilley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/74db2966-b631-42ae-90e9-9f3681d7f9a3",
               "players": [
                 {
+                  "playerId": "team-player/9aea79df-cdd2-403f-bf42-4ddd2bbc3c3f",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/55a73149-f9f9-48cc-b62e-e1186952d467",
                   "name": "Rick Lilley",
                   "score": "5"
                 }
@@ -240,12 +343,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e2569b1b-ca80-4f4e-aef9-aeeb758f6e8e",
               "players": [
                 {
+                  "playerId": "team-player/9aea79df-cdd2-403f-bf42-4ddd2bbc3c3f",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/55a73149-f9f9-48cc-b62e-e1186952d467",
                   "name": "Rick Lilley",
                   "score": "4"
                 }
@@ -257,17 +363,26 @@
         },
         {
           "players": [
-            "Cathy Turski",
-            "Michael Bowker"
+            {
+              "playerId": "team-player/de3cccd8-6b88-4627-b2ee-0b5659dfa08d",
+              "name": "Cathy Turski"
+            },
+            {
+              "playerId": "team-player/5ffa720e-cd11-41e5-a6f5-24b27db607e7",
+              "name": "Michael Bowker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/906dd4e7-8203-4cb8-846d-a75e08d847da",
               "players": [
                 {
+                  "playerId": "team-player/de3cccd8-6b88-4627-b2ee-0b5659dfa08d",
                   "name": "Cathy Turski",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5ffa720e-cd11-41e5-a6f5-24b27db607e7",
                   "name": "Michael Bowker",
                   "score": "7"
                 }
@@ -276,12 +391,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5cbc4389-76cf-448b-bdec-8681f07c9f2e",
               "players": [
                 {
+                  "playerId": "team-player/de3cccd8-6b88-4627-b2ee-0b5659dfa08d",
                   "name": "Cathy Turski",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5ffa720e-cd11-41e5-a6f5-24b27db607e7",
                   "name": "Michael Bowker",
                   "score": "6"
                 }

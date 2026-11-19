@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a8570495-745e-4c1d-80db-a25c56ed093a",
   "name": "SWF Advanced Sidmouth B v Bristol C",
   "sport": "ac",
   "firstDay": "2023-09-07",
   "lastDay": "2023-09-07",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Sidmouth B",
       "shortName": "Sidmouth B",
       "players": [
-        "Andrew Thomas",
-        "Colin Walls",
-        "Ed Dolphin",
-        "Jon Ball",
-        "Jon Ball & Ed Dolphin"
+        {
+          "playerId": "team-player/bc566424-af12-45ad-b2a4-14f33db9694d",
+          "name": "Andrew Thomas"
+        },
+        {
+          "playerId": "team-player/f148daee-75fa-4a9f-8e03-9b0eb95a099d",
+          "name": "Colin Walls"
+        },
+        {
+          "playerId": "team-player/00ae2ff4-b4d8-4601-8160-deaf70659d1d",
+          "name": "Ed Dolphin"
+        },
+        {
+          "playerId": "team-player/21f56b65-1e83-46c6-8ad6-ff6c5db58536",
+          "name": "Jon Ball"
+        },
+        {
+          "playerId": "team-player/b101d41e-151b-48ce-84be-61cecc8d40a0",
+          "name": "Jon Ball & Ed Dolphin"
+        }
       ]
     },
     {
       "name": "Bristol C",
       "shortName": "Bristol C",
       "players": [
-        "Bob Whiffen",
-        "Margo Soakell",
-        "Margo Soakell & Bob Whiffen",
-        "Mike Salisbury",
-        "Neil Kingston"
+        {
+          "playerId": "team-player/f5ea2693-143a-4324-a4a4-d2f463ded2f8",
+          "name": "Bob Whiffen"
+        },
+        {
+          "playerId": "team-player/cfd8f1d8-b183-432e-a900-279c185ce996",
+          "name": "Margo Soakell"
+        },
+        {
+          "playerId": "team-player/f712fd89-f134-4ba6-ba0f-3404c1b24695",
+          "name": "Margo Soakell & Bob Whiffen"
+        },
+        {
+          "playerId": "team-player/61fbb6ce-0078-4147-85b5-8d4066e2d9ce",
+          "name": "Mike Salisbury"
+        },
+        {
+          "playerId": "team-player/f1310a37-818a-4c3a-b7d8-fe23e4d44b76",
+          "name": "Neil Kingston"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/96cca042-ee00-49e4-a142-c18b87328a55",
       "teams": [
         "Sidmouth B",
         "Bristol C"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Jon Ball & Ed Dolphin",
-            "Margo Soakell & Bob Whiffen"
+            {
+              "playerId": "team-player/b101d41e-151b-48ce-84be-61cecc8d40a0",
+              "name": "Jon Ball & Ed Dolphin"
+            },
+            {
+              "playerId": "team-player/f712fd89-f134-4ba6-ba0f-3404c1b24695",
+              "name": "Margo Soakell & Bob Whiffen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/66f41a99-3a85-4569-b664-0049a2bf37ba",
               "players": [
                 {
+                  "playerId": "team-player/b101d41e-151b-48ce-84be-61cecc8d40a0",
                   "name": "Jon Ball & Ed Dolphin",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/f712fd89-f134-4ba6-ba0f-3404c1b24695",
                   "name": "Margo Soakell & Bob Whiffen",
                   "score": "15"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Andrew Thomas",
-            "Mike Salisbury"
+            {
+              "playerId": "team-player/bc566424-af12-45ad-b2a4-14f33db9694d",
+              "name": "Andrew Thomas"
+            },
+            {
+              "playerId": "team-player/61fbb6ce-0078-4147-85b5-8d4066e2d9ce",
+              "name": "Mike Salisbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6dd810ec-90d4-4e27-89a4-0012839076d0",
               "players": [
                 {
+                  "playerId": "team-player/bc566424-af12-45ad-b2a4-14f33db9694d",
                   "name": "Andrew Thomas",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/61fbb6ce-0078-4147-85b5-8d4066e2d9ce",
                   "name": "Mike Salisbury",
                   "score": "4"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Colin Walls",
-            "Neil Kingston"
+            {
+              "playerId": "team-player/f148daee-75fa-4a9f-8e03-9b0eb95a099d",
+              "name": "Colin Walls"
+            },
+            {
+              "playerId": "team-player/f1310a37-818a-4c3a-b7d8-fe23e4d44b76",
+              "name": "Neil Kingston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d33d5517-faba-464f-a41b-d1a4254a0fe8",
               "players": [
                 {
+                  "playerId": "team-player/f148daee-75fa-4a9f-8e03-9b0eb95a099d",
                   "name": "Colin Walls",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f1310a37-818a-4c3a-b7d8-fe23e4d44b76",
                   "name": "Neil Kingston",
                   "score": "11"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Andrew Thomas",
-            "Neil Kingston"
+            {
+              "playerId": "team-player/bc566424-af12-45ad-b2a4-14f33db9694d",
+              "name": "Andrew Thomas"
+            },
+            {
+              "playerId": "team-player/f1310a37-818a-4c3a-b7d8-fe23e4d44b76",
+              "name": "Neil Kingston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/20cbce90-9c31-45da-bff8-9e4ef1db74e3",
               "players": [
                 {
+                  "playerId": "team-player/bc566424-af12-45ad-b2a4-14f33db9694d",
                   "name": "Andrew Thomas",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f1310a37-818a-4c3a-b7d8-fe23e4d44b76",
                   "name": "Neil Kingston",
                   "score": "14"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Colin Walls",
-            "Mike Salisbury"
+            {
+              "playerId": "team-player/f148daee-75fa-4a9f-8e03-9b0eb95a099d",
+              "name": "Colin Walls"
+            },
+            {
+              "playerId": "team-player/61fbb6ce-0078-4147-85b5-8d4066e2d9ce",
+              "name": "Mike Salisbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7cd638b9-d80b-415b-87c7-3f6662d145ec",
               "players": [
                 {
+                  "playerId": "team-player/f148daee-75fa-4a9f-8e03-9b0eb95a099d",
                   "name": "Colin Walls",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/61fbb6ce-0078-4147-85b5-8d4066e2d9ce",
                   "name": "Mike Salisbury",
                   "score": "5"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Jon Ball",
-            "Margo Soakell"
+            {
+              "playerId": "team-player/21f56b65-1e83-46c6-8ad6-ff6c5db58536",
+              "name": "Jon Ball"
+            },
+            {
+              "playerId": "team-player/cfd8f1d8-b183-432e-a900-279c185ce996",
+              "name": "Margo Soakell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bf8a5aee-cba5-49d1-800a-7d6301ddcb73",
               "players": [
                 {
+                  "playerId": "team-player/21f56b65-1e83-46c6-8ad6-ff6c5db58536",
                   "name": "Jon Ball",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/cfd8f1d8-b183-432e-a900-279c185ce996",
                   "name": "Margo Soakell",
                   "score": "15"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Ed Dolphin",
-            "Bob Whiffen"
+            {
+              "playerId": "team-player/00ae2ff4-b4d8-4601-8160-deaf70659d1d",
+              "name": "Ed Dolphin"
+            },
+            {
+              "playerId": "team-player/f5ea2693-143a-4324-a4a4-d2f463ded2f8",
+              "name": "Bob Whiffen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bbe4c2e1-6c78-49e2-9233-b2661cd86a61",
               "players": [
                 {
+                  "playerId": "team-player/00ae2ff4-b4d8-4601-8160-deaf70659d1d",
                   "name": "Ed Dolphin",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f5ea2693-143a-4324-a4a4-d2f463ded2f8",
                   "name": "Bob Whiffen",
                   "score": "6"
                 }

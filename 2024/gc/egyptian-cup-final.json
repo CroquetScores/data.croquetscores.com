@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f2e6c687-4a6c-4a90-a5cc-a592dc79ba7c",
   "name": "Egyptian Cup Final",
   "sport": "gc",
   "firstDay": "2024-05-09",
   "lastDay": "2024-05-10",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Heliopolis ElSherok Club",
       "shortName": "Heliopolis",
       "players": [
-        "Abeer Morad & Eman Elfaransawy",
-        "Fawzy Helmy & Mohamed Salah",
-        "Hamy Erian",
-        "Mahetab AboelSaad & Omar Fahmy",
-        "Soha Mostafa"
+        {
+          "playerId": "team-player/795448e3-c97e-4001-b3ec-d6c474a857b8",
+          "name": "Abeer Morad & Eman Elfaransawy"
+        },
+        {
+          "playerId": "team-player/a4a15a72-1b33-41f5-80dc-f6046c8ca3d7",
+          "name": "Fawzy Helmy & Mohamed Salah"
+        },
+        {
+          "playerId": "team-player/12ab5a67-bb83-4598-a80d-42c7f196f229",
+          "name": "Hamy Erian"
+        },
+        {
+          "playerId": "team-player/6b15eb4f-c4e7-456c-9b95-4fea725a44d9",
+          "name": "Mahetab AboelSaad & Omar Fahmy"
+        },
+        {
+          "playerId": "team-player/9ca9b527-0e47-44ff-be0d-e09950258d59",
+          "name": "Soha Mostafa"
+        }
       ]
     },
     {
       "name": "Gezira Club",
       "shortName": "Gezira Clu",
       "players": [
-        "Ahmed Nasr  & Khaled Kamel",
-        "Amany Hassan  & Sara Hany",
-        "Hanan Bendary & Hossam Fares",
-        "Mohamed Nasr",
-        "Pouline Salib"
+        {
+          "playerId": "team-player/f5062e94-673a-49ad-9513-a72a39ecacdb",
+          "name": "Ahmed Nasr  & Khaled Kamel"
+        },
+        {
+          "playerId": "team-player/19c67a66-a63f-49b7-9710-98f927def5c3",
+          "name": "Amany Hassan  & Sara Hany"
+        },
+        {
+          "playerId": "team-player/c3032b82-4db9-4f78-9331-934f304cd6ac",
+          "name": "Hanan Bendary & Hossam Fares"
+        },
+        {
+          "playerId": "team-player/1070e476-296b-451e-b58d-56c8471ef4c2",
+          "name": "Mohamed Nasr"
+        },
+        {
+          "playerId": "team-player/6c55d643-7d3f-4bf7-85d2-8dc3962b8dc7",
+          "name": "Pouline Salib"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/604b2700-4929-4649-953d-4ee897d37920",
       "teams": [
         "Heliopolis ElSherok Club",
         "Gezira Club"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Abeer Morad & Eman Elfaransawy",
-            "Amany Hassan  & Sara Hany"
+            {
+              "playerId": "team-player/795448e3-c97e-4001-b3ec-d6c474a857b8",
+              "name": "Abeer Morad & Eman Elfaransawy"
+            },
+            {
+              "playerId": "team-player/19c67a66-a63f-49b7-9710-98f927def5c3",
+              "name": "Amany Hassan  & Sara Hany"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dbbabd6a-27c1-44c3-bc4a-f042a7e9a614",
               "players": [
                 {
+                  "playerId": "team-player/795448e3-c97e-4001-b3ec-d6c474a857b8",
                   "name": "Abeer Morad & Eman Elfaransawy",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/19c67a66-a63f-49b7-9710-98f927def5c3",
                   "name": "Amany Hassan  & Sara Hany",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/be1a338d-e158-4d20-b870-89a9478c6d51",
               "players": [
                 {
+                  "playerId": "team-player/795448e3-c97e-4001-b3ec-d6c474a857b8",
                   "name": "Abeer Morad & Eman Elfaransawy",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/19c67a66-a63f-49b7-9710-98f927def5c3",
                   "name": "Amany Hassan  & Sara Hany",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Fawzy Helmy & Mohamed Salah",
-            "Ahmed Nasr  & Khaled Kamel"
+            {
+              "playerId": "team-player/a4a15a72-1b33-41f5-80dc-f6046c8ca3d7",
+              "name": "Fawzy Helmy & Mohamed Salah"
+            },
+            {
+              "playerId": "team-player/f5062e94-673a-49ad-9513-a72a39ecacdb",
+              "name": "Ahmed Nasr  & Khaled Kamel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9cccc3c5-bb57-441e-87c3-a741789d24b7",
               "players": [
                 {
+                  "playerId": "team-player/a4a15a72-1b33-41f5-80dc-f6046c8ca3d7",
                   "name": "Fawzy Helmy & Mohamed Salah",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f5062e94-673a-49ad-9513-a72a39ecacdb",
                   "name": "Ahmed Nasr  & Khaled Kamel",
                   "score": "5"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0733ea9b-f02e-4591-b127-6970018217ad",
               "players": [
                 {
+                  "playerId": "team-player/a4a15a72-1b33-41f5-80dc-f6046c8ca3d7",
                   "name": "Fawzy Helmy & Mohamed Salah",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f5062e94-673a-49ad-9513-a72a39ecacdb",
                   "name": "Ahmed Nasr  & Khaled Kamel",
                   "score": "7"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3c1cd66a-c2e2-47b1-bde5-a814eaea5268",
               "players": [
                 {
+                  "playerId": "team-player/a4a15a72-1b33-41f5-80dc-f6046c8ca3d7",
                   "name": "Fawzy Helmy & Mohamed Salah",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f5062e94-673a-49ad-9513-a72a39ecacdb",
                   "name": "Ahmed Nasr  & Khaled Kamel",
                   "score": "5"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Soha Mostafa",
-            "Pouline Salib"
+            {
+              "playerId": "team-player/9ca9b527-0e47-44ff-be0d-e09950258d59",
+              "name": "Soha Mostafa"
+            },
+            {
+              "playerId": "team-player/6c55d643-7d3f-4bf7-85d2-8dc3962b8dc7",
+              "name": "Pouline Salib"
+            }
           ],
           "games": [
             {
+              "gameId": "game/faee6f71-1950-4b99-a861-5d1e25b4bc3f",
               "players": [
                 {
+                  "playerId": "team-player/9ca9b527-0e47-44ff-be0d-e09950258d59",
                   "name": "Soha Mostafa",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/6c55d643-7d3f-4bf7-85d2-8dc3962b8dc7",
                   "name": "Pouline Salib",
                   "score": "7"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/59f56861-0f3e-4ae0-a54b-e321a8c20eee",
               "players": [
                 {
+                  "playerId": "team-player/9ca9b527-0e47-44ff-be0d-e09950258d59",
                   "name": "Soha Mostafa",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6c55d643-7d3f-4bf7-85d2-8dc3962b8dc7",
                   "name": "Pouline Salib",
                   "score": "6"
                 }
@@ -160,12 +233,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dd216dd5-dcb9-4f1b-8eba-dd8596d23c77",
               "players": [
                 {
+                  "playerId": "team-player/9ca9b527-0e47-44ff-be0d-e09950258d59",
                   "name": "Soha Mostafa",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6c55d643-7d3f-4bf7-85d2-8dc3962b8dc7",
                   "name": "Pouline Salib",
                   "score": "4"
                 }
@@ -177,17 +253,26 @@
         },
         {
           "players": [
-            "Mahetab AboelSaad & Omar Fahmy",
-            "Hanan Bendary & Hossam Fares"
+            {
+              "playerId": "team-player/6b15eb4f-c4e7-456c-9b95-4fea725a44d9",
+              "name": "Mahetab AboelSaad & Omar Fahmy"
+            },
+            {
+              "playerId": "team-player/c3032b82-4db9-4f78-9331-934f304cd6ac",
+              "name": "Hanan Bendary & Hossam Fares"
+            }
           ],
           "games": [
             {
+              "gameId": "game/85521484-fb2a-48e6-9fdd-b57435add1a5",
               "players": [
                 {
+                  "playerId": "team-player/6b15eb4f-c4e7-456c-9b95-4fea725a44d9",
                   "name": "Mahetab AboelSaad & Omar Fahmy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c3032b82-4db9-4f78-9331-934f304cd6ac",
                   "name": "Hanan Bendary & Hossam Fares",
                   "score": "3"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6b788e55-e00c-4fb8-b905-518b7f233474",
               "players": [
                 {
+                  "playerId": "team-player/6b15eb4f-c4e7-456c-9b95-4fea725a44d9",
                   "name": "Mahetab AboelSaad & Omar Fahmy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c3032b82-4db9-4f78-9331-934f304cd6ac",
                   "name": "Hanan Bendary & Hossam Fares",
                   "score": "5"
                 }

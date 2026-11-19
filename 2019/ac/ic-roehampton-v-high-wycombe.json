@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b2bb6bb5-6acb-4911-8c92-25df5fd4bcc1",
   "name": "IC: Roehampton v High Wycombe",
   "sport": "ac",
   "firstDay": "2019-05-12",
   "lastDay": "2019-05-12",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Fisher/Russell",
-        "Harry Fisher",
-        "Mary Knapp",
-        "Peter Siddall",
-        "Tim Russell"
+        {
+          "playerId": "team-player/9b9bff50-b868-4de7-b0aa-c0d2a3d85129",
+          "name": "Fisher/Russell"
+        },
+        {
+          "playerId": "team-player/b28a5791-ed00-4dd0-a82c-c7758cfde6b0",
+          "name": "Harry Fisher"
+        },
+        {
+          "playerId": "team-player/83342f4e-01eb-4864-89e2-2f2924a11730",
+          "name": "Mary Knapp"
+        },
+        {
+          "playerId": "team-player/153918e6-ffd0-460d-915e-66a86e3cea3f",
+          "name": "Peter Siddall"
+        },
+        {
+          "playerId": "team-player/b12d205a-733b-41fe-a121-feeaa4fb0f7e",
+          "name": "Tim Russell"
+        }
       ]
     },
     {
       "name": "High Wycombe",
       "shortName": "High Wycom",
       "players": [
-        "Alan Clark",
-        "Duncan Reeve",
-        "Mike Porter",
-        "Raouf Allim",
-        "Reeve/Allim"
+        {
+          "playerId": "team-player/69a07c63-ab07-4af2-9188-58582d25d68a",
+          "name": "Alan Clark"
+        },
+        {
+          "playerId": "team-player/3d6ae12c-93b9-456b-9cec-dc4aba7706e1",
+          "name": "Duncan Reeve"
+        },
+        {
+          "playerId": "team-player/cd30c28f-daea-40cc-964e-9744a2a95568",
+          "name": "Mike Porter"
+        },
+        {
+          "playerId": "team-player/53abea66-f3bc-44e6-a89c-bc4e5a9976be",
+          "name": "Raouf Allim"
+        },
+        {
+          "playerId": "team-player/c4253522-f214-4c50-aff6-01c8f22c5842",
+          "name": "Reeve/Allim"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2e818b34-0e78-4cb0-8909-790923c1c3d7",
       "teams": [
         "Roehampton",
         "High Wycombe"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Harry Fisher",
-            "Duncan Reeve"
+            {
+              "playerId": "team-player/b28a5791-ed00-4dd0-a82c-c7758cfde6b0",
+              "name": "Harry Fisher"
+            },
+            {
+              "playerId": "team-player/3d6ae12c-93b9-456b-9cec-dc4aba7706e1",
+              "name": "Duncan Reeve"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0ede05e5-1520-44c9-a457-b6fa3e094074",
               "players": [
                 {
+                  "playerId": "team-player/b28a5791-ed00-4dd0-a82c-c7758cfde6b0",
                   "name": "Harry Fisher",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/3d6ae12c-93b9-456b-9cec-dc4aba7706e1",
                   "name": "Duncan Reeve",
                   "score": "23"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Peter Siddall",
-            "Alan Clark"
+            {
+              "playerId": "team-player/153918e6-ffd0-460d-915e-66a86e3cea3f",
+              "name": "Peter Siddall"
+            },
+            {
+              "playerId": "team-player/69a07c63-ab07-4af2-9188-58582d25d68a",
+              "name": "Alan Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ddb0feae-ecec-4ff3-aca0-7d9736819326",
               "players": [
                 {
+                  "playerId": "team-player/153918e6-ffd0-460d-915e-66a86e3cea3f",
                   "name": "Peter Siddall",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/69a07c63-ab07-4af2-9188-58582d25d68a",
                   "name": "Alan Clark",
                   "score": "15"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Mary Knapp",
-            "Mike Porter"
+            {
+              "playerId": "team-player/83342f4e-01eb-4864-89e2-2f2924a11730",
+              "name": "Mary Knapp"
+            },
+            {
+              "playerId": "team-player/cd30c28f-daea-40cc-964e-9744a2a95568",
+              "name": "Mike Porter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e9bd53d-3c0d-4aa9-a753-f440e7b53bb1",
               "players": [
                 {
+                  "playerId": "team-player/83342f4e-01eb-4864-89e2-2f2924a11730",
                   "name": "Mary Knapp",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/cd30c28f-daea-40cc-964e-9744a2a95568",
                   "name": "Mike Porter",
                   "score": "21"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Mary Knapp",
-            "Alan Clark"
+            {
+              "playerId": "team-player/83342f4e-01eb-4864-89e2-2f2924a11730",
+              "name": "Mary Knapp"
+            },
+            {
+              "playerId": "team-player/69a07c63-ab07-4af2-9188-58582d25d68a",
+              "name": "Alan Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/717cc094-b229-4864-9571-24dace443fbf",
               "players": [
                 {
+                  "playerId": "team-player/83342f4e-01eb-4864-89e2-2f2924a11730",
                   "name": "Mary Knapp",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/69a07c63-ab07-4af2-9188-58582d25d68a",
                   "name": "Alan Clark",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Peter Siddall",
-            "Mike Porter"
+            {
+              "playerId": "team-player/153918e6-ffd0-460d-915e-66a86e3cea3f",
+              "name": "Peter Siddall"
+            },
+            {
+              "playerId": "team-player/cd30c28f-daea-40cc-964e-9744a2a95568",
+              "name": "Mike Porter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/127e98d1-78f6-489f-a09a-b6cb1b3e439c",
               "players": [
                 {
+                  "playerId": "team-player/153918e6-ffd0-460d-915e-66a86e3cea3f",
                   "name": "Peter Siddall",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cd30c28f-daea-40cc-964e-9744a2a95568",
                   "name": "Mike Porter",
                   "score": "6"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Tim Russell",
-            "Raouf Allim"
+            {
+              "playerId": "team-player/b12d205a-733b-41fe-a121-feeaa4fb0f7e",
+              "name": "Tim Russell"
+            },
+            {
+              "playerId": "team-player/53abea66-f3bc-44e6-a89c-bc4e5a9976be",
+              "name": "Raouf Allim"
+            }
           ],
           "games": [
             {
+              "gameId": "game/16ba1783-22e0-4b1e-8207-8eec686a291f",
               "players": [
                 {
+                  "playerId": "team-player/b12d205a-733b-41fe-a121-feeaa4fb0f7e",
                   "name": "Tim Russell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/53abea66-f3bc-44e6-a89c-bc4e5a9976be",
                   "name": "Raouf Allim",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Fisher/Russell",
-            "Reeve/Allim"
+            {
+              "playerId": "team-player/9b9bff50-b868-4de7-b0aa-c0d2a3d85129",
+              "name": "Fisher/Russell"
+            },
+            {
+              "playerId": "team-player/c4253522-f214-4c50-aff6-01c8f22c5842",
+              "name": "Reeve/Allim"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6cc09b6e-5cd2-4d7d-9d4e-112cf9d8476c",
               "players": [
                 {
+                  "playerId": "team-player/9b9bff50-b868-4de7-b0aa-c0d2a3d85129",
                   "name": "Fisher/Russell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c4253522-f214-4c50-aff6-01c8f22c5842",
                   "name": "Reeve/Allim",
                   "score": "16"
                 }

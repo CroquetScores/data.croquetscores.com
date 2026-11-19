@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b59c6ced-e3f2-4168-bf52-9e56572f00c9",
   "name": "GC Inter Club Bowl - Roehampton v Purley Bury",
   "sport": "gc",
   "firstDay": "2025-06-07",
   "lastDay": "2025-06-07",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Charlotte Oades",
-        "Howard Railton",
-        "Howard Railton & Mike Tumath",
-        "Kevin O’Connor",
-        "Mike Tumath"
+        {
+          "playerId": "team-player/6bb1fb22-8eb3-4477-a191-87a12a648404",
+          "name": "Charlotte Oades"
+        },
+        {
+          "playerId": "team-player/66618cce-4ee3-4375-898d-beea444af121",
+          "name": "Howard Railton"
+        },
+        {
+          "playerId": "team-player/02d50359-3f95-4866-8334-573a2ec70b7e",
+          "name": "Howard Railton & Mike Tumath"
+        },
+        {
+          "playerId": "team-player/7fc0e73b-4313-417c-a73e-6f97cec58b19",
+          "name": "Kevin O’Connor"
+        },
+        {
+          "playerId": "team-player/5edfc851-2686-4f4d-a4bc-5acb8f6d12f9",
+          "name": "Mike Tumath"
+        }
       ]
     },
     {
       "name": "Purley Bury",
       "shortName": "Purley Bur",
       "players": [
-        "Carol Driver",
-        "Jean Daintree",
-        "Muthu Munchetty",
-        "Val Edwards",
-        "Val Edwards & Carol Driver"
+        {
+          "playerId": "team-player/7ff42155-34a1-4acf-b64b-f28145d1f2f0",
+          "name": "Carol Driver"
+        },
+        {
+          "playerId": "team-player/2d87a7f4-c6e5-4f03-8e51-415dcc06e4f1",
+          "name": "Jean Daintree"
+        },
+        {
+          "playerId": "team-player/d1720184-64e9-496f-99eb-0ad70ae1949e",
+          "name": "Muthu Munchetty"
+        },
+        {
+          "playerId": "team-player/ba842e09-c79a-4e68-a3ad-f20187cb3925",
+          "name": "Val Edwards"
+        },
+        {
+          "playerId": "team-player/af5a4561-a2da-4024-8e52-5f0b3f50d8e0",
+          "name": "Val Edwards & Carol Driver"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2db63c78-f72e-4277-9b27-7a96a8ca1618",
       "teams": [
         "Roehampton",
         "Purley Bury"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Howard Railton & Mike Tumath",
-            "Val Edwards & Carol Driver"
+            {
+              "playerId": "team-player/02d50359-3f95-4866-8334-573a2ec70b7e",
+              "name": "Howard Railton & Mike Tumath"
+            },
+            {
+              "playerId": "team-player/af5a4561-a2da-4024-8e52-5f0b3f50d8e0",
+              "name": "Val Edwards & Carol Driver"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ace3077a-06e2-495a-9fa2-55c343bf36f1",
               "players": [
                 {
+                  "playerId": "team-player/02d50359-3f95-4866-8334-573a2ec70b7e",
                   "name": "Howard Railton & Mike Tumath",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/af5a4561-a2da-4024-8e52-5f0b3f50d8e0",
                   "name": "Val Edwards & Carol Driver",
                   "score": "1"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4f8a4fea-3939-465a-b3ce-86f88e4ed46a",
               "players": [
                 {
+                  "playerId": "team-player/02d50359-3f95-4866-8334-573a2ec70b7e",
                   "name": "Howard Railton & Mike Tumath",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/af5a4561-a2da-4024-8e52-5f0b3f50d8e0",
                   "name": "Val Edwards & Carol Driver",
                   "score": "5"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Kevin O’Connor",
-            "Jean Daintree"
+            {
+              "playerId": "team-player/7fc0e73b-4313-417c-a73e-6f97cec58b19",
+              "name": "Kevin O’Connor"
+            },
+            {
+              "playerId": "team-player/2d87a7f4-c6e5-4f03-8e51-415dcc06e4f1",
+              "name": "Jean Daintree"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4aac4818-ba77-4114-a274-ac3d34dde9b4",
               "players": [
                 {
+                  "playerId": "team-player/7fc0e73b-4313-417c-a73e-6f97cec58b19",
                   "name": "Kevin O’Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d87a7f4-c6e5-4f03-8e51-415dcc06e4f1",
                   "name": "Jean Daintree",
                   "score": "2"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/74f529b0-6d77-420a-8aa1-b7d302c79cce",
               "players": [
                 {
+                  "playerId": "team-player/7fc0e73b-4313-417c-a73e-6f97cec58b19",
                   "name": "Kevin O’Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d87a7f4-c6e5-4f03-8e51-415dcc06e4f1",
                   "name": "Jean Daintree",
                   "score": "2"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Charlotte Oades",
-            "Muthu Munchetty"
+            {
+              "playerId": "team-player/6bb1fb22-8eb3-4477-a191-87a12a648404",
+              "name": "Charlotte Oades"
+            },
+            {
+              "playerId": "team-player/d1720184-64e9-496f-99eb-0ad70ae1949e",
+              "name": "Muthu Munchetty"
+            }
           ],
           "games": [
             {
+              "gameId": "game/73fff3c6-5d38-4efc-9c6d-c05d45770269",
               "players": [
                 {
+                  "playerId": "team-player/6bb1fb22-8eb3-4477-a191-87a12a648404",
                   "name": "Charlotte Oades",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d1720184-64e9-496f-99eb-0ad70ae1949e",
                   "name": "Muthu Munchetty",
                   "score": "5"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2115ec06-244a-432b-9ef8-7b1b1d158b55",
               "players": [
                 {
+                  "playerId": "team-player/6bb1fb22-8eb3-4477-a191-87a12a648404",
                   "name": "Charlotte Oades",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d1720184-64e9-496f-99eb-0ad70ae1949e",
                   "name": "Muthu Munchetty",
                   "score": "2"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "Howard Railton",
-            "Val Edwards"
+            {
+              "playerId": "team-player/66618cce-4ee3-4375-898d-beea444af121",
+              "name": "Howard Railton"
+            },
+            {
+              "playerId": "team-player/ba842e09-c79a-4e68-a3ad-f20187cb3925",
+              "name": "Val Edwards"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4e0df3b-219c-4701-bd10-e95e5d4a1bc5",
               "players": [
                 {
+                  "playerId": "team-player/66618cce-4ee3-4375-898d-beea444af121",
                   "name": "Howard Railton",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/ba842e09-c79a-4e68-a3ad-f20187cb3925",
                   "name": "Val Edwards",
                   "score": "7"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fd201b09-6d92-4d9b-9767-6da4c4fce36b",
               "players": [
                 {
+                  "playerId": "team-player/66618cce-4ee3-4375-898d-beea444af121",
                   "name": "Howard Railton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ba842e09-c79a-4e68-a3ad-f20187cb3925",
                   "name": "Val Edwards",
                   "score": "5"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c382fb98-9540-4c44-8623-163681d1ebb6",
               "players": [
                 {
+                  "playerId": "team-player/66618cce-4ee3-4375-898d-beea444af121",
                   "name": "Howard Railton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ba842e09-c79a-4e68-a3ad-f20187cb3925",
                   "name": "Val Edwards",
                   "score": "2"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Mike Tumath",
-            "Carol Driver"
+            {
+              "playerId": "team-player/5edfc851-2686-4f4d-a4bc-5acb8f6d12f9",
+              "name": "Mike Tumath"
+            },
+            {
+              "playerId": "team-player/7ff42155-34a1-4acf-b64b-f28145d1f2f0",
+              "name": "Carol Driver"
+            }
           ],
           "games": [
             {
+              "gameId": "game/abf8b8c8-6d4d-4010-8c0e-2e7ae83050fe",
               "players": [
                 {
+                  "playerId": "team-player/5edfc851-2686-4f4d-a4bc-5acb8f6d12f9",
                   "name": "Mike Tumath",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7ff42155-34a1-4acf-b64b-f28145d1f2f0",
                   "name": "Carol Driver",
                   "score": "3"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/abbb8a93-6a4c-456f-9fe5-7bd0230dd30d",
               "players": [
                 {
+                  "playerId": "team-player/5edfc851-2686-4f4d-a4bc-5acb8f6d12f9",
                   "name": "Mike Tumath",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7ff42155-34a1-4acf-b64b-f28145d1f2f0",
                   "name": "Carol Driver",
                   "score": "4"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Kevin O’Connor",
-            "Muthu Munchetty"
+            {
+              "playerId": "team-player/7fc0e73b-4313-417c-a73e-6f97cec58b19",
+              "name": "Kevin O’Connor"
+            },
+            {
+              "playerId": "team-player/d1720184-64e9-496f-99eb-0ad70ae1949e",
+              "name": "Muthu Munchetty"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1595a4e2-fb7f-4bc1-8d22-ff326a9e88d4",
               "players": [
                 {
+                  "playerId": "team-player/7fc0e73b-4313-417c-a73e-6f97cec58b19",
                   "name": "Kevin O’Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d1720184-64e9-496f-99eb-0ad70ae1949e",
                   "name": "Muthu Munchetty",
                   "score": "2"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1d114a5d-3948-4ae1-8164-11e7ecd573d7",
               "players": [
                 {
+                  "playerId": "team-player/7fc0e73b-4313-417c-a73e-6f97cec58b19",
                   "name": "Kevin O’Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d1720184-64e9-496f-99eb-0ad70ae1949e",
                   "name": "Muthu Munchetty",
                   "score": "4"
                 }
@@ -271,17 +380,26 @@
         },
         {
           "players": [
-            "Charlotte Oades",
-            "Jean Daintree"
+            {
+              "playerId": "team-player/6bb1fb22-8eb3-4477-a191-87a12a648404",
+              "name": "Charlotte Oades"
+            },
+            {
+              "playerId": "team-player/2d87a7f4-c6e5-4f03-8e51-415dcc06e4f1",
+              "name": "Jean Daintree"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8df5b72-f20b-4084-994c-33730530dcaf",
               "players": [
                 {
+                  "playerId": "team-player/6bb1fb22-8eb3-4477-a191-87a12a648404",
                   "name": "Charlotte Oades",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d87a7f4-c6e5-4f03-8e51-415dcc06e4f1",
                   "name": "Jean Daintree",
                   "score": "5"
                 }
@@ -290,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2bdb442d-d359-485d-976d-95c3aaf73cad",
               "players": [
                 {
+                  "playerId": "team-player/6bb1fb22-8eb3-4477-a191-87a12a648404",
                   "name": "Charlotte Oades",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/2d87a7f4-c6e5-4f03-8e51-415dcc06e4f1",
                   "name": "Jean Daintree",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/70a902dd-d996-4cb3-aa9a-52253645a959",
               "players": [
                 {
+                  "playerId": "team-player/6bb1fb22-8eb3-4477-a191-87a12a648404",
                   "name": "Charlotte Oades",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d87a7f4-c6e5-4f03-8e51-415dcc06e4f1",
                   "name": "Jean Daintree",
                   "score": "3"
                 }

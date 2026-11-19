@@ -1,43 +1,77 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/68b61a73-59d0-45c2-a031-960ccf3a5bc6",
   "name": "NSW AC Pennants SILVER",
   "sport": "ac",
   "firstDay": "2026-08-29",
   "lastDay": "2026-09-16",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Canberra",
       "shortName": "Canberra",
       "players": [
-        "Janelle Wilson",
-        "Janelle Wilson & Julie Toms",
-        "Julie Toms",
-        "Julie Toms & Janelle Wilson"
+        {
+          "playerId": "team-player/664e7b5c-8ffd-4d3e-a8fa-ace3f0d1f2d4",
+          "name": "Janelle Wilson"
+        },
+        {
+          "playerId": "team-player/7004dc13-fc82-4361-8d9b-fb3d17e35b51",
+          "name": "Janelle Wilson & Julie Toms"
+        },
+        {
+          "playerId": "team-player/1c1d9157-583b-4fda-9d25-8628062588ad",
+          "name": "Julie Toms"
+        },
+        {
+          "playerId": "team-player/fa432d56-8c9c-49b7-a5f8-5422d9a793b2",
+          "name": "Julie Toms & Janelle Wilson"
+        }
       ]
     },
     {
       "name": "Toronto",
       "shortName": "Toronto",
       "players": [
-        "Marty Wooster",
-        "Ross Levick",
-        "Ross Levick & Marty Wooster"
+        {
+          "playerId": "team-player/1d83a908-b908-4ba9-a4a8-1c3fd2d792d5",
+          "name": "Marty Wooster"
+        },
+        {
+          "playerId": "team-player/19bc619c-64b7-4529-8557-37df4fa0fbed",
+          "name": "Ross Levick"
+        },
+        {
+          "playerId": "team-player/f02989fc-9be3-43d0-a2e0-409c3447bda6",
+          "name": "Ross Levick & Marty Wooster"
+        }
       ]
     },
     {
       "name": "Killara",
       "shortName": "Killara",
       "players": [
-        "Jeremy Tenison-Smith",
-        "Meradin Peachey",
-        "Meradin Peachey & Jeremy Tenison-Smith"
+        {
+          "playerId": "team-player/91f93e96-9b6a-461d-b443-939211e034a8",
+          "name": "Jeremy Tenison-Smith"
+        },
+        {
+          "playerId": "team-player/7307e009-a1c7-4a5b-9988-a302ea4e82ef",
+          "name": "Meradin Peachey"
+        },
+        {
+          "playerId": "team-player/e7f8ac9e-1489-472c-9c4e-11a8400d606d",
+          "name": "Meradin Peachey & Jeremy Tenison-Smith"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/ff77aab8-6d9c-46f7-a986-a75e39367c2a",
       "teams": [
         "Canberra",
         "Toronto"
@@ -47,17 +81,26 @@
       "matches": [
         {
           "players": [
-            "Julie Toms & Janelle Wilson",
-            "Ross Levick & Marty Wooster"
+            {
+              "playerId": "team-player/fa432d56-8c9c-49b7-a5f8-5422d9a793b2",
+              "name": "Julie Toms & Janelle Wilson"
+            },
+            {
+              "playerId": "team-player/f02989fc-9be3-43d0-a2e0-409c3447bda6",
+              "name": "Ross Levick & Marty Wooster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/abd8f74a-1e61-446e-8d5d-62961af3ae9a",
               "players": [
                 {
+                  "playerId": "team-player/fa432d56-8c9c-49b7-a5f8-5422d9a793b2",
                   "name": "Julie Toms & Janelle Wilson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f02989fc-9be3-43d0-a2e0-409c3447bda6",
                   "name": "Ross Levick & Marty Wooster",
                   "score": "11"
                 }
@@ -69,17 +112,26 @@
         },
         {
           "players": [
-            "Julie Toms",
-            "Ross Levick"
+            {
+              "playerId": "team-player/1c1d9157-583b-4fda-9d25-8628062588ad",
+              "name": "Julie Toms"
+            },
+            {
+              "playerId": "team-player/19bc619c-64b7-4529-8557-37df4fa0fbed",
+              "name": "Ross Levick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ec9699d6-6f05-4b6f-8745-7c71676f13cd",
               "players": [
                 {
+                  "playerId": "team-player/1c1d9157-583b-4fda-9d25-8628062588ad",
                   "name": "Julie Toms",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/19bc619c-64b7-4529-8557-37df4fa0fbed",
                   "name": "Ross Levick",
                   "score": "9"
                 }
@@ -91,17 +143,26 @@
         },
         {
           "players": [
-            "Janelle Wilson",
-            "Marty Wooster"
+            {
+              "playerId": "team-player/664e7b5c-8ffd-4d3e-a8fa-ace3f0d1f2d4",
+              "name": "Janelle Wilson"
+            },
+            {
+              "playerId": "team-player/1d83a908-b908-4ba9-a4a8-1c3fd2d792d5",
+              "name": "Marty Wooster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f1bf20b-7833-4d0f-95eb-c4db19ea0ba3",
               "players": [
                 {
+                  "playerId": "team-player/664e7b5c-8ffd-4d3e-a8fa-ace3f0d1f2d4",
                   "name": "Janelle Wilson",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/1d83a908-b908-4ba9-a4a8-1c3fd2d792d5",
                   "name": "Marty Wooster",
                   "score": "1"
                 }
@@ -114,6 +175,7 @@
       ]
     },
     {
+      "competitionId": "competition/d241c179-3864-4d48-8c0b-bb5d67b2cbfc",
       "teams": [
         "Toronto",
         "Canberra"
@@ -123,17 +185,26 @@
       "matches": [
         {
           "players": [
-            "Ross Levick & Marty Wooster",
-            "Julie Toms & Janelle Wilson"
+            {
+              "playerId": "team-player/f02989fc-9be3-43d0-a2e0-409c3447bda6",
+              "name": "Ross Levick & Marty Wooster"
+            },
+            {
+              "playerId": "team-player/fa432d56-8c9c-49b7-a5f8-5422d9a793b2",
+              "name": "Julie Toms & Janelle Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/979e0895-889f-49f0-a430-d39571c233a7",
               "players": [
                 {
+                  "playerId": "team-player/f02989fc-9be3-43d0-a2e0-409c3447bda6",
                   "name": "Ross Levick & Marty Wooster",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/fa432d56-8c9c-49b7-a5f8-5422d9a793b2",
                   "name": "Julie Toms & Janelle Wilson",
                   "score": "9"
                 }
@@ -145,17 +216,26 @@
         },
         {
           "players": [
-            "Ross Levick",
-            "Julie Toms"
+            {
+              "playerId": "team-player/19bc619c-64b7-4529-8557-37df4fa0fbed",
+              "name": "Ross Levick"
+            },
+            {
+              "playerId": "team-player/1c1d9157-583b-4fda-9d25-8628062588ad",
+              "name": "Julie Toms"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a979953c-b5c1-4388-9ecc-0cd33311c41a",
               "players": [
                 {
+                  "playerId": "team-player/19bc619c-64b7-4529-8557-37df4fa0fbed",
                   "name": "Ross Levick",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/1c1d9157-583b-4fda-9d25-8628062588ad",
                   "name": "Julie Toms",
                   "score": "10"
                 }
@@ -167,17 +247,26 @@
         },
         {
           "players": [
-            "Marty Wooster",
-            "Janelle Wilson"
+            {
+              "playerId": "team-player/1d83a908-b908-4ba9-a4a8-1c3fd2d792d5",
+              "name": "Marty Wooster"
+            },
+            {
+              "playerId": "team-player/664e7b5c-8ffd-4d3e-a8fa-ace3f0d1f2d4",
+              "name": "Janelle Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/52a9ee1a-cc5a-4c62-9444-da8284c6b96e",
               "players": [
                 {
+                  "playerId": "team-player/1d83a908-b908-4ba9-a4a8-1c3fd2d792d5",
                   "name": "Marty Wooster",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/664e7b5c-8ffd-4d3e-a8fa-ace3f0d1f2d4",
                   "name": "Janelle Wilson",
                   "score": "9"
                 }
@@ -190,6 +279,7 @@
       ]
     },
     {
+      "competitionId": "competition/485b4d87-b8d3-4223-83ee-debd5c451c84",
       "teams": [
         "Canberra",
         "Killara"
@@ -199,17 +289,26 @@
       "matches": [
         {
           "players": [
-            "Julie Toms & Janelle Wilson",
-            "Meradin Peachey & Jeremy Tenison-Smith"
+            {
+              "playerId": "team-player/fa432d56-8c9c-49b7-a5f8-5422d9a793b2",
+              "name": "Julie Toms & Janelle Wilson"
+            },
+            {
+              "playerId": "team-player/e7f8ac9e-1489-472c-9c4e-11a8400d606d",
+              "name": "Meradin Peachey & Jeremy Tenison-Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa129ea4-1344-46fd-b5ac-6922470ae5cd",
               "players": [
                 {
+                  "playerId": "team-player/fa432d56-8c9c-49b7-a5f8-5422d9a793b2",
                   "name": "Julie Toms & Janelle Wilson",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/e7f8ac9e-1489-472c-9c4e-11a8400d606d",
                   "name": "Meradin Peachey & Jeremy Tenison-Smith",
                   "score": "9"
                 }
@@ -221,17 +320,26 @@
         },
         {
           "players": [
-            "Julie Toms",
-            "Meradin Peachey"
+            {
+              "playerId": "team-player/1c1d9157-583b-4fda-9d25-8628062588ad",
+              "name": "Julie Toms"
+            },
+            {
+              "playerId": "team-player/7307e009-a1c7-4a5b-9988-a302ea4e82ef",
+              "name": "Meradin Peachey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c657a4ea-e23f-4321-b368-cd9dd0b1e817",
               "players": [
                 {
+                  "playerId": "team-player/1c1d9157-583b-4fda-9d25-8628062588ad",
                   "name": "Julie Toms",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7307e009-a1c7-4a5b-9988-a302ea4e82ef",
                   "name": "Meradin Peachey",
                   "score": "8"
                 }
@@ -243,17 +351,26 @@
         },
         {
           "players": [
-            "Janelle Wilson",
-            "Jeremy Tenison-Smith"
+            {
+              "playerId": "team-player/664e7b5c-8ffd-4d3e-a8fa-ace3f0d1f2d4",
+              "name": "Janelle Wilson"
+            },
+            {
+              "playerId": "team-player/91f93e96-9b6a-461d-b443-939211e034a8",
+              "name": "Jeremy Tenison-Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ebc2289-4292-41bd-bc28-79dc377b4dc1",
               "players": [
                 {
+                  "playerId": "team-player/664e7b5c-8ffd-4d3e-a8fa-ace3f0d1f2d4",
                   "name": "Janelle Wilson",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/91f93e96-9b6a-461d-b443-939211e034a8",
                   "name": "Jeremy Tenison-Smith",
                   "score": "13"
                 }
@@ -266,6 +383,7 @@
       ]
     },
     {
+      "competitionId": "competition/c5999d7c-cce0-4bea-8ee6-aa149801000b",
       "teams": [
         "Toronto",
         "Killara"
@@ -275,17 +393,26 @@
       "matches": [
         {
           "players": [
-            "Ross Levick & Marty Wooster",
-            "Meradin Peachey & Jeremy Tenison-Smith"
+            {
+              "playerId": "team-player/f02989fc-9be3-43d0-a2e0-409c3447bda6",
+              "name": "Ross Levick & Marty Wooster"
+            },
+            {
+              "playerId": "team-player/e7f8ac9e-1489-472c-9c4e-11a8400d606d",
+              "name": "Meradin Peachey & Jeremy Tenison-Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bfc9f14e-c2ad-4333-8287-414f2aa669d8",
               "players": [
                 {
+                  "playerId": "team-player/f02989fc-9be3-43d0-a2e0-409c3447bda6",
                   "name": "Ross Levick & Marty Wooster",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/e7f8ac9e-1489-472c-9c4e-11a8400d606d",
                   "name": "Meradin Peachey & Jeremy Tenison-Smith",
                   "score": "11"
                 }
@@ -297,17 +424,26 @@
         },
         {
           "players": [
-            "Ross Levick",
-            "Meradin Peachey"
+            {
+              "playerId": "team-player/19bc619c-64b7-4529-8557-37df4fa0fbed",
+              "name": "Ross Levick"
+            },
+            {
+              "playerId": "team-player/7307e009-a1c7-4a5b-9988-a302ea4e82ef",
+              "name": "Meradin Peachey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ec579b34-d2e4-457d-a533-9d0aa7febb08",
               "players": [
                 {
+                  "playerId": "team-player/19bc619c-64b7-4529-8557-37df4fa0fbed",
                   "name": "Ross Levick",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/7307e009-a1c7-4a5b-9988-a302ea4e82ef",
                   "name": "Meradin Peachey",
                   "score": "13"
                 }
@@ -319,17 +455,26 @@
         },
         {
           "players": [
-            "Marty Wooster",
-            "Jeremy Tenison-Smith"
+            {
+              "playerId": "team-player/1d83a908-b908-4ba9-a4a8-1c3fd2d792d5",
+              "name": "Marty Wooster"
+            },
+            {
+              "playerId": "team-player/91f93e96-9b6a-461d-b443-939211e034a8",
+              "name": "Jeremy Tenison-Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5c393a5-cdbf-40a5-9363-9af2b581cd3e",
               "players": [
                 {
+                  "playerId": "team-player/1d83a908-b908-4ba9-a4a8-1c3fd2d792d5",
                   "name": "Marty Wooster",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/91f93e96-9b6a-461d-b443-939211e034a8",
                   "name": "Jeremy Tenison-Smith",
                   "score": "10"
                 }

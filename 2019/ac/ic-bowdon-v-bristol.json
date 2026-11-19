@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5e929982-717f-4abf-8292-93b0e1d9aedf",
   "name": "IC: Bowdon v Bristol",
   "sport": "ac",
   "firstDay": "2019-05-11",
   "lastDay": "2019-05-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Colin Irwin",
-        "David Walters",
-        "JP Moberly",
-        "Ken Cooper",
-        "Walters/Moberly"
+        {
+          "playerId": "team-player/53c62956-eba2-40de-8fdf-1557f2437589",
+          "name": "Colin Irwin"
+        },
+        {
+          "playerId": "team-player/d430185c-81cf-4866-8b25-25427bd9a208",
+          "name": "David Walters"
+        },
+        {
+          "playerId": "team-player/19757849-5ef7-4b2c-938c-4cc0c0d6f9c9",
+          "name": "JP Moberly"
+        },
+        {
+          "playerId": "team-player/2d16135e-83c0-440a-bb54-65fc25ea4173",
+          "name": "Ken Cooper"
+        },
+        {
+          "playerId": "team-player/ffdbdcb2-ea03-4df3-a8a3-3808d618e0dc",
+          "name": "Walters/Moberly"
+        }
       ]
     },
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "Dave Kibble",
-        "David Goacher",
-        "Richard M Smith",
-        "Robert Wilkinson",
-        "Smith/Goacher"
+        {
+          "playerId": "team-player/767184b9-4404-43e9-920b-42ff3e2d1508",
+          "name": "Dave Kibble"
+        },
+        {
+          "playerId": "team-player/4dd408eb-5476-43b2-ab9c-8d8b9bbd5075",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/ab32c3e6-ddca-49f3-ae0a-efbd7e76d21b",
+          "name": "Richard M Smith"
+        },
+        {
+          "playerId": "team-player/78b606ea-b8c2-4389-a4fb-a0dced02814a",
+          "name": "Robert Wilkinson"
+        },
+        {
+          "playerId": "team-player/c4d66f69-2d6f-4f8d-9f6a-0a8739701e9b",
+          "name": "Smith/Goacher"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2164ae7c-ba90-4f51-9308-ba7a53d69b98",
       "teams": [
         "Bowdon",
         "Bristol"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Colin Irwin",
-            "Dave Kibble"
+            {
+              "playerId": "team-player/53c62956-eba2-40de-8fdf-1557f2437589",
+              "name": "Colin Irwin"
+            },
+            {
+              "playerId": "team-player/767184b9-4404-43e9-920b-42ff3e2d1508",
+              "name": "Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cbdfe3c0-ea01-42ab-85b1-4b4331cd068b",
               "players": [
                 {
+                  "playerId": "team-player/53c62956-eba2-40de-8fdf-1557f2437589",
                   "name": "Colin Irwin",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/767184b9-4404-43e9-920b-42ff3e2d1508",
                   "name": "Dave Kibble",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Walters/Moberly",
-            "Smith/Goacher"
+            {
+              "playerId": "team-player/ffdbdcb2-ea03-4df3-a8a3-3808d618e0dc",
+              "name": "Walters/Moberly"
+            },
+            {
+              "playerId": "team-player/c4d66f69-2d6f-4f8d-9f6a-0a8739701e9b",
+              "name": "Smith/Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/de96a9ec-c005-4f8e-a1c3-c380c52da49c",
               "players": [
                 {
+                  "playerId": "team-player/ffdbdcb2-ea03-4df3-a8a3-3808d618e0dc",
                   "name": "Walters/Moberly",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/c4d66f69-2d6f-4f8d-9f6a-0a8739701e9b",
                   "name": "Smith/Goacher",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "David Walters",
-            "Richard M Smith"
+            {
+              "playerId": "team-player/d430185c-81cf-4866-8b25-25427bd9a208",
+              "name": "David Walters"
+            },
+            {
+              "playerId": "team-player/ab32c3e6-ddca-49f3-ae0a-efbd7e76d21b",
+              "name": "Richard M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff0743c3-046c-484e-9e14-508facb09efb",
               "players": [
                 {
+                  "playerId": "team-player/d430185c-81cf-4866-8b25-25427bd9a208",
                   "name": "David Walters",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/ab32c3e6-ddca-49f3-ae0a-efbd7e76d21b",
                   "name": "Richard M Smith",
                   "score": "26TP"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Colin Irwin",
-            "Robert Wilkinson"
+            {
+              "playerId": "team-player/53c62956-eba2-40de-8fdf-1557f2437589",
+              "name": "Colin Irwin"
+            },
+            {
+              "playerId": "team-player/78b606ea-b8c2-4389-a4fb-a0dced02814a",
+              "name": "Robert Wilkinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d3eb3a3e-de14-42b9-8d6e-df4372e29857",
               "players": [
                 {
+                  "playerId": "team-player/53c62956-eba2-40de-8fdf-1557f2437589",
                   "name": "Colin Irwin",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/78b606ea-b8c2-4389-a4fb-a0dced02814a",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "JP Moberly",
-            "David Goacher"
+            {
+              "playerId": "team-player/19757849-5ef7-4b2c-938c-4cc0c0d6f9c9",
+              "name": "JP Moberly"
+            },
+            {
+              "playerId": "team-player/4dd408eb-5476-43b2-ab9c-8d8b9bbd5075",
+              "name": "David Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b1f6ee24-7315-47fe-aded-077edb1021af",
               "players": [
                 {
+                  "playerId": "team-player/19757849-5ef7-4b2c-938c-4cc0c0d6f9c9",
                   "name": "JP Moberly",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/4dd408eb-5476-43b2-ab9c-8d8b9bbd5075",
                   "name": "David Goacher",
                   "score": "26"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Ken Cooper",
-            "Dave Kibble"
+            {
+              "playerId": "team-player/2d16135e-83c0-440a-bb54-65fc25ea4173",
+              "name": "Ken Cooper"
+            },
+            {
+              "playerId": "team-player/767184b9-4404-43e9-920b-42ff3e2d1508",
+              "name": "Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6381f714-6503-4d9a-b2fe-9d8e9d0ca7a2",
               "players": [
                 {
+                  "playerId": "team-player/2d16135e-83c0-440a-bb54-65fc25ea4173",
                   "name": "Ken Cooper",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/767184b9-4404-43e9-920b-42ff3e2d1508",
                   "name": "Dave Kibble",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Ken Cooper",
-            "Robert Wilkinson"
+            {
+              "playerId": "team-player/2d16135e-83c0-440a-bb54-65fc25ea4173",
+              "name": "Ken Cooper"
+            },
+            {
+              "playerId": "team-player/78b606ea-b8c2-4389-a4fb-a0dced02814a",
+              "name": "Robert Wilkinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1a5c031-c0ed-4e28-aa2c-cb919b37398f",
               "players": [
                 {
+                  "playerId": "team-player/2d16135e-83c0-440a-bb54-65fc25ea4173",
                   "name": "Ken Cooper",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/78b606ea-b8c2-4389-a4fb-a0dced02814a",
                   "name": "Robert Wilkinson",
                   "score": "20"
                 }

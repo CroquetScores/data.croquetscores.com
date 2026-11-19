@@ -1,36 +1,67 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1a74dd21-e045-49ad-a1d4-d583e632e8ac",
   "name": "NW Fed LPG Southport v Chester Centurions",
   "sport": "gc",
   "firstDay": "2025-09-10",
   "lastDay": "2025-09-10",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Southport",
       "shortName": "Southport",
       "players": [
-        "John Hampson",
-        "Mike Armstrong",
-        "Terry Dunbar"
+        {
+          "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
+          "name": "John Hampson"
+        },
+        {
+          "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
+          "name": "Mike Armstrong"
+        },
+        {
+          "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
+          "name": "Terry Dunbar"
+        }
       ]
     },
     {
       "name": "Chester Centurions",
       "shortName": "Chester Ce",
       "players": [
-        "Andy Wilson-Chalon",
-        "Andy Wilson-Chalon - meet again",
-        "Jude Wise",
-        "Jude Wise - meet again",
-        "Rick Davies",
-        "Rick Davies - meet again"
+        {
+          "playerId": "team-player/a112854d-c45c-4517-ba0b-c5719dfe648c",
+          "name": "Andy Wilson-Chalon"
+        },
+        {
+          "playerId": "team-player/83138941-91d1-4266-83f7-d45e024f24e1",
+          "name": "Andy Wilson-Chalon - meet again"
+        },
+        {
+          "playerId": "team-player/e9e2a397-dd30-4a55-8325-af05e4781bb1",
+          "name": "Jude Wise"
+        },
+        {
+          "playerId": "team-player/b8073927-8dbb-4f9b-964f-2cd372c2e8e0",
+          "name": "Jude Wise - meet again"
+        },
+        {
+          "playerId": "team-player/ca140765-f931-4da0-bbc1-a09b2cf49878",
+          "name": "Rick Davies"
+        },
+        {
+          "playerId": "team-player/ca038bcf-97c8-444b-8566-b187bb2b2763",
+          "name": "Rick Davies - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/8cbe8116-fabc-4ac9-b069-3639b357da3b",
       "teams": [
         "Southport",
         "Chester Centurions"
@@ -40,17 +71,26 @@
       "matches": [
         {
           "players": [
-            "John Hampson",
-            "Jude Wise"
+            {
+              "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
+              "name": "John Hampson"
+            },
+            {
+              "playerId": "team-player/e9e2a397-dd30-4a55-8325-af05e4781bb1",
+              "name": "Jude Wise"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f262de0f-32a5-4f97-b00d-fa3282d36b73",
               "players": [
                 {
+                  "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
                   "name": "John Hampson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e9e2a397-dd30-4a55-8325-af05e4781bb1",
                   "name": "Jude Wise",
                   "score": "7"
                 }
@@ -62,17 +102,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Rick Davies"
+            {
+              "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/ca140765-f931-4da0-bbc1-a09b2cf49878",
+              "name": "Rick Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/03e39acb-eb80-49b1-a9bc-9e58aa8e9064",
               "players": [
                 {
+                  "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
                   "name": "Terry Dunbar",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ca140765-f931-4da0-bbc1-a09b2cf49878",
                   "name": "Rick Davies",
                   "score": "7"
                 }
@@ -84,17 +133,26 @@
         },
         {
           "players": [
-            "Mike Armstrong",
-            "Andy Wilson-Chalon"
+            {
+              "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/a112854d-c45c-4517-ba0b-c5719dfe648c",
+              "name": "Andy Wilson-Chalon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/763f39ae-63cb-4c5d-b49c-bf9115d4190d",
               "players": [
                 {
+                  "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
                   "name": "Mike Armstrong",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/a112854d-c45c-4517-ba0b-c5719dfe648c",
                   "name": "Andy Wilson-Chalon",
                   "score": "7"
                 }
@@ -106,17 +164,26 @@
         },
         {
           "players": [
-            "John Hampson",
-            "Andy Wilson-Chalon"
+            {
+              "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
+              "name": "John Hampson"
+            },
+            {
+              "playerId": "team-player/a112854d-c45c-4517-ba0b-c5719dfe648c",
+              "name": "Andy Wilson-Chalon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f858b583-ab34-4a3b-97f6-e56888d63847",
               "players": [
                 {
+                  "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
                   "name": "John Hampson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a112854d-c45c-4517-ba0b-c5719dfe648c",
                   "name": "Andy Wilson-Chalon",
                   "score": "3"
                 }
@@ -128,17 +195,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Jude Wise"
+            {
+              "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/e9e2a397-dd30-4a55-8325-af05e4781bb1",
+              "name": "Jude Wise"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0c23f7a8-8165-4979-adb3-49eafca7251c",
               "players": [
                 {
+                  "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e9e2a397-dd30-4a55-8325-af05e4781bb1",
                   "name": "Jude Wise",
                   "score": "2"
                 }
@@ -150,17 +226,26 @@
         },
         {
           "players": [
-            "Mike Armstrong",
-            "Rick Davies"
+            {
+              "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/ca140765-f931-4da0-bbc1-a09b2cf49878",
+              "name": "Rick Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fcb5865c-5036-4728-ad15-925bdfc008b2",
               "players": [
                 {
+                  "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
                   "name": "Mike Armstrong",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ca140765-f931-4da0-bbc1-a09b2cf49878",
                   "name": "Rick Davies",
                   "score": "7"
                 }
@@ -172,17 +257,26 @@
         },
         {
           "players": [
-            "John Hampson",
-            "Rick Davies"
+            {
+              "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
+              "name": "John Hampson"
+            },
+            {
+              "playerId": "team-player/ca140765-f931-4da0-bbc1-a09b2cf49878",
+              "name": "Rick Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eba50c4d-123d-4ec9-b3d2-c5b68bc0c726",
               "players": [
                 {
+                  "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
                   "name": "John Hampson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ca140765-f931-4da0-bbc1-a09b2cf49878",
                   "name": "Rick Davies",
                   "score": "6"
                 }
@@ -194,17 +288,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Andy Wilson-Chalon"
+            {
+              "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/a112854d-c45c-4517-ba0b-c5719dfe648c",
+              "name": "Andy Wilson-Chalon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a80f77d0-800d-4775-a4bd-7505c21dab2d",
               "players": [
                 {
+                  "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a112854d-c45c-4517-ba0b-c5719dfe648c",
                   "name": "Andy Wilson-Chalon",
                   "score": "4"
                 }
@@ -216,17 +319,26 @@
         },
         {
           "players": [
-            "Mike Armstrong",
-            "Jude Wise"
+            {
+              "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/e9e2a397-dd30-4a55-8325-af05e4781bb1",
+              "name": "Jude Wise"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34077927-bb76-4234-b259-f947fd335782",
               "players": [
                 {
+                  "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
                   "name": "Mike Armstrong",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e9e2a397-dd30-4a55-8325-af05e4781bb1",
                   "name": "Jude Wise",
                   "score": "4"
                 }
@@ -238,17 +350,26 @@
         },
         {
           "players": [
-            "John Hampson",
-            "Jude Wise - meet again"
+            {
+              "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
+              "name": "John Hampson"
+            },
+            {
+              "playerId": "team-player/b8073927-8dbb-4f9b-964f-2cd372c2e8e0",
+              "name": "Jude Wise - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/23110965-0dd1-4bd7-a14d-03a8f58fefb2",
               "players": [
                 {
+                  "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
                   "name": "John Hampson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b8073927-8dbb-4f9b-964f-2cd372c2e8e0",
                   "name": "Jude Wise - meet again",
                   "score": "1"
                 }
@@ -260,17 +381,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Rick Davies - meet again"
+            {
+              "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/ca038bcf-97c8-444b-8566-b187bb2b2763",
+              "name": "Rick Davies - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/62b7583d-700e-4938-894e-28ceea9274a3",
               "players": [
                 {
+                  "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ca038bcf-97c8-444b-8566-b187bb2b2763",
                   "name": "Rick Davies - meet again",
                   "score": "5"
                 }
@@ -282,17 +412,26 @@
         },
         {
           "players": [
-            "Mike Armstrong",
-            "Andy Wilson-Chalon - meet again"
+            {
+              "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/83138941-91d1-4266-83f7-d45e024f24e1",
+              "name": "Andy Wilson-Chalon - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c2aca680-7173-410f-b27e-8dbf3df3ff14",
               "players": [
                 {
+                  "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
                   "name": "Mike Armstrong",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/83138941-91d1-4266-83f7-d45e024f24e1",
                   "name": "Andy Wilson-Chalon - meet again",
                   "score": "4"
                 }
@@ -304,17 +443,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Jude Wise - meet again"
+            {
+              "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/b8073927-8dbb-4f9b-964f-2cd372c2e8e0",
+              "name": "Jude Wise - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/307a883c-6f6d-44fe-8a40-a080199e9019",
               "players": [
                 {
+                  "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b8073927-8dbb-4f9b-964f-2cd372c2e8e0",
                   "name": "Jude Wise - meet again",
                   "score": "5"
                 }
@@ -326,17 +474,26 @@
         },
         {
           "players": [
-            "Mike Armstrong",
-            "Rick Davies - meet again"
+            {
+              "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/ca038bcf-97c8-444b-8566-b187bb2b2763",
+              "name": "Rick Davies - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/91f45510-e840-4f0b-a1cc-5840cd610cbb",
               "players": [
                 {
+                  "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
                   "name": "Mike Armstrong",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ca038bcf-97c8-444b-8566-b187bb2b2763",
                   "name": "Rick Davies - meet again",
                   "score": "7"
                 }
@@ -348,17 +505,26 @@
         },
         {
           "players": [
-            "John Hampson",
-            "Rick Davies - meet again"
+            {
+              "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
+              "name": "John Hampson"
+            },
+            {
+              "playerId": "team-player/ca038bcf-97c8-444b-8566-b187bb2b2763",
+              "name": "Rick Davies - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0ecbb18c-fe4e-4336-a4ed-21d30fccbc96",
               "players": [
                 {
+                  "playerId": "team-player/8442b198-5321-40f5-880b-61828839078e",
                   "name": "John Hampson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ca038bcf-97c8-444b-8566-b187bb2b2763",
                   "name": "Rick Davies - meet again",
                   "score": "7"
                 }
@@ -370,17 +536,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Andy Wilson-Chalon - meet again"
+            {
+              "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/83138941-91d1-4266-83f7-d45e024f24e1",
+              "name": "Andy Wilson-Chalon - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1bc23d5-abed-4571-9915-da9d8ad3532f",
               "players": [
                 {
+                  "playerId": "team-player/2d06bd4e-5aa3-4edd-85eb-986a2b84fe20",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/83138941-91d1-4266-83f7-d45e024f24e1",
                   "name": "Andy Wilson-Chalon - meet again",
                   "score": "5"
                 }
@@ -392,17 +567,26 @@
         },
         {
           "players": [
-            "Mike Armstrong",
-            "Jude Wise - meet again"
+            {
+              "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/b8073927-8dbb-4f9b-964f-2cd372c2e8e0",
+              "name": "Jude Wise - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eaceb50b-0a08-4076-9ccf-9ca41c8fe2b2",
               "players": [
                 {
+                  "playerId": "team-player/ec2437b3-d5ed-4697-a7d7-6dd8db311223",
                   "name": "Mike Armstrong",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/b8073927-8dbb-4f9b-964f-2cd372c2e8e0",
                   "name": "Jude Wise - meet again",
                   "score": "7"
                 }

@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0fcccbe9-3783-4034-8e7d-5f7c48b1ffb8",
   "name": "Geographe Challenge 🦘",
   "sport": "gc",
   "firstDay": "2025-10-04",
   "lastDay": "2025-10-04",
   "country": "au",
   "region": "wa",
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Busselton",
       "shortName": "Busselton",
       "players": [
-        "Allan - Vicki",
-        "Jan - Joe",
-        "John - Graham",
-        "Tony - Linda"
+        {
+          "playerId": "team-player/98e8d19d-c3ee-4243-835b-5b80b2b0c7fd",
+          "name": "Allan - Vicki"
+        },
+        {
+          "playerId": "team-player/7014119a-d696-4aa7-9104-e2f3777f66fa",
+          "name": "Jan - Joe"
+        },
+        {
+          "playerId": "team-player/b5e42bd5-4e11-494f-923d-526d8aba7203",
+          "name": "John - Graham"
+        },
+        {
+          "playerId": "team-player/ffac8deb-c2cc-4ba6-99b3-69defed253e4",
+          "name": "Tony - Linda"
+        }
       ]
     },
     {
       "name": "Dunsborough",
       "shortName": "Dunsboroug",
       "players": [
-        "Anthony - Dani",
-        "Brian - Darren",
-        "Tony - John",
-        "Wendy - Graeme"
+        {
+          "playerId": "team-player/c00397c4-d999-40ee-b674-d5bc5792edc6",
+          "name": "Anthony - Dani"
+        },
+        {
+          "playerId": "team-player/742ef815-c493-4027-870c-d0f6b68cdda8",
+          "name": "Brian - Darren"
+        },
+        {
+          "playerId": "team-player/7cea2b19-6f69-483f-a5b1-b944cf1f2dbf",
+          "name": "Tony - John"
+        },
+        {
+          "playerId": "team-player/23dd77af-8ab9-4c25-899a-2d8cfa7eda55",
+          "name": "Wendy - Graeme"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/3375b1ad-a947-4e0f-870d-c8ba8e7b3287",
       "teams": [
         "Busselton",
         "Dunsborough"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Allan - Vicki",
-            "Tony - John"
+            {
+              "playerId": "team-player/98e8d19d-c3ee-4243-835b-5b80b2b0c7fd",
+              "name": "Allan - Vicki"
+            },
+            {
+              "playerId": "team-player/7cea2b19-6f69-483f-a5b1-b944cf1f2dbf",
+              "name": "Tony - John"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e20b52af-8630-46e3-9e43-f74ff2d1ee71",
               "players": [
                 {
+                  "playerId": "team-player/98e8d19d-c3ee-4243-835b-5b80b2b0c7fd",
                   "name": "Allan - Vicki",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/7cea2b19-6f69-483f-a5b1-b944cf1f2dbf",
                   "name": "Tony - John",
                   "score": "4"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Jan - Joe",
-            "Wendy - Graeme"
+            {
+              "playerId": "team-player/7014119a-d696-4aa7-9104-e2f3777f66fa",
+              "name": "Jan - Joe"
+            },
+            {
+              "playerId": "team-player/23dd77af-8ab9-4c25-899a-2d8cfa7eda55",
+              "name": "Wendy - Graeme"
+            }
           ],
           "games": [
             {
+              "gameId": "game/04130353-a03b-4856-978f-8a94c4fe5d6f",
               "players": [
                 {
+                  "playerId": "team-player/7014119a-d696-4aa7-9104-e2f3777f66fa",
                   "name": "Jan - Joe",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/23dd77af-8ab9-4c25-899a-2d8cfa7eda55",
                   "name": "Wendy - Graeme",
                   "score": "7"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Tony - Linda",
-            "Anthony - Dani"
+            {
+              "playerId": "team-player/ffac8deb-c2cc-4ba6-99b3-69defed253e4",
+              "name": "Tony - Linda"
+            },
+            {
+              "playerId": "team-player/c00397c4-d999-40ee-b674-d5bc5792edc6",
+              "name": "Anthony - Dani"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a6dc8429-55ad-4219-93bf-8a3247fe588b",
               "players": [
                 {
+                  "playerId": "team-player/ffac8deb-c2cc-4ba6-99b3-69defed253e4",
                   "name": "Tony - Linda",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/c00397c4-d999-40ee-b674-d5bc5792edc6",
                   "name": "Anthony - Dani",
                   "score": "7"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "John - Graham",
-            "Brian - Darren"
+            {
+              "playerId": "team-player/b5e42bd5-4e11-494f-923d-526d8aba7203",
+              "name": "John - Graham"
+            },
+            {
+              "playerId": "team-player/742ef815-c493-4027-870c-d0f6b68cdda8",
+              "name": "Brian - Darren"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c7e1ed0-c783-40cd-a3e4-64dc55b7e3ae",
               "players": [
                 {
+                  "playerId": "team-player/b5e42bd5-4e11-494f-923d-526d8aba7203",
                   "name": "John - Graham",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/742ef815-c493-4027-870c-d0f6b68cdda8",
                   "name": "Brian - Darren",
                   "score": "7"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Allan - Vicki",
-            "Brian - Darren"
+            {
+              "playerId": "team-player/98e8d19d-c3ee-4243-835b-5b80b2b0c7fd",
+              "name": "Allan - Vicki"
+            },
+            {
+              "playerId": "team-player/742ef815-c493-4027-870c-d0f6b68cdda8",
+              "name": "Brian - Darren"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2acf9985-fcb3-4c1e-8956-babaf6bf0c7a",
               "players": [
                 {
+                  "playerId": "team-player/98e8d19d-c3ee-4243-835b-5b80b2b0c7fd",
                   "name": "Allan - Vicki",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/742ef815-c493-4027-870c-d0f6b68cdda8",
                   "name": "Brian - Darren",
                   "score": "5"
                 }
@@ -149,17 +222,26 @@
         },
         {
           "players": [
-            "John - Graham",
-            "Tony - John"
+            {
+              "playerId": "team-player/b5e42bd5-4e11-494f-923d-526d8aba7203",
+              "name": "John - Graham"
+            },
+            {
+              "playerId": "team-player/7cea2b19-6f69-483f-a5b1-b944cf1f2dbf",
+              "name": "Tony - John"
+            }
           ],
           "games": [
             {
+              "gameId": "game/97f66bfb-2c23-421e-a12f-81a0825868bc",
               "players": [
                 {
+                  "playerId": "team-player/b5e42bd5-4e11-494f-923d-526d8aba7203",
                   "name": "John - Graham",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/7cea2b19-6f69-483f-a5b1-b944cf1f2dbf",
                   "name": "Tony - John",
                   "score": "7"
                 }
@@ -171,17 +253,26 @@
         },
         {
           "players": [
-            "Jan - Joe",
-            "Anthony - Dani"
+            {
+              "playerId": "team-player/7014119a-d696-4aa7-9104-e2f3777f66fa",
+              "name": "Jan - Joe"
+            },
+            {
+              "playerId": "team-player/c00397c4-d999-40ee-b674-d5bc5792edc6",
+              "name": "Anthony - Dani"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49ae7709-a7d8-4036-82c3-42eb9d0fb2c0",
               "players": [
                 {
+                  "playerId": "team-player/7014119a-d696-4aa7-9104-e2f3777f66fa",
                   "name": "Jan - Joe",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/c00397c4-d999-40ee-b674-d5bc5792edc6",
                   "name": "Anthony - Dani",
                   "score": "7"
                 }
@@ -193,17 +284,26 @@
         },
         {
           "players": [
-            "Tony - Linda",
-            "Wendy - Graeme"
+            {
+              "playerId": "team-player/ffac8deb-c2cc-4ba6-99b3-69defed253e4",
+              "name": "Tony - Linda"
+            },
+            {
+              "playerId": "team-player/23dd77af-8ab9-4c25-899a-2d8cfa7eda55",
+              "name": "Wendy - Graeme"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c9cc968b-c574-419e-b6ef-648ddfc7a1bf",
               "players": [
                 {
+                  "playerId": "team-player/ffac8deb-c2cc-4ba6-99b3-69defed253e4",
                   "name": "Tony - Linda",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/23dd77af-8ab9-4c25-899a-2d8cfa7eda55",
                   "name": "Wendy - Graeme",
                   "score": "6"
                 }
@@ -215,17 +315,26 @@
         },
         {
           "players": [
-            "Tony - Linda",
-            "Brian - Darren"
+            {
+              "playerId": "team-player/ffac8deb-c2cc-4ba6-99b3-69defed253e4",
+              "name": "Tony - Linda"
+            },
+            {
+              "playerId": "team-player/742ef815-c493-4027-870c-d0f6b68cdda8",
+              "name": "Brian - Darren"
+            }
           ],
           "games": [
             {
+              "gameId": "game/94360846-afa1-47fa-8eba-7f3942b56e49",
               "players": [
                 {
+                  "playerId": "team-player/ffac8deb-c2cc-4ba6-99b3-69defed253e4",
                   "name": "Tony - Linda",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/742ef815-c493-4027-870c-d0f6b68cdda8",
                   "name": "Brian - Darren",
                   "score": "6"
                 }
@@ -237,17 +346,26 @@
         },
         {
           "players": [
-            "Allan - Vicki",
-            "Wendy - Graeme"
+            {
+              "playerId": "team-player/98e8d19d-c3ee-4243-835b-5b80b2b0c7fd",
+              "name": "Allan - Vicki"
+            },
+            {
+              "playerId": "team-player/23dd77af-8ab9-4c25-899a-2d8cfa7eda55",
+              "name": "Wendy - Graeme"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c39c507e-1e4f-4071-a945-a9c7c072e6a4",
               "players": [
                 {
+                  "playerId": "team-player/98e8d19d-c3ee-4243-835b-5b80b2b0c7fd",
                   "name": "Allan - Vicki",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/23dd77af-8ab9-4c25-899a-2d8cfa7eda55",
                   "name": "Wendy - Graeme",
                   "score": "3"
                 }
@@ -259,17 +377,26 @@
         },
         {
           "players": [
-            "John - Graham",
-            "Anthony - Dani"
+            {
+              "playerId": "team-player/b5e42bd5-4e11-494f-923d-526d8aba7203",
+              "name": "John - Graham"
+            },
+            {
+              "playerId": "team-player/c00397c4-d999-40ee-b674-d5bc5792edc6",
+              "name": "Anthony - Dani"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6bc45caa-1cec-4272-8be4-fe007983ef81",
               "players": [
                 {
+                  "playerId": "team-player/b5e42bd5-4e11-494f-923d-526d8aba7203",
                   "name": "John - Graham",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/c00397c4-d999-40ee-b674-d5bc5792edc6",
                   "name": "Anthony - Dani",
                   "score": "7"
                 }
@@ -281,17 +408,26 @@
         },
         {
           "players": [
-            "Jan - Joe",
-            "Tony - John"
+            {
+              "playerId": "team-player/7014119a-d696-4aa7-9104-e2f3777f66fa",
+              "name": "Jan - Joe"
+            },
+            {
+              "playerId": "team-player/7cea2b19-6f69-483f-a5b1-b944cf1f2dbf",
+              "name": "Tony - John"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c207b8a-248f-43ff-bad2-0682a47b953f",
               "players": [
                 {
+                  "playerId": "team-player/7014119a-d696-4aa7-9104-e2f3777f66fa",
                   "name": "Jan - Joe",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7cea2b19-6f69-483f-a5b1-b944cf1f2dbf",
                   "name": "Tony - John",
                   "score": "7"
                 }
@@ -303,17 +439,26 @@
         },
         {
           "players": [
-            "John - Graham",
-            "Wendy - Graeme"
+            {
+              "playerId": "team-player/b5e42bd5-4e11-494f-923d-526d8aba7203",
+              "name": "John - Graham"
+            },
+            {
+              "playerId": "team-player/23dd77af-8ab9-4c25-899a-2d8cfa7eda55",
+              "name": "Wendy - Graeme"
+            }
           ],
           "games": [
             {
+              "gameId": "game/71741a67-9bc4-490f-999c-13d83aee1ed6",
               "players": [
                 {
+                  "playerId": "team-player/b5e42bd5-4e11-494f-923d-526d8aba7203",
                   "name": "John - Graham",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/23dd77af-8ab9-4c25-899a-2d8cfa7eda55",
                   "name": "Wendy - Graeme",
                   "score": "7"
                 }
@@ -325,17 +470,26 @@
         },
         {
           "players": [
-            "Jan - Joe",
-            "Brian - Darren"
+            {
+              "playerId": "team-player/7014119a-d696-4aa7-9104-e2f3777f66fa",
+              "name": "Jan - Joe"
+            },
+            {
+              "playerId": "team-player/742ef815-c493-4027-870c-d0f6b68cdda8",
+              "name": "Brian - Darren"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2b919c8-8637-448f-b642-589154f20557",
               "players": [
                 {
+                  "playerId": "team-player/7014119a-d696-4aa7-9104-e2f3777f66fa",
                   "name": "Jan - Joe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/742ef815-c493-4027-870c-d0f6b68cdda8",
                   "name": "Brian - Darren",
                   "score": "6"
                 }
@@ -347,17 +501,26 @@
         },
         {
           "players": [
-            "Allan - Vicki",
-            "Anthony - Dani"
+            {
+              "playerId": "team-player/98e8d19d-c3ee-4243-835b-5b80b2b0c7fd",
+              "name": "Allan - Vicki"
+            },
+            {
+              "playerId": "team-player/c00397c4-d999-40ee-b674-d5bc5792edc6",
+              "name": "Anthony - Dani"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dedca3da-8678-4ef9-aad7-0bf916b69dd1",
               "players": [
                 {
+                  "playerId": "team-player/98e8d19d-c3ee-4243-835b-5b80b2b0c7fd",
                   "name": "Allan - Vicki",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/c00397c4-d999-40ee-b674-d5bc5792edc6",
                   "name": "Anthony - Dani",
                   "score": "7"
                 }
@@ -369,17 +532,26 @@
         },
         {
           "players": [
-            "Tony - Linda",
-            "Tony - John"
+            {
+              "playerId": "team-player/ffac8deb-c2cc-4ba6-99b3-69defed253e4",
+              "name": "Tony - Linda"
+            },
+            {
+              "playerId": "team-player/7cea2b19-6f69-483f-a5b1-b944cf1f2dbf",
+              "name": "Tony - John"
+            }
           ],
           "games": [
             {
+              "gameId": "game/56515f8d-ce60-4d07-9b74-5e02c5ead086",
               "players": [
                 {
+                  "playerId": "team-player/ffac8deb-c2cc-4ba6-99b3-69defed253e4",
                   "name": "Tony - Linda",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/7cea2b19-6f69-483f-a5b1-b944cf1f2dbf",
                   "name": "Tony - John",
                   "score": "4"
                 }

@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f1d05432-dc03-4c51-b769-57aa3285b758",
   "name": "Welsh GC League Llanidloes v Mumbles",
   "sport": "gc",
   "firstDay": "2025-05-30",
   "lastDay": "2025-05-30",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Llanidloes",
       "shortName": "Llanidloes",
       "players": [
-        "Adam Britton",
-        "Adam Britton & David Mullan",
-        "David Mullan",
-        "Gill Williams",
-        "Gill Williams & Wendy Fine",
-        "Wendy Fine"
+        {
+          "playerId": "team-player/d93e41da-d836-4960-8a39-6edd8ae55748",
+          "name": "Adam Britton"
+        },
+        {
+          "playerId": "team-player/77177ab0-e6dd-4ca5-8619-0788170624e2",
+          "name": "Adam Britton & David Mullan"
+        },
+        {
+          "playerId": "team-player/5e5b58cd-7e81-41bb-a067-ca9469a7a29a",
+          "name": "David Mullan"
+        },
+        {
+          "playerId": "team-player/f0308a5e-3452-4d30-abb2-da697fa8822b",
+          "name": "Gill Williams"
+        },
+        {
+          "playerId": "team-player/6ca0bb2a-3850-4f73-b432-849fc1d37bad",
+          "name": "Gill Williams & Wendy Fine"
+        },
+        {
+          "playerId": "team-player/9870ef48-5a24-4d68-93bf-90188134b2a4",
+          "name": "Wendy Fine"
+        }
       ]
     },
     {
       "name": "Mumbles",
       "shortName": "Mumbles",
       "players": [
-        "Kath Wright",
-        "Martin Jones",
-        "Paul Thomas",
-        "Paul Thomas & Martin Jones",
-        "Richard Wood",
-        "Richard Wood & Kath Wright"
+        {
+          "playerId": "team-player/70f4d2a3-fd1e-4b88-b1b0-9c0b210ed78e",
+          "name": "Kath Wright"
+        },
+        {
+          "playerId": "team-player/18414b4f-bf3c-443c-af0b-45a2e15b8e9a",
+          "name": "Martin Jones"
+        },
+        {
+          "playerId": "team-player/7b6805df-d2c7-484d-ad93-7e7b03c1e8dd",
+          "name": "Paul Thomas"
+        },
+        {
+          "playerId": "team-player/75e8b55c-980d-4627-b3e5-5ea0a5d16a5c",
+          "name": "Paul Thomas & Martin Jones"
+        },
+        {
+          "playerId": "team-player/e57b81f6-dba7-4978-8c56-d786fbef75e3",
+          "name": "Richard Wood"
+        },
+        {
+          "playerId": "team-player/13fa8f07-3929-48dc-b4e8-98a0fb65b2b5",
+          "name": "Richard Wood & Kath Wright"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/5d6d5eac-74c0-4c85-9485-733c1e21a6bf",
       "teams": [
         "Llanidloes",
         "Mumbles"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Adam Britton & David Mullan",
-            "Richard Wood & Kath Wright"
+            {
+              "playerId": "team-player/77177ab0-e6dd-4ca5-8619-0788170624e2",
+              "name": "Adam Britton & David Mullan"
+            },
+            {
+              "playerId": "team-player/13fa8f07-3929-48dc-b4e8-98a0fb65b2b5",
+              "name": "Richard Wood & Kath Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3e1d59d8-af40-4401-b1bf-685afb307e56",
               "players": [
                 {
+                  "playerId": "team-player/77177ab0-e6dd-4ca5-8619-0788170624e2",
                   "name": "Adam Britton & David Mullan",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/13fa8f07-3929-48dc-b4e8-98a0fb65b2b5",
                   "name": "Richard Wood & Kath Wright",
                   "score": "5"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Gill Williams & Wendy Fine",
-            "Paul Thomas & Martin Jones"
+            {
+              "playerId": "team-player/6ca0bb2a-3850-4f73-b432-849fc1d37bad",
+              "name": "Gill Williams & Wendy Fine"
+            },
+            {
+              "playerId": "team-player/75e8b55c-980d-4627-b3e5-5ea0a5d16a5c",
+              "name": "Paul Thomas & Martin Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35442259-45bc-4bc7-8476-7a20ea49f779",
               "players": [
                 {
+                  "playerId": "team-player/6ca0bb2a-3850-4f73-b432-849fc1d37bad",
                   "name": "Gill Williams & Wendy Fine",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/75e8b55c-980d-4627-b3e5-5ea0a5d16a5c",
                   "name": "Paul Thomas & Martin Jones",
                   "score": "7"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Adam Britton & David Mullan",
-            "Paul Thomas & Martin Jones"
+            {
+              "playerId": "team-player/77177ab0-e6dd-4ca5-8619-0788170624e2",
+              "name": "Adam Britton & David Mullan"
+            },
+            {
+              "playerId": "team-player/75e8b55c-980d-4627-b3e5-5ea0a5d16a5c",
+              "name": "Paul Thomas & Martin Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/093282ab-41f8-49b7-9c78-6c043b608fff",
               "players": [
                 {
+                  "playerId": "team-player/77177ab0-e6dd-4ca5-8619-0788170624e2",
                   "name": "Adam Britton & David Mullan",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/75e8b55c-980d-4627-b3e5-5ea0a5d16a5c",
                   "name": "Paul Thomas & Martin Jones",
                   "score": "7"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Gill Williams & Wendy Fine",
-            "Richard Wood & Kath Wright"
+            {
+              "playerId": "team-player/6ca0bb2a-3850-4f73-b432-849fc1d37bad",
+              "name": "Gill Williams & Wendy Fine"
+            },
+            {
+              "playerId": "team-player/13fa8f07-3929-48dc-b4e8-98a0fb65b2b5",
+              "name": "Richard Wood & Kath Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa3e4c13-c0ef-4db7-a5a3-acbbbd94a186",
               "players": [
                 {
+                  "playerId": "team-player/6ca0bb2a-3850-4f73-b432-849fc1d37bad",
                   "name": "Gill Williams & Wendy Fine",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/13fa8f07-3929-48dc-b4e8-98a0fb65b2b5",
                   "name": "Richard Wood & Kath Wright",
                   "score": "5"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Adam Britton",
-            "Richard Wood"
+            {
+              "playerId": "team-player/d93e41da-d836-4960-8a39-6edd8ae55748",
+              "name": "Adam Britton"
+            },
+            {
+              "playerId": "team-player/e57b81f6-dba7-4978-8c56-d786fbef75e3",
+              "name": "Richard Wood"
+            }
           ],
           "games": [
             {
+              "gameId": "game/665dd21e-7b84-44a4-976d-d1a4f9c76cf6",
               "players": [
                 {
+                  "playerId": "team-player/d93e41da-d836-4960-8a39-6edd8ae55748",
                   "name": "Adam Britton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/e57b81f6-dba7-4978-8c56-d786fbef75e3",
                   "name": "Richard Wood",
                   "score": "7"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "David Mullan",
-            "Kath Wright"
+            {
+              "playerId": "team-player/5e5b58cd-7e81-41bb-a067-ca9469a7a29a",
+              "name": "David Mullan"
+            },
+            {
+              "playerId": "team-player/70f4d2a3-fd1e-4b88-b1b0-9c0b210ed78e",
+              "name": "Kath Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7376ce7-bf52-4f13-8a0f-7dbbe4a5915a",
               "players": [
                 {
+                  "playerId": "team-player/5e5b58cd-7e81-41bb-a067-ca9469a7a29a",
                   "name": "David Mullan",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/70f4d2a3-fd1e-4b88-b1b0-9c0b210ed78e",
                   "name": "Kath Wright",
                   "score": "7"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "Gill Williams",
-            "Paul Thomas"
+            {
+              "playerId": "team-player/f0308a5e-3452-4d30-abb2-da697fa8822b",
+              "name": "Gill Williams"
+            },
+            {
+              "playerId": "team-player/7b6805df-d2c7-484d-ad93-7e7b03c1e8dd",
+              "name": "Paul Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d919efa9-2bcc-4a3a-917e-b71ada989eec",
               "players": [
                 {
+                  "playerId": "team-player/f0308a5e-3452-4d30-abb2-da697fa8822b",
                   "name": "Gill Williams",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7b6805df-d2c7-484d-ad93-7e7b03c1e8dd",
                   "name": "Paul Thomas",
                   "score": "7"
                 }
@@ -197,17 +300,26 @@
         },
         {
           "players": [
-            "Adam Britton",
-            "Kath Wright"
+            {
+              "playerId": "team-player/d93e41da-d836-4960-8a39-6edd8ae55748",
+              "name": "Adam Britton"
+            },
+            {
+              "playerId": "team-player/70f4d2a3-fd1e-4b88-b1b0-9c0b210ed78e",
+              "name": "Kath Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/940ea3af-266b-482a-8ebb-67698b92dd87",
               "players": [
                 {
+                  "playerId": "team-player/d93e41da-d836-4960-8a39-6edd8ae55748",
                   "name": "Adam Britton",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/70f4d2a3-fd1e-4b88-b1b0-9c0b210ed78e",
                   "name": "Kath Wright",
                   "score": "7"
                 }
@@ -219,17 +331,26 @@
         },
         {
           "players": [
-            "David Mullan",
-            "Paul Thomas"
+            {
+              "playerId": "team-player/5e5b58cd-7e81-41bb-a067-ca9469a7a29a",
+              "name": "David Mullan"
+            },
+            {
+              "playerId": "team-player/7b6805df-d2c7-484d-ad93-7e7b03c1e8dd",
+              "name": "Paul Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/167264c9-d4d4-479f-87a2-fc2c6d272a95",
               "players": [
                 {
+                  "playerId": "team-player/5e5b58cd-7e81-41bb-a067-ca9469a7a29a",
                   "name": "David Mullan",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7b6805df-d2c7-484d-ad93-7e7b03c1e8dd",
                   "name": "Paul Thomas",
                   "score": "7"
                 }
@@ -241,17 +362,26 @@
         },
         {
           "players": [
-            "Gill Williams",
-            "Martin Jones"
+            {
+              "playerId": "team-player/f0308a5e-3452-4d30-abb2-da697fa8822b",
+              "name": "Gill Williams"
+            },
+            {
+              "playerId": "team-player/18414b4f-bf3c-443c-af0b-45a2e15b8e9a",
+              "name": "Martin Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f9dff095-865d-41da-aec1-fcbc055c0998",
               "players": [
                 {
+                  "playerId": "team-player/f0308a5e-3452-4d30-abb2-da697fa8822b",
                   "name": "Gill Williams",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/18414b4f-bf3c-443c-af0b-45a2e15b8e9a",
                   "name": "Martin Jones",
                   "score": "7"
                 }
@@ -263,17 +393,26 @@
         },
         {
           "players": [
-            "Wendy Fine",
-            "Richard Wood"
+            {
+              "playerId": "team-player/9870ef48-5a24-4d68-93bf-90188134b2a4",
+              "name": "Wendy Fine"
+            },
+            {
+              "playerId": "team-player/e57b81f6-dba7-4978-8c56-d786fbef75e3",
+              "name": "Richard Wood"
+            }
           ],
           "games": [
             {
+              "gameId": "game/093b814c-d873-4efb-9e07-49c494a8be95",
               "players": [
                 {
+                  "playerId": "team-player/9870ef48-5a24-4d68-93bf-90188134b2a4",
                   "name": "Wendy Fine",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/e57b81f6-dba7-4978-8c56-d786fbef75e3",
                   "name": "Richard Wood",
                   "score": "7"
                 }
@@ -285,17 +424,26 @@
         },
         {
           "players": [
-            "Adam Britton",
-            "Paul Thomas"
+            {
+              "playerId": "team-player/d93e41da-d836-4960-8a39-6edd8ae55748",
+              "name": "Adam Britton"
+            },
+            {
+              "playerId": "team-player/7b6805df-d2c7-484d-ad93-7e7b03c1e8dd",
+              "name": "Paul Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/809ba09a-c3ad-40a1-beb7-4e9d999be3a7",
               "players": [
                 {
+                  "playerId": "team-player/d93e41da-d836-4960-8a39-6edd8ae55748",
                   "name": "Adam Britton",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7b6805df-d2c7-484d-ad93-7e7b03c1e8dd",
                   "name": "Paul Thomas",
                   "score": "7"
                 }
@@ -307,17 +455,26 @@
         },
         {
           "players": [
-            "David Mullan",
-            "Martin Jones"
+            {
+              "playerId": "team-player/5e5b58cd-7e81-41bb-a067-ca9469a7a29a",
+              "name": "David Mullan"
+            },
+            {
+              "playerId": "team-player/18414b4f-bf3c-443c-af0b-45a2e15b8e9a",
+              "name": "Martin Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fd548fc7-c637-4eb0-b20e-fd2c534496ef",
               "players": [
                 {
+                  "playerId": "team-player/5e5b58cd-7e81-41bb-a067-ca9469a7a29a",
                   "name": "David Mullan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/18414b4f-bf3c-443c-af0b-45a2e15b8e9a",
                   "name": "Martin Jones",
                   "score": "6"
                 }
@@ -329,17 +486,26 @@
         },
         {
           "players": [
-            "Gill Williams",
-            "Richard Wood"
+            {
+              "playerId": "team-player/f0308a5e-3452-4d30-abb2-da697fa8822b",
+              "name": "Gill Williams"
+            },
+            {
+              "playerId": "team-player/e57b81f6-dba7-4978-8c56-d786fbef75e3",
+              "name": "Richard Wood"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8117166b-38d2-4cd1-81af-e4a9e8e85684",
               "players": [
                 {
+                  "playerId": "team-player/f0308a5e-3452-4d30-abb2-da697fa8822b",
                   "name": "Gill Williams",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e57b81f6-dba7-4978-8c56-d786fbef75e3",
                   "name": "Richard Wood",
                   "score": "7"
                 }
@@ -351,17 +517,26 @@
         },
         {
           "players": [
-            "Wendy Fine",
-            "Kath Wright"
+            {
+              "playerId": "team-player/9870ef48-5a24-4d68-93bf-90188134b2a4",
+              "name": "Wendy Fine"
+            },
+            {
+              "playerId": "team-player/70f4d2a3-fd1e-4b88-b1b0-9c0b210ed78e",
+              "name": "Kath Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d4e79c44-5a3d-4638-bd68-715c4deb05e2",
               "players": [
                 {
+                  "playerId": "team-player/9870ef48-5a24-4d68-93bf-90188134b2a4",
                   "name": "Wendy Fine",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/70f4d2a3-fd1e-4b88-b1b0-9c0b210ed78e",
                   "name": "Kath Wright",
                   "score": "6"
                 }
@@ -373,17 +548,26 @@
         },
         {
           "players": [
-            "Adam Britton",
-            "Martin Jones"
+            {
+              "playerId": "team-player/d93e41da-d836-4960-8a39-6edd8ae55748",
+              "name": "Adam Britton"
+            },
+            {
+              "playerId": "team-player/18414b4f-bf3c-443c-af0b-45a2e15b8e9a",
+              "name": "Martin Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4bfbd616-d730-4057-907a-2b487ea268b5",
               "players": [
                 {
+                  "playerId": "team-player/d93e41da-d836-4960-8a39-6edd8ae55748",
                   "name": "Adam Britton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/18414b4f-bf3c-443c-af0b-45a2e15b8e9a",
                   "name": "Martin Jones",
                   "score": "4"
                 }
@@ -395,17 +579,26 @@
         },
         {
           "players": [
-            "David Mullan",
-            "Richard Wood"
+            {
+              "playerId": "team-player/5e5b58cd-7e81-41bb-a067-ca9469a7a29a",
+              "name": "David Mullan"
+            },
+            {
+              "playerId": "team-player/e57b81f6-dba7-4978-8c56-d786fbef75e3",
+              "name": "Richard Wood"
+            }
           ],
           "games": [
             {
+              "gameId": "game/666cf3d2-fd19-4118-8938-e50c55c8b691",
               "players": [
                 {
+                  "playerId": "team-player/5e5b58cd-7e81-41bb-a067-ca9469a7a29a",
                   "name": "David Mullan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e57b81f6-dba7-4978-8c56-d786fbef75e3",
                   "name": "Richard Wood",
                   "score": "6"
                 }
@@ -417,17 +610,26 @@
         },
         {
           "players": [
-            "Gill Williams",
-            "Kath Wright"
+            {
+              "playerId": "team-player/f0308a5e-3452-4d30-abb2-da697fa8822b",
+              "name": "Gill Williams"
+            },
+            {
+              "playerId": "team-player/70f4d2a3-fd1e-4b88-b1b0-9c0b210ed78e",
+              "name": "Kath Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/862e5ab0-be8d-4f42-84b6-ac1ec612ebc4",
               "players": [
                 {
+                  "playerId": "team-player/f0308a5e-3452-4d30-abb2-da697fa8822b",
                   "name": "Gill Williams",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/70f4d2a3-fd1e-4b88-b1b0-9c0b210ed78e",
                   "name": "Kath Wright",
                   "score": "7"
                 }
@@ -439,17 +641,26 @@
         },
         {
           "players": [
-            "Wendy Fine",
-            "Paul Thomas"
+            {
+              "playerId": "team-player/9870ef48-5a24-4d68-93bf-90188134b2a4",
+              "name": "Wendy Fine"
+            },
+            {
+              "playerId": "team-player/7b6805df-d2c7-484d-ad93-7e7b03c1e8dd",
+              "name": "Paul Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/02751036-3d42-46e6-89fe-feb67a724bce",
               "players": [
                 {
+                  "playerId": "team-player/9870ef48-5a24-4d68-93bf-90188134b2a4",
                   "name": "Wendy Fine",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/7b6805df-d2c7-484d-ad93-7e7b03c1e8dd",
                   "name": "Paul Thomas",
                   "score": "7"
                 }

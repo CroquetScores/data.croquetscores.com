@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1655edb4-81c6-4613-8380-a8af9badf90e",
   "name": "CNZ U21 v NZ Select GC",
   "sport": "gc",
   "firstDay": "2022-01-08",
   "lastDay": "2022-01-09",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "New Zealand U21",
       "shortName": "New Zealan",
       "players": [
-        "Jessica Bullen",
-        "Joel Steele",
-        "Joel Steele & Michael Lauer",
-        "Josh Winter",
-        "Josh Winter & Levi Franks",
-        "Levi Franks",
-        "Michael Lauer",
-        "Paul Kaiser",
-        "Paul Kaiser & Jessica Bullen"
+        {
+          "playerId": "team-player/dae304ce-e93e-46bc-ab12-ec5fd5643279",
+          "name": "Jessica Bullen"
+        },
+        {
+          "playerId": "team-player/1192250b-897a-4d15-a791-2b97fc77a039",
+          "name": "Joel Steele"
+        },
+        {
+          "playerId": "team-player/762b6764-88b4-48ff-b94d-66311b3df8b8",
+          "name": "Joel Steele & Michael Lauer"
+        },
+        {
+          "playerId": "team-player/8e1ed76d-8b69-4496-b65d-dc98a7a78aaa",
+          "name": "Josh Winter"
+        },
+        {
+          "playerId": "team-player/3f4a4488-4aa9-495f-9052-796d871e8553",
+          "name": "Josh Winter & Levi Franks"
+        },
+        {
+          "playerId": "team-player/26ade786-5765-443b-b548-5f38fe72bc2d",
+          "name": "Levi Franks"
+        },
+        {
+          "playerId": "team-player/9fdcd81a-9a67-4d70-9371-ee523d1a9ad6",
+          "name": "Michael Lauer"
+        },
+        {
+          "playerId": "team-player/f420f877-b7e9-45bd-b963-066e3d941215",
+          "name": "Paul Kaiser"
+        },
+        {
+          "playerId": "team-player/b29c14b1-3578-4e99-8e84-df377d8d7e41",
+          "name": "Paul Kaiser & Jessica Bullen"
+        }
       ]
     },
     {
       "name": "New Zealand Select",
       "shortName": "New Zeal 2",
       "players": [
-        "Duncan Dixon",
-        "Edmund Fordyce",
-        "Edmund Fordyce & Duncan Dixon",
-        "Felix Webby",
-        "Felix Webby & Jenny Clarke",
-        "Helen Reeves",
-        "Helen Reeves & Sonya Sedgwick",
-        "Jenny Clarke",
-        "Sonya Sedgwick"
+        {
+          "playerId": "team-player/38c11250-8068-449c-862b-aeb098e2eba7",
+          "name": "Duncan Dixon"
+        },
+        {
+          "playerId": "team-player/732a78a9-f36e-431a-8e32-f5a30209ebe0",
+          "name": "Edmund Fordyce"
+        },
+        {
+          "playerId": "team-player/f066060c-2544-45fa-8cb7-ab0c4c615a64",
+          "name": "Edmund Fordyce & Duncan Dixon"
+        },
+        {
+          "playerId": "team-player/a26dc602-010f-4d2e-ac81-8198e71412ca",
+          "name": "Felix Webby"
+        },
+        {
+          "playerId": "team-player/f2acecfa-1e3c-43c4-bca2-6d337719769d",
+          "name": "Felix Webby & Jenny Clarke"
+        },
+        {
+          "playerId": "team-player/2f6a1ec5-2047-4a21-8880-1ff645cab092",
+          "name": "Helen Reeves"
+        },
+        {
+          "playerId": "team-player/a632a710-cebf-41f6-91ea-fe77ad784349",
+          "name": "Helen Reeves & Sonya Sedgwick"
+        },
+        {
+          "playerId": "team-player/cd78c3b0-1e10-41e1-b0ae-145f8734bfe7",
+          "name": "Jenny Clarke"
+        },
+        {
+          "playerId": "team-player/1e91c332-8a87-496d-9561-0ee548b8a4ac",
+          "name": "Sonya Sedgwick"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/758fa987-fc49-4e0c-945b-a357df16c17a",
       "teams": [
         "New Zealand U21",
         "New Zealand Select"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Paul Kaiser & Jessica Bullen",
-            "Helen Reeves & Sonya Sedgwick"
+            {
+              "playerId": "team-player/b29c14b1-3578-4e99-8e84-df377d8d7e41",
+              "name": "Paul Kaiser & Jessica Bullen"
+            },
+            {
+              "playerId": "team-player/a632a710-cebf-41f6-91ea-fe77ad784349",
+              "name": "Helen Reeves & Sonya Sedgwick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8e7de0a-bc6b-42f5-ab5f-e7d924933d3c",
               "players": [
                 {
+                  "playerId": "team-player/b29c14b1-3578-4e99-8e84-df377d8d7e41",
                   "name": "Paul Kaiser & Jessica Bullen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a632a710-cebf-41f6-91ea-fe77ad784349",
                   "name": "Helen Reeves & Sonya Sedgwick",
                   "score": "7"
                 }
@@ -68,12 +135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ca2f153b-7b8f-4184-b578-39d86e9ef75b",
               "players": [
                 {
+                  "playerId": "team-player/b29c14b1-3578-4e99-8e84-df377d8d7e41",
                   "name": "Paul Kaiser & Jessica Bullen",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/a632a710-cebf-41f6-91ea-fe77ad784349",
                   "name": "Helen Reeves & Sonya Sedgwick",
                   "score": "7"
                 }
@@ -85,17 +155,26 @@
         },
         {
           "players": [
-            "Joel Steele & Michael Lauer",
-            "Edmund Fordyce & Duncan Dixon"
+            {
+              "playerId": "team-player/762b6764-88b4-48ff-b94d-66311b3df8b8",
+              "name": "Joel Steele & Michael Lauer"
+            },
+            {
+              "playerId": "team-player/f066060c-2544-45fa-8cb7-ab0c4c615a64",
+              "name": "Edmund Fordyce & Duncan Dixon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/981df530-52fc-4e33-abf4-807cce24ce9a",
               "players": [
                 {
+                  "playerId": "team-player/762b6764-88b4-48ff-b94d-66311b3df8b8",
                   "name": "Joel Steele & Michael Lauer",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f066060c-2544-45fa-8cb7-ab0c4c615a64",
                   "name": "Edmund Fordyce & Duncan Dixon",
                   "score": "7"
                 }
@@ -104,12 +183,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bfc3f93f-7351-4d33-be45-1d6719cc1ee8",
               "players": [
                 {
+                  "playerId": "team-player/762b6764-88b4-48ff-b94d-66311b3df8b8",
                   "name": "Joel Steele & Michael Lauer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f066060c-2544-45fa-8cb7-ab0c4c615a64",
                   "name": "Edmund Fordyce & Duncan Dixon",
                   "score": "7"
                 }
@@ -121,17 +203,26 @@
         },
         {
           "players": [
-            "Josh Winter & Levi Franks",
-            "Felix Webby & Jenny Clarke"
+            {
+              "playerId": "team-player/3f4a4488-4aa9-495f-9052-796d871e8553",
+              "name": "Josh Winter & Levi Franks"
+            },
+            {
+              "playerId": "team-player/f2acecfa-1e3c-43c4-bca2-6d337719769d",
+              "name": "Felix Webby & Jenny Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/980651ba-cfea-4288-a6e9-87531933169e",
               "players": [
                 {
+                  "playerId": "team-player/3f4a4488-4aa9-495f-9052-796d871e8553",
                   "name": "Josh Winter & Levi Franks",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/f2acecfa-1e3c-43c4-bca2-6d337719769d",
                   "name": "Felix Webby & Jenny Clarke",
                   "score": "7"
                 }
@@ -140,12 +231,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5e4447aa-b993-4c84-80c9-39acf455d126",
               "players": [
                 {
+                  "playerId": "team-player/3f4a4488-4aa9-495f-9052-796d871e8553",
                   "name": "Josh Winter & Levi Franks",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f2acecfa-1e3c-43c4-bca2-6d337719769d",
                   "name": "Felix Webby & Jenny Clarke",
                   "score": "1"
                 }
@@ -154,12 +248,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6b7f9bb7-9a9e-4c27-b35f-eb9bc5be6f3c",
               "players": [
                 {
+                  "playerId": "team-player/3f4a4488-4aa9-495f-9052-796d871e8553",
                   "name": "Josh Winter & Levi Franks",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/f2acecfa-1e3c-43c4-bca2-6d337719769d",
                   "name": "Felix Webby & Jenny Clarke",
                   "score": "7"
                 }
@@ -171,17 +268,26 @@
         },
         {
           "players": [
-            "Paul Kaiser",
-            "Edmund Fordyce"
+            {
+              "playerId": "team-player/f420f877-b7e9-45bd-b963-066e3d941215",
+              "name": "Paul Kaiser"
+            },
+            {
+              "playerId": "team-player/732a78a9-f36e-431a-8e32-f5a30209ebe0",
+              "name": "Edmund Fordyce"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e6ca8ce-e0bf-40b4-8831-bfd6f9289856",
               "players": [
                 {
+                  "playerId": "team-player/f420f877-b7e9-45bd-b963-066e3d941215",
                   "name": "Paul Kaiser",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/732a78a9-f36e-431a-8e32-f5a30209ebe0",
                   "name": "Edmund Fordyce",
                   "score": "7"
                 }
@@ -190,12 +296,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3acbd43c-1880-4f23-b5e1-e1f3e9b5b9cc",
               "players": [
                 {
+                  "playerId": "team-player/f420f877-b7e9-45bd-b963-066e3d941215",
                   "name": "Paul Kaiser",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/732a78a9-f36e-431a-8e32-f5a30209ebe0",
                   "name": "Edmund Fordyce",
                   "score": "7"
                 }
@@ -207,17 +316,26 @@
         },
         {
           "players": [
-            "Jessica Bullen",
-            "Helen Reeves"
+            {
+              "playerId": "team-player/dae304ce-e93e-46bc-ab12-ec5fd5643279",
+              "name": "Jessica Bullen"
+            },
+            {
+              "playerId": "team-player/2f6a1ec5-2047-4a21-8880-1ff645cab092",
+              "name": "Helen Reeves"
+            }
           ],
           "games": [
             {
+              "gameId": "game/329ecba4-3514-4cdd-bd82-0b132b8d7d44",
               "players": [
                 {
+                  "playerId": "team-player/dae304ce-e93e-46bc-ab12-ec5fd5643279",
                   "name": "Jessica Bullen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2f6a1ec5-2047-4a21-8880-1ff645cab092",
                   "name": "Helen Reeves",
                   "score": "4"
                 }
@@ -226,12 +344,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b9cef6b6-b96b-4e6a-bf89-5dd9548eeef9",
               "players": [
                 {
+                  "playerId": "team-player/dae304ce-e93e-46bc-ab12-ec5fd5643279",
                   "name": "Jessica Bullen",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/2f6a1ec5-2047-4a21-8880-1ff645cab092",
                   "name": "Helen Reeves",
                   "score": "7"
                 }
@@ -240,12 +361,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/27099ef1-180e-47bd-890b-d40b64043391",
               "players": [
                 {
+                  "playerId": "team-player/dae304ce-e93e-46bc-ab12-ec5fd5643279",
                   "name": "Jessica Bullen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2f6a1ec5-2047-4a21-8880-1ff645cab092",
                   "name": "Helen Reeves",
                   "score": "3"
                 }
@@ -257,17 +381,26 @@
         },
         {
           "players": [
-            "Michael Lauer",
-            "Sonya Sedgwick"
+            {
+              "playerId": "team-player/9fdcd81a-9a67-4d70-9371-ee523d1a9ad6",
+              "name": "Michael Lauer"
+            },
+            {
+              "playerId": "team-player/1e91c332-8a87-496d-9561-0ee548b8a4ac",
+              "name": "Sonya Sedgwick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a3f39da0-464c-49c9-b998-3aeba32cfeda",
               "players": [
                 {
+                  "playerId": "team-player/9fdcd81a-9a67-4d70-9371-ee523d1a9ad6",
                   "name": "Michael Lauer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1e91c332-8a87-496d-9561-0ee548b8a4ac",
                   "name": "Sonya Sedgwick",
                   "score": "5"
                 }
@@ -276,12 +409,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1ff6d14b-9d5e-42e9-bf06-cfa6bd1bed46",
               "players": [
                 {
+                  "playerId": "team-player/9fdcd81a-9a67-4d70-9371-ee523d1a9ad6",
                   "name": "Michael Lauer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/1e91c332-8a87-496d-9561-0ee548b8a4ac",
                   "name": "Sonya Sedgwick",
                   "score": "7"
                 }
@@ -290,12 +426,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/023bfd74-1286-4012-9c8a-96406878053f",
               "players": [
                 {
+                  "playerId": "team-player/9fdcd81a-9a67-4d70-9371-ee523d1a9ad6",
                   "name": "Michael Lauer",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/1e91c332-8a87-496d-9561-0ee548b8a4ac",
                   "name": "Sonya Sedgwick",
                   "score": "7"
                 }
@@ -307,17 +446,26 @@
         },
         {
           "players": [
-            "Josh Winter",
-            "Duncan Dixon"
+            {
+              "playerId": "team-player/8e1ed76d-8b69-4496-b65d-dc98a7a78aaa",
+              "name": "Josh Winter"
+            },
+            {
+              "playerId": "team-player/38c11250-8068-449c-862b-aeb098e2eba7",
+              "name": "Duncan Dixon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/491cd6df-a9ce-4f49-9a19-b0e2ae32e951",
               "players": [
                 {
+                  "playerId": "team-player/8e1ed76d-8b69-4496-b65d-dc98a7a78aaa",
                   "name": "Josh Winter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/38c11250-8068-449c-862b-aeb098e2eba7",
                   "name": "Duncan Dixon",
                   "score": "3"
                 }
@@ -326,12 +474,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b941ce2d-bc4f-471f-9beb-c29360d296db",
               "players": [
                 {
+                  "playerId": "team-player/8e1ed76d-8b69-4496-b65d-dc98a7a78aaa",
                   "name": "Josh Winter",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/38c11250-8068-449c-862b-aeb098e2eba7",
                   "name": "Duncan Dixon",
                   "score": "7"
                 }
@@ -340,12 +491,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d048df28-51b4-4d6b-b730-8afe9509294b",
               "players": [
                 {
+                  "playerId": "team-player/8e1ed76d-8b69-4496-b65d-dc98a7a78aaa",
                   "name": "Josh Winter",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/38c11250-8068-449c-862b-aeb098e2eba7",
                   "name": "Duncan Dixon",
                   "score": "7"
                 }
@@ -357,17 +511,26 @@
         },
         {
           "players": [
-            "Joel Steele",
-            "Felix Webby"
+            {
+              "playerId": "team-player/1192250b-897a-4d15-a791-2b97fc77a039",
+              "name": "Joel Steele"
+            },
+            {
+              "playerId": "team-player/a26dc602-010f-4d2e-ac81-8198e71412ca",
+              "name": "Felix Webby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/db4e8c9a-a53d-46e1-b05d-f304660bfb30",
               "players": [
                 {
+                  "playerId": "team-player/1192250b-897a-4d15-a791-2b97fc77a039",
                   "name": "Joel Steele",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a26dc602-010f-4d2e-ac81-8198e71412ca",
                   "name": "Felix Webby",
                   "score": "5"
                 }
@@ -376,12 +539,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3712bb4e-ad22-4b13-a0c6-79f128d7f4f3",
               "players": [
                 {
+                  "playerId": "team-player/1192250b-897a-4d15-a791-2b97fc77a039",
                   "name": "Joel Steele",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/a26dc602-010f-4d2e-ac81-8198e71412ca",
                   "name": "Felix Webby",
                   "score": "7"
                 }
@@ -390,12 +556,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/948cb106-9959-4ee0-a3c5-5ddf88f083e5",
               "players": [
                 {
+                  "playerId": "team-player/1192250b-897a-4d15-a791-2b97fc77a039",
                   "name": "Joel Steele",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a26dc602-010f-4d2e-ac81-8198e71412ca",
                   "name": "Felix Webby",
                   "score": "7"
                 }
@@ -407,17 +576,26 @@
         },
         {
           "players": [
-            "Levi Franks",
-            "Jenny Clarke"
+            {
+              "playerId": "team-player/26ade786-5765-443b-b548-5f38fe72bc2d",
+              "name": "Levi Franks"
+            },
+            {
+              "playerId": "team-player/cd78c3b0-1e10-41e1-b0ae-145f8734bfe7",
+              "name": "Jenny Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8726d13a-19f4-4fd0-a8fc-656c1964ec19",
               "players": [
                 {
+                  "playerId": "team-player/26ade786-5765-443b-b548-5f38fe72bc2d",
                   "name": "Levi Franks",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/cd78c3b0-1e10-41e1-b0ae-145f8734bfe7",
                   "name": "Jenny Clarke",
                   "score": "7"
                 }
@@ -426,12 +604,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fd955c3e-3b8c-4fe1-bfef-6d6d0d4e7bc6",
               "players": [
                 {
+                  "playerId": "team-player/26ade786-5765-443b-b548-5f38fe72bc2d",
                   "name": "Levi Franks",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cd78c3b0-1e10-41e1-b0ae-145f8734bfe7",
                   "name": "Jenny Clarke",
                   "score": "4"
                 }
@@ -440,12 +621,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9e770409-0687-49f8-95ce-6056089e23ce",
               "players": [
                 {
+                  "playerId": "team-player/26ade786-5765-443b-b548-5f38fe72bc2d",
                   "name": "Levi Franks",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cd78c3b0-1e10-41e1-b0ae-145f8734bfe7",
                   "name": "Jenny Clarke",
                   "score": "7"
                 }
@@ -458,6 +642,7 @@
       ]
     },
     {
+      "competitionId": "competition/432714cd-4de4-4279-8763-612ae0c78408",
       "teams": [
         "New Zealand U21",
         "New Zealand Select"
@@ -467,17 +652,26 @@
       "matches": [
         {
           "players": [
-            "Josh Winter & Levi Franks",
-            "Edmund Fordyce & Duncan Dixon"
+            {
+              "playerId": "team-player/3f4a4488-4aa9-495f-9052-796d871e8553",
+              "name": "Josh Winter & Levi Franks"
+            },
+            {
+              "playerId": "team-player/f066060c-2544-45fa-8cb7-ab0c4c615a64",
+              "name": "Edmund Fordyce & Duncan Dixon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/13e44969-d5ab-4e8f-90f0-c4e4943fd7d7",
               "players": [
                 {
+                  "playerId": "team-player/3f4a4488-4aa9-495f-9052-796d871e8553",
                   "name": "Josh Winter & Levi Franks",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f066060c-2544-45fa-8cb7-ab0c4c615a64",
                   "name": "Edmund Fordyce & Duncan Dixon",
                   "score": "4"
                 }
@@ -486,12 +680,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c893c97c-11e9-4e22-8dd0-f000ff4af640",
               "players": [
                 {
+                  "playerId": "team-player/3f4a4488-4aa9-495f-9052-796d871e8553",
                   "name": "Josh Winter & Levi Franks",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f066060c-2544-45fa-8cb7-ab0c4c615a64",
                   "name": "Edmund Fordyce & Duncan Dixon",
                   "score": "7"
                 }
@@ -500,12 +697,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/234090e1-6939-46e8-a4c9-c225f9c5c207",
               "players": [
                 {
+                  "playerId": "team-player/3f4a4488-4aa9-495f-9052-796d871e8553",
                   "name": "Josh Winter & Levi Franks",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f066060c-2544-45fa-8cb7-ab0c4c615a64",
                   "name": "Edmund Fordyce & Duncan Dixon",
                   "score": "7"
                 }
@@ -517,17 +717,26 @@
         },
         {
           "players": [
-            "Joel Steele & Michael Lauer",
-            "Helen Reeves & Sonya Sedgwick"
+            {
+              "playerId": "team-player/762b6764-88b4-48ff-b94d-66311b3df8b8",
+              "name": "Joel Steele & Michael Lauer"
+            },
+            {
+              "playerId": "team-player/a632a710-cebf-41f6-91ea-fe77ad784349",
+              "name": "Helen Reeves & Sonya Sedgwick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8045238a-c6f3-4f6d-b5ce-84d6291e089b",
               "players": [
                 {
+                  "playerId": "team-player/762b6764-88b4-48ff-b94d-66311b3df8b8",
                   "name": "Joel Steele & Michael Lauer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a632a710-cebf-41f6-91ea-fe77ad784349",
                   "name": "Helen Reeves & Sonya Sedgwick",
                   "score": "2"
                 }
@@ -536,12 +745,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1373d438-b9fa-4601-8397-96427b64c82a",
               "players": [
                 {
+                  "playerId": "team-player/762b6764-88b4-48ff-b94d-66311b3df8b8",
                   "name": "Joel Steele & Michael Lauer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a632a710-cebf-41f6-91ea-fe77ad784349",
                   "name": "Helen Reeves & Sonya Sedgwick",
                   "score": "6"
                 }
@@ -553,17 +765,26 @@
         },
         {
           "players": [
-            "Paul Kaiser & Jessica Bullen",
-            "Felix Webby & Jenny Clarke"
+            {
+              "playerId": "team-player/b29c14b1-3578-4e99-8e84-df377d8d7e41",
+              "name": "Paul Kaiser & Jessica Bullen"
+            },
+            {
+              "playerId": "team-player/f2acecfa-1e3c-43c4-bca2-6d337719769d",
+              "name": "Felix Webby & Jenny Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af954c81-d008-4dae-a210-6a3b23a64ed5",
               "players": [
                 {
+                  "playerId": "team-player/b29c14b1-3578-4e99-8e84-df377d8d7e41",
                   "name": "Paul Kaiser & Jessica Bullen",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f2acecfa-1e3c-43c4-bca2-6d337719769d",
                   "name": "Felix Webby & Jenny Clarke",
                   "score": "7"
                 }
@@ -572,12 +793,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ab531d64-76ac-4529-9655-c6a526dca39e",
               "players": [
                 {
+                  "playerId": "team-player/b29c14b1-3578-4e99-8e84-df377d8d7e41",
                   "name": "Paul Kaiser & Jessica Bullen",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/f2acecfa-1e3c-43c4-bca2-6d337719769d",
                   "name": "Felix Webby & Jenny Clarke",
                   "score": "7"
                 }
@@ -589,17 +813,26 @@
         },
         {
           "players": [
-            "Jessica Bullen",
-            "Sonya Sedgwick"
+            {
+              "playerId": "team-player/dae304ce-e93e-46bc-ab12-ec5fd5643279",
+              "name": "Jessica Bullen"
+            },
+            {
+              "playerId": "team-player/1e91c332-8a87-496d-9561-0ee548b8a4ac",
+              "name": "Sonya Sedgwick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1037b03-7d5f-496e-a42a-811f2e70948a",
               "players": [
                 {
+                  "playerId": "team-player/dae304ce-e93e-46bc-ab12-ec5fd5643279",
                   "name": "Jessica Bullen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1e91c332-8a87-496d-9561-0ee548b8a4ac",
                   "name": "Sonya Sedgwick",
                   "score": "6"
                 }
@@ -608,12 +841,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8c2b13ef-e76c-4113-93b6-993db86c4f96",
               "players": [
                 {
+                  "playerId": "team-player/dae304ce-e93e-46bc-ab12-ec5fd5643279",
                   "name": "Jessica Bullen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1e91c332-8a87-496d-9561-0ee548b8a4ac",
                   "name": "Sonya Sedgwick",
                   "score": "4"
                 }
@@ -625,17 +861,26 @@
         },
         {
           "players": [
-            "Michael Lauer",
-            "Helen Reeves"
+            {
+              "playerId": "team-player/9fdcd81a-9a67-4d70-9371-ee523d1a9ad6",
+              "name": "Michael Lauer"
+            },
+            {
+              "playerId": "team-player/2f6a1ec5-2047-4a21-8880-1ff645cab092",
+              "name": "Helen Reeves"
+            }
           ],
           "games": [
             {
+              "gameId": "game/db705185-5418-4523-bc04-e571c56ed013",
               "players": [
                 {
+                  "playerId": "team-player/9fdcd81a-9a67-4d70-9371-ee523d1a9ad6",
                   "name": "Michael Lauer",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2f6a1ec5-2047-4a21-8880-1ff645cab092",
                   "name": "Helen Reeves",
                   "score": "7"
                 }
@@ -644,12 +889,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ee24db4a-b590-4d1a-9bce-cf48a7939630",
               "players": [
                 {
+                  "playerId": "team-player/9fdcd81a-9a67-4d70-9371-ee523d1a9ad6",
                   "name": "Michael Lauer",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/2f6a1ec5-2047-4a21-8880-1ff645cab092",
                   "name": "Helen Reeves",
                   "score": "7"
                 }
@@ -661,17 +909,26 @@
         },
         {
           "players": [
-            "Joel Steele",
-            "Jenny Clarke"
+            {
+              "playerId": "team-player/1192250b-897a-4d15-a791-2b97fc77a039",
+              "name": "Joel Steele"
+            },
+            {
+              "playerId": "team-player/cd78c3b0-1e10-41e1-b0ae-145f8734bfe7",
+              "name": "Jenny Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b60f9a9-b865-4a9f-91bd-3befa0b4a361",
               "players": [
                 {
+                  "playerId": "team-player/1192250b-897a-4d15-a791-2b97fc77a039",
                   "name": "Joel Steele",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cd78c3b0-1e10-41e1-b0ae-145f8734bfe7",
                   "name": "Jenny Clarke",
                   "score": "5"
                 }
@@ -680,12 +937,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/39fb17ee-40aa-4805-8cbc-67086932158e",
               "players": [
                 {
+                  "playerId": "team-player/1192250b-897a-4d15-a791-2b97fc77a039",
                   "name": "Joel Steele",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/cd78c3b0-1e10-41e1-b0ae-145f8734bfe7",
                   "name": "Jenny Clarke",
                   "score": "7"
                 }
@@ -694,12 +954,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f14c0b65-1518-44dc-afea-731838a7b817",
               "players": [
                 {
+                  "playerId": "team-player/1192250b-897a-4d15-a791-2b97fc77a039",
                   "name": "Joel Steele",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cd78c3b0-1e10-41e1-b0ae-145f8734bfe7",
                   "name": "Jenny Clarke",
                   "score": "6"
                 }
@@ -711,17 +974,26 @@
         },
         {
           "players": [
-            "Levi Franks",
-            "Felix Webby"
+            {
+              "playerId": "team-player/26ade786-5765-443b-b548-5f38fe72bc2d",
+              "name": "Levi Franks"
+            },
+            {
+              "playerId": "team-player/a26dc602-010f-4d2e-ac81-8198e71412ca",
+              "name": "Felix Webby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/57d8e479-a1cb-4abe-9872-7cdfbc2ed2c5",
               "players": [
                 {
+                  "playerId": "team-player/26ade786-5765-443b-b548-5f38fe72bc2d",
                   "name": "Levi Franks",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/a26dc602-010f-4d2e-ac81-8198e71412ca",
                   "name": "Felix Webby",
                   "score": "7"
                 }
@@ -730,12 +1002,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5b00e504-c4fc-421f-b1a8-612c8e4fd8fa",
               "players": [
                 {
+                  "playerId": "team-player/26ade786-5765-443b-b548-5f38fe72bc2d",
                   "name": "Levi Franks",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a26dc602-010f-4d2e-ac81-8198e71412ca",
                   "name": "Felix Webby",
                   "score": "7"
                 }
@@ -747,17 +1022,26 @@
         },
         {
           "players": [
-            "Paul Kaiser",
-            "Duncan Dixon"
+            {
+              "playerId": "team-player/f420f877-b7e9-45bd-b963-066e3d941215",
+              "name": "Paul Kaiser"
+            },
+            {
+              "playerId": "team-player/38c11250-8068-449c-862b-aeb098e2eba7",
+              "name": "Duncan Dixon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/45ba0bdd-d59d-4a2b-b203-69e00188f04a",
               "players": [
                 {
+                  "playerId": "team-player/f420f877-b7e9-45bd-b963-066e3d941215",
                   "name": "Paul Kaiser",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/38c11250-8068-449c-862b-aeb098e2eba7",
                   "name": "Duncan Dixon",
                   "score": "7"
                 }
@@ -766,12 +1050,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e20e33c4-64cb-4c29-921a-54e88a9513cd",
               "players": [
                 {
+                  "playerId": "team-player/f420f877-b7e9-45bd-b963-066e3d941215",
                   "name": "Paul Kaiser",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/38c11250-8068-449c-862b-aeb098e2eba7",
                   "name": "Duncan Dixon",
                   "score": "7"
                 }
@@ -783,17 +1070,26 @@
         },
         {
           "players": [
-            "Josh Winter",
-            "Edmund Fordyce"
+            {
+              "playerId": "team-player/8e1ed76d-8b69-4496-b65d-dc98a7a78aaa",
+              "name": "Josh Winter"
+            },
+            {
+              "playerId": "team-player/732a78a9-f36e-431a-8e32-f5a30209ebe0",
+              "name": "Edmund Fordyce"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6845032b-8c7a-4c01-b493-6c9cbc1f0ef1",
               "players": [
                 {
+                  "playerId": "team-player/8e1ed76d-8b69-4496-b65d-dc98a7a78aaa",
                   "name": "Josh Winter",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/732a78a9-f36e-431a-8e32-f5a30209ebe0",
                   "name": "Edmund Fordyce",
                   "score": "7"
                 }
@@ -802,12 +1098,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cf77db4a-27d6-4967-a634-f27ef155f5be",
               "players": [
                 {
+                  "playerId": "team-player/8e1ed76d-8b69-4496-b65d-dc98a7a78aaa",
                   "name": "Josh Winter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/732a78a9-f36e-431a-8e32-f5a30209ebe0",
                   "name": "Edmund Fordyce",
                   "score": "6"
                 }
@@ -816,12 +1115,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/eacd6fda-70fb-4e17-9481-5d59ad59d40c",
               "players": [
                 {
+                  "playerId": "team-player/8e1ed76d-8b69-4496-b65d-dc98a7a78aaa",
                   "name": "Josh Winter",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/732a78a9-f36e-431a-8e32-f5a30209ebe0",
                   "name": "Edmund Fordyce",
                   "score": "7"
                 }

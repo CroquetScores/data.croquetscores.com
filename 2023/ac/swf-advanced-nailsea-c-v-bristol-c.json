@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/ea07ea30-4166-4df1-9763-9e498a18d0ef",
   "name": "SWF Advanced Nailsea C v Bristol C",
   "sport": "ac",
   "firstDay": "2023-07-15",
   "lastDay": "2023-07-15",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nailsea C",
       "shortName": "Nailsea C",
       "players": [
-        "Andrew Wimshurst",
-        "David Hunt",
-        "Kathy Wallace",
-        "Libby Howard-Blood",
-        "Libby Howard-Blood & Andrew Wimshurst"
+        {
+          "playerId": "team-player/f376eb36-8d35-41c4-b4b9-cc39e955d505",
+          "name": "Andrew Wimshurst"
+        },
+        {
+          "playerId": "team-player/a19e4f9c-7a14-4f09-ae0e-7b517894c8f9",
+          "name": "David Hunt"
+        },
+        {
+          "playerId": "team-player/163a0570-49f2-41c7-a186-c644cba200a7",
+          "name": "Kathy Wallace"
+        },
+        {
+          "playerId": "team-player/9397a85d-ce17-4899-9965-02d040a7bb75",
+          "name": "Libby Howard-Blood"
+        },
+        {
+          "playerId": "team-player/719192ce-c009-449b-87ee-8c03151b5ce0",
+          "name": "Libby Howard-Blood & Andrew Wimshurst"
+        }
       ]
     },
     {
       "name": "Bristol C",
       "shortName": "Bristol C",
       "players": [
-        "Bob Scott",
-        "Bob Whiffen",
-        "Frances Ransom",
-        "Frances Ransom & Bob Scott",
-        "Neil Kingston"
+        {
+          "playerId": "team-player/dbfda066-2ec8-4d56-bc92-c3852dd74248",
+          "name": "Bob Scott"
+        },
+        {
+          "playerId": "team-player/fb6139b9-9a4a-413e-a969-14cdae533a4c",
+          "name": "Bob Whiffen"
+        },
+        {
+          "playerId": "team-player/9929d0cb-f407-4601-85ee-f091696d9718",
+          "name": "Frances Ransom"
+        },
+        {
+          "playerId": "team-player/56f4556a-88dd-455e-9dd2-8b0cc1ce270d",
+          "name": "Frances Ransom & Bob Scott"
+        },
+        {
+          "playerId": "team-player/739a0052-0dc4-42ee-ac2c-6066442c0e06",
+          "name": "Neil Kingston"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/6e0f4095-2f8f-4009-a347-8d3c61549e6a",
       "teams": [
         "Nailsea C",
         "Bristol C"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Libby Howard-Blood & Andrew Wimshurst",
-            "Frances Ransom & Bob Scott"
+            {
+              "playerId": "team-player/719192ce-c009-449b-87ee-8c03151b5ce0",
+              "name": "Libby Howard-Blood & Andrew Wimshurst"
+            },
+            {
+              "playerId": "team-player/56f4556a-88dd-455e-9dd2-8b0cc1ce270d",
+              "name": "Frances Ransom & Bob Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ee975a35-6233-456d-b4ec-79bbde05a5e5",
               "players": [
                 {
+                  "playerId": "team-player/719192ce-c009-449b-87ee-8c03151b5ce0",
                   "name": "Libby Howard-Blood & Andrew Wimshurst",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/56f4556a-88dd-455e-9dd2-8b0cc1ce270d",
                   "name": "Frances Ransom & Bob Scott",
                   "score": "16"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "David Hunt",
-            "Bob Whiffen"
+            {
+              "playerId": "team-player/a19e4f9c-7a14-4f09-ae0e-7b517894c8f9",
+              "name": "David Hunt"
+            },
+            {
+              "playerId": "team-player/fb6139b9-9a4a-413e-a969-14cdae533a4c",
+              "name": "Bob Whiffen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f0e5bbb-2e62-4635-891f-f39f214cb64b",
               "players": [
                 {
+                  "playerId": "team-player/a19e4f9c-7a14-4f09-ae0e-7b517894c8f9",
                   "name": "David Hunt",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/fb6139b9-9a4a-413e-a969-14cdae533a4c",
                   "name": "Bob Whiffen",
                   "score": "18"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Kathy Wallace",
-            "Neil Kingston"
+            {
+              "playerId": "team-player/163a0570-49f2-41c7-a186-c644cba200a7",
+              "name": "Kathy Wallace"
+            },
+            {
+              "playerId": "team-player/739a0052-0dc4-42ee-ac2c-6066442c0e06",
+              "name": "Neil Kingston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/19181a6e-ae16-476b-b8a1-5255f2ae5dea",
               "players": [
                 {
+                  "playerId": "team-player/163a0570-49f2-41c7-a186-c644cba200a7",
                   "name": "Kathy Wallace",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/739a0052-0dc4-42ee-ac2c-6066442c0e06",
                   "name": "Neil Kingston",
                   "score": "22"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Andrew Wimshurst",
-            "Neil Kingston"
+            {
+              "playerId": "team-player/f376eb36-8d35-41c4-b4b9-cc39e955d505",
+              "name": "Andrew Wimshurst"
+            },
+            {
+              "playerId": "team-player/739a0052-0dc4-42ee-ac2c-6066442c0e06",
+              "name": "Neil Kingston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/601e59c0-b12f-4bf5-af30-98aecd1323d7",
               "players": [
                 {
+                  "playerId": "team-player/f376eb36-8d35-41c4-b4b9-cc39e955d505",
                   "name": "Andrew Wimshurst",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/739a0052-0dc4-42ee-ac2c-6066442c0e06",
                   "name": "Neil Kingston",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "David Hunt",
-            "Bob Scott"
+            {
+              "playerId": "team-player/a19e4f9c-7a14-4f09-ae0e-7b517894c8f9",
+              "name": "David Hunt"
+            },
+            {
+              "playerId": "team-player/dbfda066-2ec8-4d56-bc92-c3852dd74248",
+              "name": "Bob Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aaf83b57-6579-47ce-af81-7a3229ee142b",
               "players": [
                 {
+                  "playerId": "team-player/a19e4f9c-7a14-4f09-ae0e-7b517894c8f9",
                   "name": "David Hunt",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/dbfda066-2ec8-4d56-bc92-c3852dd74248",
                   "name": "Bob Scott",
                   "score": "17"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Libby Howard-Blood",
-            "Frances Ransom"
+            {
+              "playerId": "team-player/9397a85d-ce17-4899-9965-02d040a7bb75",
+              "name": "Libby Howard-Blood"
+            },
+            {
+              "playerId": "team-player/9929d0cb-f407-4601-85ee-f091696d9718",
+              "name": "Frances Ransom"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cb58fc4f-b91d-4cad-976b-474f21658a12",
               "players": [
                 {
+                  "playerId": "team-player/9397a85d-ce17-4899-9965-02d040a7bb75",
                   "name": "Libby Howard-Blood",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/9929d0cb-f407-4601-85ee-f091696d9718",
                   "name": "Frances Ransom",
                   "score": "13"
                 }

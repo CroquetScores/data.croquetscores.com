@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/c3e8cbae-c396-4c25-8373-b7b001b39d5e",
   "name": "Golden Ball CMM v Tauranga",
   "sport": "gc",
   "firstDay": "2025-10-13",
   "lastDay": "2025-10-13",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "CMM",
       "shortName": "CMM",
       "players": [
-        "Brian Sisam & Sheryl Murphy",
-        "Bruce McCabe & Kathleen McCabe",
-        "Bryan Christy & John Kemp",
-        "Bryan McMurray & Shirley McMurray",
-        "Neville Blank & Faye Cave"
+        {
+          "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
+          "name": "Brian Sisam & Sheryl Murphy"
+        },
+        {
+          "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
+          "name": "Bruce McCabe & Kathleen McCabe"
+        },
+        {
+          "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
+          "name": "Bryan Christy & John Kemp"
+        },
+        {
+          "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
+          "name": "Bryan McMurray & Shirley McMurray"
+        },
+        {
+          "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
+          "name": "Neville Blank & Faye Cave"
+        }
       ]
     },
     {
       "name": "Tauranga",
       "shortName": "Tauranga",
       "players": [
-        "Faye McColl & Mary McGowan",
-        "Gavin Armit $ Carol Andrews",
-        "Graeme Giles & Debbie O'Neill",
-        "Linley Whitaker & Robert Deare",
-        "Pat Taylor & Linda McCarthy"
+        {
+          "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
+          "name": "Faye McColl & Mary McGowan"
+        },
+        {
+          "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
+          "name": "Gavin Armit $ Carol Andrews"
+        },
+        {
+          "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
+          "name": "Graeme Giles & Debbie O'Neill"
+        },
+        {
+          "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
+          "name": "Linley Whitaker & Robert Deare"
+        },
+        {
+          "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
+          "name": "Pat Taylor & Linda McCarthy"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1e5f2085-7305-4691-95b4-714f9760384e",
       "teams": [
         "CMM",
         "Tauranga"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Bruce McCabe & Kathleen McCabe",
-            "Gavin Armit $ Carol Andrews"
+            {
+              "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
+              "name": "Bruce McCabe & Kathleen McCabe"
+            },
+            {
+              "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
+              "name": "Gavin Armit $ Carol Andrews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dba98658-3719-4833-931d-40010b83e4b6",
               "players": [
                 {
+                  "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
                   "name": "Bruce McCabe & Kathleen McCabe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
                   "name": "Gavin Armit $ Carol Andrews",
                   "score": "4"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Neville Blank & Faye Cave",
-            "Linley Whitaker & Robert Deare"
+            {
+              "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
+              "name": "Neville Blank & Faye Cave"
+            },
+            {
+              "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
+              "name": "Linley Whitaker & Robert Deare"
+            }
           ],
           "games": [
             {
+              "gameId": "game/584bc6cc-7a99-4c10-9e97-a05e4d020624",
               "players": [
                 {
+                  "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
                   "name": "Neville Blank & Faye Cave",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
                   "name": "Linley Whitaker & Robert Deare",
                   "score": "7"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Bryan Christy & John Kemp",
-            "Pat Taylor & Linda McCarthy"
+            {
+              "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
+              "name": "Bryan Christy & John Kemp"
+            },
+            {
+              "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
+              "name": "Pat Taylor & Linda McCarthy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2de5814-d044-4c4a-9333-3c7d450f6f2a",
               "players": [
                 {
+                  "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
                   "name": "Bryan Christy & John Kemp",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
                   "name": "Pat Taylor & Linda McCarthy",
                   "score": "7"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Brian Sisam & Sheryl Murphy",
-            "Faye McColl & Mary McGowan"
+            {
+              "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
+              "name": "Brian Sisam & Sheryl Murphy"
+            },
+            {
+              "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
+              "name": "Faye McColl & Mary McGowan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d958e76b-720a-4be1-8b66-c590104c8304",
               "players": [
                 {
+                  "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
                   "name": "Brian Sisam & Sheryl Murphy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
                   "name": "Faye McColl & Mary McGowan",
                   "score": "3"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Bryan McMurray & Shirley McMurray",
-            "Graeme Giles & Debbie O'Neill"
+            {
+              "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
+              "name": "Bryan McMurray & Shirley McMurray"
+            },
+            {
+              "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
+              "name": "Graeme Giles & Debbie O'Neill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb4ad34c-e2ce-4cee-9c5b-28be4bc674e3",
               "players": [
                 {
+                  "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
                   "name": "Bryan McMurray & Shirley McMurray",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
                   "name": "Graeme Giles & Debbie O'Neill",
                   "score": "7"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Bryan McMurray & Shirley McMurray",
-            "Gavin Armit $ Carol Andrews"
+            {
+              "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
+              "name": "Bryan McMurray & Shirley McMurray"
+            },
+            {
+              "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
+              "name": "Gavin Armit $ Carol Andrews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b667d7d8-7eba-4350-a43b-1ed117902bfc",
               "players": [
                 {
+                  "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
                   "name": "Bryan McMurray & Shirley McMurray",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
                   "name": "Gavin Armit $ Carol Andrews",
                   "score": "7"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Bruce McCabe & Kathleen McCabe",
-            "Linley Whitaker & Robert Deare"
+            {
+              "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
+              "name": "Bruce McCabe & Kathleen McCabe"
+            },
+            {
+              "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
+              "name": "Linley Whitaker & Robert Deare"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c23aea45-cc87-42d9-b3a0-52e600058d2e",
               "players": [
                 {
+                  "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
                   "name": "Bruce McCabe & Kathleen McCabe",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
                   "name": "Linley Whitaker & Robert Deare",
                   "score": "7"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Neville Blank & Faye Cave",
-            "Pat Taylor & Linda McCarthy"
+            {
+              "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
+              "name": "Neville Blank & Faye Cave"
+            },
+            {
+              "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
+              "name": "Pat Taylor & Linda McCarthy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2d300945-6936-4beb-9dfe-63786652c90b",
               "players": [
                 {
+                  "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
                   "name": "Neville Blank & Faye Cave",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
                   "name": "Pat Taylor & Linda McCarthy",
                   "score": "6"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Bryan Christy & John Kemp",
-            "Faye McColl & Mary McGowan"
+            {
+              "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
+              "name": "Bryan Christy & John Kemp"
+            },
+            {
+              "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
+              "name": "Faye McColl & Mary McGowan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2855ef5f-6a0e-4bbc-9226-949363b789c3",
               "players": [
                 {
+                  "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
                   "name": "Bryan Christy & John Kemp",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
                   "name": "Faye McColl & Mary McGowan",
                   "score": "3"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Brian Sisam & Sheryl Murphy",
-            "Graeme Giles & Debbie O'Neill"
+            {
+              "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
+              "name": "Brian Sisam & Sheryl Murphy"
+            },
+            {
+              "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
+              "name": "Graeme Giles & Debbie O'Neill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/931b8162-191e-4665-96a1-dbfde129914b",
               "players": [
                 {
+                  "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
                   "name": "Brian Sisam & Sheryl Murphy",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
                   "name": "Graeme Giles & Debbie O'Neill",
                   "score": "7"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Brian Sisam & Sheryl Murphy",
-            "Gavin Armit $ Carol Andrews"
+            {
+              "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
+              "name": "Brian Sisam & Sheryl Murphy"
+            },
+            {
+              "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
+              "name": "Gavin Armit $ Carol Andrews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5a95fa54-0b80-4997-9e76-e7e6a97d5289",
               "players": [
                 {
+                  "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
                   "name": "Brian Sisam & Sheryl Murphy",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
                   "name": "Gavin Armit $ Carol Andrews",
                   "score": "7"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Bryan McMurray & Shirley McMurray",
-            "Linley Whitaker & Robert Deare"
+            {
+              "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
+              "name": "Bryan McMurray & Shirley McMurray"
+            },
+            {
+              "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
+              "name": "Linley Whitaker & Robert Deare"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d490859-22c3-4f5c-9f0c-a271ac37f9a8",
               "players": [
                 {
+                  "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
                   "name": "Bryan McMurray & Shirley McMurray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
                   "name": "Linley Whitaker & Robert Deare",
                   "score": "6"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Bruce McCabe & Kathleen McCabe",
-            "Pat Taylor & Linda McCarthy"
+            {
+              "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
+              "name": "Bruce McCabe & Kathleen McCabe"
+            },
+            {
+              "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
+              "name": "Pat Taylor & Linda McCarthy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4fdca76f-9004-4231-bc7b-61c526cb13e6",
               "players": [
                 {
+                  "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
                   "name": "Bruce McCabe & Kathleen McCabe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
                   "name": "Pat Taylor & Linda McCarthy",
                   "score": "5"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Neville Blank & Faye Cave",
-            "Faye McColl & Mary McGowan"
+            {
+              "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
+              "name": "Neville Blank & Faye Cave"
+            },
+            {
+              "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
+              "name": "Faye McColl & Mary McGowan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/48c93d82-7fcb-402e-9b11-a7129c0aba5f",
               "players": [
                 {
+                  "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
                   "name": "Neville Blank & Faye Cave",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
                   "name": "Faye McColl & Mary McGowan",
                   "score": "5"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Bryan Christy & John Kemp",
-            "Graeme Giles & Debbie O'Neill"
+            {
+              "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
+              "name": "Bryan Christy & John Kemp"
+            },
+            {
+              "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
+              "name": "Graeme Giles & Debbie O'Neill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0152bae8-d5b5-446d-bdb3-a102cb786d10",
               "players": [
                 {
+                  "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
                   "name": "Bryan Christy & John Kemp",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
                   "name": "Graeme Giles & Debbie O'Neill",
                   "score": "7"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Bryan Christy & John Kemp",
-            "Gavin Armit $ Carol Andrews"
+            {
+              "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
+              "name": "Bryan Christy & John Kemp"
+            },
+            {
+              "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
+              "name": "Gavin Armit $ Carol Andrews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f121c9b1-6f6e-4ccc-8d5f-2eef160b8abd",
               "players": [
                 {
+                  "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
                   "name": "Bryan Christy & John Kemp",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
                   "name": "Gavin Armit $ Carol Andrews",
                   "score": "6"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "Brian Sisam & Sheryl Murphy",
-            "Linley Whitaker & Robert Deare"
+            {
+              "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
+              "name": "Brian Sisam & Sheryl Murphy"
+            },
+            {
+              "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
+              "name": "Linley Whitaker & Robert Deare"
+            }
           ],
           "games": [
             {
+              "gameId": "game/629c953a-2630-4956-be0d-b00a8143d6e1",
               "players": [
                 {
+                  "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
                   "name": "Brian Sisam & Sheryl Murphy",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
                   "name": "Linley Whitaker & Robert Deare",
                   "score": "7"
                 }
@@ -415,17 +602,26 @@
         },
         {
           "players": [
-            "Bryan McMurray & Shirley McMurray",
-            "Pat Taylor & Linda McCarthy"
+            {
+              "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
+              "name": "Bryan McMurray & Shirley McMurray"
+            },
+            {
+              "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
+              "name": "Pat Taylor & Linda McCarthy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/39dadb9d-b286-4867-ad19-44ab900c564a",
               "players": [
                 {
+                  "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
                   "name": "Bryan McMurray & Shirley McMurray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
                   "name": "Pat Taylor & Linda McCarthy",
                   "score": "1"
                 }
@@ -437,17 +633,26 @@
         },
         {
           "players": [
-            "Bruce McCabe & Kathleen McCabe",
-            "Faye McColl & Mary McGowan"
+            {
+              "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
+              "name": "Bruce McCabe & Kathleen McCabe"
+            },
+            {
+              "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
+              "name": "Faye McColl & Mary McGowan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f094d16e-f1a4-407b-8db5-fb45a55c9450",
               "players": [
                 {
+                  "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
                   "name": "Bruce McCabe & Kathleen McCabe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
                   "name": "Faye McColl & Mary McGowan",
                   "score": "5"
                 }
@@ -459,17 +664,26 @@
         },
         {
           "players": [
-            "Neville Blank & Faye Cave",
-            "Graeme Giles & Debbie O'Neill"
+            {
+              "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
+              "name": "Neville Blank & Faye Cave"
+            },
+            {
+              "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
+              "name": "Graeme Giles & Debbie O'Neill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d17656d-6c81-4098-b000-e213812f30f3",
               "players": [
                 {
+                  "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
                   "name": "Neville Blank & Faye Cave",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
                   "name": "Graeme Giles & Debbie O'Neill",
                   "score": "3"
                 }
@@ -481,17 +695,26 @@
         },
         {
           "players": [
-            "Neville Blank & Faye Cave",
-            "Gavin Armit $ Carol Andrews"
+            {
+              "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
+              "name": "Neville Blank & Faye Cave"
+            },
+            {
+              "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
+              "name": "Gavin Armit $ Carol Andrews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6451e19d-d249-4f7f-ad29-4901895f9b3e",
               "players": [
                 {
+                  "playerId": "team-player/9d1af095-7efd-4625-8dab-654d8bfe9a85",
                   "name": "Neville Blank & Faye Cave",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/74a06a69-20b1-4fe3-8867-13caf6ae8b00",
                   "name": "Gavin Armit $ Carol Andrews",
                   "score": "6"
                 }
@@ -503,17 +726,26 @@
         },
         {
           "players": [
-            "Bryan Christy & John Kemp",
-            "Linley Whitaker & Robert Deare"
+            {
+              "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
+              "name": "Bryan Christy & John Kemp"
+            },
+            {
+              "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
+              "name": "Linley Whitaker & Robert Deare"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7c0593d4-d169-42f7-9386-11be76f6ff7b",
               "players": [
                 {
+                  "playerId": "team-player/33bc06db-4d06-4e2b-be89-fe825f543bcf",
                   "name": "Bryan Christy & John Kemp",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/31b52121-840b-4129-92d7-6ccd1c96100f",
                   "name": "Linley Whitaker & Robert Deare",
                   "score": "6"
                 }
@@ -525,17 +757,26 @@
         },
         {
           "players": [
-            "Brian Sisam & Sheryl Murphy",
-            "Pat Taylor & Linda McCarthy"
+            {
+              "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
+              "name": "Brian Sisam & Sheryl Murphy"
+            },
+            {
+              "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
+              "name": "Pat Taylor & Linda McCarthy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6fd14fe2-a9b9-4052-9f85-7d4b430f2300",
               "players": [
                 {
+                  "playerId": "team-player/baf50875-bada-4607-b0e6-021ca596f094",
                   "name": "Brian Sisam & Sheryl Murphy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1ab801af-c890-45cb-9c34-498337961c7d",
                   "name": "Pat Taylor & Linda McCarthy",
                   "score": "4"
                 }
@@ -547,17 +788,26 @@
         },
         {
           "players": [
-            "Bryan McMurray & Shirley McMurray",
-            "Faye McColl & Mary McGowan"
+            {
+              "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
+              "name": "Bryan McMurray & Shirley McMurray"
+            },
+            {
+              "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
+              "name": "Faye McColl & Mary McGowan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a128971f-e483-481c-90f6-df436b92620e",
               "players": [
                 {
+                  "playerId": "team-player/9757ce28-ba00-49ba-a154-f38143e266da",
                   "name": "Bryan McMurray & Shirley McMurray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d2021728-6e12-4d97-b094-755c4a866a21",
                   "name": "Faye McColl & Mary McGowan",
                   "score": "4"
                 }
@@ -569,17 +819,26 @@
         },
         {
           "players": [
-            "Bruce McCabe & Kathleen McCabe",
-            "Graeme Giles & Debbie O'Neill"
+            {
+              "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
+              "name": "Bruce McCabe & Kathleen McCabe"
+            },
+            {
+              "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
+              "name": "Graeme Giles & Debbie O'Neill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e5e3a8a-1a32-42fd-b0a4-acfd71f8f480",
               "players": [
                 {
+                  "playerId": "team-player/333008a5-9225-49ca-a90b-ae649785bfe5",
                   "name": "Bruce McCabe & Kathleen McCabe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/97870c02-9943-4ff8-bcab-64e14906d942",
                   "name": "Graeme Giles & Debbie O'Neill",
                   "score": "1"
                 }

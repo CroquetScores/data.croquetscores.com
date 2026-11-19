@@ -1,41 +1,87 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1db81aba-06ae-412b-af5b-dc2a85c801da",
   "name": "SWCF golf league Dyffryn v Nailsea",
   "sport": "gc",
   "firstDay": "2017-05-20",
   "lastDay": "2017-05-20",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Dyffryn",
       "shortName": "Dyffryn",
       "players": [
-        "John Cording",
-        "John Cording And Robert G Upton",
-        "Kevin Ham",
-        "Robert G Upton",
-        "Sarah Melvin",
-        "Sarah Melvin and Kevin Ham"
+        {
+          "playerId": "team-player/a21566cc-17ab-4fec-9960-95718a24f6fb",
+          "name": "John Cording"
+        },
+        {
+          "playerId": "team-player/a5527f1d-1289-4543-bcc3-ab945fb5be4d",
+          "name": "John Cording And Robert G Upton"
+        },
+        {
+          "playerId": "team-player/8df62996-a307-4f2d-ae6d-5faefaaa21dd",
+          "name": "Kevin Ham"
+        },
+        {
+          "playerId": "team-player/e54b1775-1a0a-449e-96ce-94dac41b03b0",
+          "name": "Robert G Upton"
+        },
+        {
+          "playerId": "team-player/10dfe471-9e6d-46fb-8e8d-caa7c4fa3db3",
+          "name": "Sarah Melvin"
+        },
+        {
+          "playerId": "team-player/19d459eb-9183-4275-831b-dddbd8578c31",
+          "name": "Sarah Melvin and Kevin Ham"
+        }
       ]
     },
     {
       "name": "Nailsea",
       "shortName": "Nailsea",
       "players": [
-        "David X Moody",
-        "Jim Gregory",
-        "Jim Gregory and David Moody",
-        "Kristian Chambers",
-        "Kristian Chambers and Mark Suter",
-        "Marcus Evans",
-        "Marcus Evans and Mark Suter",
-        "Mark Suter"
+        {
+          "playerId": "team-player/a6aff61b-8bf1-4bc2-b8d4-fc0b3d2d073f",
+          "name": "David X Moody"
+        },
+        {
+          "playerId": "team-player/ef16f6c9-ebf8-477a-aa19-182cef81049b",
+          "name": "Jim Gregory"
+        },
+        {
+          "playerId": "team-player/633e6611-fbb0-480c-88e6-bc6f7217bdc0",
+          "name": "Jim Gregory and David Moody"
+        },
+        {
+          "playerId": "team-player/6ec47853-2714-4588-9417-cabce751ca31",
+          "name": "Kristian Chambers"
+        },
+        {
+          "playerId": "team-player/98636b28-8307-4742-aa73-bdba146e8c43",
+          "name": "Kristian Chambers and Mark Suter"
+        },
+        {
+          "playerId": "team-player/1f8d4757-f5a7-46a3-adce-620dfb2c88c5",
+          "name": "Marcus Evans"
+        },
+        {
+          "playerId": "team-player/98ab2e7b-b889-45c4-bc01-20253d38038a",
+          "name": "Marcus Evans and Mark Suter"
+        },
+        {
+          "playerId": "team-player/50da1ce6-7959-43a2-a0c8-06be0a287c3b",
+          "name": "Mark Suter"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/a8143365-2154-400c-909d-14044a114439",
       "teams": [
         "Dyffryn",
         "Nailsea"
@@ -45,17 +91,26 @@
       "matches": [
         {
           "players": [
-            "Sarah Melvin",
-            "David X Moody"
+            {
+              "playerId": "team-player/10dfe471-9e6d-46fb-8e8d-caa7c4fa3db3",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/a6aff61b-8bf1-4bc2-b8d4-fc0b3d2d073f",
+              "name": "David X Moody"
+            }
           ],
           "games": [
             {
+              "gameId": "game/56ae1390-5651-4393-9ce3-a06e046f5e8e",
               "players": [
                 {
+                  "playerId": "team-player/10dfe471-9e6d-46fb-8e8d-caa7c4fa3db3",
                   "name": "Sarah Melvin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a6aff61b-8bf1-4bc2-b8d4-fc0b3d2d073f",
                   "name": "David X Moody",
                   "score": "4"
                 }
@@ -67,17 +122,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Jim Gregory"
+            {
+              "playerId": "team-player/8df62996-a307-4f2d-ae6d-5faefaaa21dd",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/ef16f6c9-ebf8-477a-aa19-182cef81049b",
+              "name": "Jim Gregory"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0767621d-7cb4-43c2-830a-176fbb442dde",
               "players": [
                 {
+                  "playerId": "team-player/8df62996-a307-4f2d-ae6d-5faefaaa21dd",
                   "name": "Kevin Ham",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ef16f6c9-ebf8-477a-aa19-182cef81049b",
                   "name": "Jim Gregory",
                   "score": "6"
                 }
@@ -89,17 +153,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/a21566cc-17ab-4fec-9960-95718a24f6fb",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/1f8d4757-f5a7-46a3-adce-620dfb2c88c5",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bb7d6ba3-a4e0-426c-a37a-7e6226eff23c",
               "players": [
                 {
+                  "playerId": "team-player/a21566cc-17ab-4fec-9960-95718a24f6fb",
                   "name": "John Cording",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/1f8d4757-f5a7-46a3-adce-620dfb2c88c5",
                   "name": "Marcus Evans",
                   "score": "7"
                 }
@@ -111,17 +184,26 @@
         },
         {
           "players": [
-            "Robert G Upton",
-            "Mark Suter"
+            {
+              "playerId": "team-player/e54b1775-1a0a-449e-96ce-94dac41b03b0",
+              "name": "Robert G Upton"
+            },
+            {
+              "playerId": "team-player/50da1ce6-7959-43a2-a0c8-06be0a287c3b",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e379f738-7aff-4dee-89b1-7ba1085c081f",
               "players": [
                 {
+                  "playerId": "team-player/e54b1775-1a0a-449e-96ce-94dac41b03b0",
                   "name": "Robert G Upton",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/50da1ce6-7959-43a2-a0c8-06be0a287c3b",
                   "name": "Mark Suter",
                   "score": "7"
                 }
@@ -133,17 +215,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Jim Gregory"
+            {
+              "playerId": "team-player/10dfe471-9e6d-46fb-8e8d-caa7c4fa3db3",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/ef16f6c9-ebf8-477a-aa19-182cef81049b",
+              "name": "Jim Gregory"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ba38c7f1-6619-4364-8576-edb09962e425",
               "players": [
                 {
+                  "playerId": "team-player/10dfe471-9e6d-46fb-8e8d-caa7c4fa3db3",
                   "name": "Sarah Melvin",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ef16f6c9-ebf8-477a-aa19-182cef81049b",
                   "name": "Jim Gregory",
                   "score": "7"
                 }
@@ -155,17 +246,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "David X Moody"
+            {
+              "playerId": "team-player/8df62996-a307-4f2d-ae6d-5faefaaa21dd",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/a6aff61b-8bf1-4bc2-b8d4-fc0b3d2d073f",
+              "name": "David X Moody"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a7031513-1017-4e57-91db-1f8d5716d5d2",
               "players": [
                 {
+                  "playerId": "team-player/8df62996-a307-4f2d-ae6d-5faefaaa21dd",
                   "name": "Kevin Ham",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/a6aff61b-8bf1-4bc2-b8d4-fc0b3d2d073f",
                   "name": "David X Moody",
                   "score": "7"
                 }
@@ -177,17 +277,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Mark Suter"
+            {
+              "playerId": "team-player/a21566cc-17ab-4fec-9960-95718a24f6fb",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/50da1ce6-7959-43a2-a0c8-06be0a287c3b",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/012f4325-3f89-4107-a22c-d786d9af095f",
               "players": [
                 {
+                  "playerId": "team-player/a21566cc-17ab-4fec-9960-95718a24f6fb",
                   "name": "John Cording",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/50da1ce6-7959-43a2-a0c8-06be0a287c3b",
                   "name": "Mark Suter",
                   "score": "7"
                 }
@@ -199,17 +308,26 @@
         },
         {
           "players": [
-            "Robert G Upton",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/e54b1775-1a0a-449e-96ce-94dac41b03b0",
+              "name": "Robert G Upton"
+            },
+            {
+              "playerId": "team-player/1f8d4757-f5a7-46a3-adce-620dfb2c88c5",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/96022edf-8ff6-4769-88bd-6f681596cb77",
               "players": [
                 {
+                  "playerId": "team-player/e54b1775-1a0a-449e-96ce-94dac41b03b0",
                   "name": "Robert G Upton",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/1f8d4757-f5a7-46a3-adce-620dfb2c88c5",
                   "name": "Marcus Evans",
                   "score": "7"
                 }
@@ -221,17 +339,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Mark Suter"
+            {
+              "playerId": "team-player/10dfe471-9e6d-46fb-8e8d-caa7c4fa3db3",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/50da1ce6-7959-43a2-a0c8-06be0a287c3b",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bedf3b7b-e7da-4caa-b2d9-8ff56678fd44",
               "players": [
                 {
+                  "playerId": "team-player/10dfe471-9e6d-46fb-8e8d-caa7c4fa3db3",
                   "name": "Sarah Melvin",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/50da1ce6-7959-43a2-a0c8-06be0a287c3b",
                   "name": "Mark Suter",
                   "score": "7"
                 }
@@ -243,17 +370,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Kristian Chambers"
+            {
+              "playerId": "team-player/8df62996-a307-4f2d-ae6d-5faefaaa21dd",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/6ec47853-2714-4588-9417-cabce751ca31",
+              "name": "Kristian Chambers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d09f813-edb6-47ed-ba98-d7cafed59724",
               "players": [
                 {
+                  "playerId": "team-player/8df62996-a307-4f2d-ae6d-5faefaaa21dd",
                   "name": "Kevin Ham",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/6ec47853-2714-4588-9417-cabce751ca31",
                   "name": "Kristian Chambers",
                   "score": "7"
                 }
@@ -265,17 +401,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "David X Moody"
+            {
+              "playerId": "team-player/a21566cc-17ab-4fec-9960-95718a24f6fb",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/a6aff61b-8bf1-4bc2-b8d4-fc0b3d2d073f",
+              "name": "David X Moody"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c9bda1b6-3be2-4962-81c1-fa348f963885",
               "players": [
                 {
+                  "playerId": "team-player/a21566cc-17ab-4fec-9960-95718a24f6fb",
                   "name": "John Cording",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a6aff61b-8bf1-4bc2-b8d4-fc0b3d2d073f",
                   "name": "David X Moody",
                   "score": "6"
                 }
@@ -287,17 +432,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Kristian Chambers"
+            {
+              "playerId": "team-player/10dfe471-9e6d-46fb-8e8d-caa7c4fa3db3",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/6ec47853-2714-4588-9417-cabce751ca31",
+              "name": "Kristian Chambers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d07ded9-f2a7-4a59-8062-107c2dbc26be",
               "players": [
                 {
+                  "playerId": "team-player/10dfe471-9e6d-46fb-8e8d-caa7c4fa3db3",
                   "name": "Sarah Melvin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6ec47853-2714-4588-9417-cabce751ca31",
                   "name": "Kristian Chambers",
                   "score": "5"
                 }
@@ -309,17 +463,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Mark Suter"
+            {
+              "playerId": "team-player/8df62996-a307-4f2d-ae6d-5faefaaa21dd",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/50da1ce6-7959-43a2-a0c8-06be0a287c3b",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cc199d9e-36a6-434a-a8c2-79874605ebe1",
               "players": [
                 {
+                  "playerId": "team-player/8df62996-a307-4f2d-ae6d-5faefaaa21dd",
                   "name": "Kevin Ham",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/50da1ce6-7959-43a2-a0c8-06be0a287c3b",
                   "name": "Mark Suter",
                   "score": "7"
                 }
@@ -331,17 +494,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Jim Gregory"
+            {
+              "playerId": "team-player/a21566cc-17ab-4fec-9960-95718a24f6fb",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/ef16f6c9-ebf8-477a-aa19-182cef81049b",
+              "name": "Jim Gregory"
+            }
           ],
           "games": [
             {
+              "gameId": "game/85a2225c-72ec-4ed1-aaea-73e3a0910da7",
               "players": [
                 {
+                  "playerId": "team-player/a21566cc-17ab-4fec-9960-95718a24f6fb",
                   "name": "John Cording",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/ef16f6c9-ebf8-477a-aa19-182cef81049b",
                   "name": "Jim Gregory",
                   "score": "7"
                 }
@@ -353,17 +525,26 @@
         },
         {
           "players": [
-            "Robert G Upton",
-            "David X Moody"
+            {
+              "playerId": "team-player/e54b1775-1a0a-449e-96ce-94dac41b03b0",
+              "name": "Robert G Upton"
+            },
+            {
+              "playerId": "team-player/a6aff61b-8bf1-4bc2-b8d4-fc0b3d2d073f",
+              "name": "David X Moody"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aece5365-38e5-48ee-b0fa-09eb68fdeb3b",
               "players": [
                 {
+                  "playerId": "team-player/e54b1775-1a0a-449e-96ce-94dac41b03b0",
                   "name": "Robert G Upton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/a6aff61b-8bf1-4bc2-b8d4-fc0b3d2d073f",
                   "name": "David X Moody",
                   "score": "7"
                 }
@@ -375,17 +556,26 @@
         },
         {
           "players": [
-            "Sarah Melvin and Kevin Ham",
-            "Marcus Evans and Mark Suter"
+            {
+              "playerId": "team-player/19d459eb-9183-4275-831b-dddbd8578c31",
+              "name": "Sarah Melvin and Kevin Ham"
+            },
+            {
+              "playerId": "team-player/98ab2e7b-b889-45c4-bc01-20253d38038a",
+              "name": "Marcus Evans and Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17657ca0-e335-4432-8693-34e79c6a7f7d",
               "players": [
                 {
+                  "playerId": "team-player/19d459eb-9183-4275-831b-dddbd8578c31",
                   "name": "Sarah Melvin and Kevin Ham",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/98ab2e7b-b889-45c4-bc01-20253d38038a",
                   "name": "Marcus Evans and Mark Suter",
                   "score": "7"
                 }
@@ -397,17 +587,26 @@
         },
         {
           "players": [
-            "John Cording And Robert G Upton",
-            "Jim Gregory and David Moody"
+            {
+              "playerId": "team-player/a5527f1d-1289-4543-bcc3-ab945fb5be4d",
+              "name": "John Cording And Robert G Upton"
+            },
+            {
+              "playerId": "team-player/633e6611-fbb0-480c-88e6-bc6f7217bdc0",
+              "name": "Jim Gregory and David Moody"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a2833d61-7d1d-4cdf-8436-6bca130baa68",
               "players": [
                 {
+                  "playerId": "team-player/a5527f1d-1289-4543-bcc3-ab945fb5be4d",
                   "name": "John Cording And Robert G Upton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/633e6611-fbb0-480c-88e6-bc6f7217bdc0",
                   "name": "Jim Gregory and David Moody",
                   "score": "5"
                 }
@@ -419,17 +618,26 @@
         },
         {
           "players": [
-            "Sarah Melvin and Kevin Ham",
-            "Jim Gregory and David Moody"
+            {
+              "playerId": "team-player/19d459eb-9183-4275-831b-dddbd8578c31",
+              "name": "Sarah Melvin and Kevin Ham"
+            },
+            {
+              "playerId": "team-player/633e6611-fbb0-480c-88e6-bc6f7217bdc0",
+              "name": "Jim Gregory and David Moody"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc2542a5-0076-43c9-9df3-98a48b7ef452",
               "players": [
                 {
+                  "playerId": "team-player/19d459eb-9183-4275-831b-dddbd8578c31",
                   "name": "Sarah Melvin and Kevin Ham",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/633e6611-fbb0-480c-88e6-bc6f7217bdc0",
                   "name": "Jim Gregory and David Moody",
                   "score": "7"
                 }
@@ -441,17 +649,26 @@
         },
         {
           "players": [
-            "John Cording And Robert G Upton",
-            "Kristian Chambers and Mark Suter"
+            {
+              "playerId": "team-player/a5527f1d-1289-4543-bcc3-ab945fb5be4d",
+              "name": "John Cording And Robert G Upton"
+            },
+            {
+              "playerId": "team-player/98636b28-8307-4742-aa73-bdba146e8c43",
+              "name": "Kristian Chambers and Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d695b321-c0d6-42d8-ada0-6fffb6ffe163",
               "players": [
                 {
+                  "playerId": "team-player/a5527f1d-1289-4543-bcc3-ab945fb5be4d",
                   "name": "John Cording And Robert G Upton",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/98636b28-8307-4742-aa73-bdba146e8c43",
                   "name": "Kristian Chambers and Mark Suter",
                   "score": "7"
                 }
@@ -463,17 +680,26 @@
         },
         {
           "players": [
-            "Robert G Upton",
-            "Jim Gregory"
+            {
+              "playerId": "team-player/e54b1775-1a0a-449e-96ce-94dac41b03b0",
+              "name": "Robert G Upton"
+            },
+            {
+              "playerId": "team-player/ef16f6c9-ebf8-477a-aa19-182cef81049b",
+              "name": "Jim Gregory"
+            }
           ],
           "games": [
             {
+              "gameId": "game/140a46c7-fda4-4ab6-a161-37450747a810",
               "players": [
                 {
+                  "playerId": "team-player/e54b1775-1a0a-449e-96ce-94dac41b03b0",
                   "name": "Robert G Upton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ef16f6c9-ebf8-477a-aa19-182cef81049b",
                   "name": "Jim Gregory",
                   "score": "7"
                 }

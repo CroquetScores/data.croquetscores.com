@@ -1,51 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/fdd47a6c-2230-47df-b696-4bcbc06a849b",
   "name": "Kaimai Wildcats vd Matadors",
   "sport": "gc",
   "firstDay": "2026-10-26",
   "lastDay": "2026-10-26",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Wildcats",
       "shortName": "Wildcats",
       "players": [
-        "Alan Dodwell",
-        "Alan Dodwell & Georgia",
-        "Alan Dodwell & Leslie",
-        "Georgia Jones",
-        "Leslie Wilkinson",
-        "Leslie Wilkinson & Georgia",
-        "Neil Constable",
-        "Neil Constable & Peter",
-        "Neil Constable & Raewyn",
-        "Peter Wright",
-        "Peter Wright & Raewyn",
-        "Raewyn Wright"
+        {
+          "playerId": "team-player/8cd4ca7a-419d-4bd0-91ce-ecf03f0ee45e",
+          "name": "Alan Dodwell"
+        },
+        {
+          "playerId": "team-player/168ca326-ebcf-4bf8-89e5-f3f2c0da3c60",
+          "name": "Alan Dodwell & Georgia"
+        },
+        {
+          "playerId": "team-player/b3657122-0199-438a-8d6b-089fd71cfa9b",
+          "name": "Alan Dodwell & Leslie"
+        },
+        {
+          "playerId": "team-player/d3de19b5-792b-4de8-bdad-2fbf8bf582ca",
+          "name": "Georgia Jones"
+        },
+        {
+          "playerId": "team-player/2a041274-321b-4819-a100-44d7a754f6d2",
+          "name": "Leslie Wilkinson"
+        },
+        {
+          "playerId": "team-player/8acbeff3-a59e-4097-a6a3-2d7dae9e71c5",
+          "name": "Leslie Wilkinson & Georgia"
+        },
+        {
+          "playerId": "team-player/eac36486-fd99-485e-8014-eaa682bfea7d",
+          "name": "Neil Constable"
+        },
+        {
+          "playerId": "team-player/942aea42-3ea5-4d96-9f1a-71f969ae82f0",
+          "name": "Neil Constable & Peter"
+        },
+        {
+          "playerId": "team-player/b23ca83c-7d74-4f77-b245-0eb0aab8317f",
+          "name": "Neil Constable & Raewyn"
+        },
+        {
+          "playerId": "team-player/b4c07d1f-f6fc-44bc-8e8b-3d908fc2d086",
+          "name": "Peter Wright"
+        },
+        {
+          "playerId": "team-player/d51c645e-1c3e-4b7d-914c-4f2f1b02847d",
+          "name": "Peter Wright & Raewyn"
+        },
+        {
+          "playerId": "team-player/def6e777-bd88-4799-a85b-ca68d8b961dc",
+          "name": "Raewyn Wright"
+        }
       ]
     },
     {
       "name": "Matadors",
       "shortName": "Matadors",
       "players": [
-        "Adrienne Craig",
-        "Alan Bruce",
-        "Alan Bruce & Jenni",
-        "Callan McGrath",
-        "Callan McGrath & Alan",
-        "Callan McGrath & Jenni",
-        "Ivan Smith",
-        "Ivan Smith & Adrienne",
-        "Ivan Smith & Leo",
-        "Jenni Van Driel",
-        "Leo Craig",
-        "Leo Craig & Adrienne"
+        {
+          "playerId": "team-player/98d6418b-c500-4806-94a5-4eb09037f834",
+          "name": "Adrienne Craig"
+        },
+        {
+          "playerId": "team-player/8bcf0039-d7f1-4208-9e99-e3da48e04c8c",
+          "name": "Alan Bruce"
+        },
+        {
+          "playerId": "team-player/6c415eed-a464-4a0d-9486-6aedd8912aa7",
+          "name": "Alan Bruce & Jenni"
+        },
+        {
+          "playerId": "team-player/36a16caa-5924-4c76-9c0f-5e79d37555f3",
+          "name": "Callan McGrath"
+        },
+        {
+          "playerId": "team-player/1726e369-3468-4828-b434-76cf1d8d65dd",
+          "name": "Callan McGrath & Alan"
+        },
+        {
+          "playerId": "team-player/8d84d3ad-fd53-4323-ad0e-e3b97bb549b4",
+          "name": "Callan McGrath & Jenni"
+        },
+        {
+          "playerId": "team-player/feb318cd-7df1-4338-b049-70ef40bf02f3",
+          "name": "Ivan Smith"
+        },
+        {
+          "playerId": "team-player/eae5ec45-3b75-493e-8638-d848fdc31df9",
+          "name": "Ivan Smith & Adrienne"
+        },
+        {
+          "playerId": "team-player/1d4c0517-7f6d-4518-b13d-07d899426d44",
+          "name": "Ivan Smith & Leo"
+        },
+        {
+          "playerId": "team-player/a5fc69e0-1ec7-48dc-8454-2dc5364c54c2",
+          "name": "Jenni Van Driel"
+        },
+        {
+          "playerId": "team-player/bc87b8a7-c368-46c2-af0f-b039fa07c192",
+          "name": "Leo Craig"
+        },
+        {
+          "playerId": "team-player/73a84a7d-ce4c-4bbc-8335-e7eab018156d",
+          "name": "Leo Craig & Adrienne"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/9860a45f-c706-424c-81d4-280c13d93bdd",
       "teams": [
         "Wildcats",
         "Matadors"
@@ -55,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Georgia Jones",
-            "Adrienne Craig"
+            {
+              "playerId": "team-player/d3de19b5-792b-4de8-bdad-2fbf8bf582ca",
+              "name": "Georgia Jones"
+            },
+            {
+              "playerId": "team-player/98d6418b-c500-4806-94a5-4eb09037f834",
+              "name": "Adrienne Craig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9685308a-0364-4702-998e-00cb0ab77930",
               "players": [
                 {
+                  "playerId": "team-player/d3de19b5-792b-4de8-bdad-2fbf8bf582ca",
                   "name": "Georgia Jones",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/98d6418b-c500-4806-94a5-4eb09037f834",
                   "name": "Adrienne Craig",
                   "score": "7"
                 }
@@ -77,17 +162,26 @@
         },
         {
           "players": [
-            "Alan Dodwell & Leslie",
-            "Ivan Smith & Leo"
+            {
+              "playerId": "team-player/b3657122-0199-438a-8d6b-089fd71cfa9b",
+              "name": "Alan Dodwell & Leslie"
+            },
+            {
+              "playerId": "team-player/1d4c0517-7f6d-4518-b13d-07d899426d44",
+              "name": "Ivan Smith & Leo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fe729898-6685-4278-b950-29b64ad943bd",
               "players": [
                 {
+                  "playerId": "team-player/b3657122-0199-438a-8d6b-089fd71cfa9b",
                   "name": "Alan Dodwell & Leslie",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/1d4c0517-7f6d-4518-b13d-07d899426d44",
                   "name": "Ivan Smith & Leo",
                   "score": "7"
                 }
@@ -99,17 +193,26 @@
         },
         {
           "players": [
-            "Raewyn Wright",
-            "Jenni Van Driel"
+            {
+              "playerId": "team-player/def6e777-bd88-4799-a85b-ca68d8b961dc",
+              "name": "Raewyn Wright"
+            },
+            {
+              "playerId": "team-player/a5fc69e0-1ec7-48dc-8454-2dc5364c54c2",
+              "name": "Jenni Van Driel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b7509717-0068-4fa8-8271-42a4e01fd12c",
               "players": [
                 {
+                  "playerId": "team-player/def6e777-bd88-4799-a85b-ca68d8b961dc",
                   "name": "Raewyn Wright",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a5fc69e0-1ec7-48dc-8454-2dc5364c54c2",
                   "name": "Jenni Van Driel",
                   "score": "7"
                 }
@@ -121,17 +224,26 @@
         },
         {
           "players": [
-            "Neil Constable & Peter",
-            "Callan McGrath & Alan"
+            {
+              "playerId": "team-player/942aea42-3ea5-4d96-9f1a-71f969ae82f0",
+              "name": "Neil Constable & Peter"
+            },
+            {
+              "playerId": "team-player/1726e369-3468-4828-b434-76cf1d8d65dd",
+              "name": "Callan McGrath & Alan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f7687a21-1993-4e98-9042-e3802d8d6fdf",
               "players": [
                 {
+                  "playerId": "team-player/942aea42-3ea5-4d96-9f1a-71f969ae82f0",
                   "name": "Neil Constable & Peter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1726e369-3468-4828-b434-76cf1d8d65dd",
                   "name": "Callan McGrath & Alan",
                   "score": "6"
                 }
@@ -143,17 +255,26 @@
         },
         {
           "players": [
-            "Leslie Wilkinson",
-            "Leo Craig"
+            {
+              "playerId": "team-player/2a041274-321b-4819-a100-44d7a754f6d2",
+              "name": "Leslie Wilkinson"
+            },
+            {
+              "playerId": "team-player/bc87b8a7-c368-46c2-af0f-b039fa07c192",
+              "name": "Leo Craig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/91679774-7193-4f67-a048-b25fd64ecde5",
               "players": [
                 {
+                  "playerId": "team-player/2a041274-321b-4819-a100-44d7a754f6d2",
                   "name": "Leslie Wilkinson",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/bc87b8a7-c368-46c2-af0f-b039fa07c192",
                   "name": "Leo Craig",
                   "score": "7"
                 }
@@ -165,17 +286,26 @@
         },
         {
           "players": [
-            "Alan Dodwell & Georgia",
-            "Ivan Smith & Adrienne"
+            {
+              "playerId": "team-player/168ca326-ebcf-4bf8-89e5-f3f2c0da3c60",
+              "name": "Alan Dodwell & Georgia"
+            },
+            {
+              "playerId": "team-player/eae5ec45-3b75-493e-8638-d848fdc31df9",
+              "name": "Ivan Smith & Adrienne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8697b51a-6ec0-4dec-acdd-f98883ab3c11",
               "players": [
                 {
+                  "playerId": "team-player/168ca326-ebcf-4bf8-89e5-f3f2c0da3c60",
                   "name": "Alan Dodwell & Georgia",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/eae5ec45-3b75-493e-8638-d848fdc31df9",
                   "name": "Ivan Smith & Adrienne",
                   "score": "7"
                 }
@@ -187,17 +317,26 @@
         },
         {
           "players": [
-            "Peter Wright",
-            "Alan Bruce"
+            {
+              "playerId": "team-player/b4c07d1f-f6fc-44bc-8e8b-3d908fc2d086",
+              "name": "Peter Wright"
+            },
+            {
+              "playerId": "team-player/8bcf0039-d7f1-4208-9e99-e3da48e04c8c",
+              "name": "Alan Bruce"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b95724e7-6fa6-4380-a9d1-deeb31c19fc7",
               "players": [
                 {
+                  "playerId": "team-player/b4c07d1f-f6fc-44bc-8e8b-3d908fc2d086",
                   "name": "Peter Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8bcf0039-d7f1-4208-9e99-e3da48e04c8c",
                   "name": "Alan Bruce",
                   "score": "1"
                 }
@@ -209,17 +348,26 @@
         },
         {
           "players": [
-            "Neil Constable & Raewyn",
-            "Callan McGrath & Jenni"
+            {
+              "playerId": "team-player/b23ca83c-7d74-4f77-b245-0eb0aab8317f",
+              "name": "Neil Constable & Raewyn"
+            },
+            {
+              "playerId": "team-player/8d84d3ad-fd53-4323-ad0e-e3b97bb549b4",
+              "name": "Callan McGrath & Jenni"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6132d67c-406b-4f95-abac-a0d448e91860",
               "players": [
                 {
+                  "playerId": "team-player/b23ca83c-7d74-4f77-b245-0eb0aab8317f",
                   "name": "Neil Constable & Raewyn",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8d84d3ad-fd53-4323-ad0e-e3b97bb549b4",
                   "name": "Callan McGrath & Jenni",
                   "score": "7"
                 }
@@ -231,17 +379,26 @@
         },
         {
           "players": [
-            "Alan Dodwell",
-            "Ivan Smith"
+            {
+              "playerId": "team-player/8cd4ca7a-419d-4bd0-91ce-ecf03f0ee45e",
+              "name": "Alan Dodwell"
+            },
+            {
+              "playerId": "team-player/feb318cd-7df1-4338-b049-70ef40bf02f3",
+              "name": "Ivan Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/768766cd-adfd-4bc7-90fa-4788dfc72726",
               "players": [
                 {
+                  "playerId": "team-player/8cd4ca7a-419d-4bd0-91ce-ecf03f0ee45e",
                   "name": "Alan Dodwell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/feb318cd-7df1-4338-b049-70ef40bf02f3",
                   "name": "Ivan Smith",
                   "score": "6"
                 }
@@ -253,17 +410,26 @@
         },
         {
           "players": [
-            "Leslie Wilkinson & Georgia",
-            "Leo Craig & Adrienne"
+            {
+              "playerId": "team-player/8acbeff3-a59e-4097-a6a3-2d7dae9e71c5",
+              "name": "Leslie Wilkinson & Georgia"
+            },
+            {
+              "playerId": "team-player/73a84a7d-ce4c-4bbc-8335-e7eab018156d",
+              "name": "Leo Craig & Adrienne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aecc16bb-7f6e-4ba7-8c4f-abf38a25be22",
               "players": [
                 {
+                  "playerId": "team-player/8acbeff3-a59e-4097-a6a3-2d7dae9e71c5",
                   "name": "Leslie Wilkinson & Georgia",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/73a84a7d-ce4c-4bbc-8335-e7eab018156d",
                   "name": "Leo Craig & Adrienne",
                   "score": "7"
                 }
@@ -275,17 +441,26 @@
         },
         {
           "players": [
-            "Neil Constable",
-            "Callan McGrath"
+            {
+              "playerId": "team-player/eac36486-fd99-485e-8014-eaa682bfea7d",
+              "name": "Neil Constable"
+            },
+            {
+              "playerId": "team-player/36a16caa-5924-4c76-9c0f-5e79d37555f3",
+              "name": "Callan McGrath"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ff8e980-1669-44ca-b299-1e5de85847e8",
               "players": [
                 {
+                  "playerId": "team-player/eac36486-fd99-485e-8014-eaa682bfea7d",
                   "name": "Neil Constable",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/36a16caa-5924-4c76-9c0f-5e79d37555f3",
                   "name": "Callan McGrath",
                   "score": "7"
                 }
@@ -297,17 +472,26 @@
         },
         {
           "players": [
-            "Peter Wright & Raewyn",
-            "Alan Bruce & Jenni"
+            {
+              "playerId": "team-player/d51c645e-1c3e-4b7d-914c-4f2f1b02847d",
+              "name": "Peter Wright & Raewyn"
+            },
+            {
+              "playerId": "team-player/6c415eed-a464-4a0d-9486-6aedd8912aa7",
+              "name": "Alan Bruce & Jenni"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f05bc67c-f7e6-4c06-b78c-c3fbb1422f39",
               "players": [
                 {
+                  "playerId": "team-player/d51c645e-1c3e-4b7d-914c-4f2f1b02847d",
                   "name": "Peter Wright & Raewyn",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6c415eed-a464-4a0d-9486-6aedd8912aa7",
                   "name": "Alan Bruce & Jenni",
                   "score": "7"
                 }
@@ -319,17 +503,26 @@
         },
         {
           "players": [
-            "Georgia Jones",
-            "Jenni Van Driel"
+            {
+              "playerId": "team-player/d3de19b5-792b-4de8-bdad-2fbf8bf582ca",
+              "name": "Georgia Jones"
+            },
+            {
+              "playerId": "team-player/a5fc69e0-1ec7-48dc-8454-2dc5364c54c2",
+              "name": "Jenni Van Driel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/03a2408d-8fc0-4b11-9e72-11fa56b8b803",
               "players": [
                 {
+                  "playerId": "team-player/d3de19b5-792b-4de8-bdad-2fbf8bf582ca",
                   "name": "Georgia Jones",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a5fc69e0-1ec7-48dc-8454-2dc5364c54c2",
                   "name": "Jenni Van Driel",
                   "score": "7"
                 }
@@ -341,17 +534,26 @@
         },
         {
           "players": [
-            "Alan Dodwell & Leslie",
-            "Callan McGrath & Alan"
+            {
+              "playerId": "team-player/b3657122-0199-438a-8d6b-089fd71cfa9b",
+              "name": "Alan Dodwell & Leslie"
+            },
+            {
+              "playerId": "team-player/1726e369-3468-4828-b434-76cf1d8d65dd",
+              "name": "Callan McGrath & Alan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/22489644-d0be-4176-ab77-a234f38a2db9",
               "players": [
                 {
+                  "playerId": "team-player/b3657122-0199-438a-8d6b-089fd71cfa9b",
                   "name": "Alan Dodwell & Leslie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1726e369-3468-4828-b434-76cf1d8d65dd",
                   "name": "Callan McGrath & Alan",
                   "score": "6"
                 }
@@ -363,17 +565,26 @@
         },
         {
           "players": [
-            "Raewyn Wright",
-            "Adrienne Craig"
+            {
+              "playerId": "team-player/def6e777-bd88-4799-a85b-ca68d8b961dc",
+              "name": "Raewyn Wright"
+            },
+            {
+              "playerId": "team-player/98d6418b-c500-4806-94a5-4eb09037f834",
+              "name": "Adrienne Craig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/99579e68-0bab-4fc1-9ca5-afab8736564f",
               "players": [
                 {
+                  "playerId": "team-player/def6e777-bd88-4799-a85b-ca68d8b961dc",
                   "name": "Raewyn Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/98d6418b-c500-4806-94a5-4eb09037f834",
                   "name": "Adrienne Craig",
                   "score": "6"
                 }
@@ -385,17 +596,26 @@
         },
         {
           "players": [
-            "Neil Constable & Peter",
-            "Ivan Smith & Leo"
+            {
+              "playerId": "team-player/942aea42-3ea5-4d96-9f1a-71f969ae82f0",
+              "name": "Neil Constable & Peter"
+            },
+            {
+              "playerId": "team-player/1d4c0517-7f6d-4518-b13d-07d899426d44",
+              "name": "Ivan Smith & Leo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e73dadb-5bf7-4266-b0ba-f00c21b9b3d8",
               "players": [
                 {
+                  "playerId": "team-player/942aea42-3ea5-4d96-9f1a-71f969ae82f0",
                   "name": "Neil Constable & Peter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1d4c0517-7f6d-4518-b13d-07d899426d44",
                   "name": "Ivan Smith & Leo",
                   "score": "5"
                 }
@@ -407,17 +627,26 @@
         },
         {
           "players": [
-            "Leslie Wilkinson",
-            "Alan Bruce"
+            {
+              "playerId": "team-player/2a041274-321b-4819-a100-44d7a754f6d2",
+              "name": "Leslie Wilkinson"
+            },
+            {
+              "playerId": "team-player/8bcf0039-d7f1-4208-9e99-e3da48e04c8c",
+              "name": "Alan Bruce"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d7b73a98-6fb6-4d56-a323-587441c65ef4",
               "players": [
                 {
+                  "playerId": "team-player/2a041274-321b-4819-a100-44d7a754f6d2",
                   "name": "Leslie Wilkinson",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/8bcf0039-d7f1-4208-9e99-e3da48e04c8c",
                   "name": "Alan Bruce",
                   "score": "7"
                 }
@@ -429,17 +658,26 @@
         },
         {
           "players": [
-            "Alan Dodwell & Georgia",
-            "Callan McGrath & Jenni"
+            {
+              "playerId": "team-player/168ca326-ebcf-4bf8-89e5-f3f2c0da3c60",
+              "name": "Alan Dodwell & Georgia"
+            },
+            {
+              "playerId": "team-player/8d84d3ad-fd53-4323-ad0e-e3b97bb549b4",
+              "name": "Callan McGrath & Jenni"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e45bb8dc-0477-4bad-a75f-3eae050c8145",
               "players": [
                 {
+                  "playerId": "team-player/168ca326-ebcf-4bf8-89e5-f3f2c0da3c60",
                   "name": "Alan Dodwell & Georgia",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8d84d3ad-fd53-4323-ad0e-e3b97bb549b4",
                   "name": "Callan McGrath & Jenni",
                   "score": "7"
                 }
@@ -451,17 +689,26 @@
         },
         {
           "players": [
-            "Peter Wright",
-            "Leo Craig"
+            {
+              "playerId": "team-player/b4c07d1f-f6fc-44bc-8e8b-3d908fc2d086",
+              "name": "Peter Wright"
+            },
+            {
+              "playerId": "team-player/bc87b8a7-c368-46c2-af0f-b039fa07c192",
+              "name": "Leo Craig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eccbf12b-dca8-4ada-ab0d-a55aaa19547c",
               "players": [
                 {
+                  "playerId": "team-player/b4c07d1f-f6fc-44bc-8e8b-3d908fc2d086",
                   "name": "Peter Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bc87b8a7-c368-46c2-af0f-b039fa07c192",
                   "name": "Leo Craig",
                   "score": "3"
                 }
@@ -473,17 +720,26 @@
         },
         {
           "players": [
-            "Neil Constable & Raewyn",
-            "Ivan Smith & Adrienne"
+            {
+              "playerId": "team-player/b23ca83c-7d74-4f77-b245-0eb0aab8317f",
+              "name": "Neil Constable & Raewyn"
+            },
+            {
+              "playerId": "team-player/eae5ec45-3b75-493e-8638-d848fdc31df9",
+              "name": "Ivan Smith & Adrienne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/56b6fbe6-cf56-4df2-b72a-1672c354fe95",
               "players": [
                 {
+                  "playerId": "team-player/b23ca83c-7d74-4f77-b245-0eb0aab8317f",
                   "name": "Neil Constable & Raewyn",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/eae5ec45-3b75-493e-8638-d848fdc31df9",
                   "name": "Ivan Smith & Adrienne",
                   "score": "7"
                 }
@@ -495,17 +751,26 @@
         },
         {
           "players": [
-            "Alan Dodwell",
-            "Callan McGrath"
+            {
+              "playerId": "team-player/8cd4ca7a-419d-4bd0-91ce-ecf03f0ee45e",
+              "name": "Alan Dodwell"
+            },
+            {
+              "playerId": "team-player/36a16caa-5924-4c76-9c0f-5e79d37555f3",
+              "name": "Callan McGrath"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cb0f140f-f8c6-49bf-918b-b5752c50a0ac",
               "players": [
                 {
+                  "playerId": "team-player/8cd4ca7a-419d-4bd0-91ce-ecf03f0ee45e",
                   "name": "Alan Dodwell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/36a16caa-5924-4c76-9c0f-5e79d37555f3",
                   "name": "Callan McGrath",
                   "score": "5"
                 }
@@ -517,17 +782,26 @@
         },
         {
           "players": [
-            "Leslie Wilkinson & Georgia",
-            "Alan Bruce & Jenni"
+            {
+              "playerId": "team-player/8acbeff3-a59e-4097-a6a3-2d7dae9e71c5",
+              "name": "Leslie Wilkinson & Georgia"
+            },
+            {
+              "playerId": "team-player/6c415eed-a464-4a0d-9486-6aedd8912aa7",
+              "name": "Alan Bruce & Jenni"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17635d9a-d25c-46de-bfde-1a048a8b993e",
               "players": [
                 {
+                  "playerId": "team-player/8acbeff3-a59e-4097-a6a3-2d7dae9e71c5",
                   "name": "Leslie Wilkinson & Georgia",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6c415eed-a464-4a0d-9486-6aedd8912aa7",
                   "name": "Alan Bruce & Jenni",
                   "score": "3"
                 }
@@ -539,17 +813,26 @@
         },
         {
           "players": [
-            "Neil Constable",
-            "Ivan Smith"
+            {
+              "playerId": "team-player/eac36486-fd99-485e-8014-eaa682bfea7d",
+              "name": "Neil Constable"
+            },
+            {
+              "playerId": "team-player/feb318cd-7df1-4338-b049-70ef40bf02f3",
+              "name": "Ivan Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5aa1aaa7-e240-42e7-9c08-f501cb32cc05",
               "players": [
                 {
+                  "playerId": "team-player/eac36486-fd99-485e-8014-eaa682bfea7d",
                   "name": "Neil Constable",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/feb318cd-7df1-4338-b049-70ef40bf02f3",
                   "name": "Ivan Smith",
                   "score": "7"
                 }
@@ -561,17 +844,26 @@
         },
         {
           "players": [
-            "Peter Wright & Raewyn",
-            "Leo Craig & Adrienne"
+            {
+              "playerId": "team-player/d51c645e-1c3e-4b7d-914c-4f2f1b02847d",
+              "name": "Peter Wright & Raewyn"
+            },
+            {
+              "playerId": "team-player/73a84a7d-ce4c-4bbc-8335-e7eab018156d",
+              "name": "Leo Craig & Adrienne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6f24ff24-32d2-4d47-995e-60ec3941a6e0",
               "players": [
                 {
+                  "playerId": "team-player/d51c645e-1c3e-4b7d-914c-4f2f1b02847d",
                   "name": "Peter Wright & Raewyn",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/73a84a7d-ce4c-4bbc-8335-e7eab018156d",
                   "name": "Leo Craig & Adrienne",
                   "score": "7"
                 }

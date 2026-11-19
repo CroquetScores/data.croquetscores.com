@@ -1,36 +1,67 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a1eacc63-0ec5-4722-b4d5-e2d5523a5e4c",
   "name": "NW Fed LPG Bowdon v Bury Sovereigns",
   "sport": "gc",
   "firstDay": "2026-08-26",
   "lastDay": "2026-08-26",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "David Cornes",
-        "Nigel Matthews",
-        "Sandra Cornes"
+        {
+          "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
+          "name": "David Cornes"
+        },
+        {
+          "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
+          "name": "Nigel Matthews"
+        },
+        {
+          "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
+          "name": "Sandra Cornes"
+        }
       ]
     },
     {
       "name": "Bury Sovereigns",
       "shortName": "Bury Sover",
       "players": [
-        "Bernard Lord",
-        "Bernard Lord - meet again",
-        "David Barrett",
-        "David Barrett - meet again",
-        "David Parrott",
-        "David Parrott - meet again"
+        {
+          "playerId": "team-player/9c45c10a-0fa1-4b14-adb4-d29325794a6c",
+          "name": "Bernard Lord"
+        },
+        {
+          "playerId": "team-player/deefd74c-80bc-48de-8068-29ccce6abeea",
+          "name": "Bernard Lord - meet again"
+        },
+        {
+          "playerId": "team-player/2094cd1c-9f81-4e08-8351-9921090fd174",
+          "name": "David Barrett"
+        },
+        {
+          "playerId": "team-player/eacc1227-539b-4be4-a4ad-2949e1dfdcf8",
+          "name": "David Barrett - meet again"
+        },
+        {
+          "playerId": "team-player/2eb07ae1-1318-437a-b0d3-52851b93a634",
+          "name": "David Parrott"
+        },
+        {
+          "playerId": "team-player/ec6fc143-56f1-48b6-a5a7-091f1d94d503",
+          "name": "David Parrott - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1ffc86df-9015-48db-8a68-ace75cbc4fbe",
       "teams": [
         "Bowdon",
         "Bury Sovereigns"
@@ -40,17 +71,26 @@
       "matches": [
         {
           "players": [
-            "Nigel Matthews",
-            "David Parrott"
+            {
+              "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/2eb07ae1-1318-437a-b0d3-52851b93a634",
+              "name": "David Parrott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca496dc9-4412-41a7-9dde-2ea8b601824f",
               "players": [
                 {
+                  "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2eb07ae1-1318-437a-b0d3-52851b93a634",
                   "name": "David Parrott",
                   "score": "2"
                 }
@@ -62,17 +102,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Bernard Lord"
+            {
+              "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/9c45c10a-0fa1-4b14-adb4-d29325794a6c",
+              "name": "Bernard Lord"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f3843d8-f209-493e-a27f-be04038aa300",
               "players": [
                 {
+                  "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c45c10a-0fa1-4b14-adb4-d29325794a6c",
                   "name": "Bernard Lord",
                   "score": "3"
                 }
@@ -84,17 +133,26 @@
         },
         {
           "players": [
-            "Sandra Cornes",
-            "David Barrett"
+            {
+              "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
+              "name": "Sandra Cornes"
+            },
+            {
+              "playerId": "team-player/2094cd1c-9f81-4e08-8351-9921090fd174",
+              "name": "David Barrett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/73c9b689-81de-4203-ac03-784dd31677ad",
               "players": [
                 {
+                  "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
                   "name": "Sandra Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2094cd1c-9f81-4e08-8351-9921090fd174",
                   "name": "David Barrett",
                   "score": "5"
                 }
@@ -106,17 +164,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "David Parrott"
+            {
+              "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/2eb07ae1-1318-437a-b0d3-52851b93a634",
+              "name": "David Parrott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f349764-039a-42cd-aa8d-08d88871d1a0",
               "players": [
                 {
+                  "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2eb07ae1-1318-437a-b0d3-52851b93a634",
                   "name": "David Parrott",
                   "score": "3"
                 }
@@ -128,17 +195,26 @@
         },
         {
           "players": [
-            "Sandra Cornes",
-            "Bernard Lord"
+            {
+              "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
+              "name": "Sandra Cornes"
+            },
+            {
+              "playerId": "team-player/9c45c10a-0fa1-4b14-adb4-d29325794a6c",
+              "name": "Bernard Lord"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30c7c02a-7426-4f5a-b32f-8f310633f9a0",
               "players": [
                 {
+                  "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
                   "name": "Sandra Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c45c10a-0fa1-4b14-adb4-d29325794a6c",
                   "name": "Bernard Lord",
                   "score": "3"
                 }
@@ -150,17 +226,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "David Barrett"
+            {
+              "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/2094cd1c-9f81-4e08-8351-9921090fd174",
+              "name": "David Barrett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af3633a9-4b20-4dc1-9672-74af64b8a2d2",
               "players": [
                 {
+                  "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2094cd1c-9f81-4e08-8351-9921090fd174",
                   "name": "David Barrett",
                   "score": "3"
                 }
@@ -172,17 +257,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Bernard Lord"
+            {
+              "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/9c45c10a-0fa1-4b14-adb4-d29325794a6c",
+              "name": "Bernard Lord"
+            }
           ],
           "games": [
             {
+              "gameId": "game/937d4a8b-af54-42c1-9710-d6234016aad4",
               "players": [
                 {
+                  "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c45c10a-0fa1-4b14-adb4-d29325794a6c",
                   "name": "Bernard Lord",
                   "score": "4"
                 }
@@ -194,17 +288,26 @@
         },
         {
           "players": [
-            "Sandra Cornes",
-            "David Parrott"
+            {
+              "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
+              "name": "Sandra Cornes"
+            },
+            {
+              "playerId": "team-player/2eb07ae1-1318-437a-b0d3-52851b93a634",
+              "name": "David Parrott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ae7a039b-fd24-4259-a7bd-9ffb00cc3304",
               "players": [
                 {
+                  "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
                   "name": "Sandra Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2eb07ae1-1318-437a-b0d3-52851b93a634",
                   "name": "David Parrott",
                   "score": "3"
                 }
@@ -216,17 +319,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "David Barrett"
+            {
+              "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/2094cd1c-9f81-4e08-8351-9921090fd174",
+              "name": "David Barrett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4dd61dab-c982-4cd5-8b61-844f28508bcd",
               "players": [
                 {
+                  "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2094cd1c-9f81-4e08-8351-9921090fd174",
                   "name": "David Barrett",
                   "score": "5"
                 }
@@ -238,17 +350,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "David Parrott - meet again"
+            {
+              "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/ec6fc143-56f1-48b6-a5a7-091f1d94d503",
+              "name": "David Parrott - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/50065adc-4e20-4db4-a1c6-9426266125db",
               "players": [
                 {
+                  "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ec6fc143-56f1-48b6-a5a7-091f1d94d503",
                   "name": "David Parrott - meet again",
                   "score": "5"
                 }
@@ -260,17 +381,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Bernard Lord - meet again"
+            {
+              "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/deefd74c-80bc-48de-8068-29ccce6abeea",
+              "name": "Bernard Lord - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2810b70a-f4a9-4236-9c7f-9a334dd611e5",
               "players": [
                 {
+                  "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/deefd74c-80bc-48de-8068-29ccce6abeea",
                   "name": "Bernard Lord - meet again",
                   "score": "6"
                 }
@@ -282,17 +412,26 @@
         },
         {
           "players": [
-            "Sandra Cornes",
-            "David Barrett - meet again"
+            {
+              "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
+              "name": "Sandra Cornes"
+            },
+            {
+              "playerId": "team-player/eacc1227-539b-4be4-a4ad-2949e1dfdcf8",
+              "name": "David Barrett - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ed4b06f8-71ae-4f5d-84d7-6303960a35d9",
               "players": [
                 {
+                  "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
                   "name": "Sandra Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/eacc1227-539b-4be4-a4ad-2949e1dfdcf8",
                   "name": "David Barrett - meet again",
                   "score": "3"
                 }
@@ -304,17 +443,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "David Barrett - meet again"
+            {
+              "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/eacc1227-539b-4be4-a4ad-2949e1dfdcf8",
+              "name": "David Barrett - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f6c5686-7912-4cd2-8b92-88ba84231197",
               "players": [
                 {
+                  "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/eacc1227-539b-4be4-a4ad-2949e1dfdcf8",
                   "name": "David Barrett - meet again",
                   "score": "2"
                 }
@@ -326,17 +474,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "David Parrott - meet again"
+            {
+              "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/ec6fc143-56f1-48b6-a5a7-091f1d94d503",
+              "name": "David Parrott - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dfac447d-cf74-4fe2-b227-26eb5c604fc6",
               "players": [
                 {
+                  "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ec6fc143-56f1-48b6-a5a7-091f1d94d503",
                   "name": "David Parrott - meet again",
                   "score": "2"
                 }
@@ -348,17 +505,26 @@
         },
         {
           "players": [
-            "Sandra Cornes",
-            "Bernard Lord - meet again"
+            {
+              "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
+              "name": "Sandra Cornes"
+            },
+            {
+              "playerId": "team-player/deefd74c-80bc-48de-8068-29ccce6abeea",
+              "name": "Bernard Lord - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a087f923-bda6-4815-87b9-898e9965a289",
               "players": [
                 {
+                  "playerId": "team-player/7e439b42-ab0f-411f-8fd3-745697db6821",
                   "name": "Sandra Cornes",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/deefd74c-80bc-48de-8068-29ccce6abeea",
                   "name": "Bernard Lord - meet again",
                   "score": "7"
                 }
@@ -370,17 +536,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Bernard Lord - meet again"
+            {
+              "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/deefd74c-80bc-48de-8068-29ccce6abeea",
+              "name": "Bernard Lord - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d134734f-afb4-4d74-b40e-49d2deeb14f4",
               "players": [
                 {
+                  "playerId": "team-player/e8e66516-ee99-4b05-9a45-dcd77f052694",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/deefd74c-80bc-48de-8068-29ccce6abeea",
                   "name": "Bernard Lord - meet again",
                   "score": "5"
                 }
@@ -392,17 +567,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "David Barrett - meet again"
+            {
+              "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/eacc1227-539b-4be4-a4ad-2949e1dfdcf8",
+              "name": "David Barrett - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/423ff44d-7e36-4b31-a545-4ace38eba472",
               "players": [
                 {
+                  "playerId": "team-player/7dd53c77-9ed0-45a7-ae3c-031c1dac1ee5",
                   "name": "David Cornes",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/eacc1227-539b-4be4-a4ad-2949e1dfdcf8",
                   "name": "David Barrett - meet again",
                   "score": "7"
                 }

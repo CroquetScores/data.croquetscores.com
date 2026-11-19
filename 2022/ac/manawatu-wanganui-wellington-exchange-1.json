@@ -1,51 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a2e22c7d-6b17-4107-8c52-82bf161a41e6",
   "name": "Manawatu-Wanganui Wellington Exchange AC",
   "sport": "ac",
   "firstDay": "2022-12-04",
   "lastDay": "2022-12-04",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Manawatu-Wanganui",
       "shortName": "Manawatu-W",
       "players": [
-        "Callum McKinnon",
-        "Callum McKinnon & Malcolm Hutchins",
-        "Josh Smith",
-        "Josh Smith & Nicholas Flood",
-        "Malcolm Hutchins",
-        "Max Charlton",
-        "Max Charlton & Terry Klein",
-        "Neil Stantiall",
-        "Nicholas Flood",
-        "Pam Green",
-        "Pam Green & Neil Stantiall",
-        "Terry Klein"
+        {
+          "playerId": "team-player/502279b8-5130-4446-b062-6f0adeeb8ba0",
+          "name": "Callum McKinnon"
+        },
+        {
+          "playerId": "team-player/e3bd8540-27fa-4b34-a053-7dcd1b60f8ec",
+          "name": "Callum McKinnon & Malcolm Hutchins"
+        },
+        {
+          "playerId": "team-player/66c52ef3-2cfc-4f47-9232-1ae32045f796",
+          "name": "Josh Smith"
+        },
+        {
+          "playerId": "team-player/7932bcb6-8a07-4f76-b5be-7de70a144028",
+          "name": "Josh Smith & Nicholas Flood"
+        },
+        {
+          "playerId": "team-player/2fce6eab-d4d9-4f55-b27f-3070bc73415c",
+          "name": "Malcolm Hutchins"
+        },
+        {
+          "playerId": "team-player/4107dffe-3ea7-4d49-91d8-afd99471692a",
+          "name": "Max Charlton"
+        },
+        {
+          "playerId": "team-player/18ae9463-cb8e-41f6-bb3b-076a84b467c6",
+          "name": "Max Charlton & Terry Klein"
+        },
+        {
+          "playerId": "team-player/d42df6f8-2edc-4d83-b4fe-0405e6a990b3",
+          "name": "Neil Stantiall"
+        },
+        {
+          "playerId": "team-player/3ed05247-b811-4a57-a2de-a66c0149551f",
+          "name": "Nicholas Flood"
+        },
+        {
+          "playerId": "team-player/ed7b7d9f-8374-440d-86f3-48a208eca282",
+          "name": "Pam Green"
+        },
+        {
+          "playerId": "team-player/68f83b97-8e4e-44bf-94dd-4f4419210009",
+          "name": "Pam Green & Neil Stantiall"
+        },
+        {
+          "playerId": "team-player/2e0fc4e9-4ea2-4e76-ba82-173e0f8869ce",
+          "name": "Terry Klein"
+        }
       ]
     },
     {
       "name": "Wellington",
       "shortName": "Wellington",
       "players": [
-        "Bob McKenzie",
-        "Kelvin Watson",
-        "Mike Theobald",
-        "Paulette Moore",
-        "Paulette Moore and Kelvin Watson",
-        "Shaun Theobold",
-        "Tom Berryman",
-        "Tom Berryman and Shaun Theobald",
-        "Tony Sutich",
-        "Tony Sutich and Mike Theobald",
-        "Wayne Gair",
-        "Wayne Gair and Bob McKenzie"
+        {
+          "playerId": "team-player/320f76c2-ef8e-49a9-9880-373d32d2259d",
+          "name": "Bob McKenzie"
+        },
+        {
+          "playerId": "team-player/c22d536b-e0ec-425f-9764-236b36cae8ba",
+          "name": "Kelvin Watson"
+        },
+        {
+          "playerId": "team-player/5ee2e917-d9f0-497d-934d-c5561096ddc4",
+          "name": "Mike Theobald"
+        },
+        {
+          "playerId": "team-player/a6c26a26-ff24-46c1-8309-0920ec8d6a07",
+          "name": "Paulette Moore"
+        },
+        {
+          "playerId": "team-player/a2648ee9-2e38-4f6b-b804-3f0fa862b3ed",
+          "name": "Paulette Moore and Kelvin Watson"
+        },
+        {
+          "playerId": "team-player/8fe5a769-7393-414c-926d-5ec48c2da32d",
+          "name": "Shaun Theobold"
+        },
+        {
+          "playerId": "team-player/84d349e9-fc36-49e4-adca-c5a1778aa881",
+          "name": "Tom Berryman"
+        },
+        {
+          "playerId": "team-player/0534effc-e311-431c-9c2b-8aa06f876525",
+          "name": "Tom Berryman and Shaun Theobald"
+        },
+        {
+          "playerId": "team-player/a92972f8-b968-44ae-a1c9-b5e9718e7952",
+          "name": "Tony Sutich"
+        },
+        {
+          "playerId": "team-player/a76cf347-8cb7-422b-b4f1-0384f971d3d2",
+          "name": "Tony Sutich and Mike Theobald"
+        },
+        {
+          "playerId": "team-player/a4673f45-64c1-4da6-8a41-597a20117511",
+          "name": "Wayne Gair"
+        },
+        {
+          "playerId": "team-player/07bfd411-173c-426d-872d-8285ab27ed3a",
+          "name": "Wayne Gair and Bob McKenzie"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/0847f0de-8501-44b3-88ed-e77860247822",
       "teams": [
         "Manawatu-Wanganui",
         "Wellington"
@@ -55,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Josh Smith & Nicholas Flood",
-            "Tom Berryman and Shaun Theobald"
+            {
+              "playerId": "team-player/7932bcb6-8a07-4f76-b5be-7de70a144028",
+              "name": "Josh Smith & Nicholas Flood"
+            },
+            {
+              "playerId": "team-player/0534effc-e311-431c-9c2b-8aa06f876525",
+              "name": "Tom Berryman and Shaun Theobald"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ecf7f209-9024-4b60-aa28-e8e21a2eeb2b",
               "players": [
                 {
+                  "playerId": "team-player/7932bcb6-8a07-4f76-b5be-7de70a144028",
                   "name": "Josh Smith & Nicholas Flood",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/0534effc-e311-431c-9c2b-8aa06f876525",
                   "name": "Tom Berryman and Shaun Theobald",
                   "score": "5"
                 }
@@ -77,17 +162,26 @@
         },
         {
           "players": [
-            "Max Charlton & Terry Klein",
-            "Tony Sutich and Mike Theobald"
+            {
+              "playerId": "team-player/18ae9463-cb8e-41f6-bb3b-076a84b467c6",
+              "name": "Max Charlton & Terry Klein"
+            },
+            {
+              "playerId": "team-player/a76cf347-8cb7-422b-b4f1-0384f971d3d2",
+              "name": "Tony Sutich and Mike Theobald"
+            }
           ],
           "games": [
             {
+              "gameId": "game/44a7151e-654f-4301-b024-b6eded28489f",
               "players": [
                 {
+                  "playerId": "team-player/18ae9463-cb8e-41f6-bb3b-076a84b467c6",
                   "name": "Max Charlton & Terry Klein",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/a76cf347-8cb7-422b-b4f1-0384f971d3d2",
                   "name": "Tony Sutich and Mike Theobald",
                   "score": "13"
                 }
@@ -99,17 +193,26 @@
         },
         {
           "players": [
-            "Pam Green & Neil Stantiall",
-            "Paulette Moore and Kelvin Watson"
+            {
+              "playerId": "team-player/68f83b97-8e4e-44bf-94dd-4f4419210009",
+              "name": "Pam Green & Neil Stantiall"
+            },
+            {
+              "playerId": "team-player/a2648ee9-2e38-4f6b-b804-3f0fa862b3ed",
+              "name": "Paulette Moore and Kelvin Watson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2558b7cd-259b-4d33-a6d4-2814aafb2392",
               "players": [
                 {
+                  "playerId": "team-player/68f83b97-8e4e-44bf-94dd-4f4419210009",
                   "name": "Pam Green & Neil Stantiall",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/a2648ee9-2e38-4f6b-b804-3f0fa862b3ed",
                   "name": "Paulette Moore and Kelvin Watson",
                   "score": "7"
                 }
@@ -121,17 +224,26 @@
         },
         {
           "players": [
-            "Callum McKinnon & Malcolm Hutchins",
-            "Wayne Gair and Bob McKenzie"
+            {
+              "playerId": "team-player/e3bd8540-27fa-4b34-a053-7dcd1b60f8ec",
+              "name": "Callum McKinnon & Malcolm Hutchins"
+            },
+            {
+              "playerId": "team-player/07bfd411-173c-426d-872d-8285ab27ed3a",
+              "name": "Wayne Gair and Bob McKenzie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/355612f9-bb6a-4ba4-b358-bf99ab34787b",
               "players": [
                 {
+                  "playerId": "team-player/e3bd8540-27fa-4b34-a053-7dcd1b60f8ec",
                   "name": "Callum McKinnon & Malcolm Hutchins",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/07bfd411-173c-426d-872d-8285ab27ed3a",
                   "name": "Wayne Gair and Bob McKenzie",
                   "score": "17"
                 }
@@ -143,17 +255,26 @@
         },
         {
           "players": [
-            "Nicholas Flood",
-            "Shaun Theobold"
+            {
+              "playerId": "team-player/3ed05247-b811-4a57-a2de-a66c0149551f",
+              "name": "Nicholas Flood"
+            },
+            {
+              "playerId": "team-player/8fe5a769-7393-414c-926d-5ec48c2da32d",
+              "name": "Shaun Theobold"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ebbc1634-5053-48a9-bcae-fe10492452b7",
               "players": [
                 {
+                  "playerId": "team-player/3ed05247-b811-4a57-a2de-a66c0149551f",
                   "name": "Nicholas Flood",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/8fe5a769-7393-414c-926d-5ec48c2da32d",
                   "name": "Shaun Theobold",
                   "score": "20"
                 }
@@ -165,17 +286,26 @@
         },
         {
           "players": [
-            "Pam Green",
-            "Paulette Moore"
+            {
+              "playerId": "team-player/ed7b7d9f-8374-440d-86f3-48a208eca282",
+              "name": "Pam Green"
+            },
+            {
+              "playerId": "team-player/a6c26a26-ff24-46c1-8309-0920ec8d6a07",
+              "name": "Paulette Moore"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1a9d2964-f038-4a89-8bda-85f3286ef312",
               "players": [
                 {
+                  "playerId": "team-player/ed7b7d9f-8374-440d-86f3-48a208eca282",
                   "name": "Pam Green",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/a6c26a26-ff24-46c1-8309-0920ec8d6a07",
                   "name": "Paulette Moore",
                   "score": "9"
                 }
@@ -187,17 +317,26 @@
         },
         {
           "players": [
-            "Neil Stantiall",
-            "Kelvin Watson"
+            {
+              "playerId": "team-player/d42df6f8-2edc-4d83-b4fe-0405e6a990b3",
+              "name": "Neil Stantiall"
+            },
+            {
+              "playerId": "team-player/c22d536b-e0ec-425f-9764-236b36cae8ba",
+              "name": "Kelvin Watson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1aeb6004-1264-4960-9e9a-a59895048c32",
               "players": [
                 {
+                  "playerId": "team-player/d42df6f8-2edc-4d83-b4fe-0405e6a990b3",
                   "name": "Neil Stantiall",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/c22d536b-e0ec-425f-9764-236b36cae8ba",
                   "name": "Kelvin Watson",
                   "score": "8"
                 }
@@ -209,17 +348,26 @@
         },
         {
           "players": [
-            "Josh Smith",
-            "Tom Berryman"
+            {
+              "playerId": "team-player/66c52ef3-2cfc-4f47-9232-1ae32045f796",
+              "name": "Josh Smith"
+            },
+            {
+              "playerId": "team-player/84d349e9-fc36-49e4-adca-c5a1778aa881",
+              "name": "Tom Berryman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff1badfc-7549-4eac-ae04-8526d3f2e33b",
               "players": [
                 {
+                  "playerId": "team-player/66c52ef3-2cfc-4f47-9232-1ae32045f796",
                   "name": "Josh Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/84d349e9-fc36-49e4-adca-c5a1778aa881",
                   "name": "Tom Berryman",
                   "score": "6"
                 }
@@ -231,17 +379,26 @@
         },
         {
           "players": [
-            "Callum McKinnon",
-            "Wayne Gair"
+            {
+              "playerId": "team-player/502279b8-5130-4446-b062-6f0adeeb8ba0",
+              "name": "Callum McKinnon"
+            },
+            {
+              "playerId": "team-player/a4673f45-64c1-4da6-8a41-597a20117511",
+              "name": "Wayne Gair"
+            }
           ],
           "games": [
             {
+              "gameId": "game/be57ca78-f0db-4c92-af56-b56398bbdac6",
               "players": [
                 {
+                  "playerId": "team-player/502279b8-5130-4446-b062-6f0adeeb8ba0",
                   "name": "Callum McKinnon",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/a4673f45-64c1-4da6-8a41-597a20117511",
                   "name": "Wayne Gair",
                   "score": "16"
                 }
@@ -253,17 +410,26 @@
         },
         {
           "players": [
-            "Terry Klein",
-            "Mike Theobald"
+            {
+              "playerId": "team-player/2e0fc4e9-4ea2-4e76-ba82-173e0f8869ce",
+              "name": "Terry Klein"
+            },
+            {
+              "playerId": "team-player/5ee2e917-d9f0-497d-934d-c5561096ddc4",
+              "name": "Mike Theobald"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5028ddea-4f79-4b3f-bf5e-e8c118b639a8",
               "players": [
                 {
+                  "playerId": "team-player/2e0fc4e9-4ea2-4e76-ba82-173e0f8869ce",
                   "name": "Terry Klein",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5ee2e917-d9f0-497d-934d-c5561096ddc4",
                   "name": "Mike Theobald",
                   "score": "16"
                 }
@@ -275,17 +441,26 @@
         },
         {
           "players": [
-            "Max Charlton",
-            "Tony Sutich"
+            {
+              "playerId": "team-player/4107dffe-3ea7-4d49-91d8-afd99471692a",
+              "name": "Max Charlton"
+            },
+            {
+              "playerId": "team-player/a92972f8-b968-44ae-a1c9-b5e9718e7952",
+              "name": "Tony Sutich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a00b4999-a7bb-4593-ac37-8b5efd8eafa7",
               "players": [
                 {
+                  "playerId": "team-player/4107dffe-3ea7-4d49-91d8-afd99471692a",
                   "name": "Max Charlton",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/a92972f8-b968-44ae-a1c9-b5e9718e7952",
                   "name": "Tony Sutich",
                   "score": "6"
                 }
@@ -297,17 +472,26 @@
         },
         {
           "players": [
-            "Malcolm Hutchins",
-            "Bob McKenzie"
+            {
+              "playerId": "team-player/2fce6eab-d4d9-4f55-b27f-3070bc73415c",
+              "name": "Malcolm Hutchins"
+            },
+            {
+              "playerId": "team-player/320f76c2-ef8e-49a9-9880-373d32d2259d",
+              "name": "Bob McKenzie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/26a48ee2-6be2-4d01-8955-acf202f0a181",
               "players": [
                 {
+                  "playerId": "team-player/2fce6eab-d4d9-4f55-b27f-3070bc73415c",
                   "name": "Malcolm Hutchins",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/320f76c2-ef8e-49a9-9880-373d32d2259d",
                   "name": "Bob McKenzie",
                   "score": "14"
                 }
@@ -320,6 +504,7 @@
       ]
     },
     {
+      "competitionId": "competition/ddc95300-2496-453e-9aa4-bdaae105389d",
       "teams": [
         "Manawatu-Wanganui",
         "Wellington"

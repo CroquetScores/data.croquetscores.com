@@ -1,33 +1,55 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/cc82efda-e6f0-47a2-b7c2-7ffbc8c80736",
   "name": "The Ultimate Showdown",
   "sport": "ac",
   "firstDay": "2018-09-16",
   "lastDay": "2018-09-16",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "David Goacher",
-        "Richard M Smith",
-        "Robert Wilkinson"
+        {
+          "playerId": "team-player/1c832b43-b229-492a-a066-83fd6135d1dd",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/938ddb58-1bcf-414c-807f-1602666e37ce",
+          "name": "Richard M Smith"
+        },
+        {
+          "playerId": "team-player/e090c7db-fa18-43ff-bc89-ba43e98a7800",
+          "name": "Robert Wilkinson"
+        }
       ]
     },
     {
       "name": "Nailsea",
       "shortName": "Nailsea",
       "players": [
-        "James Galpin",
-        "Kristian Chambers",
-        "Marcus Evans"
+        {
+          "playerId": "team-player/3819ac42-b6ba-4154-b156-1e750559247a",
+          "name": "James Galpin"
+        },
+        {
+          "playerId": "team-player/c0b7f029-e42f-4143-bd74-905936f7a934",
+          "name": "Kristian Chambers"
+        },
+        {
+          "playerId": "team-player/aabe29a6-ec74-4830-9bbc-61465f3b2d92",
+          "name": "Marcus Evans"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/90dfe3cb-0ed3-49a3-85f4-b6dd65342bae",
       "teams": [
         "Bristol",
         "Nailsea"
@@ -37,17 +59,26 @@
       "matches": [
         {
           "players": [
-            "David Goacher",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/1c832b43-b229-492a-a066-83fd6135d1dd",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/aabe29a6-ec74-4830-9bbc-61465f3b2d92",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d6f38e92-8349-4b2b-8da5-ddd3f0e8810e",
               "players": [
                 {
+                  "playerId": "team-player/1c832b43-b229-492a-a066-83fd6135d1dd",
                   "name": "David Goacher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/aabe29a6-ec74-4830-9bbc-61465f3b2d92",
                   "name": "Marcus Evans",
                   "score": "6"
                 }
@@ -59,17 +90,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/938ddb58-1bcf-414c-807f-1602666e37ce",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/aabe29a6-ec74-4830-9bbc-61465f3b2d92",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7d922765-9322-498c-a299-5e3a73335912",
               "players": [
                 {
+                  "playerId": "team-player/938ddb58-1bcf-414c-807f-1602666e37ce",
                   "name": "Richard M Smith",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/aabe29a6-ec74-4830-9bbc-61465f3b2d92",
                   "name": "Marcus Evans",
                   "score": "26"
                 }
@@ -81,17 +121,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Kristian Chambers"
+            {
+              "playerId": "team-player/1c832b43-b229-492a-a066-83fd6135d1dd",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/c0b7f029-e42f-4143-bd74-905936f7a934",
+              "name": "Kristian Chambers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac369c8f-e6d3-4a2f-afa2-751c18a1898d",
               "players": [
                 {
+                  "playerId": "team-player/1c832b43-b229-492a-a066-83fd6135d1dd",
                   "name": "David Goacher",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/c0b7f029-e42f-4143-bd74-905936f7a934",
                   "name": "Kristian Chambers",
                   "score": "26"
                 }
@@ -103,17 +152,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson",
-            "James Galpin"
+            {
+              "playerId": "team-player/e090c7db-fa18-43ff-bc89-ba43e98a7800",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/3819ac42-b6ba-4154-b156-1e750559247a",
+              "name": "James Galpin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/97dcc464-31ca-4b99-a479-ca440572c0de",
               "players": [
                 {
+                  "playerId": "team-player/e090c7db-fa18-43ff-bc89-ba43e98a7800",
                   "name": "Robert Wilkinson",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3819ac42-b6ba-4154-b156-1e750559247a",
                   "name": "James Galpin",
                   "score": "26"
                 }
@@ -125,17 +183,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson",
-            "Kristian Chambers"
+            {
+              "playerId": "team-player/e090c7db-fa18-43ff-bc89-ba43e98a7800",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/c0b7f029-e42f-4143-bd74-905936f7a934",
+              "name": "Kristian Chambers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aeca960a-9d9b-4418-bf22-1d3990bb55b7",
               "players": [
                 {
+                  "playerId": "team-player/e090c7db-fa18-43ff-bc89-ba43e98a7800",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c0b7f029-e42f-4143-bd74-905936f7a934",
                   "name": "Kristian Chambers",
                   "score": "18"
                 }
@@ -147,17 +214,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "James Galpin"
+            {
+              "playerId": "team-player/938ddb58-1bcf-414c-807f-1602666e37ce",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/3819ac42-b6ba-4154-b156-1e750559247a",
+              "name": "James Galpin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/206ebed0-1591-4780-99f1-9d2d65a743d0",
               "players": [
                 {
+                  "playerId": "team-player/938ddb58-1bcf-414c-807f-1602666e37ce",
                   "name": "Richard M Smith",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/3819ac42-b6ba-4154-b156-1e750559247a",
                   "name": "James Galpin",
                   "score": "14"
                 }
@@ -169,17 +245,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/e090c7db-fa18-43ff-bc89-ba43e98a7800",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/aabe29a6-ec74-4830-9bbc-61465f3b2d92",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/64a7d4b2-4a9c-4aa8-8923-7ad3d7e61c32",
               "players": [
                 {
+                  "playerId": "team-player/e090c7db-fa18-43ff-bc89-ba43e98a7800",
                   "name": "Robert Wilkinson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/aabe29a6-ec74-4830-9bbc-61465f3b2d92",
                   "name": "Marcus Evans",
                   "score": "26tp"
                 }
@@ -191,17 +276,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "James Galpin"
+            {
+              "playerId": "team-player/1c832b43-b229-492a-a066-83fd6135d1dd",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/3819ac42-b6ba-4154-b156-1e750559247a",
+              "name": "James Galpin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/73523801-0ffd-4f87-b828-1550eec5abe7",
               "players": [
                 {
+                  "playerId": "team-player/1c832b43-b229-492a-a066-83fd6135d1dd",
                   "name": "David Goacher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3819ac42-b6ba-4154-b156-1e750559247a",
                   "name": "James Galpin",
                   "score": "9"
                 }
@@ -213,17 +307,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Kristian Chambers"
+            {
+              "playerId": "team-player/938ddb58-1bcf-414c-807f-1602666e37ce",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/c0b7f029-e42f-4143-bd74-905936f7a934",
+              "name": "Kristian Chambers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e798dc4b-6b3d-406e-bf93-16c2c0efeb50",
               "players": [
                 {
+                  "playerId": "team-player/938ddb58-1bcf-414c-807f-1602666e37ce",
                   "name": "Richard M Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c0b7f029-e42f-4143-bd74-905936f7a934",
                   "name": "Kristian Chambers",
                   "score": "22"
                 }

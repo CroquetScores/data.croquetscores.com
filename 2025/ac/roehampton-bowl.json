@@ -1,51 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b1be40a6-0241-4e74-815d-cd1161a5bb8d",
   "name": "Roehampton Bowl",
   "sport": "ac",
   "firstDay": "2025-10-05",
   "lastDay": "2025-10-05",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Hurlingham",
       "shortName": "Hurlingham",
       "players": [
-        "Alan Chance",
-        "Alan Chance & Ludolph van Hasselt",
-        "Greg Solomon",
-        "Guy Hewitt",
-        "Guy Hewitt & Martin Read",
-        "Ludolph van Hasselt",
-        "Mark Ormerod",
-        "Martin Read",
-        "Peter Browne",
-        "Peter Browne & Greg Solomon",
-        "Tom Coles",
-        "Tom Coles & Mark Ormerod"
+        {
+          "playerId": "team-player/24f3acae-c7b0-4f9f-be4d-7acbcf285b8c",
+          "name": "Alan Chance"
+        },
+        {
+          "playerId": "team-player/fb93a1f3-9b97-4281-bfc2-0994a558b0ac",
+          "name": "Alan Chance & Ludolph van Hasselt"
+        },
+        {
+          "playerId": "team-player/5a97392b-595f-44ba-b427-adb046473475",
+          "name": "Greg Solomon"
+        },
+        {
+          "playerId": "team-player/e8ae1875-0176-4bfb-be8d-0c4885a593b2",
+          "name": "Guy Hewitt"
+        },
+        {
+          "playerId": "team-player/2742f580-dfe0-4123-af7c-c2fdf43e80f3",
+          "name": "Guy Hewitt & Martin Read"
+        },
+        {
+          "playerId": "team-player/af8255d9-9e68-4a41-b18b-a877d5ac9b90",
+          "name": "Ludolph van Hasselt"
+        },
+        {
+          "playerId": "team-player/ca5c925d-de9e-42e1-aef1-0182cb4305c2",
+          "name": "Mark Ormerod"
+        },
+        {
+          "playerId": "team-player/f7d746d2-423e-4962-a85a-fa1a9c1a98cc",
+          "name": "Martin Read"
+        },
+        {
+          "playerId": "team-player/f69e1ca7-bfeb-491a-99e3-459868653e35",
+          "name": "Peter Browne"
+        },
+        {
+          "playerId": "team-player/adfe67c5-fb9a-4378-9123-dbe9c1e893e3",
+          "name": "Peter Browne & Greg Solomon"
+        },
+        {
+          "playerId": "team-player/efad8377-6941-425c-a9fc-3d922dc34055",
+          "name": "Tom Coles"
+        },
+        {
+          "playerId": "team-player/b51d0ec7-16e9-4675-b0d2-4c8753132b1c",
+          "name": "Tom Coles & Mark Ormerod"
+        }
       ]
     },
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Andrew Wilson",
-        "Christian Carter",
-        "Christian Carter & Tim Russell",
-        "Diana Wilson",
-        "Mary Knapp",
-        "Mary Knapp & Peter Siddall",
-        "Nicholas Halton",
-        "Nicholas Halton & Andrew Wilson",
-        "Nick Yates",
-        "Nick Yates & Diana Wilson",
-        "Peter Siddall",
-        "Tim Russell"
+        {
+          "playerId": "team-player/b594d1ee-7a04-466b-b45b-00b94d9e8511",
+          "name": "Andrew Wilson"
+        },
+        {
+          "playerId": "team-player/7081ea0d-adff-40b8-b582-37d5b1386548",
+          "name": "Christian Carter"
+        },
+        {
+          "playerId": "team-player/e95489b2-fbf6-4074-ad01-3b401a2913bc",
+          "name": "Christian Carter & Tim Russell"
+        },
+        {
+          "playerId": "team-player/d2d24055-46b2-4793-a8d0-48a66f2f0ab1",
+          "name": "Diana Wilson"
+        },
+        {
+          "playerId": "team-player/76b9c894-8329-4f49-bf76-cbebd433ee8a",
+          "name": "Mary Knapp"
+        },
+        {
+          "playerId": "team-player/9f01b020-8f5a-4633-863f-4a96d45bb792",
+          "name": "Mary Knapp & Peter Siddall"
+        },
+        {
+          "playerId": "team-player/8a019c24-7877-43c7-8dd6-01f3ca5635a1",
+          "name": "Nicholas Halton"
+        },
+        {
+          "playerId": "team-player/0d389cbd-129d-4e43-93b6-4df7c1fd56e1",
+          "name": "Nicholas Halton & Andrew Wilson"
+        },
+        {
+          "playerId": "team-player/ccd2bc52-6c6d-40dc-a0e9-755ee7753381",
+          "name": "Nick Yates"
+        },
+        {
+          "playerId": "team-player/8bc348ac-c19b-453b-9702-f375ec24678e",
+          "name": "Nick Yates & Diana Wilson"
+        },
+        {
+          "playerId": "team-player/f754c8fc-d6d4-459e-a21b-380fe3220104",
+          "name": "Peter Siddall"
+        },
+        {
+          "playerId": "team-player/a9a55890-2bfe-46ee-b229-6e584fc66ea3",
+          "name": "Tim Russell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/51cd8281-58f1-46c7-9041-1d0063076faf",
       "teams": [
         "Hurlingham",
         "Roehampton"
@@ -55,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Tom Coles & Mark Ormerod",
-            "Christian Carter & Tim Russell"
+            {
+              "playerId": "team-player/b51d0ec7-16e9-4675-b0d2-4c8753132b1c",
+              "name": "Tom Coles & Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/e95489b2-fbf6-4074-ad01-3b401a2913bc",
+              "name": "Christian Carter & Tim Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c2f7447e-6801-4850-abf9-b2e4aa3ea2e8",
               "players": [
                 {
+                  "playerId": "team-player/b51d0ec7-16e9-4675-b0d2-4c8753132b1c",
                   "name": "Tom Coles & Mark Ormerod",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/e95489b2-fbf6-4074-ad01-3b401a2913bc",
                   "name": "Christian Carter & Tim Russell",
                   "score": "26tp"
                 }
@@ -77,17 +162,26 @@
         },
         {
           "players": [
-            "Guy Hewitt & Martin Read",
-            "Mary Knapp & Peter Siddall"
+            {
+              "playerId": "team-player/2742f580-dfe0-4123-af7c-c2fdf43e80f3",
+              "name": "Guy Hewitt & Martin Read"
+            },
+            {
+              "playerId": "team-player/9f01b020-8f5a-4633-863f-4a96d45bb792",
+              "name": "Mary Knapp & Peter Siddall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a38df147-44d0-4ec4-b749-f7c6649c512f",
               "players": [
                 {
+                  "playerId": "team-player/2742f580-dfe0-4123-af7c-c2fdf43e80f3",
                   "name": "Guy Hewitt & Martin Read",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/9f01b020-8f5a-4633-863f-4a96d45bb792",
                   "name": "Mary Knapp & Peter Siddall",
                   "score": "4"
                 }
@@ -99,17 +193,26 @@
         },
         {
           "players": [
-            "Alan Chance & Ludolph van Hasselt",
-            "Nick Yates & Diana Wilson"
+            {
+              "playerId": "team-player/fb93a1f3-9b97-4281-bfc2-0994a558b0ac",
+              "name": "Alan Chance & Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/8bc348ac-c19b-453b-9702-f375ec24678e",
+              "name": "Nick Yates & Diana Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dde49a75-78a9-40ab-9241-95ad609e7d97",
               "players": [
                 {
+                  "playerId": "team-player/fb93a1f3-9b97-4281-bfc2-0994a558b0ac",
                   "name": "Alan Chance & Ludolph van Hasselt",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/8bc348ac-c19b-453b-9702-f375ec24678e",
                   "name": "Nick Yates & Diana Wilson",
                   "score": "24"
                 }
@@ -121,17 +224,26 @@
         },
         {
           "players": [
-            "Peter Browne & Greg Solomon",
-            "Nicholas Halton & Andrew Wilson"
+            {
+              "playerId": "team-player/adfe67c5-fb9a-4378-9123-dbe9c1e893e3",
+              "name": "Peter Browne & Greg Solomon"
+            },
+            {
+              "playerId": "team-player/0d389cbd-129d-4e43-93b6-4df7c1fd56e1",
+              "name": "Nicholas Halton & Andrew Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fff447f6-d687-4b19-bbf4-b64a36ccd70d",
               "players": [
                 {
+                  "playerId": "team-player/adfe67c5-fb9a-4378-9123-dbe9c1e893e3",
                   "name": "Peter Browne & Greg Solomon",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/0d389cbd-129d-4e43-93b6-4df7c1fd56e1",
                   "name": "Nicholas Halton & Andrew Wilson",
                   "score": "13"
                 }
@@ -143,17 +255,26 @@
         },
         {
           "players": [
-            "Mark Ormerod",
-            "Tim Russell"
+            {
+              "playerId": "team-player/ca5c925d-de9e-42e1-aef1-0182cb4305c2",
+              "name": "Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/a9a55890-2bfe-46ee-b229-6e584fc66ea3",
+              "name": "Tim Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2feaa909-3480-4383-b989-1ca8870cf2bc",
               "players": [
                 {
+                  "playerId": "team-player/ca5c925d-de9e-42e1-aef1-0182cb4305c2",
                   "name": "Mark Ormerod",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a9a55890-2bfe-46ee-b229-6e584fc66ea3",
                   "name": "Tim Russell",
                   "score": "26"
                 }
@@ -165,17 +286,26 @@
         },
         {
           "players": [
-            "Alan Chance",
-            "Nick Yates"
+            {
+              "playerId": "team-player/24f3acae-c7b0-4f9f-be4d-7acbcf285b8c",
+              "name": "Alan Chance"
+            },
+            {
+              "playerId": "team-player/ccd2bc52-6c6d-40dc-a0e9-755ee7753381",
+              "name": "Nick Yates"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d618cf1-220e-4a09-9fe7-1475411aa389",
               "players": [
                 {
+                  "playerId": "team-player/24f3acae-c7b0-4f9f-be4d-7acbcf285b8c",
                   "name": "Alan Chance",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/ccd2bc52-6c6d-40dc-a0e9-755ee7753381",
                   "name": "Nick Yates",
                   "score": "26"
                 }
@@ -187,17 +317,26 @@
         },
         {
           "players": [
-            "Tom Coles",
-            "Christian Carter"
+            {
+              "playerId": "team-player/efad8377-6941-425c-a9fc-3d922dc34055",
+              "name": "Tom Coles"
+            },
+            {
+              "playerId": "team-player/7081ea0d-adff-40b8-b582-37d5b1386548",
+              "name": "Christian Carter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3fa50686-0c50-4cca-8413-e192feead683",
               "players": [
                 {
+                  "playerId": "team-player/efad8377-6941-425c-a9fc-3d922dc34055",
                   "name": "Tom Coles",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/7081ea0d-adff-40b8-b582-37d5b1386548",
                   "name": "Christian Carter",
                   "score": "26"
                 }
@@ -209,17 +348,26 @@
         },
         {
           "players": [
-            "Ludolph van Hasselt",
-            "Diana Wilson"
+            {
+              "playerId": "team-player/af8255d9-9e68-4a41-b18b-a877d5ac9b90",
+              "name": "Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/d2d24055-46b2-4793-a8d0-48a66f2f0ab1",
+              "name": "Diana Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6410c0db-7868-4b4b-a99c-860a9e55a3a2",
               "players": [
                 {
+                  "playerId": "team-player/af8255d9-9e68-4a41-b18b-a877d5ac9b90",
                   "name": "Ludolph van Hasselt",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/d2d24055-46b2-4793-a8d0-48a66f2f0ab1",
                   "name": "Diana Wilson",
                   "score": "21"
                 }
@@ -231,17 +379,26 @@
         },
         {
           "players": [
-            "Greg Solomon",
-            "Andrew Wilson"
+            {
+              "playerId": "team-player/5a97392b-595f-44ba-b427-adb046473475",
+              "name": "Greg Solomon"
+            },
+            {
+              "playerId": "team-player/b594d1ee-7a04-466b-b45b-00b94d9e8511",
+              "name": "Andrew Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/243985d1-60d7-4467-9fc0-2c7e6c04a34b",
               "players": [
                 {
+                  "playerId": "team-player/5a97392b-595f-44ba-b427-adb046473475",
                   "name": "Greg Solomon",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/b594d1ee-7a04-466b-b45b-00b94d9e8511",
                   "name": "Andrew Wilson",
                   "score": "13"
                 }
@@ -253,17 +410,26 @@
         },
         {
           "players": [
-            "Guy Hewitt",
-            "Mary Knapp"
+            {
+              "playerId": "team-player/e8ae1875-0176-4bfb-be8d-0c4885a593b2",
+              "name": "Guy Hewitt"
+            },
+            {
+              "playerId": "team-player/76b9c894-8329-4f49-bf76-cbebd433ee8a",
+              "name": "Mary Knapp"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5006f12e-8f78-440b-94fc-bfed3411695c",
               "players": [
                 {
+                  "playerId": "team-player/e8ae1875-0176-4bfb-be8d-0c4885a593b2",
                   "name": "Guy Hewitt",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/76b9c894-8329-4f49-bf76-cbebd433ee8a",
                   "name": "Mary Knapp",
                   "score": "19"
                 }
@@ -275,17 +441,26 @@
         },
         {
           "players": [
-            "Martin Read",
-            "Peter Siddall"
+            {
+              "playerId": "team-player/f7d746d2-423e-4962-a85a-fa1a9c1a98cc",
+              "name": "Martin Read"
+            },
+            {
+              "playerId": "team-player/f754c8fc-d6d4-459e-a21b-380fe3220104",
+              "name": "Peter Siddall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ed10b404-89db-4c76-b3ba-5db590625427",
               "players": [
                 {
+                  "playerId": "team-player/f7d746d2-423e-4962-a85a-fa1a9c1a98cc",
                   "name": "Martin Read",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/f754c8fc-d6d4-459e-a21b-380fe3220104",
                   "name": "Peter Siddall",
                   "score": "15"
                 }
@@ -297,17 +472,26 @@
         },
         {
           "players": [
-            "Peter Browne",
-            "Nicholas Halton"
+            {
+              "playerId": "team-player/f69e1ca7-bfeb-491a-99e3-459868653e35",
+              "name": "Peter Browne"
+            },
+            {
+              "playerId": "team-player/8a019c24-7877-43c7-8dd6-01f3ca5635a1",
+              "name": "Nicholas Halton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5eb796aa-f045-40b6-b3f4-df67e119dbd0",
               "players": [
                 {
+                  "playerId": "team-player/f69e1ca7-bfeb-491a-99e3-459868653e35",
                   "name": "Peter Browne",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/8a019c24-7877-43c7-8dd6-01f3ca5635a1",
                   "name": "Nicholas Halton",
                   "score": "17"
                 }

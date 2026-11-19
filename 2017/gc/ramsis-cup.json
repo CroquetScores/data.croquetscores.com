@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4df176a1-0fce-4af7-a49c-d3fe74617fcd",
   "name": "Ramsis Cup",
   "sport": "gc",
   "firstDay": "2017-02-22",
   "lastDay": "2017-02-23",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "North",
       "shortName": "North",
       "players": [
-        "Ahmed El Mahdi & Tarek Mamdouh",
-        "Cheryl Bromley and Mohammad Kamal",
-        "Evan Newell",
-        "Ian Burridge",
-        "John-Paul Moberly and Ian Burridge",
-        "Matt Griffith",
-        "Sherif Abdelwahab",
-        "Sherif Aboosbaa",
-        "Stephen Mulliner"
+        {
+          "playerId": "team-player/bf2e84f3-7987-4a7c-b78d-b12999386df7",
+          "name": "Ahmed El Mahdi & Tarek Mamdouh"
+        },
+        {
+          "playerId": "team-player/1a0ca2cf-322f-4200-b37a-c28e2313a649",
+          "name": "Cheryl Bromley and Mohammad Kamal"
+        },
+        {
+          "playerId": "team-player/6a094869-b613-4f90-9408-b7b597cdc187",
+          "name": "Evan Newell"
+        },
+        {
+          "playerId": "team-player/e2dde3bf-d276-4dd7-aec9-5e6711400918",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/4bcd0c50-65e5-4199-8d34-5ba3747fb93a",
+          "name": "John-Paul Moberly and Ian Burridge"
+        },
+        {
+          "playerId": "team-player/989c3701-a96f-4cb7-af73-f69ebaebd54e",
+          "name": "Matt Griffith"
+        },
+        {
+          "playerId": "team-player/87518137-4371-4b87-b415-c77c7cc6167e",
+          "name": "Sherif Abdelwahab"
+        },
+        {
+          "playerId": "team-player/90d5bb1f-8e31-43fd-aef7-dd5b0caff5dc",
+          "name": "Sherif Aboosbaa"
+        },
+        {
+          "playerId": "team-player/46d55495-318c-4d79-ab1e-e51fe462bd05",
+          "name": "Stephen Mulliner"
+        }
       ]
     },
     {
       "name": "South",
       "shortName": "South",
       "players": [
-        "Chris McWhirter",
-        "Chris McWhirter and John van der Touw",
-        "Duncan Dixon",
-        "Greg Fletcher",
-        "Greg Fletcher & Edward Wilson",
-        "John Christie",
-        "John van der Touw",
-        "Terry Hopkins",
-        "Wendy Dickson & Anne Quinn"
+        {
+          "playerId": "team-player/35247f84-8b20-4cbb-8367-9c7deb7cf59c",
+          "name": "Chris McWhirter"
+        },
+        {
+          "playerId": "team-player/b781b3f7-afc5-46f3-9032-7e3413569694",
+          "name": "Chris McWhirter and John van der Touw"
+        },
+        {
+          "playerId": "team-player/62ffd98e-0db0-48cc-8a35-94cd73942378",
+          "name": "Duncan Dixon"
+        },
+        {
+          "playerId": "team-player/a2cb2e91-e1d5-4217-82f5-108476759a60",
+          "name": "Greg Fletcher"
+        },
+        {
+          "playerId": "team-player/7187ce56-d1db-481e-83af-a884346f55b0",
+          "name": "Greg Fletcher & Edward Wilson"
+        },
+        {
+          "playerId": "team-player/860890d1-656f-47cc-a97f-a69a711ef4ab",
+          "name": "John Christie"
+        },
+        {
+          "playerId": "team-player/7ebef300-3b1e-4850-bcbc-5c75e648a31b",
+          "name": "John van der Touw"
+        },
+        {
+          "playerId": "team-player/6fc9e5c7-254b-4c65-b271-26da89482b19",
+          "name": "Terry Hopkins"
+        },
+        {
+          "playerId": "team-player/8f44059a-e087-4e5c-ae7f-16b04e6e7af9",
+          "name": "Wendy Dickson & Anne Quinn"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/38da82de-8080-4b9c-bb0a-9187124da643",
       "teams": [
         "North",
         "South"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Stephen Mulliner",
-            "Duncan Dixon"
+            {
+              "playerId": "team-player/46d55495-318c-4d79-ab1e-e51fe462bd05",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/62ffd98e-0db0-48cc-8a35-94cd73942378",
+              "name": "Duncan Dixon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e131c083-dea5-4922-9e67-b8b7efac9c16",
               "players": [
                 {
+                  "playerId": "team-player/46d55495-318c-4d79-ab1e-e51fe462bd05",
                   "name": "Stephen Mulliner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/62ffd98e-0db0-48cc-8a35-94cd73942378",
                   "name": "Duncan Dixon",
                   "score": "3"
                 }
@@ -68,12 +135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1e9724a5-7934-40a7-857a-5fd423b6ffff",
               "players": [
                 {
+                  "playerId": "team-player/46d55495-318c-4d79-ab1e-e51fe462bd05",
                   "name": "Stephen Mulliner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/62ffd98e-0db0-48cc-8a35-94cd73942378",
                   "name": "Duncan Dixon",
                   "score": "4"
                 }
@@ -85,17 +155,26 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "Greg Fletcher"
+            {
+              "playerId": "team-player/e2dde3bf-d276-4dd7-aec9-5e6711400918",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/a2cb2e91-e1d5-4217-82f5-108476759a60",
+              "name": "Greg Fletcher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/12ab8bfa-6d7f-42e8-8fdc-b39da39605ed",
               "players": [
                 {
+                  "playerId": "team-player/e2dde3bf-d276-4dd7-aec9-5e6711400918",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a2cb2e91-e1d5-4217-82f5-108476759a60",
                   "name": "Greg Fletcher",
                   "score": "3"
                 }
@@ -104,12 +183,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b474197b-04e8-49c7-aa8f-3b6bbc44a738",
               "players": [
                 {
+                  "playerId": "team-player/e2dde3bf-d276-4dd7-aec9-5e6711400918",
                   "name": "Ian Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a2cb2e91-e1d5-4217-82f5-108476759a60",
                   "name": "Greg Fletcher",
                   "score": "7"
                 }
@@ -118,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bde3266e-3d78-48f2-b8ed-672d4d54ce74",
               "players": [
                 {
+                  "playerId": "team-player/e2dde3bf-d276-4dd7-aec9-5e6711400918",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a2cb2e91-e1d5-4217-82f5-108476759a60",
                   "name": "Greg Fletcher",
                   "score": "6"
                 }
@@ -135,17 +220,26 @@
         },
         {
           "players": [
-            "Sherif Abdelwahab",
-            "John Christie"
+            {
+              "playerId": "team-player/87518137-4371-4b87-b415-c77c7cc6167e",
+              "name": "Sherif Abdelwahab"
+            },
+            {
+              "playerId": "team-player/860890d1-656f-47cc-a97f-a69a711ef4ab",
+              "name": "John Christie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/983b7201-e16b-45b3-8a9b-e0961efba801",
               "players": [
                 {
+                  "playerId": "team-player/87518137-4371-4b87-b415-c77c7cc6167e",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/860890d1-656f-47cc-a97f-a69a711ef4ab",
                   "name": "John Christie",
                   "score": "3"
                 }
@@ -154,12 +248,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bfab6d4d-aced-45b6-952d-a6e586fac6a0",
               "players": [
                 {
+                  "playerId": "team-player/87518137-4371-4b87-b415-c77c7cc6167e",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/860890d1-656f-47cc-a97f-a69a711ef4ab",
                   "name": "John Christie",
                   "score": "5"
                 }
@@ -171,17 +268,26 @@
         },
         {
           "players": [
-            "Sherif Aboosbaa",
-            "Chris McWhirter"
+            {
+              "playerId": "team-player/90d5bb1f-8e31-43fd-aef7-dd5b0caff5dc",
+              "name": "Sherif Aboosbaa"
+            },
+            {
+              "playerId": "team-player/35247f84-8b20-4cbb-8367-9c7deb7cf59c",
+              "name": "Chris McWhirter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0db933c5-43ab-4805-941a-c5f941e250c5",
               "players": [
                 {
+                  "playerId": "team-player/90d5bb1f-8e31-43fd-aef7-dd5b0caff5dc",
                   "name": "Sherif Aboosbaa",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/35247f84-8b20-4cbb-8367-9c7deb7cf59c",
                   "name": "Chris McWhirter",
                   "score": "3"
                 }
@@ -190,12 +296,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f2bd247a-28c7-4988-b5d4-4991af3fd48d",
               "players": [
                 {
+                  "playerId": "team-player/90d5bb1f-8e31-43fd-aef7-dd5b0caff5dc",
                   "name": "Sherif Aboosbaa",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/35247f84-8b20-4cbb-8367-9c7deb7cf59c",
                   "name": "Chris McWhirter",
                   "score": "7"
                 }
@@ -204,12 +313,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/baef4a27-e549-4948-bfde-64d1e2f9aa9a",
               "players": [
                 {
+                  "playerId": "team-player/90d5bb1f-8e31-43fd-aef7-dd5b0caff5dc",
                   "name": "Sherif Aboosbaa",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/35247f84-8b20-4cbb-8367-9c7deb7cf59c",
                   "name": "Chris McWhirter",
                   "score": "7"
                 }
@@ -221,17 +333,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "John van der Touw"
+            {
+              "playerId": "team-player/6a094869-b613-4f90-9408-b7b597cdc187",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/7ebef300-3b1e-4850-bcbc-5c75e648a31b",
+              "name": "John van der Touw"
+            }
           ],
           "games": [
             {
+              "gameId": "game/95f5fb52-f628-41e7-a030-b5a45369d14d",
               "players": [
                 {
+                  "playerId": "team-player/6a094869-b613-4f90-9408-b7b597cdc187",
                   "name": "Evan Newell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7ebef300-3b1e-4850-bcbc-5c75e648a31b",
                   "name": "John van der Touw",
                   "score": "6"
                 }
@@ -240,12 +361,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/85f5c603-1a3c-41a6-872e-1d9f81b3a12c",
               "players": [
                 {
+                  "playerId": "team-player/6a094869-b613-4f90-9408-b7b597cdc187",
                   "name": "Evan Newell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7ebef300-3b1e-4850-bcbc-5c75e648a31b",
                   "name": "John van der Touw",
                   "score": "6"
                 }
@@ -257,17 +381,26 @@
         },
         {
           "players": [
-            "Matt Griffith",
-            "Terry Hopkins"
+            {
+              "playerId": "team-player/989c3701-a96f-4cb7-af73-f69ebaebd54e",
+              "name": "Matt Griffith"
+            },
+            {
+              "playerId": "team-player/6fc9e5c7-254b-4c65-b271-26da89482b19",
+              "name": "Terry Hopkins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e312e3f9-4d39-462d-a03f-a5f245efc7cd",
               "players": [
                 {
+                  "playerId": "team-player/989c3701-a96f-4cb7-af73-f69ebaebd54e",
                   "name": "Matt Griffith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6fc9e5c7-254b-4c65-b271-26da89482b19",
                   "name": "Terry Hopkins",
                   "score": "4"
                 }
@@ -276,12 +409,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/00d99dcd-c2db-44d5-8ff2-653ff0a8f764",
               "players": [
                 {
+                  "playerId": "team-player/989c3701-a96f-4cb7-af73-f69ebaebd54e",
                   "name": "Matt Griffith",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/6fc9e5c7-254b-4c65-b271-26da89482b19",
                   "name": "Terry Hopkins",
                   "score": "7"
                 }
@@ -290,12 +426,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/03f98ad3-f7c9-43e9-b781-516181168d21",
               "players": [
                 {
+                  "playerId": "team-player/989c3701-a96f-4cb7-af73-f69ebaebd54e",
                   "name": "Matt Griffith",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6fc9e5c7-254b-4c65-b271-26da89482b19",
                   "name": "Terry Hopkins",
                   "score": "7"
                 }
@@ -307,17 +446,26 @@
         },
         {
           "players": [
-            "Ahmed El Mahdi & Tarek Mamdouh",
-            "Greg Fletcher & Edward Wilson"
+            {
+              "playerId": "team-player/bf2e84f3-7987-4a7c-b78d-b12999386df7",
+              "name": "Ahmed El Mahdi & Tarek Mamdouh"
+            },
+            {
+              "playerId": "team-player/7187ce56-d1db-481e-83af-a884346f55b0",
+              "name": "Greg Fletcher & Edward Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cc685c98-d94f-471b-86b8-92eeabba3153",
               "players": [
                 {
+                  "playerId": "team-player/bf2e84f3-7987-4a7c-b78d-b12999386df7",
                   "name": "Ahmed El Mahdi & Tarek Mamdouh",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/7187ce56-d1db-481e-83af-a884346f55b0",
                   "name": "Greg Fletcher & Edward Wilson",
                   "score": "7"
                 }
@@ -326,12 +474,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/37430f99-b823-4882-9867-2d7bff276c48",
               "players": [
                 {
+                  "playerId": "team-player/bf2e84f3-7987-4a7c-b78d-b12999386df7",
                   "name": "Ahmed El Mahdi & Tarek Mamdouh",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/7187ce56-d1db-481e-83af-a884346f55b0",
                   "name": "Greg Fletcher & Edward Wilson",
                   "score": "7"
                 }
@@ -343,17 +494,26 @@
         },
         {
           "players": [
-            "Cheryl Bromley and Mohammad Kamal",
-            "Wendy Dickson & Anne Quinn"
+            {
+              "playerId": "team-player/1a0ca2cf-322f-4200-b37a-c28e2313a649",
+              "name": "Cheryl Bromley and Mohammad Kamal"
+            },
+            {
+              "playerId": "team-player/8f44059a-e087-4e5c-ae7f-16b04e6e7af9",
+              "name": "Wendy Dickson & Anne Quinn"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1211fddd-1515-46df-b8ea-c2d10d9057a5",
               "players": [
                 {
+                  "playerId": "team-player/1a0ca2cf-322f-4200-b37a-c28e2313a649",
                   "name": "Cheryl Bromley and Mohammad Kamal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8f44059a-e087-4e5c-ae7f-16b04e6e7af9",
                   "name": "Wendy Dickson & Anne Quinn",
                   "score": "5"
                 }
@@ -362,12 +522,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f0fa0074-c1c6-4019-9c34-8e61505a3617",
               "players": [
                 {
+                  "playerId": "team-player/1a0ca2cf-322f-4200-b37a-c28e2313a649",
                   "name": "Cheryl Bromley and Mohammad Kamal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8f44059a-e087-4e5c-ae7f-16b04e6e7af9",
                   "name": "Wendy Dickson & Anne Quinn",
                   "score": "4"
                 }
@@ -379,17 +542,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly and Ian Burridge",
-            "Chris McWhirter and John van der Touw"
+            {
+              "playerId": "team-player/4bcd0c50-65e5-4199-8d34-5ba3747fb93a",
+              "name": "John-Paul Moberly and Ian Burridge"
+            },
+            {
+              "playerId": "team-player/b781b3f7-afc5-46f3-9032-7e3413569694",
+              "name": "Chris McWhirter and John van der Touw"
+            }
           ],
           "games": [
             {
+              "gameId": "game/81af7c30-cde2-44d8-9142-31eaad7035e4",
               "players": [
                 {
+                  "playerId": "team-player/4bcd0c50-65e5-4199-8d34-5ba3747fb93a",
                   "name": "John-Paul Moberly and Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b781b3f7-afc5-46f3-9032-7e3413569694",
                   "name": "Chris McWhirter and John van der Touw",
                   "score": "4"
                 }
@@ -398,12 +570,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/453b21cc-8660-46ba-8d9d-576316434245",
               "players": [
                 {
+                  "playerId": "team-player/4bcd0c50-65e5-4199-8d34-5ba3747fb93a",
                   "name": "John-Paul Moberly and Ian Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b781b3f7-afc5-46f3-9032-7e3413569694",
                   "name": "Chris McWhirter and John van der Touw",
                   "score": "7"
                 }
@@ -412,12 +587,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/88f1680c-ab14-4369-aad4-7b067da70e9e",
               "players": [
                 {
+                  "playerId": "team-player/4bcd0c50-65e5-4199-8d34-5ba3747fb93a",
                   "name": "John-Paul Moberly and Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b781b3f7-afc5-46f3-9032-7e3413569694",
                   "name": "Chris McWhirter and John van der Touw",
                   "score": "6"
                 }

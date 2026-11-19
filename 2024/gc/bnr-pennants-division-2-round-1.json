@@ -1,34 +1,73 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/29973d52-16ac-4a1a-bdd1-d949aed86a06",
   "name": "BNR GC Pennants Division 2 Round 1",
   "sport": "gc",
   "firstDay": "2024-04-07",
   "lastDay": "2024-04-07",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Eildon CC Gold",
       "shortName": "Eildon CC",
       "players": [
-        "L Hathaway",
-        "L Hathaway and P Verrall",
-        "P Verrall",
-        "R Kidd",
-        "R Kidd and S Helleur",
-        "S Helleur"
+        {
+          "playerId": "team-player/7aa37dca-8da1-4edc-a206-db524977dcd5",
+          "name": "L Hathaway"
+        },
+        {
+          "playerId": "team-player/11e2074a-9448-4867-957f-4a1a771787c1",
+          "name": "L Hathaway and P Verrall"
+        },
+        {
+          "playerId": "team-player/33a00d49-5c52-46d2-bac7-33f421674f05",
+          "name": "P Verrall"
+        },
+        {
+          "playerId": "team-player/addcba90-dcc9-4c1c-8148-06377ffe973a",
+          "name": "R Kidd"
+        },
+        {
+          "playerId": "team-player/d5bae7c1-8e35-4791-b1f0-e0c84a9448ad",
+          "name": "R Kidd and S Helleur"
+        },
+        {
+          "playerId": "team-player/7faa8888-74dd-4f1f-9f6f-617e3696158b",
+          "name": "S Helleur"
+        }
       ]
     },
     {
       "name": "McIlwraith CC",
       "shortName": "McIlwraith",
       "players": [
-        "A Cole",
-        "A Stone",
-        "G Petrie",
-        "G Petrie and A Stone",
-        "S Ridgeway",
-        "S Ridgeway and A Cole"
+        {
+          "playerId": "team-player/699ee305-bf5f-431e-9550-34ac741147bc",
+          "name": "A Cole"
+        },
+        {
+          "playerId": "team-player/e9ca6ec2-76a1-44e3-ab5b-ee834c07a2e0",
+          "name": "A Stone"
+        },
+        {
+          "playerId": "team-player/8395e291-c3f6-4245-9fc9-b95bba9fe1a3",
+          "name": "G Petrie"
+        },
+        {
+          "playerId": "team-player/f941117f-0248-48e6-9299-f4f21c88731d",
+          "name": "G Petrie and A Stone"
+        },
+        {
+          "playerId": "team-player/dc551f75-a50f-4532-bbdf-d44f38d21df8",
+          "name": "S Ridgeway"
+        },
+        {
+          "playerId": "team-player/64d9453d-ea78-4b94-a924-a282a13d4254",
+          "name": "S Ridgeway and A Cole"
+        }
       ]
     },
     {
@@ -44,6 +83,7 @@
   ],
   "tests": [
     {
+      "competitionId": "competition/988d23e7-0448-4540-8508-b853675a751f",
       "teams": [
         "Eildon CC Gold",
         "McIlwraith CC"
@@ -53,17 +93,26 @@
       "matches": [
         {
           "players": [
-            "L Hathaway and P Verrall",
-            "S Ridgeway and A Cole"
+            {
+              "playerId": "team-player/11e2074a-9448-4867-957f-4a1a771787c1",
+              "name": "L Hathaway and P Verrall"
+            },
+            {
+              "playerId": "team-player/64d9453d-ea78-4b94-a924-a282a13d4254",
+              "name": "S Ridgeway and A Cole"
+            }
           ],
           "games": [
             {
+              "gameId": "game/62199dd3-c04c-4cc6-86ac-a72c6bb7edca",
               "players": [
                 {
+                  "playerId": "team-player/11e2074a-9448-4867-957f-4a1a771787c1",
                   "name": "L Hathaway and P Verrall",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/64d9453d-ea78-4b94-a924-a282a13d4254",
                   "name": "S Ridgeway and A Cole",
                   "score": "5"
                 }
@@ -75,17 +124,26 @@
         },
         {
           "players": [
-            "R Kidd and S Helleur",
-            "G Petrie and A Stone"
+            {
+              "playerId": "team-player/d5bae7c1-8e35-4791-b1f0-e0c84a9448ad",
+              "name": "R Kidd and S Helleur"
+            },
+            {
+              "playerId": "team-player/f941117f-0248-48e6-9299-f4f21c88731d",
+              "name": "G Petrie and A Stone"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5719d22b-ce2d-4285-a002-a83a9cdb09a4",
               "players": [
                 {
+                  "playerId": "team-player/d5bae7c1-8e35-4791-b1f0-e0c84a9448ad",
                   "name": "R Kidd and S Helleur",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f941117f-0248-48e6-9299-f4f21c88731d",
                   "name": "G Petrie and A Stone",
                   "score": "2"
                 }
@@ -97,17 +155,26 @@
         },
         {
           "players": [
-            "L Hathaway",
-            "S Ridgeway"
+            {
+              "playerId": "team-player/7aa37dca-8da1-4edc-a206-db524977dcd5",
+              "name": "L Hathaway"
+            },
+            {
+              "playerId": "team-player/dc551f75-a50f-4532-bbdf-d44f38d21df8",
+              "name": "S Ridgeway"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d8b54e0-8f7c-4a6e-b567-100d8db5fb69",
               "players": [
                 {
+                  "playerId": "team-player/7aa37dca-8da1-4edc-a206-db524977dcd5",
                   "name": "L Hathaway",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc551f75-a50f-4532-bbdf-d44f38d21df8",
                   "name": "S Ridgeway",
                   "score": "3"
                 }
@@ -119,17 +186,26 @@
         },
         {
           "players": [
-            "S Helleur",
-            "A Cole"
+            {
+              "playerId": "team-player/7faa8888-74dd-4f1f-9f6f-617e3696158b",
+              "name": "S Helleur"
+            },
+            {
+              "playerId": "team-player/699ee305-bf5f-431e-9550-34ac741147bc",
+              "name": "A Cole"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eccda648-5155-4f1d-96cf-aa8762264cd6",
               "players": [
                 {
+                  "playerId": "team-player/7faa8888-74dd-4f1f-9f6f-617e3696158b",
                   "name": "S Helleur",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/699ee305-bf5f-431e-9550-34ac741147bc",
                   "name": "A Cole",
                   "score": "5"
                 }
@@ -141,17 +217,26 @@
         },
         {
           "players": [
-            "R Kidd",
-            "G Petrie"
+            {
+              "playerId": "team-player/addcba90-dcc9-4c1c-8148-06377ffe973a",
+              "name": "R Kidd"
+            },
+            {
+              "playerId": "team-player/8395e291-c3f6-4245-9fc9-b95bba9fe1a3",
+              "name": "G Petrie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ee77519c-3fae-4735-b828-aaa31919baa3",
               "players": [
                 {
+                  "playerId": "team-player/addcba90-dcc9-4c1c-8148-06377ffe973a",
                   "name": "R Kidd",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8395e291-c3f6-4245-9fc9-b95bba9fe1a3",
                   "name": "G Petrie",
                   "score": "4"
                 }
@@ -163,17 +248,26 @@
         },
         {
           "players": [
-            "P Verrall",
-            "A Stone"
+            {
+              "playerId": "team-player/33a00d49-5c52-46d2-bac7-33f421674f05",
+              "name": "P Verrall"
+            },
+            {
+              "playerId": "team-player/e9ca6ec2-76a1-44e3-ab5b-ee834c07a2e0",
+              "name": "A Stone"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a3d35898-2d99-4d46-9827-e1d723950211",
               "players": [
                 {
+                  "playerId": "team-player/33a00d49-5c52-46d2-bac7-33f421674f05",
                   "name": "P Verrall",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e9ca6ec2-76a1-44e3-ab5b-ee834c07a2e0",
                   "name": "A Stone",
                   "score": "7"
                 }
@@ -185,17 +279,26 @@
         },
         {
           "players": [
-            "R Kidd",
-            "S Ridgeway"
+            {
+              "playerId": "team-player/addcba90-dcc9-4c1c-8148-06377ffe973a",
+              "name": "R Kidd"
+            },
+            {
+              "playerId": "team-player/dc551f75-a50f-4532-bbdf-d44f38d21df8",
+              "name": "S Ridgeway"
+            }
           ],
           "games": [
             {
+              "gameId": "game/47fe1e5f-a727-4249-b293-a453b229d892",
               "players": [
                 {
+                  "playerId": "team-player/addcba90-dcc9-4c1c-8148-06377ffe973a",
                   "name": "R Kidd",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc551f75-a50f-4532-bbdf-d44f38d21df8",
                   "name": "S Ridgeway",
                   "score": "5"
                 }
@@ -207,17 +310,26 @@
         },
         {
           "players": [
-            "L Hathaway",
-            "G Petrie"
+            {
+              "playerId": "team-player/7aa37dca-8da1-4edc-a206-db524977dcd5",
+              "name": "L Hathaway"
+            },
+            {
+              "playerId": "team-player/8395e291-c3f6-4245-9fc9-b95bba9fe1a3",
+              "name": "G Petrie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4faa280e-b348-4273-b5a8-7362ce2bdc3c",
               "players": [
                 {
+                  "playerId": "team-player/7aa37dca-8da1-4edc-a206-db524977dcd5",
                   "name": "L Hathaway",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/8395e291-c3f6-4245-9fc9-b95bba9fe1a3",
                   "name": "G Petrie",
                   "score": "7"
                 }
@@ -229,17 +341,26 @@
         },
         {
           "players": [
-            "P Verrall",
-            "A Cole"
+            {
+              "playerId": "team-player/33a00d49-5c52-46d2-bac7-33f421674f05",
+              "name": "P Verrall"
+            },
+            {
+              "playerId": "team-player/699ee305-bf5f-431e-9550-34ac741147bc",
+              "name": "A Cole"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a36ac38c-860c-494c-9c19-98642f11383b",
               "players": [
                 {
+                  "playerId": "team-player/33a00d49-5c52-46d2-bac7-33f421674f05",
                   "name": "P Verrall",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/699ee305-bf5f-431e-9550-34ac741147bc",
                   "name": "A Cole",
                   "score": "5"
                 }
@@ -251,17 +372,26 @@
         },
         {
           "players": [
-            "S Helleur",
-            "A Stone"
+            {
+              "playerId": "team-player/7faa8888-74dd-4f1f-9f6f-617e3696158b",
+              "name": "S Helleur"
+            },
+            {
+              "playerId": "team-player/e9ca6ec2-76a1-44e3-ab5b-ee834c07a2e0",
+              "name": "A Stone"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d039a1a8-8608-4a75-a5c2-47e29f4c6c85",
               "players": [
                 {
+                  "playerId": "team-player/7faa8888-74dd-4f1f-9f6f-617e3696158b",
                   "name": "S Helleur",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e9ca6ec2-76a1-44e3-ab5b-ee834c07a2e0",
                   "name": "A Stone",
                   "score": "7"
                 }
@@ -274,6 +404,7 @@
       ]
     },
     {
+      "competitionId": "competition/c7d11f3a-9f91-4f72-ace7-f9124e0d85d8",
       "teams": [
         "Merthyr CC",
         "Eildon Green CC"

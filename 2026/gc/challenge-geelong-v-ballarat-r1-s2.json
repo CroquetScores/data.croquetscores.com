@@ -1,40 +1,83 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/c88ee937-1099-40ab-9a26-109ba82ef255",
   "name": "GC Challenge Geelong v Ballarat R1 S2",
   "sport": "gc",
   "firstDay": "2026-09-14",
   "lastDay": "2026-09-14",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Geelong",
       "shortName": "Geelong",
       "players": [
-        "Anthony Smith",
-        "Bill Quarrell",
-        "Bill Quarrell & John Gatty",
-        "Jillian Logan",
-        "Jillian Logan & Anthony Smith",
-        "John Gatty"
+        {
+          "playerId": "team-player/72c8e87f-ec62-47e3-a23b-e02a27037a3a",
+          "name": "Anthony Smith"
+        },
+        {
+          "playerId": "team-player/1243b5ab-1620-4338-bf38-9f48693ba26a",
+          "name": "Bill Quarrell"
+        },
+        {
+          "playerId": "team-player/0b04170d-1d3e-45e9-b22c-6ed79101534c",
+          "name": "Bill Quarrell & John Gatty"
+        },
+        {
+          "playerId": "team-player/308eb3d8-6aee-483b-a53e-18038deeca9b",
+          "name": "Jillian Logan"
+        },
+        {
+          "playerId": "team-player/da5da403-56e4-4f8b-97d8-9e08e42b86a7",
+          "name": "Jillian Logan & Anthony Smith"
+        },
+        {
+          "playerId": "team-player/d6be3f8f-5788-4950-a518-d8231bda6ca4",
+          "name": "John Gatty"
+        }
       ]
     },
     {
       "name": "Ballarat",
       "shortName": "Ballarat",
       "players": [
-        "Diana Shilton",
-        "Pat Smith",
-        "Peter Granland",
-        "Peter Granland & Ping Li",
-        "Ping Li",
-        "Sue Purves",
-        "Sue Purves & Diana Shilton"
+        {
+          "playerId": "team-player/3bcea69b-7fe1-454b-a4b5-6427ae8cc075",
+          "name": "Diana Shilton"
+        },
+        {
+          "playerId": "team-player/b79d127e-1e69-4398-978e-95c9582ca13e",
+          "name": "Pat Smith"
+        },
+        {
+          "playerId": "team-player/fb63fc5c-3c98-4ec2-b5f4-d4b0048a30b1",
+          "name": "Peter Granland"
+        },
+        {
+          "playerId": "team-player/5558efaf-a6c6-4af1-9e75-3047aca9cf5c",
+          "name": "Peter Granland & Ping Li"
+        },
+        {
+          "playerId": "team-player/cbbd8552-da6d-4233-8c0b-db226b9d5c2b",
+          "name": "Ping Li"
+        },
+        {
+          "playerId": "team-player/d3783988-f23f-4bab-aa4c-be6cd6cdbf0b",
+          "name": "Sue Purves"
+        },
+        {
+          "playerId": "team-player/2fd077d7-4b4b-4d1a-b726-b44822692071",
+          "name": "Sue Purves & Diana Shilton"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/d4647560-a145-42f2-85ce-a29beab95bdb",
       "teams": [
         "Geelong",
         "Ballarat"
@@ -44,17 +87,26 @@
       "matches": [
         {
           "players": [
-            "Jillian Logan",
-            "Peter Granland"
+            {
+              "playerId": "team-player/308eb3d8-6aee-483b-a53e-18038deeca9b",
+              "name": "Jillian Logan"
+            },
+            {
+              "playerId": "team-player/fb63fc5c-3c98-4ec2-b5f4-d4b0048a30b1",
+              "name": "Peter Granland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9d0f1f92-dbd3-406c-a20a-f3525fba2b00",
               "players": [
                 {
+                  "playerId": "team-player/308eb3d8-6aee-483b-a53e-18038deeca9b",
                   "name": "Jillian Logan",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/fb63fc5c-3c98-4ec2-b5f4-d4b0048a30b1",
                   "name": "Peter Granland",
                   "score": "5"
                 }
@@ -66,17 +118,26 @@
         },
         {
           "players": [
-            "Anthony Smith",
-            "Ping Li"
+            {
+              "playerId": "team-player/72c8e87f-ec62-47e3-a23b-e02a27037a3a",
+              "name": "Anthony Smith"
+            },
+            {
+              "playerId": "team-player/cbbd8552-da6d-4233-8c0b-db226b9d5c2b",
+              "name": "Ping Li"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7d37e120-dd82-477c-ac32-ffdaab354862",
               "players": [
                 {
+                  "playerId": "team-player/72c8e87f-ec62-47e3-a23b-e02a27037a3a",
                   "name": "Anthony Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cbbd8552-da6d-4233-8c0b-db226b9d5c2b",
                   "name": "Ping Li",
                   "score": "5"
                 }
@@ -88,17 +149,26 @@
         },
         {
           "players": [
-            "Bill Quarrell",
-            "Sue Purves"
+            {
+              "playerId": "team-player/1243b5ab-1620-4338-bf38-9f48693ba26a",
+              "name": "Bill Quarrell"
+            },
+            {
+              "playerId": "team-player/d3783988-f23f-4bab-aa4c-be6cd6cdbf0b",
+              "name": "Sue Purves"
+            }
           ],
           "games": [
             {
+              "gameId": "game/297555ce-05a6-475b-bfbc-665ced7127ee",
               "players": [
                 {
+                  "playerId": "team-player/1243b5ab-1620-4338-bf38-9f48693ba26a",
                   "name": "Bill Quarrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d3783988-f23f-4bab-aa4c-be6cd6cdbf0b",
                   "name": "Sue Purves",
                   "score": "5"
                 }
@@ -110,17 +180,26 @@
         },
         {
           "players": [
-            "John Gatty",
-            "Pat Smith"
+            {
+              "playerId": "team-player/d6be3f8f-5788-4950-a518-d8231bda6ca4",
+              "name": "John Gatty"
+            },
+            {
+              "playerId": "team-player/b79d127e-1e69-4398-978e-95c9582ca13e",
+              "name": "Pat Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d089cc63-a657-4b34-b9c1-ba3f70bd950c",
               "players": [
                 {
+                  "playerId": "team-player/d6be3f8f-5788-4950-a518-d8231bda6ca4",
                   "name": "John Gatty",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/b79d127e-1e69-4398-978e-95c9582ca13e",
                   "name": "Pat Smith",
                   "score": "7"
                 }
@@ -132,17 +211,26 @@
         },
         {
           "players": [
-            "Jillian Logan",
-            "Ping Li"
+            {
+              "playerId": "team-player/308eb3d8-6aee-483b-a53e-18038deeca9b",
+              "name": "Jillian Logan"
+            },
+            {
+              "playerId": "team-player/cbbd8552-da6d-4233-8c0b-db226b9d5c2b",
+              "name": "Ping Li"
+            }
           ],
           "games": [
             {
+              "gameId": "game/967f36d7-0006-4e45-b8fd-9327d196b846",
               "players": [
                 {
+                  "playerId": "team-player/308eb3d8-6aee-483b-a53e-18038deeca9b",
                   "name": "Jillian Logan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cbbd8552-da6d-4233-8c0b-db226b9d5c2b",
                   "name": "Ping Li",
                   "score": "2"
                 }
@@ -154,17 +242,26 @@
         },
         {
           "players": [
-            "Anthony Smith",
-            "Sue Purves"
+            {
+              "playerId": "team-player/72c8e87f-ec62-47e3-a23b-e02a27037a3a",
+              "name": "Anthony Smith"
+            },
+            {
+              "playerId": "team-player/d3783988-f23f-4bab-aa4c-be6cd6cdbf0b",
+              "name": "Sue Purves"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d7086f13-b3c6-4c5d-b25a-b1e8f9beeb24",
               "players": [
                 {
+                  "playerId": "team-player/72c8e87f-ec62-47e3-a23b-e02a27037a3a",
                   "name": "Anthony Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d3783988-f23f-4bab-aa4c-be6cd6cdbf0b",
                   "name": "Sue Purves",
                   "score": "3"
                 }
@@ -176,17 +273,26 @@
         },
         {
           "players": [
-            "Bill Quarrell",
-            "Pat Smith"
+            {
+              "playerId": "team-player/1243b5ab-1620-4338-bf38-9f48693ba26a",
+              "name": "Bill Quarrell"
+            },
+            {
+              "playerId": "team-player/b79d127e-1e69-4398-978e-95c9582ca13e",
+              "name": "Pat Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb1bb468-2c6d-4be0-9943-42245a306733",
               "players": [
                 {
+                  "playerId": "team-player/1243b5ab-1620-4338-bf38-9f48693ba26a",
                   "name": "Bill Quarrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b79d127e-1e69-4398-978e-95c9582ca13e",
                   "name": "Pat Smith",
                   "score": "5"
                 }
@@ -198,17 +304,26 @@
         },
         {
           "players": [
-            "John Gatty",
-            "Peter Granland"
+            {
+              "playerId": "team-player/d6be3f8f-5788-4950-a518-d8231bda6ca4",
+              "name": "John Gatty"
+            },
+            {
+              "playerId": "team-player/fb63fc5c-3c98-4ec2-b5f4-d4b0048a30b1",
+              "name": "Peter Granland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9d67ffff-fba8-4dda-82be-68b7dae851ad",
               "players": [
                 {
+                  "playerId": "team-player/d6be3f8f-5788-4950-a518-d8231bda6ca4",
                   "name": "John Gatty",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/fb63fc5c-3c98-4ec2-b5f4-d4b0048a30b1",
                   "name": "Peter Granland",
                   "score": "7"
                 }
@@ -220,17 +335,26 @@
         },
         {
           "players": [
-            "Jillian Logan",
-            "Sue Purves"
+            {
+              "playerId": "team-player/308eb3d8-6aee-483b-a53e-18038deeca9b",
+              "name": "Jillian Logan"
+            },
+            {
+              "playerId": "team-player/d3783988-f23f-4bab-aa4c-be6cd6cdbf0b",
+              "name": "Sue Purves"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8caa970c-1aed-4fd5-b97d-a2577d37d1ec",
               "players": [
                 {
+                  "playerId": "team-player/308eb3d8-6aee-483b-a53e-18038deeca9b",
                   "name": "Jillian Logan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d3783988-f23f-4bab-aa4c-be6cd6cdbf0b",
                   "name": "Sue Purves",
                   "score": "5"
                 }
@@ -242,17 +366,26 @@
         },
         {
           "players": [
-            "Bill Quarrell",
-            "Peter Granland"
+            {
+              "playerId": "team-player/1243b5ab-1620-4338-bf38-9f48693ba26a",
+              "name": "Bill Quarrell"
+            },
+            {
+              "playerId": "team-player/fb63fc5c-3c98-4ec2-b5f4-d4b0048a30b1",
+              "name": "Peter Granland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f0062bc9-cd4a-492f-85ee-f41e56810d8e",
               "players": [
                 {
+                  "playerId": "team-player/1243b5ab-1620-4338-bf38-9f48693ba26a",
                   "name": "Bill Quarrell",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/fb63fc5c-3c98-4ec2-b5f4-d4b0048a30b1",
                   "name": "Peter Granland",
                   "score": "7"
                 }
@@ -264,17 +397,26 @@
         },
         {
           "players": [
-            "Anthony Smith",
-            "Pat Smith"
+            {
+              "playerId": "team-player/72c8e87f-ec62-47e3-a23b-e02a27037a3a",
+              "name": "Anthony Smith"
+            },
+            {
+              "playerId": "team-player/b79d127e-1e69-4398-978e-95c9582ca13e",
+              "name": "Pat Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b83b616-b6fe-4f2b-a518-3032fa1fd6c8",
               "players": [
                 {
+                  "playerId": "team-player/72c8e87f-ec62-47e3-a23b-e02a27037a3a",
                   "name": "Anthony Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b79d127e-1e69-4398-978e-95c9582ca13e",
                   "name": "Pat Smith",
                   "score": "5"
                 }
@@ -286,17 +428,26 @@
         },
         {
           "players": [
-            "John Gatty",
-            "Ping Li"
+            {
+              "playerId": "team-player/d6be3f8f-5788-4950-a518-d8231bda6ca4",
+              "name": "John Gatty"
+            },
+            {
+              "playerId": "team-player/cbbd8552-da6d-4233-8c0b-db226b9d5c2b",
+              "name": "Ping Li"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ec15747f-50ad-4fcc-aa30-1ebd41e6a7f6",
               "players": [
                 {
+                  "playerId": "team-player/d6be3f8f-5788-4950-a518-d8231bda6ca4",
                   "name": "John Gatty",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/cbbd8552-da6d-4233-8c0b-db226b9d5c2b",
                   "name": "Ping Li",
                   "score": "7"
                 }
@@ -308,17 +459,26 @@
         },
         {
           "players": [
-            "Jillian Logan",
-            "Diana Shilton"
+            {
+              "playerId": "team-player/308eb3d8-6aee-483b-a53e-18038deeca9b",
+              "name": "Jillian Logan"
+            },
+            {
+              "playerId": "team-player/3bcea69b-7fe1-454b-a4b5-6427ae8cc075",
+              "name": "Diana Shilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8efda126-a4fa-4e5d-8321-17ece0ad531b",
               "players": [
                 {
+                  "playerId": "team-player/308eb3d8-6aee-483b-a53e-18038deeca9b",
                   "name": "Jillian Logan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3bcea69b-7fe1-454b-a4b5-6427ae8cc075",
                   "name": "Diana Shilton",
                   "score": "3"
                 }
@@ -330,17 +490,26 @@
         },
         {
           "players": [
-            "Anthony Smith",
-            "Peter Granland"
+            {
+              "playerId": "team-player/72c8e87f-ec62-47e3-a23b-e02a27037a3a",
+              "name": "Anthony Smith"
+            },
+            {
+              "playerId": "team-player/fb63fc5c-3c98-4ec2-b5f4-d4b0048a30b1",
+              "name": "Peter Granland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f4a70fd-9e76-47a2-a526-acd2f26fcc1b",
               "players": [
                 {
+                  "playerId": "team-player/72c8e87f-ec62-47e3-a23b-e02a27037a3a",
                   "name": "Anthony Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fb63fc5c-3c98-4ec2-b5f4-d4b0048a30b1",
                   "name": "Peter Granland",
                   "score": "4"
                 }
@@ -352,17 +521,26 @@
         },
         {
           "players": [
-            "Bill Quarrell",
-            "Ping Li"
+            {
+              "playerId": "team-player/1243b5ab-1620-4338-bf38-9f48693ba26a",
+              "name": "Bill Quarrell"
+            },
+            {
+              "playerId": "team-player/cbbd8552-da6d-4233-8c0b-db226b9d5c2b",
+              "name": "Ping Li"
+            }
           ],
           "games": [
             {
+              "gameId": "game/89da66a9-0852-4906-a6d5-8e092581df1d",
               "players": [
                 {
+                  "playerId": "team-player/1243b5ab-1620-4338-bf38-9f48693ba26a",
                   "name": "Bill Quarrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cbbd8552-da6d-4233-8c0b-db226b9d5c2b",
                   "name": "Ping Li",
                   "score": "4"
                 }
@@ -374,17 +552,26 @@
         },
         {
           "players": [
-            "John Gatty",
-            "Sue Purves"
+            {
+              "playerId": "team-player/d6be3f8f-5788-4950-a518-d8231bda6ca4",
+              "name": "John Gatty"
+            },
+            {
+              "playerId": "team-player/d3783988-f23f-4bab-aa4c-be6cd6cdbf0b",
+              "name": "Sue Purves"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c9781c8b-6e82-40cf-8013-f5f379229ac1",
               "players": [
                 {
+                  "playerId": "team-player/d6be3f8f-5788-4950-a518-d8231bda6ca4",
                   "name": "John Gatty",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d3783988-f23f-4bab-aa4c-be6cd6cdbf0b",
                   "name": "Sue Purves",
                   "score": "3"
                 }
@@ -396,17 +583,26 @@
         },
         {
           "players": [
-            "Jillian Logan & Anthony Smith",
-            "Peter Granland & Ping Li"
+            {
+              "playerId": "team-player/da5da403-56e4-4f8b-97d8-9e08e42b86a7",
+              "name": "Jillian Logan & Anthony Smith"
+            },
+            {
+              "playerId": "team-player/5558efaf-a6c6-4af1-9e75-3047aca9cf5c",
+              "name": "Peter Granland & Ping Li"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3a337a7a-fa87-428a-bb22-ba186fd21139",
               "players": [
                 {
+                  "playerId": "team-player/da5da403-56e4-4f8b-97d8-9e08e42b86a7",
                   "name": "Jillian Logan & Anthony Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5558efaf-a6c6-4af1-9e75-3047aca9cf5c",
                   "name": "Peter Granland & Ping Li",
                   "score": "3"
                 }
@@ -418,17 +614,26 @@
         },
         {
           "players": [
-            "Bill Quarrell & John Gatty",
-            "Sue Purves & Diana Shilton"
+            {
+              "playerId": "team-player/0b04170d-1d3e-45e9-b22c-6ed79101534c",
+              "name": "Bill Quarrell & John Gatty"
+            },
+            {
+              "playerId": "team-player/2fd077d7-4b4b-4d1a-b726-b44822692071",
+              "name": "Sue Purves & Diana Shilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54ac1a35-2b83-4760-80cb-1fe91d8f2185",
               "players": [
                 {
+                  "playerId": "team-player/0b04170d-1d3e-45e9-b22c-6ed79101534c",
                   "name": "Bill Quarrell & John Gatty",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2fd077d7-4b4b-4d1a-b726-b44822692071",
                   "name": "Sue Purves & Diana Shilton",
                   "score": "4"
                 }
@@ -440,17 +645,26 @@
         },
         {
           "players": [
-            "Jillian Logan & Anthony Smith",
-            "Sue Purves & Diana Shilton"
+            {
+              "playerId": "team-player/da5da403-56e4-4f8b-97d8-9e08e42b86a7",
+              "name": "Jillian Logan & Anthony Smith"
+            },
+            {
+              "playerId": "team-player/2fd077d7-4b4b-4d1a-b726-b44822692071",
+              "name": "Sue Purves & Diana Shilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/75c7209b-9e23-4962-a3bf-7a2e0327b554",
               "players": [
                 {
+                  "playerId": "team-player/da5da403-56e4-4f8b-97d8-9e08e42b86a7",
                   "name": "Jillian Logan & Anthony Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2fd077d7-4b4b-4d1a-b726-b44822692071",
                   "name": "Sue Purves & Diana Shilton",
                   "score": "3"
                 }
@@ -462,17 +676,26 @@
         },
         {
           "players": [
-            "Bill Quarrell & John Gatty",
-            "Peter Granland & Ping Li"
+            {
+              "playerId": "team-player/0b04170d-1d3e-45e9-b22c-6ed79101534c",
+              "name": "Bill Quarrell & John Gatty"
+            },
+            {
+              "playerId": "team-player/5558efaf-a6c6-4af1-9e75-3047aca9cf5c",
+              "name": "Peter Granland & Ping Li"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1830545c-3932-443d-9d07-4a703be18108",
               "players": [
                 {
+                  "playerId": "team-player/0b04170d-1d3e-45e9-b22c-6ed79101534c",
                   "name": "Bill Quarrell & John Gatty",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/5558efaf-a6c6-4af1-9e75-3047aca9cf5c",
                   "name": "Peter Granland & Ping Li",
                   "score": "6"
                 }

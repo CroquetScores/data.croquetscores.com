@@ -1,56 +1,129 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/450a249b-c517-4181-9716-254da1d8bf95",
   "name": "NSW AC Bronze Pennants",
   "sport": "ac",
   "firstDay": "2022-06-02",
   "lastDay": "2022-07-07",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Cammeray",
       "shortName": "Cammeray",
       "players": [
-        "Graham Maynard",
-        "Malcolm Sheldon",
-        "Sandra Colquhoun",
-        "Sandra Colquhoun & Warren Yates",
-        "Sandra Colquhoun and Malcolm Sheldon",
-        "Susan Nicholas",
-        "Susan Nicholas and Graham Maynard",
-        "Susan Nicholas and Warren Yates"
+        {
+          "playerId": "team-player/67613471-85c3-4de5-8b99-c245823265dd",
+          "name": "Graham Maynard"
+        },
+        {
+          "playerId": "team-player/212df587-9780-4ceb-b334-4722092f938f",
+          "name": "Malcolm Sheldon"
+        },
+        {
+          "playerId": "team-player/9da6b5c6-8b69-4ec0-9ae0-4f1ede137fe5",
+          "name": "Sandra Colquhoun"
+        },
+        {
+          "playerId": "team-player/2b90d1ac-0e57-4a23-8742-1fa3ca0b1576",
+          "name": "Sandra Colquhoun & Warren Yates"
+        },
+        {
+          "playerId": "team-player/6331d954-a8a4-4f80-b728-acdda11390ca",
+          "name": "Sandra Colquhoun and Malcolm Sheldon"
+        },
+        {
+          "playerId": "team-player/4aea637d-01bb-4b32-835d-f4a9729141d3",
+          "name": "Susan Nicholas"
+        },
+        {
+          "playerId": "team-player/21c19859-69a0-446b-9f6c-2c4766fde53d",
+          "name": "Susan Nicholas and Graham Maynard"
+        },
+        {
+          "playerId": "team-player/173ec6f0-0432-49e9-ae95-ff723850ead2",
+          "name": "Susan Nicholas and Warren Yates"
+        }
       ]
     },
     {
       "name": "Killara",
       "shortName": "Killara",
       "players": [
-        "Alia Naughton and Mary Lambert",
-        "Frances Garrick and Mary Lambert",
-        "Janene Luff and Susan Howland",
-        "Margaret Craig",
-        "Mary Lambert",
-        "Peter Rienits",
-        "Ron Bradner"
+        {
+          "playerId": "team-player/faaacb93-0e84-459a-8652-dcbc58dc9752",
+          "name": "Alia Naughton and Mary Lambert"
+        },
+        {
+          "playerId": "team-player/b1d5f9e1-8102-47a0-91f3-856f3c56756a",
+          "name": "Frances Garrick and Mary Lambert"
+        },
+        {
+          "playerId": "team-player/a057a3e3-361e-4510-93f6-0437bf42e4ef",
+          "name": "Janene Luff and Susan Howland"
+        },
+        {
+          "playerId": "team-player/fba3775e-1159-42ff-b6f0-ea63fe72e483",
+          "name": "Margaret Craig"
+        },
+        {
+          "playerId": "team-player/aaabbd68-293e-455c-9f3b-62f077fd7992",
+          "name": "Mary Lambert"
+        },
+        {
+          "playerId": "team-player/e64c661d-b5e9-4bd9-9c13-b2f79587ab6b",
+          "name": "Peter Rienits"
+        },
+        {
+          "playerId": "team-player/e4e9326c-cf4a-4427-90e1-162643a17494",
+          "name": "Ron Bradner"
+        }
       ]
     },
     {
       "name": "Mosman",
       "shortName": "Mosman",
       "players": [
-        "Bronwyn McGrane",
-        "Chris Gingell",
-        "Fidye Westgarth",
-        "Lindsay Thompson",
-        "Madeleine Gray and Bronwyn McGrane",
-        "Madeleine Gray and Heather Sherlock",
-        "Madileine Gray and Chris Gingell",
-        "Susie Curtis and Fidye Westgarth"
+        {
+          "playerId": "team-player/890db45c-f942-4d3c-a5a6-ccc7ca1b7722",
+          "name": "Bronwyn McGrane"
+        },
+        {
+          "playerId": "team-player/d31bc76e-2270-4e06-baa2-dcc33a4fa37a",
+          "name": "Chris Gingell"
+        },
+        {
+          "playerId": "team-player/3f70ef1f-0f2c-4c03-a39c-e7f7e3648011",
+          "name": "Fidye Westgarth"
+        },
+        {
+          "playerId": "team-player/03aa958d-6890-4a1a-b280-ba1d6ec7ce18",
+          "name": "Lindsay Thompson"
+        },
+        {
+          "playerId": "team-player/676a2024-929b-4900-85e8-830ad0b82d01",
+          "name": "Madeleine Gray and Bronwyn McGrane"
+        },
+        {
+          "playerId": "team-player/15fd4d64-b0d5-4a94-aa4c-e6e5d7ea3d47",
+          "name": "Madeleine Gray and Heather Sherlock"
+        },
+        {
+          "playerId": "team-player/65f57271-e7b7-4667-97fa-19712ea70530",
+          "name": "Madileine Gray and Chris Gingell"
+        },
+        {
+          "playerId": "team-player/c8d933f7-978a-4f43-b51e-59198df6c4af",
+          "name": "Susie Curtis and Fidye Westgarth"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/e2bec48d-08f9-46bf-94e8-027305c7572c",
       "teams": [
         "Cammeray",
         "Killara"
@@ -60,17 +133,26 @@
       "matches": [
         {
           "players": [
-            "Graham Maynard",
-            "Peter Rienits"
+            {
+              "playerId": "team-player/67613471-85c3-4de5-8b99-c245823265dd",
+              "name": "Graham Maynard"
+            },
+            {
+              "playerId": "team-player/e64c661d-b5e9-4bd9-9c13-b2f79587ab6b",
+              "name": "Peter Rienits"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34aea16a-e9be-437f-8ae0-5dcbbd878750",
               "players": [
                 {
+                  "playerId": "team-player/67613471-85c3-4de5-8b99-c245823265dd",
                   "name": "Graham Maynard",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/e64c661d-b5e9-4bd9-9c13-b2f79587ab6b",
                   "name": "Peter Rienits",
                   "score": "5"
                 }
@@ -82,17 +164,26 @@
         },
         {
           "players": [
-            "Malcolm Sheldon",
-            "Ron Bradner"
+            {
+              "playerId": "team-player/212df587-9780-4ceb-b334-4722092f938f",
+              "name": "Malcolm Sheldon"
+            },
+            {
+              "playerId": "team-player/e4e9326c-cf4a-4427-90e1-162643a17494",
+              "name": "Ron Bradner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fd745698-fa35-4678-8d0a-27ac1188a2fe",
               "players": [
                 {
+                  "playerId": "team-player/212df587-9780-4ceb-b334-4722092f938f",
                   "name": "Malcolm Sheldon",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/e4e9326c-cf4a-4427-90e1-162643a17494",
                   "name": "Ron Bradner",
                   "score": "14"
                 }
@@ -104,17 +195,26 @@
         },
         {
           "players": [
-            "Sandra Colquhoun & Warren Yates",
-            "Frances Garrick and Mary Lambert"
+            {
+              "playerId": "team-player/2b90d1ac-0e57-4a23-8742-1fa3ca0b1576",
+              "name": "Sandra Colquhoun & Warren Yates"
+            },
+            {
+              "playerId": "team-player/b1d5f9e1-8102-47a0-91f3-856f3c56756a",
+              "name": "Frances Garrick and Mary Lambert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/297c78a4-1224-408f-9058-653cee2dbf6d",
               "players": [
                 {
+                  "playerId": "team-player/2b90d1ac-0e57-4a23-8742-1fa3ca0b1576",
                   "name": "Sandra Colquhoun & Warren Yates",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/b1d5f9e1-8102-47a0-91f3-856f3c56756a",
                   "name": "Frances Garrick and Mary Lambert",
                   "score": "11"
                 }
@@ -127,6 +227,7 @@
       ]
     },
     {
+      "competitionId": "competition/49b6ae9d-40f3-4d8e-b978-8fd5c7b9c315",
       "teams": [
         "Killara",
         "Mosman"
@@ -136,17 +237,26 @@
       "matches": [
         {
           "players": [
-            "Margaret Craig",
-            "Chris Gingell"
+            {
+              "playerId": "team-player/fba3775e-1159-42ff-b6f0-ea63fe72e483",
+              "name": "Margaret Craig"
+            },
+            {
+              "playerId": "team-player/d31bc76e-2270-4e06-baa2-dcc33a4fa37a",
+              "name": "Chris Gingell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3dea850d-60ad-466b-ab22-b28adba80ae2",
               "players": [
                 {
+                  "playerId": "team-player/fba3775e-1159-42ff-b6f0-ea63fe72e483",
                   "name": "Margaret Craig",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d31bc76e-2270-4e06-baa2-dcc33a4fa37a",
                   "name": "Chris Gingell",
                   "score": "6"
                 }
@@ -158,17 +268,26 @@
         },
         {
           "players": [
-            "Peter Rienits",
-            "Bronwyn McGrane"
+            {
+              "playerId": "team-player/e64c661d-b5e9-4bd9-9c13-b2f79587ab6b",
+              "name": "Peter Rienits"
+            },
+            {
+              "playerId": "team-player/890db45c-f942-4d3c-a5a6-ccc7ca1b7722",
+              "name": "Bronwyn McGrane"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ab50d31-623b-4865-8905-652bce81348b",
               "players": [
                 {
+                  "playerId": "team-player/e64c661d-b5e9-4bd9-9c13-b2f79587ab6b",
                   "name": "Peter Rienits",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/890db45c-f942-4d3c-a5a6-ccc7ca1b7722",
                   "name": "Bronwyn McGrane",
                   "score": "14"
                 }
@@ -180,17 +299,26 @@
         },
         {
           "players": [
-            "Frances Garrick and Mary Lambert",
-            "Susie Curtis and Fidye Westgarth"
+            {
+              "playerId": "team-player/b1d5f9e1-8102-47a0-91f3-856f3c56756a",
+              "name": "Frances Garrick and Mary Lambert"
+            },
+            {
+              "playerId": "team-player/c8d933f7-978a-4f43-b51e-59198df6c4af",
+              "name": "Susie Curtis and Fidye Westgarth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5a26c23f-e772-471d-8781-0c631c2b6d05",
               "players": [
                 {
+                  "playerId": "team-player/b1d5f9e1-8102-47a0-91f3-856f3c56756a",
                   "name": "Frances Garrick and Mary Lambert",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/c8d933f7-978a-4f43-b51e-59198df6c4af",
                   "name": "Susie Curtis and Fidye Westgarth",
                   "score": "7"
                 }
@@ -203,6 +331,7 @@
       ]
     },
     {
+      "competitionId": "competition/7fd932fc-2b7e-46c8-9e2f-3148978f1e4f",
       "teams": [
         "Mosman",
         "Cammeray"
@@ -212,17 +341,26 @@
       "matches": [
         {
           "players": [
-            "Madileine Gray and Chris Gingell",
-            "Susan Nicholas and Graham Maynard"
+            {
+              "playerId": "team-player/65f57271-e7b7-4667-97fa-19712ea70530",
+              "name": "Madileine Gray and Chris Gingell"
+            },
+            {
+              "playerId": "team-player/21c19859-69a0-446b-9f6c-2c4766fde53d",
+              "name": "Susan Nicholas and Graham Maynard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/779cec57-3e2d-4fa9-b65b-510b9c67ffad",
               "players": [
                 {
+                  "playerId": "team-player/65f57271-e7b7-4667-97fa-19712ea70530",
                   "name": "Madileine Gray and Chris Gingell",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/21c19859-69a0-446b-9f6c-2c4766fde53d",
                   "name": "Susan Nicholas and Graham Maynard",
                   "score": "15"
                 }
@@ -234,17 +372,26 @@
         },
         {
           "players": [
-            "Fidye Westgarth",
-            "Sandra Colquhoun"
+            {
+              "playerId": "team-player/3f70ef1f-0f2c-4c03-a39c-e7f7e3648011",
+              "name": "Fidye Westgarth"
+            },
+            {
+              "playerId": "team-player/9da6b5c6-8b69-4ec0-9ae0-4f1ede137fe5",
+              "name": "Sandra Colquhoun"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6f101138-1ada-495a-86bf-c5da053287fc",
               "players": [
                 {
+                  "playerId": "team-player/3f70ef1f-0f2c-4c03-a39c-e7f7e3648011",
                   "name": "Fidye Westgarth",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/9da6b5c6-8b69-4ec0-9ae0-4f1ede137fe5",
                   "name": "Sandra Colquhoun",
                   "score": "13"
                 }
@@ -256,17 +403,26 @@
         },
         {
           "players": [
-            "Bronwyn McGrane",
-            "Malcolm Sheldon"
+            {
+              "playerId": "team-player/890db45c-f942-4d3c-a5a6-ccc7ca1b7722",
+              "name": "Bronwyn McGrane"
+            },
+            {
+              "playerId": "team-player/212df587-9780-4ceb-b334-4722092f938f",
+              "name": "Malcolm Sheldon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42e94342-a042-40b5-bade-a6ef2e438ef8",
               "players": [
                 {
+                  "playerId": "team-player/890db45c-f942-4d3c-a5a6-ccc7ca1b7722",
                   "name": "Bronwyn McGrane",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/212df587-9780-4ceb-b334-4722092f938f",
                   "name": "Malcolm Sheldon",
                   "score": "15"
                 }
@@ -279,6 +435,7 @@
       ]
     },
     {
+      "competitionId": "competition/71048273-675e-46eb-958b-63a072d5117f",
       "teams": [
         "Killara",
         "Cammeray"
@@ -288,17 +445,26 @@
       "matches": [
         {
           "players": [
-            "Alia Naughton and Mary Lambert",
-            "Susan Nicholas and Warren Yates"
+            {
+              "playerId": "team-player/faaacb93-0e84-459a-8652-dcbc58dc9752",
+              "name": "Alia Naughton and Mary Lambert"
+            },
+            {
+              "playerId": "team-player/173ec6f0-0432-49e9-ae95-ff723850ead2",
+              "name": "Susan Nicholas and Warren Yates"
+            }
           ],
           "games": [
             {
+              "gameId": "game/69f71126-92b8-42d1-a5c0-df054ae6bf16",
               "players": [
                 {
+                  "playerId": "team-player/faaacb93-0e84-459a-8652-dcbc58dc9752",
                   "name": "Alia Naughton and Mary Lambert",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/173ec6f0-0432-49e9-ae95-ff723850ead2",
                   "name": "Susan Nicholas and Warren Yates",
                   "score": "14"
                 }
@@ -310,17 +476,26 @@
         },
         {
           "players": [
-            "Margaret Craig",
-            "Graham Maynard"
+            {
+              "playerId": "team-player/fba3775e-1159-42ff-b6f0-ea63fe72e483",
+              "name": "Margaret Craig"
+            },
+            {
+              "playerId": "team-player/67613471-85c3-4de5-8b99-c245823265dd",
+              "name": "Graham Maynard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4507e34d-cbdf-4952-97c9-44079ac826fb",
               "players": [
                 {
+                  "playerId": "team-player/fba3775e-1159-42ff-b6f0-ea63fe72e483",
                   "name": "Margaret Craig",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/67613471-85c3-4de5-8b99-c245823265dd",
                   "name": "Graham Maynard",
                   "score": "18"
                 }
@@ -332,17 +507,26 @@
         },
         {
           "players": [
-            "Peter Rienits",
-            "Sandra Colquhoun"
+            {
+              "playerId": "team-player/e64c661d-b5e9-4bd9-9c13-b2f79587ab6b",
+              "name": "Peter Rienits"
+            },
+            {
+              "playerId": "team-player/9da6b5c6-8b69-4ec0-9ae0-4f1ede137fe5",
+              "name": "Sandra Colquhoun"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1e0ae505-a961-4439-af3b-a19b8b8bc6b8",
               "players": [
                 {
+                  "playerId": "team-player/e64c661d-b5e9-4bd9-9c13-b2f79587ab6b",
                   "name": "Peter Rienits",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9da6b5c6-8b69-4ec0-9ae0-4f1ede137fe5",
                   "name": "Sandra Colquhoun",
                   "score": "12"
                 }
@@ -355,6 +539,7 @@
       ]
     },
     {
+      "competitionId": "competition/f9cd3a6e-5761-48b9-925f-2841a110f0bc",
       "teams": [
         "Mosman",
         "Killara"
@@ -364,17 +549,26 @@
       "matches": [
         {
           "players": [
-            "Madeleine Gray and Heather Sherlock",
-            "Janene Luff and Susan Howland"
+            {
+              "playerId": "team-player/15fd4d64-b0d5-4a94-aa4c-e6e5d7ea3d47",
+              "name": "Madeleine Gray and Heather Sherlock"
+            },
+            {
+              "playerId": "team-player/a057a3e3-361e-4510-93f6-0437bf42e4ef",
+              "name": "Janene Luff and Susan Howland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/589a646e-5d7f-484f-b310-6c9d9acb2352",
               "players": [
                 {
+                  "playerId": "team-player/15fd4d64-b0d5-4a94-aa4c-e6e5d7ea3d47",
                   "name": "Madeleine Gray and Heather Sherlock",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/a057a3e3-361e-4510-93f6-0437bf42e4ef",
                   "name": "Janene Luff and Susan Howland",
                   "score": "11"
                 }
@@ -386,17 +580,26 @@
         },
         {
           "players": [
-            "Bronwyn McGrane",
-            "Mary Lambert"
+            {
+              "playerId": "team-player/890db45c-f942-4d3c-a5a6-ccc7ca1b7722",
+              "name": "Bronwyn McGrane"
+            },
+            {
+              "playerId": "team-player/aaabbd68-293e-455c-9f3b-62f077fd7992",
+              "name": "Mary Lambert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f68134d-639a-447a-b825-05b8c7a18a5c",
               "players": [
                 {
+                  "playerId": "team-player/890db45c-f942-4d3c-a5a6-ccc7ca1b7722",
                   "name": "Bronwyn McGrane",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/aaabbd68-293e-455c-9f3b-62f077fd7992",
                   "name": "Mary Lambert",
                   "score": "18"
                 }
@@ -408,17 +611,26 @@
         },
         {
           "players": [
-            "Fidye Westgarth",
-            "Margaret Craig"
+            {
+              "playerId": "team-player/3f70ef1f-0f2c-4c03-a39c-e7f7e3648011",
+              "name": "Fidye Westgarth"
+            },
+            {
+              "playerId": "team-player/fba3775e-1159-42ff-b6f0-ea63fe72e483",
+              "name": "Margaret Craig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8bc6cb02-31d3-436a-a45a-55ddfc0b9a41",
               "players": [
                 {
+                  "playerId": "team-player/3f70ef1f-0f2c-4c03-a39c-e7f7e3648011",
                   "name": "Fidye Westgarth",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/fba3775e-1159-42ff-b6f0-ea63fe72e483",
                   "name": "Margaret Craig",
                   "score": "16"
                 }
@@ -431,6 +643,7 @@
       ]
     },
     {
+      "competitionId": "competition/94d22737-2b8c-4508-8d3d-bce899b74ced",
       "teams": [
         "Cammeray",
         "Mosman"
@@ -440,17 +653,26 @@
       "matches": [
         {
           "players": [
-            "Sandra Colquhoun and Malcolm Sheldon",
-            "Madeleine Gray and Bronwyn McGrane"
+            {
+              "playerId": "team-player/6331d954-a8a4-4f80-b728-acdda11390ca",
+              "name": "Sandra Colquhoun and Malcolm Sheldon"
+            },
+            {
+              "playerId": "team-player/676a2024-929b-4900-85e8-830ad0b82d01",
+              "name": "Madeleine Gray and Bronwyn McGrane"
+            }
           ],
           "games": [
             {
+              "gameId": "game/132012fd-5bc9-4fc5-8464-d75a7e9fb7f6",
               "players": [
                 {
+                  "playerId": "team-player/6331d954-a8a4-4f80-b728-acdda11390ca",
                   "name": "Sandra Colquhoun and Malcolm Sheldon",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/676a2024-929b-4900-85e8-830ad0b82d01",
                   "name": "Madeleine Gray and Bronwyn McGrane",
                   "score": "9"
                 }
@@ -462,17 +684,26 @@
         },
         {
           "players": [
-            "Graham Maynard",
-            "Lindsay Thompson"
+            {
+              "playerId": "team-player/67613471-85c3-4de5-8b99-c245823265dd",
+              "name": "Graham Maynard"
+            },
+            {
+              "playerId": "team-player/03aa958d-6890-4a1a-b280-ba1d6ec7ce18",
+              "name": "Lindsay Thompson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a40023e0-c095-4241-8aed-4b6641cbf423",
               "players": [
                 {
+                  "playerId": "team-player/67613471-85c3-4de5-8b99-c245823265dd",
                   "name": "Graham Maynard",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/03aa958d-6890-4a1a-b280-ba1d6ec7ce18",
                   "name": "Lindsay Thompson",
                   "score": "8"
                 }
@@ -484,17 +715,26 @@
         },
         {
           "players": [
-            "Susan Nicholas",
-            "Fidye Westgarth"
+            {
+              "playerId": "team-player/4aea637d-01bb-4b32-835d-f4a9729141d3",
+              "name": "Susan Nicholas"
+            },
+            {
+              "playerId": "team-player/3f70ef1f-0f2c-4c03-a39c-e7f7e3648011",
+              "name": "Fidye Westgarth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6c0c63b-4207-44c4-a3fb-3164f13fec45",
               "players": [
                 {
+                  "playerId": "team-player/4aea637d-01bb-4b32-835d-f4a9729141d3",
                   "name": "Susan Nicholas",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/3f70ef1f-0f2c-4c03-a39c-e7f7e3648011",
                   "name": "Fidye Westgarth",
                   "score": "3"
                 }

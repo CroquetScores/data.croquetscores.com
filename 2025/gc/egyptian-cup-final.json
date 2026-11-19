@@ -1,38 +1,75 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7efb2fc2-1ecb-456e-a98b-e4842c175137",
   "name": "Egyptian Cup Final",
   "sport": "gc",
   "firstDay": "2025-05-22",
   "lastDay": "2025-05-23",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Sporting Club",
       "shortName": "Sporting C",
       "players": [
-        "Dina Aly Maher & Hanan Rashad",
-        "Maram Nabil",
-        "Marwan Elsabroty",
-        "Merna Elsabroty & Mazen Mohamed",
-        "Mohamed Hossam & Nagib Hossam",
-        "Mostafa Eissa"
+        {
+          "playerId": "team-player/44379c4c-5928-44e8-885c-e243163f2f4f",
+          "name": "Dina Aly Maher & Hanan Rashad"
+        },
+        {
+          "playerId": "team-player/d59f88b8-3c5e-4c54-ad20-f6e452b8ec34",
+          "name": "Maram Nabil"
+        },
+        {
+          "playerId": "team-player/6ba533db-3782-47dd-a8a8-6a30ad5af090",
+          "name": "Marwan Elsabroty"
+        },
+        {
+          "playerId": "team-player/088f70f3-1f71-4abd-a879-4d43615d76fd",
+          "name": "Merna Elsabroty & Mazen Mohamed"
+        },
+        {
+          "playerId": "team-player/df36cfbd-41cc-4a51-8fb4-b894911f1433",
+          "name": "Mohamed Hossam & Nagib Hossam"
+        },
+        {
+          "playerId": "team-player/9fc02b57-79cd-4556-a941-d6d0aa70e9aa",
+          "name": "Mostafa Eissa"
+        }
       ]
     },
     {
       "name": "Gezira Club",
       "shortName": "Gezira Clu",
       "players": [
-        "Ahmed Nasr  & Yousif Yasser",
-        "Amany Hassan",
-        "Doaa Mohamed & Olfat Albishbishy",
-        "Khaled Kamel",
-        "Mahetab AboelSaad & Mohamed Nasr"
+        {
+          "playerId": "team-player/c840b3b6-f899-4092-a2c0-f59c12914ef6",
+          "name": "Ahmed Nasr  & Yousif Yasser"
+        },
+        {
+          "playerId": "team-player/7951911e-7dc4-4daf-8697-87faff59e1f0",
+          "name": "Amany Hassan"
+        },
+        {
+          "playerId": "team-player/3fcc0e40-acfe-4dfd-803c-7ed689d504c5",
+          "name": "Doaa Mohamed & Olfat Albishbishy"
+        },
+        {
+          "playerId": "team-player/60bee405-1a60-48b9-a5b3-5a4c75c183c7",
+          "name": "Khaled Kamel"
+        },
+        {
+          "playerId": "team-player/e401c3ef-d2ec-4748-a8f6-9c219ed34c6c",
+          "name": "Mahetab AboelSaad & Mohamed Nasr"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/147bb7e0-5008-4ae0-8cdc-0aa08403efc7",
       "teams": [
         "Sporting Club",
         "Gezira Club"
@@ -42,17 +79,26 @@
       "matches": [
         {
           "players": [
-            "Dina Aly Maher & Hanan Rashad",
-            "Doaa Mohamed & Olfat Albishbishy"
+            {
+              "playerId": "team-player/44379c4c-5928-44e8-885c-e243163f2f4f",
+              "name": "Dina Aly Maher & Hanan Rashad"
+            },
+            {
+              "playerId": "team-player/3fcc0e40-acfe-4dfd-803c-7ed689d504c5",
+              "name": "Doaa Mohamed & Olfat Albishbishy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7ef12d54-bcce-4769-bc96-a40a565b33cf",
               "players": [
                 {
+                  "playerId": "team-player/44379c4c-5928-44e8-885c-e243163f2f4f",
                   "name": "Dina Aly Maher & Hanan Rashad",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3fcc0e40-acfe-4dfd-803c-7ed689d504c5",
                   "name": "Doaa Mohamed & Olfat Albishbishy",
                   "score": "2"
                 }
@@ -61,12 +107,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/74fb629b-871b-4b90-a8e3-e9e469adb57b",
               "players": [
                 {
+                  "playerId": "team-player/44379c4c-5928-44e8-885c-e243163f2f4f",
                   "name": "Dina Aly Maher & Hanan Rashad",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3fcc0e40-acfe-4dfd-803c-7ed689d504c5",
                   "name": "Doaa Mohamed & Olfat Albishbishy",
                   "score": "1"
                 }
@@ -78,17 +127,26 @@
         },
         {
           "players": [
-            "Mohamed Hossam & Nagib Hossam",
-            "Ahmed Nasr  & Yousif Yasser"
+            {
+              "playerId": "team-player/df36cfbd-41cc-4a51-8fb4-b894911f1433",
+              "name": "Mohamed Hossam & Nagib Hossam"
+            },
+            {
+              "playerId": "team-player/c840b3b6-f899-4092-a2c0-f59c12914ef6",
+              "name": "Ahmed Nasr  & Yousif Yasser"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9aa9bef0-fc11-42cb-ba62-7d35c8d8bb26",
               "players": [
                 {
+                  "playerId": "team-player/df36cfbd-41cc-4a51-8fb4-b894911f1433",
                   "name": "Mohamed Hossam & Nagib Hossam",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c840b3b6-f899-4092-a2c0-f59c12914ef6",
                   "name": "Ahmed Nasr  & Yousif Yasser",
                   "score": "7"
                 }
@@ -97,12 +155,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2e0c2b5b-16b5-4e28-87b7-29d2947818d9",
               "players": [
                 {
+                  "playerId": "team-player/df36cfbd-41cc-4a51-8fb4-b894911f1433",
                   "name": "Mohamed Hossam & Nagib Hossam",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c840b3b6-f899-4092-a2c0-f59c12914ef6",
                   "name": "Ahmed Nasr  & Yousif Yasser",
                   "score": "4"
                 }
@@ -111,12 +172,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/da1cc7d8-ed59-42ae-81d0-96796f134467",
               "players": [
                 {
+                  "playerId": "team-player/df36cfbd-41cc-4a51-8fb4-b894911f1433",
                   "name": "Mohamed Hossam & Nagib Hossam",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c840b3b6-f899-4092-a2c0-f59c12914ef6",
                   "name": "Ahmed Nasr  & Yousif Yasser",
                   "score": "7"
                 }
@@ -128,17 +192,26 @@
         },
         {
           "players": [
-            "Maram Nabil",
-            "Amany Hassan"
+            {
+              "playerId": "team-player/d59f88b8-3c5e-4c54-ad20-f6e452b8ec34",
+              "name": "Maram Nabil"
+            },
+            {
+              "playerId": "team-player/7951911e-7dc4-4daf-8697-87faff59e1f0",
+              "name": "Amany Hassan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2724c6bc-5067-4159-8a0f-0b5e409874b2",
               "players": [
                 {
+                  "playerId": "team-player/d59f88b8-3c5e-4c54-ad20-f6e452b8ec34",
                   "name": "Maram Nabil",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7951911e-7dc4-4daf-8697-87faff59e1f0",
                   "name": "Amany Hassan",
                   "score": "4"
                 }
@@ -147,12 +220,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b61664d5-43b3-4def-a81f-54b77eb9938e",
               "players": [
                 {
+                  "playerId": "team-player/d59f88b8-3c5e-4c54-ad20-f6e452b8ec34",
                   "name": "Maram Nabil",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7951911e-7dc4-4daf-8697-87faff59e1f0",
                   "name": "Amany Hassan",
                   "score": "4"
                 }
@@ -164,17 +240,26 @@
         },
         {
           "players": [
-            "Merna Elsabroty & Mazen Mohamed",
-            "Mahetab AboelSaad & Mohamed Nasr"
+            {
+              "playerId": "team-player/088f70f3-1f71-4abd-a879-4d43615d76fd",
+              "name": "Merna Elsabroty & Mazen Mohamed"
+            },
+            {
+              "playerId": "team-player/e401c3ef-d2ec-4748-a8f6-9c219ed34c6c",
+              "name": "Mahetab AboelSaad & Mohamed Nasr"
+            }
           ],
           "games": [
             {
+              "gameId": "game/adb174e0-bbf4-4ebd-b80a-1cfdbddfc0e9",
               "players": [
                 {
+                  "playerId": "team-player/088f70f3-1f71-4abd-a879-4d43615d76fd",
                   "name": "Merna Elsabroty & Mazen Mohamed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e401c3ef-d2ec-4748-a8f6-9c219ed34c6c",
                   "name": "Mahetab AboelSaad & Mohamed Nasr",
                   "score": "1"
                 }
@@ -183,12 +268,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7ed04188-df03-42aa-a6ca-9a8bd6483a85",
               "players": [
                 {
+                  "playerId": "team-player/088f70f3-1f71-4abd-a879-4d43615d76fd",
                   "name": "Merna Elsabroty & Mazen Mohamed",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/e401c3ef-d2ec-4748-a8f6-9c219ed34c6c",
                   "name": "Mahetab AboelSaad & Mohamed Nasr",
                   "score": "7"
                 }
@@ -197,12 +285,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5fc99c4c-6de7-4f61-b696-d1cffc4ec26a",
               "players": [
                 {
+                  "playerId": "team-player/088f70f3-1f71-4abd-a879-4d43615d76fd",
                   "name": "Merna Elsabroty & Mazen Mohamed",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/e401c3ef-d2ec-4748-a8f6-9c219ed34c6c",
                   "name": "Mahetab AboelSaad & Mohamed Nasr",
                   "score": "7"
                 }
@@ -214,17 +305,26 @@
         },
         {
           "players": [
-            "Mostafa Eissa",
-            "Khaled Kamel"
+            {
+              "playerId": "team-player/9fc02b57-79cd-4556-a941-d6d0aa70e9aa",
+              "name": "Mostafa Eissa"
+            },
+            {
+              "playerId": "team-player/60bee405-1a60-48b9-a5b3-5a4c75c183c7",
+              "name": "Khaled Kamel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b7b75f8d-da9c-457c-baf5-f0f82bc24387",
               "players": [
                 {
+                  "playerId": "team-player/9fc02b57-79cd-4556-a941-d6d0aa70e9aa",
                   "name": "Mostafa Eissa",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/60bee405-1a60-48b9-a5b3-5a4c75c183c7",
                   "name": "Khaled Kamel",
                   "score": "6"
                 }
@@ -233,12 +333,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f1760400-0543-4ca1-a012-0db20c8e999f",
               "players": [
                 {
+                  "playerId": "team-player/9fc02b57-79cd-4556-a941-d6d0aa70e9aa",
                   "name": "Mostafa Eissa",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/60bee405-1a60-48b9-a5b3-5a4c75c183c7",
                   "name": "Khaled Kamel",
                   "score": "7"
                 }
@@ -247,12 +350,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/169a1743-2288-43e0-8311-86b1a0d4e3fd",
               "players": [
                 {
+                  "playerId": "team-player/9fc02b57-79cd-4556-a941-d6d0aa70e9aa",
                   "name": "Mostafa Eissa",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/60bee405-1a60-48b9-a5b3-5a4c75c183c7",
                   "name": "Khaled Kamel",
                   "score": "7"
                 }

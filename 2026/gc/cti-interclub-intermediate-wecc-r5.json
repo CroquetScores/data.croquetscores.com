@@ -1,46 +1,85 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/24fddb12-db74-4a11-b6a8-3acd8d95829a",
   "name": "CTI Interclub Intermediate @ WECC (R5)",
   "sport": "gc",
   "firstDay": "2026-10-12",
   "lastDay": "2026-10-12",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "TS1",
       "shortName": "TS1",
       "players": [
-        "Brian Bridge",
-        "Brian Bridge & John Porter",
-        "John Porter"
+        {
+          "playerId": "team-player/06748c85-da1f-4174-ae29-44acf08d1287",
+          "name": "Brian Bridge"
+        },
+        {
+          "playerId": "team-player/50e301a9-0d2b-45e0-aaa1-a1d92392af06",
+          "name": "Brian Bridge & John Porter"
+        },
+        {
+          "playerId": "team-player/3544b24e-9b11-43da-81a8-976222bf033b",
+          "name": "John Porter"
+        }
       ]
     },
     {
       "name": "NP3",
       "shortName": "NP3",
       "players": [
-        "Bev Archer",
-        "Bev Archer & Bob Thomas",
-        "Bob Thomas"
+        {
+          "playerId": "team-player/0169b252-cdf8-4633-9395-0cad8002f2cb",
+          "name": "Bev Archer"
+        },
+        {
+          "playerId": "team-player/97c8d2a2-c4d6-4eb8-b1e1-1ba9dd0fa97e",
+          "name": "Bev Archer & Bob Thomas"
+        },
+        {
+          "playerId": "team-player/0d0f3ea8-58f4-40b0-865d-604349be677d",
+          "name": "Bob Thomas"
+        }
       ]
     },
     {
       "name": "TS2",
       "shortName": "TS2",
       "players": [
-        "Les Ogle",
-        "Sandra Vernon",
-        "Sandra Vernon & Les Ogle"
+        {
+          "playerId": "team-player/e145aac3-a5fc-46f3-939d-092c5674898a",
+          "name": "Les Ogle"
+        },
+        {
+          "playerId": "team-player/b888e2b1-0505-4f9c-a8e2-8dc1d7f21ccb",
+          "name": "Sandra Vernon"
+        },
+        {
+          "playerId": "team-player/391606a3-ecab-49a4-a54e-5788e1c74f4f",
+          "name": "Sandra Vernon & Les Ogle"
+        }
       ]
     },
     {
       "name": "WE1",
       "shortName": "WE1",
       "players": [
-        "Wendy Nash",
-        "Yvonne Kelly",
-        "Yvonne Kelly & Wendy Nash"
+        {
+          "playerId": "team-player/97d5a378-81b1-45d2-bf99-04fbf51502f7",
+          "name": "Wendy Nash"
+        },
+        {
+          "playerId": "team-player/d8cd4f5e-cda0-426a-932c-31b9c50f2100",
+          "name": "Yvonne Kelly"
+        },
+        {
+          "playerId": "team-player/6886adb9-c4bc-43fb-960a-135ecfae11aa",
+          "name": "Yvonne Kelly & Wendy Nash"
+        }
       ]
     },
     {
@@ -56,6 +95,7 @@
   ],
   "tests": [
     {
+      "competitionId": "competition/8855924b-a1e6-4247-ac19-009eefb407ec",
       "teams": [
         "TS1",
         "NP3"
@@ -65,17 +105,26 @@
       "matches": [
         {
           "players": [
-            "Brian Bridge & John Porter",
-            "Bev Archer & Bob Thomas"
+            {
+              "playerId": "team-player/50e301a9-0d2b-45e0-aaa1-a1d92392af06",
+              "name": "Brian Bridge & John Porter"
+            },
+            {
+              "playerId": "team-player/97c8d2a2-c4d6-4eb8-b1e1-1ba9dd0fa97e",
+              "name": "Bev Archer & Bob Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9a660602-0d4b-4816-936c-084e62b53c1e",
               "players": [
                 {
+                  "playerId": "team-player/50e301a9-0d2b-45e0-aaa1-a1d92392af06",
                   "name": "Brian Bridge & John Porter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/97c8d2a2-c4d6-4eb8-b1e1-1ba9dd0fa97e",
                   "name": "Bev Archer & Bob Thomas",
                   "score": "6"
                 }
@@ -87,17 +136,26 @@
         },
         {
           "players": [
-            "Brian Bridge",
-            "Bev Archer"
+            {
+              "playerId": "team-player/06748c85-da1f-4174-ae29-44acf08d1287",
+              "name": "Brian Bridge"
+            },
+            {
+              "playerId": "team-player/0169b252-cdf8-4633-9395-0cad8002f2cb",
+              "name": "Bev Archer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c470d25-1079-4cfe-adee-597d2ca94617",
               "players": [
                 {
+                  "playerId": "team-player/06748c85-da1f-4174-ae29-44acf08d1287",
                   "name": "Brian Bridge",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0169b252-cdf8-4633-9395-0cad8002f2cb",
                   "name": "Bev Archer",
                   "score": "7"
                 }
@@ -109,17 +167,26 @@
         },
         {
           "players": [
-            "John Porter",
-            "Bob Thomas"
+            {
+              "playerId": "team-player/3544b24e-9b11-43da-81a8-976222bf033b",
+              "name": "John Porter"
+            },
+            {
+              "playerId": "team-player/0d0f3ea8-58f4-40b0-865d-604349be677d",
+              "name": "Bob Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2b5a2d9-b5b2-4482-9f64-f5db382f00fe",
               "players": [
                 {
+                  "playerId": "team-player/3544b24e-9b11-43da-81a8-976222bf033b",
                   "name": "John Porter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0d0f3ea8-58f4-40b0-865d-604349be677d",
                   "name": "Bob Thomas",
                   "score": "3"
                 }
@@ -131,17 +198,26 @@
         },
         {
           "players": [
-            "John Porter",
-            "Bev Archer"
+            {
+              "playerId": "team-player/3544b24e-9b11-43da-81a8-976222bf033b",
+              "name": "John Porter"
+            },
+            {
+              "playerId": "team-player/0169b252-cdf8-4633-9395-0cad8002f2cb",
+              "name": "Bev Archer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7d89cf28-9fa2-4999-a5eb-042c09439bc6",
               "players": [
                 {
+                  "playerId": "team-player/3544b24e-9b11-43da-81a8-976222bf033b",
                   "name": "John Porter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0169b252-cdf8-4633-9395-0cad8002f2cb",
                   "name": "Bev Archer",
                   "score": "2"
                 }
@@ -153,17 +229,26 @@
         },
         {
           "players": [
-            "Brian Bridge",
-            "Bob Thomas"
+            {
+              "playerId": "team-player/06748c85-da1f-4174-ae29-44acf08d1287",
+              "name": "Brian Bridge"
+            },
+            {
+              "playerId": "team-player/0d0f3ea8-58f4-40b0-865d-604349be677d",
+              "name": "Bob Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32b5ad85-65ec-4b57-8056-1e47a535ff3c",
               "players": [
                 {
+                  "playerId": "team-player/06748c85-da1f-4174-ae29-44acf08d1287",
                   "name": "Brian Bridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0d0f3ea8-58f4-40b0-865d-604349be677d",
                   "name": "Bob Thomas",
                   "score": "7"
                 }
@@ -176,6 +261,7 @@
       ]
     },
     {
+      "competitionId": "competition/39205e33-e8f4-4cc8-b3da-d687c0c5c63d",
       "teams": [
         "TS2",
         "WE1"
@@ -185,17 +271,26 @@
       "matches": [
         {
           "players": [
-            "Sandra Vernon & Les Ogle",
-            "Yvonne Kelly & Wendy Nash"
+            {
+              "playerId": "team-player/391606a3-ecab-49a4-a54e-5788e1c74f4f",
+              "name": "Sandra Vernon & Les Ogle"
+            },
+            {
+              "playerId": "team-player/6886adb9-c4bc-43fb-960a-135ecfae11aa",
+              "name": "Yvonne Kelly & Wendy Nash"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e71caa1f-7594-4340-8efa-d3d173cd9ff5",
               "players": [
                 {
+                  "playerId": "team-player/391606a3-ecab-49a4-a54e-5788e1c74f4f",
                   "name": "Sandra Vernon & Les Ogle",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6886adb9-c4bc-43fb-960a-135ecfae11aa",
                   "name": "Yvonne Kelly & Wendy Nash",
                   "score": "7"
                 }
@@ -207,17 +302,26 @@
         },
         {
           "players": [
-            "Sandra Vernon",
-            "Yvonne Kelly"
+            {
+              "playerId": "team-player/b888e2b1-0505-4f9c-a8e2-8dc1d7f21ccb",
+              "name": "Sandra Vernon"
+            },
+            {
+              "playerId": "team-player/d8cd4f5e-cda0-426a-932c-31b9c50f2100",
+              "name": "Yvonne Kelly"
+            }
           ],
           "games": [
             {
+              "gameId": "game/413bdb5a-78d3-4979-8c83-36cc4eef456f",
               "players": [
                 {
+                  "playerId": "team-player/b888e2b1-0505-4f9c-a8e2-8dc1d7f21ccb",
                   "name": "Sandra Vernon",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d8cd4f5e-cda0-426a-932c-31b9c50f2100",
                   "name": "Yvonne Kelly",
                   "score": "7"
                 }
@@ -229,17 +333,26 @@
         },
         {
           "players": [
-            "Sandra Vernon",
-            "Wendy Nash"
+            {
+              "playerId": "team-player/b888e2b1-0505-4f9c-a8e2-8dc1d7f21ccb",
+              "name": "Sandra Vernon"
+            },
+            {
+              "playerId": "team-player/97d5a378-81b1-45d2-bf99-04fbf51502f7",
+              "name": "Wendy Nash"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b221e334-da3d-499b-9d96-1478f230748b",
               "players": [
                 {
+                  "playerId": "team-player/b888e2b1-0505-4f9c-a8e2-8dc1d7f21ccb",
                   "name": "Sandra Vernon",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/97d5a378-81b1-45d2-bf99-04fbf51502f7",
                   "name": "Wendy Nash",
                   "score": "7"
                 }
@@ -251,17 +364,26 @@
         },
         {
           "players": [
-            "Les Ogle",
-            "Yvonne Kelly"
+            {
+              "playerId": "team-player/e145aac3-a5fc-46f3-939d-092c5674898a",
+              "name": "Les Ogle"
+            },
+            {
+              "playerId": "team-player/d8cd4f5e-cda0-426a-932c-31b9c50f2100",
+              "name": "Yvonne Kelly"
+            }
           ],
           "games": [
             {
+              "gameId": "game/91246e2c-db00-4746-9f9c-d9b596b966f4",
               "players": [
                 {
+                  "playerId": "team-player/e145aac3-a5fc-46f3-939d-092c5674898a",
                   "name": "Les Ogle",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d8cd4f5e-cda0-426a-932c-31b9c50f2100",
                   "name": "Yvonne Kelly",
                   "score": "7"
                 }
@@ -273,17 +395,26 @@
         },
         {
           "players": [
-            "Les Ogle",
-            "Wendy Nash"
+            {
+              "playerId": "team-player/e145aac3-a5fc-46f3-939d-092c5674898a",
+              "name": "Les Ogle"
+            },
+            {
+              "playerId": "team-player/97d5a378-81b1-45d2-bf99-04fbf51502f7",
+              "name": "Wendy Nash"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fbbf8e9a-a817-4207-85bb-c4f08a36ca1f",
               "players": [
                 {
+                  "playerId": "team-player/e145aac3-a5fc-46f3-939d-092c5674898a",
                   "name": "Les Ogle",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/97d5a378-81b1-45d2-bf99-04fbf51502f7",
                   "name": "Wendy Nash",
                   "score": "4"
                 }
@@ -296,6 +427,7 @@
       ]
     },
     {
+      "competitionId": "competition/017653a3-3a44-4020-ab63-0a4036916657",
       "teams": [
         "NP1",
         "NP2 Bye"

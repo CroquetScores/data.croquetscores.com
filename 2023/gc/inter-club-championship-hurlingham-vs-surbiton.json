@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a9d7c62d-9161-4ccd-b0d9-76fed1c204d1",
   "name": "GC Inter-Club - Hurlingham vs Surbiton",
   "sport": "gc",
   "firstDay": "2023-04-11",
   "lastDay": "2023-04-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Hurlingham",
       "shortName": "Hurlingham",
       "players": [
-        "Aston Wade",
-        "Aston Wade & Tom Coles",
-        "Mark Ormerod",
-        "Roderick Sheen",
-        "Tom Coles"
+        {
+          "playerId": "team-player/7cbf026f-abbb-43ee-8873-98344c00eb03",
+          "name": "Aston Wade"
+        },
+        {
+          "playerId": "team-player/76bd21c0-1c01-49db-9d68-de21a026ab6a",
+          "name": "Aston Wade & Tom Coles"
+        },
+        {
+          "playerId": "team-player/fc05d2c8-076a-4db1-ad88-b27b1951949c",
+          "name": "Mark Ormerod"
+        },
+        {
+          "playerId": "team-player/e55c75ea-e3aa-443a-8164-77b9e9671557",
+          "name": "Roderick Sheen"
+        },
+        {
+          "playerId": "team-player/eb986a44-dfd2-4a3d-88f5-c42b2fd9b4f7",
+          "name": "Tom Coles"
+        }
       ]
     },
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Beryl Hughes",
-        "Gavin Taylor",
-        "Martin Burger",
-        "Stephen Mulliner",
-        "Stephen Mulliner & Martin Burger"
+        {
+          "playerId": "team-player/0db6e003-3145-4ee3-8934-94a88527bfcd",
+          "name": "Beryl Hughes"
+        },
+        {
+          "playerId": "team-player/3a2034c8-f702-46ff-900e-d42b6f0ddf8d",
+          "name": "Gavin Taylor"
+        },
+        {
+          "playerId": "team-player/71c2d99b-6828-4d4b-8e9a-a503045168d4",
+          "name": "Martin Burger"
+        },
+        {
+          "playerId": "team-player/afb2d07d-4351-4c00-9cfb-f0929409cbea",
+          "name": "Stephen Mulliner"
+        },
+        {
+          "playerId": "team-player/512afbaa-7d0b-4203-8057-47916ab2cffc",
+          "name": "Stephen Mulliner & Martin Burger"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1d709dd1-97e6-41cc-84db-3af6898ed707",
       "teams": [
         "Hurlingham",
         "Surbiton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Aston Wade & Tom Coles",
-            "Stephen Mulliner & Martin Burger"
+            {
+              "playerId": "team-player/76bd21c0-1c01-49db-9d68-de21a026ab6a",
+              "name": "Aston Wade & Tom Coles"
+            },
+            {
+              "playerId": "team-player/512afbaa-7d0b-4203-8057-47916ab2cffc",
+              "name": "Stephen Mulliner & Martin Burger"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ddae4a6c-482a-4c56-a3f9-7f6ad5f723ac",
               "players": [
                 {
+                  "playerId": "team-player/76bd21c0-1c01-49db-9d68-de21a026ab6a",
                   "name": "Aston Wade & Tom Coles",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/512afbaa-7d0b-4203-8057-47916ab2cffc",
                   "name": "Stephen Mulliner & Martin Burger",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e11c3b17-e080-4fec-babb-eccea1605511",
               "players": [
                 {
+                  "playerId": "team-player/76bd21c0-1c01-49db-9d68-de21a026ab6a",
                   "name": "Aston Wade & Tom Coles",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/512afbaa-7d0b-4203-8057-47916ab2cffc",
                   "name": "Stephen Mulliner & Martin Burger",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Mark Ormerod",
-            "Gavin Taylor"
+            {
+              "playerId": "team-player/fc05d2c8-076a-4db1-ad88-b27b1951949c",
+              "name": "Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/3a2034c8-f702-46ff-900e-d42b6f0ddf8d",
+              "name": "Gavin Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7fd5e321-3f3c-48fa-b32a-1b9e39eb62d3",
               "players": [
                 {
+                  "playerId": "team-player/fc05d2c8-076a-4db1-ad88-b27b1951949c",
                   "name": "Mark Ormerod",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a2034c8-f702-46ff-900e-d42b6f0ddf8d",
                   "name": "Gavin Taylor",
                   "score": "6"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/71f60b2f-36ae-4f9c-a41b-ca9e1392be76",
               "players": [
                 {
+                  "playerId": "team-player/fc05d2c8-076a-4db1-ad88-b27b1951949c",
                   "name": "Mark Ormerod",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3a2034c8-f702-46ff-900e-d42b6f0ddf8d",
                   "name": "Gavin Taylor",
                   "score": "7"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/527a78ed-a5a0-41bb-8654-5cf38c3d7b0e",
               "players": [
                 {
+                  "playerId": "team-player/fc05d2c8-076a-4db1-ad88-b27b1951949c",
                   "name": "Mark Ormerod",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a2034c8-f702-46ff-900e-d42b6f0ddf8d",
                   "name": "Gavin Taylor",
                   "score": "5"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Roderick Sheen",
-            "Beryl Hughes"
+            {
+              "playerId": "team-player/e55c75ea-e3aa-443a-8164-77b9e9671557",
+              "name": "Roderick Sheen"
+            },
+            {
+              "playerId": "team-player/0db6e003-3145-4ee3-8934-94a88527bfcd",
+              "name": "Beryl Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/06aad9bf-ec0b-4c72-8e74-7957023334b3",
               "players": [
                 {
+                  "playerId": "team-player/e55c75ea-e3aa-443a-8164-77b9e9671557",
                   "name": "Roderick Sheen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0db6e003-3145-4ee3-8934-94a88527bfcd",
                   "name": "Beryl Hughes",
                   "score": "3"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/79c35d64-afda-496c-8f1d-f044d8be5665",
               "players": [
                 {
+                  "playerId": "team-player/e55c75ea-e3aa-443a-8164-77b9e9671557",
                   "name": "Roderick Sheen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0db6e003-3145-4ee3-8934-94a88527bfcd",
                   "name": "Beryl Hughes",
                   "score": "6"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Aston Wade",
-            "Stephen Mulliner"
+            {
+              "playerId": "team-player/7cbf026f-abbb-43ee-8873-98344c00eb03",
+              "name": "Aston Wade"
+            },
+            {
+              "playerId": "team-player/afb2d07d-4351-4c00-9cfb-f0929409cbea",
+              "name": "Stephen Mulliner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9a97d743-e322-403f-a77a-9913dc8ca8eb",
               "players": [
                 {
+                  "playerId": "team-player/7cbf026f-abbb-43ee-8873-98344c00eb03",
                   "name": "Aston Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/afb2d07d-4351-4c00-9cfb-f0929409cbea",
                   "name": "Stephen Mulliner",
                   "score": "6"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/10862938-a090-4603-9093-373a50899374",
               "players": [
                 {
+                  "playerId": "team-player/7cbf026f-abbb-43ee-8873-98344c00eb03",
                   "name": "Aston Wade",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/afb2d07d-4351-4c00-9cfb-f0929409cbea",
                   "name": "Stephen Mulliner",
                   "score": "7"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6e5fd9f8-61ae-4491-9606-feb1dbe253f0",
               "players": [
                 {
+                  "playerId": "team-player/7cbf026f-abbb-43ee-8873-98344c00eb03",
                   "name": "Aston Wade",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/afb2d07d-4351-4c00-9cfb-f0929409cbea",
                   "name": "Stephen Mulliner",
                   "score": "7"
                 }
@@ -213,17 +301,26 @@
         },
         {
           "players": [
-            "Tom Coles",
-            "Martin Burger"
+            {
+              "playerId": "team-player/eb986a44-dfd2-4a3d-88f5-c42b2fd9b4f7",
+              "name": "Tom Coles"
+            },
+            {
+              "playerId": "team-player/71c2d99b-6828-4d4b-8e9a-a503045168d4",
+              "name": "Martin Burger"
+            }
           ],
           "games": [
             {
+              "gameId": "game/efd16487-289b-427b-9e96-f85533e0ecbf",
               "players": [
                 {
+                  "playerId": "team-player/eb986a44-dfd2-4a3d-88f5-c42b2fd9b4f7",
                   "name": "Tom Coles",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/71c2d99b-6828-4d4b-8e9a-a503045168d4",
                   "name": "Martin Burger",
                   "score": "6"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/88639b22-eb7e-49ea-9578-739de9291110",
               "players": [
                 {
+                  "playerId": "team-player/eb986a44-dfd2-4a3d-88f5-c42b2fd9b4f7",
                   "name": "Tom Coles",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/71c2d99b-6828-4d4b-8e9a-a503045168d4",
                   "name": "Martin Burger",
                   "score": "7"
                 }
@@ -246,12 +346,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6119231a-0268-4272-b0ca-315d64bc120a",
               "players": [
                 {
+                  "playerId": "team-player/eb986a44-dfd2-4a3d-88f5-c42b2fd9b4f7",
                   "name": "Tom Coles",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/71c2d99b-6828-4d4b-8e9a-a503045168d4",
                   "name": "Martin Burger",
                   "score": "6"
                 }
@@ -263,17 +366,26 @@
         },
         {
           "players": [
-            "Mark Ormerod",
-            "Beryl Hughes"
+            {
+              "playerId": "team-player/fc05d2c8-076a-4db1-ad88-b27b1951949c",
+              "name": "Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/0db6e003-3145-4ee3-8934-94a88527bfcd",
+              "name": "Beryl Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e532c1d2-3682-4fc1-8174-0a8337af9f8f",
               "players": [
                 {
+                  "playerId": "team-player/fc05d2c8-076a-4db1-ad88-b27b1951949c",
                   "name": "Mark Ormerod",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0db6e003-3145-4ee3-8934-94a88527bfcd",
                   "name": "Beryl Hughes",
                   "score": "3"
                 }
@@ -282,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/57890786-d331-4229-b920-4211f64e04fe",
               "players": [
                 {
+                  "playerId": "team-player/fc05d2c8-076a-4db1-ad88-b27b1951949c",
                   "name": "Mark Ormerod",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0db6e003-3145-4ee3-8934-94a88527bfcd",
                   "name": "Beryl Hughes",
                   "score": "6"
                 }
@@ -299,17 +414,26 @@
         },
         {
           "players": [
-            "Roderick Sheen",
-            "Gavin Taylor"
+            {
+              "playerId": "team-player/e55c75ea-e3aa-443a-8164-77b9e9671557",
+              "name": "Roderick Sheen"
+            },
+            {
+              "playerId": "team-player/3a2034c8-f702-46ff-900e-d42b6f0ddf8d",
+              "name": "Gavin Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ae2d9b3-ac5f-4a49-90c2-935f00e6bb5a",
               "players": [
                 {
+                  "playerId": "team-player/e55c75ea-e3aa-443a-8164-77b9e9671557",
                   "name": "Roderick Sheen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a2034c8-f702-46ff-900e-d42b6f0ddf8d",
                   "name": "Gavin Taylor",
                   "score": "3"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e86ece63-86ad-47e8-83c7-9613784118a7",
               "players": [
                 {
+                  "playerId": "team-player/e55c75ea-e3aa-443a-8164-77b9e9671557",
                   "name": "Roderick Sheen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a2034c8-f702-46ff-900e-d42b6f0ddf8d",
                   "name": "Gavin Taylor",
                   "score": "3"
                 }

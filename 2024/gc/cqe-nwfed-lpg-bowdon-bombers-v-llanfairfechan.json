@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2472755c-5b0a-4265-8104-4a636e9ca168",
   "name": "CqE NWFed LPG Bowdon Bombers v Llanfairfechan",
   "sport": "gc",
   "firstDay": "2024-07-31",
   "lastDay": "2024-07-31",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon Bombers",
       "shortName": "Bowdon Bom",
       "players": [
-        "David Holland",
-        "David Holland - meet again",
-        "Jack Good",
-        "Nigel Matthews",
-        "Nigel Matthews - meet again"
+        {
+          "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
+          "name": "David Holland"
+        },
+        {
+          "playerId": "team-player/fa9b339c-c3fd-4354-a2e1-2e98900e861f",
+          "name": "David Holland - meet again"
+        },
+        {
+          "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
+          "name": "Jack Good"
+        },
+        {
+          "playerId": "team-player/9dcc8a93-dbba-4daf-bc04-f1575db8dec4",
+          "name": "Nigel Matthews"
+        },
+        {
+          "playerId": "team-player/a7451bdc-eac0-4a82-9279-4b8e894b5ae0",
+          "name": "Nigel Matthews - meet again"
+        }
       ]
     },
     {
       "name": "Llanfairfechan",
       "shortName": "Llanfairfe",
       "players": [
-        "David Crawford",
-        "Davyth Fear",
-        "Davyth Fear - meet again",
-        "Liz Jordan",
-        "Liz Jordan - meet again"
+        {
+          "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
+          "name": "David Crawford"
+        },
+        {
+          "playerId": "team-player/3fbec8dd-5a1b-48e3-8714-1c2cbc2b3ec6",
+          "name": "Davyth Fear"
+        },
+        {
+          "playerId": "team-player/ea2a27e8-3d50-4f94-82de-1f2a00d5063b",
+          "name": "Davyth Fear - meet again"
+        },
+        {
+          "playerId": "team-player/8e5be9ba-4444-4094-bfbc-e6f0639c99c3",
+          "name": "Liz Jordan"
+        },
+        {
+          "playerId": "team-player/6d121c65-5caa-4bd5-93df-2ca635272a41",
+          "name": "Liz Jordan - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/714cdc2e-8944-4f58-8db4-887c9cd7ea77",
       "teams": [
         "Bowdon Bombers",
         "Llanfairfechan"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Jack Good",
-            "Davyth Fear"
+            {
+              "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/3fbec8dd-5a1b-48e3-8714-1c2cbc2b3ec6",
+              "name": "Davyth Fear"
+            }
           ],
           "games": [
             {
+              "gameId": "game/de19dd1f-209e-49ef-882d-b5aeac3ba5ef",
               "players": [
                 {
+                  "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3fbec8dd-5a1b-48e3-8714-1c2cbc2b3ec6",
                   "name": "Davyth Fear",
                   "score": "0"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "David Crawford"
+            {
+              "playerId": "team-player/9dcc8a93-dbba-4daf-bc04-f1575db8dec4",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
+              "name": "David Crawford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35ba86d2-3b4d-404e-acd0-16686dca07b2",
               "players": [
                 {
+                  "playerId": "team-player/9dcc8a93-dbba-4daf-bc04-f1575db8dec4",
                   "name": "Nigel Matthews",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
                   "name": "David Crawford",
                   "score": "7"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Liz Jordan"
+            {
+              "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/8e5be9ba-4444-4094-bfbc-e6f0639c99c3",
+              "name": "Liz Jordan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3a8fe61b-df6d-467f-a6b3-b42d0cfa8ee1",
               "players": [
                 {
+                  "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
                   "name": "David Holland",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8e5be9ba-4444-4094-bfbc-e6f0639c99c3",
                   "name": "Liz Jordan",
                   "score": "7"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Liz Jordan"
+            {
+              "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/8e5be9ba-4444-4094-bfbc-e6f0639c99c3",
+              "name": "Liz Jordan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ce6843e8-197d-413b-a007-a92e46ee217e",
               "players": [
                 {
+                  "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e5be9ba-4444-4094-bfbc-e6f0639c99c3",
                   "name": "Liz Jordan",
                   "score": "1"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "David Crawford"
+            {
+              "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
+              "name": "David Crawford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fbf91e02-7781-48bc-8019-9da588a27aae",
               "players": [
                 {
+                  "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
                   "name": "David Holland",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
                   "name": "David Crawford",
                   "score": "4"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Davyth Fear"
+            {
+              "playerId": "team-player/9dcc8a93-dbba-4daf-bc04-f1575db8dec4",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/3fbec8dd-5a1b-48e3-8714-1c2cbc2b3ec6",
+              "name": "Davyth Fear"
+            }
           ],
           "games": [
             {
+              "gameId": "game/031fe7cf-6ef9-4f9f-873e-146d0432e75f",
               "players": [
                 {
+                  "playerId": "team-player/9dcc8a93-dbba-4daf-bc04-f1575db8dec4",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3fbec8dd-5a1b-48e3-8714-1c2cbc2b3ec6",
                   "name": "Davyth Fear",
                   "score": "4"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "David Crawford"
+            {
+              "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
+              "name": "David Crawford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/674eb806-92b9-47c3-9d4d-31bbfc856982",
               "players": [
                 {
+                  "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
                   "name": "David Crawford",
                   "score": "3"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Liz Jordan"
+            {
+              "playerId": "team-player/9dcc8a93-dbba-4daf-bc04-f1575db8dec4",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/8e5be9ba-4444-4094-bfbc-e6f0639c99c3",
+              "name": "Liz Jordan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa25774b-31c4-4fea-9e1a-aaa434c8c35b",
               "players": [
                 {
+                  "playerId": "team-player/9dcc8a93-dbba-4daf-bc04-f1575db8dec4",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e5be9ba-4444-4094-bfbc-e6f0639c99c3",
                   "name": "Liz Jordan",
                   "score": "0"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Davyth Fear"
+            {
+              "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/3fbec8dd-5a1b-48e3-8714-1c2cbc2b3ec6",
+              "name": "Davyth Fear"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3101850d-06e7-4720-b90d-0536b97e6156",
               "players": [
                 {
+                  "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
                   "name": "David Holland",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3fbec8dd-5a1b-48e3-8714-1c2cbc2b3ec6",
                   "name": "Davyth Fear",
                   "score": "7"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Davyth Fear - meet again"
+            {
+              "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/ea2a27e8-3d50-4f94-82de-1f2a00d5063b",
+              "name": "Davyth Fear - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/68fd40dc-9afd-46ec-b6f4-ed8855576c27",
               "players": [
                 {
+                  "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ea2a27e8-3d50-4f94-82de-1f2a00d5063b",
                   "name": "Davyth Fear - meet again",
                   "score": "6"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Nigel Matthews - meet again",
-            "David Crawford"
+            {
+              "playerId": "team-player/a7451bdc-eac0-4a82-9279-4b8e894b5ae0",
+              "name": "Nigel Matthews - meet again"
+            },
+            {
+              "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
+              "name": "David Crawford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ede20d20-0c11-4729-8067-d67eb8424499",
               "players": [
                 {
+                  "playerId": "team-player/a7451bdc-eac0-4a82-9279-4b8e894b5ae0",
                   "name": "Nigel Matthews - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
                   "name": "David Crawford",
                   "score": "7"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Liz Jordan - meet again"
+            {
+              "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/6d121c65-5caa-4bd5-93df-2ca635272a41",
+              "name": "Liz Jordan - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b6d53f5c-0320-4e25-a0c7-a587f9b38147",
               "players": [
                 {
+                  "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
                   "name": "David Holland",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6d121c65-5caa-4bd5-93df-2ca635272a41",
                   "name": "Liz Jordan - meet again",
                   "score": "5"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Liz Jordan - meet again"
+            {
+              "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/6d121c65-5caa-4bd5-93df-2ca635272a41",
+              "name": "Liz Jordan - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/df40fc83-a527-4590-88f0-7887ec180f2f",
               "players": [
                 {
+                  "playerId": "team-player/3219ef08-d17f-4389-a22a-122314a57ca9",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6d121c65-5caa-4bd5-93df-2ca635272a41",
                   "name": "Liz Jordan - meet again",
                   "score": "6"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Davyth Fear - meet again"
+            {
+              "playerId": "team-player/9dcc8a93-dbba-4daf-bc04-f1575db8dec4",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/ea2a27e8-3d50-4f94-82de-1f2a00d5063b",
+              "name": "Davyth Fear - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4911e672-accd-476d-8574-f25bdeeb1d6a",
               "players": [
                 {
+                  "playerId": "team-player/9dcc8a93-dbba-4daf-bc04-f1575db8dec4",
                   "name": "Nigel Matthews",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/ea2a27e8-3d50-4f94-82de-1f2a00d5063b",
                   "name": "Davyth Fear - meet again",
                   "score": "7"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "David Holland - meet again",
-            "David Crawford"
+            {
+              "playerId": "team-player/fa9b339c-c3fd-4354-a2e1-2e98900e861f",
+              "name": "David Holland - meet again"
+            },
+            {
+              "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
+              "name": "David Crawford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88a51ef6-e6a0-43a6-abb5-616db973edcf",
               "players": [
                 {
+                  "playerId": "team-player/fa9b339c-c3fd-4354-a2e1-2e98900e861f",
                   "name": "David Holland - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5277017b-7deb-482d-92f4-8fd546519a92",
                   "name": "David Crawford",
                   "score": "7"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Nigel Matthews - meet again",
-            "Liz Jordan"
+            {
+              "playerId": "team-player/a7451bdc-eac0-4a82-9279-4b8e894b5ae0",
+              "name": "Nigel Matthews - meet again"
+            },
+            {
+              "playerId": "team-player/8e5be9ba-4444-4094-bfbc-e6f0639c99c3",
+              "name": "Liz Jordan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f1074a0c-1af8-4120-8272-d9ec1fa7cb1f",
               "players": [
                 {
+                  "playerId": "team-player/a7451bdc-eac0-4a82-9279-4b8e894b5ae0",
                   "name": "Nigel Matthews - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e5be9ba-4444-4094-bfbc-e6f0639c99c3",
                   "name": "Liz Jordan",
                   "score": "6"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Davyth Fear - meet again"
+            {
+              "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/ea2a27e8-3d50-4f94-82de-1f2a00d5063b",
+              "name": "Davyth Fear - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/33d630b5-a0ef-4746-8539-9dbdf979030d",
               "players": [
                 {
+                  "playerId": "team-player/369b56c7-977e-49f3-87bc-717c250168d3",
                   "name": "David Holland",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ea2a27e8-3d50-4f94-82de-1f2a00d5063b",
                   "name": "Davyth Fear - meet again",
                   "score": "7"
                 }

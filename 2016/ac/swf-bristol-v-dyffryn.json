@@ -1,33 +1,55 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e07c3e2e-4a6c-42f3-a07b-14613d902a7c",
   "name": "SWF: Bristol v Dyffryn",
   "sport": "ac",
   "firstDay": "2016-07-31",
   "lastDay": "2016-07-31",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "David Goacher",
-        "Martin Leach",
-        "Richard M Smith"
+        {
+          "playerId": "team-player/d039e6a0-615d-4998-8128-81b48ed53abe",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/37fe2c04-2cfa-481e-b830-9e5a058c085a",
+          "name": "Martin Leach"
+        },
+        {
+          "playerId": "team-player/8ec75ed7-e4ee-4946-8cb1-d7e90766baa4",
+          "name": "Richard M Smith"
+        }
       ]
     },
     {
       "name": "Dyffryn",
       "shortName": "Dyffryn",
       "players": [
-        "Chris Williams",
-        "Garry McElwain",
-        "John Evans"
+        {
+          "playerId": "team-player/b456dc40-3efb-4769-947c-a244d09395ec",
+          "name": "Chris Williams"
+        },
+        {
+          "playerId": "team-player/f33cd172-be1d-432c-a1b0-f1cb7e90a72d",
+          "name": "Garry McElwain"
+        },
+        {
+          "playerId": "team-player/07dd5cde-2152-40df-8ab8-2544503f6073",
+          "name": "John Evans"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/c299f727-b6c4-4ff8-b0b1-f91bb3ac43cb",
       "teams": [
         "Bristol",
         "Dyffryn"
@@ -37,17 +59,26 @@
       "matches": [
         {
           "players": [
-            "Martin Leach",
-            "John Evans"
+            {
+              "playerId": "team-player/37fe2c04-2cfa-481e-b830-9e5a058c085a",
+              "name": "Martin Leach"
+            },
+            {
+              "playerId": "team-player/07dd5cde-2152-40df-8ab8-2544503f6073",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/60c163a5-16eb-4095-bc5a-eae26b477475",
               "players": [
                 {
+                  "playerId": "team-player/37fe2c04-2cfa-481e-b830-9e5a058c085a",
                   "name": "Martin Leach",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/07dd5cde-2152-40df-8ab8-2544503f6073",
                   "name": "John Evans",
                   "score": "26"
                 }
@@ -59,17 +90,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Chris Williams"
+            {
+              "playerId": "team-player/8ec75ed7-e4ee-4946-8cb1-d7e90766baa4",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/b456dc40-3efb-4769-947c-a244d09395ec",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4b02ff7-8c68-426c-b692-5bf4a3712260",
               "players": [
                 {
+                  "playerId": "team-player/8ec75ed7-e4ee-4946-8cb1-d7e90766baa4",
                   "name": "Richard M Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b456dc40-3efb-4769-947c-a244d09395ec",
                   "name": "Chris Williams",
                   "score": "22"
                 }
@@ -81,17 +121,26 @@
         },
         {
           "players": [
-            "Martin Leach",
-            "Chris Williams"
+            {
+              "playerId": "team-player/37fe2c04-2cfa-481e-b830-9e5a058c085a",
+              "name": "Martin Leach"
+            },
+            {
+              "playerId": "team-player/b456dc40-3efb-4769-947c-a244d09395ec",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/245657b4-1007-49bc-85dd-70171d111748",
               "players": [
                 {
+                  "playerId": "team-player/37fe2c04-2cfa-481e-b830-9e5a058c085a",
                   "name": "Martin Leach",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/b456dc40-3efb-4769-947c-a244d09395ec",
                   "name": "Chris Williams",
                   "score": "26"
                 }
@@ -103,17 +152,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/8ec75ed7-e4ee-4946-8cb1-d7e90766baa4",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/f33cd172-be1d-432c-a1b0-f1cb7e90a72d",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/825e13ca-d131-47ca-994a-f989077ad70e",
               "players": [
                 {
+                  "playerId": "team-player/8ec75ed7-e4ee-4946-8cb1-d7e90766baa4",
                   "name": "Richard M Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f33cd172-be1d-432c-a1b0-f1cb7e90a72d",
                   "name": "Garry McElwain",
                   "score": "18"
                 }
@@ -125,17 +183,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "John Evans"
+            {
+              "playerId": "team-player/d039e6a0-615d-4998-8128-81b48ed53abe",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/07dd5cde-2152-40df-8ab8-2544503f6073",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f0972d1d-f248-42ef-acf2-8d8e1605d2aa",
               "players": [
                 {
+                  "playerId": "team-player/d039e6a0-615d-4998-8128-81b48ed53abe",
                   "name": "David Goacher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/07dd5cde-2152-40df-8ab8-2544503f6073",
                   "name": "John Evans",
                   "score": "10"
                 }
@@ -147,17 +214,26 @@
         },
         {
           "players": [
-            "Martin Leach",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/37fe2c04-2cfa-481e-b830-9e5a058c085a",
+              "name": "Martin Leach"
+            },
+            {
+              "playerId": "team-player/f33cd172-be1d-432c-a1b0-f1cb7e90a72d",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/29f3dfc5-1132-4a3d-90ed-e3f26c307f68",
               "players": [
                 {
+                  "playerId": "team-player/37fe2c04-2cfa-481e-b830-9e5a058c085a",
                   "name": "Martin Leach",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/f33cd172-be1d-432c-a1b0-f1cb7e90a72d",
                   "name": "Garry McElwain",
                   "score": "26"
                 }
@@ -169,17 +245,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "John Evans"
+            {
+              "playerId": "team-player/8ec75ed7-e4ee-4946-8cb1-d7e90766baa4",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/07dd5cde-2152-40df-8ab8-2544503f6073",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35908e21-c093-496a-ab56-0380bcff2694",
               "players": [
                 {
+                  "playerId": "team-player/8ec75ed7-e4ee-4946-8cb1-d7e90766baa4",
                   "name": "Richard M Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/07dd5cde-2152-40df-8ab8-2544503f6073",
                   "name": "John Evans",
                   "score": "23"
                 }
@@ -191,17 +276,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Chris Williams"
+            {
+              "playerId": "team-player/d039e6a0-615d-4998-8128-81b48ed53abe",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/b456dc40-3efb-4769-947c-a244d09395ec",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b7f5ff0-ce4d-413d-8255-6e946b45a547",
               "players": [
                 {
+                  "playerId": "team-player/d039e6a0-615d-4998-8128-81b48ed53abe",
                   "name": "David Goacher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b456dc40-3efb-4769-947c-a244d09395ec",
                   "name": "Chris Williams",
                   "score": "15"
                 }
@@ -213,17 +307,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/d039e6a0-615d-4998-8128-81b48ed53abe",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/f33cd172-be1d-432c-a1b0-f1cb7e90a72d",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2b53dd2-9bc3-40c8-90cf-c7a53441b264",
               "players": [
                 {
+                  "playerId": "team-player/d039e6a0-615d-4998-8128-81b48ed53abe",
                   "name": "David Goacher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f33cd172-be1d-432c-a1b0-f1cb7e90a72d",
                   "name": "Garry McElwain",
                   "score": "21"
                 }

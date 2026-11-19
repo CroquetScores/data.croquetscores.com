@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a32a5950-e533-4e0b-bd0e-a908b2697c53",
   "name": "SWF Advanced Sidmouth B v Cheltenham B",
   "sport": "ac",
   "firstDay": "2023-06-15",
   "lastDay": "2023-06-15",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Sidmouth B",
       "shortName": "Sidmouth B",
       "players": [
-        "Colin Walls",
-        "Ed Dolphin",
-        "Ian Friedlander",
-        "Jane B & Ian Friedlander",
-        "Jane Babbage"
+        {
+          "playerId": "team-player/cb6a080e-0b1b-42dd-9f55-315bd068ecb5",
+          "name": "Colin Walls"
+        },
+        {
+          "playerId": "team-player/f0be377d-993b-42a8-97f0-68946117bd92",
+          "name": "Ed Dolphin"
+        },
+        {
+          "playerId": "team-player/0dc548b5-db0c-4461-93eb-e932e145e3fb",
+          "name": "Ian Friedlander"
+        },
+        {
+          "playerId": "team-player/6782bbaa-722b-4e3b-9492-1b45619ef53e",
+          "name": "Jane B & Ian Friedlander"
+        },
+        {
+          "playerId": "team-player/88596453-28e2-4dc9-a107-042fa0c4040b",
+          "name": "Jane Babbage"
+        }
       ]
     },
     {
       "name": "Cheltenham B",
       "shortName": "Cheltenham",
       "players": [
-        "Adam Moliver",
-        "Adam Moliver & Craig Edwards",
-        "Craig Edwards",
-        "Paul Watson",
-        "Roger Willbourn"
+        {
+          "playerId": "team-player/6b0af3b9-ba08-4448-9492-798268797753",
+          "name": "Adam Moliver"
+        },
+        {
+          "playerId": "team-player/c644fab7-aa46-4cfd-8ddb-b60b59a2d2ab",
+          "name": "Adam Moliver & Craig Edwards"
+        },
+        {
+          "playerId": "team-player/c270814a-b2b8-4452-90eb-b256a7febb58",
+          "name": "Craig Edwards"
+        },
+        {
+          "playerId": "team-player/bc62eadc-3ebc-4be9-9eee-cd6fdbc5fdde",
+          "name": "Paul Watson"
+        },
+        {
+          "playerId": "team-player/522783ea-7579-42d8-b49f-c8ee89fdc91a",
+          "name": "Roger Willbourn"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/d7992a84-8c3f-40ec-815a-3978b038c755",
       "teams": [
         "Sidmouth B",
         "Cheltenham B"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Jane B & Ian Friedlander",
-            "Adam Moliver & Craig Edwards"
+            {
+              "playerId": "team-player/6782bbaa-722b-4e3b-9492-1b45619ef53e",
+              "name": "Jane B & Ian Friedlander"
+            },
+            {
+              "playerId": "team-player/c644fab7-aa46-4cfd-8ddb-b60b59a2d2ab",
+              "name": "Adam Moliver & Craig Edwards"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ea9bf75d-c41d-4f7b-b094-0394e4a29d03",
               "players": [
                 {
+                  "playerId": "team-player/6782bbaa-722b-4e3b-9492-1b45619ef53e",
                   "name": "Jane B & Ian Friedlander",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/c644fab7-aa46-4cfd-8ddb-b60b59a2d2ab",
                   "name": "Adam Moliver & Craig Edwards",
                   "score": "19"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Colin Walls",
-            "Roger Willbourn"
+            {
+              "playerId": "team-player/cb6a080e-0b1b-42dd-9f55-315bd068ecb5",
+              "name": "Colin Walls"
+            },
+            {
+              "playerId": "team-player/522783ea-7579-42d8-b49f-c8ee89fdc91a",
+              "name": "Roger Willbourn"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1701eb91-eff9-463a-b1f8-736ff2ec04d9",
               "players": [
                 {
+                  "playerId": "team-player/cb6a080e-0b1b-42dd-9f55-315bd068ecb5",
                   "name": "Colin Walls",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/522783ea-7579-42d8-b49f-c8ee89fdc91a",
                   "name": "Roger Willbourn",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Ed Dolphin",
-            "Paul Watson"
+            {
+              "playerId": "team-player/f0be377d-993b-42a8-97f0-68946117bd92",
+              "name": "Ed Dolphin"
+            },
+            {
+              "playerId": "team-player/bc62eadc-3ebc-4be9-9eee-cd6fdbc5fdde",
+              "name": "Paul Watson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0c5d8945-3bf3-4d5b-8ccd-f28b33586588",
               "players": [
                 {
+                  "playerId": "team-player/f0be377d-993b-42a8-97f0-68946117bd92",
                   "name": "Ed Dolphin",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/bc62eadc-3ebc-4be9-9eee-cd6fdbc5fdde",
                   "name": "Paul Watson",
                   "score": "13"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Colin Walls",
-            "Craig Edwards"
+            {
+              "playerId": "team-player/cb6a080e-0b1b-42dd-9f55-315bd068ecb5",
+              "name": "Colin Walls"
+            },
+            {
+              "playerId": "team-player/c270814a-b2b8-4452-90eb-b256a7febb58",
+              "name": "Craig Edwards"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4216101e-19b7-42c9-af90-7f60ce4e37ca",
               "players": [
                 {
+                  "playerId": "team-player/cb6a080e-0b1b-42dd-9f55-315bd068ecb5",
                   "name": "Colin Walls",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/c270814a-b2b8-4452-90eb-b256a7febb58",
                   "name": "Craig Edwards",
                   "score": "16"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Jane Babbage",
-            "Roger Willbourn"
+            {
+              "playerId": "team-player/88596453-28e2-4dc9-a107-042fa0c4040b",
+              "name": "Jane Babbage"
+            },
+            {
+              "playerId": "team-player/522783ea-7579-42d8-b49f-c8ee89fdc91a",
+              "name": "Roger Willbourn"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af1b09f8-f83c-425f-bda6-ec71c1f259a6",
               "players": [
                 {
+                  "playerId": "team-player/88596453-28e2-4dc9-a107-042fa0c4040b",
                   "name": "Jane Babbage",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/522783ea-7579-42d8-b49f-c8ee89fdc91a",
                   "name": "Roger Willbourn",
                   "score": "13"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Ed Dolphin",
-            "Adam Moliver"
+            {
+              "playerId": "team-player/f0be377d-993b-42a8-97f0-68946117bd92",
+              "name": "Ed Dolphin"
+            },
+            {
+              "playerId": "team-player/6b0af3b9-ba08-4448-9492-798268797753",
+              "name": "Adam Moliver"
+            }
           ],
           "games": [
             {
+              "gameId": "game/be6a45a4-ed31-4097-b187-8ae4b4ec83f6",
               "players": [
                 {
+                  "playerId": "team-player/f0be377d-993b-42a8-97f0-68946117bd92",
                   "name": "Ed Dolphin",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6b0af3b9-ba08-4448-9492-798268797753",
                   "name": "Adam Moliver",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Ian Friedlander",
-            "Paul Watson"
+            {
+              "playerId": "team-player/0dc548b5-db0c-4461-93eb-e932e145e3fb",
+              "name": "Ian Friedlander"
+            },
+            {
+              "playerId": "team-player/bc62eadc-3ebc-4be9-9eee-cd6fdbc5fdde",
+              "name": "Paul Watson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/230a2ac1-3df9-46a1-a68f-5246f917e37c",
               "players": [
                 {
+                  "playerId": "team-player/0dc548b5-db0c-4461-93eb-e932e145e3fb",
                   "name": "Ian Friedlander",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bc62eadc-3ebc-4be9-9eee-cd6fdbc5fdde",
                   "name": "Paul Watson",
                   "score": "26"
                 }

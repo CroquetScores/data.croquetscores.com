@@ -1,40 +1,83 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e30e5b0f-2eb8-46ff-9c01-131aee67b1c1",
   "name": "SWCF Dyffryn v Bath",
   "sport": "gc",
   "firstDay": "2016-08-07",
   "lastDay": "2016-08-07",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Dyffryn",
       "shortName": "Dyffryn",
       "players": [
-        "John Cording",
-        "John Cording & Robert Upton",
-        "Kevin Ham",
-        "Peter Balchin",
-        "Robert Upton",
-        "Sarah Melvin",
-        "Sarah Melvin & Kevin Ham"
+        {
+          "playerId": "team-player/fc5cafff-c016-47ef-a233-2fa2034d3ad5",
+          "name": "John Cording"
+        },
+        {
+          "playerId": "team-player/3e1fa133-130a-40cc-9679-b8ddfc2ab889",
+          "name": "John Cording & Robert Upton"
+        },
+        {
+          "playerId": "team-player/2066c09b-dc42-430a-9aa0-227aeaece80d",
+          "name": "Kevin Ham"
+        },
+        {
+          "playerId": "team-player/0044f946-0b3e-4255-8642-e9131ac285fb",
+          "name": "Peter Balchin"
+        },
+        {
+          "playerId": "team-player/c0351e5e-9b02-4539-852e-42bb89d4503a",
+          "name": "Robert Upton"
+        },
+        {
+          "playerId": "team-player/85d53168-bbea-4600-a48a-4f342dabff67",
+          "name": "Sarah Melvin"
+        },
+        {
+          "playerId": "team-player/c0e4ef9c-006d-48af-ae86-e71b02ca97d4",
+          "name": "Sarah Melvin & Kevin Ham"
+        }
       ]
     },
     {
       "name": "Bath",
       "shortName": "Bath",
       "players": [
-        "Norman Connor",
-        "Paul Francis",
-        "Paul Francis & Peter Riley",
-        "Peter Riley",
-        "Roger Hayes",
-        "Roger Hayes & Norman Connor"
+        {
+          "playerId": "team-player/8a7e875a-c09c-4b1b-9847-76a36d8ff4f8",
+          "name": "Norman Connor"
+        },
+        {
+          "playerId": "team-player/73b24a36-05ca-40e1-aeb7-506dfd2d34b2",
+          "name": "Paul Francis"
+        },
+        {
+          "playerId": "team-player/6d49bd48-b069-4fc0-9e3d-5231e914af5c",
+          "name": "Paul Francis & Peter Riley"
+        },
+        {
+          "playerId": "team-player/3405dc89-eb34-44e8-9a2b-aafde450c1fc",
+          "name": "Peter Riley"
+        },
+        {
+          "playerId": "team-player/2260d553-115a-4257-9d4b-9a315f5e7fdb",
+          "name": "Roger Hayes"
+        },
+        {
+          "playerId": "team-player/df430abd-b236-443e-8ce7-91737dc22ada",
+          "name": "Roger Hayes & Norman Connor"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/97953c1e-41a2-4c4d-9d2c-0d4825cd5e1e",
       "teams": [
         "Dyffryn",
         "Bath"
@@ -44,17 +87,26 @@
       "matches": [
         {
           "players": [
-            "Sarah Melvin & Kevin Ham",
-            "Roger Hayes & Norman Connor"
+            {
+              "playerId": "team-player/c0e4ef9c-006d-48af-ae86-e71b02ca97d4",
+              "name": "Sarah Melvin & Kevin Ham"
+            },
+            {
+              "playerId": "team-player/df430abd-b236-443e-8ce7-91737dc22ada",
+              "name": "Roger Hayes & Norman Connor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34dd553c-0947-4258-b869-b2f7d7837e11",
               "players": [
                 {
+                  "playerId": "team-player/c0e4ef9c-006d-48af-ae86-e71b02ca97d4",
                   "name": "Sarah Melvin & Kevin Ham",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/df430abd-b236-443e-8ce7-91737dc22ada",
                   "name": "Roger Hayes & Norman Connor",
                   "score": "7"
                 }
@@ -66,17 +118,26 @@
         },
         {
           "players": [
-            "John Cording & Robert Upton",
-            "Paul Francis & Peter Riley"
+            {
+              "playerId": "team-player/3e1fa133-130a-40cc-9679-b8ddfc2ab889",
+              "name": "John Cording & Robert Upton"
+            },
+            {
+              "playerId": "team-player/6d49bd48-b069-4fc0-9e3d-5231e914af5c",
+              "name": "Paul Francis & Peter Riley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8e79dece-c217-475b-baed-a1afc8e741e5",
               "players": [
                 {
+                  "playerId": "team-player/3e1fa133-130a-40cc-9679-b8ddfc2ab889",
                   "name": "John Cording & Robert Upton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6d49bd48-b069-4fc0-9e3d-5231e914af5c",
                   "name": "Paul Francis & Peter Riley",
                   "score": "7"
                 }
@@ -88,17 +149,26 @@
         },
         {
           "players": [
-            "Sarah Melvin & Kevin Ham",
-            "Paul Francis & Peter Riley"
+            {
+              "playerId": "team-player/c0e4ef9c-006d-48af-ae86-e71b02ca97d4",
+              "name": "Sarah Melvin & Kevin Ham"
+            },
+            {
+              "playerId": "team-player/6d49bd48-b069-4fc0-9e3d-5231e914af5c",
+              "name": "Paul Francis & Peter Riley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17bda676-6c3a-4392-86f3-8746ef23294d",
               "players": [
                 {
+                  "playerId": "team-player/c0e4ef9c-006d-48af-ae86-e71b02ca97d4",
                   "name": "Sarah Melvin & Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6d49bd48-b069-4fc0-9e3d-5231e914af5c",
                   "name": "Paul Francis & Peter Riley",
                   "score": "2"
                 }
@@ -110,17 +180,26 @@
         },
         {
           "players": [
-            "John Cording & Robert Upton",
-            "Roger Hayes & Norman Connor"
+            {
+              "playerId": "team-player/3e1fa133-130a-40cc-9679-b8ddfc2ab889",
+              "name": "John Cording & Robert Upton"
+            },
+            {
+              "playerId": "team-player/df430abd-b236-443e-8ce7-91737dc22ada",
+              "name": "Roger Hayes & Norman Connor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aaa19d45-8c56-416e-8699-0ccac6630479",
               "players": [
                 {
+                  "playerId": "team-player/3e1fa133-130a-40cc-9679-b8ddfc2ab889",
                   "name": "John Cording & Robert Upton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/df430abd-b236-443e-8ce7-91737dc22ada",
                   "name": "Roger Hayes & Norman Connor",
                   "score": "3"
                 }
@@ -132,17 +211,26 @@
         },
         {
           "players": [
-            "Peter Balchin",
-            "Peter Riley"
+            {
+              "playerId": "team-player/0044f946-0b3e-4255-8642-e9131ac285fb",
+              "name": "Peter Balchin"
+            },
+            {
+              "playerId": "team-player/3405dc89-eb34-44e8-9a2b-aafde450c1fc",
+              "name": "Peter Riley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9063bb82-0900-4f56-a412-5eaaf4e3309c",
               "players": [
                 {
+                  "playerId": "team-player/0044f946-0b3e-4255-8642-e9131ac285fb",
                   "name": "Peter Balchin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3405dc89-eb34-44e8-9a2b-aafde450c1fc",
                   "name": "Peter Riley",
                   "score": "3"
                 }
@@ -154,17 +242,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Norman Connor"
+            {
+              "playerId": "team-player/85d53168-bbea-4600-a48a-4f342dabff67",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/8a7e875a-c09c-4b1b-9847-76a36d8ff4f8",
+              "name": "Norman Connor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4de9cb44-6732-42b4-8dae-5f430b71270b",
               "players": [
                 {
+                  "playerId": "team-player/85d53168-bbea-4600-a48a-4f342dabff67",
                   "name": "Sarah Melvin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8a7e875a-c09c-4b1b-9847-76a36d8ff4f8",
                   "name": "Norman Connor",
                   "score": "4"
                 }
@@ -176,17 +273,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Paul Francis"
+            {
+              "playerId": "team-player/2066c09b-dc42-430a-9aa0-227aeaece80d",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/73b24a36-05ca-40e1-aeb7-506dfd2d34b2",
+              "name": "Paul Francis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a35a32ce-b0ad-422e-b774-7eed5bbe9eb8",
               "players": [
                 {
+                  "playerId": "team-player/2066c09b-dc42-430a-9aa0-227aeaece80d",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/73b24a36-05ca-40e1-aeb7-506dfd2d34b2",
                   "name": "Paul Francis",
                   "score": "6"
                 }
@@ -198,17 +304,26 @@
         },
         {
           "players": [
-            "Peter Balchin",
-            "Norman Connor"
+            {
+              "playerId": "team-player/0044f946-0b3e-4255-8642-e9131ac285fb",
+              "name": "Peter Balchin"
+            },
+            {
+              "playerId": "team-player/8a7e875a-c09c-4b1b-9847-76a36d8ff4f8",
+              "name": "Norman Connor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/95fbee4a-f27b-45d5-b4e7-e6d6c2a5a495",
               "players": [
                 {
+                  "playerId": "team-player/0044f946-0b3e-4255-8642-e9131ac285fb",
                   "name": "Peter Balchin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8a7e875a-c09c-4b1b-9847-76a36d8ff4f8",
                   "name": "Norman Connor",
                   "score": "4"
                 }
@@ -220,17 +335,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Peter Riley"
+            {
+              "playerId": "team-player/85d53168-bbea-4600-a48a-4f342dabff67",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/3405dc89-eb34-44e8-9a2b-aafde450c1fc",
+              "name": "Peter Riley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/81a687d7-c6f2-44c0-91d2-afc18a9f670f",
               "players": [
                 {
+                  "playerId": "team-player/85d53168-bbea-4600-a48a-4f342dabff67",
                   "name": "Sarah Melvin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3405dc89-eb34-44e8-9a2b-aafde450c1fc",
                   "name": "Peter Riley",
                   "score": "5"
                 }
@@ -242,17 +366,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Roger Hayes"
+            {
+              "playerId": "team-player/fc5cafff-c016-47ef-a233-2fa2034d3ad5",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/2260d553-115a-4257-9d4b-9a315f5e7fdb",
+              "name": "Roger Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c274b0df-c100-462e-841a-2ca18f17995b",
               "players": [
                 {
+                  "playerId": "team-player/fc5cafff-c016-47ef-a233-2fa2034d3ad5",
                   "name": "John Cording",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/2260d553-115a-4257-9d4b-9a315f5e7fdb",
                   "name": "Roger Hayes",
                   "score": "7"
                 }
@@ -264,17 +397,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Paul Francis"
+            {
+              "playerId": "team-player/c0351e5e-9b02-4539-852e-42bb89d4503a",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/73b24a36-05ca-40e1-aeb7-506dfd2d34b2",
+              "name": "Paul Francis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9a6d551-3578-4aed-823f-3e555a4f580e",
               "players": [
                 {
+                  "playerId": "team-player/c0351e5e-9b02-4539-852e-42bb89d4503a",
                   "name": "Robert Upton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/73b24a36-05ca-40e1-aeb7-506dfd2d34b2",
                   "name": "Paul Francis",
                   "score": "7"
                 }
@@ -286,17 +428,26 @@
         },
         {
           "players": [
-            "Peter Balchin",
-            "Paul Francis"
+            {
+              "playerId": "team-player/0044f946-0b3e-4255-8642-e9131ac285fb",
+              "name": "Peter Balchin"
+            },
+            {
+              "playerId": "team-player/73b24a36-05ca-40e1-aeb7-506dfd2d34b2",
+              "name": "Paul Francis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/14eb3961-3b74-4bf1-b986-0212a5f31ebb",
               "players": [
                 {
+                  "playerId": "team-player/0044f946-0b3e-4255-8642-e9131ac285fb",
                   "name": "Peter Balchin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/73b24a36-05ca-40e1-aeb7-506dfd2d34b2",
                   "name": "Paul Francis",
                   "score": "4"
                 }
@@ -308,17 +459,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Roger Hayes"
+            {
+              "playerId": "team-player/2066c09b-dc42-430a-9aa0-227aeaece80d",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/2260d553-115a-4257-9d4b-9a315f5e7fdb",
+              "name": "Roger Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3ab25fff-db71-4b77-af6f-564635136ba4",
               "players": [
                 {
+                  "playerId": "team-player/2066c09b-dc42-430a-9aa0-227aeaece80d",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2260d553-115a-4257-9d4b-9a315f5e7fdb",
                   "name": "Roger Hayes",
                   "score": "2"
                 }
@@ -330,17 +490,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Norman Connor"
+            {
+              "playerId": "team-player/fc5cafff-c016-47ef-a233-2fa2034d3ad5",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/8a7e875a-c09c-4b1b-9847-76a36d8ff4f8",
+              "name": "Norman Connor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6132ac13-9582-4a42-a749-5844fbcb9f54",
               "players": [
                 {
+                  "playerId": "team-player/fc5cafff-c016-47ef-a233-2fa2034d3ad5",
                   "name": "John Cording",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8a7e875a-c09c-4b1b-9847-76a36d8ff4f8",
                   "name": "Norman Connor",
                   "score": "4"
                 }
@@ -352,17 +521,26 @@
         },
         {
           "players": [
-            "Peter Balchin",
-            "Roger Hayes"
+            {
+              "playerId": "team-player/0044f946-0b3e-4255-8642-e9131ac285fb",
+              "name": "Peter Balchin"
+            },
+            {
+              "playerId": "team-player/2260d553-115a-4257-9d4b-9a315f5e7fdb",
+              "name": "Roger Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/858ef187-23bc-4f49-b7fb-8b3138118841",
               "players": [
                 {
+                  "playerId": "team-player/0044f946-0b3e-4255-8642-e9131ac285fb",
                   "name": "Peter Balchin",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/2260d553-115a-4257-9d4b-9a315f5e7fdb",
                   "name": "Roger Hayes",
                   "score": "7"
                 }
@@ -374,17 +552,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Paul Francis"
+            {
+              "playerId": "team-player/85d53168-bbea-4600-a48a-4f342dabff67",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/73b24a36-05ca-40e1-aeb7-506dfd2d34b2",
+              "name": "Paul Francis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2549db5e-a4ac-4147-84b4-1e59a471a979",
               "players": [
                 {
+                  "playerId": "team-player/85d53168-bbea-4600-a48a-4f342dabff67",
                   "name": "Sarah Melvin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/73b24a36-05ca-40e1-aeb7-506dfd2d34b2",
                   "name": "Paul Francis",
                   "score": "6"
                 }
@@ -396,17 +583,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Norman Connor"
+            {
+              "playerId": "team-player/2066c09b-dc42-430a-9aa0-227aeaece80d",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/8a7e875a-c09c-4b1b-9847-76a36d8ff4f8",
+              "name": "Norman Connor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c71ca87-ac4f-440f-ac30-63c9896b157d",
               "players": [
                 {
+                  "playerId": "team-player/2066c09b-dc42-430a-9aa0-227aeaece80d",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8a7e875a-c09c-4b1b-9847-76a36d8ff4f8",
                   "name": "Norman Connor",
                   "score": "2"
                 }
@@ -418,17 +614,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Peter Riley"
+            {
+              "playerId": "team-player/fc5cafff-c016-47ef-a233-2fa2034d3ad5",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/3405dc89-eb34-44e8-9a2b-aafde450c1fc",
+              "name": "Peter Riley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8193315b-4cf4-4dbf-9c1a-27787ba406fb",
               "players": [
                 {
+                  "playerId": "team-player/fc5cafff-c016-47ef-a233-2fa2034d3ad5",
                   "name": "John Cording",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/3405dc89-eb34-44e8-9a2b-aafde450c1fc",
                   "name": "Peter Riley",
                   "score": "7"
                 }
@@ -440,17 +645,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Peter Riley"
+            {
+              "playerId": "team-player/c0351e5e-9b02-4539-852e-42bb89d4503a",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/3405dc89-eb34-44e8-9a2b-aafde450c1fc",
+              "name": "Peter Riley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6e8bedb0-d086-4b70-9316-db72b9e2cd21",
               "players": [
                 {
+                  "playerId": "team-player/c0351e5e-9b02-4539-852e-42bb89d4503a",
                   "name": "Robert Upton",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3405dc89-eb34-44e8-9a2b-aafde450c1fc",
                   "name": "Peter Riley",
                   "score": "7"
                 }

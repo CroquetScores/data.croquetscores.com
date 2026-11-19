@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f289d259-0f83-4e50-a418-2a7352e93f7b",
   "name": "Longman Cup Newport v Letchworth",
   "sport": "ac",
   "firstDay": "2023-06-22",
   "lastDay": "2023-06-22",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Newport",
       "shortName": "Newport",
       "players": [
-        "Chris van Essen",
-        "Chris van Essen & Roy Darling",
-        "Mat Hardy",
-        "Max Byfield",
-        "Roy Darling"
+        {
+          "playerId": "team-player/bbba4ae7-cdf9-47f1-879e-7ba905b255ea",
+          "name": "Chris van Essen"
+        },
+        {
+          "playerId": "team-player/b5cbcd70-345d-4f9e-bd2b-03822798793d",
+          "name": "Chris van Essen & Roy Darling"
+        },
+        {
+          "playerId": "team-player/2409a356-1f59-491a-81b6-d4a7cf899d35",
+          "name": "Mat Hardy"
+        },
+        {
+          "playerId": "team-player/972678f3-5915-4813-96b2-061705538d7c",
+          "name": "Max Byfield"
+        },
+        {
+          "playerId": "team-player/7f2e3901-a2a0-4bf1-9016-6c0d9f5a0ee5",
+          "name": "Roy Darling"
+        }
       ]
     },
     {
       "name": "Letchworth",
       "shortName": "Letchworth",
       "players": [
-        "Colin Davies",
-        "David Clancey",
-        "David Clancey & Sheila Haggett",
-        "Robert Skeen",
-        "Sheila Haggett"
+        {
+          "playerId": "team-player/782f658a-9314-416d-bc23-a28e5fa15761",
+          "name": "Colin Davies"
+        },
+        {
+          "playerId": "team-player/97938150-e755-4513-a362-408bf9802797",
+          "name": "David Clancey"
+        },
+        {
+          "playerId": "team-player/f67b2e98-a0d7-4dfc-9d8a-19e745019bbf",
+          "name": "David Clancey & Sheila Haggett"
+        },
+        {
+          "playerId": "team-player/f579595c-9fa1-4f9b-8524-00131db59a74",
+          "name": "Robert Skeen"
+        },
+        {
+          "playerId": "team-player/3c4b21bd-41f0-48b6-8c61-7dbcba6355dd",
+          "name": "Sheila Haggett"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/5815e240-26ed-45ff-aa65-34a733633171",
       "teams": [
         "Newport",
         "Letchworth"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Chris van Essen & Roy Darling",
-            "David Clancey & Sheila Haggett"
+            {
+              "playerId": "team-player/b5cbcd70-345d-4f9e-bd2b-03822798793d",
+              "name": "Chris van Essen & Roy Darling"
+            },
+            {
+              "playerId": "team-player/f67b2e98-a0d7-4dfc-9d8a-19e745019bbf",
+              "name": "David Clancey & Sheila Haggett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb8a87e9-3640-4e39-b2c0-01461fff4b0c",
               "players": [
                 {
+                  "playerId": "team-player/b5cbcd70-345d-4f9e-bd2b-03822798793d",
                   "name": "Chris van Essen & Roy Darling",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/f67b2e98-a0d7-4dfc-9d8a-19e745019bbf",
                   "name": "David Clancey & Sheila Haggett",
                   "score": "2t"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Mat Hardy",
-            "Colin Davies"
+            {
+              "playerId": "team-player/2409a356-1f59-491a-81b6-d4a7cf899d35",
+              "name": "Mat Hardy"
+            },
+            {
+              "playerId": "team-player/782f658a-9314-416d-bc23-a28e5fa15761",
+              "name": "Colin Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/842e1abc-baac-4350-8ec4-12a2353827b7",
               "players": [
                 {
+                  "playerId": "team-player/2409a356-1f59-491a-81b6-d4a7cf899d35",
                   "name": "Mat Hardy",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/782f658a-9314-416d-bc23-a28e5fa15761",
                   "name": "Colin Davies",
                   "score": "17"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Max Byfield",
-            "Robert Skeen"
+            {
+              "playerId": "team-player/972678f3-5915-4813-96b2-061705538d7c",
+              "name": "Max Byfield"
+            },
+            {
+              "playerId": "team-player/f579595c-9fa1-4f9b-8524-00131db59a74",
+              "name": "Robert Skeen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0dd93c8a-47bc-44c7-abcd-1a6216d51891",
               "players": [
                 {
+                  "playerId": "team-player/972678f3-5915-4813-96b2-061705538d7c",
                   "name": "Max Byfield",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f579595c-9fa1-4f9b-8524-00131db59a74",
                   "name": "Robert Skeen",
                   "score": "23"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Chris van Essen",
-            "Robert Skeen"
+            {
+              "playerId": "team-player/bbba4ae7-cdf9-47f1-879e-7ba905b255ea",
+              "name": "Chris van Essen"
+            },
+            {
+              "playerId": "team-player/f579595c-9fa1-4f9b-8524-00131db59a74",
+              "name": "Robert Skeen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5f42fa7-969e-4046-932e-86d386909039",
               "players": [
                 {
+                  "playerId": "team-player/bbba4ae7-cdf9-47f1-879e-7ba905b255ea",
                   "name": "Chris van Essen",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/f579595c-9fa1-4f9b-8524-00131db59a74",
                   "name": "Robert Skeen",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Max Byfield",
-            "Colin Davies"
+            {
+              "playerId": "team-player/972678f3-5915-4813-96b2-061705538d7c",
+              "name": "Max Byfield"
+            },
+            {
+              "playerId": "team-player/782f658a-9314-416d-bc23-a28e5fa15761",
+              "name": "Colin Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c470a88e-823d-4328-b61f-d66002bf3a90",
               "players": [
                 {
+                  "playerId": "team-player/972678f3-5915-4813-96b2-061705538d7c",
                   "name": "Max Byfield",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/782f658a-9314-416d-bc23-a28e5fa15761",
                   "name": "Colin Davies",
                   "score": "23"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Mat Hardy",
-            "David Clancey"
+            {
+              "playerId": "team-player/2409a356-1f59-491a-81b6-d4a7cf899d35",
+              "name": "Mat Hardy"
+            },
+            {
+              "playerId": "team-player/97938150-e755-4513-a362-408bf9802797",
+              "name": "David Clancey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb5b085a-6a9f-4bbe-ba21-86902d221d70",
               "players": [
                 {
+                  "playerId": "team-player/2409a356-1f59-491a-81b6-d4a7cf899d35",
                   "name": "Mat Hardy",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/97938150-e755-4513-a362-408bf9802797",
                   "name": "David Clancey",
                   "score": "14"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Roy Darling",
-            "Sheila Haggett"
+            {
+              "playerId": "team-player/7f2e3901-a2a0-4bf1-9016-6c0d9f5a0ee5",
+              "name": "Roy Darling"
+            },
+            {
+              "playerId": "team-player/3c4b21bd-41f0-48b6-8c61-7dbcba6355dd",
+              "name": "Sheila Haggett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/891958f2-fb8c-4e80-9bc1-5007274e4f7e",
               "players": [
                 {
+                  "playerId": "team-player/7f2e3901-a2a0-4bf1-9016-6c0d9f5a0ee5",
                   "name": "Roy Darling",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/3c4b21bd-41f0-48b6-8c61-7dbcba6355dd",
                   "name": "Sheila Haggett",
                   "score": "26"
                 }

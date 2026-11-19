@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7727498d-f60c-4431-bc18-99ca569ce3d2",
   "name": "GC Inter Club Bowdon vs Sheffield",
   "sport": "gc",
   "firstDay": "2021-05-23",
   "lastDay": "2021-05-23",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Angharrad Walters",
-        "Colin Irwin",
-        "Jack Good",
-        "John-Paul Moberly",
-        "John-Paul Moberly & Angharrad Walters"
+        {
+          "playerId": "team-player/3744e020-8d27-4b75-bd9d-a2024a202d40",
+          "name": "Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/1c05bc93-c461-4a81-9e71-905b53063179",
+          "name": "Colin Irwin"
+        },
+        {
+          "playerId": "team-player/24103433-c903-48bc-8b95-66c5b46d2134",
+          "name": "Jack Good"
+        },
+        {
+          "playerId": "team-player/5725bbd5-4386-4158-911e-4a961fe078fc",
+          "name": "John-Paul Moberly"
+        },
+        {
+          "playerId": "team-player/0e0b9beb-2671-49df-bb86-f88e748bbbb0",
+          "name": "John-Paul Moberly & Angharrad Walters"
+        }
       ]
     },
     {
       "name": "Sheffield",
       "shortName": "Sheffield",
       "players": [
-        "Callum Johnson",
-        "Callum Johnson & Eugene Chang",
-        "Eugene Chang",
-        "John Crossland",
-        "Trevor Billard"
+        {
+          "playerId": "team-player/30b190f3-d1ef-44e0-83ec-7e95f465f75e",
+          "name": "Callum Johnson"
+        },
+        {
+          "playerId": "team-player/be5a8e06-2e47-47bb-b5d0-d1b71fe18264",
+          "name": "Callum Johnson & Eugene Chang"
+        },
+        {
+          "playerId": "team-player/237109f2-49f7-476a-8c99-0362f25dce1c",
+          "name": "Eugene Chang"
+        },
+        {
+          "playerId": "team-player/e6a5c38b-967f-4f57-b3a2-4f661aeddf3f",
+          "name": "John Crossland"
+        },
+        {
+          "playerId": "team-player/a7e2de7b-9888-4d66-ab22-2bf9cc1a7ba0",
+          "name": "Trevor Billard"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/83312395-9fe4-49ff-9f0c-a9602c4eec34",
       "teams": [
         "Bowdon",
         "Sheffield"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "John-Paul Moberly & Angharrad Walters",
-            "Callum Johnson & Eugene Chang"
+            {
+              "playerId": "team-player/0e0b9beb-2671-49df-bb86-f88e748bbbb0",
+              "name": "John-Paul Moberly & Angharrad Walters"
+            },
+            {
+              "playerId": "team-player/be5a8e06-2e47-47bb-b5d0-d1b71fe18264",
+              "name": "Callum Johnson & Eugene Chang"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5d13cd6-da4e-42c2-8fda-009a15a8aed4",
               "players": [
                 {
+                  "playerId": "team-player/0e0b9beb-2671-49df-bb86-f88e748bbbb0",
                   "name": "John-Paul Moberly & Angharrad Walters",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/be5a8e06-2e47-47bb-b5d0-d1b71fe18264",
                   "name": "Callum Johnson & Eugene Chang",
                   "score": "4"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/139573c5-523c-4c7f-978d-15c7d69699ab",
               "players": [
                 {
+                  "playerId": "team-player/0e0b9beb-2671-49df-bb86-f88e748bbbb0",
                   "name": "John-Paul Moberly & Angharrad Walters",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/be5a8e06-2e47-47bb-b5d0-d1b71fe18264",
                   "name": "Callum Johnson & Eugene Chang",
                   "score": "5"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "John-Paul Moberly",
-            "Callum Johnson"
+            {
+              "playerId": "team-player/5725bbd5-4386-4158-911e-4a961fe078fc",
+              "name": "John-Paul Moberly"
+            },
+            {
+              "playerId": "team-player/30b190f3-d1ef-44e0-83ec-7e95f465f75e",
+              "name": "Callum Johnson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/721e4d09-b541-4932-a64f-0ac0e041ab88",
               "players": [
                 {
+                  "playerId": "team-player/5725bbd5-4386-4158-911e-4a961fe078fc",
                   "name": "John-Paul Moberly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/30b190f3-d1ef-44e0-83ec-7e95f465f75e",
                   "name": "Callum Johnson",
                   "score": "5"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4faedf9f-6eb4-473d-b493-6d928fb492d8",
               "players": [
                 {
+                  "playerId": "team-player/5725bbd5-4386-4158-911e-4a961fe078fc",
                   "name": "John-Paul Moberly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/30b190f3-d1ef-44e0-83ec-7e95f465f75e",
                   "name": "Callum Johnson",
                   "score": "1"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Trevor Billard"
+            {
+              "playerId": "team-player/24103433-c903-48bc-8b95-66c5b46d2134",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/a7e2de7b-9888-4d66-ab22-2bf9cc1a7ba0",
+              "name": "Trevor Billard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e1cecd71-7ded-42b8-8290-f048147272c0",
               "players": [
                 {
+                  "playerId": "team-player/24103433-c903-48bc-8b95-66c5b46d2134",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a7e2de7b-9888-4d66-ab22-2bf9cc1a7ba0",
                   "name": "Trevor Billard",
                   "score": "2"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f6b51df5-5c46-486a-a10e-af8bd17e627c",
               "players": [
                 {
+                  "playerId": "team-player/24103433-c903-48bc-8b95-66c5b46d2134",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a7e2de7b-9888-4d66-ab22-2bf9cc1a7ba0",
                   "name": "Trevor Billard",
                   "score": "5"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "John Crossland"
+            {
+              "playerId": "team-player/24103433-c903-48bc-8b95-66c5b46d2134",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/e6a5c38b-967f-4f57-b3a2-4f661aeddf3f",
+              "name": "John Crossland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/53f1cf5a-f5de-41a3-9731-a2ffc40d16d9",
               "players": [
                 {
+                  "playerId": "team-player/24103433-c903-48bc-8b95-66c5b46d2134",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e6a5c38b-967f-4f57-b3a2-4f661aeddf3f",
                   "name": "John Crossland",
                   "score": "2"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/df45f9af-8d82-448e-b581-b10cf40da5f5",
               "players": [
                 {
+                  "playerId": "team-player/24103433-c903-48bc-8b95-66c5b46d2134",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e6a5c38b-967f-4f57-b3a2-4f661aeddf3f",
                   "name": "John Crossland",
                   "score": "2"
                 }
@@ -185,17 +267,26 @@
         },
         {
           "players": [
-            "Colin Irwin",
-            "John Crossland"
+            {
+              "playerId": "team-player/1c05bc93-c461-4a81-9e71-905b53063179",
+              "name": "Colin Irwin"
+            },
+            {
+              "playerId": "team-player/e6a5c38b-967f-4f57-b3a2-4f661aeddf3f",
+              "name": "John Crossland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2dbcea52-ab2d-43ec-b924-89e166dd4390",
               "players": [
                 {
+                  "playerId": "team-player/1c05bc93-c461-4a81-9e71-905b53063179",
                   "name": "Colin Irwin",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/e6a5c38b-967f-4f57-b3a2-4f661aeddf3f",
                   "name": "John Crossland",
                   "score": "7"
                 }
@@ -204,12 +295,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0763f410-1831-4af4-acd3-48b6d504286e",
               "players": [
                 {
+                  "playerId": "team-player/1c05bc93-c461-4a81-9e71-905b53063179",
                   "name": "Colin Irwin",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/e6a5c38b-967f-4f57-b3a2-4f661aeddf3f",
                   "name": "John Crossland",
                   "score": "7"
                 }
@@ -221,17 +315,26 @@
         },
         {
           "players": [
-            "Colin Irwin",
-            "Trevor Billard"
+            {
+              "playerId": "team-player/1c05bc93-c461-4a81-9e71-905b53063179",
+              "name": "Colin Irwin"
+            },
+            {
+              "playerId": "team-player/a7e2de7b-9888-4d66-ab22-2bf9cc1a7ba0",
+              "name": "Trevor Billard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/48ac4030-73ba-4102-a2bb-3cf9cb102ea9",
               "players": [
                 {
+                  "playerId": "team-player/1c05bc93-c461-4a81-9e71-905b53063179",
                   "name": "Colin Irwin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a7e2de7b-9888-4d66-ab22-2bf9cc1a7ba0",
                   "name": "Trevor Billard",
                   "score": "6"
                 }
@@ -240,12 +343,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e59c2968-44c7-4fa0-87cd-2adf548db50d",
               "players": [
                 {
+                  "playerId": "team-player/1c05bc93-c461-4a81-9e71-905b53063179",
                   "name": "Colin Irwin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a7e2de7b-9888-4d66-ab22-2bf9cc1a7ba0",
                   "name": "Trevor Billard",
                   "score": "5"
                 }
@@ -257,17 +363,26 @@
         },
         {
           "players": [
-            "Angharrad Walters",
-            "Eugene Chang"
+            {
+              "playerId": "team-player/3744e020-8d27-4b75-bd9d-a2024a202d40",
+              "name": "Angharrad Walters"
+            },
+            {
+              "playerId": "team-player/237109f2-49f7-476a-8c99-0362f25dce1c",
+              "name": "Eugene Chang"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1cbf38ee-2b44-4e25-9064-a4bb5c086c94",
               "players": [
                 {
+                  "playerId": "team-player/3744e020-8d27-4b75-bd9d-a2024a202d40",
                   "name": "Angharrad Walters",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/237109f2-49f7-476a-8c99-0362f25dce1c",
                   "name": "Eugene Chang",
                   "score": "4"
                 }
@@ -276,12 +391,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/85986125-4755-4549-85f3-44403e1d9f7c",
               "players": [
                 {
+                  "playerId": "team-player/3744e020-8d27-4b75-bd9d-a2024a202d40",
                   "name": "Angharrad Walters",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/237109f2-49f7-476a-8c99-0362f25dce1c",
                   "name": "Eugene Chang",
                   "score": "7"
                 }

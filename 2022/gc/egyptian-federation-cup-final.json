@@ -1,33 +1,55 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7d7be19a-93d5-413e-9b69-8b6881e355a8",
   "name": "Egyptian Federation Cup Final",
   "sport": "gc",
   "firstDay": "2022-05-21",
   "lastDay": "2022-05-21",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "ElSherok Club",
       "shortName": "ElSherok C",
       "players": [
-        "Eman ElFaransawy & Abeer Mourad",
-        "Omar Fahmy & Fawzy Helmy",
-        "Soha Mostafa & Mohamed Salah"
+        {
+          "playerId": "team-player/c2bb06ea-db71-4fc4-af62-f1c6f8b856ec",
+          "name": "Eman ElFaransawy & Abeer Mourad"
+        },
+        {
+          "playerId": "team-player/edbbcb15-7749-41b1-8438-5c6189ec0d05",
+          "name": "Omar Fahmy & Fawzy Helmy"
+        },
+        {
+          "playerId": "team-player/775dd9a7-87ad-4fac-b670-f34d64f6a72a",
+          "name": "Soha Mostafa & Mohamed Salah"
+        }
       ]
     },
     {
       "name": "Maady Club",
       "shortName": "Maady Club",
       "players": [
-        "Ahmed Khattab & Esam ElShazly",
-        "Hemat Mostafa & Nehal Ahmed",
-        "Marwa Wafiq & Yasser Esmat"
+        {
+          "playerId": "team-player/4f235b90-da84-4a1e-a7e7-cfb906dfa720",
+          "name": "Ahmed Khattab & Esam ElShazly"
+        },
+        {
+          "playerId": "team-player/483f4582-9c74-4528-bf36-18f3daa3275e",
+          "name": "Hemat Mostafa & Nehal Ahmed"
+        },
+        {
+          "playerId": "team-player/94cb4e12-0226-4d77-bbd5-28336cf2812e",
+          "name": "Marwa Wafiq & Yasser Esmat"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/e3be1c46-3fc6-41d9-8da5-8c74486b598e",
       "teams": [
         "ElSherok Club",
         "Maady Club"
@@ -37,17 +59,26 @@
       "matches": [
         {
           "players": [
-            "Eman ElFaransawy & Abeer Mourad",
-            "Hemat Mostafa & Nehal Ahmed"
+            {
+              "playerId": "team-player/c2bb06ea-db71-4fc4-af62-f1c6f8b856ec",
+              "name": "Eman ElFaransawy & Abeer Mourad"
+            },
+            {
+              "playerId": "team-player/483f4582-9c74-4528-bf36-18f3daa3275e",
+              "name": "Hemat Mostafa & Nehal Ahmed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa81b4c7-927d-424e-9256-63fb72181a1c",
               "players": [
                 {
+                  "playerId": "team-player/c2bb06ea-db71-4fc4-af62-f1c6f8b856ec",
                   "name": "Eman ElFaransawy & Abeer Mourad",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/483f4582-9c74-4528-bf36-18f3daa3275e",
                   "name": "Hemat Mostafa & Nehal Ahmed",
                   "score": "7"
                 }
@@ -56,12 +87,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d941d1ec-6069-4c5c-a9c3-02b9152567f3",
               "players": [
                 {
+                  "playerId": "team-player/c2bb06ea-db71-4fc4-af62-f1c6f8b856ec",
                   "name": "Eman ElFaransawy & Abeer Mourad",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/483f4582-9c74-4528-bf36-18f3daa3275e",
                   "name": "Hemat Mostafa & Nehal Ahmed",
                   "score": "4"
                 }
@@ -70,12 +104,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/08fb68bf-9482-4d2c-b2e9-ca5aa2b1a5c2",
               "players": [
                 {
+                  "playerId": "team-player/c2bb06ea-db71-4fc4-af62-f1c6f8b856ec",
                   "name": "Eman ElFaransawy & Abeer Mourad",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/483f4582-9c74-4528-bf36-18f3daa3275e",
                   "name": "Hemat Mostafa & Nehal Ahmed",
                   "score": "7"
                 }
@@ -87,17 +124,26 @@
         },
         {
           "players": [
-            "Soha Mostafa & Mohamed Salah",
-            "Marwa Wafiq & Yasser Esmat"
+            {
+              "playerId": "team-player/775dd9a7-87ad-4fac-b670-f34d64f6a72a",
+              "name": "Soha Mostafa & Mohamed Salah"
+            },
+            {
+              "playerId": "team-player/94cb4e12-0226-4d77-bbd5-28336cf2812e",
+              "name": "Marwa Wafiq & Yasser Esmat"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2eb4a10b-74ff-4905-976a-2096a59ed189",
               "players": [
                 {
+                  "playerId": "team-player/775dd9a7-87ad-4fac-b670-f34d64f6a72a",
                   "name": "Soha Mostafa & Mohamed Salah",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/94cb4e12-0226-4d77-bbd5-28336cf2812e",
                   "name": "Marwa Wafiq & Yasser Esmat",
                   "score": "6"
                 }
@@ -106,12 +152,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/53db85a7-dc5d-404c-9391-4ff970b00f23",
               "players": [
                 {
+                  "playerId": "team-player/775dd9a7-87ad-4fac-b670-f34d64f6a72a",
                   "name": "Soha Mostafa & Mohamed Salah",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/94cb4e12-0226-4d77-bbd5-28336cf2812e",
                   "name": "Marwa Wafiq & Yasser Esmat",
                   "score": "3"
                 }
@@ -123,17 +172,26 @@
         },
         {
           "players": [
-            "Omar Fahmy & Fawzy Helmy",
-            "Ahmed Khattab & Esam ElShazly"
+            {
+              "playerId": "team-player/edbbcb15-7749-41b1-8438-5c6189ec0d05",
+              "name": "Omar Fahmy & Fawzy Helmy"
+            },
+            {
+              "playerId": "team-player/4f235b90-da84-4a1e-a7e7-cfb906dfa720",
+              "name": "Ahmed Khattab & Esam ElShazly"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1ce09c9-a42d-4254-acfd-654f4b7dc8ee",
               "players": [
                 {
+                  "playerId": "team-player/edbbcb15-7749-41b1-8438-5c6189ec0d05",
                   "name": "Omar Fahmy & Fawzy Helmy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4f235b90-da84-4a1e-a7e7-cfb906dfa720",
                   "name": "Ahmed Khattab & Esam ElShazly",
                   "score": "6"
                 }
@@ -142,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4e2f0223-3c0e-406b-8728-6db8515bb57e",
               "players": [
                 {
+                  "playerId": "team-player/edbbcb15-7749-41b1-8438-5c6189ec0d05",
                   "name": "Omar Fahmy & Fawzy Helmy",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4f235b90-da84-4a1e-a7e7-cfb906dfa720",
                   "name": "Ahmed Khattab & Esam ElShazly",
                   "score": "7"
                 }
@@ -156,12 +217,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e8458096-58b5-41a7-bd6d-7cb59dc4b0f1",
               "players": [
                 {
+                  "playerId": "team-player/edbbcb15-7749-41b1-8438-5c6189ec0d05",
                   "name": "Omar Fahmy & Fawzy Helmy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4f235b90-da84-4a1e-a7e7-cfb906dfa720",
                   "name": "Ahmed Khattab & Esam ElShazly",
                   "score": "3"
                 }

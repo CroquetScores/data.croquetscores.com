@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7ab5d214-066c-4410-a214-ba42b2c87d20",
   "name": "CqE NWF LPG Bury Sovereigns v Bowdon Bombers",
   "sport": "gc",
   "firstDay": "2025-07-02",
   "lastDay": "2025-07-02",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bury Sovereigns",
       "shortName": "Bury Sover",
       "players": [
-        "Bernard Lord",
-        "Bernard Lord - meet again",
-        "David Artingstall",
-        "David Barrett",
-        "David Barrett - meet again"
+        {
+          "playerId": "team-player/d19f3871-98ce-4f0e-8c6e-11e671285bad",
+          "name": "Bernard Lord"
+        },
+        {
+          "playerId": "team-player/a8a13bff-3faa-4f16-8198-fc511b206d9d",
+          "name": "Bernard Lord - meet again"
+        },
+        {
+          "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
+          "name": "David Artingstall"
+        },
+        {
+          "playerId": "team-player/b18ab39b-5a20-4543-bb98-3bea6ba45d2e",
+          "name": "David Barrett"
+        },
+        {
+          "playerId": "team-player/4cee9a3e-c717-4d8f-93b9-9b7572926b43",
+          "name": "David Barrett - meet again"
+        }
       ]
     },
     {
       "name": "Bowdon Bombers",
       "shortName": "Bowdon Bom",
       "players": [
-        "Angharrad Walters",
-        "Fred Owen",
-        "Fred Owen - meet again",
-        "Mike Flannery",
-        "Mike Flannery - meet again"
+        {
+          "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
+          "name": "Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/a30b466b-3bf4-446f-a9e0-51b00cb39954",
+          "name": "Fred Owen"
+        },
+        {
+          "playerId": "team-player/79dc1e73-d444-4476-916e-1ef6afb130b6",
+          "name": "Fred Owen - meet again"
+        },
+        {
+          "playerId": "team-player/02740274-581c-4402-8aa9-0582347d7f08",
+          "name": "Mike Flannery"
+        },
+        {
+          "playerId": "team-player/4c6a0598-ad8f-4587-9920-166b334f4bce",
+          "name": "Mike Flannery - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/82884c14-43f6-417a-835b-c1f91bec5cd6",
       "teams": [
         "Bury Sovereigns",
         "Bowdon Bombers"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Bernard Lord",
-            "Fred Owen"
+            {
+              "playerId": "team-player/d19f3871-98ce-4f0e-8c6e-11e671285bad",
+              "name": "Bernard Lord"
+            },
+            {
+              "playerId": "team-player/a30b466b-3bf4-446f-a9e0-51b00cb39954",
+              "name": "Fred Owen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/45bbac70-fbcf-41ea-a294-2d1bd02451d4",
               "players": [
                 {
+                  "playerId": "team-player/d19f3871-98ce-4f0e-8c6e-11e671285bad",
                   "name": "Bernard Lord",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a30b466b-3bf4-446f-a9e0-51b00cb39954",
                   "name": "Fred Owen",
                   "score": "3"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "David Artingstall",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
+              "name": "David Artingstall"
+            },
+            {
+              "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e0f2c2f6-6636-472e-978b-a432ee10b300",
               "players": [
                 {
+                  "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
                   "name": "David Artingstall",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "David Barrett",
-            "Mike Flannery"
+            {
+              "playerId": "team-player/b18ab39b-5a20-4543-bb98-3bea6ba45d2e",
+              "name": "David Barrett"
+            },
+            {
+              "playerId": "team-player/02740274-581c-4402-8aa9-0582347d7f08",
+              "name": "Mike Flannery"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1fbc111b-59f6-4173-9af2-6630177d57ee",
               "players": [
                 {
+                  "playerId": "team-player/b18ab39b-5a20-4543-bb98-3bea6ba45d2e",
                   "name": "David Barrett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/02740274-581c-4402-8aa9-0582347d7f08",
                   "name": "Mike Flannery",
                   "score": "5"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Bernard Lord",
-            "Fred Owen - meet again"
+            {
+              "playerId": "team-player/d19f3871-98ce-4f0e-8c6e-11e671285bad",
+              "name": "Bernard Lord"
+            },
+            {
+              "playerId": "team-player/79dc1e73-d444-4476-916e-1ef6afb130b6",
+              "name": "Fred Owen - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9d568ce0-3554-4859-a59d-6e7062c8b7fb",
               "players": [
                 {
+                  "playerId": "team-player/d19f3871-98ce-4f0e-8c6e-11e671285bad",
                   "name": "Bernard Lord",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/79dc1e73-d444-4476-916e-1ef6afb130b6",
                   "name": "Fred Owen - meet again",
                   "score": "5"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Bernard Lord",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/d19f3871-98ce-4f0e-8c6e-11e671285bad",
+              "name": "Bernard Lord"
+            },
+            {
+              "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/66f4a640-6445-4ad3-8a13-91450814ff40",
               "players": [
                 {
+                  "playerId": "team-player/d19f3871-98ce-4f0e-8c6e-11e671285bad",
                   "name": "Bernard Lord",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Bernard Lord - meet again",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/a8a13bff-3faa-4f16-8198-fc511b206d9d",
+              "name": "Bernard Lord - meet again"
+            },
+            {
+              "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/260d2e19-67e8-40c4-962c-9d74beb81320",
               "players": [
                 {
+                  "playerId": "team-player/a8a13bff-3faa-4f16-8198-fc511b206d9d",
                   "name": "Bernard Lord - meet again",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "David Artingstall",
-            "Fred Owen"
+            {
+              "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
+              "name": "David Artingstall"
+            },
+            {
+              "playerId": "team-player/a30b466b-3bf4-446f-a9e0-51b00cb39954",
+              "name": "Fred Owen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a1bf90e-8645-4a23-82c9-90db17c9fa97",
               "players": [
                 {
+                  "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
                   "name": "David Artingstall",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a30b466b-3bf4-446f-a9e0-51b00cb39954",
                   "name": "Fred Owen",
                   "score": "3"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "David Barrett",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/b18ab39b-5a20-4543-bb98-3bea6ba45d2e",
+              "name": "David Barrett"
+            },
+            {
+              "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b98f82db-e3c8-4c73-9080-a9f462d51a30",
               "players": [
                 {
+                  "playerId": "team-player/b18ab39b-5a20-4543-bb98-3bea6ba45d2e",
                   "name": "David Barrett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
                   "name": "Angharrad Walters",
                   "score": "3"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "David Barrett - meet again",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/4cee9a3e-c717-4d8f-93b9-9b7572926b43",
+              "name": "David Barrett - meet again"
+            },
+            {
+              "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/290ed29c-f130-42d5-8da4-7ff87e1d5f68",
               "players": [
                 {
+                  "playerId": "team-player/4cee9a3e-c717-4d8f-93b9-9b7572926b43",
                   "name": "David Barrett - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/fcf9ffd4-1e21-455d-9507-45580c231049",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "David Artingstall",
-            "Fred Owen - meet again"
+            {
+              "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
+              "name": "David Artingstall"
+            },
+            {
+              "playerId": "team-player/79dc1e73-d444-4476-916e-1ef6afb130b6",
+              "name": "Fred Owen - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d568c84-3d80-4b21-9c65-0b99b4dc791f",
               "players": [
                 {
+                  "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
                   "name": "David Artingstall",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/79dc1e73-d444-4476-916e-1ef6afb130b6",
                   "name": "Fred Owen - meet again",
                   "score": "4"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Bernard Lord",
-            "Mike Flannery"
+            {
+              "playerId": "team-player/d19f3871-98ce-4f0e-8c6e-11e671285bad",
+              "name": "Bernard Lord"
+            },
+            {
+              "playerId": "team-player/02740274-581c-4402-8aa9-0582347d7f08",
+              "name": "Mike Flannery"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ae97e23-104b-4dd8-99af-e8809dd432a0",
               "players": [
                 {
+                  "playerId": "team-player/d19f3871-98ce-4f0e-8c6e-11e671285bad",
                   "name": "Bernard Lord",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/02740274-581c-4402-8aa9-0582347d7f08",
                   "name": "Mike Flannery",
                   "score": "7"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Bernard Lord - meet again",
-            "Mike Flannery"
+            {
+              "playerId": "team-player/a8a13bff-3faa-4f16-8198-fc511b206d9d",
+              "name": "Bernard Lord - meet again"
+            },
+            {
+              "playerId": "team-player/02740274-581c-4402-8aa9-0582347d7f08",
+              "name": "Mike Flannery"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff895ef0-3897-4c71-ba46-97619604dcc5",
               "players": [
                 {
+                  "playerId": "team-player/a8a13bff-3faa-4f16-8198-fc511b206d9d",
                   "name": "Bernard Lord - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/02740274-581c-4402-8aa9-0582347d7f08",
                   "name": "Mike Flannery",
                   "score": "4"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "David Artingstall",
-            "Mike Flannery"
+            {
+              "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
+              "name": "David Artingstall"
+            },
+            {
+              "playerId": "team-player/02740274-581c-4402-8aa9-0582347d7f08",
+              "name": "Mike Flannery"
+            }
           ],
           "games": [
             {
+              "gameId": "game/436da1a0-5e6b-46fa-be74-0088cef953c9",
               "players": [
                 {
+                  "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
                   "name": "David Artingstall",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/02740274-581c-4402-8aa9-0582347d7f08",
                   "name": "Mike Flannery",
                   "score": "7"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "David Barrett",
-            "Fred Owen"
+            {
+              "playerId": "team-player/b18ab39b-5a20-4543-bb98-3bea6ba45d2e",
+              "name": "David Barrett"
+            },
+            {
+              "playerId": "team-player/a30b466b-3bf4-446f-a9e0-51b00cb39954",
+              "name": "Fred Owen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c86021b6-3ede-42e7-ac22-02071c52b22a",
               "players": [
                 {
+                  "playerId": "team-player/b18ab39b-5a20-4543-bb98-3bea6ba45d2e",
                   "name": "David Barrett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a30b466b-3bf4-446f-a9e0-51b00cb39954",
                   "name": "Fred Owen",
                   "score": "5"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "David Artingstall",
-            "Mike Flannery - meet again"
+            {
+              "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
+              "name": "David Artingstall"
+            },
+            {
+              "playerId": "team-player/4c6a0598-ad8f-4587-9920-166b334f4bce",
+              "name": "Mike Flannery - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54737c4a-4019-4e02-9651-d747ba395d7e",
               "players": [
                 {
+                  "playerId": "team-player/b2e3b20e-b7bb-460f-9ef1-dd67c85007af",
                   "name": "David Artingstall",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4c6a0598-ad8f-4587-9920-166b334f4bce",
                   "name": "Mike Flannery - meet again",
                   "score": "4"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "David Barrett",
-            "Fred Owen - meet again"
+            {
+              "playerId": "team-player/b18ab39b-5a20-4543-bb98-3bea6ba45d2e",
+              "name": "David Barrett"
+            },
+            {
+              "playerId": "team-player/79dc1e73-d444-4476-916e-1ef6afb130b6",
+              "name": "Fred Owen - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3cdbf1cd-889c-435a-9ead-34b42918c018",
               "players": [
                 {
+                  "playerId": "team-player/b18ab39b-5a20-4543-bb98-3bea6ba45d2e",
                   "name": "David Barrett",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/79dc1e73-d444-4476-916e-1ef6afb130b6",
                   "name": "Fred Owen - meet again",
                   "score": "7"
                 }

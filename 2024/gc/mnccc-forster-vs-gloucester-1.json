@@ -1,11 +1,14 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/085a7727-1a36-4425-8a3d-c53c841541e2",
   "name": "MNCCC Forster v's Gloucester 2024",
   "sport": "gc",
   "firstDay": "2024-04-12",
   "lastDay": "2024-04-12",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Forster Singles",
@@ -21,37 +24,98 @@
       "name": "Forster Doubles",
       "shortName": "Forster Do",
       "players": [
-        "Deidre Moylan & Lorri Lawson",
-        "Edna Kelly & Paul Moylan",
-        "Graham Innocent & Iain Tait-Kerr",
-        "Helen Cooper & Deidre Moylan",
-        "Jenifer Boult & Barbara Wilson",
-        "Jenifer Boult &Iain Tait-Kerr",
-        "Lorri Lawson & Helen Cooper",
-        "Peter Long & Ricky Fittock",
-        "Peter Long & Steve Wallace",
-        "Tracey Long & Robyn Roberts"
+        {
+          "playerId": "team-player/44a56106-1863-4e4a-a3a3-8dd55d8fc852",
+          "name": "Deidre Moylan & Lorri Lawson"
+        },
+        {
+          "playerId": "team-player/cc0a3cce-2859-4983-9c06-1547f63f96eb",
+          "name": "Edna Kelly & Paul Moylan"
+        },
+        {
+          "playerId": "team-player/1690740a-0de5-4e1f-bbf2-7289af3fd656",
+          "name": "Graham Innocent & Iain Tait-Kerr"
+        },
+        {
+          "playerId": "team-player/24857f04-a919-4ab6-ac01-877c2a0bab1c",
+          "name": "Helen Cooper & Deidre Moylan"
+        },
+        {
+          "playerId": "team-player/23a0de8b-8dc5-440d-ad72-eba4c496bf27",
+          "name": "Jenifer Boult & Barbara Wilson"
+        },
+        {
+          "playerId": "team-player/be0bd2ba-c872-4be7-b381-55b5443eb0bf",
+          "name": "Jenifer Boult &Iain Tait-Kerr"
+        },
+        {
+          "playerId": "team-player/e12ec387-7f77-4c11-9778-aa34d9e720cb",
+          "name": "Lorri Lawson & Helen Cooper"
+        },
+        {
+          "playerId": "team-player/41943c0e-b9f0-4293-8c9e-d5aea5f755a9",
+          "name": "Peter Long & Ricky Fittock"
+        },
+        {
+          "playerId": "team-player/59170d85-7766-4dcd-b9cb-30376de1b0bf",
+          "name": "Peter Long & Steve Wallace"
+        },
+        {
+          "playerId": "team-player/37278316-b122-4b4c-ba35-a64eb0a7e7dd",
+          "name": "Tracey Long & Robyn Roberts"
+        }
       ]
     },
     {
       "name": "Gloucester Doubles",
       "shortName": "Gloucest 2",
       "players": [
-        "Al Minis & Denise Bruce",
-        "Bev Fagan & Carol Newitt",
-        "Bev Fagan & Denise Bruce",
-        "Carol Newitt & Jenni Sun",
-        "Denise Bruce & Chris Sims",
-        "Jenni Sun & Greg Bell",
-        "Ken Gosson & Alec Bruce",
-        "Ken Gosson & Carol Newitt",
-        "Ken Gosson & Chris Sims",
-        "Lyn Stewart & Greg Bell"
+        {
+          "playerId": "team-player/f423380e-d469-4b0f-a8b6-e259350dc4f9",
+          "name": "Al Minis & Denise Bruce"
+        },
+        {
+          "playerId": "team-player/36b20935-ce4d-4f47-a061-41389f71f7ad",
+          "name": "Bev Fagan & Carol Newitt"
+        },
+        {
+          "playerId": "team-player/62e96c31-a1ae-40db-91b0-9c5bdf7ddcaa",
+          "name": "Bev Fagan & Denise Bruce"
+        },
+        {
+          "playerId": "team-player/5d1bb5f0-37f7-4887-b1ff-ff2b4ca73e9d",
+          "name": "Carol Newitt & Jenni Sun"
+        },
+        {
+          "playerId": "team-player/e915d381-f115-4355-ad6c-8853ebe7abff",
+          "name": "Denise Bruce & Chris Sims"
+        },
+        {
+          "playerId": "team-player/2364202e-4448-473d-b9dd-e076d3ca46bf",
+          "name": "Jenni Sun & Greg Bell"
+        },
+        {
+          "playerId": "team-player/4dfe1ad9-5feb-4fd7-ab13-94b8d4059b2d",
+          "name": "Ken Gosson & Alec Bruce"
+        },
+        {
+          "playerId": "team-player/48b8ba8c-a0d3-4195-88ab-bf9af045e6ab",
+          "name": "Ken Gosson & Carol Newitt"
+        },
+        {
+          "playerId": "team-player/8901ed18-9bcf-4a60-b139-504e872b704f",
+          "name": "Ken Gosson & Chris Sims"
+        },
+        {
+          "playerId": "team-player/54e15539-08b8-4763-a341-7da36ea8365b",
+          "name": "Lyn Stewart & Greg Bell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/6b395915-b389-416c-aefc-adb71ef1e6dc",
       "teams": [
         "Forster Singles",
         "Gloucester Singles"
@@ -61,6 +125,7 @@
       "matches": []
     },
     {
+      "competitionId": "competition/3dbd21be-0e2d-490d-83fc-21fa7ff83f88",
       "teams": [
         "Forster Doubles",
         "Gloucester Doubles"
@@ -70,17 +135,26 @@
       "matches": [
         {
           "players": [
-            "Graham Innocent & Iain Tait-Kerr",
-            "Al Minis & Denise Bruce"
+            {
+              "playerId": "team-player/1690740a-0de5-4e1f-bbf2-7289af3fd656",
+              "name": "Graham Innocent & Iain Tait-Kerr"
+            },
+            {
+              "playerId": "team-player/f423380e-d469-4b0f-a8b6-e259350dc4f9",
+              "name": "Al Minis & Denise Bruce"
+            }
           ],
           "games": [
             {
+              "gameId": "game/298ef63b-54f4-456c-8ac6-76c07e5718cb",
               "players": [
                 {
+                  "playerId": "team-player/1690740a-0de5-4e1f-bbf2-7289af3fd656",
                   "name": "Graham Innocent & Iain Tait-Kerr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f423380e-d469-4b0f-a8b6-e259350dc4f9",
                   "name": "Al Minis & Denise Bruce",
                   "score": "4"
                 }
@@ -92,17 +166,26 @@
         },
         {
           "players": [
-            "Helen Cooper & Deidre Moylan",
-            "Bev Fagan & Carol Newitt"
+            {
+              "playerId": "team-player/24857f04-a919-4ab6-ac01-877c2a0bab1c",
+              "name": "Helen Cooper & Deidre Moylan"
+            },
+            {
+              "playerId": "team-player/36b20935-ce4d-4f47-a061-41389f71f7ad",
+              "name": "Bev Fagan & Carol Newitt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2839e959-988f-4e0b-bf99-6049cf5cdf4a",
               "players": [
                 {
+                  "playerId": "team-player/24857f04-a919-4ab6-ac01-877c2a0bab1c",
                   "name": "Helen Cooper & Deidre Moylan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/36b20935-ce4d-4f47-a061-41389f71f7ad",
                   "name": "Bev Fagan & Carol Newitt",
                   "score": "4"
                 }
@@ -114,17 +197,26 @@
         },
         {
           "players": [
-            "Peter Long & Ricky Fittock",
-            "Ken Gosson & Alec Bruce"
+            {
+              "playerId": "team-player/41943c0e-b9f0-4293-8c9e-d5aea5f755a9",
+              "name": "Peter Long & Ricky Fittock"
+            },
+            {
+              "playerId": "team-player/4dfe1ad9-5feb-4fd7-ab13-94b8d4059b2d",
+              "name": "Ken Gosson & Alec Bruce"
+            }
           ],
           "games": [
             {
+              "gameId": "game/20c73c0d-6103-4a5a-96b9-9b8d2c4ddb2e",
               "players": [
                 {
+                  "playerId": "team-player/41943c0e-b9f0-4293-8c9e-d5aea5f755a9",
                   "name": "Peter Long & Ricky Fittock",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4dfe1ad9-5feb-4fd7-ab13-94b8d4059b2d",
                   "name": "Ken Gosson & Alec Bruce",
                   "score": "4"
                 }
@@ -136,17 +228,26 @@
         },
         {
           "players": [
-            "Edna Kelly & Paul Moylan",
-            "Lyn Stewart & Greg Bell"
+            {
+              "playerId": "team-player/cc0a3cce-2859-4983-9c06-1547f63f96eb",
+              "name": "Edna Kelly & Paul Moylan"
+            },
+            {
+              "playerId": "team-player/54e15539-08b8-4763-a341-7da36ea8365b",
+              "name": "Lyn Stewart & Greg Bell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a37dc225-2db3-49f2-bd92-2b7526c93cb5",
               "players": [
                 {
+                  "playerId": "team-player/cc0a3cce-2859-4983-9c06-1547f63f96eb",
                   "name": "Edna Kelly & Paul Moylan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/54e15539-08b8-4763-a341-7da36ea8365b",
                   "name": "Lyn Stewart & Greg Bell",
                   "score": "4"
                 }
@@ -158,17 +259,26 @@
         },
         {
           "players": [
-            "Jenifer Boult &Iain Tait-Kerr",
-            "Ken Gosson & Carol Newitt"
+            {
+              "playerId": "team-player/be0bd2ba-c872-4be7-b381-55b5443eb0bf",
+              "name": "Jenifer Boult &Iain Tait-Kerr"
+            },
+            {
+              "playerId": "team-player/48b8ba8c-a0d3-4195-88ab-bf9af045e6ab",
+              "name": "Ken Gosson & Carol Newitt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/25572434-c567-4a26-abee-c2096638c5ee",
               "players": [
                 {
+                  "playerId": "team-player/be0bd2ba-c872-4be7-b381-55b5443eb0bf",
                   "name": "Jenifer Boult &Iain Tait-Kerr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/48b8ba8c-a0d3-4195-88ab-bf9af045e6ab",
                   "name": "Ken Gosson & Carol Newitt",
                   "score": "1"
                 }
@@ -180,17 +290,26 @@
         },
         {
           "players": [
-            "Peter Long & Steve Wallace",
-            "Bev Fagan & Denise Bruce"
+            {
+              "playerId": "team-player/59170d85-7766-4dcd-b9cb-30376de1b0bf",
+              "name": "Peter Long & Steve Wallace"
+            },
+            {
+              "playerId": "team-player/62e96c31-a1ae-40db-91b0-9c5bdf7ddcaa",
+              "name": "Bev Fagan & Denise Bruce"
+            }
           ],
           "games": [
             {
+              "gameId": "game/65a5d014-1daf-4148-b0ee-586cbf0cd2e4",
               "players": [
                 {
+                  "playerId": "team-player/59170d85-7766-4dcd-b9cb-30376de1b0bf",
                   "name": "Peter Long & Steve Wallace",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/62e96c31-a1ae-40db-91b0-9c5bdf7ddcaa",
                   "name": "Bev Fagan & Denise Bruce",
                   "score": "6"
                 }
@@ -202,17 +321,26 @@
         },
         {
           "players": [
-            "Deidre Moylan & Lorri Lawson",
-            "Carol Newitt & Jenni Sun"
+            {
+              "playerId": "team-player/44a56106-1863-4e4a-a3a3-8dd55d8fc852",
+              "name": "Deidre Moylan & Lorri Lawson"
+            },
+            {
+              "playerId": "team-player/5d1bb5f0-37f7-4887-b1ff-ff2b4ca73e9d",
+              "name": "Carol Newitt & Jenni Sun"
+            }
           ],
           "games": [
             {
+              "gameId": "game/524d1831-952a-4f38-ab58-7c7ef4bd6275",
               "players": [
                 {
+                  "playerId": "team-player/44a56106-1863-4e4a-a3a3-8dd55d8fc852",
                   "name": "Deidre Moylan & Lorri Lawson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5d1bb5f0-37f7-4887-b1ff-ff2b4ca73e9d",
                   "name": "Carol Newitt & Jenni Sun",
                   "score": "4"
                 }
@@ -224,17 +352,26 @@
         },
         {
           "players": [
-            "Tracey Long & Robyn Roberts",
-            "Denise Bruce & Chris Sims"
+            {
+              "playerId": "team-player/37278316-b122-4b4c-ba35-a64eb0a7e7dd",
+              "name": "Tracey Long & Robyn Roberts"
+            },
+            {
+              "playerId": "team-player/e915d381-f115-4355-ad6c-8853ebe7abff",
+              "name": "Denise Bruce & Chris Sims"
+            }
           ],
           "games": [
             {
+              "gameId": "game/84df2fc1-3c4d-460e-a955-cc59d8520a7b",
               "players": [
                 {
+                  "playerId": "team-player/37278316-b122-4b4c-ba35-a64eb0a7e7dd",
                   "name": "Tracey Long & Robyn Roberts",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/e915d381-f115-4355-ad6c-8853ebe7abff",
                   "name": "Denise Bruce & Chris Sims",
                   "score": "7"
                 }
@@ -246,17 +383,26 @@
         },
         {
           "players": [
-            "Lorri Lawson & Helen Cooper",
-            "Jenni Sun & Greg Bell"
+            {
+              "playerId": "team-player/e12ec387-7f77-4c11-9778-aa34d9e720cb",
+              "name": "Lorri Lawson & Helen Cooper"
+            },
+            {
+              "playerId": "team-player/2364202e-4448-473d-b9dd-e076d3ca46bf",
+              "name": "Jenni Sun & Greg Bell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/355fc00d-1283-456e-a89d-0976026523a5",
               "players": [
                 {
+                  "playerId": "team-player/e12ec387-7f77-4c11-9778-aa34d9e720cb",
                   "name": "Lorri Lawson & Helen Cooper",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2364202e-4448-473d-b9dd-e076d3ca46bf",
                   "name": "Jenni Sun & Greg Bell",
                   "score": "7"
                 }
@@ -268,17 +414,26 @@
         },
         {
           "players": [
-            "Jenifer Boult & Barbara Wilson",
-            "Ken Gosson & Chris Sims"
+            {
+              "playerId": "team-player/23a0de8b-8dc5-440d-ad72-eba4c496bf27",
+              "name": "Jenifer Boult & Barbara Wilson"
+            },
+            {
+              "playerId": "team-player/8901ed18-9bcf-4a60-b139-504e872b704f",
+              "name": "Ken Gosson & Chris Sims"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a6d90a89-9441-42ce-9c81-a34c4c31df64",
               "players": [
                 {
+                  "playerId": "team-player/23a0de8b-8dc5-440d-ad72-eba4c496bf27",
                   "name": "Jenifer Boult & Barbara Wilson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8901ed18-9bcf-4a60-b139-504e872b704f",
                   "name": "Ken Gosson & Chris Sims",
                   "score": "7"
                 }

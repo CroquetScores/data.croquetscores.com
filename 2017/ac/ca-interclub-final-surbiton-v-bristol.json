@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/3dbb08ec-5044-4368-8b31-4b1a25588bfb",
   "name": "CA Interclub Final - Surbiton v. Bristol",
   "sport": "ac",
   "firstDay": "2017-10-01",
   "lastDay": "2017-10-01",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Chris Farthing",
-        "Mulliner and Patel",
-        "Sam Murray",
-        "Samir Patel",
-        "Stephen Mulliner"
+        {
+          "playerId": "team-player/6364d82a-0386-4ea1-958e-4e50a92eabdc",
+          "name": "Chris Farthing"
+        },
+        {
+          "playerId": "team-player/05e9ea56-0f4b-4238-8e05-a670f22c5386",
+          "name": "Mulliner and Patel"
+        },
+        {
+          "playerId": "team-player/70cc7569-ff1f-46a0-a7c1-835e1c80b9fa",
+          "name": "Sam Murray"
+        },
+        {
+          "playerId": "team-player/e276fbc6-a527-4df1-8481-96fadca4d4aa",
+          "name": "Samir Patel"
+        },
+        {
+          "playerId": "team-player/3105b89b-d91c-4b23-86ca-520f4ccbcb27",
+          "name": "Stephen Mulliner"
+        }
       ]
     },
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "David Goacher",
-        "Louise Bradforth",
-        "Richard M Smith",
-        "Robert Wilkinson",
-        "Wilkinson and Goacher"
+        {
+          "playerId": "team-player/87cf2e22-540e-4fd3-ba6f-de51ddf652f3",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/f0a0e45d-d523-4a7d-bc1b-f64ad2745583",
+          "name": "Louise Bradforth"
+        },
+        {
+          "playerId": "team-player/8a0c3dbd-478d-442f-8232-a17675c0bae6",
+          "name": "Richard M Smith"
+        },
+        {
+          "playerId": "team-player/0713ecbe-0a58-4d71-bcb0-beb77394ff7a",
+          "name": "Robert Wilkinson"
+        },
+        {
+          "playerId": "team-player/da5aca33-8faa-4243-aa08-8a8659f43430",
+          "name": "Wilkinson and Goacher"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/912d83f7-1fcb-4437-8535-d7748950aef6",
       "teams": [
         "Surbiton",
         "Bristol"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Mulliner and Patel",
-            "Wilkinson and Goacher"
+            {
+              "playerId": "team-player/05e9ea56-0f4b-4238-8e05-a670f22c5386",
+              "name": "Mulliner and Patel"
+            },
+            {
+              "playerId": "team-player/da5aca33-8faa-4243-aa08-8a8659f43430",
+              "name": "Wilkinson and Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/652f150d-f87e-417a-9e77-8c3acb18326e",
               "players": [
                 {
+                  "playerId": "team-player/05e9ea56-0f4b-4238-8e05-a670f22c5386",
                   "name": "Mulliner and Patel",
                   "score": "26tp (M)"
                 },
                 {
+                  "playerId": "team-player/da5aca33-8faa-4243-aa08-8a8659f43430",
                   "name": "Wilkinson and Goacher",
                   "score": "2"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Chris Farthing",
-            "Richard M Smith"
+            {
+              "playerId": "team-player/6364d82a-0386-4ea1-958e-4e50a92eabdc",
+              "name": "Chris Farthing"
+            },
+            {
+              "playerId": "team-player/8a0c3dbd-478d-442f-8232-a17675c0bae6",
+              "name": "Richard M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e14b39de-8f41-49b1-a8e0-9064578ee2c1",
               "players": [
                 {
+                  "playerId": "team-player/6364d82a-0386-4ea1-958e-4e50a92eabdc",
                   "name": "Chris Farthing",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/8a0c3dbd-478d-442f-8232-a17675c0bae6",
                   "name": "Richard M Smith",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Sam Murray",
-            "Louise Bradforth"
+            {
+              "playerId": "team-player/70cc7569-ff1f-46a0-a7c1-835e1c80b9fa",
+              "name": "Sam Murray"
+            },
+            {
+              "playerId": "team-player/f0a0e45d-d523-4a7d-bc1b-f64ad2745583",
+              "name": "Louise Bradforth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/95a671ab-c236-45d7-82c0-cf1f55bd066c",
               "players": [
                 {
+                  "playerId": "team-player/70cc7569-ff1f-46a0-a7c1-835e1c80b9fa",
                   "name": "Sam Murray",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/f0a0e45d-d523-4a7d-bc1b-f64ad2745583",
                   "name": "Louise Bradforth",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "David Goacher"
+            {
+              "playerId": "team-player/e276fbc6-a527-4df1-8481-96fadca4d4aa",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/87cf2e22-540e-4fd3-ba6f-de51ddf652f3",
+              "name": "David Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2ded7d6a-86b2-415c-bfa7-2dc384480e87",
               "players": [
                 {
+                  "playerId": "team-player/e276fbc6-a527-4df1-8481-96fadca4d4aa",
                   "name": "Samir Patel",
                   "score": "26qp"
                 },
                 {
+                  "playerId": "team-player/87cf2e22-540e-4fd3-ba6f-de51ddf652f3",
                   "name": "David Goacher",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner",
-            "Robert Wilkinson"
+            {
+              "playerId": "team-player/3105b89b-d91c-4b23-86ca-520f4ccbcb27",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/0713ecbe-0a58-4d71-bcb0-beb77394ff7a",
+              "name": "Robert Wilkinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fdabd6b0-d5f0-434a-8e61-83f1605cd577",
               "players": [
                 {
+                  "playerId": "team-player/3105b89b-d91c-4b23-86ca-520f4ccbcb27",
                   "name": "Stephen Mulliner",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/0713ecbe-0a58-4d71-bcb0-beb77394ff7a",
                   "name": "Robert Wilkinson",
                   "score": "11"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Chris Farthing",
-            "Louise Bradforth"
+            {
+              "playerId": "team-player/6364d82a-0386-4ea1-958e-4e50a92eabdc",
+              "name": "Chris Farthing"
+            },
+            {
+              "playerId": "team-player/f0a0e45d-d523-4a7d-bc1b-f64ad2745583",
+              "name": "Louise Bradforth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b0345e75-5871-4776-bb4a-5aefd4e2d0b0",
               "players": [
                 {
+                  "playerId": "team-player/6364d82a-0386-4ea1-958e-4e50a92eabdc",
                   "name": "Chris Farthing",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/f0a0e45d-d523-4a7d-bc1b-f64ad2745583",
                   "name": "Louise Bradforth",
                   "score": "11"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Sam Murray",
-            "Richard M Smith"
+            {
+              "playerId": "team-player/70cc7569-ff1f-46a0-a7c1-835e1c80b9fa",
+              "name": "Sam Murray"
+            },
+            {
+              "playerId": "team-player/8a0c3dbd-478d-442f-8232-a17675c0bae6",
+              "name": "Richard M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b958191-6afc-4e9a-8a1d-5f160afb6fa0",
               "players": [
                 {
+                  "playerId": "team-player/70cc7569-ff1f-46a0-a7c1-835e1c80b9fa",
                   "name": "Sam Murray",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/8a0c3dbd-478d-442f-8232-a17675c0bae6",
                   "name": "Richard M Smith",
                   "score": "26"
                 }

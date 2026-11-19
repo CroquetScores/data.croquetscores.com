@@ -1,51 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4cda3edf-7919-4e96-a80f-50101664d5c6",
   "name": "NSW GC Div 2 Pennants Finals",
   "sport": "gc",
   "firstDay": "2019-03-05",
   "lastDay": "2019-05-03",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Jamberoo",
       "shortName": "Jamberoo",
       "players": [
-        "Bob McCumstie & Betty Ball",
-        "Carol Tieck",
-        "Karen Tieck"
+        {
+          "playerId": "team-player/6c2272f7-5ea3-4f96-998e-8ae88dbc6bef",
+          "name": "Bob McCumstie & Betty Ball"
+        },
+        {
+          "playerId": "team-player/b3635d68-6fa7-4e82-9697-afda67c7a9e5",
+          "name": "Carol Tieck"
+        },
+        {
+          "playerId": "team-player/873cb934-a319-4297-8c03-35ac5311544c",
+          "name": "Karen Tieck"
+        }
       ]
     },
     {
       "name": "Newcastle NP",
       "shortName": "Newcastle",
       "players": [
-        "Chris Gill & David Kelly",
-        "Derek Bull",
-        "Pamela Barnwell"
+        {
+          "playerId": "team-player/fc585d00-c3dd-4afa-b8b1-90a6a89fa5d4",
+          "name": "Chris Gill & David Kelly"
+        },
+        {
+          "playerId": "team-player/bfebe8c6-6093-481b-8922-ad24a3d1df3b",
+          "name": "Derek Bull"
+        },
+        {
+          "playerId": "team-player/ffd9173b-7878-43d0-808c-0e6999de445f",
+          "name": "Pamela Barnwell"
+        }
       ]
     },
     {
       "name": "Royal Sydney Golf Club",
       "shortName": "Royal Sydn",
       "players": [
-        "Hunter McPherson",
-        "Patrick Rundle & Jan Solomon",
-        "Rob Elliott"
+        {
+          "playerId": "team-player/ad347eda-c9d8-44d8-a890-688fd442a98f",
+          "name": "Hunter McPherson"
+        },
+        {
+          "playerId": "team-player/501e50e6-9f3c-418b-9e38-7e12beb6d9e9",
+          "name": "Patrick Rundle & Jan Solomon"
+        },
+        {
+          "playerId": "team-player/21426fd7-def8-4d5e-a983-879533cd83de",
+          "name": "Rob Elliott"
+        }
       ]
     },
     {
       "name": "Chatswood",
       "shortName": "Chatswood",
       "players": [
-        "Gabby Spencer",
-        "Joe Park",
-        "Pat Nosworthy & Francis Spencer"
+        {
+          "playerId": "team-player/3c285618-4913-4b11-a394-71681084ae84",
+          "name": "Gabby Spencer"
+        },
+        {
+          "playerId": "team-player/ec5b6ac3-bf64-470c-b65b-08c5a905cb07",
+          "name": "Joe Park"
+        },
+        {
+          "playerId": "team-player/1018fc68-ee6e-4f51-9aeb-5abd58f06938",
+          "name": "Pat Nosworthy & Francis Spencer"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/07f0aee8-d7ec-4c89-9720-359625d7fa8a",
       "teams": [
         "Jamberoo",
         "Newcastle NP"
@@ -55,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Bob McCumstie & Betty Ball",
-            "Chris Gill & David Kelly"
+            {
+              "playerId": "team-player/6c2272f7-5ea3-4f96-998e-8ae88dbc6bef",
+              "name": "Bob McCumstie & Betty Ball"
+            },
+            {
+              "playerId": "team-player/fc585d00-c3dd-4afa-b8b1-90a6a89fa5d4",
+              "name": "Chris Gill & David Kelly"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ccb17a4-c96c-42ab-9f7f-0a3bc79fbfd0",
               "players": [
                 {
+                  "playerId": "team-player/6c2272f7-5ea3-4f96-998e-8ae88dbc6bef",
                   "name": "Bob McCumstie & Betty Ball",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/fc585d00-c3dd-4afa-b8b1-90a6a89fa5d4",
                   "name": "Chris Gill & David Kelly",
                   "score": "7"
                 }
@@ -74,12 +123,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/90d3a66d-5d70-4cfa-ac36-e3ce6aecfc56",
               "players": [
                 {
+                  "playerId": "team-player/6c2272f7-5ea3-4f96-998e-8ae88dbc6bef",
                   "name": "Bob McCumstie & Betty Ball",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/fc585d00-c3dd-4afa-b8b1-90a6a89fa5d4",
                   "name": "Chris Gill & David Kelly",
                   "score": "7"
                 }
@@ -91,17 +143,26 @@
         },
         {
           "players": [
-            "Karen Tieck",
-            "Pamela Barnwell"
+            {
+              "playerId": "team-player/873cb934-a319-4297-8c03-35ac5311544c",
+              "name": "Karen Tieck"
+            },
+            {
+              "playerId": "team-player/ffd9173b-7878-43d0-808c-0e6999de445f",
+              "name": "Pamela Barnwell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5e23a944-dafb-42af-9a1f-05fdbd315e7d",
               "players": [
                 {
+                  "playerId": "team-player/873cb934-a319-4297-8c03-35ac5311544c",
                   "name": "Karen Tieck",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ffd9173b-7878-43d0-808c-0e6999de445f",
                   "name": "Pamela Barnwell",
                   "score": "7"
                 }
@@ -110,12 +171,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c6d088a8-2cc2-4e19-94f7-6e158d7bf8a1",
               "players": [
                 {
+                  "playerId": "team-player/873cb934-a319-4297-8c03-35ac5311544c",
                   "name": "Karen Tieck",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ffd9173b-7878-43d0-808c-0e6999de445f",
                   "name": "Pamela Barnwell",
                   "score": "7"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Carol Tieck",
-            "Derek Bull"
+            {
+              "playerId": "team-player/b3635d68-6fa7-4e82-9697-afda67c7a9e5",
+              "name": "Carol Tieck"
+            },
+            {
+              "playerId": "team-player/bfebe8c6-6093-481b-8922-ad24a3d1df3b",
+              "name": "Derek Bull"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3186f8b9-7447-4d8d-9d69-f8c030d02f32",
               "players": [
                 {
+                  "playerId": "team-player/b3635d68-6fa7-4e82-9697-afda67c7a9e5",
                   "name": "Carol Tieck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bfebe8c6-6093-481b-8922-ad24a3d1df3b",
                   "name": "Derek Bull",
                   "score": "5"
                 }
@@ -146,12 +219,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3de94ab3-d3a7-42a9-8967-efa942c8a8c2",
               "players": [
                 {
+                  "playerId": "team-player/b3635d68-6fa7-4e82-9697-afda67c7a9e5",
                   "name": "Carol Tieck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bfebe8c6-6093-481b-8922-ad24a3d1df3b",
                   "name": "Derek Bull",
                   "score": "5"
                 }
@@ -164,6 +240,7 @@
       ]
     },
     {
+      "competitionId": "competition/0957a7a7-cd05-44d7-ab3c-5d569f0401d3",
       "teams": [
         "Royal Sydney Golf Club",
         "Chatswood"
@@ -173,17 +250,26 @@
       "matches": [
         {
           "players": [
-            "Rob Elliott",
-            "Joe Park"
+            {
+              "playerId": "team-player/21426fd7-def8-4d5e-a983-879533cd83de",
+              "name": "Rob Elliott"
+            },
+            {
+              "playerId": "team-player/ec5b6ac3-bf64-470c-b65b-08c5a905cb07",
+              "name": "Joe Park"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e15aef40-1b91-4b9b-8161-58893437c993",
               "players": [
                 {
+                  "playerId": "team-player/21426fd7-def8-4d5e-a983-879533cd83de",
                   "name": "Rob Elliott",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ec5b6ac3-bf64-470c-b65b-08c5a905cb07",
                   "name": "Joe Park",
                   "score": "5"
                 }
@@ -192,12 +278,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3747c1ef-284c-4364-92bd-6a9cc8e5dc8f",
               "players": [
                 {
+                  "playerId": "team-player/21426fd7-def8-4d5e-a983-879533cd83de",
                   "name": "Rob Elliott",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ec5b6ac3-bf64-470c-b65b-08c5a905cb07",
                   "name": "Joe Park",
                   "score": "7"
                 }
@@ -206,12 +295,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/124af6e1-dedc-45fc-891f-60558d71044e",
               "players": [
                 {
+                  "playerId": "team-player/21426fd7-def8-4d5e-a983-879533cd83de",
                   "name": "Rob Elliott",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ec5b6ac3-bf64-470c-b65b-08c5a905cb07",
                   "name": "Joe Park",
                   "score": "3"
                 }
@@ -223,17 +315,26 @@
         },
         {
           "players": [
-            "Hunter McPherson",
-            "Gabby Spencer"
+            {
+              "playerId": "team-player/ad347eda-c9d8-44d8-a890-688fd442a98f",
+              "name": "Hunter McPherson"
+            },
+            {
+              "playerId": "team-player/3c285618-4913-4b11-a394-71681084ae84",
+              "name": "Gabby Spencer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/65bb5dad-d620-4c16-872e-acd3c72bf504",
               "players": [
                 {
+                  "playerId": "team-player/ad347eda-c9d8-44d8-a890-688fd442a98f",
                   "name": "Hunter McPherson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3c285618-4913-4b11-a394-71681084ae84",
                   "name": "Gabby Spencer",
                   "score": "7"
                 }
@@ -242,12 +343,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/317f4271-15ae-4c53-aa1d-8316443a7f2c",
               "players": [
                 {
+                  "playerId": "team-player/ad347eda-c9d8-44d8-a890-688fd442a98f",
                   "name": "Hunter McPherson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3c285618-4913-4b11-a394-71681084ae84",
                   "name": "Gabby Spencer",
                   "score": "7"
                 }
@@ -259,17 +363,26 @@
         },
         {
           "players": [
-            "Patrick Rundle & Jan Solomon",
-            "Pat Nosworthy & Francis Spencer"
+            {
+              "playerId": "team-player/501e50e6-9f3c-418b-9e38-7e12beb6d9e9",
+              "name": "Patrick Rundle & Jan Solomon"
+            },
+            {
+              "playerId": "team-player/1018fc68-ee6e-4f51-9aeb-5abd58f06938",
+              "name": "Pat Nosworthy & Francis Spencer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4992e03-99c4-4e8c-84f5-38bd31002e7c",
               "players": [
                 {
+                  "playerId": "team-player/501e50e6-9f3c-418b-9e38-7e12beb6d9e9",
                   "name": "Patrick Rundle & Jan Solomon",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1018fc68-ee6e-4f51-9aeb-5abd58f06938",
                   "name": "Pat Nosworthy & Francis Spencer",
                   "score": "7"
                 }
@@ -278,12 +391,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0dbe9c44-b4e2-41de-a287-bb3e96761801",
               "players": [
                 {
+                  "playerId": "team-player/501e50e6-9f3c-418b-9e38-7e12beb6d9e9",
                   "name": "Patrick Rundle & Jan Solomon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1018fc68-ee6e-4f51-9aeb-5abd58f06938",
                   "name": "Pat Nosworthy & Francis Spencer",
                   "score": "4"
                 }
@@ -292,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/52566724-8375-4565-ae28-60ad8c0b0d3c",
               "players": [
                 {
+                  "playerId": "team-player/501e50e6-9f3c-418b-9e38-7e12beb6d9e9",
                   "name": "Patrick Rundle & Jan Solomon",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/1018fc68-ee6e-4f51-9aeb-5abd58f06938",
                   "name": "Pat Nosworthy & Francis Spencer",
                   "score": "7"
                 }
@@ -310,6 +429,7 @@
       ]
     },
     {
+      "competitionId": "competition/fbefc9a1-3c56-4a08-8375-b5e42a88fe75",
       "teams": [
         "Newcastle NP",
         "Chatswood"
@@ -319,17 +439,26 @@
       "matches": [
         {
           "players": [
-            "Chris Gill & David Kelly",
-            "Pat Nosworthy & Francis Spencer"
+            {
+              "playerId": "team-player/fc585d00-c3dd-4afa-b8b1-90a6a89fa5d4",
+              "name": "Chris Gill & David Kelly"
+            },
+            {
+              "playerId": "team-player/1018fc68-ee6e-4f51-9aeb-5abd58f06938",
+              "name": "Pat Nosworthy & Francis Spencer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4859e1be-a4ad-4625-ae32-8e7d8d15761c",
               "players": [
                 {
+                  "playerId": "team-player/fc585d00-c3dd-4afa-b8b1-90a6a89fa5d4",
                   "name": "Chris Gill & David Kelly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1018fc68-ee6e-4f51-9aeb-5abd58f06938",
                   "name": "Pat Nosworthy & Francis Spencer",
                   "score": "6"
                 }
@@ -338,12 +467,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a4242b3b-350b-49f7-b090-b8f9787d4238",
               "players": [
                 {
+                  "playerId": "team-player/fc585d00-c3dd-4afa-b8b1-90a6a89fa5d4",
                   "name": "Chris Gill & David Kelly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1018fc68-ee6e-4f51-9aeb-5abd58f06938",
                   "name": "Pat Nosworthy & Francis Spencer",
                   "score": "1"
                 }
@@ -355,17 +487,26 @@
         },
         {
           "players": [
-            "Pamela Barnwell",
-            "Joe Park"
+            {
+              "playerId": "team-player/ffd9173b-7878-43d0-808c-0e6999de445f",
+              "name": "Pamela Barnwell"
+            },
+            {
+              "playerId": "team-player/ec5b6ac3-bf64-470c-b65b-08c5a905cb07",
+              "name": "Joe Park"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35753209-8098-4595-a4aa-8f0ab673d78d",
               "players": [
                 {
+                  "playerId": "team-player/ffd9173b-7878-43d0-808c-0e6999de445f",
                   "name": "Pamela Barnwell",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ec5b6ac3-bf64-470c-b65b-08c5a905cb07",
                   "name": "Joe Park",
                   "score": "7"
                 }
@@ -374,12 +515,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/07535740-3fec-4024-9000-8550d646da6e",
               "players": [
                 {
+                  "playerId": "team-player/ffd9173b-7878-43d0-808c-0e6999de445f",
                   "name": "Pamela Barnwell",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ec5b6ac3-bf64-470c-b65b-08c5a905cb07",
                   "name": "Joe Park",
                   "score": "7"
                 }
@@ -391,17 +535,26 @@
         },
         {
           "players": [
-            "Derek Bull",
-            "Gabby Spencer"
+            {
+              "playerId": "team-player/bfebe8c6-6093-481b-8922-ad24a3d1df3b",
+              "name": "Derek Bull"
+            },
+            {
+              "playerId": "team-player/3c285618-4913-4b11-a394-71681084ae84",
+              "name": "Gabby Spencer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/968c329b-c7ba-4936-8998-4027ff0e412e",
               "players": [
                 {
+                  "playerId": "team-player/bfebe8c6-6093-481b-8922-ad24a3d1df3b",
                   "name": "Derek Bull",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c285618-4913-4b11-a394-71681084ae84",
                   "name": "Gabby Spencer",
                   "score": "1"
                 }
@@ -410,12 +563,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/44490513-2484-4362-980a-07bdbe9a9d4f",
               "players": [
                 {
+                  "playerId": "team-player/bfebe8c6-6093-481b-8922-ad24a3d1df3b",
                   "name": "Derek Bull",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c285618-4913-4b11-a394-71681084ae84",
                   "name": "Gabby Spencer",
                   "score": "3"
                 }

@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/3df1e2b8-315d-4f67-aff3-5a55cffa9d92",
   "name": "Welsh GC Inter Club Final",
   "sport": "gc",
   "firstDay": "2022-09-10",
   "lastDay": "2022-09-10",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Llandovery",
       "shortName": "Llandovery",
       "players": [
-        "Arwyn Davies",
-        "Carl Small",
-        "John Evans",
-        "John Evans & Arwyn Davies",
-        "Tim Crowdy",
-        "Tim Crowdy & Carl Small"
+        {
+          "playerId": "team-player/e60ebba0-9f1e-4d67-9ac4-ffbb294c2d2f",
+          "name": "Arwyn Davies"
+        },
+        {
+          "playerId": "team-player/df2774e5-66b7-407b-9d24-76d0246af213",
+          "name": "Carl Small"
+        },
+        {
+          "playerId": "team-player/80f4229d-3f22-4463-810a-eef2ba6ab179",
+          "name": "John Evans"
+        },
+        {
+          "playerId": "team-player/721698f8-d182-4905-bdfe-c5e469294d59",
+          "name": "John Evans & Arwyn Davies"
+        },
+        {
+          "playerId": "team-player/57c750b4-8ad1-4f4b-85ac-6926d32bb07b",
+          "name": "Tim Crowdy"
+        },
+        {
+          "playerId": "team-player/31575d02-cb3d-4396-8ae0-664728462937",
+          "name": "Tim Crowdy & Carl Small"
+        }
       ]
     },
     {
       "name": "Llanfairfechan",
       "shortName": "Llanfairfe",
       "players": [
-        "Giles Pepperell",
-        "Martin Tovey",
-        "Martyn Seal",
-        "Martyn Seal & Martin Tovey",
-        "Rick Harding",
-        "Rick Harding & Giles Pepperell"
+        {
+          "playerId": "team-player/416f366b-ec2f-4420-a6b6-e69ed6012aad",
+          "name": "Giles Pepperell"
+        },
+        {
+          "playerId": "team-player/9b468766-d311-414b-916f-27289b9bd718",
+          "name": "Martin Tovey"
+        },
+        {
+          "playerId": "team-player/5ca11a51-cfdf-49d7-9e2a-472a8719491b",
+          "name": "Martyn Seal"
+        },
+        {
+          "playerId": "team-player/297d0f86-d559-487c-b5a5-9c61e437b4e4",
+          "name": "Martyn Seal & Martin Tovey"
+        },
+        {
+          "playerId": "team-player/e3f8f1be-62f1-4e0d-929a-40eda5832450",
+          "name": "Rick Harding"
+        },
+        {
+          "playerId": "team-player/fe9f5c16-3718-43f7-a7a4-537a313e0193",
+          "name": "Rick Harding & Giles Pepperell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/e5d20314-18f7-46ec-b0c2-bfa8dbaaff70",
       "teams": [
         "Llandovery",
         "Llanfairfechan"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "John Evans & Arwyn Davies",
-            "Martyn Seal & Martin Tovey"
+            {
+              "playerId": "team-player/721698f8-d182-4905-bdfe-c5e469294d59",
+              "name": "John Evans & Arwyn Davies"
+            },
+            {
+              "playerId": "team-player/297d0f86-d559-487c-b5a5-9c61e437b4e4",
+              "name": "Martyn Seal & Martin Tovey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4012a660-0d69-4bf9-981e-5a449d1809b1",
               "players": [
                 {
+                  "playerId": "team-player/721698f8-d182-4905-bdfe-c5e469294d59",
                   "name": "John Evans & Arwyn Davies",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/297d0f86-d559-487c-b5a5-9c61e437b4e4",
                   "name": "Martyn Seal & Martin Tovey",
                   "score": "7"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Tim Crowdy & Carl Small",
-            "Rick Harding & Giles Pepperell"
+            {
+              "playerId": "team-player/31575d02-cb3d-4396-8ae0-664728462937",
+              "name": "Tim Crowdy & Carl Small"
+            },
+            {
+              "playerId": "team-player/fe9f5c16-3718-43f7-a7a4-537a313e0193",
+              "name": "Rick Harding & Giles Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b80a037a-3ed8-4514-806b-6d6472a55ff0",
               "players": [
                 {
+                  "playerId": "team-player/31575d02-cb3d-4396-8ae0-664728462937",
                   "name": "Tim Crowdy & Carl Small",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/fe9f5c16-3718-43f7-a7a4-537a313e0193",
                   "name": "Rick Harding & Giles Pepperell",
                   "score": "7"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Arwyn Davies",
-            "Martin Tovey"
+            {
+              "playerId": "team-player/e60ebba0-9f1e-4d67-9ac4-ffbb294c2d2f",
+              "name": "Arwyn Davies"
+            },
+            {
+              "playerId": "team-player/9b468766-d311-414b-916f-27289b9bd718",
+              "name": "Martin Tovey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5ff9096c-10b0-49d5-b7a2-14251be30068",
               "players": [
                 {
+                  "playerId": "team-player/e60ebba0-9f1e-4d67-9ac4-ffbb294c2d2f",
                   "name": "Arwyn Davies",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9b468766-d311-414b-916f-27289b9bd718",
                   "name": "Martin Tovey",
                   "score": "7"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Carl Small",
-            "Martyn Seal"
+            {
+              "playerId": "team-player/df2774e5-66b7-407b-9d24-76d0246af213",
+              "name": "Carl Small"
+            },
+            {
+              "playerId": "team-player/5ca11a51-cfdf-49d7-9e2a-472a8719491b",
+              "name": "Martyn Seal"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d939a52f-b4b4-4c75-a7f0-9dfc0e813713",
               "players": [
                 {
+                  "playerId": "team-player/df2774e5-66b7-407b-9d24-76d0246af213",
                   "name": "Carl Small",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5ca11a51-cfdf-49d7-9e2a-472a8719491b",
                   "name": "Martyn Seal",
                   "score": "7"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Giles Pepperell"
+            {
+              "playerId": "team-player/80f4229d-3f22-4463-810a-eef2ba6ab179",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/416f366b-ec2f-4420-a6b6-e69ed6012aad",
+              "name": "Giles Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fcfe53f9-8e7b-4a79-a735-17d27c8ff5a4",
               "players": [
                 {
+                  "playerId": "team-player/80f4229d-3f22-4463-810a-eef2ba6ab179",
                   "name": "John Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/416f366b-ec2f-4420-a6b6-e69ed6012aad",
                   "name": "Giles Pepperell",
                   "score": "4"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Tim Crowdy",
-            "Rick Harding"
+            {
+              "playerId": "team-player/57c750b4-8ad1-4f4b-85ac-6926d32bb07b",
+              "name": "Tim Crowdy"
+            },
+            {
+              "playerId": "team-player/e3f8f1be-62f1-4e0d-929a-40eda5832450",
+              "name": "Rick Harding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff4ad7bd-502f-4db9-b5ac-45452e9482bd",
               "players": [
                 {
+                  "playerId": "team-player/57c750b4-8ad1-4f4b-85ac-6926d32bb07b",
                   "name": "Tim Crowdy",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/e3f8f1be-62f1-4e0d-929a-40eda5832450",
                   "name": "Rick Harding",
                   "score": "7"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "Tim Crowdy",
-            "Martin Tovey"
+            {
+              "playerId": "team-player/57c750b4-8ad1-4f4b-85ac-6926d32bb07b",
+              "name": "Tim Crowdy"
+            },
+            {
+              "playerId": "team-player/9b468766-d311-414b-916f-27289b9bd718",
+              "name": "Martin Tovey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/04e830af-7cbb-4629-be32-807d7ccc5b54",
               "players": [
                 {
+                  "playerId": "team-player/57c750b4-8ad1-4f4b-85ac-6926d32bb07b",
                   "name": "Tim Crowdy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9b468766-d311-414b-916f-27289b9bd718",
                   "name": "Martin Tovey",
                   "score": "2"
                 }
@@ -197,17 +300,26 @@
         },
         {
           "players": [
-            "Carl Small",
-            "Giles Pepperell"
+            {
+              "playerId": "team-player/df2774e5-66b7-407b-9d24-76d0246af213",
+              "name": "Carl Small"
+            },
+            {
+              "playerId": "team-player/416f366b-ec2f-4420-a6b6-e69ed6012aad",
+              "name": "Giles Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bbb11c59-fcca-4c8a-a1a3-dfc839c1a58a",
               "players": [
                 {
+                  "playerId": "team-player/df2774e5-66b7-407b-9d24-76d0246af213",
                   "name": "Carl Small",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/416f366b-ec2f-4420-a6b6-e69ed6012aad",
                   "name": "Giles Pepperell",
                   "score": "7"
                 }
@@ -219,17 +331,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Martyn Seal"
+            {
+              "playerId": "team-player/80f4229d-3f22-4463-810a-eef2ba6ab179",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/5ca11a51-cfdf-49d7-9e2a-472a8719491b",
+              "name": "Martyn Seal"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ee0a5594-78c1-49f3-b819-40e7a916702c",
               "players": [
                 {
+                  "playerId": "team-player/80f4229d-3f22-4463-810a-eef2ba6ab179",
                   "name": "John Evans",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5ca11a51-cfdf-49d7-9e2a-472a8719491b",
                   "name": "Martyn Seal",
                   "score": "7"
                 }
@@ -241,17 +362,26 @@
         },
         {
           "players": [
-            "Arwyn Davies",
-            "Rick Harding"
+            {
+              "playerId": "team-player/e60ebba0-9f1e-4d67-9ac4-ffbb294c2d2f",
+              "name": "Arwyn Davies"
+            },
+            {
+              "playerId": "team-player/e3f8f1be-62f1-4e0d-929a-40eda5832450",
+              "name": "Rick Harding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/01bf16a0-f8b5-4dec-87e7-ea3a0949f5f5",
               "players": [
                 {
+                  "playerId": "team-player/e60ebba0-9f1e-4d67-9ac4-ffbb294c2d2f",
                   "name": "Arwyn Davies",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e3f8f1be-62f1-4e0d-929a-40eda5832450",
                   "name": "Rick Harding",
                   "score": "7"
                 }
@@ -263,17 +393,26 @@
         },
         {
           "players": [
-            "Tim Crowdy",
-            "Giles Pepperell"
+            {
+              "playerId": "team-player/57c750b4-8ad1-4f4b-85ac-6926d32bb07b",
+              "name": "Tim Crowdy"
+            },
+            {
+              "playerId": "team-player/416f366b-ec2f-4420-a6b6-e69ed6012aad",
+              "name": "Giles Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c92c6f57-dacb-4c4b-8580-e4fb59722197",
               "players": [
                 {
+                  "playerId": "team-player/57c750b4-8ad1-4f4b-85ac-6926d32bb07b",
                   "name": "Tim Crowdy",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/416f366b-ec2f-4420-a6b6-e69ed6012aad",
                   "name": "Giles Pepperell",
                   "score": "7"
                 }
@@ -285,17 +424,26 @@
         },
         {
           "players": [
-            "Carl Small",
-            "Martin Tovey"
+            {
+              "playerId": "team-player/df2774e5-66b7-407b-9d24-76d0246af213",
+              "name": "Carl Small"
+            },
+            {
+              "playerId": "team-player/9b468766-d311-414b-916f-27289b9bd718",
+              "name": "Martin Tovey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/09b59112-5108-4dea-a33e-10f9d1da0b5a",
               "players": [
                 {
+                  "playerId": "team-player/df2774e5-66b7-407b-9d24-76d0246af213",
                   "name": "Carl Small",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9b468766-d311-414b-916f-27289b9bd718",
                   "name": "Martin Tovey",
                   "score": "7"
                 }
@@ -307,17 +455,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Rick Harding"
+            {
+              "playerId": "team-player/80f4229d-3f22-4463-810a-eef2ba6ab179",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/e3f8f1be-62f1-4e0d-929a-40eda5832450",
+              "name": "Rick Harding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8a8c117e-6dab-48e3-9996-49f0f403060a",
               "players": [
                 {
+                  "playerId": "team-player/80f4229d-3f22-4463-810a-eef2ba6ab179",
                   "name": "John Evans",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e3f8f1be-62f1-4e0d-929a-40eda5832450",
                   "name": "Rick Harding",
                   "score": "7"
                 }
@@ -329,17 +486,26 @@
         },
         {
           "players": [
-            "Arwyn Davies",
-            "Martyn Seal"
+            {
+              "playerId": "team-player/e60ebba0-9f1e-4d67-9ac4-ffbb294c2d2f",
+              "name": "Arwyn Davies"
+            },
+            {
+              "playerId": "team-player/5ca11a51-cfdf-49d7-9e2a-472a8719491b",
+              "name": "Martyn Seal"
+            }
           ],
           "games": [
             {
+              "gameId": "game/98cf764a-7436-4653-b8fe-53f8c5cb99d9",
               "players": [
                 {
+                  "playerId": "team-player/e60ebba0-9f1e-4d67-9ac4-ffbb294c2d2f",
                   "name": "Arwyn Davies",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/5ca11a51-cfdf-49d7-9e2a-472a8719491b",
                   "name": "Martyn Seal",
                   "score": "7"
                 }

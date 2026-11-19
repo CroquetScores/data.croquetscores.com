@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a0421b60-4a45-41b3-b75c-8221fd863e11",
   "name": "GC Inter Club - Nottingham vs Belsay Hall",
   "sport": "gc",
   "firstDay": "2019-07-11",
   "lastDay": "2019-07-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "Alain Giraud",
-        "Euan Burridge",
-        "Ian Burridge",
-        "Ian Burridge & James Death",
-        "James Death"
+        {
+          "playerId": "team-player/21a1a224-cad4-4f3c-9a45-cd69bcb1bc31",
+          "name": "Alain Giraud"
+        },
+        {
+          "playerId": "team-player/c3507fb3-f881-4013-8fc6-d38cc8b2c08f",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/0bf1fc73-3c6b-4094-8565-a0907ff7c15b",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/feb09072-8cd9-4af4-828b-bda7ec2ff6d9",
+          "name": "Ian Burridge & James Death"
+        },
+        {
+          "playerId": "team-player/4ffce799-a607-4f2d-9892-28fee40fc647",
+          "name": "James Death"
+        }
       ]
     },
     {
       "name": "Belsay Hall",
       "shortName": "Belsay Hal",
       "players": [
-        "David Millener",
-        "Derek Johnson",
-        "Eric Nixon",
-        "Phil Errington",
-        "Phil Errington & Eric Nixon"
+        {
+          "playerId": "team-player/e355c218-b269-4c30-af32-3b99030907ec",
+          "name": "David Millener"
+        },
+        {
+          "playerId": "team-player/72dcf404-0850-410d-a2a4-a41ef4c1675a",
+          "name": "Derek Johnson"
+        },
+        {
+          "playerId": "team-player/12cbedc7-a30f-4f45-99f8-89507d51561e",
+          "name": "Eric Nixon"
+        },
+        {
+          "playerId": "team-player/dcb417bd-1c44-4bc7-911b-934304e9a00d",
+          "name": "Phil Errington"
+        },
+        {
+          "playerId": "team-player/69fd6400-9312-4fae-b201-537f3287e617",
+          "name": "Phil Errington & Eric Nixon"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/f4ca205f-3e46-446b-a844-88b36ca32291",
       "teams": [
         "Nottingham",
         "Belsay Hall"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Ian Burridge & James Death",
-            "Phil Errington & Eric Nixon"
+            {
+              "playerId": "team-player/feb09072-8cd9-4af4-828b-bda7ec2ff6d9",
+              "name": "Ian Burridge & James Death"
+            },
+            {
+              "playerId": "team-player/69fd6400-9312-4fae-b201-537f3287e617",
+              "name": "Phil Errington & Eric Nixon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/552689d9-da0e-40bb-b6d1-37ffc76e4a7e",
               "players": [
                 {
+                  "playerId": "team-player/feb09072-8cd9-4af4-828b-bda7ec2ff6d9",
                   "name": "Ian Burridge & James Death",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/69fd6400-9312-4fae-b201-537f3287e617",
                   "name": "Phil Errington & Eric Nixon",
                   "score": "3"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ddfa37b2-bc68-4ab8-b7a3-152e84690a65",
               "players": [
                 {
+                  "playerId": "team-player/feb09072-8cd9-4af4-828b-bda7ec2ff6d9",
                   "name": "Ian Burridge & James Death",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/69fd6400-9312-4fae-b201-537f3287e617",
                   "name": "Phil Errington & Eric Nixon",
                   "score": "4"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "David Millener"
+            {
+              "playerId": "team-player/c3507fb3-f881-4013-8fc6-d38cc8b2c08f",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/e355c218-b269-4c30-af32-3b99030907ec",
+              "name": "David Millener"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2d7c7f9-2cbf-4d8a-b6ab-d652b4b61102",
               "players": [
                 {
+                  "playerId": "team-player/c3507fb3-f881-4013-8fc6-d38cc8b2c08f",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e355c218-b269-4c30-af32-3b99030907ec",
                   "name": "David Millener",
                   "score": "2"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/731110dc-b4ad-45a8-9aa1-2a996ac7b51d",
               "players": [
                 {
+                  "playerId": "team-player/c3507fb3-f881-4013-8fc6-d38cc8b2c08f",
                   "name": "Euan Burridge",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e355c218-b269-4c30-af32-3b99030907ec",
                   "name": "David Millener",
                   "score": "7"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d9e9c52a-f5fe-4ad1-a205-27bbebc6420a",
               "players": [
                 {
+                  "playerId": "team-player/c3507fb3-f881-4013-8fc6-d38cc8b2c08f",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e355c218-b269-4c30-af32-3b99030907ec",
                   "name": "David Millener",
                   "score": "4"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Alain Giraud",
-            "Derek Johnson"
+            {
+              "playerId": "team-player/21a1a224-cad4-4f3c-9a45-cd69bcb1bc31",
+              "name": "Alain Giraud"
+            },
+            {
+              "playerId": "team-player/72dcf404-0850-410d-a2a4-a41ef4c1675a",
+              "name": "Derek Johnson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c16d3fcc-00ba-435d-ae8e-f52f15486a64",
               "players": [
                 {
+                  "playerId": "team-player/21a1a224-cad4-4f3c-9a45-cd69bcb1bc31",
                   "name": "Alain Giraud",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72dcf404-0850-410d-a2a4-a41ef4c1675a",
                   "name": "Derek Johnson",
                   "score": "4"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/322f60fd-fc19-42dc-b946-cd1b1ba39b9d",
               "players": [
                 {
+                  "playerId": "team-player/21a1a224-cad4-4f3c-9a45-cd69bcb1bc31",
                   "name": "Alain Giraud",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72dcf404-0850-410d-a2a4-a41ef4c1675a",
                   "name": "Derek Johnson",
                   "score": "4"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "James Death",
-            "Phil Errington"
+            {
+              "playerId": "team-player/4ffce799-a607-4f2d-9892-28fee40fc647",
+              "name": "James Death"
+            },
+            {
+              "playerId": "team-player/dcb417bd-1c44-4bc7-911b-934304e9a00d",
+              "name": "Phil Errington"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2b690ad8-f16c-4a05-a238-9bbe3cd72814",
               "players": [
                 {
+                  "playerId": "team-player/4ffce799-a607-4f2d-9892-28fee40fc647",
                   "name": "James Death",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dcb417bd-1c44-4bc7-911b-934304e9a00d",
                   "name": "Phil Errington",
                   "score": "4"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a041613c-76f9-4115-b3d1-bb6b08ebae04",
               "players": [
                 {
+                  "playerId": "team-player/4ffce799-a607-4f2d-9892-28fee40fc647",
                   "name": "James Death",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dcb417bd-1c44-4bc7-911b-934304e9a00d",
                   "name": "Phil Errington",
                   "score": "2"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "Eric Nixon"
+            {
+              "playerId": "team-player/0bf1fc73-3c6b-4094-8565-a0907ff7c15b",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/12cbedc7-a30f-4f45-99f8-89507d51561e",
+              "name": "Eric Nixon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e43b3d2e-f53f-4c8b-ab21-910bbebc28e2",
               "players": [
                 {
+                  "playerId": "team-player/0bf1fc73-3c6b-4094-8565-a0907ff7c15b",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/12cbedc7-a30f-4f45-99f8-89507d51561e",
                   "name": "Eric Nixon",
                   "score": "2"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/72be022a-10c0-43d9-afed-f08af00dd99b",
               "players": [
                 {
+                  "playerId": "team-player/0bf1fc73-3c6b-4094-8565-a0907ff7c15b",
                   "name": "Ian Burridge",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/12cbedc7-a30f-4f45-99f8-89507d51561e",
                   "name": "Eric Nixon",
                   "score": "7"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c1bcec87-81cd-4829-b622-9e675c858688",
               "players": [
                 {
+                  "playerId": "team-player/0bf1fc73-3c6b-4094-8565-a0907ff7c15b",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/12cbedc7-a30f-4f45-99f8-89507d51561e",
                   "name": "Eric Nixon",
                   "score": "3"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Derek Johnson"
+            {
+              "playerId": "team-player/c3507fb3-f881-4013-8fc6-d38cc8b2c08f",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/72dcf404-0850-410d-a2a4-a41ef4c1675a",
+              "name": "Derek Johnson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7cc8eba3-98fc-4135-8015-9afc156e3cdd",
               "players": [
                 {
+                  "playerId": "team-player/c3507fb3-f881-4013-8fc6-d38cc8b2c08f",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72dcf404-0850-410d-a2a4-a41ef4c1675a",
                   "name": "Derek Johnson",
                   "score": "4"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fc0c75de-f81b-4001-9c2d-5149df3828af",
               "players": [
                 {
+                  "playerId": "team-player/c3507fb3-f881-4013-8fc6-d38cc8b2c08f",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72dcf404-0850-410d-a2a4-a41ef4c1675a",
                   "name": "Derek Johnson",
                   "score": "6"
                 }
@@ -285,17 +397,26 @@
         },
         {
           "players": [
-            "Alain Giraud",
-            "David Millener"
+            {
+              "playerId": "team-player/21a1a224-cad4-4f3c-9a45-cd69bcb1bc31",
+              "name": "Alain Giraud"
+            },
+            {
+              "playerId": "team-player/e355c218-b269-4c30-af32-3b99030907ec",
+              "name": "David Millener"
+            }
           ],
           "games": [
             {
+              "gameId": "game/63e7c0f1-6943-48b5-962c-9648b3858a62",
               "players": [
                 {
+                  "playerId": "team-player/21a1a224-cad4-4f3c-9a45-cd69bcb1bc31",
                   "name": "Alain Giraud",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e355c218-b269-4c30-af32-3b99030907ec",
                   "name": "David Millener",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/558e9fbf-b455-4c48-8553-277058809b68",
               "players": [
                 {
+                  "playerId": "team-player/21a1a224-cad4-4f3c-9a45-cd69bcb1bc31",
                   "name": "Alain Giraud",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e355c218-b269-4c30-af32-3b99030907ec",
                   "name": "David Millener",
                   "score": "3"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6b895a86-47f8-49bc-858b-e0f221aa60c1",
               "players": [
                 {
+                  "playerId": "team-player/21a1a224-cad4-4f3c-9a45-cd69bcb1bc31",
                   "name": "Alain Giraud",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e355c218-b269-4c30-af32-3b99030907ec",
                   "name": "David Millener",
                   "score": "1"
                 }

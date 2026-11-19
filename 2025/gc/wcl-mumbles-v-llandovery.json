@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a7eb6d2d-c91a-4522-b409-9e5bed73d52e",
   "name": "WCL: Mumbles v Llandovery",
   "sport": "gc",
   "firstDay": "2025-07-20",
   "lastDay": "2025-07-20",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Mumbles",
       "shortName": "Mumbles",
       "players": [
-        "John Sayce",
-        "Kath Wright",
-        "Paul Thomas",
-        "Paul Thomas & Kath Wright",
-        "Richard Wood",
-        "Richard Wood & John Sayce"
+        {
+          "playerId": "team-player/f7d068e9-f9cb-4101-b73e-efda918c2135",
+          "name": "John Sayce"
+        },
+        {
+          "playerId": "team-player/d1f0dcce-bfce-43d8-9877-21bb65a87379",
+          "name": "Kath Wright"
+        },
+        {
+          "playerId": "team-player/7ad2ec7f-b468-4000-b560-29cfb7570bc1",
+          "name": "Paul Thomas"
+        },
+        {
+          "playerId": "team-player/8400be61-087e-41e6-8c79-aacf0978be58",
+          "name": "Paul Thomas & Kath Wright"
+        },
+        {
+          "playerId": "team-player/ec95d0a9-6e8c-4ed8-a14d-013d7a73cd83",
+          "name": "Richard Wood"
+        },
+        {
+          "playerId": "team-player/306b0ecd-a4e5-4985-a986-e2ad7b1dd27b",
+          "name": "Richard Wood & John Sayce"
+        }
       ]
     },
     {
       "name": "Llandovery",
       "shortName": "Llandovery",
       "players": [
-        "Arwyn Davies",
-        "Bob Cash",
-        "Bob Cash & Arwyn Davies",
-        "John Evans",
-        "John Evans & Sally Evans",
-        "Sally Evans"
+        {
+          "playerId": "team-player/e7cd3778-1179-44a9-bdbd-ce2c1c25c056",
+          "name": "Arwyn Davies"
+        },
+        {
+          "playerId": "team-player/08532227-e02e-4f7c-8428-46cb7b1b981f",
+          "name": "Bob Cash"
+        },
+        {
+          "playerId": "team-player/a586b394-2ea4-46b3-acf9-d72b595ed455",
+          "name": "Bob Cash & Arwyn Davies"
+        },
+        {
+          "playerId": "team-player/17163cdc-e268-4844-8181-d85c0c9e9ce9",
+          "name": "John Evans"
+        },
+        {
+          "playerId": "team-player/a89674db-1060-4456-9f16-994c49419c2f",
+          "name": "John Evans & Sally Evans"
+        },
+        {
+          "playerId": "team-player/0da1b272-2aae-465b-aa1d-6fb168c68bf5",
+          "name": "Sally Evans"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/456fd1e9-ce30-4f4f-856a-8b87e2e58393",
       "teams": [
         "Mumbles",
         "Llandovery"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Richard Wood",
-            "Sally Evans"
+            {
+              "playerId": "team-player/ec95d0a9-6e8c-4ed8-a14d-013d7a73cd83",
+              "name": "Richard Wood"
+            },
+            {
+              "playerId": "team-player/0da1b272-2aae-465b-aa1d-6fb168c68bf5",
+              "name": "Sally Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ed03e3c-a9ce-4608-9b81-3832836a0051",
               "players": [
                 {
+                  "playerId": "team-player/ec95d0a9-6e8c-4ed8-a14d-013d7a73cd83",
                   "name": "Richard Wood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0da1b272-2aae-465b-aa1d-6fb168c68bf5",
                   "name": "Sally Evans",
                   "score": "2"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "John Sayce",
-            "Bob Cash"
+            {
+              "playerId": "team-player/f7d068e9-f9cb-4101-b73e-efda918c2135",
+              "name": "John Sayce"
+            },
+            {
+              "playerId": "team-player/08532227-e02e-4f7c-8428-46cb7b1b981f",
+              "name": "Bob Cash"
+            }
           ],
           "games": [
             {
+              "gameId": "game/324ea6eb-6b60-49cf-9c05-c8f2f9b09c33",
               "players": [
                 {
+                  "playerId": "team-player/f7d068e9-f9cb-4101-b73e-efda918c2135",
                   "name": "John Sayce",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/08532227-e02e-4f7c-8428-46cb7b1b981f",
                   "name": "Bob Cash",
                   "score": "5"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Paul Thomas",
-            "Arwyn Davies"
+            {
+              "playerId": "team-player/7ad2ec7f-b468-4000-b560-29cfb7570bc1",
+              "name": "Paul Thomas"
+            },
+            {
+              "playerId": "team-player/e7cd3778-1179-44a9-bdbd-ce2c1c25c056",
+              "name": "Arwyn Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/515019b1-ee2c-4291-b1b5-774902396d40",
               "players": [
                 {
+                  "playerId": "team-player/7ad2ec7f-b468-4000-b560-29cfb7570bc1",
                   "name": "Paul Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7cd3778-1179-44a9-bdbd-ce2c1c25c056",
                   "name": "Arwyn Davies",
                   "score": "6"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Kath Wright",
-            "John Evans"
+            {
+              "playerId": "team-player/d1f0dcce-bfce-43d8-9877-21bb65a87379",
+              "name": "Kath Wright"
+            },
+            {
+              "playerId": "team-player/17163cdc-e268-4844-8181-d85c0c9e9ce9",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d6ee5cbd-f697-496f-801b-0c133439a2ea",
               "players": [
                 {
+                  "playerId": "team-player/d1f0dcce-bfce-43d8-9877-21bb65a87379",
                   "name": "Kath Wright",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/17163cdc-e268-4844-8181-d85c0c9e9ce9",
                   "name": "John Evans",
                   "score": "7"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Richard Wood",
-            "Bob Cash"
+            {
+              "playerId": "team-player/ec95d0a9-6e8c-4ed8-a14d-013d7a73cd83",
+              "name": "Richard Wood"
+            },
+            {
+              "playerId": "team-player/08532227-e02e-4f7c-8428-46cb7b1b981f",
+              "name": "Bob Cash"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d5f83eb1-763a-423b-811e-9af354781d6b",
               "players": [
                 {
+                  "playerId": "team-player/ec95d0a9-6e8c-4ed8-a14d-013d7a73cd83",
                   "name": "Richard Wood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/08532227-e02e-4f7c-8428-46cb7b1b981f",
                   "name": "Bob Cash",
                   "score": "5"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "John Sayce",
-            "Arwyn Davies"
+            {
+              "playerId": "team-player/f7d068e9-f9cb-4101-b73e-efda918c2135",
+              "name": "John Sayce"
+            },
+            {
+              "playerId": "team-player/e7cd3778-1179-44a9-bdbd-ce2c1c25c056",
+              "name": "Arwyn Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/82ce7695-7c2f-4194-9e8d-46a2946f3bd2",
               "players": [
                 {
+                  "playerId": "team-player/f7d068e9-f9cb-4101-b73e-efda918c2135",
                   "name": "John Sayce",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e7cd3778-1179-44a9-bdbd-ce2c1c25c056",
                   "name": "Arwyn Davies",
                   "score": "7"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "Paul Thomas",
-            "John Evans"
+            {
+              "playerId": "team-player/7ad2ec7f-b468-4000-b560-29cfb7570bc1",
+              "name": "Paul Thomas"
+            },
+            {
+              "playerId": "team-player/17163cdc-e268-4844-8181-d85c0c9e9ce9",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d27ab2fc-56d2-48ed-b18e-e6153f4fe03a",
               "players": [
                 {
+                  "playerId": "team-player/7ad2ec7f-b468-4000-b560-29cfb7570bc1",
                   "name": "Paul Thomas",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/17163cdc-e268-4844-8181-d85c0c9e9ce9",
                   "name": "John Evans",
                   "score": "7"
                 }
@@ -197,17 +300,26 @@
         },
         {
           "players": [
-            "Kath Wright",
-            "Sally Evans"
+            {
+              "playerId": "team-player/d1f0dcce-bfce-43d8-9877-21bb65a87379",
+              "name": "Kath Wright"
+            },
+            {
+              "playerId": "team-player/0da1b272-2aae-465b-aa1d-6fb168c68bf5",
+              "name": "Sally Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a287c0b7-280a-4f6b-9d68-a69e329efa8f",
               "players": [
                 {
+                  "playerId": "team-player/d1f0dcce-bfce-43d8-9877-21bb65a87379",
                   "name": "Kath Wright",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/0da1b272-2aae-465b-aa1d-6fb168c68bf5",
                   "name": "Sally Evans",
                   "score": "7"
                 }
@@ -219,17 +331,26 @@
         },
         {
           "players": [
-            "Richard Wood",
-            "Arwyn Davies"
+            {
+              "playerId": "team-player/ec95d0a9-6e8c-4ed8-a14d-013d7a73cd83",
+              "name": "Richard Wood"
+            },
+            {
+              "playerId": "team-player/e7cd3778-1179-44a9-bdbd-ce2c1c25c056",
+              "name": "Arwyn Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7024268c-269f-4384-803a-47871b1957a4",
               "players": [
                 {
+                  "playerId": "team-player/ec95d0a9-6e8c-4ed8-a14d-013d7a73cd83",
                   "name": "Richard Wood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7cd3778-1179-44a9-bdbd-ce2c1c25c056",
                   "name": "Arwyn Davies",
                   "score": "3"
                 }
@@ -241,17 +362,26 @@
         },
         {
           "players": [
-            "John Sayce",
-            "John Evans"
+            {
+              "playerId": "team-player/f7d068e9-f9cb-4101-b73e-efda918c2135",
+              "name": "John Sayce"
+            },
+            {
+              "playerId": "team-player/17163cdc-e268-4844-8181-d85c0c9e9ce9",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/964fdbca-65f0-4ccd-88e9-d393853c8b2e",
               "players": [
                 {
+                  "playerId": "team-player/f7d068e9-f9cb-4101-b73e-efda918c2135",
                   "name": "John Sayce",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/17163cdc-e268-4844-8181-d85c0c9e9ce9",
                   "name": "John Evans",
                   "score": "7"
                 }
@@ -263,17 +393,26 @@
         },
         {
           "players": [
-            "Paul Thomas",
-            "Sally Evans"
+            {
+              "playerId": "team-player/7ad2ec7f-b468-4000-b560-29cfb7570bc1",
+              "name": "Paul Thomas"
+            },
+            {
+              "playerId": "team-player/0da1b272-2aae-465b-aa1d-6fb168c68bf5",
+              "name": "Sally Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/303ac52a-5025-4f03-ba62-74124d91247e",
               "players": [
                 {
+                  "playerId": "team-player/7ad2ec7f-b468-4000-b560-29cfb7570bc1",
                   "name": "Paul Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0da1b272-2aae-465b-aa1d-6fb168c68bf5",
                   "name": "Sally Evans",
                   "score": "4"
                 }
@@ -285,17 +424,26 @@
         },
         {
           "players": [
-            "Kath Wright",
-            "Bob Cash"
+            {
+              "playerId": "team-player/d1f0dcce-bfce-43d8-9877-21bb65a87379",
+              "name": "Kath Wright"
+            },
+            {
+              "playerId": "team-player/08532227-e02e-4f7c-8428-46cb7b1b981f",
+              "name": "Bob Cash"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1cee8fec-9b67-458f-93e4-0bf447521867",
               "players": [
                 {
+                  "playerId": "team-player/d1f0dcce-bfce-43d8-9877-21bb65a87379",
                   "name": "Kath Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/08532227-e02e-4f7c-8428-46cb7b1b981f",
                   "name": "Bob Cash",
                   "score": "1"
                 }
@@ -307,17 +455,26 @@
         },
         {
           "players": [
-            "Richard Wood",
-            "John Evans"
+            {
+              "playerId": "team-player/ec95d0a9-6e8c-4ed8-a14d-013d7a73cd83",
+              "name": "Richard Wood"
+            },
+            {
+              "playerId": "team-player/17163cdc-e268-4844-8181-d85c0c9e9ce9",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2acfd7a-c37a-42b6-bfde-f7f71dee834f",
               "players": [
                 {
+                  "playerId": "team-player/ec95d0a9-6e8c-4ed8-a14d-013d7a73cd83",
                   "name": "Richard Wood",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/17163cdc-e268-4844-8181-d85c0c9e9ce9",
                   "name": "John Evans",
                   "score": "7"
                 }
@@ -329,17 +486,26 @@
         },
         {
           "players": [
-            "John Sayce",
-            "Sally Evans"
+            {
+              "playerId": "team-player/f7d068e9-f9cb-4101-b73e-efda918c2135",
+              "name": "John Sayce"
+            },
+            {
+              "playerId": "team-player/0da1b272-2aae-465b-aa1d-6fb168c68bf5",
+              "name": "Sally Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c64bc9ea-b01c-4f61-a1b6-4a523f92078c",
               "players": [
                 {
+                  "playerId": "team-player/f7d068e9-f9cb-4101-b73e-efda918c2135",
                   "name": "John Sayce",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0da1b272-2aae-465b-aa1d-6fb168c68bf5",
                   "name": "Sally Evans",
                   "score": "5"
                 }
@@ -351,17 +517,26 @@
         },
         {
           "players": [
-            "Paul Thomas",
-            "Bob Cash"
+            {
+              "playerId": "team-player/7ad2ec7f-b468-4000-b560-29cfb7570bc1",
+              "name": "Paul Thomas"
+            },
+            {
+              "playerId": "team-player/08532227-e02e-4f7c-8428-46cb7b1b981f",
+              "name": "Bob Cash"
+            }
           ],
           "games": [
             {
+              "gameId": "game/67370dec-cd5d-4e90-b109-1c89cb0e2de1",
               "players": [
                 {
+                  "playerId": "team-player/7ad2ec7f-b468-4000-b560-29cfb7570bc1",
                   "name": "Paul Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/08532227-e02e-4f7c-8428-46cb7b1b981f",
                   "name": "Bob Cash",
                   "score": "2"
                 }
@@ -373,17 +548,26 @@
         },
         {
           "players": [
-            "Kath Wright",
-            "Arwyn Davies"
+            {
+              "playerId": "team-player/d1f0dcce-bfce-43d8-9877-21bb65a87379",
+              "name": "Kath Wright"
+            },
+            {
+              "playerId": "team-player/e7cd3778-1179-44a9-bdbd-ce2c1c25c056",
+              "name": "Arwyn Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/231a8d1b-0d3c-414f-a004-ebc601579526",
               "players": [
                 {
+                  "playerId": "team-player/d1f0dcce-bfce-43d8-9877-21bb65a87379",
                   "name": "Kath Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7cd3778-1179-44a9-bdbd-ce2c1c25c056",
                   "name": "Arwyn Davies",
                   "score": "5"
                 }
@@ -395,17 +579,26 @@
         },
         {
           "players": [
-            "Richard Wood & John Sayce",
-            "John Evans & Sally Evans"
+            {
+              "playerId": "team-player/306b0ecd-a4e5-4985-a986-e2ad7b1dd27b",
+              "name": "Richard Wood & John Sayce"
+            },
+            {
+              "playerId": "team-player/a89674db-1060-4456-9f16-994c49419c2f",
+              "name": "John Evans & Sally Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b75b7d51-20d7-4c91-9973-f0037f959e78",
               "players": [
                 {
+                  "playerId": "team-player/306b0ecd-a4e5-4985-a986-e2ad7b1dd27b",
                   "name": "Richard Wood & John Sayce",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/a89674db-1060-4456-9f16-994c49419c2f",
                   "name": "John Evans & Sally Evans",
                   "score": "7"
                 }
@@ -417,17 +610,26 @@
         },
         {
           "players": [
-            "Paul Thomas & Kath Wright",
-            "Bob Cash & Arwyn Davies"
+            {
+              "playerId": "team-player/8400be61-087e-41e6-8c79-aacf0978be58",
+              "name": "Paul Thomas & Kath Wright"
+            },
+            {
+              "playerId": "team-player/a586b394-2ea4-46b3-acf9-d72b595ed455",
+              "name": "Bob Cash & Arwyn Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/db9081a6-bd2f-456d-b050-682ee12d4bf5",
               "players": [
                 {
+                  "playerId": "team-player/8400be61-087e-41e6-8c79-aacf0978be58",
                   "name": "Paul Thomas & Kath Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a586b394-2ea4-46b3-acf9-d72b595ed455",
                   "name": "Bob Cash & Arwyn Davies",
                   "score": "6"
                 }
@@ -439,17 +641,26 @@
         },
         {
           "players": [
-            "Richard Wood & John Sayce",
-            "Bob Cash & Arwyn Davies"
+            {
+              "playerId": "team-player/306b0ecd-a4e5-4985-a986-e2ad7b1dd27b",
+              "name": "Richard Wood & John Sayce"
+            },
+            {
+              "playerId": "team-player/a586b394-2ea4-46b3-acf9-d72b595ed455",
+              "name": "Bob Cash & Arwyn Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ccee304-9d5c-45e2-baee-5e56935125a6",
               "players": [
                 {
+                  "playerId": "team-player/306b0ecd-a4e5-4985-a986-e2ad7b1dd27b",
                   "name": "Richard Wood & John Sayce",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a586b394-2ea4-46b3-acf9-d72b595ed455",
                   "name": "Bob Cash & Arwyn Davies",
                   "score": "3"
                 }
@@ -461,17 +672,26 @@
         },
         {
           "players": [
-            "Paul Thomas & Kath Wright",
-            "John Evans & Sally Evans"
+            {
+              "playerId": "team-player/8400be61-087e-41e6-8c79-aacf0978be58",
+              "name": "Paul Thomas & Kath Wright"
+            },
+            {
+              "playerId": "team-player/a89674db-1060-4456-9f16-994c49419c2f",
+              "name": "John Evans & Sally Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/21f425cf-4660-4727-9abe-ca79dcddd955",
               "players": [
                 {
+                  "playerId": "team-player/8400be61-087e-41e6-8c79-aacf0978be58",
                   "name": "Paul Thomas & Kath Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a89674db-1060-4456-9f16-994c49419c2f",
                   "name": "John Evans & Sally Evans",
                   "score": "3"
                 }

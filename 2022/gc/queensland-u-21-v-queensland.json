@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/9deb66e4-1287-419f-898a-9bd2daf78ded",
   "name": "Queensland U/21 v Queensland GC Test Match",
   "sport": "gc",
   "firstDay": "2022-11-10",
   "lastDay": "2022-11-11",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Queensland U/21",
       "shortName": "Queensland",
       "players": [
-        "Addison Matthews",
-        "Addison Matthews and Frances Wright",
-        "Addison Matthews and Tim Wright",
-        "Frances Wright",
-        "Tim Wright",
-        "Tim Wright and Frances Wright"
+        {
+          "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
+          "name": "Addison Matthews"
+        },
+        {
+          "playerId": "team-player/64c687c3-d7bd-4cc0-952a-a9bdc80de9b7",
+          "name": "Addison Matthews and Frances Wright"
+        },
+        {
+          "playerId": "team-player/7ca1d963-faa0-4652-8aaa-8c58d41a25a4",
+          "name": "Addison Matthews and Tim Wright"
+        },
+        {
+          "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
+          "name": "Frances Wright"
+        },
+        {
+          "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
+          "name": "Tim Wright"
+        },
+        {
+          "playerId": "team-player/920f0865-8bd3-425a-bada-e109d20a6e13",
+          "name": "Tim Wright and Frances Wright"
+        }
       ]
     },
     {
       "name": "Queensland",
       "shortName": "QLD",
       "players": [
-        "Caesy De-Vene and Zachary Kominar",
-        "Casey De-Vene",
-        "Casey De-Vene and Francesca De Wytt",
-        "Francesca De Wytt",
-        "Zachary Kominar",
-        "Zachary Kominar and Francesca De Wytt"
+        {
+          "playerId": "team-player/6af87056-ca20-4fa4-ac2e-c0e433a15e9a",
+          "name": "Caesy De-Vene and Zachary Kominar"
+        },
+        {
+          "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
+          "name": "Casey De-Vene"
+        },
+        {
+          "playerId": "team-player/85344f6f-b84c-43fe-909a-dc41a9738b4a",
+          "name": "Casey De-Vene and Francesca De Wytt"
+        },
+        {
+          "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
+          "name": "Francesca De Wytt"
+        },
+        {
+          "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
+          "name": "Zachary Kominar"
+        },
+        {
+          "playerId": "team-player/df2b147b-fb8d-4867-8b66-c80dc06d1009",
+          "name": "Zachary Kominar and Francesca De Wytt"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/5d665960-e181-477c-940d-2e0a43173bde",
       "teams": [
         "Queensland U/21",
         "Queensland"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Addison Matthews and Frances Wright",
-            "Caesy De-Vene and Zachary Kominar"
+            {
+              "playerId": "team-player/64c687c3-d7bd-4cc0-952a-a9bdc80de9b7",
+              "name": "Addison Matthews and Frances Wright"
+            },
+            {
+              "playerId": "team-player/6af87056-ca20-4fa4-ac2e-c0e433a15e9a",
+              "name": "Caesy De-Vene and Zachary Kominar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1c98c583-63ee-4c04-816d-1d407ed9656a",
               "players": [
                 {
+                  "playerId": "team-player/64c687c3-d7bd-4cc0-952a-a9bdc80de9b7",
                   "name": "Addison Matthews and Frances Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6af87056-ca20-4fa4-ac2e-c0e433a15e9a",
                   "name": "Caesy De-Vene and Zachary Kominar",
                   "score": "4"
                 }
@@ -62,12 +111,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/742d4735-2afc-4fd8-86ae-37c91cb387b0",
               "players": [
                 {
+                  "playerId": "team-player/64c687c3-d7bd-4cc0-952a-a9bdc80de9b7",
                   "name": "Addison Matthews and Frances Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6af87056-ca20-4fa4-ac2e-c0e433a15e9a",
                   "name": "Caesy De-Vene and Zachary Kominar",
                   "score": "5"
                 }
@@ -79,17 +131,26 @@
         },
         {
           "players": [
-            "Tim Wright",
-            "Francesca De Wytt"
+            {
+              "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
+              "name": "Tim Wright"
+            },
+            {
+              "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
+              "name": "Francesca De Wytt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0b91317b-2627-4b89-9a1c-bbdcd3aa7960",
               "players": [
                 {
+                  "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
                   "name": "Tim Wright",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
                   "name": "Francesca De Wytt",
                   "score": "7"
                 }
@@ -98,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f1ace686-79c8-4fae-a438-fd6da1dcbc25",
               "players": [
                 {
+                  "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
                   "name": "Tim Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
                   "name": "Francesca De Wytt",
                   "score": "3"
                 }
@@ -112,12 +176,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/581873b8-c711-479c-8671-4d8004290019",
               "players": [
                 {
+                  "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
                   "name": "Tim Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
                   "name": "Francesca De Wytt",
                   "score": "2"
                 }
@@ -129,17 +196,26 @@
         },
         {
           "players": [
-            "Addison Matthews and Tim Wright",
-            "Casey De-Vene and Francesca De Wytt"
+            {
+              "playerId": "team-player/7ca1d963-faa0-4652-8aaa-8c58d41a25a4",
+              "name": "Addison Matthews and Tim Wright"
+            },
+            {
+              "playerId": "team-player/85344f6f-b84c-43fe-909a-dc41a9738b4a",
+              "name": "Casey De-Vene and Francesca De Wytt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1ed4c661-5051-4b49-bd14-cb42f98b414d",
               "players": [
                 {
+                  "playerId": "team-player/7ca1d963-faa0-4652-8aaa-8c58d41a25a4",
                   "name": "Addison Matthews and Tim Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/85344f6f-b84c-43fe-909a-dc41a9738b4a",
                   "name": "Casey De-Vene and Francesca De Wytt",
                   "score": "3"
                 }
@@ -148,12 +224,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/48614cae-8b4e-4f96-a042-fcc4ed3310f5",
               "players": [
                 {
+                  "playerId": "team-player/7ca1d963-faa0-4652-8aaa-8c58d41a25a4",
                   "name": "Addison Matthews and Tim Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/85344f6f-b84c-43fe-909a-dc41a9738b4a",
                   "name": "Casey De-Vene and Francesca De Wytt",
                   "score": "2"
                 }
@@ -165,17 +244,26 @@
         },
         {
           "players": [
-            "Frances Wright",
-            "Zachary Kominar"
+            {
+              "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
+              "name": "Frances Wright"
+            },
+            {
+              "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
+              "name": "Zachary Kominar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b9353c4d-e681-4c33-a528-01f7bf64d595",
               "players": [
                 {
+                  "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
                   "name": "Frances Wright",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
                   "name": "Zachary Kominar",
                   "score": "7"
                 }
@@ -184,12 +272,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/31d255e9-2555-4216-9adc-c0d19afe5768",
               "players": [
                 {
+                  "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
                   "name": "Frances Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
                   "name": "Zachary Kominar",
                   "score": "1"
                 }
@@ -198,12 +289,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/57321505-867a-42d5-bdbb-2795b36d64c7",
               "players": [
                 {
+                  "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
                   "name": "Frances Wright",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
                   "name": "Zachary Kominar",
                   "score": "7"
                 }
@@ -215,17 +309,26 @@
         },
         {
           "players": [
-            "Frances Wright",
-            "Casey De-Vene"
+            {
+              "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
+              "name": "Frances Wright"
+            },
+            {
+              "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
+              "name": "Casey De-Vene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d57f8ca6-c5a5-4bf2-b5c3-a6b7d2bd21ef",
               "players": [
                 {
+                  "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
                   "name": "Frances Wright",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
                   "name": "Casey De-Vene",
                   "score": "7"
                 }
@@ -234,12 +337,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/96c3ed37-257e-4b1c-b86a-ecdae72790bd",
               "players": [
                 {
+                  "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
                   "name": "Frances Wright",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
                   "name": "Casey De-Vene",
                   "score": "7"
                 }
@@ -251,17 +357,26 @@
         },
         {
           "players": [
-            "Addison Matthews",
-            "Francesca De Wytt"
+            {
+              "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
+              "name": "Addison Matthews"
+            },
+            {
+              "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
+              "name": "Francesca De Wytt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/45a20018-a7ed-47f7-84d5-4ad94e9c1d70",
               "players": [
                 {
+                  "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
                   "name": "Addison Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
                   "name": "Francesca De Wytt",
                   "score": "5"
                 }
@@ -270,12 +385,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8c7be4fe-f8e8-4ec4-8209-3f5930192643",
               "players": [
                 {
+                  "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
                   "name": "Addison Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
                   "name": "Francesca De Wytt",
                   "score": "4"
                 }
@@ -287,17 +405,26 @@
         },
         {
           "players": [
-            "Tim Wright",
-            "Zachary Kominar"
+            {
+              "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
+              "name": "Tim Wright"
+            },
+            {
+              "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
+              "name": "Zachary Kominar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4cc5dbab-8e4d-4345-9d7d-f17ea580bf24",
               "players": [
                 {
+                  "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
                   "name": "Tim Wright",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
                   "name": "Zachary Kominar",
                   "score": "7"
                 }
@@ -306,12 +433,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a6cc4d6e-515c-4c6b-8fbf-c640ddf84e43",
               "players": [
                 {
+                  "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
                   "name": "Tim Wright",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
                   "name": "Zachary Kominar",
                   "score": "7"
                 }
@@ -323,17 +453,26 @@
         },
         {
           "players": [
-            "Addison Matthews",
-            "Casey De-Vene"
+            {
+              "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
+              "name": "Addison Matthews"
+            },
+            {
+              "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
+              "name": "Casey De-Vene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/728c5aaa-8314-4572-99da-53c57bd707b1",
               "players": [
                 {
+                  "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
                   "name": "Addison Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
                   "name": "Casey De-Vene",
                   "score": "3"
                 }
@@ -342,12 +481,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f7b74ce4-ab1a-4cc1-9217-54099b52f20e",
               "players": [
                 {
+                  "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
                   "name": "Addison Matthews",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
                   "name": "Casey De-Vene",
                   "score": "7"
                 }
@@ -356,12 +498,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/746d2471-8439-4450-bff0-9aa05a222439",
               "players": [
                 {
+                  "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
                   "name": "Addison Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
                   "name": "Casey De-Vene",
                   "score": "5"
                 }
@@ -373,17 +518,26 @@
         },
         {
           "players": [
-            "Tim Wright and Frances Wright",
-            "Zachary Kominar and Francesca De Wytt"
+            {
+              "playerId": "team-player/920f0865-8bd3-425a-bada-e109d20a6e13",
+              "name": "Tim Wright and Frances Wright"
+            },
+            {
+              "playerId": "team-player/df2b147b-fb8d-4867-8b66-c80dc06d1009",
+              "name": "Zachary Kominar and Francesca De Wytt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b2be54b3-d5a4-491b-8a86-8284b37107af",
               "players": [
                 {
+                  "playerId": "team-player/920f0865-8bd3-425a-bada-e109d20a6e13",
                   "name": "Tim Wright and Frances Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/df2b147b-fb8d-4867-8b66-c80dc06d1009",
                   "name": "Zachary Kominar and Francesca De Wytt",
                   "score": "5"
                 }
@@ -392,12 +546,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/89d068c4-b079-4066-8d33-94a0fa7a00ab",
               "players": [
                 {
+                  "playerId": "team-player/920f0865-8bd3-425a-bada-e109d20a6e13",
                   "name": "Tim Wright and Frances Wright",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/df2b147b-fb8d-4867-8b66-c80dc06d1009",
                   "name": "Zachary Kominar and Francesca De Wytt",
                   "score": "7"
                 }
@@ -406,12 +563,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/06d99310-45e6-43e2-a7a8-e7873daacefc",
               "players": [
                 {
+                  "playerId": "team-player/920f0865-8bd3-425a-bada-e109d20a6e13",
                   "name": "Tim Wright and Frances Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/df2b147b-fb8d-4867-8b66-c80dc06d1009",
                   "name": "Zachary Kominar and Francesca De Wytt",
                   "score": "3"
                 }
@@ -423,17 +583,26 @@
         },
         {
           "players": [
-            "Addison Matthews",
-            "Zachary Kominar"
+            {
+              "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
+              "name": "Addison Matthews"
+            },
+            {
+              "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
+              "name": "Zachary Kominar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/44d40ae1-8946-4921-b5fb-2850a438156e",
               "players": [
                 {
+                  "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
                   "name": "Addison Matthews",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
                   "name": "Zachary Kominar",
                   "score": "7"
                 }
@@ -442,12 +611,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/577a4ab2-e16b-449d-a433-393de003728e",
               "players": [
                 {
+                  "playerId": "team-player/53e25cd4-6030-445b-b6d6-34dccbc97afd",
                   "name": "Addison Matthews",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0508beaa-29c3-45d3-aa81-1722cb41b5d7",
                   "name": "Zachary Kominar",
                   "score": "7"
                 }
@@ -459,17 +631,26 @@
         },
         {
           "players": [
-            "Frances Wright",
-            "Francesca De Wytt"
+            {
+              "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
+              "name": "Frances Wright"
+            },
+            {
+              "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
+              "name": "Francesca De Wytt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5a1b687d-f86b-40f5-803e-abb09204bd69",
               "players": [
                 {
+                  "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
                   "name": "Frances Wright",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
                   "name": "Francesca De Wytt",
                   "score": "7"
                 }
@@ -478,12 +659,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9b80ecb6-fd63-4be3-b443-3fe7327e664a",
               "players": [
                 {
+                  "playerId": "team-player/93474670-fa24-4c8b-b9a2-edd93d5a0202",
                   "name": "Frances Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/92c0aaba-7efe-4851-b743-6a3d9afe9941",
                   "name": "Francesca De Wytt",
                   "score": "6"
                 }
@@ -495,17 +679,26 @@
         },
         {
           "players": [
-            "Tim Wright",
-            "Casey De-Vene"
+            {
+              "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
+              "name": "Tim Wright"
+            },
+            {
+              "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
+              "name": "Casey De-Vene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3bdd34ce-02bb-4619-8500-08b76c2731ed",
               "players": [
                 {
+                  "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
                   "name": "Tim Wright",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
                   "name": "Casey De-Vene",
                   "score": "7"
                 }
@@ -514,12 +707,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e834c817-489d-4098-bddb-b962b670b221",
               "players": [
                 {
+                  "playerId": "team-player/522d6a62-f3fe-4e25-90da-d4fa7f225f79",
                   "name": "Tim Wright",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/bac23c87-4f46-4447-baac-c5284e24978c",
                   "name": "Casey De-Vene",
                   "score": "7"
                 }

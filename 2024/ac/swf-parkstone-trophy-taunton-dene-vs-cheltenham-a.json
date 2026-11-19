@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e488c60c-0fec-42db-b699-a00a9bf41768",
   "name": "SWF Parkstone Trophy Taunton Deane vs Cheltenham \"A\"",
   "sport": "ac",
   "firstDay": "2024-06-02",
   "lastDay": "2024-06-02",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Taunton Deane",
       "shortName": "Taunton De",
       "players": [
-        "Martin Wicks",
-        "Stephen Custance-Baker",
-        "Stephen Custance-Baker & Martin Wicks",
-        "Tim Jolliff"
+        {
+          "playerId": "team-player/95cffe7f-5f7a-4372-95a9-e3dacafbeea5",
+          "name": "Martin Wicks"
+        },
+        {
+          "playerId": "team-player/54152bd3-c3e8-401b-965d-5265c988f331",
+          "name": "Stephen Custance-Baker"
+        },
+        {
+          "playerId": "team-player/09af9d5b-354c-467c-98d8-332cdfc296c1",
+          "name": "Stephen Custance-Baker & Martin Wicks"
+        },
+        {
+          "playerId": "team-player/05ddaa6e-34e5-4066-9fc8-1b37906d4dac",
+          "name": "Tim Jolliff"
+        }
       ]
     },
     {
       "name": "Cheltenham A",
       "shortName": "Cheltenham",
       "players": [
-        "Andy Smith",
-        "Mark Oldale",
-        "Sarah Hayes",
-        "Sarah Hayes & Mark Oldale"
+        {
+          "playerId": "team-player/b81fe807-af10-4ff1-84bc-69e16117beac",
+          "name": "Andy Smith"
+        },
+        {
+          "playerId": "team-player/948b981d-e46f-4d02-aca2-bbbc1a97ffd2",
+          "name": "Mark Oldale"
+        },
+        {
+          "playerId": "team-player/d77c09a9-e30f-4853-9699-c8edf2f9b94f",
+          "name": "Sarah Hayes"
+        },
+        {
+          "playerId": "team-player/fdb8552e-d5f3-4d1e-8108-5d73128ff11c",
+          "name": "Sarah Hayes & Mark Oldale"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/55a8b6ea-432b-4c45-a75a-a3df18ea5faa",
       "teams": [
         "Taunton Deane",
         "Cheltenham A"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Tim Jolliff",
-            "Andy Smith"
+            {
+              "playerId": "team-player/05ddaa6e-34e5-4066-9fc8-1b37906d4dac",
+              "name": "Tim Jolliff"
+            },
+            {
+              "playerId": "team-player/b81fe807-af10-4ff1-84bc-69e16117beac",
+              "name": "Andy Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9c662cb-7969-4f3c-99ca-b7c1ee29cfbb",
               "players": [
                 {
+                  "playerId": "team-player/05ddaa6e-34e5-4066-9fc8-1b37906d4dac",
                   "name": "Tim Jolliff",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b81fe807-af10-4ff1-84bc-69e16117beac",
                   "name": "Andy Smith",
                   "score": "4"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Stephen Custance-Baker & Martin Wicks",
-            "Sarah Hayes & Mark Oldale"
+            {
+              "playerId": "team-player/09af9d5b-354c-467c-98d8-332cdfc296c1",
+              "name": "Stephen Custance-Baker & Martin Wicks"
+            },
+            {
+              "playerId": "team-player/fdb8552e-d5f3-4d1e-8108-5d73128ff11c",
+              "name": "Sarah Hayes & Mark Oldale"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bb8094f8-98bb-4bf8-bae8-8dac5760d24b",
               "players": [
                 {
+                  "playerId": "team-player/09af9d5b-354c-467c-98d8-332cdfc296c1",
                   "name": "Stephen Custance-Baker & Martin Wicks",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/fdb8552e-d5f3-4d1e-8108-5d73128ff11c",
                   "name": "Sarah Hayes & Mark Oldale",
                   "score": "6"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Tim Jolliff",
-            "Sarah Hayes"
+            {
+              "playerId": "team-player/05ddaa6e-34e5-4066-9fc8-1b37906d4dac",
+              "name": "Tim Jolliff"
+            },
+            {
+              "playerId": "team-player/d77c09a9-e30f-4853-9699-c8edf2f9b94f",
+              "name": "Sarah Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a07188f3-be00-426a-8865-3ae1f9c62ebc",
               "players": [
                 {
+                  "playerId": "team-player/05ddaa6e-34e5-4066-9fc8-1b37906d4dac",
                   "name": "Tim Jolliff",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d77c09a9-e30f-4853-9699-c8edf2f9b94f",
                   "name": "Sarah Hayes",
                   "score": "9"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Stephen Custance-Baker",
-            "Andy Smith"
+            {
+              "playerId": "team-player/54152bd3-c3e8-401b-965d-5265c988f331",
+              "name": "Stephen Custance-Baker"
+            },
+            {
+              "playerId": "team-player/b81fe807-af10-4ff1-84bc-69e16117beac",
+              "name": "Andy Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c1934557-457d-4264-b80c-9c7e870325cb",
               "players": [
                 {
+                  "playerId": "team-player/54152bd3-c3e8-401b-965d-5265c988f331",
                   "name": "Stephen Custance-Baker",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/b81fe807-af10-4ff1-84bc-69e16117beac",
                   "name": "Andy Smith",
                   "score": "26"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Martin Wicks",
-            "Mark Oldale"
+            {
+              "playerId": "team-player/95cffe7f-5f7a-4372-95a9-e3dacafbeea5",
+              "name": "Martin Wicks"
+            },
+            {
+              "playerId": "team-player/948b981d-e46f-4d02-aca2-bbbc1a97ffd2",
+              "name": "Mark Oldale"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3bd66b31-cee5-44c7-8347-4f8b1e20f464",
               "players": [
                 {
+                  "playerId": "team-player/95cffe7f-5f7a-4372-95a9-e3dacafbeea5",
                   "name": "Martin Wicks",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/948b981d-e46f-4d02-aca2-bbbc1a97ffd2",
                   "name": "Mark Oldale",
                   "score": "17"
                 }

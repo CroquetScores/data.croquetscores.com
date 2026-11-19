@@ -1,36 +1,67 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/3935854b-18ec-414b-9f92-33690f3bda3e",
   "name": "Croquet NSW Silver Pennants",
   "sport": "ac",
   "firstDay": "2013-06-11",
   "lastDay": "2013-07-02",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Mosman",
       "shortName": "Mosman",
       "players": [
-        "Lesley Fransen",
-        "Lindsay Thompson",
-        "Mal Russell",
-        "Mary Gibson & Graham Lockhart"
+        {
+          "playerId": "team-player/e8419fdc-9ad3-46c5-92e1-30322fa7e4b3",
+          "name": "Lesley Fransen"
+        },
+        {
+          "playerId": "team-player/15e85ea1-5f5b-4fbc-bb3f-4f8fd41f378a",
+          "name": "Lindsay Thompson"
+        },
+        {
+          "playerId": "team-player/710eb19b-85ce-4b5a-9fdb-587e8ae62233",
+          "name": "Mal Russell"
+        },
+        {
+          "playerId": "team-player/9f24348d-8ab9-47ab-9592-62cce2845889",
+          "name": "Mary Gibson & Graham Lockhart"
+        }
       ]
     },
     {
       "name": "Strathfield",
       "shortName": "Strathfiel",
       "players": [
-        "Alf James",
-        "Alf James & Heather Smallbone",
-        "John Campey",
-        "John Campey & Heather Smallbone",
-        "Margaret Burke"
+        {
+          "playerId": "team-player/c181ac34-834d-457c-a2a8-1684639f5e50",
+          "name": "Alf James"
+        },
+        {
+          "playerId": "team-player/266f164d-9cb7-4806-9290-970d9824b33d",
+          "name": "Alf James & Heather Smallbone"
+        },
+        {
+          "playerId": "team-player/224cd0db-82fa-4e32-8966-a7274c50f304",
+          "name": "John Campey"
+        },
+        {
+          "playerId": "team-player/88ecf290-1b42-41ab-ba24-e438a3c52dd3",
+          "name": "John Campey & Heather Smallbone"
+        },
+        {
+          "playerId": "team-player/9df3d8d0-18d3-4436-b6a7-1f6d511547b4",
+          "name": "Margaret Burke"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/706c0b58-a64e-406d-85e6-1bef8c901a84",
       "teams": [
         "Mosman",
         "Strathfield"
@@ -40,17 +71,26 @@
       "matches": [
         {
           "players": [
-            "Mary Gibson & Graham Lockhart",
-            "John Campey & Heather Smallbone"
+            {
+              "playerId": "team-player/9f24348d-8ab9-47ab-9592-62cce2845889",
+              "name": "Mary Gibson & Graham Lockhart"
+            },
+            {
+              "playerId": "team-player/88ecf290-1b42-41ab-ba24-e438a3c52dd3",
+              "name": "John Campey & Heather Smallbone"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa612fe9-7117-4e16-9183-8311e03e2762",
               "players": [
                 {
+                  "playerId": "team-player/9f24348d-8ab9-47ab-9592-62cce2845889",
                   "name": "Mary Gibson & Graham Lockhart",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/88ecf290-1b42-41ab-ba24-e438a3c52dd3",
                   "name": "John Campey & Heather Smallbone",
                   "score": "10"
                 }
@@ -62,17 +102,26 @@
         },
         {
           "players": [
-            "Lindsay Thompson",
-            "Alf James"
+            {
+              "playerId": "team-player/15e85ea1-5f5b-4fbc-bb3f-4f8fd41f378a",
+              "name": "Lindsay Thompson"
+            },
+            {
+              "playerId": "team-player/c181ac34-834d-457c-a2a8-1684639f5e50",
+              "name": "Alf James"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2ecb98e-d86a-4af5-9834-7e88f3a992be",
               "players": [
                 {
+                  "playerId": "team-player/15e85ea1-5f5b-4fbc-bb3f-4f8fd41f378a",
                   "name": "Lindsay Thompson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c181ac34-834d-457c-a2a8-1684639f5e50",
                   "name": "Alf James",
                   "score": "2"
                 }
@@ -84,17 +133,26 @@
         },
         {
           "players": [
-            "Mal Russell",
-            "Margaret Burke"
+            {
+              "playerId": "team-player/710eb19b-85ce-4b5a-9fdb-587e8ae62233",
+              "name": "Mal Russell"
+            },
+            {
+              "playerId": "team-player/9df3d8d0-18d3-4436-b6a7-1f6d511547b4",
+              "name": "Margaret Burke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ba50c370-5087-4f21-9da2-329df9d30f73",
               "players": [
                 {
+                  "playerId": "team-player/710eb19b-85ce-4b5a-9fdb-587e8ae62233",
                   "name": "Mal Russell",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/9df3d8d0-18d3-4436-b6a7-1f6d511547b4",
                   "name": "Margaret Burke",
                   "score": "26"
                 }
@@ -107,6 +165,7 @@
       ]
     },
     {
+      "competitionId": "competition/86c2c0e2-f6b7-4fef-8116-fa48ada00d1c",
       "teams": [
         "Strathfield",
         "Mosman"
@@ -116,17 +175,26 @@
       "matches": [
         {
           "players": [
-            "Alf James & Heather Smallbone",
-            "Mary Gibson & Graham Lockhart"
+            {
+              "playerId": "team-player/266f164d-9cb7-4806-9290-970d9824b33d",
+              "name": "Alf James & Heather Smallbone"
+            },
+            {
+              "playerId": "team-player/9f24348d-8ab9-47ab-9592-62cce2845889",
+              "name": "Mary Gibson & Graham Lockhart"
+            }
           ],
           "games": [
             {
+              "gameId": "game/313b31c2-be3a-4244-b073-e3e6c6604199",
               "players": [
                 {
+                  "playerId": "team-player/266f164d-9cb7-4806-9290-970d9824b33d",
                   "name": "Alf James & Heather Smallbone",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/9f24348d-8ab9-47ab-9592-62cce2845889",
                   "name": "Mary Gibson & Graham Lockhart",
                   "score": "17"
                 }
@@ -138,17 +206,26 @@
         },
         {
           "players": [
-            "Margaret Burke",
-            "Lesley Fransen"
+            {
+              "playerId": "team-player/9df3d8d0-18d3-4436-b6a7-1f6d511547b4",
+              "name": "Margaret Burke"
+            },
+            {
+              "playerId": "team-player/e8419fdc-9ad3-46c5-92e1-30322fa7e4b3",
+              "name": "Lesley Fransen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8ebba9ab-2969-40e5-be15-f50079bff71e",
               "players": [
                 {
+                  "playerId": "team-player/9df3d8d0-18d3-4436-b6a7-1f6d511547b4",
                   "name": "Margaret Burke",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/e8419fdc-9ad3-46c5-92e1-30322fa7e4b3",
                   "name": "Lesley Fransen",
                   "score": "21"
                 }
@@ -160,17 +237,26 @@
         },
         {
           "players": [
-            "John Campey",
-            "Mal Russell"
+            {
+              "playerId": "team-player/224cd0db-82fa-4e32-8966-a7274c50f304",
+              "name": "John Campey"
+            },
+            {
+              "playerId": "team-player/710eb19b-85ce-4b5a-9fdb-587e8ae62233",
+              "name": "Mal Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f48aa700-5c73-4bfb-b66a-218d121d0bb0",
               "players": [
                 {
+                  "playerId": "team-player/224cd0db-82fa-4e32-8966-a7274c50f304",
                   "name": "John Campey",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/710eb19b-85ce-4b5a-9fdb-587e8ae62233",
                   "name": "Mal Russell",
                   "score": "26"
                 }

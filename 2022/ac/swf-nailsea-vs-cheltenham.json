@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/9bcbed4c-1b5b-46bb-8ff0-052db16d9f59",
   "name": "SWF Nailsea vs Cheltenham",
   "sport": "ac",
   "firstDay": "2022-05-29",
   "lastDay": "2022-05-29",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nailsea CC",
       "shortName": "Nailsea CC",
       "players": [
-        "Doubles LC RC",
-        "James Galpin",
-        "Kristian Chambers",
-        "Marcus Evans",
-        "Ryan Cabble"
+        {
+          "playerId": "team-player/9a3a7e3a-0dd6-46f3-984d-d86aa6550d87",
+          "name": "Doubles LC RC"
+        },
+        {
+          "playerId": "team-player/c0a783f7-447b-433a-90c4-1fe4c031931f",
+          "name": "James Galpin"
+        },
+        {
+          "playerId": "team-player/64adaaa4-5d44-42d0-9358-390cb3d1315a",
+          "name": "Kristian Chambers"
+        },
+        {
+          "playerId": "team-player/97f90346-4f2f-40e6-9701-ea9b9f411e03",
+          "name": "Marcus Evans"
+        },
+        {
+          "playerId": "team-player/bafefbda-3f10-4dc0-9e2c-a29ce0abdb5a",
+          "name": "Ryan Cabble"
+        }
       ]
     },
     {
       "name": "Cheltenham CC",
       "shortName": "Cheltenham",
       "players": [
-        "David Foulser",
-        "Doubles LB DF",
-        "Louise Bradforth",
-        "Mark Suter",
-        "Sarah Hayes"
+        {
+          "playerId": "team-player/00729ab1-a8df-45a3-8bdf-a0f3b16eea32",
+          "name": "David Foulser"
+        },
+        {
+          "playerId": "team-player/f5e93399-8f95-4af1-8019-ef94be918b77",
+          "name": "Doubles LB DF"
+        },
+        {
+          "playerId": "team-player/740591a7-d871-465b-9275-59e060ac2b3e",
+          "name": "Louise Bradforth"
+        },
+        {
+          "playerId": "team-player/32810a58-31c3-4b40-b4c3-80f1a0fecb70",
+          "name": "Mark Suter"
+        },
+        {
+          "playerId": "team-player/c34cc392-d0f8-495f-846f-6032b1fded81",
+          "name": "Sarah Hayes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/e7cba93c-7ebb-4995-aace-849de6fa55cc",
       "teams": [
         "Nailsea CC",
         "Cheltenham CC"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "James Galpin",
-            "Mark Suter"
+            {
+              "playerId": "team-player/c0a783f7-447b-433a-90c4-1fe4c031931f",
+              "name": "James Galpin"
+            },
+            {
+              "playerId": "team-player/32810a58-31c3-4b40-b4c3-80f1a0fecb70",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d6952cc3-76b6-4064-bf0e-1e32b128ede3",
               "players": [
                 {
+                  "playerId": "team-player/c0a783f7-447b-433a-90c4-1fe4c031931f",
                   "name": "James Galpin",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/32810a58-31c3-4b40-b4c3-80f1a0fecb70",
                   "name": "Mark Suter",
                   "score": "12"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Marcus Evans",
-            "Sarah Hayes"
+            {
+              "playerId": "team-player/97f90346-4f2f-40e6-9701-ea9b9f411e03",
+              "name": "Marcus Evans"
+            },
+            {
+              "playerId": "team-player/c34cc392-d0f8-495f-846f-6032b1fded81",
+              "name": "Sarah Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fafa0fad-21fd-4947-affb-a1902ff42440",
               "players": [
                 {
+                  "playerId": "team-player/97f90346-4f2f-40e6-9701-ea9b9f411e03",
                   "name": "Marcus Evans",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/c34cc392-d0f8-495f-846f-6032b1fded81",
                   "name": "Sarah Hayes",
                   "score": "19"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Doubles LC RC",
-            "Doubles LB DF"
+            {
+              "playerId": "team-player/9a3a7e3a-0dd6-46f3-984d-d86aa6550d87",
+              "name": "Doubles LC RC"
+            },
+            {
+              "playerId": "team-player/f5e93399-8f95-4af1-8019-ef94be918b77",
+              "name": "Doubles LB DF"
+            }
           ],
           "games": [
             {
+              "gameId": "game/955bc4ca-f140-4a64-84b5-31ca20c1548b",
               "players": [
                 {
+                  "playerId": "team-player/9a3a7e3a-0dd6-46f3-984d-d86aa6550d87",
                   "name": "Doubles LC RC",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f5e93399-8f95-4af1-8019-ef94be918b77",
                   "name": "Doubles LB DF",
                   "score": "12"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "James Galpin",
-            "Sarah Hayes"
+            {
+              "playerId": "team-player/c0a783f7-447b-433a-90c4-1fe4c031931f",
+              "name": "James Galpin"
+            },
+            {
+              "playerId": "team-player/c34cc392-d0f8-495f-846f-6032b1fded81",
+              "name": "Sarah Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc8d5834-ea7a-470b-9ed6-a0992887e3fc",
               "players": [
                 {
+                  "playerId": "team-player/c0a783f7-447b-433a-90c4-1fe4c031931f",
                   "name": "James Galpin",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c34cc392-d0f8-495f-846f-6032b1fded81",
                   "name": "Sarah Hayes",
                   "score": "2"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Marcus Evans",
-            "Mark Suter"
+            {
+              "playerId": "team-player/97f90346-4f2f-40e6-9701-ea9b9f411e03",
+              "name": "Marcus Evans"
+            },
+            {
+              "playerId": "team-player/32810a58-31c3-4b40-b4c3-80f1a0fecb70",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42529db9-7615-4e27-ac6c-a07e2757bae6",
               "players": [
                 {
+                  "playerId": "team-player/97f90346-4f2f-40e6-9701-ea9b9f411e03",
                   "name": "Marcus Evans",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/32810a58-31c3-4b40-b4c3-80f1a0fecb70",
                   "name": "Mark Suter",
                   "score": "11"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Ryan Cabble",
-            "David Foulser"
+            {
+              "playerId": "team-player/bafefbda-3f10-4dc0-9e2c-a29ce0abdb5a",
+              "name": "Ryan Cabble"
+            },
+            {
+              "playerId": "team-player/00729ab1-a8df-45a3-8bdf-a0f3b16eea32",
+              "name": "David Foulser"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b05258bc-5da8-4ef5-b1d7-0c11e3cf0d79",
               "players": [
                 {
+                  "playerId": "team-player/bafefbda-3f10-4dc0-9e2c-a29ce0abdb5a",
                   "name": "Ryan Cabble",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/00729ab1-a8df-45a3-8bdf-a0f3b16eea32",
                   "name": "David Foulser",
                   "score": "7"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Kristian Chambers",
-            "Louise Bradforth"
+            {
+              "playerId": "team-player/64adaaa4-5d44-42d0-9358-390cb3d1315a",
+              "name": "Kristian Chambers"
+            },
+            {
+              "playerId": "team-player/740591a7-d871-465b-9275-59e060ac2b3e",
+              "name": "Louise Bradforth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/224151d1-7f7e-4a58-aafd-2acfb71ea076",
               "players": [
                 {
+                  "playerId": "team-player/64adaaa4-5d44-42d0-9358-390cb3d1315a",
                   "name": "Kristian Chambers",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/740591a7-d871-465b-9275-59e060ac2b3e",
                   "name": "Louise Bradforth",
                   "score": "19"
                 }

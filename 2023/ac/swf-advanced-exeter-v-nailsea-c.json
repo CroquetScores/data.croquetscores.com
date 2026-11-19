@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a74b70c2-ae1a-4c9e-90ab-cf73ff8db9cb",
   "name": "SWF Advanced Exeter v Nailsea C",
   "sport": "ac",
   "firstDay": "2023-08-16",
   "lastDay": "2023-08-16",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Exeter",
       "shortName": "Exeter",
       "players": [
-        "Adam Wimshurst",
-        "John Crowley",
-        "John Crowley & Lloyd Kimber",
-        "Lloyd Kimber",
-        "Mark Macnair"
+        {
+          "playerId": "team-player/c5dc4c89-da6c-4481-8874-49b87fb4909c",
+          "name": "Adam Wimshurst"
+        },
+        {
+          "playerId": "team-player/77325327-e890-49a3-98d8-a3bf68e7376e",
+          "name": "John Crowley"
+        },
+        {
+          "playerId": "team-player/566f7065-787e-4f04-864d-8cc0425aac77",
+          "name": "John Crowley & Lloyd Kimber"
+        },
+        {
+          "playerId": "team-player/403634cb-dc5c-47df-8028-a4d03302d668",
+          "name": "Lloyd Kimber"
+        },
+        {
+          "playerId": "team-player/1bc8760b-b7c8-4c31-a18f-d85fbaeed7c2",
+          "name": "Mark Macnair"
+        }
       ]
     },
     {
       "name": "Nailsea C",
       "shortName": "Nailsea C",
       "players": [
-        "Andrew Wimshurst",
-        "David Hunt",
-        "Graham McCausland",
-        "Kathy Wallace",
-        "Kathy Wallace & Graham McCausland"
+        {
+          "playerId": "team-player/d0902230-b7d6-4c5e-8961-307ebed107c6",
+          "name": "Andrew Wimshurst"
+        },
+        {
+          "playerId": "team-player/4373b0c5-f724-40eb-81dc-9ad17ef4b617",
+          "name": "David Hunt"
+        },
+        {
+          "playerId": "team-player/f66648fb-ccbb-4b8a-9261-ccc3d6ef2461",
+          "name": "Graham McCausland"
+        },
+        {
+          "playerId": "team-player/55454f30-d1a2-4cdb-9701-778e9c10e868",
+          "name": "Kathy Wallace"
+        },
+        {
+          "playerId": "team-player/59443602-186d-4fa3-913e-6f36aa20c597",
+          "name": "Kathy Wallace & Graham McCausland"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/fbdedd87-1506-46d5-ab05-df712117853a",
       "teams": [
         "Exeter",
         "Nailsea C"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "John Crowley & Lloyd Kimber",
-            "Kathy Wallace & Graham McCausland"
+            {
+              "playerId": "team-player/566f7065-787e-4f04-864d-8cc0425aac77",
+              "name": "John Crowley & Lloyd Kimber"
+            },
+            {
+              "playerId": "team-player/59443602-186d-4fa3-913e-6f36aa20c597",
+              "name": "Kathy Wallace & Graham McCausland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2bb26512-200f-4dca-a282-7f1daf2db913",
               "players": [
                 {
+                  "playerId": "team-player/566f7065-787e-4f04-864d-8cc0425aac77",
                   "name": "John Crowley & Lloyd Kimber",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/59443602-186d-4fa3-913e-6f36aa20c597",
                   "name": "Kathy Wallace & Graham McCausland",
                   "score": "21"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Mark Macnair",
-            "David Hunt"
+            {
+              "playerId": "team-player/1bc8760b-b7c8-4c31-a18f-d85fbaeed7c2",
+              "name": "Mark Macnair"
+            },
+            {
+              "playerId": "team-player/4373b0c5-f724-40eb-81dc-9ad17ef4b617",
+              "name": "David Hunt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e38c350f-a92d-4234-a4f5-06f065f8aa81",
               "players": [
                 {
+                  "playerId": "team-player/1bc8760b-b7c8-4c31-a18f-d85fbaeed7c2",
                   "name": "Mark Macnair",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/4373b0c5-f724-40eb-81dc-9ad17ef4b617",
                   "name": "David Hunt",
                   "score": "21"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Adam Wimshurst",
-            "Andrew Wimshurst"
+            {
+              "playerId": "team-player/c5dc4c89-da6c-4481-8874-49b87fb4909c",
+              "name": "Adam Wimshurst"
+            },
+            {
+              "playerId": "team-player/d0902230-b7d6-4c5e-8961-307ebed107c6",
+              "name": "Andrew Wimshurst"
+            }
           ],
           "games": [
             {
+              "gameId": "game/53bfce4a-f803-4995-9b11-8f86720aa5ea",
               "players": [
                 {
+                  "playerId": "team-player/c5dc4c89-da6c-4481-8874-49b87fb4909c",
                   "name": "Adam Wimshurst",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/d0902230-b7d6-4c5e-8961-307ebed107c6",
                   "name": "Andrew Wimshurst",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Adam Wimshurst",
-            "David Hunt"
+            {
+              "playerId": "team-player/c5dc4c89-da6c-4481-8874-49b87fb4909c",
+              "name": "Adam Wimshurst"
+            },
+            {
+              "playerId": "team-player/4373b0c5-f724-40eb-81dc-9ad17ef4b617",
+              "name": "David Hunt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b483a23-652b-4ded-a80a-66e06d36015e",
               "players": [
                 {
+                  "playerId": "team-player/c5dc4c89-da6c-4481-8874-49b87fb4909c",
                   "name": "Adam Wimshurst",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/4373b0c5-f724-40eb-81dc-9ad17ef4b617",
                   "name": "David Hunt",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Mark Macnair",
-            "Andrew Wimshurst"
+            {
+              "playerId": "team-player/1bc8760b-b7c8-4c31-a18f-d85fbaeed7c2",
+              "name": "Mark Macnair"
+            },
+            {
+              "playerId": "team-player/d0902230-b7d6-4c5e-8961-307ebed107c6",
+              "name": "Andrew Wimshurst"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a06d4f5d-31fe-4a85-beb1-ff149fa9b52b",
               "players": [
                 {
+                  "playerId": "team-player/1bc8760b-b7c8-4c31-a18f-d85fbaeed7c2",
                   "name": "Mark Macnair",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d0902230-b7d6-4c5e-8961-307ebed107c6",
                   "name": "Andrew Wimshurst",
                   "score": "18"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Lloyd Kimber",
-            "Graham McCausland"
+            {
+              "playerId": "team-player/403634cb-dc5c-47df-8028-a4d03302d668",
+              "name": "Lloyd Kimber"
+            },
+            {
+              "playerId": "team-player/f66648fb-ccbb-4b8a-9261-ccc3d6ef2461",
+              "name": "Graham McCausland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e14b366-126e-4d51-9883-27dd00efa393",
               "players": [
                 {
+                  "playerId": "team-player/403634cb-dc5c-47df-8028-a4d03302d668",
                   "name": "Lloyd Kimber",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f66648fb-ccbb-4b8a-9261-ccc3d6ef2461",
                   "name": "Graham McCausland",
                   "score": "22"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "John Crowley",
-            "Kathy Wallace"
+            {
+              "playerId": "team-player/77325327-e890-49a3-98d8-a3bf68e7376e",
+              "name": "John Crowley"
+            },
+            {
+              "playerId": "team-player/55454f30-d1a2-4cdb-9701-778e9c10e868",
+              "name": "Kathy Wallace"
+            }
           ],
           "games": [
             {
+              "gameId": "game/80de7c4b-475c-4d2a-b41e-dfd0e84f9512",
               "players": [
                 {
+                  "playerId": "team-player/77325327-e890-49a3-98d8-a3bf68e7376e",
                   "name": "John Crowley",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/55454f30-d1a2-4cdb-9701-778e9c10e868",
                   "name": "Kathy Wallace",
                   "score": "26"
                 }

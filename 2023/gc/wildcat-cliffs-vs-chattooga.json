@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/10e21d08-6eb9-431f-94b5-88e3e3ff8bbf",
   "name": "Wildcat Cliffs Vs. Chattooga",
   "sport": "gc",
   "firstDay": "2023-08-24",
   "lastDay": "2023-08-24",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Wildcat Cliffs",
       "shortName": "Wildcat Cl",
       "players": [
-        "Charlene McCnabb & Gay Cinque",
-        "Linda Janchick & Keith Patten",
-        "Margo Cooper & Elliott Gassner",
-        "Patty Gassner and Karen Levine"
+        {
+          "playerId": "team-player/b3622ced-ddb6-435d-9f43-87eff3643d1d",
+          "name": "Charlene McCnabb & Gay Cinque"
+        },
+        {
+          "playerId": "team-player/782fea35-0318-4528-8019-8a514f2f992a",
+          "name": "Linda Janchick & Keith Patten"
+        },
+        {
+          "playerId": "team-player/04387b74-878d-4243-abbb-c4d86e20a894",
+          "name": "Margo Cooper & Elliott Gassner"
+        },
+        {
+          "playerId": "team-player/412facb0-5ef2-4468-be86-a2b482f00550",
+          "name": "Patty Gassner and Karen Levine"
+        }
       ]
     },
     {
       "name": "Chattooga",
       "shortName": "Chattooga",
       "players": [
-        "Brian Greig & Scott Kendall",
-        "David Ward & Gordon Martin",
-        "Kathleen Carroll & Bob Carroll",
-        "Linda Allen & Earl Dorsey"
+        {
+          "playerId": "team-player/24769838-d9f0-464a-919f-d467ebbe06b5",
+          "name": "Brian Greig & Scott Kendall"
+        },
+        {
+          "playerId": "team-player/ff09c363-1956-41c5-b7ef-4ab7c685aa73",
+          "name": "David Ward & Gordon Martin"
+        },
+        {
+          "playerId": "team-player/99051ab9-ba4a-40ba-8b0c-f0a5c4fcf7b0",
+          "name": "Kathleen Carroll & Bob Carroll"
+        },
+        {
+          "playerId": "team-player/96bc029d-9309-4704-b0de-f64fb28b682b",
+          "name": "Linda Allen & Earl Dorsey"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/20096ec2-b169-4519-9e4e-1cc68367dd02",
       "teams": [
         "Wildcat Cliffs",
         "Chattooga"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Charlene McCnabb & Gay Cinque",
-            "Brian Greig & Scott Kendall"
+            {
+              "playerId": "team-player/b3622ced-ddb6-435d-9f43-87eff3643d1d",
+              "name": "Charlene McCnabb & Gay Cinque"
+            },
+            {
+              "playerId": "team-player/24769838-d9f0-464a-919f-d467ebbe06b5",
+              "name": "Brian Greig & Scott Kendall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/78747dde-53cb-4478-9527-2fd7042415a8",
               "players": [
                 {
+                  "playerId": "team-player/b3622ced-ddb6-435d-9f43-87eff3643d1d",
                   "name": "Charlene McCnabb & Gay Cinque",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/24769838-d9f0-464a-919f-d467ebbe06b5",
                   "name": "Brian Greig & Scott Kendall",
                   "score": "7"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Margo Cooper & Elliott Gassner",
-            "David Ward & Gordon Martin"
+            {
+              "playerId": "team-player/04387b74-878d-4243-abbb-c4d86e20a894",
+              "name": "Margo Cooper & Elliott Gassner"
+            },
+            {
+              "playerId": "team-player/ff09c363-1956-41c5-b7ef-4ab7c685aa73",
+              "name": "David Ward & Gordon Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f9532bd1-449a-4a64-9a92-f8d7bf01831f",
               "players": [
                 {
+                  "playerId": "team-player/04387b74-878d-4243-abbb-c4d86e20a894",
                   "name": "Margo Cooper & Elliott Gassner",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/ff09c363-1956-41c5-b7ef-4ab7c685aa73",
                   "name": "David Ward & Gordon Martin",
                   "score": "6"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Patty Gassner and Karen Levine",
-            "Kathleen Carroll & Bob Carroll"
+            {
+              "playerId": "team-player/412facb0-5ef2-4468-be86-a2b482f00550",
+              "name": "Patty Gassner and Karen Levine"
+            },
+            {
+              "playerId": "team-player/99051ab9-ba4a-40ba-8b0c-f0a5c4fcf7b0",
+              "name": "Kathleen Carroll & Bob Carroll"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8e7e8b67-01b3-44c9-b029-1ec837f9be88",
               "players": [
                 {
+                  "playerId": "team-player/412facb0-5ef2-4468-be86-a2b482f00550",
                   "name": "Patty Gassner and Karen Levine",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/99051ab9-ba4a-40ba-8b0c-f0a5c4fcf7b0",
                   "name": "Kathleen Carroll & Bob Carroll",
                   "score": "6"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Linda Janchick & Keith Patten",
-            "Linda Allen & Earl Dorsey"
+            {
+              "playerId": "team-player/782fea35-0318-4528-8019-8a514f2f992a",
+              "name": "Linda Janchick & Keith Patten"
+            },
+            {
+              "playerId": "team-player/96bc029d-9309-4704-b0de-f64fb28b682b",
+              "name": "Linda Allen & Earl Dorsey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f344a3ca-252d-47b4-bec0-a8a5bd37caed",
               "players": [
                 {
+                  "playerId": "team-player/782fea35-0318-4528-8019-8a514f2f992a",
                   "name": "Linda Janchick & Keith Patten",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/96bc029d-9309-4704-b0de-f64fb28b682b",
                   "name": "Linda Allen & Earl Dorsey",
                   "score": "3"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Patty Gassner and Karen Levine",
-            "David Ward & Gordon Martin"
+            {
+              "playerId": "team-player/412facb0-5ef2-4468-be86-a2b482f00550",
+              "name": "Patty Gassner and Karen Levine"
+            },
+            {
+              "playerId": "team-player/ff09c363-1956-41c5-b7ef-4ab7c685aa73",
+              "name": "David Ward & Gordon Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8c92ae1e-2303-4f2d-b937-c3225ef3867b",
               "players": [
                 {
+                  "playerId": "team-player/412facb0-5ef2-4468-be86-a2b482f00550",
                   "name": "Patty Gassner and Karen Levine",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/ff09c363-1956-41c5-b7ef-4ab7c685aa73",
                   "name": "David Ward & Gordon Martin",
                   "score": "7"
                 }
@@ -149,17 +222,26 @@
         },
         {
           "players": [
-            "Linda Janchick & Keith Patten",
-            "Brian Greig & Scott Kendall"
+            {
+              "playerId": "team-player/782fea35-0318-4528-8019-8a514f2f992a",
+              "name": "Linda Janchick & Keith Patten"
+            },
+            {
+              "playerId": "team-player/24769838-d9f0-464a-919f-d467ebbe06b5",
+              "name": "Brian Greig & Scott Kendall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/78ff0c59-657b-45a1-abb8-bbed0c071999",
               "players": [
                 {
+                  "playerId": "team-player/782fea35-0318-4528-8019-8a514f2f992a",
                   "name": "Linda Janchick & Keith Patten",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/24769838-d9f0-464a-919f-d467ebbe06b5",
                   "name": "Brian Greig & Scott Kendall",
                   "score": "4"
                 }
@@ -171,17 +253,26 @@
         },
         {
           "players": [
-            "Charlene McCnabb & Gay Cinque",
-            "Linda Allen & Earl Dorsey"
+            {
+              "playerId": "team-player/b3622ced-ddb6-435d-9f43-87eff3643d1d",
+              "name": "Charlene McCnabb & Gay Cinque"
+            },
+            {
+              "playerId": "team-player/96bc029d-9309-4704-b0de-f64fb28b682b",
+              "name": "Linda Allen & Earl Dorsey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/69808280-bf9d-4945-87cc-c661d1c32881",
               "players": [
                 {
+                  "playerId": "team-player/b3622ced-ddb6-435d-9f43-87eff3643d1d",
                   "name": "Charlene McCnabb & Gay Cinque",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/96bc029d-9309-4704-b0de-f64fb28b682b",
                   "name": "Linda Allen & Earl Dorsey",
                   "score": "3"
                 }
@@ -193,17 +284,26 @@
         },
         {
           "players": [
-            "Margo Cooper & Elliott Gassner",
-            "Kathleen Carroll & Bob Carroll"
+            {
+              "playerId": "team-player/04387b74-878d-4243-abbb-c4d86e20a894",
+              "name": "Margo Cooper & Elliott Gassner"
+            },
+            {
+              "playerId": "team-player/99051ab9-ba4a-40ba-8b0c-f0a5c4fcf7b0",
+              "name": "Kathleen Carroll & Bob Carroll"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6074261b-ed06-4984-ae40-976b1745671e",
               "players": [
                 {
+                  "playerId": "team-player/04387b74-878d-4243-abbb-c4d86e20a894",
                   "name": "Margo Cooper & Elliott Gassner",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/99051ab9-ba4a-40ba-8b0c-f0a5c4fcf7b0",
                   "name": "Kathleen Carroll & Bob Carroll",
                   "score": "3"
                 }
@@ -215,17 +315,26 @@
         },
         {
           "players": [
-            "Margo Cooper & Elliott Gassner",
-            "Brian Greig & Scott Kendall"
+            {
+              "playerId": "team-player/04387b74-878d-4243-abbb-c4d86e20a894",
+              "name": "Margo Cooper & Elliott Gassner"
+            },
+            {
+              "playerId": "team-player/24769838-d9f0-464a-919f-d467ebbe06b5",
+              "name": "Brian Greig & Scott Kendall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d9ee92b4-e3a4-4904-b2b6-46778abffbb8",
               "players": [
                 {
+                  "playerId": "team-player/04387b74-878d-4243-abbb-c4d86e20a894",
                   "name": "Margo Cooper & Elliott Gassner",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/24769838-d9f0-464a-919f-d467ebbe06b5",
                   "name": "Brian Greig & Scott Kendall",
                   "score": "5"
                 }
@@ -237,17 +346,26 @@
         },
         {
           "players": [
-            "Charlene McCnabb & Gay Cinque",
-            "David Ward & Gordon Martin"
+            {
+              "playerId": "team-player/b3622ced-ddb6-435d-9f43-87eff3643d1d",
+              "name": "Charlene McCnabb & Gay Cinque"
+            },
+            {
+              "playerId": "team-player/ff09c363-1956-41c5-b7ef-4ab7c685aa73",
+              "name": "David Ward & Gordon Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6d623c6-b108-4ffb-9933-44eb1cc28d82",
               "players": [
                 {
+                  "playerId": "team-player/b3622ced-ddb6-435d-9f43-87eff3643d1d",
                   "name": "Charlene McCnabb & Gay Cinque",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ff09c363-1956-41c5-b7ef-4ab7c685aa73",
                   "name": "David Ward & Gordon Martin",
                   "score": "5"
                 }
@@ -259,17 +377,26 @@
         },
         {
           "players": [
-            "Linda Janchick & Keith Patten",
-            "Kathleen Carroll & Bob Carroll"
+            {
+              "playerId": "team-player/782fea35-0318-4528-8019-8a514f2f992a",
+              "name": "Linda Janchick & Keith Patten"
+            },
+            {
+              "playerId": "team-player/99051ab9-ba4a-40ba-8b0c-f0a5c4fcf7b0",
+              "name": "Kathleen Carroll & Bob Carroll"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7463d71b-2d89-464f-b91f-5a5cb14cb9a3",
               "players": [
                 {
+                  "playerId": "team-player/782fea35-0318-4528-8019-8a514f2f992a",
                   "name": "Linda Janchick & Keith Patten",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/99051ab9-ba4a-40ba-8b0c-f0a5c4fcf7b0",
                   "name": "Kathleen Carroll & Bob Carroll",
                   "score": "3"
                 }
@@ -281,17 +408,26 @@
         },
         {
           "players": [
-            "Patty Gassner and Karen Levine",
-            "Linda Allen & Earl Dorsey"
+            {
+              "playerId": "team-player/412facb0-5ef2-4468-be86-a2b482f00550",
+              "name": "Patty Gassner and Karen Levine"
+            },
+            {
+              "playerId": "team-player/96bc029d-9309-4704-b0de-f64fb28b682b",
+              "name": "Linda Allen & Earl Dorsey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6fda6b02-c3a8-4db4-8093-9787bf581f59",
               "players": [
                 {
+                  "playerId": "team-player/412facb0-5ef2-4468-be86-a2b482f00550",
                   "name": "Patty Gassner and Karen Levine",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/96bc029d-9309-4704-b0de-f64fb28b682b",
                   "name": "Linda Allen & Earl Dorsey",
                   "score": "4"
                 }

@@ -1,40 +1,83 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/58ed383c-25c4-44ab-9aa0-e48a90e2faeb",
   "name": "Mary Rose Inter-Club Final AC",
   "sport": "ac",
   "firstDay": "2025-10-19",
   "lastDay": "2025-10-19",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Hurlingham",
       "shortName": "Hurlingham",
       "players": [
-        "Andrew Wise",
-        "Andrew Wise & Toby Toller",
-        "Guy Hewitt",
-        "Guy Hewitt & Andrew Wise",
-        "Ludolph van Hasselt",
-        "Martin Read",
-        "Toby Toller"
+        {
+          "playerId": "team-player/87f3ed8f-1811-4d8c-bde6-f67d5f2cb76b",
+          "name": "Andrew Wise"
+        },
+        {
+          "playerId": "team-player/083370ab-b4de-434e-a872-f09aabf3b5fb",
+          "name": "Andrew Wise & Toby Toller"
+        },
+        {
+          "playerId": "team-player/e2c4da80-b454-457a-a4c6-a97208b5a88e",
+          "name": "Guy Hewitt"
+        },
+        {
+          "playerId": "team-player/693c9ebf-190b-4fcb-8ce5-80ad247afebd",
+          "name": "Guy Hewitt & Andrew Wise"
+        },
+        {
+          "playerId": "team-player/a55b9b8d-e7f8-442f-b6b7-212825fd61f9",
+          "name": "Ludolph van Hasselt"
+        },
+        {
+          "playerId": "team-player/f176f41a-0fd5-4322-bb6a-6b6336766df1",
+          "name": "Martin Read"
+        },
+        {
+          "playerId": "team-player/fc8e1fbe-7946-4df6-b21f-e0ffdb6b4529",
+          "name": "Toby Toller"
+        }
       ]
     },
     {
       "name": "High Wycombe",
       "shortName": "High Wycom",
       "players": [
-        "David Cotton",
-        "Ed Olhausen",
-        "Gabriel Furse",
-        "Richard Peperell",
-        "Richard Peperell & David Cotton",
-        "Richard Peperell & Ed Olhausen"
+        {
+          "playerId": "team-player/c8e864ba-b2d7-435d-a78c-a46659cecd0f",
+          "name": "David Cotton"
+        },
+        {
+          "playerId": "team-player/d214cf3d-7aed-4a65-984e-33e5c62f149f",
+          "name": "Ed Olhausen"
+        },
+        {
+          "playerId": "team-player/06e4a4ba-e617-44e2-8d02-93c48eb86cc8",
+          "name": "Gabriel Furse"
+        },
+        {
+          "playerId": "team-player/2678940d-394f-4834-ae5a-335de24cca20",
+          "name": "Richard Peperell"
+        },
+        {
+          "playerId": "team-player/ea9ad5c4-ac14-4217-8820-147f0d681375",
+          "name": "Richard Peperell & David Cotton"
+        },
+        {
+          "playerId": "team-player/5a7360e9-7b4b-48f6-89f5-95fd6697255d",
+          "name": "Richard Peperell & Ed Olhausen"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/3de08abd-d869-4680-88ab-15b09bd73b2d",
       "teams": [
         "Hurlingham",
         "High Wycombe"
@@ -44,17 +87,26 @@
       "matches": [
         {
           "players": [
-            "Martin Read",
-            "Gabriel Furse"
+            {
+              "playerId": "team-player/f176f41a-0fd5-4322-bb6a-6b6336766df1",
+              "name": "Martin Read"
+            },
+            {
+              "playerId": "team-player/06e4a4ba-e617-44e2-8d02-93c48eb86cc8",
+              "name": "Gabriel Furse"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ae944d88-62be-44f8-8bb5-4e5d9f607248",
               "players": [
                 {
+                  "playerId": "team-player/f176f41a-0fd5-4322-bb6a-6b6336766df1",
                   "name": "Martin Read",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/06e4a4ba-e617-44e2-8d02-93c48eb86cc8",
                   "name": "Gabriel Furse",
                   "score": "18"
                 }
@@ -66,17 +118,26 @@
         },
         {
           "players": [
-            "Ludolph van Hasselt",
-            "Ed Olhausen"
+            {
+              "playerId": "team-player/a55b9b8d-e7f8-442f-b6b7-212825fd61f9",
+              "name": "Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/d214cf3d-7aed-4a65-984e-33e5c62f149f",
+              "name": "Ed Olhausen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49121494-a04f-4878-9c75-fbf3a426182b",
               "players": [
                 {
+                  "playerId": "team-player/a55b9b8d-e7f8-442f-b6b7-212825fd61f9",
                   "name": "Ludolph van Hasselt",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d214cf3d-7aed-4a65-984e-33e5c62f149f",
                   "name": "Ed Olhausen",
                   "score": "25"
                 }
@@ -88,17 +149,26 @@
         },
         {
           "players": [
-            "Guy Hewitt & Andrew Wise",
-            "Richard Peperell & David Cotton"
+            {
+              "playerId": "team-player/693c9ebf-190b-4fcb-8ce5-80ad247afebd",
+              "name": "Guy Hewitt & Andrew Wise"
+            },
+            {
+              "playerId": "team-player/ea9ad5c4-ac14-4217-8820-147f0d681375",
+              "name": "Richard Peperell & David Cotton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c5c0748-8090-4237-bf69-d45d82b9fb51",
               "players": [
                 {
+                  "playerId": "team-player/693c9ebf-190b-4fcb-8ce5-80ad247afebd",
                   "name": "Guy Hewitt & Andrew Wise",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ea9ad5c4-ac14-4217-8820-147f0d681375",
                   "name": "Richard Peperell & David Cotton",
                   "score": "19"
                 }
@@ -110,17 +180,26 @@
         },
         {
           "players": [
-            "Andrew Wise",
-            "Richard Peperell"
+            {
+              "playerId": "team-player/87f3ed8f-1811-4d8c-bde6-f67d5f2cb76b",
+              "name": "Andrew Wise"
+            },
+            {
+              "playerId": "team-player/2678940d-394f-4834-ae5a-335de24cca20",
+              "name": "Richard Peperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f031821-cb24-428f-b58f-2eda31a55157",
               "players": [
                 {
+                  "playerId": "team-player/87f3ed8f-1811-4d8c-bde6-f67d5f2cb76b",
                   "name": "Andrew Wise",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2678940d-394f-4834-ae5a-335de24cca20",
                   "name": "Richard Peperell",
                   "score": "10"
                 }
@@ -132,17 +211,26 @@
         },
         {
           "players": [
-            "Guy Hewitt",
-            "David Cotton"
+            {
+              "playerId": "team-player/e2c4da80-b454-457a-a4c6-a97208b5a88e",
+              "name": "Guy Hewitt"
+            },
+            {
+              "playerId": "team-player/c8e864ba-b2d7-435d-a78c-a46659cecd0f",
+              "name": "David Cotton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/83b5f2b3-6595-44c7-a1f3-f6b8177d58f2",
               "players": [
                 {
+                  "playerId": "team-player/e2c4da80-b454-457a-a4c6-a97208b5a88e",
                   "name": "Guy Hewitt",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c8e864ba-b2d7-435d-a78c-a46659cecd0f",
                   "name": "David Cotton",
                   "score": "8"
                 }
@@ -154,17 +242,26 @@
         },
         {
           "players": [
-            "Martin Read",
-            "Ed Olhausen"
+            {
+              "playerId": "team-player/f176f41a-0fd5-4322-bb6a-6b6336766df1",
+              "name": "Martin Read"
+            },
+            {
+              "playerId": "team-player/d214cf3d-7aed-4a65-984e-33e5c62f149f",
+              "name": "Ed Olhausen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/665d7e82-85bb-4d2d-9da1-90430bd5dce4",
               "players": [
                 {
+                  "playerId": "team-player/f176f41a-0fd5-4322-bb6a-6b6336766df1",
                   "name": "Martin Read",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d214cf3d-7aed-4a65-984e-33e5c62f149f",
                   "name": "Ed Olhausen",
                   "score": "10"
                 }
@@ -176,17 +273,26 @@
         },
         {
           "players": [
-            "Ludolph van Hasselt",
-            "Gabriel Furse"
+            {
+              "playerId": "team-player/a55b9b8d-e7f8-442f-b6b7-212825fd61f9",
+              "name": "Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/06e4a4ba-e617-44e2-8d02-93c48eb86cc8",
+              "name": "Gabriel Furse"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c453e2ca-8ee3-41ba-95d7-ddc44739a2dd",
               "players": [
                 {
+                  "playerId": "team-player/a55b9b8d-e7f8-442f-b6b7-212825fd61f9",
                   "name": "Ludolph van Hasselt",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/06e4a4ba-e617-44e2-8d02-93c48eb86cc8",
                   "name": "Gabriel Furse",
                   "score": "26"
                 }

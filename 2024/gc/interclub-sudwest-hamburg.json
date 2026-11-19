@@ -1,41 +1,87 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0343a209-e92b-48d2-aa37-bc9972b8dcfa",
   "name": "GC interclub Südwest Hamburg",
   "sport": "gc",
   "firstDay": "2024-06-01",
   "lastDay": "2024-06-02",
   "country": "de",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "1. Croquet Club Südwest",
       "shortName": "1. Croquet",
       "players": [
-        "Christian Beitler",
-        "Dieter Reinsch",
-        "Erich Brandstetter",
-        "Guenter Steiner",
-        "Kevin Ferguson",
-        "Marlene Reinsch",
-        "Wolfgang Usbeck"
+        {
+          "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
+          "name": "Christian Beitler"
+        },
+        {
+          "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
+          "name": "Dieter Reinsch"
+        },
+        {
+          "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
+          "name": "Erich Brandstetter"
+        },
+        {
+          "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
+          "name": "Guenter Steiner"
+        },
+        {
+          "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
+          "name": "Kevin Ferguson"
+        },
+        {
+          "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
+          "name": "Marlene Reinsch"
+        },
+        {
+          "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
+          "name": "Wolfgang Usbeck"
+        }
       ]
     },
     {
       "name": "Hamburger Croquet Club",
       "shortName": "Hamburger",
       "players": [
-        "Dagmar Richter",
-        "Iris Stadie",
-        "Joern Vinnen",
-        "Juergen Jencquel",
-        "Priska Vinnen",
-        "Reinhard Pfitzner",
-        "Rosemarie Roepke"
+        {
+          "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
+          "name": "Dagmar Richter"
+        },
+        {
+          "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
+          "name": "Iris Stadie"
+        },
+        {
+          "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
+          "name": "Joern Vinnen"
+        },
+        {
+          "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
+          "name": "Juergen Jencquel"
+        },
+        {
+          "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
+          "name": "Priska Vinnen"
+        },
+        {
+          "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
+          "name": "Reinhard Pfitzner"
+        },
+        {
+          "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
+          "name": "Rosemarie Roepke"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/c7c1b8d3-d9bd-4105-8912-40f55a4ee059",
       "teams": [
         "1. Croquet Club Südwest",
         "Hamburger Croquet Club"
@@ -45,17 +91,26 @@
       "matches": [
         {
           "players": [
-            "Dieter Reinsch",
-            "Priska Vinnen"
+            {
+              "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
+              "name": "Dieter Reinsch"
+            },
+            {
+              "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
+              "name": "Priska Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3dfaf475-33c2-4f70-a3da-a76c2a3ea651",
               "players": [
                 {
+                  "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
                   "name": "Dieter Reinsch",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
                   "name": "Priska Vinnen",
                   "score": "7"
                 }
@@ -67,17 +122,26 @@
         },
         {
           "players": [
-            "Marlene Reinsch",
-            "Joern Vinnen"
+            {
+              "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
+              "name": "Marlene Reinsch"
+            },
+            {
+              "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
+              "name": "Joern Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ded95d6a-c5b2-48bd-afce-a7e7eca5c923",
               "players": [
                 {
+                  "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
                   "name": "Marlene Reinsch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
                   "name": "Joern Vinnen",
                   "score": "6"
                 }
@@ -89,17 +153,26 @@
         },
         {
           "players": [
-            "Guenter Steiner",
-            "Dagmar Richter"
+            {
+              "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
+              "name": "Guenter Steiner"
+            },
+            {
+              "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
+              "name": "Dagmar Richter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5e3d66a6-2ac7-4fb0-8aac-a72f9c837cbd",
               "players": [
                 {
+                  "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
                   "name": "Guenter Steiner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
                   "name": "Dagmar Richter",
                   "score": "1"
                 }
@@ -111,17 +184,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Reinhard Pfitzner"
+            {
+              "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
+              "name": "Reinhard Pfitzner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e5b0aa48-d4f3-461a-9222-3572c20b96cb",
               "players": [
                 {
+                  "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
                   "name": "Wolfgang Usbeck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
                   "name": "Reinhard Pfitzner",
                   "score": "6"
                 }
@@ -133,17 +215,26 @@
         },
         {
           "players": [
-            "Christian Beitler",
-            "Rosemarie Roepke"
+            {
+              "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
+              "name": "Christian Beitler"
+            },
+            {
+              "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
+              "name": "Rosemarie Roepke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ed9e09df-a150-45fb-b9d7-ce974cc6d451",
               "players": [
                 {
+                  "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
                   "name": "Christian Beitler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
                   "name": "Rosemarie Roepke",
                   "score": "2"
                 }
@@ -155,17 +246,26 @@
         },
         {
           "players": [
-            "Erich Brandstetter",
-            "Juergen Jencquel"
+            {
+              "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
+              "name": "Erich Brandstetter"
+            },
+            {
+              "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
+              "name": "Juergen Jencquel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/56f07e47-75d6-4ecb-8904-90cb1768ceec",
               "players": [
                 {
+                  "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
                   "name": "Erich Brandstetter",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
                   "name": "Juergen Jencquel",
                   "score": "7"
                 }
@@ -177,17 +277,26 @@
         },
         {
           "players": [
-            "Kevin Ferguson",
-            "Iris Stadie"
+            {
+              "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
+              "name": "Kevin Ferguson"
+            },
+            {
+              "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
+              "name": "Iris Stadie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aadd86c0-87eb-460c-9a16-4fde4d31634b",
               "players": [
                 {
+                  "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
                   "name": "Iris Stadie",
                   "score": "5"
                 }
@@ -199,17 +308,26 @@
         },
         {
           "players": [
-            "Marlene Reinsch",
-            "Priska Vinnen"
+            {
+              "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
+              "name": "Marlene Reinsch"
+            },
+            {
+              "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
+              "name": "Priska Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e1a299e-ccd9-41e3-92da-5e6f6bb0d10d",
               "players": [
                 {
+                  "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
                   "name": "Marlene Reinsch",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
                   "name": "Priska Vinnen",
                   "score": "7"
                 }
@@ -221,17 +339,26 @@
         },
         {
           "players": [
-            "Guenter Steiner",
-            "Joern Vinnen"
+            {
+              "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
+              "name": "Guenter Steiner"
+            },
+            {
+              "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
+              "name": "Joern Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cfd14b7b-cc4d-4e9d-9766-742f30bfe3c7",
               "players": [
                 {
+                  "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
                   "name": "Guenter Steiner",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
                   "name": "Joern Vinnen",
                   "score": "7"
                 }
@@ -243,17 +370,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Dagmar Richter"
+            {
+              "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
+              "name": "Dagmar Richter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/398766c1-d7e3-4358-9865-6ee62ef6f39e",
               "players": [
                 {
+                  "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
                   "name": "Wolfgang Usbeck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
                   "name": "Dagmar Richter",
                   "score": "3"
                 }
@@ -265,17 +401,26 @@
         },
         {
           "players": [
-            "Christian Beitler",
-            "Reinhard Pfitzner"
+            {
+              "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
+              "name": "Christian Beitler"
+            },
+            {
+              "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
+              "name": "Reinhard Pfitzner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/67299143-ce53-43af-ba07-fa1430dab056",
               "players": [
                 {
+                  "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
                   "name": "Christian Beitler",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
                   "name": "Reinhard Pfitzner",
                   "score": "7"
                 }
@@ -287,17 +432,26 @@
         },
         {
           "players": [
-            "Erich Brandstetter",
-            "Rosemarie Roepke"
+            {
+              "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
+              "name": "Erich Brandstetter"
+            },
+            {
+              "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
+              "name": "Rosemarie Roepke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f314b115-ce6f-4ac9-8986-c78c4caf545e",
               "players": [
                 {
+                  "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
                   "name": "Erich Brandstetter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
                   "name": "Rosemarie Roepke",
                   "score": "6"
                 }
@@ -309,17 +463,26 @@
         },
         {
           "players": [
-            "Kevin Ferguson",
-            "Juergen Jencquel"
+            {
+              "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
+              "name": "Kevin Ferguson"
+            },
+            {
+              "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
+              "name": "Juergen Jencquel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4907534e-5899-4aa7-aa0c-56eaf265adbe",
               "players": [
                 {
+                  "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
                   "name": "Juergen Jencquel",
                   "score": "0"
                 }
@@ -331,17 +494,26 @@
         },
         {
           "players": [
-            "Dieter Reinsch",
-            "Iris Stadie"
+            {
+              "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
+              "name": "Dieter Reinsch"
+            },
+            {
+              "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
+              "name": "Iris Stadie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/89f125c9-1049-4ccd-84e6-0841e59cc9e4",
               "players": [
                 {
+                  "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
                   "name": "Dieter Reinsch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
                   "name": "Iris Stadie",
                   "score": "4"
                 }
@@ -353,17 +525,26 @@
         },
         {
           "players": [
-            "Guenter Steiner",
-            "Priska Vinnen"
+            {
+              "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
+              "name": "Guenter Steiner"
+            },
+            {
+              "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
+              "name": "Priska Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8f785dcb-37ce-4790-a97f-002e2b41170b",
               "players": [
                 {
+                  "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
                   "name": "Guenter Steiner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
                   "name": "Priska Vinnen",
                   "score": "3"
                 }
@@ -375,17 +556,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Joern Vinnen"
+            {
+              "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
+              "name": "Joern Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff964db7-f0aa-4ebc-af22-bf24e38082c6",
               "players": [
                 {
+                  "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
                   "name": "Wolfgang Usbeck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
                   "name": "Joern Vinnen",
                   "score": "4"
                 }
@@ -397,17 +587,26 @@
         },
         {
           "players": [
-            "Christian Beitler",
-            "Dagmar Richter"
+            {
+              "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
+              "name": "Christian Beitler"
+            },
+            {
+              "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
+              "name": "Dagmar Richter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e2cfdda6-9e60-48ee-9229-00b4356f576f",
               "players": [
                 {
+                  "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
                   "name": "Christian Beitler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
                   "name": "Dagmar Richter",
                   "score": "2"
                 }
@@ -419,17 +618,26 @@
         },
         {
           "players": [
-            "Erich Brandstetter",
-            "Reinhard Pfitzner"
+            {
+              "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
+              "name": "Erich Brandstetter"
+            },
+            {
+              "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
+              "name": "Reinhard Pfitzner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/83524540-d3dd-4223-b1c9-4491d8bd9127",
               "players": [
                 {
+                  "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
                   "name": "Erich Brandstetter",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
                   "name": "Reinhard Pfitzner",
                   "score": "7"
                 }
@@ -441,17 +649,26 @@
         },
         {
           "players": [
-            "Kevin Ferguson",
-            "Rosemarie Roepke"
+            {
+              "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
+              "name": "Kevin Ferguson"
+            },
+            {
+              "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
+              "name": "Rosemarie Roepke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cd59ad3c-1397-45ba-abf9-682cdbc69ab0",
               "players": [
                 {
+                  "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
                   "name": "Rosemarie Roepke",
                   "score": "0"
                 }
@@ -463,17 +680,26 @@
         },
         {
           "players": [
-            "Dieter Reinsch",
-            "Juergen Jencquel"
+            {
+              "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
+              "name": "Dieter Reinsch"
+            },
+            {
+              "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
+              "name": "Juergen Jencquel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/74ba8f5e-e7d1-493c-8091-c33e54361c9f",
               "players": [
                 {
+                  "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
                   "name": "Dieter Reinsch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
                   "name": "Juergen Jencquel",
                   "score": "5"
                 }
@@ -485,17 +711,26 @@
         },
         {
           "players": [
-            "Marlene Reinsch",
-            "Iris Stadie"
+            {
+              "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
+              "name": "Marlene Reinsch"
+            },
+            {
+              "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
+              "name": "Iris Stadie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1eff61ad-d651-44f5-a378-4442bac9a341",
               "players": [
                 {
+                  "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
                   "name": "Marlene Reinsch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
                   "name": "Iris Stadie",
                   "score": "4"
                 }
@@ -507,17 +742,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Priska Vinnen"
+            {
+              "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
+              "name": "Priska Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d14a4a62-9c19-4415-a49a-c625777feee9",
               "players": [
                 {
+                  "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
                   "name": "Wolfgang Usbeck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
                   "name": "Priska Vinnen",
                   "score": "2"
                 }
@@ -529,17 +773,26 @@
         },
         {
           "players": [
-            "Christian Beitler",
-            "Joern Vinnen"
+            {
+              "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
+              "name": "Christian Beitler"
+            },
+            {
+              "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
+              "name": "Joern Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f45d352-766b-4b68-9ed7-04dfbcfea250",
               "players": [
                 {
+                  "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
                   "name": "Christian Beitler",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
                   "name": "Joern Vinnen",
                   "score": "7"
                 }
@@ -551,17 +804,26 @@
         },
         {
           "players": [
-            "Erich Brandstetter",
-            "Dagmar Richter"
+            {
+              "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
+              "name": "Erich Brandstetter"
+            },
+            {
+              "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
+              "name": "Dagmar Richter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8e13e3da-22dc-4f66-88ee-2aa800271f04",
               "players": [
                 {
+                  "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
                   "name": "Erich Brandstetter",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
                   "name": "Dagmar Richter",
                   "score": "7"
                 }
@@ -573,17 +835,26 @@
         },
         {
           "players": [
-            "Kevin Ferguson",
-            "Reinhard Pfitzner"
+            {
+              "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
+              "name": "Kevin Ferguson"
+            },
+            {
+              "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
+              "name": "Reinhard Pfitzner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2ba2e02b-bf83-4c42-8b8c-fd022d76707f",
               "players": [
                 {
+                  "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
                   "name": "Reinhard Pfitzner",
                   "score": "5"
                 }
@@ -595,17 +866,26 @@
         },
         {
           "players": [
-            "Dieter Reinsch",
-            "Rosemarie Roepke"
+            {
+              "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
+              "name": "Dieter Reinsch"
+            },
+            {
+              "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
+              "name": "Rosemarie Roepke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd5c3323-5034-406e-8ed9-7b9bd9882165",
               "players": [
                 {
+                  "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
                   "name": "Dieter Reinsch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
                   "name": "Rosemarie Roepke",
                   "score": "5"
                 }
@@ -617,17 +897,26 @@
         },
         {
           "players": [
-            "Marlene Reinsch",
-            "Juergen Jencquel"
+            {
+              "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
+              "name": "Marlene Reinsch"
+            },
+            {
+              "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
+              "name": "Juergen Jencquel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ce4a5ecc-48f3-4e11-89b1-86d10260d294",
               "players": [
                 {
+                  "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
                   "name": "Marlene Reinsch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
                   "name": "Juergen Jencquel",
                   "score": "0"
                 }
@@ -639,17 +928,26 @@
         },
         {
           "players": [
-            "Guenter Steiner",
-            "Iris Stadie"
+            {
+              "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
+              "name": "Guenter Steiner"
+            },
+            {
+              "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
+              "name": "Iris Stadie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7d6faa4a-a228-4637-ac40-ad98714e84f5",
               "players": [
                 {
+                  "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
                   "name": "Guenter Steiner",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
                   "name": "Iris Stadie",
                   "score": "7"
                 }
@@ -661,17 +959,26 @@
         },
         {
           "players": [
-            "Christian Beitler",
-            "Priska Vinnen"
+            {
+              "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
+              "name": "Christian Beitler"
+            },
+            {
+              "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
+              "name": "Priska Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/60391af9-b319-474d-bb45-cf116f3a9541",
               "players": [
                 {
+                  "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
                   "name": "Christian Beitler",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
                   "name": "Priska Vinnen",
                   "score": "7"
                 }
@@ -683,17 +990,26 @@
         },
         {
           "players": [
-            "Erich Brandstetter",
-            "Joern Vinnen"
+            {
+              "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
+              "name": "Erich Brandstetter"
+            },
+            {
+              "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
+              "name": "Joern Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1fec9d05-8fc8-41bd-a312-b8b2ad790f9b",
               "players": [
                 {
+                  "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
                   "name": "Erich Brandstetter",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
                   "name": "Joern Vinnen",
                   "score": "7"
                 }
@@ -705,17 +1021,26 @@
         },
         {
           "players": [
-            "Kevin Ferguson",
-            "Dagmar Richter"
+            {
+              "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
+              "name": "Kevin Ferguson"
+            },
+            {
+              "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
+              "name": "Dagmar Richter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c0b3e5f-d980-43a8-bd07-6d9dd91ac18e",
               "players": [
                 {
+                  "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
                   "name": "Dagmar Richter",
                   "score": "3"
                 }
@@ -727,17 +1052,26 @@
         },
         {
           "players": [
-            "Dieter Reinsch",
-            "Reinhard Pfitzner"
+            {
+              "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
+              "name": "Dieter Reinsch"
+            },
+            {
+              "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
+              "name": "Reinhard Pfitzner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/797e8d2d-72de-450b-860b-096e9e12d503",
               "players": [
                 {
+                  "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
                   "name": "Dieter Reinsch",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
                   "name": "Reinhard Pfitzner",
                   "score": "7"
                 }
@@ -749,17 +1083,26 @@
         },
         {
           "players": [
-            "Marlene Reinsch",
-            "Rosemarie Roepke"
+            {
+              "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
+              "name": "Marlene Reinsch"
+            },
+            {
+              "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
+              "name": "Rosemarie Roepke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a3bbddb5-7458-429e-8cd0-dde655fc6d0c",
               "players": [
                 {
+                  "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
                   "name": "Marlene Reinsch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
                   "name": "Rosemarie Roepke",
                   "score": "3"
                 }
@@ -771,17 +1114,26 @@
         },
         {
           "players": [
-            "Guenter Steiner",
-            "Juergen Jencquel"
+            {
+              "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
+              "name": "Guenter Steiner"
+            },
+            {
+              "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
+              "name": "Juergen Jencquel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4c7ef9ae-0d06-4713-b44a-843cc010c9c2",
               "players": [
                 {
+                  "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
                   "name": "Guenter Steiner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
                   "name": "Juergen Jencquel",
                   "score": "3"
                 }
@@ -793,17 +1145,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Iris Stadie"
+            {
+              "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
+              "name": "Iris Stadie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/73009ba0-54f2-45e3-a453-540c8c3fe170",
               "players": [
                 {
+                  "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
                   "name": "Wolfgang Usbeck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
                   "name": "Iris Stadie",
                   "score": "6"
                 }
@@ -815,17 +1176,26 @@
         },
         {
           "players": [
-            "Erich Brandstetter",
-            "Priska Vinnen"
+            {
+              "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
+              "name": "Erich Brandstetter"
+            },
+            {
+              "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
+              "name": "Priska Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2c5e58b7-ad36-4040-b019-d812dc98c4ae",
               "players": [
                 {
+                  "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
                   "name": "Erich Brandstetter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
                   "name": "Priska Vinnen",
                   "score": "5"
                 }
@@ -837,17 +1207,26 @@
         },
         {
           "players": [
-            "Kevin Ferguson",
-            "Joern Vinnen"
+            {
+              "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
+              "name": "Kevin Ferguson"
+            },
+            {
+              "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
+              "name": "Joern Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7650f336-4b06-4d5b-aa61-71b7b1340ac9",
               "players": [
                 {
+                  "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
                   "name": "Kevin Ferguson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
                   "name": "Joern Vinnen",
                   "score": "7"
                 }
@@ -859,17 +1238,26 @@
         },
         {
           "players": [
-            "Dieter Reinsch",
-            "Dagmar Richter"
+            {
+              "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
+              "name": "Dieter Reinsch"
+            },
+            {
+              "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
+              "name": "Dagmar Richter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/11fc3b27-0240-4ed0-b5af-17637ea6270c",
               "players": [
                 {
+                  "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
                   "name": "Dieter Reinsch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
                   "name": "Dagmar Richter",
                   "score": "4"
                 }
@@ -881,17 +1269,26 @@
         },
         {
           "players": [
-            "Marlene Reinsch",
-            "Reinhard Pfitzner"
+            {
+              "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
+              "name": "Marlene Reinsch"
+            },
+            {
+              "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
+              "name": "Reinhard Pfitzner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cbc75901-d983-46db-a33b-c30dabc8dcd3",
               "players": [
                 {
+                  "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
                   "name": "Marlene Reinsch",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
                   "name": "Reinhard Pfitzner",
                   "score": "3"
                 }
@@ -903,17 +1300,26 @@
         },
         {
           "players": [
-            "Guenter Steiner",
-            "Rosemarie Roepke"
+            {
+              "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
+              "name": "Guenter Steiner"
+            },
+            {
+              "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
+              "name": "Rosemarie Roepke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7b0fe270-8a2b-4f4d-b731-4c226bfa8e42",
               "players": [
                 {
+                  "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
                   "name": "Guenter Steiner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
                   "name": "Rosemarie Roepke",
                   "score": "4"
                 }
@@ -925,17 +1331,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Juergen Jencquel"
+            {
+              "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
+              "name": "Juergen Jencquel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7c3b021c-2863-4a2e-8a6d-20ca039efdbc",
               "players": [
                 {
+                  "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
                   "name": "Wolfgang Usbeck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
                   "name": "Juergen Jencquel",
                   "score": "5"
                 }
@@ -947,17 +1362,26 @@
         },
         {
           "players": [
-            "Christian Beitler",
-            "Iris Stadie"
+            {
+              "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
+              "name": "Christian Beitler"
+            },
+            {
+              "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
+              "name": "Iris Stadie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/015c4872-d0e4-4b5a-875b-cf6abb444de2",
               "players": [
                 {
+                  "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
                   "name": "Christian Beitler",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
                   "name": "Iris Stadie",
                   "score": "7"
                 }
@@ -969,17 +1393,26 @@
         },
         {
           "players": [
-            "Kevin Ferguson",
-            "Priska Vinnen"
+            {
+              "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
+              "name": "Kevin Ferguson"
+            },
+            {
+              "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
+              "name": "Priska Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1976863-6765-4b9a-af3d-57b1f9500dc6",
               "players": [
                 {
+                  "playerId": "team-player/917a87bf-c64c-42c7-a28a-c5fc9a65693b",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/21a4c46a-d37d-4cb5-87fb-05b1645684d6",
                   "name": "Priska Vinnen",
                   "score": "2"
                 }
@@ -991,17 +1424,26 @@
         },
         {
           "players": [
-            "Dieter Reinsch",
-            "Joern Vinnen"
+            {
+              "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
+              "name": "Dieter Reinsch"
+            },
+            {
+              "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
+              "name": "Joern Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0a890e8e-57af-405c-94c2-0f648f4df2c1",
               "players": [
                 {
+                  "playerId": "team-player/bdacd7e1-747f-43a6-afd0-ccb026ed30f1",
                   "name": "Dieter Reinsch",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/71faa066-2a3e-4f29-b86f-8558969689e4",
                   "name": "Joern Vinnen",
                   "score": "7"
                 }
@@ -1013,17 +1455,26 @@
         },
         {
           "players": [
-            "Marlene Reinsch",
-            "Dagmar Richter"
+            {
+              "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
+              "name": "Marlene Reinsch"
+            },
+            {
+              "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
+              "name": "Dagmar Richter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5e1d5fe-47f6-46c5-afb8-2f0fb9a5e952",
               "players": [
                 {
+                  "playerId": "team-player/d18b3bc1-d250-41ab-8e77-934a786103e3",
                   "name": "Marlene Reinsch",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d06e6380-9a49-4445-8a9d-90d6d6669b73",
                   "name": "Dagmar Richter",
                   "score": "7"
                 }
@@ -1035,17 +1486,26 @@
         },
         {
           "players": [
-            "Guenter Steiner",
-            "Reinhard Pfitzner"
+            {
+              "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
+              "name": "Guenter Steiner"
+            },
+            {
+              "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
+              "name": "Reinhard Pfitzner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/61b5bf33-b3cc-4f5d-b47d-7f70842fbace",
               "players": [
                 {
+                  "playerId": "team-player/f4e234cf-1885-4635-b547-8aae5e2c4ce1",
                   "name": "Guenter Steiner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/66d74773-ee41-4f1c-ae1f-b17bc361c9f8",
                   "name": "Reinhard Pfitzner",
                   "score": "6"
                 }
@@ -1057,17 +1517,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Rosemarie Roepke"
+            {
+              "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
+              "name": "Rosemarie Roepke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa5e4833-1b80-481f-ae42-7a30dfa9addf",
               "players": [
                 {
+                  "playerId": "team-player/5da52005-4270-45c2-8411-c2d2daac4e37",
                   "name": "Wolfgang Usbeck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/72cc9740-0367-4705-b3e9-ba002c4e8592",
                   "name": "Rosemarie Roepke",
                   "score": "1"
                 }
@@ -1079,17 +1548,26 @@
         },
         {
           "players": [
-            "Christian Beitler",
-            "Juergen Jencquel"
+            {
+              "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
+              "name": "Christian Beitler"
+            },
+            {
+              "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
+              "name": "Juergen Jencquel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a5b9fb81-0cb0-45f8-b566-b6cb7c1b489a",
               "players": [
                 {
+                  "playerId": "team-player/b7f238ee-36e3-47a7-9aae-ae353990d5f8",
                   "name": "Christian Beitler",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c634645-42db-4149-b8a9-4a66edf7d80b",
                   "name": "Juergen Jencquel",
                   "score": "6"
                 }
@@ -1101,17 +1579,26 @@
         },
         {
           "players": [
-            "Erich Brandstetter",
-            "Iris Stadie"
+            {
+              "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
+              "name": "Erich Brandstetter"
+            },
+            {
+              "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
+              "name": "Iris Stadie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ed4e6b88-6cc1-4270-bfcf-d5e251b51ba5",
               "players": [
                 {
+                  "playerId": "team-player/8973a452-d002-4db8-9e78-42cc1b04f0e3",
                   "name": "Erich Brandstetter",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d698c7f5-0f24-4ae8-9342-89cbf76e2c34",
                   "name": "Iris Stadie",
                   "score": "7"
                 }

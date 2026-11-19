@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/42f93811-491d-46ec-8600-3921995e5749",
   "name": "Turnier am Reitplatz - Albfuehren",
   "sport": "gc",
   "firstDay": "2026-03-21",
   "lastDay": "2026-03-21",
   "country": "de",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Albfuehren Germany",
       "shortName": "Albfuehren",
       "players": [
-        "Erika Wurth",
-        "Kerstin Loretz",
-        "Monika Weber",
-        "Peter Jehle"
+        {
+          "playerId": "team-player/498cb7fa-2283-4bc3-a48a-52789cab0250",
+          "name": "Erika Wurth"
+        },
+        {
+          "playerId": "team-player/aa178bcb-825f-4d78-9289-39b47e45e4bb",
+          "name": "Kerstin Loretz"
+        },
+        {
+          "playerId": "team-player/ff8d2e99-a5c9-45ac-a193-c3da4a12a76a",
+          "name": "Monika Weber"
+        },
+        {
+          "playerId": "team-player/19f8dc5e-6dfa-42a6-b792-f8ccc558616a",
+          "name": "Peter Jehle"
+        }
       ]
     },
     {
       "name": "Sion Switzerland",
       "shortName": "Sion Switz",
       "players": [
-        "Deborah Gorsatt",
-        "Markus Rinderknecht",
-        "Nando Gorsatt",
-        "Romy Frischknecht"
+        {
+          "playerId": "team-player/0e9482f3-4526-456b-bb33-cc56450c77e9",
+          "name": "Deborah Gorsatt"
+        },
+        {
+          "playerId": "team-player/9c0860c2-7af2-4bc0-8b95-9b2b158467e8",
+          "name": "Markus Rinderknecht"
+        },
+        {
+          "playerId": "team-player/b402ce05-60db-46ab-8801-42a283f178cb",
+          "name": "Nando Gorsatt"
+        },
+        {
+          "playerId": "team-player/25206d6f-e9bc-4bd1-90b5-fab8fb553a75",
+          "name": "Romy Frischknecht"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1498c970-de3e-48af-8f3e-72f4d630e8b6",
       "teams": [
         "Albfuehren Germany",
         "Sion Switzerland"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Peter Jehle",
-            "Nando Gorsatt"
+            {
+              "playerId": "team-player/19f8dc5e-6dfa-42a6-b792-f8ccc558616a",
+              "name": "Peter Jehle"
+            },
+            {
+              "playerId": "team-player/b402ce05-60db-46ab-8801-42a283f178cb",
+              "name": "Nando Gorsatt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/85e56915-a7c8-4037-a7ef-963c289ef5c9",
               "players": [
                 {
+                  "playerId": "team-player/19f8dc5e-6dfa-42a6-b792-f8ccc558616a",
                   "name": "Peter Jehle",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b402ce05-60db-46ab-8801-42a283f178cb",
                   "name": "Nando Gorsatt",
                   "score": "7"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Erika Wurth",
-            "Markus Rinderknecht"
+            {
+              "playerId": "team-player/498cb7fa-2283-4bc3-a48a-52789cab0250",
+              "name": "Erika Wurth"
+            },
+            {
+              "playerId": "team-player/9c0860c2-7af2-4bc0-8b95-9b2b158467e8",
+              "name": "Markus Rinderknecht"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d4e32131-d3ec-4649-b320-67f1cd558203",
               "players": [
                 {
+                  "playerId": "team-player/498cb7fa-2283-4bc3-a48a-52789cab0250",
                   "name": "Erika Wurth",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c0860c2-7af2-4bc0-8b95-9b2b158467e8",
                   "name": "Markus Rinderknecht",
                   "score": "4"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Kerstin Loretz",
-            "Deborah Gorsatt"
+            {
+              "playerId": "team-player/aa178bcb-825f-4d78-9289-39b47e45e4bb",
+              "name": "Kerstin Loretz"
+            },
+            {
+              "playerId": "team-player/0e9482f3-4526-456b-bb33-cc56450c77e9",
+              "name": "Deborah Gorsatt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b551301d-c225-4f4c-806f-46983ee99a01",
               "players": [
                 {
+                  "playerId": "team-player/aa178bcb-825f-4d78-9289-39b47e45e4bb",
                   "name": "Kerstin Loretz",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/0e9482f3-4526-456b-bb33-cc56450c77e9",
                   "name": "Deborah Gorsatt",
                   "score": "7"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Monika Weber",
-            "Romy Frischknecht"
+            {
+              "playerId": "team-player/ff8d2e99-a5c9-45ac-a193-c3da4a12a76a",
+              "name": "Monika Weber"
+            },
+            {
+              "playerId": "team-player/25206d6f-e9bc-4bd1-90b5-fab8fb553a75",
+              "name": "Romy Frischknecht"
+            }
           ],
           "games": [
             {
+              "gameId": "game/df7331b4-9226-4292-aeda-b5f5145962e2",
               "players": [
                 {
+                  "playerId": "team-player/ff8d2e99-a5c9-45ac-a193-c3da4a12a76a",
                   "name": "Monika Weber",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/25206d6f-e9bc-4bd1-90b5-fab8fb553a75",
                   "name": "Romy Frischknecht",
                   "score": "7"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Erika Wurth",
-            "Nando Gorsatt"
+            {
+              "playerId": "team-player/498cb7fa-2283-4bc3-a48a-52789cab0250",
+              "name": "Erika Wurth"
+            },
+            {
+              "playerId": "team-player/b402ce05-60db-46ab-8801-42a283f178cb",
+              "name": "Nando Gorsatt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f70cbf7-67d8-44d2-8834-3abbe937bb32",
               "players": [
                 {
+                  "playerId": "team-player/498cb7fa-2283-4bc3-a48a-52789cab0250",
                   "name": "Erika Wurth",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b402ce05-60db-46ab-8801-42a283f178cb",
                   "name": "Nando Gorsatt",
                   "score": "5"
                 }
@@ -149,17 +222,26 @@
         },
         {
           "players": [
-            "Monika Weber",
-            "Deborah Gorsatt"
+            {
+              "playerId": "team-player/ff8d2e99-a5c9-45ac-a193-c3da4a12a76a",
+              "name": "Monika Weber"
+            },
+            {
+              "playerId": "team-player/0e9482f3-4526-456b-bb33-cc56450c77e9",
+              "name": "Deborah Gorsatt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ef988027-88ea-4d32-ae8e-4e7df4ecd429",
               "players": [
                 {
+                  "playerId": "team-player/ff8d2e99-a5c9-45ac-a193-c3da4a12a76a",
                   "name": "Monika Weber",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0e9482f3-4526-456b-bb33-cc56450c77e9",
                   "name": "Deborah Gorsatt",
                   "score": "4"
                 }
@@ -171,17 +253,26 @@
         },
         {
           "players": [
-            "Kerstin Loretz",
-            "Romy Frischknecht"
+            {
+              "playerId": "team-player/aa178bcb-825f-4d78-9289-39b47e45e4bb",
+              "name": "Kerstin Loretz"
+            },
+            {
+              "playerId": "team-player/25206d6f-e9bc-4bd1-90b5-fab8fb553a75",
+              "name": "Romy Frischknecht"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fe1d6332-a4fc-429f-a622-f8163ab93cd4",
               "players": [
                 {
+                  "playerId": "team-player/aa178bcb-825f-4d78-9289-39b47e45e4bb",
                   "name": "Kerstin Loretz",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/25206d6f-e9bc-4bd1-90b5-fab8fb553a75",
                   "name": "Romy Frischknecht",
                   "score": "7"
                 }
@@ -193,17 +284,26 @@
         },
         {
           "players": [
-            "Peter Jehle",
-            "Markus Rinderknecht"
+            {
+              "playerId": "team-player/19f8dc5e-6dfa-42a6-b792-f8ccc558616a",
+              "name": "Peter Jehle"
+            },
+            {
+              "playerId": "team-player/9c0860c2-7af2-4bc0-8b95-9b2b158467e8",
+              "name": "Markus Rinderknecht"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f82cd55-bc4f-4f5a-89dc-7d0f40b96a62",
               "players": [
                 {
+                  "playerId": "team-player/19f8dc5e-6dfa-42a6-b792-f8ccc558616a",
                   "name": "Peter Jehle",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c0860c2-7af2-4bc0-8b95-9b2b158467e8",
                   "name": "Markus Rinderknecht",
                   "score": "3"
                 }
@@ -215,17 +315,26 @@
         },
         {
           "players": [
-            "Monika Weber",
-            "Nando Gorsatt"
+            {
+              "playerId": "team-player/ff8d2e99-a5c9-45ac-a193-c3da4a12a76a",
+              "name": "Monika Weber"
+            },
+            {
+              "playerId": "team-player/b402ce05-60db-46ab-8801-42a283f178cb",
+              "name": "Nando Gorsatt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d1cd790e-4fa8-4b95-a4d0-5323523d5621",
               "players": [
                 {
+                  "playerId": "team-player/ff8d2e99-a5c9-45ac-a193-c3da4a12a76a",
                   "name": "Monika Weber",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/b402ce05-60db-46ab-8801-42a283f178cb",
                   "name": "Nando Gorsatt",
                   "score": "7"
                 }
@@ -237,17 +346,26 @@
         },
         {
           "players": [
-            "Peter Jehle",
-            "Romy Frischknecht"
+            {
+              "playerId": "team-player/19f8dc5e-6dfa-42a6-b792-f8ccc558616a",
+              "name": "Peter Jehle"
+            },
+            {
+              "playerId": "team-player/25206d6f-e9bc-4bd1-90b5-fab8fb553a75",
+              "name": "Romy Frischknecht"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd9e8e65-85b8-4f64-8f8f-2b1b5b0c0045",
               "players": [
                 {
+                  "playerId": "team-player/19f8dc5e-6dfa-42a6-b792-f8ccc558616a",
                   "name": "Peter Jehle",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/25206d6f-e9bc-4bd1-90b5-fab8fb553a75",
                   "name": "Romy Frischknecht",
                   "score": "7"
                 }
@@ -259,17 +377,26 @@
         },
         {
           "players": [
-            "Kerstin Loretz",
-            "Markus Rinderknecht"
+            {
+              "playerId": "team-player/aa178bcb-825f-4d78-9289-39b47e45e4bb",
+              "name": "Kerstin Loretz"
+            },
+            {
+              "playerId": "team-player/9c0860c2-7af2-4bc0-8b95-9b2b158467e8",
+              "name": "Markus Rinderknecht"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4621b45c-097e-4229-b943-d1bc0b23f126",
               "players": [
                 {
+                  "playerId": "team-player/aa178bcb-825f-4d78-9289-39b47e45e4bb",
                   "name": "Kerstin Loretz",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c0860c2-7af2-4bc0-8b95-9b2b158467e8",
                   "name": "Markus Rinderknecht",
                   "score": "0"
                 }
@@ -281,17 +408,26 @@
         },
         {
           "players": [
-            "Erika Wurth",
-            "Deborah Gorsatt"
+            {
+              "playerId": "team-player/498cb7fa-2283-4bc3-a48a-52789cab0250",
+              "name": "Erika Wurth"
+            },
+            {
+              "playerId": "team-player/0e9482f3-4526-456b-bb33-cc56450c77e9",
+              "name": "Deborah Gorsatt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ec338799-ea5c-4692-bb1f-5b86296720b3",
               "players": [
                 {
+                  "playerId": "team-player/498cb7fa-2283-4bc3-a48a-52789cab0250",
                   "name": "Erika Wurth",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/0e9482f3-4526-456b-bb33-cc56450c77e9",
                   "name": "Deborah Gorsatt",
                   "score": "7"
                 }
@@ -303,17 +439,26 @@
         },
         {
           "players": [
-            "Kerstin Loretz",
-            "Nando Gorsatt"
+            {
+              "playerId": "team-player/aa178bcb-825f-4d78-9289-39b47e45e4bb",
+              "name": "Kerstin Loretz"
+            },
+            {
+              "playerId": "team-player/b402ce05-60db-46ab-8801-42a283f178cb",
+              "name": "Nando Gorsatt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f8ce60c-1c66-4bef-b86f-51bf7b46b432",
               "players": [
                 {
+                  "playerId": "team-player/aa178bcb-825f-4d78-9289-39b47e45e4bb",
                   "name": "Kerstin Loretz",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b402ce05-60db-46ab-8801-42a283f178cb",
                   "name": "Nando Gorsatt",
                   "score": "7"
                 }
@@ -325,17 +470,26 @@
         },
         {
           "players": [
-            "Peter Jehle",
-            "Deborah Gorsatt"
+            {
+              "playerId": "team-player/19f8dc5e-6dfa-42a6-b792-f8ccc558616a",
+              "name": "Peter Jehle"
+            },
+            {
+              "playerId": "team-player/0e9482f3-4526-456b-bb33-cc56450c77e9",
+              "name": "Deborah Gorsatt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1fdfaa59-94a8-4309-8b80-32dc3008b80c",
               "players": [
                 {
+                  "playerId": "team-player/19f8dc5e-6dfa-42a6-b792-f8ccc558616a",
                   "name": "Peter Jehle",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0e9482f3-4526-456b-bb33-cc56450c77e9",
                   "name": "Deborah Gorsatt",
                   "score": "7"
                 }
@@ -347,17 +501,26 @@
         },
         {
           "players": [
-            "Erika Wurth",
-            "Romy Frischknecht"
+            {
+              "playerId": "team-player/498cb7fa-2283-4bc3-a48a-52789cab0250",
+              "name": "Erika Wurth"
+            },
+            {
+              "playerId": "team-player/25206d6f-e9bc-4bd1-90b5-fab8fb553a75",
+              "name": "Romy Frischknecht"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0a35afb0-2b27-44c4-a931-5d86257c1a1a",
               "players": [
                 {
+                  "playerId": "team-player/498cb7fa-2283-4bc3-a48a-52789cab0250",
                   "name": "Erika Wurth",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/25206d6f-e9bc-4bd1-90b5-fab8fb553a75",
                   "name": "Romy Frischknecht",
                   "score": "7"
                 }
@@ -369,17 +532,26 @@
         },
         {
           "players": [
-            "Monika Weber",
-            "Markus Rinderknecht"
+            {
+              "playerId": "team-player/ff8d2e99-a5c9-45ac-a193-c3da4a12a76a",
+              "name": "Monika Weber"
+            },
+            {
+              "playerId": "team-player/9c0860c2-7af2-4bc0-8b95-9b2b158467e8",
+              "name": "Markus Rinderknecht"
+            }
           ],
           "games": [
             {
+              "gameId": "game/72fe87ab-8d61-4ef7-8172-40bbf15e85e5",
               "players": [
                 {
+                  "playerId": "team-player/ff8d2e99-a5c9-45ac-a193-c3da4a12a76a",
                   "name": "Monika Weber",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c0860c2-7af2-4bc0-8b95-9b2b158467e8",
                   "name": "Markus Rinderknecht",
                   "score": "4"
                 }

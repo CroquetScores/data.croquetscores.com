@@ -1,49 +1,119 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1f42470d-d991-4d75-9eda-d07a2c1abfbf",
   "name": "Egypt vs England",
   "sport": "gc",
   "firstDay": "2023-10-07",
   "lastDay": "2023-10-08",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Egypt",
       "shortName": "EGY",
       "players": [
-        "Amr Alebiary",
-        "Khaled Kamal",
-        "Khaled Kamal & Amr Alebiary",
-        "Mohamed Nasr",
-        "Mohamed Nasr & Amr Alebiary",
-        "Mohamed Nasr & Mohamed Taha",
-        "Mohamed Nasr & Yasser Sayed",
-        "Mohamed Taha",
-        "Mohamed Taha & Amr Alebiary",
-        "Mohamed Taha & Khaled Kamal",
-        "Yasser Sayed",
-        "Yasser Sayed & Khaled Kamal"
+        {
+          "playerId": "team-player/c584c175-d47e-4766-a734-fac36138cf6b",
+          "name": "Amr Alebiary"
+        },
+        {
+          "playerId": "team-player/979bad98-f403-4fe1-99d6-01601bb00f35",
+          "name": "Khaled Kamal"
+        },
+        {
+          "playerId": "team-player/6c8f4ba7-93ab-441d-b077-dd266e24989d",
+          "name": "Khaled Kamal & Amr Alebiary"
+        },
+        {
+          "playerId": "team-player/2397c5ca-2fd9-4fbd-a057-ad6460936776",
+          "name": "Mohamed Nasr"
+        },
+        {
+          "playerId": "team-player/d094a45a-c34c-4c6f-9727-90e149d8d999",
+          "name": "Mohamed Nasr & Amr Alebiary"
+        },
+        {
+          "playerId": "team-player/cd62763f-a7df-4780-867b-0610779d3a54",
+          "name": "Mohamed Nasr & Mohamed Taha"
+        },
+        {
+          "playerId": "team-player/6f9038c1-d1b2-4749-86af-b839a5ad620d",
+          "name": "Mohamed Nasr & Yasser Sayed"
+        },
+        {
+          "playerId": "team-player/213dcabe-c36b-4ca9-9e8c-fe7b3388851d",
+          "name": "Mohamed Taha"
+        },
+        {
+          "playerId": "team-player/55f2265b-fb65-4367-9730-4cc47e1e510d",
+          "name": "Mohamed Taha & Amr Alebiary"
+        },
+        {
+          "playerId": "team-player/afbefdd8-d441-4a82-acf0-daffc02483df",
+          "name": "Mohamed Taha & Khaled Kamal"
+        },
+        {
+          "playerId": "team-player/3e3bd535-9fa7-44b7-9fc7-3f2d28729e6b",
+          "name": "Yasser Sayed"
+        },
+        {
+          "playerId": "team-player/169074b6-4fdf-481c-bbe7-49b81569a071",
+          "name": "Yasser Sayed & Khaled Kamal"
+        }
       ]
     },
     {
       "name": "England",
       "shortName": "ENG",
       "players": [
-        "Aston Wade",
-        "Aston Wade & Stuart Smith",
-        "Euan Burridge",
-        "Euan Burridge & Aston Wade",
-        "Jamie Burch",
-        "Jamie Burch & Aston Wade",
-        "Jamie Burch & Euan Burridge",
-        "Richard Bilton",
-        "Stuart M Smith",
-        "Stuart M Smith & Richard Bilton"
+        {
+          "playerId": "team-player/8e0b6f59-8790-4f8f-9292-f06bebc03a54",
+          "name": "Aston Wade"
+        },
+        {
+          "playerId": "team-player/c0208eab-e488-4770-a069-aaa6118300ac",
+          "name": "Aston Wade & Stuart Smith"
+        },
+        {
+          "playerId": "team-player/e22ffd6f-8fc9-4fcc-9a4d-39a0d1e04e63",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/7c82e5f5-7db2-46f1-b811-42236e7cc606",
+          "name": "Euan Burridge & Aston Wade"
+        },
+        {
+          "playerId": "team-player/d14430c3-ab86-49bb-8aa4-84325274531e",
+          "name": "Jamie Burch"
+        },
+        {
+          "playerId": "team-player/890b82fa-9eae-42b3-83e9-448a63aab032",
+          "name": "Jamie Burch & Aston Wade"
+        },
+        {
+          "playerId": "team-player/bf510aab-bfb1-4df0-95b8-b3e490c6a4cc",
+          "name": "Jamie Burch & Euan Burridge"
+        },
+        {
+          "playerId": "team-player/78583d89-11c0-42d2-b595-4142dcfd2561",
+          "name": "Richard Bilton"
+        },
+        {
+          "playerId": "team-player/3c097e3c-efd7-4b99-bd95-15dcbc3f922f",
+          "name": "Stuart M Smith"
+        },
+        {
+          "playerId": "team-player/2e950666-6aee-4488-80c7-ebe42cecd60e",
+          "name": "Stuart M Smith & Richard Bilton"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/290563f1-a58a-4bce-b44e-293cf50a9efd",
       "teams": [
         "Egypt",
         "England"
@@ -53,17 +123,26 @@
       "matches": [
         {
           "players": [
-            "Mohamed Taha",
-            "Aston Wade"
+            {
+              "playerId": "team-player/213dcabe-c36b-4ca9-9e8c-fe7b3388851d",
+              "name": "Mohamed Taha"
+            },
+            {
+              "playerId": "team-player/8e0b6f59-8790-4f8f-9292-f06bebc03a54",
+              "name": "Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d84fe057-0e50-4407-ae0a-5254720b07c5",
               "players": [
                 {
+                  "playerId": "team-player/213dcabe-c36b-4ca9-9e8c-fe7b3388851d",
                   "name": "Mohamed Taha",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e0b6f59-8790-4f8f-9292-f06bebc03a54",
                   "name": "Aston Wade",
                   "score": "6"
                 }
@@ -72,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bddde74a-bec3-4495-bcbf-d67b080ea9fb",
               "players": [
                 {
+                  "playerId": "team-player/213dcabe-c36b-4ca9-9e8c-fe7b3388851d",
                   "name": "Mohamed Taha",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e0b6f59-8790-4f8f-9292-f06bebc03a54",
                   "name": "Aston Wade",
                   "score": "5"
                 }
@@ -89,17 +171,26 @@
         },
         {
           "players": [
-            "Yasser Sayed & Khaled Kamal",
-            "Jamie Burch & Euan Burridge"
+            {
+              "playerId": "team-player/169074b6-4fdf-481c-bbe7-49b81569a071",
+              "name": "Yasser Sayed & Khaled Kamal"
+            },
+            {
+              "playerId": "team-player/bf510aab-bfb1-4df0-95b8-b3e490c6a4cc",
+              "name": "Jamie Burch & Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4c5bb57b-9ad2-4db5-a031-c5c21a1e4395",
               "players": [
                 {
+                  "playerId": "team-player/169074b6-4fdf-481c-bbe7-49b81569a071",
                   "name": "Yasser Sayed & Khaled Kamal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf510aab-bfb1-4df0-95b8-b3e490c6a4cc",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "2"
                 }
@@ -108,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b9870609-6e18-4cf2-8af2-150b3e9ad4f5",
               "players": [
                 {
+                  "playerId": "team-player/169074b6-4fdf-481c-bbe7-49b81569a071",
                   "name": "Yasser Sayed & Khaled Kamal",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/bf510aab-bfb1-4df0-95b8-b3e490c6a4cc",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "7"
                 }
@@ -122,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/36f064e9-ee17-414e-893d-dde342cd60af",
               "players": [
                 {
+                  "playerId": "team-player/169074b6-4fdf-481c-bbe7-49b81569a071",
                   "name": "Yasser Sayed & Khaled Kamal",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/bf510aab-bfb1-4df0-95b8-b3e490c6a4cc",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "7"
                 }
@@ -139,17 +236,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr & Amr Alebiary",
-            "Stuart M Smith & Richard Bilton"
+            {
+              "playerId": "team-player/d094a45a-c34c-4c6f-9727-90e149d8d999",
+              "name": "Mohamed Nasr & Amr Alebiary"
+            },
+            {
+              "playerId": "team-player/2e950666-6aee-4488-80c7-ebe42cecd60e",
+              "name": "Stuart M Smith & Richard Bilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/84831363-8b1a-4279-ab11-59a67ca706cb",
               "players": [
                 {
+                  "playerId": "team-player/d094a45a-c34c-4c6f-9727-90e149d8d999",
                   "name": "Mohamed Nasr & Amr Alebiary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2e950666-6aee-4488-80c7-ebe42cecd60e",
                   "name": "Stuart M Smith & Richard Bilton",
                   "score": "5"
                 }
@@ -158,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6aaf8bd0-bcb0-4a15-94e1-cb2273ab68d7",
               "players": [
                 {
+                  "playerId": "team-player/d094a45a-c34c-4c6f-9727-90e149d8d999",
                   "name": "Mohamed Nasr & Amr Alebiary",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2e950666-6aee-4488-80c7-ebe42cecd60e",
                   "name": "Stuart M Smith & Richard Bilton",
                   "score": "7"
                 }
@@ -172,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4da3b485-2f94-4a15-b4e3-5fc1a8d31cfc",
               "players": [
                 {
+                  "playerId": "team-player/d094a45a-c34c-4c6f-9727-90e149d8d999",
                   "name": "Mohamed Nasr & Amr Alebiary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2e950666-6aee-4488-80c7-ebe42cecd60e",
                   "name": "Stuart M Smith & Richard Bilton",
                   "score": "3"
                 }
@@ -189,17 +301,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/2397c5ca-2fd9-4fbd-a057-ad6460936776",
+              "name": "Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/e22ffd6f-8fc9-4fcc-9a4d-39a0d1e04e63",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3b06d842-5e68-4e5b-a9c1-d1e23e8d009d",
               "players": [
                 {
+                  "playerId": "team-player/2397c5ca-2fd9-4fbd-a057-ad6460936776",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e22ffd6f-8fc9-4fcc-9a4d-39a0d1e04e63",
                   "name": "Euan Burridge",
                   "score": "2"
                 }
@@ -208,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5f9ceadd-6026-419c-aef2-68f57b0059a0",
               "players": [
                 {
+                  "playerId": "team-player/2397c5ca-2fd9-4fbd-a057-ad6460936776",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e22ffd6f-8fc9-4fcc-9a4d-39a0d1e04e63",
                   "name": "Euan Burridge",
                   "score": "3"
                 }
@@ -225,17 +349,26 @@
         },
         {
           "players": [
-            "Khaled Kamal",
-            "Stuart M Smith"
+            {
+              "playerId": "team-player/979bad98-f403-4fe1-99d6-01601bb00f35",
+              "name": "Khaled Kamal"
+            },
+            {
+              "playerId": "team-player/3c097e3c-efd7-4b99-bd95-15dcbc3f922f",
+              "name": "Stuart M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e2c4ebaa-bb48-40b7-93d8-c8db90faabad",
               "players": [
                 {
+                  "playerId": "team-player/979bad98-f403-4fe1-99d6-01601bb00f35",
                   "name": "Khaled Kamal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c097e3c-efd7-4b99-bd95-15dcbc3f922f",
                   "name": "Stuart M Smith",
                   "score": "4"
                 }
@@ -244,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/377229f5-c2d4-4b88-aedd-41c6ed0a72de",
               "players": [
                 {
+                  "playerId": "team-player/979bad98-f403-4fe1-99d6-01601bb00f35",
                   "name": "Khaled Kamal",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3c097e3c-efd7-4b99-bd95-15dcbc3f922f",
                   "name": "Stuart M Smith",
                   "score": "7"
                 }
@@ -258,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cafe35b5-0ec1-458c-91d1-6b07105f67c8",
               "players": [
                 {
+                  "playerId": "team-player/979bad98-f403-4fe1-99d6-01601bb00f35",
                   "name": "Khaled Kamal",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3c097e3c-efd7-4b99-bd95-15dcbc3f922f",
                   "name": "Stuart M Smith",
                   "score": "7"
                 }
@@ -275,17 +414,26 @@
         },
         {
           "players": [
-            "Mohamed Taha & Amr Alebiary",
-            "Jamie Burch & Aston Wade"
+            {
+              "playerId": "team-player/55f2265b-fb65-4367-9730-4cc47e1e510d",
+              "name": "Mohamed Taha & Amr Alebiary"
+            },
+            {
+              "playerId": "team-player/890b82fa-9eae-42b3-83e9-448a63aab032",
+              "name": "Jamie Burch & Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d4bd9ef8-6bb9-4e95-9841-3dd37460a078",
               "players": [
                 {
+                  "playerId": "team-player/55f2265b-fb65-4367-9730-4cc47e1e510d",
                   "name": "Mohamed Taha & Amr Alebiary",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/890b82fa-9eae-42b3-83e9-448a63aab032",
                   "name": "Jamie Burch & Aston Wade",
                   "score": "7"
                 }
@@ -294,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/10a6ccc6-e5b9-4443-9156-750b8ff89f5e",
               "players": [
                 {
+                  "playerId": "team-player/55f2265b-fb65-4367-9730-4cc47e1e510d",
                   "name": "Mohamed Taha & Amr Alebiary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/890b82fa-9eae-42b3-83e9-448a63aab032",
                   "name": "Jamie Burch & Aston Wade",
                   "score": "3"
                 }
@@ -308,12 +459,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f90977ec-67d9-4d56-900e-44addb3b5805",
               "players": [
                 {
+                  "playerId": "team-player/55f2265b-fb65-4367-9730-4cc47e1e510d",
                   "name": "Mohamed Taha & Amr Alebiary",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/890b82fa-9eae-42b3-83e9-448a63aab032",
                   "name": "Jamie Burch & Aston Wade",
                   "score": "7"
                 }
@@ -325,17 +479,26 @@
         },
         {
           "players": [
-            "Yasser Sayed",
-            "Jamie Burch"
+            {
+              "playerId": "team-player/3e3bd535-9fa7-44b7-9fc7-3f2d28729e6b",
+              "name": "Yasser Sayed"
+            },
+            {
+              "playerId": "team-player/d14430c3-ab86-49bb-8aa4-84325274531e",
+              "name": "Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b0e1256e-153a-4a7c-b303-ec298f8cf399",
               "players": [
                 {
+                  "playerId": "team-player/3e3bd535-9fa7-44b7-9fc7-3f2d28729e6b",
                   "name": "Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d14430c3-ab86-49bb-8aa4-84325274531e",
                   "name": "Jamie Burch",
                   "score": "2"
                 }
@@ -344,12 +507,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c32e3007-0481-4f70-8905-b509057b768f",
               "players": [
                 {
+                  "playerId": "team-player/3e3bd535-9fa7-44b7-9fc7-3f2d28729e6b",
                   "name": "Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d14430c3-ab86-49bb-8aa4-84325274531e",
                   "name": "Jamie Burch",
                   "score": "0"
                 }
@@ -361,17 +527,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr & Mohamed Taha",
-            "Euan Burridge & Aston Wade"
+            {
+              "playerId": "team-player/cd62763f-a7df-4780-867b-0610779d3a54",
+              "name": "Mohamed Nasr & Mohamed Taha"
+            },
+            {
+              "playerId": "team-player/7c82e5f5-7db2-46f1-b811-42236e7cc606",
+              "name": "Euan Burridge & Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cde4b249-ccdb-4e91-9127-6068b2cabc54",
               "players": [
                 {
+                  "playerId": "team-player/cd62763f-a7df-4780-867b-0610779d3a54",
                   "name": "Mohamed Nasr & Mohamed Taha",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7c82e5f5-7db2-46f1-b811-42236e7cc606",
                   "name": "Euan Burridge & Aston Wade",
                   "score": "7"
                 }
@@ -380,12 +555,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5cf8d8ba-454b-4540-9664-bef0c39ecbc3",
               "players": [
                 {
+                  "playerId": "team-player/cd62763f-a7df-4780-867b-0610779d3a54",
                   "name": "Mohamed Nasr & Mohamed Taha",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7c82e5f5-7db2-46f1-b811-42236e7cc606",
                   "name": "Euan Burridge & Aston Wade",
                   "score": "4"
                 }
@@ -394,12 +572,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a17d37c4-4384-4481-b5fd-b465577f684d",
               "players": [
                 {
+                  "playerId": "team-player/cd62763f-a7df-4780-867b-0610779d3a54",
                   "name": "Mohamed Nasr & Mohamed Taha",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7c82e5f5-7db2-46f1-b811-42236e7cc606",
                   "name": "Euan Burridge & Aston Wade",
                   "score": "4"
                 }
@@ -411,17 +592,26 @@
         },
         {
           "players": [
-            "Khaled Kamal & Amr Alebiary",
-            "Stuart M Smith & Richard Bilton"
+            {
+              "playerId": "team-player/6c8f4ba7-93ab-441d-b077-dd266e24989d",
+              "name": "Khaled Kamal & Amr Alebiary"
+            },
+            {
+              "playerId": "team-player/2e950666-6aee-4488-80c7-ebe42cecd60e",
+              "name": "Stuart M Smith & Richard Bilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/def6bee4-f40c-49ee-94f6-833b559b1d06",
               "players": [
                 {
+                  "playerId": "team-player/6c8f4ba7-93ab-441d-b077-dd266e24989d",
                   "name": "Khaled Kamal & Amr Alebiary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2e950666-6aee-4488-80c7-ebe42cecd60e",
                   "name": "Stuart M Smith & Richard Bilton",
                   "score": "4"
                 }
@@ -430,12 +620,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/065f34cf-83da-4552-b16d-c9e4293af65d",
               "players": [
                 {
+                  "playerId": "team-player/6c8f4ba7-93ab-441d-b077-dd266e24989d",
                   "name": "Khaled Kamal & Amr Alebiary",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/2e950666-6aee-4488-80c7-ebe42cecd60e",
                   "name": "Stuart M Smith & Richard Bilton",
                   "score": "7"
                 }
@@ -444,12 +637,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1ccf99d4-817a-44e1-b5f7-8242d42345bc",
               "players": [
                 {
+                  "playerId": "team-player/6c8f4ba7-93ab-441d-b077-dd266e24989d",
                   "name": "Khaled Kamal & Amr Alebiary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2e950666-6aee-4488-80c7-ebe42cecd60e",
                   "name": "Stuart M Smith & Richard Bilton",
                   "score": "2"
                 }
@@ -461,17 +657,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr & Yasser Sayed",
-            "Jamie Burch & Euan Burridge"
+            {
+              "playerId": "team-player/6f9038c1-d1b2-4749-86af-b839a5ad620d",
+              "name": "Mohamed Nasr & Yasser Sayed"
+            },
+            {
+              "playerId": "team-player/bf510aab-bfb1-4df0-95b8-b3e490c6a4cc",
+              "name": "Jamie Burch & Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/85a88d49-bdd4-45e2-a013-57b8901db616",
               "players": [
                 {
+                  "playerId": "team-player/6f9038c1-d1b2-4749-86af-b839a5ad620d",
                   "name": "Mohamed Nasr & Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf510aab-bfb1-4df0-95b8-b3e490c6a4cc",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "4"
                 }
@@ -480,12 +685,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/aff936fa-1df8-4577-9fdf-f08f290a75e1",
               "players": [
                 {
+                  "playerId": "team-player/6f9038c1-d1b2-4749-86af-b839a5ad620d",
                   "name": "Mohamed Nasr & Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf510aab-bfb1-4df0-95b8-b3e490c6a4cc",
                   "name": "Jamie Burch & Euan Burridge",
                   "score": "5"
                 }
@@ -497,17 +705,26 @@
         },
         {
           "players": [
-            "Mohamed Taha & Khaled Kamal",
-            "Aston Wade & Stuart Smith"
+            {
+              "playerId": "team-player/afbefdd8-d441-4a82-acf0-daffc02483df",
+              "name": "Mohamed Taha & Khaled Kamal"
+            },
+            {
+              "playerId": "team-player/c0208eab-e488-4770-a069-aaa6118300ac",
+              "name": "Aston Wade & Stuart Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f40e873-a766-4892-9db6-e8d47a78c2f6",
               "players": [
                 {
+                  "playerId": "team-player/afbefdd8-d441-4a82-acf0-daffc02483df",
                   "name": "Mohamed Taha & Khaled Kamal",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/c0208eab-e488-4770-a069-aaa6118300ac",
                   "name": "Aston Wade & Stuart Smith",
                   "score": "7"
                 }
@@ -516,12 +733,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/029f72f9-33e3-46cd-8507-d4fa51f81b16",
               "players": [
                 {
+                  "playerId": "team-player/afbefdd8-d441-4a82-acf0-daffc02483df",
                   "name": "Mohamed Taha & Khaled Kamal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c0208eab-e488-4770-a069-aaa6118300ac",
                   "name": "Aston Wade & Stuart Smith",
                   "score": "3"
                 }
@@ -530,12 +750,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/08d6268b-e79d-41e0-8b97-93b03d9de7e5",
               "players": [
                 {
+                  "playerId": "team-player/afbefdd8-d441-4a82-acf0-daffc02483df",
                   "name": "Mohamed Taha & Khaled Kamal",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c0208eab-e488-4770-a069-aaa6118300ac",
                   "name": "Aston Wade & Stuart Smith",
                   "score": "7"
                 }
@@ -547,17 +770,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr",
-            "Jamie Burch"
+            {
+              "playerId": "team-player/2397c5ca-2fd9-4fbd-a057-ad6460936776",
+              "name": "Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/d14430c3-ab86-49bb-8aa4-84325274531e",
+              "name": "Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a2359f63-d164-4f5a-a950-49d5dd9ce690",
               "players": [
                 {
+                  "playerId": "team-player/2397c5ca-2fd9-4fbd-a057-ad6460936776",
                   "name": "Mohamed Nasr",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d14430c3-ab86-49bb-8aa4-84325274531e",
                   "name": "Jamie Burch",
                   "score": "7"
                 }
@@ -566,12 +798,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/271b533d-fca4-4bb5-bd8a-92c838136ba1",
               "players": [
                 {
+                  "playerId": "team-player/2397c5ca-2fd9-4fbd-a057-ad6460936776",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d14430c3-ab86-49bb-8aa4-84325274531e",
                   "name": "Jamie Burch",
                   "score": "6"
                 }
@@ -580,12 +815,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0a9fe419-936d-4ff6-a90b-a986fbf89245",
               "players": [
                 {
+                  "playerId": "team-player/2397c5ca-2fd9-4fbd-a057-ad6460936776",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d14430c3-ab86-49bb-8aa4-84325274531e",
                   "name": "Jamie Burch",
                   "score": "6"
                 }
@@ -597,17 +835,26 @@
         },
         {
           "players": [
-            "Amr Alebiary",
-            "Richard Bilton"
+            {
+              "playerId": "team-player/c584c175-d47e-4766-a734-fac36138cf6b",
+              "name": "Amr Alebiary"
+            },
+            {
+              "playerId": "team-player/78583d89-11c0-42d2-b595-4142dcfd2561",
+              "name": "Richard Bilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7a385738-bba3-4a33-94d5-fdb99d511765",
               "players": [
                 {
+                  "playerId": "team-player/c584c175-d47e-4766-a734-fac36138cf6b",
                   "name": "Amr Alebiary",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/78583d89-11c0-42d2-b595-4142dcfd2561",
                   "name": "Richard Bilton",
                   "score": "7"
                 }
@@ -616,12 +863,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/af4d8adf-387d-4ec6-80d9-000108e70a26",
               "players": [
                 {
+                  "playerId": "team-player/c584c175-d47e-4766-a734-fac36138cf6b",
                   "name": "Amr Alebiary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/78583d89-11c0-42d2-b595-4142dcfd2561",
                   "name": "Richard Bilton",
                   "score": "2"
                 }
@@ -630,12 +880,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e00a37be-7d2b-47c5-8779-76d8e0b89412",
               "players": [
                 {
+                  "playerId": "team-player/c584c175-d47e-4766-a734-fac36138cf6b",
                   "name": "Amr Alebiary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/78583d89-11c0-42d2-b595-4142dcfd2561",
                   "name": "Richard Bilton",
                   "score": "3"
                 }
@@ -647,17 +900,26 @@
         },
         {
           "players": [
-            "Yasser Sayed",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/3e3bd535-9fa7-44b7-9fc7-3f2d28729e6b",
+              "name": "Yasser Sayed"
+            },
+            {
+              "playerId": "team-player/e22ffd6f-8fc9-4fcc-9a4d-39a0d1e04e63",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/44fa67aa-09a6-4e56-a0a4-a672d2293cee",
               "players": [
                 {
+                  "playerId": "team-player/3e3bd535-9fa7-44b7-9fc7-3f2d28729e6b",
                   "name": "Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e22ffd6f-8fc9-4fcc-9a4d-39a0d1e04e63",
                   "name": "Euan Burridge",
                   "score": "5"
                 }
@@ -666,12 +928,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c4236138-78e3-4097-a9ec-8aa1cb4dd3f3",
               "players": [
                 {
+                  "playerId": "team-player/3e3bd535-9fa7-44b7-9fc7-3f2d28729e6b",
                   "name": "Yasser Sayed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e22ffd6f-8fc9-4fcc-9a4d-39a0d1e04e63",
                   "name": "Euan Burridge",
                   "score": "3"
                 }
@@ -683,17 +948,26 @@
         },
         {
           "players": [
-            "Khaled Kamal",
-            "Aston Wade"
+            {
+              "playerId": "team-player/979bad98-f403-4fe1-99d6-01601bb00f35",
+              "name": "Khaled Kamal"
+            },
+            {
+              "playerId": "team-player/8e0b6f59-8790-4f8f-9292-f06bebc03a54",
+              "name": "Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c55124b3-65a1-4429-ace6-a719238b5533",
               "players": [
                 {
+                  "playerId": "team-player/979bad98-f403-4fe1-99d6-01601bb00f35",
                   "name": "Khaled Kamal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e0b6f59-8790-4f8f-9292-f06bebc03a54",
                   "name": "Aston Wade",
                   "score": "6"
                 }
@@ -702,12 +976,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0c171ae7-9413-4a83-b591-1bcc0aeacbc6",
               "players": [
                 {
+                  "playerId": "team-player/979bad98-f403-4fe1-99d6-01601bb00f35",
                   "name": "Khaled Kamal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e0b6f59-8790-4f8f-9292-f06bebc03a54",
                   "name": "Aston Wade",
                   "score": "3"
                 }
@@ -719,17 +996,26 @@
         },
         {
           "players": [
-            "Amr Alebiary",
-            "Stuart M Smith"
+            {
+              "playerId": "team-player/c584c175-d47e-4766-a734-fac36138cf6b",
+              "name": "Amr Alebiary"
+            },
+            {
+              "playerId": "team-player/3c097e3c-efd7-4b99-bd95-15dcbc3f922f",
+              "name": "Stuart M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/16cbc899-ae19-4b9f-ac01-389a4a5d9e04",
               "players": [
                 {
+                  "playerId": "team-player/c584c175-d47e-4766-a734-fac36138cf6b",
                   "name": "Amr Alebiary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c097e3c-efd7-4b99-bd95-15dcbc3f922f",
                   "name": "Stuart M Smith",
                   "score": "5"
                 }
@@ -738,12 +1024,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7d46c1f9-8cf1-488d-aa6d-fd578700ba43",
               "players": [
                 {
+                  "playerId": "team-player/c584c175-d47e-4766-a734-fac36138cf6b",
                   "name": "Amr Alebiary",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c097e3c-efd7-4b99-bd95-15dcbc3f922f",
                   "name": "Stuart M Smith",
                   "score": "4"
                 }
@@ -755,17 +1044,26 @@
         },
         {
           "players": [
-            "Mohamed Taha",
-            "Richard Bilton"
+            {
+              "playerId": "team-player/213dcabe-c36b-4ca9-9e8c-fe7b3388851d",
+              "name": "Mohamed Taha"
+            },
+            {
+              "playerId": "team-player/78583d89-11c0-42d2-b595-4142dcfd2561",
+              "name": "Richard Bilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b4433a25-51db-4587-82a4-7e880bae45e5",
               "players": [
                 {
+                  "playerId": "team-player/213dcabe-c36b-4ca9-9e8c-fe7b3388851d",
                   "name": "Mohamed Taha",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/78583d89-11c0-42d2-b595-4142dcfd2561",
                   "name": "Richard Bilton",
                   "score": "7"
                 }
@@ -774,12 +1072,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/52c708d1-993b-40e6-aa7c-53ba86180974",
               "players": [
                 {
+                  "playerId": "team-player/213dcabe-c36b-4ca9-9e8c-fe7b3388851d",
                   "name": "Mohamed Taha",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/78583d89-11c0-42d2-b595-4142dcfd2561",
                   "name": "Richard Bilton",
                   "score": "5"
                 }
@@ -788,12 +1089,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7b451656-8441-4956-bfb6-8f5486ea3cda",
               "players": [
                 {
+                  "playerId": "team-player/213dcabe-c36b-4ca9-9e8c-fe7b3388851d",
                   "name": "Mohamed Taha",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/78583d89-11c0-42d2-b595-4142dcfd2561",
                   "name": "Richard Bilton",
                   "score": "5"
                 }

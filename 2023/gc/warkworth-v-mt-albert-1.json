@@ -1,43 +1,95 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f8b1a050-c9d1-4c3a-96ac-83e0cc0529c1",
   "name": "GC: Warkworth V Mt. Albert",
   "sport": "gc",
   "firstDay": "2023-01-24",
   "lastDay": "2023-01-24",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Warkworth",
       "shortName": "Warkworth",
       "players": [
-        "Bob Pegram",
-        "Marion Taylor",
-        "Marion Taylor & Melba Scott",
-        "Melba Scott",
-        "Melba Scott & Bob Pegram",
-        "Nelson Morrow",
-        "Nelson Morrow & Bob Pegram",
-        "Nelson Morrow & Marion Taylor"
+        {
+          "playerId": "team-player/a67745af-052b-4020-8a45-e1d4c31ff7da",
+          "name": "Bob Pegram"
+        },
+        {
+          "playerId": "team-player/f4e28086-11b4-4247-afc9-36e0e4439c51",
+          "name": "Marion Taylor"
+        },
+        {
+          "playerId": "team-player/1498460c-07d4-4aa2-8c50-f36d5d71a152",
+          "name": "Marion Taylor & Melba Scott"
+        },
+        {
+          "playerId": "team-player/25add3aa-25aa-4e9c-baae-c2c2579037c6",
+          "name": "Melba Scott"
+        },
+        {
+          "playerId": "team-player/bf6e4daa-a992-46ea-aff9-91b21ecab869",
+          "name": "Melba Scott & Bob Pegram"
+        },
+        {
+          "playerId": "team-player/43b879e7-0ddd-4691-96d2-596af29ca3f6",
+          "name": "Nelson Morrow"
+        },
+        {
+          "playerId": "team-player/e54d651a-35cf-4af6-9d51-e8e1a851930b",
+          "name": "Nelson Morrow & Bob Pegram"
+        },
+        {
+          "playerId": "team-player/e035a4dd-f967-4b40-a88e-d79984882123",
+          "name": "Nelson Morrow & Marion Taylor"
+        }
       ]
     },
     {
       "name": "Mt. Albert",
       "shortName": "Mt. Albert",
       "players": [
-        "Brian Wiliams",
-        "Brian Williams & Stephen Moratti",
-        "Martin Harvey",
-        "Sabri Mullaaliu",
-        "Sabri Mullaaliu & Brian Williams",
-        "Sabri Mullaaliu & Martin Harvey",
-        "Stephen Moratti",
-        "Stephen Moratti & Martin Harvey"
+        {
+          "playerId": "team-player/7796fa3b-a6f7-4d1c-9fd4-d917d3bc90b6",
+          "name": "Brian Wiliams"
+        },
+        {
+          "playerId": "team-player/bcce2329-ee72-46d9-9f60-c2544c5d6ea9",
+          "name": "Brian Williams & Stephen Moratti"
+        },
+        {
+          "playerId": "team-player/ed9e8a5b-a051-4235-92a1-c747c3fbd530",
+          "name": "Martin Harvey"
+        },
+        {
+          "playerId": "team-player/f85ce34b-1f96-4c17-8ce8-48cc31e127ac",
+          "name": "Sabri Mullaaliu"
+        },
+        {
+          "playerId": "team-player/34917541-cd3f-4294-8724-7563224dd766",
+          "name": "Sabri Mullaaliu & Brian Williams"
+        },
+        {
+          "playerId": "team-player/c758d0cc-0e07-4605-b812-ca4ab7f9c2a2",
+          "name": "Sabri Mullaaliu & Martin Harvey"
+        },
+        {
+          "playerId": "team-player/2eabd464-12a5-45a9-9faa-4a3a6e2e1c0a",
+          "name": "Stephen Moratti"
+        },
+        {
+          "playerId": "team-player/6d83e533-f9e7-4616-8e35-768cdc6f66c7",
+          "name": "Stephen Moratti & Martin Harvey"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/91c24404-da53-4ca5-972a-899fec33f9fc",
       "teams": [
         "Warkworth",
         "Mt. Albert"
@@ -47,17 +99,26 @@
       "matches": [
         {
           "players": [
-            "Nelson Morrow & Marion Taylor",
-            "Sabri Mullaaliu & Brian Williams"
+            {
+              "playerId": "team-player/e035a4dd-f967-4b40-a88e-d79984882123",
+              "name": "Nelson Morrow & Marion Taylor"
+            },
+            {
+              "playerId": "team-player/34917541-cd3f-4294-8724-7563224dd766",
+              "name": "Sabri Mullaaliu & Brian Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cbe922fb-fc96-43e5-952a-c113b0138741",
               "players": [
                 {
+                  "playerId": "team-player/e035a4dd-f967-4b40-a88e-d79984882123",
                   "name": "Nelson Morrow & Marion Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/34917541-cd3f-4294-8724-7563224dd766",
                   "name": "Sabri Mullaaliu & Brian Williams",
                   "score": "4"
                 }
@@ -69,17 +130,26 @@
         },
         {
           "players": [
-            "Melba Scott & Bob Pegram",
-            "Stephen Moratti & Martin Harvey"
+            {
+              "playerId": "team-player/bf6e4daa-a992-46ea-aff9-91b21ecab869",
+              "name": "Melba Scott & Bob Pegram"
+            },
+            {
+              "playerId": "team-player/6d83e533-f9e7-4616-8e35-768cdc6f66c7",
+              "name": "Stephen Moratti & Martin Harvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/90e54d73-67b6-46bf-86ec-831fbf1e9086",
               "players": [
                 {
+                  "playerId": "team-player/bf6e4daa-a992-46ea-aff9-91b21ecab869",
                   "name": "Melba Scott & Bob Pegram",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6d83e533-f9e7-4616-8e35-768cdc6f66c7",
                   "name": "Stephen Moratti & Martin Harvey",
                   "score": "4"
                 }
@@ -91,17 +161,26 @@
         },
         {
           "players": [
-            "Nelson Morrow & Bob Pegram",
-            "Sabri Mullaaliu & Martin Harvey"
+            {
+              "playerId": "team-player/e54d651a-35cf-4af6-9d51-e8e1a851930b",
+              "name": "Nelson Morrow & Bob Pegram"
+            },
+            {
+              "playerId": "team-player/c758d0cc-0e07-4605-b812-ca4ab7f9c2a2",
+              "name": "Sabri Mullaaliu & Martin Harvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb2163df-6b9c-4dc9-a7b6-29b5b093df76",
               "players": [
                 {
+                  "playerId": "team-player/e54d651a-35cf-4af6-9d51-e8e1a851930b",
                   "name": "Nelson Morrow & Bob Pegram",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c758d0cc-0e07-4605-b812-ca4ab7f9c2a2",
                   "name": "Sabri Mullaaliu & Martin Harvey",
                   "score": "5"
                 }
@@ -113,17 +192,26 @@
         },
         {
           "players": [
-            "Marion Taylor & Melba Scott",
-            "Brian Williams & Stephen Moratti"
+            {
+              "playerId": "team-player/1498460c-07d4-4aa2-8c50-f36d5d71a152",
+              "name": "Marion Taylor & Melba Scott"
+            },
+            {
+              "playerId": "team-player/bcce2329-ee72-46d9-9f60-c2544c5d6ea9",
+              "name": "Brian Williams & Stephen Moratti"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8802fa7d-a6e5-41a3-b1b2-817d5e2d277b",
               "players": [
                 {
+                  "playerId": "team-player/1498460c-07d4-4aa2-8c50-f36d5d71a152",
                   "name": "Marion Taylor & Melba Scott",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/bcce2329-ee72-46d9-9f60-c2544c5d6ea9",
                   "name": "Brian Williams & Stephen Moratti",
                   "score": "7"
                 }
@@ -135,17 +223,26 @@
         },
         {
           "players": [
-            "Nelson Morrow",
-            "Sabri Mullaaliu"
+            {
+              "playerId": "team-player/43b879e7-0ddd-4691-96d2-596af29ca3f6",
+              "name": "Nelson Morrow"
+            },
+            {
+              "playerId": "team-player/f85ce34b-1f96-4c17-8ce8-48cc31e127ac",
+              "name": "Sabri Mullaaliu"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ceb5a32a-538c-4ddc-bd5d-83317309e2f4",
               "players": [
                 {
+                  "playerId": "team-player/43b879e7-0ddd-4691-96d2-596af29ca3f6",
                   "name": "Nelson Morrow",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f85ce34b-1f96-4c17-8ce8-48cc31e127ac",
                   "name": "Sabri Mullaaliu",
                   "score": "4"
                 }
@@ -157,17 +254,26 @@
         },
         {
           "players": [
-            "Marion Taylor",
-            "Brian Wiliams"
+            {
+              "playerId": "team-player/f4e28086-11b4-4247-afc9-36e0e4439c51",
+              "name": "Marion Taylor"
+            },
+            {
+              "playerId": "team-player/7796fa3b-a6f7-4d1c-9fd4-d917d3bc90b6",
+              "name": "Brian Wiliams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7b585ebc-8568-4aed-bef8-72cae56d0a65",
               "players": [
                 {
+                  "playerId": "team-player/f4e28086-11b4-4247-afc9-36e0e4439c51",
                   "name": "Marion Taylor",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/7796fa3b-a6f7-4d1c-9fd4-d917d3bc90b6",
                   "name": "Brian Wiliams",
                   "score": "7"
                 }
@@ -179,17 +285,26 @@
         },
         {
           "players": [
-            "Melba Scott",
-            "Stephen Moratti"
+            {
+              "playerId": "team-player/25add3aa-25aa-4e9c-baae-c2c2579037c6",
+              "name": "Melba Scott"
+            },
+            {
+              "playerId": "team-player/2eabd464-12a5-45a9-9faa-4a3a6e2e1c0a",
+              "name": "Stephen Moratti"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4361f45c-4182-4a7b-8273-5fa808c3c4b3",
               "players": [
                 {
+                  "playerId": "team-player/25add3aa-25aa-4e9c-baae-c2c2579037c6",
                   "name": "Melba Scott",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/2eabd464-12a5-45a9-9faa-4a3a6e2e1c0a",
                   "name": "Stephen Moratti",
                   "score": "7"
                 }
@@ -201,17 +316,26 @@
         },
         {
           "players": [
-            "Bob Pegram",
-            "Martin Harvey"
+            {
+              "playerId": "team-player/a67745af-052b-4020-8a45-e1d4c31ff7da",
+              "name": "Bob Pegram"
+            },
+            {
+              "playerId": "team-player/ed9e8a5b-a051-4235-92a1-c747c3fbd530",
+              "name": "Martin Harvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b85393a8-1cff-4a0e-9796-3c5a6e736150",
               "players": [
                 {
+                  "playerId": "team-player/a67745af-052b-4020-8a45-e1d4c31ff7da",
                   "name": "Bob Pegram",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ed9e8a5b-a051-4235-92a1-c747c3fbd530",
                   "name": "Martin Harvey",
                   "score": "7"
                 }
@@ -223,17 +347,26 @@
         },
         {
           "players": [
-            "Nelson Morrow",
-            "Brian Wiliams"
+            {
+              "playerId": "team-player/43b879e7-0ddd-4691-96d2-596af29ca3f6",
+              "name": "Nelson Morrow"
+            },
+            {
+              "playerId": "team-player/7796fa3b-a6f7-4d1c-9fd4-d917d3bc90b6",
+              "name": "Brian Wiliams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/06c8658d-2c95-439a-8e89-eff71f14a4ba",
               "players": [
                 {
+                  "playerId": "team-player/43b879e7-0ddd-4691-96d2-596af29ca3f6",
                   "name": "Nelson Morrow",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7796fa3b-a6f7-4d1c-9fd4-d917d3bc90b6",
                   "name": "Brian Wiliams",
                   "score": "7"
                 }
@@ -245,17 +378,26 @@
         },
         {
           "players": [
-            "Marion Taylor",
-            "Sabri Mullaaliu"
+            {
+              "playerId": "team-player/f4e28086-11b4-4247-afc9-36e0e4439c51",
+              "name": "Marion Taylor"
+            },
+            {
+              "playerId": "team-player/f85ce34b-1f96-4c17-8ce8-48cc31e127ac",
+              "name": "Sabri Mullaaliu"
+            }
           ],
           "games": [
             {
+              "gameId": "game/223cfd00-934b-41ef-a64e-16418b52adc9",
               "players": [
                 {
+                  "playerId": "team-player/f4e28086-11b4-4247-afc9-36e0e4439c51",
                   "name": "Marion Taylor",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f85ce34b-1f96-4c17-8ce8-48cc31e127ac",
                   "name": "Sabri Mullaaliu",
                   "score": "7"
                 }
@@ -267,17 +409,26 @@
         },
         {
           "players": [
-            "Melba Scott",
-            "Martin Harvey"
+            {
+              "playerId": "team-player/25add3aa-25aa-4e9c-baae-c2c2579037c6",
+              "name": "Melba Scott"
+            },
+            {
+              "playerId": "team-player/ed9e8a5b-a051-4235-92a1-c747c3fbd530",
+              "name": "Martin Harvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa33447c-9574-4b54-b8d5-5dac59e5ee25",
               "players": [
                 {
+                  "playerId": "team-player/25add3aa-25aa-4e9c-baae-c2c2579037c6",
                   "name": "Melba Scott",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ed9e8a5b-a051-4235-92a1-c747c3fbd530",
                   "name": "Martin Harvey",
                   "score": "7"
                 }
@@ -289,17 +440,26 @@
         },
         {
           "players": [
-            "Bob Pegram",
-            "Stephen Moratti"
+            {
+              "playerId": "team-player/a67745af-052b-4020-8a45-e1d4c31ff7da",
+              "name": "Bob Pegram"
+            },
+            {
+              "playerId": "team-player/2eabd464-12a5-45a9-9faa-4a3a6e2e1c0a",
+              "name": "Stephen Moratti"
+            }
           ],
           "games": [
             {
+              "gameId": "game/073b7146-355f-40d6-9c8c-ef2be6c52f66",
               "players": [
                 {
+                  "playerId": "team-player/a67745af-052b-4020-8a45-e1d4c31ff7da",
                   "name": "Bob Pegram",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/2eabd464-12a5-45a9-9faa-4a3a6e2e1c0a",
                   "name": "Stephen Moratti",
                   "score": "7"
                 }

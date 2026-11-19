@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/17c15c41-231b-44e2-9800-0ac266e822e8",
   "name": "CA AC Interclub Final",
   "sport": "ac",
   "firstDay": "2023-09-30",
   "lastDay": "2023-09-30",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "E John Davis",
-        "James & Omied",
-        "James Death",
-        "Omied Hallam",
-        "Will Gee"
+        {
+          "playerId": "team-player/6d2366be-248c-4794-9747-433352bbdc32",
+          "name": "E John Davis"
+        },
+        {
+          "playerId": "team-player/bd7d23eb-1173-4cb3-aacc-98103a91002f",
+          "name": "James & Omied"
+        },
+        {
+          "playerId": "team-player/0800a66b-04ab-47f0-8aff-93b5cb65057e",
+          "name": "James Death"
+        },
+        {
+          "playerId": "team-player/38e0984b-f780-4af6-a574-d67d86b1749f",
+          "name": "Omied Hallam"
+        },
+        {
+          "playerId": "team-player/701724d0-b7d7-4be7-9886-8e79f3e9787d",
+          "name": "Will Gee"
+        }
       ]
     },
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Harry & Mark",
-        "Harry Fisher",
-        "Joel Taylor",
-        "Mark van Loon",
-        "Tim Russell"
+        {
+          "playerId": "team-player/43a64dea-abf6-46ab-97d7-9a9ecdf57a89",
+          "name": "Harry & Mark"
+        },
+        {
+          "playerId": "team-player/1e357d23-401f-4099-b52e-b873a2a92df7",
+          "name": "Harry Fisher"
+        },
+        {
+          "playerId": "team-player/d1eb3cd5-e049-4a79-b3b4-7c42be7f52e0",
+          "name": "Joel Taylor"
+        },
+        {
+          "playerId": "team-player/c1f0a63a-c314-4fa3-98b3-fef727b6ee73",
+          "name": "Mark van Loon"
+        },
+        {
+          "playerId": "team-player/b76f4e0c-cd07-4e22-a458-4320366dac38",
+          "name": "Tim Russell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/d41028cc-151f-415b-bc30-97dbfa020534",
       "teams": [
         "Nottingham",
         "Roehampton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "E John Davis",
-            "Joel Taylor"
+            {
+              "playerId": "team-player/6d2366be-248c-4794-9747-433352bbdc32",
+              "name": "E John Davis"
+            },
+            {
+              "playerId": "team-player/d1eb3cd5-e049-4a79-b3b4-7c42be7f52e0",
+              "name": "Joel Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/edf0cde5-06b1-4dcd-96cd-bbb65320b5c2",
               "players": [
                 {
+                  "playerId": "team-player/6d2366be-248c-4794-9747-433352bbdc32",
                   "name": "E John Davis",
                   "score": "26w/o"
                 },
                 {
+                  "playerId": "team-player/d1eb3cd5-e049-4a79-b3b4-7c42be7f52e0",
                   "name": "Joel Taylor",
                   "score": "0"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Will Gee",
-            "Tim Russell"
+            {
+              "playerId": "team-player/701724d0-b7d7-4be7-9886-8e79f3e9787d",
+              "name": "Will Gee"
+            },
+            {
+              "playerId": "team-player/b76f4e0c-cd07-4e22-a458-4320366dac38",
+              "name": "Tim Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/caf43660-76f4-4fdf-bf02-f3120c8634c6",
               "players": [
                 {
+                  "playerId": "team-player/701724d0-b7d7-4be7-9886-8e79f3e9787d",
                   "name": "Will Gee",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/b76f4e0c-cd07-4e22-a458-4320366dac38",
                   "name": "Tim Russell",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "James & Omied",
-            "Harry & Mark"
+            {
+              "playerId": "team-player/bd7d23eb-1173-4cb3-aacc-98103a91002f",
+              "name": "James & Omied"
+            },
+            {
+              "playerId": "team-player/43a64dea-abf6-46ab-97d7-9a9ecdf57a89",
+              "name": "Harry & Mark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/949b9e5b-0e4c-4f44-8ebd-75131f45fed3",
               "players": [
                 {
+                  "playerId": "team-player/bd7d23eb-1173-4cb3-aacc-98103a91002f",
                   "name": "James & Omied",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/43a64dea-abf6-46ab-97d7-9a9ecdf57a89",
                   "name": "Harry & Mark",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "James Death",
-            "Harry Fisher"
+            {
+              "playerId": "team-player/0800a66b-04ab-47f0-8aff-93b5cb65057e",
+              "name": "James Death"
+            },
+            {
+              "playerId": "team-player/1e357d23-401f-4099-b52e-b873a2a92df7",
+              "name": "Harry Fisher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/46d483ee-913d-4cae-9b5c-022e5302802d",
               "players": [
                 {
+                  "playerId": "team-player/0800a66b-04ab-47f0-8aff-93b5cb65057e",
                   "name": "James Death",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/1e357d23-401f-4099-b52e-b873a2a92df7",
                   "name": "Harry Fisher",
                   "score": "26tp"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Will Gee",
-            "Joel Taylor"
+            {
+              "playerId": "team-player/701724d0-b7d7-4be7-9886-8e79f3e9787d",
+              "name": "Will Gee"
+            },
+            {
+              "playerId": "team-player/d1eb3cd5-e049-4a79-b3b4-7c42be7f52e0",
+              "name": "Joel Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a52831b0-45ea-426a-bbdd-9acb6b6287aa",
               "players": [
                 {
+                  "playerId": "team-player/701724d0-b7d7-4be7-9886-8e79f3e9787d",
                   "name": "Will Gee",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/d1eb3cd5-e049-4a79-b3b4-7c42be7f52e0",
                   "name": "Joel Taylor",
                   "score": "26tp"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Omied Hallam",
-            "Mark van Loon"
+            {
+              "playerId": "team-player/38e0984b-f780-4af6-a574-d67d86b1749f",
+              "name": "Omied Hallam"
+            },
+            {
+              "playerId": "team-player/c1f0a63a-c314-4fa3-98b3-fef727b6ee73",
+              "name": "Mark van Loon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/436ee4f8-3026-4262-a6f9-914f419ef79a",
               "players": [
                 {
+                  "playerId": "team-player/38e0984b-f780-4af6-a574-d67d86b1749f",
                   "name": "Omied Hallam",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c1f0a63a-c314-4fa3-98b3-fef727b6ee73",
                   "name": "Mark van Loon",
                   "score": "9"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "E John Davis",
-            "Tim Russell"
+            {
+              "playerId": "team-player/6d2366be-248c-4794-9747-433352bbdc32",
+              "name": "E John Davis"
+            },
+            {
+              "playerId": "team-player/b76f4e0c-cd07-4e22-a458-4320366dac38",
+              "name": "Tim Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/03bac270-b2b0-4e66-9260-57c4039056fa",
               "players": [
                 {
+                  "playerId": "team-player/6d2366be-248c-4794-9747-433352bbdc32",
                   "name": "E John Davis",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/b76f4e0c-cd07-4e22-a458-4320366dac38",
                   "name": "Tim Russell",
                   "score": "26"
                 }

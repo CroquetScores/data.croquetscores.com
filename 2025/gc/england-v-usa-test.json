@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/78829b67-8d90-456f-8a8d-714374d6fbf5",
   "name": "England v USA GC Test",
   "sport": "gc",
   "firstDay": "2025-08-05",
   "lastDay": "2025-08-06",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": true,
   "teams": [
     {
       "name": "England",
       "shortName": "ENG",
       "players": [
-        "Archer & Burridge",
-        "Aston Wade",
-        "Euan Burridge",
-        "Good & Wade",
-        "Jack Good",
-        "Nick Archer"
+        {
+          "playerId": "team-player/312f4731-d573-49a9-bb78-2a7a18ab35e9",
+          "name": "Archer & Burridge"
+        },
+        {
+          "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
+          "name": "Aston Wade"
+        },
+        {
+          "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/c98d2dd3-d1f0-47f5-a161-3b80c09e08c5",
+          "name": "Good & Wade"
+        },
+        {
+          "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
+          "name": "Jack Good"
+        },
+        {
+          "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
+          "name": "Nick Archer"
+        }
       ]
     },
     {
       "name": "USA",
       "shortName": "USA",
       "players": [
-        "Balding & Morgan",
-        "Essick & Maloof",
-        "Kyle Maloof",
-        "Matthew Essick",
-        "Stephen Morgan",
-        "Tom Balding"
+        {
+          "playerId": "team-player/87a7d5a8-0b1d-4ff0-bb50-1e9dd42494bd",
+          "name": "Balding & Morgan"
+        },
+        {
+          "playerId": "team-player/b49be33f-1131-4aee-85dd-d630992b198c",
+          "name": "Essick & Maloof"
+        },
+        {
+          "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
+          "name": "Kyle Maloof"
+        },
+        {
+          "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
+          "name": "Matthew Essick"
+        },
+        {
+          "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
+          "name": "Stephen Morgan"
+        },
+        {
+          "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
+          "name": "Tom Balding"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/0527bb0b-59de-4d48-9d20-b0dbca54778a",
       "teams": [
         "England",
         "USA"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Archer & Burridge",
-            "Essick & Maloof"
+            {
+              "playerId": "team-player/312f4731-d573-49a9-bb78-2a7a18ab35e9",
+              "name": "Archer & Burridge"
+            },
+            {
+              "playerId": "team-player/b49be33f-1131-4aee-85dd-d630992b198c",
+              "name": "Essick & Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7d11bce0-6c1f-4d78-b0c8-9d516a334ac5",
               "players": [
                 {
+                  "playerId": "team-player/312f4731-d573-49a9-bb78-2a7a18ab35e9",
                   "name": "Archer & Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b49be33f-1131-4aee-85dd-d630992b198c",
                   "name": "Essick & Maloof",
                   "score": "5"
                 }
@@ -62,12 +111,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8f76219c-0b93-41b6-aa17-124a17a8fdee",
               "players": [
                 {
+                  "playerId": "team-player/312f4731-d573-49a9-bb78-2a7a18ab35e9",
                   "name": "Archer & Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b49be33f-1131-4aee-85dd-d630992b198c",
                   "name": "Essick & Maloof",
                   "score": "5"
                 }
@@ -79,17 +131,26 @@
         },
         {
           "players": [
-            "Good & Wade",
-            "Balding & Morgan"
+            {
+              "playerId": "team-player/c98d2dd3-d1f0-47f5-a161-3b80c09e08c5",
+              "name": "Good & Wade"
+            },
+            {
+              "playerId": "team-player/87a7d5a8-0b1d-4ff0-bb50-1e9dd42494bd",
+              "name": "Balding & Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7e274fbc-c829-4a07-ba77-c1eb6859de8f",
               "players": [
                 {
+                  "playerId": "team-player/c98d2dd3-d1f0-47f5-a161-3b80c09e08c5",
                   "name": "Good & Wade",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/87a7d5a8-0b1d-4ff0-bb50-1e9dd42494bd",
                   "name": "Balding & Morgan",
                   "score": "7"
                 }
@@ -98,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4376d9cc-0803-4cf9-811d-3b30955907d1",
               "players": [
                 {
+                  "playerId": "team-player/c98d2dd3-d1f0-47f5-a161-3b80c09e08c5",
                   "name": "Good & Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87a7d5a8-0b1d-4ff0-bb50-1e9dd42494bd",
                   "name": "Balding & Morgan",
                   "score": "3"
                 }
@@ -112,12 +176,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/776f1aa7-0b0a-48fb-861a-3cf6c0c27d12",
               "players": [
                 {
+                  "playerId": "team-player/c98d2dd3-d1f0-47f5-a161-3b80c09e08c5",
                   "name": "Good & Wade",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/87a7d5a8-0b1d-4ff0-bb50-1e9dd42494bd",
                   "name": "Balding & Morgan",
                   "score": "7"
                 }
@@ -129,17 +196,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Matthew Essick"
+            {
+              "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
+              "name": "Matthew Essick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fe809636-0436-4101-9502-55361f17f51c",
               "players": [
                 {
+                  "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
                   "name": "Euan Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
                   "name": "Matthew Essick",
                   "score": "7"
                 }
@@ -148,12 +224,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bffe1679-85ac-4bf8-b99a-18a0161b8a8a",
               "players": [
                 {
+                  "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
                   "name": "Matthew Essick",
                   "score": "1"
                 }
@@ -162,12 +241,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0bb00efa-1faf-4eee-96d1-8811b2c2383b",
               "players": [
                 {
+                  "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
                   "name": "Euan Burridge",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
                   "name": "Matthew Essick",
                   "score": "7"
                 }
@@ -179,17 +261,26 @@
         },
         {
           "players": [
-            "Nick Archer",
-            "Kyle Maloof"
+            {
+              "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
+              "name": "Nick Archer"
+            },
+            {
+              "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
+              "name": "Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6ee16f6-bd10-48ac-af1b-7ef02fca904c",
               "players": [
                 {
+                  "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
                   "name": "Nick Archer",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
                   "name": "Kyle Maloof",
                   "score": "7"
                 }
@@ -198,12 +289,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/71dcf0d7-20db-4e4a-a954-075b293e0b79",
               "players": [
                 {
+                  "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
                   "name": "Nick Archer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
                   "name": "Kyle Maloof",
                   "score": "7"
                 }
@@ -215,17 +309,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Tom Balding"
+            {
+              "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
+              "name": "Tom Balding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1bae0311-a614-4ded-8e84-1621ef8fdb58",
               "players": [
                 {
+                  "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
                   "name": "Jack Good",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
                   "name": "Tom Balding",
                   "score": "7"
                 }
@@ -234,12 +337,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/efece09a-cae4-4c10-b946-6ff8800f51a9",
               "players": [
                 {
+                  "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
                   "name": "Jack Good",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
                   "name": "Tom Balding",
                   "score": "7"
                 }
@@ -251,17 +357,26 @@
         },
         {
           "players": [
-            "Aston Wade",
-            "Stephen Morgan"
+            {
+              "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
+              "name": "Aston Wade"
+            },
+            {
+              "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
+              "name": "Stephen Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a9b2d4ed-61e4-4f2d-bc96-cb341fa24645",
               "players": [
                 {
+                  "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
                   "name": "Aston Wade",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
                   "name": "Stephen Morgan",
                   "score": "7"
                 }
@@ -270,12 +385,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6685481b-a45e-490b-b798-a58a907e166c",
               "players": [
                 {
+                  "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
                   "name": "Aston Wade",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
                   "name": "Stephen Morgan",
                   "score": "7"
                 }
@@ -287,17 +405,26 @@
         },
         {
           "players": [
-            "Nick Archer",
-            "Tom Balding"
+            {
+              "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
+              "name": "Nick Archer"
+            },
+            {
+              "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
+              "name": "Tom Balding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34add57d-2cc8-4151-8362-7757f59d1109",
               "players": [
                 {
+                  "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
                   "name": "Nick Archer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
                   "name": "Tom Balding",
                   "score": "7"
                 }
@@ -306,12 +433,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6fad7632-8379-4506-83e0-103be53cea9f",
               "players": [
                 {
+                  "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
                   "name": "Nick Archer",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
                   "name": "Tom Balding",
                   "score": "7"
                 }
@@ -323,17 +453,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Kyle Maloof"
+            {
+              "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
+              "name": "Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/016bd926-9cfe-4be7-a398-693fb06aa8f1",
               "players": [
                 {
+                  "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
                   "name": "Jack Good",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
                   "name": "Kyle Maloof",
                   "score": "7"
                 }
@@ -342,12 +481,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5e3f05b9-ad04-4df9-af72-95b0622b54fb",
               "players": [
                 {
+                  "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
                   "name": "Kyle Maloof",
                   "score": "3"
                 }
@@ -356,12 +498,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9687ebd4-372a-4634-9d7c-19e6e16ebecd",
               "players": [
                 {
+                  "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
                   "name": "Kyle Maloof",
                   "score": "3"
                 }
@@ -373,17 +518,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Stephen Morgan"
+            {
+              "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
+              "name": "Stephen Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42f2de5e-00a7-42aa-8983-89eb8e34c6b3",
               "players": [
                 {
+                  "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
                   "name": "Stephen Morgan",
                   "score": "4"
                 }
@@ -392,12 +546,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a8be2ca6-8ad1-4306-b838-d8a962d4af58",
               "players": [
                 {
+                  "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
                   "name": "Stephen Morgan",
                   "score": "6"
                 }
@@ -409,17 +566,26 @@
         },
         {
           "players": [
-            "Aston Wade",
-            "Matthew Essick"
+            {
+              "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
+              "name": "Aston Wade"
+            },
+            {
+              "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
+              "name": "Matthew Essick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2419ad1-efc4-4151-833c-f654b811cf68",
               "players": [
                 {
+                  "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
                   "name": "Aston Wade",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
                   "name": "Matthew Essick",
                   "score": "7"
                 }
@@ -428,12 +594,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2ada9cbf-10f0-45cf-a222-b43c42cf5c1c",
               "players": [
                 {
+                  "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
                   "name": "Aston Wade",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
                   "name": "Matthew Essick",
                   "score": "7"
                 }
@@ -445,17 +614,26 @@
         },
         {
           "players": [
-            "Archer & Burridge",
-            "Balding & Morgan"
+            {
+              "playerId": "team-player/312f4731-d573-49a9-bb78-2a7a18ab35e9",
+              "name": "Archer & Burridge"
+            },
+            {
+              "playerId": "team-player/87a7d5a8-0b1d-4ff0-bb50-1e9dd42494bd",
+              "name": "Balding & Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad662887-2546-4b43-974d-0366ae752ef5",
               "players": [
                 {
+                  "playerId": "team-player/312f4731-d573-49a9-bb78-2a7a18ab35e9",
                   "name": "Archer & Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87a7d5a8-0b1d-4ff0-bb50-1e9dd42494bd",
                   "name": "Balding & Morgan",
                   "score": "5"
                 }
@@ -464,12 +642,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/75f5288d-8c6c-4286-b286-7b466fe504bf",
               "players": [
                 {
+                  "playerId": "team-player/312f4731-d573-49a9-bb78-2a7a18ab35e9",
                   "name": "Archer & Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87a7d5a8-0b1d-4ff0-bb50-1e9dd42494bd",
                   "name": "Balding & Morgan",
                   "score": "6"
                 }
@@ -481,17 +662,26 @@
         },
         {
           "players": [
-            "Good & Wade",
-            "Essick & Maloof"
+            {
+              "playerId": "team-player/c98d2dd3-d1f0-47f5-a161-3b80c09e08c5",
+              "name": "Good & Wade"
+            },
+            {
+              "playerId": "team-player/b49be33f-1131-4aee-85dd-d630992b198c",
+              "name": "Essick & Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32e01390-c58d-4f03-ab07-d1ac227d99e7",
               "players": [
                 {
+                  "playerId": "team-player/c98d2dd3-d1f0-47f5-a161-3b80c09e08c5",
                   "name": "Good & Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b49be33f-1131-4aee-85dd-d630992b198c",
                   "name": "Essick & Maloof",
                   "score": "6"
                 }
@@ -500,12 +690,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/420bece1-7ae9-4618-9d4b-1ad8135037a8",
               "players": [
                 {
+                  "playerId": "team-player/c98d2dd3-d1f0-47f5-a161-3b80c09e08c5",
                   "name": "Good & Wade",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b49be33f-1131-4aee-85dd-d630992b198c",
                   "name": "Essick & Maloof",
                   "score": "5"
                 }
@@ -517,17 +710,26 @@
         },
         {
           "players": [
-            "Nick Archer",
-            "Stephen Morgan"
+            {
+              "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
+              "name": "Nick Archer"
+            },
+            {
+              "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
+              "name": "Stephen Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2fe6c97a-fdf0-4463-b4eb-91238140d0e0",
               "players": [
                 {
+                  "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
                   "name": "Nick Archer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
                   "name": "Stephen Morgan",
                   "score": "5"
                 }
@@ -536,12 +738,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/138c2658-3ad5-48eb-b3a9-4a46154b60d4",
               "players": [
                 {
+                  "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
                   "name": "Nick Archer",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
                   "name": "Stephen Morgan",
                   "score": "7"
                 }
@@ -550,12 +755,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/62182572-7cb5-4b35-a88b-01b27c378e22",
               "players": [
                 {
+                  "playerId": "team-player/f9ca74db-a2c8-4872-8024-7486c67b0e2e",
                   "name": "Nick Archer",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/6a704bfc-58a8-4dbf-a0cd-a94d88486c5d",
                   "name": "Stephen Morgan",
                   "score": "7"
                 }
@@ -567,17 +775,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Tom Balding"
+            {
+              "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
+              "name": "Tom Balding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/27806490-29ed-4fad-bd25-480276f93c5c",
               "players": [
                 {
+                  "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
                   "name": "Euan Burridge",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
                   "name": "Tom Balding",
                   "score": "7"
                 }
@@ -586,12 +803,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/26cf8f7f-ccd3-4d73-be45-885238546525",
               "players": [
                 {
+                  "playerId": "team-player/e6741c9c-f783-45a6-942f-eade38949901",
                   "name": "Euan Burridge",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/aa729a1a-94f9-4463-8fad-f93ce0551c65",
                   "name": "Tom Balding",
                   "score": "7"
                 }
@@ -603,17 +823,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Matthew Essick"
+            {
+              "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
+              "name": "Matthew Essick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b491013-e0e0-4075-aa7a-cfb98f90c536",
               "players": [
                 {
+                  "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
                   "name": "Matthew Essick",
                   "score": "5"
                 }
@@ -622,12 +851,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/59792b50-abe7-4d97-ab60-7c5183568bf1",
               "players": [
                 {
+                  "playerId": "team-player/2534df54-4406-48a0-989c-3d4f59d24c50",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc9acf2a-23c2-4569-8832-e2b232711900",
                   "name": "Matthew Essick",
                   "score": "6"
                 }
@@ -639,17 +871,26 @@
         },
         {
           "players": [
-            "Aston Wade",
-            "Kyle Maloof"
+            {
+              "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
+              "name": "Aston Wade"
+            },
+            {
+              "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
+              "name": "Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f1a007bc-b48a-40cb-85cc-4f85685517cc",
               "players": [
                 {
+                  "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
                   "name": "Aston Wade",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
                   "name": "Kyle Maloof",
                   "score": "7"
                 }
@@ -658,12 +899,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6ae157e3-d414-4b55-b611-ea8568919745",
               "players": [
                 {
+                  "playerId": "team-player/4e9ca440-9222-4659-87b9-1960ddf0c05d",
                   "name": "Aston Wade",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d44c4adb-4739-4d70-b8b6-76d7842fe2be",
                   "name": "Kyle Maloof",
                   "score": "7"
                 }

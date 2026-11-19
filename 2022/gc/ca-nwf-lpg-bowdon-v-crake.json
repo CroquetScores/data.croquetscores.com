@@ -1,38 +1,75 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/3cb022b2-2117-4f7d-8b5e-77eb4d2d84fb",
   "name": "CA NWF LPG Bowdon v Crake",
   "sport": "gc",
   "firstDay": "2022-06-09",
   "lastDay": "2022-06-09",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Andrew Thomson",
-        "Andrew Thomson - meet again",
-        "David Holland",
-        "David Holland - meet again",
-        "Nigel Matthews",
-        "Nigel Matthews - meet again"
+        {
+          "playerId": "team-player/b529ba09-186f-444b-8694-0fb16002b805",
+          "name": "Andrew Thomson"
+        },
+        {
+          "playerId": "team-player/c4335fb5-9d53-45ce-943e-4f17f9dce3f2",
+          "name": "Andrew Thomson - meet again"
+        },
+        {
+          "playerId": "team-player/82338e36-57cb-41ff-843d-026930db8023",
+          "name": "David Holland"
+        },
+        {
+          "playerId": "team-player/1b6de065-1151-4d01-87bf-bb9bda074f8e",
+          "name": "David Holland - meet again"
+        },
+        {
+          "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
+          "name": "Nigel Matthews"
+        },
+        {
+          "playerId": "team-player/dce9659f-0b64-4787-aeaa-18b450089fbd",
+          "name": "Nigel Matthews - meet again"
+        }
       ]
     },
     {
       "name": "Crake",
       "shortName": "Crake",
       "players": [
-        "David Cornes",
-        "Neil Adams",
-        "Neil Adams - meet again",
-        "Sandra Cornes",
-        "Sandra Cornes - meet again"
+        {
+          "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
+          "name": "David Cornes"
+        },
+        {
+          "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
+          "name": "Neil Adams"
+        },
+        {
+          "playerId": "team-player/b8f8e4d7-10ba-4301-8df6-987b3d5fa157",
+          "name": "Neil Adams - meet again"
+        },
+        {
+          "playerId": "team-player/541d6d0c-87b0-467a-8520-50299224f917",
+          "name": "Sandra Cornes"
+        },
+        {
+          "playerId": "team-player/5f30acb8-fc49-48d5-a037-4fe29c1ccdc0",
+          "name": "Sandra Cornes - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/aca0b10c-0798-4951-a530-2ec19307fabf",
       "teams": [
         "Bowdon",
         "Crake"
@@ -42,17 +79,26 @@
       "matches": [
         {
           "players": [
-            "Nigel Matthews",
-            "Sandra Cornes"
+            {
+              "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/541d6d0c-87b0-467a-8520-50299224f917",
+              "name": "Sandra Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bf70797c-c1f3-4e39-aa8b-48cdd3cb6e71",
               "players": [
                 {
+                  "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/541d6d0c-87b0-467a-8520-50299224f917",
                   "name": "Sandra Cornes",
                   "score": "5"
                 }
@@ -64,17 +110,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "David Cornes"
+            {
+              "playerId": "team-player/82338e36-57cb-41ff-843d-026930db8023",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
+              "name": "David Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9072ba8-dc5d-431e-bd85-4a0b9c21f81c",
               "players": [
                 {
+                  "playerId": "team-player/82338e36-57cb-41ff-843d-026930db8023",
                   "name": "David Holland",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
                   "name": "David Cornes",
                   "score": "4"
                 }
@@ -86,17 +141,26 @@
         },
         {
           "players": [
-            "Andrew Thomson",
-            "Neil Adams"
+            {
+              "playerId": "team-player/b529ba09-186f-444b-8694-0fb16002b805",
+              "name": "Andrew Thomson"
+            },
+            {
+              "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
+              "name": "Neil Adams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8bc32d89-fd65-4970-b4b2-c0a514d429f2",
               "players": [
                 {
+                  "playerId": "team-player/b529ba09-186f-444b-8694-0fb16002b805",
                   "name": "Andrew Thomson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
                   "name": "Neil Adams",
                   "score": "7"
                 }
@@ -108,17 +172,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Neil Adams"
+            {
+              "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
+              "name": "Neil Adams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/049ee6a6-d0a0-41ab-921b-0bfc982a924b",
               "players": [
                 {
+                  "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
                   "name": "Nigel Matthews",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
                   "name": "Neil Adams",
                   "score": "7"
                 }
@@ -130,17 +203,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Sandra Cornes"
+            {
+              "playerId": "team-player/82338e36-57cb-41ff-843d-026930db8023",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/541d6d0c-87b0-467a-8520-50299224f917",
+              "name": "Sandra Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42551e86-b073-4ce2-b630-55ac2c114df2",
               "players": [
                 {
+                  "playerId": "team-player/82338e36-57cb-41ff-843d-026930db8023",
                   "name": "David Holland",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/541d6d0c-87b0-467a-8520-50299224f917",
                   "name": "Sandra Cornes",
                   "score": "5"
                 }
@@ -152,17 +234,26 @@
         },
         {
           "players": [
-            "Andrew Thomson",
-            "David Cornes"
+            {
+              "playerId": "team-player/b529ba09-186f-444b-8694-0fb16002b805",
+              "name": "Andrew Thomson"
+            },
+            {
+              "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
+              "name": "David Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f80511c2-c0d2-4985-88b3-49ee4b9229c9",
               "players": [
                 {
+                  "playerId": "team-player/b529ba09-186f-444b-8694-0fb16002b805",
                   "name": "Andrew Thomson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
                   "name": "David Cornes",
                   "score": "6"
                 }
@@ -174,17 +265,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "David Cornes"
+            {
+              "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
+              "name": "David Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f993a59b-5d90-423b-aa55-d7723eb52299",
               "players": [
                 {
+                  "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
                   "name": "David Cornes",
                   "score": "3"
                 }
@@ -196,17 +296,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Neil Adams"
+            {
+              "playerId": "team-player/82338e36-57cb-41ff-843d-026930db8023",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
+              "name": "Neil Adams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d747056-cbf1-40b6-9622-67e04a8ec8fe",
               "players": [
                 {
+                  "playerId": "team-player/82338e36-57cb-41ff-843d-026930db8023",
                   "name": "David Holland",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
                   "name": "Neil Adams",
                   "score": "5"
                 }
@@ -218,17 +327,26 @@
         },
         {
           "players": [
-            "Andrew Thomson",
-            "Sandra Cornes"
+            {
+              "playerId": "team-player/b529ba09-186f-444b-8694-0fb16002b805",
+              "name": "Andrew Thomson"
+            },
+            {
+              "playerId": "team-player/541d6d0c-87b0-467a-8520-50299224f917",
+              "name": "Sandra Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff81f676-f51c-4aff-8dc1-8236430e53bd",
               "players": [
                 {
+                  "playerId": "team-player/b529ba09-186f-444b-8694-0fb16002b805",
                   "name": "Andrew Thomson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/541d6d0c-87b0-467a-8520-50299224f917",
                   "name": "Sandra Cornes",
                   "score": "7"
                 }
@@ -240,17 +358,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Sandra Cornes - meet again"
+            {
+              "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/5f30acb8-fc49-48d5-a037-4fe29c1ccdc0",
+              "name": "Sandra Cornes - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d395286-e305-4793-ab57-b7398662e291",
               "players": [
                 {
+                  "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5f30acb8-fc49-48d5-a037-4fe29c1ccdc0",
                   "name": "Sandra Cornes - meet again",
                   "score": "3"
                 }
@@ -262,17 +389,26 @@
         },
         {
           "players": [
-            "David Holland - meet again",
-            "David Cornes"
+            {
+              "playerId": "team-player/1b6de065-1151-4d01-87bf-bb9bda074f8e",
+              "name": "David Holland - meet again"
+            },
+            {
+              "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
+              "name": "David Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/beb30a6e-66b4-4b11-b69f-8ba8681da444",
               "players": [
                 {
+                  "playerId": "team-player/1b6de065-1151-4d01-87bf-bb9bda074f8e",
                   "name": "David Holland - meet again",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
                   "name": "David Cornes",
                   "score": "7"
                 }
@@ -284,17 +420,26 @@
         },
         {
           "players": [
-            "Andrew Thomson - meet again",
-            "Neil Adams"
+            {
+              "playerId": "team-player/c4335fb5-9d53-45ce-943e-4f17f9dce3f2",
+              "name": "Andrew Thomson - meet again"
+            },
+            {
+              "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
+              "name": "Neil Adams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/08a387fe-4a8f-40eb-a5e8-a591bc785742",
               "players": [
                 {
+                  "playerId": "team-player/c4335fb5-9d53-45ce-943e-4f17f9dce3f2",
                   "name": "Andrew Thomson - meet again",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
                   "name": "Neil Adams",
                   "score": "7"
                 }
@@ -306,17 +451,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Neil Adams - meet again"
+            {
+              "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/b8f8e4d7-10ba-4301-8df6-987b3d5fa157",
+              "name": "Neil Adams - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b14c3bd-9586-4edd-8def-99388592f41e",
               "players": [
                 {
+                  "playerId": "team-player/53bb648b-b0f1-4679-b8f7-dd0a20c81cc2",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b8f8e4d7-10ba-4301-8df6-987b3d5fa157",
                   "name": "Neil Adams - meet again",
                   "score": "5"
                 }
@@ -328,17 +482,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Sandra Cornes - meet again"
+            {
+              "playerId": "team-player/82338e36-57cb-41ff-843d-026930db8023",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/5f30acb8-fc49-48d5-a037-4fe29c1ccdc0",
+              "name": "Sandra Cornes - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/205b4067-e02f-431d-b591-34aaf90db6b1",
               "players": [
                 {
+                  "playerId": "team-player/82338e36-57cb-41ff-843d-026930db8023",
                   "name": "David Holland",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/5f30acb8-fc49-48d5-a037-4fe29c1ccdc0",
                   "name": "Sandra Cornes - meet again",
                   "score": "7"
                 }
@@ -350,17 +513,26 @@
         },
         {
           "players": [
-            "Andrew Thomson - meet again",
-            "David Cornes"
+            {
+              "playerId": "team-player/c4335fb5-9d53-45ce-943e-4f17f9dce3f2",
+              "name": "Andrew Thomson - meet again"
+            },
+            {
+              "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
+              "name": "David Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/60076929-e6d2-468d-8dc7-30150802fa17",
               "players": [
                 {
+                  "playerId": "team-player/c4335fb5-9d53-45ce-943e-4f17f9dce3f2",
                   "name": "Andrew Thomson - meet again",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
                   "name": "David Cornes",
                   "score": "7"
                 }
@@ -372,17 +544,26 @@
         },
         {
           "players": [
-            "Nigel Matthews - meet again",
-            "David Cornes"
+            {
+              "playerId": "team-player/dce9659f-0b64-4787-aeaa-18b450089fbd",
+              "name": "Nigel Matthews - meet again"
+            },
+            {
+              "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
+              "name": "David Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ba920c3d-1f93-4589-9b30-b4b12a94c079",
               "players": [
                 {
+                  "playerId": "team-player/dce9659f-0b64-4787-aeaa-18b450089fbd",
                   "name": "Nigel Matthews - meet again",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/75c5808e-0833-4719-b7cb-27d5ec8a77d5",
                   "name": "David Cornes",
                   "score": "7"
                 }
@@ -394,17 +575,26 @@
         },
         {
           "players": [
-            "David Holland - meet again",
-            "Neil Adams"
+            {
+              "playerId": "team-player/1b6de065-1151-4d01-87bf-bb9bda074f8e",
+              "name": "David Holland - meet again"
+            },
+            {
+              "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
+              "name": "Neil Adams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/13dee363-9e85-448f-9b7c-492c63baab91",
               "players": [
                 {
+                  "playerId": "team-player/1b6de065-1151-4d01-87bf-bb9bda074f8e",
                   "name": "David Holland - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b187b7eb-a178-4c14-bba7-87683867d75a",
                   "name": "Neil Adams",
                   "score": "6"
                 }
@@ -416,17 +606,26 @@
         },
         {
           "players": [
-            "Andrew Thomson - meet again",
-            "Sandra Cornes"
+            {
+              "playerId": "team-player/c4335fb5-9d53-45ce-943e-4f17f9dce3f2",
+              "name": "Andrew Thomson - meet again"
+            },
+            {
+              "playerId": "team-player/541d6d0c-87b0-467a-8520-50299224f917",
+              "name": "Sandra Cornes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ef3ecc1-cb85-403c-b812-3e75a5ef5180",
               "players": [
                 {
+                  "playerId": "team-player/c4335fb5-9d53-45ce-943e-4f17f9dce3f2",
                   "name": "Andrew Thomson - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/541d6d0c-87b0-467a-8520-50299224f917",
                   "name": "Sandra Cornes",
                   "score": "3"
                 }

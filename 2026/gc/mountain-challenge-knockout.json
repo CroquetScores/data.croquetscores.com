@@ -1,51 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/d39c7698-ba2c-4ff2-8a38-3f9bfc038806",
   "name": "2026 Mountain Challenge - Knockout",
   "sport": "gc",
   "firstDay": "2026-09-03",
   "lastDay": "2026-09-03",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Highlands Falls",
       "shortName": "Highlands",
       "players": [
-        "Don Eastman & Billie Ray",
-        "Gene Lockard & Jim Pierce",
-        "Teri Young & Susan Potts"
+        {
+          "playerId": "team-player/3164b2fe-cb69-4be9-877a-0fa60fbd46f7",
+          "name": "Don Eastman & Billie Ray"
+        },
+        {
+          "playerId": "team-player/7dc8f96a-522b-48ef-b44c-3664dd78b863",
+          "name": "Gene Lockard & Jim Pierce"
+        },
+        {
+          "playerId": "team-player/c804d86f-cb52-40e3-adee-1d5b2e83377e",
+          "name": "Teri Young & Susan Potts"
+        }
       ]
     },
     {
       "name": "Burlingame",
       "shortName": "Burlingame",
       "players": [
-        "Brian Mitchell & Patti Lauer",
-        "Dan Horton & Tom Wolford",
-        "Keith Hart & Kelly Callahan"
+        {
+          "playerId": "team-player/7cb866c6-2b4b-4b81-b08c-4c42674c9f53",
+          "name": "Brian Mitchell & Patti Lauer"
+        },
+        {
+          "playerId": "team-player/b3720f7e-2416-457e-9b6a-37ce09a410f8",
+          "name": "Dan Horton & Tom Wolford"
+        },
+        {
+          "playerId": "team-player/168fb2f7-c8cd-4c20-baf8-7ccb5b5c7cd4",
+          "name": "Keith Hart & Kelly Callahan"
+        }
       ]
     },
     {
       "name": "High Hampton",
       "shortName": "High Hampt",
       "players": [
-        "Barbara Taylor & Reese Lanier",
-        "Mike Carroll & Janet Carroll",
-        "Ron Taylor & Pick Parks"
+        {
+          "playerId": "team-player/59b3cce1-7315-4210-91a8-fd6f9234d3ee",
+          "name": "Barbara Taylor & Reese Lanier"
+        },
+        {
+          "playerId": "team-player/a8cf6f00-78a5-457e-bca7-503abd013e40",
+          "name": "Mike Carroll & Janet Carroll"
+        },
+        {
+          "playerId": "team-player/ebb5e876-b902-4d7c-ae98-d030e73745ce",
+          "name": "Ron Taylor & Pick Parks"
+        }
       ]
     },
     {
       "name": "Trillium",
       "shortName": "Trillium",
       "players": [
-        "Jim Jamison & Craig Sellner",
-        "Juan Milciunas & Barbara Jamison",
-        "Scott & Jan Spoerl"
+        {
+          "playerId": "team-player/bf131198-153d-4fd1-b453-c4aa1049c60f",
+          "name": "Jim Jamison & Craig Sellner"
+        },
+        {
+          "playerId": "team-player/3ed2ab5f-fc5a-42a8-8a7c-b36340f6cef4",
+          "name": "Juan Milciunas & Barbara Jamison"
+        },
+        {
+          "playerId": "team-player/c0b848e7-69a1-4dfd-967b-0008a107c111",
+          "name": "Scott & Jan Spoerl"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/a2ad6ac4-fff2-4a63-9756-cc1fe1106b05",
       "teams": [
         "Highlands Falls",
         "Burlingame"
@@ -55,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Gene Lockard & Jim Pierce",
-            "Dan Horton & Tom Wolford"
+            {
+              "playerId": "team-player/7dc8f96a-522b-48ef-b44c-3664dd78b863",
+              "name": "Gene Lockard & Jim Pierce"
+            },
+            {
+              "playerId": "team-player/b3720f7e-2416-457e-9b6a-37ce09a410f8",
+              "name": "Dan Horton & Tom Wolford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7ffdabc3-f1b0-454d-bafe-778c84e97d25",
               "players": [
                 {
+                  "playerId": "team-player/7dc8f96a-522b-48ef-b44c-3664dd78b863",
                   "name": "Gene Lockard & Jim Pierce",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/b3720f7e-2416-457e-9b6a-37ce09a410f8",
                   "name": "Dan Horton & Tom Wolford",
                   "score": "7"
                 }
@@ -77,17 +126,26 @@
         },
         {
           "players": [
-            "Don Eastman & Billie Ray",
-            "Brian Mitchell & Patti Lauer"
+            {
+              "playerId": "team-player/3164b2fe-cb69-4be9-877a-0fa60fbd46f7",
+              "name": "Don Eastman & Billie Ray"
+            },
+            {
+              "playerId": "team-player/7cb866c6-2b4b-4b81-b08c-4c42674c9f53",
+              "name": "Brian Mitchell & Patti Lauer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/000374d4-078c-4c7f-802d-ec278484f9db",
               "players": [
                 {
+                  "playerId": "team-player/3164b2fe-cb69-4be9-877a-0fa60fbd46f7",
                   "name": "Don Eastman & Billie Ray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7cb866c6-2b4b-4b81-b08c-4c42674c9f53",
                   "name": "Brian Mitchell & Patti Lauer",
                   "score": "6"
                 }
@@ -99,17 +157,26 @@
         },
         {
           "players": [
-            "Teri Young & Susan Potts",
-            "Keith Hart & Kelly Callahan"
+            {
+              "playerId": "team-player/c804d86f-cb52-40e3-adee-1d5b2e83377e",
+              "name": "Teri Young & Susan Potts"
+            },
+            {
+              "playerId": "team-player/168fb2f7-c8cd-4c20-baf8-7ccb5b5c7cd4",
+              "name": "Keith Hart & Kelly Callahan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a32d53a3-47e6-404b-aadc-4d73f1cc8fa1",
               "players": [
                 {
+                  "playerId": "team-player/c804d86f-cb52-40e3-adee-1d5b2e83377e",
                   "name": "Teri Young & Susan Potts",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/168fb2f7-c8cd-4c20-baf8-7ccb5b5c7cd4",
                   "name": "Keith Hart & Kelly Callahan",
                   "score": "6"
                 }
@@ -122,6 +189,7 @@
       ]
     },
     {
+      "competitionId": "competition/41be445d-f2a0-4535-af1f-48dd10efa4c4",
       "teams": [
         "High Hampton",
         "Trillium"
@@ -131,17 +199,26 @@
       "matches": [
         {
           "players": [
-            "Barbara Taylor & Reese Lanier",
-            "Jim Jamison & Craig Sellner"
+            {
+              "playerId": "team-player/59b3cce1-7315-4210-91a8-fd6f9234d3ee",
+              "name": "Barbara Taylor & Reese Lanier"
+            },
+            {
+              "playerId": "team-player/bf131198-153d-4fd1-b453-c4aa1049c60f",
+              "name": "Jim Jamison & Craig Sellner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a072286-bdff-4171-b4be-c013c3c49e56",
               "players": [
                 {
+                  "playerId": "team-player/59b3cce1-7315-4210-91a8-fd6f9234d3ee",
                   "name": "Barbara Taylor & Reese Lanier",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf131198-153d-4fd1-b453-c4aa1049c60f",
                   "name": "Jim Jamison & Craig Sellner",
                   "score": "6"
                 }
@@ -153,17 +230,26 @@
         },
         {
           "players": [
-            "Mike Carroll & Janet Carroll",
-            "Juan Milciunas & Barbara Jamison"
+            {
+              "playerId": "team-player/a8cf6f00-78a5-457e-bca7-503abd013e40",
+              "name": "Mike Carroll & Janet Carroll"
+            },
+            {
+              "playerId": "team-player/3ed2ab5f-fc5a-42a8-8a7c-b36340f6cef4",
+              "name": "Juan Milciunas & Barbara Jamison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a9c10d1c-c982-48d5-98e2-3364a1ea4e54",
               "players": [
                 {
+                  "playerId": "team-player/a8cf6f00-78a5-457e-bca7-503abd013e40",
                   "name": "Mike Carroll & Janet Carroll",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3ed2ab5f-fc5a-42a8-8a7c-b36340f6cef4",
                   "name": "Juan Milciunas & Barbara Jamison",
                   "score": "5i"
                 }
@@ -175,17 +261,26 @@
         },
         {
           "players": [
-            "Ron Taylor & Pick Parks",
-            "Scott & Jan Spoerl"
+            {
+              "playerId": "team-player/ebb5e876-b902-4d7c-ae98-d030e73745ce",
+              "name": "Ron Taylor & Pick Parks"
+            },
+            {
+              "playerId": "team-player/c0b848e7-69a1-4dfd-967b-0008a107c111",
+              "name": "Scott & Jan Spoerl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8092c39b-469d-44eb-a37f-471d6be6e0fc",
               "players": [
                 {
+                  "playerId": "team-player/ebb5e876-b902-4d7c-ae98-d030e73745ce",
                   "name": "Ron Taylor & Pick Parks",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c0b848e7-69a1-4dfd-967b-0008a107c111",
                   "name": "Scott & Jan Spoerl",
                   "score": "4"
                 }
@@ -198,6 +293,7 @@
       ]
     },
     {
+      "competitionId": "competition/08974b8b-f50a-4a31-8069-4d35af2c3bb5",
       "teams": [
         "Highlands Falls",
         "High Hampton"
@@ -207,17 +303,26 @@
       "matches": [
         {
           "players": [
-            "Gene Lockard & Jim Pierce",
-            "Barbara Taylor & Reese Lanier"
+            {
+              "playerId": "team-player/7dc8f96a-522b-48ef-b44c-3664dd78b863",
+              "name": "Gene Lockard & Jim Pierce"
+            },
+            {
+              "playerId": "team-player/59b3cce1-7315-4210-91a8-fd6f9234d3ee",
+              "name": "Barbara Taylor & Reese Lanier"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e7ef1fa-f102-464e-a08f-e97b84787142",
               "players": [
                 {
+                  "playerId": "team-player/7dc8f96a-522b-48ef-b44c-3664dd78b863",
                   "name": "Gene Lockard & Jim Pierce",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/59b3cce1-7315-4210-91a8-fd6f9234d3ee",
                   "name": "Barbara Taylor & Reese Lanier",
                   "score": "3"
                 }
@@ -229,17 +334,26 @@
         },
         {
           "players": [
-            "Don Eastman & Billie Ray",
-            "Ron Taylor & Pick Parks"
+            {
+              "playerId": "team-player/3164b2fe-cb69-4be9-877a-0fa60fbd46f7",
+              "name": "Don Eastman & Billie Ray"
+            },
+            {
+              "playerId": "team-player/ebb5e876-b902-4d7c-ae98-d030e73745ce",
+              "name": "Ron Taylor & Pick Parks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5ebdc931-3081-4526-89e2-dd42ca3921c9",
               "players": [
                 {
+                  "playerId": "team-player/3164b2fe-cb69-4be9-877a-0fa60fbd46f7",
                   "name": "Don Eastman & Billie Ray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ebb5e876-b902-4d7c-ae98-d030e73745ce",
                   "name": "Ron Taylor & Pick Parks",
                   "score": "4"
                 }
@@ -251,17 +365,26 @@
         },
         {
           "players": [
-            "Teri Young & Susan Potts",
-            "Mike Carroll & Janet Carroll"
+            {
+              "playerId": "team-player/c804d86f-cb52-40e3-adee-1d5b2e83377e",
+              "name": "Teri Young & Susan Potts"
+            },
+            {
+              "playerId": "team-player/a8cf6f00-78a5-457e-bca7-503abd013e40",
+              "name": "Mike Carroll & Janet Carroll"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c968a86-97b8-49cf-8037-f0e18fe03072",
               "players": [
                 {
+                  "playerId": "team-player/c804d86f-cb52-40e3-adee-1d5b2e83377e",
                   "name": "Teri Young & Susan Potts",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/a8cf6f00-78a5-457e-bca7-503abd013e40",
                   "name": "Mike Carroll & Janet Carroll",
                   "score": "7"
                 }

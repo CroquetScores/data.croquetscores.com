@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/07da801f-8126-4796-a0a9-8ef844761ea1",
   "name": "CA GC Interclub Surbiton v Phyllis Court",
   "sport": "gc",
   "firstDay": "2019-07-21",
   "lastDay": "2019-07-21",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Chris Farthing",
-        "Nicholas Cheyne",
-        "Stephen Mulliner",
-        "Stephen Mulliner, Chris Farthing"
+        {
+          "playerId": "team-player/fd243efd-2637-4d1c-aca1-d92b7b76409e",
+          "name": "Chris Farthing"
+        },
+        {
+          "playerId": "team-player/80157407-43cf-46c3-886d-07a17e3a9cba",
+          "name": "Nicholas Cheyne"
+        },
+        {
+          "playerId": "team-player/173ad96a-3303-48d5-a9ba-39702bd8eeb7",
+          "name": "Stephen Mulliner"
+        },
+        {
+          "playerId": "team-player/79a331df-8a54-4d8a-8f4e-438581d699b9",
+          "name": "Stephen Mulliner, Chris Farthing"
+        }
       ]
     },
     {
       "name": "Phyllis Court",
       "shortName": "Phyllis Co",
       "players": [
-        "Chris Roberts",
-        "Raouf Allim",
-        "Raouf Allim, Chris Roberts",
-        "Roger Goldring"
+        {
+          "playerId": "team-player/1eada028-7c3a-4592-aaca-c8063467e402",
+          "name": "Chris Roberts"
+        },
+        {
+          "playerId": "team-player/649399ce-f0ea-40c9-8144-7dbfffdcf665",
+          "name": "Raouf Allim"
+        },
+        {
+          "playerId": "team-player/3e866907-c7c3-466e-8d4d-cca185364f12",
+          "name": "Raouf Allim, Chris Roberts"
+        },
+        {
+          "playerId": "team-player/ef8b088a-5297-41c4-92bc-d22b25c89991",
+          "name": "Roger Goldring"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/895737ea-5b66-41bb-b6c5-5f6c2c99a259",
       "teams": [
         "Surbiton",
         "Phyllis Court"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Stephen Mulliner, Chris Farthing",
-            "Raouf Allim, Chris Roberts"
+            {
+              "playerId": "team-player/79a331df-8a54-4d8a-8f4e-438581d699b9",
+              "name": "Stephen Mulliner, Chris Farthing"
+            },
+            {
+              "playerId": "team-player/3e866907-c7c3-466e-8d4d-cca185364f12",
+              "name": "Raouf Allim, Chris Roberts"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a337978b-5ff9-48dd-a8a4-3e3a841bbb5f",
               "players": [
                 {
+                  "playerId": "team-player/79a331df-8a54-4d8a-8f4e-438581d699b9",
                   "name": "Stephen Mulliner, Chris Farthing",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/3e866907-c7c3-466e-8d4d-cca185364f12",
                   "name": "Raouf Allim, Chris Roberts",
                   "score": "7"
                 }
@@ -58,12 +95,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/da537f50-de3f-4a3b-a4b2-6acf156ce776",
               "players": [
                 {
+                  "playerId": "team-player/79a331df-8a54-4d8a-8f4e-438581d699b9",
                   "name": "Stephen Mulliner, Chris Farthing",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3e866907-c7c3-466e-8d4d-cca185364f12",
                   "name": "Raouf Allim, Chris Roberts",
                   "score": "6"
                 }
@@ -72,12 +112,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/391da198-8c17-4146-969f-ea0f1dc457d1",
               "players": [
                 {
+                  "playerId": "team-player/79a331df-8a54-4d8a-8f4e-438581d699b9",
                   "name": "Stephen Mulliner, Chris Farthing",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/3e866907-c7c3-466e-8d4d-cca185364f12",
                   "name": "Raouf Allim, Chris Roberts",
                   "score": "7"
                 }
@@ -89,17 +132,26 @@
         },
         {
           "players": [
-            "Nicholas Cheyne",
-            "Roger Goldring"
+            {
+              "playerId": "team-player/80157407-43cf-46c3-886d-07a17e3a9cba",
+              "name": "Nicholas Cheyne"
+            },
+            {
+              "playerId": "team-player/ef8b088a-5297-41c4-92bc-d22b25c89991",
+              "name": "Roger Goldring"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f0082931-90d6-48cf-a20a-67de8f7de74d",
               "players": [
                 {
+                  "playerId": "team-player/80157407-43cf-46c3-886d-07a17e3a9cba",
                   "name": "Nicholas Cheyne",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ef8b088a-5297-41c4-92bc-d22b25c89991",
                   "name": "Roger Goldring",
                   "score": "7"
                 }
@@ -108,12 +160,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6bf30272-c9f7-4ae3-9b01-53e339c7874d",
               "players": [
                 {
+                  "playerId": "team-player/80157407-43cf-46c3-886d-07a17e3a9cba",
                   "name": "Nicholas Cheyne",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/ef8b088a-5297-41c4-92bc-d22b25c89991",
                   "name": "Roger Goldring",
                   "score": "7"
                 }
@@ -125,17 +180,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner",
-            "Chris Roberts"
+            {
+              "playerId": "team-player/173ad96a-3303-48d5-a9ba-39702bd8eeb7",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/1eada028-7c3a-4592-aaca-c8063467e402",
+              "name": "Chris Roberts"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5899522a-8df5-427e-ab45-15ae31c07e36",
               "players": [
                 {
+                  "playerId": "team-player/173ad96a-3303-48d5-a9ba-39702bd8eeb7",
                   "name": "Stephen Mulliner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1eada028-7c3a-4592-aaca-c8063467e402",
                   "name": "Chris Roberts",
                   "score": "5"
                 }
@@ -144,12 +208,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/58e374bc-ed9b-46b7-b117-7c6711442d70",
               "players": [
                 {
+                  "playerId": "team-player/173ad96a-3303-48d5-a9ba-39702bd8eeb7",
                   "name": "Stephen Mulliner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1eada028-7c3a-4592-aaca-c8063467e402",
                   "name": "Chris Roberts",
                   "score": "3"
                 }
@@ -161,17 +228,26 @@
         },
         {
           "players": [
-            "Chris Farthing",
-            "Roger Goldring"
+            {
+              "playerId": "team-player/fd243efd-2637-4d1c-aca1-d92b7b76409e",
+              "name": "Chris Farthing"
+            },
+            {
+              "playerId": "team-player/ef8b088a-5297-41c4-92bc-d22b25c89991",
+              "name": "Roger Goldring"
+            }
           ],
           "games": [
             {
+              "gameId": "game/248a0b8b-4695-49cc-ade6-1010aefaecb7",
               "players": [
                 {
+                  "playerId": "team-player/fd243efd-2637-4d1c-aca1-d92b7b76409e",
                   "name": "Chris Farthing",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ef8b088a-5297-41c4-92bc-d22b25c89991",
                   "name": "Roger Goldring",
                   "score": "5"
                 }
@@ -180,12 +256,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fadf286c-87f9-4983-809d-b7e407313970",
               "players": [
                 {
+                  "playerId": "team-player/fd243efd-2637-4d1c-aca1-d92b7b76409e",
                   "name": "Chris Farthing",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/ef8b088a-5297-41c4-92bc-d22b25c89991",
                   "name": "Roger Goldring",
                   "score": "7"
                 }
@@ -197,17 +276,26 @@
         },
         {
           "players": [
-            "Nicholas Cheyne",
-            "Raouf Allim"
+            {
+              "playerId": "team-player/80157407-43cf-46c3-886d-07a17e3a9cba",
+              "name": "Nicholas Cheyne"
+            },
+            {
+              "playerId": "team-player/649399ce-f0ea-40c9-8144-7dbfffdcf665",
+              "name": "Raouf Allim"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9dc6ff02-a715-48f3-b722-4c14061ede7c",
               "players": [
                 {
+                  "playerId": "team-player/80157407-43cf-46c3-886d-07a17e3a9cba",
                   "name": "Nicholas Cheyne",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/649399ce-f0ea-40c9-8144-7dbfffdcf665",
                   "name": "Raouf Allim",
                   "score": "7"
                 }
@@ -216,12 +304,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1e81d4d4-ffa3-494c-922d-b43037a7e600",
               "players": [
                 {
+                  "playerId": "team-player/80157407-43cf-46c3-886d-07a17e3a9cba",
                   "name": "Nicholas Cheyne",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/649399ce-f0ea-40c9-8144-7dbfffdcf665",
                   "name": "Raouf Allim",
                   "score": "7"
                 }

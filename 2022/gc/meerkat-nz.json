@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/fa8fd5d4-03ff-4494-939c-c47a9447b331",
   "name": "Meerkat NZ",
   "sport": "gc",
   "firstDay": "2022-05-28",
   "lastDay": "2022-05-28",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Morrinsville",
       "shortName": "Morrinsvil",
       "players": [
-        "Grace Everest & Hugh Angus",
-        "Pat Anderton & Grace Everest",
-        "Pat Anderton & Hugh Angus",
-        "Pat Anderton & Sandra Warner",
-        "Sandra Warner & Grace Everest",
-        "Sandra Warner & Hugh Angus"
+        {
+          "playerId": "team-player/986918f3-0c20-4024-b2b0-a08c655c26a3",
+          "name": "Grace Everest & Hugh Angus"
+        },
+        {
+          "playerId": "team-player/7d7dbaa0-96a0-42f9-8a9d-c34e99e17123",
+          "name": "Pat Anderton & Grace Everest"
+        },
+        {
+          "playerId": "team-player/03d77d93-1304-4754-a4cf-09df8a3a24cc",
+          "name": "Pat Anderton & Hugh Angus"
+        },
+        {
+          "playerId": "team-player/d5e3f8d9-460e-4098-85d5-9adcd739688b",
+          "name": "Pat Anderton & Sandra Warner"
+        },
+        {
+          "playerId": "team-player/4b697e1e-eea4-437c-807a-0dd6c04de46b",
+          "name": "Sandra Warner & Grace Everest"
+        },
+        {
+          "playerId": "team-player/6f363d84-73fb-400f-ad8e-9d4267a626e0",
+          "name": "Sandra Warner & Hugh Angus"
+        }
       ]
     },
     {
       "name": "Te Aroha",
       "shortName": "Te Aroha",
       "players": [
-        "Al Meyler & Pam Waterhouse",
-        "Alan Wilkie & Al Meyler",
-        "Alan Wilkie & Pam Waterhouse",
-        "Alan Wilkie & Stephen Fordyce",
-        "Stephen Fordyce & Al Meyler",
-        "Stephen Fordyce & Pam Waterhouse"
+        {
+          "playerId": "team-player/ffef57f2-b973-40a4-bee7-9bcef0a51b42",
+          "name": "Al Meyler & Pam Waterhouse"
+        },
+        {
+          "playerId": "team-player/17b56a6e-33c6-46b4-9066-9ba8c5d557a7",
+          "name": "Alan Wilkie & Al Meyler"
+        },
+        {
+          "playerId": "team-player/54337ac3-efbd-441c-8023-6b68f79295aa",
+          "name": "Alan Wilkie & Pam Waterhouse"
+        },
+        {
+          "playerId": "team-player/12365a03-c4c0-41ef-a4b3-04d063e44940",
+          "name": "Alan Wilkie & Stephen Fordyce"
+        },
+        {
+          "playerId": "team-player/206fc310-265c-4139-819c-e7142c9e53f5",
+          "name": "Stephen Fordyce & Al Meyler"
+        },
+        {
+          "playerId": "team-player/1053cdb4-389d-4195-9557-f3f1b688ea94",
+          "name": "Stephen Fordyce & Pam Waterhouse"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/3d0518cd-5229-4354-855e-5bb49d4518e6",
       "teams": [
         "Morrinsville",
         "Te Aroha"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Pat Anderton & Grace Everest",
-            "Alan Wilkie & Al Meyler"
+            {
+              "playerId": "team-player/7d7dbaa0-96a0-42f9-8a9d-c34e99e17123",
+              "name": "Pat Anderton & Grace Everest"
+            },
+            {
+              "playerId": "team-player/17b56a6e-33c6-46b4-9066-9ba8c5d557a7",
+              "name": "Alan Wilkie & Al Meyler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e95b2708-9328-4c65-b613-72f002d4d7d5",
               "players": [
                 {
+                  "playerId": "team-player/7d7dbaa0-96a0-42f9-8a9d-c34e99e17123",
                   "name": "Pat Anderton & Grace Everest",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/17b56a6e-33c6-46b4-9066-9ba8c5d557a7",
                   "name": "Alan Wilkie & Al Meyler",
                   "score": "7"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Sandra Warner & Hugh Angus",
-            "Stephen Fordyce & Pam Waterhouse"
+            {
+              "playerId": "team-player/6f363d84-73fb-400f-ad8e-9d4267a626e0",
+              "name": "Sandra Warner & Hugh Angus"
+            },
+            {
+              "playerId": "team-player/1053cdb4-389d-4195-9557-f3f1b688ea94",
+              "name": "Stephen Fordyce & Pam Waterhouse"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac7f5d08-5f31-4c6e-8add-2c1745cd9c33",
               "players": [
                 {
+                  "playerId": "team-player/6f363d84-73fb-400f-ad8e-9d4267a626e0",
                   "name": "Sandra Warner & Hugh Angus",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1053cdb4-389d-4195-9557-f3f1b688ea94",
                   "name": "Stephen Fordyce & Pam Waterhouse",
                   "score": "3"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Sandra Warner & Hugh Angus",
-            "Alan Wilkie & Al Meyler"
+            {
+              "playerId": "team-player/6f363d84-73fb-400f-ad8e-9d4267a626e0",
+              "name": "Sandra Warner & Hugh Angus"
+            },
+            {
+              "playerId": "team-player/17b56a6e-33c6-46b4-9066-9ba8c5d557a7",
+              "name": "Alan Wilkie & Al Meyler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e697c45f-2c94-4af0-ad56-d590463acae0",
               "players": [
                 {
+                  "playerId": "team-player/6f363d84-73fb-400f-ad8e-9d4267a626e0",
                   "name": "Sandra Warner & Hugh Angus",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/17b56a6e-33c6-46b4-9066-9ba8c5d557a7",
                   "name": "Alan Wilkie & Al Meyler",
                   "score": "7"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Pat Anderton & Grace Everest",
-            "Stephen Fordyce & Pam Waterhouse"
+            {
+              "playerId": "team-player/7d7dbaa0-96a0-42f9-8a9d-c34e99e17123",
+              "name": "Pat Anderton & Grace Everest"
+            },
+            {
+              "playerId": "team-player/1053cdb4-389d-4195-9557-f3f1b688ea94",
+              "name": "Stephen Fordyce & Pam Waterhouse"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f3b08997-f9d4-492c-a188-2ffef63e6be8",
               "players": [
                 {
+                  "playerId": "team-player/7d7dbaa0-96a0-42f9-8a9d-c34e99e17123",
                   "name": "Pat Anderton & Grace Everest",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1053cdb4-389d-4195-9557-f3f1b688ea94",
                   "name": "Stephen Fordyce & Pam Waterhouse",
                   "score": "3"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Sandra Warner & Grace Everest",
-            "Stephen Fordyce & Al Meyler"
+            {
+              "playerId": "team-player/4b697e1e-eea4-437c-807a-0dd6c04de46b",
+              "name": "Sandra Warner & Grace Everest"
+            },
+            {
+              "playerId": "team-player/206fc310-265c-4139-819c-e7142c9e53f5",
+              "name": "Stephen Fordyce & Al Meyler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/df5be54a-ce55-4af2-8bdc-47a65fe534ee",
               "players": [
                 {
+                  "playerId": "team-player/4b697e1e-eea4-437c-807a-0dd6c04de46b",
                   "name": "Sandra Warner & Grace Everest",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/206fc310-265c-4139-819c-e7142c9e53f5",
                   "name": "Stephen Fordyce & Al Meyler",
                   "score": "7"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Pat Anderton & Hugh Angus",
-            "Alan Wilkie & Pam Waterhouse"
+            {
+              "playerId": "team-player/03d77d93-1304-4754-a4cf-09df8a3a24cc",
+              "name": "Pat Anderton & Hugh Angus"
+            },
+            {
+              "playerId": "team-player/54337ac3-efbd-441c-8023-6b68f79295aa",
+              "name": "Alan Wilkie & Pam Waterhouse"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e004ab4-bceb-4878-ae7f-f3c916061f1f",
               "players": [
                 {
+                  "playerId": "team-player/03d77d93-1304-4754-a4cf-09df8a3a24cc",
                   "name": "Pat Anderton & Hugh Angus",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/54337ac3-efbd-441c-8023-6b68f79295aa",
                   "name": "Alan Wilkie & Pam Waterhouse",
                   "score": "6"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "Sandra Warner & Grace Everest",
-            "Alan Wilkie & Pam Waterhouse"
+            {
+              "playerId": "team-player/4b697e1e-eea4-437c-807a-0dd6c04de46b",
+              "name": "Sandra Warner & Grace Everest"
+            },
+            {
+              "playerId": "team-player/54337ac3-efbd-441c-8023-6b68f79295aa",
+              "name": "Alan Wilkie & Pam Waterhouse"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cd7a1ff9-110f-407c-935a-784f426b645d",
               "players": [
                 {
+                  "playerId": "team-player/4b697e1e-eea4-437c-807a-0dd6c04de46b",
                   "name": "Sandra Warner & Grace Everest",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/54337ac3-efbd-441c-8023-6b68f79295aa",
                   "name": "Alan Wilkie & Pam Waterhouse",
                   "score": "7"
                 }
@@ -197,17 +300,26 @@
         },
         {
           "players": [
-            "Pat Anderton & Hugh Angus",
-            "Stephen Fordyce & Al Meyler"
+            {
+              "playerId": "team-player/03d77d93-1304-4754-a4cf-09df8a3a24cc",
+              "name": "Pat Anderton & Hugh Angus"
+            },
+            {
+              "playerId": "team-player/206fc310-265c-4139-819c-e7142c9e53f5",
+              "name": "Stephen Fordyce & Al Meyler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fbcfeaf2-54bf-496e-ad60-9ea2b5e826df",
               "players": [
                 {
+                  "playerId": "team-player/03d77d93-1304-4754-a4cf-09df8a3a24cc",
                   "name": "Pat Anderton & Hugh Angus",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/206fc310-265c-4139-819c-e7142c9e53f5",
                   "name": "Stephen Fordyce & Al Meyler",
                   "score": "5"
                 }
@@ -219,17 +331,26 @@
         },
         {
           "players": [
-            "Grace Everest & Hugh Angus",
-            "Al Meyler & Pam Waterhouse"
+            {
+              "playerId": "team-player/986918f3-0c20-4024-b2b0-a08c655c26a3",
+              "name": "Grace Everest & Hugh Angus"
+            },
+            {
+              "playerId": "team-player/ffef57f2-b973-40a4-bee7-9bcef0a51b42",
+              "name": "Al Meyler & Pam Waterhouse"
+            }
           ],
           "games": [
             {
+              "gameId": "game/03891b94-7876-4d87-a548-3bb9631dfcb8",
               "players": [
                 {
+                  "playerId": "team-player/986918f3-0c20-4024-b2b0-a08c655c26a3",
                   "name": "Grace Everest & Hugh Angus",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/ffef57f2-b973-40a4-bee7-9bcef0a51b42",
                   "name": "Al Meyler & Pam Waterhouse",
                   "score": "7"
                 }
@@ -241,17 +362,26 @@
         },
         {
           "players": [
-            "Pat Anderton & Sandra Warner",
-            "Alan Wilkie & Stephen Fordyce"
+            {
+              "playerId": "team-player/d5e3f8d9-460e-4098-85d5-9adcd739688b",
+              "name": "Pat Anderton & Sandra Warner"
+            },
+            {
+              "playerId": "team-player/12365a03-c4c0-41ef-a4b3-04d063e44940",
+              "name": "Alan Wilkie & Stephen Fordyce"
+            }
           ],
           "games": [
             {
+              "gameId": "game/427b1634-ecf8-455b-b18b-192157147fbb",
               "players": [
                 {
+                  "playerId": "team-player/d5e3f8d9-460e-4098-85d5-9adcd739688b",
                   "name": "Pat Anderton & Sandra Warner",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/12365a03-c4c0-41ef-a4b3-04d063e44940",
                   "name": "Alan Wilkie & Stephen Fordyce",
                   "score": "7"
                 }

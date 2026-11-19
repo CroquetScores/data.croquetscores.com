@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4b11a0ec-20cf-48c5-86c2-95095b2a5ee3",
   "name": "CA NWF Llanfairfechan v Bowdon",
   "sport": "gc",
   "firstDay": "2022-08-04",
   "lastDay": "2022-08-04",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Llanfairfechan",
       "shortName": "Llanfairfe",
       "players": [
-        "Martin Tovey",
-        "Martin Tovey - meet again",
-        "Richard Harding",
-        "Richard Harding - meet again",
-        "Roger Edwards",
-        "Roger Edwards - meet again"
+        {
+          "playerId": "team-player/3b6213d4-9a65-47df-bbf8-fa37b696ad91",
+          "name": "Martin Tovey"
+        },
+        {
+          "playerId": "team-player/e50a75ef-d1d3-4125-b0d4-38b4155841b6",
+          "name": "Martin Tovey - meet again"
+        },
+        {
+          "playerId": "team-player/3c533d0f-9bba-4cdf-9d1e-09f69566c7d3",
+          "name": "Richard Harding"
+        },
+        {
+          "playerId": "team-player/5441f9bc-aeca-421b-85d9-1df0ccdc6354",
+          "name": "Richard Harding - meet again"
+        },
+        {
+          "playerId": "team-player/05bf9015-5444-4da9-8122-28580461994c",
+          "name": "Roger Edwards"
+        },
+        {
+          "playerId": "team-player/e9544707-14ff-4b3f-8846-1dbc8a7fb73c",
+          "name": "Roger Edwards - meet again"
+        }
       ]
     },
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Alan Mayne",
-        "Angharrad Walters",
-        "David Holland",
-        "David Holland - meet again"
+        {
+          "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
+          "name": "Alan Mayne"
+        },
+        {
+          "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
+          "name": "Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
+          "name": "David Holland"
+        },
+        {
+          "playerId": "team-player/feb6c11a-c37f-46f3-a5ca-c799b37d165a",
+          "name": "David Holland - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/ffb08ceb-ea7b-4e8e-80d9-09a828ec27d2",
       "teams": [
         "Llanfairfechan",
         "Bowdon"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Martin Tovey",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/3b6213d4-9a65-47df-bbf8-fa37b696ad91",
+              "name": "Martin Tovey"
+            },
+            {
+              "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b2066887-b6d1-4999-a42d-148b438b3c67",
               "players": [
                 {
+                  "playerId": "team-player/3b6213d4-9a65-47df-bbf8-fa37b696ad91",
                   "name": "Martin Tovey",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Richard Harding",
-            "David Holland"
+            {
+              "playerId": "team-player/3c533d0f-9bba-4cdf-9d1e-09f69566c7d3",
+              "name": "Richard Harding"
+            },
+            {
+              "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fec76280-b6bd-4678-aad7-f8ccfb46617c",
               "players": [
                 {
+                  "playerId": "team-player/3c533d0f-9bba-4cdf-9d1e-09f69566c7d3",
                   "name": "Richard Harding",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
                   "name": "David Holland",
                   "score": "7"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Roger Edwards",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/05bf9015-5444-4da9-8122-28580461994c",
+              "name": "Roger Edwards"
+            },
+            {
+              "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b18a0863-d2c1-4f5f-96fe-8a7e8a118df8",
               "players": [
                 {
+                  "playerId": "team-player/05bf9015-5444-4da9-8122-28580461994c",
                   "name": "Roger Edwards",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Richard Harding",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/3c533d0f-9bba-4cdf-9d1e-09f69566c7d3",
+              "name": "Richard Harding"
+            },
+            {
+              "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/893b99d5-1834-4819-a319-1921cf98a8f7",
               "players": [
                 {
+                  "playerId": "team-player/3c533d0f-9bba-4cdf-9d1e-09f69566c7d3",
                   "name": "Richard Harding",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Roger Edwards",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/05bf9015-5444-4da9-8122-28580461994c",
+              "name": "Roger Edwards"
+            },
+            {
+              "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/81d424c5-e58c-4661-b868-e65dbaabd95a",
               "players": [
                 {
+                  "playerId": "team-player/05bf9015-5444-4da9-8122-28580461994c",
                   "name": "Roger Edwards",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Martin Tovey",
-            "David Holland"
+            {
+              "playerId": "team-player/3b6213d4-9a65-47df-bbf8-fa37b696ad91",
+              "name": "Martin Tovey"
+            },
+            {
+              "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/acc43cd1-45f6-408f-9b24-b469dcc5f432",
               "players": [
                 {
+                  "playerId": "team-player/3b6213d4-9a65-47df-bbf8-fa37b696ad91",
                   "name": "Martin Tovey",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
                   "name": "David Holland",
                   "score": "7"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Richard Harding",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/3c533d0f-9bba-4cdf-9d1e-09f69566c7d3",
+              "name": "Richard Harding"
+            },
+            {
+              "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c439030a-9a9d-4f29-9db8-e16125e801b3",
               "players": [
                 {
+                  "playerId": "team-player/3c533d0f-9bba-4cdf-9d1e-09f69566c7d3",
                   "name": "Richard Harding",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Roger Edwards",
-            "David Holland"
+            {
+              "playerId": "team-player/05bf9015-5444-4da9-8122-28580461994c",
+              "name": "Roger Edwards"
+            },
+            {
+              "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/71527db1-0957-47a8-9e4c-a0de4c9fa087",
               "players": [
                 {
+                  "playerId": "team-player/05bf9015-5444-4da9-8122-28580461994c",
                   "name": "Roger Edwards",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
                   "name": "David Holland",
                   "score": "4"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Martin Tovey",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/3b6213d4-9a65-47df-bbf8-fa37b696ad91",
+              "name": "Martin Tovey"
+            },
+            {
+              "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/40bbaa7b-562c-4c75-84e8-2db6f4b655a0",
               "players": [
                 {
+                  "playerId": "team-player/3b6213d4-9a65-47df-bbf8-fa37b696ad91",
                   "name": "Martin Tovey",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Roger Edwards - meet again",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/e9544707-14ff-4b3f-8846-1dbc8a7fb73c",
+              "name": "Roger Edwards - meet again"
+            },
+            {
+              "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5af65281-4a04-40ca-83e8-3a4a4284c10e",
               "players": [
                 {
+                  "playerId": "team-player/e9544707-14ff-4b3f-8846-1dbc8a7fb73c",
                   "name": "Roger Edwards - meet again",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Richard Harding",
-            "David Holland - meet again"
+            {
+              "playerId": "team-player/3c533d0f-9bba-4cdf-9d1e-09f69566c7d3",
+              "name": "Richard Harding"
+            },
+            {
+              "playerId": "team-player/feb6c11a-c37f-46f3-a5ca-c799b37d165a",
+              "name": "David Holland - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f742e394-3055-4f48-9eaa-5136b309f67a",
               "players": [
                 {
+                  "playerId": "team-player/3c533d0f-9bba-4cdf-9d1e-09f69566c7d3",
                   "name": "Richard Harding",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/feb6c11a-c37f-46f3-a5ca-c799b37d165a",
                   "name": "David Holland - meet again",
                   "score": "6"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Martin Tovey - meet again",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/e50a75ef-d1d3-4125-b0d4-38b4155841b6",
+              "name": "Martin Tovey - meet again"
+            },
+            {
+              "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/47726930-6a19-4f5d-9ece-7c46661ce2b8",
               "players": [
                 {
+                  "playerId": "team-player/e50a75ef-d1d3-4125-b0d4-38b4155841b6",
                   "name": "Martin Tovey - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Martin Tovey - meet again",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/e50a75ef-d1d3-4125-b0d4-38b4155841b6",
+              "name": "Martin Tovey - meet again"
+            },
+            {
+              "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d769e1be-f3a4-49fd-963c-c7287f34c8e4",
               "players": [
                 {
+                  "playerId": "team-player/e50a75ef-d1d3-4125-b0d4-38b4155841b6",
                   "name": "Martin Tovey - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Richard Harding - meet again",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/5441f9bc-aeca-421b-85d9-1df0ccdc6354",
+              "name": "Richard Harding - meet again"
+            },
+            {
+              "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8591659-e1f8-48a0-a2c8-45548c97663d",
               "players": [
                 {
+                  "playerId": "team-player/5441f9bc-aeca-421b-85d9-1df0ccdc6354",
                   "name": "Richard Harding - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Roger Edwards - meet again",
-            "David Holland"
+            {
+              "playerId": "team-player/e9544707-14ff-4b3f-8846-1dbc8a7fb73c",
+              "name": "Roger Edwards - meet again"
+            },
+            {
+              "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8c2cfd9a-8c36-49f7-858f-bfd826f53ae9",
               "players": [
                 {
+                  "playerId": "team-player/e9544707-14ff-4b3f-8846-1dbc8a7fb73c",
                   "name": "Roger Edwards - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
                   "name": "David Holland",
                   "score": "6"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Richard Harding - meet again",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/5441f9bc-aeca-421b-85d9-1df0ccdc6354",
+              "name": "Richard Harding - meet again"
+            },
+            {
+              "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e62c2ec0-48d5-44c2-a399-4305cdb0be5c",
               "players": [
                 {
+                  "playerId": "team-player/5441f9bc-aeca-421b-85d9-1df0ccdc6354",
                   "name": "Richard Harding - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ce753ada-2247-4263-9ae5-136934f31830",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "Roger Edwards - meet again",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/e9544707-14ff-4b3f-8846-1dbc8a7fb73c",
+              "name": "Roger Edwards - meet again"
+            },
+            {
+              "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8ff42467-eb3f-4956-909b-97147065d784",
               "players": [
                 {
+                  "playerId": "team-player/e9544707-14ff-4b3f-8846-1dbc8a7fb73c",
                   "name": "Roger Edwards - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4f373f74-1084-46f7-8f41-8bd54ddbbd8c",
                   "name": "Alan Mayne",
                   "score": "3"
                 }
@@ -415,17 +602,26 @@
         },
         {
           "players": [
-            "Martin Tovey - meet again",
-            "David Holland"
+            {
+              "playerId": "team-player/e50a75ef-d1d3-4125-b0d4-38b4155841b6",
+              "name": "Martin Tovey - meet again"
+            },
+            {
+              "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
+              "name": "David Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/99097c40-0d9a-44ef-ab22-7ea125920b20",
               "players": [
                 {
+                  "playerId": "team-player/e50a75ef-d1d3-4125-b0d4-38b4155841b6",
                   "name": "Martin Tovey - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/289a8599-3a80-4cfe-9680-3cb02e5dbf5b",
                   "name": "David Holland",
                   "score": "6"
                 }

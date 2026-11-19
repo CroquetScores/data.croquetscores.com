@@ -1,33 +1,55 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4a059b21-227b-4463-937f-ea6694a74e97",
   "name": "NSW AC Silver Pennants",
   "sport": "ac",
   "firstDay": "2021-06-15",
   "lastDay": "2021-06-15",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Mosman",
       "shortName": "Mosman",
       "players": [
-        "David & Bernie McGrane",
-        "David Paton",
-        "Ron Humpherson"
+        {
+          "playerId": "team-player/3bd30f2c-0133-4e67-ba06-5ae229895917",
+          "name": "David & Bernie McGrane"
+        },
+        {
+          "playerId": "team-player/6d7330be-6d0d-4725-8650-598ec70c7469",
+          "name": "David Paton"
+        },
+        {
+          "playerId": "team-player/9da25ad2-d52e-4e79-ab65-0028eed7fa26",
+          "name": "Ron Humpherson"
+        }
       ]
     },
     {
       "name": "Cammeray",
       "shortName": "Cammeray",
       "players": [
-        "Georgie Ofner",
-        "Graham Maynard & Sue Eldridge-Smith",
-        "Marg O'Brien"
+        {
+          "playerId": "team-player/60745446-d637-40b6-ba03-afde1cee9571",
+          "name": "Georgie Ofner"
+        },
+        {
+          "playerId": "team-player/f3c2e92e-49ab-48e8-bb61-93b45f20b0b3",
+          "name": "Graham Maynard & Sue Eldridge-Smith"
+        },
+        {
+          "playerId": "team-player/8d3f2694-8e59-4c69-a909-ae50cc4de12c",
+          "name": "Marg O'Brien"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/0d6fd4fd-39ea-4983-9f99-1c8c2c154d23",
       "teams": [
         "Mosman",
         "Cammeray"
@@ -37,17 +59,26 @@
       "matches": [
         {
           "players": [
-            "David & Bernie McGrane",
-            "Graham Maynard & Sue Eldridge-Smith"
+            {
+              "playerId": "team-player/3bd30f2c-0133-4e67-ba06-5ae229895917",
+              "name": "David & Bernie McGrane"
+            },
+            {
+              "playerId": "team-player/f3c2e92e-49ab-48e8-bb61-93b45f20b0b3",
+              "name": "Graham Maynard & Sue Eldridge-Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4250423d-cc59-4bc8-aff6-81e09af3ec09",
               "players": [
                 {
+                  "playerId": "team-player/3bd30f2c-0133-4e67-ba06-5ae229895917",
                   "name": "David & Bernie McGrane",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/f3c2e92e-49ab-48e8-bb61-93b45f20b0b3",
                   "name": "Graham Maynard & Sue Eldridge-Smith",
                   "score": "8"
                 }
@@ -59,17 +90,26 @@
         },
         {
           "players": [
-            "Ron Humpherson",
-            "Marg O'Brien"
+            {
+              "playerId": "team-player/9da25ad2-d52e-4e79-ab65-0028eed7fa26",
+              "name": "Ron Humpherson"
+            },
+            {
+              "playerId": "team-player/8d3f2694-8e59-4c69-a909-ae50cc4de12c",
+              "name": "Marg O'Brien"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2c663d6-8263-4497-9570-83e21ebcd3e3",
               "players": [
                 {
+                  "playerId": "team-player/9da25ad2-d52e-4e79-ab65-0028eed7fa26",
                   "name": "Ron Humpherson",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/8d3f2694-8e59-4c69-a909-ae50cc4de12c",
                   "name": "Marg O'Brien",
                   "score": "12"
                 }
@@ -81,17 +121,26 @@
         },
         {
           "players": [
-            "David Paton",
-            "Georgie Ofner"
+            {
+              "playerId": "team-player/6d7330be-6d0d-4725-8650-598ec70c7469",
+              "name": "David Paton"
+            },
+            {
+              "playerId": "team-player/60745446-d637-40b6-ba03-afde1cee9571",
+              "name": "Georgie Ofner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f265e381-f0f6-482a-ba0f-6b2af79eab46",
               "players": [
                 {
+                  "playerId": "team-player/6d7330be-6d0d-4725-8650-598ec70c7469",
                   "name": "David Paton",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/60745446-d637-40b6-ba03-afde1cee9571",
                   "name": "Georgie Ofner",
                   "score": "12"
                 }

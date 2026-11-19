@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/6a93c103-b6ba-41a1-a38c-5c6687172bd3",
   "name": "Egypt League Rank 11 / 12",
   "sport": "gc",
   "firstDay": "2017-04-20",
   "lastDay": "2017-04-21",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Sporting Club",
       "shortName": "Sporting C",
       "players": [
-        "Dina Aly Maher",
-        "Hanan Rashad",
-        "Hazem Mahmoud & Wael Husin",
-        "Sanaa Allam & Yahia Mohamed Yahia"
+        {
+          "playerId": "team-player/8c644597-54c5-4caf-8f6a-f1ccac1d1b7c",
+          "name": "Dina Aly Maher"
+        },
+        {
+          "playerId": "team-player/5e5cc60d-098b-4526-aacb-54be4cb34972",
+          "name": "Hanan Rashad"
+        },
+        {
+          "playerId": "team-player/1eb8665e-602c-41ca-8adc-258e3cc36f8c",
+          "name": "Hazem Mahmoud & Wael Husin"
+        },
+        {
+          "playerId": "team-player/7e98d6f4-51d3-43a6-80e1-1aa5d0a8a99f",
+          "name": "Sanaa Allam & Yahia Mohamed Yahia"
+        }
       ]
     },
     {
       "name": "Cairo Club",
       "shortName": "Cairo Club",
       "players": [
-        "Hadia Ezzat",
-        "Hoda Shindy & Ahmed Hany",
-        "Manal Adel",
-        "Yasser Esmat & Nour Ali Mahmoud"
+        {
+          "playerId": "team-player/e2dbc5cc-add1-476a-9c2e-997ba586f330",
+          "name": "Hadia Ezzat"
+        },
+        {
+          "playerId": "team-player/e00b1cae-c61f-4e77-abf1-4fe5f62041e1",
+          "name": "Hoda Shindy & Ahmed Hany"
+        },
+        {
+          "playerId": "team-player/e177e530-a210-4be8-b484-f8bc2908dbda",
+          "name": "Manal Adel"
+        },
+        {
+          "playerId": "team-player/ff72070a-0a82-4c88-b611-9ce54c75048b",
+          "name": "Yasser Esmat & Nour Ali Mahmoud"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/64dab832-4551-45fa-9aec-ff7c2e0276ad",
       "teams": [
         "Sporting Club",
         "Cairo Club"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Hanan Rashad",
-            "Hadia Ezzat"
+            {
+              "playerId": "team-player/5e5cc60d-098b-4526-aacb-54be4cb34972",
+              "name": "Hanan Rashad"
+            },
+            {
+              "playerId": "team-player/e2dbc5cc-add1-476a-9c2e-997ba586f330",
+              "name": "Hadia Ezzat"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9523d710-c294-4f63-9df7-b7348ccb3d00",
               "players": [
                 {
+                  "playerId": "team-player/5e5cc60d-098b-4526-aacb-54be4cb34972",
                   "name": "Hanan Rashad",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e2dbc5cc-add1-476a-9c2e-997ba586f330",
                   "name": "Hadia Ezzat",
                   "score": "2"
                 }
@@ -58,12 +95,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2be9e509-af6f-4612-9fdc-c4b10c8251ee",
               "players": [
                 {
+                  "playerId": "team-player/5e5cc60d-098b-4526-aacb-54be4cb34972",
                   "name": "Hanan Rashad",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e2dbc5cc-add1-476a-9c2e-997ba586f330",
                   "name": "Hadia Ezzat",
                   "score": "7"
                 }
@@ -72,12 +112,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/13541398-2b6c-4055-9a36-ff5acf305fab",
               "players": [
                 {
+                  "playerId": "team-player/5e5cc60d-098b-4526-aacb-54be4cb34972",
                   "name": "Hanan Rashad",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e2dbc5cc-add1-476a-9c2e-997ba586f330",
                   "name": "Hadia Ezzat",
                   "score": "2"
                 }
@@ -89,17 +132,26 @@
         },
         {
           "players": [
-            "Hazem Mahmoud & Wael Husin",
-            "Yasser Esmat & Nour Ali Mahmoud"
+            {
+              "playerId": "team-player/1eb8665e-602c-41ca-8adc-258e3cc36f8c",
+              "name": "Hazem Mahmoud & Wael Husin"
+            },
+            {
+              "playerId": "team-player/ff72070a-0a82-4c88-b611-9ce54c75048b",
+              "name": "Yasser Esmat & Nour Ali Mahmoud"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b2eb5b13-a2af-467f-afde-e1ba7e236883",
               "players": [
                 {
+                  "playerId": "team-player/1eb8665e-602c-41ca-8adc-258e3cc36f8c",
                   "name": "Hazem Mahmoud & Wael Husin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ff72070a-0a82-4c88-b611-9ce54c75048b",
                   "name": "Yasser Esmat & Nour Ali Mahmoud",
                   "score": "5"
                 }
@@ -108,12 +160,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3af4ce24-e13c-4123-aaaa-73e7c31afbff",
               "players": [
                 {
+                  "playerId": "team-player/1eb8665e-602c-41ca-8adc-258e3cc36f8c",
                   "name": "Hazem Mahmoud & Wael Husin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ff72070a-0a82-4c88-b611-9ce54c75048b",
                   "name": "Yasser Esmat & Nour Ali Mahmoud",
                   "score": "4"
                 }

@@ -1,59 +1,123 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/aa06616b-90b4-4796-ab0c-2c5f0fd36ca0",
   "name": "Home Internationals",
   "sport": "ac",
   "firstDay": "2017-06-10",
   "lastDay": "2017-06-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": true,
   "teams": [
     {
       "name": "England",
       "shortName": "ENG",
       "players": [
-        "Christian Carter",
-        "David Maugham",
-        "James Hopgood",
-        "Mark Avery",
-        "Samir Patel"
+        {
+          "playerId": "team-player/0f2b275e-6ea7-4597-9c7b-03df94e911f2",
+          "name": "Christian Carter"
+        },
+        {
+          "playerId": "team-player/29bdec83-75f0-4e0f-961e-4949392dd3a7",
+          "name": "David Maugham"
+        },
+        {
+          "playerId": "team-player/23d32298-f6f7-4cd7-8765-c6948abd836e",
+          "name": "James Hopgood"
+        },
+        {
+          "playerId": "team-player/563fc180-ee53-4e36-9fbc-d1a242d6294d",
+          "name": "Mark Avery"
+        },
+        {
+          "playerId": "team-player/a7a8d360-b9b6-4a15-a4b3-a2ddf67555ca",
+          "name": "Samir Patel"
+        }
       ]
     },
     {
       "name": "Wales",
       "shortName": "WAL",
       "players": [
-        "Chris Williams",
-        "David Walters",
-        "Garry McElwain",
-        "Ian Burridge",
-        "John Evans"
+        {
+          "playerId": "team-player/447c1bd5-c4ab-4eb8-9fd2-e84a9eba2785",
+          "name": "Chris Williams"
+        },
+        {
+          "playerId": "team-player/05cac749-ef1d-4185-b451-788a02249b92",
+          "name": "David Walters"
+        },
+        {
+          "playerId": "team-player/c77b06ce-c727-49a5-920f-bbc3f75dec4d",
+          "name": "Garry McElwain"
+        },
+        {
+          "playerId": "team-player/7147e623-25c0-4a86-9b2e-f0e27dce9d4b",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/fb7fdd4d-50a7-45fb-be83-a122f9b3199a",
+          "name": "John Evans"
+        }
       ]
     },
     {
       "name": "Ireland",
       "shortName": "IRL",
       "players": [
-        "Andrew Johnston",
-        "Danny Johnston",
-        "Evan Newell",
-        "Jane Morrison",
-        "Simon Williams"
+        {
+          "playerId": "team-player/c4c3af62-d2ba-47b8-970d-23694bdd7b56",
+          "name": "Andrew Johnston"
+        },
+        {
+          "playerId": "team-player/c44dfaad-d9f7-40ab-8952-4f5610ca8a9c",
+          "name": "Danny Johnston"
+        },
+        {
+          "playerId": "team-player/7a75b374-677d-458a-8675-a7bc2c39de1e",
+          "name": "Evan Newell"
+        },
+        {
+          "playerId": "team-player/308aa605-69d3-4a09-b211-6514eabf13de",
+          "name": "Jane Morrison"
+        },
+        {
+          "playerId": "team-player/bab02999-2a0b-4204-b7ee-fddf93812f33",
+          "name": "Simon Williams"
+        }
       ]
     },
     {
       "name": "Scotland",
       "shortName": "SCO",
       "players": [
-        "Alan Wilson",
-        "Campbell Morrison",
-        "David Magee",
-        "Martin Murray",
-        "Sam Murray"
+        {
+          "playerId": "team-player/86f8fdf3-210a-4670-8bc0-3e1833b3674e",
+          "name": "Alan Wilson"
+        },
+        {
+          "playerId": "team-player/193bea2b-b6f9-46f8-8c04-5d593619790e",
+          "name": "Campbell Morrison"
+        },
+        {
+          "playerId": "team-player/3da75e32-c67f-44e1-80ea-65e48c510c11",
+          "name": "David Magee"
+        },
+        {
+          "playerId": "team-player/faccf622-e8a0-4f09-86f8-86dba60a04a3",
+          "name": "Martin Murray"
+        },
+        {
+          "playerId": "team-player/233c3a4f-f5d4-4da3-bbbd-70df5434fd92",
+          "name": "Sam Murray"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/67f2264e-4aaa-47bf-8457-7a5092e0fc57",
       "teams": [
         "England",
         "Wales"
@@ -63,17 +127,26 @@
       "matches": [
         {
           "players": [
-            "Christian Carter",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/0f2b275e-6ea7-4597-9c7b-03df94e911f2",
+              "name": "Christian Carter"
+            },
+            {
+              "playerId": "team-player/c77b06ce-c727-49a5-920f-bbc3f75dec4d",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3f34f165-0691-4c29-af5c-18080e4fa210",
               "players": [
                 {
+                  "playerId": "team-player/0f2b275e-6ea7-4597-9c7b-03df94e911f2",
                   "name": "Christian Carter",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c77b06ce-c727-49a5-920f-bbc3f75dec4d",
                   "name": "Garry McElwain",
                   "score": "8"
                 }
@@ -82,12 +155,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/31b7f51c-4eac-4139-b631-204738707355",
               "players": [
                 {
+                  "playerId": "team-player/0f2b275e-6ea7-4597-9c7b-03df94e911f2",
                   "name": "Christian Carter",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/c77b06ce-c727-49a5-920f-bbc3f75dec4d",
                   "name": "Garry McElwain",
                   "score": "7"
                 }
@@ -99,17 +175,26 @@
         },
         {
           "players": [
-            "James Hopgood",
-            "Chris Williams"
+            {
+              "playerId": "team-player/23d32298-f6f7-4cd7-8765-c6948abd836e",
+              "name": "James Hopgood"
+            },
+            {
+              "playerId": "team-player/447c1bd5-c4ab-4eb8-9fd2-e84a9eba2785",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88d396d4-c2ac-400d-9faa-594f86fc1b92",
               "players": [
                 {
+                  "playerId": "team-player/23d32298-f6f7-4cd7-8765-c6948abd836e",
                   "name": "James Hopgood",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/447c1bd5-c4ab-4eb8-9fd2-e84a9eba2785",
                   "name": "Chris Williams",
                   "score": "22"
                 }
@@ -118,12 +203,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/748e9cfe-08c2-4f79-9b4b-ac6a918fc956",
               "players": [
                 {
+                  "playerId": "team-player/23d32298-f6f7-4cd7-8765-c6948abd836e",
                   "name": "James Hopgood",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/447c1bd5-c4ab-4eb8-9fd2-e84a9eba2785",
                   "name": "Chris Williams",
                   "score": "9"
                 }
@@ -135,17 +223,26 @@
         },
         {
           "players": [
-            "David Maugham",
-            "David Walters"
+            {
+              "playerId": "team-player/29bdec83-75f0-4e0f-961e-4949392dd3a7",
+              "name": "David Maugham"
+            },
+            {
+              "playerId": "team-player/05cac749-ef1d-4185-b451-788a02249b92",
+              "name": "David Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8703ac5f-1a1e-416e-a75f-30415982947c",
               "players": [
                 {
+                  "playerId": "team-player/29bdec83-75f0-4e0f-961e-4949392dd3a7",
                   "name": "David Maugham",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/05cac749-ef1d-4185-b451-788a02249b92",
                   "name": "David Walters",
                   "score": "0"
                 }
@@ -157,17 +254,26 @@
         },
         {
           "players": [
-            "Mark Avery",
-            "John Evans"
+            {
+              "playerId": "team-player/563fc180-ee53-4e36-9fbc-d1a242d6294d",
+              "name": "Mark Avery"
+            },
+            {
+              "playerId": "team-player/fb7fdd4d-50a7-45fb-be83-a122f9b3199a",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/82b042be-861d-43a4-968d-e509cc30505b",
               "players": [
                 {
+                  "playerId": "team-player/563fc180-ee53-4e36-9fbc-d1a242d6294d",
                   "name": "Mark Avery",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/fb7fdd4d-50a7-45fb-be83-a122f9b3199a",
                   "name": "John Evans",
                   "score": "0"
                 }
@@ -176,12 +282,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/27834f51-5344-4ff3-ba65-99f47fe95385",
               "players": [
                 {
+                  "playerId": "team-player/563fc180-ee53-4e36-9fbc-d1a242d6294d",
                   "name": "Mark Avery",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/fb7fdd4d-50a7-45fb-be83-a122f9b3199a",
                   "name": "John Evans",
                   "score": "10"
                 }
@@ -193,17 +302,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "Ian Burridge"
+            {
+              "playerId": "team-player/a7a8d360-b9b6-4a15-a4b3-a2ddf67555ca",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/7147e623-25c0-4a86-9b2e-f0e27dce9d4b",
+              "name": "Ian Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8e4c465-9110-4927-8aae-f20d0a2bab44",
               "players": [
                 {
+                  "playerId": "team-player/a7a8d360-b9b6-4a15-a4b3-a2ddf67555ca",
                   "name": "Samir Patel",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7147e623-25c0-4a86-9b2e-f0e27dce9d4b",
                   "name": "Ian Burridge",
                   "score": "10"
                 }
@@ -216,6 +334,7 @@
       ]
     },
     {
+      "competitionId": "competition/9361130c-0de9-4f66-81f5-6ecd7893441c",
       "teams": [
         "Ireland",
         "Scotland"
@@ -225,17 +344,26 @@
       "matches": [
         {
           "players": [
-            "Evan Newell",
-            "Martin Murray"
+            {
+              "playerId": "team-player/7a75b374-677d-458a-8675-a7bc2c39de1e",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/faccf622-e8a0-4f09-86f8-86dba60a04a3",
+              "name": "Martin Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/14099bd6-c3f5-4abb-860b-dd6dba894d10",
               "players": [
                 {
+                  "playerId": "team-player/7a75b374-677d-458a-8675-a7bc2c39de1e",
                   "name": "Evan Newell",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/faccf622-e8a0-4f09-86f8-86dba60a04a3",
                   "name": "Martin Murray",
                   "score": "26"
                 }
@@ -244,12 +372,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7c9babe3-82c3-4287-834d-463785f3f01b",
               "players": [
                 {
+                  "playerId": "team-player/7a75b374-677d-458a-8675-a7bc2c39de1e",
                   "name": "Evan Newell",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/faccf622-e8a0-4f09-86f8-86dba60a04a3",
                   "name": "Martin Murray",
                   "score": "26"
                 }
@@ -261,17 +392,26 @@
         },
         {
           "players": [
-            "Jane Morrison",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/308aa605-69d3-4a09-b211-6514eabf13de",
+              "name": "Jane Morrison"
+            },
+            {
+              "playerId": "team-player/86f8fdf3-210a-4670-8bc0-3e1833b3674e",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/12684ba8-ab8c-4347-b486-297381213c0e",
               "players": [
                 {
+                  "playerId": "team-player/308aa605-69d3-4a09-b211-6514eabf13de",
                   "name": "Jane Morrison",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/86f8fdf3-210a-4670-8bc0-3e1833b3674e",
                   "name": "Alan Wilson",
                   "score": "26"
                 }
@@ -280,12 +420,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3e76ace2-56ff-40aa-8689-8ba40f1059be",
               "players": [
                 {
+                  "playerId": "team-player/308aa605-69d3-4a09-b211-6514eabf13de",
                   "name": "Jane Morrison",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/86f8fdf3-210a-4670-8bc0-3e1833b3674e",
                   "name": "Alan Wilson",
                   "score": "13"
                 }
@@ -294,12 +437,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6c186e17-e711-41b1-aa18-899a09f7cc63",
               "players": [
                 {
+                  "playerId": "team-player/308aa605-69d3-4a09-b211-6514eabf13de",
                   "name": "Jane Morrison",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/86f8fdf3-210a-4670-8bc0-3e1833b3674e",
                   "name": "Alan Wilson",
                   "score": "3"
                 }
@@ -311,17 +457,26 @@
         },
         {
           "players": [
-            "Andrew Johnston",
-            "David Magee"
+            {
+              "playerId": "team-player/c4c3af62-d2ba-47b8-970d-23694bdd7b56",
+              "name": "Andrew Johnston"
+            },
+            {
+              "playerId": "team-player/3da75e32-c67f-44e1-80ea-65e48c510c11",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/958409e5-1b55-4b6d-8601-7529579c38a5",
               "players": [
                 {
+                  "playerId": "team-player/c4c3af62-d2ba-47b8-970d-23694bdd7b56",
                   "name": "Andrew Johnston",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3da75e32-c67f-44e1-80ea-65e48c510c11",
                   "name": "David Magee",
                   "score": "9"
                 }
@@ -330,12 +485,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/86d09b99-1d63-427b-9aac-c9e91ca5204c",
               "players": [
                 {
+                  "playerId": "team-player/c4c3af62-d2ba-47b8-970d-23694bdd7b56",
                   "name": "Andrew Johnston",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/3da75e32-c67f-44e1-80ea-65e48c510c11",
                   "name": "David Magee",
                   "score": "0"
                 }
@@ -347,17 +505,26 @@
         },
         {
           "players": [
-            "Simon Williams",
-            "Campbell Morrison"
+            {
+              "playerId": "team-player/bab02999-2a0b-4204-b7ee-fddf93812f33",
+              "name": "Simon Williams"
+            },
+            {
+              "playerId": "team-player/193bea2b-b6f9-46f8-8c04-5d593619790e",
+              "name": "Campbell Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d19fd533-7fa9-4d79-b68f-acdbfd2209e4",
               "players": [
                 {
+                  "playerId": "team-player/bab02999-2a0b-4204-b7ee-fddf93812f33",
                   "name": "Simon Williams",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/193bea2b-b6f9-46f8-8c04-5d593619790e",
                   "name": "Campbell Morrison",
                   "score": "0"
                 }
@@ -366,12 +533,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cee8f963-7041-48a8-bbc4-b6eda19ae1ae",
               "players": [
                 {
+                  "playerId": "team-player/bab02999-2a0b-4204-b7ee-fddf93812f33",
                   "name": "Simon Williams",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/193bea2b-b6f9-46f8-8c04-5d593619790e",
                   "name": "Campbell Morrison",
                   "score": "0"
                 }
@@ -383,17 +553,26 @@
         },
         {
           "players": [
-            "Danny Johnston",
-            "Sam Murray"
+            {
+              "playerId": "team-player/c44dfaad-d9f7-40ab-8952-4f5610ca8a9c",
+              "name": "Danny Johnston"
+            },
+            {
+              "playerId": "team-player/233c3a4f-f5d4-4da3-bbbd-70df5434fd92",
+              "name": "Sam Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8c62d3d-0756-49b7-8ff3-80b4d40c47e8",
               "players": [
                 {
+                  "playerId": "team-player/c44dfaad-d9f7-40ab-8952-4f5610ca8a9c",
                   "name": "Danny Johnston",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/233c3a4f-f5d4-4da3-bbbd-70df5434fd92",
                   "name": "Sam Murray",
                   "score": "0"
                 }
@@ -406,6 +585,7 @@
       ]
     },
     {
+      "competitionId": "competition/814f483c-3960-41b4-8684-ff74b57519c1",
       "teams": [
         "England",
         "Ireland"
@@ -415,17 +595,26 @@
       "matches": [
         {
           "players": [
-            "Mark Avery",
-            "Evan Newell"
+            {
+              "playerId": "team-player/563fc180-ee53-4e36-9fbc-d1a242d6294d",
+              "name": "Mark Avery"
+            },
+            {
+              "playerId": "team-player/7a75b374-677d-458a-8675-a7bc2c39de1e",
+              "name": "Evan Newell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/70e84f85-2443-4ec8-a7f7-bbc09fb4faa6",
               "players": [
                 {
+                  "playerId": "team-player/563fc180-ee53-4e36-9fbc-d1a242d6294d",
                   "name": "Mark Avery",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/7a75b374-677d-458a-8675-a7bc2c39de1e",
                   "name": "Evan Newell",
                   "score": "0"
                 }
@@ -434,12 +623,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/80596b93-548e-48bb-b484-f37df1863e5d",
               "players": [
                 {
+                  "playerId": "team-player/563fc180-ee53-4e36-9fbc-d1a242d6294d",
                   "name": "Mark Avery",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/7a75b374-677d-458a-8675-a7bc2c39de1e",
                   "name": "Evan Newell",
                   "score": "1"
                 }
@@ -451,17 +643,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "Simon Williams"
+            {
+              "playerId": "team-player/a7a8d360-b9b6-4a15-a4b3-a2ddf67555ca",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/bab02999-2a0b-4204-b7ee-fddf93812f33",
+              "name": "Simon Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c58e6d44-aec9-4337-ad8c-96d6465291d6",
               "players": [
                 {
+                  "playerId": "team-player/a7a8d360-b9b6-4a15-a4b3-a2ddf67555ca",
                   "name": "Samir Patel",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bab02999-2a0b-4204-b7ee-fddf93812f33",
                   "name": "Simon Williams",
                   "score": "21"
                 }
@@ -470,12 +671,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9f838347-d96d-4542-a777-a1ae9fe83627",
               "players": [
                 {
+                  "playerId": "team-player/a7a8d360-b9b6-4a15-a4b3-a2ddf67555ca",
                   "name": "Samir Patel",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/bab02999-2a0b-4204-b7ee-fddf93812f33",
                   "name": "Simon Williams",
                   "score": "26otp"
                 }
@@ -487,17 +691,26 @@
         },
         {
           "players": [
-            "James Hopgood",
-            "Andrew Johnston"
+            {
+              "playerId": "team-player/23d32298-f6f7-4cd7-8765-c6948abd836e",
+              "name": "James Hopgood"
+            },
+            {
+              "playerId": "team-player/c4c3af62-d2ba-47b8-970d-23694bdd7b56",
+              "name": "Andrew Johnston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b86d2706-da28-4d19-98e1-b78b73ee418b",
               "players": [
                 {
+                  "playerId": "team-player/23d32298-f6f7-4cd7-8765-c6948abd836e",
                   "name": "James Hopgood",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/c4c3af62-d2ba-47b8-970d-23694bdd7b56",
                   "name": "Andrew Johnston",
                   "score": "26tp"
                 }
@@ -506,12 +719,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0d1f2680-f173-4379-8f87-751053fa96a5",
               "players": [
                 {
+                  "playerId": "team-player/23d32298-f6f7-4cd7-8765-c6948abd836e",
                   "name": "James Hopgood",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/c4c3af62-d2ba-47b8-970d-23694bdd7b56",
                   "name": "Andrew Johnston",
                   "score": "9"
                 }
@@ -523,17 +739,26 @@
         },
         {
           "players": [
-            "Christian Carter",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/0f2b275e-6ea7-4597-9c7b-03df94e911f2",
+              "name": "Christian Carter"
+            },
+            {
+              "playerId": "team-player/308aa605-69d3-4a09-b211-6514eabf13de",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7910cb40-4785-4978-8650-53c890961fe9",
               "players": [
                 {
+                  "playerId": "team-player/0f2b275e-6ea7-4597-9c7b-03df94e911f2",
                   "name": "Christian Carter",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/308aa605-69d3-4a09-b211-6514eabf13de",
                   "name": "Jane Morrison",
                   "score": "4"
                 }
@@ -542,12 +767,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/acd8a9e6-d5be-4d38-a381-641adec08bf0",
               "players": [
                 {
+                  "playerId": "team-player/0f2b275e-6ea7-4597-9c7b-03df94e911f2",
                   "name": "Christian Carter",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/308aa605-69d3-4a09-b211-6514eabf13de",
                   "name": "Jane Morrison",
                   "score": "9"
                 }
@@ -559,17 +787,26 @@
         },
         {
           "players": [
-            "David Maugham",
-            "Danny Johnston"
+            {
+              "playerId": "team-player/29bdec83-75f0-4e0f-961e-4949392dd3a7",
+              "name": "David Maugham"
+            },
+            {
+              "playerId": "team-player/c44dfaad-d9f7-40ab-8952-4f5610ca8a9c",
+              "name": "Danny Johnston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/46f7d04e-a1f9-4c2b-81d9-f54ee97ef716",
               "players": [
                 {
+                  "playerId": "team-player/29bdec83-75f0-4e0f-961e-4949392dd3a7",
                   "name": "David Maugham",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c44dfaad-d9f7-40ab-8952-4f5610ca8a9c",
                   "name": "Danny Johnston",
                   "score": "23"
                 }
@@ -578,12 +815,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d4d966d7-f3d8-4b01-9556-d68e7300d0c8",
               "players": [
                 {
+                  "playerId": "team-player/29bdec83-75f0-4e0f-961e-4949392dd3a7",
                   "name": "David Maugham",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/c44dfaad-d9f7-40ab-8952-4f5610ca8a9c",
                   "name": "Danny Johnston",
                   "score": "9"
                 }
@@ -596,6 +836,7 @@
       ]
     },
     {
+      "competitionId": "competition/32dc8d6f-6414-4c8e-a33f-53c2e1c21b92",
       "teams": [
         "Scotland",
         "Wales"
@@ -605,17 +846,26 @@
       "matches": [
         {
           "players": [
-            "Campbell Morrison",
-            "Ian Burridge"
+            {
+              "playerId": "team-player/193bea2b-b6f9-46f8-8c04-5d593619790e",
+              "name": "Campbell Morrison"
+            },
+            {
+              "playerId": "team-player/7147e623-25c0-4a86-9b2e-f0e27dce9d4b",
+              "name": "Ian Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/98cc1d2b-d64d-4030-9a05-e7b403a0a3bb",
               "players": [
                 {
+                  "playerId": "team-player/193bea2b-b6f9-46f8-8c04-5d593619790e",
                   "name": "Campbell Morrison",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/7147e623-25c0-4a86-9b2e-f0e27dce9d4b",
                   "name": "Ian Burridge",
                   "score": "26tp"
                 }
@@ -624,12 +874,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/91b423f9-d5ac-4011-8142-17a3be437f1d",
               "players": [
                 {
+                  "playerId": "team-player/193bea2b-b6f9-46f8-8c04-5d593619790e",
                   "name": "Campbell Morrison",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/7147e623-25c0-4a86-9b2e-f0e27dce9d4b",
                   "name": "Ian Burridge",
                   "score": "26"
                 }
@@ -641,17 +894,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "John Evans"
+            {
+              "playerId": "team-player/faccf622-e8a0-4f09-86f8-86dba60a04a3",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/fb7fdd4d-50a7-45fb-be83-a122f9b3199a",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2c10a4b1-12c2-4449-bb4a-e33b1574257d",
               "players": [
                 {
+                  "playerId": "team-player/faccf622-e8a0-4f09-86f8-86dba60a04a3",
                   "name": "Martin Murray",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/fb7fdd4d-50a7-45fb-be83-a122f9b3199a",
                   "name": "John Evans",
                   "score": "26"
                 }
@@ -660,12 +922,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/37f559a3-aa0d-4561-9964-649f06a6f503",
               "players": [
                 {
+                  "playerId": "team-player/faccf622-e8a0-4f09-86f8-86dba60a04a3",
                   "name": "Martin Murray",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/fb7fdd4d-50a7-45fb-be83-a122f9b3199a",
                   "name": "John Evans",
                   "score": "26"
                 }
@@ -677,17 +942,26 @@
         },
         {
           "players": [
-            "Alan Wilson",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/86f8fdf3-210a-4670-8bc0-3e1833b3674e",
+              "name": "Alan Wilson"
+            },
+            {
+              "playerId": "team-player/c77b06ce-c727-49a5-920f-bbc3f75dec4d",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/217cd669-0b80-41a1-aeb8-8dd318f1a5ec",
               "players": [
                 {
+                  "playerId": "team-player/86f8fdf3-210a-4670-8bc0-3e1833b3674e",
                   "name": "Alan Wilson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c77b06ce-c727-49a5-920f-bbc3f75dec4d",
                   "name": "Garry McElwain",
                   "score": "26"
                 }
@@ -699,17 +973,26 @@
         },
         {
           "players": [
-            "David Magee",
-            "Chris Williams"
+            {
+              "playerId": "team-player/3da75e32-c67f-44e1-80ea-65e48c510c11",
+              "name": "David Magee"
+            },
+            {
+              "playerId": "team-player/447c1bd5-c4ab-4eb8-9fd2-e84a9eba2785",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42277187-c439-4f09-ada5-575360826854",
               "players": [
                 {
+                  "playerId": "team-player/3da75e32-c67f-44e1-80ea-65e48c510c11",
                   "name": "David Magee",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/447c1bd5-c4ab-4eb8-9fd2-e84a9eba2785",
                   "name": "Chris Williams",
                   "score": "26"
                 }
@@ -718,12 +1001,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8033100e-e37b-41cc-8f5b-a5c91dd41d72",
               "players": [
                 {
+                  "playerId": "team-player/3da75e32-c67f-44e1-80ea-65e48c510c11",
                   "name": "David Magee",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/447c1bd5-c4ab-4eb8-9fd2-e84a9eba2785",
                   "name": "Chris Williams",
                   "score": "26"
                 }
@@ -735,17 +1021,26 @@
         },
         {
           "players": [
-            "Sam Murray",
-            "David Walters"
+            {
+              "playerId": "team-player/233c3a4f-f5d4-4da3-bbbd-70df5434fd92",
+              "name": "Sam Murray"
+            },
+            {
+              "playerId": "team-player/05cac749-ef1d-4185-b451-788a02249b92",
+              "name": "David Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bcf57722-3a85-4bd8-b794-ae21ff52334d",
               "players": [
                 {
+                  "playerId": "team-player/233c3a4f-f5d4-4da3-bbbd-70df5434fd92",
                   "name": "Sam Murray",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/05cac749-ef1d-4185-b451-788a02249b92",
                   "name": "David Walters",
                   "score": "9"
                 }
@@ -758,6 +1053,7 @@
       ]
     },
     {
+      "competitionId": "competition/75b4752c-cdae-48e3-8f89-e6a886195041",
       "teams": [
         "England",
         "Scotland"
@@ -767,6 +1063,7 @@
       "matches": []
     },
     {
+      "competitionId": "competition/9e863df5-c4e1-45cc-921e-5ada04d096fd",
       "teams": [
         "Ireland",
         "Wales"

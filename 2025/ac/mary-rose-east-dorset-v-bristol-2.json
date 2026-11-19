@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7738d31d-24f9-400e-a882-5eb73e8f94a0",
   "name": "Mary Rose East Dorset v Bristol",
   "sport": "ac",
   "firstDay": "2025-06-10",
   "lastDay": "2025-06-10",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "East Dorset",
       "shortName": "East Dorse",
       "players": [
-        "Andy Meikle",
-        "Christine Rice",
-        "David Williams",
-        "Leonard/Williams",
-        "Steve Leonard"
+        {
+          "playerId": "team-player/3eac0c30-9f5e-476e-bd2e-c33082e3e0e3",
+          "name": "Andy Meikle"
+        },
+        {
+          "playerId": "team-player/70024bd5-608a-4645-a1f5-22be6c0bd3d5",
+          "name": "Christine Rice"
+        },
+        {
+          "playerId": "team-player/d3593ad2-deba-4a95-aa64-2a278c8626d1",
+          "name": "David Williams"
+        },
+        {
+          "playerId": "team-player/8bd1d761-286e-4db3-aab0-58480db331e6",
+          "name": "Leonard/Williams"
+        },
+        {
+          "playerId": "team-player/d737a8e8-3d6a-47ae-9723-7bfa04fe9ebd",
+          "name": "Steve Leonard"
+        }
       ]
     },
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "Aarvold/Leach",
-        "Dom Aarvold",
-        "Martin Leach",
-        "Richard Williamson",
-        "Wayne Wiseman"
+        {
+          "playerId": "team-player/e9892a5e-42ec-4721-aff5-1987eece0234",
+          "name": "Aarvold/Leach"
+        },
+        {
+          "playerId": "team-player/bd8554ea-b685-4c01-88de-a5b3f3f0e490",
+          "name": "Dom Aarvold"
+        },
+        {
+          "playerId": "team-player/f297895a-4460-4f7b-9318-ae4fdaa0006f",
+          "name": "Martin Leach"
+        },
+        {
+          "playerId": "team-player/212fb417-1725-4dd0-b4a3-5f87e11d2074",
+          "name": "Richard Williamson"
+        },
+        {
+          "playerId": "team-player/1b344976-1b78-4079-ac13-081d11657cba",
+          "name": "Wayne Wiseman"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/289f5867-15c3-49e2-8d6c-06a4bff042e0",
       "teams": [
         "East Dorset",
         "Bristol"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Leonard/Williams",
-            "Aarvold/Leach"
+            {
+              "playerId": "team-player/8bd1d761-286e-4db3-aab0-58480db331e6",
+              "name": "Leonard/Williams"
+            },
+            {
+              "playerId": "team-player/e9892a5e-42ec-4721-aff5-1987eece0234",
+              "name": "Aarvold/Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/03a11db1-339f-4dd1-817f-9855230e7942",
               "players": [
                 {
+                  "playerId": "team-player/8bd1d761-286e-4db3-aab0-58480db331e6",
                   "name": "Leonard/Williams",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e9892a5e-42ec-4721-aff5-1987eece0234",
                   "name": "Aarvold/Leach",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Christine Rice",
-            "Wayne Wiseman"
+            {
+              "playerId": "team-player/70024bd5-608a-4645-a1f5-22be6c0bd3d5",
+              "name": "Christine Rice"
+            },
+            {
+              "playerId": "team-player/1b344976-1b78-4079-ac13-081d11657cba",
+              "name": "Wayne Wiseman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/39a67429-1864-47c0-b9c4-fe41c33edb5e",
               "players": [
                 {
+                  "playerId": "team-player/70024bd5-608a-4645-a1f5-22be6c0bd3d5",
                   "name": "Christine Rice",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1b344976-1b78-4079-ac13-081d11657cba",
                   "name": "Wayne Wiseman",
                   "score": "5"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Andy Meikle",
-            "Richard Williamson"
+            {
+              "playerId": "team-player/3eac0c30-9f5e-476e-bd2e-c33082e3e0e3",
+              "name": "Andy Meikle"
+            },
+            {
+              "playerId": "team-player/212fb417-1725-4dd0-b4a3-5f87e11d2074",
+              "name": "Richard Williamson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fb9756bd-9647-41a2-9ed5-1baef2c923ae",
               "players": [
                 {
+                  "playerId": "team-player/3eac0c30-9f5e-476e-bd2e-c33082e3e0e3",
                   "name": "Andy Meikle",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/212fb417-1725-4dd0-b4a3-5f87e11d2074",
                   "name": "Richard Williamson",
                   "score": "4"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Steve Leonard",
-            "Dom Aarvold"
+            {
+              "playerId": "team-player/d737a8e8-3d6a-47ae-9723-7bfa04fe9ebd",
+              "name": "Steve Leonard"
+            },
+            {
+              "playerId": "team-player/bd8554ea-b685-4c01-88de-a5b3f3f0e490",
+              "name": "Dom Aarvold"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1c366e9-de75-49f0-ab0d-2620b62d8940",
               "players": [
                 {
+                  "playerId": "team-player/d737a8e8-3d6a-47ae-9723-7bfa04fe9ebd",
                   "name": "Steve Leonard",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/bd8554ea-b685-4c01-88de-a5b3f3f0e490",
                   "name": "Dom Aarvold",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "David Williams",
-            "Martin Leach"
+            {
+              "playerId": "team-player/d3593ad2-deba-4a95-aa64-2a278c8626d1",
+              "name": "David Williams"
+            },
+            {
+              "playerId": "team-player/f297895a-4460-4f7b-9318-ae4fdaa0006f",
+              "name": "Martin Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b2219090-82f9-401d-ba22-e33b8032580e",
               "players": [
                 {
+                  "playerId": "team-player/d3593ad2-deba-4a95-aa64-2a278c8626d1",
                   "name": "David Williams",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/f297895a-4460-4f7b-9318-ae4fdaa0006f",
                   "name": "Martin Leach",
                   "score": "5"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Andy Meikle",
-            "Wayne Wiseman"
+            {
+              "playerId": "team-player/3eac0c30-9f5e-476e-bd2e-c33082e3e0e3",
+              "name": "Andy Meikle"
+            },
+            {
+              "playerId": "team-player/1b344976-1b78-4079-ac13-081d11657cba",
+              "name": "Wayne Wiseman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5c20225c-f746-43e5-83f3-2ac995b7f7fa",
               "players": [
                 {
+                  "playerId": "team-player/3eac0c30-9f5e-476e-bd2e-c33082e3e0e3",
                   "name": "Andy Meikle",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/1b344976-1b78-4079-ac13-081d11657cba",
                   "name": "Wayne Wiseman",
                   "score": "7"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Christine Rice",
-            "Richard Williamson"
+            {
+              "playerId": "team-player/70024bd5-608a-4645-a1f5-22be6c0bd3d5",
+              "name": "Christine Rice"
+            },
+            {
+              "playerId": "team-player/212fb417-1725-4dd0-b4a3-5f87e11d2074",
+              "name": "Richard Williamson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f09218d-f598-446b-9661-d61da7a8311a",
               "players": [
                 {
+                  "playerId": "team-player/70024bd5-608a-4645-a1f5-22be6c0bd3d5",
                   "name": "Christine Rice",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/212fb417-1725-4dd0-b4a3-5f87e11d2074",
                   "name": "Richard Williamson",
                   "score": "17"
                 }

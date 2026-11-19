@@ -1,41 +1,87 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a205a9f8-060e-4eae-8e51-fd9fcff252a2",
   "name": "SWCF level Bristol v Glamorgan",
   "sport": "gc",
   "firstDay": "2022-05-12",
   "lastDay": "2022-05-12",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "David Goacher",
-        "David Goacher & Martin Murray",
-        "David Goacher & Richard M Smith",
-        "Dominic Aarvold",
-        "Dominic Aarvold & Martin Leach",
-        "Martin Leach",
-        "Martin Murray",
-        "Richard M Smith"
+        {
+          "playerId": "team-player/e7fcb5c3-7c48-47b0-b928-f429f881521c",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/e0ebb86f-7aab-4e28-9c15-9fd9e75335aa",
+          "name": "David Goacher & Martin Murray"
+        },
+        {
+          "playerId": "team-player/769cf331-d8fd-4ce7-a6a7-f223c6005227",
+          "name": "David Goacher & Richard M Smith"
+        },
+        {
+          "playerId": "team-player/ee0d444f-79a9-4656-9224-d6b587eb05dc",
+          "name": "Dominic Aarvold"
+        },
+        {
+          "playerId": "team-player/616edb9d-01e5-42da-b858-a317d910df9a",
+          "name": "Dominic Aarvold & Martin Leach"
+        },
+        {
+          "playerId": "team-player/c55525d4-1e97-4c94-995b-9420cd0aeead",
+          "name": "Martin Leach"
+        },
+        {
+          "playerId": "team-player/6fe42ff5-d9be-43d5-aa45-42a19c7c8b9d",
+          "name": "Martin Murray"
+        },
+        {
+          "playerId": "team-player/3ae28b60-7b2e-4843-901a-654b89eb1d92",
+          "name": "Richard M Smith"
+        }
       ]
     },
     {
       "name": "Glamorgan",
       "shortName": "Glamorgan",
       "players": [
-        "John Evans",
-        "John Evans & Robert Upton",
-        "Kevin Ham",
-        "Robert Upton",
-        "Sarah Melvin",
-        "Sarah Melvin & Kevin Ham"
+        {
+          "playerId": "team-player/3b4d8939-a6ff-4797-b46f-cbe3f173c870",
+          "name": "John Evans"
+        },
+        {
+          "playerId": "team-player/e31ec7c3-b78a-4537-a800-39e0339c2094",
+          "name": "John Evans & Robert Upton"
+        },
+        {
+          "playerId": "team-player/dad2262e-9828-4b16-b83e-e0415f33de69",
+          "name": "Kevin Ham"
+        },
+        {
+          "playerId": "team-player/9671f584-aa25-4c3a-870a-5033bf4e7cf6",
+          "name": "Robert Upton"
+        },
+        {
+          "playerId": "team-player/c25a878a-6a86-4bf1-9b19-01576a7252cf",
+          "name": "Sarah Melvin"
+        },
+        {
+          "playerId": "team-player/38706a8f-c93f-497e-b8b7-6fee79218433",
+          "name": "Sarah Melvin & Kevin Ham"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2bdcdd2b-8df0-48b2-b95c-25d0ca637cee",
       "teams": [
         "Bristol",
         "Glamorgan"
@@ -45,17 +91,26 @@
       "matches": [
         {
           "players": [
-            "David Goacher & Richard M Smith",
-            "John Evans & Robert Upton"
+            {
+              "playerId": "team-player/769cf331-d8fd-4ce7-a6a7-f223c6005227",
+              "name": "David Goacher & Richard M Smith"
+            },
+            {
+              "playerId": "team-player/e31ec7c3-b78a-4537-a800-39e0339c2094",
+              "name": "John Evans & Robert Upton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7ef404ae-0bcb-44c7-8f88-a44ef5cea944",
               "players": [
                 {
+                  "playerId": "team-player/769cf331-d8fd-4ce7-a6a7-f223c6005227",
                   "name": "David Goacher & Richard M Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e31ec7c3-b78a-4537-a800-39e0339c2094",
                   "name": "John Evans & Robert Upton",
                   "score": "3"
                 }
@@ -67,17 +122,26 @@
         },
         {
           "players": [
-            "Dominic Aarvold & Martin Leach",
-            "Sarah Melvin & Kevin Ham"
+            {
+              "playerId": "team-player/616edb9d-01e5-42da-b858-a317d910df9a",
+              "name": "Dominic Aarvold & Martin Leach"
+            },
+            {
+              "playerId": "team-player/38706a8f-c93f-497e-b8b7-6fee79218433",
+              "name": "Sarah Melvin & Kevin Ham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c138c3fd-be9f-45a9-96c4-bc8973251226",
               "players": [
                 {
+                  "playerId": "team-player/616edb9d-01e5-42da-b858-a317d910df9a",
                   "name": "Dominic Aarvold & Martin Leach",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/38706a8f-c93f-497e-b8b7-6fee79218433",
                   "name": "Sarah Melvin & Kevin Ham",
                   "score": "2"
                 }
@@ -89,17 +153,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Kevin Ham"
+            {
+              "playerId": "team-player/e7fcb5c3-7c48-47b0-b928-f429f881521c",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/dad2262e-9828-4b16-b83e-e0415f33de69",
+              "name": "Kevin Ham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad5d6bd2-b28a-4569-a788-8a59f1ab8c24",
               "players": [
                 {
+                  "playerId": "team-player/e7fcb5c3-7c48-47b0-b928-f429f881521c",
                   "name": "David Goacher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dad2262e-9828-4b16-b83e-e0415f33de69",
                   "name": "Kevin Ham",
                   "score": "6"
                 }
@@ -111,17 +184,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Robert Upton"
+            {
+              "playerId": "team-player/3ae28b60-7b2e-4843-901a-654b89eb1d92",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/9671f584-aa25-4c3a-870a-5033bf4e7cf6",
+              "name": "Robert Upton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ddbfa7d-17bc-447e-b4c8-21ba9e28e250",
               "players": [
                 {
+                  "playerId": "team-player/3ae28b60-7b2e-4843-901a-654b89eb1d92",
                   "name": "Richard M Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9671f584-aa25-4c3a-870a-5033bf4e7cf6",
                   "name": "Robert Upton",
                   "score": "4"
                 }
@@ -133,17 +215,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/6fe42ff5-d9be-43d5-aa45-42a19c7c8b9d",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/c25a878a-6a86-4bf1-9b19-01576a7252cf",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1b9567b-e954-4ad6-891c-a22ed7304745",
               "players": [
                 {
+                  "playerId": "team-player/6fe42ff5-d9be-43d5-aa45-42a19c7c8b9d",
                   "name": "Martin Murray",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/c25a878a-6a86-4bf1-9b19-01576a7252cf",
                   "name": "Sarah Melvin",
                   "score": "7"
                 }
@@ -155,17 +246,26 @@
         },
         {
           "players": [
-            "Dominic Aarvold",
-            "John Evans"
+            {
+              "playerId": "team-player/ee0d444f-79a9-4656-9224-d6b587eb05dc",
+              "name": "Dominic Aarvold"
+            },
+            {
+              "playerId": "team-player/3b4d8939-a6ff-4797-b46f-cbe3f173c870",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4823b100-debe-4170-8eaa-2a240da904a5",
               "players": [
                 {
+                  "playerId": "team-player/ee0d444f-79a9-4656-9224-d6b587eb05dc",
                   "name": "Dominic Aarvold",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3b4d8939-a6ff-4797-b46f-cbe3f173c870",
                   "name": "John Evans",
                   "score": "4"
                 }
@@ -177,17 +277,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "John Evans"
+            {
+              "playerId": "team-player/3ae28b60-7b2e-4843-901a-654b89eb1d92",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/3b4d8939-a6ff-4797-b46f-cbe3f173c870",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8c190f92-59c2-42f0-a4b3-6ee8661886d9",
               "players": [
                 {
+                  "playerId": "team-player/3ae28b60-7b2e-4843-901a-654b89eb1d92",
                   "name": "Richard M Smith",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3b4d8939-a6ff-4797-b46f-cbe3f173c870",
                   "name": "John Evans",
                   "score": "7"
                 }
@@ -199,17 +308,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "Robert Upton"
+            {
+              "playerId": "team-player/6fe42ff5-d9be-43d5-aa45-42a19c7c8b9d",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/9671f584-aa25-4c3a-870a-5033bf4e7cf6",
+              "name": "Robert Upton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/57e00d0a-878c-43a1-bc5e-8d65222c3941",
               "players": [
                 {
+                  "playerId": "team-player/6fe42ff5-d9be-43d5-aa45-42a19c7c8b9d",
                   "name": "Martin Murray",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/9671f584-aa25-4c3a-870a-5033bf4e7cf6",
                   "name": "Robert Upton",
                   "score": "7"
                 }
@@ -221,17 +339,26 @@
         },
         {
           "players": [
-            "Dominic Aarvold",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/ee0d444f-79a9-4656-9224-d6b587eb05dc",
+              "name": "Dominic Aarvold"
+            },
+            {
+              "playerId": "team-player/c25a878a-6a86-4bf1-9b19-01576a7252cf",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8738804e-68ba-47d9-b784-62b600efa99d",
               "players": [
                 {
+                  "playerId": "team-player/ee0d444f-79a9-4656-9224-d6b587eb05dc",
                   "name": "Dominic Aarvold",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c25a878a-6a86-4bf1-9b19-01576a7252cf",
                   "name": "Sarah Melvin",
                   "score": "3"
                 }
@@ -243,17 +370,26 @@
         },
         {
           "players": [
-            "Martin Leach",
-            "Kevin Ham"
+            {
+              "playerId": "team-player/c55525d4-1e97-4c94-995b-9420cd0aeead",
+              "name": "Martin Leach"
+            },
+            {
+              "playerId": "team-player/dad2262e-9828-4b16-b83e-e0415f33de69",
+              "name": "Kevin Ham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b7c5c988-edb8-4630-af6c-a3212f53e544",
               "players": [
                 {
+                  "playerId": "team-player/c55525d4-1e97-4c94-995b-9420cd0aeead",
                   "name": "Martin Leach",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dad2262e-9828-4b16-b83e-e0415f33de69",
                   "name": "Kevin Ham",
                   "score": "6"
                 }
@@ -265,17 +401,26 @@
         },
         {
           "players": [
-            "David Goacher & Martin Murray",
-            "Sarah Melvin & Kevin Ham"
+            {
+              "playerId": "team-player/e0ebb86f-7aab-4e28-9c15-9fd9e75335aa",
+              "name": "David Goacher & Martin Murray"
+            },
+            {
+              "playerId": "team-player/38706a8f-c93f-497e-b8b7-6fee79218433",
+              "name": "Sarah Melvin & Kevin Ham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5cad63dc-6125-4911-9487-4e82aeaa8d11",
               "players": [
                 {
+                  "playerId": "team-player/e0ebb86f-7aab-4e28-9c15-9fd9e75335aa",
                   "name": "David Goacher & Martin Murray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/38706a8f-c93f-497e-b8b7-6fee79218433",
                   "name": "Sarah Melvin & Kevin Ham",
                   "score": "6"
                 }
@@ -287,17 +432,26 @@
         },
         {
           "players": [
-            "Dominic Aarvold & Martin Leach",
-            "John Evans & Robert Upton"
+            {
+              "playerId": "team-player/616edb9d-01e5-42da-b858-a317d910df9a",
+              "name": "Dominic Aarvold & Martin Leach"
+            },
+            {
+              "playerId": "team-player/e31ec7c3-b78a-4537-a800-39e0339c2094",
+              "name": "John Evans & Robert Upton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e038f731-b075-4bfd-9d30-cfbf2b805665",
               "players": [
                 {
+                  "playerId": "team-player/616edb9d-01e5-42da-b858-a317d910df9a",
                   "name": "Dominic Aarvold & Martin Leach",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e31ec7c3-b78a-4537-a800-39e0339c2094",
                   "name": "John Evans & Robert Upton",
                   "score": "7"
                 }
@@ -309,17 +463,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/e7fcb5c3-7c48-47b0-b928-f429f881521c",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/c25a878a-6a86-4bf1-9b19-01576a7252cf",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa7a8aae-5fce-4ecc-af0b-b60734f3f29e",
               "players": [
                 {
+                  "playerId": "team-player/e7fcb5c3-7c48-47b0-b928-f429f881521c",
                   "name": "David Goacher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c25a878a-6a86-4bf1-9b19-01576a7252cf",
                   "name": "Sarah Melvin",
                   "score": "6"
                 }
@@ -331,17 +494,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Kevin Ham"
+            {
+              "playerId": "team-player/3ae28b60-7b2e-4843-901a-654b89eb1d92",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/dad2262e-9828-4b16-b83e-e0415f33de69",
+              "name": "Kevin Ham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af5a3c68-dcb6-4676-b6be-dcb9e4bf9818",
               "players": [
                 {
+                  "playerId": "team-player/3ae28b60-7b2e-4843-901a-654b89eb1d92",
                   "name": "Richard M Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dad2262e-9828-4b16-b83e-e0415f33de69",
                   "name": "Kevin Ham",
                   "score": "6"
                 }
@@ -353,17 +525,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "John Evans"
+            {
+              "playerId": "team-player/6fe42ff5-d9be-43d5-aa45-42a19c7c8b9d",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/3b4d8939-a6ff-4797-b46f-cbe3f173c870",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e5ab180-b458-4440-aaf5-8a77fd09a726",
               "players": [
                 {
+                  "playerId": "team-player/6fe42ff5-d9be-43d5-aa45-42a19c7c8b9d",
                   "name": "Martin Murray",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3b4d8939-a6ff-4797-b46f-cbe3f173c870",
                   "name": "John Evans",
                   "score": "6"
                 }
@@ -375,17 +556,26 @@
         },
         {
           "players": [
-            "Martin Leach",
-            "Robert Upton"
+            {
+              "playerId": "team-player/c55525d4-1e97-4c94-995b-9420cd0aeead",
+              "name": "Martin Leach"
+            },
+            {
+              "playerId": "team-player/9671f584-aa25-4c3a-870a-5033bf4e7cf6",
+              "name": "Robert Upton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6ba9d9d-02b5-4c6b-b1ea-01cc57ecdd4f",
               "players": [
                 {
+                  "playerId": "team-player/c55525d4-1e97-4c94-995b-9420cd0aeead",
                   "name": "Martin Leach",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/9671f584-aa25-4c3a-870a-5033bf4e7cf6",
                   "name": "Robert Upton",
                   "score": "7"
                 }
@@ -397,17 +587,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "John Evans"
+            {
+              "playerId": "team-player/e7fcb5c3-7c48-47b0-b928-f429f881521c",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/3b4d8939-a6ff-4797-b46f-cbe3f173c870",
+              "name": "John Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a9d892f1-5c81-4857-9389-d6a2d56e8b90",
               "players": [
                 {
+                  "playerId": "team-player/e7fcb5c3-7c48-47b0-b928-f429f881521c",
                   "name": "David Goacher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3b4d8939-a6ff-4797-b46f-cbe3f173c870",
                   "name": "John Evans",
                   "score": "5"
                 }
@@ -419,17 +618,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/3ae28b60-7b2e-4843-901a-654b89eb1d92",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/c25a878a-6a86-4bf1-9b19-01576a7252cf",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bb052435-5985-4ff2-aad8-8be6528230d5",
               "players": [
                 {
+                  "playerId": "team-player/3ae28b60-7b2e-4843-901a-654b89eb1d92",
                   "name": "Richard M Smith",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c25a878a-6a86-4bf1-9b19-01576a7252cf",
                   "name": "Sarah Melvin",
                   "score": "5"
                 }
@@ -441,17 +649,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "Kevin Ham"
+            {
+              "playerId": "team-player/6fe42ff5-d9be-43d5-aa45-42a19c7c8b9d",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/dad2262e-9828-4b16-b83e-e0415f33de69",
+              "name": "Kevin Ham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1a50a469-ef62-4226-aa09-2b7ae37e6541",
               "players": [
                 {
+                  "playerId": "team-player/6fe42ff5-d9be-43d5-aa45-42a19c7c8b9d",
                   "name": "Martin Murray",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/dad2262e-9828-4b16-b83e-e0415f33de69",
                   "name": "Kevin Ham",
                   "score": "7"
                 }
@@ -463,17 +680,26 @@
         },
         {
           "players": [
-            "Dominic Aarvold",
-            "Robert Upton"
+            {
+              "playerId": "team-player/ee0d444f-79a9-4656-9224-d6b587eb05dc",
+              "name": "Dominic Aarvold"
+            },
+            {
+              "playerId": "team-player/9671f584-aa25-4c3a-870a-5033bf4e7cf6",
+              "name": "Robert Upton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e1f408da-7504-4b16-b772-de6cd51c98b2",
               "players": [
                 {
+                  "playerId": "team-player/ee0d444f-79a9-4656-9224-d6b587eb05dc",
                   "name": "Dominic Aarvold",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9671f584-aa25-4c3a-870a-5033bf4e7cf6",
                   "name": "Robert Upton",
                   "score": "7"
                 }

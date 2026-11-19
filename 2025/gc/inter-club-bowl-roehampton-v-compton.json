@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/32cedf3f-8196-45ef-943d-cfb7a7eed03b",
   "name": "GC Inter Club Bowl - Roehampton v Compton",
   "sport": "gc",
   "firstDay": "2025-07-16",
   "lastDay": "2025-07-16",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Carmel Brancen",
-        "Howard Railton",
-        "Kevin O’Connor",
-        "Mark Green",
-        "Mark Green & Howard Railton"
+        {
+          "playerId": "team-player/43e320fd-a451-4564-a867-e46576213ba6",
+          "name": "Carmel Brancen"
+        },
+        {
+          "playerId": "team-player/9e0f4d5e-b236-4526-a684-71cc8dad3b95",
+          "name": "Howard Railton"
+        },
+        {
+          "playerId": "team-player/0693eb98-83dc-40c7-a9ab-9ea6f628180b",
+          "name": "Kevin O’Connor"
+        },
+        {
+          "playerId": "team-player/d4da9d34-5962-4734-b459-37ca1619229f",
+          "name": "Mark Green"
+        },
+        {
+          "playerId": "team-player/f782d666-0df3-409f-ba4f-c1ebf6e30d61",
+          "name": "Mark Green & Howard Railton"
+        }
       ]
     },
     {
       "name": "Compton",
       "shortName": "Compton",
       "players": [
-        "Alan Dodds",
-        "Alan Dodds & Steve Collett",
-        "David West",
-        "Michael Clarke",
-        "Steve Collett"
+        {
+          "playerId": "team-player/70b65818-682a-499e-83b5-b514d3286576",
+          "name": "Alan Dodds"
+        },
+        {
+          "playerId": "team-player/883311a4-6f5a-4029-82bd-c94ae7390d44",
+          "name": "Alan Dodds & Steve Collett"
+        },
+        {
+          "playerId": "team-player/c3c47878-31a0-46a1-8787-524d5073911f",
+          "name": "David West"
+        },
+        {
+          "playerId": "team-player/ae1102d3-ea2b-4b9f-9ab7-b3d2328685eb",
+          "name": "Michael Clarke"
+        },
+        {
+          "playerId": "team-player/f5281c66-2f8e-4e1e-a33e-c7e3cdd40348",
+          "name": "Steve Collett"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/932dec1e-d9da-4a6f-93d5-2449fc3957c5",
       "teams": [
         "Roehampton",
         "Compton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Kevin O’Connor",
-            "Michael Clarke"
+            {
+              "playerId": "team-player/0693eb98-83dc-40c7-a9ab-9ea6f628180b",
+              "name": "Kevin O’Connor"
+            },
+            {
+              "playerId": "team-player/ae1102d3-ea2b-4b9f-9ab7-b3d2328685eb",
+              "name": "Michael Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/24ccad1f-490d-4927-8e33-e202a618b7b6",
               "players": [
                 {
+                  "playerId": "team-player/0693eb98-83dc-40c7-a9ab-9ea6f628180b",
                   "name": "Kevin O’Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ae1102d3-ea2b-4b9f-9ab7-b3d2328685eb",
                   "name": "Michael Clarke",
                   "score": "4"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3e45bd5a-f540-4a68-bec7-9f162ad8d15c",
               "players": [
                 {
+                  "playerId": "team-player/0693eb98-83dc-40c7-a9ab-9ea6f628180b",
                   "name": "Kevin O’Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ae1102d3-ea2b-4b9f-9ab7-b3d2328685eb",
                   "name": "Michael Clarke",
                   "score": "6"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Carmel Brancen",
-            "David West"
+            {
+              "playerId": "team-player/43e320fd-a451-4564-a867-e46576213ba6",
+              "name": "Carmel Brancen"
+            },
+            {
+              "playerId": "team-player/c3c47878-31a0-46a1-8787-524d5073911f",
+              "name": "David West"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8060fbbb-c55b-4df2-9fd0-90feb55a9a62",
               "players": [
                 {
+                  "playerId": "team-player/43e320fd-a451-4564-a867-e46576213ba6",
                   "name": "Carmel Brancen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c3c47878-31a0-46a1-8787-524d5073911f",
                   "name": "David West",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4e5a1878-2961-4242-a032-ffdfad20b937",
               "players": [
                 {
+                  "playerId": "team-player/43e320fd-a451-4564-a867-e46576213ba6",
                   "name": "Carmel Brancen",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/c3c47878-31a0-46a1-8787-524d5073911f",
                   "name": "David West",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Howard Railton",
-            "Alan Dodds"
+            {
+              "playerId": "team-player/9e0f4d5e-b236-4526-a684-71cc8dad3b95",
+              "name": "Howard Railton"
+            },
+            {
+              "playerId": "team-player/70b65818-682a-499e-83b5-b514d3286576",
+              "name": "Alan Dodds"
+            }
           ],
           "games": [
             {
+              "gameId": "game/baf9e9c1-e548-4cc0-a76d-e56d008c7e26",
               "players": [
                 {
+                  "playerId": "team-player/9e0f4d5e-b236-4526-a684-71cc8dad3b95",
                   "name": "Howard Railton",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/70b65818-682a-499e-83b5-b514d3286576",
                   "name": "Alan Dodds",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ea0ba8c2-e5f3-4019-b9e6-1e3471cf6da2",
               "players": [
                 {
+                  "playerId": "team-player/9e0f4d5e-b236-4526-a684-71cc8dad3b95",
                   "name": "Howard Railton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/70b65818-682a-499e-83b5-b514d3286576",
                   "name": "Alan Dodds",
                   "score": "5"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/20c5dc84-7abf-4651-bfde-421a876601b9",
               "players": [
                 {
+                  "playerId": "team-player/9e0f4d5e-b236-4526-a684-71cc8dad3b95",
                   "name": "Howard Railton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/70b65818-682a-499e-83b5-b514d3286576",
                   "name": "Alan Dodds",
                   "score": "6"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Mark Green",
-            "Steve Collett"
+            {
+              "playerId": "team-player/d4da9d34-5962-4734-b459-37ca1619229f",
+              "name": "Mark Green"
+            },
+            {
+              "playerId": "team-player/f5281c66-2f8e-4e1e-a33e-c7e3cdd40348",
+              "name": "Steve Collett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e713e06f-cf21-41d8-887d-c2bbde2eb031",
               "players": [
                 {
+                  "playerId": "team-player/d4da9d34-5962-4734-b459-37ca1619229f",
                   "name": "Mark Green",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f5281c66-2f8e-4e1e-a33e-c7e3cdd40348",
                   "name": "Steve Collett",
                   "score": "7"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1c04a394-9853-49fe-94eb-9fae1da49e3c",
               "players": [
                 {
+                  "playerId": "team-player/d4da9d34-5962-4734-b459-37ca1619229f",
                   "name": "Mark Green",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/f5281c66-2f8e-4e1e-a33e-c7e3cdd40348",
                   "name": "Steve Collett",
                   "score": "7"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Kevin O’Connor",
-            "David West"
+            {
+              "playerId": "team-player/0693eb98-83dc-40c7-a9ab-9ea6f628180b",
+              "name": "Kevin O’Connor"
+            },
+            {
+              "playerId": "team-player/c3c47878-31a0-46a1-8787-524d5073911f",
+              "name": "David West"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9aecf69d-9cd9-4a22-bb1a-5191d7015bca",
               "players": [
                 {
+                  "playerId": "team-player/0693eb98-83dc-40c7-a9ab-9ea6f628180b",
                   "name": "Kevin O’Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c3c47878-31a0-46a1-8787-524d5073911f",
                   "name": "David West",
                   "score": "4"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a99c3755-b8ed-434b-9d6c-68438831c4f1",
               "players": [
                 {
+                  "playerId": "team-player/0693eb98-83dc-40c7-a9ab-9ea6f628180b",
                   "name": "Kevin O’Connor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c3c47878-31a0-46a1-8787-524d5073911f",
                   "name": "David West",
                   "score": "5"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Carmel Brancen",
-            "Michael Clarke"
+            {
+              "playerId": "team-player/43e320fd-a451-4564-a867-e46576213ba6",
+              "name": "Carmel Brancen"
+            },
+            {
+              "playerId": "team-player/ae1102d3-ea2b-4b9f-9ab7-b3d2328685eb",
+              "name": "Michael Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/94671e88-6ff9-46ad-bfc0-92c507de9b58",
               "players": [
                 {
+                  "playerId": "team-player/43e320fd-a451-4564-a867-e46576213ba6",
                   "name": "Carmel Brancen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ae1102d3-ea2b-4b9f-9ab7-b3d2328685eb",
                   "name": "Michael Clarke",
                   "score": "6"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4ff61e66-1416-4f77-8ebf-7702119d9f7b",
               "players": [
                 {
+                  "playerId": "team-player/43e320fd-a451-4564-a867-e46576213ba6",
                   "name": "Carmel Brancen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ae1102d3-ea2b-4b9f-9ab7-b3d2328685eb",
                   "name": "Michael Clarke",
                   "score": "7"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/34aad659-b67b-4bb3-bd6d-788e291c4a2d",
               "players": [
                 {
+                  "playerId": "team-player/43e320fd-a451-4564-a867-e46576213ba6",
                   "name": "Carmel Brancen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ae1102d3-ea2b-4b9f-9ab7-b3d2328685eb",
                   "name": "Michael Clarke",
                   "score": "1"
                 }
@@ -285,17 +397,26 @@
         },
         {
           "players": [
-            "Mark Green & Howard Railton",
-            "Alan Dodds & Steve Collett"
+            {
+              "playerId": "team-player/f782d666-0df3-409f-ba4f-c1ebf6e30d61",
+              "name": "Mark Green & Howard Railton"
+            },
+            {
+              "playerId": "team-player/883311a4-6f5a-4029-82bd-c94ae7390d44",
+              "name": "Alan Dodds & Steve Collett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f9cc6c6-6e8f-4c98-94a2-c14ab5a90fe7",
               "players": [
                 {
+                  "playerId": "team-player/f782d666-0df3-409f-ba4f-c1ebf6e30d61",
                   "name": "Mark Green & Howard Railton",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/883311a4-6f5a-4029-82bd-c94ae7390d44",
                   "name": "Alan Dodds & Steve Collett",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7b83ff29-f9a4-40b2-a9dc-6f699834f767",
               "players": [
                 {
+                  "playerId": "team-player/f782d666-0df3-409f-ba4f-c1ebf6e30d61",
                   "name": "Mark Green & Howard Railton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/883311a4-6f5a-4029-82bd-c94ae7390d44",
                   "name": "Alan Dodds & Steve Collett",
                   "score": "6"
                 }

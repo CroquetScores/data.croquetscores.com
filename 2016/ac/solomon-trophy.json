@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/d36f0c48-0291-45aa-874f-47ccc9211190",
   "name": "Solomon Trophy (GB vs USA)",
   "sport": "ac",
   "firstDay": "2016-06-28",
   "lastDay": "2016-07-01",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Great Britain",
       "shortName": "Great Brit",
       "players": [
-        "David Maugham",
-        "David Maugham & Jack Wicks",
-        "David Walters",
-        "Jack Wicks",
-        "Mark Ormerod",
-        "Samir Patel",
-        "Samir Patel & David Walters",
-        "Stephen Mulliner",
-        "Stephen Mulliner & Mark Ormerod"
+        {
+          "playerId": "team-player/eb1c4b2b-9bc8-423a-b88c-6720977067a9",
+          "name": "David Maugham"
+        },
+        {
+          "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
+          "name": "David Maugham & Jack Wicks"
+        },
+        {
+          "playerId": "team-player/db1bf882-9420-4b85-b981-505a9fd76f95",
+          "name": "David Walters"
+        },
+        {
+          "playerId": "team-player/afe74ce2-7d1d-464c-b5c9-8b0586f6bb12",
+          "name": "Jack Wicks"
+        },
+        {
+          "playerId": "team-player/71dea9af-e76a-4dee-b1c4-2171182f64a7",
+          "name": "Mark Ormerod"
+        },
+        {
+          "playerId": "team-player/6f4c07a7-3d64-4f4f-abea-a08f8cc6cfaf",
+          "name": "Samir Patel"
+        },
+        {
+          "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
+          "name": "Samir Patel & David Walters"
+        },
+        {
+          "playerId": "team-player/f28861d4-3d5e-4e67-9d46-0db855e80d41",
+          "name": "Stephen Mulliner"
+        },
+        {
+          "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
+          "name": "Stephen Mulliner & Mark Ormerod"
+        }
       ]
     },
     {
       "name": "United States of America",
       "shortName": "United Sta",
       "players": [
-        "Ben Rothman",
-        "David Maloof",
-        "David Maloof & Ben Rothman",
-        "Jeff Soo",
-        "Matthew Essick",
-        "Matthew Essick & Robert Hurst",
-        "Robert Hurst",
-        "Stuart Lawrence",
-        "Stuart Lawrence & Jeff Soo"
+        {
+          "playerId": "team-player/192868c1-f65d-4900-98e6-9089e3b8f273",
+          "name": "Ben Rothman"
+        },
+        {
+          "playerId": "team-player/0fd620dc-f7e9-4fe2-8f50-a68488007392",
+          "name": "David Maloof"
+        },
+        {
+          "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
+          "name": "David Maloof & Ben Rothman"
+        },
+        {
+          "playerId": "team-player/840f97a3-5055-4df3-8782-062ebf91dc45",
+          "name": "Jeff Soo"
+        },
+        {
+          "playerId": "team-player/089d6dcb-cef7-4c81-acd1-272f4eff87e8",
+          "name": "Matthew Essick"
+        },
+        {
+          "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
+          "name": "Matthew Essick & Robert Hurst"
+        },
+        {
+          "playerId": "team-player/ab7cd650-f022-4eb2-9687-31cc4df65ee9",
+          "name": "Robert Hurst"
+        },
+        {
+          "playerId": "team-player/db66294e-3a4e-40dc-8d80-1e7d6c495e45",
+          "name": "Stuart Lawrence"
+        },
+        {
+          "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
+          "name": "Stuart Lawrence & Jeff Soo"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b8e99ee7-97fb-4698-9d80-22a6cb26046d",
       "teams": [
         "Great Britain",
         "United States of America"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Samir Patel & David Walters",
-            "Matthew Essick & Robert Hurst"
+            {
+              "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
+              "name": "Samir Patel & David Walters"
+            },
+            {
+              "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
+              "name": "Matthew Essick & Robert Hurst"
+            }
           ],
           "games": [
             {
+              "gameId": "game/70b47896-2602-4a9d-ae6e-199e41d5bb18",
               "players": [
                 {
+                  "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
                   "name": "Samir Patel & David Walters",
                   "score": "26tp (P)"
                 },
                 {
+                  "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
                   "name": "Matthew Essick & Robert Hurst",
                   "score": "2"
                 }
@@ -68,12 +135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4c5465de-4dba-4564-b0e5-dfe84f2e5904",
               "players": [
                 {
+                  "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
                   "name": "Samir Patel & David Walters",
                   "score": "26tp (P)"
                 },
                 {
+                  "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
                   "name": "Matthew Essick & Robert Hurst",
                   "score": "2"
                 }
@@ -85,17 +155,26 @@
         },
         {
           "players": [
-            "David Maugham & Jack Wicks",
-            "David Maloof & Ben Rothman"
+            {
+              "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
+              "name": "David Maugham & Jack Wicks"
+            },
+            {
+              "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
+              "name": "David Maloof & Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4697e340-5f5b-4911-a527-d104d9bba7e6",
               "players": [
                 {
+                  "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
                   "name": "David Maugham & Jack Wicks",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
                   "name": "David Maloof & Ben Rothman",
                   "score": "26tp (M)"
                 }
@@ -104,12 +183,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d162d49a-e254-4085-9850-1481eceab4fd",
               "players": [
                 {
+                  "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
                   "name": "David Maugham & Jack Wicks",
                   "score": "26tp (W)"
                 },
                 {
+                  "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
                   "name": "David Maloof & Ben Rothman",
                   "score": "0"
                 }
@@ -118,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f93d4073-79be-4948-a1dd-4b15f2350ac5",
               "players": [
                 {
+                  "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
                   "name": "David Maugham & Jack Wicks",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
                   "name": "David Maloof & Ben Rothman",
                   "score": "26tp (R)"
                 }
@@ -135,17 +220,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner & Mark Ormerod",
-            "Stuart Lawrence & Jeff Soo"
+            {
+              "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
+              "name": "Stephen Mulliner & Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
+              "name": "Stuart Lawrence & Jeff Soo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6cdc9cf0-a7bd-4ace-88f0-3daaf9d80eb8",
               "players": [
                 {
+                  "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
                   "name": "Stephen Mulliner & Mark Ormerod",
                   "score": "26tp (M)"
                 },
                 {
+                  "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
                   "name": "Stuart Lawrence & Jeff Soo",
                   "score": "5"
                 }
@@ -154,12 +248,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8ff1625d-7a30-4c9c-a1cf-4d46c3da0c99",
               "players": [
                 {
+                  "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
                   "name": "Stephen Mulliner & Mark Ormerod",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
                   "name": "Stuart Lawrence & Jeff Soo",
                   "score": "26tp (S)"
                 }
@@ -168,12 +265,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c65e0f6a-c9cd-46cc-9347-90815a42ea00",
               "players": [
                 {
+                  "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
                   "name": "Stephen Mulliner & Mark Ormerod",
                   "score": "26tpo (M)"
                 },
                 {
+                  "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
                   "name": "Stuart Lawrence & Jeff Soo",
                   "score": "14"
                 }
@@ -185,17 +285,26 @@
         },
         {
           "players": [
-            "David Maugham & Jack Wicks",
-            "Stuart Lawrence & Jeff Soo"
+            {
+              "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
+              "name": "David Maugham & Jack Wicks"
+            },
+            {
+              "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
+              "name": "Stuart Lawrence & Jeff Soo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/31ebcb6a-43de-42ff-99e3-a575b18bc2cf",
               "players": [
                 {
+                  "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
                   "name": "David Maugham & Jack Wicks",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
                   "name": "Stuart Lawrence & Jeff Soo",
                   "score": "26"
                 }
@@ -204,12 +313,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b758ca65-6343-4e3f-87d0-ffc6cc019bd1",
               "players": [
                 {
+                  "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
                   "name": "David Maugham & Jack Wicks",
                   "score": "26tp (M)"
                 },
                 {
+                  "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
                   "name": "Stuart Lawrence & Jeff Soo",
                   "score": "5"
                 }
@@ -218,12 +330,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7eb7ee1b-4cb7-4f93-80ce-1d4307034c16",
               "players": [
                 {
+                  "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
                   "name": "David Maugham & Jack Wicks",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
                   "name": "Stuart Lawrence & Jeff Soo",
                   "score": "26"
                 }
@@ -235,17 +350,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner & Mark Ormerod",
-            "Matthew Essick & Robert Hurst"
+            {
+              "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
+              "name": "Stephen Mulliner & Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
+              "name": "Matthew Essick & Robert Hurst"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3d6dd06a-5b5b-4ef6-a383-4c1720b1138d",
               "players": [
                 {
+                  "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
                   "name": "Stephen Mulliner & Mark Ormerod",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
                   "name": "Matthew Essick & Robert Hurst",
                   "score": "10"
                 }
@@ -254,12 +378,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/89c08a8a-fbbf-409a-a8d6-022dbe082062",
               "players": [
                 {
+                  "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
                   "name": "Stephen Mulliner & Mark Ormerod",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
                   "name": "Matthew Essick & Robert Hurst",
                   "score": "9"
                 }
@@ -271,17 +398,26 @@
         },
         {
           "players": [
-            "Samir Patel & David Walters",
-            "David Maloof & Ben Rothman"
+            {
+              "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
+              "name": "Samir Patel & David Walters"
+            },
+            {
+              "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
+              "name": "David Maloof & Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f956294f-f63b-480a-80d1-98af123e97c0",
               "players": [
                 {
+                  "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
                   "name": "Samir Patel & David Walters",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
                   "name": "David Maloof & Ben Rothman",
                   "score": "26"
                 }
@@ -290,12 +426,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e12f24cc-215d-48c7-b20a-d73b05f97e0d",
               "players": [
                 {
+                  "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
                   "name": "Samir Patel & David Walters",
                   "score": "26tp (P)"
                 },
                 {
+                  "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
                   "name": "David Maloof & Ben Rothman",
                   "score": "9"
                 }
@@ -304,12 +443,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bfadaedd-7b13-41f5-b493-e6c420b82e42",
               "players": [
                 {
+                  "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
                   "name": "Samir Patel & David Walters",
                   "score": "26tp (P)"
                 },
                 {
+                  "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
                   "name": "David Maloof & Ben Rothman",
                   "score": "9"
                 }
@@ -321,17 +463,26 @@
         },
         {
           "players": [
-            "Jack Wicks",
-            "Jeff Soo"
+            {
+              "playerId": "team-player/afe74ce2-7d1d-464c-b5c9-8b0586f6bb12",
+              "name": "Jack Wicks"
+            },
+            {
+              "playerId": "team-player/840f97a3-5055-4df3-8782-062ebf91dc45",
+              "name": "Jeff Soo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/16494a58-b477-4090-9e61-924417bfce3a",
               "players": [
                 {
+                  "playerId": "team-player/afe74ce2-7d1d-464c-b5c9-8b0586f6bb12",
                   "name": "Jack Wicks",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/840f97a3-5055-4df3-8782-062ebf91dc45",
                   "name": "Jeff Soo",
                   "score": "26"
                 }
@@ -340,12 +491,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f0a13e3d-599e-4872-8e80-695a504bb79a",
               "players": [
                 {
+                  "playerId": "team-player/afe74ce2-7d1d-464c-b5c9-8b0586f6bb12",
                   "name": "Jack Wicks",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/840f97a3-5055-4df3-8782-062ebf91dc45",
                   "name": "Jeff Soo",
                   "score": "12"
                 }
@@ -354,12 +508,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e7eba6d1-52f8-44a2-947f-1da7fa936b03",
               "players": [
                 {
+                  "playerId": "team-player/afe74ce2-7d1d-464c-b5c9-8b0586f6bb12",
                   "name": "Jack Wicks",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/840f97a3-5055-4df3-8782-062ebf91dc45",
                   "name": "Jeff Soo",
                   "score": "22"
                 }
@@ -371,17 +528,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/f28861d4-3d5e-4e67-9d46-0db855e80d41",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/192868c1-f65d-4900-98e6-9089e3b8f273",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0816cbb3-7213-4b82-9968-3d93f3fc2767",
               "players": [
                 {
+                  "playerId": "team-player/f28861d4-3d5e-4e67-9d46-0db855e80d41",
                   "name": "Stephen Mulliner",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/192868c1-f65d-4900-98e6-9089e3b8f273",
                   "name": "Ben Rothman",
                   "score": "0"
                 }
@@ -390,12 +556,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/338e2731-7367-4cc3-a981-4862ba6d46d8",
               "players": [
                 {
+                  "playerId": "team-player/f28861d4-3d5e-4e67-9d46-0db855e80d41",
                   "name": "Stephen Mulliner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/192868c1-f65d-4900-98e6-9089e3b8f273",
                   "name": "Ben Rothman",
                   "score": "1"
                 }
@@ -407,17 +576,26 @@
         },
         {
           "players": [
-            "David Walters",
-            "Robert Hurst"
+            {
+              "playerId": "team-player/db1bf882-9420-4b85-b981-505a9fd76f95",
+              "name": "David Walters"
+            },
+            {
+              "playerId": "team-player/ab7cd650-f022-4eb2-9687-31cc4df65ee9",
+              "name": "Robert Hurst"
+            }
           ],
           "games": [
             {
+              "gameId": "game/910d707f-43e6-4e49-b637-a3c58f052d02",
               "players": [
                 {
+                  "playerId": "team-player/db1bf882-9420-4b85-b981-505a9fd76f95",
                   "name": "David Walters",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/ab7cd650-f022-4eb2-9687-31cc4df65ee9",
                   "name": "Robert Hurst",
                   "score": "12"
                 }
@@ -426,12 +604,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/085659dc-8f08-47ea-a213-9727c34a4d2f",
               "players": [
                 {
+                  "playerId": "team-player/db1bf882-9420-4b85-b981-505a9fd76f95",
                   "name": "David Walters",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/ab7cd650-f022-4eb2-9687-31cc4df65ee9",
                   "name": "Robert Hurst",
                   "score": "2"
                 }
@@ -443,17 +624,26 @@
         },
         {
           "players": [
-            "Mark Ormerod",
-            "Stuart Lawrence"
+            {
+              "playerId": "team-player/71dea9af-e76a-4dee-b1c4-2171182f64a7",
+              "name": "Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/db66294e-3a4e-40dc-8d80-1e7d6c495e45",
+              "name": "Stuart Lawrence"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a77dc967-7db4-4beb-a384-c24d8d1a2998",
               "players": [
                 {
+                  "playerId": "team-player/71dea9af-e76a-4dee-b1c4-2171182f64a7",
                   "name": "Mark Ormerod",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/db66294e-3a4e-40dc-8d80-1e7d6c495e45",
                   "name": "Stuart Lawrence",
                   "score": "21"
                 }
@@ -462,12 +652,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f28c76ae-db75-4801-ba2d-190968b06eae",
               "players": [
                 {
+                  "playerId": "team-player/71dea9af-e76a-4dee-b1c4-2171182f64a7",
                   "name": "Mark Ormerod",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/db66294e-3a4e-40dc-8d80-1e7d6c495e45",
                   "name": "Stuart Lawrence",
                   "score": "26tp"
                 }
@@ -476,12 +669,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/89abd38e-5dd8-4d64-8a31-6b67f39573c3",
               "players": [
                 {
+                  "playerId": "team-player/71dea9af-e76a-4dee-b1c4-2171182f64a7",
                   "name": "Mark Ormerod",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/db66294e-3a4e-40dc-8d80-1e7d6c495e45",
                   "name": "Stuart Lawrence",
                   "score": "13"
                 }
@@ -493,17 +689,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "Matthew Essick"
+            {
+              "playerId": "team-player/6f4c07a7-3d64-4f4f-abea-a08f8cc6cfaf",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/089d6dcb-cef7-4c81-acd1-272f4eff87e8",
+              "name": "Matthew Essick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2342a2c-0cd0-4503-9fae-275d8e32aac4",
               "players": [
                 {
+                  "playerId": "team-player/6f4c07a7-3d64-4f4f-abea-a08f8cc6cfaf",
                   "name": "Samir Patel",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/089d6dcb-cef7-4c81-acd1-272f4eff87e8",
                   "name": "Matthew Essick",
                   "score": "26tp"
                 }
@@ -512,12 +717,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/455865d4-bc4e-4c56-82f0-13de862690aa",
               "players": [
                 {
+                  "playerId": "team-player/6f4c07a7-3d64-4f4f-abea-a08f8cc6cfaf",
                   "name": "Samir Patel",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/089d6dcb-cef7-4c81-acd1-272f4eff87e8",
                   "name": "Matthew Essick",
                   "score": "26tp"
                 }
@@ -529,17 +737,26 @@
         },
         {
           "players": [
-            "David Maugham",
-            "David Maloof"
+            {
+              "playerId": "team-player/eb1c4b2b-9bc8-423a-b88c-6720977067a9",
+              "name": "David Maugham"
+            },
+            {
+              "playerId": "team-player/0fd620dc-f7e9-4fe2-8f50-a68488007392",
+              "name": "David Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b625284c-9cff-457f-a23a-18299f6bf352",
               "players": [
                 {
+                  "playerId": "team-player/eb1c4b2b-9bc8-423a-b88c-6720977067a9",
                   "name": "David Maugham",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/0fd620dc-f7e9-4fe2-8f50-a68488007392",
                   "name": "David Maloof",
                   "score": "1"
                 }
@@ -548,12 +765,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/71786af4-5fe6-4e11-a9a0-af37f3d0efec",
               "players": [
                 {
+                  "playerId": "team-player/eb1c4b2b-9bc8-423a-b88c-6720977067a9",
                   "name": "David Maugham",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/0fd620dc-f7e9-4fe2-8f50-a68488007392",
                   "name": "David Maloof",
                   "score": "9"
                 }
@@ -565,17 +785,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner",
-            "David Maloof"
+            {
+              "playerId": "team-player/f28861d4-3d5e-4e67-9d46-0db855e80d41",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/0fd620dc-f7e9-4fe2-8f50-a68488007392",
+              "name": "David Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6689fb23-6e65-421d-89da-9a4eb48fa46c",
               "players": [
                 {
+                  "playerId": "team-player/f28861d4-3d5e-4e67-9d46-0db855e80d41",
                   "name": "Stephen Mulliner",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/0fd620dc-f7e9-4fe2-8f50-a68488007392",
                   "name": "David Maloof",
                   "score": "26tp"
                 }
@@ -584,12 +813,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3f927e27-9af9-4b4f-a214-43f1ca210fad",
               "players": [
                 {
+                  "playerId": "team-player/f28861d4-3d5e-4e67-9d46-0db855e80d41",
                   "name": "Stephen Mulliner",
                   "score": "26sxp"
                 },
                 {
+                  "playerId": "team-player/0fd620dc-f7e9-4fe2-8f50-a68488007392",
                   "name": "David Maloof",
                   "score": "6"
                 }
@@ -598,12 +830,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1720cfee-77b5-4a11-8f36-6857addae5f8",
               "players": [
                 {
+                  "playerId": "team-player/f28861d4-3d5e-4e67-9d46-0db855e80d41",
                   "name": "Stephen Mulliner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/0fd620dc-f7e9-4fe2-8f50-a68488007392",
                   "name": "David Maloof",
                   "score": "3"
                 }
@@ -615,17 +850,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "Jeff Soo"
+            {
+              "playerId": "team-player/6f4c07a7-3d64-4f4f-abea-a08f8cc6cfaf",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/840f97a3-5055-4df3-8782-062ebf91dc45",
+              "name": "Jeff Soo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e442b90d-fd2d-490e-ab51-fff49d044ee6",
               "players": [
                 {
+                  "playerId": "team-player/6f4c07a7-3d64-4f4f-abea-a08f8cc6cfaf",
                   "name": "Samir Patel",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/840f97a3-5055-4df3-8782-062ebf91dc45",
                   "name": "Jeff Soo",
                   "score": "15"
                 }
@@ -634,12 +878,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/509f7d19-36f2-4d03-9a23-d12bc8448ad1",
               "players": [
                 {
+                  "playerId": "team-player/6f4c07a7-3d64-4f4f-abea-a08f8cc6cfaf",
                   "name": "Samir Patel",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/840f97a3-5055-4df3-8782-062ebf91dc45",
                   "name": "Jeff Soo",
                   "score": "2"
                 }
@@ -651,17 +898,26 @@
         },
         {
           "players": [
-            "David Walters",
-            "Stuart Lawrence"
+            {
+              "playerId": "team-player/db1bf882-9420-4b85-b981-505a9fd76f95",
+              "name": "David Walters"
+            },
+            {
+              "playerId": "team-player/db66294e-3a4e-40dc-8d80-1e7d6c495e45",
+              "name": "Stuart Lawrence"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17bd0c30-e371-40be-8fbb-ea6118e05216",
               "players": [
                 {
+                  "playerId": "team-player/db1bf882-9420-4b85-b981-505a9fd76f95",
                   "name": "David Walters",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/db66294e-3a4e-40dc-8d80-1e7d6c495e45",
                   "name": "Stuart Lawrence",
                   "score": "9"
                 }
@@ -670,12 +926,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/da756408-f266-4d3d-8655-13d0c8d6fd37",
               "players": [
                 {
+                  "playerId": "team-player/db1bf882-9420-4b85-b981-505a9fd76f95",
                   "name": "David Walters",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/db66294e-3a4e-40dc-8d80-1e7d6c495e45",
                   "name": "Stuart Lawrence",
                   "score": "19"
                 }
@@ -687,17 +946,26 @@
         },
         {
           "players": [
-            "Mark Ormerod",
-            "Robert Hurst"
+            {
+              "playerId": "team-player/71dea9af-e76a-4dee-b1c4-2171182f64a7",
+              "name": "Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/ab7cd650-f022-4eb2-9687-31cc4df65ee9",
+              "name": "Robert Hurst"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3400a9f-61d8-42b2-8e6f-f5f2d64edda4",
               "players": [
                 {
+                  "playerId": "team-player/71dea9af-e76a-4dee-b1c4-2171182f64a7",
                   "name": "Mark Ormerod",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ab7cd650-f022-4eb2-9687-31cc4df65ee9",
                   "name": "Robert Hurst",
                   "score": "11"
                 }
@@ -706,12 +974,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9a8ab7db-075f-41fd-8cda-a9d842408537",
               "players": [
                 {
+                  "playerId": "team-player/71dea9af-e76a-4dee-b1c4-2171182f64a7",
                   "name": "Mark Ormerod",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ab7cd650-f022-4eb2-9687-31cc4df65ee9",
                   "name": "Robert Hurst",
                   "score": "20"
                 }
@@ -723,17 +994,26 @@
         },
         {
           "players": [
-            "Jack Wicks",
-            "Matthew Essick"
+            {
+              "playerId": "team-player/afe74ce2-7d1d-464c-b5c9-8b0586f6bb12",
+              "name": "Jack Wicks"
+            },
+            {
+              "playerId": "team-player/089d6dcb-cef7-4c81-acd1-272f4eff87e8",
+              "name": "Matthew Essick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2b4e1fad-f930-49ec-8e2d-7ad94b390017",
               "players": [
                 {
+                  "playerId": "team-player/afe74ce2-7d1d-464c-b5c9-8b0586f6bb12",
                   "name": "Jack Wicks",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/089d6dcb-cef7-4c81-acd1-272f4eff87e8",
                   "name": "Matthew Essick",
                   "score": "5"
                 }
@@ -742,12 +1022,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c9e0c6de-f7b7-4aec-921f-b60c110ab218",
               "players": [
                 {
+                  "playerId": "team-player/afe74ce2-7d1d-464c-b5c9-8b0586f6bb12",
                   "name": "Jack Wicks",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/089d6dcb-cef7-4c81-acd1-272f4eff87e8",
                   "name": "Matthew Essick",
                   "score": "26"
                 }
@@ -756,12 +1039,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/be06767b-884e-4ce1-8188-ffece37389c3",
               "players": [
                 {
+                  "playerId": "team-player/afe74ce2-7d1d-464c-b5c9-8b0586f6bb12",
                   "name": "Jack Wicks",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/089d6dcb-cef7-4c81-acd1-272f4eff87e8",
                   "name": "Matthew Essick",
                   "score": "0"
                 }
@@ -773,17 +1059,26 @@
         },
         {
           "players": [
-            "David Maugham",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/eb1c4b2b-9bc8-423a-b88c-6720977067a9",
+              "name": "David Maugham"
+            },
+            {
+              "playerId": "team-player/192868c1-f65d-4900-98e6-9089e3b8f273",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/211fa79e-9035-49bb-a622-0d1d411d0504",
               "players": [
                 {
+                  "playerId": "team-player/eb1c4b2b-9bc8-423a-b88c-6720977067a9",
                   "name": "David Maugham",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/192868c1-f65d-4900-98e6-9089e3b8f273",
                   "name": "Ben Rothman",
                   "score": "14"
                 }
@@ -792,12 +1087,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/af8e6133-77ab-4239-8878-0d9f81a3e4ff",
               "players": [
                 {
+                  "playerId": "team-player/eb1c4b2b-9bc8-423a-b88c-6720977067a9",
                   "name": "David Maugham",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/192868c1-f65d-4900-98e6-9089e3b8f273",
                   "name": "Ben Rothman",
                   "score": "15"
                 }
@@ -809,17 +1107,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner & Mark Ormerod",
-            "David Maloof & Ben Rothman"
+            {
+              "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
+              "name": "Stephen Mulliner & Mark Ormerod"
+            },
+            {
+              "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
+              "name": "David Maloof & Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3dea453c-6406-4d34-a953-2a8ea12bc583",
               "players": [
                 {
+                  "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
                   "name": "Stephen Mulliner & Mark Ormerod",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
                   "name": "David Maloof & Ben Rothman",
                   "score": "26tp"
                 }
@@ -828,12 +1135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/08fcc5ef-05c6-4d7b-af85-47c064d3c8f2",
               "players": [
                 {
+                  "playerId": "team-player/1e6599dd-57dd-49c6-bfc8-a0ab13ee9200",
                   "name": "Stephen Mulliner & Mark Ormerod",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/452eb17b-ed31-4f68-9732-1ff78611ba43",
                   "name": "David Maloof & Ben Rothman",
                   "score": "26otp (M)"
                 }
@@ -845,17 +1155,26 @@
         },
         {
           "players": [
-            "David Maugham & Jack Wicks",
-            "Matthew Essick & Robert Hurst"
+            {
+              "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
+              "name": "David Maugham & Jack Wicks"
+            },
+            {
+              "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
+              "name": "Matthew Essick & Robert Hurst"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a552ead2-8451-49c7-b6cc-8c99f3a714fc",
               "players": [
                 {
+                  "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
                   "name": "David Maugham & Jack Wicks",
                   "score": "26tpo (M)"
                 },
                 {
+                  "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
                   "name": "Matthew Essick & Robert Hurst",
                   "score": "19"
                 }
@@ -864,12 +1183,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5342319e-97b4-46dd-83a1-29bc73e138ea",
               "players": [
                 {
+                  "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
                   "name": "David Maugham & Jack Wicks",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
                   "name": "Matthew Essick & Robert Hurst",
                   "score": "26"
                 }
@@ -878,12 +1200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/048c9421-9836-443c-96d1-82e008e17d2f",
               "players": [
                 {
+                  "playerId": "team-player/03870846-a0be-43af-9db5-5edbaba0b6cc",
                   "name": "David Maugham & Jack Wicks",
                   "score": "26tp (M)"
                 },
                 {
+                  "playerId": "team-player/da96e518-aeb3-42a4-a0d9-5112aadaa295",
                   "name": "Matthew Essick & Robert Hurst",
                   "score": "19"
                 }
@@ -895,17 +1220,26 @@
         },
         {
           "players": [
-            "Samir Patel & David Walters",
-            "Stuart Lawrence & Jeff Soo"
+            {
+              "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
+              "name": "Samir Patel & David Walters"
+            },
+            {
+              "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
+              "name": "Stuart Lawrence & Jeff Soo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a95dad61-3cc5-4b02-87a6-2e9ff8de2979",
               "players": [
                 {
+                  "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
                   "name": "Samir Patel & David Walters",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
                   "name": "Stuart Lawrence & Jeff Soo",
                   "score": "26"
                 }
@@ -914,12 +1248,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2b083709-8461-41e8-968e-bb79de620643",
               "players": [
                 {
+                  "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
                   "name": "Samir Patel & David Walters",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
                   "name": "Stuart Lawrence & Jeff Soo",
                   "score": "9"
                 }
@@ -928,12 +1265,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f8e43a6d-2264-47db-b187-138b46062245",
               "players": [
                 {
+                  "playerId": "team-player/fe8a3d10-0758-432e-a7c0-423c6534e242",
                   "name": "Samir Patel & David Walters",
                   "score": "26tp (P)"
                 },
                 {
+                  "playerId": "team-player/6a430a93-9442-4948-bd8f-3cb2351a76f5",
                   "name": "Stuart Lawrence & Jeff Soo",
                   "score": "1"
                 }

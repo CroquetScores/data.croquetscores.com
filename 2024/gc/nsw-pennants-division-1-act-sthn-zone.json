@@ -1,38 +1,75 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/448611a9-2ffc-4173-be91-e24cd5838aa3",
   "name": "NSW GC Pennants Division 1 - ACT/Sthn Zone",
   "sport": "gc",
   "firstDay": "2024-11-09",
   "lastDay": "2024-11-09",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Canberra",
       "shortName": "Canberra",
       "players": [
-        "Ethan Gumbrell",
-        "Ian Donald & Rob Ey",
-        "Julie Toms & Kevin Maloney",
-        "Karen Bisley",
-        "Mark Scruton",
-        "Ralph Richardson"
+        {
+          "playerId": "team-player/544b78dc-9201-4baf-babc-682b623e9560",
+          "name": "Ethan Gumbrell"
+        },
+        {
+          "playerId": "team-player/439ed43a-8f50-4130-99dc-8aa3b4197c18",
+          "name": "Ian Donald & Rob Ey"
+        },
+        {
+          "playerId": "team-player/0c04b6c1-0b98-4422-b5bd-876f07bf3d53",
+          "name": "Julie Toms & Kevin Maloney"
+        },
+        {
+          "playerId": "team-player/1927c136-ed22-45ff-acf4-f6c9753b004a",
+          "name": "Karen Bisley"
+        },
+        {
+          "playerId": "team-player/59610fd1-1c6f-4c75-9a1d-0763f81d7602",
+          "name": "Mark Scruton"
+        },
+        {
+          "playerId": "team-player/3fbd20e2-1969-47d9-92c3-9ab9b8ecae9e",
+          "name": "Ralph Richardson"
+        }
       ]
     },
     {
       "name": "Nowra",
       "shortName": "Nowra",
       "players": [
-        "Carol Tieck & Brian Mitchell",
-        "Carol Tieck & Geoff Evans",
-        "Geoff Evans",
-        "Karen Tieck",
-        "Wayne Worrall"
+        {
+          "playerId": "team-player/ce4fb5bc-d604-456d-8d37-886e84be414d",
+          "name": "Carol Tieck & Brian Mitchell"
+        },
+        {
+          "playerId": "team-player/b98d3ff2-f928-425b-868a-327dbdf95a64",
+          "name": "Carol Tieck & Geoff Evans"
+        },
+        {
+          "playerId": "team-player/c490e727-dc85-49a9-b27a-49bb230191c9",
+          "name": "Geoff Evans"
+        },
+        {
+          "playerId": "team-player/59c90849-51f9-4e81-be49-b0a1102eafef",
+          "name": "Karen Tieck"
+        },
+        {
+          "playerId": "team-player/22e0d31b-97bf-4676-bf8f-00488e4d046c",
+          "name": "Wayne Worrall"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/9dd16f98-7edc-4427-80a5-fb1af326b646",
       "teams": [
         "Canberra",
         "Nowra"
@@ -42,17 +79,26 @@
       "matches": [
         {
           "players": [
-            "Ian Donald & Rob Ey",
-            "Carol Tieck & Geoff Evans"
+            {
+              "playerId": "team-player/439ed43a-8f50-4130-99dc-8aa3b4197c18",
+              "name": "Ian Donald & Rob Ey"
+            },
+            {
+              "playerId": "team-player/b98d3ff2-f928-425b-868a-327dbdf95a64",
+              "name": "Carol Tieck & Geoff Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2fe4aa59-a561-4bbc-9d1a-8c8ca1e3b850",
               "players": [
                 {
+                  "playerId": "team-player/439ed43a-8f50-4130-99dc-8aa3b4197c18",
                   "name": "Ian Donald & Rob Ey",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b98d3ff2-f928-425b-868a-327dbdf95a64",
                   "name": "Carol Tieck & Geoff Evans",
                   "score": "5"
                 }
@@ -61,12 +107,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/43f71945-d9c4-4658-81e4-f476e1c3276e",
               "players": [
                 {
+                  "playerId": "team-player/439ed43a-8f50-4130-99dc-8aa3b4197c18",
                   "name": "Ian Donald & Rob Ey",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b98d3ff2-f928-425b-868a-327dbdf95a64",
                   "name": "Carol Tieck & Geoff Evans",
                   "score": "4"
                 }
@@ -78,17 +127,26 @@
         },
         {
           "players": [
-            "Ethan Gumbrell",
-            "Karen Tieck"
+            {
+              "playerId": "team-player/544b78dc-9201-4baf-babc-682b623e9560",
+              "name": "Ethan Gumbrell"
+            },
+            {
+              "playerId": "team-player/59c90849-51f9-4e81-be49-b0a1102eafef",
+              "name": "Karen Tieck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c74ab902-4c6d-4a7d-998d-72ee362b4e1c",
               "players": [
                 {
+                  "playerId": "team-player/544b78dc-9201-4baf-babc-682b623e9560",
                   "name": "Ethan Gumbrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/59c90849-51f9-4e81-be49-b0a1102eafef",
                   "name": "Karen Tieck",
                   "score": "4"
                 }
@@ -97,12 +155,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e1f475fa-f2c8-49cd-ba96-0857e9b81961",
               "players": [
                 {
+                  "playerId": "team-player/544b78dc-9201-4baf-babc-682b623e9560",
                   "name": "Ethan Gumbrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/59c90849-51f9-4e81-be49-b0a1102eafef",
                   "name": "Karen Tieck",
                   "score": "3"
                 }
@@ -114,17 +175,26 @@
         },
         {
           "players": [
-            "Karen Bisley",
-            "Wayne Worrall"
+            {
+              "playerId": "team-player/1927c136-ed22-45ff-acf4-f6c9753b004a",
+              "name": "Karen Bisley"
+            },
+            {
+              "playerId": "team-player/22e0d31b-97bf-4676-bf8f-00488e4d046c",
+              "name": "Wayne Worrall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/487dbfb8-2270-4503-a3d7-d264c2787881",
               "players": [
                 {
+                  "playerId": "team-player/1927c136-ed22-45ff-acf4-f6c9753b004a",
                   "name": "Karen Bisley",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/22e0d31b-97bf-4676-bf8f-00488e4d046c",
                   "name": "Wayne Worrall",
                   "score": "6"
                 }
@@ -133,12 +203,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/736f1524-c190-4a20-a518-b0de5d6c7a6c",
               "players": [
                 {
+                  "playerId": "team-player/1927c136-ed22-45ff-acf4-f6c9753b004a",
                   "name": "Karen Bisley",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/22e0d31b-97bf-4676-bf8f-00488e4d046c",
                   "name": "Wayne Worrall",
                   "score": "2"
                 }
@@ -151,6 +224,7 @@
       ]
     },
     {
+      "competitionId": "competition/c93b34d0-bff7-45c7-a01e-a35f25270250",
       "teams": [
         "Nowra",
         "Canberra"
@@ -160,17 +234,26 @@
       "matches": [
         {
           "players": [
-            "Carol Tieck & Brian Mitchell",
-            "Julie Toms & Kevin Maloney"
+            {
+              "playerId": "team-player/ce4fb5bc-d604-456d-8d37-886e84be414d",
+              "name": "Carol Tieck & Brian Mitchell"
+            },
+            {
+              "playerId": "team-player/0c04b6c1-0b98-4422-b5bd-876f07bf3d53",
+              "name": "Julie Toms & Kevin Maloney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5468b7a0-ac2c-4f49-8417-09a16c4a8651",
               "players": [
                 {
+                  "playerId": "team-player/ce4fb5bc-d604-456d-8d37-886e84be414d",
                   "name": "Carol Tieck & Brian Mitchell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0c04b6c1-0b98-4422-b5bd-876f07bf3d53",
                   "name": "Julie Toms & Kevin Maloney",
                   "score": "3"
                 }
@@ -179,12 +262,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/58381dda-f751-4414-b326-fe8c0672ce31",
               "players": [
                 {
+                  "playerId": "team-player/ce4fb5bc-d604-456d-8d37-886e84be414d",
                   "name": "Carol Tieck & Brian Mitchell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/0c04b6c1-0b98-4422-b5bd-876f07bf3d53",
                   "name": "Julie Toms & Kevin Maloney",
                   "score": "7"
                 }
@@ -193,12 +279,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d1eeb237-bfc1-4c1a-a7d4-2cfddcb3e83c",
               "players": [
                 {
+                  "playerId": "team-player/ce4fb5bc-d604-456d-8d37-886e84be414d",
                   "name": "Carol Tieck & Brian Mitchell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0c04b6c1-0b98-4422-b5bd-876f07bf3d53",
                   "name": "Julie Toms & Kevin Maloney",
                   "score": "1"
                 }
@@ -210,17 +299,26 @@
         },
         {
           "players": [
-            "Geoff Evans",
-            "Mark Scruton"
+            {
+              "playerId": "team-player/c490e727-dc85-49a9-b27a-49bb230191c9",
+              "name": "Geoff Evans"
+            },
+            {
+              "playerId": "team-player/59610fd1-1c6f-4c75-9a1d-0763f81d7602",
+              "name": "Mark Scruton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17430ec7-d8f1-4835-a2e9-1473a74ccdbd",
               "players": [
                 {
+                  "playerId": "team-player/c490e727-dc85-49a9-b27a-49bb230191c9",
                   "name": "Geoff Evans",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/59610fd1-1c6f-4c75-9a1d-0763f81d7602",
                   "name": "Mark Scruton",
                   "score": "6"
                 }
@@ -229,12 +327,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f3afc37e-78d9-4969-8e79-140fde2139b9",
               "players": [
                 {
+                  "playerId": "team-player/c490e727-dc85-49a9-b27a-49bb230191c9",
                   "name": "Geoff Evans",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/59610fd1-1c6f-4c75-9a1d-0763f81d7602",
                   "name": "Mark Scruton",
                   "score": "7"
                 }
@@ -246,17 +347,26 @@
         },
         {
           "players": [
-            "Karen Tieck",
-            "Ralph Richardson"
+            {
+              "playerId": "team-player/59c90849-51f9-4e81-be49-b0a1102eafef",
+              "name": "Karen Tieck"
+            },
+            {
+              "playerId": "team-player/3fbd20e2-1969-47d9-92c3-9ab9b8ecae9e",
+              "name": "Ralph Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5dae8d94-4a60-4a4b-95b2-04706e19025e",
               "players": [
                 {
+                  "playerId": "team-player/59c90849-51f9-4e81-be49-b0a1102eafef",
                   "name": "Karen Tieck",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3fbd20e2-1969-47d9-92c3-9ab9b8ecae9e",
                   "name": "Ralph Richardson",
                   "score": "7"
                 }
@@ -265,12 +375,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e7f659e9-4edf-4992-886d-3fc69d4ea27a",
               "players": [
                 {
+                  "playerId": "team-player/59c90849-51f9-4e81-be49-b0a1102eafef",
                   "name": "Karen Tieck",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3fbd20e2-1969-47d9-92c3-9ab9b8ecae9e",
                   "name": "Ralph Richardson",
                   "score": "7"
                 }

@@ -1,43 +1,95 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1d2b5608-318b-431c-a774-9b5800f59ab2",
   "name": "SWCF Golf Level Glamorgan v Bath",
   "sport": "gc",
   "firstDay": "2024-07-06",
   "lastDay": "2024-07-06",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Glamorgan",
       "shortName": "Glamorgan",
       "players": [
-        "Garry and Sarah",
-        "Garry McElwain",
-        "Kevin Ham",
-        "Mike and Kevin",
-        "Mike Parry",
-        "Sarah Melvin"
+        {
+          "playerId": "team-player/efa865b7-6bb5-417d-836f-0396ce416b81",
+          "name": "Garry and Sarah"
+        },
+        {
+          "playerId": "team-player/4d852146-84c6-447e-b150-50f8cac788bd",
+          "name": "Garry McElwain"
+        },
+        {
+          "playerId": "team-player/c9613189-76cd-4b5b-b148-2cefc2200bfe",
+          "name": "Kevin Ham"
+        },
+        {
+          "playerId": "team-player/c2b316d5-8985-4487-b6bf-095b68adf594",
+          "name": "Mike and Kevin"
+        },
+        {
+          "playerId": "team-player/6f978d9c-8bb1-45d9-b3a0-6b4d5dfd4741",
+          "name": "Mike Parry"
+        },
+        {
+          "playerId": "team-player/64163a45-36c4-4248-af43-72faf77c2bcf",
+          "name": "Sarah Melvin"
+        }
       ]
     },
     {
       "name": "Bath",
       "shortName": "Bath",
       "players": [
-        "Anwen Owens",
-        "Bob & Neil",
-        "Bob & Sally",
-        "Bob Hart",
-        "Neil Pinker",
-        "Phillip de Glanville",
-        "Sally Helvey",
-        "Tony & Anwen",
-        "Tony & Phillip",
-        "Tony Curson"
+        {
+          "playerId": "team-player/0519af17-25de-4daf-a171-3ec1b3c26b6d",
+          "name": "Anwen Owens"
+        },
+        {
+          "playerId": "team-player/71097f2c-d57b-479a-adff-f72c8db0b429",
+          "name": "Bob & Neil"
+        },
+        {
+          "playerId": "team-player/f6c4e4e7-545e-40c5-a16c-389b4cf718c9",
+          "name": "Bob & Sally"
+        },
+        {
+          "playerId": "team-player/ac81b04e-ab10-4747-ab5a-bd58b9358419",
+          "name": "Bob Hart"
+        },
+        {
+          "playerId": "team-player/d880ba2d-977c-4b3c-acf8-009b20552901",
+          "name": "Neil Pinker"
+        },
+        {
+          "playerId": "team-player/fce3005d-0c92-4ee7-b882-e907e80dc00d",
+          "name": "Phillip de Glanville"
+        },
+        {
+          "playerId": "team-player/9879cfaa-07f7-4b23-8d7a-0ba54b014f45",
+          "name": "Sally Helvey"
+        },
+        {
+          "playerId": "team-player/944c3b79-de84-4564-8bec-a15edcd6d1ea",
+          "name": "Tony & Anwen"
+        },
+        {
+          "playerId": "team-player/83da5ff1-3d8c-45be-9b71-39e576203394",
+          "name": "Tony & Phillip"
+        },
+        {
+          "playerId": "team-player/dd1f3608-91b5-451c-8383-55d0acac6af5",
+          "name": "Tony Curson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/4e1b0845-2b0b-4556-9c56-8a93fd265cb9",
       "teams": [
         "Glamorgan",
         "Bath"
@@ -47,17 +99,26 @@
       "matches": [
         {
           "players": [
-            "Garry and Sarah",
-            "Tony & Anwen"
+            {
+              "playerId": "team-player/efa865b7-6bb5-417d-836f-0396ce416b81",
+              "name": "Garry and Sarah"
+            },
+            {
+              "playerId": "team-player/944c3b79-de84-4564-8bec-a15edcd6d1ea",
+              "name": "Tony & Anwen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c4195175-7b1f-453f-a262-d24fb89ace7d",
               "players": [
                 {
+                  "playerId": "team-player/efa865b7-6bb5-417d-836f-0396ce416b81",
                   "name": "Garry and Sarah",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/944c3b79-de84-4564-8bec-a15edcd6d1ea",
                   "name": "Tony & Anwen",
                   "score": "5"
                 }
@@ -69,17 +130,26 @@
         },
         {
           "players": [
-            "Mike and Kevin",
-            "Bob & Sally"
+            {
+              "playerId": "team-player/c2b316d5-8985-4487-b6bf-095b68adf594",
+              "name": "Mike and Kevin"
+            },
+            {
+              "playerId": "team-player/f6c4e4e7-545e-40c5-a16c-389b4cf718c9",
+              "name": "Bob & Sally"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af13c053-06dd-4fe8-bb14-8678f75484e8",
               "players": [
                 {
+                  "playerId": "team-player/c2b316d5-8985-4487-b6bf-095b68adf594",
                   "name": "Mike and Kevin",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f6c4e4e7-545e-40c5-a16c-389b4cf718c9",
                   "name": "Bob & Sally",
                   "score": "7"
                 }
@@ -91,17 +161,26 @@
         },
         {
           "players": [
-            "Garry and Sarah",
-            "Bob & Neil"
+            {
+              "playerId": "team-player/efa865b7-6bb5-417d-836f-0396ce416b81",
+              "name": "Garry and Sarah"
+            },
+            {
+              "playerId": "team-player/71097f2c-d57b-479a-adff-f72c8db0b429",
+              "name": "Bob & Neil"
+            }
           ],
           "games": [
             {
+              "gameId": "game/74d81408-8b1a-40e3-b594-eed7cba379a6",
               "players": [
                 {
+                  "playerId": "team-player/efa865b7-6bb5-417d-836f-0396ce416b81",
                   "name": "Garry and Sarah",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/71097f2c-d57b-479a-adff-f72c8db0b429",
                   "name": "Bob & Neil",
                   "score": "7"
                 }
@@ -113,17 +192,26 @@
         },
         {
           "players": [
-            "Mike and Kevin",
-            "Tony & Phillip"
+            {
+              "playerId": "team-player/c2b316d5-8985-4487-b6bf-095b68adf594",
+              "name": "Mike and Kevin"
+            },
+            {
+              "playerId": "team-player/83da5ff1-3d8c-45be-9b71-39e576203394",
+              "name": "Tony & Phillip"
+            }
           ],
           "games": [
             {
+              "gameId": "game/925d7329-91ac-4a75-83eb-538c232125de",
               "players": [
                 {
+                  "playerId": "team-player/c2b316d5-8985-4487-b6bf-095b68adf594",
                   "name": "Mike and Kevin",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/83da5ff1-3d8c-45be-9b71-39e576203394",
                   "name": "Tony & Phillip",
                   "score": "7"
                 }
@@ -135,17 +223,26 @@
         },
         {
           "players": [
-            "Garry McElwain",
-            "Neil Pinker"
+            {
+              "playerId": "team-player/4d852146-84c6-447e-b150-50f8cac788bd",
+              "name": "Garry McElwain"
+            },
+            {
+              "playerId": "team-player/d880ba2d-977c-4b3c-acf8-009b20552901",
+              "name": "Neil Pinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b4a77ccc-e97c-45c6-9da5-e43ab265d39f",
               "players": [
                 {
+                  "playerId": "team-player/4d852146-84c6-447e-b150-50f8cac788bd",
                   "name": "Garry McElwain",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d880ba2d-977c-4b3c-acf8-009b20552901",
                   "name": "Neil Pinker",
                   "score": "2"
                 }
@@ -157,17 +254,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Phillip de Glanville"
+            {
+              "playerId": "team-player/64163a45-36c4-4248-af43-72faf77c2bcf",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/fce3005d-0c92-4ee7-b882-e907e80dc00d",
+              "name": "Phillip de Glanville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7cef1a27-d09a-412b-ad8a-1e6380470924",
               "players": [
                 {
+                  "playerId": "team-player/64163a45-36c4-4248-af43-72faf77c2bcf",
                   "name": "Sarah Melvin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fce3005d-0c92-4ee7-b882-e907e80dc00d",
                   "name": "Phillip de Glanville",
                   "score": "2"
                 }
@@ -179,17 +285,26 @@
         },
         {
           "players": [
-            "Mike Parry",
-            "Anwen Owens"
+            {
+              "playerId": "team-player/6f978d9c-8bb1-45d9-b3a0-6b4d5dfd4741",
+              "name": "Mike Parry"
+            },
+            {
+              "playerId": "team-player/0519af17-25de-4daf-a171-3ec1b3c26b6d",
+              "name": "Anwen Owens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4fd8ec7-e692-4834-aeef-681776600d52",
               "players": [
                 {
+                  "playerId": "team-player/6f978d9c-8bb1-45d9-b3a0-6b4d5dfd4741",
                   "name": "Mike Parry",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0519af17-25de-4daf-a171-3ec1b3c26b6d",
                   "name": "Anwen Owens",
                   "score": "7"
                 }
@@ -201,17 +316,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Tony Curson"
+            {
+              "playerId": "team-player/c9613189-76cd-4b5b-b148-2cefc2200bfe",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/dd1f3608-91b5-451c-8383-55d0acac6af5",
+              "name": "Tony Curson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0b406738-8dbf-4ffc-b33e-c7d1ba311b6b",
               "players": [
                 {
+                  "playerId": "team-player/c9613189-76cd-4b5b-b148-2cefc2200bfe",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dd1f3608-91b5-451c-8383-55d0acac6af5",
                   "name": "Tony Curson",
                   "score": "6"
                 }
@@ -223,17 +347,26 @@
         },
         {
           "players": [
-            "Garry McElwain",
-            "Bob Hart"
+            {
+              "playerId": "team-player/4d852146-84c6-447e-b150-50f8cac788bd",
+              "name": "Garry McElwain"
+            },
+            {
+              "playerId": "team-player/ac81b04e-ab10-4747-ab5a-bd58b9358419",
+              "name": "Bob Hart"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c67fa594-b137-4146-a350-a61e62da69b0",
               "players": [
                 {
+                  "playerId": "team-player/4d852146-84c6-447e-b150-50f8cac788bd",
                   "name": "Garry McElwain",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ac81b04e-ab10-4747-ab5a-bd58b9358419",
                   "name": "Bob Hart",
                   "score": "2"
                 }
@@ -245,17 +378,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Neil Pinker"
+            {
+              "playerId": "team-player/64163a45-36c4-4248-af43-72faf77c2bcf",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/d880ba2d-977c-4b3c-acf8-009b20552901",
+              "name": "Neil Pinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a77b482c-c9f6-4f53-b1d0-b95338fa335f",
               "players": [
                 {
+                  "playerId": "team-player/64163a45-36c4-4248-af43-72faf77c2bcf",
                   "name": "Sarah Melvin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d880ba2d-977c-4b3c-acf8-009b20552901",
                   "name": "Neil Pinker",
                   "score": "5"
                 }
@@ -267,17 +409,26 @@
         },
         {
           "players": [
-            "Mike Parry",
-            "Sally Helvey"
+            {
+              "playerId": "team-player/6f978d9c-8bb1-45d9-b3a0-6b4d5dfd4741",
+              "name": "Mike Parry"
+            },
+            {
+              "playerId": "team-player/9879cfaa-07f7-4b23-8d7a-0ba54b014f45",
+              "name": "Sally Helvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9bf32a8-2ec1-45d1-b971-a17bb4261d5d",
               "players": [
                 {
+                  "playerId": "team-player/6f978d9c-8bb1-45d9-b3a0-6b4d5dfd4741",
                   "name": "Mike Parry",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9879cfaa-07f7-4b23-8d7a-0ba54b014f45",
                   "name": "Sally Helvey",
                   "score": "2"
                 }
@@ -289,17 +440,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Phillip de Glanville"
+            {
+              "playerId": "team-player/c9613189-76cd-4b5b-b148-2cefc2200bfe",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/fce3005d-0c92-4ee7-b882-e907e80dc00d",
+              "name": "Phillip de Glanville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2166c3d-022f-4911-a9f9-bc92d674f3a9",
               "players": [
                 {
+                  "playerId": "team-player/c9613189-76cd-4b5b-b148-2cefc2200bfe",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fce3005d-0c92-4ee7-b882-e907e80dc00d",
                   "name": "Phillip de Glanville",
                   "score": "5"
                 }
@@ -311,17 +471,26 @@
         },
         {
           "players": [
-            "Garry McElwain",
-            "Sally Helvey"
+            {
+              "playerId": "team-player/4d852146-84c6-447e-b150-50f8cac788bd",
+              "name": "Garry McElwain"
+            },
+            {
+              "playerId": "team-player/9879cfaa-07f7-4b23-8d7a-0ba54b014f45",
+              "name": "Sally Helvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e8880a9-eb0d-40f5-96f3-4941e81ce419",
               "players": [
                 {
+                  "playerId": "team-player/4d852146-84c6-447e-b150-50f8cac788bd",
                   "name": "Garry McElwain",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9879cfaa-07f7-4b23-8d7a-0ba54b014f45",
                   "name": "Sally Helvey",
                   "score": "3"
                 }
@@ -333,17 +502,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Anwen Owens"
+            {
+              "playerId": "team-player/64163a45-36c4-4248-af43-72faf77c2bcf",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/0519af17-25de-4daf-a171-3ec1b3c26b6d",
+              "name": "Anwen Owens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ab3699b4-fad6-4d3f-b83f-701c7523fc89",
               "players": [
                 {
+                  "playerId": "team-player/64163a45-36c4-4248-af43-72faf77c2bcf",
                   "name": "Sarah Melvin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0519af17-25de-4daf-a171-3ec1b3c26b6d",
                   "name": "Anwen Owens",
                   "score": "4"
                 }
@@ -355,17 +533,26 @@
         },
         {
           "players": [
-            "Mike Parry",
-            "Bob Hart"
+            {
+              "playerId": "team-player/6f978d9c-8bb1-45d9-b3a0-6b4d5dfd4741",
+              "name": "Mike Parry"
+            },
+            {
+              "playerId": "team-player/ac81b04e-ab10-4747-ab5a-bd58b9358419",
+              "name": "Bob Hart"
+            }
           ],
           "games": [
             {
+              "gameId": "game/81d8b90a-44f2-45a5-807f-7aa915e8475b",
               "players": [
                 {
+                  "playerId": "team-player/6f978d9c-8bb1-45d9-b3a0-6b4d5dfd4741",
                   "name": "Mike Parry",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ac81b04e-ab10-4747-ab5a-bd58b9358419",
                   "name": "Bob Hart",
                   "score": "2"
                 }
@@ -377,17 +564,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Neil Pinker"
+            {
+              "playerId": "team-player/c9613189-76cd-4b5b-b148-2cefc2200bfe",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/d880ba2d-977c-4b3c-acf8-009b20552901",
+              "name": "Neil Pinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/93dad469-cd8e-45e2-9fb3-82b4b6614944",
               "players": [
                 {
+                  "playerId": "team-player/c9613189-76cd-4b5b-b148-2cefc2200bfe",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d880ba2d-977c-4b3c-acf8-009b20552901",
                   "name": "Neil Pinker",
                   "score": "3"
                 }
@@ -399,17 +595,26 @@
         },
         {
           "players": [
-            "Garry McElwain",
-            "Tony Curson"
+            {
+              "playerId": "team-player/4d852146-84c6-447e-b150-50f8cac788bd",
+              "name": "Garry McElwain"
+            },
+            {
+              "playerId": "team-player/dd1f3608-91b5-451c-8383-55d0acac6af5",
+              "name": "Tony Curson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/29dcfcfe-2777-4c63-8d67-021dd8f0d21e",
               "players": [
                 {
+                  "playerId": "team-player/4d852146-84c6-447e-b150-50f8cac788bd",
                   "name": "Garry McElwain",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dd1f3608-91b5-451c-8383-55d0acac6af5",
                   "name": "Tony Curson",
                   "score": "5"
                 }
@@ -421,17 +626,26 @@
         },
         {
           "players": [
-            "Sarah Melvin",
-            "Sally Helvey"
+            {
+              "playerId": "team-player/64163a45-36c4-4248-af43-72faf77c2bcf",
+              "name": "Sarah Melvin"
+            },
+            {
+              "playerId": "team-player/9879cfaa-07f7-4b23-8d7a-0ba54b014f45",
+              "name": "Sally Helvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa1fa5e3-3c26-4c1b-9b0d-25ad76c16f4b",
               "players": [
                 {
+                  "playerId": "team-player/64163a45-36c4-4248-af43-72faf77c2bcf",
                   "name": "Sarah Melvin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9879cfaa-07f7-4b23-8d7a-0ba54b014f45",
                   "name": "Sally Helvey",
                   "score": "4"
                 }
@@ -443,17 +657,26 @@
         },
         {
           "players": [
-            "Mike Parry",
-            "Phillip de Glanville"
+            {
+              "playerId": "team-player/6f978d9c-8bb1-45d9-b3a0-6b4d5dfd4741",
+              "name": "Mike Parry"
+            },
+            {
+              "playerId": "team-player/fce3005d-0c92-4ee7-b882-e907e80dc00d",
+              "name": "Phillip de Glanville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88a9e450-6eef-4408-b730-1ea19b2459d6",
               "players": [
                 {
+                  "playerId": "team-player/6f978d9c-8bb1-45d9-b3a0-6b4d5dfd4741",
                   "name": "Mike Parry",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/fce3005d-0c92-4ee7-b882-e907e80dc00d",
                   "name": "Phillip de Glanville",
                   "score": "7"
                 }
@@ -465,17 +688,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Anwen Owens"
+            {
+              "playerId": "team-player/c9613189-76cd-4b5b-b148-2cefc2200bfe",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/0519af17-25de-4daf-a171-3ec1b3c26b6d",
+              "name": "Anwen Owens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b174419-d9f9-43c0-b4e9-a3d7058e339f",
               "players": [
                 {
+                  "playerId": "team-player/c9613189-76cd-4b5b-b148-2cefc2200bfe",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0519af17-25de-4daf-a171-3ec1b3c26b6d",
                   "name": "Anwen Owens",
                   "score": "3"
                 }

@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f06d8a4d-2fa5-4e9e-9ad5-84067f1b53fc",
   "name": "GC Inter-Club: Watford vs Hurlingham",
   "sport": "gc",
   "firstDay": "2025-04-09",
   "lastDay": "2025-04-09",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Watford",
       "shortName": "Watford",
       "players": [
-        "Archer & Connolly",
-        "Eddie Chung",
-        "Kevin Connolly",
-        "Nick Archer",
-        "Simon Hathrell"
+        {
+          "playerId": "team-player/b86f1312-84c5-437c-a759-464d48d75290",
+          "name": "Archer & Connolly"
+        },
+        {
+          "playerId": "team-player/e650b8ad-36d4-43c3-9762-ef3c6c36eb79",
+          "name": "Eddie Chung"
+        },
+        {
+          "playerId": "team-player/4b43138f-f29a-4559-ac2a-2f410ea603b8",
+          "name": "Kevin Connolly"
+        },
+        {
+          "playerId": "team-player/3a547634-ec17-4924-bdc8-66e641f21e60",
+          "name": "Nick Archer"
+        },
+        {
+          "playerId": "team-player/0f2ad2aa-c044-4588-adc4-e1d498d19b02",
+          "name": "Simon Hathrell"
+        }
       ]
     },
     {
       "name": "Hurlingham",
       "shortName": "Hurlingham",
       "players": [
-        "Aston Wade",
-        "Nigel Polhill",
-        "Richard Andrews",
-        "Roderick Sheen",
-        "Wade & Polhill"
+        {
+          "playerId": "team-player/5349b3ce-6cd7-47c5-a566-3b5638b76ba7",
+          "name": "Aston Wade"
+        },
+        {
+          "playerId": "team-player/c17e075d-f9d4-411a-81ec-0200f64d4845",
+          "name": "Nigel Polhill"
+        },
+        {
+          "playerId": "team-player/f4a29f82-550b-4eea-8903-a259181d4960",
+          "name": "Richard Andrews"
+        },
+        {
+          "playerId": "team-player/f03c8539-51ce-416e-aa68-5f24e0fa40e3",
+          "name": "Roderick Sheen"
+        },
+        {
+          "playerId": "team-player/0eaa6de8-f3e3-4ec5-ad75-7d6472ad8f60",
+          "name": "Wade & Polhill"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/9d955a20-0330-46cd-9765-a8e9304b089f",
       "teams": [
         "Watford",
         "Hurlingham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Archer & Connolly",
-            "Wade & Polhill"
+            {
+              "playerId": "team-player/b86f1312-84c5-437c-a759-464d48d75290",
+              "name": "Archer & Connolly"
+            },
+            {
+              "playerId": "team-player/0eaa6de8-f3e3-4ec5-ad75-7d6472ad8f60",
+              "name": "Wade & Polhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a70477eb-92cf-4acb-9698-9426355a4439",
               "players": [
                 {
+                  "playerId": "team-player/b86f1312-84c5-437c-a759-464d48d75290",
                   "name": "Archer & Connolly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0eaa6de8-f3e3-4ec5-ad75-7d6472ad8f60",
                   "name": "Wade & Polhill",
                   "score": "3"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/74971930-6752-4441-8e08-d489d67a204d",
               "players": [
                 {
+                  "playerId": "team-player/b86f1312-84c5-437c-a759-464d48d75290",
                   "name": "Archer & Connolly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0eaa6de8-f3e3-4ec5-ad75-7d6472ad8f60",
                   "name": "Wade & Polhill",
                   "score": "5"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Simon Hathrell",
-            "Richard Andrews"
+            {
+              "playerId": "team-player/0f2ad2aa-c044-4588-adc4-e1d498d19b02",
+              "name": "Simon Hathrell"
+            },
+            {
+              "playerId": "team-player/f4a29f82-550b-4eea-8903-a259181d4960",
+              "name": "Richard Andrews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/07f14bc0-24f9-42b9-ad2e-cfe5ed590674",
               "players": [
                 {
+                  "playerId": "team-player/0f2ad2aa-c044-4588-adc4-e1d498d19b02",
                   "name": "Simon Hathrell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f4a29f82-550b-4eea-8903-a259181d4960",
                   "name": "Richard Andrews",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f95e11df-ed74-47e1-9fd6-372e846bf665",
               "players": [
                 {
+                  "playerId": "team-player/0f2ad2aa-c044-4588-adc4-e1d498d19b02",
                   "name": "Simon Hathrell",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f4a29f82-550b-4eea-8903-a259181d4960",
                   "name": "Richard Andrews",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Eddie Chung",
-            "Roderick Sheen"
+            {
+              "playerId": "team-player/e650b8ad-36d4-43c3-9762-ef3c6c36eb79",
+              "name": "Eddie Chung"
+            },
+            {
+              "playerId": "team-player/f03c8539-51ce-416e-aa68-5f24e0fa40e3",
+              "name": "Roderick Sheen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f418bca-7703-46a5-94dc-9d940be95e12",
               "players": [
                 {
+                  "playerId": "team-player/e650b8ad-36d4-43c3-9762-ef3c6c36eb79",
                   "name": "Eddie Chung",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f03c8539-51ce-416e-aa68-5f24e0fa40e3",
                   "name": "Roderick Sheen",
                   "score": "2"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a092bf08-d037-41f2-b222-2720074eb3fc",
               "players": [
                 {
+                  "playerId": "team-player/e650b8ad-36d4-43c3-9762-ef3c6c36eb79",
                   "name": "Eddie Chung",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f03c8539-51ce-416e-aa68-5f24e0fa40e3",
                   "name": "Roderick Sheen",
                   "score": "7"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f7686d0f-eee5-47be-a802-b5e06825e72a",
               "players": [
                 {
+                  "playerId": "team-player/e650b8ad-36d4-43c3-9762-ef3c6c36eb79",
                   "name": "Eddie Chung",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f03c8539-51ce-416e-aa68-5f24e0fa40e3",
                   "name": "Roderick Sheen",
                   "score": "7"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Nick Archer",
-            "Aston Wade"
+            {
+              "playerId": "team-player/3a547634-ec17-4924-bdc8-66e641f21e60",
+              "name": "Nick Archer"
+            },
+            {
+              "playerId": "team-player/5349b3ce-6cd7-47c5-a566-3b5638b76ba7",
+              "name": "Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c99cdc7b-7fa5-4b0c-8978-b5fabdded5a4",
               "players": [
                 {
+                  "playerId": "team-player/3a547634-ec17-4924-bdc8-66e641f21e60",
                   "name": "Nick Archer",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/5349b3ce-6cd7-47c5-a566-3b5638b76ba7",
                   "name": "Aston Wade",
                   "score": "7"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3b24b2f3-5be5-467a-be3b-4bbc162d1907",
               "players": [
                 {
+                  "playerId": "team-player/3a547634-ec17-4924-bdc8-66e641f21e60",
                   "name": "Nick Archer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5349b3ce-6cd7-47c5-a566-3b5638b76ba7",
                   "name": "Aston Wade",
                   "score": "4"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/78ece5ed-178c-4d05-b414-7fefc2babe50",
               "players": [
                 {
+                  "playerId": "team-player/3a547634-ec17-4924-bdc8-66e641f21e60",
                   "name": "Nick Archer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5349b3ce-6cd7-47c5-a566-3b5638b76ba7",
                   "name": "Aston Wade",
                   "score": "7"
                 }
@@ -213,17 +301,26 @@
         },
         {
           "players": [
-            "Kevin Connolly",
-            "Nigel Polhill"
+            {
+              "playerId": "team-player/4b43138f-f29a-4559-ac2a-2f410ea603b8",
+              "name": "Kevin Connolly"
+            },
+            {
+              "playerId": "team-player/c17e075d-f9d4-411a-81ec-0200f64d4845",
+              "name": "Nigel Polhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d840852-21d0-469c-972e-6224c12cb8c2",
               "players": [
                 {
+                  "playerId": "team-player/4b43138f-f29a-4559-ac2a-2f410ea603b8",
                   "name": "Kevin Connolly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c17e075d-f9d4-411a-81ec-0200f64d4845",
                   "name": "Nigel Polhill",
                   "score": "2"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/839a0557-40d0-4949-84e7-34135466a7d9",
               "players": [
                 {
+                  "playerId": "team-player/4b43138f-f29a-4559-ac2a-2f410ea603b8",
                   "name": "Kevin Connolly",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c17e075d-f9d4-411a-81ec-0200f64d4845",
                   "name": "Nigel Polhill",
                   "score": "7"
                 }
@@ -246,12 +346,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c2ab9c0e-dc9b-4c1e-b89b-2b2a2866166f",
               "players": [
                 {
+                  "playerId": "team-player/4b43138f-f29a-4559-ac2a-2f410ea603b8",
                   "name": "Kevin Connolly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c17e075d-f9d4-411a-81ec-0200f64d4845",
                   "name": "Nigel Polhill",
                   "score": "4"
                 }
@@ -263,17 +366,26 @@
         },
         {
           "players": [
-            "Simon Hathrell",
-            "Roderick Sheen"
+            {
+              "playerId": "team-player/0f2ad2aa-c044-4588-adc4-e1d498d19b02",
+              "name": "Simon Hathrell"
+            },
+            {
+              "playerId": "team-player/f03c8539-51ce-416e-aa68-5f24e0fa40e3",
+              "name": "Roderick Sheen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54d18f43-76ff-4c33-9ecb-bda230fc54f9",
               "players": [
                 {
+                  "playerId": "team-player/0f2ad2aa-c044-4588-adc4-e1d498d19b02",
                   "name": "Simon Hathrell",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/f03c8539-51ce-416e-aa68-5f24e0fa40e3",
                   "name": "Roderick Sheen",
                   "score": "7"
                 }
@@ -282,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8406f633-e106-4eb5-8a70-a38ae90f2581",
               "players": [
                 {
+                  "playerId": "team-player/0f2ad2aa-c044-4588-adc4-e1d498d19b02",
                   "name": "Simon Hathrell",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/f03c8539-51ce-416e-aa68-5f24e0fa40e3",
                   "name": "Roderick Sheen",
                   "score": "7"
                 }
@@ -299,17 +414,26 @@
         },
         {
           "players": [
-            "Eddie Chung",
-            "Richard Andrews"
+            {
+              "playerId": "team-player/e650b8ad-36d4-43c3-9762-ef3c6c36eb79",
+              "name": "Eddie Chung"
+            },
+            {
+              "playerId": "team-player/f4a29f82-550b-4eea-8903-a259181d4960",
+              "name": "Richard Andrews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f7bf5d9-ab68-4062-a1d8-c5601b447a07",
               "players": [
                 {
+                  "playerId": "team-player/e650b8ad-36d4-43c3-9762-ef3c6c36eb79",
                   "name": "Eddie Chung",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f4a29f82-550b-4eea-8903-a259181d4960",
                   "name": "Richard Andrews",
                   "score": "4"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8fdb0707-be3d-4370-b74b-f9713d1826ea",
               "players": [
                 {
+                  "playerId": "team-player/e650b8ad-36d4-43c3-9762-ef3c6c36eb79",
                   "name": "Eddie Chung",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f4a29f82-550b-4eea-8903-a259181d4960",
                   "name": "Richard Andrews",
                   "score": "6"
                 }

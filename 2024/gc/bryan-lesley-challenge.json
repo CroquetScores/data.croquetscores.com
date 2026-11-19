@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/9071aa13-9c89-4130-896f-b21fd8976302",
   "name": "Bryan Lesley Challenge GC",
   "sport": "gc",
   "firstDay": "2024-03-09",
   "lastDay": "2024-03-09",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Matamata",
       "shortName": "Matamata",
       "players": [
-        "Anne and Marie",
-        "Barry and Adrienne",
-        "Beverley and Julie",
-        "Heather and Neil",
-        "Linda and Jeni"
+        {
+          "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
+          "name": "Anne and Marie"
+        },
+        {
+          "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
+          "name": "Barry and Adrienne"
+        },
+        {
+          "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
+          "name": "Beverley and Julie"
+        },
+        {
+          "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
+          "name": "Heather and Neil"
+        },
+        {
+          "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
+          "name": "Linda and Jeni"
+        }
       ]
     },
     {
       "name": "Morrinsville",
       "shortName": "Morrinsvil",
       "players": [
-        "Geoff and Trish",
-        "Grace and Lesley",
-        "Murray and Gayleene",
-        "Pat and Lance",
-        "Sheila and Hugh"
+        {
+          "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
+          "name": "Geoff and Trish"
+        },
+        {
+          "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
+          "name": "Grace and Lesley"
+        },
+        {
+          "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
+          "name": "Murray and Gayleene"
+        },
+        {
+          "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
+          "name": "Pat and Lance"
+        },
+        {
+          "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
+          "name": "Sheila and Hugh"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/c8cb6ea1-29d2-409f-bf72-48e1744abc5c",
       "teams": [
         "Matamata",
         "Morrinsville"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Heather and Neil",
-            "Grace and Lesley"
+            {
+              "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
+              "name": "Heather and Neil"
+            },
+            {
+              "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
+              "name": "Grace and Lesley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cb31ce46-3ed0-4d52-ac11-f55aa931f20b",
               "players": [
                 {
+                  "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
                   "name": "Heather and Neil",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
                   "name": "Grace and Lesley",
                   "score": "2"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Anne and Marie",
-            "Pat and Lance"
+            {
+              "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
+              "name": "Anne and Marie"
+            },
+            {
+              "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
+              "name": "Pat and Lance"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7c2e0da8-1d6e-4dff-a500-c152813c7f20",
               "players": [
                 {
+                  "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
                   "name": "Anne and Marie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
                   "name": "Pat and Lance",
                   "score": "5"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Linda and Jeni",
-            "Murray and Gayleene"
+            {
+              "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
+              "name": "Linda and Jeni"
+            },
+            {
+              "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
+              "name": "Murray and Gayleene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3345c5d7-bafe-48d7-84a3-31944ce04d04",
               "players": [
                 {
+                  "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
                   "name": "Linda and Jeni",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
                   "name": "Murray and Gayleene",
                   "score": "3"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Beverley and Julie",
-            "Geoff and Trish"
+            {
+              "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
+              "name": "Beverley and Julie"
+            },
+            {
+              "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
+              "name": "Geoff and Trish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ee55aca-204d-47b3-8321-56adbf649a4c",
               "players": [
                 {
+                  "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
                   "name": "Beverley and Julie",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
                   "name": "Geoff and Trish",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Barry and Adrienne",
-            "Sheila and Hugh"
+            {
+              "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
+              "name": "Barry and Adrienne"
+            },
+            {
+              "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
+              "name": "Sheila and Hugh"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cdf281da-908d-4617-a1f8-4e71350bfbdf",
               "players": [
                 {
+                  "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
                   "name": "Barry and Adrienne",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
                   "name": "Sheila and Hugh",
                   "score": "7"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Barry and Adrienne",
-            "Pat and Lance"
+            {
+              "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
+              "name": "Barry and Adrienne"
+            },
+            {
+              "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
+              "name": "Pat and Lance"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c9ce5f12-09d2-4b19-adc5-33f5c79dedb8",
               "players": [
                 {
+                  "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
                   "name": "Barry and Adrienne",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
                   "name": "Pat and Lance",
                   "score": "6"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Anne and Marie",
-            "Geoff and Trish"
+            {
+              "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
+              "name": "Anne and Marie"
+            },
+            {
+              "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
+              "name": "Geoff and Trish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d0d8970-320e-4709-95a9-de939b4d9fee",
               "players": [
                 {
+                  "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
                   "name": "Anne and Marie",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
                   "name": "Geoff and Trish",
                   "score": "7"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Linda and Jeni",
-            "Sheila and Hugh"
+            {
+              "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
+              "name": "Linda and Jeni"
+            },
+            {
+              "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
+              "name": "Sheila and Hugh"
+            }
           ],
           "games": [
             {
+              "gameId": "game/878d02bf-e5de-4649-9d1a-608fcb876118",
               "players": [
                 {
+                  "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
                   "name": "Linda and Jeni",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
                   "name": "Sheila and Hugh",
                   "score": "7"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Heather and Neil",
-            "Murray and Gayleene"
+            {
+              "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
+              "name": "Heather and Neil"
+            },
+            {
+              "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
+              "name": "Murray and Gayleene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/36bfc481-b0d6-4e8c-8a49-c65a5acbe95c",
               "players": [
                 {
+                  "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
                   "name": "Heather and Neil",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
                   "name": "Murray and Gayleene",
                   "score": "4"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Beverley and Julie",
-            "Grace and Lesley"
+            {
+              "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
+              "name": "Beverley and Julie"
+            },
+            {
+              "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
+              "name": "Grace and Lesley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a5792714-72b8-4bd5-91d4-b5e79cf6a876",
               "players": [
                 {
+                  "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
                   "name": "Beverley and Julie",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
                   "name": "Grace and Lesley",
                   "score": "5"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Barry and Adrienne",
-            "Geoff and Trish"
+            {
+              "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
+              "name": "Barry and Adrienne"
+            },
+            {
+              "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
+              "name": "Geoff and Trish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7109b24b-9a06-4349-b958-f8e475a6b3de",
               "players": [
                 {
+                  "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
                   "name": "Barry and Adrienne",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
                   "name": "Geoff and Trish",
                   "score": "7"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Anne and Marie",
-            "Grace and Lesley"
+            {
+              "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
+              "name": "Anne and Marie"
+            },
+            {
+              "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
+              "name": "Grace and Lesley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/790a070c-8ec4-462b-a466-9de5c7b830c7",
               "players": [
                 {
+                  "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
                   "name": "Anne and Marie",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
                   "name": "Grace and Lesley",
                   "score": "6"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Linda and Jeni",
-            "Pat and Lance"
+            {
+              "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
+              "name": "Linda and Jeni"
+            },
+            {
+              "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
+              "name": "Pat and Lance"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2022614e-0837-4c33-85c5-5599eef6d985",
               "players": [
                 {
+                  "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
                   "name": "Linda and Jeni",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
                   "name": "Pat and Lance",
                   "score": "7"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Heather and Neil",
-            "Sheila and Hugh"
+            {
+              "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
+              "name": "Heather and Neil"
+            },
+            {
+              "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
+              "name": "Sheila and Hugh"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2a075c4d-05a8-4394-8be5-3c6d363afbf5",
               "players": [
                 {
+                  "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
                   "name": "Heather and Neil",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
                   "name": "Sheila and Hugh",
                   "score": "5"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Beverley and Julie",
-            "Murray and Gayleene"
+            {
+              "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
+              "name": "Beverley and Julie"
+            },
+            {
+              "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
+              "name": "Murray and Gayleene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9677f0d3-ddd1-4ae1-98d0-93e1c611e2eb",
               "players": [
                 {
+                  "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
                   "name": "Beverley and Julie",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
                   "name": "Murray and Gayleene",
                   "score": "6"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Linda and Jeni",
-            "Geoff and Trish"
+            {
+              "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
+              "name": "Linda and Jeni"
+            },
+            {
+              "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
+              "name": "Geoff and Trish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/535d825e-4917-44e5-9190-37dc2186b609",
               "players": [
                 {
+                  "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
                   "name": "Linda and Jeni",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
                   "name": "Geoff and Trish",
                   "score": "7"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "Beverley and Julie",
-            "Sheila and Hugh"
+            {
+              "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
+              "name": "Beverley and Julie"
+            },
+            {
+              "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
+              "name": "Sheila and Hugh"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6cab0ca8-3788-4d2b-a816-6a235eda1b2a",
               "players": [
                 {
+                  "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
                   "name": "Beverley and Julie",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
                   "name": "Sheila and Hugh",
                   "score": "6"
                 }
@@ -415,17 +602,26 @@
         },
         {
           "players": [
-            "Heather and Neil",
-            "Pat and Lance"
+            {
+              "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
+              "name": "Heather and Neil"
+            },
+            {
+              "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
+              "name": "Pat and Lance"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8d05a06c-aea3-4b37-b80f-8c030ef78fe6",
               "players": [
                 {
+                  "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
                   "name": "Heather and Neil",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
                   "name": "Pat and Lance",
                   "score": "4"
                 }
@@ -437,17 +633,26 @@
         },
         {
           "players": [
-            "Barry and Adrienne",
-            "Grace and Lesley"
+            {
+              "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
+              "name": "Barry and Adrienne"
+            },
+            {
+              "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
+              "name": "Grace and Lesley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0b5d94c6-5d27-481f-aaa2-c2f73ae94c30",
               "players": [
                 {
+                  "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
                   "name": "Barry and Adrienne",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
                   "name": "Grace and Lesley",
                   "score": "5"
                 }
@@ -459,17 +664,26 @@
         },
         {
           "players": [
-            "Anne and Marie",
-            "Murray and Gayleene"
+            {
+              "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
+              "name": "Anne and Marie"
+            },
+            {
+              "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
+              "name": "Murray and Gayleene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/48063e06-62b2-4a43-8827-55818c34cc8e",
               "players": [
                 {
+                  "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
                   "name": "Anne and Marie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
                   "name": "Murray and Gayleene",
                   "score": "4"
                 }
@@ -481,17 +695,26 @@
         },
         {
           "players": [
-            "Anne and Marie",
-            "Sheila and Hugh"
+            {
+              "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
+              "name": "Anne and Marie"
+            },
+            {
+              "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
+              "name": "Sheila and Hugh"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8158685b-bae2-44cc-8a2f-2cbb26e6361a",
               "players": [
                 {
+                  "playerId": "team-player/78effea1-f943-444c-8986-54d1c777ceaa",
                   "name": "Anne and Marie",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0b532784-2e1c-4fa6-8e9e-fcb08f658cb1",
                   "name": "Sheila and Hugh",
                   "score": "7"
                 }
@@ -503,17 +726,26 @@
         },
         {
           "players": [
-            "Linda and Jeni",
-            "Grace and Lesley"
+            {
+              "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
+              "name": "Linda and Jeni"
+            },
+            {
+              "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
+              "name": "Grace and Lesley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1dd33455-4510-443a-b96d-aa4198d2855b",
               "players": [
                 {
+                  "playerId": "team-player/50a98c20-65ec-4615-86f0-741252c2c8dc",
                   "name": "Linda and Jeni",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0ff68a60-9046-40ac-953a-6dbbe141e554",
                   "name": "Grace and Lesley",
                   "score": "3"
                 }
@@ -525,17 +757,26 @@
         },
         {
           "players": [
-            "Beverley and Julie",
-            "Pat and Lance"
+            {
+              "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
+              "name": "Beverley and Julie"
+            },
+            {
+              "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
+              "name": "Pat and Lance"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a991ec17-50bb-40db-bc7b-98584c7d8c0c",
               "players": [
                 {
+                  "playerId": "team-player/90b2ffe0-f598-4f3a-9bd6-3471a1df8982",
                   "name": "Beverley and Julie",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3be6cdab-18f7-4843-b830-8d7fd2d6cbd1",
                   "name": "Pat and Lance",
                   "score": "6"
                 }
@@ -547,17 +788,26 @@
         },
         {
           "players": [
-            "Heather and Neil",
-            "Geoff and Trish"
+            {
+              "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
+              "name": "Heather and Neil"
+            },
+            {
+              "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
+              "name": "Geoff and Trish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2ba0852-2899-44dc-9704-5aef518c90c6",
               "players": [
                 {
+                  "playerId": "team-player/b5493e21-e9d4-4d7b-80d5-155832a5a7ea",
                   "name": "Heather and Neil",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/eb41303c-5f1e-4cc6-952f-7240ac3d9780",
                   "name": "Geoff and Trish",
                   "score": "4"
                 }
@@ -569,17 +819,26 @@
         },
         {
           "players": [
-            "Barry and Adrienne",
-            "Murray and Gayleene"
+            {
+              "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
+              "name": "Barry and Adrienne"
+            },
+            {
+              "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
+              "name": "Murray and Gayleene"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca8015d7-38b9-4825-8a84-b7d16c268e9d",
               "players": [
                 {
+                  "playerId": "team-player/69265b40-135d-456f-ae78-e2e4aac79545",
                   "name": "Barry and Adrienne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d180c926-81db-4cd7-a484-c05ab1afd0a0",
                   "name": "Murray and Gayleene",
                   "score": "6"
                 }

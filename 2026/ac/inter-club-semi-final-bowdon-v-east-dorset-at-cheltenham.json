@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5e92e164-9633-4fd3-b520-4fb51238a0da",
   "name": "AC Inter-Club Tier 1 Semi-Final - Bowdon v East Dorset at Cheltenham",
   "sport": "ac",
   "firstDay": "2026-09-02",
   "lastDay": "2026-09-02",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Andrew Winn",
-        "Jack Good",
-        "Jack Good & Andrew Winn",
-        "Nigel Matthews",
-        "Simon Jenkins"
+        {
+          "playerId": "team-player/5ef90a8d-338d-4a7d-9a58-3c8cf413c447",
+          "name": "Andrew Winn"
+        },
+        {
+          "playerId": "team-player/be8cffc6-8b10-4f01-94f4-80b6827ac136",
+          "name": "Jack Good"
+        },
+        {
+          "playerId": "team-player/af1a94d2-46ae-42d3-b68d-9d1a01e2fa07",
+          "name": "Jack Good & Andrew Winn"
+        },
+        {
+          "playerId": "team-player/306c6098-3d76-4d13-865a-0640549bc6e5",
+          "name": "Nigel Matthews"
+        },
+        {
+          "playerId": "team-player/466ab604-a8ee-41c5-a922-5c88d60d91d1",
+          "name": "Simon Jenkins"
+        }
       ]
     },
     {
       "name": "East Dorset",
       "shortName": "East Dorse",
       "players": [
-        "David Fuller",
-        "David Fuller & Jeff Dawson",
-        "Jeff Dawson",
-        "Jonathan Powe",
-        "Simon Turner"
+        {
+          "playerId": "team-player/ee717bda-95a8-48fd-adfb-a3c9a59d64ae",
+          "name": "David Fuller"
+        },
+        {
+          "playerId": "team-player/cbbf0a48-0fd9-4a72-bf64-7dd01ceb5d92",
+          "name": "David Fuller & Jeff Dawson"
+        },
+        {
+          "playerId": "team-player/f3a4aa36-41c8-411d-bb63-b203f88ffed9",
+          "name": "Jeff Dawson"
+        },
+        {
+          "playerId": "team-player/75af28c2-4a43-4e45-a4ea-c9451962c198",
+          "name": "Jonathan Powe"
+        },
+        {
+          "playerId": "team-player/d45bae30-9b39-49cd-a82d-28f6140a7e10",
+          "name": "Simon Turner"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/797b4a90-4f06-400b-be50-e115d4dbbb6a",
       "teams": [
         "Bowdon",
         "East Dorset"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Jack Good & Andrew Winn",
-            "David Fuller & Jeff Dawson"
+            {
+              "playerId": "team-player/af1a94d2-46ae-42d3-b68d-9d1a01e2fa07",
+              "name": "Jack Good & Andrew Winn"
+            },
+            {
+              "playerId": "team-player/cbbf0a48-0fd9-4a72-bf64-7dd01ceb5d92",
+              "name": "David Fuller & Jeff Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/035370cd-2cfc-471f-a5f5-2e3a1cb956fe",
               "players": [
                 {
+                  "playerId": "team-player/af1a94d2-46ae-42d3-b68d-9d1a01e2fa07",
                   "name": "Jack Good & Andrew Winn",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/cbbf0a48-0fd9-4a72-bf64-7dd01ceb5d92",
                   "name": "David Fuller & Jeff Dawson",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Jonathan Powe"
+            {
+              "playerId": "team-player/306c6098-3d76-4d13-865a-0640549bc6e5",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/75af28c2-4a43-4e45-a4ea-c9451962c198",
+              "name": "Jonathan Powe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0a96df68-72ab-4fbc-8d26-dd734983800c",
               "players": [
                 {
+                  "playerId": "team-player/306c6098-3d76-4d13-865a-0640549bc6e5",
                   "name": "Nigel Matthews",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/75af28c2-4a43-4e45-a4ea-c9451962c198",
                   "name": "Jonathan Powe",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Simon Jenkins",
-            "Simon Turner"
+            {
+              "playerId": "team-player/466ab604-a8ee-41c5-a922-5c88d60d91d1",
+              "name": "Simon Jenkins"
+            },
+            {
+              "playerId": "team-player/d45bae30-9b39-49cd-a82d-28f6140a7e10",
+              "name": "Simon Turner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/905e3ce7-99bf-4fe1-bfb4-f0a03e2b054c",
               "players": [
                 {
+                  "playerId": "team-player/466ab604-a8ee-41c5-a922-5c88d60d91d1",
                   "name": "Simon Jenkins",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d45bae30-9b39-49cd-a82d-28f6140a7e10",
                   "name": "Simon Turner",
                   "score": "9"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Andrew Winn",
-            "Jeff Dawson"
+            {
+              "playerId": "team-player/5ef90a8d-338d-4a7d-9a58-3c8cf413c447",
+              "name": "Andrew Winn"
+            },
+            {
+              "playerId": "team-player/f3a4aa36-41c8-411d-bb63-b203f88ffed9",
+              "name": "Jeff Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/114a4680-1226-4118-92f4-893507c00d82",
               "players": [
                 {
+                  "playerId": "team-player/5ef90a8d-338d-4a7d-9a58-3c8cf413c447",
                   "name": "Andrew Winn",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f3a4aa36-41c8-411d-bb63-b203f88ffed9",
                   "name": "Jeff Dawson",
                   "score": "15"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Simon Turner"
+            {
+              "playerId": "team-player/306c6098-3d76-4d13-865a-0640549bc6e5",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/d45bae30-9b39-49cd-a82d-28f6140a7e10",
+              "name": "Simon Turner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cb355034-9c26-43cd-879e-8e60fcc2a040",
               "players": [
                 {
+                  "playerId": "team-player/306c6098-3d76-4d13-865a-0640549bc6e5",
                   "name": "Nigel Matthews",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d45bae30-9b39-49cd-a82d-28f6140a7e10",
                   "name": "Simon Turner",
                   "score": "0"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "David Fuller"
+            {
+              "playerId": "team-player/be8cffc6-8b10-4f01-94f4-80b6827ac136",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/ee717bda-95a8-48fd-adfb-a3c9a59d64ae",
+              "name": "David Fuller"
+            }
           ],
           "games": [
             {
+              "gameId": "game/335e4210-4297-485f-99bc-f3d3001ad30e",
               "players": [
                 {
+                  "playerId": "team-player/be8cffc6-8b10-4f01-94f4-80b6827ac136",
                   "name": "Jack Good",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ee717bda-95a8-48fd-adfb-a3c9a59d64ae",
                   "name": "David Fuller",
                   "score": "20"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Simon Jenkins",
-            "Jonathan Powe"
+            {
+              "playerId": "team-player/466ab604-a8ee-41c5-a922-5c88d60d91d1",
+              "name": "Simon Jenkins"
+            },
+            {
+              "playerId": "team-player/75af28c2-4a43-4e45-a4ea-c9451962c198",
+              "name": "Jonathan Powe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e8f2a63b-f979-4227-b684-6d4f78cc2263",
               "players": [
                 {
+                  "playerId": "team-player/466ab604-a8ee-41c5-a922-5c88d60d91d1",
                   "name": "Simon Jenkins",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/75af28c2-4a43-4e45-a4ea-c9451962c198",
                   "name": "Jonathan Powe",
                   "score": "26"
                 }

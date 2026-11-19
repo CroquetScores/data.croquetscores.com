@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7c9d58bb-095e-4ff8-8e6d-b2d7bc77bf65",
   "name": "Croquetwest AC Country V City",
   "sport": "ac",
   "firstDay": "2019-05-20",
   "lastDay": "2019-05-20",
   "country": "au",
   "region": "wa",
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Country",
       "shortName": "Country",
       "players": [
-        "David Smeeton",
-        "Kath Caris",
-        "Kim Reynolds",
-        "Raelene Willis",
-        "Raelene Willis & Kath Caris",
-        "Robyn Dart",
-        "Robyn Dart & David Smeeton",
-        "Sheila Twine",
-        "Sheila Twine & Kim Reynolds"
+        {
+          "playerId": "team-player/5b179918-efa8-4b8c-90f8-f993b85000a4",
+          "name": "David Smeeton"
+        },
+        {
+          "playerId": "team-player/244ece0e-33f5-49cf-ab98-56e47e57ddb0",
+          "name": "Kath Caris"
+        },
+        {
+          "playerId": "team-player/a65384d1-abfc-4733-b9f3-42e71d90c7ce",
+          "name": "Kim Reynolds"
+        },
+        {
+          "playerId": "team-player/f4a910d7-e649-4d79-9b7e-7be4ed7bd836",
+          "name": "Raelene Willis"
+        },
+        {
+          "playerId": "team-player/ce83d02d-f034-4a47-8b99-c94a4acd582c",
+          "name": "Raelene Willis & Kath Caris"
+        },
+        {
+          "playerId": "team-player/5df60f4e-13aa-43a6-a835-d2fdfa5ff63b",
+          "name": "Robyn Dart"
+        },
+        {
+          "playerId": "team-player/43ecda9f-495c-4c7c-87c2-999aab358aa7",
+          "name": "Robyn Dart & David Smeeton"
+        },
+        {
+          "playerId": "team-player/17e15072-8f25-44fc-a425-7d453092ceaa",
+          "name": "Sheila Twine"
+        },
+        {
+          "playerId": "team-player/d87091a0-8583-4697-9bec-59dca55d6b87",
+          "name": "Sheila Twine & Kim Reynolds"
+        }
       ]
     },
     {
       "name": "City",
       "shortName": "City",
       "players": [
-        "Basil Ladyman",
-        "Carmel Hodges",
-        "Carmel Hodges & John Doepel",
-        "Helen Eagle",
-        "Helen Eagle & Michael Murphy",
-        "John Doepel",
-        "Megan Fardon",
-        "Megan Fardon & Basil Ladyman",
-        "Michael Murphy"
+        {
+          "playerId": "team-player/2444ca3c-9d8f-4007-ab03-eb75fbd70856",
+          "name": "Basil Ladyman"
+        },
+        {
+          "playerId": "team-player/1cbbedef-9eee-434c-8251-7f828042c07b",
+          "name": "Carmel Hodges"
+        },
+        {
+          "playerId": "team-player/e2ba7192-f360-44f5-8dd3-72bf1ede2229",
+          "name": "Carmel Hodges & John Doepel"
+        },
+        {
+          "playerId": "team-player/45eead14-6566-4111-ba22-b70a20faf3ba",
+          "name": "Helen Eagle"
+        },
+        {
+          "playerId": "team-player/8958e873-3a9d-40d8-b399-0c01e828a18b",
+          "name": "Helen Eagle & Michael Murphy"
+        },
+        {
+          "playerId": "team-player/f6467a67-c5d6-4876-b108-281b717f8542",
+          "name": "John Doepel"
+        },
+        {
+          "playerId": "team-player/50d46586-1bf4-4ce9-ac72-c7bf6638c3dc",
+          "name": "Megan Fardon"
+        },
+        {
+          "playerId": "team-player/15032372-68a9-428a-a140-290b87383810",
+          "name": "Megan Fardon & Basil Ladyman"
+        },
+        {
+          "playerId": "team-player/bcb71a33-3d08-4e60-9510-46684e4dea50",
+          "name": "Michael Murphy"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/d6c56000-c24b-41d2-97aa-3b0976ea87f6",
       "teams": [
         "Country",
         "City"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Raelene Willis & Kath Caris",
-            "Helen Eagle & Michael Murphy"
+            {
+              "playerId": "team-player/ce83d02d-f034-4a47-8b99-c94a4acd582c",
+              "name": "Raelene Willis & Kath Caris"
+            },
+            {
+              "playerId": "team-player/8958e873-3a9d-40d8-b399-0c01e828a18b",
+              "name": "Helen Eagle & Michael Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/74289e99-e8ec-4d8f-b5f6-20890cca0282",
               "players": [
                 {
+                  "playerId": "team-player/ce83d02d-f034-4a47-8b99-c94a4acd582c",
                   "name": "Raelene Willis & Kath Caris",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/8958e873-3a9d-40d8-b399-0c01e828a18b",
                   "name": "Helen Eagle & Michael Murphy",
                   "score": "17"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "Sheila Twine & Kim Reynolds",
-            "Megan Fardon & Basil Ladyman"
+            {
+              "playerId": "team-player/d87091a0-8583-4697-9bec-59dca55d6b87",
+              "name": "Sheila Twine & Kim Reynolds"
+            },
+            {
+              "playerId": "team-player/15032372-68a9-428a-a140-290b87383810",
+              "name": "Megan Fardon & Basil Ladyman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/98c182ff-80e7-43a1-807f-efbdd1864e61",
               "players": [
                 {
+                  "playerId": "team-player/d87091a0-8583-4697-9bec-59dca55d6b87",
                   "name": "Sheila Twine & Kim Reynolds",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/15032372-68a9-428a-a140-290b87383810",
                   "name": "Megan Fardon & Basil Ladyman",
                   "score": "16"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Robyn Dart & David Smeeton",
-            "Carmel Hodges & John Doepel"
+            {
+              "playerId": "team-player/43ecda9f-495c-4c7c-87c2-999aab358aa7",
+              "name": "Robyn Dart & David Smeeton"
+            },
+            {
+              "playerId": "team-player/e2ba7192-f360-44f5-8dd3-72bf1ede2229",
+              "name": "Carmel Hodges & John Doepel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2de64781-f5e4-452d-8505-ff6fa798f1b8",
               "players": [
                 {
+                  "playerId": "team-player/43ecda9f-495c-4c7c-87c2-999aab358aa7",
                   "name": "Robyn Dart & David Smeeton",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/e2ba7192-f360-44f5-8dd3-72bf1ede2229",
                   "name": "Carmel Hodges & John Doepel",
                   "score": "13"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Kim Reynolds",
-            "Megan Fardon"
+            {
+              "playerId": "team-player/a65384d1-abfc-4733-b9f3-42e71d90c7ce",
+              "name": "Kim Reynolds"
+            },
+            {
+              "playerId": "team-player/50d46586-1bf4-4ce9-ac72-c7bf6638c3dc",
+              "name": "Megan Fardon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b903a71-3e84-4f5e-bfe5-613f6af5b553",
               "players": [
                 {
+                  "playerId": "team-player/a65384d1-abfc-4733-b9f3-42e71d90c7ce",
                   "name": "Kim Reynolds",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/50d46586-1bf4-4ce9-ac72-c7bf6638c3dc",
                   "name": "Megan Fardon",
                   "score": "8"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "David Smeeton",
-            "John Doepel"
+            {
+              "playerId": "team-player/5b179918-efa8-4b8c-90f8-f993b85000a4",
+              "name": "David Smeeton"
+            },
+            {
+              "playerId": "team-player/f6467a67-c5d6-4876-b108-281b717f8542",
+              "name": "John Doepel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7117a4b-8fd1-43e1-86fd-2aca3a734568",
               "players": [
                 {
+                  "playerId": "team-player/5b179918-efa8-4b8c-90f8-f993b85000a4",
                   "name": "David Smeeton",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/f6467a67-c5d6-4876-b108-281b717f8542",
                   "name": "John Doepel",
                   "score": "4"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Robyn Dart",
-            "Carmel Hodges"
+            {
+              "playerId": "team-player/5df60f4e-13aa-43a6-a835-d2fdfa5ff63b",
+              "name": "Robyn Dart"
+            },
+            {
+              "playerId": "team-player/1cbbedef-9eee-434c-8251-7f828042c07b",
+              "name": "Carmel Hodges"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ce640db9-f386-41a8-b15a-ba4658e7112c",
               "players": [
                 {
+                  "playerId": "team-player/5df60f4e-13aa-43a6-a835-d2fdfa5ff63b",
                   "name": "Robyn Dart",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/1cbbedef-9eee-434c-8251-7f828042c07b",
                   "name": "Carmel Hodges",
                   "score": "7"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Raelene Willis",
-            "Helen Eagle"
+            {
+              "playerId": "team-player/f4a910d7-e649-4d79-9b7e-7be4ed7bd836",
+              "name": "Raelene Willis"
+            },
+            {
+              "playerId": "team-player/45eead14-6566-4111-ba22-b70a20faf3ba",
+              "name": "Helen Eagle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/badd9ccb-c530-48ae-8770-e169f7752c56",
               "players": [
                 {
+                  "playerId": "team-player/f4a910d7-e649-4d79-9b7e-7be4ed7bd836",
                   "name": "Raelene Willis",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/45eead14-6566-4111-ba22-b70a20faf3ba",
                   "name": "Helen Eagle",
                   "score": "19"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Sheila Twine",
-            "Basil Ladyman"
+            {
+              "playerId": "team-player/17e15072-8f25-44fc-a425-7d453092ceaa",
+              "name": "Sheila Twine"
+            },
+            {
+              "playerId": "team-player/2444ca3c-9d8f-4007-ab03-eb75fbd70856",
+              "name": "Basil Ladyman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/51df90ac-68b0-42fd-9d18-4ebeed76bdbe",
               "players": [
                 {
+                  "playerId": "team-player/17e15072-8f25-44fc-a425-7d453092ceaa",
                   "name": "Sheila Twine",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/2444ca3c-9d8f-4007-ab03-eb75fbd70856",
                   "name": "Basil Ladyman",
                   "score": "11"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "Kath Caris",
-            "Michael Murphy"
+            {
+              "playerId": "team-player/244ece0e-33f5-49cf-ab98-56e47e57ddb0",
+              "name": "Kath Caris"
+            },
+            {
+              "playerId": "team-player/bcb71a33-3d08-4e60-9510-46684e4dea50",
+              "name": "Michael Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/60fb7532-122a-4339-acb7-db6ce4bd2167",
               "players": [
                 {
+                  "playerId": "team-player/244ece0e-33f5-49cf-ab98-56e47e57ddb0",
                   "name": "Kath Caris",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/bcb71a33-3d08-4e60-9510-46684e4dea50",
                   "name": "Michael Murphy",
                   "score": "12"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "Kim Reynolds",
-            "Basil Ladyman"
+            {
+              "playerId": "team-player/a65384d1-abfc-4733-b9f3-42e71d90c7ce",
+              "name": "Kim Reynolds"
+            },
+            {
+              "playerId": "team-player/2444ca3c-9d8f-4007-ab03-eb75fbd70856",
+              "name": "Basil Ladyman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0dd47f23-4c35-485d-b599-29671936f777",
               "players": [
                 {
+                  "playerId": "team-player/a65384d1-abfc-4733-b9f3-42e71d90c7ce",
                   "name": "Kim Reynolds",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/2444ca3c-9d8f-4007-ab03-eb75fbd70856",
                   "name": "Basil Ladyman",
                   "score": "26"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "Sheila Twine",
-            "Megan Fardon"
+            {
+              "playerId": "team-player/17e15072-8f25-44fc-a425-7d453092ceaa",
+              "name": "Sheila Twine"
+            },
+            {
+              "playerId": "team-player/50d46586-1bf4-4ce9-ac72-c7bf6638c3dc",
+              "name": "Megan Fardon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4036de23-c0db-4ee6-9754-65e2b18c08f0",
               "players": [
                 {
+                  "playerId": "team-player/17e15072-8f25-44fc-a425-7d453092ceaa",
                   "name": "Sheila Twine",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/50d46586-1bf4-4ce9-ac72-c7bf6638c3dc",
                   "name": "Megan Fardon",
                   "score": "19"
                 }
@@ -291,17 +448,26 @@
         },
         {
           "players": [
-            "Raelene Willis",
-            "Michael Murphy"
+            {
+              "playerId": "team-player/f4a910d7-e649-4d79-9b7e-7be4ed7bd836",
+              "name": "Raelene Willis"
+            },
+            {
+              "playerId": "team-player/bcb71a33-3d08-4e60-9510-46684e4dea50",
+              "name": "Michael Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2eacba27-4600-498e-8018-28cb7daee975",
               "players": [
                 {
+                  "playerId": "team-player/f4a910d7-e649-4d79-9b7e-7be4ed7bd836",
                   "name": "Raelene Willis",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/bcb71a33-3d08-4e60-9510-46684e4dea50",
                   "name": "Michael Murphy",
                   "score": "20"
                 }
@@ -313,17 +479,26 @@
         },
         {
           "players": [
-            "Kath Caris",
-            "Helen Eagle"
+            {
+              "playerId": "team-player/244ece0e-33f5-49cf-ab98-56e47e57ddb0",
+              "name": "Kath Caris"
+            },
+            {
+              "playerId": "team-player/45eead14-6566-4111-ba22-b70a20faf3ba",
+              "name": "Helen Eagle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8e9974b5-1dc3-4027-9a8b-a90fdb957a2b",
               "players": [
                 {
+                  "playerId": "team-player/244ece0e-33f5-49cf-ab98-56e47e57ddb0",
                   "name": "Kath Caris",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/45eead14-6566-4111-ba22-b70a20faf3ba",
                   "name": "Helen Eagle",
                   "score": "18"
                 }
@@ -335,17 +510,26 @@
         },
         {
           "players": [
-            "Robyn Dart",
-            "John Doepel"
+            {
+              "playerId": "team-player/5df60f4e-13aa-43a6-a835-d2fdfa5ff63b",
+              "name": "Robyn Dart"
+            },
+            {
+              "playerId": "team-player/f6467a67-c5d6-4876-b108-281b717f8542",
+              "name": "John Doepel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a15f9e48-9820-428e-b29f-27a5a841478d",
               "players": [
                 {
+                  "playerId": "team-player/5df60f4e-13aa-43a6-a835-d2fdfa5ff63b",
                   "name": "Robyn Dart",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/f6467a67-c5d6-4876-b108-281b717f8542",
                   "name": "John Doepel",
                   "score": "21"
                 }
@@ -357,17 +541,26 @@
         },
         {
           "players": [
-            "David Smeeton",
-            "Carmel Hodges"
+            {
+              "playerId": "team-player/5b179918-efa8-4b8c-90f8-f993b85000a4",
+              "name": "David Smeeton"
+            },
+            {
+              "playerId": "team-player/1cbbedef-9eee-434c-8251-7f828042c07b",
+              "name": "Carmel Hodges"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5360e188-053b-4727-b285-ec7620a7f107",
               "players": [
                 {
+                  "playerId": "team-player/5b179918-efa8-4b8c-90f8-f993b85000a4",
                   "name": "David Smeeton",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/1cbbedef-9eee-434c-8251-7f828042c07b",
                   "name": "Carmel Hodges",
                   "score": "11"
                 }

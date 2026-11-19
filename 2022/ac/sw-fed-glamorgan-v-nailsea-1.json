@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/3af9132f-f17b-4ed1-9d83-030116283436",
   "name": "SW Fed Glamorgan v Nailsea",
   "sport": "ac",
   "firstDay": "2022-05-21",
   "lastDay": "2022-05-21",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Glamorgan",
       "shortName": "Glamorgan",
       "players": [
-        "Chris Tuthill",
-        "Chris Williams",
-        "Paul Pristavec",
-        "Paul Pristavec & Chris Tuthill",
-        "Robert Upton"
+        {
+          "playerId": "team-player/32bb0b1e-b409-4824-8352-655c0b9352e7",
+          "name": "Chris Tuthill"
+        },
+        {
+          "playerId": "team-player/dc45fec4-66e7-4a2f-852e-729494646902",
+          "name": "Chris Williams"
+        },
+        {
+          "playerId": "team-player/ca103a20-cacd-47c1-88e3-3903a59e5ab4",
+          "name": "Paul Pristavec"
+        },
+        {
+          "playerId": "team-player/5834f032-5a4f-4cc9-9db8-ce9c365343f8",
+          "name": "Paul Pristavec & Chris Tuthill"
+        },
+        {
+          "playerId": "team-player/752cef19-aecd-44b1-8db7-f92adda24113",
+          "name": "Robert Upton"
+        }
       ]
     },
     {
       "name": "Nailsea",
       "shortName": "Nailsea",
       "players": [
-        "Graham McCausland",
-        "Jon Knowler",
-        "Peter Dyke",
-        "Peter Dyke & Jon Knowler",
-        "Tony Hinchliffe"
+        {
+          "playerId": "team-player/e51b5fce-2a77-44f4-8cc8-add5534c5841",
+          "name": "Graham McCausland"
+        },
+        {
+          "playerId": "team-player/6514a557-c4b0-4f64-a03a-bc6a6259f2f6",
+          "name": "Jon Knowler"
+        },
+        {
+          "playerId": "team-player/db474f8f-23f3-467d-afee-4b5ee35e5b3b",
+          "name": "Peter Dyke"
+        },
+        {
+          "playerId": "team-player/e4e49e58-9521-4b81-869d-d9d4a4c1739d",
+          "name": "Peter Dyke & Jon Knowler"
+        },
+        {
+          "playerId": "team-player/2b53e248-103e-4da5-bfbe-5e68e3d6d1ab",
+          "name": "Tony Hinchliffe"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/5a991ae7-e373-4fc1-bc2d-1f37bd6aa416",
       "teams": [
         "Glamorgan",
         "Nailsea"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Chris Williams",
-            "Graham McCausland"
+            {
+              "playerId": "team-player/dc45fec4-66e7-4a2f-852e-729494646902",
+              "name": "Chris Williams"
+            },
+            {
+              "playerId": "team-player/e51b5fce-2a77-44f4-8cc8-add5534c5841",
+              "name": "Graham McCausland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/66d6faa6-2a44-4856-91b8-5c76c5de3303",
               "players": [
                 {
+                  "playerId": "team-player/dc45fec4-66e7-4a2f-852e-729494646902",
                   "name": "Chris Williams",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e51b5fce-2a77-44f4-8cc8-add5534c5841",
                   "name": "Graham McCausland",
                   "score": "23"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Tony Hinchliffe"
+            {
+              "playerId": "team-player/752cef19-aecd-44b1-8db7-f92adda24113",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/2b53e248-103e-4da5-bfbe-5e68e3d6d1ab",
+              "name": "Tony Hinchliffe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3969175e-b3d3-491b-81e5-dd6c9ea6a86b",
               "players": [
                 {
+                  "playerId": "team-player/752cef19-aecd-44b1-8db7-f92adda24113",
                   "name": "Robert Upton",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/2b53e248-103e-4da5-bfbe-5e68e3d6d1ab",
                   "name": "Tony Hinchliffe",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Paul Pristavec & Chris Tuthill",
-            "Peter Dyke & Jon Knowler"
+            {
+              "playerId": "team-player/5834f032-5a4f-4cc9-9db8-ce9c365343f8",
+              "name": "Paul Pristavec & Chris Tuthill"
+            },
+            {
+              "playerId": "team-player/e4e49e58-9521-4b81-869d-d9d4a4c1739d",
+              "name": "Peter Dyke & Jon Knowler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a7c4e679-50ba-411b-a6ae-c0ee66744417",
               "players": [
                 {
+                  "playerId": "team-player/5834f032-5a4f-4cc9-9db8-ce9c365343f8",
                   "name": "Paul Pristavec & Chris Tuthill",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/e4e49e58-9521-4b81-869d-d9d4a4c1739d",
                   "name": "Peter Dyke & Jon Knowler",
                   "score": "15"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Chris Williams",
-            "Peter Dyke"
+            {
+              "playerId": "team-player/dc45fec4-66e7-4a2f-852e-729494646902",
+              "name": "Chris Williams"
+            },
+            {
+              "playerId": "team-player/db474f8f-23f3-467d-afee-4b5ee35e5b3b",
+              "name": "Peter Dyke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/615810a3-5df3-47af-89b4-a7596b53807e",
               "players": [
                 {
+                  "playerId": "team-player/dc45fec4-66e7-4a2f-852e-729494646902",
                   "name": "Chris Williams",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/db474f8f-23f3-467d-afee-4b5ee35e5b3b",
                   "name": "Peter Dyke",
                   "score": "17"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Jon Knowler"
+            {
+              "playerId": "team-player/752cef19-aecd-44b1-8db7-f92adda24113",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/6514a557-c4b0-4f64-a03a-bc6a6259f2f6",
+              "name": "Jon Knowler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d7d1029f-0e3b-4fc1-832c-00a65515dac7",
               "players": [
                 {
+                  "playerId": "team-player/752cef19-aecd-44b1-8db7-f92adda24113",
                   "name": "Robert Upton",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/6514a557-c4b0-4f64-a03a-bc6a6259f2f6",
                   "name": "Jon Knowler",
                   "score": "18"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Paul Pristavec",
-            "Graham McCausland"
+            {
+              "playerId": "team-player/ca103a20-cacd-47c1-88e3-3903a59e5ab4",
+              "name": "Paul Pristavec"
+            },
+            {
+              "playerId": "team-player/e51b5fce-2a77-44f4-8cc8-add5534c5841",
+              "name": "Graham McCausland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ac7aab3-89ce-4511-b771-3dda648132b7",
               "players": [
                 {
+                  "playerId": "team-player/ca103a20-cacd-47c1-88e3-3903a59e5ab4",
                   "name": "Paul Pristavec",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/e51b5fce-2a77-44f4-8cc8-add5534c5841",
                   "name": "Graham McCausland",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Chris Tuthill",
-            "Tony Hinchliffe"
+            {
+              "playerId": "team-player/32bb0b1e-b409-4824-8352-655c0b9352e7",
+              "name": "Chris Tuthill"
+            },
+            {
+              "playerId": "team-player/2b53e248-103e-4da5-bfbe-5e68e3d6d1ab",
+              "name": "Tony Hinchliffe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/796ae9a9-e499-49b3-8af9-f52f6f0e7fe5",
               "players": [
                 {
+                  "playerId": "team-player/32bb0b1e-b409-4824-8352-655c0b9352e7",
                   "name": "Chris Tuthill",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/2b53e248-103e-4da5-bfbe-5e68e3d6d1ab",
                   "name": "Tony Hinchliffe",
                   "score": "19"
                 }

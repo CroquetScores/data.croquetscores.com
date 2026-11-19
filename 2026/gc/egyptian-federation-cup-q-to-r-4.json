@@ -1,46 +1,89 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7b50660c-bfcc-4cd4-af4a-dab9e4a65f2e",
   "name": "Egyptian Federation Cup -  Q to R. 4",
   "sport": "gc",
   "firstDay": "2026-02-07",
   "lastDay": "2026-04-04",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Gezira Club",
       "shortName": "Gezira Clu",
       "players": [
-        "Ahmed Nasr & Yousif Yasser",
-        "Lila Hazem & Mohamed Nasr",
-        "Manal  Khoudir & Sarah Hany"
+        {
+          "playerId": "team-player/1feceb7c-8545-4410-bc8b-c1d7b532f411",
+          "name": "Ahmed Nasr & Yousif Yasser"
+        },
+        {
+          "playerId": "team-player/60a28666-d079-46d0-a6e3-0aefb8057fac",
+          "name": "Lila Hazem & Mohamed Nasr"
+        },
+        {
+          "playerId": "team-player/078c29b4-cfb8-4992-9dac-5cc7004f4e96",
+          "name": "Manal  Khoudir & Sarah Hany"
+        }
       ]
     },
     {
       "name": "Shooting Club",
       "shortName": "Shooting C",
       "players": [
-        "Abeer Mostafa & Ghada Karam",
-        "Ahmed Elmahdy & Mostafa Nezar",
-        "Amr Alebiary & Mostafa Nezar",
-        "Amr Alebiary & Moustafa Nezar",
-        "Hana Hatem & Jana Mohamed",
-        "Khaled Hazem & Abeer Mostafa",
-        "Khaled Hazem & Noha Mamdouh"
+        {
+          "playerId": "team-player/9307e09c-deaa-473c-a278-28669a651dc3",
+          "name": "Abeer Mostafa & Ghada Karam"
+        },
+        {
+          "playerId": "team-player/333e92e8-af0e-4a90-8278-23052e88c0b3",
+          "name": "Ahmed Elmahdy & Mostafa Nezar"
+        },
+        {
+          "playerId": "team-player/ac483966-8c02-49f0-86d4-2777d5392cf8",
+          "name": "Amr Alebiary & Mostafa Nezar"
+        },
+        {
+          "playerId": "team-player/2ea5e73c-78bd-44ac-86a6-9e345f03f1b6",
+          "name": "Amr Alebiary & Moustafa Nezar"
+        },
+        {
+          "playerId": "team-player/2c622964-f42d-4983-b56f-5609786ac2a9",
+          "name": "Hana Hatem & Jana Mohamed"
+        },
+        {
+          "playerId": "team-player/2a58f8fd-f7cc-4795-818d-bddc256211e3",
+          "name": "Khaled Hazem & Abeer Mostafa"
+        },
+        {
+          "playerId": "team-player/3e1af8d5-2233-4954-9a15-78506596ee89",
+          "name": "Khaled Hazem & Noha Mamdouh"
+        }
       ]
     },
     {
       "name": "Maady Club",
       "shortName": "Maady Club",
       "players": [
-        "Ahmed Helal & Islam Elkawas",
-        "Marwa Wafiq & Samr Soliman",
-        "Mohamed Sameh & Heba Yousif"
+        {
+          "playerId": "team-player/59e096af-4af2-4bc6-8bf1-964777fcb14a",
+          "name": "Ahmed Helal & Islam Elkawas"
+        },
+        {
+          "playerId": "team-player/2dee295e-cbb8-4769-901b-e01a1f757831",
+          "name": "Marwa Wafiq & Samr Soliman"
+        },
+        {
+          "playerId": "team-player/187488d7-cf61-489e-9dfe-0c40af51bc7e",
+          "name": "Mohamed Sameh & Heba Yousif"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/733da9c0-90fb-4942-8591-3a6584fcba74",
       "teams": [
         "Gezira Club",
         "Shooting Club"
@@ -50,17 +93,26 @@
       "matches": [
         {
           "players": [
-            "Manal  Khoudir & Sarah Hany",
-            "Abeer Mostafa & Ghada Karam"
+            {
+              "playerId": "team-player/078c29b4-cfb8-4992-9dac-5cc7004f4e96",
+              "name": "Manal  Khoudir & Sarah Hany"
+            },
+            {
+              "playerId": "team-player/9307e09c-deaa-473c-a278-28669a651dc3",
+              "name": "Abeer Mostafa & Ghada Karam"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4126bce9-0f99-4e55-87b7-a63610172841",
               "players": [
                 {
+                  "playerId": "team-player/078c29b4-cfb8-4992-9dac-5cc7004f4e96",
                   "name": "Manal  Khoudir & Sarah Hany",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9307e09c-deaa-473c-a278-28669a651dc3",
                   "name": "Abeer Mostafa & Ghada Karam",
                   "score": "7"
                 }
@@ -69,12 +121,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9988b9d5-6b95-4820-94e4-28c7bbbdfaf2",
               "players": [
                 {
+                  "playerId": "team-player/078c29b4-cfb8-4992-9dac-5cc7004f4e96",
                   "name": "Manal  Khoudir & Sarah Hany",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9307e09c-deaa-473c-a278-28669a651dc3",
                   "name": "Abeer Mostafa & Ghada Karam",
                   "score": "7"
                 }
@@ -86,17 +141,26 @@
         },
         {
           "players": [
-            "Lila Hazem & Mohamed Nasr",
-            "Khaled Hazem & Noha Mamdouh"
+            {
+              "playerId": "team-player/60a28666-d079-46d0-a6e3-0aefb8057fac",
+              "name": "Lila Hazem & Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/3e1af8d5-2233-4954-9a15-78506596ee89",
+              "name": "Khaled Hazem & Noha Mamdouh"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32719363-6de7-424c-baa7-47fca42aa385",
               "players": [
                 {
+                  "playerId": "team-player/60a28666-d079-46d0-a6e3-0aefb8057fac",
                   "name": "Lila Hazem & Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3e1af8d5-2233-4954-9a15-78506596ee89",
                   "name": "Khaled Hazem & Noha Mamdouh",
                   "score": "6"
                 }
@@ -105,12 +169,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1f576174-bd04-45c0-8934-8c64309e1d19",
               "players": [
                 {
+                  "playerId": "team-player/60a28666-d079-46d0-a6e3-0aefb8057fac",
                   "name": "Lila Hazem & Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3e1af8d5-2233-4954-9a15-78506596ee89",
                   "name": "Khaled Hazem & Noha Mamdouh",
                   "score": "4"
                 }
@@ -122,17 +189,26 @@
         },
         {
           "players": [
-            "Ahmed Nasr & Yousif Yasser",
-            "Amr Alebiary & Moustafa Nezar"
+            {
+              "playerId": "team-player/1feceb7c-8545-4410-bc8b-c1d7b532f411",
+              "name": "Ahmed Nasr & Yousif Yasser"
+            },
+            {
+              "playerId": "team-player/2ea5e73c-78bd-44ac-86a6-9e345f03f1b6",
+              "name": "Amr Alebiary & Moustafa Nezar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4990410-f6d7-41a5-8023-de6079c2a573",
               "players": [
                 {
+                  "playerId": "team-player/1feceb7c-8545-4410-bc8b-c1d7b532f411",
                   "name": "Ahmed Nasr & Yousif Yasser",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/2ea5e73c-78bd-44ac-86a6-9e345f03f1b6",
                   "name": "Amr Alebiary & Moustafa Nezar",
                   "score": "7"
                 }
@@ -141,12 +217,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f158d767-fe50-4be9-a0ee-cda6795c23f2",
               "players": [
                 {
+                  "playerId": "team-player/1feceb7c-8545-4410-bc8b-c1d7b532f411",
                   "name": "Ahmed Nasr & Yousif Yasser",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2ea5e73c-78bd-44ac-86a6-9e345f03f1b6",
                   "name": "Amr Alebiary & Moustafa Nezar",
                   "score": "5"
                 }
@@ -155,12 +234,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b5b1b4b9-1571-4d8a-be72-28cd387ca498",
               "players": [
                 {
+                  "playerId": "team-player/1feceb7c-8545-4410-bc8b-c1d7b532f411",
                   "name": "Ahmed Nasr & Yousif Yasser",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2ea5e73c-78bd-44ac-86a6-9e345f03f1b6",
                   "name": "Amr Alebiary & Moustafa Nezar",
                   "score": "1"
                 }
@@ -173,6 +255,7 @@
       ]
     },
     {
+      "competitionId": "competition/8e1b30f8-fa9c-49cc-8e0c-78b27821de39",
       "teams": [
         "Maady Club",
         "Gezira Club"
@@ -182,6 +265,7 @@
       "matches": []
     },
     {
+      "competitionId": "competition/b401b1ed-8456-47f3-87ef-96c6396823c4",
       "teams": [
         "Shooting Club",
         "Maady Club"
@@ -191,17 +275,26 @@
       "matches": [
         {
           "players": [
-            "Hana Hatem & Jana Mohamed",
-            "Marwa Wafiq & Samr Soliman"
+            {
+              "playerId": "team-player/2c622964-f42d-4983-b56f-5609786ac2a9",
+              "name": "Hana Hatem & Jana Mohamed"
+            },
+            {
+              "playerId": "team-player/2dee295e-cbb8-4769-901b-e01a1f757831",
+              "name": "Marwa Wafiq & Samr Soliman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/da238c72-da18-4f60-8378-14c224dac10d",
               "players": [
                 {
+                  "playerId": "team-player/2c622964-f42d-4983-b56f-5609786ac2a9",
                   "name": "Hana Hatem & Jana Mohamed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2dee295e-cbb8-4769-901b-e01a1f757831",
                   "name": "Marwa Wafiq & Samr Soliman",
                   "score": "6"
                 }
@@ -210,12 +303,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/92e66318-8d0e-4d69-802a-fdd3a6652aaa",
               "players": [
                 {
+                  "playerId": "team-player/2c622964-f42d-4983-b56f-5609786ac2a9",
                   "name": "Hana Hatem & Jana Mohamed",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2dee295e-cbb8-4769-901b-e01a1f757831",
                   "name": "Marwa Wafiq & Samr Soliman",
                   "score": "5"
                 }
@@ -227,17 +323,26 @@
         },
         {
           "players": [
-            "Khaled Hazem & Abeer Mostafa",
-            "Mohamed Sameh & Heba Yousif"
+            {
+              "playerId": "team-player/2a58f8fd-f7cc-4795-818d-bddc256211e3",
+              "name": "Khaled Hazem & Abeer Mostafa"
+            },
+            {
+              "playerId": "team-player/187488d7-cf61-489e-9dfe-0c40af51bc7e",
+              "name": "Mohamed Sameh & Heba Yousif"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ffe01b36-6c28-4fc2-842b-ee0982579ae6",
               "players": [
                 {
+                  "playerId": "team-player/2a58f8fd-f7cc-4795-818d-bddc256211e3",
                   "name": "Khaled Hazem & Abeer Mostafa",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/187488d7-cf61-489e-9dfe-0c40af51bc7e",
                   "name": "Mohamed Sameh & Heba Yousif",
                   "score": "7"
                 }
@@ -246,12 +351,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c91de126-f0ed-4efe-a319-7ce17730a82b",
               "players": [
                 {
+                  "playerId": "team-player/2a58f8fd-f7cc-4795-818d-bddc256211e3",
                   "name": "Khaled Hazem & Abeer Mostafa",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/187488d7-cf61-489e-9dfe-0c40af51bc7e",
                   "name": "Mohamed Sameh & Heba Yousif",
                   "score": "3"
                 }
@@ -260,12 +368,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/14351e93-84ef-4b52-a6bf-d15550c1e54f",
               "players": [
                 {
+                  "playerId": "team-player/2a58f8fd-f7cc-4795-818d-bddc256211e3",
                   "name": "Khaled Hazem & Abeer Mostafa",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/187488d7-cf61-489e-9dfe-0c40af51bc7e",
                   "name": "Mohamed Sameh & Heba Yousif",
                   "score": "7"
                 }
@@ -277,17 +388,26 @@
         },
         {
           "players": [
-            "Amr Alebiary & Mostafa Nezar",
-            "Ahmed Helal & Islam Elkawas"
+            {
+              "playerId": "team-player/ac483966-8c02-49f0-86d4-2777d5392cf8",
+              "name": "Amr Alebiary & Mostafa Nezar"
+            },
+            {
+              "playerId": "team-player/59e096af-4af2-4bc6-8bf1-964777fcb14a",
+              "name": "Ahmed Helal & Islam Elkawas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/39c884dd-0ea1-444c-a7a2-2edc49c3409c",
               "players": [
                 {
+                  "playerId": "team-player/ac483966-8c02-49f0-86d4-2777d5392cf8",
                   "name": "Amr Alebiary & Mostafa Nezar",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/59e096af-4af2-4bc6-8bf1-964777fcb14a",
                   "name": "Ahmed Helal & Islam Elkawas",
                   "score": "7"
                 }
@@ -296,12 +416,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ddf66a44-4a8b-4144-907b-cc9c9d68fcea",
               "players": [
                 {
+                  "playerId": "team-player/ac483966-8c02-49f0-86d4-2777d5392cf8",
                   "name": "Amr Alebiary & Mostafa Nezar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/59e096af-4af2-4bc6-8bf1-964777fcb14a",
                   "name": "Ahmed Helal & Islam Elkawas",
                   "score": "4"
                 }
@@ -310,12 +433,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f2d46c68-69a3-407b-b0e0-38beec412457",
               "players": [
                 {
+                  "playerId": "team-player/ac483966-8c02-49f0-86d4-2777d5392cf8",
                   "name": "Amr Alebiary & Mostafa Nezar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/59e096af-4af2-4bc6-8bf1-964777fcb14a",
                   "name": "Ahmed Helal & Islam Elkawas",
                   "score": "5"
                 }

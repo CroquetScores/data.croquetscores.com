@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5926fefc-d528-4cbf-96d5-4f7807ae5d83",
   "name": "NW FED Crake Valley v Bowdon",
   "sport": "gc",
   "firstDay": "2023-08-22",
   "lastDay": "2023-08-22",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Crake Valley",
       "shortName": "Crake Vall",
       "players": [
-        "David Cornes",
-        "David Cornes - meet again",
-        "Neil ADAMS",
-        "Neil ADAMS - meet again",
-        "Stephen SKELTON",
-        "Stephen SKELTON - meet again"
+        {
+          "playerId": "team-player/3af10ab0-54af-407a-9285-8626ff99668d",
+          "name": "David Cornes"
+        },
+        {
+          "playerId": "team-player/e38be369-92a5-46fe-a3b8-a323870856b7",
+          "name": "David Cornes - meet again"
+        },
+        {
+          "playerId": "team-player/0deea0b8-4eb6-4f7c-a0e6-6fed09867b01",
+          "name": "Neil ADAMS"
+        },
+        {
+          "playerId": "team-player/c7e24b45-dadb-42a4-b6b3-be19d6a732ae",
+          "name": "Neil ADAMS - meet again"
+        },
+        {
+          "playerId": "team-player/8a3fa36f-81ef-4789-90c0-7f30e964a6c3",
+          "name": "Stephen SKELTON"
+        },
+        {
+          "playerId": "team-player/8491b600-ecf1-452e-aa63-1cbe1eaac30e",
+          "name": "Stephen SKELTON - meet again"
+        }
       ]
     },
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Alan Mayne",
-        "Jack Good",
-        "Nigel Matthews",
-        "Nigel Matthews - meet again"
+        {
+          "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
+          "name": "Alan Mayne"
+        },
+        {
+          "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
+          "name": "Jack Good"
+        },
+        {
+          "playerId": "team-player/e57d5dbf-07fe-4cce-82d0-7d6f3530bfa5",
+          "name": "Nigel Matthews"
+        },
+        {
+          "playerId": "team-player/73eab255-2d9c-4c86-9765-787578fbcde0",
+          "name": "Nigel Matthews - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/13c1ea6f-b70b-429b-a391-8bda49a247a6",
       "teams": [
         "Crake Valley",
         "Bowdon"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "David Cornes",
-            "Nigel Matthews"
+            {
+              "playerId": "team-player/3af10ab0-54af-407a-9285-8626ff99668d",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/e57d5dbf-07fe-4cce-82d0-7d6f3530bfa5",
+              "name": "Nigel Matthews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3bd974af-0bda-420d-b93d-20a2442e4024",
               "players": [
                 {
+                  "playerId": "team-player/3af10ab0-54af-407a-9285-8626ff99668d",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e57d5dbf-07fe-4cce-82d0-7d6f3530bfa5",
                   "name": "Nigel Matthews",
                   "score": "5"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Stephen SKELTON",
-            "Jack Good"
+            {
+              "playerId": "team-player/8a3fa36f-81ef-4789-90c0-7f30e964a6c3",
+              "name": "Stephen SKELTON"
+            },
+            {
+              "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
+              "name": "Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9303776c-b4c0-4c85-a927-e7ffb7731156",
               "players": [
                 {
+                  "playerId": "team-player/8a3fa36f-81ef-4789-90c0-7f30e964a6c3",
                   "name": "Stephen SKELTON",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
                   "name": "Jack Good",
                   "score": "7"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Neil ADAMS",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/0deea0b8-4eb6-4f7c-a0e6-6fed09867b01",
+              "name": "Neil ADAMS"
+            },
+            {
+              "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/15415151-cc29-4705-80a2-824324c2c61a",
               "players": [
                 {
+                  "playerId": "team-player/0deea0b8-4eb6-4f7c-a0e6-6fed09867b01",
                   "name": "Neil ADAMS",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Neil ADAMS",
-            "Jack Good"
+            {
+              "playerId": "team-player/0deea0b8-4eb6-4f7c-a0e6-6fed09867b01",
+              "name": "Neil ADAMS"
+            },
+            {
+              "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
+              "name": "Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7afbc90-1ebe-4a61-895a-03f81c38230b",
               "players": [
                 {
+                  "playerId": "team-player/0deea0b8-4eb6-4f7c-a0e6-6fed09867b01",
                   "name": "Neil ADAMS",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
                   "name": "Jack Good",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/3af10ab0-54af-407a-9285-8626ff99668d",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c5914c6d-6b2b-4ebe-95c2-84d9599e1a68",
               "players": [
                 {
+                  "playerId": "team-player/3af10ab0-54af-407a-9285-8626ff99668d",
                   "name": "David Cornes",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Stephen SKELTON",
-            "Nigel Matthews"
+            {
+              "playerId": "team-player/8a3fa36f-81ef-4789-90c0-7f30e964a6c3",
+              "name": "Stephen SKELTON"
+            },
+            {
+              "playerId": "team-player/e57d5dbf-07fe-4cce-82d0-7d6f3530bfa5",
+              "name": "Nigel Matthews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/344b6e27-bd98-4001-9187-e04998332210",
               "players": [
                 {
+                  "playerId": "team-player/8a3fa36f-81ef-4789-90c0-7f30e964a6c3",
                   "name": "Stephen SKELTON",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/e57d5dbf-07fe-4cce-82d0-7d6f3530bfa5",
                   "name": "Nigel Matthews",
                   "score": "7"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Jack Good"
+            {
+              "playerId": "team-player/3af10ab0-54af-407a-9285-8626ff99668d",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
+              "name": "Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05ef8f9b-82bf-42c3-b89d-64c0492fff98",
               "players": [
                 {
+                  "playerId": "team-player/3af10ab0-54af-407a-9285-8626ff99668d",
                   "name": "David Cornes",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
                   "name": "Jack Good",
                   "score": "7"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Stephen SKELTON",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/8a3fa36f-81ef-4789-90c0-7f30e964a6c3",
+              "name": "Stephen SKELTON"
+            },
+            {
+              "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d7ed9e04-2f0d-472f-a51b-896f53d47b05",
               "players": [
                 {
+                  "playerId": "team-player/8a3fa36f-81ef-4789-90c0-7f30e964a6c3",
                   "name": "Stephen SKELTON",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Neil ADAMS",
-            "Nigel Matthews"
+            {
+              "playerId": "team-player/0deea0b8-4eb6-4f7c-a0e6-6fed09867b01",
+              "name": "Neil ADAMS"
+            },
+            {
+              "playerId": "team-player/e57d5dbf-07fe-4cce-82d0-7d6f3530bfa5",
+              "name": "Nigel Matthews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a14653b8-b3d2-4fe0-9b60-e749a159f761",
               "players": [
                 {
+                  "playerId": "team-player/0deea0b8-4eb6-4f7c-a0e6-6fed09867b01",
                   "name": "Neil ADAMS",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e57d5dbf-07fe-4cce-82d0-7d6f3530bfa5",
                   "name": "Nigel Matthews",
                   "score": "6"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Stephen SKELTON - meet again",
-            "Jack Good"
+            {
+              "playerId": "team-player/8491b600-ecf1-452e-aa63-1cbe1eaac30e",
+              "name": "Stephen SKELTON - meet again"
+            },
+            {
+              "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
+              "name": "Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/864d7cf9-4f74-4bcd-a257-b8db1ad0b1b6",
               "players": [
                 {
+                  "playerId": "team-player/8491b600-ecf1-452e-aa63-1cbe1eaac30e",
                   "name": "Stephen SKELTON - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
                   "name": "Jack Good",
                   "score": "7"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Nigel Matthews - meet again"
+            {
+              "playerId": "team-player/3af10ab0-54af-407a-9285-8626ff99668d",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/73eab255-2d9c-4c86-9765-787578fbcde0",
+              "name": "Nigel Matthews - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9de4d9d8-4e8e-4769-bc08-7d3c543d722c",
               "players": [
                 {
+                  "playerId": "team-player/3af10ab0-54af-407a-9285-8626ff99668d",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/73eab255-2d9c-4c86-9765-787578fbcde0",
                   "name": "Nigel Matthews - meet again",
                   "score": "6"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Neil ADAMS - meet again",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/c7e24b45-dadb-42a4-b6b3-be19d6a732ae",
+              "name": "Neil ADAMS - meet again"
+            },
+            {
+              "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/10edad77-ed13-42ae-829a-adcac6abe7eb",
               "players": [
                 {
+                  "playerId": "team-player/c7e24b45-dadb-42a4-b6b3-be19d6a732ae",
                   "name": "Neil ADAMS - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Neil ADAMS - meet again",
-            "Jack Good"
+            {
+              "playerId": "team-player/c7e24b45-dadb-42a4-b6b3-be19d6a732ae",
+              "name": "Neil ADAMS - meet again"
+            },
+            {
+              "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
+              "name": "Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3a29a5a-7efd-4311-99f0-64fc50720aec",
               "players": [
                 {
+                  "playerId": "team-player/c7e24b45-dadb-42a4-b6b3-be19d6a732ae",
                   "name": "Neil ADAMS - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
                   "name": "Jack Good",
                   "score": "5"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "David Cornes - meet again",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/e38be369-92a5-46fe-a3b8-a323870856b7",
+              "name": "David Cornes - meet again"
+            },
+            {
+              "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/61b44f07-8b48-4e02-a68f-931fe493d1da",
               "players": [
                 {
+                  "playerId": "team-player/e38be369-92a5-46fe-a3b8-a323870856b7",
                   "name": "David Cornes - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Stephen SKELTON - meet again",
-            "Nigel Matthews"
+            {
+              "playerId": "team-player/8491b600-ecf1-452e-aa63-1cbe1eaac30e",
+              "name": "Stephen SKELTON - meet again"
+            },
+            {
+              "playerId": "team-player/e57d5dbf-07fe-4cce-82d0-7d6f3530bfa5",
+              "name": "Nigel Matthews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0183fa9d-6cbc-4493-a41f-010689697cfd",
               "players": [
                 {
+                  "playerId": "team-player/8491b600-ecf1-452e-aa63-1cbe1eaac30e",
                   "name": "Stephen SKELTON - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e57d5dbf-07fe-4cce-82d0-7d6f3530bfa5",
                   "name": "Nigel Matthews",
                   "score": "4"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Stephen SKELTON - meet again",
-            "Alan Mayne"
+            {
+              "playerId": "team-player/8491b600-ecf1-452e-aa63-1cbe1eaac30e",
+              "name": "Stephen SKELTON - meet again"
+            },
+            {
+              "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
+              "name": "Alan Mayne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/497cb5fd-dc14-4234-a3f5-5ac9ca168602",
               "players": [
                 {
+                  "playerId": "team-player/8491b600-ecf1-452e-aa63-1cbe1eaac30e",
                   "name": "Stephen SKELTON - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d7d7e273-0cd3-42a6-bdf1-eb2704821206",
                   "name": "Alan Mayne",
                   "score": "7"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "Neil ADAMS",
-            "Nigel Matthews - meet again"
+            {
+              "playerId": "team-player/0deea0b8-4eb6-4f7c-a0e6-6fed09867b01",
+              "name": "Neil ADAMS"
+            },
+            {
+              "playerId": "team-player/73eab255-2d9c-4c86-9765-787578fbcde0",
+              "name": "Nigel Matthews - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7710c4fe-0412-43aa-9db5-bb75098c8b69",
               "players": [
                 {
+                  "playerId": "team-player/0deea0b8-4eb6-4f7c-a0e6-6fed09867b01",
                   "name": "Neil ADAMS",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/73eab255-2d9c-4c86-9765-787578fbcde0",
                   "name": "Nigel Matthews - meet again",
                   "score": "7"
                 }
@@ -415,17 +602,26 @@
         },
         {
           "players": [
-            "David Cornes - meet again",
-            "Jack Good"
+            {
+              "playerId": "team-player/e38be369-92a5-46fe-a3b8-a323870856b7",
+              "name": "David Cornes - meet again"
+            },
+            {
+              "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
+              "name": "Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/726ee504-fa69-45d1-a615-6c7f85291a1a",
               "players": [
                 {
+                  "playerId": "team-player/e38be369-92a5-46fe-a3b8-a323870856b7",
                   "name": "David Cornes - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7df22210-46a0-412e-826b-da78d3cc979e",
                   "name": "Jack Good",
                   "score": "7"
                 }

@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b67112cd-3142-43bb-91fa-a49741c66f46",
   "name": "New Zealand vs CA Select",
   "sport": "gc",
   "firstDay": "2016-05-13",
   "lastDay": "2016-05-13",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "New Zealand",
       "shortName": "NZL",
       "players": [
-        "Chris and Jenny Clarke",
-        "Chris Clarke",
-        "Duncan Dixon",
-        "Duncan Dixon and Phillip Drew",
-        "Jenny Clarke",
-        "Phillip Drew"
+        {
+          "playerId": "team-player/6cf320ac-d814-4490-ae5c-a771135b0478",
+          "name": "Chris and Jenny Clarke"
+        },
+        {
+          "playerId": "team-player/eb370679-933b-48cd-a665-7e0c78e3a39c",
+          "name": "Chris Clarke"
+        },
+        {
+          "playerId": "team-player/8562560a-f922-4501-8400-d2886f193281",
+          "name": "Duncan Dixon"
+        },
+        {
+          "playerId": "team-player/036e6f57-c307-4b97-95d8-b934544763a2",
+          "name": "Duncan Dixon and Phillip Drew"
+        },
+        {
+          "playerId": "team-player/caa6f94d-a500-4f30-ac57-86caef7741f7",
+          "name": "Jenny Clarke"
+        },
+        {
+          "playerId": "team-player/fe0f665e-cc43-4666-8ada-1bde5f553e84",
+          "name": "Phillip Drew"
+        }
       ]
     },
     {
       "name": "CA Select",
       "shortName": "CA Select",
       "players": [
-        "Howard Cheyne",
-        "Howard Cheyne and Martin French",
-        "Jeff Dawson",
-        "Jeff Dawson and Nick Archer",
-        "Martin French",
-        "Nick Archer"
+        {
+          "playerId": "team-player/35efca6e-6f47-4354-b651-520671efb002",
+          "name": "Howard Cheyne"
+        },
+        {
+          "playerId": "team-player/52cc5773-3bd4-40ac-bea4-5a042c3a4855",
+          "name": "Howard Cheyne and Martin French"
+        },
+        {
+          "playerId": "team-player/55773b59-603f-414e-b770-e691c73c55f9",
+          "name": "Jeff Dawson"
+        },
+        {
+          "playerId": "team-player/3ebe2d30-4bcc-4bb0-a0ad-245306ac035e",
+          "name": "Jeff Dawson and Nick Archer"
+        },
+        {
+          "playerId": "team-player/138c4402-2a5d-44df-b092-08da40e6dec0",
+          "name": "Martin French"
+        },
+        {
+          "playerId": "team-player/2d7da1e4-39d0-475e-906e-d9ccc90481be",
+          "name": "Nick Archer"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b20423dc-d750-449b-8ad0-abd6d4a0806f",
       "teams": [
         "New Zealand",
         "CA Select"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Chris and Jenny Clarke",
-            "Howard Cheyne and Martin French"
+            {
+              "playerId": "team-player/6cf320ac-d814-4490-ae5c-a771135b0478",
+              "name": "Chris and Jenny Clarke"
+            },
+            {
+              "playerId": "team-player/52cc5773-3bd4-40ac-bea4-5a042c3a4855",
+              "name": "Howard Cheyne and Martin French"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b5b09f3-b847-4283-83a5-67f871ac2acf",
               "players": [
                 {
+                  "playerId": "team-player/6cf320ac-d814-4490-ae5c-a771135b0478",
                   "name": "Chris and Jenny Clarke",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52cc5773-3bd4-40ac-bea4-5a042c3a4855",
                   "name": "Howard Cheyne and Martin French",
                   "score": "3"
                 }
@@ -62,12 +111,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4469424c-1f26-4c4e-b67d-4c579075efd4",
               "players": [
                 {
+                  "playerId": "team-player/6cf320ac-d814-4490-ae5c-a771135b0478",
                   "name": "Chris and Jenny Clarke",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52cc5773-3bd4-40ac-bea4-5a042c3a4855",
                   "name": "Howard Cheyne and Martin French",
                   "score": "6"
                 }
@@ -79,17 +131,26 @@
         },
         {
           "players": [
-            "Duncan Dixon and Phillip Drew",
-            "Jeff Dawson and Nick Archer"
+            {
+              "playerId": "team-player/036e6f57-c307-4b97-95d8-b934544763a2",
+              "name": "Duncan Dixon and Phillip Drew"
+            },
+            {
+              "playerId": "team-player/3ebe2d30-4bcc-4bb0-a0ad-245306ac035e",
+              "name": "Jeff Dawson and Nick Archer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/36f68310-282a-4ee9-9168-22ef31e4331c",
               "players": [
                 {
+                  "playerId": "team-player/036e6f57-c307-4b97-95d8-b934544763a2",
                   "name": "Duncan Dixon and Phillip Drew",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3ebe2d30-4bcc-4bb0-a0ad-245306ac035e",
                   "name": "Jeff Dawson and Nick Archer",
                   "score": "7"
                 }
@@ -98,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5e1ef5e5-0584-4d6d-a5ee-da8d9e4f965a",
               "players": [
                 {
+                  "playerId": "team-player/036e6f57-c307-4b97-95d8-b934544763a2",
                   "name": "Duncan Dixon and Phillip Drew",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3ebe2d30-4bcc-4bb0-a0ad-245306ac035e",
                   "name": "Jeff Dawson and Nick Archer",
                   "score": "5"
                 }
@@ -112,12 +176,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/40ceaa2e-457b-4bca-aa34-b422fcbedcd1",
               "players": [
                 {
+                  "playerId": "team-player/036e6f57-c307-4b97-95d8-b934544763a2",
                   "name": "Duncan Dixon and Phillip Drew",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3ebe2d30-4bcc-4bb0-a0ad-245306ac035e",
                   "name": "Jeff Dawson and Nick Archer",
                   "score": "7"
                 }
@@ -129,17 +196,26 @@
         },
         {
           "players": [
-            "Chris Clarke",
-            "Howard Cheyne"
+            {
+              "playerId": "team-player/eb370679-933b-48cd-a665-7e0c78e3a39c",
+              "name": "Chris Clarke"
+            },
+            {
+              "playerId": "team-player/35efca6e-6f47-4354-b651-520671efb002",
+              "name": "Howard Cheyne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1553475b-76bd-4d6f-8e63-01730f1e85da",
               "players": [
                 {
+                  "playerId": "team-player/eb370679-933b-48cd-a665-7e0c78e3a39c",
                   "name": "Chris Clarke",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/35efca6e-6f47-4354-b651-520671efb002",
                   "name": "Howard Cheyne",
                   "score": "0"
                 }
@@ -148,12 +224,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/be67b4a3-b534-4263-bbe9-2c7d2695e7a7",
               "players": [
                 {
+                  "playerId": "team-player/eb370679-933b-48cd-a665-7e0c78e3a39c",
                   "name": "Chris Clarke",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/35efca6e-6f47-4354-b651-520671efb002",
                   "name": "Howard Cheyne",
                   "score": "2"
                 }
@@ -165,17 +244,26 @@
         },
         {
           "players": [
-            "Jenny Clarke",
-            "Nick Archer"
+            {
+              "playerId": "team-player/caa6f94d-a500-4f30-ac57-86caef7741f7",
+              "name": "Jenny Clarke"
+            },
+            {
+              "playerId": "team-player/2d7da1e4-39d0-475e-906e-d9ccc90481be",
+              "name": "Nick Archer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/18cb07e0-7e34-495d-aa83-193a6e964e1f",
               "players": [
                 {
+                  "playerId": "team-player/caa6f94d-a500-4f30-ac57-86caef7741f7",
                   "name": "Jenny Clarke",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2d7da1e4-39d0-475e-906e-d9ccc90481be",
                   "name": "Nick Archer",
                   "score": "7"
                 }
@@ -184,12 +272,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d532a9e7-9bdd-42b0-b423-9e1bf8dbe6a5",
               "players": [
                 {
+                  "playerId": "team-player/caa6f94d-a500-4f30-ac57-86caef7741f7",
                   "name": "Jenny Clarke",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d7da1e4-39d0-475e-906e-d9ccc90481be",
                   "name": "Nick Archer",
                   "score": "3"
                 }
@@ -198,12 +289,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6c360754-86fb-451f-b66b-441c2f3d89ac",
               "players": [
                 {
+                  "playerId": "team-player/caa6f94d-a500-4f30-ac57-86caef7741f7",
                   "name": "Jenny Clarke",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d7da1e4-39d0-475e-906e-d9ccc90481be",
                   "name": "Nick Archer",
                   "score": "2"
                 }
@@ -215,17 +309,26 @@
         },
         {
           "players": [
-            "Duncan Dixon",
-            "Jeff Dawson"
+            {
+              "playerId": "team-player/8562560a-f922-4501-8400-d2886f193281",
+              "name": "Duncan Dixon"
+            },
+            {
+              "playerId": "team-player/55773b59-603f-414e-b770-e691c73c55f9",
+              "name": "Jeff Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e49ee25e-72c5-450a-b106-654a8e60e655",
               "players": [
                 {
+                  "playerId": "team-player/8562560a-f922-4501-8400-d2886f193281",
                   "name": "Duncan Dixon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/55773b59-603f-414e-b770-e691c73c55f9",
                   "name": "Jeff Dawson",
                   "score": "3"
                 }
@@ -234,12 +337,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6330ff31-2625-4201-81f4-68d37f48802b",
               "players": [
                 {
+                  "playerId": "team-player/8562560a-f922-4501-8400-d2886f193281",
                   "name": "Duncan Dixon",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/55773b59-603f-414e-b770-e691c73c55f9",
                   "name": "Jeff Dawson",
                   "score": "7"
                 }
@@ -248,12 +354,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/df1bfe95-51c4-4809-9ac7-49d8588cdfd5",
               "players": [
                 {
+                  "playerId": "team-player/8562560a-f922-4501-8400-d2886f193281",
                   "name": "Duncan Dixon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/55773b59-603f-414e-b770-e691c73c55f9",
                   "name": "Jeff Dawson",
                   "score": "2"
                 }
@@ -265,17 +374,26 @@
         },
         {
           "players": [
-            "Phillip Drew",
-            "Martin French"
+            {
+              "playerId": "team-player/fe0f665e-cc43-4666-8ada-1bde5f553e84",
+              "name": "Phillip Drew"
+            },
+            {
+              "playerId": "team-player/138c4402-2a5d-44df-b092-08da40e6dec0",
+              "name": "Martin French"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b000a949-5e46-423a-99a8-8236c543d29b",
               "players": [
                 {
+                  "playerId": "team-player/fe0f665e-cc43-4666-8ada-1bde5f553e84",
                   "name": "Phillip Drew",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/138c4402-2a5d-44df-b092-08da40e6dec0",
                   "name": "Martin French",
                   "score": "7"
                 }
@@ -284,12 +402,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1b45333e-215f-4eba-adff-75eff462ac62",
               "players": [
                 {
+                  "playerId": "team-player/fe0f665e-cc43-4666-8ada-1bde5f553e84",
                   "name": "Phillip Drew",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/138c4402-2a5d-44df-b092-08da40e6dec0",
                   "name": "Martin French",
                   "score": "3"
                 }
@@ -298,12 +419,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d603d9af-75f9-4441-9f48-62f88fe85f9a",
               "players": [
                 {
+                  "playerId": "team-player/fe0f665e-cc43-4666-8ada-1bde5f553e84",
                   "name": "Phillip Drew",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/138c4402-2a5d-44df-b092-08da40e6dec0",
                   "name": "Martin French",
                   "score": "7"
                 }

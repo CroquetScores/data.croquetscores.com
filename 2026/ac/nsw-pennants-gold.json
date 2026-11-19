@@ -1,57 +1,115 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/8751a15e-b1ab-4b8f-b58f-ea689ed45711",
   "name": "NSW AC Pennants GOLD",
   "sport": "ac",
   "firstDay": "2026-06-01",
   "lastDay": "2026-10-18",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Canberra",
       "shortName": "Canberra",
       "players": [
-        "Janelle Wilson",
-        "Julie Toms",
-        "Kate McLoughlin",
-        "Kate McLoughlin & Janelle Wilson",
-        "Kate McLoughlin & Julie Toms"
+        {
+          "playerId": "team-player/78532147-11fe-4857-8c8d-e31622688435",
+          "name": "Janelle Wilson"
+        },
+        {
+          "playerId": "team-player/462cd0ce-2519-4a9c-8b2b-0e1ccf97c56c",
+          "name": "Julie Toms"
+        },
+        {
+          "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
+          "name": "Kate McLoughlin"
+        },
+        {
+          "playerId": "team-player/cd2ce701-a91a-4f4c-a6fe-31dcafe4c9bb",
+          "name": "Kate McLoughlin & Janelle Wilson"
+        },
+        {
+          "playerId": "team-player/8132f0b0-e62d-49f8-b6fd-bab96b8e006a",
+          "name": "Kate McLoughlin & Julie Toms"
+        }
       ]
     },
     {
       "name": "Wollongong",
       "shortName": "Wollongong",
       "players": [
-        "Di Scott",
-        "Di Scott & John Reed",
-        "John Reed",
-        "John Reed & Di Scott"
+        {
+          "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
+          "name": "Di Scott"
+        },
+        {
+          "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
+          "name": "Di Scott & John Reed"
+        },
+        {
+          "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
+          "name": "John Reed"
+        },
+        {
+          "playerId": "team-player/142313dd-4474-49c4-a0cf-e93ab5077001",
+          "name": "John Reed & Di Scott"
+        }
       ]
     },
     {
       "name": "Marrickville",
       "shortName": "Marrickvil",
       "players": [
-        "Lance Howes",
-        "Lance Howes & Roberta Flint",
-        "Roberta Flint",
-        "Roberta Flint & Lance Howes"
+        {
+          "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
+          "name": "Lance Howes"
+        },
+        {
+          "playerId": "team-player/3ddd850c-3593-4823-83be-2ab0d9497a17",
+          "name": "Lance Howes & Roberta Flint"
+        },
+        {
+          "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
+          "name": "Roberta Flint"
+        },
+        {
+          "playerId": "team-player/ffc77820-ee7d-4afb-bf6f-ad1a12bb0955",
+          "name": "Roberta Flint & Lance Howes"
+        }
       ]
     },
     {
       "name": "Killara",
       "shortName": "Killara",
       "players": [
-        "Liz Montague",
-        "Liz Montague & Peter Montague",
-        "Peter Montague",
-        "Wafik Nassif",
-        "Wafik Nassif & Peter Montague"
+        {
+          "playerId": "team-player/9e02b273-9182-4084-aee8-ce10b60566d2",
+          "name": "Liz Montague"
+        },
+        {
+          "playerId": "team-player/1ffa283a-0849-48d1-83d6-132611352e2b",
+          "name": "Liz Montague & Peter Montague"
+        },
+        {
+          "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
+          "name": "Peter Montague"
+        },
+        {
+          "playerId": "team-player/edce8733-f621-4672-9981-af88593e653d",
+          "name": "Wafik Nassif"
+        },
+        {
+          "playerId": "team-player/e50d23a9-f467-40d9-b0a6-7f51e9cf12ed",
+          "name": "Wafik Nassif & Peter Montague"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/d4ec56a4-e239-4a35-a397-56149ed5c61f",
       "teams": [
         "Canberra",
         "Wollongong"
@@ -61,17 +119,26 @@
       "matches": [
         {
           "players": [
-            "Kate McLoughlin & Janelle Wilson",
-            "Di Scott & John Reed"
+            {
+              "playerId": "team-player/cd2ce701-a91a-4f4c-a6fe-31dcafe4c9bb",
+              "name": "Kate McLoughlin & Janelle Wilson"
+            },
+            {
+              "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
+              "name": "Di Scott & John Reed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/62f0d842-0f40-4f05-9c35-9359aaf72983",
               "players": [
                 {
+                  "playerId": "team-player/cd2ce701-a91a-4f4c-a6fe-31dcafe4c9bb",
                   "name": "Kate McLoughlin & Janelle Wilson",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
                   "name": "Di Scott & John Reed",
                   "score": "7"
                 }
@@ -83,17 +150,26 @@
         },
         {
           "players": [
-            "Kate McLoughlin",
-            "Di Scott"
+            {
+              "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
+              "name": "Kate McLoughlin"
+            },
+            {
+              "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
+              "name": "Di Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35ce4ae2-0f9e-47a7-b994-3b0073e6bb73",
               "players": [
                 {
+                  "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
                   "name": "Kate McLoughlin",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
                   "name": "Di Scott",
                   "score": "8"
                 }
@@ -105,17 +181,26 @@
         },
         {
           "players": [
-            "Janelle Wilson",
-            "John Reed"
+            {
+              "playerId": "team-player/78532147-11fe-4857-8c8d-e31622688435",
+              "name": "Janelle Wilson"
+            },
+            {
+              "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
+              "name": "John Reed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dc2f7800-9fd3-419d-837e-f45ad419e89d",
               "players": [
                 {
+                  "playerId": "team-player/78532147-11fe-4857-8c8d-e31622688435",
                   "name": "Janelle Wilson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
                   "name": "John Reed",
                   "score": "18"
                 }
@@ -128,6 +213,7 @@
       ]
     },
     {
+      "competitionId": "competition/d62cc25f-d179-4b34-870a-63e0dedb01ab",
       "teams": [
         "Marrickville",
         "Killara"
@@ -137,17 +223,26 @@
       "matches": [
         {
           "players": [
-            "Lance Howes & Roberta Flint",
-            "Wafik Nassif & Peter Montague"
+            {
+              "playerId": "team-player/3ddd850c-3593-4823-83be-2ab0d9497a17",
+              "name": "Lance Howes & Roberta Flint"
+            },
+            {
+              "playerId": "team-player/e50d23a9-f467-40d9-b0a6-7f51e9cf12ed",
+              "name": "Wafik Nassif & Peter Montague"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad3d3354-3abb-4a33-ba92-55cd803ab99b",
               "players": [
                 {
+                  "playerId": "team-player/3ddd850c-3593-4823-83be-2ab0d9497a17",
                   "name": "Lance Howes & Roberta Flint",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e50d23a9-f467-40d9-b0a6-7f51e9cf12ed",
                   "name": "Wafik Nassif & Peter Montague",
                   "score": "13"
                 }
@@ -159,17 +254,26 @@
         },
         {
           "players": [
-            "Lance Howes",
-            "Wafik Nassif"
+            {
+              "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
+              "name": "Lance Howes"
+            },
+            {
+              "playerId": "team-player/edce8733-f621-4672-9981-af88593e653d",
+              "name": "Wafik Nassif"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32c1bc32-5f2a-46f5-ab7d-204d6416a5bf",
               "players": [
                 {
+                  "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
                   "name": "Lance Howes",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/edce8733-f621-4672-9981-af88593e653d",
                   "name": "Wafik Nassif",
                   "score": "9"
                 }
@@ -181,17 +285,26 @@
         },
         {
           "players": [
-            "Roberta Flint",
-            "Peter Montague"
+            {
+              "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
+              "name": "Roberta Flint"
+            },
+            {
+              "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
+              "name": "Peter Montague"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2acf08b-8367-46af-86ed-d1e8d35ff0b1",
               "players": [
                 {
+                  "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
                   "name": "Roberta Flint",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
                   "name": "Peter Montague",
                   "score": "9"
                 }
@@ -204,6 +317,7 @@
       ]
     },
     {
+      "competitionId": "competition/88d40d55-f7e8-4176-b51b-ddb4bdee7c3b",
       "teams": [
         "Killara",
         "Marrickville"
@@ -213,17 +327,26 @@
       "matches": [
         {
           "players": [
-            "Wafik Nassif & Peter Montague",
-            "Lance Howes & Roberta Flint"
+            {
+              "playerId": "team-player/e50d23a9-f467-40d9-b0a6-7f51e9cf12ed",
+              "name": "Wafik Nassif & Peter Montague"
+            },
+            {
+              "playerId": "team-player/3ddd850c-3593-4823-83be-2ab0d9497a17",
+              "name": "Lance Howes & Roberta Flint"
+            }
           ],
           "games": [
             {
+              "gameId": "game/905374fd-8afd-49da-8df7-f74a6316eb27",
               "players": [
                 {
+                  "playerId": "team-player/e50d23a9-f467-40d9-b0a6-7f51e9cf12ed",
                   "name": "Wafik Nassif & Peter Montague",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/3ddd850c-3593-4823-83be-2ab0d9497a17",
                   "name": "Lance Howes & Roberta Flint",
                   "score": "4"
                 }
@@ -235,17 +358,26 @@
         },
         {
           "players": [
-            "Wafik Nassif",
-            "Lance Howes"
+            {
+              "playerId": "team-player/edce8733-f621-4672-9981-af88593e653d",
+              "name": "Wafik Nassif"
+            },
+            {
+              "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
+              "name": "Lance Howes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/822bf80c-0b2d-4909-9f0e-3f1cba244eb7",
               "players": [
                 {
+                  "playerId": "team-player/edce8733-f621-4672-9981-af88593e653d",
                   "name": "Wafik Nassif",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
                   "name": "Lance Howes",
                   "score": "16"
                 }
@@ -257,17 +389,26 @@
         },
         {
           "players": [
-            "Peter Montague",
-            "Roberta Flint"
+            {
+              "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
+              "name": "Peter Montague"
+            },
+            {
+              "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
+              "name": "Roberta Flint"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e0a7f83-42c5-4fea-9bf3-f4fc87c26595",
               "players": [
                 {
+                  "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
                   "name": "Peter Montague",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
                   "name": "Roberta Flint",
                   "score": "8"
                 }
@@ -280,6 +421,7 @@
       ]
     },
     {
+      "competitionId": "competition/dd318a5c-e001-438d-9dfd-93b1e070a710",
       "teams": [
         "Marrickville",
         "Canberra"
@@ -289,17 +431,26 @@
       "matches": [
         {
           "players": [
-            "Roberta Flint & Lance Howes",
-            "Kate McLoughlin & Janelle Wilson"
+            {
+              "playerId": "team-player/ffc77820-ee7d-4afb-bf6f-ad1a12bb0955",
+              "name": "Roberta Flint & Lance Howes"
+            },
+            {
+              "playerId": "team-player/cd2ce701-a91a-4f4c-a6fe-31dcafe4c9bb",
+              "name": "Kate McLoughlin & Janelle Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/102cf1ac-f33a-471b-8424-4e032789cdf8",
               "players": [
                 {
+                  "playerId": "team-player/ffc77820-ee7d-4afb-bf6f-ad1a12bb0955",
                   "name": "Roberta Flint & Lance Howes",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/cd2ce701-a91a-4f4c-a6fe-31dcafe4c9bb",
                   "name": "Kate McLoughlin & Janelle Wilson",
                   "score": "6"
                 }
@@ -311,17 +462,26 @@
         },
         {
           "players": [
-            "Lance Howes",
-            "Kate McLoughlin"
+            {
+              "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
+              "name": "Lance Howes"
+            },
+            {
+              "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
+              "name": "Kate McLoughlin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1660e310-15e5-4b15-9fd1-e95af5e8ee7d",
               "players": [
                 {
+                  "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
                   "name": "Lance Howes",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
                   "name": "Kate McLoughlin",
                   "score": "14"
                 }
@@ -333,17 +493,26 @@
         },
         {
           "players": [
-            "Roberta Flint",
-            "Janelle Wilson"
+            {
+              "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
+              "name": "Roberta Flint"
+            },
+            {
+              "playerId": "team-player/78532147-11fe-4857-8c8d-e31622688435",
+              "name": "Janelle Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1710197e-9325-4d70-abd9-90ef2f882e72",
               "players": [
                 {
+                  "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
                   "name": "Roberta Flint",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/78532147-11fe-4857-8c8d-e31622688435",
                   "name": "Janelle Wilson",
                   "score": "14"
                 }
@@ -356,6 +525,7 @@
       ]
     },
     {
+      "competitionId": "competition/f6d85c11-ab06-40fe-be54-9d9469f45f0b",
       "teams": [
         "Canberra",
         "Wollongong"
@@ -365,17 +535,26 @@
       "matches": [
         {
           "players": [
-            "Kate McLoughlin & Julie Toms",
-            "Di Scott & John Reed"
+            {
+              "playerId": "team-player/8132f0b0-e62d-49f8-b6fd-bab96b8e006a",
+              "name": "Kate McLoughlin & Julie Toms"
+            },
+            {
+              "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
+              "name": "Di Scott & John Reed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/87667c9f-1891-4ca1-9b8b-d3360a12edfa",
               "players": [
                 {
+                  "playerId": "team-player/8132f0b0-e62d-49f8-b6fd-bab96b8e006a",
                   "name": "Kate McLoughlin & Julie Toms",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
                   "name": "Di Scott & John Reed",
                   "score": "15"
                 }
@@ -387,17 +566,26 @@
         },
         {
           "players": [
-            "Kate McLoughlin",
-            "John Reed"
+            {
+              "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
+              "name": "Kate McLoughlin"
+            },
+            {
+              "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
+              "name": "John Reed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e4ca000a-751c-47ad-91a1-d194e870af8d",
               "players": [
                 {
+                  "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
                   "name": "Kate McLoughlin",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
                   "name": "John Reed",
                   "score": "4"
                 }
@@ -409,17 +597,26 @@
         },
         {
           "players": [
-            "Julie Toms",
-            "Di Scott"
+            {
+              "playerId": "team-player/462cd0ce-2519-4a9c-8b2b-0e1ccf97c56c",
+              "name": "Julie Toms"
+            },
+            {
+              "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
+              "name": "Di Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/63b262c2-9e20-4eed-b859-4740d467be59",
               "players": [
                 {
+                  "playerId": "team-player/462cd0ce-2519-4a9c-8b2b-0e1ccf97c56c",
                   "name": "Julie Toms",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
                   "name": "Di Scott",
                   "score": "11"
                 }
@@ -432,6 +629,7 @@
       ]
     },
     {
+      "competitionId": "competition/06c59387-b1f2-49da-b623-3e913037a54b",
       "teams": [
         "Killara",
         "Wollongong"
@@ -441,17 +639,26 @@
       "matches": [
         {
           "players": [
-            "Liz Montague & Peter Montague",
-            "Di Scott & John Reed"
+            {
+              "playerId": "team-player/1ffa283a-0849-48d1-83d6-132611352e2b",
+              "name": "Liz Montague & Peter Montague"
+            },
+            {
+              "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
+              "name": "Di Scott & John Reed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dbfa526a-315b-4ac8-b49c-2d9effbf4536",
               "players": [
                 {
+                  "playerId": "team-player/1ffa283a-0849-48d1-83d6-132611352e2b",
                   "name": "Liz Montague & Peter Montague",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
                   "name": "Di Scott & John Reed",
                   "score": "17"
                 }
@@ -463,17 +670,26 @@
         },
         {
           "players": [
-            "Liz Montague",
-            "John Reed"
+            {
+              "playerId": "team-player/9e02b273-9182-4084-aee8-ce10b60566d2",
+              "name": "Liz Montague"
+            },
+            {
+              "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
+              "name": "John Reed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3d4126c-13a7-4430-8c75-602eb5bcd6f3",
               "players": [
                 {
+                  "playerId": "team-player/9e02b273-9182-4084-aee8-ce10b60566d2",
                   "name": "Liz Montague",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
                   "name": "John Reed",
                   "score": "11"
                 }
@@ -485,17 +701,26 @@
         },
         {
           "players": [
-            "Peter Montague",
-            "Di Scott"
+            {
+              "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
+              "name": "Peter Montague"
+            },
+            {
+              "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
+              "name": "Di Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/28ef2fb7-0d19-4fb3-9424-c3a1049ce653",
               "players": [
                 {
+                  "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
                   "name": "Peter Montague",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
                   "name": "Di Scott",
                   "score": "12"
                 }
@@ -508,6 +733,7 @@
       ]
     },
     {
+      "competitionId": "competition/4fb5463b-07d8-4d96-ada8-bf7f0a667470",
       "teams": [
         "Marrickville",
         "Wollongong"
@@ -517,17 +743,26 @@
       "matches": [
         {
           "players": [
-            "Roberta Flint & Lance Howes",
-            "Di Scott & John Reed"
+            {
+              "playerId": "team-player/ffc77820-ee7d-4afb-bf6f-ad1a12bb0955",
+              "name": "Roberta Flint & Lance Howes"
+            },
+            {
+              "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
+              "name": "Di Scott & John Reed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4920d8c3-2b46-44e9-a7c8-1ce3a35a79fe",
               "players": [
                 {
+                  "playerId": "team-player/ffc77820-ee7d-4afb-bf6f-ad1a12bb0955",
                   "name": "Roberta Flint & Lance Howes",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
                   "name": "Di Scott & John Reed",
                   "score": "6"
                 }
@@ -539,17 +774,26 @@
         },
         {
           "players": [
-            "Lance Howes",
-            "John Reed"
+            {
+              "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
+              "name": "Lance Howes"
+            },
+            {
+              "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
+              "name": "John Reed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6bbd2800-1707-4a35-803a-2f585e164d69",
               "players": [
                 {
+                  "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
                   "name": "Lance Howes",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
                   "name": "John Reed",
                   "score": "16"
                 }
@@ -561,17 +805,26 @@
         },
         {
           "players": [
-            "Roberta Flint",
-            "Di Scott"
+            {
+              "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
+              "name": "Roberta Flint"
+            },
+            {
+              "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
+              "name": "Di Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/77241838-db9d-4fd0-a899-b0e321070b2e",
               "players": [
                 {
+                  "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
                   "name": "Roberta Flint",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
                   "name": "Di Scott",
                   "score": "9"
                 }
@@ -584,6 +837,7 @@
       ]
     },
     {
+      "competitionId": "competition/aab1bd17-78ce-455e-82bc-e74a19e9a4a6",
       "teams": [
         "Wollongong",
         "Marrickville"
@@ -593,17 +847,26 @@
       "matches": [
         {
           "players": [
-            "John Reed & Di Scott",
-            "Roberta Flint & Lance Howes"
+            {
+              "playerId": "team-player/142313dd-4474-49c4-a0cf-e93ab5077001",
+              "name": "John Reed & Di Scott"
+            },
+            {
+              "playerId": "team-player/ffc77820-ee7d-4afb-bf6f-ad1a12bb0955",
+              "name": "Roberta Flint & Lance Howes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/548d658b-c4b6-4686-9f60-9a82679c35fc",
               "players": [
                 {
+                  "playerId": "team-player/142313dd-4474-49c4-a0cf-e93ab5077001",
                   "name": "John Reed & Di Scott",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/ffc77820-ee7d-4afb-bf6f-ad1a12bb0955",
                   "name": "Roberta Flint & Lance Howes",
                   "score": "17"
                 }
@@ -615,17 +878,26 @@
         },
         {
           "players": [
-            "John Reed",
-            "Lance Howes"
+            {
+              "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
+              "name": "John Reed"
+            },
+            {
+              "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
+              "name": "Lance Howes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/00262c98-3b0d-45aa-acfe-ac41e21a9262",
               "players": [
                 {
+                  "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
                   "name": "John Reed",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
                   "name": "Lance Howes",
                   "score": "21"
                 }
@@ -637,17 +909,26 @@
         },
         {
           "players": [
-            "Di Scott",
-            "Roberta Flint"
+            {
+              "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
+              "name": "Di Scott"
+            },
+            {
+              "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
+              "name": "Roberta Flint"
+            }
           ],
           "games": [
             {
+              "gameId": "game/abf96264-b65c-48a3-ae14-3df7a31a170e",
               "players": [
                 {
+                  "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
                   "name": "Di Scott",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
                   "name": "Roberta Flint",
                   "score": "16"
                 }
@@ -660,6 +941,7 @@
       ]
     },
     {
+      "competitionId": "competition/035fb89c-7bc6-4239-a1ab-e1f75de86420",
       "teams": [
         "Canberra",
         "Killara"
@@ -669,17 +951,26 @@
       "matches": [
         {
           "players": [
-            "Kate McLoughlin & Julie Toms",
-            "Liz Montague & Peter Montague"
+            {
+              "playerId": "team-player/8132f0b0-e62d-49f8-b6fd-bab96b8e006a",
+              "name": "Kate McLoughlin & Julie Toms"
+            },
+            {
+              "playerId": "team-player/1ffa283a-0849-48d1-83d6-132611352e2b",
+              "name": "Liz Montague & Peter Montague"
+            }
           ],
           "games": [
             {
+              "gameId": "game/267ca8ee-7b73-4924-950d-a4486547fff9",
               "players": [
                 {
+                  "playerId": "team-player/8132f0b0-e62d-49f8-b6fd-bab96b8e006a",
                   "name": "Kate McLoughlin & Julie Toms",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/1ffa283a-0849-48d1-83d6-132611352e2b",
                   "name": "Liz Montague & Peter Montague",
                   "score": "7"
                 }
@@ -691,17 +982,26 @@
         },
         {
           "players": [
-            "Kate McLoughlin",
-            "Liz Montague"
+            {
+              "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
+              "name": "Kate McLoughlin"
+            },
+            {
+              "playerId": "team-player/9e02b273-9182-4084-aee8-ce10b60566d2",
+              "name": "Liz Montague"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4bd1c344-6b83-4b6f-80aa-e5fdee935b43",
               "players": [
                 {
+                  "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
                   "name": "Kate McLoughlin",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/9e02b273-9182-4084-aee8-ce10b60566d2",
                   "name": "Liz Montague",
                   "score": "8"
                 }
@@ -713,17 +1013,26 @@
         },
         {
           "players": [
-            "Julie Toms",
-            "Peter Montague"
+            {
+              "playerId": "team-player/462cd0ce-2519-4a9c-8b2b-0e1ccf97c56c",
+              "name": "Julie Toms"
+            },
+            {
+              "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
+              "name": "Peter Montague"
+            }
           ],
           "games": [
             {
+              "gameId": "game/36b0f69d-1dcb-42c2-95ea-92dfa82591cb",
               "players": [
                 {
+                  "playerId": "team-player/462cd0ce-2519-4a9c-8b2b-0e1ccf97c56c",
                   "name": "Julie Toms",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
                   "name": "Peter Montague",
                   "score": "15"
                 }
@@ -736,6 +1045,7 @@
       ]
     },
     {
+      "competitionId": "competition/4cfcd814-39a6-4f18-8c6f-8aceb462d301",
       "teams": [
         "Canberra",
         "Marrickville"
@@ -745,17 +1055,26 @@
       "matches": [
         {
           "players": [
-            "Kate McLoughlin & Julie Toms",
-            "Roberta Flint & Lance Howes"
+            {
+              "playerId": "team-player/8132f0b0-e62d-49f8-b6fd-bab96b8e006a",
+              "name": "Kate McLoughlin & Julie Toms"
+            },
+            {
+              "playerId": "team-player/ffc77820-ee7d-4afb-bf6f-ad1a12bb0955",
+              "name": "Roberta Flint & Lance Howes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d02bfd66-1b72-4b9a-a1a0-1ea6d611833a",
               "players": [
                 {
+                  "playerId": "team-player/8132f0b0-e62d-49f8-b6fd-bab96b8e006a",
                   "name": "Kate McLoughlin & Julie Toms",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/ffc77820-ee7d-4afb-bf6f-ad1a12bb0955",
                   "name": "Roberta Flint & Lance Howes",
                   "score": "4"
                 }
@@ -767,17 +1086,26 @@
         },
         {
           "players": [
-            "Kate McLoughlin",
-            "Lance Howes"
+            {
+              "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
+              "name": "Kate McLoughlin"
+            },
+            {
+              "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
+              "name": "Lance Howes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3bbc5193-50eb-46c4-ad89-be44c0281b5e",
               "players": [
                 {
+                  "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
                   "name": "Kate McLoughlin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c0728d2-5c80-4566-a450-3f96db06ad44",
                   "name": "Lance Howes",
                   "score": "15"
                 }
@@ -789,17 +1117,26 @@
         },
         {
           "players": [
-            "Julie Toms",
-            "Roberta Flint"
+            {
+              "playerId": "team-player/462cd0ce-2519-4a9c-8b2b-0e1ccf97c56c",
+              "name": "Julie Toms"
+            },
+            {
+              "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
+              "name": "Roberta Flint"
+            }
           ],
           "games": [
             {
+              "gameId": "game/559b138c-5531-4080-ae11-97b8fd1a080c",
               "players": [
                 {
+                  "playerId": "team-player/462cd0ce-2519-4a9c-8b2b-0e1ccf97c56c",
                   "name": "Julie Toms",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4a5bdfc4-379a-4da1-adb3-cf4c9e391809",
                   "name": "Roberta Flint",
                   "score": "18"
                 }
@@ -812,6 +1149,7 @@
       ]
     },
     {
+      "competitionId": "competition/4c156fee-80e0-4e05-b2b7-ad5c25d4067e",
       "teams": [
         "Wollongong",
         "Killara"
@@ -821,17 +1159,26 @@
       "matches": [
         {
           "players": [
-            "Di Scott & John Reed",
-            "Liz Montague & Peter Montague"
+            {
+              "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
+              "name": "Di Scott & John Reed"
+            },
+            {
+              "playerId": "team-player/1ffa283a-0849-48d1-83d6-132611352e2b",
+              "name": "Liz Montague & Peter Montague"
+            }
           ],
           "games": [
             {
+              "gameId": "game/46f76f6e-5dfa-4f4d-bfce-52aa8acf8c1d",
               "players": [
                 {
+                  "playerId": "team-player/c1e6c924-c743-4375-a590-5e6801084a25",
                   "name": "Di Scott & John Reed",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/1ffa283a-0849-48d1-83d6-132611352e2b",
                   "name": "Liz Montague & Peter Montague",
                   "score": "8"
                 }
@@ -843,17 +1190,26 @@
         },
         {
           "players": [
-            "John Reed",
-            "Liz Montague"
+            {
+              "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
+              "name": "John Reed"
+            },
+            {
+              "playerId": "team-player/9e02b273-9182-4084-aee8-ce10b60566d2",
+              "name": "Liz Montague"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3d74539a-67b7-4c86-8ece-c4890cbec425",
               "players": [
                 {
+                  "playerId": "team-player/b920f90b-f6a7-4402-a33d-bbfeddd71be0",
                   "name": "John Reed",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/9e02b273-9182-4084-aee8-ce10b60566d2",
                   "name": "Liz Montague",
                   "score": "15"
                 }
@@ -865,17 +1221,26 @@
         },
         {
           "players": [
-            "Di Scott",
-            "Peter Montague"
+            {
+              "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
+              "name": "Di Scott"
+            },
+            {
+              "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
+              "name": "Peter Montague"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb765123-426f-4704-a1ee-a1db847943e9",
               "players": [
                 {
+                  "playerId": "team-player/7a64945a-3680-4afa-9dd7-97f5d60f8d16",
                   "name": "Di Scott",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
                   "name": "Peter Montague",
                   "score": "15"
                 }
@@ -888,6 +1253,7 @@
       ]
     },
     {
+      "competitionId": "competition/3a83721a-68f5-4d1b-af4b-8fd3191ca2ff",
       "teams": [
         "Killara",
         "Canberra"
@@ -897,17 +1263,26 @@
       "matches": [
         {
           "players": [
-            "Liz Montague & Peter Montague",
-            "Kate McLoughlin & Julie Toms"
+            {
+              "playerId": "team-player/1ffa283a-0849-48d1-83d6-132611352e2b",
+              "name": "Liz Montague & Peter Montague"
+            },
+            {
+              "playerId": "team-player/8132f0b0-e62d-49f8-b6fd-bab96b8e006a",
+              "name": "Kate McLoughlin & Julie Toms"
+            }
           ],
           "games": [
             {
+              "gameId": "game/80b25588-311f-4bdf-ac68-3e276b67ac4f",
               "players": [
                 {
+                  "playerId": "team-player/1ffa283a-0849-48d1-83d6-132611352e2b",
                   "name": "Liz Montague & Peter Montague",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8132f0b0-e62d-49f8-b6fd-bab96b8e006a",
                   "name": "Kate McLoughlin & Julie Toms",
                   "score": "16"
                 }
@@ -919,17 +1294,26 @@
         },
         {
           "players": [
-            "Liz Montague",
-            "Kate McLoughlin"
+            {
+              "playerId": "team-player/9e02b273-9182-4084-aee8-ce10b60566d2",
+              "name": "Liz Montague"
+            },
+            {
+              "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
+              "name": "Kate McLoughlin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5d8a5c98-4e4d-4bae-9dd3-f82eb50da5d6",
               "players": [
                 {
+                  "playerId": "team-player/9e02b273-9182-4084-aee8-ce10b60566d2",
                   "name": "Liz Montague",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/9ce2e409-edf4-4730-b6b7-045c8b4d61dd",
                   "name": "Kate McLoughlin",
                   "score": "9"
                 }
@@ -941,17 +1325,26 @@
         },
         {
           "players": [
-            "Peter Montague",
-            "Julie Toms"
+            {
+              "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
+              "name": "Peter Montague"
+            },
+            {
+              "playerId": "team-player/462cd0ce-2519-4a9c-8b2b-0e1ccf97c56c",
+              "name": "Julie Toms"
+            }
           ],
           "games": [
             {
+              "gameId": "game/067f94a6-1855-469d-b8a4-df71205f0a9c",
               "players": [
                 {
+                  "playerId": "team-player/61fc12e9-f862-43ed-9701-164769f0fd40",
                   "name": "Peter Montague",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/462cd0ce-2519-4a9c-8b2b-0e1ccf97c56c",
                   "name": "Julie Toms",
                   "score": "10"
                 }

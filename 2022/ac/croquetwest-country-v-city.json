@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/6709e6bc-d88e-4e2f-aba7-22279e5bbf0f",
   "name": "Croquetwest AC Country v City",
   "sport": "ac",
   "firstDay": "2022-05-23",
   "lastDay": "2022-05-23",
   "country": "au",
   "region": "wa",
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Country",
       "shortName": "Country",
       "players": [
-        "Gary Phipps",
-        "John Doepel",
-        "John Doepel & Rob Bowling",
-        "John Doepel & Robyn Dart",
-        "John Jury",
-        "John Jury & Gary Phipps",
-        "Rob Bowling",
-        "Rob Bowling & Robyn Dart",
-        "Robyn Dart"
+        {
+          "playerId": "team-player/ca4cef01-a5db-42c4-a3e3-197b32c881f7",
+          "name": "Gary Phipps"
+        },
+        {
+          "playerId": "team-player/aaa7eaac-934d-4c59-8c83-0cc68ab4cf74",
+          "name": "John Doepel"
+        },
+        {
+          "playerId": "team-player/35360cb2-252f-4663-aa67-461463477f94",
+          "name": "John Doepel & Rob Bowling"
+        },
+        {
+          "playerId": "team-player/895977c6-3dd2-4c46-9307-ad68b49645e0",
+          "name": "John Doepel & Robyn Dart"
+        },
+        {
+          "playerId": "team-player/4bf7a599-40c1-4a0f-9d36-9c9e96334141",
+          "name": "John Jury"
+        },
+        {
+          "playerId": "team-player/47638926-6f85-47d7-8553-5fa32165d94d",
+          "name": "John Jury & Gary Phipps"
+        },
+        {
+          "playerId": "team-player/4fe0fa2a-9ec1-46d7-ae8d-9bdf26ddb521",
+          "name": "Rob Bowling"
+        },
+        {
+          "playerId": "team-player/9d7a2953-7ea3-4a3b-b935-60740b9637f0",
+          "name": "Rob Bowling & Robyn Dart"
+        },
+        {
+          "playerId": "team-player/3f9a6735-b760-4b58-84ea-0add0d4ec52a",
+          "name": "Robyn Dart"
+        }
       ]
     },
     {
       "name": "City",
       "shortName": "City",
       "players": [
-        "Coral Broun",
-        "Coral Broun & Elizabeth Petrich",
-        "Coral Broun & Megan Fardon",
-        "Elizabeth Petrich",
-        "Jeff Newcombe",
-        "Jeff Newcombe & Tim Barkes",
-        "Megan Fardon",
-        "Megan Fardon & Elizabeth Petrich",
-        "Tim Barkes"
+        {
+          "playerId": "team-player/009beb85-f480-4cb8-b4e6-d856112c2e0f",
+          "name": "Coral Broun"
+        },
+        {
+          "playerId": "team-player/7c575561-f845-4c7f-a08a-6172e5b48a8b",
+          "name": "Coral Broun & Elizabeth Petrich"
+        },
+        {
+          "playerId": "team-player/c07a8de8-6f8a-4d0b-ae07-fd77b302576c",
+          "name": "Coral Broun & Megan Fardon"
+        },
+        {
+          "playerId": "team-player/943990e1-c690-47ad-9d74-7cc101529159",
+          "name": "Elizabeth Petrich"
+        },
+        {
+          "playerId": "team-player/d97739fb-9987-4870-8d82-4ab35991a309",
+          "name": "Jeff Newcombe"
+        },
+        {
+          "playerId": "team-player/60b56322-27f8-4434-9f8d-de63d78ce952",
+          "name": "Jeff Newcombe & Tim Barkes"
+        },
+        {
+          "playerId": "team-player/40ef4ca0-9ef8-44b4-aca8-ec6e2f2dea62",
+          "name": "Megan Fardon"
+        },
+        {
+          "playerId": "team-player/d0bcfe8f-e2cd-4252-857e-9cfa1f7936dc",
+          "name": "Megan Fardon & Elizabeth Petrich"
+        },
+        {
+          "playerId": "team-player/d4e3023e-7607-4084-8174-0cc1385d053a",
+          "name": "Tim Barkes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1e2deb89-766b-4c86-8b9d-305039b2801d",
       "teams": [
         "Country",
         "City"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "John Doepel & Rob Bowling",
-            "Coral Broun & Elizabeth Petrich"
+            {
+              "playerId": "team-player/35360cb2-252f-4663-aa67-461463477f94",
+              "name": "John Doepel & Rob Bowling"
+            },
+            {
+              "playerId": "team-player/7c575561-f845-4c7f-a08a-6172e5b48a8b",
+              "name": "Coral Broun & Elizabeth Petrich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bf4821d1-d786-4d9c-a6f9-6aa16987694a",
               "players": [
                 {
+                  "playerId": "team-player/35360cb2-252f-4663-aa67-461463477f94",
                   "name": "John Doepel & Rob Bowling",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/7c575561-f845-4c7f-a08a-6172e5b48a8b",
                   "name": "Coral Broun & Elizabeth Petrich",
                   "score": "13"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "John Jury & Gary Phipps",
-            "Jeff Newcombe & Tim Barkes"
+            {
+              "playerId": "team-player/47638926-6f85-47d7-8553-5fa32165d94d",
+              "name": "John Jury & Gary Phipps"
+            },
+            {
+              "playerId": "team-player/60b56322-27f8-4434-9f8d-de63d78ce952",
+              "name": "Jeff Newcombe & Tim Barkes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8a522b9b-f15a-416a-92d3-88a4e3e7f481",
               "players": [
                 {
+                  "playerId": "team-player/47638926-6f85-47d7-8553-5fa32165d94d",
                   "name": "John Jury & Gary Phipps",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/60b56322-27f8-4434-9f8d-de63d78ce952",
                   "name": "Jeff Newcombe & Tim Barkes",
                   "score": "26"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Robyn Dart",
-            "Megan Fardon"
+            {
+              "playerId": "team-player/3f9a6735-b760-4b58-84ea-0add0d4ec52a",
+              "name": "Robyn Dart"
+            },
+            {
+              "playerId": "team-player/40ef4ca0-9ef8-44b4-aca8-ec6e2f2dea62",
+              "name": "Megan Fardon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7e2ae527-a454-4991-903f-dae33450da82",
               "players": [
                 {
+                  "playerId": "team-player/3f9a6735-b760-4b58-84ea-0add0d4ec52a",
                   "name": "Robyn Dart",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/40ef4ca0-9ef8-44b4-aca8-ec6e2f2dea62",
                   "name": "Megan Fardon",
                   "score": "8"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Rob Bowling & Robyn Dart",
-            "Megan Fardon & Elizabeth Petrich"
+            {
+              "playerId": "team-player/9d7a2953-7ea3-4a3b-b935-60740b9637f0",
+              "name": "Rob Bowling & Robyn Dart"
+            },
+            {
+              "playerId": "team-player/d0bcfe8f-e2cd-4252-857e-9cfa1f7936dc",
+              "name": "Megan Fardon & Elizabeth Petrich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/77a28e08-29e9-46d6-a5c6-9c7d095bf316",
               "players": [
                 {
+                  "playerId": "team-player/9d7a2953-7ea3-4a3b-b935-60740b9637f0",
                   "name": "Rob Bowling & Robyn Dart",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/d0bcfe8f-e2cd-4252-857e-9cfa1f7936dc",
                   "name": "Megan Fardon & Elizabeth Petrich",
                   "score": "7"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "John Jury",
-            "Jeff Newcombe"
+            {
+              "playerId": "team-player/4bf7a599-40c1-4a0f-9d36-9c9e96334141",
+              "name": "John Jury"
+            },
+            {
+              "playerId": "team-player/d97739fb-9987-4870-8d82-4ab35991a309",
+              "name": "Jeff Newcombe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8fbc5c08-bd2d-442c-b096-2b1f6176412a",
               "players": [
                 {
+                  "playerId": "team-player/4bf7a599-40c1-4a0f-9d36-9c9e96334141",
                   "name": "John Jury",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d97739fb-9987-4870-8d82-4ab35991a309",
                   "name": "Jeff Newcombe",
                   "score": "26"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Gary Phipps",
-            "Tim Barkes"
+            {
+              "playerId": "team-player/ca4cef01-a5db-42c4-a3e3-197b32c881f7",
+              "name": "Gary Phipps"
+            },
+            {
+              "playerId": "team-player/d4e3023e-7607-4084-8174-0cc1385d053a",
+              "name": "Tim Barkes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5ae3c641-4322-4753-b94b-3689f8b9a8cf",
               "players": [
                 {
+                  "playerId": "team-player/ca4cef01-a5db-42c4-a3e3-197b32c881f7",
                   "name": "Gary Phipps",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/d4e3023e-7607-4084-8174-0cc1385d053a",
                   "name": "Tim Barkes",
                   "score": "21"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "John Doepel",
-            "Coral Broun"
+            {
+              "playerId": "team-player/aaa7eaac-934d-4c59-8c83-0cc68ab4cf74",
+              "name": "John Doepel"
+            },
+            {
+              "playerId": "team-player/009beb85-f480-4cb8-b4e6-d856112c2e0f",
+              "name": "Coral Broun"
+            }
           ],
           "games": [
             {
+              "gameId": "game/afdf35ae-064c-4eb9-9cd6-f19ba0e6e98e",
               "players": [
                 {
+                  "playerId": "team-player/aaa7eaac-934d-4c59-8c83-0cc68ab4cf74",
                   "name": "John Doepel",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/009beb85-f480-4cb8-b4e6-d856112c2e0f",
                   "name": "Coral Broun",
                   "score": "12"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "John Doepel & Robyn Dart",
-            "Coral Broun & Megan Fardon"
+            {
+              "playerId": "team-player/895977c6-3dd2-4c46-9307-ad68b49645e0",
+              "name": "John Doepel & Robyn Dart"
+            },
+            {
+              "playerId": "team-player/c07a8de8-6f8a-4d0b-ae07-fd77b302576c",
+              "name": "Coral Broun & Megan Fardon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2d3e3295-07e9-4180-b325-a861e7cf6b3a",
               "players": [
                 {
+                  "playerId": "team-player/895977c6-3dd2-4c46-9307-ad68b49645e0",
                   "name": "John Doepel & Robyn Dart",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/c07a8de8-6f8a-4d0b-ae07-fd77b302576c",
                   "name": "Coral Broun & Megan Fardon",
                   "score": "13"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "Gary Phipps",
-            "Jeff Newcombe"
+            {
+              "playerId": "team-player/ca4cef01-a5db-42c4-a3e3-197b32c881f7",
+              "name": "Gary Phipps"
+            },
+            {
+              "playerId": "team-player/d97739fb-9987-4870-8d82-4ab35991a309",
+              "name": "Jeff Newcombe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c0923d9b-beed-4061-9214-08c911f83844",
               "players": [
                 {
+                  "playerId": "team-player/ca4cef01-a5db-42c4-a3e3-197b32c881f7",
                   "name": "Gary Phipps",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d97739fb-9987-4870-8d82-4ab35991a309",
                   "name": "Jeff Newcombe",
                   "score": "26TP"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "John Jury",
-            "Tim Barkes"
+            {
+              "playerId": "team-player/4bf7a599-40c1-4a0f-9d36-9c9e96334141",
+              "name": "John Jury"
+            },
+            {
+              "playerId": "team-player/d4e3023e-7607-4084-8174-0cc1385d053a",
+              "name": "Tim Barkes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/66baa452-e92e-4a82-b4b8-c1c31715ac0a",
               "players": [
                 {
+                  "playerId": "team-player/4bf7a599-40c1-4a0f-9d36-9c9e96334141",
                   "name": "John Jury",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/d4e3023e-7607-4084-8174-0cc1385d053a",
                   "name": "Tim Barkes",
                   "score": "26"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "Rob Bowling",
-            "Elizabeth Petrich"
+            {
+              "playerId": "team-player/4fe0fa2a-9ec1-46d7-ae8d-9bdf26ddb521",
+              "name": "Rob Bowling"
+            },
+            {
+              "playerId": "team-player/943990e1-c690-47ad-9d74-7cc101529159",
+              "name": "Elizabeth Petrich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/db9244a1-08de-4952-94f4-02d775c948c6",
               "players": [
                 {
+                  "playerId": "team-player/4fe0fa2a-9ec1-46d7-ae8d-9bdf26ddb521",
                   "name": "Rob Bowling",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/943990e1-c690-47ad-9d74-7cc101529159",
                   "name": "Elizabeth Petrich",
                   "score": "5"
                 }

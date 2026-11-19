@@ -1,67 +1,89 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2a421e84-ce32-4b16-ad9f-57a14e1b9f0f",
   "name": "The Western Championship",
   "sport": "ac",
   "firstDay": "2026-05-09",
   "lastDay": "2026-05-10",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "players": [
     {
+      "playerId": "tournament-player/ca687673-f0aa-4c5e-a9e9-eb2b3a1fb869",
       "name": "Alison Maugham",
       "representing": "-1.5"
     },
     {
+      "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
       "name": "David Fuller",
       "representing": "-2"
     },
     {
+      "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
       "name": "David Maugham",
       "representing": "-2"
     },
     {
+      "playerId": "tournament-player/e7708b91-d074-4d12-af1b-1e940144fdcd",
       "name": "Gediminas Smolskas",
       "representing": "-1"
     },
     {
+      "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
       "name": "Jeff Dawson",
       "representing": "-2.5"
     },
     {
+      "playerId": "tournament-player/69de0b52-b13d-4319-a574-da1aeaf53304",
       "name": "Jonathan Powe",
       "representing": "-2"
     },
     {
+      "playerId": "tournament-player/6dc4fff6-8649-4bad-81f0-1b9e0eff511e",
       "name": "Nigel Polhill",
       "representing": "-2"
     },
     {
+      "playerId": "tournament-player/2bbb2ee7-5ed0-4025-8e4f-eff8d807fb85",
       "name": "Rick Harding",
       "representing": "-2"
     },
     {
+      "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
       "name": "Robin Brown",
       "representing": "-2"
     }
   ],
   "competitions": [
     {
+      "competitionId": "competition/46b93847-9cbf-40cb-8b7a-c265fed059f1",
       "name": "The Western Championship",
       "kind": "knockout",
       "matches": [
         {
           "players": [
-            "David Maugham",
-            "Nigel Polhill"
+            {
+              "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
+              "name": "David Maugham"
+            },
+            {
+              "playerId": "tournament-player/6dc4fff6-8649-4bad-81f0-1b9e0eff511e",
+              "name": "Nigel Polhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/368da213-48e8-4d31-a01c-d92cc1a00b26",
               "players": [
                 {
+                  "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
                   "name": "David Maugham",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/6dc4fff6-8649-4bad-81f0-1b9e0eff511e",
                   "name": "Nigel Polhill",
                   "score": "0"
                 }
@@ -70,12 +92,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/484a0a56-2d2b-4b9c-9793-c2e929c86134",
               "players": [
                 {
+                  "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
                   "name": "David Maugham",
                   "score": "26"
                 },
                 {
+                  "playerId": "tournament-player/6dc4fff6-8649-4bad-81f0-1b9e0eff511e",
                   "name": "Nigel Polhill",
                   "score": "20"
                 }
@@ -87,17 +112,26 @@
         },
         {
           "players": [
-            "Rick Harding",
-            "Robin Brown"
+            {
+              "playerId": "tournament-player/2bbb2ee7-5ed0-4025-8e4f-eff8d807fb85",
+              "name": "Rick Harding"
+            },
+            {
+              "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
+              "name": "Robin Brown"
+            }
           ],
           "games": [
             {
+              "gameId": "game/71580ee1-ea1d-4337-bff3-6d718c7d55af",
               "players": [
                 {
+                  "playerId": "tournament-player/2bbb2ee7-5ed0-4025-8e4f-eff8d807fb85",
                   "name": "Rick Harding",
                   "score": "26"
                 },
                 {
+                  "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
                   "name": "Robin Brown",
                   "score": "7"
                 }
@@ -106,12 +140,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b36b7e38-ab9c-4389-935c-87eacd9e07ef",
               "players": [
                 {
+                  "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
                   "name": "Robin Brown",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/2bbb2ee7-5ed0-4025-8e4f-eff8d807fb85",
                   "name": "Rick Harding",
                   "score": "9"
                 }
@@ -120,12 +157,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e268208f-4a58-48e5-90a0-c86adbf9cb00",
               "players": [
                 {
+                  "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
                   "name": "Robin Brown",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/2bbb2ee7-5ed0-4025-8e4f-eff8d807fb85",
                   "name": "Rick Harding",
                   "score": "10"
                 }
@@ -137,17 +177,26 @@
         },
         {
           "players": [
-            "Jeff Dawson",
-            "Gediminas Smolskas"
+            {
+              "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
+              "name": "Jeff Dawson"
+            },
+            {
+              "playerId": "tournament-player/e7708b91-d074-4d12-af1b-1e940144fdcd",
+              "name": "Gediminas Smolskas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7d3beac-e88c-49b0-a88a-e534cccf3ac2",
               "players": [
                 {
+                  "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
                   "name": "Jeff Dawson",
                   "score": "26"
                 },
                 {
+                  "playerId": "tournament-player/e7708b91-d074-4d12-af1b-1e940144fdcd",
                   "name": "Gediminas Smolskas",
                   "score": "3"
                 }
@@ -156,12 +205,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7e6a96aa-4322-46d4-93f6-a77ec6ee2ae2",
               "players": [
                 {
+                  "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
                   "name": "Jeff Dawson",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/e7708b91-d074-4d12-af1b-1e940144fdcd",
                   "name": "Gediminas Smolskas",
                   "score": "3"
                 }
@@ -173,17 +225,26 @@
         },
         {
           "players": [
-            "David Fuller",
-            "Jonathan Powe"
+            {
+              "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
+              "name": "David Fuller"
+            },
+            {
+              "playerId": "tournament-player/69de0b52-b13d-4319-a574-da1aeaf53304",
+              "name": "Jonathan Powe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c65666ba-4e8c-4436-b915-9431790b497e",
               "players": [
                 {
+                  "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
                   "name": "David Fuller",
                   "score": "26"
                 },
                 {
+                  "playerId": "tournament-player/69de0b52-b13d-4319-a574-da1aeaf53304",
                   "name": "Jonathan Powe",
                   "score": "0"
                 }
@@ -192,12 +253,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/79cf8976-1197-41c6-8402-3ded31d37a4b",
               "players": [
                 {
+                  "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
                   "name": "David Fuller",
                   "score": "26"
                 },
                 {
+                  "playerId": "tournament-player/69de0b52-b13d-4319-a574-da1aeaf53304",
                   "name": "Jonathan Powe",
                   "score": "18"
                 }
@@ -209,17 +273,26 @@
         },
         {
           "players": [
-            "Jeff Dawson",
-            "David Fuller"
+            {
+              "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
+              "name": "Jeff Dawson"
+            },
+            {
+              "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
+              "name": "David Fuller"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5a4dc548-35ee-48c6-9e50-ffdcc5cd8b1e",
               "players": [
                 {
+                  "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
                   "name": "Jeff Dawson",
                   "score": "26"
                 },
                 {
+                  "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
                   "name": "David Fuller",
                   "score": "12"
                 }
@@ -228,12 +301,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0d070600-333e-44ab-93f4-5c4f5f4742ce",
               "players": [
                 {
+                  "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
                   "name": "Jeff Dawson",
                   "score": "26"
                 },
                 {
+                  "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
                   "name": "David Fuller",
                   "score": "9"
                 }
@@ -245,17 +321,26 @@
         },
         {
           "players": [
-            "David Maugham",
-            "Robin Brown"
+            {
+              "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
+              "name": "David Maugham"
+            },
+            {
+              "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
+              "name": "Robin Brown"
+            }
           ],
           "games": [
             {
+              "gameId": "game/20ed053e-e2b0-4c47-b141-152354394bf9",
               "players": [
                 {
+                  "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
                   "name": "David Maugham",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
                   "name": "Robin Brown",
                   "score": "11"
                 }
@@ -264,12 +349,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bb6b0be6-99e5-4bd7-bd53-13d3624f4fa7",
               "players": [
                 {
+                  "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
                   "name": "Robin Brown",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
                   "name": "David Maugham",
                   "score": "9"
                 }
@@ -278,12 +366,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1770b2d2-ba4c-4a12-b06e-c2675098543f",
               "players": [
                 {
+                  "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
                   "name": "David Maugham",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
                   "name": "Robin Brown",
                   "score": "8"
                 }
@@ -295,17 +386,26 @@
         },
         {
           "players": [
-            "David Maugham",
-            "Jeff Dawson"
+            {
+              "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
+              "name": "David Maugham"
+            },
+            {
+              "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
+              "name": "Jeff Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d96ddae3-a25e-4461-9ca0-853d441da576",
               "players": [
                 {
+                  "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
                   "name": "David Maugham",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
                   "name": "Jeff Dawson",
                   "score": "0"
                 }
@@ -314,12 +414,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9df0855b-1fac-4831-b07b-86021669c511",
               "players": [
                 {
+                  "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
                   "name": "David Maugham",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
                   "name": "Jeff Dawson",
                   "score": "0"
                 }
@@ -328,12 +431,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7f6b445a-2410-4cad-a85f-12ef3f86cfa8",
               "players": [
                 {
+                  "playerId": "tournament-player/af367cb9-045b-4d96-bd6c-ce156154ab11",
                   "name": "David Maugham",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/5b051f4d-0c22-4685-89fa-0dac76aa424a",
                   "name": "Jeff Dawson",
                   "score": "12"
                 }
@@ -346,16 +452,20 @@
       ]
     },
     {
+      "competitionId": "competition/a2664302-e02f-4c36-a231-06eebc84ae4d",
       "name": "The Western Championship Plate",
       "kind": "swiss",
       "games": [
         {
+          "gameId": "game/e666c91e-1aa6-446f-b4fc-8fb1f404a03c",
           "players": [
             {
+              "playerId": "tournament-player/ca687673-f0aa-4c5e-a9e9-eb2b3a1fb869",
               "name": "Alison Maugham",
               "score": "26"
             },
             {
+              "playerId": "tournament-player/e7708b91-d074-4d12-af1b-1e940144fdcd",
               "name": "Gediminas Smolskas",
               "score": "3"
             }
@@ -364,12 +474,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/abcd1a50-a70c-487d-ab6e-ce39de87860e",
           "players": [
             {
+              "playerId": "tournament-player/2bbb2ee7-5ed0-4025-8e4f-eff8d807fb85",
               "name": "Rick Harding",
               "score": "26"
             },
             {
+              "playerId": "tournament-player/e7708b91-d074-4d12-af1b-1e940144fdcd",
               "name": "Gediminas Smolskas",
               "score": "11"
             }
@@ -378,12 +491,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/90704e1d-4af4-43ae-998b-08c2dd1bba40",
           "players": [
             {
+              "playerId": "tournament-player/69de0b52-b13d-4319-a574-da1aeaf53304",
               "name": "Jonathan Powe",
               "score": "26"
             },
             {
+              "playerId": "tournament-player/6dc4fff6-8649-4bad-81f0-1b9e0eff511e",
               "name": "Nigel Polhill",
               "score": "11"
             }
@@ -392,12 +508,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/b8d93c63-e80d-4498-a027-e84f7878c594",
           "players": [
             {
+              "playerId": "tournament-player/ca687673-f0aa-4c5e-a9e9-eb2b3a1fb869",
               "name": "Alison Maugham",
               "score": "26"
             },
             {
+              "playerId": "tournament-player/6dc4fff6-8649-4bad-81f0-1b9e0eff511e",
               "name": "Nigel Polhill",
               "score": "9"
             }
@@ -406,12 +525,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/0e8aba1f-b3b0-4802-8613-34fbdb71266f",
           "players": [
             {
+              "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
               "name": "Robin Brown",
               "score": "26"
             },
             {
+              "playerId": "tournament-player/ca687673-f0aa-4c5e-a9e9-eb2b3a1fb869",
               "name": "Alison Maugham",
               "score": "21"
             }
@@ -420,12 +542,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/d9819f08-09ad-473e-8d01-3d4f28c1a15e",
           "players": [
             {
+              "playerId": "tournament-player/6dc4fff6-8649-4bad-81f0-1b9e0eff511e",
               "name": "Nigel Polhill",
               "score": "26tp"
             },
             {
+              "playerId": "tournament-player/e7708b91-d074-4d12-af1b-1e940144fdcd",
               "name": "Gediminas Smolskas",
               "score": "8"
             }
@@ -434,12 +559,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/7be9fce6-921c-4a44-b13e-85b79430ca1c",
           "players": [
             {
+              "playerId": "tournament-player/2bbb2ee7-5ed0-4025-8e4f-eff8d807fb85",
               "name": "Rick Harding",
               "score": "26"
             },
             {
+              "playerId": "tournament-player/69de0b52-b13d-4319-a574-da1aeaf53304",
               "name": "Jonathan Powe",
               "score": "22"
             }
@@ -448,12 +576,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/f73295c6-ae9b-46ba-9a93-1fdad2048830",
           "players": [
             {
+              "playerId": "tournament-player/6dc4fff6-8649-4bad-81f0-1b9e0eff511e",
               "name": "Nigel Polhill",
               "score": "26"
             },
             {
+              "playerId": "tournament-player/0eb41750-fca8-4e9d-8dd3-50a79c7c6174",
               "name": "Robin Brown",
               "score": "10"
             }
@@ -462,12 +593,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/e29802eb-4994-4c4d-b622-bf2a359e4b4e",
           "players": [
             {
+              "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
               "name": "David Fuller",
               "score": "26"
             },
             {
+              "playerId": "tournament-player/ca687673-f0aa-4c5e-a9e9-eb2b3a1fb869",
               "name": "Alison Maugham",
               "score": "11"
             }
@@ -476,12 +610,15 @@
           "withdrawn": false
         },
         {
+          "gameId": "game/555f0f76-d001-40cb-a07e-e77e9eb5f525",
           "players": [
             {
+              "playerId": "tournament-player/6dc4fff6-8649-4bad-81f0-1b9e0eff511e",
               "name": "Nigel Polhill",
               "score": "26"
             },
             {
+              "playerId": "tournament-player/e7708b91-d074-4d12-af1b-1e940144fdcd",
               "name": "Gediminas Smolskas",
               "score": "22"
             }
@@ -492,22 +629,32 @@
       ]
     },
     {
+      "competitionId": "competition/c040e473-f15c-4da6-8212-d09a6d68dd90",
       "name": "Western Championship Plate Knockout",
       "kind": "knockout",
       "matches": [
         {
           "players": [
-            "David Fuller",
-            "Rick Harding"
+            {
+              "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
+              "name": "David Fuller"
+            },
+            {
+              "playerId": "tournament-player/2bbb2ee7-5ed0-4025-8e4f-eff8d807fb85",
+              "name": "Rick Harding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/26443db5-0942-4b9d-9fb0-cc455fc8d5cf",
               "players": [
                 {
+                  "playerId": "tournament-player/8c0fa317-f761-4fb4-96d1-be3b45a93929",
                   "name": "David Fuller",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "tournament-player/2bbb2ee7-5ed0-4025-8e4f-eff8d807fb85",
                   "name": "Rick Harding",
                   "score": "23"
                 }

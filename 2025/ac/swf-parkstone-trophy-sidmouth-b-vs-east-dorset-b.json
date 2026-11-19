@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/3bb0b29c-ec7b-4cae-9e7c-0642797e76e2",
   "name": "SWF Parkstone Trophy Sidmouth B vs East Dorset B",
   "sport": "ac",
   "firstDay": "2025-08-12",
   "lastDay": "2025-08-12",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Sidmouth B",
       "shortName": "Sidmouth B",
       "players": [
-        "Chris Donovan",
-        "Colin Walls",
-        "Mike Taylor",
-        "Peter Nelson",
-        "Peter Nelson & Mike Taylor"
+        {
+          "playerId": "team-player/20728918-6d0d-49cc-bd6a-5576158e7164",
+          "name": "Chris Donovan"
+        },
+        {
+          "playerId": "team-player/9de9fb8c-7529-46e1-9950-0e1d30351965",
+          "name": "Colin Walls"
+        },
+        {
+          "playerId": "team-player/07aa8647-27e9-4838-a5dc-c1835e5e4ed9",
+          "name": "Mike Taylor"
+        },
+        {
+          "playerId": "team-player/e7952c9c-8ae1-403e-aae7-3a4fc247857c",
+          "name": "Peter Nelson"
+        },
+        {
+          "playerId": "team-player/875a88b4-6b39-490c-8c8b-28a796afafe5",
+          "name": "Peter Nelson & Mike Taylor"
+        }
       ]
     },
     {
       "name": "East Dorset B",
       "shortName": "East Dorse",
       "players": [
-        "Chris Rice",
-        "David Williams",
-        "David Williams & Mike Rice",
-        "Mike Rice",
-        "Steve Leonard"
+        {
+          "playerId": "team-player/2a888d2a-a717-4e40-9fe8-63d41ef5e828",
+          "name": "Chris Rice"
+        },
+        {
+          "playerId": "team-player/9a1a8eae-8aaa-4e1b-90e0-f91089a49078",
+          "name": "David Williams"
+        },
+        {
+          "playerId": "team-player/1028e3dd-13ce-4e09-a547-ad67f15c0f4f",
+          "name": "David Williams & Mike Rice"
+        },
+        {
+          "playerId": "team-player/491bc34c-50a5-4759-acb9-472558e2f602",
+          "name": "Mike Rice"
+        },
+        {
+          "playerId": "team-player/ab909d4d-c8b5-4708-bd3e-a02d55c6c584",
+          "name": "Steve Leonard"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1da4623a-774a-489b-a24f-168f854f27cd",
       "teams": [
         "Sidmouth B",
         "East Dorset B"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Peter Nelson & Mike Taylor",
-            "David Williams & Mike Rice"
+            {
+              "playerId": "team-player/875a88b4-6b39-490c-8c8b-28a796afafe5",
+              "name": "Peter Nelson & Mike Taylor"
+            },
+            {
+              "playerId": "team-player/1028e3dd-13ce-4e09-a547-ad67f15c0f4f",
+              "name": "David Williams & Mike Rice"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a3b3b0d1-7bc3-4e49-9bbc-81bc517ed11c",
               "players": [
                 {
+                  "playerId": "team-player/875a88b4-6b39-490c-8c8b-28a796afafe5",
                   "name": "Peter Nelson & Mike Taylor",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/1028e3dd-13ce-4e09-a547-ad67f15c0f4f",
                   "name": "David Williams & Mike Rice",
                   "score": "16"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Chris Donovan",
-            "Chris Rice"
+            {
+              "playerId": "team-player/20728918-6d0d-49cc-bd6a-5576158e7164",
+              "name": "Chris Donovan"
+            },
+            {
+              "playerId": "team-player/2a888d2a-a717-4e40-9fe8-63d41ef5e828",
+              "name": "Chris Rice"
+            }
           ],
           "games": [
             {
+              "gameId": "game/47df2a42-dc1f-4605-8ad2-437227dbefbd",
               "players": [
                 {
+                  "playerId": "team-player/20728918-6d0d-49cc-bd6a-5576158e7164",
                   "name": "Chris Donovan",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/2a888d2a-a717-4e40-9fe8-63d41ef5e828",
                   "name": "Chris Rice",
                   "score": "19"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Colin Walls",
-            "Steve Leonard"
+            {
+              "playerId": "team-player/9de9fb8c-7529-46e1-9950-0e1d30351965",
+              "name": "Colin Walls"
+            },
+            {
+              "playerId": "team-player/ab909d4d-c8b5-4708-bd3e-a02d55c6c584",
+              "name": "Steve Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/97c43bef-e56b-4368-9c9c-e2ff4911ddbd",
               "players": [
                 {
+                  "playerId": "team-player/9de9fb8c-7529-46e1-9950-0e1d30351965",
                   "name": "Colin Walls",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/ab909d4d-c8b5-4708-bd3e-a02d55c6c584",
                   "name": "Steve Leonard",
                   "score": "11"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Chris Donovan",
-            "Steve Leonard"
+            {
+              "playerId": "team-player/20728918-6d0d-49cc-bd6a-5576158e7164",
+              "name": "Chris Donovan"
+            },
+            {
+              "playerId": "team-player/ab909d4d-c8b5-4708-bd3e-a02d55c6c584",
+              "name": "Steve Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0a0d94de-b17f-4cb7-9416-bf30ffc446da",
               "players": [
                 {
+                  "playerId": "team-player/20728918-6d0d-49cc-bd6a-5576158e7164",
                   "name": "Chris Donovan",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/ab909d4d-c8b5-4708-bd3e-a02d55c6c584",
                   "name": "Steve Leonard",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Peter Nelson",
-            "David Williams"
+            {
+              "playerId": "team-player/e7952c9c-8ae1-403e-aae7-3a4fc247857c",
+              "name": "Peter Nelson"
+            },
+            {
+              "playerId": "team-player/9a1a8eae-8aaa-4e1b-90e0-f91089a49078",
+              "name": "David Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/86ba4651-20da-4ec9-9418-a695451f4dbe",
               "players": [
                 {
+                  "playerId": "team-player/e7952c9c-8ae1-403e-aae7-3a4fc247857c",
                   "name": "Peter Nelson",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/9a1a8eae-8aaa-4e1b-90e0-f91089a49078",
                   "name": "David Williams",
                   "score": "8"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Colin Walls",
-            "Chris Rice"
+            {
+              "playerId": "team-player/9de9fb8c-7529-46e1-9950-0e1d30351965",
+              "name": "Colin Walls"
+            },
+            {
+              "playerId": "team-player/2a888d2a-a717-4e40-9fe8-63d41ef5e828",
+              "name": "Chris Rice"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2a58e81f-6a7b-4b97-a5ec-4ff5e86f27c9",
               "players": [
                 {
+                  "playerId": "team-player/9de9fb8c-7529-46e1-9950-0e1d30351965",
                   "name": "Colin Walls",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/2a888d2a-a717-4e40-9fe8-63d41ef5e828",
                   "name": "Chris Rice",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Mike Taylor",
-            "Mike Rice"
+            {
+              "playerId": "team-player/07aa8647-27e9-4838-a5dc-c1835e5e4ed9",
+              "name": "Mike Taylor"
+            },
+            {
+              "playerId": "team-player/491bc34c-50a5-4759-acb9-472558e2f602",
+              "name": "Mike Rice"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c598ed01-880c-4b72-8cda-bd3e40cc2e78",
               "players": [
                 {
+                  "playerId": "team-player/07aa8647-27e9-4838-a5dc-c1835e5e4ed9",
                   "name": "Mike Taylor",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/491bc34c-50a5-4759-acb9-472558e2f602",
                   "name": "Mike Rice",
                   "score": "26"
                 }

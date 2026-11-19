@@ -1,60 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b93ab70c-5049-42e2-aaa1-9dc5811b7170",
   "name": "WCA Handicap Wednesday Interclub",
   "sport": "ac",
   "firstDay": "2023-10-11",
   "lastDay": "2023-11-16",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Paraparaumu",
       "shortName": "Paraparaum",
       "players": [
-        "Anne McKenzie",
-        "Anne McKenzie - meet again",
-        "Anne McKenzie, Bob McKenzie",
-        "Anne McKenzie, Bob McKenzie - meet again",
-        "Bob McKenzie",
-        "Bob McKenzie - meet again"
+        {
+          "playerId": "team-player/27233a26-2493-4089-ac99-a4cc6aa8a2ba",
+          "name": "Anne McKenzie"
+        },
+        {
+          "playerId": "team-player/4e18eb9e-2caf-4f85-baeb-fe1b4637fa1e",
+          "name": "Anne McKenzie - meet again"
+        },
+        {
+          "playerId": "team-player/bb1a1da2-c393-4e3f-8bc8-7ed4b5e309cb",
+          "name": "Anne McKenzie, Bob McKenzie"
+        },
+        {
+          "playerId": "team-player/4088b5ee-0f34-438c-b7a2-534a9fc3e1fa",
+          "name": "Anne McKenzie, Bob McKenzie - meet again"
+        },
+        {
+          "playerId": "team-player/06b40d7d-135c-4bcc-8a09-7c764449b33b",
+          "name": "Bob McKenzie"
+        },
+        {
+          "playerId": "team-player/0e1c9b34-aeff-4630-b710-844e44723f9d",
+          "name": "Bob McKenzie - meet again"
+        }
       ]
     },
     {
       "name": "Petone Central",
       "shortName": "Petone Cen",
       "players": [
-        "Bruce Manuge",
-        "Bruce Manuge - meet again",
-        "Bruce Manuge and Errol McCutchen",
-        "Bruce Manuge, Errol McCutcheon",
-        "Errol McCutcheon",
-        "Errol McCutcheon - meet again"
+        {
+          "playerId": "team-player/3e07a1cd-b3bd-4161-8173-5027c8bd60ee",
+          "name": "Bruce Manuge"
+        },
+        {
+          "playerId": "team-player/9dfa7b84-8ce5-47ce-be11-19069029bdb4",
+          "name": "Bruce Manuge - meet again"
+        },
+        {
+          "playerId": "team-player/2fdea087-929b-4128-be7d-4f6ed5e6c3bb",
+          "name": "Bruce Manuge and Errol McCutchen"
+        },
+        {
+          "playerId": "team-player/536fdef7-9cf3-401b-89f3-a82b83c2741d",
+          "name": "Bruce Manuge, Errol McCutcheon"
+        },
+        {
+          "playerId": "team-player/c418a116-8b1b-4ecd-b53e-791ef6d5a298",
+          "name": "Errol McCutcheon"
+        },
+        {
+          "playerId": "team-player/339b14fb-ac0e-4ea9-9c54-4f29d4583dd8",
+          "name": "Errol McCutcheon - meet again"
+        }
       ]
     },
     {
       "name": "Wellington",
       "shortName": "Wellington",
       "players": [
-        "Graeme Fisher",
-        "Graeme Fisher - meet again",
-        "Graeme Fisher, Tony Sutich",
-        "Tony Sutich",
-        "Tony Sutich - meet again"
+        {
+          "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
+          "name": "Graeme Fisher"
+        },
+        {
+          "playerId": "team-player/f03b38fc-7463-44e7-a3d3-4b97e46b1cfe",
+          "name": "Graeme Fisher - meet again"
+        },
+        {
+          "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
+          "name": "Graeme Fisher, Tony Sutich"
+        },
+        {
+          "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
+          "name": "Tony Sutich"
+        },
+        {
+          "playerId": "team-player/1062a197-1ef0-47c5-b0aa-5aff47c321ce",
+          "name": "Tony Sutich - meet again"
+        }
       ]
     },
     {
       "name": "Waimarie HV",
       "shortName": "Waimarie H",
       "players": [
-        "Harry Murrell",
-        "Harry Murrell, Ross Bisley",
-        "Harry Murrell, Ross Bisley - meet again",
-        "Ross Bisley"
+        {
+          "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
+          "name": "Harry Murrell"
+        },
+        {
+          "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
+          "name": "Harry Murrell, Ross Bisley"
+        },
+        {
+          "playerId": "team-player/17515df9-d8ff-4ef7-92cb-eee77229d3a9",
+          "name": "Harry Murrell, Ross Bisley - meet again"
+        },
+        {
+          "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
+          "name": "Ross Bisley"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/c3fe167c-115a-4322-a644-2655e51a746b",
       "teams": [
         "Paraparaumu",
         "Petone Central"
@@ -64,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Anne McKenzie",
-            "Errol McCutcheon"
+            {
+              "playerId": "team-player/27233a26-2493-4089-ac99-a4cc6aa8a2ba",
+              "name": "Anne McKenzie"
+            },
+            {
+              "playerId": "team-player/c418a116-8b1b-4ecd-b53e-791ef6d5a298",
+              "name": "Errol McCutcheon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4c0e220-07d3-4567-9344-7d75bff20e22",
               "players": [
                 {
+                  "playerId": "team-player/27233a26-2493-4089-ac99-a4cc6aa8a2ba",
                   "name": "Anne McKenzie",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/c418a116-8b1b-4ecd-b53e-791ef6d5a298",
                   "name": "Errol McCutcheon",
                   "score": "14"
                 }
@@ -86,17 +162,26 @@
         },
         {
           "players": [
-            "Bob McKenzie",
-            "Bruce Manuge"
+            {
+              "playerId": "team-player/06b40d7d-135c-4bcc-8a09-7c764449b33b",
+              "name": "Bob McKenzie"
+            },
+            {
+              "playerId": "team-player/3e07a1cd-b3bd-4161-8173-5027c8bd60ee",
+              "name": "Bruce Manuge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7d22e5e1-e784-4f53-96c2-5306a1cdc68f",
               "players": [
                 {
+                  "playerId": "team-player/06b40d7d-135c-4bcc-8a09-7c764449b33b",
                   "name": "Bob McKenzie",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/3e07a1cd-b3bd-4161-8173-5027c8bd60ee",
                   "name": "Bruce Manuge",
                   "score": "18"
                 }
@@ -108,17 +193,26 @@
         },
         {
           "players": [
-            "Anne McKenzie, Bob McKenzie",
-            "Bruce Manuge, Errol McCutcheon"
+            {
+              "playerId": "team-player/bb1a1da2-c393-4e3f-8bc8-7ed4b5e309cb",
+              "name": "Anne McKenzie, Bob McKenzie"
+            },
+            {
+              "playerId": "team-player/536fdef7-9cf3-401b-89f3-a82b83c2741d",
+              "name": "Bruce Manuge, Errol McCutcheon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7c8d8ddd-73be-4cb4-b96d-259de3ff4483",
               "players": [
                 {
+                  "playerId": "team-player/bb1a1da2-c393-4e3f-8bc8-7ed4b5e309cb",
                   "name": "Anne McKenzie, Bob McKenzie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/536fdef7-9cf3-401b-89f3-a82b83c2741d",
                   "name": "Bruce Manuge, Errol McCutcheon",
                   "score": "18"
                 }
@@ -130,17 +224,26 @@
         },
         {
           "players": [
-            "Anne McKenzie, Bob McKenzie",
-            "Bruce Manuge and Errol McCutchen"
+            {
+              "playerId": "team-player/bb1a1da2-c393-4e3f-8bc8-7ed4b5e309cb",
+              "name": "Anne McKenzie, Bob McKenzie"
+            },
+            {
+              "playerId": "team-player/2fdea087-929b-4128-be7d-4f6ed5e6c3bb",
+              "name": "Bruce Manuge and Errol McCutchen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9a5e4170-567f-486c-b2d4-94e17750c7f4",
               "players": [
                 {
+                  "playerId": "team-player/bb1a1da2-c393-4e3f-8bc8-7ed4b5e309cb",
                   "name": "Anne McKenzie, Bob McKenzie",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/2fdea087-929b-4128-be7d-4f6ed5e6c3bb",
                   "name": "Bruce Manuge and Errol McCutchen",
                   "score": "11"
                 }
@@ -152,17 +255,26 @@
         },
         {
           "players": [
-            "Anne McKenzie",
-            "Errol McCutcheon - meet again"
+            {
+              "playerId": "team-player/27233a26-2493-4089-ac99-a4cc6aa8a2ba",
+              "name": "Anne McKenzie"
+            },
+            {
+              "playerId": "team-player/339b14fb-ac0e-4ea9-9c54-4f29d4583dd8",
+              "name": "Errol McCutcheon - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/113a4ce3-bf99-4836-b709-b748ca2637f6",
               "players": [
                 {
+                  "playerId": "team-player/27233a26-2493-4089-ac99-a4cc6aa8a2ba",
                   "name": "Anne McKenzie",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/339b14fb-ac0e-4ea9-9c54-4f29d4583dd8",
                   "name": "Errol McCutcheon - meet again",
                   "score": "3"
                 }
@@ -174,17 +286,26 @@
         },
         {
           "players": [
-            "Bob McKenzie - meet again",
-            "Bruce Manuge"
+            {
+              "playerId": "team-player/0e1c9b34-aeff-4630-b710-844e44723f9d",
+              "name": "Bob McKenzie - meet again"
+            },
+            {
+              "playerId": "team-player/3e07a1cd-b3bd-4161-8173-5027c8bd60ee",
+              "name": "Bruce Manuge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d0b405fa-fbf5-471c-ad83-94e5fb2d662e",
               "players": [
                 {
+                  "playerId": "team-player/0e1c9b34-aeff-4630-b710-844e44723f9d",
                   "name": "Bob McKenzie - meet again",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/3e07a1cd-b3bd-4161-8173-5027c8bd60ee",
                   "name": "Bruce Manuge",
                   "score": "19"
                 }
@@ -197,6 +318,7 @@
       ]
     },
     {
+      "competitionId": "competition/9637847f-d041-4ab4-b019-623d179bf4f9",
       "teams": [
         "Paraparaumu",
         "Wellington"
@@ -206,17 +328,26 @@
       "matches": [
         {
           "players": [
-            "Anne McKenzie, Bob McKenzie",
-            "Graeme Fisher, Tony Sutich"
+            {
+              "playerId": "team-player/bb1a1da2-c393-4e3f-8bc8-7ed4b5e309cb",
+              "name": "Anne McKenzie, Bob McKenzie"
+            },
+            {
+              "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
+              "name": "Graeme Fisher, Tony Sutich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/410db611-c2f4-43fb-b444-3588a575c05e",
               "players": [
                 {
+                  "playerId": "team-player/bb1a1da2-c393-4e3f-8bc8-7ed4b5e309cb",
                   "name": "Anne McKenzie, Bob McKenzie",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
                   "name": "Graeme Fisher, Tony Sutich",
                   "score": "21"
                 }
@@ -228,17 +359,26 @@
         },
         {
           "players": [
-            "Bob McKenzie",
-            "Graeme Fisher"
+            {
+              "playerId": "team-player/06b40d7d-135c-4bcc-8a09-7c764449b33b",
+              "name": "Bob McKenzie"
+            },
+            {
+              "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
+              "name": "Graeme Fisher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e7e153d-6684-4dcf-8323-23bb5a3eab46",
               "players": [
                 {
+                  "playerId": "team-player/06b40d7d-135c-4bcc-8a09-7c764449b33b",
                   "name": "Bob McKenzie",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
                   "name": "Graeme Fisher",
                   "score": "5"
                 }
@@ -250,17 +390,26 @@
         },
         {
           "players": [
-            "Anne McKenzie",
-            "Tony Sutich"
+            {
+              "playerId": "team-player/27233a26-2493-4089-ac99-a4cc6aa8a2ba",
+              "name": "Anne McKenzie"
+            },
+            {
+              "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
+              "name": "Tony Sutich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1239ae48-592b-4942-bbe3-9925ede387b5",
               "players": [
                 {
+                  "playerId": "team-player/27233a26-2493-4089-ac99-a4cc6aa8a2ba",
                   "name": "Anne McKenzie",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
                   "name": "Tony Sutich",
                   "score": "17"
                 }
@@ -272,17 +421,26 @@
         },
         {
           "players": [
-            "Anne McKenzie, Bob McKenzie - meet again",
-            "Graeme Fisher, Tony Sutich"
+            {
+              "playerId": "team-player/4088b5ee-0f34-438c-b7a2-534a9fc3e1fa",
+              "name": "Anne McKenzie, Bob McKenzie - meet again"
+            },
+            {
+              "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
+              "name": "Graeme Fisher, Tony Sutich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2356e892-d491-45aa-a402-eed01883271c",
               "players": [
                 {
+                  "playerId": "team-player/4088b5ee-0f34-438c-b7a2-534a9fc3e1fa",
                   "name": "Anne McKenzie, Bob McKenzie - meet again",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
                   "name": "Graeme Fisher, Tony Sutich",
                   "score": "19"
                 }
@@ -294,17 +452,26 @@
         },
         {
           "players": [
-            "Anne McKenzie - meet again",
-            "Tony Sutich"
+            {
+              "playerId": "team-player/4e18eb9e-2caf-4f85-baeb-fe1b4637fa1e",
+              "name": "Anne McKenzie - meet again"
+            },
+            {
+              "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
+              "name": "Tony Sutich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1a435fd4-887f-4096-a1d5-a6bf9d8128ac",
               "players": [
                 {
+                  "playerId": "team-player/4e18eb9e-2caf-4f85-baeb-fe1b4637fa1e",
                   "name": "Anne McKenzie - meet again",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
                   "name": "Tony Sutich",
                   "score": "13"
                 }
@@ -316,17 +483,26 @@
         },
         {
           "players": [
-            "Bob McKenzie - meet again",
-            "Graeme Fisher"
+            {
+              "playerId": "team-player/0e1c9b34-aeff-4630-b710-844e44723f9d",
+              "name": "Bob McKenzie - meet again"
+            },
+            {
+              "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
+              "name": "Graeme Fisher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eccefd16-ab78-45d3-8dd1-3cdf57fdde65",
               "players": [
                 {
+                  "playerId": "team-player/0e1c9b34-aeff-4630-b710-844e44723f9d",
                   "name": "Bob McKenzie - meet again",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
                   "name": "Graeme Fisher",
                   "score": "13"
                 }
@@ -339,6 +515,7 @@
       ]
     },
     {
+      "competitionId": "competition/e3e8a6d9-5c80-45af-8bca-a09f7cc486a2",
       "teams": [
         "Waimarie HV",
         "Petone Central"
@@ -348,17 +525,26 @@
       "matches": [
         {
           "players": [
-            "Harry Murrell, Ross Bisley",
-            "Bruce Manuge, Errol McCutcheon"
+            {
+              "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
+              "name": "Harry Murrell, Ross Bisley"
+            },
+            {
+              "playerId": "team-player/536fdef7-9cf3-401b-89f3-a82b83c2741d",
+              "name": "Bruce Manuge, Errol McCutcheon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49d5445b-8e53-4758-8b9f-da5c18db5cba",
               "players": [
                 {
+                  "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
                   "name": "Harry Murrell, Ross Bisley",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/536fdef7-9cf3-401b-89f3-a82b83c2741d",
                   "name": "Bruce Manuge, Errol McCutcheon",
                   "score": "13"
                 }
@@ -370,17 +556,26 @@
         },
         {
           "players": [
-            "Harry Murrell",
-            "Bruce Manuge"
+            {
+              "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
+              "name": "Harry Murrell"
+            },
+            {
+              "playerId": "team-player/3e07a1cd-b3bd-4161-8173-5027c8bd60ee",
+              "name": "Bruce Manuge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4097da90-2312-4f46-833d-5b7a36cd0977",
               "players": [
                 {
+                  "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
                   "name": "Harry Murrell",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/3e07a1cd-b3bd-4161-8173-5027c8bd60ee",
                   "name": "Bruce Manuge",
                   "score": "14"
                 }
@@ -392,17 +587,26 @@
         },
         {
           "players": [
-            "Ross Bisley",
-            "Errol McCutcheon"
+            {
+              "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
+              "name": "Ross Bisley"
+            },
+            {
+              "playerId": "team-player/c418a116-8b1b-4ecd-b53e-791ef6d5a298",
+              "name": "Errol McCutcheon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f875fd9f-72d0-4d70-87b2-eea8abd0b901",
               "players": [
                 {
+                  "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
                   "name": "Ross Bisley",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/c418a116-8b1b-4ecd-b53e-791ef6d5a298",
                   "name": "Errol McCutcheon",
                   "score": "22"
                 }
@@ -414,17 +618,26 @@
         },
         {
           "players": [
-            "Harry Murrell, Ross Bisley",
-            "Bruce Manuge and Errol McCutchen"
+            {
+              "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
+              "name": "Harry Murrell, Ross Bisley"
+            },
+            {
+              "playerId": "team-player/2fdea087-929b-4128-be7d-4f6ed5e6c3bb",
+              "name": "Bruce Manuge and Errol McCutchen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4cbf7ca9-bc43-40eb-a614-292f93a60051",
               "players": [
                 {
+                  "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
                   "name": "Harry Murrell, Ross Bisley",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/2fdea087-929b-4128-be7d-4f6ed5e6c3bb",
                   "name": "Bruce Manuge and Errol McCutchen",
                   "score": "21"
                 }
@@ -436,17 +649,26 @@
         },
         {
           "players": [
-            "Harry Murrell",
-            "Bruce Manuge - meet again"
+            {
+              "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
+              "name": "Harry Murrell"
+            },
+            {
+              "playerId": "team-player/9dfa7b84-8ce5-47ce-be11-19069029bdb4",
+              "name": "Bruce Manuge - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d044e5e6-9e2d-4c7f-8d8a-f1f2822a8677",
               "players": [
                 {
+                  "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
                   "name": "Harry Murrell",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/9dfa7b84-8ce5-47ce-be11-19069029bdb4",
                   "name": "Bruce Manuge - meet again",
                   "score": "18"
                 }
@@ -458,17 +680,26 @@
         },
         {
           "players": [
-            "Ross Bisley",
-            "Errol McCutcheon - meet again"
+            {
+              "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
+              "name": "Ross Bisley"
+            },
+            {
+              "playerId": "team-player/339b14fb-ac0e-4ea9-9c54-4f29d4583dd8",
+              "name": "Errol McCutcheon - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a91db262-7e72-469d-a217-a023b3e8f4f5",
               "players": [
                 {
+                  "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
                   "name": "Ross Bisley",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/339b14fb-ac0e-4ea9-9c54-4f29d4583dd8",
                   "name": "Errol McCutcheon - meet again",
                   "score": "14"
                 }
@@ -481,6 +712,7 @@
       ]
     },
     {
+      "competitionId": "competition/2797b703-fc28-4c68-8339-13a6bb8f2517",
       "teams": [
         "Wellington",
         "Petone Central"
@@ -490,17 +722,26 @@
       "matches": [
         {
           "players": [
-            "Graeme Fisher, Tony Sutich",
-            "Bruce Manuge, Errol McCutcheon"
+            {
+              "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
+              "name": "Graeme Fisher, Tony Sutich"
+            },
+            {
+              "playerId": "team-player/536fdef7-9cf3-401b-89f3-a82b83c2741d",
+              "name": "Bruce Manuge, Errol McCutcheon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5565d45c-0583-42d6-b67c-74ac27051f79",
               "players": [
                 {
+                  "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
                   "name": "Graeme Fisher, Tony Sutich",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/536fdef7-9cf3-401b-89f3-a82b83c2741d",
                   "name": "Bruce Manuge, Errol McCutcheon",
                   "score": "16"
                 }
@@ -512,17 +753,26 @@
         },
         {
           "players": [
-            "Graeme Fisher",
-            "Bruce Manuge"
+            {
+              "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
+              "name": "Graeme Fisher"
+            },
+            {
+              "playerId": "team-player/3e07a1cd-b3bd-4161-8173-5027c8bd60ee",
+              "name": "Bruce Manuge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f391e78-a452-4c85-8182-6236d7992185",
               "players": [
                 {
+                  "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
                   "name": "Graeme Fisher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3e07a1cd-b3bd-4161-8173-5027c8bd60ee",
                   "name": "Bruce Manuge",
                   "score": "22"
                 }
@@ -534,17 +784,26 @@
         },
         {
           "players": [
-            "Tony Sutich",
-            "Errol McCutcheon"
+            {
+              "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
+              "name": "Tony Sutich"
+            },
+            {
+              "playerId": "team-player/c418a116-8b1b-4ecd-b53e-791ef6d5a298",
+              "name": "Errol McCutcheon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d746373-5375-4fe0-9687-c8f07e53ca75",
               "players": [
                 {
+                  "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
                   "name": "Tony Sutich",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/c418a116-8b1b-4ecd-b53e-791ef6d5a298",
                   "name": "Errol McCutcheon",
                   "score": "17"
                 }
@@ -556,17 +815,26 @@
         },
         {
           "players": [
-            "Graeme Fisher",
-            "Bruce Manuge - meet again"
+            {
+              "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
+              "name": "Graeme Fisher"
+            },
+            {
+              "playerId": "team-player/9dfa7b84-8ce5-47ce-be11-19069029bdb4",
+              "name": "Bruce Manuge - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/499107f5-4c6f-4bc5-86f3-59b0a917f366",
               "players": [
                 {
+                  "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
                   "name": "Graeme Fisher",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/9dfa7b84-8ce5-47ce-be11-19069029bdb4",
                   "name": "Bruce Manuge - meet again",
                   "score": "26"
                 }
@@ -578,17 +846,26 @@
         },
         {
           "players": [
-            "Tony Sutich",
-            "Errol McCutcheon - meet again"
+            {
+              "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
+              "name": "Tony Sutich"
+            },
+            {
+              "playerId": "team-player/339b14fb-ac0e-4ea9-9c54-4f29d4583dd8",
+              "name": "Errol McCutcheon - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d5ad20c-6359-42c1-9f48-f2921ea9bb5d",
               "players": [
                 {
+                  "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
                   "name": "Tony Sutich",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/339b14fb-ac0e-4ea9-9c54-4f29d4583dd8",
                   "name": "Errol McCutcheon - meet again",
                   "score": "11"
                 }
@@ -601,6 +878,7 @@
       ]
     },
     {
+      "competitionId": "competition/0f8d17f6-490b-49f9-b3fb-1880b216404c",
       "teams": [
         "Paraparaumu",
         "Waimarie HV"
@@ -610,17 +888,26 @@
       "matches": [
         {
           "players": [
-            "Anne McKenzie, Bob McKenzie",
-            "Harry Murrell, Ross Bisley"
+            {
+              "playerId": "team-player/bb1a1da2-c393-4e3f-8bc8-7ed4b5e309cb",
+              "name": "Anne McKenzie, Bob McKenzie"
+            },
+            {
+              "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
+              "name": "Harry Murrell, Ross Bisley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/24f7978e-567e-4c0e-b748-b9492748477d",
               "players": [
                 {
+                  "playerId": "team-player/bb1a1da2-c393-4e3f-8bc8-7ed4b5e309cb",
                   "name": "Anne McKenzie, Bob McKenzie",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
                   "name": "Harry Murrell, Ross Bisley",
                   "score": "17"
                 }
@@ -632,17 +919,26 @@
         },
         {
           "players": [
-            "Bob McKenzie",
-            "Harry Murrell"
+            {
+              "playerId": "team-player/06b40d7d-135c-4bcc-8a09-7c764449b33b",
+              "name": "Bob McKenzie"
+            },
+            {
+              "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
+              "name": "Harry Murrell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7aed0094-0f47-4cf7-8577-24f5634601aa",
               "players": [
                 {
+                  "playerId": "team-player/06b40d7d-135c-4bcc-8a09-7c764449b33b",
                   "name": "Bob McKenzie",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
                   "name": "Harry Murrell",
                   "score": "17"
                 }
@@ -654,17 +950,26 @@
         },
         {
           "players": [
-            "Anne McKenzie",
-            "Ross Bisley"
+            {
+              "playerId": "team-player/27233a26-2493-4089-ac99-a4cc6aa8a2ba",
+              "name": "Anne McKenzie"
+            },
+            {
+              "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
+              "name": "Ross Bisley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2612faf3-b293-4cd0-b6e6-595660e90ab8",
               "players": [
                 {
+                  "playerId": "team-player/27233a26-2493-4089-ac99-a4cc6aa8a2ba",
                   "name": "Anne McKenzie",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
                   "name": "Ross Bisley",
                   "score": "11"
                 }
@@ -676,17 +981,26 @@
         },
         {
           "players": [
-            "Anne McKenzie, Bob McKenzie - meet again",
-            "Harry Murrell, Ross Bisley"
+            {
+              "playerId": "team-player/4088b5ee-0f34-438c-b7a2-534a9fc3e1fa",
+              "name": "Anne McKenzie, Bob McKenzie - meet again"
+            },
+            {
+              "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
+              "name": "Harry Murrell, Ross Bisley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/969a8960-11d8-4d79-8053-b336ea4ebc08",
               "players": [
                 {
+                  "playerId": "team-player/4088b5ee-0f34-438c-b7a2-534a9fc3e1fa",
                   "name": "Anne McKenzie, Bob McKenzie - meet again",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
                   "name": "Harry Murrell, Ross Bisley",
                   "score": "20"
                 }
@@ -698,17 +1012,26 @@
         },
         {
           "players": [
-            "Bob McKenzie - meet again",
-            "Harry Murrell"
+            {
+              "playerId": "team-player/0e1c9b34-aeff-4630-b710-844e44723f9d",
+              "name": "Bob McKenzie - meet again"
+            },
+            {
+              "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
+              "name": "Harry Murrell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ad68081-1173-46d5-97e5-713ff2246f82",
               "players": [
                 {
+                  "playerId": "team-player/0e1c9b34-aeff-4630-b710-844e44723f9d",
                   "name": "Bob McKenzie - meet again",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
                   "name": "Harry Murrell",
                   "score": "26"
                 }
@@ -720,17 +1043,26 @@
         },
         {
           "players": [
-            "Anne McKenzie - meet again",
-            "Ross Bisley"
+            {
+              "playerId": "team-player/4e18eb9e-2caf-4f85-baeb-fe1b4637fa1e",
+              "name": "Anne McKenzie - meet again"
+            },
+            {
+              "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
+              "name": "Ross Bisley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/76077ca0-3713-4021-8e97-66ffc0a4b393",
               "players": [
                 {
+                  "playerId": "team-player/4e18eb9e-2caf-4f85-baeb-fe1b4637fa1e",
                   "name": "Anne McKenzie - meet again",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
                   "name": "Ross Bisley",
                   "score": "11"
                 }
@@ -743,6 +1075,7 @@
       ]
     },
     {
+      "competitionId": "competition/0da1cb95-64b6-4d00-b139-782cb6fe3b34",
       "teams": [
         "Wellington",
         "Waimarie HV"
@@ -752,17 +1085,26 @@
       "matches": [
         {
           "players": [
-            "Graeme Fisher, Tony Sutich",
-            "Harry Murrell, Ross Bisley"
+            {
+              "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
+              "name": "Graeme Fisher, Tony Sutich"
+            },
+            {
+              "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
+              "name": "Harry Murrell, Ross Bisley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a06c9468-1c7b-4486-a0ec-e4ddf056884a",
               "players": [
                 {
+                  "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
                   "name": "Graeme Fisher, Tony Sutich",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/60ec78ba-8a95-43d6-935b-2094e368be07",
                   "name": "Harry Murrell, Ross Bisley",
                   "score": "20"
                 }
@@ -774,17 +1116,26 @@
         },
         {
           "players": [
-            "Graeme Fisher",
-            "Harry Murrell"
+            {
+              "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
+              "name": "Graeme Fisher"
+            },
+            {
+              "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
+              "name": "Harry Murrell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f3e2cec8-4e94-4fc7-9319-d60d323fbaa6",
               "players": [
                 {
+                  "playerId": "team-player/de393e39-f4d1-4128-9271-fea24731c68b",
                   "name": "Graeme Fisher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
                   "name": "Harry Murrell",
                   "score": "17"
                 }
@@ -796,17 +1147,26 @@
         },
         {
           "players": [
-            "Tony Sutich",
-            "Ross Bisley"
+            {
+              "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
+              "name": "Tony Sutich"
+            },
+            {
+              "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
+              "name": "Ross Bisley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c1669fae-ecd4-4552-b823-2cc5e6615878",
               "players": [
                 {
+                  "playerId": "team-player/0937c83f-0063-4853-83ed-d3cd3110cb59",
                   "name": "Tony Sutich",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
                   "name": "Ross Bisley",
                   "score": "26"
                 }
@@ -818,17 +1178,26 @@
         },
         {
           "players": [
-            "Graeme Fisher, Tony Sutich",
-            "Harry Murrell, Ross Bisley - meet again"
+            {
+              "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
+              "name": "Graeme Fisher, Tony Sutich"
+            },
+            {
+              "playerId": "team-player/17515df9-d8ff-4ef7-92cb-eee77229d3a9",
+              "name": "Harry Murrell, Ross Bisley - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/89c9155a-61d1-455a-8501-e7074e27b7d2",
               "players": [
                 {
+                  "playerId": "team-player/4bd1061f-9fb0-433f-a069-bf7d582f8a21",
                   "name": "Graeme Fisher, Tony Sutich",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/17515df9-d8ff-4ef7-92cb-eee77229d3a9",
                   "name": "Harry Murrell, Ross Bisley - meet again",
                   "score": "17"
                 }
@@ -840,17 +1209,26 @@
         },
         {
           "players": [
-            "Graeme Fisher - meet again",
-            "Harry Murrell"
+            {
+              "playerId": "team-player/f03b38fc-7463-44e7-a3d3-4b97e46b1cfe",
+              "name": "Graeme Fisher - meet again"
+            },
+            {
+              "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
+              "name": "Harry Murrell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8968118b-7e15-4fa0-8967-95b0c4c6bfcd",
               "players": [
                 {
+                  "playerId": "team-player/f03b38fc-7463-44e7-a3d3-4b97e46b1cfe",
                   "name": "Graeme Fisher - meet again",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/9a03bf02-d667-4a50-bfe3-2815fe238693",
                   "name": "Harry Murrell",
                   "score": "26"
                 }
@@ -862,17 +1240,26 @@
         },
         {
           "players": [
-            "Tony Sutich - meet again",
-            "Ross Bisley"
+            {
+              "playerId": "team-player/1062a197-1ef0-47c5-b0aa-5aff47c321ce",
+              "name": "Tony Sutich - meet again"
+            },
+            {
+              "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
+              "name": "Ross Bisley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f8a108fa-4a16-4208-a3ae-de420ae0af50",
               "players": [
                 {
+                  "playerId": "team-player/1062a197-1ef0-47c5-b0aa-5aff47c321ce",
                   "name": "Tony Sutich - meet again",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/d562b358-5c14-4ece-8a54-37066539a89a",
                   "name": "Ross Bisley",
                   "score": "21"
                 }

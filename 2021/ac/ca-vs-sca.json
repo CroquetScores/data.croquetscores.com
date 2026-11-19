@@ -1,51 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e67c6bca-6c72-4864-a8c0-9894f62ecec2",
   "name": "CA vs SCA",
   "sport": "ac",
   "firstDay": "2021-08-28",
   "lastDay": "2021-08-29",
   "country": "scotland",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "CA",
       "shortName": "CA",
       "players": [
-        "Alex McIntyre",
-        "Andrew Killick",
-        "Andrew Killick & Alex McIntyre",
-        "Andrew Killick & Roger Staples",
-        "Callum Johnson",
-        "Callum Johnson & Alex McIntyre",
-        "Callum Johnson & Sophie McGlen",
-        "Omied Hallam",
-        "Omied Hallam & Roger Staples",
-        "Omied Hallam & Sophie McGlen",
-        "Roger Staples",
-        "Sophie McGlen"
+        {
+          "playerId": "team-player/637e0001-d776-4d5f-ab4b-042b889247e5",
+          "name": "Alex McIntyre"
+        },
+        {
+          "playerId": "team-player/a19ee97e-4567-4c74-9426-e0c86c7acf8b",
+          "name": "Andrew Killick"
+        },
+        {
+          "playerId": "team-player/b9de4380-479f-48fa-96c1-19e7ebddd63d",
+          "name": "Andrew Killick & Alex McIntyre"
+        },
+        {
+          "playerId": "team-player/09001993-1760-417f-b034-59cff540636b",
+          "name": "Andrew Killick & Roger Staples"
+        },
+        {
+          "playerId": "team-player/9b102fd1-b43f-42c0-b506-a03111dd6672",
+          "name": "Callum Johnson"
+        },
+        {
+          "playerId": "team-player/f1613ac7-255e-47b5-8421-7b1981477a2c",
+          "name": "Callum Johnson & Alex McIntyre"
+        },
+        {
+          "playerId": "team-player/80a7afdb-f479-4d21-9db9-e64b7cd3e6c3",
+          "name": "Callum Johnson & Sophie McGlen"
+        },
+        {
+          "playerId": "team-player/de419999-0c34-47d6-a588-32c498aed327",
+          "name": "Omied Hallam"
+        },
+        {
+          "playerId": "team-player/49883667-85cd-4192-b667-c3711bec84dd",
+          "name": "Omied Hallam & Roger Staples"
+        },
+        {
+          "playerId": "team-player/87a42ab7-22e3-4875-90a3-b6bf550bda0b",
+          "name": "Omied Hallam & Sophie McGlen"
+        },
+        {
+          "playerId": "team-player/782f3eaa-b6d6-4050-bb89-33776c4d1ede",
+          "name": "Roger Staples"
+        },
+        {
+          "playerId": "team-player/68b5369e-0c78-4c24-93ce-3002b4ed986d",
+          "name": "Sophie McGlen"
+        }
       ]
     },
     {
       "name": "SCA",
       "shortName": "SCA",
       "players": [
-        "Chris Martin",
-        "Chris Martin & George Plant",
-        "Chris Martin & Rosemary Saunders-Robertson",
-        "David Magee",
-        "David Magee & Derek Knight",
-        "David Magee & George Plant",
-        "Derek Knight",
-        "George Plant",
-        "Lorna Dewar",
-        "Lorna Dewar & Derek Knight",
-        "Lorna Dewar & Rosemary Saunders-Robertson",
-        "Rosemary Saunders-Robertson"
+        {
+          "playerId": "team-player/7a684e92-fe7d-49ff-9270-7faedab1eaba",
+          "name": "Chris Martin"
+        },
+        {
+          "playerId": "team-player/7d146808-bb56-49ef-b5e8-0472b3fc302a",
+          "name": "Chris Martin & George Plant"
+        },
+        {
+          "playerId": "team-player/d31c842c-5b8f-419f-9dfd-0411444927f3",
+          "name": "Chris Martin & Rosemary Saunders-Robertson"
+        },
+        {
+          "playerId": "team-player/666fd9d7-32e1-4245-bbbc-be11472c1a86",
+          "name": "David Magee"
+        },
+        {
+          "playerId": "team-player/29ee5c50-4b0a-4b7b-9165-5654d423cc71",
+          "name": "David Magee & Derek Knight"
+        },
+        {
+          "playerId": "team-player/7a7e80c8-c483-4bec-9f12-ebf6c544836a",
+          "name": "David Magee & George Plant"
+        },
+        {
+          "playerId": "team-player/8b438272-9b3e-4ae1-9264-70a1464e68c6",
+          "name": "Derek Knight"
+        },
+        {
+          "playerId": "team-player/a0dc2d21-0506-4f53-acaf-69b049e1055c",
+          "name": "George Plant"
+        },
+        {
+          "playerId": "team-player/66a5f0c5-2016-45da-8b0f-f1f81a4a8749",
+          "name": "Lorna Dewar"
+        },
+        {
+          "playerId": "team-player/5dc441ed-02fd-4e53-9da9-af2ae5337c84",
+          "name": "Lorna Dewar & Derek Knight"
+        },
+        {
+          "playerId": "team-player/d73137a1-1253-45cc-affc-1c372ca7d091",
+          "name": "Lorna Dewar & Rosemary Saunders-Robertson"
+        },
+        {
+          "playerId": "team-player/7ba13a09-e990-4523-993d-3f216f727ae5",
+          "name": "Rosemary Saunders-Robertson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/0e3f4275-fd0d-4fbe-bc95-1669529610f9",
       "teams": [
         "CA",
         "SCA"
@@ -55,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Omied Hallam & Roger Staples",
-            "Chris Martin & Rosemary Saunders-Robertson"
+            {
+              "playerId": "team-player/49883667-85cd-4192-b667-c3711bec84dd",
+              "name": "Omied Hallam & Roger Staples"
+            },
+            {
+              "playerId": "team-player/d31c842c-5b8f-419f-9dfd-0411444927f3",
+              "name": "Chris Martin & Rosemary Saunders-Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a6ab01af-b0be-4588-88c1-bab10574912f",
               "players": [
                 {
+                  "playerId": "team-player/49883667-85cd-4192-b667-c3711bec84dd",
                   "name": "Omied Hallam & Roger Staples",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d31c842c-5b8f-419f-9dfd-0411444927f3",
                   "name": "Chris Martin & Rosemary Saunders-Robertson",
                   "score": "22"
                 }
@@ -77,17 +162,26 @@
         },
         {
           "players": [
-            "Callum Johnson & Sophie McGlen",
-            "David Magee & George Plant"
+            {
+              "playerId": "team-player/80a7afdb-f479-4d21-9db9-e64b7cd3e6c3",
+              "name": "Callum Johnson & Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/7a7e80c8-c483-4bec-9f12-ebf6c544836a",
+              "name": "David Magee & George Plant"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dcc3a83e-5e9f-4092-b97b-27af8fb9374e",
               "players": [
                 {
+                  "playerId": "team-player/80a7afdb-f479-4d21-9db9-e64b7cd3e6c3",
                   "name": "Callum Johnson & Sophie McGlen",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/7a7e80c8-c483-4bec-9f12-ebf6c544836a",
                   "name": "David Magee & George Plant",
                   "score": "26"
                 }
@@ -99,17 +193,26 @@
         },
         {
           "players": [
-            "Andrew Killick & Alex McIntyre",
-            "Lorna Dewar & Derek Knight"
+            {
+              "playerId": "team-player/b9de4380-479f-48fa-96c1-19e7ebddd63d",
+              "name": "Andrew Killick & Alex McIntyre"
+            },
+            {
+              "playerId": "team-player/5dc441ed-02fd-4e53-9da9-af2ae5337c84",
+              "name": "Lorna Dewar & Derek Knight"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6dd063f7-1216-449f-a1dc-d62e5e759d44",
               "players": [
                 {
+                  "playerId": "team-player/b9de4380-479f-48fa-96c1-19e7ebddd63d",
                   "name": "Andrew Killick & Alex McIntyre",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5dc441ed-02fd-4e53-9da9-af2ae5337c84",
                   "name": "Lorna Dewar & Derek Knight",
                   "score": "18"
                 }
@@ -121,17 +224,26 @@
         },
         {
           "players": [
-            "Omied Hallam",
-            "Chris Martin"
+            {
+              "playerId": "team-player/de419999-0c34-47d6-a588-32c498aed327",
+              "name": "Omied Hallam"
+            },
+            {
+              "playerId": "team-player/7a684e92-fe7d-49ff-9270-7faedab1eaba",
+              "name": "Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7107c381-3982-4b49-abca-79cbd85ae835",
               "players": [
                 {
+                  "playerId": "team-player/de419999-0c34-47d6-a588-32c498aed327",
                   "name": "Omied Hallam",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/7a684e92-fe7d-49ff-9270-7faedab1eaba",
                   "name": "Chris Martin",
                   "score": "10"
                 }
@@ -143,17 +255,26 @@
         },
         {
           "players": [
-            "Callum Johnson",
-            "David Magee"
+            {
+              "playerId": "team-player/9b102fd1-b43f-42c0-b506-a03111dd6672",
+              "name": "Callum Johnson"
+            },
+            {
+              "playerId": "team-player/666fd9d7-32e1-4245-bbbc-be11472c1a86",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8845621d-bb8e-43a3-9066-e181c32550ca",
               "players": [
                 {
+                  "playerId": "team-player/9b102fd1-b43f-42c0-b506-a03111dd6672",
                   "name": "Callum Johnson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/666fd9d7-32e1-4245-bbbc-be11472c1a86",
                   "name": "David Magee",
                   "score": "10"
                 }
@@ -165,17 +286,26 @@
         },
         {
           "players": [
-            "Andrew Killick",
-            "Lorna Dewar"
+            {
+              "playerId": "team-player/a19ee97e-4567-4c74-9426-e0c86c7acf8b",
+              "name": "Andrew Killick"
+            },
+            {
+              "playerId": "team-player/66a5f0c5-2016-45da-8b0f-f1f81a4a8749",
+              "name": "Lorna Dewar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2d5778c3-04b2-4283-86b2-fd55ad65a088",
               "players": [
                 {
+                  "playerId": "team-player/a19ee97e-4567-4c74-9426-e0c86c7acf8b",
                   "name": "Andrew Killick",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/66a5f0c5-2016-45da-8b0f-f1f81a4a8749",
                   "name": "Lorna Dewar",
                   "score": "25(t)"
                 }
@@ -187,17 +317,26 @@
         },
         {
           "players": [
-            "Alex McIntyre",
-            "Derek Knight"
+            {
+              "playerId": "team-player/637e0001-d776-4d5f-ab4b-042b889247e5",
+              "name": "Alex McIntyre"
+            },
+            {
+              "playerId": "team-player/8b438272-9b3e-4ae1-9264-70a1464e68c6",
+              "name": "Derek Knight"
+            }
           ],
           "games": [
             {
+              "gameId": "game/796e0920-c4be-47c9-8bb1-a7e69dfb726b",
               "players": [
                 {
+                  "playerId": "team-player/637e0001-d776-4d5f-ab4b-042b889247e5",
                   "name": "Alex McIntyre",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/8b438272-9b3e-4ae1-9264-70a1464e68c6",
                   "name": "Derek Knight",
                   "score": "20(t)"
                 }
@@ -209,17 +348,26 @@
         },
         {
           "players": [
-            "Sophie McGlen",
-            "George Plant"
+            {
+              "playerId": "team-player/68b5369e-0c78-4c24-93ce-3002b4ed986d",
+              "name": "Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/a0dc2d21-0506-4f53-acaf-69b049e1055c",
+              "name": "George Plant"
+            }
           ],
           "games": [
             {
+              "gameId": "game/11869467-c05b-4936-bce3-b3bbca3c922c",
               "players": [
                 {
+                  "playerId": "team-player/68b5369e-0c78-4c24-93ce-3002b4ed986d",
                   "name": "Sophie McGlen",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/a0dc2d21-0506-4f53-acaf-69b049e1055c",
                   "name": "George Plant",
                   "score": "26"
                 }
@@ -231,17 +379,26 @@
         },
         {
           "players": [
-            "Roger Staples",
-            "Rosemary Saunders-Robertson"
+            {
+              "playerId": "team-player/782f3eaa-b6d6-4050-bb89-33776c4d1ede",
+              "name": "Roger Staples"
+            },
+            {
+              "playerId": "team-player/7ba13a09-e990-4523-993d-3f216f727ae5",
+              "name": "Rosemary Saunders-Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5859a441-c4c3-4953-8d14-001892d007e1",
               "players": [
                 {
+                  "playerId": "team-player/782f3eaa-b6d6-4050-bb89-33776c4d1ede",
                   "name": "Roger Staples",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/7ba13a09-e990-4523-993d-3f216f727ae5",
                   "name": "Rosemary Saunders-Robertson",
                   "score": "26"
                 }
@@ -253,17 +410,26 @@
         },
         {
           "players": [
-            "Omied Hallam",
-            "David Magee"
+            {
+              "playerId": "team-player/de419999-0c34-47d6-a588-32c498aed327",
+              "name": "Omied Hallam"
+            },
+            {
+              "playerId": "team-player/666fd9d7-32e1-4245-bbbc-be11472c1a86",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/99bbaa1f-6ef0-45e3-9b95-c18c3af6df15",
               "players": [
                 {
+                  "playerId": "team-player/de419999-0c34-47d6-a588-32c498aed327",
                   "name": "Omied Hallam",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/666fd9d7-32e1-4245-bbbc-be11472c1a86",
                   "name": "David Magee",
                   "score": "16"
                 }
@@ -275,17 +441,26 @@
         },
         {
           "players": [
-            "Callum Johnson",
-            "Lorna Dewar"
+            {
+              "playerId": "team-player/9b102fd1-b43f-42c0-b506-a03111dd6672",
+              "name": "Callum Johnson"
+            },
+            {
+              "playerId": "team-player/66a5f0c5-2016-45da-8b0f-f1f81a4a8749",
+              "name": "Lorna Dewar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7e87066-d820-4885-9a48-8ec6805c1057",
               "players": [
                 {
+                  "playerId": "team-player/9b102fd1-b43f-42c0-b506-a03111dd6672",
                   "name": "Callum Johnson",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/66a5f0c5-2016-45da-8b0f-f1f81a4a8749",
                   "name": "Lorna Dewar",
                   "score": "26"
                 }
@@ -297,17 +472,26 @@
         },
         {
           "players": [
-            "Andrew Killick",
-            "Chris Martin"
+            {
+              "playerId": "team-player/a19ee97e-4567-4c74-9426-e0c86c7acf8b",
+              "name": "Andrew Killick"
+            },
+            {
+              "playerId": "team-player/7a684e92-fe7d-49ff-9270-7faedab1eaba",
+              "name": "Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9721476f-8f05-4a2f-b671-6615c4aec3a5",
               "players": [
                 {
+                  "playerId": "team-player/a19ee97e-4567-4c74-9426-e0c86c7acf8b",
                   "name": "Andrew Killick",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/7a684e92-fe7d-49ff-9270-7faedab1eaba",
                   "name": "Chris Martin",
                   "score": "22(t)"
                 }
@@ -319,17 +503,26 @@
         },
         {
           "players": [
-            "Alex McIntyre",
-            "George Plant"
+            {
+              "playerId": "team-player/637e0001-d776-4d5f-ab4b-042b889247e5",
+              "name": "Alex McIntyre"
+            },
+            {
+              "playerId": "team-player/a0dc2d21-0506-4f53-acaf-69b049e1055c",
+              "name": "George Plant"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0367c4a2-a276-44e1-802c-0ff097a197cc",
               "players": [
                 {
+                  "playerId": "team-player/637e0001-d776-4d5f-ab4b-042b889247e5",
                   "name": "Alex McIntyre",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/a0dc2d21-0506-4f53-acaf-69b049e1055c",
                   "name": "George Plant",
                   "score": "26TP"
                 }
@@ -341,17 +534,26 @@
         },
         {
           "players": [
-            "Sophie McGlen",
-            "Rosemary Saunders-Robertson"
+            {
+              "playerId": "team-player/68b5369e-0c78-4c24-93ce-3002b4ed986d",
+              "name": "Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/7ba13a09-e990-4523-993d-3f216f727ae5",
+              "name": "Rosemary Saunders-Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0bbd5930-4056-40a6-b819-14d9c44534ba",
               "players": [
                 {
+                  "playerId": "team-player/68b5369e-0c78-4c24-93ce-3002b4ed986d",
                   "name": "Sophie McGlen",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7ba13a09-e990-4523-993d-3f216f727ae5",
                   "name": "Rosemary Saunders-Robertson",
                   "score": "26"
                 }
@@ -363,17 +565,26 @@
         },
         {
           "players": [
-            "Roger Staples",
-            "Derek Knight"
+            {
+              "playerId": "team-player/782f3eaa-b6d6-4050-bb89-33776c4d1ede",
+              "name": "Roger Staples"
+            },
+            {
+              "playerId": "team-player/8b438272-9b3e-4ae1-9264-70a1464e68c6",
+              "name": "Derek Knight"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4486c57-0518-410b-82b1-292e9e81c05d",
               "players": [
                 {
+                  "playerId": "team-player/782f3eaa-b6d6-4050-bb89-33776c4d1ede",
                   "name": "Roger Staples",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8b438272-9b3e-4ae1-9264-70a1464e68c6",
                   "name": "Derek Knight",
                   "score": "26"
                 }
@@ -385,17 +596,26 @@
         },
         {
           "players": [
-            "Omied Hallam & Sophie McGlen",
-            "Chris Martin & George Plant"
+            {
+              "playerId": "team-player/87a42ab7-22e3-4875-90a3-b6bf550bda0b",
+              "name": "Omied Hallam & Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/7d146808-bb56-49ef-b5e8-0472b3fc302a",
+              "name": "Chris Martin & George Plant"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9dfe739b-1b52-4a5a-b3c9-3c3c120cbda5",
               "players": [
                 {
+                  "playerId": "team-player/87a42ab7-22e3-4875-90a3-b6bf550bda0b",
                   "name": "Omied Hallam & Sophie McGlen",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/7d146808-bb56-49ef-b5e8-0472b3fc302a",
                   "name": "Chris Martin & George Plant",
                   "score": "26TP(GP)"
                 }
@@ -407,17 +627,26 @@
         },
         {
           "players": [
-            "Callum Johnson & Alex McIntyre",
-            "David Magee & Derek Knight"
+            {
+              "playerId": "team-player/f1613ac7-255e-47b5-8421-7b1981477a2c",
+              "name": "Callum Johnson & Alex McIntyre"
+            },
+            {
+              "playerId": "team-player/29ee5c50-4b0a-4b7b-9165-5654d423cc71",
+              "name": "David Magee & Derek Knight"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad0bfe09-424a-440b-8b5a-1c492f155af6",
               "players": [
                 {
+                  "playerId": "team-player/f1613ac7-255e-47b5-8421-7b1981477a2c",
                   "name": "Callum Johnson & Alex McIntyre",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/29ee5c50-4b0a-4b7b-9165-5654d423cc71",
                   "name": "David Magee & Derek Knight",
                   "score": "26"
                 }
@@ -429,17 +658,26 @@
         },
         {
           "players": [
-            "Andrew Killick & Roger Staples",
-            "Lorna Dewar & Rosemary Saunders-Robertson"
+            {
+              "playerId": "team-player/09001993-1760-417f-b034-59cff540636b",
+              "name": "Andrew Killick & Roger Staples"
+            },
+            {
+              "playerId": "team-player/d73137a1-1253-45cc-affc-1c372ca7d091",
+              "name": "Lorna Dewar & Rosemary Saunders-Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c023f536-cf95-4717-9e26-a4a51b47ae77",
               "players": [
                 {
+                  "playerId": "team-player/09001993-1760-417f-b034-59cff540636b",
                   "name": "Andrew Killick & Roger Staples",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d73137a1-1253-45cc-affc-1c372ca7d091",
                   "name": "Lorna Dewar & Rosemary Saunders-Robertson",
                   "score": "14"
                 }
@@ -451,17 +689,26 @@
         },
         {
           "players": [
-            "Omied Hallam",
-            "Lorna Dewar"
+            {
+              "playerId": "team-player/de419999-0c34-47d6-a588-32c498aed327",
+              "name": "Omied Hallam"
+            },
+            {
+              "playerId": "team-player/66a5f0c5-2016-45da-8b0f-f1f81a4a8749",
+              "name": "Lorna Dewar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7003dfa9-bc03-477d-8134-5ffa71a5fe26",
               "players": [
                 {
+                  "playerId": "team-player/de419999-0c34-47d6-a588-32c498aed327",
                   "name": "Omied Hallam",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/66a5f0c5-2016-45da-8b0f-f1f81a4a8749",
                   "name": "Lorna Dewar",
                   "score": "10"
                 }
@@ -473,17 +720,26 @@
         },
         {
           "players": [
-            "Callum Johnson",
-            "Chris Martin"
+            {
+              "playerId": "team-player/9b102fd1-b43f-42c0-b506-a03111dd6672",
+              "name": "Callum Johnson"
+            },
+            {
+              "playerId": "team-player/7a684e92-fe7d-49ff-9270-7faedab1eaba",
+              "name": "Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f88adf71-962c-4a0c-9255-ac52f1f29207",
               "players": [
                 {
+                  "playerId": "team-player/9b102fd1-b43f-42c0-b506-a03111dd6672",
                   "name": "Callum Johnson",
                   "score": "26TPO"
                 },
                 {
+                  "playerId": "team-player/7a684e92-fe7d-49ff-9270-7faedab1eaba",
                   "name": "Chris Martin",
                   "score": "14"
                 }
@@ -495,17 +751,26 @@
         },
         {
           "players": [
-            "Andrew Killick",
-            "David Magee"
+            {
+              "playerId": "team-player/a19ee97e-4567-4c74-9426-e0c86c7acf8b",
+              "name": "Andrew Killick"
+            },
+            {
+              "playerId": "team-player/666fd9d7-32e1-4245-bbbc-be11472c1a86",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7d7d8c64-9619-4c1e-956c-9cf0441af384",
               "players": [
                 {
+                  "playerId": "team-player/a19ee97e-4567-4c74-9426-e0c86c7acf8b",
                   "name": "Andrew Killick",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/666fd9d7-32e1-4245-bbbc-be11472c1a86",
                   "name": "David Magee",
                   "score": "12"
                 }
@@ -517,17 +782,26 @@
         },
         {
           "players": [
-            "Alex McIntyre",
-            "Rosemary Saunders-Robertson"
+            {
+              "playerId": "team-player/637e0001-d776-4d5f-ab4b-042b889247e5",
+              "name": "Alex McIntyre"
+            },
+            {
+              "playerId": "team-player/7ba13a09-e990-4523-993d-3f216f727ae5",
+              "name": "Rosemary Saunders-Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a68c1dae-1473-42c1-9c4f-67e3332312c4",
               "players": [
                 {
+                  "playerId": "team-player/637e0001-d776-4d5f-ab4b-042b889247e5",
                   "name": "Alex McIntyre",
                   "score": "25(t)"
                 },
                 {
+                  "playerId": "team-player/7ba13a09-e990-4523-993d-3f216f727ae5",
                   "name": "Rosemary Saunders-Robertson",
                   "score": "17"
                 }
@@ -539,17 +813,26 @@
         },
         {
           "players": [
-            "Sophie McGlen",
-            "Derek Knight"
+            {
+              "playerId": "team-player/68b5369e-0c78-4c24-93ce-3002b4ed986d",
+              "name": "Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/8b438272-9b3e-4ae1-9264-70a1464e68c6",
+              "name": "Derek Knight"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b38dad54-c123-43b6-8597-144be7d1830d",
               "players": [
                 {
+                  "playerId": "team-player/68b5369e-0c78-4c24-93ce-3002b4ed986d",
                   "name": "Sophie McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/8b438272-9b3e-4ae1-9264-70a1464e68c6",
                   "name": "Derek Knight",
                   "score": "12"
                 }
@@ -561,17 +844,26 @@
         },
         {
           "players": [
-            "Roger Staples",
-            "George Plant"
+            {
+              "playerId": "team-player/782f3eaa-b6d6-4050-bb89-33776c4d1ede",
+              "name": "Roger Staples"
+            },
+            {
+              "playerId": "team-player/a0dc2d21-0506-4f53-acaf-69b049e1055c",
+              "name": "George Plant"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4cc0cae6-6151-47b4-ab73-ac959451ca98",
               "players": [
                 {
+                  "playerId": "team-player/782f3eaa-b6d6-4050-bb89-33776c4d1ede",
                   "name": "Roger Staples",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/a0dc2d21-0506-4f53-acaf-69b049e1055c",
                   "name": "George Plant",
                   "score": "26"
                 }

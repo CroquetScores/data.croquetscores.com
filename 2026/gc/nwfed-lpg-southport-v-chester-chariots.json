@@ -1,38 +1,75 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/c6d51f23-12d4-44d1-9a91-2e9b74ca1668",
   "name": "NWFed LPG Southport v Chester Chariots",
   "sport": "gc",
   "firstDay": "2026-09-09",
   "lastDay": "2026-09-09",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Southport",
       "shortName": "Southport",
       "players": [
-        "John Hampson",
-        "John Hampson - meet again",
-        "Paul Greenwood",
-        "Paul Greenwood - meet again",
-        "Sue Wilkie",
-        "Sue Wilkie - meet again"
+        {
+          "playerId": "team-player/66ac52fd-8edd-420c-8420-577c5c5f9c46",
+          "name": "John Hampson"
+        },
+        {
+          "playerId": "team-player/f526d29f-a3ef-4c9e-832e-db0706979c71",
+          "name": "John Hampson - meet again"
+        },
+        {
+          "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
+          "name": "Paul Greenwood"
+        },
+        {
+          "playerId": "team-player/7ef5d74b-8df1-4bca-9e46-4923ee9e2b14",
+          "name": "Paul Greenwood - meet again"
+        },
+        {
+          "playerId": "team-player/d1b2eae8-dbcf-485b-84c3-c45b820da4a8",
+          "name": "Sue Wilkie"
+        },
+        {
+          "playerId": "team-player/5b581051-3303-4e3a-8c65-9257684006ce",
+          "name": "Sue Wilkie - meet again"
+        }
       ]
     },
     {
       "name": "Chester Chariots",
       "shortName": "Chester Ch",
       "players": [
-        "Jayne Taylor",
-        "Jayne Taylor - meet again",
-        "Mark Lloyd",
-        "Robin Tasker",
-        "Robin Tasker - meet again"
+        {
+          "playerId": "team-player/d7616d70-1b8f-4a49-a2e6-993c9147dc60",
+          "name": "Jayne Taylor"
+        },
+        {
+          "playerId": "team-player/c0fc308a-dbec-41df-94fc-1035d2f853f7",
+          "name": "Jayne Taylor - meet again"
+        },
+        {
+          "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
+          "name": "Mark Lloyd"
+        },
+        {
+          "playerId": "team-player/0171b8b3-e30f-42bb-a63f-29a82e9d1b2c",
+          "name": "Robin Tasker"
+        },
+        {
+          "playerId": "team-player/4ffa4e2a-7c01-486c-bfb0-064b03ac51ed",
+          "name": "Robin Tasker - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/895a9751-22df-4667-91e8-2c5c1fb0cee1",
       "teams": [
         "Southport",
         "Chester Chariots"
@@ -42,17 +79,26 @@
       "matches": [
         {
           "players": [
-            "John Hampson",
-            "Jayne Taylor"
+            {
+              "playerId": "team-player/66ac52fd-8edd-420c-8420-577c5c5f9c46",
+              "name": "John Hampson"
+            },
+            {
+              "playerId": "team-player/d7616d70-1b8f-4a49-a2e6-993c9147dc60",
+              "name": "Jayne Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d0ed90ab-096f-4814-ba57-da50a044d34b",
               "players": [
                 {
+                  "playerId": "team-player/66ac52fd-8edd-420c-8420-577c5c5f9c46",
                   "name": "John Hampson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d7616d70-1b8f-4a49-a2e6-993c9147dc60",
                   "name": "Jayne Taylor",
                   "score": "7"
                 }
@@ -64,17 +110,26 @@
         },
         {
           "players": [
-            "Paul Greenwood",
-            "Mark Lloyd"
+            {
+              "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
+              "name": "Paul Greenwood"
+            },
+            {
+              "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
+              "name": "Mark Lloyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4032ac9d-ba46-4113-8a71-3cebc7ca1a00",
               "players": [
                 {
+                  "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
                   "name": "Paul Greenwood",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }
@@ -86,17 +141,26 @@
         },
         {
           "players": [
-            "Sue Wilkie",
-            "Robin Tasker"
+            {
+              "playerId": "team-player/d1b2eae8-dbcf-485b-84c3-c45b820da4a8",
+              "name": "Sue Wilkie"
+            },
+            {
+              "playerId": "team-player/0171b8b3-e30f-42bb-a63f-29a82e9d1b2c",
+              "name": "Robin Tasker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac68e4d2-fd08-4724-98a6-927b18afc3a4",
               "players": [
                 {
+                  "playerId": "team-player/d1b2eae8-dbcf-485b-84c3-c45b820da4a8",
                   "name": "Sue Wilkie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0171b8b3-e30f-42bb-a63f-29a82e9d1b2c",
                   "name": "Robin Tasker",
                   "score": "5"
                 }
@@ -108,17 +172,26 @@
         },
         {
           "players": [
-            "John Hampson",
-            "Robin Tasker"
+            {
+              "playerId": "team-player/66ac52fd-8edd-420c-8420-577c5c5f9c46",
+              "name": "John Hampson"
+            },
+            {
+              "playerId": "team-player/0171b8b3-e30f-42bb-a63f-29a82e9d1b2c",
+              "name": "Robin Tasker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30fe05dc-83df-4986-bb35-84d6eabd551a",
               "players": [
                 {
+                  "playerId": "team-player/66ac52fd-8edd-420c-8420-577c5c5f9c46",
                   "name": "John Hampson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0171b8b3-e30f-42bb-a63f-29a82e9d1b2c",
                   "name": "Robin Tasker",
                   "score": "2"
                 }
@@ -130,17 +203,26 @@
         },
         {
           "players": [
-            "Paul Greenwood",
-            "Jayne Taylor"
+            {
+              "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
+              "name": "Paul Greenwood"
+            },
+            {
+              "playerId": "team-player/d7616d70-1b8f-4a49-a2e6-993c9147dc60",
+              "name": "Jayne Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/89a35b6c-3f47-4673-9298-f95a98997bad",
               "players": [
                 {
+                  "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
                   "name": "Paul Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d7616d70-1b8f-4a49-a2e6-993c9147dc60",
                   "name": "Jayne Taylor",
                   "score": "2"
                 }
@@ -152,17 +234,26 @@
         },
         {
           "players": [
-            "Sue Wilkie",
-            "Mark Lloyd"
+            {
+              "playerId": "team-player/d1b2eae8-dbcf-485b-84c3-c45b820da4a8",
+              "name": "Sue Wilkie"
+            },
+            {
+              "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
+              "name": "Mark Lloyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b363ba95-9b67-44b4-a978-2ed1bce98813",
               "players": [
                 {
+                  "playerId": "team-player/d1b2eae8-dbcf-485b-84c3-c45b820da4a8",
                   "name": "Sue Wilkie",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }
@@ -174,17 +265,26 @@
         },
         {
           "players": [
-            "John Hampson",
-            "Mark Lloyd"
+            {
+              "playerId": "team-player/66ac52fd-8edd-420c-8420-577c5c5f9c46",
+              "name": "John Hampson"
+            },
+            {
+              "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
+              "name": "Mark Lloyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8f322314-a3a5-4d4d-b92c-c91f927a4c7b",
               "players": [
                 {
+                  "playerId": "team-player/66ac52fd-8edd-420c-8420-577c5c5f9c46",
                   "name": "John Hampson",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }
@@ -196,17 +296,26 @@
         },
         {
           "players": [
-            "Paul Greenwood",
-            "Robin Tasker"
+            {
+              "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
+              "name": "Paul Greenwood"
+            },
+            {
+              "playerId": "team-player/0171b8b3-e30f-42bb-a63f-29a82e9d1b2c",
+              "name": "Robin Tasker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3e42ab41-a905-4692-a419-b8993998ac26",
               "players": [
                 {
+                  "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
                   "name": "Paul Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0171b8b3-e30f-42bb-a63f-29a82e9d1b2c",
                   "name": "Robin Tasker",
                   "score": "3"
                 }
@@ -218,17 +327,26 @@
         },
         {
           "players": [
-            "Sue Wilkie",
-            "Jayne Taylor"
+            {
+              "playerId": "team-player/d1b2eae8-dbcf-485b-84c3-c45b820da4a8",
+              "name": "Sue Wilkie"
+            },
+            {
+              "playerId": "team-player/d7616d70-1b8f-4a49-a2e6-993c9147dc60",
+              "name": "Jayne Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f461816b-a106-4038-8f99-d3b1aaa0adb6",
               "players": [
                 {
+                  "playerId": "team-player/d1b2eae8-dbcf-485b-84c3-c45b820da4a8",
                   "name": "Sue Wilkie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d7616d70-1b8f-4a49-a2e6-993c9147dc60",
                   "name": "Jayne Taylor",
                   "score": "2"
                 }
@@ -240,17 +358,26 @@
         },
         {
           "players": [
-            "John Hampson",
-            "Jayne Taylor - meet again"
+            {
+              "playerId": "team-player/66ac52fd-8edd-420c-8420-577c5c5f9c46",
+              "name": "John Hampson"
+            },
+            {
+              "playerId": "team-player/c0fc308a-dbec-41df-94fc-1035d2f853f7",
+              "name": "Jayne Taylor - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/abcca662-3dbd-4cfa-9944-499e369f1511",
               "players": [
                 {
+                  "playerId": "team-player/66ac52fd-8edd-420c-8420-577c5c5f9c46",
                   "name": "John Hampson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c0fc308a-dbec-41df-94fc-1035d2f853f7",
                   "name": "Jayne Taylor - meet again",
                   "score": "2"
                 }
@@ -262,17 +389,26 @@
         },
         {
           "players": [
-            "Paul Greenwood - meet again",
-            "Mark Lloyd"
+            {
+              "playerId": "team-player/7ef5d74b-8df1-4bca-9e46-4923ee9e2b14",
+              "name": "Paul Greenwood - meet again"
+            },
+            {
+              "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
+              "name": "Mark Lloyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d1526612-b038-4f65-b8a8-2042ff7654c0",
               "players": [
                 {
+                  "playerId": "team-player/7ef5d74b-8df1-4bca-9e46-4923ee9e2b14",
                   "name": "Paul Greenwood - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }
@@ -284,17 +420,26 @@
         },
         {
           "players": [
-            "Sue Wilkie",
-            "Robin Tasker - meet again"
+            {
+              "playerId": "team-player/d1b2eae8-dbcf-485b-84c3-c45b820da4a8",
+              "name": "Sue Wilkie"
+            },
+            {
+              "playerId": "team-player/4ffa4e2a-7c01-486c-bfb0-064b03ac51ed",
+              "name": "Robin Tasker - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e2d484b3-4dd4-4810-9c9d-b249f6b39906",
               "players": [
                 {
+                  "playerId": "team-player/d1b2eae8-dbcf-485b-84c3-c45b820da4a8",
                   "name": "Sue Wilkie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4ffa4e2a-7c01-486c-bfb0-064b03ac51ed",
                   "name": "Robin Tasker - meet again",
                   "score": "1"
                 }
@@ -306,17 +451,26 @@
         },
         {
           "players": [
-            "Paul Greenwood",
-            "Jayne Taylor - meet again"
+            {
+              "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
+              "name": "Paul Greenwood"
+            },
+            {
+              "playerId": "team-player/c0fc308a-dbec-41df-94fc-1035d2f853f7",
+              "name": "Jayne Taylor - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2d1ae106-a270-4ca7-81f7-c1d7a10b0881",
               "players": [
                 {
+                  "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
                   "name": "Paul Greenwood",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/c0fc308a-dbec-41df-94fc-1035d2f853f7",
                   "name": "Jayne Taylor - meet again",
                   "score": "7"
                 }
@@ -328,17 +482,26 @@
         },
         {
           "players": [
-            "Sue Wilkie - meet again",
-            "Mark Lloyd"
+            {
+              "playerId": "team-player/5b581051-3303-4e3a-8c65-9257684006ce",
+              "name": "Sue Wilkie - meet again"
+            },
+            {
+              "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
+              "name": "Mark Lloyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/52b63792-0044-42ad-b77d-9f3b1db586d7",
               "players": [
                 {
+                  "playerId": "team-player/5b581051-3303-4e3a-8c65-9257684006ce",
                   "name": "Sue Wilkie - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }
@@ -350,17 +513,26 @@
         },
         {
           "players": [
-            "John Hampson - meet again",
-            "Mark Lloyd"
+            {
+              "playerId": "team-player/f526d29f-a3ef-4c9e-832e-db0706979c71",
+              "name": "John Hampson - meet again"
+            },
+            {
+              "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
+              "name": "Mark Lloyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9d558497-ff44-4950-8d07-d78856409446",
               "players": [
                 {
+                  "playerId": "team-player/f526d29f-a3ef-4c9e-832e-db0706979c71",
                   "name": "John Hampson - meet again",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/a608c7b4-fa96-42ec-af89-64a7c681d7c6",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }
@@ -372,17 +544,26 @@
         },
         {
           "players": [
-            "Paul Greenwood",
-            "Robin Tasker - meet again"
+            {
+              "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
+              "name": "Paul Greenwood"
+            },
+            {
+              "playerId": "team-player/4ffa4e2a-7c01-486c-bfb0-064b03ac51ed",
+              "name": "Robin Tasker - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/78161705-576b-41e3-b6d9-091f7a96a39f",
               "players": [
                 {
+                  "playerId": "team-player/eeded0b8-b670-4fc2-af53-1c714721dfe7",
                   "name": "Paul Greenwood",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4ffa4e2a-7c01-486c-bfb0-064b03ac51ed",
                   "name": "Robin Tasker - meet again",
                   "score": "7"
                 }
@@ -394,17 +575,26 @@
         },
         {
           "players": [
-            "Sue Wilkie - meet again",
-            "Jayne Taylor"
+            {
+              "playerId": "team-player/5b581051-3303-4e3a-8c65-9257684006ce",
+              "name": "Sue Wilkie - meet again"
+            },
+            {
+              "playerId": "team-player/d7616d70-1b8f-4a49-a2e6-993c9147dc60",
+              "name": "Jayne Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3d335aad-bd9c-4d08-b736-51568c38ed28",
               "players": [
                 {
+                  "playerId": "team-player/5b581051-3303-4e3a-8c65-9257684006ce",
                   "name": "Sue Wilkie - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d7616d70-1b8f-4a49-a2e6-993c9147dc60",
                   "name": "Jayne Taylor",
                   "score": "3"
                 }

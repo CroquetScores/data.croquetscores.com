@@ -1,51 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/abcecaf5-4d87-4230-a161-bba7b57cc182",
   "name": "Kaimai Mounties vs Cougars",
   "sport": "gc",
   "firstDay": "2026-09-14",
   "lastDay": "2026-09-14",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Cougars",
       "shortName": "Cougars",
       "players": [
-        "Clive Taylor",
-        "Dave Roberts",
-        "Diane McNaughton",
-        "Diane McNaughton & Clive",
-        "Diane McNaughton & Kevin",
-        "Kevin Hughes",
-        "Kevin Hughes & Clive",
-        "Lennart Eldholt",
-        "Lennart Eldholt & Dave",
-        "Robyn Meeking",
-        "Robyn Meeking & Dave",
-        "Robyn Meeking & Lennart"
+        {
+          "playerId": "team-player/fcc235c1-6ed7-4aad-ac6d-92bd997a72e8",
+          "name": "Clive Taylor"
+        },
+        {
+          "playerId": "team-player/cf51a5ae-2ed4-480d-ae63-f943805ba969",
+          "name": "Dave Roberts"
+        },
+        {
+          "playerId": "team-player/a328ce86-47f3-4a48-a217-36839354bf77",
+          "name": "Diane McNaughton"
+        },
+        {
+          "playerId": "team-player/3e798685-1eeb-4c56-bdcd-a9d2cb42d5e1",
+          "name": "Diane McNaughton & Clive"
+        },
+        {
+          "playerId": "team-player/42533a24-c2a9-4638-b21f-94074cd3ca9f",
+          "name": "Diane McNaughton & Kevin"
+        },
+        {
+          "playerId": "team-player/8fa2571d-f0ab-44ac-8313-cf858241837e",
+          "name": "Kevin Hughes"
+        },
+        {
+          "playerId": "team-player/5f077c07-ffa9-4e0d-a857-10ae5cd37b96",
+          "name": "Kevin Hughes & Clive"
+        },
+        {
+          "playerId": "team-player/a9f8edfc-8079-4123-89a2-d3974cafbc1b",
+          "name": "Lennart Eldholt"
+        },
+        {
+          "playerId": "team-player/40e0a41e-23c9-4476-ab88-7c9ebbc6a962",
+          "name": "Lennart Eldholt & Dave"
+        },
+        {
+          "playerId": "team-player/c9a47049-4c24-486f-9df4-1d6913b47b89",
+          "name": "Robyn Meeking"
+        },
+        {
+          "playerId": "team-player/cf6c1b0e-ad0c-42c1-9f45-33f3a66b118d",
+          "name": "Robyn Meeking & Dave"
+        },
+        {
+          "playerId": "team-player/d62672ca-fcf6-46c5-a8d9-b97d89c9633c",
+          "name": "Robyn Meeking & Lennart"
+        }
       ]
     },
     {
       "name": "Mounties",
       "shortName": "Mounties",
       "players": [
-        "Allan Roberts",
-        "Brian Sisam",
-        "Bryan Christy",
-        "Bryan Christy & Allan",
-        "Bryan Christy & Caroline",
-        "Caroline Bergman",
-        "Caroline Bergman & Allan",
-        "Sibyl Grant",
-        "Sibyl Grant & Brian",
-        "Win Spencer",
-        "Win Spencer & Brian",
-        "Win Spencer & Sibyl"
+        {
+          "playerId": "team-player/37f9a546-c983-43b5-9221-7519056d0afb",
+          "name": "Allan Roberts"
+        },
+        {
+          "playerId": "team-player/00654f0e-8bc5-48f2-93e9-ed1ccade6035",
+          "name": "Brian Sisam"
+        },
+        {
+          "playerId": "team-player/6c99851d-0a8a-4618-9d93-9846cbc7509b",
+          "name": "Bryan Christy"
+        },
+        {
+          "playerId": "team-player/b1706265-85bc-46ec-91ba-5faa0961d5d5",
+          "name": "Bryan Christy & Allan"
+        },
+        {
+          "playerId": "team-player/5bd0bd1f-ca54-410a-acca-34588f8fde32",
+          "name": "Bryan Christy & Caroline"
+        },
+        {
+          "playerId": "team-player/5a9a0b87-85fe-4283-b86e-55abb5723583",
+          "name": "Caroline Bergman"
+        },
+        {
+          "playerId": "team-player/86c96315-0379-44ae-9ad3-ff354238807a",
+          "name": "Caroline Bergman & Allan"
+        },
+        {
+          "playerId": "team-player/e54f49b0-6930-4d08-be96-e7963b6403d4",
+          "name": "Sibyl Grant"
+        },
+        {
+          "playerId": "team-player/c06ecd42-cb14-49e6-b910-e3aea842e1a9",
+          "name": "Sibyl Grant & Brian"
+        },
+        {
+          "playerId": "team-player/320a95a6-6a28-4b52-8461-99501e368966",
+          "name": "Win Spencer"
+        },
+        {
+          "playerId": "team-player/92571758-55af-491c-9cca-2a6289ceec22",
+          "name": "Win Spencer & Brian"
+        },
+        {
+          "playerId": "team-player/00dc6e39-6c2d-4131-9941-9dc35557b870",
+          "name": "Win Spencer & Sibyl"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/52144581-93f3-4057-8d8a-6bfef163743e",
       "teams": [
         "Cougars",
         "Mounties"
@@ -55,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Robyn Meeking",
-            "Win Spencer"
+            {
+              "playerId": "team-player/c9a47049-4c24-486f-9df4-1d6913b47b89",
+              "name": "Robyn Meeking"
+            },
+            {
+              "playerId": "team-player/320a95a6-6a28-4b52-8461-99501e368966",
+              "name": "Win Spencer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/63653e8a-5326-438e-9334-f79fdcbc4dab",
               "players": [
                 {
+                  "playerId": "team-player/c9a47049-4c24-486f-9df4-1d6913b47b89",
                   "name": "Robyn Meeking",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/320a95a6-6a28-4b52-8461-99501e368966",
                   "name": "Win Spencer",
                   "score": "5"
                 }
@@ -77,17 +162,26 @@
         },
         {
           "players": [
-            "Lennart Eldholt & Dave",
-            "Sibyl Grant & Brian"
+            {
+              "playerId": "team-player/40e0a41e-23c9-4476-ab88-7c9ebbc6a962",
+              "name": "Lennart Eldholt & Dave"
+            },
+            {
+              "playerId": "team-player/c06ecd42-cb14-49e6-b910-e3aea842e1a9",
+              "name": "Sibyl Grant & Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/60faedb2-2d6f-4dc8-b57f-ffe29077d317",
               "players": [
                 {
+                  "playerId": "team-player/40e0a41e-23c9-4476-ab88-7c9ebbc6a962",
                   "name": "Lennart Eldholt & Dave",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c06ecd42-cb14-49e6-b910-e3aea842e1a9",
                   "name": "Sibyl Grant & Brian",
                   "score": "3"
                 }
@@ -99,17 +193,26 @@
         },
         {
           "players": [
-            "Diane McNaughton",
-            "Caroline Bergman"
+            {
+              "playerId": "team-player/a328ce86-47f3-4a48-a217-36839354bf77",
+              "name": "Diane McNaughton"
+            },
+            {
+              "playerId": "team-player/5a9a0b87-85fe-4283-b86e-55abb5723583",
+              "name": "Caroline Bergman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ec1ba947-7051-407f-b382-966130ad23d6",
               "players": [
                 {
+                  "playerId": "team-player/a328ce86-47f3-4a48-a217-36839354bf77",
                   "name": "Diane McNaughton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5a9a0b87-85fe-4283-b86e-55abb5723583",
                   "name": "Caroline Bergman",
                   "score": "7"
                 }
@@ -121,17 +224,26 @@
         },
         {
           "players": [
-            "Kevin Hughes & Clive",
-            "Bryan Christy & Allan"
+            {
+              "playerId": "team-player/5f077c07-ffa9-4e0d-a857-10ae5cd37b96",
+              "name": "Kevin Hughes & Clive"
+            },
+            {
+              "playerId": "team-player/b1706265-85bc-46ec-91ba-5faa0961d5d5",
+              "name": "Bryan Christy & Allan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/00b4ee8f-3bcc-4a3b-8f0a-8c53a809fea1",
               "players": [
                 {
+                  "playerId": "team-player/5f077c07-ffa9-4e0d-a857-10ae5cd37b96",
                   "name": "Kevin Hughes & Clive",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1706265-85bc-46ec-91ba-5faa0961d5d5",
                   "name": "Bryan Christy & Allan",
                   "score": "5"
                 }
@@ -143,17 +255,26 @@
         },
         {
           "players": [
-            "Lennart Eldholt",
-            "Sibyl Grant"
+            {
+              "playerId": "team-player/a9f8edfc-8079-4123-89a2-d3974cafbc1b",
+              "name": "Lennart Eldholt"
+            },
+            {
+              "playerId": "team-player/e54f49b0-6930-4d08-be96-e7963b6403d4",
+              "name": "Sibyl Grant"
+            }
           ],
           "games": [
             {
+              "gameId": "game/314a025e-d48d-49b1-a0cb-5701b390e416",
               "players": [
                 {
+                  "playerId": "team-player/a9f8edfc-8079-4123-89a2-d3974cafbc1b",
                   "name": "Lennart Eldholt",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e54f49b0-6930-4d08-be96-e7963b6403d4",
                   "name": "Sibyl Grant",
                   "score": "7"
                 }
@@ -165,17 +286,26 @@
         },
         {
           "players": [
-            "Robyn Meeking & Dave",
-            "Win Spencer & Brian"
+            {
+              "playerId": "team-player/cf6c1b0e-ad0c-42c1-9f45-33f3a66b118d",
+              "name": "Robyn Meeking & Dave"
+            },
+            {
+              "playerId": "team-player/92571758-55af-491c-9cca-2a6289ceec22",
+              "name": "Win Spencer & Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c89d1970-b329-436c-be8c-202ad3d6d405",
               "players": [
                 {
+                  "playerId": "team-player/cf6c1b0e-ad0c-42c1-9f45-33f3a66b118d",
                   "name": "Robyn Meeking & Dave",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/92571758-55af-491c-9cca-2a6289ceec22",
                   "name": "Win Spencer & Brian",
                   "score": "7"
                 }
@@ -187,17 +317,26 @@
         },
         {
           "players": [
-            "Kevin Hughes",
-            "Allan Roberts"
+            {
+              "playerId": "team-player/8fa2571d-f0ab-44ac-8313-cf858241837e",
+              "name": "Kevin Hughes"
+            },
+            {
+              "playerId": "team-player/37f9a546-c983-43b5-9221-7519056d0afb",
+              "name": "Allan Roberts"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fba2fa78-a403-4e87-984b-5135d9c44c56",
               "players": [
                 {
+                  "playerId": "team-player/8fa2571d-f0ab-44ac-8313-cf858241837e",
                   "name": "Kevin Hughes",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/37f9a546-c983-43b5-9221-7519056d0afb",
                   "name": "Allan Roberts",
                   "score": "7"
                 }
@@ -209,17 +348,26 @@
         },
         {
           "players": [
-            "Diane McNaughton & Clive",
-            "Bryan Christy & Caroline"
+            {
+              "playerId": "team-player/3e798685-1eeb-4c56-bdcd-a9d2cb42d5e1",
+              "name": "Diane McNaughton & Clive"
+            },
+            {
+              "playerId": "team-player/5bd0bd1f-ca54-410a-acca-34588f8fde32",
+              "name": "Bryan Christy & Caroline"
+            }
           ],
           "games": [
             {
+              "gameId": "game/189635fa-2087-400b-90b0-3197d7f060fa",
               "players": [
                 {
+                  "playerId": "team-player/3e798685-1eeb-4c56-bdcd-a9d2cb42d5e1",
                   "name": "Diane McNaughton & Clive",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5bd0bd1f-ca54-410a-acca-34588f8fde32",
                   "name": "Bryan Christy & Caroline",
                   "score": "6"
                 }
@@ -231,17 +379,26 @@
         },
         {
           "players": [
-            "Dave Roberts",
-            "Brian Sisam"
+            {
+              "playerId": "team-player/cf51a5ae-2ed4-480d-ae63-f943805ba969",
+              "name": "Dave Roberts"
+            },
+            {
+              "playerId": "team-player/00654f0e-8bc5-48f2-93e9-ed1ccade6035",
+              "name": "Brian Sisam"
+            }
           ],
           "games": [
             {
+              "gameId": "game/99f9393d-6ea4-4fb1-9769-dea89469995b",
               "players": [
                 {
+                  "playerId": "team-player/cf51a5ae-2ed4-480d-ae63-f943805ba969",
                   "name": "Dave Roberts",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/00654f0e-8bc5-48f2-93e9-ed1ccade6035",
                   "name": "Brian Sisam",
                   "score": "6"
                 }
@@ -253,17 +410,26 @@
         },
         {
           "players": [
-            "Robyn Meeking & Lennart",
-            "Win Spencer & Sibyl"
+            {
+              "playerId": "team-player/d62672ca-fcf6-46c5-a8d9-b97d89c9633c",
+              "name": "Robyn Meeking & Lennart"
+            },
+            {
+              "playerId": "team-player/00dc6e39-6c2d-4131-9941-9dc35557b870",
+              "name": "Win Spencer & Sibyl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ae3b0664-311b-455f-9449-aebf92856a0c",
               "players": [
                 {
+                  "playerId": "team-player/d62672ca-fcf6-46c5-a8d9-b97d89c9633c",
                   "name": "Robyn Meeking & Lennart",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/00dc6e39-6c2d-4131-9941-9dc35557b870",
                   "name": "Win Spencer & Sibyl",
                   "score": "7"
                 }
@@ -275,17 +441,26 @@
         },
         {
           "players": [
-            "Clive Taylor",
-            "Bryan Christy"
+            {
+              "playerId": "team-player/fcc235c1-6ed7-4aad-ac6d-92bd997a72e8",
+              "name": "Clive Taylor"
+            },
+            {
+              "playerId": "team-player/6c99851d-0a8a-4618-9d93-9846cbc7509b",
+              "name": "Bryan Christy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c6f4ebe-3a1b-42c1-8ece-638a2a1fe1f8",
               "players": [
                 {
+                  "playerId": "team-player/fcc235c1-6ed7-4aad-ac6d-92bd997a72e8",
                   "name": "Clive Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6c99851d-0a8a-4618-9d93-9846cbc7509b",
                   "name": "Bryan Christy",
                   "score": "2"
                 }
@@ -297,17 +472,26 @@
         },
         {
           "players": [
-            "Diane McNaughton & Kevin",
-            "Caroline Bergman & Allan"
+            {
+              "playerId": "team-player/42533a24-c2a9-4638-b21f-94074cd3ca9f",
+              "name": "Diane McNaughton & Kevin"
+            },
+            {
+              "playerId": "team-player/86c96315-0379-44ae-9ad3-ff354238807a",
+              "name": "Caroline Bergman & Allan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d7594151-2852-49fb-add0-c76cbc057116",
               "players": [
                 {
+                  "playerId": "team-player/42533a24-c2a9-4638-b21f-94074cd3ca9f",
                   "name": "Diane McNaughton & Kevin",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/86c96315-0379-44ae-9ad3-ff354238807a",
                   "name": "Caroline Bergman & Allan",
                   "score": "7"
                 }
@@ -319,17 +503,26 @@
         },
         {
           "players": [
-            "Robyn Meeking",
-            "Caroline Bergman"
+            {
+              "playerId": "team-player/c9a47049-4c24-486f-9df4-1d6913b47b89",
+              "name": "Robyn Meeking"
+            },
+            {
+              "playerId": "team-player/5a9a0b87-85fe-4283-b86e-55abb5723583",
+              "name": "Caroline Bergman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b4fbf54c-516b-4f37-b5d1-449be0694449",
               "players": [
                 {
+                  "playerId": "team-player/c9a47049-4c24-486f-9df4-1d6913b47b89",
                   "name": "Robyn Meeking",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5a9a0b87-85fe-4283-b86e-55abb5723583",
                   "name": "Caroline Bergman",
                   "score": "5"
                 }
@@ -341,17 +534,26 @@
         },
         {
           "players": [
-            "Lennart Eldholt & Dave",
-            "Bryan Christy & Allan"
+            {
+              "playerId": "team-player/40e0a41e-23c9-4476-ab88-7c9ebbc6a962",
+              "name": "Lennart Eldholt & Dave"
+            },
+            {
+              "playerId": "team-player/b1706265-85bc-46ec-91ba-5faa0961d5d5",
+              "name": "Bryan Christy & Allan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b4181eaf-9612-4f68-b057-9090893fc03f",
               "players": [
                 {
+                  "playerId": "team-player/40e0a41e-23c9-4476-ab88-7c9ebbc6a962",
                   "name": "Lennart Eldholt & Dave",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/b1706265-85bc-46ec-91ba-5faa0961d5d5",
                   "name": "Bryan Christy & Allan",
                   "score": "7"
                 }
@@ -363,17 +565,26 @@
         },
         {
           "players": [
-            "Diane McNaughton",
-            "Win Spencer"
+            {
+              "playerId": "team-player/a328ce86-47f3-4a48-a217-36839354bf77",
+              "name": "Diane McNaughton"
+            },
+            {
+              "playerId": "team-player/320a95a6-6a28-4b52-8461-99501e368966",
+              "name": "Win Spencer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4229036e-593f-4880-848c-41e5825bd1a6",
               "players": [
                 {
+                  "playerId": "team-player/a328ce86-47f3-4a48-a217-36839354bf77",
                   "name": "Diane McNaughton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/320a95a6-6a28-4b52-8461-99501e368966",
                   "name": "Win Spencer",
                   "score": "7"
                 }
@@ -385,17 +596,26 @@
         },
         {
           "players": [
-            "Kevin Hughes & Clive",
-            "Sibyl Grant & Brian"
+            {
+              "playerId": "team-player/5f077c07-ffa9-4e0d-a857-10ae5cd37b96",
+              "name": "Kevin Hughes & Clive"
+            },
+            {
+              "playerId": "team-player/c06ecd42-cb14-49e6-b910-e3aea842e1a9",
+              "name": "Sibyl Grant & Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/66c15da0-3e8b-4f9e-ad26-9a4e5dd49aea",
               "players": [
                 {
+                  "playerId": "team-player/5f077c07-ffa9-4e0d-a857-10ae5cd37b96",
                   "name": "Kevin Hughes & Clive",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c06ecd42-cb14-49e6-b910-e3aea842e1a9",
                   "name": "Sibyl Grant & Brian",
                   "score": "6"
                 }
@@ -407,17 +627,26 @@
         },
         {
           "players": [
-            "Lennart Eldholt",
-            "Allan Roberts"
+            {
+              "playerId": "team-player/a9f8edfc-8079-4123-89a2-d3974cafbc1b",
+              "name": "Lennart Eldholt"
+            },
+            {
+              "playerId": "team-player/37f9a546-c983-43b5-9221-7519056d0afb",
+              "name": "Allan Roberts"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f16051d-e890-4d66-a2ad-d47272640c93",
               "players": [
                 {
+                  "playerId": "team-player/a9f8edfc-8079-4123-89a2-d3974cafbc1b",
                   "name": "Lennart Eldholt",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/37f9a546-c983-43b5-9221-7519056d0afb",
                   "name": "Allan Roberts",
                   "score": "7"
                 }
@@ -429,17 +658,26 @@
         },
         {
           "players": [
-            "Robyn Meeking & Dave",
-            "Bryan Christy & Caroline"
+            {
+              "playerId": "team-player/cf6c1b0e-ad0c-42c1-9f45-33f3a66b118d",
+              "name": "Robyn Meeking & Dave"
+            },
+            {
+              "playerId": "team-player/5bd0bd1f-ca54-410a-acca-34588f8fde32",
+              "name": "Bryan Christy & Caroline"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5593d8c-01dd-49ea-98d4-a9ef07de70e1",
               "players": [
                 {
+                  "playerId": "team-player/cf6c1b0e-ad0c-42c1-9f45-33f3a66b118d",
                   "name": "Robyn Meeking & Dave",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/5bd0bd1f-ca54-410a-acca-34588f8fde32",
                   "name": "Bryan Christy & Caroline",
                   "score": "7"
                 }
@@ -451,17 +689,26 @@
         },
         {
           "players": [
-            "Kevin Hughes",
-            "Sibyl Grant"
+            {
+              "playerId": "team-player/8fa2571d-f0ab-44ac-8313-cf858241837e",
+              "name": "Kevin Hughes"
+            },
+            {
+              "playerId": "team-player/e54f49b0-6930-4d08-be96-e7963b6403d4",
+              "name": "Sibyl Grant"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a06fafea-b534-4706-b2d4-06fa97eb973f",
               "players": [
                 {
+                  "playerId": "team-player/8fa2571d-f0ab-44ac-8313-cf858241837e",
                   "name": "Kevin Hughes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e54f49b0-6930-4d08-be96-e7963b6403d4",
                   "name": "Sibyl Grant",
                   "score": "5"
                 }
@@ -473,17 +720,26 @@
         },
         {
           "players": [
-            "Diane McNaughton & Clive",
-            "Win Spencer & Brian"
+            {
+              "playerId": "team-player/3e798685-1eeb-4c56-bdcd-a9d2cb42d5e1",
+              "name": "Diane McNaughton & Clive"
+            },
+            {
+              "playerId": "team-player/92571758-55af-491c-9cca-2a6289ceec22",
+              "name": "Win Spencer & Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f3a1c43-2a2a-4d73-ab7c-132a70cbdd72",
               "players": [
                 {
+                  "playerId": "team-player/3e798685-1eeb-4c56-bdcd-a9d2cb42d5e1",
                   "name": "Diane McNaughton & Clive",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/92571758-55af-491c-9cca-2a6289ceec22",
                   "name": "Win Spencer & Brian",
                   "score": "7"
                 }
@@ -495,17 +751,26 @@
         },
         {
           "players": [
-            "Dave Roberts",
-            "Bryan Christy"
+            {
+              "playerId": "team-player/cf51a5ae-2ed4-480d-ae63-f943805ba969",
+              "name": "Dave Roberts"
+            },
+            {
+              "playerId": "team-player/6c99851d-0a8a-4618-9d93-9846cbc7509b",
+              "name": "Bryan Christy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2edf5573-cf6c-44cc-943f-41e54a33c5d4",
               "players": [
                 {
+                  "playerId": "team-player/cf51a5ae-2ed4-480d-ae63-f943805ba969",
                   "name": "Dave Roberts",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6c99851d-0a8a-4618-9d93-9846cbc7509b",
                   "name": "Bryan Christy",
                   "score": "4"
                 }
@@ -517,17 +782,26 @@
         },
         {
           "players": [
-            "Robyn Meeking & Lennart",
-            "Caroline Bergman & Allan"
+            {
+              "playerId": "team-player/d62672ca-fcf6-46c5-a8d9-b97d89c9633c",
+              "name": "Robyn Meeking & Lennart"
+            },
+            {
+              "playerId": "team-player/86c96315-0379-44ae-9ad3-ff354238807a",
+              "name": "Caroline Bergman & Allan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5dfb6f3c-8587-4a1e-9662-db4c5492918e",
               "players": [
                 {
+                  "playerId": "team-player/d62672ca-fcf6-46c5-a8d9-b97d89c9633c",
                   "name": "Robyn Meeking & Lennart",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/86c96315-0379-44ae-9ad3-ff354238807a",
                   "name": "Caroline Bergman & Allan",
                   "score": "7"
                 }
@@ -539,17 +813,26 @@
         },
         {
           "players": [
-            "Clive Taylor",
-            "Brian Sisam"
+            {
+              "playerId": "team-player/fcc235c1-6ed7-4aad-ac6d-92bd997a72e8",
+              "name": "Clive Taylor"
+            },
+            {
+              "playerId": "team-player/00654f0e-8bc5-48f2-93e9-ed1ccade6035",
+              "name": "Brian Sisam"
+            }
           ],
           "games": [
             {
+              "gameId": "game/484feb63-da3e-4ce7-93a3-bb2159d7180c",
               "players": [
                 {
+                  "playerId": "team-player/fcc235c1-6ed7-4aad-ac6d-92bd997a72e8",
                   "name": "Clive Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/00654f0e-8bc5-48f2-93e9-ed1ccade6035",
                   "name": "Brian Sisam",
                   "score": "5"
                 }
@@ -561,17 +844,26 @@
         },
         {
           "players": [
-            "Diane McNaughton & Kevin",
-            "Win Spencer & Sibyl"
+            {
+              "playerId": "team-player/42533a24-c2a9-4638-b21f-94074cd3ca9f",
+              "name": "Diane McNaughton & Kevin"
+            },
+            {
+              "playerId": "team-player/00dc6e39-6c2d-4131-9941-9dc35557b870",
+              "name": "Win Spencer & Sibyl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/71d5c6e8-9dd7-4aae-a752-25034f17331d",
               "players": [
                 {
+                  "playerId": "team-player/42533a24-c2a9-4638-b21f-94074cd3ca9f",
                   "name": "Diane McNaughton & Kevin",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/00dc6e39-6c2d-4131-9941-9dc35557b870",
                   "name": "Win Spencer & Sibyl",
                   "score": "7"
                 }

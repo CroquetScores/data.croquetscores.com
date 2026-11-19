@@ -1,51 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/6d5020ff-9132-46b2-8e15-64cd880a5b1d",
   "name": "SCA v CAI (Appleton Trophy)",
   "sport": "ac",
   "firstDay": "2016-07-09",
   "lastDay": "2016-07-10",
   "country": "scotland",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "SCA",
       "shortName": "SCA",
       "players": [
-        "Alan Wilson",
-        "Alan Wilson - meet again",
-        "Alan Wilson & Brian Durward",
-        "Bob Darling",
-        "Brian Durward",
-        "Campbell Morrison",
-        "Campbell Morrison & Bob Darling",
-        "John Surgenor",
-        "John Surgenor & William Hadden",
-        "William Hadden"
+        {
+          "playerId": "team-player/be880df1-9660-409a-9a27-74ef6226e671",
+          "name": "Alan Wilson"
+        },
+        {
+          "playerId": "team-player/d1776797-79fc-476e-bb9d-d12b4ddd922f",
+          "name": "Alan Wilson - meet again"
+        },
+        {
+          "playerId": "team-player/76251b27-2078-4997-8863-8fb5534de594",
+          "name": "Alan Wilson & Brian Durward"
+        },
+        {
+          "playerId": "team-player/377c4357-4f99-4e4d-b54f-3c6edf934f5a",
+          "name": "Bob Darling"
+        },
+        {
+          "playerId": "team-player/6db00893-6d32-4252-98a8-842b67f133c9",
+          "name": "Brian Durward"
+        },
+        {
+          "playerId": "team-player/e46ce1fd-3fed-46e3-9998-b5891ac2387e",
+          "name": "Campbell Morrison"
+        },
+        {
+          "playerId": "team-player/29e1d84f-0d3d-496f-ba64-f42660314b78",
+          "name": "Campbell Morrison & Bob Darling"
+        },
+        {
+          "playerId": "team-player/f6cf33b1-9670-4012-b8c8-fcf94f7b72f1",
+          "name": "John Surgenor"
+        },
+        {
+          "playerId": "team-player/60a25c8c-fbfa-49eb-a691-e48b96b12609",
+          "name": "John Surgenor & William Hadden"
+        },
+        {
+          "playerId": "team-player/dc9a1a74-da43-4b98-995c-0bfa3e8af1af",
+          "name": "William Hadden"
+        }
       ]
     },
     {
       "name": "CAI",
       "shortName": "CAI",
       "players": [
-        "Alan Looney",
-        "Alan Looney - meet again",
-        "Daniel Bennett",
-        "Daniel Bennett - meet again",
-        "Evan Newell",
-        "Evan Newell - meet again",
-        "Evan Newell & Alan Looney",
-        "Jane Morrison",
-        "Jane Morrison - meet again",
-        "Jane Morrison & Daniel Bennett",
-        "Nathaniel Healy",
-        "Nathaniel Healy & Sandy Greig",
-        "Sandy Greig",
-        "Sandy Greig - meet again"
+        {
+          "playerId": "team-player/483b9d8c-ea65-4e68-b7f4-8a701c0969d8",
+          "name": "Alan Looney"
+        },
+        {
+          "playerId": "team-player/f2c13bae-a174-4d2f-b92a-d3310525d705",
+          "name": "Alan Looney - meet again"
+        },
+        {
+          "playerId": "team-player/da84c752-add8-4a5b-afde-a43435240a2c",
+          "name": "Daniel Bennett"
+        },
+        {
+          "playerId": "team-player/2aca8b33-153a-4ba5-9b70-fde9d9f1d0bc",
+          "name": "Daniel Bennett - meet again"
+        },
+        {
+          "playerId": "team-player/ce5da978-3fc6-4848-8cea-b50c63f65a12",
+          "name": "Evan Newell"
+        },
+        {
+          "playerId": "team-player/7a26fa70-7c4f-44d6-88bc-a56e9a20589b",
+          "name": "Evan Newell - meet again"
+        },
+        {
+          "playerId": "team-player/d1ab9a9f-1a66-4e5c-b897-53b8ba1261e7",
+          "name": "Evan Newell & Alan Looney"
+        },
+        {
+          "playerId": "team-player/586198fb-91e0-4f68-bf5c-f832d2f8cba7",
+          "name": "Jane Morrison"
+        },
+        {
+          "playerId": "team-player/761910e4-a085-4450-82fe-065e8370dc86",
+          "name": "Jane Morrison - meet again"
+        },
+        {
+          "playerId": "team-player/961930a5-63f9-47d4-9771-4b55c079efbc",
+          "name": "Jane Morrison & Daniel Bennett"
+        },
+        {
+          "playerId": "team-player/2e15cb40-f548-46a3-b434-00825f5d67d1",
+          "name": "Nathaniel Healy"
+        },
+        {
+          "playerId": "team-player/e47ee042-a384-47a9-af08-038634d3d8a1",
+          "name": "Nathaniel Healy & Sandy Greig"
+        },
+        {
+          "playerId": "team-player/a926f10b-8eb1-4999-8662-ac9d8962bda4",
+          "name": "Sandy Greig"
+        },
+        {
+          "playerId": "team-player/f5abd9d2-0f17-4f26-8f1f-66aeaa8f2070",
+          "name": "Sandy Greig - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/ccbb2346-2349-46c0-af6d-7277c31a3a4a",
       "teams": [
         "SCA",
         "CAI"
@@ -55,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Campbell Morrison & Bob Darling",
-            "Jane Morrison & Daniel Bennett"
+            {
+              "playerId": "team-player/29e1d84f-0d3d-496f-ba64-f42660314b78",
+              "name": "Campbell Morrison & Bob Darling"
+            },
+            {
+              "playerId": "team-player/961930a5-63f9-47d4-9771-4b55c079efbc",
+              "name": "Jane Morrison & Daniel Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5570d719-3783-474b-a58f-a3f0e2c5eaf9",
               "players": [
                 {
+                  "playerId": "team-player/29e1d84f-0d3d-496f-ba64-f42660314b78",
                   "name": "Campbell Morrison & Bob Darling",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/961930a5-63f9-47d4-9771-4b55c079efbc",
                   "name": "Jane Morrison & Daniel Bennett",
                   "score": "16"
                 }
@@ -77,17 +162,26 @@
         },
         {
           "players": [
-            "Alan Wilson & Brian Durward",
-            "Evan Newell & Alan Looney"
+            {
+              "playerId": "team-player/76251b27-2078-4997-8863-8fb5534de594",
+              "name": "Alan Wilson & Brian Durward"
+            },
+            {
+              "playerId": "team-player/d1ab9a9f-1a66-4e5c-b897-53b8ba1261e7",
+              "name": "Evan Newell & Alan Looney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0c61c420-15bf-49e8-9340-aad5e5e83b48",
               "players": [
                 {
+                  "playerId": "team-player/76251b27-2078-4997-8863-8fb5534de594",
                   "name": "Alan Wilson & Brian Durward",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d1ab9a9f-1a66-4e5c-b897-53b8ba1261e7",
                   "name": "Evan Newell & Alan Looney",
                   "score": "14"
                 }
@@ -99,17 +193,26 @@
         },
         {
           "players": [
-            "John Surgenor & William Hadden",
-            "Nathaniel Healy & Sandy Greig"
+            {
+              "playerId": "team-player/60a25c8c-fbfa-49eb-a691-e48b96b12609",
+              "name": "John Surgenor & William Hadden"
+            },
+            {
+              "playerId": "team-player/e47ee042-a384-47a9-af08-038634d3d8a1",
+              "name": "Nathaniel Healy & Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5a2925d7-76cd-4f78-8333-1ba17e03551f",
               "players": [
                 {
+                  "playerId": "team-player/60a25c8c-fbfa-49eb-a691-e48b96b12609",
                   "name": "John Surgenor & William Hadden",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/e47ee042-a384-47a9-af08-038634d3d8a1",
                   "name": "Nathaniel Healy & Sandy Greig",
                   "score": "17"
                 }
@@ -121,17 +224,26 @@
         },
         {
           "players": [
-            "Alan Wilson",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/be880df1-9660-409a-9a27-74ef6226e671",
+              "name": "Alan Wilson"
+            },
+            {
+              "playerId": "team-player/586198fb-91e0-4f68-bf5c-f832d2f8cba7",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/77b3bfea-3aa0-4f3b-8671-642f4d8efe22",
               "players": [
                 {
+                  "playerId": "team-player/be880df1-9660-409a-9a27-74ef6226e671",
                   "name": "Alan Wilson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/586198fb-91e0-4f68-bf5c-f832d2f8cba7",
                   "name": "Jane Morrison",
                   "score": "26"
                 }
@@ -143,17 +255,26 @@
         },
         {
           "players": [
-            "William Hadden",
-            "Alan Looney"
+            {
+              "playerId": "team-player/dc9a1a74-da43-4b98-995c-0bfa3e8af1af",
+              "name": "William Hadden"
+            },
+            {
+              "playerId": "team-player/483b9d8c-ea65-4e68-b7f4-8a701c0969d8",
+              "name": "Alan Looney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bce7fb50-b776-43d1-a8ac-7c7c38e9cc44",
               "players": [
                 {
+                  "playerId": "team-player/dc9a1a74-da43-4b98-995c-0bfa3e8af1af",
                   "name": "William Hadden",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/483b9d8c-ea65-4e68-b7f4-8a701c0969d8",
                   "name": "Alan Looney",
                   "score": "9"
                 }
@@ -165,17 +286,26 @@
         },
         {
           "players": [
-            "Campbell Morrison",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/e46ce1fd-3fed-46e3-9998-b5891ac2387e",
+              "name": "Campbell Morrison"
+            },
+            {
+              "playerId": "team-player/2e15cb40-f548-46a3-b434-00825f5d67d1",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3806fff1-cbf9-4a83-abab-30d5d0fef1b0",
               "players": [
                 {
+                  "playerId": "team-player/e46ce1fd-3fed-46e3-9998-b5891ac2387e",
                   "name": "Campbell Morrison",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2e15cb40-f548-46a3-b434-00825f5d67d1",
                   "name": "Nathaniel Healy",
                   "score": "21"
                 }
@@ -187,17 +317,26 @@
         },
         {
           "players": [
-            "John Surgenor",
-            "Evan Newell"
+            {
+              "playerId": "team-player/f6cf33b1-9670-4012-b8c8-fcf94f7b72f1",
+              "name": "John Surgenor"
+            },
+            {
+              "playerId": "team-player/ce5da978-3fc6-4848-8cea-b50c63f65a12",
+              "name": "Evan Newell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/63777a86-5569-40a9-8c69-52446c9c881e",
               "players": [
                 {
+                  "playerId": "team-player/f6cf33b1-9670-4012-b8c8-fcf94f7b72f1",
                   "name": "John Surgenor",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/ce5da978-3fc6-4848-8cea-b50c63f65a12",
                   "name": "Evan Newell",
                   "score": "22"
                 }
@@ -209,17 +348,26 @@
         },
         {
           "players": [
-            "Brian Durward",
-            "Daniel Bennett"
+            {
+              "playerId": "team-player/6db00893-6d32-4252-98a8-842b67f133c9",
+              "name": "Brian Durward"
+            },
+            {
+              "playerId": "team-player/da84c752-add8-4a5b-afde-a43435240a2c",
+              "name": "Daniel Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d46e8e09-eccd-4945-8b8a-cbee76d35e5b",
               "players": [
                 {
+                  "playerId": "team-player/6db00893-6d32-4252-98a8-842b67f133c9",
                   "name": "Brian Durward",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/da84c752-add8-4a5b-afde-a43435240a2c",
                   "name": "Daniel Bennett",
                   "score": "1"
                 }
@@ -231,17 +379,26 @@
         },
         {
           "players": [
-            "Bob Darling",
-            "Sandy Greig"
+            {
+              "playerId": "team-player/377c4357-4f99-4e4d-b54f-3c6edf934f5a",
+              "name": "Bob Darling"
+            },
+            {
+              "playerId": "team-player/a926f10b-8eb1-4999-8662-ac9d8962bda4",
+              "name": "Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8287b8d1-7370-43f2-8761-a5196f54dafb",
               "players": [
                 {
+                  "playerId": "team-player/377c4357-4f99-4e4d-b54f-3c6edf934f5a",
                   "name": "Bob Darling",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/a926f10b-8eb1-4999-8662-ac9d8962bda4",
                   "name": "Sandy Greig",
                   "score": "14"
                 }
@@ -253,17 +410,26 @@
         },
         {
           "players": [
-            "Alan Wilson",
-            "Evan Newell"
+            {
+              "playerId": "team-player/be880df1-9660-409a-9a27-74ef6226e671",
+              "name": "Alan Wilson"
+            },
+            {
+              "playerId": "team-player/ce5da978-3fc6-4848-8cea-b50c63f65a12",
+              "name": "Evan Newell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/093c1ea0-e5ba-4045-9b95-f75ba6d0b3cb",
               "players": [
                 {
+                  "playerId": "team-player/be880df1-9660-409a-9a27-74ef6226e671",
                   "name": "Alan Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ce5da978-3fc6-4848-8cea-b50c63f65a12",
                   "name": "Evan Newell",
                   "score": "1"
                 }
@@ -275,17 +441,26 @@
         },
         {
           "players": [
-            "Campbell Morrison",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/e46ce1fd-3fed-46e3-9998-b5891ac2387e",
+              "name": "Campbell Morrison"
+            },
+            {
+              "playerId": "team-player/586198fb-91e0-4f68-bf5c-f832d2f8cba7",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c31ce0dd-0b50-4de9-9a96-9878f1555529",
               "players": [
                 {
+                  "playerId": "team-player/e46ce1fd-3fed-46e3-9998-b5891ac2387e",
                   "name": "Campbell Morrison",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/586198fb-91e0-4f68-bf5c-f832d2f8cba7",
                   "name": "Jane Morrison",
                   "score": "26"
                 }
@@ -297,17 +472,26 @@
         },
         {
           "players": [
-            "John Surgenor",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/f6cf33b1-9670-4012-b8c8-fcf94f7b72f1",
+              "name": "John Surgenor"
+            },
+            {
+              "playerId": "team-player/2e15cb40-f548-46a3-b434-00825f5d67d1",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34ded02e-b673-44c3-ad56-063d632e7bc8",
               "players": [
                 {
+                  "playerId": "team-player/f6cf33b1-9670-4012-b8c8-fcf94f7b72f1",
                   "name": "John Surgenor",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2e15cb40-f548-46a3-b434-00825f5d67d1",
                   "name": "Nathaniel Healy",
                   "score": "15"
                 }
@@ -319,17 +503,26 @@
         },
         {
           "players": [
-            "William Hadden",
-            "Sandy Greig"
+            {
+              "playerId": "team-player/dc9a1a74-da43-4b98-995c-0bfa3e8af1af",
+              "name": "William Hadden"
+            },
+            {
+              "playerId": "team-player/a926f10b-8eb1-4999-8662-ac9d8962bda4",
+              "name": "Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1145d436-af85-4442-ad94-7a12cfdd0c91",
               "players": [
                 {
+                  "playerId": "team-player/dc9a1a74-da43-4b98-995c-0bfa3e8af1af",
                   "name": "William Hadden",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/a926f10b-8eb1-4999-8662-ac9d8962bda4",
                   "name": "Sandy Greig",
                   "score": "16"
                 }
@@ -341,17 +534,26 @@
         },
         {
           "players": [
-            "Bob Darling",
-            "Daniel Bennett"
+            {
+              "playerId": "team-player/377c4357-4f99-4e4d-b54f-3c6edf934f5a",
+              "name": "Bob Darling"
+            },
+            {
+              "playerId": "team-player/da84c752-add8-4a5b-afde-a43435240a2c",
+              "name": "Daniel Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bb44f517-0443-4fe2-9b77-87373864b70b",
               "players": [
                 {
+                  "playerId": "team-player/377c4357-4f99-4e4d-b54f-3c6edf934f5a",
                   "name": "Bob Darling",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/da84c752-add8-4a5b-afde-a43435240a2c",
                   "name": "Daniel Bennett",
                   "score": "8"
                 }
@@ -363,17 +565,26 @@
         },
         {
           "players": [
-            "Brian Durward",
-            "Alan Looney"
+            {
+              "playerId": "team-player/6db00893-6d32-4252-98a8-842b67f133c9",
+              "name": "Brian Durward"
+            },
+            {
+              "playerId": "team-player/483b9d8c-ea65-4e68-b7f4-8a701c0969d8",
+              "name": "Alan Looney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/94c4744c-c260-4e90-823c-f48c1e3192d7",
               "players": [
                 {
+                  "playerId": "team-player/6db00893-6d32-4252-98a8-842b67f133c9",
                   "name": "Brian Durward",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/483b9d8c-ea65-4e68-b7f4-8a701c0969d8",
                   "name": "Alan Looney",
                   "score": "12"
                 }
@@ -385,17 +596,26 @@
         },
         {
           "players": [
-            "Campbell Morrison & Bob Darling",
-            "Nathaniel Healy & Sandy Greig"
+            {
+              "playerId": "team-player/29e1d84f-0d3d-496f-ba64-f42660314b78",
+              "name": "Campbell Morrison & Bob Darling"
+            },
+            {
+              "playerId": "team-player/e47ee042-a384-47a9-af08-038634d3d8a1",
+              "name": "Nathaniel Healy & Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7a36169c-fa67-49d4-b395-3bb0e8985bf7",
               "players": [
                 {
+                  "playerId": "team-player/29e1d84f-0d3d-496f-ba64-f42660314b78",
                   "name": "Campbell Morrison & Bob Darling",
                   "score": "26tp(M)"
                 },
                 {
+                  "playerId": "team-player/e47ee042-a384-47a9-af08-038634d3d8a1",
                   "name": "Nathaniel Healy & Sandy Greig",
                   "score": "3"
                 }
@@ -407,17 +627,26 @@
         },
         {
           "players": [
-            "John Surgenor & William Hadden",
-            "Evan Newell & Alan Looney"
+            {
+              "playerId": "team-player/60a25c8c-fbfa-49eb-a691-e48b96b12609",
+              "name": "John Surgenor & William Hadden"
+            },
+            {
+              "playerId": "team-player/d1ab9a9f-1a66-4e5c-b897-53b8ba1261e7",
+              "name": "Evan Newell & Alan Looney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/212b8f44-ee2c-425c-bf3e-e7cc4b349d6a",
               "players": [
                 {
+                  "playerId": "team-player/60a25c8c-fbfa-49eb-a691-e48b96b12609",
                   "name": "John Surgenor & William Hadden",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/d1ab9a9f-1a66-4e5c-b897-53b8ba1261e7",
                   "name": "Evan Newell & Alan Looney",
                   "score": "12"
                 }
@@ -429,17 +658,26 @@
         },
         {
           "players": [
-            "Alan Wilson & Brian Durward",
-            "Jane Morrison & Daniel Bennett"
+            {
+              "playerId": "team-player/76251b27-2078-4997-8863-8fb5534de594",
+              "name": "Alan Wilson & Brian Durward"
+            },
+            {
+              "playerId": "team-player/961930a5-63f9-47d4-9771-4b55c079efbc",
+              "name": "Jane Morrison & Daniel Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/230a69ba-10bc-4d85-898a-840d4d224dbe",
               "players": [
                 {
+                  "playerId": "team-player/76251b27-2078-4997-8863-8fb5534de594",
                   "name": "Alan Wilson & Brian Durward",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/961930a5-63f9-47d4-9771-4b55c079efbc",
                   "name": "Jane Morrison & Daniel Bennett",
                   "score": "21"
                 }
@@ -451,17 +689,26 @@
         },
         {
           "players": [
-            "Campbell Morrison",
-            "Evan Newell"
+            {
+              "playerId": "team-player/e46ce1fd-3fed-46e3-9998-b5891ac2387e",
+              "name": "Campbell Morrison"
+            },
+            {
+              "playerId": "team-player/ce5da978-3fc6-4848-8cea-b50c63f65a12",
+              "name": "Evan Newell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d5244eb-aae6-42b9-a29e-732dde560c48",
               "players": [
                 {
+                  "playerId": "team-player/e46ce1fd-3fed-46e3-9998-b5891ac2387e",
                   "name": "Campbell Morrison",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/ce5da978-3fc6-4848-8cea-b50c63f65a12",
                   "name": "Evan Newell",
                   "score": "26"
                 }
@@ -473,17 +720,26 @@
         },
         {
           "players": [
-            "John Surgenor",
-            "Jane Morrison"
+            {
+              "playerId": "team-player/f6cf33b1-9670-4012-b8c8-fcf94f7b72f1",
+              "name": "John Surgenor"
+            },
+            {
+              "playerId": "team-player/586198fb-91e0-4f68-bf5c-f832d2f8cba7",
+              "name": "Jane Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9d886f39-1994-40fe-9179-cfc0111fe35a",
               "players": [
                 {
+                  "playerId": "team-player/f6cf33b1-9670-4012-b8c8-fcf94f7b72f1",
                   "name": "John Surgenor",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/586198fb-91e0-4f68-bf5c-f832d2f8cba7",
                   "name": "Jane Morrison",
                   "score": "22"
                 }
@@ -495,17 +751,26 @@
         },
         {
           "players": [
-            "Alan Wilson",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/be880df1-9660-409a-9a27-74ef6226e671",
+              "name": "Alan Wilson"
+            },
+            {
+              "playerId": "team-player/2e15cb40-f548-46a3-b434-00825f5d67d1",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b9599f9a-b295-47de-a88b-4469713d6a64",
               "players": [
                 {
+                  "playerId": "team-player/be880df1-9660-409a-9a27-74ef6226e671",
                   "name": "Alan Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2e15cb40-f548-46a3-b434-00825f5d67d1",
                   "name": "Nathaniel Healy",
                   "score": "11"
                 }
@@ -517,17 +782,26 @@
         },
         {
           "players": [
-            "Brian Durward",
-            "Sandy Greig"
+            {
+              "playerId": "team-player/6db00893-6d32-4252-98a8-842b67f133c9",
+              "name": "Brian Durward"
+            },
+            {
+              "playerId": "team-player/a926f10b-8eb1-4999-8662-ac9d8962bda4",
+              "name": "Sandy Greig"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7b76dbf6-3b4d-4a2e-8bf1-b712af987f0e",
               "players": [
                 {
+                  "playerId": "team-player/6db00893-6d32-4252-98a8-842b67f133c9",
                   "name": "Brian Durward",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/a926f10b-8eb1-4999-8662-ac9d8962bda4",
                   "name": "Sandy Greig",
                   "score": "19"
                 }
@@ -539,17 +813,26 @@
         },
         {
           "players": [
-            "William Hadden",
-            "Daniel Bennett"
+            {
+              "playerId": "team-player/dc9a1a74-da43-4b98-995c-0bfa3e8af1af",
+              "name": "William Hadden"
+            },
+            {
+              "playerId": "team-player/da84c752-add8-4a5b-afde-a43435240a2c",
+              "name": "Daniel Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/64e96921-c71a-456c-90f1-629fa97e761e",
               "players": [
                 {
+                  "playerId": "team-player/dc9a1a74-da43-4b98-995c-0bfa3e8af1af",
                   "name": "William Hadden",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/da84c752-add8-4a5b-afde-a43435240a2c",
                   "name": "Daniel Bennett",
                   "score": "13"
                 }
@@ -561,17 +844,26 @@
         },
         {
           "players": [
-            "Bob Darling",
-            "Alan Looney"
+            {
+              "playerId": "team-player/377c4357-4f99-4e4d-b54f-3c6edf934f5a",
+              "name": "Bob Darling"
+            },
+            {
+              "playerId": "team-player/483b9d8c-ea65-4e68-b7f4-8a701c0969d8",
+              "name": "Alan Looney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cbc62cf3-1f12-4905-b003-807007ab6f6f",
               "players": [
                 {
+                  "playerId": "team-player/377c4357-4f99-4e4d-b54f-3c6edf934f5a",
                   "name": "Bob Darling",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/483b9d8c-ea65-4e68-b7f4-8a701c0969d8",
                   "name": "Alan Looney",
                   "score": "9"
                 }
@@ -583,17 +875,26 @@
         },
         {
           "players": [
-            "Campbell Morrison",
-            "Evan Newell - meet again"
+            {
+              "playerId": "team-player/e46ce1fd-3fed-46e3-9998-b5891ac2387e",
+              "name": "Campbell Morrison"
+            },
+            {
+              "playerId": "team-player/7a26fa70-7c4f-44d6-88bc-a56e9a20589b",
+              "name": "Evan Newell - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff6bc182-098a-4c3f-a1c8-4f53b2f67233",
               "players": [
                 {
+                  "playerId": "team-player/e46ce1fd-3fed-46e3-9998-b5891ac2387e",
                   "name": "Campbell Morrison",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/7a26fa70-7c4f-44d6-88bc-a56e9a20589b",
                   "name": "Evan Newell - meet again",
                   "score": "0"
                 }
@@ -605,17 +906,26 @@
         },
         {
           "players": [
-            "John Surgenor",
-            "Jane Morrison - meet again"
+            {
+              "playerId": "team-player/f6cf33b1-9670-4012-b8c8-fcf94f7b72f1",
+              "name": "John Surgenor"
+            },
+            {
+              "playerId": "team-player/761910e4-a085-4450-82fe-065e8370dc86",
+              "name": "Jane Morrison - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d292969b-feb4-4b27-ab7f-ef40ae2109f0",
               "players": [
                 {
+                  "playerId": "team-player/f6cf33b1-9670-4012-b8c8-fcf94f7b72f1",
                   "name": "John Surgenor",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/761910e4-a085-4450-82fe-065e8370dc86",
                   "name": "Jane Morrison - meet again",
                   "score": "21"
                 }
@@ -627,17 +937,26 @@
         },
         {
           "players": [
-            "Alan Wilson - meet again",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/d1776797-79fc-476e-bb9d-d12b4ddd922f",
+              "name": "Alan Wilson - meet again"
+            },
+            {
+              "playerId": "team-player/2e15cb40-f548-46a3-b434-00825f5d67d1",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5fa373d8-f083-453f-86c0-44dcb00b15cf",
               "players": [
                 {
+                  "playerId": "team-player/d1776797-79fc-476e-bb9d-d12b4ddd922f",
                   "name": "Alan Wilson - meet again",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/2e15cb40-f548-46a3-b434-00825f5d67d1",
                   "name": "Nathaniel Healy",
                   "score": "26"
                 }
@@ -649,17 +968,26 @@
         },
         {
           "players": [
-            "Bob Darling",
-            "Alan Looney - meet again"
+            {
+              "playerId": "team-player/377c4357-4f99-4e4d-b54f-3c6edf934f5a",
+              "name": "Bob Darling"
+            },
+            {
+              "playerId": "team-player/f2c13bae-a174-4d2f-b92a-d3310525d705",
+              "name": "Alan Looney - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32567fcd-55cf-470a-bd29-bad47fc174fc",
               "players": [
                 {
+                  "playerId": "team-player/377c4357-4f99-4e4d-b54f-3c6edf934f5a",
                   "name": "Bob Darling",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/f2c13bae-a174-4d2f-b92a-d3310525d705",
                   "name": "Alan Looney - meet again",
                   "score": "9"
                 }
@@ -671,17 +999,26 @@
         },
         {
           "players": [
-            "William Hadden",
-            "Daniel Bennett - meet again"
+            {
+              "playerId": "team-player/dc9a1a74-da43-4b98-995c-0bfa3e8af1af",
+              "name": "William Hadden"
+            },
+            {
+              "playerId": "team-player/2aca8b33-153a-4ba5-9b70-fde9d9f1d0bc",
+              "name": "Daniel Bennett - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/723d3fb2-e968-4e13-b044-369c02cbce8e",
               "players": [
                 {
+                  "playerId": "team-player/dc9a1a74-da43-4b98-995c-0bfa3e8af1af",
                   "name": "William Hadden",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/2aca8b33-153a-4ba5-9b70-fde9d9f1d0bc",
                   "name": "Daniel Bennett - meet again",
                   "score": "5"
                 }
@@ -693,17 +1030,26 @@
         },
         {
           "players": [
-            "Brian Durward",
-            "Sandy Greig - meet again"
+            {
+              "playerId": "team-player/6db00893-6d32-4252-98a8-842b67f133c9",
+              "name": "Brian Durward"
+            },
+            {
+              "playerId": "team-player/f5abd9d2-0f17-4f26-8f1f-66aeaa8f2070",
+              "name": "Sandy Greig - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/53ff4572-c54d-498f-9fc2-ea99b95802ed",
               "players": [
                 {
+                  "playerId": "team-player/6db00893-6d32-4252-98a8-842b67f133c9",
                   "name": "Brian Durward",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/f5abd9d2-0f17-4f26-8f1f-66aeaa8f2070",
                   "name": "Sandy Greig - meet again",
                   "score": "16"
                 }

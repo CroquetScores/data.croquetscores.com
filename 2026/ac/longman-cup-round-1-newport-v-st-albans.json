@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4c29abe3-fa5e-4a8b-ba19-9ad50a71f9e0",
   "name": "Longman Cup Round 1 Newport v St Albans",
   "sport": "ac",
   "firstDay": "2026-05-05",
   "lastDay": "2026-05-05",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Newport",
       "shortName": "Newport",
       "players": [
-        "Alex Lake (6)",
-        "Alex Lake (6) and Fran Lambert (8)",
-        "Fran Lambert (8)",
-        "Mat Hardy (4)",
-        "Nick Jones (14)"
+        {
+          "playerId": "team-player/bcaa2859-3821-49ac-87df-3642c634d73e",
+          "name": "Alex Lake (6)"
+        },
+        {
+          "playerId": "team-player/25728abe-b6b2-44e6-b806-0af12c744290",
+          "name": "Alex Lake (6) and Fran Lambert (8)"
+        },
+        {
+          "playerId": "team-player/38399a56-272f-469e-ba04-8a44adc075e6",
+          "name": "Fran Lambert (8)"
+        },
+        {
+          "playerId": "team-player/6e98bd7f-7c86-4c93-9b5b-42028da4bced",
+          "name": "Mat Hardy (4)"
+        },
+        {
+          "playerId": "team-player/33214650-f13a-4adc-854c-7fba2c254b72",
+          "name": "Nick Jones (14)"
+        }
       ]
     },
     {
       "name": "St Albans",
       "shortName": "St Albans",
       "players": [
-        "Brian Johns (8)",
-        "Brian Johns (8) and Roger White (14)",
-        "Roger Bowman (9)",
-        "Roger White (14)",
-        "Stuart Stafford (9)"
+        {
+          "playerId": "team-player/b12aa476-2fa9-468c-ba95-ff13487899f9",
+          "name": "Brian Johns (8)"
+        },
+        {
+          "playerId": "team-player/58b91da5-2d70-46af-b760-e4407126af07",
+          "name": "Brian Johns (8) and Roger White (14)"
+        },
+        {
+          "playerId": "team-player/f10252b7-764c-47c7-ae8f-f5d6db850ce5",
+          "name": "Roger Bowman (9)"
+        },
+        {
+          "playerId": "team-player/1b82214f-569c-43e4-a85f-5179032cbbde",
+          "name": "Roger White (14)"
+        },
+        {
+          "playerId": "team-player/5fcb913e-070e-43fd-b531-3d0cd12d330b",
+          "name": "Stuart Stafford (9)"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/bd1841bc-b09d-40ca-8f2c-2b080b93f1bd",
       "teams": [
         "Newport",
         "St Albans"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Mat Hardy (4)",
-            "Roger Bowman (9)"
+            {
+              "playerId": "team-player/6e98bd7f-7c86-4c93-9b5b-42028da4bced",
+              "name": "Mat Hardy (4)"
+            },
+            {
+              "playerId": "team-player/f10252b7-764c-47c7-ae8f-f5d6db850ce5",
+              "name": "Roger Bowman (9)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/72e71d80-bc2c-4c29-b585-e50fd767db61",
               "players": [
                 {
+                  "playerId": "team-player/6e98bd7f-7c86-4c93-9b5b-42028da4bced",
                   "name": "Mat Hardy (4)",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/f10252b7-764c-47c7-ae8f-f5d6db850ce5",
                   "name": "Roger Bowman (9)",
                   "score": "3T"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Nick Jones (14)",
-            "Stuart Stafford (9)"
+            {
+              "playerId": "team-player/33214650-f13a-4adc-854c-7fba2c254b72",
+              "name": "Nick Jones (14)"
+            },
+            {
+              "playerId": "team-player/5fcb913e-070e-43fd-b531-3d0cd12d330b",
+              "name": "Stuart Stafford (9)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0101ebae-e571-40a0-8e5c-d9dc1dae30ad",
               "players": [
                 {
+                  "playerId": "team-player/33214650-f13a-4adc-854c-7fba2c254b72",
                   "name": "Nick Jones (14)",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/5fcb913e-070e-43fd-b531-3d0cd12d330b",
                   "name": "Stuart Stafford (9)",
                   "score": "1T"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Alex Lake (6) and Fran Lambert (8)",
-            "Brian Johns (8) and Roger White (14)"
+            {
+              "playerId": "team-player/25728abe-b6b2-44e6-b806-0af12c744290",
+              "name": "Alex Lake (6) and Fran Lambert (8)"
+            },
+            {
+              "playerId": "team-player/58b91da5-2d70-46af-b760-e4407126af07",
+              "name": "Brian Johns (8) and Roger White (14)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/84d60b78-384d-4fe7-865a-ade959f0b12c",
               "players": [
                 {
+                  "playerId": "team-player/25728abe-b6b2-44e6-b806-0af12c744290",
                   "name": "Alex Lake (6) and Fran Lambert (8)",
                   "score": "7T"
                 },
                 {
+                  "playerId": "team-player/58b91da5-2d70-46af-b760-e4407126af07",
                   "name": "Brian Johns (8) and Roger White (14)",
                   "score": "0"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Mat Hardy (4)",
-            "Brian Johns (8)"
+            {
+              "playerId": "team-player/6e98bd7f-7c86-4c93-9b5b-42028da4bced",
+              "name": "Mat Hardy (4)"
+            },
+            {
+              "playerId": "team-player/b12aa476-2fa9-468c-ba95-ff13487899f9",
+              "name": "Brian Johns (8)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d9b4d5e-290f-4642-9e0a-2c7402b380dd",
               "players": [
                 {
+                  "playerId": "team-player/6e98bd7f-7c86-4c93-9b5b-42028da4bced",
                   "name": "Mat Hardy (4)",
                   "score": "5T"
                 },
                 {
+                  "playerId": "team-player/b12aa476-2fa9-468c-ba95-ff13487899f9",
                   "name": "Brian Johns (8)",
                   "score": "0"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Alex Lake (6)",
-            "Roger Bowman (9)"
+            {
+              "playerId": "team-player/bcaa2859-3821-49ac-87df-3642c634d73e",
+              "name": "Alex Lake (6)"
+            },
+            {
+              "playerId": "team-player/f10252b7-764c-47c7-ae8f-f5d6db850ce5",
+              "name": "Roger Bowman (9)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/50a993fb-4321-4415-8910-fd5dfdc7d79b",
               "players": [
                 {
+                  "playerId": "team-player/bcaa2859-3821-49ac-87df-3642c634d73e",
                   "name": "Alex Lake (6)",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f10252b7-764c-47c7-ae8f-f5d6db850ce5",
                   "name": "Roger Bowman (9)",
                   "score": "9"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Fran Lambert (8)",
-            "Stuart Stafford (9)"
+            {
+              "playerId": "team-player/38399a56-272f-469e-ba04-8a44adc075e6",
+              "name": "Fran Lambert (8)"
+            },
+            {
+              "playerId": "team-player/5fcb913e-070e-43fd-b531-3d0cd12d330b",
+              "name": "Stuart Stafford (9)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff1cd5e8-72f3-4108-ac6e-1bf1c1a44e08",
               "players": [
                 {
+                  "playerId": "team-player/38399a56-272f-469e-ba04-8a44adc075e6",
                   "name": "Fran Lambert (8)",
                   "score": "7T"
                 },
                 {
+                  "playerId": "team-player/5fcb913e-070e-43fd-b531-3d0cd12d330b",
                   "name": "Stuart Stafford (9)",
                   "score": "0"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Nick Jones (14)",
-            "Roger Bowman (9)"
+            {
+              "playerId": "team-player/33214650-f13a-4adc-854c-7fba2c254b72",
+              "name": "Nick Jones (14)"
+            },
+            {
+              "playerId": "team-player/f10252b7-764c-47c7-ae8f-f5d6db850ce5",
+              "name": "Roger Bowman (9)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2afd2a66-da47-4b74-ad7d-9a7e211ae1ee",
               "players": [
                 {
+                  "playerId": "team-player/33214650-f13a-4adc-854c-7fba2c254b72",
                   "name": "Nick Jones (14)",
                   "score": "3T"
                 },
                 {
+                  "playerId": "team-player/f10252b7-764c-47c7-ae8f-f5d6db850ce5",
                   "name": "Roger Bowman (9)",
                   "score": "0"
                 }

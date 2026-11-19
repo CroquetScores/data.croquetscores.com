@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a91c617d-66e4-4f84-bb5e-f184fb304fe0",
   "name": "NSW Gold Pennants",
   "sport": "ac",
   "firstDay": "2015-06-10",
   "lastDay": "2015-07-16",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Maitland",
       "shortName": "Maitland",
       "players": [
-        "Bill Munns & Judy Squelch",
-        "Fred Harvey",
-        "Fred Harvey & Judy Squelch",
-        "John Compton",
-        "Peter Smith"
+        {
+          "playerId": "team-player/a2f64569-720c-496e-bb58-197219ab872e",
+          "name": "Bill Munns & Judy Squelch"
+        },
+        {
+          "playerId": "team-player/ab6b72a5-d5df-4e58-84aa-0a94ea4cb2d1",
+          "name": "Fred Harvey"
+        },
+        {
+          "playerId": "team-player/150f8ed1-f97e-4ae3-94fd-207ed2541e91",
+          "name": "Fred Harvey & Judy Squelch"
+        },
+        {
+          "playerId": "team-player/a3fd4eda-943d-4ab3-9c42-e11af718d365",
+          "name": "John Compton"
+        },
+        {
+          "playerId": "team-player/fda5b071-7a45-49a7-b37f-269f70927a89",
+          "name": "Peter Smith"
+        }
       ]
     },
     {
       "name": "Cammeray",
       "shortName": "Cammeray",
       "players": [
-        "Annette du Preez",
-        "Annette du Preez & Steve Miles",
-        "Barbara McDonald",
-        "Barbara McDonald & David Stanton",
-        "Barbara McDonald & Steve Miles",
-        "David Stanton",
-        "Steve Miles"
+        {
+          "playerId": "team-player/7967a1e1-cb25-4696-8a80-46bf05ab2cdf",
+          "name": "Annette du Preez"
+        },
+        {
+          "playerId": "team-player/9e1561bc-cb8a-4772-9f8c-b01d5f1b8ac0",
+          "name": "Annette du Preez & Steve Miles"
+        },
+        {
+          "playerId": "team-player/c6a8b259-fef8-4b78-96fe-5df98735535e",
+          "name": "Barbara McDonald"
+        },
+        {
+          "playerId": "team-player/793fe71b-c911-40da-9c72-24d21382f7e6",
+          "name": "Barbara McDonald & David Stanton"
+        },
+        {
+          "playerId": "team-player/5fd7768e-1d06-494d-b79a-0dc4058b81b5",
+          "name": "Barbara McDonald & Steve Miles"
+        },
+        {
+          "playerId": "team-player/97a7d628-38bd-423b-9125-45072e34e094",
+          "name": "David Stanton"
+        },
+        {
+          "playerId": "team-player/68bdb1c9-2773-404f-a1ed-926d895a10e0",
+          "name": "Steve Miles"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/f3990f57-967e-4806-aca3-f860d076fd86",
       "teams": [
         "Maitland",
         "Cammeray"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Bill Munns & Judy Squelch",
-            "Barbara McDonald & David Stanton"
+            {
+              "playerId": "team-player/a2f64569-720c-496e-bb58-197219ab872e",
+              "name": "Bill Munns & Judy Squelch"
+            },
+            {
+              "playerId": "team-player/793fe71b-c911-40da-9c72-24d21382f7e6",
+              "name": "Barbara McDonald & David Stanton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af3b0e30-4509-467d-b33c-776e09f4c521",
               "players": [
                 {
+                  "playerId": "team-player/a2f64569-720c-496e-bb58-197219ab872e",
                   "name": "Bill Munns & Judy Squelch",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/793fe71b-c911-40da-9c72-24d21382f7e6",
                   "name": "Barbara McDonald & David Stanton",
                   "score": "22"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Peter Smith",
-            "Annette du Preez"
+            {
+              "playerId": "team-player/fda5b071-7a45-49a7-b37f-269f70927a89",
+              "name": "Peter Smith"
+            },
+            {
+              "playerId": "team-player/7967a1e1-cb25-4696-8a80-46bf05ab2cdf",
+              "name": "Annette du Preez"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3ff44377-e8dc-4056-adbd-ea6d0106224c",
               "players": [
                 {
+                  "playerId": "team-player/fda5b071-7a45-49a7-b37f-269f70927a89",
                   "name": "Peter Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7967a1e1-cb25-4696-8a80-46bf05ab2cdf",
                   "name": "Annette du Preez",
                   "score": "18"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "John Compton",
-            "Steve Miles"
+            {
+              "playerId": "team-player/a3fd4eda-943d-4ab3-9c42-e11af718d365",
+              "name": "John Compton"
+            },
+            {
+              "playerId": "team-player/68bdb1c9-2773-404f-a1ed-926d895a10e0",
+              "name": "Steve Miles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1504e313-3591-4481-9875-d17158dd309d",
               "players": [
                 {
+                  "playerId": "team-player/a3fd4eda-943d-4ab3-9c42-e11af718d365",
                   "name": "John Compton",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/68bdb1c9-2773-404f-a1ed-926d895a10e0",
                   "name": "Steve Miles",
                   "score": "13"
                 }
@@ -110,6 +177,7 @@
       ]
     },
     {
+      "competitionId": "competition/ef2609af-d977-459e-87a8-abce7d3e5cb3",
       "teams": [
         "Cammeray",
         "Maitland"
@@ -119,17 +187,26 @@
       "matches": [
         {
           "players": [
-            "Annette du Preez & Steve Miles",
-            "Fred Harvey & Judy Squelch"
+            {
+              "playerId": "team-player/9e1561bc-cb8a-4772-9f8c-b01d5f1b8ac0",
+              "name": "Annette du Preez & Steve Miles"
+            },
+            {
+              "playerId": "team-player/150f8ed1-f97e-4ae3-94fd-207ed2541e91",
+              "name": "Fred Harvey & Judy Squelch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3ffe4043-0965-4ca8-b4ab-40539b2344b0",
               "players": [
                 {
+                  "playerId": "team-player/9e1561bc-cb8a-4772-9f8c-b01d5f1b8ac0",
                   "name": "Annette du Preez & Steve Miles",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/150f8ed1-f97e-4ae3-94fd-207ed2541e91",
                   "name": "Fred Harvey & Judy Squelch",
                   "score": "2"
                 }
@@ -141,17 +218,26 @@
         },
         {
           "players": [
-            "Barbara McDonald",
-            "John Compton"
+            {
+              "playerId": "team-player/c6a8b259-fef8-4b78-96fe-5df98735535e",
+              "name": "Barbara McDonald"
+            },
+            {
+              "playerId": "team-player/a3fd4eda-943d-4ab3-9c42-e11af718d365",
+              "name": "John Compton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4990d12-2440-4536-b7a7-8983cf745207",
               "players": [
                 {
+                  "playerId": "team-player/c6a8b259-fef8-4b78-96fe-5df98735535e",
                   "name": "Barbara McDonald",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a3fd4eda-943d-4ab3-9c42-e11af718d365",
                   "name": "John Compton",
                   "score": "1"
                 }
@@ -163,17 +249,26 @@
         },
         {
           "players": [
-            "David Stanton",
-            "Peter Smith"
+            {
+              "playerId": "team-player/97a7d628-38bd-423b-9125-45072e34e094",
+              "name": "David Stanton"
+            },
+            {
+              "playerId": "team-player/fda5b071-7a45-49a7-b37f-269f70927a89",
+              "name": "Peter Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/437d9079-c877-4d56-908e-58762056625d",
               "players": [
                 {
+                  "playerId": "team-player/97a7d628-38bd-423b-9125-45072e34e094",
                   "name": "David Stanton",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/fda5b071-7a45-49a7-b37f-269f70927a89",
                   "name": "Peter Smith",
                   "score": "7"
                 }
@@ -186,6 +281,7 @@
       ]
     },
     {
+      "competitionId": "competition/c94a0746-17c5-4c3d-b4e9-1e3c9a43aac7",
       "teams": [
         "Cammeray",
         "Maitland"

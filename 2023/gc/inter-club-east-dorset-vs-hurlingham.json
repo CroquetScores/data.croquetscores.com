@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a25da737-5535-4b47-949e-c8ab13ab201b",
   "name": "GC Inter-Club - East Dorset vs Hurlingham",
   "sport": "gc",
   "firstDay": "2023-06-15",
   "lastDay": "2023-06-15",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "East Dorset",
       "shortName": "East Dorse",
       "players": [
-        "David Kendrick",
-        "Jeff Dawson",
-        "Jeff Dawson & Jonathan Powe",
-        "Jonathan Powe",
-        "Steve Leonard"
+        {
+          "playerId": "team-player/3134a4f8-546f-411e-a409-7850ef53a34c",
+          "name": "David Kendrick"
+        },
+        {
+          "playerId": "team-player/3d8b439f-fe0c-4380-b0c6-f39291d27fb0",
+          "name": "Jeff Dawson"
+        },
+        {
+          "playerId": "team-player/91c67077-2898-4ae0-9e27-83a205615641",
+          "name": "Jeff Dawson & Jonathan Powe"
+        },
+        {
+          "playerId": "team-player/a173114a-66e0-4d19-a5ca-369e0429eca3",
+          "name": "Jonathan Powe"
+        },
+        {
+          "playerId": "team-player/c6da4941-6fec-4b30-97da-67021382c217",
+          "name": "Steve Leonard"
+        }
       ]
     },
     {
       "name": "Hurlingham",
       "shortName": "Hurlingham",
       "players": [
-        "Aston Wade",
-        "Aston Wade & Tom Coles",
-        "Mark Ormerod",
-        "Roderick Sheen",
-        "Tom Coles"
+        {
+          "playerId": "team-player/9b1f2344-bc27-422c-aa94-fa13474e2059",
+          "name": "Aston Wade"
+        },
+        {
+          "playerId": "team-player/5619a2a1-70ec-483d-a3bd-944644816cb9",
+          "name": "Aston Wade & Tom Coles"
+        },
+        {
+          "playerId": "team-player/2fbe9dfe-374f-4b2b-891e-b94f97436a38",
+          "name": "Mark Ormerod"
+        },
+        {
+          "playerId": "team-player/a3c0341e-5eb1-4d34-b647-0582c024de72",
+          "name": "Roderick Sheen"
+        },
+        {
+          "playerId": "team-player/e11426f6-7ad8-402b-ba78-111ad4527b57",
+          "name": "Tom Coles"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/35ec3bcb-b5bd-472b-8450-d9e536e165f8",
       "teams": [
         "East Dorset",
         "Hurlingham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Jeff Dawson & Jonathan Powe",
-            "Aston Wade & Tom Coles"
+            {
+              "playerId": "team-player/91c67077-2898-4ae0-9e27-83a205615641",
+              "name": "Jeff Dawson & Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/5619a2a1-70ec-483d-a3bd-944644816cb9",
+              "name": "Aston Wade & Tom Coles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf8f3993-0026-4b5d-9954-f84bc1f4512b",
               "players": [
                 {
+                  "playerId": "team-player/91c67077-2898-4ae0-9e27-83a205615641",
                   "name": "Jeff Dawson & Jonathan Powe",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/5619a2a1-70ec-483d-a3bd-944644816cb9",
                   "name": "Aston Wade & Tom Coles",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/55d715c0-7009-4e24-89e8-d008a3e1dc83",
               "players": [
                 {
+                  "playerId": "team-player/91c67077-2898-4ae0-9e27-83a205615641",
                   "name": "Jeff Dawson & Jonathan Powe",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5619a2a1-70ec-483d-a3bd-944644816cb9",
                   "name": "Aston Wade & Tom Coles",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Steve Leonard",
-            "Roderick Sheen"
+            {
+              "playerId": "team-player/c6da4941-6fec-4b30-97da-67021382c217",
+              "name": "Steve Leonard"
+            },
+            {
+              "playerId": "team-player/a3c0341e-5eb1-4d34-b647-0582c024de72",
+              "name": "Roderick Sheen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7a0ea4ce-86eb-40a5-9c65-60bd4f7e25a1",
               "players": [
                 {
+                  "playerId": "team-player/c6da4941-6fec-4b30-97da-67021382c217",
                   "name": "Steve Leonard",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a3c0341e-5eb1-4d34-b647-0582c024de72",
                   "name": "Roderick Sheen",
                   "score": "0"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6eebf6ba-04fb-4f03-8fe7-886b0c6cec8b",
               "players": [
                 {
+                  "playerId": "team-player/c6da4941-6fec-4b30-97da-67021382c217",
                   "name": "Steve Leonard",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a3c0341e-5eb1-4d34-b647-0582c024de72",
                   "name": "Roderick Sheen",
                   "score": "6"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "David Kendrick",
-            "Mark Ormerod"
+            {
+              "playerId": "team-player/3134a4f8-546f-411e-a409-7850ef53a34c",
+              "name": "David Kendrick"
+            },
+            {
+              "playerId": "team-player/2fbe9dfe-374f-4b2b-891e-b94f97436a38",
+              "name": "Mark Ormerod"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e74f3651-126d-4a20-a382-18ef99420e00",
               "players": [
                 {
+                  "playerId": "team-player/3134a4f8-546f-411e-a409-7850ef53a34c",
                   "name": "David Kendrick",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2fbe9dfe-374f-4b2b-891e-b94f97436a38",
                   "name": "Mark Ormerod",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8aae940d-494a-4a56-aae6-843da2b002a8",
               "players": [
                 {
+                  "playerId": "team-player/3134a4f8-546f-411e-a409-7850ef53a34c",
                   "name": "David Kendrick",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/2fbe9dfe-374f-4b2b-891e-b94f97436a38",
                   "name": "Mark Ormerod",
                   "score": "7"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "Jonathan Powe",
-            "Tom Coles"
+            {
+              "playerId": "team-player/a173114a-66e0-4d19-a5ca-369e0429eca3",
+              "name": "Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/e11426f6-7ad8-402b-ba78-111ad4527b57",
+              "name": "Tom Coles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aea834cf-4efc-477a-aa8c-775d4b354d21",
               "players": [
                 {
+                  "playerId": "team-player/a173114a-66e0-4d19-a5ca-369e0429eca3",
                   "name": "Jonathan Powe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e11426f6-7ad8-402b-ba78-111ad4527b57",
                   "name": "Tom Coles",
                   "score": "5"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/079fefb2-41cb-4096-b0a2-c768b7c4806d",
               "players": [
                 {
+                  "playerId": "team-player/a173114a-66e0-4d19-a5ca-369e0429eca3",
                   "name": "Jonathan Powe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e11426f6-7ad8-402b-ba78-111ad4527b57",
                   "name": "Tom Coles",
                   "score": "6"
                 }
@@ -185,17 +267,26 @@
         },
         {
           "players": [
-            "Jeff Dawson",
-            "Aston Wade"
+            {
+              "playerId": "team-player/3d8b439f-fe0c-4380-b0c6-f39291d27fb0",
+              "name": "Jeff Dawson"
+            },
+            {
+              "playerId": "team-player/9b1f2344-bc27-422c-aa94-fa13474e2059",
+              "name": "Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9df233b4-1a93-4a50-862c-5c4f2f5f0fbb",
               "players": [
                 {
+                  "playerId": "team-player/3d8b439f-fe0c-4380-b0c6-f39291d27fb0",
                   "name": "Jeff Dawson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9b1f2344-bc27-422c-aa94-fa13474e2059",
                   "name": "Aston Wade",
                   "score": "7"
                 }
@@ -204,12 +295,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1994a095-0be5-414a-8f6b-1cda52720b8d",
               "players": [
                 {
+                  "playerId": "team-player/3d8b439f-fe0c-4380-b0c6-f39291d27fb0",
                   "name": "Jeff Dawson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9b1f2344-bc27-422c-aa94-fa13474e2059",
                   "name": "Aston Wade",
                   "score": "4"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/adfd2ce4-9f67-4b11-9a11-261fa526ada7",
               "players": [
                 {
+                  "playerId": "team-player/3d8b439f-fe0c-4380-b0c6-f39291d27fb0",
                   "name": "Jeff Dawson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9b1f2344-bc27-422c-aa94-fa13474e2059",
                   "name": "Aston Wade",
                   "score": "7"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Steve Leonard",
-            "Mark Ormerod"
+            {
+              "playerId": "team-player/c6da4941-6fec-4b30-97da-67021382c217",
+              "name": "Steve Leonard"
+            },
+            {
+              "playerId": "team-player/2fbe9dfe-374f-4b2b-891e-b94f97436a38",
+              "name": "Mark Ormerod"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f1e7d3f-f709-4dcc-bc95-227982365f9d",
               "players": [
                 {
+                  "playerId": "team-player/c6da4941-6fec-4b30-97da-67021382c217",
                   "name": "Steve Leonard",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2fbe9dfe-374f-4b2b-891e-b94f97436a38",
                   "name": "Mark Ormerod",
                   "score": "5"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/37952c29-5abf-4068-a427-8212393b5c3c",
               "players": [
                 {
+                  "playerId": "team-player/c6da4941-6fec-4b30-97da-67021382c217",
                   "name": "Steve Leonard",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2fbe9dfe-374f-4b2b-891e-b94f97436a38",
                   "name": "Mark Ormerod",
                   "score": "6"
                 }
@@ -271,17 +380,26 @@
         },
         {
           "players": [
-            "David Kendrick",
-            "Roderick Sheen"
+            {
+              "playerId": "team-player/3134a4f8-546f-411e-a409-7850ef53a34c",
+              "name": "David Kendrick"
+            },
+            {
+              "playerId": "team-player/a3c0341e-5eb1-4d34-b647-0582c024de72",
+              "name": "Roderick Sheen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3ae9075c-6b2d-4ff5-a481-3898b866e05d",
               "players": [
                 {
+                  "playerId": "team-player/3134a4f8-546f-411e-a409-7850ef53a34c",
                   "name": "David Kendrick",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a3c0341e-5eb1-4d34-b647-0582c024de72",
                   "name": "Roderick Sheen",
                   "score": "5"
                 }
@@ -290,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/df6ed7e1-0925-414e-a465-4eb79abc2da7",
               "players": [
                 {
+                  "playerId": "team-player/3134a4f8-546f-411e-a409-7850ef53a34c",
                   "name": "David Kendrick",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a3c0341e-5eb1-4d34-b647-0582c024de72",
                   "name": "Roderick Sheen",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9921290d-75f4-44b0-b545-c25c227eb27e",
               "players": [
                 {
+                  "playerId": "team-player/3134a4f8-546f-411e-a409-7850ef53a34c",
                   "name": "David Kendrick",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a3c0341e-5eb1-4d34-b647-0582c024de72",
                   "name": "Roderick Sheen",
                   "score": "7"
                 }

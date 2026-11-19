@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5fe563de-8150-4c58-9b16-253c9d435757",
   "name": "AC INTER CLUB Final - Roehampton v Nottingham",
   "sport": "ac",
   "firstDay": "2024-11-02",
   "lastDay": "2024-11-02",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Christian CARTER",
-        "Harry FISHER",
-        "Harry Fisher and Christian Carter",
-        "Joel TAYLOR",
-        "Mark van Loon"
+        {
+          "playerId": "team-player/b382aa45-b509-4973-af18-d3feab6f7ccd",
+          "name": "Christian CARTER"
+        },
+        {
+          "playerId": "team-player/2dde7222-eaf1-4e71-8b91-8e0ce0a44482",
+          "name": "Harry FISHER"
+        },
+        {
+          "playerId": "team-player/6391d5c0-4f61-4ac0-8697-f85556475736",
+          "name": "Harry Fisher and Christian Carter"
+        },
+        {
+          "playerId": "team-player/78d2b816-6ccc-49ce-aa6c-e2e77b3d42f3",
+          "name": "Joel TAYLOR"
+        },
+        {
+          "playerId": "team-player/180089ac-19cd-4573-a3cc-efd813f3fa91",
+          "name": "Mark van Loon"
+        }
       ]
     },
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "James DEATH",
-        "James DEATH and Omied Hallam",
-        "Lorna DEWAR",
-        "Omied Hallam",
-        "Rick Harding"
+        {
+          "playerId": "team-player/24410edb-83ea-43ad-83d8-9abafe43828f",
+          "name": "James DEATH"
+        },
+        {
+          "playerId": "team-player/b610310e-6d9e-44e1-887e-ea59a25ede53",
+          "name": "James DEATH and Omied Hallam"
+        },
+        {
+          "playerId": "team-player/ef4ef6d1-642d-474e-a8b9-ae04352c78d1",
+          "name": "Lorna DEWAR"
+        },
+        {
+          "playerId": "team-player/0c37212a-b171-4ee1-826b-c061bd544e4c",
+          "name": "Omied Hallam"
+        },
+        {
+          "playerId": "team-player/3bf2467c-115d-4606-af20-766bcc5992b5",
+          "name": "Rick Harding"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/48688c7f-6157-4f05-987a-1ec8a2184bf5",
       "teams": [
         "Roehampton",
         "Nottingham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Harry Fisher and Christian Carter",
-            "James DEATH and Omied Hallam"
+            {
+              "playerId": "team-player/6391d5c0-4f61-4ac0-8697-f85556475736",
+              "name": "Harry Fisher and Christian Carter"
+            },
+            {
+              "playerId": "team-player/b610310e-6d9e-44e1-887e-ea59a25ede53",
+              "name": "James DEATH and Omied Hallam"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9688ed64-0e98-476f-b3d2-09d65e03c75a",
               "players": [
                 {
+                  "playerId": "team-player/6391d5c0-4f61-4ac0-8697-f85556475736",
                   "name": "Harry Fisher and Christian Carter",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/b610310e-6d9e-44e1-887e-ea59a25ede53",
                   "name": "James DEATH and Omied Hallam",
                   "score": "26TP(D)"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Mark van Loon",
-            "Lorna DEWAR"
+            {
+              "playerId": "team-player/180089ac-19cd-4573-a3cc-efd813f3fa91",
+              "name": "Mark van Loon"
+            },
+            {
+              "playerId": "team-player/ef4ef6d1-642d-474e-a8b9-ae04352c78d1",
+              "name": "Lorna DEWAR"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2bf5c60-9698-437e-b0ad-d3ae4007743c",
               "players": [
                 {
+                  "playerId": "team-player/180089ac-19cd-4573-a3cc-efd813f3fa91",
                   "name": "Mark van Loon",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ef4ef6d1-642d-474e-a8b9-ae04352c78d1",
                   "name": "Lorna DEWAR",
                   "score": "15"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Joel TAYLOR",
-            "Rick Harding"
+            {
+              "playerId": "team-player/78d2b816-6ccc-49ce-aa6c-e2e77b3d42f3",
+              "name": "Joel TAYLOR"
+            },
+            {
+              "playerId": "team-player/3bf2467c-115d-4606-af20-766bcc5992b5",
+              "name": "Rick Harding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0dee4ab7-8bfb-4074-877a-d579ab6f6a10",
               "players": [
                 {
+                  "playerId": "team-player/78d2b816-6ccc-49ce-aa6c-e2e77b3d42f3",
                   "name": "Joel TAYLOR",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/3bf2467c-115d-4606-af20-766bcc5992b5",
                   "name": "Rick Harding",
                   "score": "1"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Christian CARTER",
-            "Omied Hallam"
+            {
+              "playerId": "team-player/b382aa45-b509-4973-af18-d3feab6f7ccd",
+              "name": "Christian CARTER"
+            },
+            {
+              "playerId": "team-player/0c37212a-b171-4ee1-826b-c061bd544e4c",
+              "name": "Omied Hallam"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ecdd765f-e5df-4d74-9570-f8467d4aaa15",
               "players": [
                 {
+                  "playerId": "team-player/b382aa45-b509-4973-af18-d3feab6f7ccd",
                   "name": "Christian CARTER",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/0c37212a-b171-4ee1-826b-c061bd544e4c",
                   "name": "Omied Hallam",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Harry FISHER",
-            "James DEATH"
+            {
+              "playerId": "team-player/2dde7222-eaf1-4e71-8b91-8e0ce0a44482",
+              "name": "Harry FISHER"
+            },
+            {
+              "playerId": "team-player/24410edb-83ea-43ad-83d8-9abafe43828f",
+              "name": "James DEATH"
+            }
           ],
           "games": [
             {
+              "gameId": "game/85c8225f-dc5b-480c-bb2a-5cb860554986",
               "players": [
                 {
+                  "playerId": "team-player/2dde7222-eaf1-4e71-8b91-8e0ce0a44482",
                   "name": "Harry FISHER",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/24410edb-83ea-43ad-83d8-9abafe43828f",
                   "name": "James DEATH",
                   "score": "26TP"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Mark van Loon",
-            "Rick Harding"
+            {
+              "playerId": "team-player/180089ac-19cd-4573-a3cc-efd813f3fa91",
+              "name": "Mark van Loon"
+            },
+            {
+              "playerId": "team-player/3bf2467c-115d-4606-af20-766bcc5992b5",
+              "name": "Rick Harding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/802c1ddf-c8f9-4056-98dc-9b0657806243",
               "players": [
                 {
+                  "playerId": "team-player/180089ac-19cd-4573-a3cc-efd813f3fa91",
                   "name": "Mark van Loon",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3bf2467c-115d-4606-af20-766bcc5992b5",
                   "name": "Rick Harding",
                   "score": "0"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Joel TAYLOR",
-            "Lorna DEWAR"
+            {
+              "playerId": "team-player/78d2b816-6ccc-49ce-aa6c-e2e77b3d42f3",
+              "name": "Joel TAYLOR"
+            },
+            {
+              "playerId": "team-player/ef4ef6d1-642d-474e-a8b9-ae04352c78d1",
+              "name": "Lorna DEWAR"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8c5e15be-001f-44ca-98b8-65e9fc29c83a",
               "players": [
                 {
+                  "playerId": "team-player/78d2b816-6ccc-49ce-aa6c-e2e77b3d42f3",
                   "name": "Joel TAYLOR",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/ef4ef6d1-642d-474e-a8b9-ae04352c78d1",
                   "name": "Lorna DEWAR",
                   "score": "20"
                 }

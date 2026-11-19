@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a48f67ae-4a67-41c0-ba6d-bd3ac01cd9ce",
   "name": "CA GC Inter-Club: Nottingham vs Northampton",
   "sport": "gc",
   "firstDay": "2019-08-22",
   "lastDay": "2019-08-22",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "Alain Giraud",
-        "Euan Burridge",
-        "Ian Burridge",
-        "James Death",
-        "James Death & Ian Burridge"
+        {
+          "playerId": "team-player/dc6f2b24-61ca-48b8-9a0c-5efd2c21f39c",
+          "name": "Alain Giraud"
+        },
+        {
+          "playerId": "team-player/d604a746-ae03-452c-afea-664fcec2165b",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/b8ba9b3e-634c-4024-bc9a-adad7c69ecf6",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/545e7ed0-e715-4129-bbfd-d6e6c79de585",
+          "name": "James Death"
+        },
+        {
+          "playerId": "team-player/dc717462-829b-4de7-b8e9-b1550fcd6d4f",
+          "name": "James Death & Ian Burridge"
+        }
       ]
     },
     {
       "name": "Northampton",
       "shortName": "Northampto",
       "players": [
-        "Jayne Stevens",
-        "Lionel Tibble",
-        "Lionel Tibble & Jayne Stevens",
-        "Michael Hills",
-        "Peter Stansfield"
+        {
+          "playerId": "team-player/2d548109-9320-4b23-afb3-431006240523",
+          "name": "Jayne Stevens"
+        },
+        {
+          "playerId": "team-player/d894a51f-68b2-4ef0-b6c2-1fd709f77db2",
+          "name": "Lionel Tibble"
+        },
+        {
+          "playerId": "team-player/e2b75673-58ec-4676-af9e-462258b34ba1",
+          "name": "Lionel Tibble & Jayne Stevens"
+        },
+        {
+          "playerId": "team-player/94a7a6fb-abde-480d-ba72-c23bdcfbd056",
+          "name": "Michael Hills"
+        },
+        {
+          "playerId": "team-player/6d4a5d14-5ce1-41fa-9eaa-d31ac36f3f60",
+          "name": "Peter Stansfield"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/8c951d83-7d14-413e-8f96-9babe8cc8671",
       "teams": [
         "Nottingham",
         "Northampton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "James Death & Ian Burridge",
-            "Lionel Tibble & Jayne Stevens"
+            {
+              "playerId": "team-player/dc717462-829b-4de7-b8e9-b1550fcd6d4f",
+              "name": "James Death & Ian Burridge"
+            },
+            {
+              "playerId": "team-player/e2b75673-58ec-4676-af9e-462258b34ba1",
+              "name": "Lionel Tibble & Jayne Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5d4a4ace-33b8-49d9-8d7a-e0459d1547d5",
               "players": [
                 {
+                  "playerId": "team-player/dc717462-829b-4de7-b8e9-b1550fcd6d4f",
                   "name": "James Death & Ian Burridge",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/e2b75673-58ec-4676-af9e-462258b34ba1",
                   "name": "Lionel Tibble & Jayne Stevens",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ba416146-117f-4c59-8d4f-c48bcff47936",
               "players": [
                 {
+                  "playerId": "team-player/dc717462-829b-4de7-b8e9-b1550fcd6d4f",
                   "name": "James Death & Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e2b75673-58ec-4676-af9e-462258b34ba1",
                   "name": "Lionel Tibble & Jayne Stevens",
                   "score": "5"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1c3a5ef7-c82d-4c51-81b6-28b4c79e1724",
               "players": [
                 {
+                  "playerId": "team-player/dc717462-829b-4de7-b8e9-b1550fcd6d4f",
                   "name": "James Death & Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e2b75673-58ec-4676-af9e-462258b34ba1",
                   "name": "Lionel Tibble & Jayne Stevens",
                   "score": "3"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "Alain Giraud",
-            "Peter Stansfield"
+            {
+              "playerId": "team-player/dc6f2b24-61ca-48b8-9a0c-5efd2c21f39c",
+              "name": "Alain Giraud"
+            },
+            {
+              "playerId": "team-player/6d4a5d14-5ce1-41fa-9eaa-d31ac36f3f60",
+              "name": "Peter Stansfield"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f8712121-9c78-48c4-a1f3-6957439c51d7",
               "players": [
                 {
+                  "playerId": "team-player/dc6f2b24-61ca-48b8-9a0c-5efd2c21f39c",
                   "name": "Alain Giraud",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6d4a5d14-5ce1-41fa-9eaa-d31ac36f3f60",
                   "name": "Peter Stansfield",
                   "score": "3"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/018f5b4f-a3d3-4a0a-9099-a2731a14efcf",
               "players": [
                 {
+                  "playerId": "team-player/dc6f2b24-61ca-48b8-9a0c-5efd2c21f39c",
                   "name": "Alain Giraud",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6d4a5d14-5ce1-41fa-9eaa-d31ac36f3f60",
                   "name": "Peter Stansfield",
                   "score": "1"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Michael Hills"
+            {
+              "playerId": "team-player/d604a746-ae03-452c-afea-664fcec2165b",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/94a7a6fb-abde-480d-ba72-c23bdcfbd056",
+              "name": "Michael Hills"
+            }
           ],
           "games": [
             {
+              "gameId": "game/67eb8777-d841-4c6c-806a-c1e226e45e00",
               "players": [
                 {
+                  "playerId": "team-player/d604a746-ae03-452c-afea-664fcec2165b",
                   "name": "Euan Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/94a7a6fb-abde-480d-ba72-c23bdcfbd056",
                   "name": "Michael Hills",
                   "score": "7"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e4fb0ddc-15d0-449e-8334-494d97de7cce",
               "players": [
                 {
+                  "playerId": "team-player/d604a746-ae03-452c-afea-664fcec2165b",
                   "name": "Euan Burridge",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/94a7a6fb-abde-480d-ba72-c23bdcfbd056",
                   "name": "Michael Hills",
                   "score": "7"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "James Death",
-            "Lionel Tibble"
+            {
+              "playerId": "team-player/545e7ed0-e715-4129-bbfd-d6e6c79de585",
+              "name": "James Death"
+            },
+            {
+              "playerId": "team-player/d894a51f-68b2-4ef0-b6c2-1fd709f77db2",
+              "name": "Lionel Tibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8f6612cc-e0f6-4cb3-a465-e499a28bc7b7",
               "players": [
                 {
+                  "playerId": "team-player/545e7ed0-e715-4129-bbfd-d6e6c79de585",
                   "name": "James Death",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d894a51f-68b2-4ef0-b6c2-1fd709f77db2",
                   "name": "Lionel Tibble",
                   "score": "5"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e6949357-4ae6-454b-8b8d-ae78a6873308",
               "players": [
                 {
+                  "playerId": "team-player/545e7ed0-e715-4129-bbfd-d6e6c79de585",
                   "name": "James Death",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d894a51f-68b2-4ef0-b6c2-1fd709f77db2",
                   "name": "Lionel Tibble",
                   "score": "3"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "Jayne Stevens"
+            {
+              "playerId": "team-player/b8ba9b3e-634c-4024-bc9a-adad7c69ecf6",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/2d548109-9320-4b23-afb3-431006240523",
+              "name": "Jayne Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4bd5068a-99af-4885-b82f-08f5a81d8a9c",
               "players": [
                 {
+                  "playerId": "team-player/b8ba9b3e-634c-4024-bc9a-adad7c69ecf6",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d548109-9320-4b23-afb3-431006240523",
                   "name": "Jayne Stevens",
                   "score": "1"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bd2e68cc-77f8-44d9-a0ab-82e7ba7a227e",
               "players": [
                 {
+                  "playerId": "team-player/b8ba9b3e-634c-4024-bc9a-adad7c69ecf6",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d548109-9320-4b23-afb3-431006240523",
                   "name": "Jayne Stevens",
                   "score": "0"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Alain Giraud",
-            "Michael Hills"
+            {
+              "playerId": "team-player/dc6f2b24-61ca-48b8-9a0c-5efd2c21f39c",
+              "name": "Alain Giraud"
+            },
+            {
+              "playerId": "team-player/94a7a6fb-abde-480d-ba72-c23bdcfbd056",
+              "name": "Michael Hills"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b47bca5b-1828-48c8-aba5-811ad9d622d9",
               "players": [
                 {
+                  "playerId": "team-player/dc6f2b24-61ca-48b8-9a0c-5efd2c21f39c",
                   "name": "Alain Giraud",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/94a7a6fb-abde-480d-ba72-c23bdcfbd056",
                   "name": "Michael Hills",
                   "score": "7"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/df356407-3f18-4f76-b004-ad845f9945e7",
               "players": [
                 {
+                  "playerId": "team-player/dc6f2b24-61ca-48b8-9a0c-5efd2c21f39c",
                   "name": "Alain Giraud",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/94a7a6fb-abde-480d-ba72-c23bdcfbd056",
                   "name": "Michael Hills",
                   "score": "7"
                 }
@@ -271,17 +380,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Peter Stansfield"
+            {
+              "playerId": "team-player/d604a746-ae03-452c-afea-664fcec2165b",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/6d4a5d14-5ce1-41fa-9eaa-d31ac36f3f60",
+              "name": "Peter Stansfield"
+            }
           ],
           "games": [
             {
+              "gameId": "game/04d11329-ae74-43dd-9328-0bd363ba25b8",
               "players": [
                 {
+                  "playerId": "team-player/d604a746-ae03-452c-afea-664fcec2165b",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6d4a5d14-5ce1-41fa-9eaa-d31ac36f3f60",
                   "name": "Peter Stansfield",
                   "score": "4"
                 }
@@ -290,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5928fd01-a7de-498b-bbe0-2d0985fb3400",
               "players": [
                 {
+                  "playerId": "team-player/d604a746-ae03-452c-afea-664fcec2165b",
                   "name": "Euan Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6d4a5d14-5ce1-41fa-9eaa-d31ac36f3f60",
                   "name": "Peter Stansfield",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3be82ce6-8cd3-4d7e-96fb-04e205d03ac1",
               "players": [
                 {
+                  "playerId": "team-player/d604a746-ae03-452c-afea-664fcec2165b",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6d4a5d14-5ce1-41fa-9eaa-d31ac36f3f60",
                   "name": "Peter Stansfield",
                   "score": "2"
                 }

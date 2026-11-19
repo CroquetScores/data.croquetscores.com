@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/366e4662-f100-4ca3-b1d0-7a77238e57e9",
   "name": "CA GC Inter-Club: Ashby vs Nottingham",
   "sport": "gc",
   "firstDay": "2018-06-25",
   "lastDay": "2018-06-25",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Ashby",
       "shortName": "Ashby",
       "players": [
-        "David Bell",
-        "Rachel Gee",
-        "Tim King",
-        "William Gee",
-        "William Gee & Rachel Gee"
+        {
+          "playerId": "team-player/10a5ddb4-05a7-442e-b534-cf387a6bf541",
+          "name": "David Bell"
+        },
+        {
+          "playerId": "team-player/aad58886-29ad-458b-95de-9517d47c32dd",
+          "name": "Rachel Gee"
+        },
+        {
+          "playerId": "team-player/56aec8c6-6d8e-43d3-bc60-f36ea3b112b8",
+          "name": "Tim King"
+        },
+        {
+          "playerId": "team-player/f889749a-e2c8-4bd0-98a0-5d777b5fdfe1",
+          "name": "William Gee"
+        },
+        {
+          "playerId": "team-player/97223b7e-2e48-4e97-9e18-37991ef5bcd2",
+          "name": "William Gee & Rachel Gee"
+        }
       ]
     },
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "Euan Burridge",
-        "Ian Burridge",
-        "James Death",
-        "James Death & Ian Burridge",
-        "Richard Bilton"
+        {
+          "playerId": "team-player/4a14806d-1b97-4d67-b92f-b22f888a1916",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/457a9050-9a3e-440b-9d1c-7bfeea938f09",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/58feff85-961d-42dc-8dc2-527b22236e96",
+          "name": "James Death"
+        },
+        {
+          "playerId": "team-player/d6174222-a969-4361-a3d0-8890825b42da",
+          "name": "James Death & Ian Burridge"
+        },
+        {
+          "playerId": "team-player/207862f8-f1ba-44fa-80a5-39bff3c200eb",
+          "name": "Richard Bilton"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/5d5cf030-ae98-4e98-90c1-45ea115af829",
       "teams": [
         "Ashby",
         "Nottingham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "William Gee & Rachel Gee",
-            "James Death & Ian Burridge"
+            {
+              "playerId": "team-player/97223b7e-2e48-4e97-9e18-37991ef5bcd2",
+              "name": "William Gee & Rachel Gee"
+            },
+            {
+              "playerId": "team-player/d6174222-a969-4361-a3d0-8890825b42da",
+              "name": "James Death & Ian Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3b74814-88f6-41a5-a018-2ef38aa17d54",
               "players": [
                 {
+                  "playerId": "team-player/97223b7e-2e48-4e97-9e18-37991ef5bcd2",
                   "name": "William Gee & Rachel Gee",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d6174222-a969-4361-a3d0-8890825b42da",
                   "name": "James Death & Ian Burridge",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7c5380ac-001b-4077-89f1-d924b5b6e5f1",
               "players": [
                 {
+                  "playerId": "team-player/97223b7e-2e48-4e97-9e18-37991ef5bcd2",
                   "name": "William Gee & Rachel Gee",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d6174222-a969-4361-a3d0-8890825b42da",
                   "name": "James Death & Ian Burridge",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "David Bell",
-            "Richard Bilton"
+            {
+              "playerId": "team-player/10a5ddb4-05a7-442e-b534-cf387a6bf541",
+              "name": "David Bell"
+            },
+            {
+              "playerId": "team-player/207862f8-f1ba-44fa-80a5-39bff3c200eb",
+              "name": "Richard Bilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c15c0b5c-19f7-48c4-84d1-2fcf6db82c88",
               "players": [
                 {
+                  "playerId": "team-player/10a5ddb4-05a7-442e-b534-cf387a6bf541",
                   "name": "David Bell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/207862f8-f1ba-44fa-80a5-39bff3c200eb",
                   "name": "Richard Bilton",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1aea6933-078c-4129-8c7f-c2aae55d460d",
               "players": [
                 {
+                  "playerId": "team-player/10a5ddb4-05a7-442e-b534-cf387a6bf541",
                   "name": "David Bell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/207862f8-f1ba-44fa-80a5-39bff3c200eb",
                   "name": "Richard Bilton",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Tim King",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/56aec8c6-6d8e-43d3-bc60-f36ea3b112b8",
+              "name": "Tim King"
+            },
+            {
+              "playerId": "team-player/4a14806d-1b97-4d67-b92f-b22f888a1916",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/02edc23c-2b09-4090-96e4-a33e82fe6a37",
               "players": [
                 {
+                  "playerId": "team-player/56aec8c6-6d8e-43d3-bc60-f36ea3b112b8",
                   "name": "Tim King",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4a14806d-1b97-4d67-b92f-b22f888a1916",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a3e2ce9f-e1e3-43c1-8817-6f262c21b34d",
               "players": [
                 {
+                  "playerId": "team-player/56aec8c6-6d8e-43d3-bc60-f36ea3b112b8",
                   "name": "Tim King",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4a14806d-1b97-4d67-b92f-b22f888a1916",
                   "name": "Euan Burridge",
                   "score": "6"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b9bdcaf3-cbcf-4fc1-8d80-a6f0a8dfc68f",
               "players": [
                 {
+                  "playerId": "team-player/56aec8c6-6d8e-43d3-bc60-f36ea3b112b8",
                   "name": "Tim King",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4a14806d-1b97-4d67-b92f-b22f888a1916",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "David Bell",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/10a5ddb4-05a7-442e-b534-cf387a6bf541",
+              "name": "David Bell"
+            },
+            {
+              "playerId": "team-player/4a14806d-1b97-4d67-b92f-b22f888a1916",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/23ab9cf7-cb64-4d02-9a55-cf545a25fcb0",
               "players": [
                 {
+                  "playerId": "team-player/10a5ddb4-05a7-442e-b534-cf387a6bf541",
                   "name": "David Bell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4a14806d-1b97-4d67-b92f-b22f888a1916",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3607d156-112b-45d5-8189-39f26f9a8d24",
               "players": [
                 {
+                  "playerId": "team-player/10a5ddb4-05a7-442e-b534-cf387a6bf541",
                   "name": "David Bell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4a14806d-1b97-4d67-b92f-b22f888a1916",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "William Gee",
-            "James Death"
+            {
+              "playerId": "team-player/f889749a-e2c8-4bd0-98a0-5d777b5fdfe1",
+              "name": "William Gee"
+            },
+            {
+              "playerId": "team-player/58feff85-961d-42dc-8dc2-527b22236e96",
+              "name": "James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f6b1109-f8cc-4e49-93b5-838f747ce7e3",
               "players": [
                 {
+                  "playerId": "team-player/f889749a-e2c8-4bd0-98a0-5d777b5fdfe1",
                   "name": "William Gee",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/58feff85-961d-42dc-8dc2-527b22236e96",
                   "name": "James Death",
                   "score": "7"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/24d84e5c-f82c-42c4-9080-8aa1d2d3479c",
               "players": [
                 {
+                  "playerId": "team-player/f889749a-e2c8-4bd0-98a0-5d777b5fdfe1",
                   "name": "William Gee",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/58feff85-961d-42dc-8dc2-527b22236e96",
                   "name": "James Death",
                   "score": "6"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/00942a76-1646-4332-97d6-f06f08a41543",
               "players": [
                 {
+                  "playerId": "team-player/f889749a-e2c8-4bd0-98a0-5d777b5fdfe1",
                   "name": "William Gee",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/58feff85-961d-42dc-8dc2-527b22236e96",
                   "name": "James Death",
                   "score": "7"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Tim King",
-            "Richard Bilton"
+            {
+              "playerId": "team-player/56aec8c6-6d8e-43d3-bc60-f36ea3b112b8",
+              "name": "Tim King"
+            },
+            {
+              "playerId": "team-player/207862f8-f1ba-44fa-80a5-39bff3c200eb",
+              "name": "Richard Bilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f0f0c5aa-97a9-408a-9b77-24ec163310a7",
               "players": [
                 {
+                  "playerId": "team-player/56aec8c6-6d8e-43d3-bc60-f36ea3b112b8",
                   "name": "Tim King",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/207862f8-f1ba-44fa-80a5-39bff3c200eb",
                   "name": "Richard Bilton",
                   "score": "7"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7a52abc3-a565-4a7c-996e-84c986974e53",
               "players": [
                 {
+                  "playerId": "team-player/56aec8c6-6d8e-43d3-bc60-f36ea3b112b8",
                   "name": "Tim King",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/207862f8-f1ba-44fa-80a5-39bff3c200eb",
                   "name": "Richard Bilton",
                   "score": "5"
                 }
@@ -285,17 +397,26 @@
         },
         {
           "players": [
-            "Rachel Gee",
-            "Ian Burridge"
+            {
+              "playerId": "team-player/aad58886-29ad-458b-95de-9517d47c32dd",
+              "name": "Rachel Gee"
+            },
+            {
+              "playerId": "team-player/457a9050-9a3e-440b-9d1c-7bfeea938f09",
+              "name": "Ian Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e5abd17d-f213-44d3-ad86-23f227165f2c",
               "players": [
                 {
+                  "playerId": "team-player/aad58886-29ad-458b-95de-9517d47c32dd",
                   "name": "Rachel Gee",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/457a9050-9a3e-440b-9d1c-7bfeea938f09",
                   "name": "Ian Burridge",
                   "score": "4"
                 }

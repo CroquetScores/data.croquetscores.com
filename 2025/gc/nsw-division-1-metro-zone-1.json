@@ -1,54 +1,121 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1205ed2f-da0b-42cd-8379-0cebd0f15647",
   "name": "NSW GC Division 1 Pennants - Southern / ACT Zone",
   "sport": "gc",
   "firstDay": "2025-05-20",
   "lastDay": "2025-08-23",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Jamberoo",
       "shortName": "Jamberoo",
       "players": [
-        "Alison Sharpe",
-        "Carol  Tieck & Karen Tieck",
-        "Doubles J",
-        "Karen Tieck & Sylvia Milton",
-        "Singles 1J",
-        "Singles 2J",
-        "Steve Milton",
-        "Ted Woodley"
+        {
+          "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
+          "name": "Alison Sharpe"
+        },
+        {
+          "playerId": "team-player/88e63d0c-9ea6-4b38-b945-18b02d1d6689",
+          "name": "Carol  Tieck & Karen Tieck"
+        },
+        {
+          "playerId": "team-player/bf881356-3f91-4367-a08e-8f6731a9f29c",
+          "name": "Doubles J"
+        },
+        {
+          "playerId": "team-player/b7b2dee7-6e91-4cb9-812a-8b4afc6c4843",
+          "name": "Karen Tieck & Sylvia Milton"
+        },
+        {
+          "playerId": "team-player/faac1679-b7c7-4c66-81b9-2db982bcd231",
+          "name": "Singles 1J"
+        },
+        {
+          "playerId": "team-player/0fa5b5f8-e045-430b-9e2c-9009bf82b26d",
+          "name": "Singles 2J"
+        },
+        {
+          "playerId": "team-player/71994610-07ee-4320-b2b3-35b070eda136",
+          "name": "Steve Milton"
+        },
+        {
+          "playerId": "team-player/5c2a9fc1-35fe-4af6-9f3c-a2085380eaef",
+          "name": "Ted Woodley"
+        }
       ]
     },
     {
       "name": "Canberra",
       "shortName": "Canberra",
       "players": [
-        "Doubles C",
-        "Ethan Gumbrell",
-        "Gerda Lambeck",
-        "Gerda Lambeck & Ralph Richardson",
-        "Julie Toms & Ralph Richardson",
-        "Karen Bisley & Robert Ey",
-        "Mark Scruton",
-        "Singles 1C",
-        "Singles 2C"
+        {
+          "playerId": "team-player/6f558e2b-8b65-4871-9d42-31ba94e159dc",
+          "name": "Doubles C"
+        },
+        {
+          "playerId": "team-player/9aa8b1d5-b197-4e3a-b546-6c7e8b081721",
+          "name": "Ethan Gumbrell"
+        },
+        {
+          "playerId": "team-player/1cf4251a-67da-40be-9560-565ce43b0db8",
+          "name": "Gerda Lambeck"
+        },
+        {
+          "playerId": "team-player/5024d1a1-0a9e-432b-ae44-3ef625897ee2",
+          "name": "Gerda Lambeck & Ralph Richardson"
+        },
+        {
+          "playerId": "team-player/f632858e-0fff-42f8-80c5-d7b04faa8439",
+          "name": "Julie Toms & Ralph Richardson"
+        },
+        {
+          "playerId": "team-player/5f145ca8-d710-4887-ad21-b91e340183e8",
+          "name": "Karen Bisley & Robert Ey"
+        },
+        {
+          "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
+          "name": "Mark Scruton"
+        },
+        {
+          "playerId": "team-player/10930e12-4bd0-4abc-9b6a-fe1655b16ace",
+          "name": "Singles 1C"
+        },
+        {
+          "playerId": "team-player/0ae93cc9-a5ff-4b48-94df-eeb4e0641c96",
+          "name": "Singles 2C"
+        }
       ]
     },
     {
       "name": "Queanbeyan",
       "shortName": "Queanbeyan",
       "players": [
-        "Ann Clifton & Janelle Wilson",
-        "Ann Clifton & Paul Gerbich",
-        "Kevin McGlynn",
-        "Peter Freer"
+        {
+          "playerId": "team-player/8c1305a5-062f-4d3f-857f-6fb387aa4d23",
+          "name": "Ann Clifton & Janelle Wilson"
+        },
+        {
+          "playerId": "team-player/45d983b2-dec2-4894-bbd3-331904c5e7c0",
+          "name": "Ann Clifton & Paul Gerbich"
+        },
+        {
+          "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
+          "name": "Kevin McGlynn"
+        },
+        {
+          "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
+          "name": "Peter Freer"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/0eb4a0df-d37b-410b-996a-ed9cb0fac997",
       "teams": [
         "Jamberoo",
         "Canberra"
@@ -58,17 +125,26 @@
       "matches": [
         {
           "players": [
-            "Carol  Tieck & Karen Tieck",
-            "Julie Toms & Ralph Richardson"
+            {
+              "playerId": "team-player/88e63d0c-9ea6-4b38-b945-18b02d1d6689",
+              "name": "Carol  Tieck & Karen Tieck"
+            },
+            {
+              "playerId": "team-player/f632858e-0fff-42f8-80c5-d7b04faa8439",
+              "name": "Julie Toms & Ralph Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/66e911ef-8e41-45db-8065-433dd86cf8fc",
               "players": [
                 {
+                  "playerId": "team-player/88e63d0c-9ea6-4b38-b945-18b02d1d6689",
                   "name": "Carol  Tieck & Karen Tieck",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f632858e-0fff-42f8-80c5-d7b04faa8439",
                   "name": "Julie Toms & Ralph Richardson",
                   "score": "2"
                 }
@@ -77,12 +153,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/06b3cdc0-8657-4803-bca8-5caf546c36f7",
               "players": [
                 {
+                  "playerId": "team-player/88e63d0c-9ea6-4b38-b945-18b02d1d6689",
                   "name": "Carol  Tieck & Karen Tieck",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f632858e-0fff-42f8-80c5-d7b04faa8439",
                   "name": "Julie Toms & Ralph Richardson",
                   "score": "7"
                 }
@@ -91,12 +170,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3f607083-7f18-404a-92fc-98798cff3b4b",
               "players": [
                 {
+                  "playerId": "team-player/88e63d0c-9ea6-4b38-b945-18b02d1d6689",
                   "name": "Carol  Tieck & Karen Tieck",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f632858e-0fff-42f8-80c5-d7b04faa8439",
                   "name": "Julie Toms & Ralph Richardson",
                   "score": "7"
                 }
@@ -108,17 +190,26 @@
         },
         {
           "players": [
-            "Alison Sharpe",
-            "Gerda Lambeck"
+            {
+              "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
+              "name": "Alison Sharpe"
+            },
+            {
+              "playerId": "team-player/1cf4251a-67da-40be-9560-565ce43b0db8",
+              "name": "Gerda Lambeck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6f60ec7-7448-4f44-a50c-b6e93303fc91",
               "players": [
                 {
+                  "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
                   "name": "Alison Sharpe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1cf4251a-67da-40be-9560-565ce43b0db8",
                   "name": "Gerda Lambeck",
                   "score": "4"
                 }
@@ -127,12 +218,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9bbf6e13-ccb2-4f76-815d-1099ecee0748",
               "players": [
                 {
+                  "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
                   "name": "Alison Sharpe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1cf4251a-67da-40be-9560-565ce43b0db8",
                   "name": "Gerda Lambeck",
                   "score": "2"
                 }
@@ -144,17 +238,26 @@
         },
         {
           "players": [
-            "Ted Woodley",
-            "Mark Scruton"
+            {
+              "playerId": "team-player/5c2a9fc1-35fe-4af6-9f3c-a2085380eaef",
+              "name": "Ted Woodley"
+            },
+            {
+              "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
+              "name": "Mark Scruton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7fef9f1d-a251-444a-8f4a-3e5f271117c4",
               "players": [
                 {
+                  "playerId": "team-player/5c2a9fc1-35fe-4af6-9f3c-a2085380eaef",
                   "name": "Ted Woodley",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
                   "name": "Mark Scruton",
                   "score": "7"
                 }
@@ -163,12 +266,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d40c58cb-31bf-4c51-b84d-271aa86a29ec",
               "players": [
                 {
+                  "playerId": "team-player/5c2a9fc1-35fe-4af6-9f3c-a2085380eaef",
                   "name": "Ted Woodley",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
                   "name": "Mark Scruton",
                   "score": "6"
                 }
@@ -181,6 +287,7 @@
       ]
     },
     {
+      "competitionId": "competition/a9c725ac-0981-45c1-9bb5-074514674a02",
       "teams": [
         "Canberra",
         "Queanbeyan"
@@ -190,17 +297,26 @@
       "matches": [
         {
           "players": [
-            "Gerda Lambeck & Ralph Richardson",
-            "Ann Clifton & Janelle Wilson"
+            {
+              "playerId": "team-player/5024d1a1-0a9e-432b-ae44-3ef625897ee2",
+              "name": "Gerda Lambeck & Ralph Richardson"
+            },
+            {
+              "playerId": "team-player/8c1305a5-062f-4d3f-857f-6fb387aa4d23",
+              "name": "Ann Clifton & Janelle Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/50d83faa-f257-45d9-8b27-7c1cd3e7517c",
               "players": [
                 {
+                  "playerId": "team-player/5024d1a1-0a9e-432b-ae44-3ef625897ee2",
                   "name": "Gerda Lambeck & Ralph Richardson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8c1305a5-062f-4d3f-857f-6fb387aa4d23",
                   "name": "Ann Clifton & Janelle Wilson",
                   "score": "5"
                 }
@@ -209,12 +325,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/67f93a9f-6086-4ee7-adf5-af941850b365",
               "players": [
                 {
+                  "playerId": "team-player/5024d1a1-0a9e-432b-ae44-3ef625897ee2",
                   "name": "Gerda Lambeck & Ralph Richardson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8c1305a5-062f-4d3f-857f-6fb387aa4d23",
                   "name": "Ann Clifton & Janelle Wilson",
                   "score": "7"
                 }
@@ -223,12 +342,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/314e1b92-e442-48a9-8368-76acd8a895aa",
               "players": [
                 {
+                  "playerId": "team-player/5024d1a1-0a9e-432b-ae44-3ef625897ee2",
                   "name": "Gerda Lambeck & Ralph Richardson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/8c1305a5-062f-4d3f-857f-6fb387aa4d23",
                   "name": "Ann Clifton & Janelle Wilson",
                   "score": "3"
                 }
@@ -240,17 +362,26 @@
         },
         {
           "players": [
-            "Ethan Gumbrell",
-            "Kevin McGlynn"
+            {
+              "playerId": "team-player/9aa8b1d5-b197-4e3a-b546-6c7e8b081721",
+              "name": "Ethan Gumbrell"
+            },
+            {
+              "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
+              "name": "Kevin McGlynn"
+            }
           ],
           "games": [
             {
+              "gameId": "game/08fe02e8-bea4-4b47-86e8-88e33ddb86e6",
               "players": [
                 {
+                  "playerId": "team-player/9aa8b1d5-b197-4e3a-b546-6c7e8b081721",
                   "name": "Ethan Gumbrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
                   "name": "Kevin McGlynn",
                   "score": "4"
                 }
@@ -259,12 +390,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4e3591c6-a112-4bc0-b4b2-f0b65000c603",
               "players": [
                 {
+                  "playerId": "team-player/9aa8b1d5-b197-4e3a-b546-6c7e8b081721",
                   "name": "Ethan Gumbrell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
                   "name": "Kevin McGlynn",
                   "score": "7"
                 }
@@ -273,12 +407,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/64cf158a-1642-411f-8c30-a6d740117f99",
               "players": [
                 {
+                  "playerId": "team-player/9aa8b1d5-b197-4e3a-b546-6c7e8b081721",
                   "name": "Ethan Gumbrell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
                   "name": "Kevin McGlynn",
                   "score": "7"
                 }
@@ -290,17 +427,26 @@
         },
         {
           "players": [
-            "Mark Scruton",
-            "Peter Freer"
+            {
+              "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
+              "name": "Mark Scruton"
+            },
+            {
+              "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
+              "name": "Peter Freer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a736a9e5-feb3-4538-b53f-c1eb10b65bf9",
               "players": [
                 {
+                  "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
                   "name": "Mark Scruton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
                   "name": "Peter Freer",
                   "score": "2"
                 }
@@ -309,12 +455,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/415b0c3d-6934-437b-ba8c-b545cc9066d9",
               "players": [
                 {
+                  "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
                   "name": "Mark Scruton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
                   "name": "Peter Freer",
                   "score": "7"
                 }
@@ -323,12 +472,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7cb0e571-060a-42f3-8e99-4bb3c52cf6e0",
               "players": [
                 {
+                  "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
                   "name": "Mark Scruton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
                   "name": "Peter Freer",
                   "score": "5"
                 }
@@ -341,6 +493,7 @@
       ]
     },
     {
+      "competitionId": "competition/33ca7ef4-b7b1-402e-852a-3306bdc7d185",
       "teams": [
         "Queanbeyan",
         "Jamberoo"
@@ -350,17 +503,26 @@
       "matches": [
         {
           "players": [
-            "Ann Clifton & Paul Gerbich",
-            "Carol  Tieck & Karen Tieck"
+            {
+              "playerId": "team-player/45d983b2-dec2-4894-bbd3-331904c5e7c0",
+              "name": "Ann Clifton & Paul Gerbich"
+            },
+            {
+              "playerId": "team-player/88e63d0c-9ea6-4b38-b945-18b02d1d6689",
+              "name": "Carol  Tieck & Karen Tieck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b32e50c-c2b1-4e3a-adb9-6813742a50c0",
               "players": [
                 {
+                  "playerId": "team-player/45d983b2-dec2-4894-bbd3-331904c5e7c0",
                   "name": "Ann Clifton & Paul Gerbich",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/88e63d0c-9ea6-4b38-b945-18b02d1d6689",
                   "name": "Carol  Tieck & Karen Tieck",
                   "score": "6"
                 }
@@ -369,12 +531,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/98f265e7-87e2-4539-835c-c834dd313e4a",
               "players": [
                 {
+                  "playerId": "team-player/45d983b2-dec2-4894-bbd3-331904c5e7c0",
                   "name": "Ann Clifton & Paul Gerbich",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/88e63d0c-9ea6-4b38-b945-18b02d1d6689",
                   "name": "Carol  Tieck & Karen Tieck",
                   "score": "6"
                 }
@@ -383,12 +548,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fe9c4702-493d-4e81-b253-4306e90f131a",
               "players": [
                 {
+                  "playerId": "team-player/45d983b2-dec2-4894-bbd3-331904c5e7c0",
                   "name": "Ann Clifton & Paul Gerbich",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/88e63d0c-9ea6-4b38-b945-18b02d1d6689",
                   "name": "Carol  Tieck & Karen Tieck",
                   "score": "3"
                 }
@@ -400,17 +568,26 @@
         },
         {
           "players": [
-            "Kevin McGlynn",
-            "Alison Sharpe"
+            {
+              "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
+              "name": "Kevin McGlynn"
+            },
+            {
+              "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
+              "name": "Alison Sharpe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2dec6f73-691a-40ce-9ec6-979e1406ef35",
               "players": [
                 {
+                  "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
                   "name": "Kevin McGlynn",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
                   "name": "Alison Sharpe",
                   "score": "5"
                 }
@@ -419,12 +596,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3e98f1ae-99bd-429e-8849-2a2dbf3cdbe7",
               "players": [
                 {
+                  "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
                   "name": "Kevin McGlynn",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
                   "name": "Alison Sharpe",
                   "score": "6"
                 }
@@ -436,17 +616,26 @@
         },
         {
           "players": [
-            "Peter Freer",
-            "Steve Milton"
+            {
+              "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
+              "name": "Peter Freer"
+            },
+            {
+              "playerId": "team-player/71994610-07ee-4320-b2b3-35b070eda136",
+              "name": "Steve Milton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ead7e4bb-e409-4ace-a3a0-dbb9e685b56a",
               "players": [
                 {
+                  "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
                   "name": "Peter Freer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/71994610-07ee-4320-b2b3-35b070eda136",
                   "name": "Steve Milton",
                   "score": "4"
                 }
@@ -455,12 +644,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/19f146e0-8753-4b3a-80f6-1ed0de249326",
               "players": [
                 {
+                  "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
                   "name": "Peter Freer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/71994610-07ee-4320-b2b3-35b070eda136",
                   "name": "Steve Milton",
                   "score": "1"
                 }
@@ -473,6 +665,7 @@
       ]
     },
     {
+      "competitionId": "competition/3be9ce78-2dca-4ca1-ae6b-123b3dee72ed",
       "teams": [
         "Jamberoo",
         "Queanbeyan"
@@ -482,17 +675,26 @@
       "matches": [
         {
           "players": [
-            "Karen Tieck & Sylvia Milton",
-            "Ann Clifton & Janelle Wilson"
+            {
+              "playerId": "team-player/b7b2dee7-6e91-4cb9-812a-8b4afc6c4843",
+              "name": "Karen Tieck & Sylvia Milton"
+            },
+            {
+              "playerId": "team-player/8c1305a5-062f-4d3f-857f-6fb387aa4d23",
+              "name": "Ann Clifton & Janelle Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8cf27fd1-05f5-41b1-835f-6bb37a3a5155",
               "players": [
                 {
+                  "playerId": "team-player/b7b2dee7-6e91-4cb9-812a-8b4afc6c4843",
                   "name": "Karen Tieck & Sylvia Milton",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8c1305a5-062f-4d3f-857f-6fb387aa4d23",
                   "name": "Ann Clifton & Janelle Wilson",
                   "score": "7"
                 }
@@ -501,12 +703,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2140b1d1-0b40-445a-a7d7-d4f432a8b171",
               "players": [
                 {
+                  "playerId": "team-player/b7b2dee7-6e91-4cb9-812a-8b4afc6c4843",
                   "name": "Karen Tieck & Sylvia Milton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/8c1305a5-062f-4d3f-857f-6fb387aa4d23",
                   "name": "Ann Clifton & Janelle Wilson",
                   "score": "7"
                 }
@@ -518,17 +723,26 @@
         },
         {
           "players": [
-            "Alison Sharpe",
-            "Kevin McGlynn"
+            {
+              "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
+              "name": "Alison Sharpe"
+            },
+            {
+              "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
+              "name": "Kevin McGlynn"
+            }
           ],
           "games": [
             {
+              "gameId": "game/93650aaa-ae66-43bf-b117-6bf78817d174",
               "players": [
                 {
+                  "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
                   "name": "Alison Sharpe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
                   "name": "Kevin McGlynn",
                   "score": "6"
                 }
@@ -537,12 +751,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f0802f89-dca4-45f1-83a3-89d577e9d6b0",
               "players": [
                 {
+                  "playerId": "team-player/1694f3e2-a242-491d-a630-962039492bd4",
                   "name": "Alison Sharpe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
                   "name": "Kevin McGlynn",
                   "score": "5"
                 }
@@ -554,17 +771,26 @@
         },
         {
           "players": [
-            "Steve Milton",
-            "Peter Freer"
+            {
+              "playerId": "team-player/71994610-07ee-4320-b2b3-35b070eda136",
+              "name": "Steve Milton"
+            },
+            {
+              "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
+              "name": "Peter Freer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/18f70b28-38b2-452d-bd1e-910995a7b912",
               "players": [
                 {
+                  "playerId": "team-player/71994610-07ee-4320-b2b3-35b070eda136",
                   "name": "Steve Milton",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
                   "name": "Peter Freer",
                   "score": "7"
                 }
@@ -573,12 +799,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/40691f52-23c7-4a3d-970f-b47186495681",
               "players": [
                 {
+                  "playerId": "team-player/71994610-07ee-4320-b2b3-35b070eda136",
                   "name": "Steve Milton",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
                   "name": "Peter Freer",
                   "score": "7"
                 }
@@ -591,6 +820,7 @@
       ]
     },
     {
+      "competitionId": "competition/58aa755c-34f7-4bac-a013-eb2fbbaa428a",
       "teams": [
         "Queanbeyan",
         "Canberra"
@@ -600,17 +830,26 @@
       "matches": [
         {
           "players": [
-            "Ann Clifton & Paul Gerbich",
-            "Karen Bisley & Robert Ey"
+            {
+              "playerId": "team-player/45d983b2-dec2-4894-bbd3-331904c5e7c0",
+              "name": "Ann Clifton & Paul Gerbich"
+            },
+            {
+              "playerId": "team-player/5f145ca8-d710-4887-ad21-b91e340183e8",
+              "name": "Karen Bisley & Robert Ey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5858e159-5c7f-451a-a77e-c4261e92c0c0",
               "players": [
                 {
+                  "playerId": "team-player/45d983b2-dec2-4894-bbd3-331904c5e7c0",
                   "name": "Ann Clifton & Paul Gerbich",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5f145ca8-d710-4887-ad21-b91e340183e8",
                   "name": "Karen Bisley & Robert Ey",
                   "score": "3"
                 }
@@ -619,12 +858,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d60d475a-0157-4fa7-a789-dcde7587e80e",
               "players": [
                 {
+                  "playerId": "team-player/45d983b2-dec2-4894-bbd3-331904c5e7c0",
                   "name": "Ann Clifton & Paul Gerbich",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/5f145ca8-d710-4887-ad21-b91e340183e8",
                   "name": "Karen Bisley & Robert Ey",
                   "score": "7"
                 }
@@ -633,12 +875,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6c030746-f7f0-4e4b-90d1-40da2ab23799",
               "players": [
                 {
+                  "playerId": "team-player/45d983b2-dec2-4894-bbd3-331904c5e7c0",
                   "name": "Ann Clifton & Paul Gerbich",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5f145ca8-d710-4887-ad21-b91e340183e8",
                   "name": "Karen Bisley & Robert Ey",
                   "score": "4"
                 }
@@ -650,17 +895,26 @@
         },
         {
           "players": [
-            "Kevin McGlynn",
-            "Mark Scruton"
+            {
+              "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
+              "name": "Kevin McGlynn"
+            },
+            {
+              "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
+              "name": "Mark Scruton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/87e2889a-cd8f-4d30-9a26-901378a301cd",
               "players": [
                 {
+                  "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
                   "name": "Kevin McGlynn",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
                   "name": "Mark Scruton",
                   "score": "5"
                 }
@@ -669,12 +923,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/232090ca-475c-4284-8d8a-7b9eb0d33054",
               "players": [
                 {
+                  "playerId": "team-player/7a36afb9-ccc5-4ad5-88d4-021c31af2cb1",
                   "name": "Kevin McGlynn",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/254b2a9a-f6ac-435d-a43d-bcafc9f40a66",
                   "name": "Mark Scruton",
                   "score": "4"
                 }
@@ -686,17 +943,26 @@
         },
         {
           "players": [
-            "Peter Freer",
-            "Gerda Lambeck"
+            {
+              "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
+              "name": "Peter Freer"
+            },
+            {
+              "playerId": "team-player/1cf4251a-67da-40be-9560-565ce43b0db8",
+              "name": "Gerda Lambeck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d798d3aa-c221-4be6-8af3-81a1ee04bc73",
               "players": [
                 {
+                  "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
                   "name": "Peter Freer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1cf4251a-67da-40be-9560-565ce43b0db8",
                   "name": "Gerda Lambeck",
                   "score": "2"
                 }
@@ -705,12 +971,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f6caf1ba-bf15-47eb-a374-796170771fb3",
               "players": [
                 {
+                  "playerId": "team-player/d4cff116-a63d-4f6b-9416-f24b8a734493",
                   "name": "Peter Freer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1cf4251a-67da-40be-9560-565ce43b0db8",
                   "name": "Gerda Lambeck",
                   "score": "5"
                 }
@@ -723,6 +992,7 @@
       ]
     },
     {
+      "competitionId": "competition/9f60246c-e4e4-4eca-9bb9-7cddb57af963",
       "teams": [
         "Canberra",
         "Jamberoo"
@@ -732,17 +1002,26 @@
       "matches": [
         {
           "players": [
-            "Doubles C",
-            "Doubles J"
+            {
+              "playerId": "team-player/6f558e2b-8b65-4871-9d42-31ba94e159dc",
+              "name": "Doubles C"
+            },
+            {
+              "playerId": "team-player/bf881356-3f91-4367-a08e-8f6731a9f29c",
+              "name": "Doubles J"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1287f7c2-8717-446d-aa29-69d86fdbddb6",
               "players": [
                 {
+                  "playerId": "team-player/6f558e2b-8b65-4871-9d42-31ba94e159dc",
                   "name": "Doubles C",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf881356-3f91-4367-a08e-8f6731a9f29c",
                   "name": "Doubles J",
                   "score": "0"
                 }
@@ -751,12 +1030,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b2b6de53-da47-4205-944a-e358625d0b61",
               "players": [
                 {
+                  "playerId": "team-player/6f558e2b-8b65-4871-9d42-31ba94e159dc",
                   "name": "Doubles C",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf881356-3f91-4367-a08e-8f6731a9f29c",
                   "name": "Doubles J",
                   "score": "0"
                 }
@@ -768,17 +1050,26 @@
         },
         {
           "players": [
-            "Singles 1C",
-            "Singles 1J"
+            {
+              "playerId": "team-player/10930e12-4bd0-4abc-9b6a-fe1655b16ace",
+              "name": "Singles 1C"
+            },
+            {
+              "playerId": "team-player/faac1679-b7c7-4c66-81b9-2db982bcd231",
+              "name": "Singles 1J"
+            }
           ],
           "games": [
             {
+              "gameId": "game/08eda675-2240-464f-96b1-4fec97bb8afa",
               "players": [
                 {
+                  "playerId": "team-player/10930e12-4bd0-4abc-9b6a-fe1655b16ace",
                   "name": "Singles 1C",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/faac1679-b7c7-4c66-81b9-2db982bcd231",
                   "name": "Singles 1J",
                   "score": "0"
                 }
@@ -787,12 +1078,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/342373cc-52e6-4336-b131-a88fb8d30ecf",
               "players": [
                 {
+                  "playerId": "team-player/10930e12-4bd0-4abc-9b6a-fe1655b16ace",
                   "name": "Singles 1C",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/faac1679-b7c7-4c66-81b9-2db982bcd231",
                   "name": "Singles 1J",
                   "score": "0"
                 }
@@ -804,17 +1098,26 @@
         },
         {
           "players": [
-            "Singles 2C",
-            "Singles 2J"
+            {
+              "playerId": "team-player/0ae93cc9-a5ff-4b48-94df-eeb4e0641c96",
+              "name": "Singles 2C"
+            },
+            {
+              "playerId": "team-player/0fa5b5f8-e045-430b-9e2c-9009bf82b26d",
+              "name": "Singles 2J"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17381848-a7e3-4039-9ff9-a3944e1d8cb1",
               "players": [
                 {
+                  "playerId": "team-player/0ae93cc9-a5ff-4b48-94df-eeb4e0641c96",
                   "name": "Singles 2C",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0fa5b5f8-e045-430b-9e2c-9009bf82b26d",
                   "name": "Singles 2J",
                   "score": "0"
                 }
@@ -823,12 +1126,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/250ae474-dc1d-4dad-a19a-fb34b0b8fbc1",
               "players": [
                 {
+                  "playerId": "team-player/0ae93cc9-a5ff-4b48-94df-eeb4e0641c96",
                   "name": "Singles 2C",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0fa5b5f8-e045-430b-9e2c-9009bf82b26d",
                   "name": "Singles 2J",
                   "score": "0"
                 }

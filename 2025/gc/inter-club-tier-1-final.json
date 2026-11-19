@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/aec0be99-1ef9-4f12-8e42-b31b876d8890",
   "name": "GC Inter-Club Tier 1 Final at Cheltenham",
   "sport": "gc",
   "firstDay": "2025-09-27",
   "lastDay": "2025-09-27",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Angharrad Walters",
-        "David Cornes",
-        "Jack Good",
-        "Jack Good & Angharrad Walters",
-        "Nigel Matthews"
+        {
+          "playerId": "team-player/e2dd6282-c383-4b6f-8d94-e71d69ad08d0",
+          "name": "Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/ccfb607c-8bcf-4dc9-99dc-e98fa0e2e9fa",
+          "name": "David Cornes"
+        },
+        {
+          "playerId": "team-player/1334b085-1fc7-4a83-b1d1-6ee4ffa95c83",
+          "name": "Jack Good"
+        },
+        {
+          "playerId": "team-player/7edb0b0f-6f28-4352-bb2c-e7b63dcd10f0",
+          "name": "Jack Good & Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/92a28d54-a127-4ed4-9117-3f049242d0ba",
+          "name": "Nigel Matthews"
+        }
       ]
     },
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Harry Fisher",
-        "Harry Fisher & Mark van Loon",
-        "Mark van Loon",
-        "Nick Yates",
-        "Tim Russell"
+        {
+          "playerId": "team-player/add72bc1-ca68-4c14-aeae-f73091de830b",
+          "name": "Harry Fisher"
+        },
+        {
+          "playerId": "team-player/d6d9b4b4-e151-45df-bf98-2272d398bd44",
+          "name": "Harry Fisher & Mark van Loon"
+        },
+        {
+          "playerId": "team-player/734fc87f-03ed-4db1-a66e-576be043bb47",
+          "name": "Mark van Loon"
+        },
+        {
+          "playerId": "team-player/981e23f4-8e11-4a18-9897-7d1212e11fea",
+          "name": "Nick Yates"
+        },
+        {
+          "playerId": "team-player/7f5162ff-7d53-44a2-86ba-e3c9f55bde50",
+          "name": "Tim Russell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/9aedc0aa-b3f9-4e31-8598-729e9307476f",
       "teams": [
         "Bowdon",
         "Roehampton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Jack Good & Angharrad Walters",
-            "Harry Fisher & Mark van Loon"
+            {
+              "playerId": "team-player/7edb0b0f-6f28-4352-bb2c-e7b63dcd10f0",
+              "name": "Jack Good & Angharrad Walters"
+            },
+            {
+              "playerId": "team-player/d6d9b4b4-e151-45df-bf98-2272d398bd44",
+              "name": "Harry Fisher & Mark van Loon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b28f8368-0bfd-45eb-82ae-399931de34ea",
               "players": [
                 {
+                  "playerId": "team-player/7edb0b0f-6f28-4352-bb2c-e7b63dcd10f0",
                   "name": "Jack Good & Angharrad Walters",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d6d9b4b4-e151-45df-bf98-2272d398bd44",
                   "name": "Harry Fisher & Mark van Loon",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2f9829ac-d1cb-45e9-a4b9-8eab5e0012b1",
               "players": [
                 {
+                  "playerId": "team-player/7edb0b0f-6f28-4352-bb2c-e7b63dcd10f0",
                   "name": "Jack Good & Angharrad Walters",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d6d9b4b4-e151-45df-bf98-2272d398bd44",
                   "name": "Harry Fisher & Mark van Loon",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Tim Russell"
+            {
+              "playerId": "team-player/ccfb607c-8bcf-4dc9-99dc-e98fa0e2e9fa",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/7f5162ff-7d53-44a2-86ba-e3c9f55bde50",
+              "name": "Tim Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1fc467a7-f79b-422a-9696-a9f262e70959",
               "players": [
                 {
+                  "playerId": "team-player/ccfb607c-8bcf-4dc9-99dc-e98fa0e2e9fa",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7f5162ff-7d53-44a2-86ba-e3c9f55bde50",
                   "name": "Tim Russell",
                   "score": "4"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fcb47a48-6558-4197-82b5-e1fbfd4cb5a1",
               "players": [
                 {
+                  "playerId": "team-player/ccfb607c-8bcf-4dc9-99dc-e98fa0e2e9fa",
                   "name": "David Cornes",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/7f5162ff-7d53-44a2-86ba-e3c9f55bde50",
                   "name": "Tim Russell",
                   "score": "7"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9fa2b4b5-ca24-4b1f-8439-67009907c865",
               "players": [
                 {
+                  "playerId": "team-player/ccfb607c-8bcf-4dc9-99dc-e98fa0e2e9fa",
                   "name": "David Cornes",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7f5162ff-7d53-44a2-86ba-e3c9f55bde50",
                   "name": "Tim Russell",
                   "score": "7"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Nick Yates"
+            {
+              "playerId": "team-player/92a28d54-a127-4ed4-9117-3f049242d0ba",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/981e23f4-8e11-4a18-9897-7d1212e11fea",
+              "name": "Nick Yates"
+            }
           ],
           "games": [
             {
+              "gameId": "game/46451c64-4926-4acd-b414-b99b55383ba5",
               "players": [
                 {
+                  "playerId": "team-player/92a28d54-a127-4ed4-9117-3f049242d0ba",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/981e23f4-8e11-4a18-9897-7d1212e11fea",
                   "name": "Nick Yates",
                   "score": "6"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/63912aed-356c-43bb-bf9a-a4c2d605b0de",
               "players": [
                 {
+                  "playerId": "team-player/92a28d54-a127-4ed4-9117-3f049242d0ba",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/981e23f4-8e11-4a18-9897-7d1212e11fea",
                   "name": "Nick Yates",
                   "score": "6"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Angharrad Walters",
-            "Mark van Loon"
+            {
+              "playerId": "team-player/e2dd6282-c383-4b6f-8d94-e71d69ad08d0",
+              "name": "Angharrad Walters"
+            },
+            {
+              "playerId": "team-player/734fc87f-03ed-4db1-a66e-576be043bb47",
+              "name": "Mark van Loon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/de1172ef-ca2e-48aa-b86f-e1dd51ae8d93",
               "players": [
                 {
+                  "playerId": "team-player/e2dd6282-c383-4b6f-8d94-e71d69ad08d0",
                   "name": "Angharrad Walters",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/734fc87f-03ed-4db1-a66e-576be043bb47",
                   "name": "Mark van Loon",
                   "score": "7"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9adfa5d2-6c87-4997-a9c5-1472104b852a",
               "players": [
                 {
+                  "playerId": "team-player/e2dd6282-c383-4b6f-8d94-e71d69ad08d0",
                   "name": "Angharrad Walters",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/734fc87f-03ed-4db1-a66e-576be043bb47",
                   "name": "Mark van Loon",
                   "score": "5"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/30609c5e-acae-4022-bc79-e021cffe79ff",
               "players": [
                 {
+                  "playerId": "team-player/e2dd6282-c383-4b6f-8d94-e71d69ad08d0",
                   "name": "Angharrad Walters",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/734fc87f-03ed-4db1-a66e-576be043bb47",
                   "name": "Mark van Loon",
                   "score": "7"
                 }
@@ -213,17 +301,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Harry Fisher"
+            {
+              "playerId": "team-player/1334b085-1fc7-4a83-b1d1-6ee4ffa95c83",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/add72bc1-ca68-4c14-aeae-f73091de830b",
+              "name": "Harry Fisher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3d2e220f-9828-46b2-bc8b-084d78c70cab",
               "players": [
                 {
+                  "playerId": "team-player/1334b085-1fc7-4a83-b1d1-6ee4ffa95c83",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/add72bc1-ca68-4c14-aeae-f73091de830b",
                   "name": "Harry Fisher",
                   "score": "4"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/190fb8ba-ef75-4e19-90a0-13d1926e68ba",
               "players": [
                 {
+                  "playerId": "team-player/1334b085-1fc7-4a83-b1d1-6ee4ffa95c83",
                   "name": "Jack Good",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/add72bc1-ca68-4c14-aeae-f73091de830b",
                   "name": "Harry Fisher",
                   "score": "7"
                 }
@@ -246,12 +346,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/eec7d75b-9d01-453d-b16c-23a7631ca82f",
               "players": [
                 {
+                  "playerId": "team-player/1334b085-1fc7-4a83-b1d1-6ee4ffa95c83",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/add72bc1-ca68-4c14-aeae-f73091de830b",
                   "name": "Harry Fisher",
                   "score": "5"
                 }
@@ -263,17 +366,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Tim Russell"
+            {
+              "playerId": "team-player/92a28d54-a127-4ed4-9117-3f049242d0ba",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/7f5162ff-7d53-44a2-86ba-e3c9f55bde50",
+              "name": "Tim Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1696d526-c10c-4ce1-be31-18b2f0d7e771",
               "players": [
                 {
+                  "playerId": "team-player/92a28d54-a127-4ed4-9117-3f049242d0ba",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7f5162ff-7d53-44a2-86ba-e3c9f55bde50",
                   "name": "Tim Russell",
                   "score": "4"
                 }
@@ -282,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3d22620d-a72f-4b30-880b-50b8d78b79f9",
               "players": [
                 {
+                  "playerId": "team-player/92a28d54-a127-4ed4-9117-3f049242d0ba",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7f5162ff-7d53-44a2-86ba-e3c9f55bde50",
                   "name": "Tim Russell",
                   "score": "6"
                 }
@@ -299,17 +414,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Nick Yates"
+            {
+              "playerId": "team-player/ccfb607c-8bcf-4dc9-99dc-e98fa0e2e9fa",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/981e23f4-8e11-4a18-9897-7d1212e11fea",
+              "name": "Nick Yates"
+            }
           ],
           "games": [
             {
+              "gameId": "game/43c23441-e171-4a27-b162-73db6c803b67",
               "players": [
                 {
+                  "playerId": "team-player/ccfb607c-8bcf-4dc9-99dc-e98fa0e2e9fa",
                   "name": "David Cornes",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/981e23f4-8e11-4a18-9897-7d1212e11fea",
                   "name": "Nick Yates",
                   "score": "7"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/47ffe267-6b52-49dc-ab04-785fb4014a73",
               "players": [
                 {
+                  "playerId": "team-player/ccfb607c-8bcf-4dc9-99dc-e98fa0e2e9fa",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/981e23f4-8e11-4a18-9897-7d1212e11fea",
                   "name": "Nick Yates",
                   "score": "6"
                 }
@@ -332,12 +459,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5a7774f2-9254-44f7-a8fb-9e5f6dccfeb7",
               "players": [
                 {
+                  "playerId": "team-player/ccfb607c-8bcf-4dc9-99dc-e98fa0e2e9fa",
                   "name": "David Cornes",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/981e23f4-8e11-4a18-9897-7d1212e11fea",
                   "name": "Nick Yates",
                   "score": "7"
                 }

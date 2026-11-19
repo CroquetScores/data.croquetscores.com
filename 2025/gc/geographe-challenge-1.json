@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5342d8fb-4cd9-41a1-9e9b-734b1caf9ab7",
   "name": "Geographe Challenge",
   "sport": "gc",
   "firstDay": "2025-03-22",
   "lastDay": "2025-03-22",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Dunsborough",
       "shortName": "Dunsboroug",
       "players": [
-        "Allan Hardingham / Derek Foster",
-        "Anthony Nelson / Wendy Collins",
-        "Brian Uren / John Bastian",
-        "Graeme Davies / Janice Davies"
+        {
+          "playerId": "team-player/e822a3d9-7c4a-4cad-8398-dfb62bc2f998",
+          "name": "Allan Hardingham / Derek Foster"
+        },
+        {
+          "playerId": "team-player/3b906249-b8d1-4530-afb7-418a584642d1",
+          "name": "Anthony Nelson / Wendy Collins"
+        },
+        {
+          "playerId": "team-player/1097563c-59a6-4f7b-9d00-d0e4bfacb071",
+          "name": "Brian Uren / John Bastian"
+        },
+        {
+          "playerId": "team-player/a0dab923-6fcd-48c7-a580-2d28be506719",
+          "name": "Graeme Davies / Janice Davies"
+        }
       ]
     },
     {
       "name": "Busselton",
       "shortName": "Busselton",
       "players": [
-        "Janis White / Ellen Spragg",
-        "John Dunn / Roger Davey",
-        "Ron Vincent / Max Kewish",
-        "Steve Lumsdaine / Graham Edwards"
+        {
+          "playerId": "team-player/bf80e38b-705b-4495-ab33-2f3f56d0e131",
+          "name": "Janis White / Ellen Spragg"
+        },
+        {
+          "playerId": "team-player/802a3b35-429c-4f7a-b25a-a4d678030634",
+          "name": "John Dunn / Roger Davey"
+        },
+        {
+          "playerId": "team-player/a12f4ee8-d4fd-49d3-acbe-a43bef951548",
+          "name": "Ron Vincent / Max Kewish"
+        },
+        {
+          "playerId": "team-player/fcbd0eea-8ca1-4263-9a3e-8e603cd839a4",
+          "name": "Steve Lumsdaine / Graham Edwards"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/207ffaa9-7c77-42e4-a9fc-41c8aee70788",
       "teams": [
         "Dunsborough",
         "Busselton"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Anthony Nelson / Wendy Collins",
-            "Steve Lumsdaine / Graham Edwards"
+            {
+              "playerId": "team-player/3b906249-b8d1-4530-afb7-418a584642d1",
+              "name": "Anthony Nelson / Wendy Collins"
+            },
+            {
+              "playerId": "team-player/fcbd0eea-8ca1-4263-9a3e-8e603cd839a4",
+              "name": "Steve Lumsdaine / Graham Edwards"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4676d0b1-9a79-43e4-afcb-ad02a2b84ce6",
               "players": [
                 {
+                  "playerId": "team-player/3b906249-b8d1-4530-afb7-418a584642d1",
                   "name": "Anthony Nelson / Wendy Collins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fcbd0eea-8ca1-4263-9a3e-8e603cd839a4",
                   "name": "Steve Lumsdaine / Graham Edwards",
                   "score": "1"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Graeme Davies / Janice Davies",
-            "John Dunn / Roger Davey"
+            {
+              "playerId": "team-player/a0dab923-6fcd-48c7-a580-2d28be506719",
+              "name": "Graeme Davies / Janice Davies"
+            },
+            {
+              "playerId": "team-player/802a3b35-429c-4f7a-b25a-a4d678030634",
+              "name": "John Dunn / Roger Davey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/332f88a2-31a0-4d18-9df2-a905294d209b",
               "players": [
                 {
+                  "playerId": "team-player/a0dab923-6fcd-48c7-a580-2d28be506719",
                   "name": "Graeme Davies / Janice Davies",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/802a3b35-429c-4f7a-b25a-a4d678030634",
                   "name": "John Dunn / Roger Davey",
                   "score": "4"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Brian Uren / John Bastian",
-            "Ron Vincent / Max Kewish"
+            {
+              "playerId": "team-player/1097563c-59a6-4f7b-9d00-d0e4bfacb071",
+              "name": "Brian Uren / John Bastian"
+            },
+            {
+              "playerId": "team-player/a12f4ee8-d4fd-49d3-acbe-a43bef951548",
+              "name": "Ron Vincent / Max Kewish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d68d561-4b4a-4eb1-94ef-a99ecb554552",
               "players": [
                 {
+                  "playerId": "team-player/1097563c-59a6-4f7b-9d00-d0e4bfacb071",
                   "name": "Brian Uren / John Bastian",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/a12f4ee8-d4fd-49d3-acbe-a43bef951548",
                   "name": "Ron Vincent / Max Kewish",
                   "score": "7"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Allan Hardingham / Derek Foster",
-            "Janis White / Ellen Spragg"
+            {
+              "playerId": "team-player/e822a3d9-7c4a-4cad-8398-dfb62bc2f998",
+              "name": "Allan Hardingham / Derek Foster"
+            },
+            {
+              "playerId": "team-player/bf80e38b-705b-4495-ab33-2f3f56d0e131",
+              "name": "Janis White / Ellen Spragg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f80fdea-0a86-4c83-80ba-9543e0a01258",
               "players": [
                 {
+                  "playerId": "team-player/e822a3d9-7c4a-4cad-8398-dfb62bc2f998",
                   "name": "Allan Hardingham / Derek Foster",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf80e38b-705b-4495-ab33-2f3f56d0e131",
                   "name": "Janis White / Ellen Spragg",
                   "score": "4"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Anthony Nelson / Wendy Collins",
-            "John Dunn / Roger Davey"
+            {
+              "playerId": "team-player/3b906249-b8d1-4530-afb7-418a584642d1",
+              "name": "Anthony Nelson / Wendy Collins"
+            },
+            {
+              "playerId": "team-player/802a3b35-429c-4f7a-b25a-a4d678030634",
+              "name": "John Dunn / Roger Davey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3c6c7a5-70d1-4cae-b839-c68964eb6bf2",
               "players": [
                 {
+                  "playerId": "team-player/3b906249-b8d1-4530-afb7-418a584642d1",
                   "name": "Anthony Nelson / Wendy Collins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/802a3b35-429c-4f7a-b25a-a4d678030634",
                   "name": "John Dunn / Roger Davey",
                   "score": "4"
                 }
@@ -149,17 +222,26 @@
         },
         {
           "players": [
-            "Graeme Davies / Janice Davies",
-            "Ron Vincent / Max Kewish"
+            {
+              "playerId": "team-player/a0dab923-6fcd-48c7-a580-2d28be506719",
+              "name": "Graeme Davies / Janice Davies"
+            },
+            {
+              "playerId": "team-player/a12f4ee8-d4fd-49d3-acbe-a43bef951548",
+              "name": "Ron Vincent / Max Kewish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d7b8a306-54e7-4bd9-b0db-7e775cef0b6a",
               "players": [
                 {
+                  "playerId": "team-player/a0dab923-6fcd-48c7-a580-2d28be506719",
                   "name": "Graeme Davies / Janice Davies",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/a12f4ee8-d4fd-49d3-acbe-a43bef951548",
                   "name": "Ron Vincent / Max Kewish",
                   "score": "5"
                 }
@@ -171,17 +253,26 @@
         },
         {
           "players": [
-            "Brian Uren / John Bastian",
-            "Janis White / Ellen Spragg"
+            {
+              "playerId": "team-player/1097563c-59a6-4f7b-9d00-d0e4bfacb071",
+              "name": "Brian Uren / John Bastian"
+            },
+            {
+              "playerId": "team-player/bf80e38b-705b-4495-ab33-2f3f56d0e131",
+              "name": "Janis White / Ellen Spragg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ff7c09d-8f57-4940-8a17-f622fb2f3349",
               "players": [
                 {
+                  "playerId": "team-player/1097563c-59a6-4f7b-9d00-d0e4bfacb071",
                   "name": "Brian Uren / John Bastian",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/bf80e38b-705b-4495-ab33-2f3f56d0e131",
                   "name": "Janis White / Ellen Spragg",
                   "score": "5"
                 }
@@ -193,17 +284,26 @@
         },
         {
           "players": [
-            "Allan Hardingham / Derek Foster",
-            "Steve Lumsdaine / Graham Edwards"
+            {
+              "playerId": "team-player/e822a3d9-7c4a-4cad-8398-dfb62bc2f998",
+              "name": "Allan Hardingham / Derek Foster"
+            },
+            {
+              "playerId": "team-player/fcbd0eea-8ca1-4263-9a3e-8e603cd839a4",
+              "name": "Steve Lumsdaine / Graham Edwards"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30b14224-72c8-4626-8149-2a666a1f666c",
               "players": [
                 {
+                  "playerId": "team-player/e822a3d9-7c4a-4cad-8398-dfb62bc2f998",
                   "name": "Allan Hardingham / Derek Foster",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/fcbd0eea-8ca1-4263-9a3e-8e603cd839a4",
                   "name": "Steve Lumsdaine / Graham Edwards",
                   "score": "7"
                 }
@@ -215,17 +315,26 @@
         },
         {
           "players": [
-            "Anthony Nelson / Wendy Collins",
-            "Ron Vincent / Max Kewish"
+            {
+              "playerId": "team-player/3b906249-b8d1-4530-afb7-418a584642d1",
+              "name": "Anthony Nelson / Wendy Collins"
+            },
+            {
+              "playerId": "team-player/a12f4ee8-d4fd-49d3-acbe-a43bef951548",
+              "name": "Ron Vincent / Max Kewish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc35993a-fe10-4bcc-af31-d680072dc747",
               "players": [
                 {
+                  "playerId": "team-player/3b906249-b8d1-4530-afb7-418a584642d1",
                   "name": "Anthony Nelson / Wendy Collins",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/a12f4ee8-d4fd-49d3-acbe-a43bef951548",
                   "name": "Ron Vincent / Max Kewish",
                   "score": "5"
                 }
@@ -237,17 +346,26 @@
         },
         {
           "players": [
-            "Graeme Davies / Janice Davies",
-            "Janis White / Ellen Spragg"
+            {
+              "playerId": "team-player/a0dab923-6fcd-48c7-a580-2d28be506719",
+              "name": "Graeme Davies / Janice Davies"
+            },
+            {
+              "playerId": "team-player/bf80e38b-705b-4495-ab33-2f3f56d0e131",
+              "name": "Janis White / Ellen Spragg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/338089f0-f132-458f-983d-f272e8589b71",
               "players": [
                 {
+                  "playerId": "team-player/a0dab923-6fcd-48c7-a580-2d28be506719",
                   "name": "Graeme Davies / Janice Davies",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf80e38b-705b-4495-ab33-2f3f56d0e131",
                   "name": "Janis White / Ellen Spragg",
                   "score": "0"
                 }
@@ -259,17 +377,26 @@
         },
         {
           "players": [
-            "Brian Uren / John Bastian",
-            "Steve Lumsdaine / Graham Edwards"
+            {
+              "playerId": "team-player/1097563c-59a6-4f7b-9d00-d0e4bfacb071",
+              "name": "Brian Uren / John Bastian"
+            },
+            {
+              "playerId": "team-player/fcbd0eea-8ca1-4263-9a3e-8e603cd839a4",
+              "name": "Steve Lumsdaine / Graham Edwards"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b64970f-ff24-4fc2-91d0-af29e76b3fe3",
               "players": [
                 {
+                  "playerId": "team-player/1097563c-59a6-4f7b-9d00-d0e4bfacb071",
                   "name": "Brian Uren / John Bastian",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/fcbd0eea-8ca1-4263-9a3e-8e603cd839a4",
                   "name": "Steve Lumsdaine / Graham Edwards",
                   "score": "5"
                 }
@@ -281,17 +408,26 @@
         },
         {
           "players": [
-            "Allan Hardingham / Derek Foster",
-            "John Dunn / Roger Davey"
+            {
+              "playerId": "team-player/e822a3d9-7c4a-4cad-8398-dfb62bc2f998",
+              "name": "Allan Hardingham / Derek Foster"
+            },
+            {
+              "playerId": "team-player/802a3b35-429c-4f7a-b25a-a4d678030634",
+              "name": "John Dunn / Roger Davey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/73eaed9c-088d-4fe1-bad2-48e1c9e95eae",
               "players": [
                 {
+                  "playerId": "team-player/e822a3d9-7c4a-4cad-8398-dfb62bc2f998",
                   "name": "Allan Hardingham / Derek Foster",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/802a3b35-429c-4f7a-b25a-a4d678030634",
                   "name": "John Dunn / Roger Davey",
                   "score": "5"
                 }
@@ -303,17 +439,26 @@
         },
         {
           "players": [
-            "Anthony Nelson / Wendy Collins",
-            "Janis White / Ellen Spragg"
+            {
+              "playerId": "team-player/3b906249-b8d1-4530-afb7-418a584642d1",
+              "name": "Anthony Nelson / Wendy Collins"
+            },
+            {
+              "playerId": "team-player/bf80e38b-705b-4495-ab33-2f3f56d0e131",
+              "name": "Janis White / Ellen Spragg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34c698c6-f52c-4fa7-a44d-bdd9aba954a1",
               "players": [
                 {
+                  "playerId": "team-player/3b906249-b8d1-4530-afb7-418a584642d1",
                   "name": "Anthony Nelson / Wendy Collins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf80e38b-705b-4495-ab33-2f3f56d0e131",
                   "name": "Janis White / Ellen Spragg",
                   "score": "2"
                 }
@@ -325,17 +470,26 @@
         },
         {
           "players": [
-            "Graeme Davies / Janice Davies",
-            "Steve Lumsdaine / Graham Edwards"
+            {
+              "playerId": "team-player/a0dab923-6fcd-48c7-a580-2d28be506719",
+              "name": "Graeme Davies / Janice Davies"
+            },
+            {
+              "playerId": "team-player/fcbd0eea-8ca1-4263-9a3e-8e603cd839a4",
+              "name": "Steve Lumsdaine / Graham Edwards"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c888d8f6-bedb-40e8-9af9-acb6a0643d71",
               "players": [
                 {
+                  "playerId": "team-player/a0dab923-6fcd-48c7-a580-2d28be506719",
                   "name": "Graeme Davies / Janice Davies",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/fcbd0eea-8ca1-4263-9a3e-8e603cd839a4",
                   "name": "Steve Lumsdaine / Graham Edwards",
                   "score": "4"
                 }
@@ -347,17 +501,26 @@
         },
         {
           "players": [
-            "Brian Uren / John Bastian",
-            "John Dunn / Roger Davey"
+            {
+              "playerId": "team-player/1097563c-59a6-4f7b-9d00-d0e4bfacb071",
+              "name": "Brian Uren / John Bastian"
+            },
+            {
+              "playerId": "team-player/802a3b35-429c-4f7a-b25a-a4d678030634",
+              "name": "John Dunn / Roger Davey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/85017f24-850a-43fe-8631-89791fc48124",
               "players": [
                 {
+                  "playerId": "team-player/1097563c-59a6-4f7b-9d00-d0e4bfacb071",
                   "name": "Brian Uren / John Bastian",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/802a3b35-429c-4f7a-b25a-a4d678030634",
                   "name": "John Dunn / Roger Davey",
                   "score": "3"
                 }
@@ -369,17 +532,26 @@
         },
         {
           "players": [
-            "Allan Hardingham / Derek Foster",
-            "Ron Vincent / Max Kewish"
+            {
+              "playerId": "team-player/e822a3d9-7c4a-4cad-8398-dfb62bc2f998",
+              "name": "Allan Hardingham / Derek Foster"
+            },
+            {
+              "playerId": "team-player/a12f4ee8-d4fd-49d3-acbe-a43bef951548",
+              "name": "Ron Vincent / Max Kewish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e818a0ac-7d59-4113-9d9d-29b66694b62a",
               "players": [
                 {
+                  "playerId": "team-player/e822a3d9-7c4a-4cad-8398-dfb62bc2f998",
                   "name": "Allan Hardingham / Derek Foster",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/a12f4ee8-d4fd-49d3-acbe-a43bef951548",
                   "name": "Ron Vincent / Max Kewish",
                   "score": "7"
                 }

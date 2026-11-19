@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/c3efc419-038d-418c-870e-eb0fc8519ece",
   "name": "Northland Auckland Challenge",
   "sport": "ac",
   "firstDay": "2024-12-10",
   "lastDay": "2024-12-10",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Auckland",
       "shortName": "Auckland",
       "players": [
-        "Dave Ereckson",
-        "Dave Ereckson + Rachel Sang",
-        "Jim Wardle",
-        "Jim Wardle + Rupert Morrish",
-        "Rachel Sang",
-        "Rupert Morrish"
+        {
+          "playerId": "team-player/b24456bf-f384-4540-a5d7-7dbac2805441",
+          "name": "Dave Ereckson"
+        },
+        {
+          "playerId": "team-player/2b41890c-a49e-466f-a4d2-02a4eb978678",
+          "name": "Dave Ereckson + Rachel Sang"
+        },
+        {
+          "playerId": "team-player/9c131cda-f270-4729-a323-a3a0aee85240",
+          "name": "Jim Wardle"
+        },
+        {
+          "playerId": "team-player/309dcb35-0796-4548-91f7-8b7cff3d4daf",
+          "name": "Jim Wardle + Rupert Morrish"
+        },
+        {
+          "playerId": "team-player/8ad6a1b3-e33f-4a91-8fbf-4f3c48277d82",
+          "name": "Rachel Sang"
+        },
+        {
+          "playerId": "team-player/b80f92d1-9a54-4f65-9f35-09375edff6ce",
+          "name": "Rupert Morrish"
+        }
       ]
     },
     {
       "name": "Northland",
       "shortName": "Northland",
       "players": [
-        "Annette Molloy",
-        "Mait Cole",
-        "Mait Cole + Annette  Molloy",
-        "Steve Hopkins",
-        "Tsung Te Cheng",
-        "Tsung Te Cheng + Steve Hopkins"
+        {
+          "playerId": "team-player/74f472f6-529c-4866-bdd3-e7b3976c26ac",
+          "name": "Annette Molloy"
+        },
+        {
+          "playerId": "team-player/72ced6e0-9af1-46a8-86a8-6ecbdeb0ebaa",
+          "name": "Mait Cole"
+        },
+        {
+          "playerId": "team-player/9462f9ab-ab18-4fb7-8758-64019bc34395",
+          "name": "Mait Cole + Annette  Molloy"
+        },
+        {
+          "playerId": "team-player/93aff4b1-3b9d-44d1-b9a4-b22944e1217c",
+          "name": "Steve Hopkins"
+        },
+        {
+          "playerId": "team-player/9a02b285-7ba5-4ad6-98b3-5e43dab705c2",
+          "name": "Tsung Te Cheng"
+        },
+        {
+          "playerId": "team-player/ec08c0fd-feeb-41ba-ab0b-85075d009f79",
+          "name": "Tsung Te Cheng + Steve Hopkins"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/cb7351a9-d5f1-43d2-ba20-952504ebb9e9",
       "teams": [
         "Auckland",
         "Northland"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Jim Wardle + Rupert Morrish",
-            "Tsung Te Cheng + Steve Hopkins"
+            {
+              "playerId": "team-player/309dcb35-0796-4548-91f7-8b7cff3d4daf",
+              "name": "Jim Wardle + Rupert Morrish"
+            },
+            {
+              "playerId": "team-player/ec08c0fd-feeb-41ba-ab0b-85075d009f79",
+              "name": "Tsung Te Cheng + Steve Hopkins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ef35d442-bf8d-433f-970c-6e71978560e1",
               "players": [
                 {
+                  "playerId": "team-player/309dcb35-0796-4548-91f7-8b7cff3d4daf",
                   "name": "Jim Wardle + Rupert Morrish",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/ec08c0fd-feeb-41ba-ab0b-85075d009f79",
                   "name": "Tsung Te Cheng + Steve Hopkins",
                   "score": "6"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Dave Ereckson + Rachel Sang",
-            "Mait Cole + Annette  Molloy"
+            {
+              "playerId": "team-player/2b41890c-a49e-466f-a4d2-02a4eb978678",
+              "name": "Dave Ereckson + Rachel Sang"
+            },
+            {
+              "playerId": "team-player/9462f9ab-ab18-4fb7-8758-64019bc34395",
+              "name": "Mait Cole + Annette  Molloy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/21965de7-0f90-4458-b9bd-389a869edf7c",
               "players": [
                 {
+                  "playerId": "team-player/2b41890c-a49e-466f-a4d2-02a4eb978678",
                   "name": "Dave Ereckson + Rachel Sang",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9462f9ab-ab18-4fb7-8758-64019bc34395",
                   "name": "Mait Cole + Annette  Molloy",
                   "score": "16"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Jim Wardle",
-            "Tsung Te Cheng"
+            {
+              "playerId": "team-player/9c131cda-f270-4729-a323-a3a0aee85240",
+              "name": "Jim Wardle"
+            },
+            {
+              "playerId": "team-player/9a02b285-7ba5-4ad6-98b3-5e43dab705c2",
+              "name": "Tsung Te Cheng"
+            }
           ],
           "games": [
             {
+              "gameId": "game/738e0360-837c-4eb8-b312-6b7b06ec4ce7",
               "players": [
                 {
+                  "playerId": "team-player/9c131cda-f270-4729-a323-a3a0aee85240",
                   "name": "Jim Wardle",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/9a02b285-7ba5-4ad6-98b3-5e43dab705c2",
                   "name": "Tsung Te Cheng",
                   "score": "19"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Dave Ereckson",
-            "Mait Cole"
+            {
+              "playerId": "team-player/b24456bf-f384-4540-a5d7-7dbac2805441",
+              "name": "Dave Ereckson"
+            },
+            {
+              "playerId": "team-player/72ced6e0-9af1-46a8-86a8-6ecbdeb0ebaa",
+              "name": "Mait Cole"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bb7d5da8-1e02-49bd-8011-16f28b26fce5",
               "players": [
                 {
+                  "playerId": "team-player/b24456bf-f384-4540-a5d7-7dbac2805441",
                   "name": "Dave Ereckson",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/72ced6e0-9af1-46a8-86a8-6ecbdeb0ebaa",
                   "name": "Mait Cole",
                   "score": "17"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Rupert Morrish",
-            "Steve Hopkins"
+            {
+              "playerId": "team-player/b80f92d1-9a54-4f65-9f35-09375edff6ce",
+              "name": "Rupert Morrish"
+            },
+            {
+              "playerId": "team-player/93aff4b1-3b9d-44d1-b9a4-b22944e1217c",
+              "name": "Steve Hopkins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa1e93cc-747c-4fe0-a1cb-29ab3bd5edd7",
               "players": [
                 {
+                  "playerId": "team-player/b80f92d1-9a54-4f65-9f35-09375edff6ce",
                   "name": "Rupert Morrish",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/93aff4b1-3b9d-44d1-b9a4-b22944e1217c",
                   "name": "Steve Hopkins",
                   "score": "15"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Rachel Sang",
-            "Annette Molloy"
+            {
+              "playerId": "team-player/8ad6a1b3-e33f-4a91-8fbf-4f3c48277d82",
+              "name": "Rachel Sang"
+            },
+            {
+              "playerId": "team-player/74f472f6-529c-4866-bdd3-e7b3976c26ac",
+              "name": "Annette Molloy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/854e57ba-aa01-44c9-9567-46bd0b46b14a",
               "players": [
                 {
+                  "playerId": "team-player/8ad6a1b3-e33f-4a91-8fbf-4f3c48277d82",
                   "name": "Rachel Sang",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/74f472f6-529c-4866-bdd3-e7b3976c26ac",
                   "name": "Annette Molloy",
                   "score": "12"
                 }

@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2361465a-5613-4aa4-a213-c05c8d01b826",
   "name": "Geographe Challenge",
   "sport": "gc",
   "firstDay": "2023-09-23",
   "lastDay": "2023-09-23",
   "country": "au",
   "region": "wa",
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Busselton",
       "shortName": "Busselton",
       "players": [
-        "Allan Simons and Vicki Duffell",
-        "Barry Colton and Kim Reynolds",
-        "Jan White and Ellen Sprigg",
-        "Trevor Hulcup and Henry Pelosi"
+        {
+          "playerId": "team-player/95e076eb-a1bc-4799-a880-406b00b14a7f",
+          "name": "Allan Simons and Vicki Duffell"
+        },
+        {
+          "playerId": "team-player/6b50e271-276b-43da-a014-9fc084523481",
+          "name": "Barry Colton and Kim Reynolds"
+        },
+        {
+          "playerId": "team-player/ad769b74-e180-4344-9cb6-b2faf4b17dee",
+          "name": "Jan White and Ellen Sprigg"
+        },
+        {
+          "playerId": "team-player/01bc2759-8dfb-4d85-9bae-4d8deb5f7a11",
+          "name": "Trevor Hulcup and Henry Pelosi"
+        }
       ]
     },
     {
       "name": "Dunsborough",
       "shortName": "Dunsboroug",
       "players": [
-        "Allan Hardingham and Derek Foster",
-        "Anthony Nelson and Richard Taylor",
-        "John Bastian and Odette Moro",
-        "Wendy Collins & Karen Martin"
+        {
+          "playerId": "team-player/b7146e9e-72b0-4601-8b9f-06e120902671",
+          "name": "Allan Hardingham and Derek Foster"
+        },
+        {
+          "playerId": "team-player/48bafb12-bca5-44b8-89b0-97fd1e31d39f",
+          "name": "Anthony Nelson and Richard Taylor"
+        },
+        {
+          "playerId": "team-player/ed908e57-e37c-4970-8671-6557943d60e5",
+          "name": "John Bastian and Odette Moro"
+        },
+        {
+          "playerId": "team-player/71e3c396-9aaf-4bc0-b7f7-52b4480a7d03",
+          "name": "Wendy Collins & Karen Martin"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/8affe5f9-4f5c-47b7-b83e-c77a4ebb3ae4",
       "teams": [
         "Busselton",
         "Dunsborough"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Allan Simons and Vicki Duffell",
-            "Wendy Collins & Karen Martin"
+            {
+              "playerId": "team-player/95e076eb-a1bc-4799-a880-406b00b14a7f",
+              "name": "Allan Simons and Vicki Duffell"
+            },
+            {
+              "playerId": "team-player/71e3c396-9aaf-4bc0-b7f7-52b4480a7d03",
+              "name": "Wendy Collins & Karen Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/89cbbcc7-6a11-4f8a-9c3d-b4483e46947c",
               "players": [
                 {
+                  "playerId": "team-player/95e076eb-a1bc-4799-a880-406b00b14a7f",
                   "name": "Allan Simons and Vicki Duffell",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/71e3c396-9aaf-4bc0-b7f7-52b4480a7d03",
                   "name": "Wendy Collins & Karen Martin",
                   "score": "6"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Trevor Hulcup and Henry Pelosi",
-            "John Bastian and Odette Moro"
+            {
+              "playerId": "team-player/01bc2759-8dfb-4d85-9bae-4d8deb5f7a11",
+              "name": "Trevor Hulcup and Henry Pelosi"
+            },
+            {
+              "playerId": "team-player/ed908e57-e37c-4970-8671-6557943d60e5",
+              "name": "John Bastian and Odette Moro"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4394e8f8-c56d-42ab-8015-d660b46c5c13",
               "players": [
                 {
+                  "playerId": "team-player/01bc2759-8dfb-4d85-9bae-4d8deb5f7a11",
                   "name": "Trevor Hulcup and Henry Pelosi",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ed908e57-e37c-4970-8671-6557943d60e5",
                   "name": "John Bastian and Odette Moro",
                   "score": "4"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Barry Colton and Kim Reynolds",
-            "Allan Hardingham and Derek Foster"
+            {
+              "playerId": "team-player/6b50e271-276b-43da-a014-9fc084523481",
+              "name": "Barry Colton and Kim Reynolds"
+            },
+            {
+              "playerId": "team-player/b7146e9e-72b0-4601-8b9f-06e120902671",
+              "name": "Allan Hardingham and Derek Foster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7b5eb668-85af-408f-b1f0-0169f0c05372",
               "players": [
                 {
+                  "playerId": "team-player/6b50e271-276b-43da-a014-9fc084523481",
                   "name": "Barry Colton and Kim Reynolds",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b7146e9e-72b0-4601-8b9f-06e120902671",
                   "name": "Allan Hardingham and Derek Foster",
                   "score": "5"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Jan White and Ellen Sprigg",
-            "Anthony Nelson and Richard Taylor"
+            {
+              "playerId": "team-player/ad769b74-e180-4344-9cb6-b2faf4b17dee",
+              "name": "Jan White and Ellen Sprigg"
+            },
+            {
+              "playerId": "team-player/48bafb12-bca5-44b8-89b0-97fd1e31d39f",
+              "name": "Anthony Nelson and Richard Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f8223ba-8668-4f43-a00b-82f9064a2b85",
               "players": [
                 {
+                  "playerId": "team-player/ad769b74-e180-4344-9cb6-b2faf4b17dee",
                   "name": "Jan White and Ellen Sprigg",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/48bafb12-bca5-44b8-89b0-97fd1e31d39f",
                   "name": "Anthony Nelson and Richard Taylor",
                   "score": "6"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Allan Simons and Vicki Duffell",
-            "John Bastian and Odette Moro"
+            {
+              "playerId": "team-player/95e076eb-a1bc-4799-a880-406b00b14a7f",
+              "name": "Allan Simons and Vicki Duffell"
+            },
+            {
+              "playerId": "team-player/ed908e57-e37c-4970-8671-6557943d60e5",
+              "name": "John Bastian and Odette Moro"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6b14e38c-685e-4dfd-b98d-3d60348533ea",
               "players": [
                 {
+                  "playerId": "team-player/95e076eb-a1bc-4799-a880-406b00b14a7f",
                   "name": "Allan Simons and Vicki Duffell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/ed908e57-e37c-4970-8671-6557943d60e5",
                   "name": "John Bastian and Odette Moro",
                   "score": "5"
                 }
@@ -149,17 +222,26 @@
         },
         {
           "players": [
-            "Trevor Hulcup and Henry Pelosi",
-            "Wendy Collins & Karen Martin"
+            {
+              "playerId": "team-player/01bc2759-8dfb-4d85-9bae-4d8deb5f7a11",
+              "name": "Trevor Hulcup and Henry Pelosi"
+            },
+            {
+              "playerId": "team-player/71e3c396-9aaf-4bc0-b7f7-52b4480a7d03",
+              "name": "Wendy Collins & Karen Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/55b527b1-8f8c-42e8-adca-586225584e42",
               "players": [
                 {
+                  "playerId": "team-player/01bc2759-8dfb-4d85-9bae-4d8deb5f7a11",
                   "name": "Trevor Hulcup and Henry Pelosi",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/71e3c396-9aaf-4bc0-b7f7-52b4480a7d03",
                   "name": "Wendy Collins & Karen Martin",
                   "score": "6"
                 }
@@ -171,17 +253,26 @@
         },
         {
           "players": [
-            "Barry Colton and Kim Reynolds",
-            "Anthony Nelson and Richard Taylor"
+            {
+              "playerId": "team-player/6b50e271-276b-43da-a014-9fc084523481",
+              "name": "Barry Colton and Kim Reynolds"
+            },
+            {
+              "playerId": "team-player/48bafb12-bca5-44b8-89b0-97fd1e31d39f",
+              "name": "Anthony Nelson and Richard Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/68b1b75b-c092-435b-92ef-57ec3a2bf1cb",
               "players": [
                 {
+                  "playerId": "team-player/6b50e271-276b-43da-a014-9fc084523481",
                   "name": "Barry Colton and Kim Reynolds",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/48bafb12-bca5-44b8-89b0-97fd1e31d39f",
                   "name": "Anthony Nelson and Richard Taylor",
                   "score": "2"
                 }
@@ -193,17 +284,26 @@
         },
         {
           "players": [
-            "Jan White and Ellen Sprigg",
-            "Allan Hardingham and Derek Foster"
+            {
+              "playerId": "team-player/ad769b74-e180-4344-9cb6-b2faf4b17dee",
+              "name": "Jan White and Ellen Sprigg"
+            },
+            {
+              "playerId": "team-player/b7146e9e-72b0-4601-8b9f-06e120902671",
+              "name": "Allan Hardingham and Derek Foster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9480a35d-3f7e-49da-9e17-61f80de16fd5",
               "players": [
                 {
+                  "playerId": "team-player/ad769b74-e180-4344-9cb6-b2faf4b17dee",
                   "name": "Jan White and Ellen Sprigg",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/b7146e9e-72b0-4601-8b9f-06e120902671",
                   "name": "Allan Hardingham and Derek Foster",
                   "score": "7"
                 }
@@ -215,17 +315,26 @@
         },
         {
           "players": [
-            "Allan Simons and Vicki Duffell",
-            "Allan Hardingham and Derek Foster"
+            {
+              "playerId": "team-player/95e076eb-a1bc-4799-a880-406b00b14a7f",
+              "name": "Allan Simons and Vicki Duffell"
+            },
+            {
+              "playerId": "team-player/b7146e9e-72b0-4601-8b9f-06e120902671",
+              "name": "Allan Hardingham and Derek Foster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/81ee4b9a-840a-43d7-b090-c713c5b9c5d4",
               "players": [
                 {
+                  "playerId": "team-player/95e076eb-a1bc-4799-a880-406b00b14a7f",
                   "name": "Allan Simons and Vicki Duffell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b7146e9e-72b0-4601-8b9f-06e120902671",
                   "name": "Allan Hardingham and Derek Foster",
                   "score": "4"
                 }
@@ -237,17 +346,26 @@
         },
         {
           "players": [
-            "Trevor Hulcup and Henry Pelosi",
-            "Anthony Nelson and Richard Taylor"
+            {
+              "playerId": "team-player/01bc2759-8dfb-4d85-9bae-4d8deb5f7a11",
+              "name": "Trevor Hulcup and Henry Pelosi"
+            },
+            {
+              "playerId": "team-player/48bafb12-bca5-44b8-89b0-97fd1e31d39f",
+              "name": "Anthony Nelson and Richard Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cd33a189-3ef6-4c80-bd62-346c1a5e9c53",
               "players": [
                 {
+                  "playerId": "team-player/01bc2759-8dfb-4d85-9bae-4d8deb5f7a11",
                   "name": "Trevor Hulcup and Henry Pelosi",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/48bafb12-bca5-44b8-89b0-97fd1e31d39f",
                   "name": "Anthony Nelson and Richard Taylor",
                   "score": "3"
                 }
@@ -259,17 +377,26 @@
         },
         {
           "players": [
-            "Barry Colton and Kim Reynolds",
-            "Wendy Collins & Karen Martin"
+            {
+              "playerId": "team-player/6b50e271-276b-43da-a014-9fc084523481",
+              "name": "Barry Colton and Kim Reynolds"
+            },
+            {
+              "playerId": "team-player/71e3c396-9aaf-4bc0-b7f7-52b4480a7d03",
+              "name": "Wendy Collins & Karen Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1aa12805-b66c-4946-90dc-4fd375dabb46",
               "players": [
                 {
+                  "playerId": "team-player/6b50e271-276b-43da-a014-9fc084523481",
                   "name": "Barry Colton and Kim Reynolds",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/71e3c396-9aaf-4bc0-b7f7-52b4480a7d03",
                   "name": "Wendy Collins & Karen Martin",
                   "score": "2"
                 }
@@ -281,17 +408,26 @@
         },
         {
           "players": [
-            "Jan White and Ellen Sprigg",
-            "John Bastian and Odette Moro"
+            {
+              "playerId": "team-player/ad769b74-e180-4344-9cb6-b2faf4b17dee",
+              "name": "Jan White and Ellen Sprigg"
+            },
+            {
+              "playerId": "team-player/ed908e57-e37c-4970-8671-6557943d60e5",
+              "name": "John Bastian and Odette Moro"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1176d889-ba3e-48a7-84d3-d19d9fdbeae1",
               "players": [
                 {
+                  "playerId": "team-player/ad769b74-e180-4344-9cb6-b2faf4b17dee",
                   "name": "Jan White and Ellen Sprigg",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ed908e57-e37c-4970-8671-6557943d60e5",
                   "name": "John Bastian and Odette Moro",
                   "score": "7"
                 }
@@ -303,17 +439,26 @@
         },
         {
           "players": [
-            "Jan White and Ellen Sprigg",
-            "Wendy Collins & Karen Martin"
+            {
+              "playerId": "team-player/ad769b74-e180-4344-9cb6-b2faf4b17dee",
+              "name": "Jan White and Ellen Sprigg"
+            },
+            {
+              "playerId": "team-player/71e3c396-9aaf-4bc0-b7f7-52b4480a7d03",
+              "name": "Wendy Collins & Karen Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a07857c7-9862-49fc-b8ef-8433decd7c0b",
               "players": [
                 {
+                  "playerId": "team-player/ad769b74-e180-4344-9cb6-b2faf4b17dee",
                   "name": "Jan White and Ellen Sprigg",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/71e3c396-9aaf-4bc0-b7f7-52b4480a7d03",
                   "name": "Wendy Collins & Karen Martin",
                   "score": "7"
                 }
@@ -325,17 +470,26 @@
         },
         {
           "players": [
-            "Barry Colton and Kim Reynolds",
-            "John Bastian and Odette Moro"
+            {
+              "playerId": "team-player/6b50e271-276b-43da-a014-9fc084523481",
+              "name": "Barry Colton and Kim Reynolds"
+            },
+            {
+              "playerId": "team-player/ed908e57-e37c-4970-8671-6557943d60e5",
+              "name": "John Bastian and Odette Moro"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b131f5fa-8ae6-4915-8678-0ee6e5256e57",
               "players": [
                 {
+                  "playerId": "team-player/6b50e271-276b-43da-a014-9fc084523481",
                   "name": "Barry Colton and Kim Reynolds",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ed908e57-e37c-4970-8671-6557943d60e5",
                   "name": "John Bastian and Odette Moro",
                   "score": "4"
                 }
@@ -347,17 +501,26 @@
         },
         {
           "players": [
-            "Allan Simons and Vicki Duffell",
-            "Anthony Nelson and Richard Taylor"
+            {
+              "playerId": "team-player/95e076eb-a1bc-4799-a880-406b00b14a7f",
+              "name": "Allan Simons and Vicki Duffell"
+            },
+            {
+              "playerId": "team-player/48bafb12-bca5-44b8-89b0-97fd1e31d39f",
+              "name": "Anthony Nelson and Richard Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cfea236c-a92d-4b7f-b597-f47819fc64f4",
               "players": [
                 {
+                  "playerId": "team-player/95e076eb-a1bc-4799-a880-406b00b14a7f",
                   "name": "Allan Simons and Vicki Duffell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/48bafb12-bca5-44b8-89b0-97fd1e31d39f",
                   "name": "Anthony Nelson and Richard Taylor",
                   "score": "1"
                 }
@@ -369,17 +532,26 @@
         },
         {
           "players": [
-            "Trevor Hulcup and Henry Pelosi",
-            "Allan Hardingham and Derek Foster"
+            {
+              "playerId": "team-player/01bc2759-8dfb-4d85-9bae-4d8deb5f7a11",
+              "name": "Trevor Hulcup and Henry Pelosi"
+            },
+            {
+              "playerId": "team-player/b7146e9e-72b0-4601-8b9f-06e120902671",
+              "name": "Allan Hardingham and Derek Foster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a61176b9-f65a-4c02-b7c8-39501f9adf24",
               "players": [
                 {
+                  "playerId": "team-player/01bc2759-8dfb-4d85-9bae-4d8deb5f7a11",
                   "name": "Trevor Hulcup and Henry Pelosi",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b7146e9e-72b0-4601-8b9f-06e120902671",
                   "name": "Allan Hardingham and Derek Foster",
                   "score": "3"
                 }

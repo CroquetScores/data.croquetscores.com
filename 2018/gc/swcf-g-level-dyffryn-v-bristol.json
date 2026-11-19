@@ -1,43 +1,95 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5c26cd82-c1d8-4809-8aab-54e2301987b1",
   "name": "SWCF:G level Dyffryn v Bristol",
   "sport": "gc",
   "firstDay": "2018-06-16",
   "lastDay": "2018-06-16",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Dyffryn",
       "shortName": "Dyffryn",
       "players": [
-        "Garry McElwain",
-        "John Cording",
-        "John Evans",
-        "John Evans & Kevin Ham",
-        "Kevin Ham",
-        "Robert G Upton",
-        "Robert Upton & John Cording"
+        {
+          "playerId": "team-player/cfd04370-7508-416f-a61c-8110080b2b42",
+          "name": "Garry McElwain"
+        },
+        {
+          "playerId": "team-player/3fa5daac-3b69-43ef-ad1a-65e9c0b76517",
+          "name": "John Cording"
+        },
+        {
+          "playerId": "team-player/fbd92607-24d8-43d8-af03-e2d4975e5850",
+          "name": "John Evans"
+        },
+        {
+          "playerId": "team-player/da954e3d-3072-4e0c-b79b-b190c8e3d7f6",
+          "name": "John Evans & Kevin Ham"
+        },
+        {
+          "playerId": "team-player/a2531eef-1b5c-4828-bb80-cd0eda204a93",
+          "name": "Kevin Ham"
+        },
+        {
+          "playerId": "team-player/506cbfe8-8ec4-4e53-b556-96b988efb02c",
+          "name": "Robert G Upton"
+        },
+        {
+          "playerId": "team-player/555713cd-d582-4080-8ff1-bea88ac04274",
+          "name": "Robert Upton & John Cording"
+        }
       ]
     },
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "Anthony Rackham",
-        "David Goacher",
-        "David Goacher & Martin Leach",
-        "Eric Soakell & Anthony Racham",
-        "Erick Soakell",
-        "Martin Leach",
-        "Martin Leach & Wayne Wiseman",
-        "Wayne Wiseman",
-        "Wayne Wiseman & Anthony Rackham"
+        {
+          "playerId": "team-player/e9ac4436-b8f2-40a0-b857-786bdec74624",
+          "name": "Anthony Rackham"
+        },
+        {
+          "playerId": "team-player/714eedef-d52c-4da6-a196-a898d35a53a3",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/ed977ae6-dbeb-46cd-b39d-559258efb2f8",
+          "name": "David Goacher & Martin Leach"
+        },
+        {
+          "playerId": "team-player/a9075ce1-f891-400e-b52c-27300d3de517",
+          "name": "Eric Soakell & Anthony Racham"
+        },
+        {
+          "playerId": "team-player/ba9adaca-e60d-4b05-891f-a267a2a446ef",
+          "name": "Erick Soakell"
+        },
+        {
+          "playerId": "team-player/6fc900d1-59d6-416d-b08a-95c2ff9e3504",
+          "name": "Martin Leach"
+        },
+        {
+          "playerId": "team-player/b23d9cd9-8a90-4fcc-95d9-e13aebd4b3bb",
+          "name": "Martin Leach & Wayne Wiseman"
+        },
+        {
+          "playerId": "team-player/97611356-8fd7-48cc-8401-9afb5605808d",
+          "name": "Wayne Wiseman"
+        },
+        {
+          "playerId": "team-player/ccd58970-3818-40da-b058-9c8dcd5a2190",
+          "name": "Wayne Wiseman & Anthony Rackham"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/27c719b6-83b9-42c3-9f60-79347bff764c",
       "teams": [
         "Dyffryn",
         "Bristol"
@@ -47,17 +99,26 @@
       "matches": [
         {
           "players": [
-            "John Evans & Kevin Ham",
-            "Eric Soakell & Anthony Racham"
+            {
+              "playerId": "team-player/da954e3d-3072-4e0c-b79b-b190c8e3d7f6",
+              "name": "John Evans & Kevin Ham"
+            },
+            {
+              "playerId": "team-player/a9075ce1-f891-400e-b52c-27300d3de517",
+              "name": "Eric Soakell & Anthony Racham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c5734a72-bddc-4d33-9c95-0bcea931565b",
               "players": [
                 {
+                  "playerId": "team-player/da954e3d-3072-4e0c-b79b-b190c8e3d7f6",
                   "name": "John Evans & Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a9075ce1-f891-400e-b52c-27300d3de517",
                   "name": "Eric Soakell & Anthony Racham",
                   "score": "3"
                 }
@@ -69,17 +130,26 @@
         },
         {
           "players": [
-            "Robert Upton & John Cording",
-            "Martin Leach & Wayne Wiseman"
+            {
+              "playerId": "team-player/555713cd-d582-4080-8ff1-bea88ac04274",
+              "name": "Robert Upton & John Cording"
+            },
+            {
+              "playerId": "team-player/b23d9cd9-8a90-4fcc-95d9-e13aebd4b3bb",
+              "name": "Martin Leach & Wayne Wiseman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b60dfd47-30a7-448c-b1b4-1eb743f6f7e1",
               "players": [
                 {
+                  "playerId": "team-player/555713cd-d582-4080-8ff1-bea88ac04274",
                   "name": "Robert Upton & John Cording",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b23d9cd9-8a90-4fcc-95d9-e13aebd4b3bb",
                   "name": "Martin Leach & Wayne Wiseman",
                   "score": "6"
                 }
@@ -91,17 +161,26 @@
         },
         {
           "players": [
-            "John Evans & Kevin Ham",
-            "David Goacher & Martin Leach"
+            {
+              "playerId": "team-player/da954e3d-3072-4e0c-b79b-b190c8e3d7f6",
+              "name": "John Evans & Kevin Ham"
+            },
+            {
+              "playerId": "team-player/ed977ae6-dbeb-46cd-b39d-559258efb2f8",
+              "name": "David Goacher & Martin Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e0488663-bf4d-4371-815c-2669e27e736c",
               "players": [
                 {
+                  "playerId": "team-player/da954e3d-3072-4e0c-b79b-b190c8e3d7f6",
                   "name": "John Evans & Kevin Ham",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/ed977ae6-dbeb-46cd-b39d-559258efb2f8",
                   "name": "David Goacher & Martin Leach",
                   "score": "7"
                 }
@@ -113,17 +192,26 @@
         },
         {
           "players": [
-            "Robert Upton & John Cording",
-            "Wayne Wiseman & Anthony Rackham"
+            {
+              "playerId": "team-player/555713cd-d582-4080-8ff1-bea88ac04274",
+              "name": "Robert Upton & John Cording"
+            },
+            {
+              "playerId": "team-player/ccd58970-3818-40da-b058-9c8dcd5a2190",
+              "name": "Wayne Wiseman & Anthony Rackham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/59f13622-3b1c-4dec-bccd-e9dbba6d1c83",
               "players": [
                 {
+                  "playerId": "team-player/555713cd-d582-4080-8ff1-bea88ac04274",
                   "name": "Robert Upton & John Cording",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ccd58970-3818-40da-b058-9c8dcd5a2190",
                   "name": "Wayne Wiseman & Anthony Rackham",
                   "score": "7"
                 }
@@ -135,17 +223,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "David Goacher"
+            {
+              "playerId": "team-player/a2531eef-1b5c-4828-bb80-cd0eda204a93",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/714eedef-d52c-4da6-a196-a898d35a53a3",
+              "name": "David Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/945beb7b-195a-467b-9a49-347de87259e5",
               "players": [
                 {
+                  "playerId": "team-player/a2531eef-1b5c-4828-bb80-cd0eda204a93",
                   "name": "Kevin Ham",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/714eedef-d52c-4da6-a196-a898d35a53a3",
                   "name": "David Goacher",
                   "score": "7"
                 }
@@ -157,17 +254,26 @@
         },
         {
           "players": [
-            "Robert G Upton",
-            "Erick Soakell"
+            {
+              "playerId": "team-player/506cbfe8-8ec4-4e53-b556-96b988efb02c",
+              "name": "Robert G Upton"
+            },
+            {
+              "playerId": "team-player/ba9adaca-e60d-4b05-891f-a267a2a446ef",
+              "name": "Erick Soakell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/778a3444-8e51-4f68-a112-68cda4278958",
               "players": [
                 {
+                  "playerId": "team-player/506cbfe8-8ec4-4e53-b556-96b988efb02c",
                   "name": "Robert G Upton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ba9adaca-e60d-4b05-891f-a267a2a446ef",
                   "name": "Erick Soakell",
                   "score": "7"
                 }
@@ -179,17 +285,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Martin Leach"
+            {
+              "playerId": "team-player/3fa5daac-3b69-43ef-ad1a-65e9c0b76517",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/6fc900d1-59d6-416d-b08a-95c2ff9e3504",
+              "name": "Martin Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca25fe4c-64b8-4efb-b2ae-7207c7528b51",
               "players": [
                 {
+                  "playerId": "team-player/3fa5daac-3b69-43ef-ad1a-65e9c0b76517",
                   "name": "John Cording",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6fc900d1-59d6-416d-b08a-95c2ff9e3504",
                   "name": "Martin Leach",
                   "score": "4"
                 }
@@ -201,17 +316,26 @@
         },
         {
           "players": [
-            "Garry McElwain",
-            "Wayne Wiseman"
+            {
+              "playerId": "team-player/cfd04370-7508-416f-a61c-8110080b2b42",
+              "name": "Garry McElwain"
+            },
+            {
+              "playerId": "team-player/97611356-8fd7-48cc-8401-9afb5605808d",
+              "name": "Wayne Wiseman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5d1b32ef-fe54-4d9e-9b00-af2c8a6bc9b7",
               "players": [
                 {
+                  "playerId": "team-player/cfd04370-7508-416f-a61c-8110080b2b42",
                   "name": "Garry McElwain",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/97611356-8fd7-48cc-8401-9afb5605808d",
                   "name": "Wayne Wiseman",
                   "score": "3"
                 }
@@ -223,17 +347,26 @@
         },
         {
           "players": [
-            "Garry McElwain",
-            "David Goacher"
+            {
+              "playerId": "team-player/cfd04370-7508-416f-a61c-8110080b2b42",
+              "name": "Garry McElwain"
+            },
+            {
+              "playerId": "team-player/714eedef-d52c-4da6-a196-a898d35a53a3",
+              "name": "David Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3075f7d8-ddc1-4df8-9f05-16062827614a",
               "players": [
                 {
+                  "playerId": "team-player/cfd04370-7508-416f-a61c-8110080b2b42",
                   "name": "Garry McElwain",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/714eedef-d52c-4da6-a196-a898d35a53a3",
                   "name": "David Goacher",
                   "score": "7"
                 }
@@ -245,17 +378,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Martin Leach"
+            {
+              "playerId": "team-player/fbd92607-24d8-43d8-af03-e2d4975e5850",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/6fc900d1-59d6-416d-b08a-95c2ff9e3504",
+              "name": "Martin Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e1e8d13-76ed-48bd-8884-a90c6e488f5f",
               "players": [
                 {
+                  "playerId": "team-player/fbd92607-24d8-43d8-af03-e2d4975e5850",
                   "name": "John Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6fc900d1-59d6-416d-b08a-95c2ff9e3504",
                   "name": "Martin Leach",
                   "score": "4"
                 }
@@ -267,17 +409,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Erick Soakell"
+            {
+              "playerId": "team-player/a2531eef-1b5c-4828-bb80-cd0eda204a93",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/ba9adaca-e60d-4b05-891f-a267a2a446ef",
+              "name": "Erick Soakell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1dea0434-d14f-4754-a972-1c94bb696d89",
               "players": [
                 {
+                  "playerId": "team-player/a2531eef-1b5c-4828-bb80-cd0eda204a93",
                   "name": "Kevin Ham",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ba9adaca-e60d-4b05-891f-a267a2a446ef",
                   "name": "Erick Soakell",
                   "score": "6"
                 }
@@ -289,17 +440,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Anthony Rackham"
+            {
+              "playerId": "team-player/3fa5daac-3b69-43ef-ad1a-65e9c0b76517",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/e9ac4436-b8f2-40a0-b857-786bdec74624",
+              "name": "Anthony Rackham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/773d082f-e9c5-42da-98ef-213b0479064c",
               "players": [
                 {
+                  "playerId": "team-player/3fa5daac-3b69-43ef-ad1a-65e9c0b76517",
                   "name": "John Cording",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e9ac4436-b8f2-40a0-b857-786bdec74624",
                   "name": "Anthony Rackham",
                   "score": "6"
                 }
@@ -311,17 +471,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Anthony Rackham"
+            {
+              "playerId": "team-player/fbd92607-24d8-43d8-af03-e2d4975e5850",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/e9ac4436-b8f2-40a0-b857-786bdec74624",
+              "name": "Anthony Rackham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/15190fd4-4729-4953-b58f-066e9761d8e6",
               "players": [
                 {
+                  "playerId": "team-player/fbd92607-24d8-43d8-af03-e2d4975e5850",
                   "name": "John Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e9ac4436-b8f2-40a0-b857-786bdec74624",
                   "name": "Anthony Rackham",
                   "score": "1"
                 }
@@ -333,17 +502,26 @@
         },
         {
           "players": [
-            "Garry McElwain",
-            "Erick Soakell"
+            {
+              "playerId": "team-player/cfd04370-7508-416f-a61c-8110080b2b42",
+              "name": "Garry McElwain"
+            },
+            {
+              "playerId": "team-player/ba9adaca-e60d-4b05-891f-a267a2a446ef",
+              "name": "Erick Soakell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6fc6786b-76ac-4d4e-b60b-e423a4efe52f",
               "players": [
                 {
+                  "playerId": "team-player/cfd04370-7508-416f-a61c-8110080b2b42",
                   "name": "Garry McElwain",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ba9adaca-e60d-4b05-891f-a267a2a446ef",
                   "name": "Erick Soakell",
                   "score": "7"
                 }
@@ -355,17 +533,26 @@
         },
         {
           "players": [
-            "Robert G Upton",
-            "David Goacher"
+            {
+              "playerId": "team-player/506cbfe8-8ec4-4e53-b556-96b988efb02c",
+              "name": "Robert G Upton"
+            },
+            {
+              "playerId": "team-player/714eedef-d52c-4da6-a196-a898d35a53a3",
+              "name": "David Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c2f999fe-fa5a-4ec3-8c6a-160efedd8220",
               "players": [
                 {
+                  "playerId": "team-player/506cbfe8-8ec4-4e53-b556-96b988efb02c",
                   "name": "Robert G Upton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/714eedef-d52c-4da6-a196-a898d35a53a3",
                   "name": "David Goacher",
                   "score": "7"
                 }
@@ -377,17 +564,26 @@
         },
         {
           "players": [
-            "John Cording",
-            "Wayne Wiseman"
+            {
+              "playerId": "team-player/3fa5daac-3b69-43ef-ad1a-65e9c0b76517",
+              "name": "John Cording"
+            },
+            {
+              "playerId": "team-player/97611356-8fd7-48cc-8401-9afb5605808d",
+              "name": "Wayne Wiseman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35bcedca-da9d-4b5a-947d-a0e1cdfe39e0",
               "players": [
                 {
+                  "playerId": "team-player/3fa5daac-3b69-43ef-ad1a-65e9c0b76517",
                   "name": "John Cording",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/97611356-8fd7-48cc-8401-9afb5605808d",
                   "name": "Wayne Wiseman",
                   "score": "7"
                 }
@@ -399,17 +595,26 @@
         },
         {
           "players": [
-            "Garry McElwain",
-            "Martin Leach"
+            {
+              "playerId": "team-player/cfd04370-7508-416f-a61c-8110080b2b42",
+              "name": "Garry McElwain"
+            },
+            {
+              "playerId": "team-player/6fc900d1-59d6-416d-b08a-95c2ff9e3504",
+              "name": "Martin Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2a4794c0-f10a-4951-8673-fa1ab710e5ce",
               "players": [
                 {
+                  "playerId": "team-player/cfd04370-7508-416f-a61c-8110080b2b42",
                   "name": "Garry McElwain",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6fc900d1-59d6-416d-b08a-95c2ff9e3504",
                   "name": "Martin Leach",
                   "score": "1"
                 }
@@ -421,17 +626,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Wayne Wiseman"
+            {
+              "playerId": "team-player/a2531eef-1b5c-4828-bb80-cd0eda204a93",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/97611356-8fd7-48cc-8401-9afb5605808d",
+              "name": "Wayne Wiseman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ebd1222-d9b1-4db5-b632-7c55369c9e3e",
               "players": [
                 {
+                  "playerId": "team-player/a2531eef-1b5c-4828-bb80-cd0eda204a93",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/97611356-8fd7-48cc-8401-9afb5605808d",
                   "name": "Wayne Wiseman",
                   "score": "3"
                 }
@@ -443,17 +657,26 @@
         },
         {
           "players": [
-            "Robert G Upton",
-            "Anthony Rackham"
+            {
+              "playerId": "team-player/506cbfe8-8ec4-4e53-b556-96b988efb02c",
+              "name": "Robert G Upton"
+            },
+            {
+              "playerId": "team-player/e9ac4436-b8f2-40a0-b857-786bdec74624",
+              "name": "Anthony Rackham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/740bd748-cdba-4bdb-bdc1-5192ed742db0",
               "players": [
                 {
+                  "playerId": "team-player/506cbfe8-8ec4-4e53-b556-96b988efb02c",
                   "name": "Robert G Upton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e9ac4436-b8f2-40a0-b857-786bdec74624",
                   "name": "Anthony Rackham",
                   "score": "7"
                 }
@@ -465,17 +688,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "David Goacher"
+            {
+              "playerId": "team-player/fbd92607-24d8-43d8-af03-e2d4975e5850",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/714eedef-d52c-4da6-a196-a898d35a53a3",
+              "name": "David Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8e0e3a5d-c7e2-40c7-8cf0-02a167ffd656",
               "players": [
                 {
+                  "playerId": "team-player/fbd92607-24d8-43d8-af03-e2d4975e5850",
                   "name": "John Evans",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/714eedef-d52c-4da6-a196-a898d35a53a3",
                   "name": "David Goacher",
                   "score": "7"
                 }

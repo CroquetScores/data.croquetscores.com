@@ -1,51 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7e9a48a2-3243-448e-b826-cfdb2df60f67",
   "name": "Qld Reds vs Blues GC",
   "sport": "gc",
   "firstDay": "2021-08-29",
   "lastDay": "2021-08-29",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Blue",
       "shortName": "Blue",
       "players": [
-        "Bob Martin",
-        "Bob Martin & Gabby Spencer",
-        "Gabby Spencer",
-        "Geraldine Trivett",
-        "Lawrie Simpson",
-        "Lawrie Simpson & Mary McMahon",
-        "Mary Mcmahon",
-        "Megan Stuart",
-        "Peter Nicholson",
-        "Peter Nicholson & Geraldine Trivett",
-        "Richard Pickvance",
-        "Richard Pickvance & Megan Stuart"
+        {
+          "playerId": "team-player/c40c1542-5f30-4b3d-96dd-520e77250401",
+          "name": "Bob Martin"
+        },
+        {
+          "playerId": "team-player/f4652aee-591c-4ad3-b0f5-464e209851be",
+          "name": "Bob Martin & Gabby Spencer"
+        },
+        {
+          "playerId": "team-player/f2140120-f401-4fd4-bff4-c7037a7794b2",
+          "name": "Gabby Spencer"
+        },
+        {
+          "playerId": "team-player/0edd793f-7c65-4b0e-99c7-42fbf42b4ddc",
+          "name": "Geraldine Trivett"
+        },
+        {
+          "playerId": "team-player/7c87b776-ae51-4385-83a7-3e86e81bd4ff",
+          "name": "Lawrie Simpson"
+        },
+        {
+          "playerId": "team-player/060e4a94-e286-4669-a5f3-d5ebe9fa1d08",
+          "name": "Lawrie Simpson & Mary McMahon"
+        },
+        {
+          "playerId": "team-player/a9d513c2-bfa6-4ddb-b566-586435c7d4f3",
+          "name": "Mary Mcmahon"
+        },
+        {
+          "playerId": "team-player/493ebe07-8330-4893-850d-594560b92622",
+          "name": "Megan Stuart"
+        },
+        {
+          "playerId": "team-player/ddcd5680-493e-4f99-82f7-c24ff09b22e4",
+          "name": "Peter Nicholson"
+        },
+        {
+          "playerId": "team-player/a82ed6f5-17ba-4196-a7e3-ae1c63c79b0f",
+          "name": "Peter Nicholson & Geraldine Trivett"
+        },
+        {
+          "playerId": "team-player/871f1e45-93a3-49de-8d0d-a11164ab99de",
+          "name": "Richard Pickvance"
+        },
+        {
+          "playerId": "team-player/9a4e4ac5-a5f0-4558-95fa-415304ff26ef",
+          "name": "Richard Pickvance & Megan Stuart"
+        }
       ]
     },
     {
       "name": "Red",
       "shortName": "Red",
       "players": [
-        "Dennis Green",
-        "Dennis Green & Pop Petersen",
-        "Gordon Giles",
-        "Gordon Giles & Rosemary Newsham",
-        "Greg Bury",
-        "Greg Bury & Marilyn Nelson",
-        "Marilyn Nelson",
-        "Pop Petersen",
-        "Ron Schodel",
-        "Ron Schodel & Sue Green",
-        "Rosemary Newsham",
-        "Sue Green"
+        {
+          "playerId": "team-player/923cc93b-3f7a-49e7-9d97-1581a88da1a8",
+          "name": "Dennis Green"
+        },
+        {
+          "playerId": "team-player/634879dd-0ffd-40a9-8c72-f1743bb365b0",
+          "name": "Dennis Green & Pop Petersen"
+        },
+        {
+          "playerId": "team-player/22998345-4693-4a14-9339-a25ebd6e4305",
+          "name": "Gordon Giles"
+        },
+        {
+          "playerId": "team-player/9474124b-095c-4487-9f8e-058ff5a29d4d",
+          "name": "Gordon Giles & Rosemary Newsham"
+        },
+        {
+          "playerId": "team-player/e0ff7e40-e63d-4bd6-8a40-607f19386542",
+          "name": "Greg Bury"
+        },
+        {
+          "playerId": "team-player/a1589527-5317-469b-81d5-0453544240ec",
+          "name": "Greg Bury & Marilyn Nelson"
+        },
+        {
+          "playerId": "team-player/98a915fa-2b0c-4677-a19b-d23b4e65b640",
+          "name": "Marilyn Nelson"
+        },
+        {
+          "playerId": "team-player/83e956ac-751e-4aaf-b6bc-0b5651774955",
+          "name": "Pop Petersen"
+        },
+        {
+          "playerId": "team-player/543ac417-03c7-4f2d-84f4-a22ae1e76e2d",
+          "name": "Ron Schodel"
+        },
+        {
+          "playerId": "team-player/53b1e37c-96ef-4223-8153-2f8e8fb10658",
+          "name": "Ron Schodel & Sue Green"
+        },
+        {
+          "playerId": "team-player/cbf2703a-c552-41a0-8510-525e8a120c77",
+          "name": "Rosemary Newsham"
+        },
+        {
+          "playerId": "team-player/2b506fd9-61d4-4614-834b-3e9ba935141f",
+          "name": "Sue Green"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/73f6718c-9a84-4ebb-b59b-d53e3e042bf7",
       "teams": [
         "Blue",
         "Red"
@@ -55,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Lawrie Simpson & Mary McMahon",
-            "Gordon Giles & Rosemary Newsham"
+            {
+              "playerId": "team-player/060e4a94-e286-4669-a5f3-d5ebe9fa1d08",
+              "name": "Lawrie Simpson & Mary McMahon"
+            },
+            {
+              "playerId": "team-player/9474124b-095c-4487-9f8e-058ff5a29d4d",
+              "name": "Gordon Giles & Rosemary Newsham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fb5b91c6-ba87-424d-acd2-2769072692f4",
               "players": [
                 {
+                  "playerId": "team-player/060e4a94-e286-4669-a5f3-d5ebe9fa1d08",
                   "name": "Lawrie Simpson & Mary McMahon",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9474124b-095c-4487-9f8e-058ff5a29d4d",
                   "name": "Gordon Giles & Rosemary Newsham",
                   "score": "7"
                 }
@@ -74,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/574ce7a1-9d5e-49b2-87c3-85c3251bb855",
               "players": [
                 {
+                  "playerId": "team-player/060e4a94-e286-4669-a5f3-d5ebe9fa1d08",
                   "name": "Lawrie Simpson & Mary McMahon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9474124b-095c-4487-9f8e-058ff5a29d4d",
                   "name": "Gordon Giles & Rosemary Newsham",
                   "score": "4"
                 }
@@ -91,17 +179,26 @@
         },
         {
           "players": [
-            "Bob Martin & Gabby Spencer",
-            "Greg Bury & Marilyn Nelson"
+            {
+              "playerId": "team-player/f4652aee-591c-4ad3-b0f5-464e209851be",
+              "name": "Bob Martin & Gabby Spencer"
+            },
+            {
+              "playerId": "team-player/a1589527-5317-469b-81d5-0453544240ec",
+              "name": "Greg Bury & Marilyn Nelson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9aa5b116-6d00-45e9-b987-fcb9ace0dc40",
               "players": [
                 {
+                  "playerId": "team-player/f4652aee-591c-4ad3-b0f5-464e209851be",
                   "name": "Bob Martin & Gabby Spencer",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a1589527-5317-469b-81d5-0453544240ec",
                   "name": "Greg Bury & Marilyn Nelson",
                   "score": "7"
                 }
@@ -110,12 +207,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ad1f1788-2db2-44fd-860a-f539c15f4713",
               "players": [
                 {
+                  "playerId": "team-player/f4652aee-591c-4ad3-b0f5-464e209851be",
                   "name": "Bob Martin & Gabby Spencer",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/a1589527-5317-469b-81d5-0453544240ec",
                   "name": "Greg Bury & Marilyn Nelson",
                   "score": "7"
                 }
@@ -127,17 +227,26 @@
         },
         {
           "players": [
-            "Richard Pickvance & Megan Stuart",
-            "Dennis Green & Pop Petersen"
+            {
+              "playerId": "team-player/9a4e4ac5-a5f0-4558-95fa-415304ff26ef",
+              "name": "Richard Pickvance & Megan Stuart"
+            },
+            {
+              "playerId": "team-player/634879dd-0ffd-40a9-8c72-f1743bb365b0",
+              "name": "Dennis Green & Pop Petersen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/db80de14-6f02-4e81-b868-8c82e752a597",
               "players": [
                 {
+                  "playerId": "team-player/9a4e4ac5-a5f0-4558-95fa-415304ff26ef",
                   "name": "Richard Pickvance & Megan Stuart",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/634879dd-0ffd-40a9-8c72-f1743bb365b0",
                   "name": "Dennis Green & Pop Petersen",
                   "score": "6"
                 }
@@ -146,12 +255,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/17a57b5d-d8c0-4780-b7e2-1b1c164f6675",
               "players": [
                 {
+                  "playerId": "team-player/9a4e4ac5-a5f0-4558-95fa-415304ff26ef",
                   "name": "Richard Pickvance & Megan Stuart",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/634879dd-0ffd-40a9-8c72-f1743bb365b0",
                   "name": "Dennis Green & Pop Petersen",
                   "score": "6"
                 }
@@ -163,17 +275,26 @@
         },
         {
           "players": [
-            "Peter Nicholson & Geraldine Trivett",
-            "Ron Schodel & Sue Green"
+            {
+              "playerId": "team-player/a82ed6f5-17ba-4196-a7e3-ae1c63c79b0f",
+              "name": "Peter Nicholson & Geraldine Trivett"
+            },
+            {
+              "playerId": "team-player/53b1e37c-96ef-4223-8153-2f8e8fb10658",
+              "name": "Ron Schodel & Sue Green"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ec7c27da-c1dd-48e0-82a7-7dafe0d299b5",
               "players": [
                 {
+                  "playerId": "team-player/a82ed6f5-17ba-4196-a7e3-ae1c63c79b0f",
                   "name": "Peter Nicholson & Geraldine Trivett",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/53b1e37c-96ef-4223-8153-2f8e8fb10658",
                   "name": "Ron Schodel & Sue Green",
                   "score": "7"
                 }
@@ -182,12 +303,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6046d1f9-baa2-40b0-98bc-6920339bf90b",
               "players": [
                 {
+                  "playerId": "team-player/a82ed6f5-17ba-4196-a7e3-ae1c63c79b0f",
                   "name": "Peter Nicholson & Geraldine Trivett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/53b1e37c-96ef-4223-8153-2f8e8fb10658",
                   "name": "Ron Schodel & Sue Green",
                   "score": "5"
                 }
@@ -199,17 +323,26 @@
         },
         {
           "players": [
-            "Richard Pickvance",
-            "Ron Schodel"
+            {
+              "playerId": "team-player/871f1e45-93a3-49de-8d0d-a11164ab99de",
+              "name": "Richard Pickvance"
+            },
+            {
+              "playerId": "team-player/543ac417-03c7-4f2d-84f4-a22ae1e76e2d",
+              "name": "Ron Schodel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/28eca555-2463-4346-8431-eb8283e73ceb",
               "players": [
                 {
+                  "playerId": "team-player/871f1e45-93a3-49de-8d0d-a11164ab99de",
                   "name": "Richard Pickvance",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/543ac417-03c7-4f2d-84f4-a22ae1e76e2d",
                   "name": "Ron Schodel",
                   "score": "7"
                 }
@@ -218,12 +351,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/78557989-09f1-43dd-8f2b-1cfa58edc87b",
               "players": [
                 {
+                  "playerId": "team-player/871f1e45-93a3-49de-8d0d-a11164ab99de",
                   "name": "Richard Pickvance",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/543ac417-03c7-4f2d-84f4-a22ae1e76e2d",
                   "name": "Ron Schodel",
                   "score": "3"
                 }
@@ -235,17 +371,26 @@
         },
         {
           "players": [
-            "Megan Stuart",
-            "Sue Green"
+            {
+              "playerId": "team-player/493ebe07-8330-4893-850d-594560b92622",
+              "name": "Megan Stuart"
+            },
+            {
+              "playerId": "team-player/2b506fd9-61d4-4614-834b-3e9ba935141f",
+              "name": "Sue Green"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f151cfd2-df66-4754-a1e0-c27318346ffa",
               "players": [
                 {
+                  "playerId": "team-player/493ebe07-8330-4893-850d-594560b92622",
                   "name": "Megan Stuart",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2b506fd9-61d4-4614-834b-3e9ba935141f",
                   "name": "Sue Green",
                   "score": "5"
                 }
@@ -254,12 +399,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6a83f6b6-e2ca-4c54-855a-ff7057b72211",
               "players": [
                 {
+                  "playerId": "team-player/493ebe07-8330-4893-850d-594560b92622",
                   "name": "Megan Stuart",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2b506fd9-61d4-4614-834b-3e9ba935141f",
                   "name": "Sue Green",
                   "score": "5"
                 }
@@ -271,17 +419,26 @@
         },
         {
           "players": [
-            "Peter Nicholson",
-            "Dennis Green"
+            {
+              "playerId": "team-player/ddcd5680-493e-4f99-82f7-c24ff09b22e4",
+              "name": "Peter Nicholson"
+            },
+            {
+              "playerId": "team-player/923cc93b-3f7a-49e7-9d97-1581a88da1a8",
+              "name": "Dennis Green"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e596115d-372b-49b1-ae1e-564d7f747a4d",
               "players": [
                 {
+                  "playerId": "team-player/ddcd5680-493e-4f99-82f7-c24ff09b22e4",
                   "name": "Peter Nicholson",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/923cc93b-3f7a-49e7-9d97-1581a88da1a8",
                   "name": "Dennis Green",
                   "score": "7"
                 }
@@ -290,12 +447,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0b14ea03-ec29-4072-8f3e-b63cfabca04b",
               "players": [
                 {
+                  "playerId": "team-player/ddcd5680-493e-4f99-82f7-c24ff09b22e4",
                   "name": "Peter Nicholson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/923cc93b-3f7a-49e7-9d97-1581a88da1a8",
                   "name": "Dennis Green",
                   "score": "7"
                 }
@@ -307,17 +467,26 @@
         },
         {
           "players": [
-            "Bob Martin",
-            "Gordon Giles"
+            {
+              "playerId": "team-player/c40c1542-5f30-4b3d-96dd-520e77250401",
+              "name": "Bob Martin"
+            },
+            {
+              "playerId": "team-player/22998345-4693-4a14-9339-a25ebd6e4305",
+              "name": "Gordon Giles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ee035146-3345-4518-adaf-984f5c528c0c",
               "players": [
                 {
+                  "playerId": "team-player/c40c1542-5f30-4b3d-96dd-520e77250401",
                   "name": "Bob Martin",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/22998345-4693-4a14-9339-a25ebd6e4305",
                   "name": "Gordon Giles",
                   "score": "7"
                 }
@@ -326,12 +495,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dfdf6873-91a2-4622-96b5-b89a518e1ff4",
               "players": [
                 {
+                  "playerId": "team-player/c40c1542-5f30-4b3d-96dd-520e77250401",
                   "name": "Bob Martin",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/22998345-4693-4a14-9339-a25ebd6e4305",
                   "name": "Gordon Giles",
                   "score": "7"
                 }
@@ -343,17 +515,26 @@
         },
         {
           "players": [
-            "Geraldine Trivett",
-            "Pop Petersen"
+            {
+              "playerId": "team-player/0edd793f-7c65-4b0e-99c7-42fbf42b4ddc",
+              "name": "Geraldine Trivett"
+            },
+            {
+              "playerId": "team-player/83e956ac-751e-4aaf-b6bc-0b5651774955",
+              "name": "Pop Petersen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0860b7f7-09f7-47e5-8ec4-6d9572fb0f46",
               "players": [
                 {
+                  "playerId": "team-player/0edd793f-7c65-4b0e-99c7-42fbf42b4ddc",
                   "name": "Geraldine Trivett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/83e956ac-751e-4aaf-b6bc-0b5651774955",
                   "name": "Pop Petersen",
                   "score": "4"
                 }
@@ -362,12 +543,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/02645c02-4e3f-44b5-ae36-275041d27a4a",
               "players": [
                 {
+                  "playerId": "team-player/0edd793f-7c65-4b0e-99c7-42fbf42b4ddc",
                   "name": "Geraldine Trivett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/83e956ac-751e-4aaf-b6bc-0b5651774955",
                   "name": "Pop Petersen",
                   "score": "2"
                 }
@@ -379,17 +563,26 @@
         },
         {
           "players": [
-            "Lawrie Simpson",
-            "Greg Bury"
+            {
+              "playerId": "team-player/7c87b776-ae51-4385-83a7-3e86e81bd4ff",
+              "name": "Lawrie Simpson"
+            },
+            {
+              "playerId": "team-player/e0ff7e40-e63d-4bd6-8a40-607f19386542",
+              "name": "Greg Bury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd5b57f0-6d17-45ba-b56c-11e7cf7d59cb",
               "players": [
                 {
+                  "playerId": "team-player/7c87b776-ae51-4385-83a7-3e86e81bd4ff",
                   "name": "Lawrie Simpson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e0ff7e40-e63d-4bd6-8a40-607f19386542",
                   "name": "Greg Bury",
                   "score": "6"
                 }
@@ -398,12 +591,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bb21ccb2-0ac2-4c6a-b3a9-8a5df5d3fd16",
               "players": [
                 {
+                  "playerId": "team-player/7c87b776-ae51-4385-83a7-3e86e81bd4ff",
                   "name": "Lawrie Simpson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e0ff7e40-e63d-4bd6-8a40-607f19386542",
                   "name": "Greg Bury",
                   "score": "7"
                 }
@@ -415,17 +611,26 @@
         },
         {
           "players": [
-            "Gabby Spencer",
-            "Rosemary Newsham"
+            {
+              "playerId": "team-player/f2140120-f401-4fd4-bff4-c7037a7794b2",
+              "name": "Gabby Spencer"
+            },
+            {
+              "playerId": "team-player/cbf2703a-c552-41a0-8510-525e8a120c77",
+              "name": "Rosemary Newsham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8aad091d-1ff3-4cf7-af10-1af02e4b71b7",
               "players": [
                 {
+                  "playerId": "team-player/f2140120-f401-4fd4-bff4-c7037a7794b2",
                   "name": "Gabby Spencer",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/cbf2703a-c552-41a0-8510-525e8a120c77",
                   "name": "Rosemary Newsham",
                   "score": "7"
                 }
@@ -434,12 +639,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b71583cd-6da9-4e30-bf06-46c7ab97d142",
               "players": [
                 {
+                  "playerId": "team-player/f2140120-f401-4fd4-bff4-c7037a7794b2",
                   "name": "Gabby Spencer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/cbf2703a-c552-41a0-8510-525e8a120c77",
                   "name": "Rosemary Newsham",
                   "score": "7"
                 }
@@ -451,17 +659,26 @@
         },
         {
           "players": [
-            "Mary Mcmahon",
-            "Marilyn Nelson"
+            {
+              "playerId": "team-player/a9d513c2-bfa6-4ddb-b566-586435c7d4f3",
+              "name": "Mary Mcmahon"
+            },
+            {
+              "playerId": "team-player/98a915fa-2b0c-4677-a19b-d23b4e65b640",
+              "name": "Marilyn Nelson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/07b7329b-8518-4bf1-add2-401e241cf0d1",
               "players": [
                 {
+                  "playerId": "team-player/a9d513c2-bfa6-4ddb-b566-586435c7d4f3",
                   "name": "Mary Mcmahon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/98a915fa-2b0c-4677-a19b-d23b4e65b640",
                   "name": "Marilyn Nelson",
                   "score": "5"
                 }
@@ -470,12 +687,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d6c33d09-4638-44c0-b882-ac05cd97fafe",
               "players": [
                 {
+                  "playerId": "team-player/a9d513c2-bfa6-4ddb-b566-586435c7d4f3",
                   "name": "Mary Mcmahon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/98a915fa-2b0c-4677-a19b-d23b4e65b640",
                   "name": "Marilyn Nelson",
                   "score": "5"
                 }
@@ -487,17 +707,26 @@
         },
         {
           "players": [
-            "Mary Mcmahon",
-            "Rosemary Newsham"
+            {
+              "playerId": "team-player/a9d513c2-bfa6-4ddb-b566-586435c7d4f3",
+              "name": "Mary Mcmahon"
+            },
+            {
+              "playerId": "team-player/cbf2703a-c552-41a0-8510-525e8a120c77",
+              "name": "Rosemary Newsham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/985c6fcc-f30d-49a0-8050-f6dd7b400f7a",
               "players": [
                 {
+                  "playerId": "team-player/a9d513c2-bfa6-4ddb-b566-586435c7d4f3",
                   "name": "Mary Mcmahon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cbf2703a-c552-41a0-8510-525e8a120c77",
                   "name": "Rosemary Newsham",
                   "score": "4"
                 }
@@ -506,12 +735,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/edc3e5b2-62b8-4bc6-8020-6ac34ebb512f",
               "players": [
                 {
+                  "playerId": "team-player/a9d513c2-bfa6-4ddb-b566-586435c7d4f3",
                   "name": "Mary Mcmahon",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cbf2703a-c552-41a0-8510-525e8a120c77",
                   "name": "Rosemary Newsham",
                   "score": "7"
                 }
@@ -523,17 +755,26 @@
         },
         {
           "players": [
-            "Geraldine Trivett",
-            "Sue Green"
+            {
+              "playerId": "team-player/0edd793f-7c65-4b0e-99c7-42fbf42b4ddc",
+              "name": "Geraldine Trivett"
+            },
+            {
+              "playerId": "team-player/2b506fd9-61d4-4614-834b-3e9ba935141f",
+              "name": "Sue Green"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fdd8a863-762b-4726-8816-df6f56dece8b",
               "players": [
                 {
+                  "playerId": "team-player/0edd793f-7c65-4b0e-99c7-42fbf42b4ddc",
                   "name": "Geraldine Trivett",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/2b506fd9-61d4-4614-834b-3e9ba935141f",
                   "name": "Sue Green",
                   "score": "7"
                 }
@@ -542,12 +783,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/48b6bccf-36a1-4cda-af25-435e6893b1a4",
               "players": [
                 {
+                  "playerId": "team-player/0edd793f-7c65-4b0e-99c7-42fbf42b4ddc",
                   "name": "Geraldine Trivett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2b506fd9-61d4-4614-834b-3e9ba935141f",
                   "name": "Sue Green",
                   "score": "6"
                 }
@@ -559,17 +803,26 @@
         },
         {
           "players": [
-            "Richard Pickvance",
-            "Dennis Green"
+            {
+              "playerId": "team-player/871f1e45-93a3-49de-8d0d-a11164ab99de",
+              "name": "Richard Pickvance"
+            },
+            {
+              "playerId": "team-player/923cc93b-3f7a-49e7-9d97-1581a88da1a8",
+              "name": "Dennis Green"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f0dd3fd-db95-4253-b980-3fa5995adb1f",
               "players": [
                 {
+                  "playerId": "team-player/871f1e45-93a3-49de-8d0d-a11164ab99de",
                   "name": "Richard Pickvance",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/923cc93b-3f7a-49e7-9d97-1581a88da1a8",
                   "name": "Dennis Green",
                   "score": "7"
                 }
@@ -578,12 +831,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ac365349-c4d8-42cd-a9ec-bbf25d8046b6",
               "players": [
                 {
+                  "playerId": "team-player/871f1e45-93a3-49de-8d0d-a11164ab99de",
                   "name": "Richard Pickvance",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/923cc93b-3f7a-49e7-9d97-1581a88da1a8",
                   "name": "Dennis Green",
                   "score": "7"
                 }
@@ -595,17 +851,26 @@
         },
         {
           "players": [
-            "Gabby Spencer",
-            "Marilyn Nelson"
+            {
+              "playerId": "team-player/f2140120-f401-4fd4-bff4-c7037a7794b2",
+              "name": "Gabby Spencer"
+            },
+            {
+              "playerId": "team-player/98a915fa-2b0c-4677-a19b-d23b4e65b640",
+              "name": "Marilyn Nelson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f3efacab-895d-473f-89d2-c5fd8e13b392",
               "players": [
                 {
+                  "playerId": "team-player/f2140120-f401-4fd4-bff4-c7037a7794b2",
                   "name": "Gabby Spencer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/98a915fa-2b0c-4677-a19b-d23b4e65b640",
                   "name": "Marilyn Nelson",
                   "score": "5"
                 }
@@ -614,12 +879,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e320087b-2609-4029-93a3-f06f884a7ebe",
               "players": [
                 {
+                  "playerId": "team-player/f2140120-f401-4fd4-bff4-c7037a7794b2",
                   "name": "Gabby Spencer",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/98a915fa-2b0c-4677-a19b-d23b4e65b640",
                   "name": "Marilyn Nelson",
                   "score": "4"
                 }
@@ -631,17 +899,26 @@
         },
         {
           "players": [
-            "Peter Nicholson",
-            "Ron Schodel"
+            {
+              "playerId": "team-player/ddcd5680-493e-4f99-82f7-c24ff09b22e4",
+              "name": "Peter Nicholson"
+            },
+            {
+              "playerId": "team-player/543ac417-03c7-4f2d-84f4-a22ae1e76e2d",
+              "name": "Ron Schodel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9e72e06f-8b10-4406-ba69-6fd9c20618a2",
               "players": [
                 {
+                  "playerId": "team-player/ddcd5680-493e-4f99-82f7-c24ff09b22e4",
                   "name": "Peter Nicholson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/543ac417-03c7-4f2d-84f4-a22ae1e76e2d",
                   "name": "Ron Schodel",
                   "score": "4"
                 }
@@ -650,12 +927,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/60e1c6e5-1c28-4449-ab82-83ff8a346f4c",
               "players": [
                 {
+                  "playerId": "team-player/ddcd5680-493e-4f99-82f7-c24ff09b22e4",
                   "name": "Peter Nicholson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/543ac417-03c7-4f2d-84f4-a22ae1e76e2d",
                   "name": "Ron Schodel",
                   "score": "6"
                 }
@@ -667,17 +947,26 @@
         },
         {
           "players": [
-            "Megan Stuart",
-            "Pop Petersen"
+            {
+              "playerId": "team-player/493ebe07-8330-4893-850d-594560b92622",
+              "name": "Megan Stuart"
+            },
+            {
+              "playerId": "team-player/83e956ac-751e-4aaf-b6bc-0b5651774955",
+              "name": "Pop Petersen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/451a2703-ca9e-41c8-b28a-ac944a65d585",
               "players": [
                 {
+                  "playerId": "team-player/493ebe07-8330-4893-850d-594560b92622",
                   "name": "Megan Stuart",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/83e956ac-751e-4aaf-b6bc-0b5651774955",
                   "name": "Pop Petersen",
                   "score": "7"
                 }
@@ -686,12 +975,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d0920083-f189-47f3-a374-1fced004b60a",
               "players": [
                 {
+                  "playerId": "team-player/493ebe07-8330-4893-850d-594560b92622",
                   "name": "Megan Stuart",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/83e956ac-751e-4aaf-b6bc-0b5651774955",
                   "name": "Pop Petersen",
                   "score": "4"
                 }
@@ -703,17 +995,26 @@
         },
         {
           "players": [
-            "Bob Martin",
-            "Greg Bury"
+            {
+              "playerId": "team-player/c40c1542-5f30-4b3d-96dd-520e77250401",
+              "name": "Bob Martin"
+            },
+            {
+              "playerId": "team-player/e0ff7e40-e63d-4bd6-8a40-607f19386542",
+              "name": "Greg Bury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff0ae725-ba5a-453b-84df-e302b55ea4b2",
               "players": [
                 {
+                  "playerId": "team-player/c40c1542-5f30-4b3d-96dd-520e77250401",
                   "name": "Bob Martin",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e0ff7e40-e63d-4bd6-8a40-607f19386542",
                   "name": "Greg Bury",
                   "score": "7"
                 }
@@ -722,12 +1023,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/20b7e577-488d-4f76-b8bd-d44d8316a427",
               "players": [
                 {
+                  "playerId": "team-player/c40c1542-5f30-4b3d-96dd-520e77250401",
                   "name": "Bob Martin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e0ff7e40-e63d-4bd6-8a40-607f19386542",
                   "name": "Greg Bury",
                   "score": "6"
                 }
@@ -739,17 +1043,26 @@
         },
         {
           "players": [
-            "Lawrie Simpson",
-            "Gordon Giles"
+            {
+              "playerId": "team-player/7c87b776-ae51-4385-83a7-3e86e81bd4ff",
+              "name": "Lawrie Simpson"
+            },
+            {
+              "playerId": "team-player/22998345-4693-4a14-9339-a25ebd6e4305",
+              "name": "Gordon Giles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4af003d5-20fc-4983-bd21-81f8d41d28cb",
               "players": [
                 {
+                  "playerId": "team-player/7c87b776-ae51-4385-83a7-3e86e81bd4ff",
                   "name": "Lawrie Simpson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/22998345-4693-4a14-9339-a25ebd6e4305",
                   "name": "Gordon Giles",
                   "score": "6"
                 }
@@ -758,12 +1071,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f84793da-4d05-4a03-861e-e995373d7016",
               "players": [
                 {
+                  "playerId": "team-player/7c87b776-ae51-4385-83a7-3e86e81bd4ff",
                   "name": "Lawrie Simpson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/22998345-4693-4a14-9339-a25ebd6e4305",
                   "name": "Gordon Giles",
                   "score": "5"
                 }

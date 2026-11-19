@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5fb59f2d-05d6-4fc6-9cd2-9dca9ad2790b",
   "name": "SWCF Advanced AC League Div 2: Nailsea & District B vs Taunton",
   "sport": "ac",
   "firstDay": "2026-04-28",
   "lastDay": "2026-04-28",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nailsea & District B",
       "shortName": "Nailsea &",
       "players": [
-        "Andrew Wimshurst",
-        "Andrew Wimshurst & Roger Baddeley",
-        "Robert Upton",
-        "Roger Baddeley"
+        {
+          "playerId": "team-player/4b90a18b-404e-46b8-b130-12274565c1e4",
+          "name": "Andrew Wimshurst"
+        },
+        {
+          "playerId": "team-player/d4970a81-7475-4466-8fbd-d24de63f4a1f",
+          "name": "Andrew Wimshurst & Roger Baddeley"
+        },
+        {
+          "playerId": "team-player/3b19bb60-f2d5-4aea-a7e0-3e2b23b74d76",
+          "name": "Robert Upton"
+        },
+        {
+          "playerId": "team-player/e665f10a-f709-4d8d-806f-6490e6cf6f7c",
+          "name": "Roger Baddeley"
+        }
       ]
     },
     {
       "name": "Taunton",
       "shortName": "Taunton",
       "players": [
-        "Martin Wicks",
-        "Neil Fillery",
-        "Neil Fillery & Martin Wicks",
-        "Stephen Custance-Baker"
+        {
+          "playerId": "team-player/f9e1c64c-a57c-4b55-811d-b156f738b051",
+          "name": "Martin Wicks"
+        },
+        {
+          "playerId": "team-player/52dd319c-0a09-4bf4-907e-a6ec03701b0d",
+          "name": "Neil Fillery"
+        },
+        {
+          "playerId": "team-player/193e0dfb-11d4-4245-a884-840a11cdaa59",
+          "name": "Neil Fillery & Martin Wicks"
+        },
+        {
+          "playerId": "team-player/5063121f-9c11-4566-87b0-aa6b452fd3df",
+          "name": "Stephen Custance-Baker"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/0b4341b1-84de-4e7b-a660-9cd512cf1db1",
       "teams": [
         "Nailsea & District B",
         "Taunton"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Andrew Wimshurst & Roger Baddeley",
-            "Neil Fillery & Martin Wicks"
+            {
+              "playerId": "team-player/d4970a81-7475-4466-8fbd-d24de63f4a1f",
+              "name": "Andrew Wimshurst & Roger Baddeley"
+            },
+            {
+              "playerId": "team-player/193e0dfb-11d4-4245-a884-840a11cdaa59",
+              "name": "Neil Fillery & Martin Wicks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1eedaa96-032d-4758-ad78-727227205642",
               "players": [
                 {
+                  "playerId": "team-player/d4970a81-7475-4466-8fbd-d24de63f4a1f",
                   "name": "Andrew Wimshurst & Roger Baddeley",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/193e0dfb-11d4-4245-a884-840a11cdaa59",
                   "name": "Neil Fillery & Martin Wicks",
                   "score": "7"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Stephen Custance-Baker"
+            {
+              "playerId": "team-player/3b19bb60-f2d5-4aea-a7e0-3e2b23b74d76",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/5063121f-9c11-4566-87b0-aa6b452fd3df",
+              "name": "Stephen Custance-Baker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/db23c441-41af-446f-a457-54c29bc41177",
               "players": [
                 {
+                  "playerId": "team-player/3b19bb60-f2d5-4aea-a7e0-3e2b23b74d76",
                   "name": "Robert Upton",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5063121f-9c11-4566-87b0-aa6b452fd3df",
                   "name": "Stephen Custance-Baker",
                   "score": "13"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Neil Fillery"
+            {
+              "playerId": "team-player/3b19bb60-f2d5-4aea-a7e0-3e2b23b74d76",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/52dd319c-0a09-4bf4-907e-a6ec03701b0d",
+              "name": "Neil Fillery"
+            }
           ],
           "games": [
             {
+              "gameId": "game/714f35ff-591b-4c1a-9715-4b1ab83d03b7",
               "players": [
                 {
+                  "playerId": "team-player/3b19bb60-f2d5-4aea-a7e0-3e2b23b74d76",
                   "name": "Robert Upton",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/52dd319c-0a09-4bf4-907e-a6ec03701b0d",
                   "name": "Neil Fillery",
                   "score": "13"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Andrew Wimshurst",
-            "Martin Wicks"
+            {
+              "playerId": "team-player/4b90a18b-404e-46b8-b130-12274565c1e4",
+              "name": "Andrew Wimshurst"
+            },
+            {
+              "playerId": "team-player/f9e1c64c-a57c-4b55-811d-b156f738b051",
+              "name": "Martin Wicks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c018e99e-f2b1-490b-a66a-197a979f908b",
               "players": [
                 {
+                  "playerId": "team-player/4b90a18b-404e-46b8-b130-12274565c1e4",
                   "name": "Andrew Wimshurst",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f9e1c64c-a57c-4b55-811d-b156f738b051",
                   "name": "Martin Wicks",
                   "score": "18"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Roger Baddeley",
-            "Stephen Custance-Baker"
+            {
+              "playerId": "team-player/e665f10a-f709-4d8d-806f-6490e6cf6f7c",
+              "name": "Roger Baddeley"
+            },
+            {
+              "playerId": "team-player/5063121f-9c11-4566-87b0-aa6b452fd3df",
+              "name": "Stephen Custance-Baker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0b26aa61-d758-4ebb-8b3e-ef51352bebcb",
               "players": [
                 {
+                  "playerId": "team-player/e665f10a-f709-4d8d-806f-6490e6cf6f7c",
                   "name": "Roger Baddeley",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5063121f-9c11-4566-87b0-aa6b452fd3df",
                   "name": "Stephen Custance-Baker",
                   "score": "1"
                 }

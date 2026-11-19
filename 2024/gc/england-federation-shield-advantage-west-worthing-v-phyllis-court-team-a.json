@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/832c280e-38ef-4087-9f59-3c9965af304f",
   "name": "England - Federations Shield (Advantage) - West Worthing v Phyllis Court (Team A)",
   "sport": "gc",
   "firstDay": "2024-08-21",
   "lastDay": "2024-08-21",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "West Worthing",
       "shortName": "West Worth",
       "players": [
-        "Andrew Stewart (2)",
-        "Andy Woon (4)",
-        "Andy Woon (4) & Stella Russell (4)",
-        "Charlie Preston (5)",
-        "Stella Russell (4)"
+        {
+          "playerId": "team-player/c2a16e60-61b8-4928-a867-eb3d670f812f",
+          "name": "Andrew Stewart (2)"
+        },
+        {
+          "playerId": "team-player/cedc9997-95a4-4388-b388-7149fd31be71",
+          "name": "Andy Woon (4)"
+        },
+        {
+          "playerId": "team-player/2cd56603-86d2-46db-aa56-e69e3d7dd493",
+          "name": "Andy Woon (4) & Stella Russell (4)"
+        },
+        {
+          "playerId": "team-player/7958c826-4484-4185-a6a7-8159678ba797",
+          "name": "Charlie Preston (5)"
+        },
+        {
+          "playerId": "team-player/5de3d4ee-6205-40b1-bf16-2fdc3d4a9898",
+          "name": "Stella Russell (4)"
+        }
       ]
     },
     {
       "name": "Phyllis Court",
       "shortName": "Phyllis Co",
       "players": [
-        "Andy Jones (2)",
-        "Chris Roberts (-2)",
-        "Chris Roberts (-2) & Kevin Ward (5)",
-        "Kevin Ward (5)",
-        "Patricia Mulcahy (5)"
+        {
+          "playerId": "team-player/6e3bf1ae-d377-4769-8507-71ef45a00f4b",
+          "name": "Andy Jones (2)"
+        },
+        {
+          "playerId": "team-player/c810715d-6585-40d4-918e-6b3ee6a2439b",
+          "name": "Chris Roberts (-2)"
+        },
+        {
+          "playerId": "team-player/3bef531f-eeec-4e75-bc44-47f89cefbffc",
+          "name": "Chris Roberts (-2) & Kevin Ward (5)"
+        },
+        {
+          "playerId": "team-player/034f157d-159d-4737-a523-8631a570c2d9",
+          "name": "Kevin Ward (5)"
+        },
+        {
+          "playerId": "team-player/7eba5529-e480-4912-8d32-a9e76e449709",
+          "name": "Patricia Mulcahy (5)"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2015dbbe-1aa8-4656-826a-cdedc3faa909",
       "teams": [
         "West Worthing",
         "Phyllis Court"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Andy Woon (4) & Stella Russell (4)",
-            "Chris Roberts (-2) & Kevin Ward (5)"
+            {
+              "playerId": "team-player/2cd56603-86d2-46db-aa56-e69e3d7dd493",
+              "name": "Andy Woon (4) & Stella Russell (4)"
+            },
+            {
+              "playerId": "team-player/3bef531f-eeec-4e75-bc44-47f89cefbffc",
+              "name": "Chris Roberts (-2) & Kevin Ward (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d8fb800e-a98a-4206-aef3-3aa103e3d94d",
               "players": [
                 {
+                  "playerId": "team-player/2cd56603-86d2-46db-aa56-e69e3d7dd493",
                   "name": "Andy Woon (4) & Stella Russell (4)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3bef531f-eeec-4e75-bc44-47f89cefbffc",
                   "name": "Chris Roberts (-2) & Kevin Ward (5)",
                   "score": "1"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/db8983c3-22a8-42d5-99b9-c9055decde4e",
               "players": [
                 {
+                  "playerId": "team-player/2cd56603-86d2-46db-aa56-e69e3d7dd493",
                   "name": "Andy Woon (4) & Stella Russell (4)",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3bef531f-eeec-4e75-bc44-47f89cefbffc",
                   "name": "Chris Roberts (-2) & Kevin Ward (5)",
                   "score": "7"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6e6efb1f-20ee-455d-8667-556b4bbc6aaa",
               "players": [
                 {
+                  "playerId": "team-player/2cd56603-86d2-46db-aa56-e69e3d7dd493",
                   "name": "Andy Woon (4) & Stella Russell (4)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3bef531f-eeec-4e75-bc44-47f89cefbffc",
                   "name": "Chris Roberts (-2) & Kevin Ward (5)",
                   "score": "7"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "Charlie Preston (5)",
-            "Patricia Mulcahy (5)"
+            {
+              "playerId": "team-player/7958c826-4484-4185-a6a7-8159678ba797",
+              "name": "Charlie Preston (5)"
+            },
+            {
+              "playerId": "team-player/7eba5529-e480-4912-8d32-a9e76e449709",
+              "name": "Patricia Mulcahy (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b67a0f75-24bd-481b-b587-f8cc465dc168",
               "players": [
                 {
+                  "playerId": "team-player/7958c826-4484-4185-a6a7-8159678ba797",
                   "name": "Charlie Preston (5)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/7eba5529-e480-4912-8d32-a9e76e449709",
                   "name": "Patricia Mulcahy (5)",
                   "score": "7"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e348faa0-006d-420b-bf2b-3f970b5772ad",
               "players": [
                 {
+                  "playerId": "team-player/7958c826-4484-4185-a6a7-8159678ba797",
                   "name": "Charlie Preston (5)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7eba5529-e480-4912-8d32-a9e76e449709",
                   "name": "Patricia Mulcahy (5)",
                   "score": "6"
                 }
@@ -124,12 +185,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b4dd4ce9-1d4f-4929-a4d6-e51f99921536",
               "players": [
                 {
+                  "playerId": "team-player/7958c826-4484-4185-a6a7-8159678ba797",
                   "name": "Charlie Preston (5)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/7eba5529-e480-4912-8d32-a9e76e449709",
                   "name": "Patricia Mulcahy (5)",
                   "score": "7"
                 }
@@ -141,17 +205,26 @@
         },
         {
           "players": [
-            "Andrew Stewart (2)",
-            "Andy Jones (2)"
+            {
+              "playerId": "team-player/c2a16e60-61b8-4928-a867-eb3d670f812f",
+              "name": "Andrew Stewart (2)"
+            },
+            {
+              "playerId": "team-player/6e3bf1ae-d377-4769-8507-71ef45a00f4b",
+              "name": "Andy Jones (2)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/33f86d39-aa93-4858-af93-d8da47b22800",
               "players": [
                 {
+                  "playerId": "team-player/c2a16e60-61b8-4928-a867-eb3d670f812f",
                   "name": "Andrew Stewart (2)",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/6e3bf1ae-d377-4769-8507-71ef45a00f4b",
                   "name": "Andy Jones (2)",
                   "score": "7"
                 }
@@ -160,12 +233,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d76d39f0-0e75-4f74-a382-910675a1ef8c",
               "players": [
                 {
+                  "playerId": "team-player/c2a16e60-61b8-4928-a867-eb3d670f812f",
                   "name": "Andrew Stewart (2)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6e3bf1ae-d377-4769-8507-71ef45a00f4b",
                   "name": "Andy Jones (2)",
                   "score": "7"
                 }
@@ -177,17 +253,26 @@
         },
         {
           "players": [
-            "Stella Russell (4)",
-            "Patricia Mulcahy (5)"
+            {
+              "playerId": "team-player/5de3d4ee-6205-40b1-bf16-2fdc3d4a9898",
+              "name": "Stella Russell (4)"
+            },
+            {
+              "playerId": "team-player/7eba5529-e480-4912-8d32-a9e76e449709",
+              "name": "Patricia Mulcahy (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5afdd564-b1b1-48ac-be2c-8e0233aa85b7",
               "players": [
                 {
+                  "playerId": "team-player/5de3d4ee-6205-40b1-bf16-2fdc3d4a9898",
                   "name": "Stella Russell (4)",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7eba5529-e480-4912-8d32-a9e76e449709",
                   "name": "Patricia Mulcahy (5)",
                   "score": "7"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9f5b3cb3-8079-4745-85e4-a0a17e425e86",
               "players": [
                 {
+                  "playerId": "team-player/5de3d4ee-6205-40b1-bf16-2fdc3d4a9898",
                   "name": "Stella Russell (4)",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/7eba5529-e480-4912-8d32-a9e76e449709",
                   "name": "Patricia Mulcahy (5)",
                   "score": "7"
                 }
@@ -213,17 +301,26 @@
         },
         {
           "players": [
-            "Andrew Stewart (2)",
-            "Chris Roberts (-2)"
+            {
+              "playerId": "team-player/c2a16e60-61b8-4928-a867-eb3d670f812f",
+              "name": "Andrew Stewart (2)"
+            },
+            {
+              "playerId": "team-player/c810715d-6585-40d4-918e-6b3ee6a2439b",
+              "name": "Chris Roberts (-2)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4ca4a84-78d7-4763-a943-9eda40de353d",
               "players": [
                 {
+                  "playerId": "team-player/c2a16e60-61b8-4928-a867-eb3d670f812f",
                   "name": "Andrew Stewart (2)",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/c810715d-6585-40d4-918e-6b3ee6a2439b",
                   "name": "Chris Roberts (-2)",
                   "score": "7"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1e35c41d-5d4f-4f81-ac9a-6267fd94648c",
               "players": [
                 {
+                  "playerId": "team-player/c2a16e60-61b8-4928-a867-eb3d670f812f",
                   "name": "Andrew Stewart (2)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c810715d-6585-40d4-918e-6b3ee6a2439b",
                   "name": "Chris Roberts (-2)",
                   "score": "7"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Charlie Preston (5)",
-            "Kevin Ward (5)"
+            {
+              "playerId": "team-player/7958c826-4484-4185-a6a7-8159678ba797",
+              "name": "Charlie Preston (5)"
+            },
+            {
+              "playerId": "team-player/034f157d-159d-4737-a523-8631a570c2d9",
+              "name": "Kevin Ward (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/441df9cc-9616-42d7-943b-c427abf7d3ec",
               "players": [
                 {
+                  "playerId": "team-player/7958c826-4484-4185-a6a7-8159678ba797",
                   "name": "Charlie Preston (5)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/034f157d-159d-4737-a523-8631a570c2d9",
                   "name": "Kevin Ward (5)",
                   "score": "6"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/160d80d3-4308-4336-bc2d-719f9c33480b",
               "players": [
                 {
+                  "playerId": "team-player/7958c826-4484-4185-a6a7-8159678ba797",
                   "name": "Charlie Preston (5)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/034f157d-159d-4737-a523-8631a570c2d9",
                   "name": "Kevin Ward (5)",
                   "score": "5"
                 }
@@ -285,17 +397,26 @@
         },
         {
           "players": [
-            "Andy Woon (4)",
-            "Andy Jones (2)"
+            {
+              "playerId": "team-player/cedc9997-95a4-4388-b388-7149fd31be71",
+              "name": "Andy Woon (4)"
+            },
+            {
+              "playerId": "team-player/6e3bf1ae-d377-4769-8507-71ef45a00f4b",
+              "name": "Andy Jones (2)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cc4d9447-c78a-4e76-9bf8-04cb13a58261",
               "players": [
                 {
+                  "playerId": "team-player/cedc9997-95a4-4388-b388-7149fd31be71",
                   "name": "Andy Woon (4)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6e3bf1ae-d377-4769-8507-71ef45a00f4b",
                   "name": "Andy Jones (2)",
                   "score": "6"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0785c380-20c4-4376-8436-772aa509ef8e",
               "players": [
                 {
+                  "playerId": "team-player/cedc9997-95a4-4388-b388-7149fd31be71",
                   "name": "Andy Woon (4)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6e3bf1ae-d377-4769-8507-71ef45a00f4b",
                   "name": "Andy Jones (2)",
                   "score": "2"
                 }

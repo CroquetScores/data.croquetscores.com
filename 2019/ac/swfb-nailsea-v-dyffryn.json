@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/8470e76f-1b65-4ef7-aa76-093dd81d03ed",
   "name": "SWFB Nailsea v Dyffryn",
   "sport": "ac",
   "firstDay": "2019-07-20",
   "lastDay": "2019-07-20",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nailsea",
       "shortName": "Nailsea",
       "players": [
-        "Geoff Hughes",
-        "Pat Long",
-        "Pat Long & Robert G Upton",
-        "Robert G Upton"
+        {
+          "playerId": "team-player/5810b571-c78d-43d2-b82a-9fec7f051344",
+          "name": "Geoff Hughes"
+        },
+        {
+          "playerId": "team-player/a65c3c94-b0ec-4bb4-b59f-4f0dc4030e77",
+          "name": "Pat Long"
+        },
+        {
+          "playerId": "team-player/4b50aa3e-de66-49c9-8b87-dc1400e4c72d",
+          "name": "Pat Long & Robert G Upton"
+        },
+        {
+          "playerId": "team-player/0b9a2af0-6a01-4b82-bba6-f8845d7ab72f",
+          "name": "Robert G Upton"
+        }
       ]
     },
     {
       "name": "Dyffryn",
       "shortName": "Dyffryn",
       "players": [
-        "Chris Williams",
-        "Chris Williams & Sarah Melvin",
-        "Garry McElwain",
-        "Sarah Melvin"
+        {
+          "playerId": "team-player/305d5b59-ae1b-466e-b082-7d28870bcfa8",
+          "name": "Chris Williams"
+        },
+        {
+          "playerId": "team-player/3b56e765-f9f7-4c44-ad68-0eb2e79dbd1c",
+          "name": "Chris Williams & Sarah Melvin"
+        },
+        {
+          "playerId": "team-player/d3fc0ab2-bcd6-4316-97b7-dfbd5c919558",
+          "name": "Garry McElwain"
+        },
+        {
+          "playerId": "team-player/b0d2aad9-90b4-4314-8b18-ac84a7bed58d",
+          "name": "Sarah Melvin"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/da926a15-bc60-4f51-a88f-5f5b369355f7",
       "teams": [
         "Nailsea",
         "Dyffryn"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Geoff Hughes",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/5810b571-c78d-43d2-b82a-9fec7f051344",
+              "name": "Geoff Hughes"
+            },
+            {
+              "playerId": "team-player/d3fc0ab2-bcd6-4316-97b7-dfbd5c919558",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05477047-cf78-4002-9773-77eb0f55a619",
               "players": [
                 {
+                  "playerId": "team-player/5810b571-c78d-43d2-b82a-9fec7f051344",
                   "name": "Geoff Hughes",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d3fc0ab2-bcd6-4316-97b7-dfbd5c919558",
                   "name": "Garry McElwain",
                   "score": "26"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Pat Long & Robert G Upton",
-            "Chris Williams & Sarah Melvin"
+            {
+              "playerId": "team-player/4b50aa3e-de66-49c9-8b87-dc1400e4c72d",
+              "name": "Pat Long & Robert G Upton"
+            },
+            {
+              "playerId": "team-player/3b56e765-f9f7-4c44-ad68-0eb2e79dbd1c",
+              "name": "Chris Williams & Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ee90bd2-b57b-4fe5-80b4-6475c8c3fa35",
               "players": [
                 {
+                  "playerId": "team-player/4b50aa3e-de66-49c9-8b87-dc1400e4c72d",
                   "name": "Pat Long & Robert G Upton",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/3b56e765-f9f7-4c44-ad68-0eb2e79dbd1c",
                   "name": "Chris Williams & Sarah Melvin",
                   "score": "26"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Geoff Hughes",
-            "Chris Williams"
+            {
+              "playerId": "team-player/5810b571-c78d-43d2-b82a-9fec7f051344",
+              "name": "Geoff Hughes"
+            },
+            {
+              "playerId": "team-player/305d5b59-ae1b-466e-b082-7d28870bcfa8",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1436b96b-b3b0-49da-9449-335abb605551",
               "players": [
                 {
+                  "playerId": "team-player/5810b571-c78d-43d2-b82a-9fec7f051344",
                   "name": "Geoff Hughes",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/305d5b59-ae1b-466e-b082-7d28870bcfa8",
                   "name": "Chris Williams",
                   "score": "26"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Robert G Upton",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/0b9a2af0-6a01-4b82-bba6-f8845d7ab72f",
+              "name": "Robert G Upton"
+            },
+            {
+              "playerId": "team-player/b0d2aad9-90b4-4314-8b18-ac84a7bed58d",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e2d4f31c-c011-440d-85c3-a5f1f91839fb",
               "players": [
                 {
+                  "playerId": "team-player/0b9a2af0-6a01-4b82-bba6-f8845d7ab72f",
                   "name": "Robert G Upton",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/b0d2aad9-90b4-4314-8b18-ac84a7bed58d",
                   "name": "Sarah Melvin",
                   "score": "22"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Pat Long",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/a65c3c94-b0ec-4bb4-b59f-4f0dc4030e77",
+              "name": "Pat Long"
+            },
+            {
+              "playerId": "team-player/d3fc0ab2-bcd6-4316-97b7-dfbd5c919558",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff46193b-387c-4d89-9681-d979913eae93",
               "players": [
                 {
+                  "playerId": "team-player/a65c3c94-b0ec-4bb4-b59f-4f0dc4030e77",
                   "name": "Pat Long",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/d3fc0ab2-bcd6-4316-97b7-dfbd5c919558",
                   "name": "Garry McElwain",
                   "score": "26"
                 }

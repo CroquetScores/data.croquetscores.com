@@ -1,40 +1,83 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4c8dd0be-e729-45d3-a2ee-b1e2e23933db",
   "name": "Kamal Cup USA vs Egypt",
   "sport": "gc",
   "firstDay": "2026-02-15",
   "lastDay": "2026-02-16",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "USA",
       "shortName": "USA",
       "players": [
-        "Kyle Maloof",
-        "Kyle Maloof and Matthew Essick",
-        "Matthew Essick",
-        "Matthew Essick and Sherif Abdelwahab",
-        "Sherif Abdelwahab",
-        "Tom Balding",
-        "Tom Balding and Kyle Maloof"
+        {
+          "playerId": "team-player/f27e8ada-b6b3-4b2e-aeb2-892545e98bf0",
+          "name": "Kyle Maloof"
+        },
+        {
+          "playerId": "team-player/2daa8eb8-a16a-4b55-bc59-d4867c8796bf",
+          "name": "Kyle Maloof and Matthew Essick"
+        },
+        {
+          "playerId": "team-player/f898ad9f-b67c-490f-87e4-f2a7c4cc181b",
+          "name": "Matthew Essick"
+        },
+        {
+          "playerId": "team-player/de098047-cd84-4c52-a691-0d990f03f1ef",
+          "name": "Matthew Essick and Sherif Abdelwahab"
+        },
+        {
+          "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
+          "name": "Sherif Abdelwahab"
+        },
+        {
+          "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
+          "name": "Tom Balding"
+        },
+        {
+          "playerId": "team-player/1eb34dff-41a1-451a-9ba1-142dcb992e20",
+          "name": "Tom Balding and Kyle Maloof"
+        }
       ]
     },
     {
       "name": "EGYPT",
       "shortName": "EGY",
       "players": [
-        "Ahmed Elmahdy",
-        "Ahmed Elmahdy and Yasser Fathy",
-        "Saif Elyamany",
-        "Yasser Fathy",
-        "Yasser Sayed",
-        "Yasser Sayed and Seif Elyamani"
+        {
+          "playerId": "team-player/84a3b751-99a5-4d32-8ebe-83e4a4e036d7",
+          "name": "Ahmed Elmahdy"
+        },
+        {
+          "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
+          "name": "Ahmed Elmahdy and Yasser Fathy"
+        },
+        {
+          "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
+          "name": "Saif Elyamany"
+        },
+        {
+          "playerId": "team-player/d0009863-373d-4638-ac9b-20d785ad96bc",
+          "name": "Yasser Fathy"
+        },
+        {
+          "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
+          "name": "Yasser Sayed"
+        },
+        {
+          "playerId": "team-player/9d65ea76-ef78-4a45-aac8-22576c8a640b",
+          "name": "Yasser Sayed and Seif Elyamani"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b1dac9e9-cd60-4b7f-ab14-1024bc67a91c",
       "teams": [
         "USA",
         "EGYPT"
@@ -44,17 +87,26 @@
       "matches": [
         {
           "players": [
-            "Tom Balding and Kyle Maloof",
-            "Ahmed Elmahdy and Yasser Fathy"
+            {
+              "playerId": "team-player/1eb34dff-41a1-451a-9ba1-142dcb992e20",
+              "name": "Tom Balding and Kyle Maloof"
+            },
+            {
+              "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
+              "name": "Ahmed Elmahdy and Yasser Fathy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ed056d0f-310d-4b81-aede-49e427d0d3d8",
               "players": [
                 {
+                  "playerId": "team-player/1eb34dff-41a1-451a-9ba1-142dcb992e20",
                   "name": "Tom Balding and Kyle Maloof",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
                   "name": "Ahmed Elmahdy and Yasser Fathy",
                   "score": "0"
                 }
@@ -63,12 +115,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6a4823f7-b424-4031-ad9d-f969cc413c4e",
               "players": [
                 {
+                  "playerId": "team-player/1eb34dff-41a1-451a-9ba1-142dcb992e20",
                   "name": "Tom Balding and Kyle Maloof",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
                   "name": "Ahmed Elmahdy and Yasser Fathy",
                   "score": "7"
                 }
@@ -77,12 +132,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8ba4cad1-5e08-4452-84f1-d3d8fd86e878",
               "players": [
                 {
+                  "playerId": "team-player/1eb34dff-41a1-451a-9ba1-142dcb992e20",
                   "name": "Tom Balding and Kyle Maloof",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
                   "name": "Ahmed Elmahdy and Yasser Fathy",
                   "score": "3"
                 }
@@ -94,17 +152,26 @@
         },
         {
           "players": [
-            "Matthew Essick and Sherif Abdelwahab",
-            "Yasser Sayed and Seif Elyamani"
+            {
+              "playerId": "team-player/de098047-cd84-4c52-a691-0d990f03f1ef",
+              "name": "Matthew Essick and Sherif Abdelwahab"
+            },
+            {
+              "playerId": "team-player/9d65ea76-ef78-4a45-aac8-22576c8a640b",
+              "name": "Yasser Sayed and Seif Elyamani"
+            }
           ],
           "games": [
             {
+              "gameId": "game/73e272cf-f628-4162-8a5e-0182e70f99fc",
               "players": [
                 {
+                  "playerId": "team-player/de098047-cd84-4c52-a691-0d990f03f1ef",
                   "name": "Matthew Essick and Sherif Abdelwahab",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9d65ea76-ef78-4a45-aac8-22576c8a640b",
                   "name": "Yasser Sayed and Seif Elyamani",
                   "score": "7"
                 }
@@ -113,12 +180,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d6035e5e-81dd-4dcc-a0b7-f018debe95da",
               "players": [
                 {
+                  "playerId": "team-player/de098047-cd84-4c52-a691-0d990f03f1ef",
                   "name": "Matthew Essick and Sherif Abdelwahab",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9d65ea76-ef78-4a45-aac8-22576c8a640b",
                   "name": "Yasser Sayed and Seif Elyamani",
                   "score": "7"
                 }
@@ -130,17 +200,26 @@
         },
         {
           "players": [
-            "Kyle Maloof",
-            "Saif Elyamany"
+            {
+              "playerId": "team-player/f27e8ada-b6b3-4b2e-aeb2-892545e98bf0",
+              "name": "Kyle Maloof"
+            },
+            {
+              "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
+              "name": "Saif Elyamany"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b4745363-9553-4b81-a1f8-f08dac3e1bb2",
               "players": [
                 {
+                  "playerId": "team-player/f27e8ada-b6b3-4b2e-aeb2-892545e98bf0",
                   "name": "Kyle Maloof",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
                   "name": "Saif Elyamany",
                   "score": "3"
                 }
@@ -149,12 +228,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e52aec73-8cea-4a91-a3d8-2ff949c1a95a",
               "players": [
                 {
+                  "playerId": "team-player/f27e8ada-b6b3-4b2e-aeb2-892545e98bf0",
                   "name": "Kyle Maloof",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
                   "name": "Saif Elyamany",
                   "score": "4"
                 }
@@ -166,17 +248,26 @@
         },
         {
           "players": [
-            "Tom Balding",
-            "Ahmed Elmahdy"
+            {
+              "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
+              "name": "Tom Balding"
+            },
+            {
+              "playerId": "team-player/84a3b751-99a5-4d32-8ebe-83e4a4e036d7",
+              "name": "Ahmed Elmahdy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/79be1494-3db7-47d9-8b56-8e7edbfa8b9b",
               "players": [
                 {
+                  "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
                   "name": "Tom Balding",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/84a3b751-99a5-4d32-8ebe-83e4a4e036d7",
                   "name": "Ahmed Elmahdy",
                   "score": "4"
                 }
@@ -185,12 +276,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/724520f0-9601-4ec8-a46e-39d7ac73ec04",
               "players": [
                 {
+                  "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
                   "name": "Tom Balding",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/84a3b751-99a5-4d32-8ebe-83e4a4e036d7",
                   "name": "Ahmed Elmahdy",
                   "score": "7"
                 }
@@ -199,12 +293,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f2e73136-0296-48ca-8617-84237c09aa15",
               "players": [
                 {
+                  "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
                   "name": "Tom Balding",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/84a3b751-99a5-4d32-8ebe-83e4a4e036d7",
                   "name": "Ahmed Elmahdy",
                   "score": "3"
                 }
@@ -216,17 +313,26 @@
         },
         {
           "players": [
-            "Matthew Essick",
-            "Yasser Sayed"
+            {
+              "playerId": "team-player/f898ad9f-b67c-490f-87e4-f2a7c4cc181b",
+              "name": "Matthew Essick"
+            },
+            {
+              "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
+              "name": "Yasser Sayed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dce9c683-5049-42bc-9bd6-3cb52a43ef83",
               "players": [
                 {
+                  "playerId": "team-player/f898ad9f-b67c-490f-87e4-f2a7c4cc181b",
                   "name": "Matthew Essick",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
                   "name": "Yasser Sayed",
                   "score": "7"
                 }
@@ -235,12 +341,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/90ec56d2-03b9-4fa8-95a6-e882f0a5c025",
               "players": [
                 {
+                  "playerId": "team-player/f898ad9f-b67c-490f-87e4-f2a7c4cc181b",
                   "name": "Matthew Essick",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
                   "name": "Yasser Sayed",
                   "score": "7"
                 }
@@ -252,17 +361,26 @@
         },
         {
           "players": [
-            "Sherif Abdelwahab",
-            "Yasser Fathy"
+            {
+              "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
+              "name": "Sherif Abdelwahab"
+            },
+            {
+              "playerId": "team-player/d0009863-373d-4638-ac9b-20d785ad96bc",
+              "name": "Yasser Fathy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/248dc605-b73b-4f2f-a382-8fb55d037ad6",
               "players": [
                 {
+                  "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d0009863-373d-4638-ac9b-20d785ad96bc",
                   "name": "Yasser Fathy",
                   "score": "4"
                 }
@@ -271,12 +389,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8b1d8020-e5c5-4559-960d-ce23523cf62a",
               "players": [
                 {
+                  "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d0009863-373d-4638-ac9b-20d785ad96bc",
                   "name": "Yasser Fathy",
                   "score": "1"
                 }
@@ -288,17 +409,26 @@
         },
         {
           "players": [
-            "Tom Balding",
-            "Yasser Sayed"
+            {
+              "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
+              "name": "Tom Balding"
+            },
+            {
+              "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
+              "name": "Yasser Sayed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ea48cc4e-e0e0-438b-b26c-7bbc87baf3ef",
               "players": [
                 {
+                  "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
                   "name": "Tom Balding",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
                   "name": "Yasser Sayed",
                   "score": "7"
                 }
@@ -307,12 +437,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9fa4acd1-43cb-4c68-bbb4-d886e1dae35c",
               "players": [
                 {
+                  "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
                   "name": "Tom Balding",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
                   "name": "Yasser Sayed",
                   "score": "5"
                 }
@@ -321,12 +454,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/31998549-993d-4e9d-9ab0-b588afd48833",
               "players": [
                 {
+                  "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
                   "name": "Tom Balding",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
                   "name": "Yasser Sayed",
                   "score": "3"
                 }
@@ -338,17 +474,26 @@
         },
         {
           "players": [
-            "Matthew Essick",
-            "Ahmed Elmahdy"
+            {
+              "playerId": "team-player/f898ad9f-b67c-490f-87e4-f2a7c4cc181b",
+              "name": "Matthew Essick"
+            },
+            {
+              "playerId": "team-player/84a3b751-99a5-4d32-8ebe-83e4a4e036d7",
+              "name": "Ahmed Elmahdy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3ddf1c8b-b989-4327-873f-4eb669cfd1f9",
               "players": [
                 {
+                  "playerId": "team-player/f898ad9f-b67c-490f-87e4-f2a7c4cc181b",
                   "name": "Matthew Essick",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/84a3b751-99a5-4d32-8ebe-83e4a4e036d7",
                   "name": "Ahmed Elmahdy",
                   "score": "7"
                 }
@@ -357,12 +502,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5eec5c8d-91cd-4ef0-bdc4-3b98c0cef171",
               "players": [
                 {
+                  "playerId": "team-player/f898ad9f-b67c-490f-87e4-f2a7c4cc181b",
                   "name": "Matthew Essick",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/84a3b751-99a5-4d32-8ebe-83e4a4e036d7",
                   "name": "Ahmed Elmahdy",
                   "score": "2"
                 }
@@ -371,12 +519,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e5387a82-9507-4f6c-b70e-e88104c666bb",
               "players": [
                 {
+                  "playerId": "team-player/f898ad9f-b67c-490f-87e4-f2a7c4cc181b",
                   "name": "Matthew Essick",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/84a3b751-99a5-4d32-8ebe-83e4a4e036d7",
                   "name": "Ahmed Elmahdy",
                   "score": "2"
                 }
@@ -388,17 +539,26 @@
         },
         {
           "players": [
-            "Sherif Abdelwahab",
-            "Saif Elyamany"
+            {
+              "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
+              "name": "Sherif Abdelwahab"
+            },
+            {
+              "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
+              "name": "Saif Elyamany"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fd01467a-19f2-458a-8a35-4c254a7e00b7",
               "players": [
                 {
+                  "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
                   "name": "Saif Elyamany",
                   "score": "2"
                 }
@@ -407,12 +567,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fea6c936-520e-4e79-90a2-3dde744c8ced",
               "players": [
                 {
+                  "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
                   "name": "Sherif Abdelwahab",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
                   "name": "Saif Elyamany",
                   "score": "7"
                 }
@@ -421,12 +584,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/19c87e11-9e3d-4409-bfda-216328b7e91b",
               "players": [
                 {
+                  "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
                   "name": "Sherif Abdelwahab",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
                   "name": "Saif Elyamany",
                   "score": "7"
                 }
@@ -438,17 +604,26 @@
         },
         {
           "players": [
-            "Tom Balding and Kyle Maloof",
-            "Yasser Sayed and Seif Elyamani"
+            {
+              "playerId": "team-player/1eb34dff-41a1-451a-9ba1-142dcb992e20",
+              "name": "Tom Balding and Kyle Maloof"
+            },
+            {
+              "playerId": "team-player/9d65ea76-ef78-4a45-aac8-22576c8a640b",
+              "name": "Yasser Sayed and Seif Elyamani"
+            }
           ],
           "games": [
             {
+              "gameId": "game/005a00f1-b0ee-42c5-a547-66f3750d2d1d",
               "players": [
                 {
+                  "playerId": "team-player/1eb34dff-41a1-451a-9ba1-142dcb992e20",
                   "name": "Tom Balding and Kyle Maloof",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/9d65ea76-ef78-4a45-aac8-22576c8a640b",
                   "name": "Yasser Sayed and Seif Elyamani",
                   "score": "7"
                 }
@@ -457,12 +632,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e32f9149-27dd-4cbd-854d-3420d3729870",
               "players": [
                 {
+                  "playerId": "team-player/1eb34dff-41a1-451a-9ba1-142dcb992e20",
                   "name": "Tom Balding and Kyle Maloof",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9d65ea76-ef78-4a45-aac8-22576c8a640b",
                   "name": "Yasser Sayed and Seif Elyamani",
                   "score": "7"
                 }
@@ -474,17 +652,26 @@
         },
         {
           "players": [
-            "Matthew Essick and Sherif Abdelwahab",
-            "Ahmed Elmahdy and Yasser Fathy"
+            {
+              "playerId": "team-player/de098047-cd84-4c52-a691-0d990f03f1ef",
+              "name": "Matthew Essick and Sherif Abdelwahab"
+            },
+            {
+              "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
+              "name": "Ahmed Elmahdy and Yasser Fathy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a5fafc22-4a6c-435d-a784-2cfcdeff9540",
               "players": [
                 {
+                  "playerId": "team-player/de098047-cd84-4c52-a691-0d990f03f1ef",
                   "name": "Matthew Essick and Sherif Abdelwahab",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
                   "name": "Ahmed Elmahdy and Yasser Fathy",
                   "score": "2"
                 }
@@ -493,12 +680,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0f803256-0529-4305-a39c-bb66454c5163",
               "players": [
                 {
+                  "playerId": "team-player/de098047-cd84-4c52-a691-0d990f03f1ef",
                   "name": "Matthew Essick and Sherif Abdelwahab",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
                   "name": "Ahmed Elmahdy and Yasser Fathy",
                   "score": "3"
                 }
@@ -510,17 +700,26 @@
         },
         {
           "players": [
-            "Kyle Maloof and Matthew Essick",
-            "Ahmed Elmahdy and Yasser Fathy"
+            {
+              "playerId": "team-player/2daa8eb8-a16a-4b55-bc59-d4867c8796bf",
+              "name": "Kyle Maloof and Matthew Essick"
+            },
+            {
+              "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
+              "name": "Ahmed Elmahdy and Yasser Fathy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54a3dc21-8eb5-4f92-927e-3a79c4a7f306",
               "players": [
                 {
+                  "playerId": "team-player/2daa8eb8-a16a-4b55-bc59-d4867c8796bf",
                   "name": "Kyle Maloof and Matthew Essick",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
                   "name": "Ahmed Elmahdy and Yasser Fathy",
                   "score": "7"
                 }
@@ -529,12 +728,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/51ac906d-b3e1-4172-b3fa-8b0de1070968",
               "players": [
                 {
+                  "playerId": "team-player/2daa8eb8-a16a-4b55-bc59-d4867c8796bf",
                   "name": "Kyle Maloof and Matthew Essick",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8fe5e3eb-c208-478e-8c8b-5f471a35ab75",
                   "name": "Ahmed Elmahdy and Yasser Fathy",
                   "score": "5"
                 }
@@ -546,17 +748,26 @@
         },
         {
           "players": [
-            "Tom Balding",
-            "Saif Elyamany"
+            {
+              "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
+              "name": "Tom Balding"
+            },
+            {
+              "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
+              "name": "Saif Elyamany"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7e9fa1e1-0fd0-4670-8d25-5e097a1315f2",
               "players": [
                 {
+                  "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
                   "name": "Tom Balding",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
                   "name": "Saif Elyamany",
                   "score": "4"
                 }
@@ -565,12 +776,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7c59024a-f096-4a35-8bd9-f2f0bc2034ef",
               "players": [
                 {
+                  "playerId": "team-player/0dd78226-ada3-4210-af39-13fed1d7cfca",
                   "name": "Tom Balding",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fe2af3fe-f417-495d-9527-cd2ccd776dd9",
                   "name": "Saif Elyamany",
                   "score": "3"
                 }
@@ -582,17 +796,26 @@
         },
         {
           "players": [
-            "Sherif Abdelwahab",
-            "Yasser Sayed"
+            {
+              "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
+              "name": "Sherif Abdelwahab"
+            },
+            {
+              "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
+              "name": "Yasser Sayed"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9d34e053-0b6a-42b9-9ac3-e801f655db40",
               "players": [
                 {
+                  "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
                   "name": "Sherif Abdelwahab",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
                   "name": "Yasser Sayed",
                   "score": "7"
                 }
@@ -601,12 +824,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1c1a0a97-ba14-4682-afdd-e95a08f55147",
               "players": [
                 {
+                  "playerId": "team-player/848f4aca-afa7-4bc7-a391-87d2641a16f5",
                   "name": "Sherif Abdelwahab",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/4acc92d5-9938-4c20-a6ab-9622c0e0f03a",
                   "name": "Yasser Sayed",
                   "score": "7"
                 }

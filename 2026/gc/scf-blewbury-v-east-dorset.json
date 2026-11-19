@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f1f899a4-3384-4ff0-9eb4-de964b39b5eb",
   "name": "SCF. Blewbury v East Dorset",
   "sport": "gc",
   "firstDay": "2026-05-06",
   "lastDay": "2026-05-06",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Blewbury",
       "shortName": "Blewbury",
       "players": [
-        "Andy Jones",
-        "David Vincent",
-        "Peter Allan",
-        "Simon Bryant"
+        {
+          "playerId": "team-player/b8e62722-1ca3-4ed8-a5de-b05e2ea9ea56",
+          "name": "Andy Jones"
+        },
+        {
+          "playerId": "team-player/465b3f07-2ca9-4253-b067-6772ddf91700",
+          "name": "David Vincent"
+        },
+        {
+          "playerId": "team-player/937fd844-49eb-45a8-8c11-25d3f0efee68",
+          "name": "Peter Allan"
+        },
+        {
+          "playerId": "team-player/107852e3-6700-4f5d-be04-cd82686b82be",
+          "name": "Simon Bryant"
+        }
       ]
     },
     {
       "name": "East Dorset",
       "shortName": "East Dorse",
       "players": [
-        "Greg Vaughn",
-        "Jonathan Powe",
-        "Michelle Leonard",
-        "Steve Leonard"
+        {
+          "playerId": "team-player/d348c7a8-6927-424c-a776-b955909e7da9",
+          "name": "Greg Vaughn"
+        },
+        {
+          "playerId": "team-player/639f041e-0e07-43c6-b98b-fa6510ec2dd6",
+          "name": "Jonathan Powe"
+        },
+        {
+          "playerId": "team-player/bd7cc8a2-e3b8-4a79-92a6-7f170c4c06ea",
+          "name": "Michelle Leonard"
+        },
+        {
+          "playerId": "team-player/ba059bdc-dbfe-4505-a1bd-ce7f66b2081a",
+          "name": "Steve Leonard"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/6ee46b02-9ddc-44ff-9ec3-9583332b28af",
       "teams": [
         "Blewbury",
         "East Dorset"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "David Vincent",
-            "Michelle Leonard"
+            {
+              "playerId": "team-player/465b3f07-2ca9-4253-b067-6772ddf91700",
+              "name": "David Vincent"
+            },
+            {
+              "playerId": "team-player/bd7cc8a2-e3b8-4a79-92a6-7f170c4c06ea",
+              "name": "Michelle Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0210b151-5693-4e0b-b4b8-750a0872ad5c",
               "players": [
                 {
+                  "playerId": "team-player/465b3f07-2ca9-4253-b067-6772ddf91700",
                   "name": "David Vincent",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/bd7cc8a2-e3b8-4a79-92a6-7f170c4c06ea",
                   "name": "Michelle Leonard",
                   "score": "7"
                 }
@@ -58,12 +95,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6cd8c39c-c9c2-472b-a715-34da1241b814",
               "players": [
                 {
+                  "playerId": "team-player/465b3f07-2ca9-4253-b067-6772ddf91700",
                   "name": "David Vincent",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/bd7cc8a2-e3b8-4a79-92a6-7f170c4c06ea",
                   "name": "Michelle Leonard",
                   "score": "7"
                 }
@@ -75,17 +115,26 @@
         },
         {
           "players": [
-            "Simon Bryant",
-            "Greg Vaughn"
+            {
+              "playerId": "team-player/107852e3-6700-4f5d-be04-cd82686b82be",
+              "name": "Simon Bryant"
+            },
+            {
+              "playerId": "team-player/d348c7a8-6927-424c-a776-b955909e7da9",
+              "name": "Greg Vaughn"
+            }
           ],
           "games": [
             {
+              "gameId": "game/115bb27c-4080-49c5-a464-da89f71fc649",
               "players": [
                 {
+                  "playerId": "team-player/107852e3-6700-4f5d-be04-cd82686b82be",
                   "name": "Simon Bryant",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d348c7a8-6927-424c-a776-b955909e7da9",
                   "name": "Greg Vaughn",
                   "score": "4"
                 }
@@ -94,12 +143,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/de6418eb-7ac3-48a0-aabd-dcde556d3992",
               "players": [
                 {
+                  "playerId": "team-player/107852e3-6700-4f5d-be04-cd82686b82be",
                   "name": "Simon Bryant",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/d348c7a8-6927-424c-a776-b955909e7da9",
                   "name": "Greg Vaughn",
                   "score": "7"
                 }
@@ -108,12 +160,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d144abf3-4b53-4bfe-9baa-50e4d5c3716c",
               "players": [
                 {
+                  "playerId": "team-player/107852e3-6700-4f5d-be04-cd82686b82be",
                   "name": "Simon Bryant",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d348c7a8-6927-424c-a776-b955909e7da9",
                   "name": "Greg Vaughn",
                   "score": "7"
                 }
@@ -125,17 +180,26 @@
         },
         {
           "players": [
-            "Peter Allan",
-            "Steve Leonard"
+            {
+              "playerId": "team-player/937fd844-49eb-45a8-8c11-25d3f0efee68",
+              "name": "Peter Allan"
+            },
+            {
+              "playerId": "team-player/ba059bdc-dbfe-4505-a1bd-ce7f66b2081a",
+              "name": "Steve Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/be855835-1338-4413-9b53-ba2a742b82d3",
               "players": [
                 {
+                  "playerId": "team-player/937fd844-49eb-45a8-8c11-25d3f0efee68",
                   "name": "Peter Allan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ba059bdc-dbfe-4505-a1bd-ce7f66b2081a",
                   "name": "Steve Leonard",
                   "score": "6"
                 }
@@ -144,12 +208,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ffcb6c33-c471-4249-ab6f-50cee7da287b",
               "players": [
                 {
+                  "playerId": "team-player/937fd844-49eb-45a8-8c11-25d3f0efee68",
                   "name": "Peter Allan",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ba059bdc-dbfe-4505-a1bd-ce7f66b2081a",
                   "name": "Steve Leonard",
                   "score": "7"
                 }
@@ -158,12 +225,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dafa2a67-bbbf-409b-bcab-6c178c7fc6c4",
               "players": [
                 {
+                  "playerId": "team-player/937fd844-49eb-45a8-8c11-25d3f0efee68",
                   "name": "Peter Allan",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ba059bdc-dbfe-4505-a1bd-ce7f66b2081a",
                   "name": "Steve Leonard",
                   "score": "7"
                 }
@@ -175,17 +245,26 @@
         },
         {
           "players": [
-            "Andy Jones",
-            "Jonathan Powe"
+            {
+              "playerId": "team-player/b8e62722-1ca3-4ed8-a5de-b05e2ea9ea56",
+              "name": "Andy Jones"
+            },
+            {
+              "playerId": "team-player/639f041e-0e07-43c6-b98b-fa6510ec2dd6",
+              "name": "Jonathan Powe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6dcc3bea-5198-4881-8e00-8db22adcff55",
               "players": [
                 {
+                  "playerId": "team-player/b8e62722-1ca3-4ed8-a5de-b05e2ea9ea56",
                   "name": "Andy Jones",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/639f041e-0e07-43c6-b98b-fa6510ec2dd6",
                   "name": "Jonathan Powe",
                   "score": "7"
                 }
@@ -194,12 +273,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6001100f-7240-4658-a24c-8e852f7cf978",
               "players": [
                 {
+                  "playerId": "team-player/b8e62722-1ca3-4ed8-a5de-b05e2ea9ea56",
                   "name": "Andy Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/639f041e-0e07-43c6-b98b-fa6510ec2dd6",
                   "name": "Jonathan Powe",
                   "score": "6"
                 }
@@ -208,12 +290,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/75278427-c111-45e2-9da8-b11cbc556818",
               "players": [
                 {
+                  "playerId": "team-player/b8e62722-1ca3-4ed8-a5de-b05e2ea9ea56",
                   "name": "Andy Jones",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/639f041e-0e07-43c6-b98b-fa6510ec2dd6",
                   "name": "Jonathan Powe",
                   "score": "7"
                 }
@@ -225,17 +310,26 @@
         },
         {
           "players": [
-            "Peter Allan",
-            "Jonathan Powe"
+            {
+              "playerId": "team-player/937fd844-49eb-45a8-8c11-25d3f0efee68",
+              "name": "Peter Allan"
+            },
+            {
+              "playerId": "team-player/639f041e-0e07-43c6-b98b-fa6510ec2dd6",
+              "name": "Jonathan Powe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/add674c6-4206-46b7-adaf-288317da6061",
               "players": [
                 {
+                  "playerId": "team-player/937fd844-49eb-45a8-8c11-25d3f0efee68",
                   "name": "Peter Allan",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/639f041e-0e07-43c6-b98b-fa6510ec2dd6",
                   "name": "Jonathan Powe",
                   "score": "7"
                 }
@@ -244,12 +338,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cc3d5e48-2292-4413-8b28-4a71bfb76156",
               "players": [
                 {
+                  "playerId": "team-player/937fd844-49eb-45a8-8c11-25d3f0efee68",
                   "name": "Peter Allan",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/639f041e-0e07-43c6-b98b-fa6510ec2dd6",
                   "name": "Jonathan Powe",
                   "score": "7"
                 }
@@ -261,17 +358,26 @@
         },
         {
           "players": [
-            "Andy Jones",
-            "Steve Leonard"
+            {
+              "playerId": "team-player/b8e62722-1ca3-4ed8-a5de-b05e2ea9ea56",
+              "name": "Andy Jones"
+            },
+            {
+              "playerId": "team-player/ba059bdc-dbfe-4505-a1bd-ce7f66b2081a",
+              "name": "Steve Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2333539c-63b9-4903-9e31-c463d39048a5",
               "players": [
                 {
+                  "playerId": "team-player/b8e62722-1ca3-4ed8-a5de-b05e2ea9ea56",
                   "name": "Andy Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ba059bdc-dbfe-4505-a1bd-ce7f66b2081a",
                   "name": "Steve Leonard",
                   "score": "6"
                 }
@@ -280,12 +386,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ea100223-dba9-41ab-8485-32a3e4259f60",
               "players": [
                 {
+                  "playerId": "team-player/b8e62722-1ca3-4ed8-a5de-b05e2ea9ea56",
                   "name": "Andy Jones",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ba059bdc-dbfe-4505-a1bd-ce7f66b2081a",
                   "name": "Steve Leonard",
                   "score": "7"
                 }
@@ -294,12 +403,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/69162ca3-9c02-41b3-993a-53f309912199",
               "players": [
                 {
+                  "playerId": "team-player/b8e62722-1ca3-4ed8-a5de-b05e2ea9ea56",
                   "name": "Andy Jones",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ba059bdc-dbfe-4505-a1bd-ce7f66b2081a",
                   "name": "Steve Leonard",
                   "score": "7"
                 }
@@ -311,17 +423,26 @@
         },
         {
           "players": [
-            "David Vincent",
-            "Greg Vaughn"
+            {
+              "playerId": "team-player/465b3f07-2ca9-4253-b067-6772ddf91700",
+              "name": "David Vincent"
+            },
+            {
+              "playerId": "team-player/d348c7a8-6927-424c-a776-b955909e7da9",
+              "name": "Greg Vaughn"
+            }
           ],
           "games": [
             {
+              "gameId": "game/155b77e6-639d-40ab-88a0-21db31aec135",
               "players": [
                 {
+                  "playerId": "team-player/465b3f07-2ca9-4253-b067-6772ddf91700",
                   "name": "David Vincent",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d348c7a8-6927-424c-a776-b955909e7da9",
                   "name": "Greg Vaughn",
                   "score": "7"
                 }
@@ -330,12 +451,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ea9c6558-3717-49ac-b118-7a9a9a7e9c95",
               "players": [
                 {
+                  "playerId": "team-player/465b3f07-2ca9-4253-b067-6772ddf91700",
                   "name": "David Vincent",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d348c7a8-6927-424c-a776-b955909e7da9",
                   "name": "Greg Vaughn",
                   "score": "6"
                 }
@@ -344,12 +468,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/40521d92-1fee-4bfc-98e8-4c23f6275dac",
               "players": [
                 {
+                  "playerId": "team-player/465b3f07-2ca9-4253-b067-6772ddf91700",
                   "name": "David Vincent",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d348c7a8-6927-424c-a776-b955909e7da9",
                   "name": "Greg Vaughn",
                   "score": "5"
                 }
@@ -361,17 +488,26 @@
         },
         {
           "players": [
-            "Simon Bryant",
-            "Michelle Leonard"
+            {
+              "playerId": "team-player/107852e3-6700-4f5d-be04-cd82686b82be",
+              "name": "Simon Bryant"
+            },
+            {
+              "playerId": "team-player/bd7cc8a2-e3b8-4a79-92a6-7f170c4c06ea",
+              "name": "Michelle Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/035d7cf8-b6c0-4e03-8876-91aafeb80244",
               "players": [
                 {
+                  "playerId": "team-player/107852e3-6700-4f5d-be04-cd82686b82be",
                   "name": "Simon Bryant",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bd7cc8a2-e3b8-4a79-92a6-7f170c4c06ea",
                   "name": "Michelle Leonard",
                   "score": "3"
                 }
@@ -380,12 +516,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e8dcdfed-0f8a-47b0-ae9f-cfa3a5b13189",
               "players": [
                 {
+                  "playerId": "team-player/107852e3-6700-4f5d-be04-cd82686b82be",
                   "name": "Simon Bryant",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bd7cc8a2-e3b8-4a79-92a6-7f170c4c06ea",
                   "name": "Michelle Leonard",
                   "score": "2"
                 }

@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/c6d76418-4303-4e4c-be6b-fe27a2e54442",
   "name": "Manawatu-Wanganui Wairarapa Exchange AC",
   "sport": "ac",
   "firstDay": "2023-02-12",
   "lastDay": "2023-02-12",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Manawatu-Wanganui",
       "shortName": "Manawatu-W",
       "players": [
-        "David Harrison",
-        "Heather Richardson",
-        "Heather Richardson & David Harrison",
-        "Judith Hunt",
-        "Malcolm Hutchins",
-        "Malcolm Hutchins & Neil Stantiall",
-        "Neil Stantiall",
-        "Pam Green",
-        "Pam Green & Judith Hunt"
+        {
+          "playerId": "team-player/325d47cd-2074-4333-b3a5-f53bcecbf735",
+          "name": "David Harrison"
+        },
+        {
+          "playerId": "team-player/38fd06b6-208e-4e62-8fb4-5cf9fd64fe85",
+          "name": "Heather Richardson"
+        },
+        {
+          "playerId": "team-player/e7078a13-5fc5-49e6-a0ab-ec8ea7a71440",
+          "name": "Heather Richardson & David Harrison"
+        },
+        {
+          "playerId": "team-player/3e204c01-ab87-4c3c-8cda-ee28a0711a2d",
+          "name": "Judith Hunt"
+        },
+        {
+          "playerId": "team-player/dd181cc1-297a-46da-9f98-4078c30e26cd",
+          "name": "Malcolm Hutchins"
+        },
+        {
+          "playerId": "team-player/ee904470-19c7-47f4-9244-d0ba8196e2db",
+          "name": "Malcolm Hutchins & Neil Stantiall"
+        },
+        {
+          "playerId": "team-player/327182a3-2cd7-4e78-ad32-0833f084d4e4",
+          "name": "Neil Stantiall"
+        },
+        {
+          "playerId": "team-player/3cbad9d4-9d28-4b25-8057-851866243c50",
+          "name": "Pam Green"
+        },
+        {
+          "playerId": "team-player/9e1e357e-e12d-4f42-bb1b-72e11ca1ff03",
+          "name": "Pam Green & Judith Hunt"
+        }
       ]
     },
     {
       "name": "Wairarapa",
       "shortName": "Wairarapa",
       "players": [
-        "Brian Hart",
-        "Brian Hart & John Kirby",
-        "Graeme Wallace",
-        "Ian Wyeth",
-        "Ian Wyeth & Graeme Wallace",
-        "John Kirby",
-        "Linda Morris",
-        "Robin Brasell",
-        "Robin Brasell & Linda Morris"
+        {
+          "playerId": "team-player/b89b82f0-e077-462d-8b5b-07dc6baca231",
+          "name": "Brian Hart"
+        },
+        {
+          "playerId": "team-player/2866edca-cb4c-4a64-ac89-3af8857a8e3c",
+          "name": "Brian Hart & John Kirby"
+        },
+        {
+          "playerId": "team-player/b38cff47-b006-4b24-90ae-51002359f68c",
+          "name": "Graeme Wallace"
+        },
+        {
+          "playerId": "team-player/9375e3f8-c9fb-404b-a692-32ffda3d0844",
+          "name": "Ian Wyeth"
+        },
+        {
+          "playerId": "team-player/193707b7-0eb8-4844-b210-dd90c10df3bc",
+          "name": "Ian Wyeth & Graeme Wallace"
+        },
+        {
+          "playerId": "team-player/b4534ecf-04da-4f9e-abd3-d8cff94092dc",
+          "name": "John Kirby"
+        },
+        {
+          "playerId": "team-player/cd12f9f2-5cfa-4e4b-bdc0-5e9fe27304ca",
+          "name": "Linda Morris"
+        },
+        {
+          "playerId": "team-player/a69c56ec-a7d6-40b6-821f-9cc2728ce3ce",
+          "name": "Robin Brasell"
+        },
+        {
+          "playerId": "team-player/3b8814ad-28bb-4173-9773-5ddb0d1e76dd",
+          "name": "Robin Brasell & Linda Morris"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/35937903-9d3b-421b-aedc-221a27c369bb",
       "teams": [
         "Manawatu-Wanganui",
         "Wairarapa"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Heather Richardson & David Harrison",
-            "Brian Hart & John Kirby"
+            {
+              "playerId": "team-player/e7078a13-5fc5-49e6-a0ab-ec8ea7a71440",
+              "name": "Heather Richardson & David Harrison"
+            },
+            {
+              "playerId": "team-player/2866edca-cb4c-4a64-ac89-3af8857a8e3c",
+              "name": "Brian Hart & John Kirby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/48d18cab-2ec0-42b0-ac18-379dd2c97562",
               "players": [
                 {
+                  "playerId": "team-player/e7078a13-5fc5-49e6-a0ab-ec8ea7a71440",
                   "name": "Heather Richardson & David Harrison",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/2866edca-cb4c-4a64-ac89-3af8857a8e3c",
                   "name": "Brian Hart & John Kirby",
                   "score": "12"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "Malcolm Hutchins & Neil Stantiall",
-            "Robin Brasell & Linda Morris"
+            {
+              "playerId": "team-player/ee904470-19c7-47f4-9244-d0ba8196e2db",
+              "name": "Malcolm Hutchins & Neil Stantiall"
+            },
+            {
+              "playerId": "team-player/3b8814ad-28bb-4173-9773-5ddb0d1e76dd",
+              "name": "Robin Brasell & Linda Morris"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e4847c5-2434-4e06-8a4f-1e1639aacef9",
               "players": [
                 {
+                  "playerId": "team-player/ee904470-19c7-47f4-9244-d0ba8196e2db",
                   "name": "Malcolm Hutchins & Neil Stantiall",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/3b8814ad-28bb-4173-9773-5ddb0d1e76dd",
                   "name": "Robin Brasell & Linda Morris",
                   "score": "16"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Pam Green & Judith Hunt",
-            "Ian Wyeth & Graeme Wallace"
+            {
+              "playerId": "team-player/9e1e357e-e12d-4f42-bb1b-72e11ca1ff03",
+              "name": "Pam Green & Judith Hunt"
+            },
+            {
+              "playerId": "team-player/193707b7-0eb8-4844-b210-dd90c10df3bc",
+              "name": "Ian Wyeth & Graeme Wallace"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6a938b32-f69d-49dc-ae96-b80958e44447",
               "players": [
                 {
+                  "playerId": "team-player/9e1e357e-e12d-4f42-bb1b-72e11ca1ff03",
                   "name": "Pam Green & Judith Hunt",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/193707b7-0eb8-4844-b210-dd90c10df3bc",
                   "name": "Ian Wyeth & Graeme Wallace",
                   "score": "5"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Heather Richardson",
-            "Brian Hart"
+            {
+              "playerId": "team-player/38fd06b6-208e-4e62-8fb4-5cf9fd64fe85",
+              "name": "Heather Richardson"
+            },
+            {
+              "playerId": "team-player/b89b82f0-e077-462d-8b5b-07dc6baca231",
+              "name": "Brian Hart"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5114bbdd-8217-4ad5-a727-77ae1abb27e6",
               "players": [
                 {
+                  "playerId": "team-player/38fd06b6-208e-4e62-8fb4-5cf9fd64fe85",
                   "name": "Heather Richardson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b89b82f0-e077-462d-8b5b-07dc6baca231",
                   "name": "Brian Hart",
                   "score": "17"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "Pam Green",
-            "Ian Wyeth"
+            {
+              "playerId": "team-player/3cbad9d4-9d28-4b25-8057-851866243c50",
+              "name": "Pam Green"
+            },
+            {
+              "playerId": "team-player/9375e3f8-c9fb-404b-a692-32ffda3d0844",
+              "name": "Ian Wyeth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/39d907ba-8d30-4a03-a1d1-bb8d27a7ae54",
               "players": [
                 {
+                  "playerId": "team-player/3cbad9d4-9d28-4b25-8057-851866243c50",
                   "name": "Pam Green",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/9375e3f8-c9fb-404b-a692-32ffda3d0844",
                   "name": "Ian Wyeth",
                   "score": "6"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Malcolm Hutchins",
-            "Robin Brasell"
+            {
+              "playerId": "team-player/dd181cc1-297a-46da-9f98-4078c30e26cd",
+              "name": "Malcolm Hutchins"
+            },
+            {
+              "playerId": "team-player/a69c56ec-a7d6-40b6-821f-9cc2728ce3ce",
+              "name": "Robin Brasell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c810fa38-8963-4fea-a90f-76562a4c97b6",
               "players": [
                 {
+                  "playerId": "team-player/dd181cc1-297a-46da-9f98-4078c30e26cd",
                   "name": "Malcolm Hutchins",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/a69c56ec-a7d6-40b6-821f-9cc2728ce3ce",
                   "name": "Robin Brasell",
                   "score": "15"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Neil Stantiall",
-            "John Kirby"
+            {
+              "playerId": "team-player/327182a3-2cd7-4e78-ad32-0833f084d4e4",
+              "name": "Neil Stantiall"
+            },
+            {
+              "playerId": "team-player/b4534ecf-04da-4f9e-abd3-d8cff94092dc",
+              "name": "John Kirby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c688af3c-fb44-40d4-84f4-c9e5db488c46",
               "players": [
                 {
+                  "playerId": "team-player/327182a3-2cd7-4e78-ad32-0833f084d4e4",
                   "name": "Neil Stantiall",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/b4534ecf-04da-4f9e-abd3-d8cff94092dc",
                   "name": "John Kirby",
                   "score": "19"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Judith Hunt",
-            "Graeme Wallace"
+            {
+              "playerId": "team-player/3e204c01-ab87-4c3c-8cda-ee28a0711a2d",
+              "name": "Judith Hunt"
+            },
+            {
+              "playerId": "team-player/b38cff47-b006-4b24-90ae-51002359f68c",
+              "name": "Graeme Wallace"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ae8ac568-4f29-4ddf-b73f-32057b0ca478",
               "players": [
                 {
+                  "playerId": "team-player/3e204c01-ab87-4c3c-8cda-ee28a0711a2d",
                   "name": "Judith Hunt",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/b38cff47-b006-4b24-90ae-51002359f68c",
                   "name": "Graeme Wallace",
                   "score": "11"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "David Harrison",
-            "Linda Morris"
+            {
+              "playerId": "team-player/325d47cd-2074-4333-b3a5-f53bcecbf735",
+              "name": "David Harrison"
+            },
+            {
+              "playerId": "team-player/cd12f9f2-5cfa-4e4b-bdc0-5e9fe27304ca",
+              "name": "Linda Morris"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17cd69e0-f64b-4d8e-82b1-8e5172c577c0",
               "players": [
                 {
+                  "playerId": "team-player/325d47cd-2074-4333-b3a5-f53bcecbf735",
                   "name": "David Harrison",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/cd12f9f2-5cfa-4e4b-bdc0-5e9fe27304ca",
                   "name": "Linda Morris",
                   "score": "11"
                 }

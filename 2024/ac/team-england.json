@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/71309daf-5ff3-48a1-b895-b10d49dd6176",
   "name": "Team England v SCA",
   "sport": "ac",
   "firstDay": "2024-08-31",
   "lastDay": "2024-09-01",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Team England",
       "shortName": "Team Engla",
       "players": [
-        "Brian Medley",
-        "David Cornes",
-        "Medley and Staples",
-        "Mike Sandler",
-        "Paul Rigge",
-        "Rigge and Cornes",
-        "Roger Staples",
-        "Sandler and Skelton",
-        "Stephen Skelton"
+        {
+          "playerId": "team-player/f0137299-21b3-489e-a502-dfab621d4d29",
+          "name": "Brian Medley"
+        },
+        {
+          "playerId": "team-player/79c71653-12f8-4f4c-acaa-13e3e6743a37",
+          "name": "David Cornes"
+        },
+        {
+          "playerId": "team-player/5e7638af-85a7-412f-b435-67d4da2e8211",
+          "name": "Medley and Staples"
+        },
+        {
+          "playerId": "team-player/b1df0576-fe90-417e-93b3-70906d4b750e",
+          "name": "Mike Sandler"
+        },
+        {
+          "playerId": "team-player/a7b053e4-b2a6-49be-88db-0107c5db2c7a",
+          "name": "Paul Rigge"
+        },
+        {
+          "playerId": "team-player/1eb58753-8765-4fd0-a0fb-d51fbaf919ba",
+          "name": "Rigge and Cornes"
+        },
+        {
+          "playerId": "team-player/bd679b29-dfaf-4a03-908e-113c1686c94f",
+          "name": "Roger Staples"
+        },
+        {
+          "playerId": "team-player/640a1282-2133-40d2-869d-d26d0378df09",
+          "name": "Sandler and Skelton"
+        },
+        {
+          "playerId": "team-player/e911d76b-bf6f-400e-b588-92e65a1c2a28",
+          "name": "Stephen Skelton"
+        }
       ]
     },
     {
       "name": "SCA",
       "shortName": "SCA",
       "players": [
-        "Chris Martin",
-        "Coling and Saunders Robertson",
-        "David Houston",
-        "John Owen",
-        "Mark Shanks",
-        "Martin and Shanks",
-        "Owen and Houston",
-        "Rosemary Saunders Robertson",
-        "Stefan Colling"
+        {
+          "playerId": "team-player/c04a99ca-40a5-4cb2-903d-64b0d4047d1b",
+          "name": "Chris Martin"
+        },
+        {
+          "playerId": "team-player/491fa427-35be-4dd5-aa0f-2d57723f44bf",
+          "name": "Coling and Saunders Robertson"
+        },
+        {
+          "playerId": "team-player/d2860b44-7f68-4160-9c16-73fe93642985",
+          "name": "David Houston"
+        },
+        {
+          "playerId": "team-player/581120dd-8104-492f-9ea9-cf057c97e4de",
+          "name": "John Owen"
+        },
+        {
+          "playerId": "team-player/56fe2482-1954-4b7a-86d2-5da305ac74a8",
+          "name": "Mark Shanks"
+        },
+        {
+          "playerId": "team-player/11aed426-067f-4b8c-ad51-61b847bbfc88",
+          "name": "Martin and Shanks"
+        },
+        {
+          "playerId": "team-player/55fcaf97-b5fd-4505-9aab-d3dcd22592e5",
+          "name": "Owen and Houston"
+        },
+        {
+          "playerId": "team-player/918ba762-c601-4186-8597-9676ca8c62ab",
+          "name": "Rosemary Saunders Robertson"
+        },
+        {
+          "playerId": "team-player/f7cbc469-9f02-4252-92d6-ebdb9ea10fe0",
+          "name": "Stefan Colling"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/a8c8e5aa-9509-47d9-9050-0dbce95c269a",
       "teams": [
         "Team England",
         "SCA"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Rigge and Cornes",
-            "Martin and Shanks"
+            {
+              "playerId": "team-player/1eb58753-8765-4fd0-a0fb-d51fbaf919ba",
+              "name": "Rigge and Cornes"
+            },
+            {
+              "playerId": "team-player/11aed426-067f-4b8c-ad51-61b847bbfc88",
+              "name": "Martin and Shanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/172c1c1f-280d-4f08-a6a1-075841a373da",
               "players": [
                 {
+                  "playerId": "team-player/1eb58753-8765-4fd0-a0fb-d51fbaf919ba",
                   "name": "Rigge and Cornes",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/11aed426-067f-4b8c-ad51-61b847bbfc88",
                   "name": "Martin and Shanks",
                   "score": "12"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "Medley and Staples",
-            "Owen and Houston"
+            {
+              "playerId": "team-player/5e7638af-85a7-412f-b435-67d4da2e8211",
+              "name": "Medley and Staples"
+            },
+            {
+              "playerId": "team-player/55fcaf97-b5fd-4505-9aab-d3dcd22592e5",
+              "name": "Owen and Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ae150a1d-c4d3-4f0b-acae-0a1d59173261",
               "players": [
                 {
+                  "playerId": "team-player/5e7638af-85a7-412f-b435-67d4da2e8211",
                   "name": "Medley and Staples",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/55fcaf97-b5fd-4505-9aab-d3dcd22592e5",
                   "name": "Owen and Houston",
                   "score": "18"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Sandler and Skelton",
-            "Coling and Saunders Robertson"
+            {
+              "playerId": "team-player/640a1282-2133-40d2-869d-d26d0378df09",
+              "name": "Sandler and Skelton"
+            },
+            {
+              "playerId": "team-player/491fa427-35be-4dd5-aa0f-2d57723f44bf",
+              "name": "Coling and Saunders Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e86d95cd-95ce-483a-b94d-aa6719c06ad8",
               "players": [
                 {
+                  "playerId": "team-player/640a1282-2133-40d2-869d-d26d0378df09",
                   "name": "Sandler and Skelton",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/491fa427-35be-4dd5-aa0f-2d57723f44bf",
                   "name": "Coling and Saunders Robertson",
                   "score": "25"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Paul Rigge",
-            "John Owen"
+            {
+              "playerId": "team-player/a7b053e4-b2a6-49be-88db-0107c5db2c7a",
+              "name": "Paul Rigge"
+            },
+            {
+              "playerId": "team-player/581120dd-8104-492f-9ea9-cf057c97e4de",
+              "name": "John Owen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cd2f9d5d-2125-4b40-9d8e-c21cd45e76a9",
               "players": [
                 {
+                  "playerId": "team-player/a7b053e4-b2a6-49be-88db-0107c5db2c7a",
                   "name": "Paul Rigge",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/581120dd-8104-492f-9ea9-cf057c97e4de",
                   "name": "John Owen",
                   "score": "22"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "Brian Medley",
-            "Stefan Colling"
+            {
+              "playerId": "team-player/f0137299-21b3-489e-a502-dfab621d4d29",
+              "name": "Brian Medley"
+            },
+            {
+              "playerId": "team-player/f7cbc469-9f02-4252-92d6-ebdb9ea10fe0",
+              "name": "Stefan Colling"
+            }
           ],
           "games": [
             {
+              "gameId": "game/44ac171d-ac70-4a06-96e6-925fe780c63c",
               "players": [
                 {
+                  "playerId": "team-player/f0137299-21b3-489e-a502-dfab621d4d29",
                   "name": "Brian Medley",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/f7cbc469-9f02-4252-92d6-ebdb9ea10fe0",
                   "name": "Stefan Colling",
                   "score": "26"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Mike Sandler",
-            "Chris Martin"
+            {
+              "playerId": "team-player/b1df0576-fe90-417e-93b3-70906d4b750e",
+              "name": "Mike Sandler"
+            },
+            {
+              "playerId": "team-player/c04a99ca-40a5-4cb2-903d-64b0d4047d1b",
+              "name": "Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/64349473-0d42-48b4-afeb-0f63d46e0bbb",
               "players": [
                 {
+                  "playerId": "team-player/b1df0576-fe90-417e-93b3-70906d4b750e",
                   "name": "Mike Sandler",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/c04a99ca-40a5-4cb2-903d-64b0d4047d1b",
                   "name": "Chris Martin",
                   "score": "26"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Stephen Skelton",
-            "David Houston"
+            {
+              "playerId": "team-player/e911d76b-bf6f-400e-b588-92e65a1c2a28",
+              "name": "Stephen Skelton"
+            },
+            {
+              "playerId": "team-player/d2860b44-7f68-4160-9c16-73fe93642985",
+              "name": "David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/03e32e83-d8ee-4b59-965c-b4a5eaf6ba55",
               "players": [
                 {
+                  "playerId": "team-player/e911d76b-bf6f-400e-b588-92e65a1c2a28",
                   "name": "Stephen Skelton",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/d2860b44-7f68-4160-9c16-73fe93642985",
                   "name": "David Houston",
                   "score": "14"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Roger Staples",
-            "Mark Shanks"
+            {
+              "playerId": "team-player/bd679b29-dfaf-4a03-908e-113c1686c94f",
+              "name": "Roger Staples"
+            },
+            {
+              "playerId": "team-player/56fe2482-1954-4b7a-86d2-5da305ac74a8",
+              "name": "Mark Shanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/06c4152a-b5b9-44cb-ab51-a65846d5b71e",
               "players": [
                 {
+                  "playerId": "team-player/bd679b29-dfaf-4a03-908e-113c1686c94f",
                   "name": "Roger Staples",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/56fe2482-1954-4b7a-86d2-5da305ac74a8",
                   "name": "Mark Shanks",
                   "score": "26"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Rosemary Saunders Robertson"
+            {
+              "playerId": "team-player/79c71653-12f8-4f4c-acaa-13e3e6743a37",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/918ba762-c601-4186-8597-9676ca8c62ab",
+              "name": "Rosemary Saunders Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/12c34ab8-f1f7-44d3-ae91-53d5ee1c2dd7",
               "players": [
                 {
+                  "playerId": "team-player/79c71653-12f8-4f4c-acaa-13e3e6743a37",
                   "name": "David Cornes",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/918ba762-c601-4186-8597-9676ca8c62ab",
                   "name": "Rosemary Saunders Robertson",
                   "score": "17"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "Paul Rigge",
-            "Stefan Colling"
+            {
+              "playerId": "team-player/a7b053e4-b2a6-49be-88db-0107c5db2c7a",
+              "name": "Paul Rigge"
+            },
+            {
+              "playerId": "team-player/f7cbc469-9f02-4252-92d6-ebdb9ea10fe0",
+              "name": "Stefan Colling"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c8732da8-d0f4-45b3-ab1e-fdc5c9128fa8",
               "players": [
                 {
+                  "playerId": "team-player/a7b053e4-b2a6-49be-88db-0107c5db2c7a",
                   "name": "Paul Rigge",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f7cbc469-9f02-4252-92d6-ebdb9ea10fe0",
                   "name": "Stefan Colling",
                   "score": "18"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "Mike Sandler",
-            "John Owen"
+            {
+              "playerId": "team-player/b1df0576-fe90-417e-93b3-70906d4b750e",
+              "name": "Mike Sandler"
+            },
+            {
+              "playerId": "team-player/581120dd-8104-492f-9ea9-cf057c97e4de",
+              "name": "John Owen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5812849e-c36c-48df-b161-0ba1d47d9f28",
               "players": [
                 {
+                  "playerId": "team-player/b1df0576-fe90-417e-93b3-70906d4b750e",
                   "name": "Mike Sandler",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/581120dd-8104-492f-9ea9-cf057c97e4de",
                   "name": "John Owen",
                   "score": "26"
                 }
@@ -291,17 +448,26 @@
         },
         {
           "players": [
-            "Stephen Skelton",
-            "Mark Shanks"
+            {
+              "playerId": "team-player/e911d76b-bf6f-400e-b588-92e65a1c2a28",
+              "name": "Stephen Skelton"
+            },
+            {
+              "playerId": "team-player/56fe2482-1954-4b7a-86d2-5da305ac74a8",
+              "name": "Mark Shanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9bd1f36e-a876-430e-9e2e-8c05225ebb2a",
               "players": [
                 {
+                  "playerId": "team-player/e911d76b-bf6f-400e-b588-92e65a1c2a28",
                   "name": "Stephen Skelton",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/56fe2482-1954-4b7a-86d2-5da305ac74a8",
                   "name": "Mark Shanks",
                   "score": "26"
                 }
@@ -313,17 +479,26 @@
         },
         {
           "players": [
-            "Brian Medley",
-            "Chris Martin"
+            {
+              "playerId": "team-player/f0137299-21b3-489e-a502-dfab621d4d29",
+              "name": "Brian Medley"
+            },
+            {
+              "playerId": "team-player/c04a99ca-40a5-4cb2-903d-64b0d4047d1b",
+              "name": "Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/be2684a2-d736-4ce4-b591-100a904210ca",
               "players": [
                 {
+                  "playerId": "team-player/f0137299-21b3-489e-a502-dfab621d4d29",
                   "name": "Brian Medley",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/c04a99ca-40a5-4cb2-903d-64b0d4047d1b",
                   "name": "Chris Martin",
                   "score": "10"
                 }
@@ -335,17 +510,26 @@
         },
         {
           "players": [
-            "Roger Staples",
-            "Rosemary Saunders Robertson"
+            {
+              "playerId": "team-player/bd679b29-dfaf-4a03-908e-113c1686c94f",
+              "name": "Roger Staples"
+            },
+            {
+              "playerId": "team-player/918ba762-c601-4186-8597-9676ca8c62ab",
+              "name": "Rosemary Saunders Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32dd6775-6cde-4c34-9029-befb6eae967c",
               "players": [
                 {
+                  "playerId": "team-player/bd679b29-dfaf-4a03-908e-113c1686c94f",
                   "name": "Roger Staples",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/918ba762-c601-4186-8597-9676ca8c62ab",
                   "name": "Rosemary Saunders Robertson",
                   "score": "22"
                 }
@@ -357,17 +541,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "David Houston"
+            {
+              "playerId": "team-player/79c71653-12f8-4f4c-acaa-13e3e6743a37",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/d2860b44-7f68-4160-9c16-73fe93642985",
+              "name": "David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/59ca217a-ffee-46c6-b7c5-bcb6814f27f4",
               "players": [
                 {
+                  "playerId": "team-player/79c71653-12f8-4f4c-acaa-13e3e6743a37",
                   "name": "David Cornes",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/d2860b44-7f68-4160-9c16-73fe93642985",
                   "name": "David Houston",
                   "score": "7"
                 }
@@ -379,17 +572,26 @@
         },
         {
           "players": [
-            "Rigge and Cornes",
-            "Coling and Saunders Robertson"
+            {
+              "playerId": "team-player/1eb58753-8765-4fd0-a0fb-d51fbaf919ba",
+              "name": "Rigge and Cornes"
+            },
+            {
+              "playerId": "team-player/491fa427-35be-4dd5-aa0f-2d57723f44bf",
+              "name": "Coling and Saunders Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/80e1a0ee-8b69-4631-8a0c-2cdb379ebfa4",
               "players": [
                 {
+                  "playerId": "team-player/1eb58753-8765-4fd0-a0fb-d51fbaf919ba",
                   "name": "Rigge and Cornes",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/491fa427-35be-4dd5-aa0f-2d57723f44bf",
                   "name": "Coling and Saunders Robertson",
                   "score": "26"
                 }
@@ -401,17 +603,26 @@
         },
         {
           "players": [
-            "Medley and Staples",
-            "Martin and Shanks"
+            {
+              "playerId": "team-player/5e7638af-85a7-412f-b435-67d4da2e8211",
+              "name": "Medley and Staples"
+            },
+            {
+              "playerId": "team-player/11aed426-067f-4b8c-ad51-61b847bbfc88",
+              "name": "Martin and Shanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ef922cb1-6501-4b01-9699-d4652e59bf61",
               "players": [
                 {
+                  "playerId": "team-player/5e7638af-85a7-412f-b435-67d4da2e8211",
                   "name": "Medley and Staples",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/11aed426-067f-4b8c-ad51-61b847bbfc88",
                   "name": "Martin and Shanks",
                   "score": "22"
                 }
@@ -423,17 +634,26 @@
         },
         {
           "players": [
-            "Sandler and Skelton",
-            "Owen and Houston"
+            {
+              "playerId": "team-player/640a1282-2133-40d2-869d-d26d0378df09",
+              "name": "Sandler and Skelton"
+            },
+            {
+              "playerId": "team-player/55fcaf97-b5fd-4505-9aab-d3dcd22592e5",
+              "name": "Owen and Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6305a547-8c7d-4792-bd59-9423d79d1cee",
               "players": [
                 {
+                  "playerId": "team-player/640a1282-2133-40d2-869d-d26d0378df09",
                   "name": "Sandler and Skelton",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/55fcaf97-b5fd-4505-9aab-d3dcd22592e5",
                   "name": "Owen and Houston",
                   "score": "26"
                 }
@@ -445,17 +665,26 @@
         },
         {
           "players": [
-            "Paul Rigge",
-            "Chris Martin"
+            {
+              "playerId": "team-player/a7b053e4-b2a6-49be-88db-0107c5db2c7a",
+              "name": "Paul Rigge"
+            },
+            {
+              "playerId": "team-player/c04a99ca-40a5-4cb2-903d-64b0d4047d1b",
+              "name": "Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a827a94-58ac-43d3-bbaa-142ffdac5caf",
               "players": [
                 {
+                  "playerId": "team-player/a7b053e4-b2a6-49be-88db-0107c5db2c7a",
                   "name": "Paul Rigge",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/c04a99ca-40a5-4cb2-903d-64b0d4047d1b",
                   "name": "Chris Martin",
                   "score": "26"
                 }
@@ -467,17 +696,26 @@
         },
         {
           "players": [
-            "Brian Medley",
-            "John Owen"
+            {
+              "playerId": "team-player/f0137299-21b3-489e-a502-dfab621d4d29",
+              "name": "Brian Medley"
+            },
+            {
+              "playerId": "team-player/581120dd-8104-492f-9ea9-cf057c97e4de",
+              "name": "John Owen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c816f28-d39e-4d52-9eda-99841f14d7ac",
               "players": [
                 {
+                  "playerId": "team-player/f0137299-21b3-489e-a502-dfab621d4d29",
                   "name": "Brian Medley",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/581120dd-8104-492f-9ea9-cf057c97e4de",
                   "name": "John Owen",
                   "score": "22"
                 }
@@ -489,17 +727,26 @@
         },
         {
           "players": [
-            "Mike Sandler",
-            "Stefan Colling"
+            {
+              "playerId": "team-player/b1df0576-fe90-417e-93b3-70906d4b750e",
+              "name": "Mike Sandler"
+            },
+            {
+              "playerId": "team-player/f7cbc469-9f02-4252-92d6-ebdb9ea10fe0",
+              "name": "Stefan Colling"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eeb9f358-f185-4714-a46a-423552290e32",
               "players": [
                 {
+                  "playerId": "team-player/b1df0576-fe90-417e-93b3-70906d4b750e",
                   "name": "Mike Sandler",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/f7cbc469-9f02-4252-92d6-ebdb9ea10fe0",
                   "name": "Stefan Colling",
                   "score": "26"
                 }
@@ -511,17 +758,26 @@
         },
         {
           "players": [
-            "Stephen Skelton",
-            "Rosemary Saunders Robertson"
+            {
+              "playerId": "team-player/e911d76b-bf6f-400e-b588-92e65a1c2a28",
+              "name": "Stephen Skelton"
+            },
+            {
+              "playerId": "team-player/918ba762-c601-4186-8597-9676ca8c62ab",
+              "name": "Rosemary Saunders Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/82c2d518-a0f1-4535-a49d-3ab5441eb8be",
               "players": [
                 {
+                  "playerId": "team-player/e911d76b-bf6f-400e-b588-92e65a1c2a28",
                   "name": "Stephen Skelton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/918ba762-c601-4186-8597-9676ca8c62ab",
                   "name": "Rosemary Saunders Robertson",
                   "score": "26"
                 }
@@ -533,17 +789,26 @@
         },
         {
           "players": [
-            "Roger Staples",
-            "David Houston"
+            {
+              "playerId": "team-player/bd679b29-dfaf-4a03-908e-113c1686c94f",
+              "name": "Roger Staples"
+            },
+            {
+              "playerId": "team-player/d2860b44-7f68-4160-9c16-73fe93642985",
+              "name": "David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/271ede93-9be2-4ab3-857e-a20d72102456",
               "players": [
                 {
+                  "playerId": "team-player/bd679b29-dfaf-4a03-908e-113c1686c94f",
                   "name": "Roger Staples",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/d2860b44-7f68-4160-9c16-73fe93642985",
                   "name": "David Houston",
                   "score": "26"
                 }
@@ -555,17 +820,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Mark Shanks"
+            {
+              "playerId": "team-player/79c71653-12f8-4f4c-acaa-13e3e6743a37",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/56fe2482-1954-4b7a-86d2-5da305ac74a8",
+              "name": "Mark Shanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c4808ee-75bb-4af6-8f8f-935be4803613",
               "players": [
                 {
+                  "playerId": "team-player/79c71653-12f8-4f4c-acaa-13e3e6743a37",
                   "name": "David Cornes",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/56fe2482-1954-4b7a-86d2-5da305ac74a8",
                   "name": "Mark Shanks",
                   "score": "22"
                 }

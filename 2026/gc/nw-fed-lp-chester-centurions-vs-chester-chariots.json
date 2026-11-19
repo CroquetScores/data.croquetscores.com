@@ -1,47 +1,93 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7107a14f-cebe-4589-a2fc-29427a65a2e5",
   "name": "NW Fed LP GC Chester Centurions vs Chester Chariots",
   "sport": "gc",
   "firstDay": "2026-05-19",
   "lastDay": "2026-07-03",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Chester Centurions",
       "shortName": "Chester Ce",
       "players": [
-        "Andy Wilson-Chalon",
-        "Andy Wilson-Chalon - meet again",
-        "Edward Baskerville",
-        "Martyn Seal"
+        {
+          "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
+          "name": "Andy Wilson-Chalon"
+        },
+        {
+          "playerId": "team-player/250828ef-634b-4992-8acb-abd26a0bbba6",
+          "name": "Andy Wilson-Chalon - meet again"
+        },
+        {
+          "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
+          "name": "Edward Baskerville"
+        },
+        {
+          "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
+          "name": "Martyn Seal"
+        }
       ]
     },
     {
       "name": "Chester Chariots",
       "shortName": "Chester Ch",
       "players": [
-        "Christine Thomas",
-        "Christine Thomas - meet again",
-        "Garry Greenwood",
-        "Robin Tasker",
-        "Robin Tasker - meet again",
-        "Sarah Clements",
-        "Sarah Clements - meet again"
+        {
+          "playerId": "team-player/f332b0a4-5c21-4810-a198-31689c71b4d3",
+          "name": "Christine Thomas"
+        },
+        {
+          "playerId": "team-player/8b9aa4f1-a7b9-447f-a9cc-1f85040bf4c6",
+          "name": "Christine Thomas - meet again"
+        },
+        {
+          "playerId": "team-player/fe4e7783-1112-4ab4-a111-c3f27a35551f",
+          "name": "Garry Greenwood"
+        },
+        {
+          "playerId": "team-player/4fce4788-5fcd-4ec1-bad8-f5b92be70eb6",
+          "name": "Robin Tasker"
+        },
+        {
+          "playerId": "team-player/be7d5592-6354-4325-afab-739a09148986",
+          "name": "Robin Tasker - meet again"
+        },
+        {
+          "playerId": "team-player/34174cab-7637-44b0-bef0-8399fafbf44a",
+          "name": "Sarah Clements"
+        },
+        {
+          "playerId": "team-player/2b9c6dbe-40d2-4f83-aa72-e2ef506688e8",
+          "name": "Sarah Clements - meet again"
+        }
       ]
     },
     {
       "name": "Bury Sovereigns",
       "shortName": "Bury Sover",
       "players": [
-        "Bernard Lord",
-        "Richard Leach",
-        "Simon Attwell"
+        {
+          "playerId": "team-player/74f35d27-e706-4973-9987-03d7362c1d50",
+          "name": "Bernard Lord"
+        },
+        {
+          "playerId": "team-player/8758fc4b-c032-4a8f-924b-668c27285781",
+          "name": "Richard Leach"
+        },
+        {
+          "playerId": "team-player/b31d65f8-7559-48dd-83e0-1cee68ded86b",
+          "name": "Simon Attwell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b21ddd3f-0558-4f4e-adb7-c9c4dd302b91",
       "teams": [
         "Chester Centurions",
         "Chester Chariots"
@@ -51,17 +97,26 @@
       "matches": [
         {
           "players": [
-            "Martyn Seal",
-            "Christine Thomas"
+            {
+              "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
+              "name": "Martyn Seal"
+            },
+            {
+              "playerId": "team-player/f332b0a4-5c21-4810-a198-31689c71b4d3",
+              "name": "Christine Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b57e3af-d9f2-49ba-ab07-343141890510",
               "players": [
                 {
+                  "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
                   "name": "Martyn Seal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f332b0a4-5c21-4810-a198-31689c71b4d3",
                   "name": "Christine Thomas",
                   "score": "3"
                 }
@@ -73,17 +128,26 @@
         },
         {
           "players": [
-            "Edward Baskerville",
-            "Sarah Clements"
+            {
+              "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
+              "name": "Edward Baskerville"
+            },
+            {
+              "playerId": "team-player/34174cab-7637-44b0-bef0-8399fafbf44a",
+              "name": "Sarah Clements"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17902508-ed93-4212-a914-7ccf7e1321b2",
               "players": [
                 {
+                  "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
                   "name": "Edward Baskerville",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/34174cab-7637-44b0-bef0-8399fafbf44a",
                   "name": "Sarah Clements",
                   "score": "7"
                 }
@@ -95,17 +159,26 @@
         },
         {
           "players": [
-            "Andy Wilson-Chalon",
-            "Robin Tasker"
+            {
+              "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
+              "name": "Andy Wilson-Chalon"
+            },
+            {
+              "playerId": "team-player/4fce4788-5fcd-4ec1-bad8-f5b92be70eb6",
+              "name": "Robin Tasker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/12ab685b-1467-4b68-aced-c32355519c37",
               "players": [
                 {
+                  "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
                   "name": "Andy Wilson-Chalon",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4fce4788-5fcd-4ec1-bad8-f5b92be70eb6",
                   "name": "Robin Tasker",
                   "score": "7"
                 }
@@ -117,17 +190,26 @@
         },
         {
           "players": [
-            "Edward Baskerville",
-            "Christine Thomas"
+            {
+              "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
+              "name": "Edward Baskerville"
+            },
+            {
+              "playerId": "team-player/f332b0a4-5c21-4810-a198-31689c71b4d3",
+              "name": "Christine Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7312cbc5-c227-4d61-911f-1d0f8388a47e",
               "players": [
                 {
+                  "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
                   "name": "Edward Baskerville",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f332b0a4-5c21-4810-a198-31689c71b4d3",
                   "name": "Christine Thomas",
                   "score": "5"
                 }
@@ -139,17 +221,26 @@
         },
         {
           "players": [
-            "Martyn Seal",
-            "Robin Tasker"
+            {
+              "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
+              "name": "Martyn Seal"
+            },
+            {
+              "playerId": "team-player/4fce4788-5fcd-4ec1-bad8-f5b92be70eb6",
+              "name": "Robin Tasker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ec244d62-004f-47af-88c2-5236f047dd6a",
               "players": [
                 {
+                  "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
                   "name": "Martyn Seal",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4fce4788-5fcd-4ec1-bad8-f5b92be70eb6",
                   "name": "Robin Tasker",
                   "score": "7"
                 }
@@ -161,17 +252,26 @@
         },
         {
           "players": [
-            "Andy Wilson-Chalon",
-            "Sarah Clements"
+            {
+              "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
+              "name": "Andy Wilson-Chalon"
+            },
+            {
+              "playerId": "team-player/34174cab-7637-44b0-bef0-8399fafbf44a",
+              "name": "Sarah Clements"
+            }
           ],
           "games": [
             {
+              "gameId": "game/57e600f2-97db-4318-869c-27bc450307d6",
               "players": [
                 {
+                  "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
                   "name": "Andy Wilson-Chalon",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/34174cab-7637-44b0-bef0-8399fafbf44a",
                   "name": "Sarah Clements",
                   "score": "7"
                 }
@@ -183,17 +283,26 @@
         },
         {
           "players": [
-            "Martyn Seal",
-            "Sarah Clements"
+            {
+              "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
+              "name": "Martyn Seal"
+            },
+            {
+              "playerId": "team-player/34174cab-7637-44b0-bef0-8399fafbf44a",
+              "name": "Sarah Clements"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3402b9dd-b36a-4409-88a5-8e2c2a24bfb0",
               "players": [
                 {
+                  "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
                   "name": "Martyn Seal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/34174cab-7637-44b0-bef0-8399fafbf44a",
                   "name": "Sarah Clements",
                   "score": "4"
                 }
@@ -205,17 +314,26 @@
         },
         {
           "players": [
-            "Edward Baskerville",
-            "Robin Tasker"
+            {
+              "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
+              "name": "Edward Baskerville"
+            },
+            {
+              "playerId": "team-player/4fce4788-5fcd-4ec1-bad8-f5b92be70eb6",
+              "name": "Robin Tasker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d84716a0-9fe2-4da2-af25-7e9698223d0b",
               "players": [
                 {
+                  "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
                   "name": "Edward Baskerville",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4fce4788-5fcd-4ec1-bad8-f5b92be70eb6",
                   "name": "Robin Tasker",
                   "score": "7"
                 }
@@ -227,17 +345,26 @@
         },
         {
           "players": [
-            "Andy Wilson-Chalon",
-            "Christine Thomas"
+            {
+              "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
+              "name": "Andy Wilson-Chalon"
+            },
+            {
+              "playerId": "team-player/f332b0a4-5c21-4810-a198-31689c71b4d3",
+              "name": "Christine Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/078c2190-d2e2-4f0a-badb-29725401cd3c",
               "players": [
                 {
+                  "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
                   "name": "Andy Wilson-Chalon",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f332b0a4-5c21-4810-a198-31689c71b4d3",
                   "name": "Christine Thomas",
                   "score": "7"
                 }
@@ -249,17 +376,26 @@
         },
         {
           "players": [
-            "Martyn Seal",
-            "Christine Thomas - meet again"
+            {
+              "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
+              "name": "Martyn Seal"
+            },
+            {
+              "playerId": "team-player/8b9aa4f1-a7b9-447f-a9cc-1f85040bf4c6",
+              "name": "Christine Thomas - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6a6e7f5f-144c-41a8-8117-d13c91322e68",
               "players": [
                 {
+                  "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
                   "name": "Martyn Seal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8b9aa4f1-a7b9-447f-a9cc-1f85040bf4c6",
                   "name": "Christine Thomas - meet again",
                   "score": "6"
                 }
@@ -271,17 +407,26 @@
         },
         {
           "players": [
-            "Edward Baskerville",
-            "Sarah Clements - meet again"
+            {
+              "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
+              "name": "Edward Baskerville"
+            },
+            {
+              "playerId": "team-player/2b9c6dbe-40d2-4f83-aa72-e2ef506688e8",
+              "name": "Sarah Clements - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/551e7263-05d5-4c92-aee9-d9993b5c672f",
               "players": [
                 {
+                  "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
                   "name": "Edward Baskerville",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2b9c6dbe-40d2-4f83-aa72-e2ef506688e8",
                   "name": "Sarah Clements - meet again",
                   "score": "2"
                 }
@@ -293,17 +438,26 @@
         },
         {
           "players": [
-            "Andy Wilson-Chalon - meet again",
-            "Robin Tasker"
+            {
+              "playerId": "team-player/250828ef-634b-4992-8acb-abd26a0bbba6",
+              "name": "Andy Wilson-Chalon - meet again"
+            },
+            {
+              "playerId": "team-player/4fce4788-5fcd-4ec1-bad8-f5b92be70eb6",
+              "name": "Robin Tasker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c20a748e-6080-4557-824c-8f57269e8c58",
               "players": [
                 {
+                  "playerId": "team-player/250828ef-634b-4992-8acb-abd26a0bbba6",
                   "name": "Andy Wilson-Chalon - meet again",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/4fce4788-5fcd-4ec1-bad8-f5b92be70eb6",
                   "name": "Robin Tasker",
                   "score": "7"
                 }
@@ -315,17 +469,26 @@
         },
         {
           "players": [
-            "Andy Wilson-Chalon",
-            "Sarah Clements - meet again"
+            {
+              "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
+              "name": "Andy Wilson-Chalon"
+            },
+            {
+              "playerId": "team-player/2b9c6dbe-40d2-4f83-aa72-e2ef506688e8",
+              "name": "Sarah Clements - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bca831e8-57a0-45af-9746-63284cfa3e19",
               "players": [
                 {
+                  "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
                   "name": "Andy Wilson-Chalon",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/2b9c6dbe-40d2-4f83-aa72-e2ef506688e8",
                   "name": "Sarah Clements - meet again",
                   "score": "7"
                 }
@@ -337,17 +500,26 @@
         },
         {
           "players": [
-            "Martyn Seal",
-            "Robin Tasker - meet again"
+            {
+              "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
+              "name": "Martyn Seal"
+            },
+            {
+              "playerId": "team-player/be7d5592-6354-4325-afab-739a09148986",
+              "name": "Robin Tasker - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7c215825-3d85-4a39-bf64-61786944180a",
               "players": [
                 {
+                  "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
                   "name": "Martyn Seal",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/be7d5592-6354-4325-afab-739a09148986",
                   "name": "Robin Tasker - meet again",
                   "score": "4"
                 }
@@ -359,17 +531,26 @@
         },
         {
           "players": [
-            "Edward Baskerville",
-            "Christine Thomas - meet again"
+            {
+              "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
+              "name": "Edward Baskerville"
+            },
+            {
+              "playerId": "team-player/8b9aa4f1-a7b9-447f-a9cc-1f85040bf4c6",
+              "name": "Christine Thomas - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/58198275-8df0-4560-9086-fc5e758e9ebe",
               "players": [
                 {
+                  "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
                   "name": "Edward Baskerville",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8b9aa4f1-a7b9-447f-a9cc-1f85040bf4c6",
                   "name": "Christine Thomas - meet again",
                   "score": "4"
                 }
@@ -381,17 +562,26 @@
         },
         {
           "players": [
-            "Andy Wilson-Chalon",
-            "Christine Thomas - meet again"
+            {
+              "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
+              "name": "Andy Wilson-Chalon"
+            },
+            {
+              "playerId": "team-player/8b9aa4f1-a7b9-447f-a9cc-1f85040bf4c6",
+              "name": "Christine Thomas - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5dccf26a-5202-40a4-8f7a-af26140662d3",
               "players": [
                 {
+                  "playerId": "team-player/ff7a2aff-9ca3-47ff-ac5a-dd43f603919a",
                   "name": "Andy Wilson-Chalon",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8b9aa4f1-a7b9-447f-a9cc-1f85040bf4c6",
                   "name": "Christine Thomas - meet again",
                   "score": "7"
                 }
@@ -403,17 +593,26 @@
         },
         {
           "players": [
-            "Martyn Seal",
-            "Sarah Clements - meet again"
+            {
+              "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
+              "name": "Martyn Seal"
+            },
+            {
+              "playerId": "team-player/2b9c6dbe-40d2-4f83-aa72-e2ef506688e8",
+              "name": "Sarah Clements - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f142093-45c1-4486-b0d4-dfc5b174d791",
               "players": [
                 {
+                  "playerId": "team-player/5fd8fc3f-f88b-4ef3-aee9-a61811eb8e61",
                   "name": "Martyn Seal",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/2b9c6dbe-40d2-4f83-aa72-e2ef506688e8",
                   "name": "Sarah Clements - meet again",
                   "score": "7"
                 }
@@ -425,17 +624,26 @@
         },
         {
           "players": [
-            "Edward Baskerville",
-            "Robin Tasker - meet again"
+            {
+              "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
+              "name": "Edward Baskerville"
+            },
+            {
+              "playerId": "team-player/be7d5592-6354-4325-afab-739a09148986",
+              "name": "Robin Tasker - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af48a40c-207d-4db1-921d-33de9e96cc86",
               "players": [
                 {
+                  "playerId": "team-player/bfab0838-6dbe-4ff2-8a5f-ec26ff89853d",
                   "name": "Edward Baskerville",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/be7d5592-6354-4325-afab-739a09148986",
                   "name": "Robin Tasker - meet again",
                   "score": "6"
                 }
@@ -448,6 +656,7 @@
       ]
     },
     {
+      "competitionId": "competition/3af3178b-5b59-465f-807e-62b668af7494",
       "teams": [
         "Chester Chariots",
         "Bury Sovereigns"
@@ -457,17 +666,26 @@
       "matches": [
         {
           "players": [
-            "Sarah Clements",
-            "Richard Leach"
+            {
+              "playerId": "team-player/34174cab-7637-44b0-bef0-8399fafbf44a",
+              "name": "Sarah Clements"
+            },
+            {
+              "playerId": "team-player/8758fc4b-c032-4a8f-924b-668c27285781",
+              "name": "Richard Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/43d3bba7-721a-44ee-adce-e84a356f65d0",
               "players": [
                 {
+                  "playerId": "team-player/34174cab-7637-44b0-bef0-8399fafbf44a",
                   "name": "Sarah Clements",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8758fc4b-c032-4a8f-924b-668c27285781",
                   "name": "Richard Leach",
                   "score": "7"
                 }
@@ -479,17 +697,26 @@
         },
         {
           "players": [
-            "Christine Thomas",
-            "Bernard Lord"
+            {
+              "playerId": "team-player/f332b0a4-5c21-4810-a198-31689c71b4d3",
+              "name": "Christine Thomas"
+            },
+            {
+              "playerId": "team-player/74f35d27-e706-4973-9987-03d7362c1d50",
+              "name": "Bernard Lord"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f14f9031-5519-4aea-8cc8-d9fc8478f22d",
               "players": [
                 {
+                  "playerId": "team-player/f332b0a4-5c21-4810-a198-31689c71b4d3",
                   "name": "Christine Thomas",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/74f35d27-e706-4973-9987-03d7362c1d50",
                   "name": "Bernard Lord",
                   "score": "7"
                 }
@@ -501,17 +728,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "Simon Attwell"
+            {
+              "playerId": "team-player/fe4e7783-1112-4ab4-a111-c3f27a35551f",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/b31d65f8-7559-48dd-83e0-1cee68ded86b",
+              "name": "Simon Attwell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d0ce563c-bcc8-49a5-9766-86fb2844fad0",
               "players": [
                 {
+                  "playerId": "team-player/fe4e7783-1112-4ab4-a111-c3f27a35551f",
                   "name": "Garry Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b31d65f8-7559-48dd-83e0-1cee68ded86b",
                   "name": "Simon Attwell",
                   "score": "6"
                 }

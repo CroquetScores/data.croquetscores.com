@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/99da8666-01dd-4ced-a494-23b8be299906",
   "name": "NW Federation GC LP Chester Chariots vs Pendle and Craven",
   "sport": "gc",
   "firstDay": "2026-08-19",
   "lastDay": "2026-08-19",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Chester Chariots",
       "shortName": "Chester Ch",
       "players": [
-        "Garry Greenwood",
-        "Garry Greenwood - meet again",
-        "Robin Tasker",
-        "Robin Tasker - meet again",
-        "Sarah Clements",
-        "Sarah Clements - meet again"
+        {
+          "playerId": "team-player/62464a5f-27d2-4e69-b89e-fd013e3ca7a6",
+          "name": "Garry Greenwood"
+        },
+        {
+          "playerId": "team-player/0f76547b-53d0-46ec-ae00-30a8c67e0bf1",
+          "name": "Garry Greenwood - meet again"
+        },
+        {
+          "playerId": "team-player/0fafe704-747a-4c87-8a6e-090ca8fa32b8",
+          "name": "Robin Tasker"
+        },
+        {
+          "playerId": "team-player/d94d62a1-bbec-48a8-81cc-00f85fb48c1b",
+          "name": "Robin Tasker - meet again"
+        },
+        {
+          "playerId": "team-player/527b1dca-7334-4235-8e76-1d1def802fcc",
+          "name": "Sarah Clements"
+        },
+        {
+          "playerId": "team-player/9c5623f2-cfcb-472b-a9ba-fd912341fc02",
+          "name": "Sarah Clements - meet again"
+        }
       ]
     },
     {
       "name": "Pendle & Craven",
       "shortName": "Pendle & C",
       "players": [
-        "Ian Longstaff",
-        "Ian Longstaff - meet again",
-        "Mike Bradbury",
-        "Paul Dowdall"
+        {
+          "playerId": "team-player/710dc62f-9fd4-4a08-92a0-77acb06c9fd0",
+          "name": "Ian Longstaff"
+        },
+        {
+          "playerId": "team-player/f1b8db85-c2d6-4c1c-a056-a87a1c92c925",
+          "name": "Ian Longstaff - meet again"
+        },
+        {
+          "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
+          "name": "Mike Bradbury"
+        },
+        {
+          "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
+          "name": "Paul Dowdall"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/af58ec3a-6ee8-4e60-83e6-7d3b97fbea3f",
       "teams": [
         "Chester Chariots",
         "Pendle & Craven"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Sarah Clements",
-            "Mike Bradbury"
+            {
+              "playerId": "team-player/527b1dca-7334-4235-8e76-1d1def802fcc",
+              "name": "Sarah Clements"
+            },
+            {
+              "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
+              "name": "Mike Bradbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3ae82cf3-1360-478d-b6dd-de637bda1b25",
               "players": [
                 {
+                  "playerId": "team-player/527b1dca-7334-4235-8e76-1d1def802fcc",
                   "name": "Sarah Clements",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
                   "name": "Mike Bradbury",
                   "score": "1"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "Paul Dowdall"
+            {
+              "playerId": "team-player/62464a5f-27d2-4e69-b89e-fd013e3ca7a6",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
+              "name": "Paul Dowdall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2d565d68-227e-4a44-953a-1a18094f1353",
               "players": [
                 {
+                  "playerId": "team-player/62464a5f-27d2-4e69-b89e-fd013e3ca7a6",
                   "name": "Garry Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
                   "name": "Paul Dowdall",
                   "score": "5"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Robin Tasker",
-            "Ian Longstaff"
+            {
+              "playerId": "team-player/0fafe704-747a-4c87-8a6e-090ca8fa32b8",
+              "name": "Robin Tasker"
+            },
+            {
+              "playerId": "team-player/710dc62f-9fd4-4a08-92a0-77acb06c9fd0",
+              "name": "Ian Longstaff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/501f7b33-984c-4e85-9551-61654ff76a69",
               "players": [
                 {
+                  "playerId": "team-player/0fafe704-747a-4c87-8a6e-090ca8fa32b8",
                   "name": "Robin Tasker",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/710dc62f-9fd4-4a08-92a0-77acb06c9fd0",
                   "name": "Ian Longstaff",
                   "score": "7"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Sarah Clements",
-            "Ian Longstaff"
+            {
+              "playerId": "team-player/527b1dca-7334-4235-8e76-1d1def802fcc",
+              "name": "Sarah Clements"
+            },
+            {
+              "playerId": "team-player/710dc62f-9fd4-4a08-92a0-77acb06c9fd0",
+              "name": "Ian Longstaff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0654c5ae-cdfc-4565-a9ba-5c431c6f1ebb",
               "players": [
                 {
+                  "playerId": "team-player/527b1dca-7334-4235-8e76-1d1def802fcc",
                   "name": "Sarah Clements",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/710dc62f-9fd4-4a08-92a0-77acb06c9fd0",
                   "name": "Ian Longstaff",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "Mike Bradbury"
+            {
+              "playerId": "team-player/62464a5f-27d2-4e69-b89e-fd013e3ca7a6",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
+              "name": "Mike Bradbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/56d142ab-0013-4720-9b2a-6899a46227d7",
               "players": [
                 {
+                  "playerId": "team-player/62464a5f-27d2-4e69-b89e-fd013e3ca7a6",
                   "name": "Garry Greenwood",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
                   "name": "Mike Bradbury",
                   "score": "7"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Robin Tasker",
-            "Paul Dowdall"
+            {
+              "playerId": "team-player/0fafe704-747a-4c87-8a6e-090ca8fa32b8",
+              "name": "Robin Tasker"
+            },
+            {
+              "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
+              "name": "Paul Dowdall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6e3a967-345d-4489-8718-0e03655b3fa6",
               "players": [
                 {
+                  "playerId": "team-player/0fafe704-747a-4c87-8a6e-090ca8fa32b8",
                   "name": "Robin Tasker",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
                   "name": "Paul Dowdall",
                   "score": "7"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Sarah Clements",
-            "Paul Dowdall"
+            {
+              "playerId": "team-player/527b1dca-7334-4235-8e76-1d1def802fcc",
+              "name": "Sarah Clements"
+            },
+            {
+              "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
+              "name": "Paul Dowdall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e85c79df-412a-449b-9509-5c015b082560",
               "players": [
                 {
+                  "playerId": "team-player/527b1dca-7334-4235-8e76-1d1def802fcc",
                   "name": "Sarah Clements",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
                   "name": "Paul Dowdall",
                   "score": "1"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "Ian Longstaff"
+            {
+              "playerId": "team-player/62464a5f-27d2-4e69-b89e-fd013e3ca7a6",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/710dc62f-9fd4-4a08-92a0-77acb06c9fd0",
+              "name": "Ian Longstaff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1312c95e-f4f2-4e9f-adad-4ea56fa65137",
               "players": [
                 {
+                  "playerId": "team-player/62464a5f-27d2-4e69-b89e-fd013e3ca7a6",
                   "name": "Garry Greenwood",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/710dc62f-9fd4-4a08-92a0-77acb06c9fd0",
                   "name": "Ian Longstaff",
                   "score": "7"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Robin Tasker",
-            "Mike Bradbury"
+            {
+              "playerId": "team-player/0fafe704-747a-4c87-8a6e-090ca8fa32b8",
+              "name": "Robin Tasker"
+            },
+            {
+              "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
+              "name": "Mike Bradbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c2c70c23-7d89-4fb0-833a-fb3de53d2ab8",
               "players": [
                 {
+                  "playerId": "team-player/0fafe704-747a-4c87-8a6e-090ca8fa32b8",
                   "name": "Robin Tasker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
                   "name": "Mike Bradbury",
                   "score": "6"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Sarah Clements - meet again",
-            "Mike Bradbury"
+            {
+              "playerId": "team-player/9c5623f2-cfcb-472b-a9ba-fd912341fc02",
+              "name": "Sarah Clements - meet again"
+            },
+            {
+              "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
+              "name": "Mike Bradbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42192b25-8494-4827-b016-63cc03f64211",
               "players": [
                 {
+                  "playerId": "team-player/9c5623f2-cfcb-472b-a9ba-fd912341fc02",
                   "name": "Sarah Clements - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
                   "name": "Mike Bradbury",
                   "score": "7"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Garry Greenwood - meet again",
-            "Paul Dowdall"
+            {
+              "playerId": "team-player/0f76547b-53d0-46ec-ae00-30a8c67e0bf1",
+              "name": "Garry Greenwood - meet again"
+            },
+            {
+              "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
+              "name": "Paul Dowdall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6751070a-33fb-41f6-af60-5acef38e20e0",
               "players": [
                 {
+                  "playerId": "team-player/0f76547b-53d0-46ec-ae00-30a8c67e0bf1",
                   "name": "Garry Greenwood - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
                   "name": "Paul Dowdall",
                   "score": "7"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Robin Tasker",
-            "Ian Longstaff - meet again"
+            {
+              "playerId": "team-player/0fafe704-747a-4c87-8a6e-090ca8fa32b8",
+              "name": "Robin Tasker"
+            },
+            {
+              "playerId": "team-player/f1b8db85-c2d6-4c1c-a056-a87a1c92c925",
+              "name": "Ian Longstaff - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bc5c23de-e561-4213-be3b-582291e59952",
               "players": [
                 {
+                  "playerId": "team-player/0fafe704-747a-4c87-8a6e-090ca8fa32b8",
                   "name": "Robin Tasker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f1b8db85-c2d6-4c1c-a056-a87a1c92c925",
                   "name": "Ian Longstaff - meet again",
                   "score": "4"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Sarah Clements - meet again",
-            "Ian Longstaff"
+            {
+              "playerId": "team-player/9c5623f2-cfcb-472b-a9ba-fd912341fc02",
+              "name": "Sarah Clements - meet again"
+            },
+            {
+              "playerId": "team-player/710dc62f-9fd4-4a08-92a0-77acb06c9fd0",
+              "name": "Ian Longstaff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/677e4f83-85b6-4581-9c07-2791e704b4d9",
               "players": [
                 {
+                  "playerId": "team-player/9c5623f2-cfcb-472b-a9ba-fd912341fc02",
                   "name": "Sarah Clements - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/710dc62f-9fd4-4a08-92a0-77acb06c9fd0",
                   "name": "Ian Longstaff",
                   "score": "5"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Garry Greenwood - meet again",
-            "Mike Bradbury"
+            {
+              "playerId": "team-player/0f76547b-53d0-46ec-ae00-30a8c67e0bf1",
+              "name": "Garry Greenwood - meet again"
+            },
+            {
+              "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
+              "name": "Mike Bradbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7b42271d-bc01-4cd7-91bb-e3effbfb5f31",
               "players": [
                 {
+                  "playerId": "team-player/0f76547b-53d0-46ec-ae00-30a8c67e0bf1",
                   "name": "Garry Greenwood - meet again",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
                   "name": "Mike Bradbury",
                   "score": "7"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Robin Tasker - meet again",
-            "Paul Dowdall"
+            {
+              "playerId": "team-player/d94d62a1-bbec-48a8-81cc-00f85fb48c1b",
+              "name": "Robin Tasker - meet again"
+            },
+            {
+              "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
+              "name": "Paul Dowdall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3d549b98-6498-4892-8214-ff899ed8f333",
               "players": [
                 {
+                  "playerId": "team-player/d94d62a1-bbec-48a8-81cc-00f85fb48c1b",
                   "name": "Robin Tasker - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
                   "name": "Paul Dowdall",
                   "score": "7"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Sarah Clements - meet again",
-            "Paul Dowdall"
+            {
+              "playerId": "team-player/9c5623f2-cfcb-472b-a9ba-fd912341fc02",
+              "name": "Sarah Clements - meet again"
+            },
+            {
+              "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
+              "name": "Paul Dowdall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb27acec-1716-4d97-b1dc-2ed1379255e6",
               "players": [
                 {
+                  "playerId": "team-player/9c5623f2-cfcb-472b-a9ba-fd912341fc02",
                   "name": "Sarah Clements - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e4440646-cf71-481a-8bec-3c143dc790cc",
                   "name": "Paul Dowdall",
                   "score": "2"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "Garry Greenwood",
-            "Ian Longstaff - meet again"
+            {
+              "playerId": "team-player/62464a5f-27d2-4e69-b89e-fd013e3ca7a6",
+              "name": "Garry Greenwood"
+            },
+            {
+              "playerId": "team-player/f1b8db85-c2d6-4c1c-a056-a87a1c92c925",
+              "name": "Ian Longstaff - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/14c3acce-511e-4372-ad54-f0e921d391a9",
               "players": [
                 {
+                  "playerId": "team-player/62464a5f-27d2-4e69-b89e-fd013e3ca7a6",
                   "name": "Garry Greenwood",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f1b8db85-c2d6-4c1c-a056-a87a1c92c925",
                   "name": "Ian Longstaff - meet again",
                   "score": "7"
                 }
@@ -415,17 +602,26 @@
         },
         {
           "players": [
-            "Robin Tasker - meet again",
-            "Mike Bradbury"
+            {
+              "playerId": "team-player/d94d62a1-bbec-48a8-81cc-00f85fb48c1b",
+              "name": "Robin Tasker - meet again"
+            },
+            {
+              "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
+              "name": "Mike Bradbury"
+            }
           ],
           "games": [
             {
+              "gameId": "game/93f51d76-0556-4228-9d3c-ff114cd441c7",
               "players": [
                 {
+                  "playerId": "team-player/d94d62a1-bbec-48a8-81cc-00f85fb48c1b",
                   "name": "Robin Tasker - meet again",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/40d989c5-899d-4fd0-8db6-0c8364ac9864",
                   "name": "Mike Bradbury",
                   "score": "7"
                 }

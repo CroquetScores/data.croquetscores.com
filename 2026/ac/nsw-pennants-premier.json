@@ -1,51 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/88bb039e-3268-4f2d-b20f-8dcfa707b949",
   "name": "NSW AC Pennants PREMIER",
   "sport": "ac",
   "firstDay": "2026-09-30",
   "lastDay": "2026-11-04",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Cammeroos",
       "shortName": "Cammeroos",
       "players": [
-        "Peter Landrebe",
-        "Rosie Landrebe",
-        "Rosie Landrebe & Peter Landrebe"
+        {
+          "playerId": "team-player/5c8f55d0-1f91-4dfe-89e0-d4e9891879e8",
+          "name": "Peter Landrebe"
+        },
+        {
+          "playerId": "team-player/c34c57a1-b83f-462f-a67e-3c547a427469",
+          "name": "Rosie Landrebe"
+        },
+        {
+          "playerId": "team-player/8a89afb0-9ac4-4211-9e97-f58f7f185fc8",
+          "name": "Rosie Landrebe & Peter Landrebe"
+        }
       ]
     },
     {
       "name": "Cammelots",
       "shortName": "Cammelots",
       "players": [
-        "Alison Sharpe",
-        "Alison Sharpe & James Carlisle",
-        "James Carlisle"
+        {
+          "playerId": "team-player/195e3140-150b-4515-abd5-2ad97bd1a45a",
+          "name": "Alison Sharpe"
+        },
+        {
+          "playerId": "team-player/b20f1bdc-7da2-4d56-9047-75d65ae32f8e",
+          "name": "Alison Sharpe & James Carlisle"
+        },
+        {
+          "playerId": "team-player/f9781352-cd50-4d9f-822a-3b03f5483211",
+          "name": "James Carlisle"
+        }
       ]
     },
     {
       "name": "Cooks River",
       "shortName": "Cooks Rive",
       "players": [
-        "Paul Skvorc",
-        "Rob Elliott",
-        "Rob Elliott & Paul Skvorc"
+        {
+          "playerId": "team-player/4e70c922-3ac6-4c72-a6fe-eb5533cd5020",
+          "name": "Paul Skvorc"
+        },
+        {
+          "playerId": "team-player/611dffce-2ce6-417e-a13c-b85322126972",
+          "name": "Rob Elliott"
+        },
+        {
+          "playerId": "team-player/ea59f628-9a88-474f-a253-4f5c25a3924c",
+          "name": "Rob Elliott & Paul Skvorc"
+        }
       ]
     },
     {
       "name": "Killara/Warrawee",
       "shortName": "Killara/Wa",
       "players": [
-        "Brett Rogers",
-        "Brett Rogers & John Bartrop",
-        "John Bartrop"
+        {
+          "playerId": "team-player/2f7d8c1e-1120-494b-8e96-5141e2e8d43b",
+          "name": "Brett Rogers"
+        },
+        {
+          "playerId": "team-player/e0d9add6-5d72-462f-b0b7-8005f57d3e2e",
+          "name": "Brett Rogers & John Bartrop"
+        },
+        {
+          "playerId": "team-player/f817f504-8fdc-48ef-bff0-799b822e1e2c",
+          "name": "John Bartrop"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/fb4aea53-6ad4-4359-8023-2011bbae2931",
       "teams": [
         "Cammeroos",
         "Cammelots"
@@ -55,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Rosie Landrebe & Peter Landrebe",
-            "Alison Sharpe & James Carlisle"
+            {
+              "playerId": "team-player/8a89afb0-9ac4-4211-9e97-f58f7f185fc8",
+              "name": "Rosie Landrebe & Peter Landrebe"
+            },
+            {
+              "playerId": "team-player/b20f1bdc-7da2-4d56-9047-75d65ae32f8e",
+              "name": "Alison Sharpe & James Carlisle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/071e2649-b2dd-48ed-a96d-27f62a11656f",
               "players": [
                 {
+                  "playerId": "team-player/8a89afb0-9ac4-4211-9e97-f58f7f185fc8",
                   "name": "Rosie Landrebe & Peter Landrebe",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b20f1bdc-7da2-4d56-9047-75d65ae32f8e",
                   "name": "Alison Sharpe & James Carlisle",
                   "score": "14"
                 }
@@ -77,17 +126,26 @@
         },
         {
           "players": [
-            "Rosie Landrebe",
-            "Alison Sharpe"
+            {
+              "playerId": "team-player/c34c57a1-b83f-462f-a67e-3c547a427469",
+              "name": "Rosie Landrebe"
+            },
+            {
+              "playerId": "team-player/195e3140-150b-4515-abd5-2ad97bd1a45a",
+              "name": "Alison Sharpe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2eaed5b9-244d-4935-8a17-37196022ff03",
               "players": [
                 {
+                  "playerId": "team-player/c34c57a1-b83f-462f-a67e-3c547a427469",
                   "name": "Rosie Landrebe",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/195e3140-150b-4515-abd5-2ad97bd1a45a",
                   "name": "Alison Sharpe",
                   "score": "23"
                 }
@@ -99,17 +157,26 @@
         },
         {
           "players": [
-            "Peter Landrebe",
-            "James Carlisle"
+            {
+              "playerId": "team-player/5c8f55d0-1f91-4dfe-89e0-d4e9891879e8",
+              "name": "Peter Landrebe"
+            },
+            {
+              "playerId": "team-player/f9781352-cd50-4d9f-822a-3b03f5483211",
+              "name": "James Carlisle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/21964199-4ef7-4a06-804e-e082653d25b5",
               "players": [
                 {
+                  "playerId": "team-player/5c8f55d0-1f91-4dfe-89e0-d4e9891879e8",
                   "name": "Peter Landrebe",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f9781352-cd50-4d9f-822a-3b03f5483211",
                   "name": "James Carlisle",
                   "score": "6"
                 }
@@ -122,6 +189,7 @@
       ]
     },
     {
+      "competitionId": "competition/68062b7c-a946-4f73-bdde-145669e4df74",
       "teams": [
         "Cammelots",
         "Cooks River"
@@ -131,17 +199,26 @@
       "matches": [
         {
           "players": [
-            "Alison Sharpe & James Carlisle",
-            "Rob Elliott & Paul Skvorc"
+            {
+              "playerId": "team-player/b20f1bdc-7da2-4d56-9047-75d65ae32f8e",
+              "name": "Alison Sharpe & James Carlisle"
+            },
+            {
+              "playerId": "team-player/ea59f628-9a88-474f-a253-4f5c25a3924c",
+              "name": "Rob Elliott & Paul Skvorc"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eff042db-88a7-4e13-a1a7-ed985b175a71",
               "players": [
                 {
+                  "playerId": "team-player/b20f1bdc-7da2-4d56-9047-75d65ae32f8e",
                   "name": "Alison Sharpe & James Carlisle",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ea59f628-9a88-474f-a253-4f5c25a3924c",
                   "name": "Rob Elliott & Paul Skvorc",
                   "score": "14"
                 }
@@ -153,17 +230,26 @@
         },
         {
           "players": [
-            "Alison Sharpe",
-            "Rob Elliott"
+            {
+              "playerId": "team-player/195e3140-150b-4515-abd5-2ad97bd1a45a",
+              "name": "Alison Sharpe"
+            },
+            {
+              "playerId": "team-player/611dffce-2ce6-417e-a13c-b85322126972",
+              "name": "Rob Elliott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/29ed1725-cbbd-4a82-86c0-d2a2482a84aa",
               "players": [
                 {
+                  "playerId": "team-player/195e3140-150b-4515-abd5-2ad97bd1a45a",
                   "name": "Alison Sharpe",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/611dffce-2ce6-417e-a13c-b85322126972",
                   "name": "Rob Elliott",
                   "score": "15"
                 }
@@ -175,17 +261,26 @@
         },
         {
           "players": [
-            "James Carlisle",
-            "Paul Skvorc"
+            {
+              "playerId": "team-player/f9781352-cd50-4d9f-822a-3b03f5483211",
+              "name": "James Carlisle"
+            },
+            {
+              "playerId": "team-player/4e70c922-3ac6-4c72-a6fe-eb5533cd5020",
+              "name": "Paul Skvorc"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fccc6881-67e8-46b5-84bd-9f6061e391fe",
               "players": [
                 {
+                  "playerId": "team-player/f9781352-cd50-4d9f-822a-3b03f5483211",
                   "name": "James Carlisle",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/4e70c922-3ac6-4c72-a6fe-eb5533cd5020",
                   "name": "Paul Skvorc",
                   "score": "3"
                 }
@@ -198,6 +293,7 @@
       ]
     },
     {
+      "competitionId": "competition/59f4dbb7-c322-4669-8129-9df8dbb77fb2",
       "teams": [
         "Killara/Warrawee",
         "Cammelots"
@@ -207,17 +303,26 @@
       "matches": [
         {
           "players": [
-            "Brett Rogers & John Bartrop",
-            "Alison Sharpe & James Carlisle"
+            {
+              "playerId": "team-player/e0d9add6-5d72-462f-b0b7-8005f57d3e2e",
+              "name": "Brett Rogers & John Bartrop"
+            },
+            {
+              "playerId": "team-player/b20f1bdc-7da2-4d56-9047-75d65ae32f8e",
+              "name": "Alison Sharpe & James Carlisle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa07d61a-2531-4c22-bff5-99adafefdb72",
               "players": [
                 {
+                  "playerId": "team-player/e0d9add6-5d72-462f-b0b7-8005f57d3e2e",
                   "name": "Brett Rogers & John Bartrop",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/b20f1bdc-7da2-4d56-9047-75d65ae32f8e",
                   "name": "Alison Sharpe & James Carlisle",
                   "score": "26"
                 }
@@ -229,17 +334,26 @@
         },
         {
           "players": [
-            "Brett Rogers",
-            "Alison Sharpe"
+            {
+              "playerId": "team-player/2f7d8c1e-1120-494b-8e96-5141e2e8d43b",
+              "name": "Brett Rogers"
+            },
+            {
+              "playerId": "team-player/195e3140-150b-4515-abd5-2ad97bd1a45a",
+              "name": "Alison Sharpe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dc33f927-8fd3-48bf-92dd-b6f88f864347",
               "players": [
                 {
+                  "playerId": "team-player/2f7d8c1e-1120-494b-8e96-5141e2e8d43b",
                   "name": "Brett Rogers",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/195e3140-150b-4515-abd5-2ad97bd1a45a",
                   "name": "Alison Sharpe",
                   "score": "26"
                 }
@@ -251,17 +365,26 @@
         },
         {
           "players": [
-            "John Bartrop",
-            "James Carlisle"
+            {
+              "playerId": "team-player/f817f504-8fdc-48ef-bff0-799b822e1e2c",
+              "name": "John Bartrop"
+            },
+            {
+              "playerId": "team-player/f9781352-cd50-4d9f-822a-3b03f5483211",
+              "name": "James Carlisle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05860f09-45e0-4b25-b6c0-70079bbcedd3",
               "players": [
                 {
+                  "playerId": "team-player/f817f504-8fdc-48ef-bff0-799b822e1e2c",
                   "name": "John Bartrop",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/f9781352-cd50-4d9f-822a-3b03f5483211",
                   "name": "James Carlisle",
                   "score": "26"
                 }

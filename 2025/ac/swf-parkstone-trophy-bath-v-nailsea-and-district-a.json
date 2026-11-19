@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b54c1448-d04c-40e2-b7c6-53496dee2ff6",
   "name": "SWF Parkstone Trophy Bath v Nailsea and District A",
   "sport": "ac",
   "firstDay": "2025-08-16",
   "lastDay": "2025-08-16",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bath",
       "shortName": "Bath",
       "players": [
-        "David Prescott",
-        "Neil Pinker",
-        "Neil Pinker & David Prescott",
-        "Pete Miles"
+        {
+          "playerId": "team-player/fb924b7d-7527-49d1-89b0-77f1647c3d94",
+          "name": "David Prescott"
+        },
+        {
+          "playerId": "team-player/c650c092-04b0-4d10-9817-dc837466037d",
+          "name": "Neil Pinker"
+        },
+        {
+          "playerId": "team-player/af8d44f0-4c1e-4c6b-9eb8-ef360e2fc803",
+          "name": "Neil Pinker & David Prescott"
+        },
+        {
+          "playerId": "team-player/ed8f9fa4-cb13-4cb2-bda1-590c0590aeda",
+          "name": "Pete Miles"
+        }
       ]
     },
     {
       "name": "Nailsea and District A",
       "shortName": "Nailsea an",
       "players": [
-        "James Galpin",
-        "James Galpin & Pat Long",
-        "Marcus Evans",
-        "Pat Long"
+        {
+          "playerId": "team-player/3a775ebe-f5b7-4159-b20e-73b50a5dd742",
+          "name": "James Galpin"
+        },
+        {
+          "playerId": "team-player/e11ae742-4ca7-4d5f-bdd6-6ff286eb707b",
+          "name": "James Galpin & Pat Long"
+        },
+        {
+          "playerId": "team-player/04f16676-1383-4aeb-8282-297994d22dbc",
+          "name": "Marcus Evans"
+        },
+        {
+          "playerId": "team-player/a9fd4043-a9eb-4e95-98ea-4042704489f5",
+          "name": "Pat Long"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/da0acb16-6489-4610-8709-d89bf8581ad3",
       "teams": [
         "Bath",
         "Nailsea and District A"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Neil Pinker & David Prescott",
-            "James Galpin & Pat Long"
+            {
+              "playerId": "team-player/af8d44f0-4c1e-4c6b-9eb8-ef360e2fc803",
+              "name": "Neil Pinker & David Prescott"
+            },
+            {
+              "playerId": "team-player/e11ae742-4ca7-4d5f-bdd6-6ff286eb707b",
+              "name": "James Galpin & Pat Long"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c178e3a0-a070-4341-be80-fa764c095e0f",
               "players": [
                 {
+                  "playerId": "team-player/af8d44f0-4c1e-4c6b-9eb8-ef360e2fc803",
                   "name": "Neil Pinker & David Prescott",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/e11ae742-4ca7-4d5f-bdd6-6ff286eb707b",
                   "name": "James Galpin & Pat Long",
                   "score": "25"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Pete Miles",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/ed8f9fa4-cb13-4cb2-bda1-590c0590aeda",
+              "name": "Pete Miles"
+            },
+            {
+              "playerId": "team-player/04f16676-1383-4aeb-8282-297994d22dbc",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4dd8388-78e8-487e-86a4-577228a69d45",
               "players": [
                 {
+                  "playerId": "team-player/ed8f9fa4-cb13-4cb2-bda1-590c0590aeda",
                   "name": "Pete Miles",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/04f16676-1383-4aeb-8282-297994d22dbc",
                   "name": "Marcus Evans",
                   "score": "26"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Pete Miles",
-            "James Galpin"
+            {
+              "playerId": "team-player/ed8f9fa4-cb13-4cb2-bda1-590c0590aeda",
+              "name": "Pete Miles"
+            },
+            {
+              "playerId": "team-player/3a775ebe-f5b7-4159-b20e-73b50a5dd742",
+              "name": "James Galpin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/710faefa-4b6f-40f4-afe4-0596cf97d784",
               "players": [
                 {
+                  "playerId": "team-player/ed8f9fa4-cb13-4cb2-bda1-590c0590aeda",
                   "name": "Pete Miles",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/3a775ebe-f5b7-4159-b20e-73b50a5dd742",
                   "name": "James Galpin",
                   "score": "26tp"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "David Prescott",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/fb924b7d-7527-49d1-89b0-77f1647c3d94",
+              "name": "David Prescott"
+            },
+            {
+              "playerId": "team-player/04f16676-1383-4aeb-8282-297994d22dbc",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ae1ec5e-3d3f-41f1-9e25-6b9dbfe96595",
               "players": [
                 {
+                  "playerId": "team-player/fb924b7d-7527-49d1-89b0-77f1647c3d94",
                   "name": "David Prescott",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/04f16676-1383-4aeb-8282-297994d22dbc",
                   "name": "Marcus Evans",
                   "score": "26tp"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Neil Pinker",
-            "Pat Long"
+            {
+              "playerId": "team-player/c650c092-04b0-4d10-9817-dc837466037d",
+              "name": "Neil Pinker"
+            },
+            {
+              "playerId": "team-player/a9fd4043-a9eb-4e95-98ea-4042704489f5",
+              "name": "Pat Long"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9be72911-a854-4873-a000-b19815af9bcd",
               "players": [
                 {
+                  "playerId": "team-player/c650c092-04b0-4d10-9817-dc837466037d",
                   "name": "Neil Pinker",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/a9fd4043-a9eb-4e95-98ea-4042704489f5",
                   "name": "Pat Long",
                   "score": "20"
                 }

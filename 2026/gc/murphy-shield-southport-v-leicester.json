@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f04a4b1a-9eb3-45f7-93c9-7b5c2adeb236",
   "name": "Murphy Shield GC Southport v Leicester",
   "sport": "gc",
   "firstDay": "2026-07-10",
   "lastDay": "2026-07-10",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Southport",
       "shortName": "Southport",
       "players": [
-        "Dave Venables",
-        "Eddie Green",
-        "Green/Venables",
-        "Paul Greenwood",
-        "Terry Dunbar"
+        {
+          "playerId": "team-player/04b3421d-a32a-48dc-9f56-0cb58c7ea7e7",
+          "name": "Dave Venables"
+        },
+        {
+          "playerId": "team-player/167f2eef-d850-48a8-91da-324d05618bc5",
+          "name": "Eddie Green"
+        },
+        {
+          "playerId": "team-player/b059e824-efbd-48c7-8ca3-392209c91c13",
+          "name": "Green/Venables"
+        },
+        {
+          "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
+          "name": "Paul Greenwood"
+        },
+        {
+          "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
+          "name": "Terry Dunbar"
+        }
       ]
     },
     {
       "name": "Leicester",
       "shortName": "Leicester",
       "players": [
-        "Alison Murray",
-        "Buckley/Williams",
-        "Mark Buckley",
-        "Mark Lansdale",
-        "Paul J  Williams"
+        {
+          "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
+          "name": "Alison Murray"
+        },
+        {
+          "playerId": "team-player/5b4c1898-768c-475c-9773-a6cae1ff927e",
+          "name": "Buckley/Williams"
+        },
+        {
+          "playerId": "team-player/dfae351f-0736-4963-9a31-1e00e5f53258",
+          "name": "Mark Buckley"
+        },
+        {
+          "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
+          "name": "Mark Lansdale"
+        },
+        {
+          "playerId": "team-player/06aeb728-a8ef-4b05-a1da-6e6dccaace12",
+          "name": "Paul J  Williams"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/9fa5d932-1fdc-4956-8da4-d6befd8f1df9",
       "teams": [
         "Southport",
         "Leicester"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Green/Venables",
-            "Buckley/Williams"
+            {
+              "playerId": "team-player/b059e824-efbd-48c7-8ca3-392209c91c13",
+              "name": "Green/Venables"
+            },
+            {
+              "playerId": "team-player/5b4c1898-768c-475c-9773-a6cae1ff927e",
+              "name": "Buckley/Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/93906ead-9d59-40e7-ba22-ed3735e04d95",
               "players": [
                 {
+                  "playerId": "team-player/b059e824-efbd-48c7-8ca3-392209c91c13",
                   "name": "Green/Venables",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5b4c1898-768c-475c-9773-a6cae1ff927e",
                   "name": "Buckley/Williams",
                   "score": "6"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5db931bd-bf79-4999-9bb4-a5f85dc72997",
               "players": [
                 {
+                  "playerId": "team-player/b059e824-efbd-48c7-8ca3-392209c91c13",
                   "name": "Green/Venables",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/5b4c1898-768c-475c-9773-a6cae1ff927e",
                   "name": "Buckley/Williams",
                   "score": "7"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/85c1c966-e9d6-466b-b02c-e314a146c24a",
               "players": [
                 {
+                  "playerId": "team-player/b059e824-efbd-48c7-8ca3-392209c91c13",
                   "name": "Green/Venables",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5b4c1898-768c-475c-9773-a6cae1ff927e",
                   "name": "Buckley/Williams",
                   "score": "4"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "Paul Greenwood",
-            "Mark Lansdale"
+            {
+              "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
+              "name": "Paul Greenwood"
+            },
+            {
+              "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
+              "name": "Mark Lansdale"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0b1216db-eb7f-4a02-8dd1-e6366590dff7",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "7"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/13698a9d-c954-4ff7-b755-95b85d00e6e6",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "3"
                 }
@@ -124,12 +185,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ea452b8c-9938-4e22-9c7b-2ed51c0c2d3a",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "5"
                 }
@@ -141,17 +205,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Alison Murray"
+            {
+              "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
+              "name": "Alison Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2fee770c-8c62-432d-916c-09ffca21a595",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
                   "name": "Alison Murray",
                   "score": "6"
                 }
@@ -160,12 +233,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fe78386d-d7ae-4360-b262-22a8aaac890c",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
                   "name": "Alison Murray",
                   "score": "6"
                 }
@@ -177,17 +253,26 @@
         },
         {
           "players": [
-            "Eddie Green",
-            "Mark Buckley"
+            {
+              "playerId": "team-player/167f2eef-d850-48a8-91da-324d05618bc5",
+              "name": "Eddie Green"
+            },
+            {
+              "playerId": "team-player/dfae351f-0736-4963-9a31-1e00e5f53258",
+              "name": "Mark Buckley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b134890-d8b0-48f7-8df6-5c46c11b06ff",
               "players": [
                 {
+                  "playerId": "team-player/167f2eef-d850-48a8-91da-324d05618bc5",
                   "name": "Eddie Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dfae351f-0736-4963-9a31-1e00e5f53258",
                   "name": "Mark Buckley",
                   "score": "3"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/027c03d7-5838-4e78-89dd-8cb7e460d0ce",
               "players": [
                 {
+                  "playerId": "team-player/167f2eef-d850-48a8-91da-324d05618bc5",
                   "name": "Eddie Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dfae351f-0736-4963-9a31-1e00e5f53258",
                   "name": "Mark Buckley",
                   "score": "3"
                 }
@@ -213,17 +301,26 @@
         },
         {
           "players": [
-            "Dave Venables",
-            "Paul J  Williams"
+            {
+              "playerId": "team-player/04b3421d-a32a-48dc-9f56-0cb58c7ea7e7",
+              "name": "Dave Venables"
+            },
+            {
+              "playerId": "team-player/06aeb728-a8ef-4b05-a1da-6e6dccaace12",
+              "name": "Paul J  Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c5640625-f41b-4ca5-a505-bc3c7b50c65f",
               "players": [
                 {
+                  "playerId": "team-player/04b3421d-a32a-48dc-9f56-0cb58c7ea7e7",
                   "name": "Dave Venables",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/06aeb728-a8ef-4b05-a1da-6e6dccaace12",
                   "name": "Paul J  Williams",
                   "score": "7"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a77c58fe-96cb-4840-bec8-4b50cb5d5c3b",
               "players": [
                 {
+                  "playerId": "team-player/04b3421d-a32a-48dc-9f56-0cb58c7ea7e7",
                   "name": "Dave Venables",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/06aeb728-a8ef-4b05-a1da-6e6dccaace12",
                   "name": "Paul J  Williams",
                   "score": "6"
                 }
@@ -246,12 +346,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3d6a7f3a-4261-404c-8095-82aef44ef6b9",
               "players": [
                 {
+                  "playerId": "team-player/04b3421d-a32a-48dc-9f56-0cb58c7ea7e7",
                   "name": "Dave Venables",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/06aeb728-a8ef-4b05-a1da-6e6dccaace12",
                   "name": "Paul J  Williams",
                   "score": "7"
                 }
@@ -263,17 +366,26 @@
         },
         {
           "players": [
-            "Paul Greenwood",
-            "Alison Murray"
+            {
+              "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
+              "name": "Paul Greenwood"
+            },
+            {
+              "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
+              "name": "Alison Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/106071e0-0dc5-4813-953b-d5e9414ca64b",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
                   "name": "Alison Murray",
                   "score": "7"
                 }
@@ -282,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0bd796b3-3a6b-48f3-9307-fb7c70aa1f78",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
                   "name": "Alison Murray",
                   "score": "5"
                 }
@@ -299,17 +414,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Mark Lansdale"
+            {
+              "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
+              "name": "Mark Lansdale"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1b74a92-5e8a-43b7-9987-a4a6794ce44b",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "7"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0e69e96c-e63a-4e47-8c91-cd60a363ab97",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "5"
                 }
@@ -332,12 +459,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9180b8a0-2e73-4729-a126-0209be003596",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "5"
                 }
@@ -350,6 +480,7 @@
       ]
     },
     {
+      "competitionId": "competition/ccb68dbe-4cac-402e-b8a7-24e9fc6817ae",
       "teams": [
         "Southport",
         "Leicester"
@@ -359,17 +490,26 @@
       "matches": [
         {
           "players": [
-            "Green/Venables",
-            "Buckley/Williams"
+            {
+              "playerId": "team-player/b059e824-efbd-48c7-8ca3-392209c91c13",
+              "name": "Green/Venables"
+            },
+            {
+              "playerId": "team-player/5b4c1898-768c-475c-9773-a6cae1ff927e",
+              "name": "Buckley/Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ee8f8538-41e1-46cf-84a8-ea913650ad90",
               "players": [
                 {
+                  "playerId": "team-player/b059e824-efbd-48c7-8ca3-392209c91c13",
                   "name": "Green/Venables",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5b4c1898-768c-475c-9773-a6cae1ff927e",
                   "name": "Buckley/Williams",
                   "score": "6"
                 }
@@ -378,12 +518,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/02859f6a-fd9d-4cf3-9515-15c96b4ad198",
               "players": [
                 {
+                  "playerId": "team-player/b059e824-efbd-48c7-8ca3-392209c91c13",
                   "name": "Green/Venables",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/5b4c1898-768c-475c-9773-a6cae1ff927e",
                   "name": "Buckley/Williams",
                   "score": "7"
                 }
@@ -392,12 +535,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0551afe6-c3fd-4443-abf0-96d99378c706",
               "players": [
                 {
+                  "playerId": "team-player/b059e824-efbd-48c7-8ca3-392209c91c13",
                   "name": "Green/Venables",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5b4c1898-768c-475c-9773-a6cae1ff927e",
                   "name": "Buckley/Williams",
                   "score": "4"
                 }
@@ -409,17 +555,26 @@
         },
         {
           "players": [
-            "Paul Greenwood",
-            "Mark Lansdale"
+            {
+              "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
+              "name": "Paul Greenwood"
+            },
+            {
+              "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
+              "name": "Mark Lansdale"
+            }
           ],
           "games": [
             {
+              "gameId": "game/24521615-434e-401f-890a-62123a57aa2d",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "7"
                 }
@@ -428,12 +583,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1014c70b-8aba-4e3b-81ec-9aae5ff0a018",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "3"
                 }
@@ -442,12 +600,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/99320638-9db6-4f76-963a-796f82b44c64",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "5"
                 }
@@ -459,17 +620,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Alison Murray"
+            {
+              "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
+              "name": "Alison Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d0ee2d43-50d4-489f-b4c4-3ebcfb7b1845",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
                   "name": "Alison Murray",
                   "score": "6"
                 }
@@ -478,12 +648,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dfb3af4f-91c5-4f5f-9252-4b32559f14eb",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
                   "name": "Alison Murray",
                   "score": "6"
                 }
@@ -495,17 +668,26 @@
         },
         {
           "players": [
-            "Eddie Green",
-            "Mark Buckley"
+            {
+              "playerId": "team-player/167f2eef-d850-48a8-91da-324d05618bc5",
+              "name": "Eddie Green"
+            },
+            {
+              "playerId": "team-player/dfae351f-0736-4963-9a31-1e00e5f53258",
+              "name": "Mark Buckley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b481545f-e949-4c97-b6a7-18829057b841",
               "players": [
                 {
+                  "playerId": "team-player/167f2eef-d850-48a8-91da-324d05618bc5",
                   "name": "Eddie Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dfae351f-0736-4963-9a31-1e00e5f53258",
                   "name": "Mark Buckley",
                   "score": "3"
                 }
@@ -514,12 +696,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b34b966f-8e01-42fa-80a6-d4cc502ac42b",
               "players": [
                 {
+                  "playerId": "team-player/167f2eef-d850-48a8-91da-324d05618bc5",
                   "name": "Eddie Green",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dfae351f-0736-4963-9a31-1e00e5f53258",
                   "name": "Mark Buckley",
                   "score": "3"
                 }
@@ -531,17 +716,26 @@
         },
         {
           "players": [
-            "Dave Venables",
-            "Paul J  Williams"
+            {
+              "playerId": "team-player/04b3421d-a32a-48dc-9f56-0cb58c7ea7e7",
+              "name": "Dave Venables"
+            },
+            {
+              "playerId": "team-player/06aeb728-a8ef-4b05-a1da-6e6dccaace12",
+              "name": "Paul J  Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/838f2655-74ea-4f9f-bf96-a4295244fa3e",
               "players": [
                 {
+                  "playerId": "team-player/04b3421d-a32a-48dc-9f56-0cb58c7ea7e7",
                   "name": "Dave Venables",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/06aeb728-a8ef-4b05-a1da-6e6dccaace12",
                   "name": "Paul J  Williams",
                   "score": "7"
                 }
@@ -550,12 +744,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c6cef6fd-1964-4af5-af1e-e533130c1825",
               "players": [
                 {
+                  "playerId": "team-player/04b3421d-a32a-48dc-9f56-0cb58c7ea7e7",
                   "name": "Dave Venables",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/06aeb728-a8ef-4b05-a1da-6e6dccaace12",
                   "name": "Paul J  Williams",
                   "score": "6"
                 }
@@ -564,12 +761,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dc37f51d-6f2d-4dae-a97f-cf4cc74fe592",
               "players": [
                 {
+                  "playerId": "team-player/04b3421d-a32a-48dc-9f56-0cb58c7ea7e7",
                   "name": "Dave Venables",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/06aeb728-a8ef-4b05-a1da-6e6dccaace12",
                   "name": "Paul J  Williams",
                   "score": "7"
                 }
@@ -581,17 +781,26 @@
         },
         {
           "players": [
-            "Paul Greenwood",
-            "Alison Murray"
+            {
+              "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
+              "name": "Paul Greenwood"
+            },
+            {
+              "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
+              "name": "Alison Murray"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32a6cc93-ccc1-4308-9c04-82a570150e32",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
                   "name": "Alison Murray",
                   "score": "7"
                 }
@@ -600,12 +809,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b184368e-57ce-488e-a027-448ee7f21156",
               "players": [
                 {
+                  "playerId": "team-player/fcd7f64f-7203-41cf-8b36-aceda6948141",
                   "name": "Paul Greenwood",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1761ec1-8141-4d2a-8cf7-a8bad80db3ff",
                   "name": "Alison Murray",
                   "score": "5"
                 }
@@ -617,17 +829,26 @@
         },
         {
           "players": [
-            "Terry Dunbar",
-            "Mark Lansdale"
+            {
+              "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
+              "name": "Terry Dunbar"
+            },
+            {
+              "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
+              "name": "Mark Lansdale"
+            }
           ],
           "games": [
             {
+              "gameId": "game/41e9a6f8-2b75-432b-baad-c8b0de656e81",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "7"
                 }
@@ -636,12 +857,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4bad9685-0d7f-400a-a827-6e4ae3dafdfa",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "5"
                 }
@@ -650,12 +874,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/54f938cb-fa84-4ccd-85e8-e2f5fd339ded",
               "players": [
                 {
+                  "playerId": "team-player/aa4dd11e-e195-438e-90b3-35c073cd24f0",
                   "name": "Terry Dunbar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/843c9661-a146-4b16-84ab-2010bfc1e681",
                   "name": "Mark Lansdale",
                   "score": "5"
                 }

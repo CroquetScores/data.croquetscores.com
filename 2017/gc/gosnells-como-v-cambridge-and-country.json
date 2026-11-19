@@ -1,49 +1,119 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/ec02554e-946d-45a5-a2ee-43207a4bad66",
   "name": "WA GC Gosnells/Como v Cambridge and Country",
   "sport": "gc",
   "firstDay": "2017-12-16",
   "lastDay": "2017-12-16",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Gosnells/Como",
       "shortName": "Gosnells/C",
       "players": [
-        "Ben Brown",
-        "Ben Brown and Jenni Rechter",
-        "Ben Brown and Joyce Carbone",
-        "Ben Brown and Peter Pekaar",
-        "Jenni Rechter",
-        "Joyce Carbone",
-        "Peter Brown",
-        "Peter Brown and Jenni Rechter",
-        "Peter Brown and Joyce Carbone",
-        "Peter Brown and Peter Pekaar",
-        "Peter Pekaar"
+        {
+          "playerId": "team-player/2e2ca04d-5c46-4ae8-9c8f-0e7e5683f0ac",
+          "name": "Ben Brown"
+        },
+        {
+          "playerId": "team-player/6f359f1e-969c-42a3-89e4-50f60ec985e7",
+          "name": "Ben Brown and Jenni Rechter"
+        },
+        {
+          "playerId": "team-player/8088216d-123e-4650-b151-e6ebba77a9ee",
+          "name": "Ben Brown and Joyce Carbone"
+        },
+        {
+          "playerId": "team-player/f0494e4e-76a8-423a-84f5-8db97e48828e",
+          "name": "Ben Brown and Peter Pekaar"
+        },
+        {
+          "playerId": "team-player/79747ea2-0acc-4016-87a9-9a5403651b07",
+          "name": "Jenni Rechter"
+        },
+        {
+          "playerId": "team-player/15526c7b-c7b2-43b6-9f72-bfcd90e80f71",
+          "name": "Joyce Carbone"
+        },
+        {
+          "playerId": "team-player/b0693a45-4b83-491b-bbeb-7a9305b2390c",
+          "name": "Peter Brown"
+        },
+        {
+          "playerId": "team-player/06ab46bc-addb-44a7-9a7c-1843308803ed",
+          "name": "Peter Brown and Jenni Rechter"
+        },
+        {
+          "playerId": "team-player/3f1fcbb2-49c6-40c6-a7df-640ced9e2cec",
+          "name": "Peter Brown and Joyce Carbone"
+        },
+        {
+          "playerId": "team-player/15fc1482-66ca-4da5-8f82-21fc41f6ddb3",
+          "name": "Peter Brown and Peter Pekaar"
+        },
+        {
+          "playerId": "team-player/64566094-3fd7-414f-8e9d-6c6f945c11c0",
+          "name": "Peter Pekaar"
+        }
       ]
     },
     {
       "name": "Cambridge and Country",
       "shortName": "Cambridge",
       "players": [
-        "David Gould",
-        "David Gould and Paul Christmass",
-        "David Gould and Robyn Dart",
-        "David Gould and Wendy Pritchard",
-        "Jennifer Brand",
-        "Jennifer Brand and Paul Christmass",
-        "Jennifer Brand and Robyn Dart",
-        "Jennifer Brand and Wendy Pritchard",
-        "Paul Christmass",
-        "Robyn Dart",
-        "Wendy Pritchard"
+        {
+          "playerId": "team-player/649f498e-4d79-4456-95b3-f99212267e7a",
+          "name": "David Gould"
+        },
+        {
+          "playerId": "team-player/c3328d91-05d4-4566-a4d5-ea21e9e3a6f1",
+          "name": "David Gould and Paul Christmass"
+        },
+        {
+          "playerId": "team-player/09a12025-d220-4eee-8747-0fdc4a098547",
+          "name": "David Gould and Robyn Dart"
+        },
+        {
+          "playerId": "team-player/9c5c040c-4328-4f76-bce9-a7707c3df0d0",
+          "name": "David Gould and Wendy Pritchard"
+        },
+        {
+          "playerId": "team-player/42eea341-e1dd-4cc9-9c70-99b535240cc1",
+          "name": "Jennifer Brand"
+        },
+        {
+          "playerId": "team-player/6ca1e125-58ec-45ae-ae0a-9bcd6252e7a1",
+          "name": "Jennifer Brand and Paul Christmass"
+        },
+        {
+          "playerId": "team-player/4e8b6bf5-ec6f-456a-af47-871b8e7956cc",
+          "name": "Jennifer Brand and Robyn Dart"
+        },
+        {
+          "playerId": "team-player/26c3ae87-05bd-44c8-92ce-3b58eecd7e32",
+          "name": "Jennifer Brand and Wendy Pritchard"
+        },
+        {
+          "playerId": "team-player/e963e74f-2ead-4a22-8fa6-76d0ad635edd",
+          "name": "Paul Christmass"
+        },
+        {
+          "playerId": "team-player/b205f76e-0fd8-4b93-b693-c015889974f9",
+          "name": "Robyn Dart"
+        },
+        {
+          "playerId": "team-player/d6815c46-6036-4fb3-be44-898496dd0ba3",
+          "name": "Wendy Pritchard"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/ff8edd01-77a8-4ba1-8448-e85c0b833670",
       "teams": [
         "Gosnells/Como",
         "Cambridge and Country"
@@ -53,17 +123,26 @@
       "matches": [
         {
           "players": [
-            "Ben Brown and Joyce Carbone",
-            "Jennifer Brand and Paul Christmass"
+            {
+              "playerId": "team-player/8088216d-123e-4650-b151-e6ebba77a9ee",
+              "name": "Ben Brown and Joyce Carbone"
+            },
+            {
+              "playerId": "team-player/6ca1e125-58ec-45ae-ae0a-9bcd6252e7a1",
+              "name": "Jennifer Brand and Paul Christmass"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17cb84c3-40d9-4c0a-b5f4-8d9302db96ba",
               "players": [
                 {
+                  "playerId": "team-player/8088216d-123e-4650-b151-e6ebba77a9ee",
                   "name": "Ben Brown and Joyce Carbone",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6ca1e125-58ec-45ae-ae0a-9bcd6252e7a1",
                   "name": "Jennifer Brand and Paul Christmass",
                   "score": "0"
                 }
@@ -75,17 +154,26 @@
         },
         {
           "players": [
-            "Peter Brown and Peter Pekaar",
-            "David Gould and Wendy Pritchard"
+            {
+              "playerId": "team-player/15fc1482-66ca-4da5-8f82-21fc41f6ddb3",
+              "name": "Peter Brown and Peter Pekaar"
+            },
+            {
+              "playerId": "team-player/9c5c040c-4328-4f76-bce9-a7707c3df0d0",
+              "name": "David Gould and Wendy Pritchard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac652944-0761-4074-b058-c5b7f377a698",
               "players": [
                 {
+                  "playerId": "team-player/15fc1482-66ca-4da5-8f82-21fc41f6ddb3",
                   "name": "Peter Brown and Peter Pekaar",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/9c5c040c-4328-4f76-bce9-a7707c3df0d0",
                   "name": "David Gould and Wendy Pritchard",
                   "score": "7"
                 }
@@ -97,17 +185,26 @@
         },
         {
           "players": [
-            "Jenni Rechter",
-            "Robyn Dart"
+            {
+              "playerId": "team-player/79747ea2-0acc-4016-87a9-9a5403651b07",
+              "name": "Jenni Rechter"
+            },
+            {
+              "playerId": "team-player/b205f76e-0fd8-4b93-b693-c015889974f9",
+              "name": "Robyn Dart"
+            }
           ],
           "games": [
             {
+              "gameId": "game/64582acb-2b28-4206-84b3-5c1252c8fd8d",
               "players": [
                 {
+                  "playerId": "team-player/79747ea2-0acc-4016-87a9-9a5403651b07",
                   "name": "Jenni Rechter",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/b205f76e-0fd8-4b93-b693-c015889974f9",
                   "name": "Robyn Dart",
                   "score": "7"
                 }
@@ -119,17 +216,26 @@
         },
         {
           "players": [
-            "Peter Brown and Jenni Rechter",
-            "Jennifer Brand and Robyn Dart"
+            {
+              "playerId": "team-player/06ab46bc-addb-44a7-9a7c-1843308803ed",
+              "name": "Peter Brown and Jenni Rechter"
+            },
+            {
+              "playerId": "team-player/4e8b6bf5-ec6f-456a-af47-871b8e7956cc",
+              "name": "Jennifer Brand and Robyn Dart"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0092125c-2f6a-4425-9aea-2756fe3ad202",
               "players": [
                 {
+                  "playerId": "team-player/06ab46bc-addb-44a7-9a7c-1843308803ed",
                   "name": "Peter Brown and Jenni Rechter",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/4e8b6bf5-ec6f-456a-af47-871b8e7956cc",
                   "name": "Jennifer Brand and Robyn Dart",
                   "score": "7"
                 }
@@ -141,17 +247,26 @@
         },
         {
           "players": [
-            "Joyce Carbone",
-            "Wendy Pritchard"
+            {
+              "playerId": "team-player/15526c7b-c7b2-43b6-9f72-bfcd90e80f71",
+              "name": "Joyce Carbone"
+            },
+            {
+              "playerId": "team-player/d6815c46-6036-4fb3-be44-898496dd0ba3",
+              "name": "Wendy Pritchard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/50b83965-2f24-4e50-bca5-2940ccd1eb97",
               "players": [
                 {
+                  "playerId": "team-player/15526c7b-c7b2-43b6-9f72-bfcd90e80f71",
                   "name": "Joyce Carbone",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d6815c46-6036-4fb3-be44-898496dd0ba3",
                   "name": "Wendy Pritchard",
                   "score": "6"
                 }
@@ -163,17 +278,26 @@
         },
         {
           "players": [
-            "Ben Brown and Peter Pekaar",
-            "David Gould and Paul Christmass"
+            {
+              "playerId": "team-player/f0494e4e-76a8-423a-84f5-8db97e48828e",
+              "name": "Ben Brown and Peter Pekaar"
+            },
+            {
+              "playerId": "team-player/c3328d91-05d4-4566-a4d5-ea21e9e3a6f1",
+              "name": "David Gould and Paul Christmass"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d651312-20c2-446e-99cc-869a470755cc",
               "players": [
                 {
+                  "playerId": "team-player/f0494e4e-76a8-423a-84f5-8db97e48828e",
                   "name": "Ben Brown and Peter Pekaar",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/c3328d91-05d4-4566-a4d5-ea21e9e3a6f1",
                   "name": "David Gould and Paul Christmass",
                   "score": "7"
                 }
@@ -185,17 +309,26 @@
         },
         {
           "players": [
-            "Peter Pekaar",
-            "Paul Christmass"
+            {
+              "playerId": "team-player/64566094-3fd7-414f-8e9d-6c6f945c11c0",
+              "name": "Peter Pekaar"
+            },
+            {
+              "playerId": "team-player/e963e74f-2ead-4a22-8fa6-76d0ad635edd",
+              "name": "Paul Christmass"
+            }
           ],
           "games": [
             {
+              "gameId": "game/21d472fb-599b-4bb5-b2b7-8f0cfefa23e4",
               "players": [
                 {
+                  "playerId": "team-player/64566094-3fd7-414f-8e9d-6c6f945c11c0",
                   "name": "Peter Pekaar",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e963e74f-2ead-4a22-8fa6-76d0ad635edd",
                   "name": "Paul Christmass",
                   "score": "2"
                 }
@@ -207,17 +340,26 @@
         },
         {
           "players": [
-            "Peter Brown and Joyce Carbone",
-            "Jennifer Brand and Wendy Pritchard"
+            {
+              "playerId": "team-player/3f1fcbb2-49c6-40c6-a7df-640ced9e2cec",
+              "name": "Peter Brown and Joyce Carbone"
+            },
+            {
+              "playerId": "team-player/26c3ae87-05bd-44c8-92ce-3b58eecd7e32",
+              "name": "Jennifer Brand and Wendy Pritchard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6821bae-eb75-40f3-a259-35cc2b5690e3",
               "players": [
                 {
+                  "playerId": "team-player/3f1fcbb2-49c6-40c6-a7df-640ced9e2cec",
                   "name": "Peter Brown and Joyce Carbone",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/26c3ae87-05bd-44c8-92ce-3b58eecd7e32",
                   "name": "Jennifer Brand and Wendy Pritchard",
                   "score": "6"
                 }
@@ -229,17 +371,26 @@
         },
         {
           "players": [
-            "Ben Brown and Jenni Rechter",
-            "David Gould and Robyn Dart"
+            {
+              "playerId": "team-player/6f359f1e-969c-42a3-89e4-50f60ec985e7",
+              "name": "Ben Brown and Jenni Rechter"
+            },
+            {
+              "playerId": "team-player/09a12025-d220-4eee-8747-0fdc4a098547",
+              "name": "David Gould and Robyn Dart"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6a1cb515-3d3d-4f7e-bd22-98f268dce914",
               "players": [
                 {
+                  "playerId": "team-player/6f359f1e-969c-42a3-89e4-50f60ec985e7",
                   "name": "Ben Brown and Jenni Rechter",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/09a12025-d220-4eee-8747-0fdc4a098547",
                   "name": "David Gould and Robyn Dart",
                   "score": "7"
                 }

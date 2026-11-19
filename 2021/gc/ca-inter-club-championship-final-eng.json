@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/53eaa533-901c-4212-adeb-174882219691",
   "name": "CA GC Inter-Club Championship Final (ENG)",
   "sport": "gc",
   "firstDay": "2021-09-25",
   "lastDay": "2021-09-25",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Ashby",
       "shortName": "Ashby",
       "players": [
-        "David Bell",
-        "Rachel Gee",
-        "Rachel Gee + Will Gee",
-        "Tim King",
-        "Will Gee"
+        {
+          "playerId": "team-player/d56047c8-6245-4213-922e-db6e70c6acaa",
+          "name": "David Bell"
+        },
+        {
+          "playerId": "team-player/3a8b17cb-f12b-4130-ac55-f949a43b64ca",
+          "name": "Rachel Gee"
+        },
+        {
+          "playerId": "team-player/6d15c36b-17e7-4600-bff1-710331affedf",
+          "name": "Rachel Gee + Will Gee"
+        },
+        {
+          "playerId": "team-player/2dbd6e5a-d4fe-4f1e-86ca-4ff3640936f8",
+          "name": "Tim King"
+        },
+        {
+          "playerId": "team-player/bc1a78bc-896a-405a-9af4-c3f560e1b57b",
+          "name": "Will Gee"
+        }
       ]
     },
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Angharrad Walters",
-        "Angharrad Walters + Jack Good",
-        "Jack Good",
-        "Nigel Matthews",
-        "Simon Jenkins"
+        {
+          "playerId": "team-player/88ac28cc-bb67-4861-9362-4979bc6b28cd",
+          "name": "Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/a9e24e1e-8bdc-4ce7-8419-766cb68b2b4b",
+          "name": "Angharrad Walters + Jack Good"
+        },
+        {
+          "playerId": "team-player/ed4d57c3-e888-4abc-8172-b2ae68a69048",
+          "name": "Jack Good"
+        },
+        {
+          "playerId": "team-player/ac388bd7-c02c-4282-a041-96429174aa57",
+          "name": "Nigel Matthews"
+        },
+        {
+          "playerId": "team-player/85046c5a-1e96-4c45-8b98-7d962f9fec6a",
+          "name": "Simon Jenkins"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/f7fb6f7a-f170-4c76-93f8-f33cebb5aac9",
       "teams": [
         "Ashby",
         "Bowdon"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Rachel Gee + Will Gee",
-            "Angharrad Walters + Jack Good"
+            {
+              "playerId": "team-player/6d15c36b-17e7-4600-bff1-710331affedf",
+              "name": "Rachel Gee + Will Gee"
+            },
+            {
+              "playerId": "team-player/a9e24e1e-8bdc-4ce7-8419-766cb68b2b4b",
+              "name": "Angharrad Walters + Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e9963b4-1a32-4a3d-bbee-1f7cc983b92e",
               "players": [
                 {
+                  "playerId": "team-player/6d15c36b-17e7-4600-bff1-710331affedf",
                   "name": "Rachel Gee + Will Gee",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a9e24e1e-8bdc-4ce7-8419-766cb68b2b4b",
                   "name": "Angharrad Walters + Jack Good",
                   "score": "4"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e8e335e4-9374-413d-bd27-0b4d57f90d9a",
               "players": [
                 {
+                  "playerId": "team-player/6d15c36b-17e7-4600-bff1-710331affedf",
                   "name": "Rachel Gee + Will Gee",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a9e24e1e-8bdc-4ce7-8419-766cb68b2b4b",
                   "name": "Angharrad Walters + Jack Good",
                   "score": "3"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "David Bell",
-            "Simon Jenkins"
+            {
+              "playerId": "team-player/d56047c8-6245-4213-922e-db6e70c6acaa",
+              "name": "David Bell"
+            },
+            {
+              "playerId": "team-player/85046c5a-1e96-4c45-8b98-7d962f9fec6a",
+              "name": "Simon Jenkins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eafb8a5b-a23b-445d-880a-537f260b885d",
               "players": [
                 {
+                  "playerId": "team-player/d56047c8-6245-4213-922e-db6e70c6acaa",
                   "name": "David Bell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/85046c5a-1e96-4c45-8b98-7d962f9fec6a",
                   "name": "Simon Jenkins",
                   "score": "4"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fb6eff8c-9716-427b-a9b0-95f91c15b324",
               "players": [
                 {
+                  "playerId": "team-player/d56047c8-6245-4213-922e-db6e70c6acaa",
                   "name": "David Bell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/85046c5a-1e96-4c45-8b98-7d962f9fec6a",
                   "name": "Simon Jenkins",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Tim King",
-            "Nigel Matthews"
+            {
+              "playerId": "team-player/2dbd6e5a-d4fe-4f1e-86ca-4ff3640936f8",
+              "name": "Tim King"
+            },
+            {
+              "playerId": "team-player/ac388bd7-c02c-4282-a041-96429174aa57",
+              "name": "Nigel Matthews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e25563b7-fd0d-48d8-ab78-715c78d69aad",
               "players": [
                 {
+                  "playerId": "team-player/2dbd6e5a-d4fe-4f1e-86ca-4ff3640936f8",
                   "name": "Tim King",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ac388bd7-c02c-4282-a041-96429174aa57",
                   "name": "Nigel Matthews",
                   "score": "5"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/17f24599-a9c2-4328-8491-11fde32d58a8",
               "players": [
                 {
+                  "playerId": "team-player/2dbd6e5a-d4fe-4f1e-86ca-4ff3640936f8",
                   "name": "Tim King",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ac388bd7-c02c-4282-a041-96429174aa57",
                   "name": "Nigel Matthews",
                   "score": "5"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "David Bell",
-            "Nigel Matthews"
+            {
+              "playerId": "team-player/d56047c8-6245-4213-922e-db6e70c6acaa",
+              "name": "David Bell"
+            },
+            {
+              "playerId": "team-player/ac388bd7-c02c-4282-a041-96429174aa57",
+              "name": "Nigel Matthews"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b726468d-7e6b-4ea5-8b53-4806fd99f1d7",
               "players": [
                 {
+                  "playerId": "team-player/d56047c8-6245-4213-922e-db6e70c6acaa",
                   "name": "David Bell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ac388bd7-c02c-4282-a041-96429174aa57",
                   "name": "Nigel Matthews",
                   "score": "4"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a858fd57-2bdd-4921-9893-fe03fa4c7ad9",
               "players": [
                 {
+                  "playerId": "team-player/d56047c8-6245-4213-922e-db6e70c6acaa",
                   "name": "David Bell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ac388bd7-c02c-4282-a041-96429174aa57",
                   "name": "Nigel Matthews",
                   "score": "4"
                 }
@@ -185,17 +267,26 @@
         },
         {
           "players": [
-            "Tim King",
-            "Simon Jenkins"
+            {
+              "playerId": "team-player/2dbd6e5a-d4fe-4f1e-86ca-4ff3640936f8",
+              "name": "Tim King"
+            },
+            {
+              "playerId": "team-player/85046c5a-1e96-4c45-8b98-7d962f9fec6a",
+              "name": "Simon Jenkins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/976d9e98-80f6-4e39-bdca-7cecf0d24c47",
               "players": [
                 {
+                  "playerId": "team-player/2dbd6e5a-d4fe-4f1e-86ca-4ff3640936f8",
                   "name": "Tim King",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/85046c5a-1e96-4c45-8b98-7d962f9fec6a",
                   "name": "Simon Jenkins",
                   "score": "4"
                 }
@@ -204,12 +295,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f14f6cf9-f9ec-435b-903c-71ad2eb6ed14",
               "players": [
                 {
+                  "playerId": "team-player/2dbd6e5a-d4fe-4f1e-86ca-4ff3640936f8",
                   "name": "Tim King",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/85046c5a-1e96-4c45-8b98-7d962f9fec6a",
                   "name": "Simon Jenkins",
                   "score": "5"
                 }
@@ -221,17 +315,26 @@
         },
         {
           "players": [
-            "Rachel Gee",
-            "Angharrad Walters"
+            {
+              "playerId": "team-player/3a8b17cb-f12b-4130-ac55-f949a43b64ca",
+              "name": "Rachel Gee"
+            },
+            {
+              "playerId": "team-player/88ac28cc-bb67-4861-9362-4979bc6b28cd",
+              "name": "Angharrad Walters"
+            }
           ],
           "games": [
             {
+              "gameId": "game/880f89b2-54c8-4f66-bbf1-69ead48cceff",
               "players": [
                 {
+                  "playerId": "team-player/3a8b17cb-f12b-4130-ac55-f949a43b64ca",
                   "name": "Rachel Gee",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/88ac28cc-bb67-4861-9362-4979bc6b28cd",
                   "name": "Angharrad Walters",
                   "score": "6"
                 }
@@ -240,12 +343,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/be20920d-9064-4116-8c6e-ea79a3d00d79",
               "players": [
                 {
+                  "playerId": "team-player/3a8b17cb-f12b-4130-ac55-f949a43b64ca",
                   "name": "Rachel Gee",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/88ac28cc-bb67-4861-9362-4979bc6b28cd",
                   "name": "Angharrad Walters",
                   "score": "7"
                 }
@@ -257,17 +363,26 @@
         },
         {
           "players": [
-            "Will Gee",
-            "Jack Good"
+            {
+              "playerId": "team-player/bc1a78bc-896a-405a-9af4-c3f560e1b57b",
+              "name": "Will Gee"
+            },
+            {
+              "playerId": "team-player/ed4d57c3-e888-4abc-8172-b2ae68a69048",
+              "name": "Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3a1bf01a-fa34-4105-b5f1-c7dfb1473b80",
               "players": [
                 {
+                  "playerId": "team-player/bc1a78bc-896a-405a-9af4-c3f560e1b57b",
                   "name": "Will Gee",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ed4d57c3-e888-4abc-8172-b2ae68a69048",
                   "name": "Jack Good",
                   "score": "7"
                 }
@@ -276,12 +391,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/82232eb9-c49a-46d8-902d-e746000f7ae2",
               "players": [
                 {
+                  "playerId": "team-player/bc1a78bc-896a-405a-9af4-c3f560e1b57b",
                   "name": "Will Gee",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ed4d57c3-e888-4abc-8172-b2ae68a69048",
                   "name": "Jack Good",
                   "score": "6"
                 }

@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0938c6ea-3de8-4003-8d4e-bed86fb02f92",
   "name": "Egypt League Rank 7 / 8",
   "sport": "gc",
   "firstDay": "2018-04-10",
   "lastDay": "2018-04-11",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Gzera Club",
       "shortName": "Gzera Club",
       "players": [
-        "Azza Elkouly",
-        "Hanan Rashad",
-        "Mostafa Nezar",
-        "Sara Hany & Omar Fahmy",
-        "Wael Eskander & Wael Shahin"
+        {
+          "playerId": "team-player/6bae37b0-fcd4-460e-9445-5dce181aaa4b",
+          "name": "Azza Elkouly"
+        },
+        {
+          "playerId": "team-player/6fbc0dad-a135-4f98-8c58-ce86228fd6c5",
+          "name": "Hanan Rashad"
+        },
+        {
+          "playerId": "team-player/8a89a8cf-0685-411c-a469-7b747ee3161f",
+          "name": "Mostafa Nezar"
+        },
+        {
+          "playerId": "team-player/2c2adbfe-b625-48d4-81fe-eff0ae53ae43",
+          "name": "Sara Hany & Omar Fahmy"
+        },
+        {
+          "playerId": "team-player/e6cca8ce-a364-4880-8a5b-5f471b59a16e",
+          "name": "Wael Eskander & Wael Shahin"
+        }
       ]
     },
     {
       "name": "ElSherok Club",
       "shortName": "ElSherok C",
       "players": [
-        "Ahmed ElNahas",
-        "Loay Allithy & Yasser Fathy",
-        "Sandy Mamdouh",
-        "Shadin Okasha",
-        "Sheren Hamdy & Hany Elshobaky"
+        {
+          "playerId": "team-player/7cec975c-2ae2-4113-9469-166f52ed3ba4",
+          "name": "Ahmed ElNahas"
+        },
+        {
+          "playerId": "team-player/6590ec0c-76b9-42ec-b434-c6befc568725",
+          "name": "Loay Allithy & Yasser Fathy"
+        },
+        {
+          "playerId": "team-player/1cf19171-44cd-4d07-900c-e4de40e4d225",
+          "name": "Sandy Mamdouh"
+        },
+        {
+          "playerId": "team-player/c4576142-b34a-4be6-82fe-b7c3a87d1048",
+          "name": "Shadin Okasha"
+        },
+        {
+          "playerId": "team-player/a14ecd51-10e3-41cb-8069-d303b85f3945",
+          "name": "Sheren Hamdy & Hany Elshobaky"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/36872458-814d-4865-a10d-7a0497b494b8",
       "teams": [
         "Gzera Club",
         "ElSherok Club"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Azza Elkouly",
-            "Shadin Okasha"
+            {
+              "playerId": "team-player/6bae37b0-fcd4-460e-9445-5dce181aaa4b",
+              "name": "Azza Elkouly"
+            },
+            {
+              "playerId": "team-player/c4576142-b34a-4be6-82fe-b7c3a87d1048",
+              "name": "Shadin Okasha"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d719a1e9-3e09-49a0-86f3-9644d3ac71b1",
               "players": [
                 {
+                  "playerId": "team-player/6bae37b0-fcd4-460e-9445-5dce181aaa4b",
                   "name": "Azza Elkouly",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/c4576142-b34a-4be6-82fe-b7c3a87d1048",
                   "name": "Shadin Okasha",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b5a989e7-142e-4fce-a407-2e2d8ae3e648",
               "players": [
                 {
+                  "playerId": "team-player/6bae37b0-fcd4-460e-9445-5dce181aaa4b",
                   "name": "Azza Elkouly",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c4576142-b34a-4be6-82fe-b7c3a87d1048",
                   "name": "Shadin Okasha",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Wael Eskander & Wael Shahin",
-            "Loay Allithy & Yasser Fathy"
+            {
+              "playerId": "team-player/e6cca8ce-a364-4880-8a5b-5f471b59a16e",
+              "name": "Wael Eskander & Wael Shahin"
+            },
+            {
+              "playerId": "team-player/6590ec0c-76b9-42ec-b434-c6befc568725",
+              "name": "Loay Allithy & Yasser Fathy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a0f85c3c-14f3-4e93-8bd3-8938abd4abb7",
               "players": [
                 {
+                  "playerId": "team-player/e6cca8ce-a364-4880-8a5b-5f471b59a16e",
                   "name": "Wael Eskander & Wael Shahin",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/6590ec0c-76b9-42ec-b434-c6befc568725",
                   "name": "Loay Allithy & Yasser Fathy",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1a3beff4-69ae-4070-ad7f-2f205af05d78",
               "players": [
                 {
+                  "playerId": "team-player/e6cca8ce-a364-4880-8a5b-5f471b59a16e",
                   "name": "Wael Eskander & Wael Shahin",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6590ec0c-76b9-42ec-b434-c6befc568725",
                   "name": "Loay Allithy & Yasser Fathy",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Hanan Rashad",
-            "Sandy Mamdouh"
+            {
+              "playerId": "team-player/6fbc0dad-a135-4f98-8c58-ce86228fd6c5",
+              "name": "Hanan Rashad"
+            },
+            {
+              "playerId": "team-player/1cf19171-44cd-4d07-900c-e4de40e4d225",
+              "name": "Sandy Mamdouh"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2ef08443-142c-4192-95e6-ac49120832ad",
               "players": [
                 {
+                  "playerId": "team-player/6fbc0dad-a135-4f98-8c58-ce86228fd6c5",
                   "name": "Hanan Rashad",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1cf19171-44cd-4d07-900c-e4de40e4d225",
                   "name": "Sandy Mamdouh",
                   "score": "3"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4ea54c93-7fd2-44de-953b-959a8edc3e87",
               "players": [
                 {
+                  "playerId": "team-player/6fbc0dad-a135-4f98-8c58-ce86228fd6c5",
                   "name": "Hanan Rashad",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/1cf19171-44cd-4d07-900c-e4de40e4d225",
                   "name": "Sandy Mamdouh",
                   "score": "7"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d10773f8-5e2b-416e-ad1a-b744bdb34191",
               "players": [
                 {
+                  "playerId": "team-player/6fbc0dad-a135-4f98-8c58-ce86228fd6c5",
                   "name": "Hanan Rashad",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1cf19171-44cd-4d07-900c-e4de40e4d225",
                   "name": "Sandy Mamdouh",
                   "score": "3"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Sara Hany & Omar Fahmy",
-            "Sheren Hamdy & Hany Elshobaky"
+            {
+              "playerId": "team-player/2c2adbfe-b625-48d4-81fe-eff0ae53ae43",
+              "name": "Sara Hany & Omar Fahmy"
+            },
+            {
+              "playerId": "team-player/a14ecd51-10e3-41cb-8069-d303b85f3945",
+              "name": "Sheren Hamdy & Hany Elshobaky"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0a338dd0-bd9d-44f8-90d9-8f2f82242198",
               "players": [
                 {
+                  "playerId": "team-player/2c2adbfe-b625-48d4-81fe-eff0ae53ae43",
                   "name": "Sara Hany & Omar Fahmy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a14ecd51-10e3-41cb-8069-d303b85f3945",
                   "name": "Sheren Hamdy & Hany Elshobaky",
                   "score": "2"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7e1363f4-14eb-4148-a135-e9b48f234f27",
               "players": [
                 {
+                  "playerId": "team-player/2c2adbfe-b625-48d4-81fe-eff0ae53ae43",
                   "name": "Sara Hany & Omar Fahmy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a14ecd51-10e3-41cb-8069-d303b85f3945",
                   "name": "Sheren Hamdy & Hany Elshobaky",
                   "score": "6"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Mostafa Nezar",
-            "Ahmed ElNahas"
+            {
+              "playerId": "team-player/8a89a8cf-0685-411c-a469-7b747ee3161f",
+              "name": "Mostafa Nezar"
+            },
+            {
+              "playerId": "team-player/7cec975c-2ae2-4113-9469-166f52ed3ba4",
+              "name": "Ahmed ElNahas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bae77f67-c53d-4912-883f-729f0cb33503",
               "players": [
                 {
+                  "playerId": "team-player/8a89a8cf-0685-411c-a469-7b747ee3161f",
                   "name": "Mostafa Nezar",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7cec975c-2ae2-4113-9469-166f52ed3ba4",
                   "name": "Ahmed ElNahas",
                   "score": "7"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/75ee85ed-3379-4c9e-b21b-a2621acfa2e0",
               "players": [
                 {
+                  "playerId": "team-player/8a89a8cf-0685-411c-a469-7b747ee3161f",
                   "name": "Mostafa Nezar",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/7cec975c-2ae2-4113-9469-166f52ed3ba4",
                   "name": "Ahmed ElNahas",
                   "score": "7"
                 }

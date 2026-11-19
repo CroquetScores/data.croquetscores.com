@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2c63f380-aa41-4469-b986-e5f62deae69e",
   "name": "IC Cheltenham v Bristol",
   "sport": "ac",
   "firstDay": "2018-08-11",
   "lastDay": "2018-08-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Cheltenham",
       "shortName": "Cheltenham",
       "players": [
-        "Andrew Hope",
-        "Chris Williams",
-        "David Magee",
-        "Mark Suter",
-        "Mark Suter & Chris Williams"
+        {
+          "playerId": "team-player/d8892944-5b23-4fc4-a05a-e363351927ad",
+          "name": "Andrew Hope"
+        },
+        {
+          "playerId": "team-player/a6268fd9-543f-4909-9d62-06cd23acd210",
+          "name": "Chris Williams"
+        },
+        {
+          "playerId": "team-player/bad0f039-5d1c-4d10-85b6-ac92418136d7",
+          "name": "David Magee"
+        },
+        {
+          "playerId": "team-player/e5dd4780-4b4f-4d2c-9cc6-1ed2f50c4170",
+          "name": "Mark Suter"
+        },
+        {
+          "playerId": "team-player/cc8d00d4-1793-48d4-a6d1-777523e225a4",
+          "name": "Mark Suter & Chris Williams"
+        }
       ]
     },
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "Dave Kibble",
-        "David Goacher",
-        "David Goacher & Richard M Smith",
-        "Richard M Smith",
-        "Robert Wilkinson"
+        {
+          "playerId": "team-player/74efa54f-a8e7-4e5b-b789-37c9dd512874",
+          "name": "Dave Kibble"
+        },
+        {
+          "playerId": "team-player/4bce2ff6-2477-4841-b173-a597ba78a0a9",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/942cd932-6521-420e-ba5c-69c92479abe2",
+          "name": "David Goacher & Richard M Smith"
+        },
+        {
+          "playerId": "team-player/8bfff247-7453-430c-bc6e-4bc45aef5856",
+          "name": "Richard M Smith"
+        },
+        {
+          "playerId": "team-player/1c67df13-a5f5-42a2-80bb-12405089b901",
+          "name": "Robert Wilkinson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/ce5720de-d84e-4cef-81c4-635276f12f41",
       "teams": [
         "Cheltenham",
         "Bristol"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Andrew Hope",
-            "Dave Kibble"
+            {
+              "playerId": "team-player/d8892944-5b23-4fc4-a05a-e363351927ad",
+              "name": "Andrew Hope"
+            },
+            {
+              "playerId": "team-player/74efa54f-a8e7-4e5b-b789-37c9dd512874",
+              "name": "Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/60befb3d-3d2e-454e-bc2f-d6852c4d3ad2",
               "players": [
                 {
+                  "playerId": "team-player/d8892944-5b23-4fc4-a05a-e363351927ad",
                   "name": "Andrew Hope",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/74efa54f-a8e7-4e5b-b789-37c9dd512874",
                   "name": "Dave Kibble",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Mark Suter & Chris Williams",
-            "David Goacher & Richard M Smith"
+            {
+              "playerId": "team-player/cc8d00d4-1793-48d4-a6d1-777523e225a4",
+              "name": "Mark Suter & Chris Williams"
+            },
+            {
+              "playerId": "team-player/942cd932-6521-420e-ba5c-69c92479abe2",
+              "name": "David Goacher & Richard M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/525a419c-9223-4091-8c3c-6c5b6ea3cd55",
               "players": [
                 {
+                  "playerId": "team-player/cc8d00d4-1793-48d4-a6d1-777523e225a4",
                   "name": "Mark Suter & Chris Williams",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/942cd932-6521-420e-ba5c-69c92479abe2",
                   "name": "David Goacher & Richard M Smith",
                   "score": "26tp(G)"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "David Magee",
-            "Robert Wilkinson"
+            {
+              "playerId": "team-player/bad0f039-5d1c-4d10-85b6-ac92418136d7",
+              "name": "David Magee"
+            },
+            {
+              "playerId": "team-player/1c67df13-a5f5-42a2-80bb-12405089b901",
+              "name": "Robert Wilkinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e1a84f0-3978-460c-bf33-613c6d2181fe",
               "players": [
                 {
+                  "playerId": "team-player/bad0f039-5d1c-4d10-85b6-ac92418136d7",
                   "name": "David Magee",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1c67df13-a5f5-42a2-80bb-12405089b901",
                   "name": "Robert Wilkinson",
                   "score": "19"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Chris Williams",
-            "Richard M Smith"
+            {
+              "playerId": "team-player/a6268fd9-543f-4909-9d62-06cd23acd210",
+              "name": "Chris Williams"
+            },
+            {
+              "playerId": "team-player/8bfff247-7453-430c-bc6e-4bc45aef5856",
+              "name": "Richard M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9df51eeb-b6af-4dfe-98bd-77b0f32a1fdd",
               "players": [
                 {
+                  "playerId": "team-player/a6268fd9-543f-4909-9d62-06cd23acd210",
                   "name": "Chris Williams",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/8bfff247-7453-430c-bc6e-4bc45aef5856",
                   "name": "Richard M Smith",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Mark Suter",
-            "David Goacher"
+            {
+              "playerId": "team-player/e5dd4780-4b4f-4d2c-9cc6-1ed2f50c4170",
+              "name": "Mark Suter"
+            },
+            {
+              "playerId": "team-player/4bce2ff6-2477-4841-b173-a597ba78a0a9",
+              "name": "David Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5bfb6c85-d4e7-420d-a360-8955a9918b4a",
               "players": [
                 {
+                  "playerId": "team-player/e5dd4780-4b4f-4d2c-9cc6-1ed2f50c4170",
                   "name": "Mark Suter",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/4bce2ff6-2477-4841-b173-a597ba78a0a9",
                   "name": "David Goacher",
                   "score": "26tp"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "David Magee",
-            "Dave Kibble"
+            {
+              "playerId": "team-player/bad0f039-5d1c-4d10-85b6-ac92418136d7",
+              "name": "David Magee"
+            },
+            {
+              "playerId": "team-player/74efa54f-a8e7-4e5b-b789-37c9dd512874",
+              "name": "Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/636b1287-4855-4a70-99e4-07cc3025b3c5",
               "players": [
                 {
+                  "playerId": "team-player/bad0f039-5d1c-4d10-85b6-ac92418136d7",
                   "name": "David Magee",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/74efa54f-a8e7-4e5b-b789-37c9dd512874",
                   "name": "Dave Kibble",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Andrew Hope",
-            "Robert Wilkinson"
+            {
+              "playerId": "team-player/d8892944-5b23-4fc4-a05a-e363351927ad",
+              "name": "Andrew Hope"
+            },
+            {
+              "playerId": "team-player/1c67df13-a5f5-42a2-80bb-12405089b901",
+              "name": "Robert Wilkinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ad31c94-56c5-4bac-90f4-89b3580a83cd",
               "players": [
                 {
+                  "playerId": "team-player/d8892944-5b23-4fc4-a05a-e363351927ad",
                   "name": "Andrew Hope",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1c67df13-a5f5-42a2-80bb-12405089b901",
                   "name": "Robert Wilkinson",
                   "score": "22"
                 }

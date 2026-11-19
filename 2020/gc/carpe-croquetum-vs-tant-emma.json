@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4cd1af62-9944-4b19-b8fd-ee32b79c1989",
   "name": "Carpe Croquetum vs. Tant Emma",
   "sport": "gc",
   "firstDay": "2020-07-19",
   "lastDay": "2020-07-19",
   "country": "se",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Carpe Croquetum",
       "shortName": "Carpe Croq",
       "players": [
-        "Daniel Larsson",
-        "Double CC",
-        "Double CC - meet again",
-        "Eje Elebo",
-        "Joi Elebo"
+        {
+          "playerId": "team-player/ee510088-c329-4112-be3d-24e1e6820689",
+          "name": "Daniel Larsson"
+        },
+        {
+          "playerId": "team-player/6c17c1b8-7b25-4f02-82b9-d0bf57cbf8f0",
+          "name": "Double CC"
+        },
+        {
+          "playerId": "team-player/66a7d805-e0c5-469e-bce4-66d9c337a779",
+          "name": "Double CC - meet again"
+        },
+        {
+          "playerId": "team-player/9b039fba-9978-49f9-ba47-2678c0f0acbd",
+          "name": "Eje Elebo"
+        },
+        {
+          "playerId": "team-player/72c61994-4667-47af-8022-8103ad763bd6",
+          "name": "Joi Elebo"
+        }
       ]
     },
     {
       "name": "Tant Emma",
       "shortName": "Tant Emma",
       "players": [
-        "Archibald Zimonyi",
-        "Archibald Zimonyi - meet again",
-        "Double TE",
-        "Simon Carlsson",
-        "Simon Carlsson - meet again"
+        {
+          "playerId": "team-player/8a48a017-1a5c-4dea-b912-443a799800d9",
+          "name": "Archibald Zimonyi"
+        },
+        {
+          "playerId": "team-player/db1e56f0-9a49-4e42-8f2f-141bc0f75bbd",
+          "name": "Archibald Zimonyi - meet again"
+        },
+        {
+          "playerId": "team-player/2f95d78e-df9f-48b5-9a1c-33d2660b2332",
+          "name": "Double TE"
+        },
+        {
+          "playerId": "team-player/50528362-b2b3-43f3-a345-e74ac45f8ef1",
+          "name": "Simon Carlsson"
+        },
+        {
+          "playerId": "team-player/3059803c-d235-488a-a261-20baf86a2229",
+          "name": "Simon Carlsson - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/197a3cc2-0fd0-4f9c-83c9-14c5ebe11f70",
       "teams": [
         "Carpe Croquetum",
         "Tant Emma"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Eje Elebo",
-            "Simon Carlsson"
+            {
+              "playerId": "team-player/9b039fba-9978-49f9-ba47-2678c0f0acbd",
+              "name": "Eje Elebo"
+            },
+            {
+              "playerId": "team-player/50528362-b2b3-43f3-a345-e74ac45f8ef1",
+              "name": "Simon Carlsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9e8becaf-383e-4b8a-85f6-7765cc1a9ab3",
               "players": [
                 {
+                  "playerId": "team-player/9b039fba-9978-49f9-ba47-2678c0f0acbd",
                   "name": "Eje Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/50528362-b2b3-43f3-a345-e74ac45f8ef1",
                   "name": "Simon Carlsson",
                   "score": "1"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Double CC",
-            "Double TE"
+            {
+              "playerId": "team-player/6c17c1b8-7b25-4f02-82b9-d0bf57cbf8f0",
+              "name": "Double CC"
+            },
+            {
+              "playerId": "team-player/2f95d78e-df9f-48b5-9a1c-33d2660b2332",
+              "name": "Double TE"
+            }
           ],
           "games": [
             {
+              "gameId": "game/98850d46-988f-4a73-bcda-b1b1929620d3",
               "players": [
                 {
+                  "playerId": "team-player/6c17c1b8-7b25-4f02-82b9-d0bf57cbf8f0",
                   "name": "Double CC",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2f95d78e-df9f-48b5-9a1c-33d2660b2332",
                   "name": "Double TE",
                   "score": "7"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Daniel Larsson",
-            "Archibald Zimonyi"
+            {
+              "playerId": "team-player/ee510088-c329-4112-be3d-24e1e6820689",
+              "name": "Daniel Larsson"
+            },
+            {
+              "playerId": "team-player/8a48a017-1a5c-4dea-b912-443a799800d9",
+              "name": "Archibald Zimonyi"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dae98085-6c4d-4198-8f48-c6c6d1762a80",
               "players": [
                 {
+                  "playerId": "team-player/ee510088-c329-4112-be3d-24e1e6820689",
                   "name": "Daniel Larsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8a48a017-1a5c-4dea-b912-443a799800d9",
                   "name": "Archibald Zimonyi",
                   "score": "2"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Joi Elebo",
-            "Simon Carlsson"
+            {
+              "playerId": "team-player/72c61994-4667-47af-8022-8103ad763bd6",
+              "name": "Joi Elebo"
+            },
+            {
+              "playerId": "team-player/50528362-b2b3-43f3-a345-e74ac45f8ef1",
+              "name": "Simon Carlsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f611836d-df66-4b0f-b1e4-6c55cd6d7c7f",
               "players": [
                 {
+                  "playerId": "team-player/72c61994-4667-47af-8022-8103ad763bd6",
                   "name": "Joi Elebo",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/50528362-b2b3-43f3-a345-e74ac45f8ef1",
                   "name": "Simon Carlsson",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Eje Elebo",
-            "Archibald Zimonyi"
+            {
+              "playerId": "team-player/9b039fba-9978-49f9-ba47-2678c0f0acbd",
+              "name": "Eje Elebo"
+            },
+            {
+              "playerId": "team-player/8a48a017-1a5c-4dea-b912-443a799800d9",
+              "name": "Archibald Zimonyi"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2649f8ac-ecda-4fc9-aa9b-d9178a0d9a14",
               "players": [
                 {
+                  "playerId": "team-player/9b039fba-9978-49f9-ba47-2678c0f0acbd",
                   "name": "Eje Elebo",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8a48a017-1a5c-4dea-b912-443a799800d9",
                   "name": "Archibald Zimonyi",
                   "score": "7"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Daniel Larsson",
-            "Simon Carlsson"
+            {
+              "playerId": "team-player/ee510088-c329-4112-be3d-24e1e6820689",
+              "name": "Daniel Larsson"
+            },
+            {
+              "playerId": "team-player/50528362-b2b3-43f3-a345-e74ac45f8ef1",
+              "name": "Simon Carlsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ba475e4b-d6db-475b-9632-c729697d47c7",
               "players": [
                 {
+                  "playerId": "team-player/ee510088-c329-4112-be3d-24e1e6820689",
                   "name": "Daniel Larsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/50528362-b2b3-43f3-a345-e74ac45f8ef1",
                   "name": "Simon Carlsson",
                   "score": "4"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Joi Elebo",
-            "Archibald Zimonyi"
+            {
+              "playerId": "team-player/72c61994-4667-47af-8022-8103ad763bd6",
+              "name": "Joi Elebo"
+            },
+            {
+              "playerId": "team-player/8a48a017-1a5c-4dea-b912-443a799800d9",
+              "name": "Archibald Zimonyi"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2dc726f9-ce05-4479-9f16-e8a36eeb6293",
               "players": [
                 {
+                  "playerId": "team-player/72c61994-4667-47af-8022-8103ad763bd6",
                   "name": "Joi Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8a48a017-1a5c-4dea-b912-443a799800d9",
                   "name": "Archibald Zimonyi",
                   "score": "2"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Eje Elebo",
-            "Simon Carlsson - meet again"
+            {
+              "playerId": "team-player/9b039fba-9978-49f9-ba47-2678c0f0acbd",
+              "name": "Eje Elebo"
+            },
+            {
+              "playerId": "team-player/3059803c-d235-488a-a261-20baf86a2229",
+              "name": "Simon Carlsson - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d3ed6395-83ab-479f-ae7b-4b2b9687a8e4",
               "players": [
                 {
+                  "playerId": "team-player/9b039fba-9978-49f9-ba47-2678c0f0acbd",
                   "name": "Eje Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3059803c-d235-488a-a261-20baf86a2229",
                   "name": "Simon Carlsson - meet again",
                   "score": "4"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Daniel Larsson",
-            "Archibald Zimonyi - meet again"
+            {
+              "playerId": "team-player/ee510088-c329-4112-be3d-24e1e6820689",
+              "name": "Daniel Larsson"
+            },
+            {
+              "playerId": "team-player/db1e56f0-9a49-4e42-8f2f-141bc0f75bbd",
+              "name": "Archibald Zimonyi - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad61731b-a539-4041-a75b-97c40c5d08a8",
               "players": [
                 {
+                  "playerId": "team-player/ee510088-c329-4112-be3d-24e1e6820689",
                   "name": "Daniel Larsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/db1e56f0-9a49-4e42-8f2f-141bc0f75bbd",
                   "name": "Archibald Zimonyi - meet again",
                   "score": "3"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Double CC - meet again",
-            "Double TE"
+            {
+              "playerId": "team-player/66a7d805-e0c5-469e-bce4-66d9c337a779",
+              "name": "Double CC - meet again"
+            },
+            {
+              "playerId": "team-player/2f95d78e-df9f-48b5-9a1c-33d2660b2332",
+              "name": "Double TE"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8ba47b42-a875-4e45-87c4-861855eb0ec7",
               "players": [
                 {
+                  "playerId": "team-player/66a7d805-e0c5-469e-bce4-66d9c337a779",
                   "name": "Double CC - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/2f95d78e-df9f-48b5-9a1c-33d2660b2332",
                   "name": "Double TE",
                   "score": "7"
                 }

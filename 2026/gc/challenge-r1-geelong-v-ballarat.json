@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/ae40d6f8-7460-4922-a16f-8b342a3fa402",
   "name": "GC Challenge Geelong v Ballarat R1 S1",
   "sport": "gc",
   "firstDay": "2026-09-14",
   "lastDay": "2026-09-14",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Geelong",
       "shortName": "Geelong",
       "players": [
-        "James Turton",
-        "James Turton & Peter Binks",
-        "Mary Cockett",
-        "Mary Cockett & Steve Podolak",
-        "Peter Binks",
-        "Steve Podolak"
+        {
+          "playerId": "team-player/4a06bc6b-719b-4580-b8c9-6e2db31d4d52",
+          "name": "James Turton"
+        },
+        {
+          "playerId": "team-player/cd485380-1ad9-41a1-baa4-545966f6c2ff",
+          "name": "James Turton & Peter Binks"
+        },
+        {
+          "playerId": "team-player/cd5e8e15-1579-46fb-bdb4-9d7beb117f8d",
+          "name": "Mary Cockett"
+        },
+        {
+          "playerId": "team-player/b59b538b-5224-4676-9ad0-fcf3480c357c",
+          "name": "Mary Cockett & Steve Podolak"
+        },
+        {
+          "playerId": "team-player/b4da3059-a5ae-42aa-8156-714516363d72",
+          "name": "Peter Binks"
+        },
+        {
+          "playerId": "team-player/660220cb-a877-4f4c-a560-25ac9b0d7479",
+          "name": "Steve Podolak"
+        }
       ]
     },
     {
       "name": "Ballarat",
       "shortName": "Ballarat",
       "players": [
-        "George Lund",
-        "George Lund & Mark Richardson",
-        "Gordon Christensen",
-        "Gordon Christensen & Yong Teck",
-        "Mark Richardson",
-        "Yong Teck"
+        {
+          "playerId": "team-player/4899b501-e3a1-4051-9024-a89f4643b438",
+          "name": "George Lund"
+        },
+        {
+          "playerId": "team-player/bf37981b-c9b6-45f1-b5c0-de75fd8cf496",
+          "name": "George Lund & Mark Richardson"
+        },
+        {
+          "playerId": "team-player/0b17a635-d5c6-41b8-a645-fff068324cbd",
+          "name": "Gordon Christensen"
+        },
+        {
+          "playerId": "team-player/1addafbe-e70b-4da1-b029-8ddd124a0e8a",
+          "name": "Gordon Christensen & Yong Teck"
+        },
+        {
+          "playerId": "team-player/0ef79fe9-361c-4994-b820-12ef98c8c47b",
+          "name": "Mark Richardson"
+        },
+        {
+          "playerId": "team-player/8e27dde4-f6e5-4eaf-8c14-6e0145df02d1",
+          "name": "Yong Teck"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/f5eb44a6-fe7d-4405-8f16-8f216ce8cf38",
       "teams": [
         "Geelong",
         "Ballarat"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "James Turton",
-            "Gordon Christensen"
+            {
+              "playerId": "team-player/4a06bc6b-719b-4580-b8c9-6e2db31d4d52",
+              "name": "James Turton"
+            },
+            {
+              "playerId": "team-player/0b17a635-d5c6-41b8-a645-fff068324cbd",
+              "name": "Gordon Christensen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17aa36f0-3eb2-4791-bdc8-a65f09d02831",
               "players": [
                 {
+                  "playerId": "team-player/4a06bc6b-719b-4580-b8c9-6e2db31d4d52",
                   "name": "James Turton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0b17a635-d5c6-41b8-a645-fff068324cbd",
                   "name": "Gordon Christensen",
                   "score": "3"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Peter Binks",
-            "Yong Teck"
+            {
+              "playerId": "team-player/b4da3059-a5ae-42aa-8156-714516363d72",
+              "name": "Peter Binks"
+            },
+            {
+              "playerId": "team-player/8e27dde4-f6e5-4eaf-8c14-6e0145df02d1",
+              "name": "Yong Teck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/90406cd0-ee7a-4ea1-8c78-81007996afba",
               "players": [
                 {
+                  "playerId": "team-player/b4da3059-a5ae-42aa-8156-714516363d72",
                   "name": "Peter Binks",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/8e27dde4-f6e5-4eaf-8c14-6e0145df02d1",
                   "name": "Yong Teck",
                   "score": "5"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Mary Cockett",
-            "George Lund"
+            {
+              "playerId": "team-player/cd5e8e15-1579-46fb-bdb4-9d7beb117f8d",
+              "name": "Mary Cockett"
+            },
+            {
+              "playerId": "team-player/4899b501-e3a1-4051-9024-a89f4643b438",
+              "name": "George Lund"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b0249e3f-3493-4ab0-9b9e-a9e538dc9003",
               "players": [
                 {
+                  "playerId": "team-player/cd5e8e15-1579-46fb-bdb4-9d7beb117f8d",
                   "name": "Mary Cockett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4899b501-e3a1-4051-9024-a89f4643b438",
                   "name": "George Lund",
                   "score": "0"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Steve Podolak",
-            "Mark Richardson"
+            {
+              "playerId": "team-player/660220cb-a877-4f4c-a560-25ac9b0d7479",
+              "name": "Steve Podolak"
+            },
+            {
+              "playerId": "team-player/0ef79fe9-361c-4994-b820-12ef98c8c47b",
+              "name": "Mark Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cc6dc8e9-9b1e-461b-be7a-ec292c60940e",
               "players": [
                 {
+                  "playerId": "team-player/660220cb-a877-4f4c-a560-25ac9b0d7479",
                   "name": "Steve Podolak",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0ef79fe9-361c-4994-b820-12ef98c8c47b",
                   "name": "Mark Richardson",
                   "score": "3"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "James Turton",
-            "Yong Teck"
+            {
+              "playerId": "team-player/4a06bc6b-719b-4580-b8c9-6e2db31d4d52",
+              "name": "James Turton"
+            },
+            {
+              "playerId": "team-player/8e27dde4-f6e5-4eaf-8c14-6e0145df02d1",
+              "name": "Yong Teck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d8accc3f-d5f5-4e03-9055-83680e6d6cd4",
               "players": [
                 {
+                  "playerId": "team-player/4a06bc6b-719b-4580-b8c9-6e2db31d4d52",
                   "name": "James Turton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e27dde4-f6e5-4eaf-8c14-6e0145df02d1",
                   "name": "Yong Teck",
                   "score": "6"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Peter Binks",
-            "George Lund"
+            {
+              "playerId": "team-player/b4da3059-a5ae-42aa-8156-714516363d72",
+              "name": "Peter Binks"
+            },
+            {
+              "playerId": "team-player/4899b501-e3a1-4051-9024-a89f4643b438",
+              "name": "George Lund"
+            }
           ],
           "games": [
             {
+              "gameId": "game/74c11e04-445d-4560-8ec8-6f1c81e4d9c9",
               "players": [
                 {
+                  "playerId": "team-player/b4da3059-a5ae-42aa-8156-714516363d72",
                   "name": "Peter Binks",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4899b501-e3a1-4051-9024-a89f4643b438",
                   "name": "George Lund",
                   "score": "1"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "Mary Cockett",
-            "Mark Richardson"
+            {
+              "playerId": "team-player/cd5e8e15-1579-46fb-bdb4-9d7beb117f8d",
+              "name": "Mary Cockett"
+            },
+            {
+              "playerId": "team-player/0ef79fe9-361c-4994-b820-12ef98c8c47b",
+              "name": "Mark Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc20bb67-2739-40a1-a699-36ee10b9a3b8",
               "players": [
                 {
+                  "playerId": "team-player/cd5e8e15-1579-46fb-bdb4-9d7beb117f8d",
                   "name": "Mary Cockett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0ef79fe9-361c-4994-b820-12ef98c8c47b",
                   "name": "Mark Richardson",
                   "score": "6"
                 }
@@ -197,17 +300,26 @@
         },
         {
           "players": [
-            "Steve Podolak",
-            "Gordon Christensen"
+            {
+              "playerId": "team-player/660220cb-a877-4f4c-a560-25ac9b0d7479",
+              "name": "Steve Podolak"
+            },
+            {
+              "playerId": "team-player/0b17a635-d5c6-41b8-a645-fff068324cbd",
+              "name": "Gordon Christensen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d61251c-7ad4-4ad8-ab5c-272d463d32d4",
               "players": [
                 {
+                  "playerId": "team-player/660220cb-a877-4f4c-a560-25ac9b0d7479",
                   "name": "Steve Podolak",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0b17a635-d5c6-41b8-a645-fff068324cbd",
                   "name": "Gordon Christensen",
                   "score": "5"
                 }
@@ -219,17 +331,26 @@
         },
         {
           "players": [
-            "James Turton",
-            "George Lund"
+            {
+              "playerId": "team-player/4a06bc6b-719b-4580-b8c9-6e2db31d4d52",
+              "name": "James Turton"
+            },
+            {
+              "playerId": "team-player/4899b501-e3a1-4051-9024-a89f4643b438",
+              "name": "George Lund"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ef262df5-f960-4811-9040-1f923cd6bc60",
               "players": [
                 {
+                  "playerId": "team-player/4a06bc6b-719b-4580-b8c9-6e2db31d4d52",
                   "name": "James Turton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4899b501-e3a1-4051-9024-a89f4643b438",
                   "name": "George Lund",
                   "score": "2"
                 }
@@ -241,17 +362,26 @@
         },
         {
           "players": [
-            "Peter Binks",
-            "Mark Richardson"
+            {
+              "playerId": "team-player/b4da3059-a5ae-42aa-8156-714516363d72",
+              "name": "Peter Binks"
+            },
+            {
+              "playerId": "team-player/0ef79fe9-361c-4994-b820-12ef98c8c47b",
+              "name": "Mark Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8295a2f0-babb-4bbe-ad18-b3a62e891563",
               "players": [
                 {
+                  "playerId": "team-player/b4da3059-a5ae-42aa-8156-714516363d72",
                   "name": "Peter Binks",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0ef79fe9-361c-4994-b820-12ef98c8c47b",
                   "name": "Mark Richardson",
                   "score": "7"
                 }
@@ -263,17 +393,26 @@
         },
         {
           "players": [
-            "Mary Cockett",
-            "Gordon Christensen"
+            {
+              "playerId": "team-player/cd5e8e15-1579-46fb-bdb4-9d7beb117f8d",
+              "name": "Mary Cockett"
+            },
+            {
+              "playerId": "team-player/0b17a635-d5c6-41b8-a645-fff068324cbd",
+              "name": "Gordon Christensen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd9fcc11-ab43-4c13-8401-e5719c0be908",
               "players": [
                 {
+                  "playerId": "team-player/cd5e8e15-1579-46fb-bdb4-9d7beb117f8d",
                   "name": "Mary Cockett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0b17a635-d5c6-41b8-a645-fff068324cbd",
                   "name": "Gordon Christensen",
                   "score": "3"
                 }
@@ -285,17 +424,26 @@
         },
         {
           "players": [
-            "Steve Podolak",
-            "Yong Teck"
+            {
+              "playerId": "team-player/660220cb-a877-4f4c-a560-25ac9b0d7479",
+              "name": "Steve Podolak"
+            },
+            {
+              "playerId": "team-player/8e27dde4-f6e5-4eaf-8c14-6e0145df02d1",
+              "name": "Yong Teck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/97d59542-7366-47fd-ac2e-48a6bb23c993",
               "players": [
                 {
+                  "playerId": "team-player/660220cb-a877-4f4c-a560-25ac9b0d7479",
                   "name": "Steve Podolak",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8e27dde4-f6e5-4eaf-8c14-6e0145df02d1",
                   "name": "Yong Teck",
                   "score": "6"
                 }
@@ -307,17 +455,26 @@
         },
         {
           "players": [
-            "James Turton",
-            "Mark Richardson"
+            {
+              "playerId": "team-player/4a06bc6b-719b-4580-b8c9-6e2db31d4d52",
+              "name": "James Turton"
+            },
+            {
+              "playerId": "team-player/0ef79fe9-361c-4994-b820-12ef98c8c47b",
+              "name": "Mark Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb63f19a-ce75-4636-a103-51af91f13dbe",
               "players": [
                 {
+                  "playerId": "team-player/4a06bc6b-719b-4580-b8c9-6e2db31d4d52",
                   "name": "James Turton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0ef79fe9-361c-4994-b820-12ef98c8c47b",
                   "name": "Mark Richardson",
                   "score": "4"
                 }
@@ -329,17 +486,26 @@
         },
         {
           "players": [
-            "Peter Binks",
-            "Gordon Christensen"
+            {
+              "playerId": "team-player/b4da3059-a5ae-42aa-8156-714516363d72",
+              "name": "Peter Binks"
+            },
+            {
+              "playerId": "team-player/0b17a635-d5c6-41b8-a645-fff068324cbd",
+              "name": "Gordon Christensen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/445bd971-1cd3-43b9-a0da-94c70c979ed1",
               "players": [
                 {
+                  "playerId": "team-player/b4da3059-a5ae-42aa-8156-714516363d72",
                   "name": "Peter Binks",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0b17a635-d5c6-41b8-a645-fff068324cbd",
                   "name": "Gordon Christensen",
                   "score": "3"
                 }
@@ -351,17 +517,26 @@
         },
         {
           "players": [
-            "Mary Cockett",
-            "Yong Teck"
+            {
+              "playerId": "team-player/cd5e8e15-1579-46fb-bdb4-9d7beb117f8d",
+              "name": "Mary Cockett"
+            },
+            {
+              "playerId": "team-player/8e27dde4-f6e5-4eaf-8c14-6e0145df02d1",
+              "name": "Yong Teck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/94b6b762-426d-41ef-a03e-09da00c2d96d",
               "players": [
                 {
+                  "playerId": "team-player/cd5e8e15-1579-46fb-bdb4-9d7beb117f8d",
                   "name": "Mary Cockett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e27dde4-f6e5-4eaf-8c14-6e0145df02d1",
                   "name": "Yong Teck",
                   "score": "5"
                 }
@@ -373,17 +548,26 @@
         },
         {
           "players": [
-            "Steve Podolak",
-            "George Lund"
+            {
+              "playerId": "team-player/660220cb-a877-4f4c-a560-25ac9b0d7479",
+              "name": "Steve Podolak"
+            },
+            {
+              "playerId": "team-player/4899b501-e3a1-4051-9024-a89f4643b438",
+              "name": "George Lund"
+            }
           ],
           "games": [
             {
+              "gameId": "game/134305ed-4d46-4f41-8437-4d5bfce2efcf",
               "players": [
                 {
+                  "playerId": "team-player/660220cb-a877-4f4c-a560-25ac9b0d7479",
                   "name": "Steve Podolak",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4899b501-e3a1-4051-9024-a89f4643b438",
                   "name": "George Lund",
                   "score": "2"
                 }
@@ -395,17 +579,26 @@
         },
         {
           "players": [
-            "James Turton & Peter Binks",
-            "Gordon Christensen & Yong Teck"
+            {
+              "playerId": "team-player/cd485380-1ad9-41a1-baa4-545966f6c2ff",
+              "name": "James Turton & Peter Binks"
+            },
+            {
+              "playerId": "team-player/1addafbe-e70b-4da1-b029-8ddd124a0e8a",
+              "name": "Gordon Christensen & Yong Teck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/93215c13-d6b3-4687-b4a8-20eb5921ecd4",
               "players": [
                 {
+                  "playerId": "team-player/cd485380-1ad9-41a1-baa4-545966f6c2ff",
                   "name": "James Turton & Peter Binks",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1addafbe-e70b-4da1-b029-8ddd124a0e8a",
                   "name": "Gordon Christensen & Yong Teck",
                   "score": "4"
                 }
@@ -417,17 +610,26 @@
         },
         {
           "players": [
-            "Mary Cockett & Steve Podolak",
-            "George Lund & Mark Richardson"
+            {
+              "playerId": "team-player/b59b538b-5224-4676-9ad0-fcf3480c357c",
+              "name": "Mary Cockett & Steve Podolak"
+            },
+            {
+              "playerId": "team-player/bf37981b-c9b6-45f1-b5c0-de75fd8cf496",
+              "name": "George Lund & Mark Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/28572d50-dfae-4d86-852c-91d5bef97ada",
               "players": [
                 {
+                  "playerId": "team-player/b59b538b-5224-4676-9ad0-fcf3480c357c",
                   "name": "Mary Cockett & Steve Podolak",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf37981b-c9b6-45f1-b5c0-de75fd8cf496",
                   "name": "George Lund & Mark Richardson",
                   "score": "5"
                 }
@@ -439,17 +641,26 @@
         },
         {
           "players": [
-            "James Turton & Peter Binks",
-            "George Lund & Mark Richardson"
+            {
+              "playerId": "team-player/cd485380-1ad9-41a1-baa4-545966f6c2ff",
+              "name": "James Turton & Peter Binks"
+            },
+            {
+              "playerId": "team-player/bf37981b-c9b6-45f1-b5c0-de75fd8cf496",
+              "name": "George Lund & Mark Richardson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ba79895-6c54-4b60-9931-b18cf0cab992",
               "players": [
                 {
+                  "playerId": "team-player/cd485380-1ad9-41a1-baa4-545966f6c2ff",
                   "name": "James Turton & Peter Binks",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf37981b-c9b6-45f1-b5c0-de75fd8cf496",
                   "name": "George Lund & Mark Richardson",
                   "score": "1"
                 }
@@ -461,17 +672,26 @@
         },
         {
           "players": [
-            "Mary Cockett & Steve Podolak",
-            "Gordon Christensen & Yong Teck"
+            {
+              "playerId": "team-player/b59b538b-5224-4676-9ad0-fcf3480c357c",
+              "name": "Mary Cockett & Steve Podolak"
+            },
+            {
+              "playerId": "team-player/1addafbe-e70b-4da1-b029-8ddd124a0e8a",
+              "name": "Gordon Christensen & Yong Teck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dfbb9507-e442-4a83-b25a-0553938cccc6",
               "players": [
                 {
+                  "playerId": "team-player/b59b538b-5224-4676-9ad0-fcf3480c357c",
                   "name": "Mary Cockett & Steve Podolak",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/1addafbe-e70b-4da1-b029-8ddd124a0e8a",
                   "name": "Gordon Christensen & Yong Teck",
                   "score": "7"
                 }

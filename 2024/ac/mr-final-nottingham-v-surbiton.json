@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0f06e6f3-15ef-430a-b33e-63347a083f9c",
   "name": "MR Final Nottingham v Surbiton",
   "sport": "ac",
   "firstDay": "2024-09-28",
   "lastDay": "2024-09-28",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "Bob Thompson",
-        "John Filsak",
-        "Sanaa Hallam",
-        "Sanaa Hallam and Sophie McGlen",
-        "Sophie McGlen"
+        {
+          "playerId": "team-player/e62de104-78e8-48da-a870-b8aff006b7f9",
+          "name": "Bob Thompson"
+        },
+        {
+          "playerId": "team-player/a27a30dc-f300-493e-9146-39256b3d1399",
+          "name": "John Filsak"
+        },
+        {
+          "playerId": "team-player/36c98d63-1945-464d-9c44-4ab3dc3de3b9",
+          "name": "Sanaa Hallam"
+        },
+        {
+          "playerId": "team-player/a4ef1d35-147d-4e43-9435-b4d40777b1c9",
+          "name": "Sanaa Hallam and Sophie McGlen"
+        },
+        {
+          "playerId": "team-player/c935ace5-b5cd-4c5c-abd3-8d01ccd8b50c",
+          "name": "Sophie McGlen"
+        }
       ]
     },
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "David Mooney",
-        "Don Beck",
-        "Don Beck and David Mooney",
-        "Julian Sheraton-Davis",
-        "Mary Knapp"
+        {
+          "playerId": "team-player/5fb97f0a-eddd-49c6-bf97-4ef0ae6079c8",
+          "name": "David Mooney"
+        },
+        {
+          "playerId": "team-player/65ea2bb6-2c8d-4773-8090-da4837d749ad",
+          "name": "Don Beck"
+        },
+        {
+          "playerId": "team-player/20b60b0f-617c-4a3f-84b4-be7bfe58128f",
+          "name": "Don Beck and David Mooney"
+        },
+        {
+          "playerId": "team-player/e5ac9a82-cacc-493b-a5f2-9ddab0e038b3",
+          "name": "Julian Sheraton-Davis"
+        },
+        {
+          "playerId": "team-player/cd965e19-8406-44b5-adf2-ad190da68e6e",
+          "name": "Mary Knapp"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/abce07f9-078b-4795-a676-166bc91c7555",
       "teams": [
         "Nottingham",
         "Surbiton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "John Filsak",
-            "Julian Sheraton-Davis"
+            {
+              "playerId": "team-player/a27a30dc-f300-493e-9146-39256b3d1399",
+              "name": "John Filsak"
+            },
+            {
+              "playerId": "team-player/e5ac9a82-cacc-493b-a5f2-9ddab0e038b3",
+              "name": "Julian Sheraton-Davis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/67d660d3-febe-49ff-a8ff-905316bbb8c0",
               "players": [
                 {
+                  "playerId": "team-player/a27a30dc-f300-493e-9146-39256b3d1399",
                   "name": "John Filsak",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/e5ac9a82-cacc-493b-a5f2-9ddab0e038b3",
                   "name": "Julian Sheraton-Davis",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Bob Thompson",
-            "Mary Knapp"
+            {
+              "playerId": "team-player/e62de104-78e8-48da-a870-b8aff006b7f9",
+              "name": "Bob Thompson"
+            },
+            {
+              "playerId": "team-player/cd965e19-8406-44b5-adf2-ad190da68e6e",
+              "name": "Mary Knapp"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a3e5536e-2a26-4db3-9c0e-8ee348a1eb55",
               "players": [
                 {
+                  "playerId": "team-player/e62de104-78e8-48da-a870-b8aff006b7f9",
                   "name": "Bob Thompson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cd965e19-8406-44b5-adf2-ad190da68e6e",
                   "name": "Mary Knapp",
                   "score": "15"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Sanaa Hallam and Sophie McGlen",
-            "Don Beck and David Mooney"
+            {
+              "playerId": "team-player/a4ef1d35-147d-4e43-9435-b4d40777b1c9",
+              "name": "Sanaa Hallam and Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/20b60b0f-617c-4a3f-84b4-be7bfe58128f",
+              "name": "Don Beck and David Mooney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/397a5fcc-de4c-45f3-94a2-0a8cbd90e87c",
               "players": [
                 {
+                  "playerId": "team-player/a4ef1d35-147d-4e43-9435-b4d40777b1c9",
                   "name": "Sanaa Hallam and Sophie McGlen",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/20b60b0f-617c-4a3f-84b4-be7bfe58128f",
                   "name": "Don Beck and David Mooney",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Bob Thompson",
-            "Julian Sheraton-Davis"
+            {
+              "playerId": "team-player/e62de104-78e8-48da-a870-b8aff006b7f9",
+              "name": "Bob Thompson"
+            },
+            {
+              "playerId": "team-player/e5ac9a82-cacc-493b-a5f2-9ddab0e038b3",
+              "name": "Julian Sheraton-Davis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/40caba50-891e-49d7-80b9-28a6e1344e92",
               "players": [
                 {
+                  "playerId": "team-player/e62de104-78e8-48da-a870-b8aff006b7f9",
                   "name": "Bob Thompson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e5ac9a82-cacc-493b-a5f2-9ddab0e038b3",
                   "name": "Julian Sheraton-Davis",
                   "score": "22"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "John Filsak",
-            "Mary Knapp"
+            {
+              "playerId": "team-player/a27a30dc-f300-493e-9146-39256b3d1399",
+              "name": "John Filsak"
+            },
+            {
+              "playerId": "team-player/cd965e19-8406-44b5-adf2-ad190da68e6e",
+              "name": "Mary Knapp"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5b55ce7e-138c-4864-a4bf-38ef5e6d2998",
               "players": [
                 {
+                  "playerId": "team-player/a27a30dc-f300-493e-9146-39256b3d1399",
                   "name": "John Filsak",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cd965e19-8406-44b5-adf2-ad190da68e6e",
                   "name": "Mary Knapp",
                   "score": "19"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Sophie McGlen",
-            "David Mooney"
+            {
+              "playerId": "team-player/c935ace5-b5cd-4c5c-abd3-8d01ccd8b50c",
+              "name": "Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/5fb97f0a-eddd-49c6-bf97-4ef0ae6079c8",
+              "name": "David Mooney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/06a3110c-8809-4cc4-87f8-11148000856a",
               "players": [
                 {
+                  "playerId": "team-player/c935ace5-b5cd-4c5c-abd3-8d01ccd8b50c",
                   "name": "Sophie McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5fb97f0a-eddd-49c6-bf97-4ef0ae6079c8",
                   "name": "David Mooney",
                   "score": "12"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Sanaa Hallam",
-            "Don Beck"
+            {
+              "playerId": "team-player/36c98d63-1945-464d-9c44-4ab3dc3de3b9",
+              "name": "Sanaa Hallam"
+            },
+            {
+              "playerId": "team-player/65ea2bb6-2c8d-4773-8090-da4837d749ad",
+              "name": "Don Beck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/78ed8604-a90f-4005-9220-8a0dbd5e9fa1",
               "players": [
                 {
+                  "playerId": "team-player/36c98d63-1945-464d-9c44-4ab3dc3de3b9",
                   "name": "Sanaa Hallam",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/65ea2bb6-2c8d-4773-8090-da4837d749ad",
                   "name": "Don Beck",
                   "score": "26"
                 }

@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5655ca66-4c5c-43c0-be51-c5a768341640",
   "name": "Mary Rose Semi-Finals",
   "sport": "ac",
   "firstDay": "2026-08-23",
   "lastDay": "2026-08-23",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Roehampton Club",
       "shortName": "Roehampton",
       "players": [
-        "David Mooney",
-        "Diana Wilson",
-        "Nick Yates",
-        "Nick Yates and David Mooney",
-        "Peter Siddall"
+        {
+          "playerId": "team-player/67cdc133-cbc8-4378-97a3-a9b056935adb",
+          "name": "David Mooney"
+        },
+        {
+          "playerId": "team-player/97bb010f-2698-4672-8cdf-973fecc32d64",
+          "name": "Diana Wilson"
+        },
+        {
+          "playerId": "team-player/e4ea1e76-d3d0-49e7-a16e-d6125f493fcc",
+          "name": "Nick Yates"
+        },
+        {
+          "playerId": "team-player/4f2928ac-384a-4922-a994-7eae9c71f60d",
+          "name": "Nick Yates and David Mooney"
+        },
+        {
+          "playerId": "team-player/a6746762-9c5b-49b4-a703-7fe1010c9d35",
+          "name": "Peter Siddall"
+        }
       ]
     },
     {
       "name": "Hurlingham Club",
       "shortName": "Hurlingham",
       "players": [
-        "David Owen",
-        "Guy Hewitt",
-        "Ludolph van Hasselt",
-        "Ludolph van Hasselt and Guy Hewitt",
-        "Martin Read"
+        {
+          "playerId": "team-player/a7e898d1-0902-4ba4-83c1-c8894e6b5091",
+          "name": "David Owen"
+        },
+        {
+          "playerId": "team-player/a8f600ce-7a20-43dc-90c9-71603c0164cf",
+          "name": "Guy Hewitt"
+        },
+        {
+          "playerId": "team-player/1f7aa674-4391-4b5c-b6a1-3946a16c8d3c",
+          "name": "Ludolph van Hasselt"
+        },
+        {
+          "playerId": "team-player/cdc89bda-1880-4f2e-a62f-29a5e2c3f841",
+          "name": "Ludolph van Hasselt and Guy Hewitt"
+        },
+        {
+          "playerId": "team-player/c7b11477-17bd-4d90-a2d9-e9851ae83df7",
+          "name": "Martin Read"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1376d9c2-a648-4d9b-bed2-491ee6c12395",
       "teams": [
         "Roehampton Club",
         "Hurlingham Club"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Nick Yates and David Mooney",
-            "Ludolph van Hasselt and Guy Hewitt"
+            {
+              "playerId": "team-player/4f2928ac-384a-4922-a994-7eae9c71f60d",
+              "name": "Nick Yates and David Mooney"
+            },
+            {
+              "playerId": "team-player/cdc89bda-1880-4f2e-a62f-29a5e2c3f841",
+              "name": "Ludolph van Hasselt and Guy Hewitt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0a07b61b-9b1e-4a85-87d0-ffcce87fb838",
               "players": [
                 {
+                  "playerId": "team-player/4f2928ac-384a-4922-a994-7eae9c71f60d",
                   "name": "Nick Yates and David Mooney",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/cdc89bda-1880-4f2e-a62f-29a5e2c3f841",
                   "name": "Ludolph van Hasselt and Guy Hewitt",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Nick Yates",
-            "Ludolph van Hasselt"
+            {
+              "playerId": "team-player/e4ea1e76-d3d0-49e7-a16e-d6125f493fcc",
+              "name": "Nick Yates"
+            },
+            {
+              "playerId": "team-player/1f7aa674-4391-4b5c-b6a1-3946a16c8d3c",
+              "name": "Ludolph van Hasselt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9ff8e4a-49ad-45e4-a1c1-1bedc1583d3d",
               "players": [
                 {
+                  "playerId": "team-player/e4ea1e76-d3d0-49e7-a16e-d6125f493fcc",
                   "name": "Nick Yates",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1f7aa674-4391-4b5c-b6a1-3946a16c8d3c",
                   "name": "Ludolph van Hasselt",
                   "score": "25"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "David Mooney",
-            "Guy Hewitt"
+            {
+              "playerId": "team-player/67cdc133-cbc8-4378-97a3-a9b056935adb",
+              "name": "David Mooney"
+            },
+            {
+              "playerId": "team-player/a8f600ce-7a20-43dc-90c9-71603c0164cf",
+              "name": "Guy Hewitt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3bd8a0f6-adc6-4d98-a221-0548713af44d",
               "players": [
                 {
+                  "playerId": "team-player/67cdc133-cbc8-4378-97a3-a9b056935adb",
                   "name": "David Mooney",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/a8f600ce-7a20-43dc-90c9-71603c0164cf",
                   "name": "Guy Hewitt",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Diana Wilson",
-            "David Owen"
+            {
+              "playerId": "team-player/97bb010f-2698-4672-8cdf-973fecc32d64",
+              "name": "Diana Wilson"
+            },
+            {
+              "playerId": "team-player/a7e898d1-0902-4ba4-83c1-c8894e6b5091",
+              "name": "David Owen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/504675e7-9b1f-46d2-bd1a-0148576d9969",
               "players": [
                 {
+                  "playerId": "team-player/97bb010f-2698-4672-8cdf-973fecc32d64",
                   "name": "Diana Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a7e898d1-0902-4ba4-83c1-c8894e6b5091",
                   "name": "David Owen",
                   "score": "24"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Peter Siddall",
-            "Martin Read"
+            {
+              "playerId": "team-player/a6746762-9c5b-49b4-a703-7fe1010c9d35",
+              "name": "Peter Siddall"
+            },
+            {
+              "playerId": "team-player/c7b11477-17bd-4d90-a2d9-e9851ae83df7",
+              "name": "Martin Read"
+            }
           ],
           "games": [
             {
+              "gameId": "game/99d1f71b-3d33-41b1-bb6f-7be689b4e2ad",
               "players": [
                 {
+                  "playerId": "team-player/a6746762-9c5b-49b4-a703-7fe1010c9d35",
                   "name": "Peter Siddall",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c7b11477-17bd-4d90-a2d9-e9851ae83df7",
                   "name": "Martin Read",
                   "score": "11"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Diana Wilson",
-            "Martin Read"
+            {
+              "playerId": "team-player/97bb010f-2698-4672-8cdf-973fecc32d64",
+              "name": "Diana Wilson"
+            },
+            {
+              "playerId": "team-player/c7b11477-17bd-4d90-a2d9-e9851ae83df7",
+              "name": "Martin Read"
+            }
           ],
           "games": [
             {
+              "gameId": "game/28de8eaf-c04c-4269-866a-ddb75ab839e0",
               "players": [
                 {
+                  "playerId": "team-player/97bb010f-2698-4672-8cdf-973fecc32d64",
                   "name": "Diana Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c7b11477-17bd-4d90-a2d9-e9851ae83df7",
                   "name": "Martin Read",
                   "score": "17 T"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Peter Siddall",
-            "David Owen"
+            {
+              "playerId": "team-player/a6746762-9c5b-49b4-a703-7fe1010c9d35",
+              "name": "Peter Siddall"
+            },
+            {
+              "playerId": "team-player/a7e898d1-0902-4ba4-83c1-c8894e6b5091",
+              "name": "David Owen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4c7dfa1b-8387-4346-99fe-efd3ff1626ef",
               "players": [
                 {
+                  "playerId": "team-player/a6746762-9c5b-49b4-a703-7fe1010c9d35",
                   "name": "Peter Siddall",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/a7e898d1-0902-4ba4-83c1-c8894e6b5091",
                   "name": "David Owen",
                   "score": "17 T"
                 }

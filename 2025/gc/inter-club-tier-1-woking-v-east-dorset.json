@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/8ef2d0fd-df40-4b55-8609-9753be1ccd94",
   "name": "GC Inter-Club Tier 1 - Woking v East Dorset",
   "sport": "gc",
   "firstDay": "2025-06-03",
   "lastDay": "2025-06-03",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Woking",
       "shortName": "Woking",
       "players": [
-        "Colin Brim",
-        "Ian Anderson",
-        "Mike Town",
-        "Mike Town & Sara Anderson",
-        "Sara Anderson"
+        {
+          "playerId": "team-player/f60116b7-dc04-464c-97d2-8e5910c65359",
+          "name": "Colin Brim"
+        },
+        {
+          "playerId": "team-player/77e33897-f644-43cd-9891-6f1c4336f2f6",
+          "name": "Ian Anderson"
+        },
+        {
+          "playerId": "team-player/69f5f584-5c96-4dc9-a3e8-ed0edd19cbf1",
+          "name": "Mike Town"
+        },
+        {
+          "playerId": "team-player/4984360f-af75-4de0-8ca8-a0063c761bac",
+          "name": "Mike Town & Sara Anderson"
+        },
+        {
+          "playerId": "team-player/8130ef46-0f1f-446f-8bce-6b2e51908b94",
+          "name": "Sara Anderson"
+        }
       ]
     },
     {
       "name": "East Dorset",
       "shortName": "East Dorse",
       "players": [
-        "Andy Dochniak",
-        "Jeff Dawson",
-        "Jeff Dawson & Jonathan Powe",
-        "Jonathan Powe",
-        "Steve Leonard"
+        {
+          "playerId": "team-player/197c7017-433e-443c-be53-58e3c0209d63",
+          "name": "Andy Dochniak"
+        },
+        {
+          "playerId": "team-player/e9489026-af13-404d-927b-c07c06135bdf",
+          "name": "Jeff Dawson"
+        },
+        {
+          "playerId": "team-player/fa85c153-4e38-4ddc-a217-facbdaa4d2dc",
+          "name": "Jeff Dawson & Jonathan Powe"
+        },
+        {
+          "playerId": "team-player/5f093a7c-88ac-4a29-8c55-e06792bb6258",
+          "name": "Jonathan Powe"
+        },
+        {
+          "playerId": "team-player/9ad9c3c5-67e4-445d-9621-c12de565d036",
+          "name": "Steve Leonard"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/e819c3d1-549d-4e33-a9a1-c5686a0199f8",
       "teams": [
         "Woking",
         "East Dorset"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Mike Town & Sara Anderson",
-            "Jeff Dawson & Jonathan Powe"
+            {
+              "playerId": "team-player/4984360f-af75-4de0-8ca8-a0063c761bac",
+              "name": "Mike Town & Sara Anderson"
+            },
+            {
+              "playerId": "team-player/fa85c153-4e38-4ddc-a217-facbdaa4d2dc",
+              "name": "Jeff Dawson & Jonathan Powe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0620b441-f28b-45ec-98c4-f349e898a196",
               "players": [
                 {
+                  "playerId": "team-player/4984360f-af75-4de0-8ca8-a0063c761bac",
                   "name": "Mike Town & Sara Anderson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/fa85c153-4e38-4ddc-a217-facbdaa4d2dc",
                   "name": "Jeff Dawson & Jonathan Powe",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/49a60bfe-fc74-4a1c-9bd9-78d71cc856a0",
               "players": [
                 {
+                  "playerId": "team-player/4984360f-af75-4de0-8ca8-a0063c761bac",
                   "name": "Mike Town & Sara Anderson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/fa85c153-4e38-4ddc-a217-facbdaa4d2dc",
                   "name": "Jeff Dawson & Jonathan Powe",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Colin Brim",
-            "Andy Dochniak"
+            {
+              "playerId": "team-player/f60116b7-dc04-464c-97d2-8e5910c65359",
+              "name": "Colin Brim"
+            },
+            {
+              "playerId": "team-player/197c7017-433e-443c-be53-58e3c0209d63",
+              "name": "Andy Dochniak"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7c4fb08e-446d-44b5-a8f3-74f30b851bc9",
               "players": [
                 {
+                  "playerId": "team-player/f60116b7-dc04-464c-97d2-8e5910c65359",
                   "name": "Colin Brim",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/197c7017-433e-443c-be53-58e3c0209d63",
                   "name": "Andy Dochniak",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dc279478-7aff-45db-9cf3-9cb86bb05c6c",
               "players": [
                 {
+                  "playerId": "team-player/f60116b7-dc04-464c-97d2-8e5910c65359",
                   "name": "Colin Brim",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/197c7017-433e-443c-be53-58e3c0209d63",
                   "name": "Andy Dochniak",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Ian Anderson",
-            "Steve Leonard"
+            {
+              "playerId": "team-player/77e33897-f644-43cd-9891-6f1c4336f2f6",
+              "name": "Ian Anderson"
+            },
+            {
+              "playerId": "team-player/9ad9c3c5-67e4-445d-9621-c12de565d036",
+              "name": "Steve Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/61090ae3-3fcb-4211-8aed-5914b33bb32e",
               "players": [
                 {
+                  "playerId": "team-player/77e33897-f644-43cd-9891-6f1c4336f2f6",
                   "name": "Ian Anderson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9ad9c3c5-67e4-445d-9621-c12de565d036",
                   "name": "Steve Leonard",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/efbdc258-8b7e-45c6-86fe-1c1a717929f2",
               "players": [
                 {
+                  "playerId": "team-player/77e33897-f644-43cd-9891-6f1c4336f2f6",
                   "name": "Ian Anderson",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/9ad9c3c5-67e4-445d-9621-c12de565d036",
                   "name": "Steve Leonard",
                   "score": "7"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "Sara Anderson",
-            "Jonathan Powe"
+            {
+              "playerId": "team-player/8130ef46-0f1f-446f-8bce-6b2e51908b94",
+              "name": "Sara Anderson"
+            },
+            {
+              "playerId": "team-player/5f093a7c-88ac-4a29-8c55-e06792bb6258",
+              "name": "Jonathan Powe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/86b167ef-fad1-4a63-b84d-f8dbb4bed7dc",
               "players": [
                 {
+                  "playerId": "team-player/8130ef46-0f1f-446f-8bce-6b2e51908b94",
                   "name": "Sara Anderson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5f093a7c-88ac-4a29-8c55-e06792bb6258",
                   "name": "Jonathan Powe",
                   "score": "7"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/04d2a547-bd31-4f80-a819-00e636ed6ad9",
               "players": [
                 {
+                  "playerId": "team-player/8130ef46-0f1f-446f-8bce-6b2e51908b94",
                   "name": "Sara Anderson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5f093a7c-88ac-4a29-8c55-e06792bb6258",
                   "name": "Jonathan Powe",
                   "score": "7"
                 }
@@ -185,17 +267,26 @@
         },
         {
           "players": [
-            "Mike Town",
-            "Jeff Dawson"
+            {
+              "playerId": "team-player/69f5f584-5c96-4dc9-a3e8-ed0edd19cbf1",
+              "name": "Mike Town"
+            },
+            {
+              "playerId": "team-player/e9489026-af13-404d-927b-c07c06135bdf",
+              "name": "Jeff Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c5c9d27-a70a-4352-b4be-6581c0a1c576",
               "players": [
                 {
+                  "playerId": "team-player/69f5f584-5c96-4dc9-a3e8-ed0edd19cbf1",
                   "name": "Mike Town",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e9489026-af13-404d-927b-c07c06135bdf",
                   "name": "Jeff Dawson",
                   "score": "7"
                 }
@@ -204,12 +295,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3cebc7f5-4601-4c7d-94db-ef91dff2f28f",
               "players": [
                 {
+                  "playerId": "team-player/69f5f584-5c96-4dc9-a3e8-ed0edd19cbf1",
                   "name": "Mike Town",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/e9489026-af13-404d-927b-c07c06135bdf",
                   "name": "Jeff Dawson",
                   "score": "7"
                 }
@@ -221,17 +315,26 @@
         },
         {
           "players": [
-            "Ian Anderson",
-            "Andy Dochniak"
+            {
+              "playerId": "team-player/77e33897-f644-43cd-9891-6f1c4336f2f6",
+              "name": "Ian Anderson"
+            },
+            {
+              "playerId": "team-player/197c7017-433e-443c-be53-58e3c0209d63",
+              "name": "Andy Dochniak"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af79f54a-3391-4d90-a3a5-563ddb18bf5c",
               "players": [
                 {
+                  "playerId": "team-player/77e33897-f644-43cd-9891-6f1c4336f2f6",
                   "name": "Ian Anderson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/197c7017-433e-443c-be53-58e3c0209d63",
                   "name": "Andy Dochniak",
                   "score": "7"
                 }
@@ -240,12 +343,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/67553950-ca5f-4aab-b349-b5c9e3aeedd5",
               "players": [
                 {
+                  "playerId": "team-player/77e33897-f644-43cd-9891-6f1c4336f2f6",
                   "name": "Ian Anderson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/197c7017-433e-443c-be53-58e3c0209d63",
                   "name": "Andy Dochniak",
                   "score": "6"
                 }
@@ -257,17 +363,26 @@
         },
         {
           "players": [
-            "Colin Brim",
-            "Steve Leonard"
+            {
+              "playerId": "team-player/f60116b7-dc04-464c-97d2-8e5910c65359",
+              "name": "Colin Brim"
+            },
+            {
+              "playerId": "team-player/9ad9c3c5-67e4-445d-9621-c12de565d036",
+              "name": "Steve Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fab5b4ca-94b4-46dc-b083-27abb4d5a005",
               "players": [
                 {
+                  "playerId": "team-player/f60116b7-dc04-464c-97d2-8e5910c65359",
                   "name": "Colin Brim",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9ad9c3c5-67e4-445d-9621-c12de565d036",
                   "name": "Steve Leonard",
                   "score": "7"
                 }
@@ -276,12 +391,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6ce3318c-6b29-42af-8f5c-17c77eb4ca53",
               "players": [
                 {
+                  "playerId": "team-player/f60116b7-dc04-464c-97d2-8e5910c65359",
                   "name": "Colin Brim",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9ad9c3c5-67e4-445d-9621-c12de565d036",
                   "name": "Steve Leonard",
                   "score": "6"
                 }

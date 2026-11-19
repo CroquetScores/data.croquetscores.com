@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/72e91bca-50d8-41bd-b78c-df6ebc41e494",
   "name": "GC Inter-Club Tier 3 (Bowl): Ealing v Compton",
   "sport": "gc",
   "firstDay": "2026-05-22",
   "lastDay": "2026-05-22",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Ealing",
       "shortName": "Ealing",
       "players": [
-        "Lindy Jordan",
-        "Martin Blackstone",
-        "Tim Vernon",
-        "Tony & Martin",
-        "Tony Elliott"
+        {
+          "playerId": "team-player/bb4484e4-5cca-4b53-8527-da4c11db5973",
+          "name": "Lindy Jordan"
+        },
+        {
+          "playerId": "team-player/277cb075-a41a-4e34-adae-3b1282eea7fd",
+          "name": "Martin Blackstone"
+        },
+        {
+          "playerId": "team-player/749ae675-83ac-47cb-9b67-15a4be6fe9ff",
+          "name": "Tim Vernon"
+        },
+        {
+          "playerId": "team-player/a322e46a-ba64-4b1d-a33c-7cef8efbb3c4",
+          "name": "Tony & Martin"
+        },
+        {
+          "playerId": "team-player/bc6c05fc-8cdd-4be6-954c-d53f5f71a7df",
+          "name": "Tony Elliott"
+        }
       ]
     },
     {
       "name": "Compton",
       "shortName": "Compton",
       "players": [
-        "Andrew & Joe",
-        "Andrew Fall",
-        "Joe Cowan",
-        "Michael Clarke",
-        "Michael George"
+        {
+          "playerId": "team-player/1768d5e1-c7d7-4987-8f10-4ca2d964a0f3",
+          "name": "Andrew & Joe"
+        },
+        {
+          "playerId": "team-player/a4112a26-34bb-49eb-b48e-222c4311e7f5",
+          "name": "Andrew Fall"
+        },
+        {
+          "playerId": "team-player/f2438872-cba3-4197-bce4-f0cf11e36218",
+          "name": "Joe Cowan"
+        },
+        {
+          "playerId": "team-player/18107379-0fda-4750-a3f9-247d0cf38b7d",
+          "name": "Michael Clarke"
+        },
+        {
+          "playerId": "team-player/277cefc6-f9e0-4cae-adc3-2ac02a3a872b",
+          "name": "Michael George"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/f210ae06-17b5-4bc7-98c8-ac07e0835aef",
       "teams": [
         "Ealing",
         "Compton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Tony & Martin",
-            "Andrew & Joe"
+            {
+              "playerId": "team-player/a322e46a-ba64-4b1d-a33c-7cef8efbb3c4",
+              "name": "Tony & Martin"
+            },
+            {
+              "playerId": "team-player/1768d5e1-c7d7-4987-8f10-4ca2d964a0f3",
+              "name": "Andrew & Joe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3d145976-1385-4ba1-ae60-045194b9ea3a",
               "players": [
                 {
+                  "playerId": "team-player/a322e46a-ba64-4b1d-a33c-7cef8efbb3c4",
                   "name": "Tony & Martin",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1768d5e1-c7d7-4987-8f10-4ca2d964a0f3",
                   "name": "Andrew & Joe",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ed2bdbc1-36df-4b05-956c-376066fe7eb8",
               "players": [
                 {
+                  "playerId": "team-player/a322e46a-ba64-4b1d-a33c-7cef8efbb3c4",
                   "name": "Tony & Martin",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/1768d5e1-c7d7-4987-8f10-4ca2d964a0f3",
                   "name": "Andrew & Joe",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Tim Vernon",
-            "Michael George"
+            {
+              "playerId": "team-player/749ae675-83ac-47cb-9b67-15a4be6fe9ff",
+              "name": "Tim Vernon"
+            },
+            {
+              "playerId": "team-player/277cefc6-f9e0-4cae-adc3-2ac02a3a872b",
+              "name": "Michael George"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a8dd85ae-ee34-47db-9088-ac906ba494b8",
               "players": [
                 {
+                  "playerId": "team-player/749ae675-83ac-47cb-9b67-15a4be6fe9ff",
                   "name": "Tim Vernon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/277cefc6-f9e0-4cae-adc3-2ac02a3a872b",
                   "name": "Michael George",
                   "score": "6"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/54f1be3f-a7d8-4b21-863e-6941d9f0321b",
               "players": [
                 {
+                  "playerId": "team-player/749ae675-83ac-47cb-9b67-15a4be6fe9ff",
                   "name": "Tim Vernon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/277cefc6-f9e0-4cae-adc3-2ac02a3a872b",
                   "name": "Michael George",
                   "score": "4"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Lindy Jordan",
-            "Michael Clarke"
+            {
+              "playerId": "team-player/bb4484e4-5cca-4b53-8527-da4c11db5973",
+              "name": "Lindy Jordan"
+            },
+            {
+              "playerId": "team-player/18107379-0fda-4750-a3f9-247d0cf38b7d",
+              "name": "Michael Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/91939094-3705-4aa5-a7e2-fcbe5a15f72e",
               "players": [
                 {
+                  "playerId": "team-player/bb4484e4-5cca-4b53-8527-da4c11db5973",
                   "name": "Lindy Jordan",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/18107379-0fda-4750-a3f9-247d0cf38b7d",
                   "name": "Michael Clarke",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b6e51441-273d-4b1d-be4c-5ef47b93bce9",
               "players": [
                 {
+                  "playerId": "team-player/bb4484e4-5cca-4b53-8527-da4c11db5973",
                   "name": "Lindy Jordan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/18107379-0fda-4750-a3f9-247d0cf38b7d",
                   "name": "Michael Clarke",
                   "score": "4"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e9be40f2-17ed-410d-b7b0-f5da53e1f1bb",
               "players": [
                 {
+                  "playerId": "team-player/bb4484e4-5cca-4b53-8527-da4c11db5973",
                   "name": "Lindy Jordan",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/18107379-0fda-4750-a3f9-247d0cf38b7d",
                   "name": "Michael Clarke",
                   "score": "7"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Tony Elliott",
-            "Andrew Fall"
+            {
+              "playerId": "team-player/bc6c05fc-8cdd-4be6-954c-d53f5f71a7df",
+              "name": "Tony Elliott"
+            },
+            {
+              "playerId": "team-player/a4112a26-34bb-49eb-b48e-222c4311e7f5",
+              "name": "Andrew Fall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff1e5fee-5419-4c5b-a6c4-be26f1a68498",
               "players": [
                 {
+                  "playerId": "team-player/bc6c05fc-8cdd-4be6-954c-d53f5f71a7df",
                   "name": "Tony Elliott",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a4112a26-34bb-49eb-b48e-222c4311e7f5",
                   "name": "Andrew Fall",
                   "score": "7"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/88f2ed8c-a71a-4cda-b051-ccd02c8a0d04",
               "players": [
                 {
+                  "playerId": "team-player/bc6c05fc-8cdd-4be6-954c-d53f5f71a7df",
                   "name": "Tony Elliott",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/a4112a26-34bb-49eb-b48e-222c4311e7f5",
                   "name": "Andrew Fall",
                   "score": "7"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Martin Blackstone",
-            "Joe Cowan"
+            {
+              "playerId": "team-player/277cb075-a41a-4e34-adae-3b1282eea7fd",
+              "name": "Martin Blackstone"
+            },
+            {
+              "playerId": "team-player/f2438872-cba3-4197-bce4-f0cf11e36218",
+              "name": "Joe Cowan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/869173b1-f70b-4999-a1b0-c7831af89a43",
               "players": [
                 {
+                  "playerId": "team-player/277cb075-a41a-4e34-adae-3b1282eea7fd",
                   "name": "Martin Blackstone",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f2438872-cba3-4197-bce4-f0cf11e36218",
                   "name": "Joe Cowan",
                   "score": "7"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/77704c94-0656-4254-88c5-5b3cc5d9a44d",
               "players": [
                 {
+                  "playerId": "team-player/277cb075-a41a-4e34-adae-3b1282eea7fd",
                   "name": "Martin Blackstone",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f2438872-cba3-4197-bce4-f0cf11e36218",
                   "name": "Joe Cowan",
                   "score": "7"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Tim Vernon",
-            "Michael Clarke"
+            {
+              "playerId": "team-player/749ae675-83ac-47cb-9b67-15a4be6fe9ff",
+              "name": "Tim Vernon"
+            },
+            {
+              "playerId": "team-player/18107379-0fda-4750-a3f9-247d0cf38b7d",
+              "name": "Michael Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88d42c80-0622-4bc6-bc30-bf38335234b7",
               "players": [
                 {
+                  "playerId": "team-player/749ae675-83ac-47cb-9b67-15a4be6fe9ff",
                   "name": "Tim Vernon",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/18107379-0fda-4750-a3f9-247d0cf38b7d",
                   "name": "Michael Clarke",
                   "score": "7"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/17bec651-f47e-4425-a3a3-5c14b62ecf81",
               "players": [
                 {
+                  "playerId": "team-player/749ae675-83ac-47cb-9b67-15a4be6fe9ff",
                   "name": "Tim Vernon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/18107379-0fda-4750-a3f9-247d0cf38b7d",
                   "name": "Michael Clarke",
                   "score": "4"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a9598120-e6a2-42cf-8dce-85af3e0426f0",
               "players": [
                 {
+                  "playerId": "team-player/749ae675-83ac-47cb-9b67-15a4be6fe9ff",
                   "name": "Tim Vernon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/18107379-0fda-4750-a3f9-247d0cf38b7d",
                   "name": "Michael Clarke",
                   "score": "5"
                 }
@@ -285,17 +397,26 @@
         },
         {
           "players": [
-            "Lindy Jordan",
-            "Michael George"
+            {
+              "playerId": "team-player/bb4484e4-5cca-4b53-8527-da4c11db5973",
+              "name": "Lindy Jordan"
+            },
+            {
+              "playerId": "team-player/277cefc6-f9e0-4cae-adc3-2ac02a3a872b",
+              "name": "Michael George"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8ee8eb9-3149-48a0-a3c3-bf12949fdee4",
               "players": [
                 {
+                  "playerId": "team-player/bb4484e4-5cca-4b53-8527-da4c11db5973",
                   "name": "Lindy Jordan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/277cefc6-f9e0-4cae-adc3-2ac02a3a872b",
                   "name": "Michael George",
                   "score": "6"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f5b5082b-be0b-45c1-ac09-263e15a1de3c",
               "players": [
                 {
+                  "playerId": "team-player/bb4484e4-5cca-4b53-8527-da4c11db5973",
                   "name": "Lindy Jordan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/277cefc6-f9e0-4cae-adc3-2ac02a3a872b",
                   "name": "Michael George",
                   "score": "3"
                 }

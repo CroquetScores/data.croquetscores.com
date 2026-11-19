@@ -1,41 +1,87 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/109c201e-4dec-462a-85df-f05c6189e0b9",
   "name": "WCL: Mumbles v Glamorgan",
   "sport": "gc",
   "firstDay": "2026-06-28",
   "lastDay": "2026-06-28",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Mumbles",
       "shortName": "Mumbles",
       "players": [
-        "Kath Wright",
-        "Kath Wright & Richard Ambrose",
-        "Martin Jones",
-        "Paul Thomas",
-        "Paul Thomas & Martin Jones",
-        "Richard Ambrose"
+        {
+          "playerId": "team-player/c14c5f48-fb61-4218-b423-3c9eaebdb5f0",
+          "name": "Kath Wright"
+        },
+        {
+          "playerId": "team-player/b24255b6-ebcb-457c-a92c-22b983580d53",
+          "name": "Kath Wright & Richard Ambrose"
+        },
+        {
+          "playerId": "team-player/1ac26ae6-376f-4ab7-93b0-f190283d26c8",
+          "name": "Martin Jones"
+        },
+        {
+          "playerId": "team-player/6eb2bbb6-45cb-4e6d-b09f-c905c7516e49",
+          "name": "Paul Thomas"
+        },
+        {
+          "playerId": "team-player/013cc2b2-9ebf-485b-ac76-99ee799487b7",
+          "name": "Paul Thomas & Martin Jones"
+        },
+        {
+          "playerId": "team-player/cc05acc2-e668-450a-8bf3-0a9caea48d2d",
+          "name": "Richard Ambrose"
+        }
       ]
     },
     {
       "name": "Glamorgan",
       "shortName": "Glamorgan",
       "players": [
-        "Jim Beach",
-        "Nigel Balchin",
-        "Nigel Balchin & Jim Beach",
-        "Nigel Balchin & Sarah Melvin",
-        "Peter Balchin",
-        "Peter Balchin & Jim Beach",
-        "Peter Balchin & Sarah Melvin",
-        "Sarah Melvin"
+        {
+          "playerId": "team-player/f532482d-1b60-46ea-a726-c52d210992c7",
+          "name": "Jim Beach"
+        },
+        {
+          "playerId": "team-player/97409756-251d-4dc1-878c-c8c5bec0f1d6",
+          "name": "Nigel Balchin"
+        },
+        {
+          "playerId": "team-player/fa4b7762-601e-4284-9eb7-564a9c29ffda",
+          "name": "Nigel Balchin & Jim Beach"
+        },
+        {
+          "playerId": "team-player/e8b2eef7-a9ea-4b1e-9f44-383e68fcfe51",
+          "name": "Nigel Balchin & Sarah Melvin"
+        },
+        {
+          "playerId": "team-player/8969ea7e-951c-4cfc-86fd-2dfb11f661a9",
+          "name": "Peter Balchin"
+        },
+        {
+          "playerId": "team-player/01671ff4-60fc-4bfa-9c27-cf4dd8d06d0c",
+          "name": "Peter Balchin & Jim Beach"
+        },
+        {
+          "playerId": "team-player/b676dbe8-2cb0-4069-b92e-0ca0fa9c577f",
+          "name": "Peter Balchin & Sarah Melvin"
+        },
+        {
+          "playerId": "team-player/d94b2d8f-4081-4b8e-af6b-3253ef6b8d34",
+          "name": "Sarah Melvin"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/912da338-e72c-4ce7-bc61-601cc35887ba",
       "teams": [
         "Mumbles",
         "Glamorgan"
@@ -45,17 +91,26 @@
       "matches": [
         {
           "players": [
-            "Kath Wright & Richard Ambrose",
-            "Nigel Balchin & Sarah Melvin"
+            {
+              "playerId": "team-player/b24255b6-ebcb-457c-a92c-22b983580d53",
+              "name": "Kath Wright & Richard Ambrose"
+            },
+            {
+              "playerId": "team-player/e8b2eef7-a9ea-4b1e-9f44-383e68fcfe51",
+              "name": "Nigel Balchin & Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f3be68a-0431-4e5a-899c-be3929bd945a",
               "players": [
                 {
+                  "playerId": "team-player/b24255b6-ebcb-457c-a92c-22b983580d53",
                   "name": "Kath Wright & Richard Ambrose",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e8b2eef7-a9ea-4b1e-9f44-383e68fcfe51",
                   "name": "Nigel Balchin & Sarah Melvin",
                   "score": "3"
                 }
@@ -67,17 +122,26 @@
         },
         {
           "players": [
-            "Paul Thomas & Martin Jones",
-            "Peter Balchin & Jim Beach"
+            {
+              "playerId": "team-player/013cc2b2-9ebf-485b-ac76-99ee799487b7",
+              "name": "Paul Thomas & Martin Jones"
+            },
+            {
+              "playerId": "team-player/01671ff4-60fc-4bfa-9c27-cf4dd8d06d0c",
+              "name": "Peter Balchin & Jim Beach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5c5c67f5-252c-4213-9365-f22fa5db3671",
               "players": [
                 {
+                  "playerId": "team-player/013cc2b2-9ebf-485b-ac76-99ee799487b7",
                   "name": "Paul Thomas & Martin Jones",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/01671ff4-60fc-4bfa-9c27-cf4dd8d06d0c",
                   "name": "Peter Balchin & Jim Beach",
                   "score": "7"
                 }
@@ -89,17 +153,26 @@
         },
         {
           "players": [
-            "Paul Thomas & Martin Jones",
-            "Nigel Balchin & Jim Beach"
+            {
+              "playerId": "team-player/013cc2b2-9ebf-485b-ac76-99ee799487b7",
+              "name": "Paul Thomas & Martin Jones"
+            },
+            {
+              "playerId": "team-player/fa4b7762-601e-4284-9eb7-564a9c29ffda",
+              "name": "Nigel Balchin & Jim Beach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a76ef79f-9715-4458-858b-e99639edfaa6",
               "players": [
                 {
+                  "playerId": "team-player/013cc2b2-9ebf-485b-ac76-99ee799487b7",
                   "name": "Paul Thomas & Martin Jones",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/fa4b7762-601e-4284-9eb7-564a9c29ffda",
                   "name": "Nigel Balchin & Jim Beach",
                   "score": "7"
                 }
@@ -111,17 +184,26 @@
         },
         {
           "players": [
-            "Kath Wright & Richard Ambrose",
-            "Peter Balchin & Sarah Melvin"
+            {
+              "playerId": "team-player/b24255b6-ebcb-457c-a92c-22b983580d53",
+              "name": "Kath Wright & Richard Ambrose"
+            },
+            {
+              "playerId": "team-player/b676dbe8-2cb0-4069-b92e-0ca0fa9c577f",
+              "name": "Peter Balchin & Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2742fe68-f2eb-43a3-93c1-624979099be5",
               "players": [
                 {
+                  "playerId": "team-player/b24255b6-ebcb-457c-a92c-22b983580d53",
                   "name": "Kath Wright & Richard Ambrose",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/b676dbe8-2cb0-4069-b92e-0ca0fa9c577f",
                   "name": "Peter Balchin & Sarah Melvin",
                   "score": "7"
                 }
@@ -133,17 +215,26 @@
         },
         {
           "players": [
-            "Martin Jones",
-            "Nigel Balchin"
+            {
+              "playerId": "team-player/1ac26ae6-376f-4ab7-93b0-f190283d26c8",
+              "name": "Martin Jones"
+            },
+            {
+              "playerId": "team-player/97409756-251d-4dc1-878c-c8c5bec0f1d6",
+              "name": "Nigel Balchin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/104b1afe-0e52-4d9e-9827-9bbbdc77dbb5",
               "players": [
                 {
+                  "playerId": "team-player/1ac26ae6-376f-4ab7-93b0-f190283d26c8",
                   "name": "Martin Jones",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/97409756-251d-4dc1-878c-c8c5bec0f1d6",
                   "name": "Nigel Balchin",
                   "score": "7"
                 }
@@ -155,17 +246,26 @@
         },
         {
           "players": [
-            "Richard Ambrose",
-            "Jim Beach"
+            {
+              "playerId": "team-player/cc05acc2-e668-450a-8bf3-0a9caea48d2d",
+              "name": "Richard Ambrose"
+            },
+            {
+              "playerId": "team-player/f532482d-1b60-46ea-a726-c52d210992c7",
+              "name": "Jim Beach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3a610270-0b3d-495e-b77e-a90f0d806095",
               "players": [
                 {
+                  "playerId": "team-player/cc05acc2-e668-450a-8bf3-0a9caea48d2d",
                   "name": "Richard Ambrose",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/f532482d-1b60-46ea-a726-c52d210992c7",
                   "name": "Jim Beach",
                   "score": "7"
                 }
@@ -177,17 +277,26 @@
         },
         {
           "players": [
-            "Kath Wright",
-            "Peter Balchin"
+            {
+              "playerId": "team-player/c14c5f48-fb61-4218-b423-3c9eaebdb5f0",
+              "name": "Kath Wright"
+            },
+            {
+              "playerId": "team-player/8969ea7e-951c-4cfc-86fd-2dfb11f661a9",
+              "name": "Peter Balchin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b2e4d27a-d114-4dbd-a4ad-415facb4de75",
               "players": [
                 {
+                  "playerId": "team-player/c14c5f48-fb61-4218-b423-3c9eaebdb5f0",
                   "name": "Kath Wright",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/8969ea7e-951c-4cfc-86fd-2dfb11f661a9",
                   "name": "Peter Balchin",
                   "score": "7"
                 }
@@ -199,17 +308,26 @@
         },
         {
           "players": [
-            "Paul Thomas",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/6eb2bbb6-45cb-4e6d-b09f-c905c7516e49",
+              "name": "Paul Thomas"
+            },
+            {
+              "playerId": "team-player/d94b2d8f-4081-4b8e-af6b-3253ef6b8d34",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/51b9a106-1a3d-484f-91e0-00ab29106a36",
               "players": [
                 {
+                  "playerId": "team-player/6eb2bbb6-45cb-4e6d-b09f-c905c7516e49",
                   "name": "Paul Thomas",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d94b2d8f-4081-4b8e-af6b-3253ef6b8d34",
                   "name": "Sarah Melvin",
                   "score": "7"
                 }
@@ -221,17 +339,26 @@
         },
         {
           "players": [
-            "Paul Thomas",
-            "Nigel Balchin"
+            {
+              "playerId": "team-player/6eb2bbb6-45cb-4e6d-b09f-c905c7516e49",
+              "name": "Paul Thomas"
+            },
+            {
+              "playerId": "team-player/97409756-251d-4dc1-878c-c8c5bec0f1d6",
+              "name": "Nigel Balchin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5acaca4-2371-4459-a3c5-7976098d75c2",
               "players": [
                 {
+                  "playerId": "team-player/6eb2bbb6-45cb-4e6d-b09f-c905c7516e49",
                   "name": "Paul Thomas",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/97409756-251d-4dc1-878c-c8c5bec0f1d6",
                   "name": "Nigel Balchin",
                   "score": "7"
                 }
@@ -243,17 +370,26 @@
         },
         {
           "players": [
-            "Martin Jones",
-            "Jim Beach"
+            {
+              "playerId": "team-player/1ac26ae6-376f-4ab7-93b0-f190283d26c8",
+              "name": "Martin Jones"
+            },
+            {
+              "playerId": "team-player/f532482d-1b60-46ea-a726-c52d210992c7",
+              "name": "Jim Beach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7990da0e-24dd-49cc-88df-096e784a065e",
               "players": [
                 {
+                  "playerId": "team-player/1ac26ae6-376f-4ab7-93b0-f190283d26c8",
                   "name": "Martin Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f532482d-1b60-46ea-a726-c52d210992c7",
                   "name": "Jim Beach",
                   "score": "6"
                 }
@@ -265,17 +401,26 @@
         },
         {
           "players": [
-            "Richard Ambrose",
-            "Peter Balchin"
+            {
+              "playerId": "team-player/cc05acc2-e668-450a-8bf3-0a9caea48d2d",
+              "name": "Richard Ambrose"
+            },
+            {
+              "playerId": "team-player/8969ea7e-951c-4cfc-86fd-2dfb11f661a9",
+              "name": "Peter Balchin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ce8a4ebb-eb12-4a6c-8ffc-f7cc17a8a9aa",
               "players": [
                 {
+                  "playerId": "team-player/cc05acc2-e668-450a-8bf3-0a9caea48d2d",
                   "name": "Richard Ambrose",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/8969ea7e-951c-4cfc-86fd-2dfb11f661a9",
                   "name": "Peter Balchin",
                   "score": "7"
                 }
@@ -287,17 +432,26 @@
         },
         {
           "players": [
-            "Kath Wright",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/c14c5f48-fb61-4218-b423-3c9eaebdb5f0",
+              "name": "Kath Wright"
+            },
+            {
+              "playerId": "team-player/d94b2d8f-4081-4b8e-af6b-3253ef6b8d34",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1842d1cb-abea-4140-b6bb-d320b764ceb9",
               "players": [
                 {
+                  "playerId": "team-player/c14c5f48-fb61-4218-b423-3c9eaebdb5f0",
                   "name": "Kath Wright",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d94b2d8f-4081-4b8e-af6b-3253ef6b8d34",
                   "name": "Sarah Melvin",
                   "score": "7"
                 }
@@ -309,17 +463,26 @@
         },
         {
           "players": [
-            "Richard Ambrose",
-            "Nigel Balchin"
+            {
+              "playerId": "team-player/cc05acc2-e668-450a-8bf3-0a9caea48d2d",
+              "name": "Richard Ambrose"
+            },
+            {
+              "playerId": "team-player/97409756-251d-4dc1-878c-c8c5bec0f1d6",
+              "name": "Nigel Balchin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2dd4dc4-2abd-4355-9130-c7c1b2b0cc2c",
               "players": [
                 {
+                  "playerId": "team-player/cc05acc2-e668-450a-8bf3-0a9caea48d2d",
                   "name": "Richard Ambrose",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/97409756-251d-4dc1-878c-c8c5bec0f1d6",
                   "name": "Nigel Balchin",
                   "score": "7"
                 }
@@ -331,17 +494,26 @@
         },
         {
           "players": [
-            "Kath Wright",
-            "Jim Beach"
+            {
+              "playerId": "team-player/c14c5f48-fb61-4218-b423-3c9eaebdb5f0",
+              "name": "Kath Wright"
+            },
+            {
+              "playerId": "team-player/f532482d-1b60-46ea-a726-c52d210992c7",
+              "name": "Jim Beach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4536f583-213a-4a5a-a032-a674614261c4",
               "players": [
                 {
+                  "playerId": "team-player/c14c5f48-fb61-4218-b423-3c9eaebdb5f0",
                   "name": "Kath Wright",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/f532482d-1b60-46ea-a726-c52d210992c7",
                   "name": "Jim Beach",
                   "score": "7"
                 }
@@ -353,17 +525,26 @@
         },
         {
           "players": [
-            "Paul Thomas",
-            "Peter Balchin"
+            {
+              "playerId": "team-player/6eb2bbb6-45cb-4e6d-b09f-c905c7516e49",
+              "name": "Paul Thomas"
+            },
+            {
+              "playerId": "team-player/8969ea7e-951c-4cfc-86fd-2dfb11f661a9",
+              "name": "Peter Balchin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3874c360-a2e4-4774-8213-3908cdf09122",
               "players": [
                 {
+                  "playerId": "team-player/6eb2bbb6-45cb-4e6d-b09f-c905c7516e49",
                   "name": "Paul Thomas",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/8969ea7e-951c-4cfc-86fd-2dfb11f661a9",
                   "name": "Peter Balchin",
                   "score": "7"
                 }
@@ -375,17 +556,26 @@
         },
         {
           "players": [
-            "Martin Jones",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/1ac26ae6-376f-4ab7-93b0-f190283d26c8",
+              "name": "Martin Jones"
+            },
+            {
+              "playerId": "team-player/d94b2d8f-4081-4b8e-af6b-3253ef6b8d34",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd27f248-9244-40b5-84cd-8b7f9fd30a71",
               "players": [
                 {
+                  "playerId": "team-player/1ac26ae6-376f-4ab7-93b0-f190283d26c8",
                   "name": "Martin Jones",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d94b2d8f-4081-4b8e-af6b-3253ef6b8d34",
                   "name": "Sarah Melvin",
                   "score": "7"
                 }
@@ -397,17 +587,26 @@
         },
         {
           "players": [
-            "Kath Wright",
-            "Nigel Balchin"
+            {
+              "playerId": "team-player/c14c5f48-fb61-4218-b423-3c9eaebdb5f0",
+              "name": "Kath Wright"
+            },
+            {
+              "playerId": "team-player/97409756-251d-4dc1-878c-c8c5bec0f1d6",
+              "name": "Nigel Balchin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2548df39-db2c-449a-8c45-5be3bffe04f7",
               "players": [
                 {
+                  "playerId": "team-player/c14c5f48-fb61-4218-b423-3c9eaebdb5f0",
                   "name": "Kath Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/97409756-251d-4dc1-878c-c8c5bec0f1d6",
                   "name": "Nigel Balchin",
                   "score": "6"
                 }
@@ -419,17 +618,26 @@
         },
         {
           "players": [
-            "Paul Thomas",
-            "Jim Beach"
+            {
+              "playerId": "team-player/6eb2bbb6-45cb-4e6d-b09f-c905c7516e49",
+              "name": "Paul Thomas"
+            },
+            {
+              "playerId": "team-player/f532482d-1b60-46ea-a726-c52d210992c7",
+              "name": "Jim Beach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf628d38-649e-4d8d-b75c-341df47bda2e",
               "players": [
                 {
+                  "playerId": "team-player/6eb2bbb6-45cb-4e6d-b09f-c905c7516e49",
                   "name": "Paul Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f532482d-1b60-46ea-a726-c52d210992c7",
                   "name": "Jim Beach",
                   "score": "6"
                 }
@@ -441,17 +649,26 @@
         },
         {
           "players": [
-            "Martin Jones",
-            "Peter Balchin"
+            {
+              "playerId": "team-player/1ac26ae6-376f-4ab7-93b0-f190283d26c8",
+              "name": "Martin Jones"
+            },
+            {
+              "playerId": "team-player/8969ea7e-951c-4cfc-86fd-2dfb11f661a9",
+              "name": "Peter Balchin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/981c5765-28cf-490e-a911-ac897779703a",
               "players": [
                 {
+                  "playerId": "team-player/1ac26ae6-376f-4ab7-93b0-f190283d26c8",
                   "name": "Martin Jones",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8969ea7e-951c-4cfc-86fd-2dfb11f661a9",
                   "name": "Peter Balchin",
                   "score": "7"
                 }
@@ -463,17 +680,26 @@
         },
         {
           "players": [
-            "Richard Ambrose",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/cc05acc2-e668-450a-8bf3-0a9caea48d2d",
+              "name": "Richard Ambrose"
+            },
+            {
+              "playerId": "team-player/d94b2d8f-4081-4b8e-af6b-3253ef6b8d34",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1987b060-43ba-4502-8a8b-a6c1fdc91994",
               "players": [
                 {
+                  "playerId": "team-player/cc05acc2-e668-450a-8bf3-0a9caea48d2d",
                   "name": "Richard Ambrose",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d94b2d8f-4081-4b8e-af6b-3253ef6b8d34",
                   "name": "Sarah Melvin",
                   "score": "7"
                 }

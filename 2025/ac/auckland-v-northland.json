@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/cb8171cb-c56d-4f14-a555-3fa6f0023475",
   "name": "AC Auckland V Northland",
   "sport": "ac",
   "firstDay": "2025-12-10",
   "lastDay": "2025-12-10",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Auckland",
       "shortName": "Auckland",
       "players": [
-        "Dan Donaldson",
-        "Dan Donaldson & Rupert Morrish",
-        "Graham Mentzer",
-        "Nelson Morrow",
-        "Nelson Morrow & Graham Mentzer",
-        "Rupert Morrish"
+        {
+          "playerId": "team-player/aa690c03-6b4a-4b61-877b-bb39af2d23be",
+          "name": "Dan Donaldson"
+        },
+        {
+          "playerId": "team-player/2c0b3a43-23eb-4216-ac83-5692ee6e0807",
+          "name": "Dan Donaldson & Rupert Morrish"
+        },
+        {
+          "playerId": "team-player/387169bd-2b3c-4699-bec5-8c66f06a2bf6",
+          "name": "Graham Mentzer"
+        },
+        {
+          "playerId": "team-player/efeb9860-c7b4-409e-b0e6-8589eb016ce4",
+          "name": "Nelson Morrow"
+        },
+        {
+          "playerId": "team-player/68d3068c-2b5c-41ea-86f4-3115292e22a4",
+          "name": "Nelson Morrow & Graham Mentzer"
+        },
+        {
+          "playerId": "team-player/3d84898f-d65a-4ffe-a35d-76e26b8baf18",
+          "name": "Rupert Morrish"
+        }
       ]
     },
     {
       "name": "Northland",
       "shortName": "Northland",
       "players": [
-        "Annette Molloy",
-        "Kit Jackson",
-        "Kit Jackson & Annette Molloy",
-        "Steve Hopkins",
-        "Tsung Te Cheng",
-        "Tsung Te Cheng & Steve Hopkins"
+        {
+          "playerId": "team-player/f10b8e3b-3c6b-46a8-8511-e1c014aa5e88",
+          "name": "Annette Molloy"
+        },
+        {
+          "playerId": "team-player/6a263893-5047-4fcd-9604-f52260235154",
+          "name": "Kit Jackson"
+        },
+        {
+          "playerId": "team-player/316520d1-64fb-4603-ae60-fbbabd0420a8",
+          "name": "Kit Jackson & Annette Molloy"
+        },
+        {
+          "playerId": "team-player/91a5c3bf-1b6e-4632-93d0-300b59333be6",
+          "name": "Steve Hopkins"
+        },
+        {
+          "playerId": "team-player/930a6832-ee87-46db-a1a2-9ea6a9d3109f",
+          "name": "Tsung Te Cheng"
+        },
+        {
+          "playerId": "team-player/6f015aba-603a-40bf-877d-f27b91b6eee4",
+          "name": "Tsung Te Cheng & Steve Hopkins"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/7d37882c-c81c-436a-ac3a-65a3d2136502",
       "teams": [
         "Auckland",
         "Northland"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Nelson Morrow & Graham Mentzer",
-            "Kit Jackson & Annette Molloy"
+            {
+              "playerId": "team-player/68d3068c-2b5c-41ea-86f4-3115292e22a4",
+              "name": "Nelson Morrow & Graham Mentzer"
+            },
+            {
+              "playerId": "team-player/316520d1-64fb-4603-ae60-fbbabd0420a8",
+              "name": "Kit Jackson & Annette Molloy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b3257ee0-2ca6-4879-8edf-8c35f5640db4",
               "players": [
                 {
+                  "playerId": "team-player/68d3068c-2b5c-41ea-86f4-3115292e22a4",
                   "name": "Nelson Morrow & Graham Mentzer",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/316520d1-64fb-4603-ae60-fbbabd0420a8",
                   "name": "Kit Jackson & Annette Molloy",
                   "score": "7"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Dan Donaldson & Rupert Morrish",
-            "Tsung Te Cheng & Steve Hopkins"
+            {
+              "playerId": "team-player/2c0b3a43-23eb-4216-ac83-5692ee6e0807",
+              "name": "Dan Donaldson & Rupert Morrish"
+            },
+            {
+              "playerId": "team-player/6f015aba-603a-40bf-877d-f27b91b6eee4",
+              "name": "Tsung Te Cheng & Steve Hopkins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d355b1d4-90e2-4119-a2ae-1b810cdf9e83",
               "players": [
                 {
+                  "playerId": "team-player/2c0b3a43-23eb-4216-ac83-5692ee6e0807",
                   "name": "Dan Donaldson & Rupert Morrish",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/6f015aba-603a-40bf-877d-f27b91b6eee4",
                   "name": "Tsung Te Cheng & Steve Hopkins",
                   "score": "10"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Nelson Morrow",
-            "Kit Jackson"
+            {
+              "playerId": "team-player/efeb9860-c7b4-409e-b0e6-8589eb016ce4",
+              "name": "Nelson Morrow"
+            },
+            {
+              "playerId": "team-player/6a263893-5047-4fcd-9604-f52260235154",
+              "name": "Kit Jackson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/47a964b9-deaf-420f-a64c-bdbea601488d",
               "players": [
                 {
+                  "playerId": "team-player/efeb9860-c7b4-409e-b0e6-8589eb016ce4",
                   "name": "Nelson Morrow",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/6a263893-5047-4fcd-9604-f52260235154",
                   "name": "Kit Jackson",
                   "score": "7"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Rupert Morrish",
-            "Tsung Te Cheng"
+            {
+              "playerId": "team-player/3d84898f-d65a-4ffe-a35d-76e26b8baf18",
+              "name": "Rupert Morrish"
+            },
+            {
+              "playerId": "team-player/930a6832-ee87-46db-a1a2-9ea6a9d3109f",
+              "name": "Tsung Te Cheng"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6480a622-eb84-48de-a66c-dbe10ea19e66",
               "players": [
                 {
+                  "playerId": "team-player/3d84898f-d65a-4ffe-a35d-76e26b8baf18",
                   "name": "Rupert Morrish",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/930a6832-ee87-46db-a1a2-9ea6a9d3109f",
                   "name": "Tsung Te Cheng",
                   "score": "8"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Dan Donaldson",
-            "Steve Hopkins"
+            {
+              "playerId": "team-player/aa690c03-6b4a-4b61-877b-bb39af2d23be",
+              "name": "Dan Donaldson"
+            },
+            {
+              "playerId": "team-player/91a5c3bf-1b6e-4632-93d0-300b59333be6",
+              "name": "Steve Hopkins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6a9a782f-4d8c-4178-a3a9-743b1662082b",
               "players": [
                 {
+                  "playerId": "team-player/aa690c03-6b4a-4b61-877b-bb39af2d23be",
                   "name": "Dan Donaldson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/91a5c3bf-1b6e-4632-93d0-300b59333be6",
                   "name": "Steve Hopkins",
                   "score": "19"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Graham Mentzer",
-            "Annette Molloy"
+            {
+              "playerId": "team-player/387169bd-2b3c-4699-bec5-8c66f06a2bf6",
+              "name": "Graham Mentzer"
+            },
+            {
+              "playerId": "team-player/f10b8e3b-3c6b-46a8-8511-e1c014aa5e88",
+              "name": "Annette Molloy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/223b663c-2133-4e62-bbe6-5c58fbecead0",
               "players": [
                 {
+                  "playerId": "team-player/387169bd-2b3c-4699-bec5-8c66f06a2bf6",
                   "name": "Graham Mentzer",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/f10b8e3b-3c6b-46a8-8511-e1c014aa5e88",
                   "name": "Annette Molloy",
                   "score": "7"
                 }

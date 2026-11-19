@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2ef3a762-6625-49ea-9d8e-7f52f19289ec",
   "name": "CqE AC IC Bowdon v Pendle/Sheffield",
   "sport": "ac",
   "firstDay": "2023-05-06",
   "lastDay": "2023-05-06",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Alain & Angharrad",
-        "Alain Giraud",
-        "Andrew Winn",
-        "Angharrad Walters",
-        "Nigel Matthews"
+        {
+          "playerId": "team-player/0e75c1b8-3bdb-459d-8413-edfe61caabb6",
+          "name": "Alain & Angharrad"
+        },
+        {
+          "playerId": "team-player/392ee657-22f2-4092-bef2-a61036ea8a0c",
+          "name": "Alain Giraud"
+        },
+        {
+          "playerId": "team-player/1adc669c-4525-4b43-99c0-aee2d14c8b7a",
+          "name": "Andrew Winn"
+        },
+        {
+          "playerId": "team-player/87f74a92-f44f-4930-b147-71c7416d9278",
+          "name": "Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/74b645b2-a9ea-4626-a5dd-da8202797c6c",
+          "name": "Nigel Matthews"
+        }
       ]
     },
     {
       "name": "Penfield",
       "shortName": "Penfield",
       "players": [
-        "Eugene & Lorna",
-        "Eugene Chang",
-        "James Hawkins",
-        "Lorna Dewar",
-        "Paul Rigge"
+        {
+          "playerId": "team-player/9c6601d1-b45a-4c6c-ab68-eb38f6a34661",
+          "name": "Eugene & Lorna"
+        },
+        {
+          "playerId": "team-player/ce6b141d-66c4-441e-a60c-88a8b976a34b",
+          "name": "Eugene Chang"
+        },
+        {
+          "playerId": "team-player/cca61e32-3f9e-4661-afb5-b3c64a4c0633",
+          "name": "James Hawkins"
+        },
+        {
+          "playerId": "team-player/d95afee5-ea99-4f7b-b3e9-ec2fe555a640",
+          "name": "Lorna Dewar"
+        },
+        {
+          "playerId": "team-player/3c7f03a9-5073-4ff6-bbeb-4ccc93682008",
+          "name": "Paul Rigge"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/de83a68c-70b4-4393-bac9-57e7c468969f",
       "teams": [
         "Bowdon",
         "Penfield"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Nigel Matthews",
-            "Paul Rigge"
+            {
+              "playerId": "team-player/74b645b2-a9ea-4626-a5dd-da8202797c6c",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/3c7f03a9-5073-4ff6-bbeb-4ccc93682008",
+              "name": "Paul Rigge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af3c0f76-33c9-45ef-b268-c9e4fb6d156d",
               "players": [
                 {
+                  "playerId": "team-player/74b645b2-a9ea-4626-a5dd-da8202797c6c",
                   "name": "Nigel Matthews",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/3c7f03a9-5073-4ff6-bbeb-4ccc93682008",
                   "name": "Paul Rigge",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Andrew Winn",
-            "James Hawkins"
+            {
+              "playerId": "team-player/1adc669c-4525-4b43-99c0-aee2d14c8b7a",
+              "name": "Andrew Winn"
+            },
+            {
+              "playerId": "team-player/cca61e32-3f9e-4661-afb5-b3c64a4c0633",
+              "name": "James Hawkins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/87a589eb-14ea-4054-992a-0ae16a83be13",
               "players": [
                 {
+                  "playerId": "team-player/1adc669c-4525-4b43-99c0-aee2d14c8b7a",
                   "name": "Andrew Winn",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/cca61e32-3f9e-4661-afb5-b3c64a4c0633",
                   "name": "James Hawkins",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Alain Giraud",
-            "Eugene Chang"
+            {
+              "playerId": "team-player/392ee657-22f2-4092-bef2-a61036ea8a0c",
+              "name": "Alain Giraud"
+            },
+            {
+              "playerId": "team-player/ce6b141d-66c4-441e-a60c-88a8b976a34b",
+              "name": "Eugene Chang"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cd921529-bfd4-489e-8990-d6aedba8dda5",
               "players": [
                 {
+                  "playerId": "team-player/392ee657-22f2-4092-bef2-a61036ea8a0c",
                   "name": "Alain Giraud",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/ce6b141d-66c4-441e-a60c-88a8b976a34b",
                   "name": "Eugene Chang",
                   "score": "0"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Angharrad Walters",
-            "Lorna Dewar"
+            {
+              "playerId": "team-player/87f74a92-f44f-4930-b147-71c7416d9278",
+              "name": "Angharrad Walters"
+            },
+            {
+              "playerId": "team-player/d95afee5-ea99-4f7b-b3e9-ec2fe555a640",
+              "name": "Lorna Dewar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e401ea40-2d8b-42f1-82ba-9882207300ea",
               "players": [
                 {
+                  "playerId": "team-player/87f74a92-f44f-4930-b147-71c7416d9278",
                   "name": "Angharrad Walters",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d95afee5-ea99-4f7b-b3e9-ec2fe555a640",
                   "name": "Lorna Dewar",
                   "score": "2"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "James Hawkins"
+            {
+              "playerId": "team-player/74b645b2-a9ea-4626-a5dd-da8202797c6c",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/cca61e32-3f9e-4661-afb5-b3c64a4c0633",
+              "name": "James Hawkins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/778d3c52-5311-462c-9703-930ab4fede0d",
               "players": [
                 {
+                  "playerId": "team-player/74b645b2-a9ea-4626-a5dd-da8202797c6c",
                   "name": "Nigel Matthews",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cca61e32-3f9e-4661-afb5-b3c64a4c0633",
                   "name": "James Hawkins",
                   "score": "15"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Alain & Angharrad",
-            "Eugene & Lorna"
+            {
+              "playerId": "team-player/0e75c1b8-3bdb-459d-8413-edfe61caabb6",
+              "name": "Alain & Angharrad"
+            },
+            {
+              "playerId": "team-player/9c6601d1-b45a-4c6c-ab68-eb38f6a34661",
+              "name": "Eugene & Lorna"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5807f9c8-5ad4-4b91-8dfd-765d163f220a",
               "players": [
                 {
+                  "playerId": "team-player/0e75c1b8-3bdb-459d-8413-edfe61caabb6",
                   "name": "Alain & Angharrad",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/9c6601d1-b45a-4c6c-ab68-eb38f6a34661",
                   "name": "Eugene & Lorna",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Andrew Winn",
-            "Paul Rigge"
+            {
+              "playerId": "team-player/1adc669c-4525-4b43-99c0-aee2d14c8b7a",
+              "name": "Andrew Winn"
+            },
+            {
+              "playerId": "team-player/3c7f03a9-5073-4ff6-bbeb-4ccc93682008",
+              "name": "Paul Rigge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7fa5a7f0-3155-4b73-bfbf-d30f87b53b0d",
               "players": [
                 {
+                  "playerId": "team-player/1adc669c-4525-4b43-99c0-aee2d14c8b7a",
                   "name": "Andrew Winn",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3c7f03a9-5073-4ff6-bbeb-4ccc93682008",
                   "name": "Paul Rigge",
                   "score": "23"
                 }

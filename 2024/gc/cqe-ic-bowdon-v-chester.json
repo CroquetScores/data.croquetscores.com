@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/ed3dc9de-7583-4fd1-b8bd-be7070301b2f",
   "name": "CqE GC IC Bowdon v Chester",
   "sport": "gc",
   "firstDay": "2024-04-22",
   "lastDay": "2024-04-22",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Alan Mayne",
-        "Angharrad Walters",
-        "Angharrad Walters & Alan Mayne",
-        "Nigel Matthews",
-        "Simon Jenkins"
+        {
+          "playerId": "team-player/cbe60cca-94b5-4b63-b044-0cd0e2a94e6b",
+          "name": "Alan Mayne"
+        },
+        {
+          "playerId": "team-player/a025a295-5144-42e7-a377-4635be92f7e7",
+          "name": "Angharrad Walters"
+        },
+        {
+          "playerId": "team-player/ea52790d-3b01-4318-8ca6-2c504beb179e",
+          "name": "Angharrad Walters & Alan Mayne"
+        },
+        {
+          "playerId": "team-player/d806d4e4-e744-426d-9d0e-ebf63d67fa59",
+          "name": "Nigel Matthews"
+        },
+        {
+          "playerId": "team-player/08ce9784-de1e-4352-82ff-641fba448550",
+          "name": "Simon Jenkins"
+        }
       ]
     },
     {
       "name": "Chester",
       "shortName": "Chester",
       "players": [
-        "David W Boyd",
-        "John Hampson",
-        "Mark Lloyd",
-        "Mark Lloyd & David W Boyd",
-        "Tom Grievson"
+        {
+          "playerId": "team-player/8cc1b7a3-b4fd-47af-8ab6-26c7be4a37d1",
+          "name": "David W Boyd"
+        },
+        {
+          "playerId": "team-player/8bf306db-b253-4356-8247-593ea1fbaa9e",
+          "name": "John Hampson"
+        },
+        {
+          "playerId": "team-player/1ed7dab3-3fdf-4a74-b293-84ca49a13b0c",
+          "name": "Mark Lloyd"
+        },
+        {
+          "playerId": "team-player/688f3c12-5b5e-4899-920c-6074925d13a6",
+          "name": "Mark Lloyd & David W Boyd"
+        },
+        {
+          "playerId": "team-player/e679f975-59f1-4fc7-8da9-634b58907bf4",
+          "name": "Tom Grievson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/a6cb0b3f-b32a-4eb0-8d03-1288d1737b16",
       "teams": [
         "Bowdon",
         "Chester"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Angharrad Walters",
-            "David W Boyd"
+            {
+              "playerId": "team-player/a025a295-5144-42e7-a377-4635be92f7e7",
+              "name": "Angharrad Walters"
+            },
+            {
+              "playerId": "team-player/8cc1b7a3-b4fd-47af-8ab6-26c7be4a37d1",
+              "name": "David W Boyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c4451d84-f4ee-4e93-8b7a-9d7532267e7e",
               "players": [
                 {
+                  "playerId": "team-player/a025a295-5144-42e7-a377-4635be92f7e7",
                   "name": "Angharrad Walters",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8cc1b7a3-b4fd-47af-8ab6-26c7be4a37d1",
                   "name": "David W Boyd",
                   "score": "2"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2811d85d-9f55-4fb5-998b-1224cc3bddf3",
               "players": [
                 {
+                  "playerId": "team-player/a025a295-5144-42e7-a377-4635be92f7e7",
                   "name": "Angharrad Walters",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8cc1b7a3-b4fd-47af-8ab6-26c7be4a37d1",
                   "name": "David W Boyd",
                   "score": "5"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Alan Mayne",
-            "Mark Lloyd"
+            {
+              "playerId": "team-player/cbe60cca-94b5-4b63-b044-0cd0e2a94e6b",
+              "name": "Alan Mayne"
+            },
+            {
+              "playerId": "team-player/1ed7dab3-3fdf-4a74-b293-84ca49a13b0c",
+              "name": "Mark Lloyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/64b807c3-9c50-4555-b92d-5e33c32c8fc3",
               "players": [
                 {
+                  "playerId": "team-player/cbe60cca-94b5-4b63-b044-0cd0e2a94e6b",
                   "name": "Alan Mayne",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1ed7dab3-3fdf-4a74-b293-84ca49a13b0c",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/712c2d8b-96bd-47c4-8bfb-1e93c1bb5f75",
               "players": [
                 {
+                  "playerId": "team-player/cbe60cca-94b5-4b63-b044-0cd0e2a94e6b",
                   "name": "Alan Mayne",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1ed7dab3-3fdf-4a74-b293-84ca49a13b0c",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Angharrad Walters & Alan Mayne",
-            "Mark Lloyd & David W Boyd"
+            {
+              "playerId": "team-player/ea52790d-3b01-4318-8ca6-2c504beb179e",
+              "name": "Angharrad Walters & Alan Mayne"
+            },
+            {
+              "playerId": "team-player/688f3c12-5b5e-4899-920c-6074925d13a6",
+              "name": "Mark Lloyd & David W Boyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d5c65cec-1688-46d2-b18c-7d31a96a2488",
               "players": [
                 {
+                  "playerId": "team-player/ea52790d-3b01-4318-8ca6-2c504beb179e",
                   "name": "Angharrad Walters & Alan Mayne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/688f3c12-5b5e-4899-920c-6074925d13a6",
                   "name": "Mark Lloyd & David W Boyd",
                   "score": "5"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/45b29047-efb4-4004-91ef-2cd4d6dd082b",
               "players": [
                 {
+                  "playerId": "team-player/ea52790d-3b01-4318-8ca6-2c504beb179e",
                   "name": "Angharrad Walters & Alan Mayne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/688f3c12-5b5e-4899-920c-6074925d13a6",
                   "name": "Mark Lloyd & David W Boyd",
                   "score": "3"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "John Hampson"
+            {
+              "playerId": "team-player/d806d4e4-e744-426d-9d0e-ebf63d67fa59",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/8bf306db-b253-4356-8247-593ea1fbaa9e",
+              "name": "John Hampson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2bb3c1a0-6058-4afc-8502-cfe04a6938c3",
               "players": [
                 {
+                  "playerId": "team-player/d806d4e4-e744-426d-9d0e-ebf63d67fa59",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8bf306db-b253-4356-8247-593ea1fbaa9e",
                   "name": "John Hampson",
                   "score": "4"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/777e9684-79c3-44c2-8f99-1b03d9d0ce0e",
               "players": [
                 {
+                  "playerId": "team-player/d806d4e4-e744-426d-9d0e-ebf63d67fa59",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8bf306db-b253-4356-8247-593ea1fbaa9e",
                   "name": "John Hampson",
                   "score": "1"
                 }
@@ -185,17 +267,26 @@
         },
         {
           "players": [
-            "Nigel Matthews",
-            "Tom Grievson"
+            {
+              "playerId": "team-player/d806d4e4-e744-426d-9d0e-ebf63d67fa59",
+              "name": "Nigel Matthews"
+            },
+            {
+              "playerId": "team-player/e679f975-59f1-4fc7-8da9-634b58907bf4",
+              "name": "Tom Grievson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/22635d52-6ac6-4c8a-aa35-5690f78a2204",
               "players": [
                 {
+                  "playerId": "team-player/d806d4e4-e744-426d-9d0e-ebf63d67fa59",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e679f975-59f1-4fc7-8da9-634b58907bf4",
                   "name": "Tom Grievson",
                   "score": "3"
                 }
@@ -204,12 +295,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/19c9c2d0-8d12-4fc0-b6ca-99fa7d77ec67",
               "players": [
                 {
+                  "playerId": "team-player/d806d4e4-e744-426d-9d0e-ebf63d67fa59",
                   "name": "Nigel Matthews",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e679f975-59f1-4fc7-8da9-634b58907bf4",
                   "name": "Tom Grievson",
                   "score": "4"
                 }
@@ -221,17 +315,26 @@
         },
         {
           "players": [
-            "Simon Jenkins",
-            "John Hampson"
+            {
+              "playerId": "team-player/08ce9784-de1e-4352-82ff-641fba448550",
+              "name": "Simon Jenkins"
+            },
+            {
+              "playerId": "team-player/8bf306db-b253-4356-8247-593ea1fbaa9e",
+              "name": "John Hampson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8c9d2ef4-2342-43c8-9a54-ba572caa66d3",
               "players": [
                 {
+                  "playerId": "team-player/08ce9784-de1e-4352-82ff-641fba448550",
                   "name": "Simon Jenkins",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/8bf306db-b253-4356-8247-593ea1fbaa9e",
                   "name": "John Hampson",
                   "score": "7"
                 }
@@ -240,12 +343,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f31bee3b-fce0-4d80-a608-f1cd29725288",
               "players": [
                 {
+                  "playerId": "team-player/08ce9784-de1e-4352-82ff-641fba448550",
                   "name": "Simon Jenkins",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8bf306db-b253-4356-8247-593ea1fbaa9e",
                   "name": "John Hampson",
                   "score": "7"
                 }
@@ -257,17 +363,26 @@
         },
         {
           "players": [
-            "Simon Jenkins",
-            "Tom Grievson"
+            {
+              "playerId": "team-player/08ce9784-de1e-4352-82ff-641fba448550",
+              "name": "Simon Jenkins"
+            },
+            {
+              "playerId": "team-player/e679f975-59f1-4fc7-8da9-634b58907bf4",
+              "name": "Tom Grievson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ffa5fbc5-8849-4f4d-90c0-37fb6873cda9",
               "players": [
                 {
+                  "playerId": "team-player/08ce9784-de1e-4352-82ff-641fba448550",
                   "name": "Simon Jenkins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e679f975-59f1-4fc7-8da9-634b58907bf4",
                   "name": "Tom Grievson",
                   "score": "1"
                 }
@@ -276,12 +391,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c88c23cf-d403-408d-9df8-f4167c350211",
               "players": [
                 {
+                  "playerId": "team-player/08ce9784-de1e-4352-82ff-641fba448550",
                   "name": "Simon Jenkins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e679f975-59f1-4fc7-8da9-634b58907bf4",
                   "name": "Tom Grievson",
                   "score": "2"
                 }

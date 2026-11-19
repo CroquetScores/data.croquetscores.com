@@ -1,36 +1,67 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1f89e2e3-b0bc-4eaa-8fa5-35dc3501a610",
   "name": "USCA Development Squad Feb. Doubles",
   "sport": "gc",
   "firstDay": "2022-02-13",
   "lastDay": "2022-02-13",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Development Squad",
       "shortName": "Developmen",
       "players": [
-        "Kyle Maloof & Blake Fields",
-        "Kyle Maloof & Paul Neubecker",
-        "Stephen Morgan & Blake Fields",
-        "Stephen Morgan & Paul Neubecker"
+        {
+          "playerId": "team-player/7aac29be-b270-4cab-b9cb-6713532b25f8",
+          "name": "Kyle Maloof & Blake Fields"
+        },
+        {
+          "playerId": "team-player/510a0a45-951e-4a22-a4c9-a71126521788",
+          "name": "Kyle Maloof & Paul Neubecker"
+        },
+        {
+          "playerId": "team-player/9f595d1b-e77b-48df-a21e-65061f9c7b69",
+          "name": "Stephen Morgan & Blake Fields"
+        },
+        {
+          "playerId": "team-player/87833806-4599-46b5-98bf-551798f99a1e",
+          "name": "Stephen Morgan & Paul Neubecker"
+        }
       ]
     },
     {
       "name": "Veterans",
       "shortName": "Veterans",
       "players": [
-        "David Maloof & Eileen Soo",
-        "David Maloof & Michael Albert",
-        "Jeff Soo & Damon Bidencope",
-        "Jeff Soo & David Maloof",
-        "Jeff Soo & Eileen Soo"
+        {
+          "playerId": "team-player/ad035cd0-35ae-4415-8fb9-ba6c0f142cbb",
+          "name": "David Maloof & Eileen Soo"
+        },
+        {
+          "playerId": "team-player/c5cb2ef6-7742-4f9e-b7c0-a3362956aeaf",
+          "name": "David Maloof & Michael Albert"
+        },
+        {
+          "playerId": "team-player/ebdbac1b-5eb1-4355-a5af-7f4859d88f1b",
+          "name": "Jeff Soo & Damon Bidencope"
+        },
+        {
+          "playerId": "team-player/31dadfd9-f954-486e-8090-bdb8c2f21d2b",
+          "name": "Jeff Soo & David Maloof"
+        },
+        {
+          "playerId": "team-player/6b1d7c05-e32a-4ccb-babe-bb9c67daedf0",
+          "name": "Jeff Soo & Eileen Soo"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/11af755f-b0f2-49a4-93a7-4649f00a9857",
       "teams": [
         "Development Squad",
         "Veterans"
@@ -40,17 +71,26 @@
       "matches": [
         {
           "players": [
-            "Kyle Maloof & Blake Fields",
-            "Jeff Soo & Damon Bidencope"
+            {
+              "playerId": "team-player/7aac29be-b270-4cab-b9cb-6713532b25f8",
+              "name": "Kyle Maloof & Blake Fields"
+            },
+            {
+              "playerId": "team-player/ebdbac1b-5eb1-4355-a5af-7f4859d88f1b",
+              "name": "Jeff Soo & Damon Bidencope"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e772831d-9abe-44f7-916e-30c91ee2de72",
               "players": [
                 {
+                  "playerId": "team-player/7aac29be-b270-4cab-b9cb-6713532b25f8",
                   "name": "Kyle Maloof & Blake Fields",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ebdbac1b-5eb1-4355-a5af-7f4859d88f1b",
                   "name": "Jeff Soo & Damon Bidencope",
                   "score": "7"
                 }
@@ -59,12 +99,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6cb22550-dff7-4719-9f86-ab04f31fb36a",
               "players": [
                 {
+                  "playerId": "team-player/7aac29be-b270-4cab-b9cb-6713532b25f8",
                   "name": "Kyle Maloof & Blake Fields",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ebdbac1b-5eb1-4355-a5af-7f4859d88f1b",
                   "name": "Jeff Soo & Damon Bidencope",
                   "score": "5"
                 }
@@ -76,17 +119,26 @@
         },
         {
           "players": [
-            "Stephen Morgan & Paul Neubecker",
-            "David Maloof & Eileen Soo"
+            {
+              "playerId": "team-player/87833806-4599-46b5-98bf-551798f99a1e",
+              "name": "Stephen Morgan & Paul Neubecker"
+            },
+            {
+              "playerId": "team-player/ad035cd0-35ae-4415-8fb9-ba6c0f142cbb",
+              "name": "David Maloof & Eileen Soo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf193bdb-355b-4446-9d2b-afecbaa051bf",
               "players": [
                 {
+                  "playerId": "team-player/87833806-4599-46b5-98bf-551798f99a1e",
                   "name": "Stephen Morgan & Paul Neubecker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ad035cd0-35ae-4415-8fb9-ba6c0f142cbb",
                   "name": "David Maloof & Eileen Soo",
                   "score": "3"
                 }
@@ -95,12 +147,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/692b2c65-5a83-400b-afb6-857affa60006",
               "players": [
                 {
+                  "playerId": "team-player/87833806-4599-46b5-98bf-551798f99a1e",
                   "name": "Stephen Morgan & Paul Neubecker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ad035cd0-35ae-4415-8fb9-ba6c0f142cbb",
                   "name": "David Maloof & Eileen Soo",
                   "score": "3"
                 }
@@ -112,17 +167,26 @@
         },
         {
           "players": [
-            "Stephen Morgan & Blake Fields",
-            "Jeff Soo & Eileen Soo"
+            {
+              "playerId": "team-player/9f595d1b-e77b-48df-a21e-65061f9c7b69",
+              "name": "Stephen Morgan & Blake Fields"
+            },
+            {
+              "playerId": "team-player/6b1d7c05-e32a-4ccb-babe-bb9c67daedf0",
+              "name": "Jeff Soo & Eileen Soo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6a92914c-57ef-4bc6-9c73-543303c54d74",
               "players": [
                 {
+                  "playerId": "team-player/9f595d1b-e77b-48df-a21e-65061f9c7b69",
                   "name": "Stephen Morgan & Blake Fields",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6b1d7c05-e32a-4ccb-babe-bb9c67daedf0",
                   "name": "Jeff Soo & Eileen Soo",
                   "score": "7"
                 }
@@ -131,12 +195,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e5e723c2-f510-4a03-85ab-e8669bceda04",
               "players": [
                 {
+                  "playerId": "team-player/9f595d1b-e77b-48df-a21e-65061f9c7b69",
                   "name": "Stephen Morgan & Blake Fields",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6b1d7c05-e32a-4ccb-babe-bb9c67daedf0",
                   "name": "Jeff Soo & Eileen Soo",
                   "score": "7"
                 }
@@ -148,17 +215,26 @@
         },
         {
           "players": [
-            "Kyle Maloof & Paul Neubecker",
-            "David Maloof & Michael Albert"
+            {
+              "playerId": "team-player/510a0a45-951e-4a22-a4c9-a71126521788",
+              "name": "Kyle Maloof & Paul Neubecker"
+            },
+            {
+              "playerId": "team-player/c5cb2ef6-7742-4f9e-b7c0-a3362956aeaf",
+              "name": "David Maloof & Michael Albert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6fcf7f9-e4e2-4d6b-a35a-8620e48a7a67",
               "players": [
                 {
+                  "playerId": "team-player/510a0a45-951e-4a22-a4c9-a71126521788",
                   "name": "Kyle Maloof & Paul Neubecker",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c5cb2ef6-7742-4f9e-b7c0-a3362956aeaf",
                   "name": "David Maloof & Michael Albert",
                   "score": "7"
                 }
@@ -167,12 +243,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d88c6f7e-9f0a-47c1-ade6-cb1e0e23d9e7",
               "players": [
                 {
+                  "playerId": "team-player/510a0a45-951e-4a22-a4c9-a71126521788",
                   "name": "Kyle Maloof & Paul Neubecker",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c5cb2ef6-7742-4f9e-b7c0-a3362956aeaf",
                   "name": "David Maloof & Michael Albert",
                   "score": "1"
                 }
@@ -184,17 +263,26 @@
         },
         {
           "players": [
-            "Kyle Maloof & Blake Fields",
-            "Jeff Soo & David Maloof"
+            {
+              "playerId": "team-player/7aac29be-b270-4cab-b9cb-6713532b25f8",
+              "name": "Kyle Maloof & Blake Fields"
+            },
+            {
+              "playerId": "team-player/31dadfd9-f954-486e-8090-bdb8c2f21d2b",
+              "name": "Jeff Soo & David Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9f908ad-467d-4ba7-8ca1-c2c31cfde3a7",
               "players": [
                 {
+                  "playerId": "team-player/7aac29be-b270-4cab-b9cb-6713532b25f8",
                   "name": "Kyle Maloof & Blake Fields",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/31dadfd9-f954-486e-8090-bdb8c2f21d2b",
                   "name": "Jeff Soo & David Maloof",
                   "score": "3"
                 }
@@ -203,12 +291,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/66a64fff-e015-4706-96e0-bbd2f2cbab2d",
               "players": [
                 {
+                  "playerId": "team-player/7aac29be-b270-4cab-b9cb-6713532b25f8",
                   "name": "Kyle Maloof & Blake Fields",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/31dadfd9-f954-486e-8090-bdb8c2f21d2b",
                   "name": "Jeff Soo & David Maloof",
                   "score": "5"
                 }

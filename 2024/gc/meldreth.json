@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e812a696-7032-4669-931e-313944ceec8b",
   "name": "England - Federations  Shield (Advantage) - Meldreth v Phyllis Court (Team B)",
   "sport": "gc",
   "firstDay": "2024-08-25",
   "lastDay": "2024-08-25",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Meldreth",
       "shortName": "Meldreth",
       "players": [
-        "Dave Edwards (4)",
-        "John Bishop (4)",
-        "John Bishop (4) & Sue Bishop (5)",
-        "Roger Wallbridge (5)",
-        "Sue Bishop (5)"
+        {
+          "playerId": "team-player/70c0eecd-6de5-4d52-bbc2-fea2c6023d1f",
+          "name": "Dave Edwards (4)"
+        },
+        {
+          "playerId": "team-player/c953b274-27fd-4b32-94fe-41996edeff9e",
+          "name": "John Bishop (4)"
+        },
+        {
+          "playerId": "team-player/a77c6e94-488b-45c0-a090-db1950fe59b2",
+          "name": "John Bishop (4) & Sue Bishop (5)"
+        },
+        {
+          "playerId": "team-player/b927591b-5754-4d00-a954-6e9b62be7f6d",
+          "name": "Roger Wallbridge (5)"
+        },
+        {
+          "playerId": "team-player/6e71060b-48c9-44a2-b85f-9803d56b733a",
+          "name": "Sue Bishop (5)"
+        }
       ]
     },
     {
       "name": "Phyllis Court",
       "shortName": "Phyllis Co",
       "players": [
-        "Helen Essa (6)",
-        "Hugh Crook (7)",
-        "Raghu Iyer (4)",
-        "Raghu Iyer (4) & Hugh Crook (7)",
-        "Rob Eagle (5)"
+        {
+          "playerId": "team-player/88f6a059-86cf-4ddc-9c6a-fb1ee3c4157c",
+          "name": "Helen Essa (6)"
+        },
+        {
+          "playerId": "team-player/936ea20c-e2bc-43d7-8f68-6b6352ff51c5",
+          "name": "Hugh Crook (7)"
+        },
+        {
+          "playerId": "team-player/a3b865c3-e56b-40e2-b071-90636f8a3d94",
+          "name": "Raghu Iyer (4)"
+        },
+        {
+          "playerId": "team-player/62f92f12-a3c6-42d8-875e-39fa47881358",
+          "name": "Raghu Iyer (4) & Hugh Crook (7)"
+        },
+        {
+          "playerId": "team-player/322695e5-c65f-461f-a973-f2b367542504",
+          "name": "Rob Eagle (5)"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/fdac8086-497e-4c24-a9ea-67c9fb18fdaa",
       "teams": [
         "Meldreth",
         "Phyllis Court"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "John Bishop (4) & Sue Bishop (5)",
-            "Raghu Iyer (4) & Hugh Crook (7)"
+            {
+              "playerId": "team-player/a77c6e94-488b-45c0-a090-db1950fe59b2",
+              "name": "John Bishop (4) & Sue Bishop (5)"
+            },
+            {
+              "playerId": "team-player/62f92f12-a3c6-42d8-875e-39fa47881358",
+              "name": "Raghu Iyer (4) & Hugh Crook (7)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c0ae9ff1-0ae0-49dd-8eee-fc3c41eeca2b",
               "players": [
                 {
+                  "playerId": "team-player/a77c6e94-488b-45c0-a090-db1950fe59b2",
                   "name": "John Bishop (4) & Sue Bishop (5)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/62f92f12-a3c6-42d8-875e-39fa47881358",
                   "name": "Raghu Iyer (4) & Hugh Crook (7)",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/891c4e7f-da42-4c21-912e-7918afa7af1e",
               "players": [
                 {
+                  "playerId": "team-player/a77c6e94-488b-45c0-a090-db1950fe59b2",
                   "name": "John Bishop (4) & Sue Bishop (5)",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/62f92f12-a3c6-42d8-875e-39fa47881358",
                   "name": "Raghu Iyer (4) & Hugh Crook (7)",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Dave Edwards (4)",
-            "Helen Essa (6)"
+            {
+              "playerId": "team-player/70c0eecd-6de5-4d52-bbc2-fea2c6023d1f",
+              "name": "Dave Edwards (4)"
+            },
+            {
+              "playerId": "team-player/88f6a059-86cf-4ddc-9c6a-fb1ee3c4157c",
+              "name": "Helen Essa (6)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ebd1e385-bfb9-4d3a-b615-b851087f6b56",
               "players": [
                 {
+                  "playerId": "team-player/70c0eecd-6de5-4d52-bbc2-fea2c6023d1f",
                   "name": "Dave Edwards (4)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/88f6a059-86cf-4ddc-9c6a-fb1ee3c4157c",
                   "name": "Helen Essa (6)",
                   "score": "3"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/206cb1f9-1bde-44d3-ae49-62a21784689c",
               "players": [
                 {
+                  "playerId": "team-player/70c0eecd-6de5-4d52-bbc2-fea2c6023d1f",
                   "name": "Dave Edwards (4)",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/88f6a059-86cf-4ddc-9c6a-fb1ee3c4157c",
                   "name": "Helen Essa (6)",
                   "score": "7"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/607a8e20-4b82-4155-b5a8-12ac4f9d21b9",
               "players": [
                 {
+                  "playerId": "team-player/70c0eecd-6de5-4d52-bbc2-fea2c6023d1f",
                   "name": "Dave Edwards (4)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/88f6a059-86cf-4ddc-9c6a-fb1ee3c4157c",
                   "name": "Helen Essa (6)",
                   "score": "6"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Roger Wallbridge (5)",
-            "Rob Eagle (5)"
+            {
+              "playerId": "team-player/b927591b-5754-4d00-a954-6e9b62be7f6d",
+              "name": "Roger Wallbridge (5)"
+            },
+            {
+              "playerId": "team-player/322695e5-c65f-461f-a973-f2b367542504",
+              "name": "Rob Eagle (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/39385c5f-7c41-4820-b4e2-1d2e50da56e8",
               "players": [
                 {
+                  "playerId": "team-player/b927591b-5754-4d00-a954-6e9b62be7f6d",
                   "name": "Roger Wallbridge (5)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/322695e5-c65f-461f-a973-f2b367542504",
                   "name": "Rob Eagle (5)",
                   "score": "4"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b61dc10f-0d57-4076-bfd7-d5c957627315",
               "players": [
                 {
+                  "playerId": "team-player/b927591b-5754-4d00-a954-6e9b62be7f6d",
                   "name": "Roger Wallbridge (5)",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/322695e5-c65f-461f-a973-f2b367542504",
                   "name": "Rob Eagle (5)",
                   "score": "7"
                 }
@@ -160,12 +233,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e9c8770a-a51e-4684-ab41-5c1c29802d68",
               "players": [
                 {
+                  "playerId": "team-player/b927591b-5754-4d00-a954-6e9b62be7f6d",
                   "name": "Roger Wallbridge (5)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/322695e5-c65f-461f-a973-f2b367542504",
                   "name": "Rob Eagle (5)",
                   "score": "5"
                 }
@@ -177,17 +253,26 @@
         },
         {
           "players": [
-            "John Bishop (4)",
-            "Raghu Iyer (4)"
+            {
+              "playerId": "team-player/c953b274-27fd-4b32-94fe-41996edeff9e",
+              "name": "John Bishop (4)"
+            },
+            {
+              "playerId": "team-player/a3b865c3-e56b-40e2-b071-90636f8a3d94",
+              "name": "Raghu Iyer (4)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8ba63142-0906-426b-8015-91089362a84d",
               "players": [
                 {
+                  "playerId": "team-player/c953b274-27fd-4b32-94fe-41996edeff9e",
                   "name": "John Bishop (4)",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/a3b865c3-e56b-40e2-b071-90636f8a3d94",
                   "name": "Raghu Iyer (4)",
                   "score": "7"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e1fa37f0-eac0-439d-962e-15ed832ccaec",
               "players": [
                 {
+                  "playerId": "team-player/c953b274-27fd-4b32-94fe-41996edeff9e",
                   "name": "John Bishop (4)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a3b865c3-e56b-40e2-b071-90636f8a3d94",
                   "name": "Raghu Iyer (4)",
                   "score": "7"
                 }
@@ -213,17 +301,26 @@
         },
         {
           "players": [
-            "Roger Wallbridge (5)",
-            "Hugh Crook (7)"
+            {
+              "playerId": "team-player/b927591b-5754-4d00-a954-6e9b62be7f6d",
+              "name": "Roger Wallbridge (5)"
+            },
+            {
+              "playerId": "team-player/936ea20c-e2bc-43d7-8f68-6b6352ff51c5",
+              "name": "Hugh Crook (7)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6f720f45-37d7-4b61-b97d-d8dc425c0034",
               "players": [
                 {
+                  "playerId": "team-player/b927591b-5754-4d00-a954-6e9b62be7f6d",
                   "name": "Roger Wallbridge (5)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/936ea20c-e2bc-43d7-8f68-6b6352ff51c5",
                   "name": "Hugh Crook (7)",
                   "score": "7"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e1c9a4a9-3640-4262-b16c-a2c3cdd41154",
               "players": [
                 {
+                  "playerId": "team-player/b927591b-5754-4d00-a954-6e9b62be7f6d",
                   "name": "Roger Wallbridge (5)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/936ea20c-e2bc-43d7-8f68-6b6352ff51c5",
                   "name": "Hugh Crook (7)",
                   "score": "7"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Dave Edwards (4)",
-            "Rob Eagle (5)"
+            {
+              "playerId": "team-player/70c0eecd-6de5-4d52-bbc2-fea2c6023d1f",
+              "name": "Dave Edwards (4)"
+            },
+            {
+              "playerId": "team-player/322695e5-c65f-461f-a973-f2b367542504",
+              "name": "Rob Eagle (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ae73a100-0e3a-4088-939f-94fca1fe5919",
               "players": [
                 {
+                  "playerId": "team-player/70c0eecd-6de5-4d52-bbc2-fea2c6023d1f",
                   "name": "Dave Edwards (4)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/322695e5-c65f-461f-a973-f2b367542504",
                   "name": "Rob Eagle (5)",
                   "score": "5"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e4eb6ef3-ff26-4061-9a19-d1bd52513569",
               "players": [
                 {
+                  "playerId": "team-player/70c0eecd-6de5-4d52-bbc2-fea2c6023d1f",
                   "name": "Dave Edwards (4)",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/322695e5-c65f-461f-a973-f2b367542504",
                   "name": "Rob Eagle (5)",
                   "score": "7"
                 }
@@ -282,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/339dfc95-610d-4f24-94eb-6bc3a7cf03ca",
               "players": [
                 {
+                  "playerId": "team-player/70c0eecd-6de5-4d52-bbc2-fea2c6023d1f",
                   "name": "Dave Edwards (4)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/322695e5-c65f-461f-a973-f2b367542504",
                   "name": "Rob Eagle (5)",
                   "score": "3"
                 }
@@ -299,17 +414,26 @@
         },
         {
           "players": [
-            "Sue Bishop (5)",
-            "Helen Essa (6)"
+            {
+              "playerId": "team-player/6e71060b-48c9-44a2-b85f-9803d56b733a",
+              "name": "Sue Bishop (5)"
+            },
+            {
+              "playerId": "team-player/88f6a059-86cf-4ddc-9c6a-fb1ee3c4157c",
+              "name": "Helen Essa (6)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/577c6d71-3ae1-4b02-a34f-efd5771bc7ab",
               "players": [
                 {
+                  "playerId": "team-player/6e71060b-48c9-44a2-b85f-9803d56b733a",
                   "name": "Sue Bishop (5)",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/88f6a059-86cf-4ddc-9c6a-fb1ee3c4157c",
                   "name": "Helen Essa (6)",
                   "score": "7"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/26040e7e-d92a-49c3-8074-7d18b5fd8df2",
               "players": [
                 {
+                  "playerId": "team-player/6e71060b-48c9-44a2-b85f-9803d56b733a",
                   "name": "Sue Bishop (5)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/88f6a059-86cf-4ddc-9c6a-fb1ee3c4157c",
                   "name": "Helen Essa (6)",
                   "score": "4"
                 }
@@ -332,12 +459,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1ab2c791-be9f-4374-82c0-7856794047e8",
               "players": [
                 {
+                  "playerId": "team-player/6e71060b-48c9-44a2-b85f-9803d56b733a",
                   "name": "Sue Bishop (5)",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/88f6a059-86cf-4ddc-9c6a-fb1ee3c4157c",
                   "name": "Helen Essa (6)",
                   "score": "4"
                 }

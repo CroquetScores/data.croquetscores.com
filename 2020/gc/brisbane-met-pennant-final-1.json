@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/9d6bf582-afea-4e2d-a4ee-7933738e4474",
   "name": "Brisbane Met GC Pennant FINAL",
   "sport": "gc",
   "firstDay": "2020-11-01",
   "lastDay": "2020-11-01",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Eildon",
       "shortName": "Eildon",
       "players": [
-        "Fran Buckle",
-        "Richard Bevan",
-        "Richard Bevan & Susan Beasley",
-        "Rino Parella",
-        "Rino Parella & Fran Buckle",
-        "Susan Beasley"
+        {
+          "playerId": "team-player/66d33277-702f-4cb6-b265-36fa9f2609b4",
+          "name": "Fran Buckle"
+        },
+        {
+          "playerId": "team-player/f57e84ea-9555-4d3c-948c-e5f4172cfb25",
+          "name": "Richard Bevan"
+        },
+        {
+          "playerId": "team-player/3db1a7fc-f503-4599-bb1a-5f256a08d79c",
+          "name": "Richard Bevan & Susan Beasley"
+        },
+        {
+          "playerId": "team-player/f6846c9a-5fb7-4f7e-832a-59e7d1e917da",
+          "name": "Rino Parella"
+        },
+        {
+          "playerId": "team-player/92ca1ccd-2807-4ad8-b64b-7ed694a36c44",
+          "name": "Rino Parella & Fran Buckle"
+        },
+        {
+          "playerId": "team-player/aaf4c9fc-17f1-428e-a163-c4e231742b9a",
+          "name": "Susan Beasley"
+        }
       ]
     },
     {
       "name": "Ipswich",
       "shortName": "Ipswich",
       "players": [
-        "Elaine Drennan",
-        "Heather Scott",
-        "Jannene Wall",
-        "Jannene Wall & Heather Scott",
-        "Rosemary Kelly",
-        "Sidney Bates & Gail Gilmore"
+        {
+          "playerId": "team-player/23cc0c41-d72e-484a-9b6e-68979bf34814",
+          "name": "Elaine Drennan"
+        },
+        {
+          "playerId": "team-player/b6ba5fa8-8426-4c86-a1d4-e198bcd570f7",
+          "name": "Heather Scott"
+        },
+        {
+          "playerId": "team-player/af78f2ad-fe96-4377-ae03-06621508de6d",
+          "name": "Jannene Wall"
+        },
+        {
+          "playerId": "team-player/8b16786f-200e-4ea1-a4ad-3ec6462fbfeb",
+          "name": "Jannene Wall & Heather Scott"
+        },
+        {
+          "playerId": "team-player/afd5c2d5-8f7d-4463-8979-a566eed43f18",
+          "name": "Rosemary Kelly"
+        },
+        {
+          "playerId": "team-player/ebf518f7-6b63-4e73-a168-1685538d1480",
+          "name": "Sidney Bates & Gail Gilmore"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/c3d5ba20-c25d-41e1-9ae4-45bcbac9f97a",
       "teams": [
         "Eildon",
         "Ipswich"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Rino Parella & Fran Buckle",
-            "Sidney Bates & Gail Gilmore"
+            {
+              "playerId": "team-player/92ca1ccd-2807-4ad8-b64b-7ed694a36c44",
+              "name": "Rino Parella & Fran Buckle"
+            },
+            {
+              "playerId": "team-player/ebf518f7-6b63-4e73-a168-1685538d1480",
+              "name": "Sidney Bates & Gail Gilmore"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cb5f308c-3313-4453-a36d-618873755f45",
               "players": [
                 {
+                  "playerId": "team-player/92ca1ccd-2807-4ad8-b64b-7ed694a36c44",
                   "name": "Rino Parella & Fran Buckle",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ebf518f7-6b63-4e73-a168-1685538d1480",
                   "name": "Sidney Bates & Gail Gilmore",
                   "score": "2"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Richard Bevan & Susan Beasley",
-            "Jannene Wall & Heather Scott"
+            {
+              "playerId": "team-player/3db1a7fc-f503-4599-bb1a-5f256a08d79c",
+              "name": "Richard Bevan & Susan Beasley"
+            },
+            {
+              "playerId": "team-player/8b16786f-200e-4ea1-a4ad-3ec6462fbfeb",
+              "name": "Jannene Wall & Heather Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/01301f38-a433-4a91-b5af-1fc74cbb3aed",
               "players": [
                 {
+                  "playerId": "team-player/3db1a7fc-f503-4599-bb1a-5f256a08d79c",
                   "name": "Richard Bevan & Susan Beasley",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8b16786f-200e-4ea1-a4ad-3ec6462fbfeb",
                   "name": "Jannene Wall & Heather Scott",
                   "score": "7"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Rino Parella",
-            "Jannene Wall"
+            {
+              "playerId": "team-player/f6846c9a-5fb7-4f7e-832a-59e7d1e917da",
+              "name": "Rino Parella"
+            },
+            {
+              "playerId": "team-player/af78f2ad-fe96-4377-ae03-06621508de6d",
+              "name": "Jannene Wall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ecfaff0-86bf-4b00-949c-a6afba019309",
               "players": [
                 {
+                  "playerId": "team-player/f6846c9a-5fb7-4f7e-832a-59e7d1e917da",
                   "name": "Rino Parella",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/af78f2ad-fe96-4377-ae03-06621508de6d",
                   "name": "Jannene Wall",
                   "score": "3"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Richard Bevan",
-            "Elaine Drennan"
+            {
+              "playerId": "team-player/f57e84ea-9555-4d3c-948c-e5f4172cfb25",
+              "name": "Richard Bevan"
+            },
+            {
+              "playerId": "team-player/23cc0c41-d72e-484a-9b6e-68979bf34814",
+              "name": "Elaine Drennan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/48b92811-25f1-4534-ad58-ff6b837772d8",
               "players": [
                 {
+                  "playerId": "team-player/f57e84ea-9555-4d3c-948c-e5f4172cfb25",
                   "name": "Richard Bevan",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/23cc0c41-d72e-484a-9b6e-68979bf34814",
                   "name": "Elaine Drennan",
                   "score": "7"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Fran Buckle",
-            "Heather Scott"
+            {
+              "playerId": "team-player/66d33277-702f-4cb6-b265-36fa9f2609b4",
+              "name": "Fran Buckle"
+            },
+            {
+              "playerId": "team-player/b6ba5fa8-8426-4c86-a1d4-e198bcd570f7",
+              "name": "Heather Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3eb0d2f5-31f6-42c3-8b2c-7c19934ad3bf",
               "players": [
                 {
+                  "playerId": "team-player/66d33277-702f-4cb6-b265-36fa9f2609b4",
                   "name": "Fran Buckle",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b6ba5fa8-8426-4c86-a1d4-e198bcd570f7",
                   "name": "Heather Scott",
                   "score": "2"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Susan Beasley",
-            "Rosemary Kelly"
+            {
+              "playerId": "team-player/aaf4c9fc-17f1-428e-a163-c4e231742b9a",
+              "name": "Susan Beasley"
+            },
+            {
+              "playerId": "team-player/afd5c2d5-8f7d-4463-8979-a566eed43f18",
+              "name": "Rosemary Kelly"
+            }
           ],
           "games": [
             {
+              "gameId": "game/19140c8c-3a28-49f5-9263-741093e96bed",
               "players": [
                 {
+                  "playerId": "team-player/aaf4c9fc-17f1-428e-a163-c4e231742b9a",
                   "name": "Susan Beasley",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/afd5c2d5-8f7d-4463-8979-a566eed43f18",
                   "name": "Rosemary Kelly",
                   "score": "5"
                 }

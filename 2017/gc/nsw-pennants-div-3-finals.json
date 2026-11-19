@@ -1,51 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/d219f24e-a9e3-47c8-8428-f33023bc154f",
   "name": "NSW GC Pennants Div 3 Finals",
   "sport": "gc",
   "firstDay": "2017-06-15",
   "lastDay": "2017-06-15",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Sutherland",
       "shortName": "Sutherland",
       "players": [
-        "Janett Midgley",
-        "Jim Christie",
-        "Penny Howarth & Margery Bennett"
+        {
+          "playerId": "team-player/a9221727-a266-4d38-acac-ba2e20bfe042",
+          "name": "Janett Midgley"
+        },
+        {
+          "playerId": "team-player/a894b93d-e040-48d3-9322-e6889cf4a37e",
+          "name": "Jim Christie"
+        },
+        {
+          "playerId": "team-player/5b95a89c-9a46-4ba5-b208-16891dd82657",
+          "name": "Penny Howarth & Margery Bennett"
+        }
       ]
     },
     {
       "name": "Nowra",
       "shortName": "Nowra",
       "players": [
-        "Bob Davis",
-        "Marie McLean & Doug Houssenlogue",
-        "Paul Wormleaton"
+        {
+          "playerId": "team-player/e9058e91-72b8-4c7e-bd27-5476232a3335",
+          "name": "Bob Davis"
+        },
+        {
+          "playerId": "team-player/dcab0ce4-46f4-4af1-aa7f-90d888c707b2",
+          "name": "Marie McLean & Doug Houssenlogue"
+        },
+        {
+          "playerId": "team-player/9355e513-e301-430c-9d2b-9e304d48ce72",
+          "name": "Paul Wormleaton"
+        }
       ]
     },
     {
       "name": "EDSACC",
       "shortName": "EDSACC",
       "players": [
-        "Sue Hempel",
-        "Sue Higgins",
-        "Sue Yule & Patsy McCaskie"
+        {
+          "playerId": "team-player/2ac0092d-af4e-472b-a3b6-5bae8f89afcf",
+          "name": "Sue Hempel"
+        },
+        {
+          "playerId": "team-player/37a2255d-05a6-4261-8c0a-0407cba8d274",
+          "name": "Sue Higgins"
+        },
+        {
+          "playerId": "team-player/4638a4f1-12fa-44c7-8a7b-763d3043f1c3",
+          "name": "Sue Yule & Patsy McCaskie"
+        }
       ]
     },
     {
       "name": "Manly",
       "shortName": "Manly",
       "players": [
-        "Alan Robinson",
-        "Colin Bradford & Marcia Chivers",
-        "Lisa Kelshaw"
+        {
+          "playerId": "team-player/e2f74b3b-89be-4d3a-b2b3-29570b1d01a9",
+          "name": "Alan Robinson"
+        },
+        {
+          "playerId": "team-player/27ed3b88-2aed-4e8d-89fa-c7aa8494bd20",
+          "name": "Colin Bradford & Marcia Chivers"
+        },
+        {
+          "playerId": "team-player/4d5786a9-f622-4f2f-9687-498c3f41f5fa",
+          "name": "Lisa Kelshaw"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/21e4ee9f-7b50-46d6-aa4a-34d8c059cea1",
       "teams": [
         "Sutherland",
         "Nowra"
@@ -55,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Penny Howarth & Margery Bennett",
-            "Marie McLean & Doug Houssenlogue"
+            {
+              "playerId": "team-player/5b95a89c-9a46-4ba5-b208-16891dd82657",
+              "name": "Penny Howarth & Margery Bennett"
+            },
+            {
+              "playerId": "team-player/dcab0ce4-46f4-4af1-aa7f-90d888c707b2",
+              "name": "Marie McLean & Doug Houssenlogue"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff3c6112-de3d-4f67-9760-2864db61ead0",
               "players": [
                 {
+                  "playerId": "team-player/5b95a89c-9a46-4ba5-b208-16891dd82657",
                   "name": "Penny Howarth & Margery Bennett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dcab0ce4-46f4-4af1-aa7f-90d888c707b2",
                   "name": "Marie McLean & Doug Houssenlogue",
                   "score": "6"
                 }
@@ -74,12 +123,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/43d049b5-ea34-49f4-b65a-7679e30e0a0b",
               "players": [
                 {
+                  "playerId": "team-player/5b95a89c-9a46-4ba5-b208-16891dd82657",
                   "name": "Penny Howarth & Margery Bennett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dcab0ce4-46f4-4af1-aa7f-90d888c707b2",
                   "name": "Marie McLean & Doug Houssenlogue",
                   "score": "4"
                 }
@@ -91,17 +143,26 @@
         },
         {
           "players": [
-            "Janett Midgley",
-            "Bob Davis"
+            {
+              "playerId": "team-player/a9221727-a266-4d38-acac-ba2e20bfe042",
+              "name": "Janett Midgley"
+            },
+            {
+              "playerId": "team-player/e9058e91-72b8-4c7e-bd27-5476232a3335",
+              "name": "Bob Davis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f5feb007-aa01-4e08-be48-1f5fc4f9dabc",
               "players": [
                 {
+                  "playerId": "team-player/a9221727-a266-4d38-acac-ba2e20bfe042",
                   "name": "Janett Midgley",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e9058e91-72b8-4c7e-bd27-5476232a3335",
                   "name": "Bob Davis",
                   "score": "3"
                 }
@@ -110,12 +171,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c0a53799-00d3-409b-aee8-6821130cf05a",
               "players": [
                 {
+                  "playerId": "team-player/a9221727-a266-4d38-acac-ba2e20bfe042",
                   "name": "Janett Midgley",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e9058e91-72b8-4c7e-bd27-5476232a3335",
                   "name": "Bob Davis",
                   "score": "3"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Jim Christie",
-            "Paul Wormleaton"
+            {
+              "playerId": "team-player/a894b93d-e040-48d3-9322-e6889cf4a37e",
+              "name": "Jim Christie"
+            },
+            {
+              "playerId": "team-player/9355e513-e301-430c-9d2b-9e304d48ce72",
+              "name": "Paul Wormleaton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c8681e67-4a22-4c71-a927-7576c26e5cdf",
               "players": [
                 {
+                  "playerId": "team-player/a894b93d-e040-48d3-9322-e6889cf4a37e",
                   "name": "Jim Christie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9355e513-e301-430c-9d2b-9e304d48ce72",
                   "name": "Paul Wormleaton",
                   "score": "4"
                 }
@@ -146,12 +219,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ef046ef2-c9e1-481e-a42d-c74afb50a573",
               "players": [
                 {
+                  "playerId": "team-player/a894b93d-e040-48d3-9322-e6889cf4a37e",
                   "name": "Jim Christie",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9355e513-e301-430c-9d2b-9e304d48ce72",
                   "name": "Paul Wormleaton",
                   "score": "7"
                 }
@@ -160,12 +236,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d6b4d0f4-cd9f-477c-a791-24c7c07112ed",
               "players": [
                 {
+                  "playerId": "team-player/a894b93d-e040-48d3-9322-e6889cf4a37e",
                   "name": "Jim Christie",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/9355e513-e301-430c-9d2b-9e304d48ce72",
                   "name": "Paul Wormleaton",
                   "score": "7"
                 }
@@ -178,6 +257,7 @@
       ]
     },
     {
+      "competitionId": "competition/55d72f83-dba1-4d2d-9c4a-3ce75b2f3e1f",
       "teams": [
         "EDSACC",
         "Manly"
@@ -187,17 +267,26 @@
       "matches": [
         {
           "players": [
-            "Sue Yule & Patsy McCaskie",
-            "Colin Bradford & Marcia Chivers"
+            {
+              "playerId": "team-player/4638a4f1-12fa-44c7-8a7b-763d3043f1c3",
+              "name": "Sue Yule & Patsy McCaskie"
+            },
+            {
+              "playerId": "team-player/27ed3b88-2aed-4e8d-89fa-c7aa8494bd20",
+              "name": "Colin Bradford & Marcia Chivers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ee892af5-0692-4cda-8dfc-5a3b25b1dd00",
               "players": [
                 {
+                  "playerId": "team-player/4638a4f1-12fa-44c7-8a7b-763d3043f1c3",
                   "name": "Sue Yule & Patsy McCaskie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/27ed3b88-2aed-4e8d-89fa-c7aa8494bd20",
                   "name": "Colin Bradford & Marcia Chivers",
                   "score": "5"
                 }
@@ -206,12 +295,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e35eb23a-44b9-4898-b798-4cd53dcac0d6",
               "players": [
                 {
+                  "playerId": "team-player/4638a4f1-12fa-44c7-8a7b-763d3043f1c3",
                   "name": "Sue Yule & Patsy McCaskie",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/27ed3b88-2aed-4e8d-89fa-c7aa8494bd20",
                   "name": "Colin Bradford & Marcia Chivers",
                   "score": "4"
                 }
@@ -223,17 +315,26 @@
         },
         {
           "players": [
-            "Sue Higgins",
-            "Alan Robinson"
+            {
+              "playerId": "team-player/37a2255d-05a6-4261-8c0a-0407cba8d274",
+              "name": "Sue Higgins"
+            },
+            {
+              "playerId": "team-player/e2f74b3b-89be-4d3a-b2b3-29570b1d01a9",
+              "name": "Alan Robinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5b815fde-53ae-4d65-996a-4a9817a7a82d",
               "players": [
                 {
+                  "playerId": "team-player/37a2255d-05a6-4261-8c0a-0407cba8d274",
                   "name": "Sue Higgins",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e2f74b3b-89be-4d3a-b2b3-29570b1d01a9",
                   "name": "Alan Robinson",
                   "score": "7"
                 }
@@ -242,12 +343,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/000d390d-650d-4c26-ae3e-bfb9362cc6a0",
               "players": [
                 {
+                  "playerId": "team-player/37a2255d-05a6-4261-8c0a-0407cba8d274",
                   "name": "Sue Higgins",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/e2f74b3b-89be-4d3a-b2b3-29570b1d01a9",
                   "name": "Alan Robinson",
                   "score": "7"
                 }
@@ -259,17 +363,26 @@
         },
         {
           "players": [
-            "Sue Hempel",
-            "Lisa Kelshaw"
+            {
+              "playerId": "team-player/2ac0092d-af4e-472b-a3b6-5bae8f89afcf",
+              "name": "Sue Hempel"
+            },
+            {
+              "playerId": "team-player/4d5786a9-f622-4f2f-9687-498c3f41f5fa",
+              "name": "Lisa Kelshaw"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dcbee6d8-2800-4417-a8a5-3e49dce49645",
               "players": [
                 {
+                  "playerId": "team-player/2ac0092d-af4e-472b-a3b6-5bae8f89afcf",
                   "name": "Sue Hempel",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4d5786a9-f622-4f2f-9687-498c3f41f5fa",
                   "name": "Lisa Kelshaw",
                   "score": "7"
                 }
@@ -278,12 +391,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/eb576f91-5aa3-4489-a32d-8940a6194ccb",
               "players": [
                 {
+                  "playerId": "team-player/2ac0092d-af4e-472b-a3b6-5bae8f89afcf",
                   "name": "Sue Hempel",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4d5786a9-f622-4f2f-9687-498c3f41f5fa",
                   "name": "Lisa Kelshaw",
                   "score": "7"
                 }
@@ -296,6 +412,7 @@
       ]
     },
     {
+      "competitionId": "competition/95daad82-9dc1-4ef0-8548-b8aa14b86ced",
       "teams": [
         "Sutherland",
         "Manly"
@@ -305,17 +422,26 @@
       "matches": [
         {
           "players": [
-            "Janett Midgley",
-            "Alan Robinson"
+            {
+              "playerId": "team-player/a9221727-a266-4d38-acac-ba2e20bfe042",
+              "name": "Janett Midgley"
+            },
+            {
+              "playerId": "team-player/e2f74b3b-89be-4d3a-b2b3-29570b1d01a9",
+              "name": "Alan Robinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54dc3944-1c43-471e-8f69-d7011fba2c6c",
               "players": [
                 {
+                  "playerId": "team-player/a9221727-a266-4d38-acac-ba2e20bfe042",
                   "name": "Janett Midgley",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e2f74b3b-89be-4d3a-b2b3-29570b1d01a9",
                   "name": "Alan Robinson",
                   "score": "7"
                 }
@@ -324,12 +450,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ecd963a5-ed24-4e72-91ad-54ea5493a455",
               "players": [
                 {
+                  "playerId": "team-player/a9221727-a266-4d38-acac-ba2e20bfe042",
                   "name": "Janett Midgley",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e2f74b3b-89be-4d3a-b2b3-29570b1d01a9",
                   "name": "Alan Robinson",
                   "score": "7"
                 }
@@ -341,17 +470,26 @@
         },
         {
           "players": [
-            "Jim Christie",
-            "Lisa Kelshaw"
+            {
+              "playerId": "team-player/a894b93d-e040-48d3-9322-e6889cf4a37e",
+              "name": "Jim Christie"
+            },
+            {
+              "playerId": "team-player/4d5786a9-f622-4f2f-9687-498c3f41f5fa",
+              "name": "Lisa Kelshaw"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cbdc768b-27dd-499f-90aa-ad12cac674a2",
               "players": [
                 {
+                  "playerId": "team-player/a894b93d-e040-48d3-9322-e6889cf4a37e",
                   "name": "Jim Christie",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4d5786a9-f622-4f2f-9687-498c3f41f5fa",
                   "name": "Lisa Kelshaw",
                   "score": "7"
                 }
@@ -360,12 +498,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7d6c9761-ad0d-4276-8689-46dff450588e",
               "players": [
                 {
+                  "playerId": "team-player/a894b93d-e040-48d3-9322-e6889cf4a37e",
                   "name": "Jim Christie",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/4d5786a9-f622-4f2f-9687-498c3f41f5fa",
                   "name": "Lisa Kelshaw",
                   "score": "7"
                 }
@@ -377,17 +518,26 @@
         },
         {
           "players": [
-            "Penny Howarth & Margery Bennett",
-            "Colin Bradford & Marcia Chivers"
+            {
+              "playerId": "team-player/5b95a89c-9a46-4ba5-b208-16891dd82657",
+              "name": "Penny Howarth & Margery Bennett"
+            },
+            {
+              "playerId": "team-player/27ed3b88-2aed-4e8d-89fa-c7aa8494bd20",
+              "name": "Colin Bradford & Marcia Chivers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f07c68c-1f8e-4bd8-8c37-a891abd1aa0d",
               "players": [
                 {
+                  "playerId": "team-player/5b95a89c-9a46-4ba5-b208-16891dd82657",
                   "name": "Penny Howarth & Margery Bennett",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/27ed3b88-2aed-4e8d-89fa-c7aa8494bd20",
                   "name": "Colin Bradford & Marcia Chivers",
                   "score": "7"
                 }
@@ -396,12 +546,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0287c0d3-4f18-4e30-b811-0acbcb2db295",
               "players": [
                 {
+                  "playerId": "team-player/5b95a89c-9a46-4ba5-b208-16891dd82657",
                   "name": "Penny Howarth & Margery Bennett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/27ed3b88-2aed-4e8d-89fa-c7aa8494bd20",
                   "name": "Colin Bradford & Marcia Chivers",
                   "score": "3"
                 }
@@ -410,12 +563,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2aad98a1-2bd5-4a91-9506-35adf351e92f",
               "players": [
                 {
+                  "playerId": "team-player/5b95a89c-9a46-4ba5-b208-16891dd82657",
                   "name": "Penny Howarth & Margery Bennett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/27ed3b88-2aed-4e8d-89fa-c7aa8494bd20",
                   "name": "Colin Bradford & Marcia Chivers",
                   "score": "3"
                 }

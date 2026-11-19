@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/12106e85-604c-4a81-8e46-e113fc98b57a",
   "name": "CqE NWF LPG Bowdon v Chester Chariots",
   "sport": "gc",
   "firstDay": "2024-08-14",
   "lastDay": "2024-08-14",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Alan Mayne",
-        "Alan Mayne - meet again",
-        "David Holland",
-        "David Holland - meet again",
-        "Fred Owen"
+        {
+          "playerId": "team-player/e0d2b12f-bc6b-4644-84b8-750f79c01dc4",
+          "name": "Alan Mayne"
+        },
+        {
+          "playerId": "team-player/3494f5d9-e054-4583-80cc-813fb57172e0",
+          "name": "Alan Mayne - meet again"
+        },
+        {
+          "playerId": "team-player/929d4f61-1d0c-4bbf-a88f-fea1c345d1d0",
+          "name": "David Holland"
+        },
+        {
+          "playerId": "team-player/af3ce70a-4da7-485c-8e25-b1c47add411d",
+          "name": "David Holland - meet again"
+        },
+        {
+          "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
+          "name": "Fred Owen"
+        }
       ]
     },
     {
       "name": "Chester Chariots",
       "shortName": "Chester Ch",
       "players": [
-        "Chris Thomas",
-        "Chris Thomas - meet again",
-        "Edward Baskerville",
-        "Edward Baskerville - meet again",
-        "Kerry Dadson"
+        {
+          "playerId": "team-player/d63453d1-48c1-47db-a41d-c48d084016c8",
+          "name": "Chris Thomas"
+        },
+        {
+          "playerId": "team-player/ede15ee4-7f04-4db5-ac62-a7cb8c3a470e",
+          "name": "Chris Thomas - meet again"
+        },
+        {
+          "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
+          "name": "Edward Baskerville"
+        },
+        {
+          "playerId": "team-player/84d6042c-8e37-4932-949f-41f606a2e892",
+          "name": "Edward Baskerville - meet again"
+        },
+        {
+          "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
+          "name": "Kerry Dadson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/a0aa27ae-2aff-466d-9d45-a11cfbdd956d",
       "teams": [
         "Bowdon",
         "Chester Chariots"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Alan Mayne",
-            "Chris Thomas"
+            {
+              "playerId": "team-player/e0d2b12f-bc6b-4644-84b8-750f79c01dc4",
+              "name": "Alan Mayne"
+            },
+            {
+              "playerId": "team-player/d63453d1-48c1-47db-a41d-c48d084016c8",
+              "name": "Chris Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3352fdb9-2ba3-4780-8e6d-634e07b3aa57",
               "players": [
                 {
+                  "playerId": "team-player/e0d2b12f-bc6b-4644-84b8-750f79c01dc4",
                   "name": "Alan Mayne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d63453d1-48c1-47db-a41d-c48d084016c8",
                   "name": "Chris Thomas",
                   "score": "4"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Edward Baskerville"
+            {
+              "playerId": "team-player/929d4f61-1d0c-4bbf-a88f-fea1c345d1d0",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
+              "name": "Edward Baskerville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd1c8b74-a8cd-4c89-8493-9208493a3d8b",
               "players": [
                 {
+                  "playerId": "team-player/929d4f61-1d0c-4bbf-a88f-fea1c345d1d0",
                   "name": "David Holland",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
                   "name": "Edward Baskerville",
                   "score": "7"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Fred Owen",
-            "Kerry Dadson"
+            {
+              "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
+              "name": "Fred Owen"
+            },
+            {
+              "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
+              "name": "Kerry Dadson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9274f4b8-1091-41ad-b49c-8409e3c12307",
               "players": [
                 {
+                  "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
                   "name": "Fred Owen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
                   "name": "Kerry Dadson",
                   "score": "7"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Alan Mayne",
-            "Kerry Dadson"
+            {
+              "playerId": "team-player/e0d2b12f-bc6b-4644-84b8-750f79c01dc4",
+              "name": "Alan Mayne"
+            },
+            {
+              "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
+              "name": "Kerry Dadson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7676656f-c1d3-4166-abd0-4416d540c143",
               "players": [
                 {
+                  "playerId": "team-player/e0d2b12f-bc6b-4644-84b8-750f79c01dc4",
                   "name": "Alan Mayne",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
                   "name": "Kerry Dadson",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Chris Thomas"
+            {
+              "playerId": "team-player/929d4f61-1d0c-4bbf-a88f-fea1c345d1d0",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/d63453d1-48c1-47db-a41d-c48d084016c8",
+              "name": "Chris Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f482bd77-1554-4f4a-b7e0-03ad363d3bea",
               "players": [
                 {
+                  "playerId": "team-player/929d4f61-1d0c-4bbf-a88f-fea1c345d1d0",
                   "name": "David Holland",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d63453d1-48c1-47db-a41d-c48d084016c8",
                   "name": "Chris Thomas",
                   "score": "7"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Fred Owen",
-            "Edward Baskerville"
+            {
+              "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
+              "name": "Fred Owen"
+            },
+            {
+              "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
+              "name": "Edward Baskerville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6570abc-b768-4f48-b935-52757f1ff27d",
               "players": [
                 {
+                  "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
                   "name": "Fred Owen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
                   "name": "Edward Baskerville",
                   "score": "6"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Alan Mayne",
-            "Edward Baskerville"
+            {
+              "playerId": "team-player/e0d2b12f-bc6b-4644-84b8-750f79c01dc4",
+              "name": "Alan Mayne"
+            },
+            {
+              "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
+              "name": "Edward Baskerville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2f907fc5-5fc4-467c-8baa-8b890b5f61af",
               "players": [
                 {
+                  "playerId": "team-player/e0d2b12f-bc6b-4644-84b8-750f79c01dc4",
                   "name": "Alan Mayne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
                   "name": "Edward Baskerville",
                   "score": "5"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Kerry Dadson"
+            {
+              "playerId": "team-player/929d4f61-1d0c-4bbf-a88f-fea1c345d1d0",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
+              "name": "Kerry Dadson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/beb589d3-5c03-4309-942b-da4d763fdf2c",
               "players": [
                 {
+                  "playerId": "team-player/929d4f61-1d0c-4bbf-a88f-fea1c345d1d0",
                   "name": "David Holland",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
                   "name": "Kerry Dadson",
                   "score": "4"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Fred Owen",
-            "Chris Thomas"
+            {
+              "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
+              "name": "Fred Owen"
+            },
+            {
+              "playerId": "team-player/d63453d1-48c1-47db-a41d-c48d084016c8",
+              "name": "Chris Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d4de4d34-e4a2-490a-b83b-d623d7e9ec6e",
               "players": [
                 {
+                  "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
                   "name": "Fred Owen",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d63453d1-48c1-47db-a41d-c48d084016c8",
                   "name": "Chris Thomas",
                   "score": "7"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Alan Mayne",
-            "Chris Thomas - meet again"
+            {
+              "playerId": "team-player/e0d2b12f-bc6b-4644-84b8-750f79c01dc4",
+              "name": "Alan Mayne"
+            },
+            {
+              "playerId": "team-player/ede15ee4-7f04-4db5-ac62-a7cb8c3a470e",
+              "name": "Chris Thomas - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fcc127a1-7038-4760-bfe1-457f5ed78a4e",
               "players": [
                 {
+                  "playerId": "team-player/e0d2b12f-bc6b-4644-84b8-750f79c01dc4",
                   "name": "Alan Mayne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ede15ee4-7f04-4db5-ac62-a7cb8c3a470e",
                   "name": "Chris Thomas - meet again",
                   "score": "2"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "David Holland - meet again",
-            "Edward Baskerville"
+            {
+              "playerId": "team-player/af3ce70a-4da7-485c-8e25-b1c47add411d",
+              "name": "David Holland - meet again"
+            },
+            {
+              "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
+              "name": "Edward Baskerville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32870d5f-2b05-4381-aa00-c1c3908203ac",
               "players": [
                 {
+                  "playerId": "team-player/af3ce70a-4da7-485c-8e25-b1c47add411d",
                   "name": "David Holland - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
                   "name": "Edward Baskerville",
                   "score": "7"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Alan Mayne - meet again",
-            "Kerry Dadson"
+            {
+              "playerId": "team-player/3494f5d9-e054-4583-80cc-813fb57172e0",
+              "name": "Alan Mayne - meet again"
+            },
+            {
+              "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
+              "name": "Kerry Dadson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4f478da-e444-4143-8984-a6d32dc82185",
               "players": [
                 {
+                  "playerId": "team-player/3494f5d9-e054-4583-80cc-813fb57172e0",
                   "name": "Alan Mayne - meet again",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
                   "name": "Kerry Dadson",
                   "score": "7"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "David Holland",
-            "Chris Thomas - meet again"
+            {
+              "playerId": "team-player/929d4f61-1d0c-4bbf-a88f-fea1c345d1d0",
+              "name": "David Holland"
+            },
+            {
+              "playerId": "team-player/ede15ee4-7f04-4db5-ac62-a7cb8c3a470e",
+              "name": "Chris Thomas - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17bd16ad-a37f-41dd-a094-82937cc8a4bb",
               "players": [
                 {
+                  "playerId": "team-player/929d4f61-1d0c-4bbf-a88f-fea1c345d1d0",
                   "name": "David Holland",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/ede15ee4-7f04-4db5-ac62-a7cb8c3a470e",
                   "name": "Chris Thomas - meet again",
                   "score": "7"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Fred Owen",
-            "Edward Baskerville - meet again"
+            {
+              "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
+              "name": "Fred Owen"
+            },
+            {
+              "playerId": "team-player/84d6042c-8e37-4932-949f-41f606a2e892",
+              "name": "Edward Baskerville - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/52d41531-a34f-4b76-b9c4-2fbe18e48463",
               "players": [
                 {
+                  "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
                   "name": "Fred Owen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/84d6042c-8e37-4932-949f-41f606a2e892",
                   "name": "Edward Baskerville - meet again",
                   "score": "2"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Alan Mayne - meet again",
-            "Edward Baskerville"
+            {
+              "playerId": "team-player/3494f5d9-e054-4583-80cc-813fb57172e0",
+              "name": "Alan Mayne - meet again"
+            },
+            {
+              "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
+              "name": "Edward Baskerville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/615e508c-b91a-4e22-a721-139c897baf6c",
               "players": [
                 {
+                  "playerId": "team-player/3494f5d9-e054-4583-80cc-813fb57172e0",
                   "name": "Alan Mayne - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bea82bb9-4c6d-49ee-ae2b-539b97881a93",
                   "name": "Edward Baskerville",
                   "score": "4"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "David Holland - meet again",
-            "Kerry Dadson"
+            {
+              "playerId": "team-player/af3ce70a-4da7-485c-8e25-b1c47add411d",
+              "name": "David Holland - meet again"
+            },
+            {
+              "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
+              "name": "Kerry Dadson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d22fb828-9c9a-4a2a-85e7-e928880f3dca",
               "players": [
                 {
+                  "playerId": "team-player/af3ce70a-4da7-485c-8e25-b1c47add411d",
                   "name": "David Holland - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/846c66f3-a216-43c8-b97f-766e3cb0ba47",
                   "name": "Kerry Dadson",
                   "score": "7"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "Fred Owen",
-            "Chris Thomas - meet again"
+            {
+              "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
+              "name": "Fred Owen"
+            },
+            {
+              "playerId": "team-player/ede15ee4-7f04-4db5-ac62-a7cb8c3a470e",
+              "name": "Chris Thomas - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e7918cc-aec2-459b-96f9-d66dcdfc0e1e",
               "players": [
                 {
+                  "playerId": "team-player/4ae799dd-8481-4ac9-bbe3-96221c0ccc1d",
                   "name": "Fred Owen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ede15ee4-7f04-4db5-ac62-a7cb8c3a470e",
                   "name": "Chris Thomas - meet again",
                   "score": "4"
                 }

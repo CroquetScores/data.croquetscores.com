@@ -1,42 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b137e01d-ecb0-4006-a5bf-141f89d79035",
   "name": "International Target Advantage Australia vs England",
   "sport": "gc",
   "firstDay": "2025-11-11",
   "lastDay": "2025-11-11",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Australia",
       "shortName": "AUS",
       "players": [
-        "Ann Clifton (3) & Ian McRae (5)",
-        "Brian Usback (6) & Patrick Fletcher (12)",
-        "Cathy Sheehan (12)",
-        "Denese McCann (6)",
-        "Helen Druett (12) & Barrie Blackburn (12)",
-        "Janelle Wilson (4)",
-        "Paula Russell (12)",
-        "Peter Freer (-1)",
-        "Rob Ey (1)"
+        {
+          "playerId": "team-player/89da9684-5e36-4fa6-933a-5c411be5415a",
+          "name": "Ann Clifton (3) & Ian McRae (5)"
+        },
+        {
+          "playerId": "team-player/26467631-1d54-420c-bf27-eee27f0c45fa",
+          "name": "Brian Usback (6) & Patrick Fletcher (12)"
+        },
+        {
+          "playerId": "team-player/f36474d2-a393-472a-91ee-1c55867c6fd1",
+          "name": "Cathy Sheehan (12)"
+        },
+        {
+          "playerId": "team-player/c81d37bb-c624-461b-80b0-0c136960a7a8",
+          "name": "Denese McCann (6)"
+        },
+        {
+          "playerId": "team-player/02ac6541-3267-475e-a1d2-fd86cb2ae3df",
+          "name": "Helen Druett (12) & Barrie Blackburn (12)"
+        },
+        {
+          "playerId": "team-player/46194323-f62d-47ec-a992-91afe312092e",
+          "name": "Janelle Wilson (4)"
+        },
+        {
+          "playerId": "team-player/d5c18de1-8768-4699-a9e0-6d9caaf60dce",
+          "name": "Paula Russell (12)"
+        },
+        {
+          "playerId": "team-player/28d0462a-86d1-47e1-8704-b6af65c709ff",
+          "name": "Peter Freer (-1)"
+        },
+        {
+          "playerId": "team-player/6e780c78-b808-49ad-adfc-4bd2d5a6e358",
+          "name": "Rob Ey (1)"
+        }
       ]
     },
     {
       "name": "England",
       "shortName": "ENG",
       "players": [
-        "Catherine Shore (7) & Ian Shore (0)",
-        "Catherine Shore (7) & Pam Sim (2)",
-        "Catherine Shore (7) & Roy Tillcock (1)",
-        "Ian Shore (0)",
-        "Pam Sim (2)",
-        "Roy Tillcock (1)"
+        {
+          "playerId": "team-player/d3a892eb-aff5-4fb0-9f86-a95f42098094",
+          "name": "Catherine Shore (7) & Ian Shore (0)"
+        },
+        {
+          "playerId": "team-player/308ac640-f764-4e07-a91f-992056eba372",
+          "name": "Catherine Shore (7) & Pam Sim (2)"
+        },
+        {
+          "playerId": "team-player/4118a4f9-b835-4a4f-9d5b-022879c0181d",
+          "name": "Catherine Shore (7) & Roy Tillcock (1)"
+        },
+        {
+          "playerId": "team-player/8ec8204f-67ae-48e1-b914-c2ae8beb08ac",
+          "name": "Ian Shore (0)"
+        },
+        {
+          "playerId": "team-player/56d2d004-60cf-4256-9f01-f4138988dc91",
+          "name": "Pam Sim (2)"
+        },
+        {
+          "playerId": "team-player/05fc88df-1031-4c57-8fbb-58c20b7e95a9",
+          "name": "Roy Tillcock (1)"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b2cce14f-20cd-406f-98ce-90a0aa8018ed",
       "teams": [
         "Australia",
         "England"
@@ -46,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Paula Russell (12)",
-            "Roy Tillcock (1)"
+            {
+              "playerId": "team-player/d5c18de1-8768-4699-a9e0-6d9caaf60dce",
+              "name": "Paula Russell (12)"
+            },
+            {
+              "playerId": "team-player/05fc88df-1031-4c57-8fbb-58c20b7e95a9",
+              "name": "Roy Tillcock (1)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/27711b99-fa71-4424-ac49-8481093d9acb",
               "players": [
                 {
+                  "playerId": "team-player/d5c18de1-8768-4699-a9e0-6d9caaf60dce",
                   "name": "Paula Russell (12)",
                   "score": "60"
                 },
                 {
+                  "playerId": "team-player/05fc88df-1031-4c57-8fbb-58c20b7e95a9",
                   "name": "Roy Tillcock (1)",
                   "score": "27"
                 }
@@ -68,17 +126,26 @@
         },
         {
           "players": [
-            "Janelle Wilson (4)",
-            "Pam Sim (2)"
+            {
+              "playerId": "team-player/46194323-f62d-47ec-a992-91afe312092e",
+              "name": "Janelle Wilson (4)"
+            },
+            {
+              "playerId": "team-player/56d2d004-60cf-4256-9f01-f4138988dc91",
+              "name": "Pam Sim (2)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c9157245-3068-49e8-a6a5-91f369bd64b5",
               "players": [
                 {
+                  "playerId": "team-player/46194323-f62d-47ec-a992-91afe312092e",
                   "name": "Janelle Wilson (4)",
                   "score": "57"
                 },
                 {
+                  "playerId": "team-player/56d2d004-60cf-4256-9f01-f4138988dc91",
                   "name": "Pam Sim (2)",
                   "score": "89"
                 }
@@ -90,17 +157,26 @@
         },
         {
           "players": [
-            "Brian Usback (6) & Patrick Fletcher (12)",
-            "Catherine Shore (7) & Ian Shore (0)"
+            {
+              "playerId": "team-player/26467631-1d54-420c-bf27-eee27f0c45fa",
+              "name": "Brian Usback (6) & Patrick Fletcher (12)"
+            },
+            {
+              "playerId": "team-player/d3a892eb-aff5-4fb0-9f86-a95f42098094",
+              "name": "Catherine Shore (7) & Ian Shore (0)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2cc18782-30d6-4632-a9c9-fc3f75e3fa34",
               "players": [
                 {
+                  "playerId": "team-player/26467631-1d54-420c-bf27-eee27f0c45fa",
                   "name": "Brian Usback (6) & Patrick Fletcher (12)",
                   "score": "71"
                 },
                 {
+                  "playerId": "team-player/d3a892eb-aff5-4fb0-9f86-a95f42098094",
                   "name": "Catherine Shore (7) & Ian Shore (0)",
                   "score": "40"
                 }
@@ -112,17 +188,26 @@
         },
         {
           "players": [
-            "Rob Ey (1)",
-            "Ian Shore (0)"
+            {
+              "playerId": "team-player/6e780c78-b808-49ad-adfc-4bd2d5a6e358",
+              "name": "Rob Ey (1)"
+            },
+            {
+              "playerId": "team-player/8ec8204f-67ae-48e1-b914-c2ae8beb08ac",
+              "name": "Ian Shore (0)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c60b2a0-a599-4e86-bfb2-409c812bfaa2",
               "players": [
                 {
+                  "playerId": "team-player/6e780c78-b808-49ad-adfc-4bd2d5a6e358",
                   "name": "Rob Ey (1)",
                   "score": "43"
                 },
                 {
+                  "playerId": "team-player/8ec8204f-67ae-48e1-b914-c2ae8beb08ac",
                   "name": "Ian Shore (0)",
                   "score": "63"
                 }
@@ -134,17 +219,26 @@
         },
         {
           "players": [
-            "Cathy Sheehan (12)",
-            "Pam Sim (2)"
+            {
+              "playerId": "team-player/f36474d2-a393-472a-91ee-1c55867c6fd1",
+              "name": "Cathy Sheehan (12)"
+            },
+            {
+              "playerId": "team-player/56d2d004-60cf-4256-9f01-f4138988dc91",
+              "name": "Pam Sim (2)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2bfd4062-c336-4844-a9ca-831daa5e1580",
               "players": [
                 {
+                  "playerId": "team-player/f36474d2-a393-472a-91ee-1c55867c6fd1",
                   "name": "Cathy Sheehan (12)",
                   "score": "50"
                 },
                 {
+                  "playerId": "team-player/56d2d004-60cf-4256-9f01-f4138988dc91",
                   "name": "Pam Sim (2)",
                   "score": "55"
                 }
@@ -156,17 +250,26 @@
         },
         {
           "players": [
-            "Helen Druett (12) & Barrie Blackburn (12)",
-            "Catherine Shore (7) & Roy Tillcock (1)"
+            {
+              "playerId": "team-player/02ac6541-3267-475e-a1d2-fd86cb2ae3df",
+              "name": "Helen Druett (12) & Barrie Blackburn (12)"
+            },
+            {
+              "playerId": "team-player/4118a4f9-b835-4a4f-9d5b-022879c0181d",
+              "name": "Catherine Shore (7) & Roy Tillcock (1)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/421541ce-fd68-4d46-a84e-1c68e1963a8a",
               "players": [
                 {
+                  "playerId": "team-player/02ac6541-3267-475e-a1d2-fd86cb2ae3df",
                   "name": "Helen Druett (12) & Barrie Blackburn (12)",
                   "score": "40"
                 },
                 {
+                  "playerId": "team-player/4118a4f9-b835-4a4f-9d5b-022879c0181d",
                   "name": "Catherine Shore (7) & Roy Tillcock (1)",
                   "score": "50"
                 }
@@ -178,17 +281,26 @@
         },
         {
           "players": [
-            "Peter Freer (-1)",
-            "Roy Tillcock (1)"
+            {
+              "playerId": "team-player/28d0462a-86d1-47e1-8704-b6af65c709ff",
+              "name": "Peter Freer (-1)"
+            },
+            {
+              "playerId": "team-player/05fc88df-1031-4c57-8fbb-58c20b7e95a9",
+              "name": "Roy Tillcock (1)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/10a7418d-96d4-417e-9e07-f39b66b2a652",
               "players": [
                 {
+                  "playerId": "team-player/28d0462a-86d1-47e1-8704-b6af65c709ff",
                   "name": "Peter Freer (-1)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/05fc88df-1031-4c57-8fbb-58c20b7e95a9",
                   "name": "Roy Tillcock (1)",
                   "score": "29"
                 }
@@ -200,17 +312,26 @@
         },
         {
           "players": [
-            "Denese McCann (6)",
-            "Ian Shore (0)"
+            {
+              "playerId": "team-player/c81d37bb-c624-461b-80b0-0c136960a7a8",
+              "name": "Denese McCann (6)"
+            },
+            {
+              "playerId": "team-player/8ec8204f-67ae-48e1-b914-c2ae8beb08ac",
+              "name": "Ian Shore (0)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bbd24b43-10e1-4017-9afa-e44ab85c9b11",
               "players": [
                 {
+                  "playerId": "team-player/c81d37bb-c624-461b-80b0-0c136960a7a8",
                   "name": "Denese McCann (6)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/8ec8204f-67ae-48e1-b914-c2ae8beb08ac",
                   "name": "Ian Shore (0)",
                   "score": "29"
                 }
@@ -222,17 +343,26 @@
         },
         {
           "players": [
-            "Ann Clifton (3) & Ian McRae (5)",
-            "Catherine Shore (7) & Pam Sim (2)"
+            {
+              "playerId": "team-player/89da9684-5e36-4fa6-933a-5c411be5415a",
+              "name": "Ann Clifton (3) & Ian McRae (5)"
+            },
+            {
+              "playerId": "team-player/308ac640-f764-4e07-a91f-992056eba372",
+              "name": "Catherine Shore (7) & Pam Sim (2)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32f14a29-6c27-47f2-9b30-b4a287c748a0",
               "players": [
                 {
+                  "playerId": "team-player/89da9684-5e36-4fa6-933a-5c411be5415a",
                   "name": "Ann Clifton (3) & Ian McRae (5)",
                   "score": "50"
                 },
                 {
+                  "playerId": "team-player/308ac640-f764-4e07-a91f-992056eba372",
                   "name": "Catherine Shore (7) & Pam Sim (2)",
                   "score": "29"
                 }

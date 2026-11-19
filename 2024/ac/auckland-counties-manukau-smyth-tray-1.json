@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0449f97a-f872-4768-b20b-f22769b82327",
   "name": "Auckland v Counties-Manukau - Smyth Tray",
   "sport": "ac",
   "firstDay": "2024-08-25",
   "lastDay": "2024-08-25",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Auckland",
       "shortName": "Auckland",
       "players": [
-        "David Ansell",
-        "Jim Wardle",
-        "Jim Wardle & Roger Adamson",
-        "Pip Rive",
-        "Pip Rive & David Ansell",
-        "Roger Adamson"
+        {
+          "playerId": "team-player/a3e12885-2515-4996-a4f2-a423ffc584fa",
+          "name": "David Ansell"
+        },
+        {
+          "playerId": "team-player/42e68772-5c56-46c9-be60-046e4a5fc0c4",
+          "name": "Jim Wardle"
+        },
+        {
+          "playerId": "team-player/1de8e32c-eda6-4599-8047-94c9dc9c5233",
+          "name": "Jim Wardle & Roger Adamson"
+        },
+        {
+          "playerId": "team-player/44bbd6d3-0c2c-4edd-bbc6-73edce3e1eff",
+          "name": "Pip Rive"
+        },
+        {
+          "playerId": "team-player/099628c6-7b23-4373-b7a9-c356ed70e245",
+          "name": "Pip Rive & David Ansell"
+        },
+        {
+          "playerId": "team-player/db777e8d-e985-4bcc-b7e0-c760a0968a7c",
+          "name": "Roger Adamson"
+        }
       ]
     },
     {
       "name": "Counties-Manukau",
       "shortName": "Counties-M",
       "players": [
-        "Jeffrey France",
-        "Jeffrey France & Raymond Yin",
-        "Mark Thornton",
-        "Mark Thornton & Warren Steadman",
-        "Raymond Yin",
-        "Warren Steadman"
+        {
+          "playerId": "team-player/98d14199-1fb7-434b-9f67-6fc2870d7086",
+          "name": "Jeffrey France"
+        },
+        {
+          "playerId": "team-player/1ff89b64-4119-4f65-939e-d83f725c5e3d",
+          "name": "Jeffrey France & Raymond Yin"
+        },
+        {
+          "playerId": "team-player/0cdad55f-2c17-43c1-ae3d-d2621dcb5725",
+          "name": "Mark Thornton"
+        },
+        {
+          "playerId": "team-player/95108af4-b39f-4fa5-a5ab-59b20a2e9160",
+          "name": "Mark Thornton & Warren Steadman"
+        },
+        {
+          "playerId": "team-player/0378d60e-b823-41fb-bdf0-edc92c6b8e16",
+          "name": "Raymond Yin"
+        },
+        {
+          "playerId": "team-player/4dbb0a55-4561-4ea2-9420-b6e0e209acc2",
+          "name": "Warren Steadman"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/0dc889a3-3a3a-4e1a-8669-edb0489025b3",
       "teams": [
         "Auckland",
         "Counties-Manukau"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Jim Wardle & Roger Adamson",
-            "Jeffrey France & Raymond Yin"
+            {
+              "playerId": "team-player/1de8e32c-eda6-4599-8047-94c9dc9c5233",
+              "name": "Jim Wardle & Roger Adamson"
+            },
+            {
+              "playerId": "team-player/1ff89b64-4119-4f65-939e-d83f725c5e3d",
+              "name": "Jeffrey France & Raymond Yin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c6d00698-2324-4192-9b3f-666657e90843",
               "players": [
                 {
+                  "playerId": "team-player/1de8e32c-eda6-4599-8047-94c9dc9c5233",
                   "name": "Jim Wardle & Roger Adamson",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/1ff89b64-4119-4f65-939e-d83f725c5e3d",
                   "name": "Jeffrey France & Raymond Yin",
                   "score": "6"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Pip Rive & David Ansell",
-            "Mark Thornton & Warren Steadman"
+            {
+              "playerId": "team-player/099628c6-7b23-4373-b7a9-c356ed70e245",
+              "name": "Pip Rive & David Ansell"
+            },
+            {
+              "playerId": "team-player/95108af4-b39f-4fa5-a5ab-59b20a2e9160",
+              "name": "Mark Thornton & Warren Steadman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d9ed0783-5af1-4fd0-bd6c-097db23cd91d",
               "players": [
                 {
+                  "playerId": "team-player/099628c6-7b23-4373-b7a9-c356ed70e245",
                   "name": "Pip Rive & David Ansell",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/95108af4-b39f-4fa5-a5ab-59b20a2e9160",
                   "name": "Mark Thornton & Warren Steadman",
                   "score": "8"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Jim Wardle",
-            "Jeffrey France"
+            {
+              "playerId": "team-player/42e68772-5c56-46c9-be60-046e4a5fc0c4",
+              "name": "Jim Wardle"
+            },
+            {
+              "playerId": "team-player/98d14199-1fb7-434b-9f67-6fc2870d7086",
+              "name": "Jeffrey France"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9a2fb0be-3f60-481d-8224-380a4e0f3e18",
               "players": [
                 {
+                  "playerId": "team-player/42e68772-5c56-46c9-be60-046e4a5fc0c4",
                   "name": "Jim Wardle",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/98d14199-1fb7-434b-9f67-6fc2870d7086",
                   "name": "Jeffrey France",
                   "score": "11"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Roger Adamson",
-            "Raymond Yin"
+            {
+              "playerId": "team-player/db777e8d-e985-4bcc-b7e0-c760a0968a7c",
+              "name": "Roger Adamson"
+            },
+            {
+              "playerId": "team-player/0378d60e-b823-41fb-bdf0-edc92c6b8e16",
+              "name": "Raymond Yin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/debcb3cd-779f-4c79-8ef8-0adad4384784",
               "players": [
                 {
+                  "playerId": "team-player/db777e8d-e985-4bcc-b7e0-c760a0968a7c",
                   "name": "Roger Adamson",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/0378d60e-b823-41fb-bdf0-edc92c6b8e16",
                   "name": "Raymond Yin",
                   "score": "2"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Pip Rive",
-            "Mark Thornton"
+            {
+              "playerId": "team-player/44bbd6d3-0c2c-4edd-bbc6-73edce3e1eff",
+              "name": "Pip Rive"
+            },
+            {
+              "playerId": "team-player/0cdad55f-2c17-43c1-ae3d-d2621dcb5725",
+              "name": "Mark Thornton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2a7e412-fbc1-4050-b7f2-30c8e92f41db",
               "players": [
                 {
+                  "playerId": "team-player/44bbd6d3-0c2c-4edd-bbc6-73edce3e1eff",
                   "name": "Pip Rive",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/0cdad55f-2c17-43c1-ae3d-d2621dcb5725",
                   "name": "Mark Thornton",
                   "score": "21"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "David Ansell",
-            "Warren Steadman"
+            {
+              "playerId": "team-player/a3e12885-2515-4996-a4f2-a423ffc584fa",
+              "name": "David Ansell"
+            },
+            {
+              "playerId": "team-player/4dbb0a55-4561-4ea2-9420-b6e0e209acc2",
+              "name": "Warren Steadman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88e3f7d1-50ed-46fe-9894-2503da56591d",
               "players": [
                 {
+                  "playerId": "team-player/a3e12885-2515-4996-a4f2-a423ffc584fa",
                   "name": "David Ansell",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/4dbb0a55-4561-4ea2-9420-b6e0e209acc2",
                   "name": "Warren Steadman",
                   "score": "9"
                 }

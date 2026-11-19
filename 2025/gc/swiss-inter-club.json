@@ -1,54 +1,121 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/96bfa1fe-d52f-4f4f-bffa-24f4940e51fe",
   "name": "Swiss Inter-Club 2025",
   "sport": "gc",
   "firstDay": "2025-05-31",
   "lastDay": "2025-06-01",
   "country": "ch",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "CroquetVS",
       "shortName": "CroquetVS",
       "players": [
-        "Christine Tombet",
-        "Christine Tombet & Graham Robertson",
-        "Graham Robertson",
-        "Marina Clark",
-        "Raymond Morel",
-        "Raymond Morel & Marina Clark"
+        {
+          "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
+          "name": "Christine Tombet"
+        },
+        {
+          "playerId": "team-player/05a8d147-256e-4ec6-94fc-52f464995bea",
+          "name": "Christine Tombet & Graham Robertson"
+        },
+        {
+          "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
+          "name": "Graham Robertson"
+        },
+        {
+          "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
+          "name": "Marina Clark"
+        },
+        {
+          "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
+          "name": "Raymond Morel"
+        },
+        {
+          "playerId": "team-player/f3cca729-1c1a-43bc-a8df-d97920c7c8bc",
+          "name": "Raymond Morel & Marina Clark"
+        }
       ]
     },
     {
       "name": "CERN CC",
       "shortName": "CERN CC",
       "players": [
-        "Dave Underhill",
-        "Ian Sexton",
-        "Ian Sexton & Will Howell",
-        "Peter Payne",
-        "Peter Payne & Dave Underhill",
-        "Rikk Guidotti",
-        "Will Howell"
+        {
+          "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
+          "name": "Dave Underhill"
+        },
+        {
+          "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
+          "name": "Ian Sexton"
+        },
+        {
+          "playerId": "team-player/e3b2c85e-cd45-4164-8358-f6252dac6600",
+          "name": "Ian Sexton & Will Howell"
+        },
+        {
+          "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
+          "name": "Peter Payne"
+        },
+        {
+          "playerId": "team-player/61c7fc56-6387-41a7-a055-aa2e49148bee",
+          "name": "Peter Payne & Dave Underhill"
+        },
+        {
+          "playerId": "team-player/e50f1e09-e5da-46ff-8f89-cc42a3d5ac63",
+          "name": "Rikk Guidotti"
+        },
+        {
+          "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
+          "name": "Will Howell"
+        }
       ]
     },
     {
       "name": "CC Zurich",
       "shortName": "CC Zurich",
       "players": [
-        "Andreas Habel",
-        "Daniel Studerus",
-        "Daniel Studerus & KevinM Collins",
-        "KevinM Collins",
-        "Neil Thomas",
-        "Neil Thomas & Andi Habel",
-        "Neil Thomas & Andreas Habel",
-        "Simone Huber"
+        {
+          "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
+          "name": "Andreas Habel"
+        },
+        {
+          "playerId": "team-player/5848f2dd-30e8-4232-90d7-ffd01fe427bb",
+          "name": "Daniel Studerus"
+        },
+        {
+          "playerId": "team-player/b2bfa5a1-5f28-45c5-91aa-a69fe3c7d496",
+          "name": "Daniel Studerus & KevinM Collins"
+        },
+        {
+          "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
+          "name": "KevinM Collins"
+        },
+        {
+          "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
+          "name": "Neil Thomas"
+        },
+        {
+          "playerId": "team-player/173a53e4-66c4-4fcb-80a8-3764fd82d2a7",
+          "name": "Neil Thomas & Andi Habel"
+        },
+        {
+          "playerId": "team-player/0eb80b44-4c39-4e5c-bf8c-81f329f053f0",
+          "name": "Neil Thomas & Andreas Habel"
+        },
+        {
+          "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
+          "name": "Simone Huber"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/ffde0b05-9d11-41e7-908d-42264f508e72",
       "teams": [
         "CroquetVS",
         "CERN CC"
@@ -58,17 +125,26 @@
       "matches": [
         {
           "players": [
-            "Raymond Morel & Marina Clark",
-            "Peter Payne & Dave Underhill"
+            {
+              "playerId": "team-player/f3cca729-1c1a-43bc-a8df-d97920c7c8bc",
+              "name": "Raymond Morel & Marina Clark"
+            },
+            {
+              "playerId": "team-player/61c7fc56-6387-41a7-a055-aa2e49148bee",
+              "name": "Peter Payne & Dave Underhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/70e0b707-3a06-43f0-9cfe-fb97787a1ea5",
               "players": [
                 {
+                  "playerId": "team-player/f3cca729-1c1a-43bc-a8df-d97920c7c8bc",
                   "name": "Raymond Morel & Marina Clark",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/61c7fc56-6387-41a7-a055-aa2e49148bee",
                   "name": "Peter Payne & Dave Underhill",
                   "score": "7"
                 }
@@ -80,17 +156,26 @@
         },
         {
           "players": [
-            "Christine Tombet & Graham Robertson",
-            "Ian Sexton & Will Howell"
+            {
+              "playerId": "team-player/05a8d147-256e-4ec6-94fc-52f464995bea",
+              "name": "Christine Tombet & Graham Robertson"
+            },
+            {
+              "playerId": "team-player/e3b2c85e-cd45-4164-8358-f6252dac6600",
+              "name": "Ian Sexton & Will Howell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/be2da288-7ec0-4ea1-9f41-a9b862da4823",
               "players": [
                 {
+                  "playerId": "team-player/05a8d147-256e-4ec6-94fc-52f464995bea",
                   "name": "Christine Tombet & Graham Robertson",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/e3b2c85e-cd45-4164-8358-f6252dac6600",
                   "name": "Ian Sexton & Will Howell",
                   "score": "7"
                 }
@@ -102,17 +187,26 @@
         },
         {
           "players": [
-            "Raymond Morel",
-            "Dave Underhill"
+            {
+              "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
+              "name": "Raymond Morel"
+            },
+            {
+              "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
+              "name": "Dave Underhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05338395-1f5f-412e-ab71-4366435d2b10",
               "players": [
                 {
+                  "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
                   "name": "Raymond Morel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
                   "name": "Dave Underhill",
                   "score": "5"
                 }
@@ -124,17 +218,26 @@
         },
         {
           "players": [
-            "Marina Clark",
-            "Will Howell"
+            {
+              "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
+              "name": "Marina Clark"
+            },
+            {
+              "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
+              "name": "Will Howell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e489dd84-b07f-4032-80bc-24ccadda1a03",
               "players": [
                 {
+                  "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
                   "name": "Marina Clark",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
                   "name": "Will Howell",
                   "score": "7"
                 }
@@ -146,17 +249,26 @@
         },
         {
           "players": [
-            "Christine Tombet",
-            "Peter Payne"
+            {
+              "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
+              "name": "Christine Tombet"
+            },
+            {
+              "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
+              "name": "Peter Payne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ab64fab-888f-4c33-b09b-274baf388166",
               "players": [
                 {
+                  "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
                   "name": "Christine Tombet",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
                   "name": "Peter Payne",
                   "score": "7"
                 }
@@ -168,17 +280,26 @@
         },
         {
           "players": [
-            "Graham Robertson",
-            "Ian Sexton"
+            {
+              "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
+              "name": "Graham Robertson"
+            },
+            {
+              "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
+              "name": "Ian Sexton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/15ceeaae-d00d-4ea6-a42b-09d696e718a6",
               "players": [
                 {
+                  "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
                   "name": "Graham Robertson",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
                   "name": "Ian Sexton",
                   "score": "7"
                 }
@@ -190,17 +311,26 @@
         },
         {
           "players": [
-            "Raymond Morel",
-            "Will Howell"
+            {
+              "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
+              "name": "Raymond Morel"
+            },
+            {
+              "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
+              "name": "Will Howell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30d289a9-cd53-4bb6-8868-4ae702885c81",
               "players": [
                 {
+                  "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
                   "name": "Raymond Morel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
                   "name": "Will Howell",
                   "score": "5"
                 }
@@ -212,17 +342,26 @@
         },
         {
           "players": [
-            "Marina Clark",
-            "Dave Underhill"
+            {
+              "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
+              "name": "Marina Clark"
+            },
+            {
+              "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
+              "name": "Dave Underhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7a185b6e-21b4-4fa1-aaa0-aa0023f7afcf",
               "players": [
                 {
+                  "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
                   "name": "Marina Clark",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
                   "name": "Dave Underhill",
                   "score": "7"
                 }
@@ -234,17 +373,26 @@
         },
         {
           "players": [
-            "Christine Tombet",
-            "Ian Sexton"
+            {
+              "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
+              "name": "Christine Tombet"
+            },
+            {
+              "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
+              "name": "Ian Sexton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d0a73b7c-1b7d-4927-92de-546bbdadc8f4",
               "players": [
                 {
+                  "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
                   "name": "Christine Tombet",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
                   "name": "Ian Sexton",
                   "score": "7"
                 }
@@ -256,17 +404,26 @@
         },
         {
           "players": [
-            "Graham Robertson",
-            "Peter Payne"
+            {
+              "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
+              "name": "Graham Robertson"
+            },
+            {
+              "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
+              "name": "Peter Payne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a07d034a-4149-41b1-9089-032ac6e0c409",
               "players": [
                 {
+                  "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
                   "name": "Graham Robertson",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
                   "name": "Peter Payne",
                   "score": "7"
                 }
@@ -278,17 +435,26 @@
         },
         {
           "players": [
-            "Raymond Morel",
-            "Peter Payne"
+            {
+              "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
+              "name": "Raymond Morel"
+            },
+            {
+              "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
+              "name": "Peter Payne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0fae1857-a034-49f9-bf27-fc07ada1ce83",
               "players": [
                 {
+                  "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
                   "name": "Raymond Morel",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
                   "name": "Peter Payne",
                   "score": "7"
                 }
@@ -300,17 +466,26 @@
         },
         {
           "players": [
-            "Marina Clark",
-            "Ian Sexton"
+            {
+              "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
+              "name": "Marina Clark"
+            },
+            {
+              "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
+              "name": "Ian Sexton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/382e9f40-e9af-4d36-961c-4c34c1acdaf8",
               "players": [
                 {
+                  "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
                   "name": "Marina Clark",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
                   "name": "Ian Sexton",
                   "score": "7"
                 }
@@ -322,17 +497,26 @@
         },
         {
           "players": [
-            "Christine Tombet",
-            "Rikk Guidotti"
+            {
+              "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
+              "name": "Christine Tombet"
+            },
+            {
+              "playerId": "team-player/e50f1e09-e5da-46ff-8f89-cc42a3d5ac63",
+              "name": "Rikk Guidotti"
+            }
           ],
           "games": [
             {
+              "gameId": "game/011f07fe-d987-4441-a6ee-7fd5aa6fc21d",
               "players": [
                 {
+                  "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
                   "name": "Christine Tombet",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e50f1e09-e5da-46ff-8f89-cc42a3d5ac63",
                   "name": "Rikk Guidotti",
                   "score": "7"
                 }
@@ -344,17 +528,26 @@
         },
         {
           "players": [
-            "Graham Robertson",
-            "Will Howell"
+            {
+              "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
+              "name": "Graham Robertson"
+            },
+            {
+              "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
+              "name": "Will Howell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/10c25d3a-bc67-4dbd-a5a2-d1e59b0b71f8",
               "players": [
                 {
+                  "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
                   "name": "Graham Robertson",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
                   "name": "Will Howell",
                   "score": "7"
                 }
@@ -366,17 +559,26 @@
         },
         {
           "players": [
-            "Raymond Morel",
-            "Ian Sexton"
+            {
+              "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
+              "name": "Raymond Morel"
+            },
+            {
+              "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
+              "name": "Ian Sexton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4703bbb-e347-4f0c-abad-30e453900c02",
               "players": [
                 {
+                  "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
                   "name": "Raymond Morel",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
                   "name": "Ian Sexton",
                   "score": "7"
                 }
@@ -388,17 +590,26 @@
         },
         {
           "players": [
-            "Marina Clark",
-            "Peter Payne"
+            {
+              "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
+              "name": "Marina Clark"
+            },
+            {
+              "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
+              "name": "Peter Payne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/62d00d6a-9e46-4589-a668-911679c739e3",
               "players": [
                 {
+                  "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
                   "name": "Marina Clark",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
                   "name": "Peter Payne",
                   "score": "7"
                 }
@@ -410,17 +621,26 @@
         },
         {
           "players": [
-            "Christine Tombet",
-            "Will Howell"
+            {
+              "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
+              "name": "Christine Tombet"
+            },
+            {
+              "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
+              "name": "Will Howell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f331992c-b222-4f6e-9923-4f6e904f49a2",
               "players": [
                 {
+                  "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
                   "name": "Christine Tombet",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
                   "name": "Will Howell",
                   "score": "7"
                 }
@@ -432,17 +652,26 @@
         },
         {
           "players": [
-            "Graham Robertson",
-            "Rikk Guidotti"
+            {
+              "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
+              "name": "Graham Robertson"
+            },
+            {
+              "playerId": "team-player/e50f1e09-e5da-46ff-8f89-cc42a3d5ac63",
+              "name": "Rikk Guidotti"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e99b2d7a-acf9-419c-853e-eb7e195c260f",
               "players": [
                 {
+                  "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
                   "name": "Graham Robertson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e50f1e09-e5da-46ff-8f89-cc42a3d5ac63",
                   "name": "Rikk Guidotti",
                   "score": "7"
                 }
@@ -455,6 +684,7 @@
       ]
     },
     {
+      "competitionId": "competition/1205c282-8177-49e3-8c7d-25622a072d55",
       "teams": [
         "CERN CC",
         "CC Zurich"
@@ -464,17 +694,26 @@
       "matches": [
         {
           "players": [
-            "Ian Sexton & Will Howell",
-            "Neil Thomas & Andi Habel"
+            {
+              "playerId": "team-player/e3b2c85e-cd45-4164-8358-f6252dac6600",
+              "name": "Ian Sexton & Will Howell"
+            },
+            {
+              "playerId": "team-player/173a53e4-66c4-4fcb-80a8-3764fd82d2a7",
+              "name": "Neil Thomas & Andi Habel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/92dbf4de-cfee-4f49-90bc-a64fe5c1c8af",
               "players": [
                 {
+                  "playerId": "team-player/e3b2c85e-cd45-4164-8358-f6252dac6600",
                   "name": "Ian Sexton & Will Howell",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/173a53e4-66c4-4fcb-80a8-3764fd82d2a7",
                   "name": "Neil Thomas & Andi Habel",
                   "score": "7"
                 }
@@ -486,17 +725,26 @@
         },
         {
           "players": [
-            "Peter Payne & Dave Underhill",
-            "Daniel Studerus & KevinM Collins"
+            {
+              "playerId": "team-player/61c7fc56-6387-41a7-a055-aa2e49148bee",
+              "name": "Peter Payne & Dave Underhill"
+            },
+            {
+              "playerId": "team-player/b2bfa5a1-5f28-45c5-91aa-a69fe3c7d496",
+              "name": "Daniel Studerus & KevinM Collins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/71840235-441c-4511-9d02-accfb2f989dd",
               "players": [
                 {
+                  "playerId": "team-player/61c7fc56-6387-41a7-a055-aa2e49148bee",
                   "name": "Peter Payne & Dave Underhill",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/b2bfa5a1-5f28-45c5-91aa-a69fe3c7d496",
                   "name": "Daniel Studerus & KevinM Collins",
                   "score": "7"
                 }
@@ -508,17 +756,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "Andreas Habel"
+            {
+              "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
+              "name": "Andreas Habel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c5b63c4f-fbb5-4cb2-bbe6-689f70696369",
               "players": [
                 {
+                  "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
                   "name": "Andreas Habel",
                   "score": "3"
                 }
@@ -530,17 +787,26 @@
         },
         {
           "players": [
-            "Peter Payne",
-            "KevinM Collins"
+            {
+              "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
+              "name": "Peter Payne"
+            },
+            {
+              "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
+              "name": "KevinM Collins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ef934dd-b4ff-4ffa-97ba-7bad7510fe76",
               "players": [
                 {
+                  "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
                   "name": "KevinM Collins",
                   "score": "6"
                 }
@@ -552,17 +818,26 @@
         },
         {
           "players": [
-            "Will Howell",
-            "Daniel Studerus"
+            {
+              "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
+              "name": "Will Howell"
+            },
+            {
+              "playerId": "team-player/5848f2dd-30e8-4232-90d7-ffd01fe427bb",
+              "name": "Daniel Studerus"
+            }
           ],
           "games": [
             {
+              "gameId": "game/15bed40e-decf-4a55-957f-0e51fe8f9c8a",
               "players": [
                 {
+                  "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
                   "name": "Will Howell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5848f2dd-30e8-4232-90d7-ffd01fe427bb",
                   "name": "Daniel Studerus",
                   "score": "6"
                 }
@@ -574,17 +849,26 @@
         },
         {
           "players": [
-            "Dave Underhill",
-            "Neil Thomas"
+            {
+              "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
+              "name": "Dave Underhill"
+            },
+            {
+              "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
+              "name": "Neil Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/739655ce-b240-4c22-ab78-8fe4f2706633",
               "players": [
                 {
+                  "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
                   "name": "Dave Underhill",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
                   "name": "Neil Thomas",
                   "score": "7"
                 }
@@ -596,17 +880,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "KevinM Collins"
+            {
+              "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
+              "name": "KevinM Collins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8021173f-7ff9-48f4-ad64-e93f3ae0a2f8",
               "players": [
                 {
+                  "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
                   "name": "Ian Sexton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
                   "name": "KevinM Collins",
                   "score": "7"
                 }
@@ -618,17 +911,26 @@
         },
         {
           "players": [
-            "Peter Payne",
-            "Simone Huber"
+            {
+              "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
+              "name": "Peter Payne"
+            },
+            {
+              "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
+              "name": "Simone Huber"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e4b3210-e65e-4bf1-a9e8-2a2d93ca43cc",
               "players": [
                 {
+                  "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
                   "name": "Simone Huber",
                   "score": "5"
                 }
@@ -640,17 +942,26 @@
         },
         {
           "players": [
-            "Dave Underhill",
-            "Daniel Studerus"
+            {
+              "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
+              "name": "Dave Underhill"
+            },
+            {
+              "playerId": "team-player/5848f2dd-30e8-4232-90d7-ffd01fe427bb",
+              "name": "Daniel Studerus"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4073595b-5039-4ecc-9c09-fb0428b6602d",
               "players": [
                 {
+                  "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
                   "name": "Dave Underhill",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/5848f2dd-30e8-4232-90d7-ffd01fe427bb",
                   "name": "Daniel Studerus",
                   "score": "7"
                 }
@@ -662,17 +973,26 @@
         },
         {
           "players": [
-            "Will Howell",
-            "Neil Thomas"
+            {
+              "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
+              "name": "Will Howell"
+            },
+            {
+              "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
+              "name": "Neil Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6f70b6a2-17ed-4466-bd38-aefa18684b44",
               "players": [
                 {
+                  "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
                   "name": "Will Howell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
                   "name": "Neil Thomas",
                   "score": "3"
                 }
@@ -684,17 +1004,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "Daniel Studerus"
+            {
+              "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/5848f2dd-30e8-4232-90d7-ffd01fe427bb",
+              "name": "Daniel Studerus"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e04f374e-7961-47f0-aaea-5c4dd803f6f5",
               "players": [
                 {
+                  "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5848f2dd-30e8-4232-90d7-ffd01fe427bb",
                   "name": "Daniel Studerus",
                   "score": "4"
                 }
@@ -706,17 +1035,26 @@
         },
         {
           "players": [
-            "Peter Payne",
-            "Neil Thomas"
+            {
+              "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
+              "name": "Peter Payne"
+            },
+            {
+              "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
+              "name": "Neil Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fe987464-cfaa-4a84-92b8-50bf313c9309",
               "players": [
                 {
+                  "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
                   "name": "Neil Thomas",
                   "score": "4"
                 }
@@ -728,17 +1066,26 @@
         },
         {
           "players": [
-            "Will Howell",
-            "Andreas Habel"
+            {
+              "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
+              "name": "Will Howell"
+            },
+            {
+              "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
+              "name": "Andreas Habel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa98829b-08ee-45dd-9bd2-67427425546b",
               "players": [
                 {
+                  "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
                   "name": "Will Howell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
                   "name": "Andreas Habel",
                   "score": "7"
                 }
@@ -750,17 +1097,26 @@
         },
         {
           "players": [
-            "Dave Underhill",
-            "KevinM Collins"
+            {
+              "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
+              "name": "Dave Underhill"
+            },
+            {
+              "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
+              "name": "KevinM Collins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f67ec6fc-76b0-4a71-b81e-7705b14a1886",
               "players": [
                 {
+                  "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
                   "name": "Dave Underhill",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
                   "name": "KevinM Collins",
                   "score": "6"
                 }
@@ -772,17 +1128,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "Neil Thomas"
+            {
+              "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
+              "name": "Neil Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/461be319-5391-4425-a7e2-49a729571a37",
               "players": [
                 {
+                  "playerId": "team-player/c5bab288-4bdb-4f7a-8884-0122f6c6af9d",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
                   "name": "Neil Thomas",
                   "score": "5"
                 }
@@ -794,17 +1159,26 @@
         },
         {
           "players": [
-            "Peter Payne",
-            "Daniel Studerus"
+            {
+              "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
+              "name": "Peter Payne"
+            },
+            {
+              "playerId": "team-player/5848f2dd-30e8-4232-90d7-ffd01fe427bb",
+              "name": "Daniel Studerus"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e1251ab-7870-4371-95c3-2c4a7ad366ac",
               "players": [
                 {
+                  "playerId": "team-player/d1d38e65-52c2-44a5-bc40-7eb840c5dce5",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5848f2dd-30e8-4232-90d7-ffd01fe427bb",
                   "name": "Daniel Studerus",
                   "score": "4"
                 }
@@ -816,17 +1190,26 @@
         },
         {
           "players": [
-            "Will Howell",
-            "KevinM Collins"
+            {
+              "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
+              "name": "Will Howell"
+            },
+            {
+              "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
+              "name": "KevinM Collins"
+            }
           ],
           "games": [
             {
+              "gameId": "game/500c994d-c3f1-4985-b59d-b847985fb0a2",
               "players": [
                 {
+                  "playerId": "team-player/12dcbc9e-1fbf-4ccb-ae6f-f21dfee9114d",
                   "name": "Will Howell",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
                   "name": "KevinM Collins",
                   "score": "7"
                 }
@@ -838,17 +1221,26 @@
         },
         {
           "players": [
-            "Dave Underhill",
-            "Andreas Habel"
+            {
+              "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
+              "name": "Dave Underhill"
+            },
+            {
+              "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
+              "name": "Andreas Habel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5351ff7f-fd04-4ac4-aacf-16919d040419",
               "players": [
                 {
+                  "playerId": "team-player/1dda849b-1a99-47b9-9f6b-dada1c59df08",
                   "name": "Dave Underhill",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
                   "name": "Andreas Habel",
                   "score": "7"
                 }
@@ -861,6 +1253,7 @@
       ]
     },
     {
+      "competitionId": "competition/21340871-0c7d-458e-b468-efd7b94c51bf",
       "teams": [
         "CC Zurich",
         "CroquetVS"
@@ -870,17 +1263,26 @@
       "matches": [
         {
           "players": [
-            "Daniel Studerus & KevinM Collins",
-            "Christine Tombet & Graham Robertson"
+            {
+              "playerId": "team-player/b2bfa5a1-5f28-45c5-91aa-a69fe3c7d496",
+              "name": "Daniel Studerus & KevinM Collins"
+            },
+            {
+              "playerId": "team-player/05a8d147-256e-4ec6-94fc-52f464995bea",
+              "name": "Christine Tombet & Graham Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e1948eae-b17a-4b63-96bf-0ede5d49e4a2",
               "players": [
                 {
+                  "playerId": "team-player/b2bfa5a1-5f28-45c5-91aa-a69fe3c7d496",
                   "name": "Daniel Studerus & KevinM Collins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/05a8d147-256e-4ec6-94fc-52f464995bea",
                   "name": "Christine Tombet & Graham Robertson",
                   "score": "1"
                 }
@@ -892,17 +1294,26 @@
         },
         {
           "players": [
-            "Neil Thomas & Andreas Habel",
-            "Raymond Morel & Marina Clark"
+            {
+              "playerId": "team-player/0eb80b44-4c39-4e5c-bf8c-81f329f053f0",
+              "name": "Neil Thomas & Andreas Habel"
+            },
+            {
+              "playerId": "team-player/f3cca729-1c1a-43bc-a8df-d97920c7c8bc",
+              "name": "Raymond Morel & Marina Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a64efbe-2aa0-415a-82cb-7690efc846ca",
               "players": [
                 {
+                  "playerId": "team-player/0eb80b44-4c39-4e5c-bf8c-81f329f053f0",
                   "name": "Neil Thomas & Andreas Habel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f3cca729-1c1a-43bc-a8df-d97920c7c8bc",
                   "name": "Raymond Morel & Marina Clark",
                   "score": "6"
                 }
@@ -914,17 +1325,26 @@
         },
         {
           "players": [
-            "Neil Thomas",
-            "Graham Robertson"
+            {
+              "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
+              "name": "Neil Thomas"
+            },
+            {
+              "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
+              "name": "Graham Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d9fbe155-97bb-4a1e-a17c-ca23ac2ae6dd",
               "players": [
                 {
+                  "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
                   "name": "Neil Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
                   "name": "Graham Robertson",
                   "score": "1"
                 }
@@ -936,17 +1356,26 @@
         },
         {
           "players": [
-            "KevinM Collins",
-            "Christine Tombet"
+            {
+              "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
+              "name": "KevinM Collins"
+            },
+            {
+              "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
+              "name": "Christine Tombet"
+            }
           ],
           "games": [
             {
+              "gameId": "game/228064f9-9205-4718-aadc-23ac91d8e9c1",
               "players": [
                 {
+                  "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
                   "name": "KevinM Collins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
                   "name": "Christine Tombet",
                   "score": "0"
                 }
@@ -958,17 +1387,26 @@
         },
         {
           "players": [
-            "Simone Huber",
-            "Marina Clark"
+            {
+              "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
+              "name": "Simone Huber"
+            },
+            {
+              "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
+              "name": "Marina Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6699f9c4-b637-462b-9005-a65eea2ea425",
               "players": [
                 {
+                  "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
                   "name": "Simone Huber",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
                   "name": "Marina Clark",
                   "score": "0"
                 }
@@ -980,17 +1418,26 @@
         },
         {
           "players": [
-            "Andreas Habel",
-            "Raymond Morel"
+            {
+              "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
+              "name": "Andreas Habel"
+            },
+            {
+              "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
+              "name": "Raymond Morel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa60c666-3817-41aa-90bd-8c8064c2e27d",
               "players": [
                 {
+                  "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
                   "name": "Andreas Habel",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
                   "name": "Raymond Morel",
                   "score": "7"
                 }
@@ -1002,17 +1449,26 @@
         },
         {
           "players": [
-            "Neil Thomas",
-            "Christine Tombet"
+            {
+              "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
+              "name": "Neil Thomas"
+            },
+            {
+              "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
+              "name": "Christine Tombet"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8a2636c0-ed6d-445e-98f8-e5866ca578cc",
               "players": [
                 {
+                  "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
                   "name": "Neil Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
                   "name": "Christine Tombet",
                   "score": "1"
                 }
@@ -1024,17 +1480,26 @@
         },
         {
           "players": [
-            "KevinM Collins",
-            "Graham Robertson"
+            {
+              "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
+              "name": "KevinM Collins"
+            },
+            {
+              "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
+              "name": "Graham Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/25697314-9fab-45ca-8e99-9070f1859d6f",
               "players": [
                 {
+                  "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
                   "name": "KevinM Collins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
                   "name": "Graham Robertson",
                   "score": "2"
                 }
@@ -1046,17 +1511,26 @@
         },
         {
           "players": [
-            "Simone Huber",
-            "Raymond Morel"
+            {
+              "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
+              "name": "Simone Huber"
+            },
+            {
+              "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
+              "name": "Raymond Morel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/879d7c50-81e5-4ef1-b11c-e83c79e2c176",
               "players": [
                 {
+                  "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
                   "name": "Simone Huber",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
                   "name": "Raymond Morel",
                   "score": "2"
                 }
@@ -1068,17 +1542,26 @@
         },
         {
           "players": [
-            "Andreas Habel",
-            "Marina Clark"
+            {
+              "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
+              "name": "Andreas Habel"
+            },
+            {
+              "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
+              "name": "Marina Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b694e31-0f62-48e6-bf77-350d300bfee8",
               "players": [
                 {
+                  "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
                   "name": "Andreas Habel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
                   "name": "Marina Clark",
                   "score": "3"
                 }
@@ -1090,17 +1573,26 @@
         },
         {
           "players": [
-            "Neil Thomas",
-            "Marina Clark"
+            {
+              "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
+              "name": "Neil Thomas"
+            },
+            {
+              "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
+              "name": "Marina Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e70f2d0-4e96-478e-8e70-6dbec4ecf228",
               "players": [
                 {
+                  "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
                   "name": "Neil Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
                   "name": "Marina Clark",
                   "score": "0"
                 }
@@ -1112,17 +1604,26 @@
         },
         {
           "players": [
-            "KevinM Collins",
-            "Raymond Morel"
+            {
+              "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
+              "name": "KevinM Collins"
+            },
+            {
+              "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
+              "name": "Raymond Morel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a2c37a9f-e8f1-49eb-84c7-20f36c1f9522",
               "players": [
                 {
+                  "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
                   "name": "KevinM Collins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
                   "name": "Raymond Morel",
                   "score": "5"
                 }
@@ -1134,17 +1635,26 @@
         },
         {
           "players": [
-            "Simone Huber",
-            "Graham Robertson"
+            {
+              "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
+              "name": "Simone Huber"
+            },
+            {
+              "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
+              "name": "Graham Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6b7171b7-11ff-4840-8321-c46a7bfaa29b",
               "players": [
                 {
+                  "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
                   "name": "Simone Huber",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
                   "name": "Graham Robertson",
                   "score": "0"
                 }
@@ -1156,17 +1666,26 @@
         },
         {
           "players": [
-            "Andreas Habel",
-            "Christine Tombet"
+            {
+              "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
+              "name": "Andreas Habel"
+            },
+            {
+              "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
+              "name": "Christine Tombet"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f29ca15-31e8-4c9c-8931-31fed264e940",
               "players": [
                 {
+                  "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
                   "name": "Andreas Habel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
                   "name": "Christine Tombet",
                   "score": "0"
                 }
@@ -1178,17 +1697,26 @@
         },
         {
           "players": [
-            "Neil Thomas",
-            "Raymond Morel"
+            {
+              "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
+              "name": "Neil Thomas"
+            },
+            {
+              "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
+              "name": "Raymond Morel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9032cb95-f0ee-488d-ba3f-cc27fd99f5bd",
               "players": [
                 {
+                  "playerId": "team-player/022fa3b0-5f4c-423a-836e-3b9604cffeb0",
                   "name": "Neil Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/069ea1ee-d63a-4cf7-962c-16c9e34f00f6",
                   "name": "Raymond Morel",
                   "score": "5"
                 }
@@ -1200,17 +1728,26 @@
         },
         {
           "players": [
-            "KevinM Collins",
-            "Marina Clark"
+            {
+              "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
+              "name": "KevinM Collins"
+            },
+            {
+              "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
+              "name": "Marina Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0185da44-3497-45c6-bf49-2d989985f39b",
               "players": [
                 {
+                  "playerId": "team-player/d5e76b8c-8554-4ef1-b081-2e7dee6a35d0",
                   "name": "KevinM Collins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ce7afe7e-c306-4786-a5aa-ac5aeda865db",
                   "name": "Marina Clark",
                   "score": "3"
                 }
@@ -1222,17 +1759,26 @@
         },
         {
           "players": [
-            "Simone Huber",
-            "Christine Tombet"
+            {
+              "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
+              "name": "Simone Huber"
+            },
+            {
+              "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
+              "name": "Christine Tombet"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d42e8c97-4dfb-44c0-9993-b99408ebb63b",
               "players": [
                 {
+                  "playerId": "team-player/e8cc2b7b-3d7f-47bc-8099-a8032679f2b8",
                   "name": "Simone Huber",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a49a0bd-5501-4247-be16-b76d97111a2f",
                   "name": "Christine Tombet",
                   "score": "1"
                 }
@@ -1244,17 +1790,26 @@
         },
         {
           "players": [
-            "Andreas Habel",
-            "Graham Robertson"
+            {
+              "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
+              "name": "Andreas Habel"
+            },
+            {
+              "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
+              "name": "Graham Robertson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/473803c1-bd70-4f89-a24d-26cd00e4d857",
               "players": [
                 {
+                  "playerId": "team-player/3ccd9665-34b2-4741-aa0e-316b3b975a33",
                   "name": "Andreas Habel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cfc9a8b6-e889-4ddc-bab9-6c3bb9087edf",
                   "name": "Graham Robertson",
                   "score": "0"
                 }

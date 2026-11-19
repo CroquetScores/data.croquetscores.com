@@ -1,36 +1,67 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/ffeb89ac-48bf-48e7-a3fe-40bd60008594",
   "name": "SWF Advanced Budleigh v Nailsea B",
   "sport": "ac",
   "firstDay": "2023-06-11",
   "lastDay": "2023-06-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Budleigh Salterton",
       "shortName": "Budleigh S",
       "players": [
-        "Nigel Amos",
-        "Nigel Amos & Philip Jones",
-        "Paul Whittall",
-        "Philip Jones",
-        "Tony Bower"
+        {
+          "playerId": "team-player/1d33ec34-2872-49ac-8c44-bc46b39729c3",
+          "name": "Nigel Amos"
+        },
+        {
+          "playerId": "team-player/625e68aa-83b6-4524-9439-d20d4c0fab8b",
+          "name": "Nigel Amos & Philip Jones"
+        },
+        {
+          "playerId": "team-player/27564663-4eb6-44a2-99e0-e59c57dd4775",
+          "name": "Paul Whittall"
+        },
+        {
+          "playerId": "team-player/aea6cc5c-227d-4530-87ec-b4accacb4d0d",
+          "name": "Philip Jones"
+        },
+        {
+          "playerId": "team-player/47ce309c-5632-4b13-b0a9-616a3cde5b27",
+          "name": "Tony Bower"
+        }
       ]
     },
     {
       "name": "Nailsea B",
       "shortName": "Nailsea B",
       "players": [
-        "Andrew Wimshurst",
-        "Erica Malaiperuman",
-        "Erica Malaiperuman & Andrew Wimshurst",
-        "Robert Upton"
+        {
+          "playerId": "team-player/f0373fb0-64f0-4e59-983c-d39bcb4cb0bd",
+          "name": "Andrew Wimshurst"
+        },
+        {
+          "playerId": "team-player/839c2216-387c-4604-85ab-3c3f36ce84f2",
+          "name": "Erica Malaiperuman"
+        },
+        {
+          "playerId": "team-player/eee27543-a784-44ab-b917-044067451c9c",
+          "name": "Erica Malaiperuman & Andrew Wimshurst"
+        },
+        {
+          "playerId": "team-player/86d3e5d4-5c20-498a-a333-2d0885ea606b",
+          "name": "Robert Upton"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/297ca9e6-4958-46fd-94aa-d91d730522c8",
       "teams": [
         "Budleigh Salterton",
         "Nailsea B"
@@ -40,17 +71,26 @@
       "matches": [
         {
           "players": [
-            "Nigel Amos & Philip Jones",
-            "Erica Malaiperuman & Andrew Wimshurst"
+            {
+              "playerId": "team-player/625e68aa-83b6-4524-9439-d20d4c0fab8b",
+              "name": "Nigel Amos & Philip Jones"
+            },
+            {
+              "playerId": "team-player/eee27543-a784-44ab-b917-044067451c9c",
+              "name": "Erica Malaiperuman & Andrew Wimshurst"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2bb27bd1-dd63-4e4e-9aa7-fa47f7931c80",
               "players": [
                 {
+                  "playerId": "team-player/625e68aa-83b6-4524-9439-d20d4c0fab8b",
                   "name": "Nigel Amos & Philip Jones",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/eee27543-a784-44ab-b917-044067451c9c",
                   "name": "Erica Malaiperuman & Andrew Wimshurst",
                   "score": "5"
                 }
@@ -62,17 +102,26 @@
         },
         {
           "players": [
-            "Paul Whittall",
-            "Robert Upton"
+            {
+              "playerId": "team-player/27564663-4eb6-44a2-99e0-e59c57dd4775",
+              "name": "Paul Whittall"
+            },
+            {
+              "playerId": "team-player/86d3e5d4-5c20-498a-a333-2d0885ea606b",
+              "name": "Robert Upton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8d7d03e1-e7aa-4daa-b3b7-581df3f634d9",
               "players": [
                 {
+                  "playerId": "team-player/27564663-4eb6-44a2-99e0-e59c57dd4775",
                   "name": "Paul Whittall",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/86d3e5d4-5c20-498a-a333-2d0885ea606b",
                   "name": "Robert Upton",
                   "score": "24"
                 }
@@ -84,17 +133,26 @@
         },
         {
           "players": [
-            "Nigel Amos",
-            "Robert Upton"
+            {
+              "playerId": "team-player/1d33ec34-2872-49ac-8c44-bc46b39729c3",
+              "name": "Nigel Amos"
+            },
+            {
+              "playerId": "team-player/86d3e5d4-5c20-498a-a333-2d0885ea606b",
+              "name": "Robert Upton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2779a5c1-622a-4d10-b858-53271c65f0e4",
               "players": [
                 {
+                  "playerId": "team-player/1d33ec34-2872-49ac-8c44-bc46b39729c3",
                   "name": "Nigel Amos",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/86d3e5d4-5c20-498a-a333-2d0885ea606b",
                   "name": "Robert Upton",
                   "score": "24"
                 }
@@ -106,17 +164,26 @@
         },
         {
           "players": [
-            "Paul Whittall",
-            "Erica Malaiperuman"
+            {
+              "playerId": "team-player/27564663-4eb6-44a2-99e0-e59c57dd4775",
+              "name": "Paul Whittall"
+            },
+            {
+              "playerId": "team-player/839c2216-387c-4604-85ab-3c3f36ce84f2",
+              "name": "Erica Malaiperuman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6dfcb98a-0d74-4c78-93db-50561d1efc05",
               "players": [
                 {
+                  "playerId": "team-player/27564663-4eb6-44a2-99e0-e59c57dd4775",
                   "name": "Paul Whittall",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/839c2216-387c-4604-85ab-3c3f36ce84f2",
                   "name": "Erica Malaiperuman",
                   "score": "14"
                 }
@@ -128,17 +195,26 @@
         },
         {
           "players": [
-            "Tony Bower",
-            "Andrew Wimshurst"
+            {
+              "playerId": "team-player/47ce309c-5632-4b13-b0a9-616a3cde5b27",
+              "name": "Tony Bower"
+            },
+            {
+              "playerId": "team-player/f0373fb0-64f0-4e59-983c-d39bcb4cb0bd",
+              "name": "Andrew Wimshurst"
+            }
           ],
           "games": [
             {
+              "gameId": "game/15208011-49cc-4617-b1bd-b8d0763fcd33",
               "players": [
                 {
+                  "playerId": "team-player/47ce309c-5632-4b13-b0a9-616a3cde5b27",
                   "name": "Tony Bower",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f0373fb0-64f0-4e59-983c-d39bcb4cb0bd",
                   "name": "Andrew Wimshurst",
                   "score": "4"
                 }

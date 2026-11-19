@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0528a725-e907-4724-b1d9-e84fe09e0cf5",
   "name": "England - Inter-Club Shield (Tier 2) - Phyllis Court v Guildford & Godalming",
   "sport": "gc",
   "firstDay": "2025-06-16",
   "lastDay": "2025-06-16",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Phyllis Court",
       "shortName": "Phyllis Co",
       "players": [
-        "Andy Jones",
-        "Helena Jansson",
-        "Mike Fensome",
-        "Roger Goldring",
-        "Roger Goldring & Helena Jansson"
+        {
+          "playerId": "team-player/97d9128d-f061-4ca1-95d3-382f49f00928",
+          "name": "Andy Jones"
+        },
+        {
+          "playerId": "team-player/5af0d98a-9ff7-4fd1-a7ad-8906b4729dd4",
+          "name": "Helena Jansson"
+        },
+        {
+          "playerId": "team-player/3a7a5709-8c08-48d9-b8fc-a86f4aa14d40",
+          "name": "Mike Fensome"
+        },
+        {
+          "playerId": "team-player/8b29fb3f-d0ec-4df5-b0bb-dc2de7e31475",
+          "name": "Roger Goldring"
+        },
+        {
+          "playerId": "team-player/ccc8ca14-9ff7-4865-9c3c-c78156e7e5cb",
+          "name": "Roger Goldring & Helena Jansson"
+        }
       ]
     },
     {
       "name": "Guildford & Godalming",
       "shortName": "Guildford",
       "players": [
-        "Andrea Huxley",
-        "Douglas Shand",
-        "Douglas Shand & Julie Tremble",
-        "John Gosden",
-        "Julia Tremble"
+        {
+          "playerId": "team-player/12ff0b50-3292-4f3f-998b-612f6401ea6d",
+          "name": "Andrea Huxley"
+        },
+        {
+          "playerId": "team-player/f63aeb06-a6f1-44af-a063-b2c2163122cc",
+          "name": "Douglas Shand"
+        },
+        {
+          "playerId": "team-player/56e34e9e-045d-4d3d-92ec-fc49f62c2135",
+          "name": "Douglas Shand & Julie Tremble"
+        },
+        {
+          "playerId": "team-player/acd02399-c869-4f92-906a-e43780efca98",
+          "name": "John Gosden"
+        },
+        {
+          "playerId": "team-player/878a8af7-c22a-453f-b9e8-0bd8a237e1b1",
+          "name": "Julia Tremble"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/6a62a74a-4b49-4cc6-a424-3174884657bf",
       "teams": [
         "Phyllis Court",
         "Guildford & Godalming"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Roger Goldring & Helena Jansson",
-            "Douglas Shand & Julie Tremble"
+            {
+              "playerId": "team-player/ccc8ca14-9ff7-4865-9c3c-c78156e7e5cb",
+              "name": "Roger Goldring & Helena Jansson"
+            },
+            {
+              "playerId": "team-player/56e34e9e-045d-4d3d-92ec-fc49f62c2135",
+              "name": "Douglas Shand & Julie Tremble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/90b36e37-0606-447b-a8f0-d4505502aa5f",
               "players": [
                 {
+                  "playerId": "team-player/ccc8ca14-9ff7-4865-9c3c-c78156e7e5cb",
                   "name": "Roger Goldring & Helena Jansson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/56e34e9e-045d-4d3d-92ec-fc49f62c2135",
                   "name": "Douglas Shand & Julie Tremble",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ee2b4cf5-ea65-4444-bc18-f9c2318af107",
               "players": [
                 {
+                  "playerId": "team-player/ccc8ca14-9ff7-4865-9c3c-c78156e7e5cb",
                   "name": "Roger Goldring & Helena Jansson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/56e34e9e-045d-4d3d-92ec-fc49f62c2135",
                   "name": "Douglas Shand & Julie Tremble",
                   "score": "5"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6396fb4f-a3b7-4725-b580-e959c6ec7315",
               "players": [
                 {
+                  "playerId": "team-player/ccc8ca14-9ff7-4865-9c3c-c78156e7e5cb",
                   "name": "Roger Goldring & Helena Jansson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/56e34e9e-045d-4d3d-92ec-fc49f62c2135",
                   "name": "Douglas Shand & Julie Tremble",
                   "score": "7"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "Andy Jones",
-            "John Gosden"
+            {
+              "playerId": "team-player/97d9128d-f061-4ca1-95d3-382f49f00928",
+              "name": "Andy Jones"
+            },
+            {
+              "playerId": "team-player/acd02399-c869-4f92-906a-e43780efca98",
+              "name": "John Gosden"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a717a98b-5fc0-4394-b09b-6978b4c798bd",
               "players": [
                 {
+                  "playerId": "team-player/97d9128d-f061-4ca1-95d3-382f49f00928",
                   "name": "Andy Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/acd02399-c869-4f92-906a-e43780efca98",
                   "name": "John Gosden",
                   "score": "4"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6c57410e-10b2-453b-914e-45756e626088",
               "players": [
                 {
+                  "playerId": "team-player/97d9128d-f061-4ca1-95d3-382f49f00928",
                   "name": "Andy Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/acd02399-c869-4f92-906a-e43780efca98",
                   "name": "John Gosden",
                   "score": "5"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Mike Fensome",
-            "Andrea Huxley"
+            {
+              "playerId": "team-player/3a7a5709-8c08-48d9-b8fc-a86f4aa14d40",
+              "name": "Mike Fensome"
+            },
+            {
+              "playerId": "team-player/12ff0b50-3292-4f3f-998b-612f6401ea6d",
+              "name": "Andrea Huxley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f8ff30e2-b782-4151-904e-0ddb6892a304",
               "players": [
                 {
+                  "playerId": "team-player/3a7a5709-8c08-48d9-b8fc-a86f4aa14d40",
                   "name": "Mike Fensome",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/12ff0b50-3292-4f3f-998b-612f6401ea6d",
                   "name": "Andrea Huxley",
                   "score": "7"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/081c26fa-7666-4ce1-ae0d-a7de82c80a2a",
               "players": [
                 {
+                  "playerId": "team-player/3a7a5709-8c08-48d9-b8fc-a86f4aa14d40",
                   "name": "Mike Fensome",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/12ff0b50-3292-4f3f-998b-612f6401ea6d",
                   "name": "Andrea Huxley",
                   "score": "7"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Andy Jones",
-            "Andrea Huxley"
+            {
+              "playerId": "team-player/97d9128d-f061-4ca1-95d3-382f49f00928",
+              "name": "Andy Jones"
+            },
+            {
+              "playerId": "team-player/12ff0b50-3292-4f3f-998b-612f6401ea6d",
+              "name": "Andrea Huxley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8d4a3af4-6ffb-4778-baa7-d9deab633c4c",
               "players": [
                 {
+                  "playerId": "team-player/97d9128d-f061-4ca1-95d3-382f49f00928",
                   "name": "Andy Jones",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/12ff0b50-3292-4f3f-998b-612f6401ea6d",
                   "name": "Andrea Huxley",
                   "score": "7"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2f9cb7d8-d07a-406b-8019-57ee27c1a4bb",
               "players": [
                 {
+                  "playerId": "team-player/97d9128d-f061-4ca1-95d3-382f49f00928",
                   "name": "Andy Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/12ff0b50-3292-4f3f-998b-612f6401ea6d",
                   "name": "Andrea Huxley",
                   "score": "2"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9d8221c6-17f5-4236-9a26-d6e171ccd3f0",
               "players": [
                 {
+                  "playerId": "team-player/97d9128d-f061-4ca1-95d3-382f49f00928",
                   "name": "Andy Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/12ff0b50-3292-4f3f-998b-612f6401ea6d",
                   "name": "Andrea Huxley",
                   "score": "2"
                 }
@@ -213,17 +301,26 @@
         },
         {
           "players": [
-            "Helena Jansson",
-            "Julia Tremble"
+            {
+              "playerId": "team-player/5af0d98a-9ff7-4fd1-a7ad-8906b4729dd4",
+              "name": "Helena Jansson"
+            },
+            {
+              "playerId": "team-player/878a8af7-c22a-453f-b9e8-0bd8a237e1b1",
+              "name": "Julia Tremble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a07399eb-e10d-44a6-becc-cb63956467a5",
               "players": [
                 {
+                  "playerId": "team-player/5af0d98a-9ff7-4fd1-a7ad-8906b4729dd4",
                   "name": "Helena Jansson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/878a8af7-c22a-453f-b9e8-0bd8a237e1b1",
                   "name": "Julia Tremble",
                   "score": "6"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ae26a274-a853-4776-ac1f-bb23caaac6d0",
               "players": [
                 {
+                  "playerId": "team-player/5af0d98a-9ff7-4fd1-a7ad-8906b4729dd4",
                   "name": "Helena Jansson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/878a8af7-c22a-453f-b9e8-0bd8a237e1b1",
                   "name": "Julia Tremble",
                   "score": "4"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Mike Fensome",
-            "John Gosden"
+            {
+              "playerId": "team-player/3a7a5709-8c08-48d9-b8fc-a86f4aa14d40",
+              "name": "Mike Fensome"
+            },
+            {
+              "playerId": "team-player/acd02399-c869-4f92-906a-e43780efca98",
+              "name": "John Gosden"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2c32d70-552f-427f-9d26-b530708dddb7",
               "players": [
                 {
+                  "playerId": "team-player/3a7a5709-8c08-48d9-b8fc-a86f4aa14d40",
                   "name": "Mike Fensome",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/acd02399-c869-4f92-906a-e43780efca98",
                   "name": "John Gosden",
                   "score": "7"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/46b2534c-f4fd-4faf-9999-e742eba79d27",
               "players": [
                 {
+                  "playerId": "team-player/3a7a5709-8c08-48d9-b8fc-a86f4aa14d40",
                   "name": "Mike Fensome",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/acd02399-c869-4f92-906a-e43780efca98",
                   "name": "John Gosden",
                   "score": "7"
                 }
@@ -285,17 +397,26 @@
         },
         {
           "players": [
-            "Roger Goldring",
-            "Douglas Shand"
+            {
+              "playerId": "team-player/8b29fb3f-d0ec-4df5-b0bb-dc2de7e31475",
+              "name": "Roger Goldring"
+            },
+            {
+              "playerId": "team-player/f63aeb06-a6f1-44af-a063-b2c2163122cc",
+              "name": "Douglas Shand"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b3a1f45b-d1ab-42f2-9592-2297a14227ae",
               "players": [
                 {
+                  "playerId": "team-player/8b29fb3f-d0ec-4df5-b0bb-dc2de7e31475",
                   "name": "Roger Goldring",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f63aeb06-a6f1-44af-a063-b2c2163122cc",
                   "name": "Douglas Shand",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/70187c36-f2a9-4df5-9416-d882507048ba",
               "players": [
                 {
+                  "playerId": "team-player/8b29fb3f-d0ec-4df5-b0bb-dc2de7e31475",
                   "name": "Roger Goldring",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f63aeb06-a6f1-44af-a063-b2c2163122cc",
                   "name": "Douglas Shand",
                   "score": "7"
                 }

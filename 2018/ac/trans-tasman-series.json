@@ -1,51 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/bf0f89ef-5b36-4cfc-a2ff-11903dd31c5a",
   "name": "Trans - Tasman Series",
   "sport": "ac",
   "firstDay": "2018-04-23",
   "lastDay": "2018-04-28",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Australia",
       "shortName": "AUS",
       "players": [
-        "Alison Sharpe",
-        "Alison Sharpe & Malcolm Fletcher",
-        "Alix Verge",
-        "Alix Verge & Edward Wilson",
-        "Claire Bassett",
-        "Claire Bassett & Greg Fletcher",
-        "Edward Wilson",
-        "Greg Fletcher",
-        "Malcolm Fletcher",
-        "Rosemary Landrebe",
-        "Rosemary Landrebe & Stephen Forster",
-        "Stephen Forster"
+        {
+          "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
+          "name": "Alison Sharpe"
+        },
+        {
+          "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
+          "name": "Alison Sharpe & Malcolm Fletcher"
+        },
+        {
+          "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
+          "name": "Alix Verge"
+        },
+        {
+          "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
+          "name": "Alix Verge & Edward Wilson"
+        },
+        {
+          "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
+          "name": "Claire Bassett"
+        },
+        {
+          "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
+          "name": "Claire Bassett & Greg Fletcher"
+        },
+        {
+          "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
+          "name": "Edward Wilson"
+        },
+        {
+          "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
+          "name": "Greg Fletcher"
+        },
+        {
+          "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
+          "name": "Malcolm Fletcher"
+        },
+        {
+          "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
+          "name": "Rosemary Landrebe"
+        },
+        {
+          "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
+          "name": "Rosemary Landrebe & Stephen Forster"
+        },
+        {
+          "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
+          "name": "Stephen Forster"
+        }
       ]
     },
     {
       "name": "New Zealand",
       "shortName": "NZL",
       "players": [
-        "Aiken Hakes",
-        "Aiken Hakes & Alison Robinson",
-        "Alison Robinson",
-        "Chris Shilling",
-        "Chris Shilling & Nina Mayard-Husson",
-        "Greg Bryant",
-        "Greg Bryant & Pam Fisher",
-        "Jenny Clarke",
-        "Josh Freeth",
-        "Josh Freeth & Jenny Clarke",
-        "Nina Mayard-Husson",
-        "Pam Fisher"
+        {
+          "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
+          "name": "Aiken Hakes"
+        },
+        {
+          "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
+          "name": "Aiken Hakes & Alison Robinson"
+        },
+        {
+          "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
+          "name": "Alison Robinson"
+        },
+        {
+          "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
+          "name": "Chris Shilling"
+        },
+        {
+          "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
+          "name": "Chris Shilling & Nina Mayard-Husson"
+        },
+        {
+          "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
+          "name": "Greg Bryant"
+        },
+        {
+          "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
+          "name": "Greg Bryant & Pam Fisher"
+        },
+        {
+          "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
+          "name": "Jenny Clarke"
+        },
+        {
+          "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
+          "name": "Josh Freeth"
+        },
+        {
+          "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
+          "name": "Josh Freeth & Jenny Clarke"
+        },
+        {
+          "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
+          "name": "Nina Mayard-Husson"
+        },
+        {
+          "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
+          "name": "Pam Fisher"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b7279baf-1fef-43e3-a6cd-912cb2c319e8",
       "teams": [
         "Australia",
         "New Zealand"
@@ -55,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Alix Verge & Edward Wilson",
-            "Aiken Hakes & Alison Robinson"
+            {
+              "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
+              "name": "Alix Verge & Edward Wilson"
+            },
+            {
+              "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
+              "name": "Aiken Hakes & Alison Robinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7b88d3a-e607-450a-bbc5-1e2f4382e2b6",
               "players": [
                 {
+                  "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
                   "name": "Alix Verge & Edward Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
                   "name": "Aiken Hakes & Alison Robinson",
                   "score": "3"
                 }
@@ -74,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ed1884d6-ae4a-489b-8d89-c3cbd637602f",
               "players": [
                 {
+                  "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
                   "name": "Alix Verge & Edward Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
                   "name": "Aiken Hakes & Alison Robinson",
                   "score": "2"
                 }
@@ -91,17 +179,26 @@
         },
         {
           "players": [
-            "Alison Sharpe & Malcolm Fletcher",
-            "Chris Shilling & Nina Mayard-Husson"
+            {
+              "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
+              "name": "Alison Sharpe & Malcolm Fletcher"
+            },
+            {
+              "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
+              "name": "Chris Shilling & Nina Mayard-Husson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/23714019-d895-45ff-b461-c8116ee5a2c2",
               "players": [
                 {
+                  "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
                   "name": "Alison Sharpe & Malcolm Fletcher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
                   "name": "Chris Shilling & Nina Mayard-Husson",
                   "score": "15"
                 }
@@ -110,12 +207,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/973a3373-d6fb-47a0-a7c3-88a5b87db7e9",
               "players": [
                 {
+                  "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
                   "name": "Alison Sharpe & Malcolm Fletcher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
                   "name": "Chris Shilling & Nina Mayard-Husson",
                   "score": "21"
                 }
@@ -127,17 +227,26 @@
         },
         {
           "players": [
-            "Rosemary Landrebe & Stephen Forster",
-            "Greg Bryant & Pam Fisher"
+            {
+              "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
+              "name": "Rosemary Landrebe & Stephen Forster"
+            },
+            {
+              "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
+              "name": "Greg Bryant & Pam Fisher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5c1e65e8-abc0-4426-a2be-8b6ccebe81d3",
               "players": [
                 {
+                  "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
                   "name": "Rosemary Landrebe & Stephen Forster",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
                   "name": "Greg Bryant & Pam Fisher",
                   "score": "26"
                 }
@@ -146,12 +255,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/faf385a2-0533-48e8-946d-85e67886238a",
               "players": [
                 {
+                  "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
                   "name": "Rosemary Landrebe & Stephen Forster",
                   "score": "26TP(F)"
                 },
                 {
+                  "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
                   "name": "Greg Bryant & Pam Fisher",
                   "score": "0"
                 }
@@ -160,12 +272,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/786f11f5-889b-4ec2-bf23-94904042b0c5",
               "players": [
                 {
+                  "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
                   "name": "Rosemary Landrebe & Stephen Forster",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
                   "name": "Greg Bryant & Pam Fisher",
                   "score": "11"
                 }
@@ -177,17 +292,26 @@
         },
         {
           "players": [
-            "Claire Bassett & Greg Fletcher",
-            "Josh Freeth & Jenny Clarke"
+            {
+              "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
+              "name": "Claire Bassett & Greg Fletcher"
+            },
+            {
+              "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
+              "name": "Josh Freeth & Jenny Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5b54deca-1365-41ac-abf4-40246ff7b0d4",
               "players": [
                 {
+                  "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
                   "name": "Claire Bassett & Greg Fletcher",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
                   "name": "Josh Freeth & Jenny Clarke",
                   "score": "22"
                 }
@@ -196,12 +320,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9516e6ce-fe30-437a-b0a8-617c62f7bb3c",
               "players": [
                 {
+                  "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
                   "name": "Claire Bassett & Greg Fletcher",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
                   "name": "Josh Freeth & Jenny Clarke",
                   "score": "26TP(C)"
                 }
@@ -210,12 +337,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1f265d06-9eb3-4c36-b593-d8c80e875fbb",
               "players": [
                 {
+                  "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
                   "name": "Claire Bassett & Greg Fletcher",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
                   "name": "Josh Freeth & Jenny Clarke",
                   "score": "26TP(C)"
                 }
@@ -227,17 +357,26 @@
         },
         {
           "players": [
-            "Rosemary Landrebe",
-            "Jenny Clarke"
+            {
+              "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
+              "name": "Rosemary Landrebe"
+            },
+            {
+              "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
+              "name": "Jenny Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0af991f6-a690-469e-9e66-24e6d53e393f",
               "players": [
                 {
+                  "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
                   "name": "Rosemary Landrebe",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
                   "name": "Jenny Clarke",
                   "score": "1"
                 }
@@ -246,12 +385,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0fe92d49-18c4-463f-b25d-709ade7bd414",
               "players": [
                 {
+                  "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
                   "name": "Rosemary Landrebe",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
                   "name": "Jenny Clarke",
                   "score": "26"
                 }
@@ -260,12 +402,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6af18439-6648-4e31-827f-cab5629ebfb1",
               "players": [
                 {
+                  "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
                   "name": "Rosemary Landrebe",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
                   "name": "Jenny Clarke",
                   "score": "26TP"
                 }
@@ -277,17 +422,26 @@
         },
         {
           "players": [
-            "Edward Wilson",
-            "Greg Bryant"
+            {
+              "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
+              "name": "Edward Wilson"
+            },
+            {
+              "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
+              "name": "Greg Bryant"
+            }
           ],
           "games": [
             {
+              "gameId": "game/819f5704-e8f8-42d3-a869-08d7fa4efe4a",
               "players": [
                 {
+                  "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
                   "name": "Edward Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
                   "name": "Greg Bryant",
                   "score": "7"
                 }
@@ -296,12 +450,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f9e7a4bf-c7f4-422e-81b3-7903b5a41ce2",
               "players": [
                 {
+                  "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
                   "name": "Edward Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
                   "name": "Greg Bryant",
                   "score": "21"
                 }
@@ -313,17 +470,26 @@
         },
         {
           "players": [
-            "Malcolm Fletcher",
-            "Aiken Hakes"
+            {
+              "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
+              "name": "Malcolm Fletcher"
+            },
+            {
+              "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
+              "name": "Aiken Hakes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42fb353b-4f36-406d-8cd8-54e20c315487",
               "players": [
                 {
+                  "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
                   "name": "Malcolm Fletcher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
                   "name": "Aiken Hakes",
                   "score": "7"
                 }
@@ -332,12 +498,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3cb7de2a-81b8-4ab2-9db6-4d90559a33b4",
               "players": [
                 {
+                  "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
                   "name": "Malcolm Fletcher",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
                   "name": "Aiken Hakes",
                   "score": "0"
                 }
@@ -349,17 +518,26 @@
         },
         {
           "players": [
-            "Greg Fletcher",
-            "Josh Freeth"
+            {
+              "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
+              "name": "Greg Fletcher"
+            },
+            {
+              "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
+              "name": "Josh Freeth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e80b9af9-57ca-4e17-b67f-812e09bc5d01",
               "players": [
                 {
+                  "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
                   "name": "Greg Fletcher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
                   "name": "Josh Freeth",
                   "score": "9"
                 }
@@ -368,12 +546,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a636da62-4847-4cee-a6b9-cb700f6b586b",
               "players": [
                 {
+                  "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
                   "name": "Greg Fletcher",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
                   "name": "Josh Freeth",
                   "score": "9"
                 }
@@ -385,17 +566,26 @@
         },
         {
           "players": [
-            "Claire Bassett",
-            "Nina Mayard-Husson"
+            {
+              "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
+              "name": "Claire Bassett"
+            },
+            {
+              "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
+              "name": "Nina Mayard-Husson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/43b2f39f-4297-42ef-bc26-5bc285ed91bc",
               "players": [
                 {
+                  "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
                   "name": "Claire Bassett",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
                   "name": "Nina Mayard-Husson",
                   "score": "11"
                 }
@@ -404,12 +594,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2c3a6a2c-6222-44e9-a8f8-7f3704c35303",
               "players": [
                 {
+                  "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
                   "name": "Claire Bassett",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
                   "name": "Nina Mayard-Husson",
                   "score": "26"
                 }
@@ -418,12 +611,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e17d4427-7733-4b6f-baca-4a92be0ef09c",
               "players": [
                 {
+                  "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
                   "name": "Claire Bassett",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
                   "name": "Nina Mayard-Husson",
                   "score": "19"
                 }
@@ -435,17 +631,26 @@
         },
         {
           "players": [
-            "Alison Sharpe",
-            "Pam Fisher"
+            {
+              "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
+              "name": "Alison Sharpe"
+            },
+            {
+              "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
+              "name": "Pam Fisher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dab2062e-3061-47b7-96c3-3c0fd49632c6",
               "players": [
                 {
+                  "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
                   "name": "Alison Sharpe",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
                   "name": "Pam Fisher",
                   "score": "25"
                 }
@@ -454,12 +659,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/efffe437-836d-401e-ba4f-d9badb7c7af1",
               "players": [
                 {
+                  "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
                   "name": "Alison Sharpe",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
                   "name": "Pam Fisher",
                   "score": "26"
                 }
@@ -471,17 +679,26 @@
         },
         {
           "players": [
-            "Stephen Forster",
-            "Chris Shilling"
+            {
+              "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
+              "name": "Stephen Forster"
+            },
+            {
+              "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
+              "name": "Chris Shilling"
+            }
           ],
           "games": [
             {
+              "gameId": "game/797894e1-a8a2-476e-9f09-6f0f2378b66d",
               "players": [
                 {
+                  "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
                   "name": "Stephen Forster",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
                   "name": "Chris Shilling",
                   "score": "11"
                 }
@@ -490,12 +707,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6263201e-9d26-4ee7-a7ff-5ee890d1c284",
               "players": [
                 {
+                  "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
                   "name": "Stephen Forster",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
                   "name": "Chris Shilling",
                   "score": "26TP"
                 }
@@ -504,12 +724,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7b1f35f0-4900-4254-884b-cb427cfc38e6",
               "players": [
                 {
+                  "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
                   "name": "Stephen Forster",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
                   "name": "Chris Shilling",
                   "score": "12"
                 }
@@ -521,17 +744,26 @@
         },
         {
           "players": [
-            "Alix Verge",
-            "Alison Robinson"
+            {
+              "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
+              "name": "Alix Verge"
+            },
+            {
+              "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
+              "name": "Alison Robinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/604c8236-201e-42d5-bd15-fbe1dd36718d",
               "players": [
                 {
+                  "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
                   "name": "Alix Verge",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
                   "name": "Alison Robinson",
                   "score": "18"
                 }
@@ -540,12 +772,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2978e288-c594-4b2f-a02b-7a7fb2e59771",
               "players": [
                 {
+                  "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
                   "name": "Alix Verge",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
                   "name": "Alison Robinson",
                   "score": "8"
                 }
@@ -558,6 +793,7 @@
       ]
     },
     {
+      "competitionId": "competition/34f76ef3-9f1f-4b6d-ba73-24150792a347",
       "teams": [
         "New Zealand",
         "Australia"
@@ -567,17 +803,26 @@
       "matches": [
         {
           "players": [
-            "Josh Freeth & Jenny Clarke",
-            "Rosemary Landrebe & Stephen Forster"
+            {
+              "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
+              "name": "Josh Freeth & Jenny Clarke"
+            },
+            {
+              "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
+              "name": "Rosemary Landrebe & Stephen Forster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eebfccff-ad36-4112-ac40-83afd21a99bf",
               "players": [
                 {
+                  "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
                   "name": "Josh Freeth & Jenny Clarke",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
                   "name": "Rosemary Landrebe & Stephen Forster",
                   "score": "1"
                 }
@@ -586,12 +831,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/803ab653-3a45-4c5b-b528-f893bcbf8525",
               "players": [
                 {
+                  "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
                   "name": "Josh Freeth & Jenny Clarke",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
                   "name": "Rosemary Landrebe & Stephen Forster",
                   "score": "10"
                 }
@@ -603,17 +851,26 @@
         },
         {
           "players": [
-            "Greg Bryant & Pam Fisher",
-            "Claire Bassett & Greg Fletcher"
+            {
+              "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
+              "name": "Greg Bryant & Pam Fisher"
+            },
+            {
+              "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
+              "name": "Claire Bassett & Greg Fletcher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc1da735-a741-4ea3-97e6-dcf26bf52d6c",
               "players": [
                 {
+                  "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
                   "name": "Greg Bryant & Pam Fisher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
                   "name": "Claire Bassett & Greg Fletcher",
                   "score": "13"
                 }
@@ -622,12 +879,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e33b7d51-eee2-4fb7-8b9a-200b20880c9f",
               "players": [
                 {
+                  "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
                   "name": "Greg Bryant & Pam Fisher",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
                   "name": "Claire Bassett & Greg Fletcher",
                   "score": "26TP(F)"
                 }
@@ -636,12 +896,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4f968fe7-2167-49f4-a9d6-e170c8497252",
               "players": [
                 {
+                  "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
                   "name": "Greg Bryant & Pam Fisher",
                   "score": "26tp(B)"
                 },
                 {
+                  "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
                   "name": "Claire Bassett & Greg Fletcher",
                   "score": "0"
                 }
@@ -653,17 +916,26 @@
         },
         {
           "players": [
-            "Aiken Hakes & Alison Robinson",
-            "Alison Sharpe & Malcolm Fletcher"
+            {
+              "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
+              "name": "Aiken Hakes & Alison Robinson"
+            },
+            {
+              "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
+              "name": "Alison Sharpe & Malcolm Fletcher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e7204426-4680-4bf3-9720-62078a07e07c",
               "players": [
                 {
+                  "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
                   "name": "Aiken Hakes & Alison Robinson",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
                   "name": "Alison Sharpe & Malcolm Fletcher",
                   "score": "26"
                 }
@@ -672,12 +944,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6d119edd-636b-4bec-bf5c-dc0cf7c9129e",
               "players": [
                 {
+                  "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
                   "name": "Aiken Hakes & Alison Robinson",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
                   "name": "Alison Sharpe & Malcolm Fletcher",
                   "score": "26qp(F)"
                 }
@@ -689,17 +964,26 @@
         },
         {
           "players": [
-            "Chris Shilling & Nina Mayard-Husson",
-            "Alix Verge & Edward Wilson"
+            {
+              "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
+              "name": "Chris Shilling & Nina Mayard-Husson"
+            },
+            {
+              "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
+              "name": "Alix Verge & Edward Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/62650b6a-1ad1-4319-acf2-fa3a31859f46",
               "players": [
                 {
+                  "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
                   "name": "Chris Shilling & Nina Mayard-Husson",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
                   "name": "Alix Verge & Edward Wilson",
                   "score": "23oqp(W)"
                 }
@@ -708,12 +992,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/53583aee-1ab5-43e1-b28b-1e7de48d2bcf",
               "players": [
                 {
+                  "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
                   "name": "Chris Shilling & Nina Mayard-Husson",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
                   "name": "Alix Verge & Edward Wilson",
                   "score": "15"
                 }
@@ -725,17 +1012,26 @@
         },
         {
           "players": [
-            "Josh Freeth",
-            "Edward Wilson"
+            {
+              "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
+              "name": "Josh Freeth"
+            },
+            {
+              "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
+              "name": "Edward Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/efd48935-d63e-4054-a305-1c64ee46ae4a",
               "players": [
                 {
+                  "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
                   "name": "Josh Freeth",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
                   "name": "Edward Wilson",
                   "score": "26TPO"
                 }
@@ -744,12 +1040,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f449967c-ebd2-4f99-a36d-4c19db7c8327",
               "players": [
                 {
+                  "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
                   "name": "Josh Freeth",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
                   "name": "Edward Wilson",
                   "score": "26"
                 }
@@ -761,17 +1060,26 @@
         },
         {
           "players": [
-            "Alison Robinson",
-            "Claire Bassett"
+            {
+              "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
+              "name": "Alison Robinson"
+            },
+            {
+              "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
+              "name": "Claire Bassett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2031763a-858e-4428-afab-f68cc6f0ff97",
               "players": [
                 {
+                  "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
                   "name": "Alison Robinson",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
                   "name": "Claire Bassett",
                   "score": "26"
                 }
@@ -780,12 +1088,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fdaacbdf-475c-4259-b249-b959e7e37116",
               "players": [
                 {
+                  "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
                   "name": "Alison Robinson",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
                   "name": "Claire Bassett",
                   "score": "22"
                 }
@@ -797,17 +1108,26 @@
         },
         {
           "players": [
-            "Greg Bryant",
-            "Greg Fletcher"
+            {
+              "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
+              "name": "Greg Bryant"
+            },
+            {
+              "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
+              "name": "Greg Fletcher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88305184-d814-4a6d-ae45-f56190481262",
               "players": [
                 {
+                  "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
                   "name": "Greg Bryant",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
                   "name": "Greg Fletcher",
                   "score": "26TP"
                 }
@@ -816,12 +1136,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5cdc55ce-02bd-463f-85d7-73978c5f3fc7",
               "players": [
                 {
+                  "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
                   "name": "Greg Bryant",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
                   "name": "Greg Fletcher",
                   "score": "25"
                 }
@@ -830,12 +1153,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/139f0799-0069-49c6-bb02-591164de7bae",
               "players": [
                 {
+                  "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
                   "name": "Greg Bryant",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
                   "name": "Greg Fletcher",
                   "score": "26"
                 }
@@ -847,17 +1173,26 @@
         },
         {
           "players": [
-            "Nina Mayard-Husson",
-            "Alix Verge"
+            {
+              "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
+              "name": "Nina Mayard-Husson"
+            },
+            {
+              "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
+              "name": "Alix Verge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b16f88ea-c2aa-454a-8835-403bee6d39a8",
               "players": [
                 {
+                  "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
                   "name": "Nina Mayard-Husson",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
                   "name": "Alix Verge",
                   "score": "26"
                 }
@@ -866,12 +1201,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/946b1100-d205-4ecd-90ae-90ef31cfe1b5",
               "players": [
                 {
+                  "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
                   "name": "Nina Mayard-Husson",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
                   "name": "Alix Verge",
                   "score": "17"
                 }
@@ -883,17 +1221,26 @@
         },
         {
           "players": [
-            "Aiken Hakes",
-            "Stephen Forster"
+            {
+              "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
+              "name": "Aiken Hakes"
+            },
+            {
+              "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
+              "name": "Stephen Forster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc3f993a-a0dc-4fc9-9183-2db471381fa7",
               "players": [
                 {
+                  "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
                   "name": "Aiken Hakes",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
                   "name": "Stephen Forster",
                   "score": "9"
                 }
@@ -902,12 +1249,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e28a1757-8cd7-4182-adbc-4ccd992b0dc9",
               "players": [
                 {
+                  "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
                   "name": "Aiken Hakes",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
                   "name": "Stephen Forster",
                   "score": "26"
                 }
@@ -916,12 +1266,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c19989ee-5f51-4a6f-bf84-2caeafa60559",
               "players": [
                 {
+                  "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
                   "name": "Aiken Hakes",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
                   "name": "Stephen Forster",
                   "score": "26"
                 }
@@ -933,17 +1286,26 @@
         },
         {
           "players": [
-            "Jenny Clarke",
-            "Alison Sharpe"
+            {
+              "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
+              "name": "Jenny Clarke"
+            },
+            {
+              "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
+              "name": "Alison Sharpe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/637705dd-1667-463a-be7a-41257cd130e2",
               "players": [
                 {
+                  "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
                   "name": "Jenny Clarke",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
                   "name": "Alison Sharpe",
                   "score": "0"
                 }
@@ -952,12 +1314,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/141fd467-bdf2-41c7-93ff-a523cf40bbb7",
               "players": [
                 {
+                  "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
                   "name": "Jenny Clarke",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
                   "name": "Alison Sharpe",
                   "score": "5"
                 }
@@ -969,17 +1334,26 @@
         },
         {
           "players": [
-            "Chris Shilling",
-            "Malcolm Fletcher"
+            {
+              "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
+              "name": "Chris Shilling"
+            },
+            {
+              "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
+              "name": "Malcolm Fletcher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a8607264-f987-43ff-8faa-3a03fa5064b5",
               "players": [
                 {
+                  "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
                   "name": "Chris Shilling",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
                   "name": "Malcolm Fletcher",
                   "score": "26TP"
                 }
@@ -988,12 +1362,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e72e7ee4-c8cc-40b1-87d4-7f1fbbe239d1",
               "players": [
                 {
+                  "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
                   "name": "Chris Shilling",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
                   "name": "Malcolm Fletcher",
                   "score": "5"
                 }
@@ -1002,12 +1379,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/741202b4-7ebe-4d83-b3de-5cd1dac7a053",
               "players": [
                 {
+                  "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
                   "name": "Chris Shilling",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
                   "name": "Malcolm Fletcher",
                   "score": "26"
                 }
@@ -1019,17 +1399,26 @@
         },
         {
           "players": [
-            "Pam Fisher",
-            "Rosemary Landrebe"
+            {
+              "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
+              "name": "Pam Fisher"
+            },
+            {
+              "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
+              "name": "Rosemary Landrebe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d8519fd-8eb5-48da-b868-57b7ebf19316",
               "players": [
                 {
+                  "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
                   "name": "Pam Fisher",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
                   "name": "Rosemary Landrebe",
                   "score": "17"
                 }
@@ -1038,12 +1427,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/152282ad-775a-42d0-80ca-b7082ae29654",
               "players": [
                 {
+                  "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
                   "name": "Pam Fisher",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
                   "name": "Rosemary Landrebe",
                   "score": "12"
                 }
@@ -1052,12 +1444,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/120dea13-e721-487c-8e30-a307fd55b154",
               "players": [
                 {
+                  "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
                   "name": "Pam Fisher",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
                   "name": "Rosemary Landrebe",
                   "score": "14"
                 }
@@ -1070,6 +1465,7 @@
       ]
     },
     {
+      "competitionId": "competition/07753d60-aadc-4bd4-91e4-4e7e9433fe62",
       "teams": [
         "Australia",
         "New Zealand"
@@ -1079,17 +1475,26 @@
       "matches": [
         {
           "players": [
-            "Alix Verge & Edward Wilson",
-            "Josh Freeth & Jenny Clarke"
+            {
+              "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
+              "name": "Alix Verge & Edward Wilson"
+            },
+            {
+              "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
+              "name": "Josh Freeth & Jenny Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f7c772b8-110d-4476-8865-aabb40c21d88",
               "players": [
                 {
+                  "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
                   "name": "Alix Verge & Edward Wilson",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
                   "name": "Josh Freeth & Jenny Clarke",
                   "score": "26"
                 }
@@ -1098,12 +1503,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/668462a4-1d98-4076-b541-a7719cc984d2",
               "players": [
                 {
+                  "playerId": "team-player/457ed8e5-99ec-4e26-bc14-594f33e22c00",
                   "name": "Alix Verge & Edward Wilson",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/5712ef7b-87f6-464a-91a8-8548815f3014",
                   "name": "Josh Freeth & Jenny Clarke",
                   "score": "26"
                 }
@@ -1115,17 +1523,26 @@
         },
         {
           "players": [
-            "Claire Bassett & Greg Fletcher",
-            "Aiken Hakes & Alison Robinson"
+            {
+              "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
+              "name": "Claire Bassett & Greg Fletcher"
+            },
+            {
+              "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
+              "name": "Aiken Hakes & Alison Robinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4728907-246d-4bce-9a10-b77e2ac3d7a7",
               "players": [
                 {
+                  "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
                   "name": "Claire Bassett & Greg Fletcher",
                   "score": "26TP(F)"
                 },
                 {
+                  "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
                   "name": "Aiken Hakes & Alison Robinson",
                   "score": "3"
                 }
@@ -1134,12 +1551,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/275c78d5-6dcb-4917-a4de-162f474d65d2",
               "players": [
                 {
+                  "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
                   "name": "Claire Bassett & Greg Fletcher",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
                   "name": "Aiken Hakes & Alison Robinson",
                   "score": "26"
                 }
@@ -1148,12 +1568,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ebb78084-4717-480c-ade2-2a9a52728dd5",
               "players": [
                 {
+                  "playerId": "team-player/1b3b1335-6db0-4d0c-9edd-90a856e041c4",
                   "name": "Claire Bassett & Greg Fletcher",
                   "score": "26TP(F)"
                 },
                 {
+                  "playerId": "team-player/3ec1b613-339c-4fb3-b10c-9e31f344abeb",
                   "name": "Aiken Hakes & Alison Robinson",
                   "score": "2"
                 }
@@ -1165,17 +1588,26 @@
         },
         {
           "players": [
-            "Rosemary Landrebe & Stephen Forster",
-            "Chris Shilling & Nina Mayard-Husson"
+            {
+              "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
+              "name": "Rosemary Landrebe & Stephen Forster"
+            },
+            {
+              "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
+              "name": "Chris Shilling & Nina Mayard-Husson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d8bb39a-f1ca-4c85-a654-406a8094b1a2",
               "players": [
                 {
+                  "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
                   "name": "Rosemary Landrebe & Stephen Forster",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
                   "name": "Chris Shilling & Nina Mayard-Husson",
                   "score": "19"
                 }
@@ -1184,12 +1616,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3979a78b-dc9b-498d-892a-397fb318e50d",
               "players": [
                 {
+                  "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
                   "name": "Rosemary Landrebe & Stephen Forster",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
                   "name": "Chris Shilling & Nina Mayard-Husson",
                   "score": "24"
                 }
@@ -1198,12 +1633,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ada02b9a-ad4d-456c-9781-cc8badb8e1c2",
               "players": [
                 {
+                  "playerId": "team-player/977c76f8-af50-4c98-b261-0a6938b6a1e3",
                   "name": "Rosemary Landrebe & Stephen Forster",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2bb9ab04-8461-485a-9a3d-1deea451c1d0",
                   "name": "Chris Shilling & Nina Mayard-Husson",
                   "score": "6"
                 }
@@ -1215,17 +1653,26 @@
         },
         {
           "players": [
-            "Alison Sharpe & Malcolm Fletcher",
-            "Greg Bryant & Pam Fisher"
+            {
+              "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
+              "name": "Alison Sharpe & Malcolm Fletcher"
+            },
+            {
+              "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
+              "name": "Greg Bryant & Pam Fisher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/559911a8-cb23-48c6-8514-67f882a1a206",
               "players": [
                 {
+                  "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
                   "name": "Alison Sharpe & Malcolm Fletcher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
                   "name": "Greg Bryant & Pam Fisher",
                   "score": "18"
                 }
@@ -1234,12 +1681,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3c672c46-2de9-493f-b1ef-b7a964691474",
               "players": [
                 {
+                  "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
                   "name": "Alison Sharpe & Malcolm Fletcher",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
                   "name": "Greg Bryant & Pam Fisher",
                   "score": "23"
                 }
@@ -1248,12 +1698,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7e1fcdcc-79cc-4e32-87f0-3d2d6fe8f14e",
               "players": [
                 {
+                  "playerId": "team-player/3d5ad40d-92a3-473e-aae7-38630ee781fd",
                   "name": "Alison Sharpe & Malcolm Fletcher",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/e3f12518-c363-4a9f-85f1-06a360761c56",
                   "name": "Greg Bryant & Pam Fisher",
                   "score": "12"
                 }
@@ -1265,17 +1718,26 @@
         },
         {
           "players": [
-            "Edward Wilson",
-            "Aiken Hakes"
+            {
+              "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
+              "name": "Edward Wilson"
+            },
+            {
+              "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
+              "name": "Aiken Hakes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/55a848d1-eece-4c19-8065-d6febf136fae",
               "players": [
                 {
+                  "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
                   "name": "Edward Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
                   "name": "Aiken Hakes",
                   "score": "9"
                 }
@@ -1284,12 +1746,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4b3ad3fa-f01e-42dc-8cca-9547b7f306cf",
               "players": [
                 {
+                  "playerId": "team-player/6b22fb41-629d-4747-8197-7d3b5b10c4e8",
                   "name": "Edward Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a3cda5c2-1c5a-4168-85a4-dee551366cbb",
                   "name": "Aiken Hakes",
                   "score": "1"
                 }
@@ -1301,17 +1766,26 @@
         },
         {
           "players": [
-            "Greg Fletcher",
-            "Chris Shilling"
+            {
+              "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
+              "name": "Greg Fletcher"
+            },
+            {
+              "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
+              "name": "Chris Shilling"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0231dcd9-5ef1-42a2-a145-5fd3fa410220",
               "players": [
                 {
+                  "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
                   "name": "Greg Fletcher",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
                   "name": "Chris Shilling",
                   "score": "2"
                 }
@@ -1320,12 +1794,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e47082f2-2a75-4caa-a638-d490f6c405e7",
               "players": [
                 {
+                  "playerId": "team-player/53eb5c30-ec4a-41b5-81d1-e3e1030ee808",
                   "name": "Greg Fletcher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c4720628-8d2e-4596-8fb2-8ea583ad7a7b",
                   "name": "Chris Shilling",
                   "score": "3"
                 }
@@ -1337,17 +1814,26 @@
         },
         {
           "players": [
-            "Stephen Forster",
-            "Josh Freeth"
+            {
+              "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
+              "name": "Stephen Forster"
+            },
+            {
+              "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
+              "name": "Josh Freeth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88089f78-751c-4bda-9ba8-c92c354df406",
               "players": [
                 {
+                  "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
                   "name": "Stephen Forster",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
                   "name": "Josh Freeth",
                   "score": "15"
                 }
@@ -1356,12 +1842,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/96fc8328-3bf7-4a0b-a83f-b31a8db182db",
               "players": [
                 {
+                  "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
                   "name": "Stephen Forster",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
                   "name": "Josh Freeth",
                   "score": "26TP"
                 }
@@ -1370,12 +1859,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0e8d91d8-a88b-4f5d-b258-016bb2cf7225",
               "players": [
                 {
+                  "playerId": "team-player/01bfe865-e909-4e6b-bdda-c1f312fa0979",
                   "name": "Stephen Forster",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/33a13266-450c-4c60-8b3c-66150af1a3de",
                   "name": "Josh Freeth",
                   "score": "12"
                 }
@@ -1387,17 +1879,26 @@
         },
         {
           "players": [
-            "Claire Bassett",
-            "Jenny Clarke"
+            {
+              "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
+              "name": "Claire Bassett"
+            },
+            {
+              "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
+              "name": "Jenny Clarke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b8e0a89-0afa-4f8d-a0bb-ccbcc3fe836f",
               "players": [
                 {
+                  "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
                   "name": "Claire Bassett",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
                   "name": "Jenny Clarke",
                   "score": "26"
                 }
@@ -1406,12 +1907,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9376ee81-cc80-4510-bb9a-72b56fea6d2c",
               "players": [
                 {
+                  "playerId": "team-player/852deaed-6d98-462a-ac2c-b81c02c7a54f",
                   "name": "Claire Bassett",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5001196d-3b4b-49c2-ae4b-48c3095f6626",
                   "name": "Jenny Clarke",
                   "score": "26"
                 }
@@ -1423,17 +1927,26 @@
         },
         {
           "players": [
-            "Rosemary Landrebe",
-            "Nina Mayard-Husson"
+            {
+              "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
+              "name": "Rosemary Landrebe"
+            },
+            {
+              "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
+              "name": "Nina Mayard-Husson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d846a708-662c-410c-b3fe-45bf572388ea",
               "players": [
                 {
+                  "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
                   "name": "Rosemary Landrebe",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
                   "name": "Nina Mayard-Husson",
                   "score": "19"
                 }
@@ -1442,12 +1955,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0d8641b9-ebbc-4c82-904f-cac1e0d25f4c",
               "players": [
                 {
+                  "playerId": "team-player/57928709-e24b-486a-9959-5c7f3a840aca",
                   "name": "Rosemary Landrebe",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/c07be2f2-f89d-441f-8dbd-d3a94b4f08d8",
                   "name": "Nina Mayard-Husson",
                   "score": "26"
                 }
@@ -1459,17 +1975,26 @@
         },
         {
           "players": [
-            "Alison Sharpe",
-            "Alison Robinson"
+            {
+              "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
+              "name": "Alison Sharpe"
+            },
+            {
+              "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
+              "name": "Alison Robinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/61b5f84a-380d-4a07-84ea-a54781a362dd",
               "players": [
                 {
+                  "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
                   "name": "Alison Sharpe",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
                   "name": "Alison Robinson",
                   "score": "22"
                 }
@@ -1478,12 +2003,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4c6c1934-8ae6-4e63-863c-41d93955845b",
               "players": [
                 {
+                  "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
                   "name": "Alison Sharpe",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
                   "name": "Alison Robinson",
                   "score": "6"
                 }
@@ -1492,12 +2020,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e66d3369-8c1a-4d28-a473-721b5d580745",
               "players": [
                 {
+                  "playerId": "team-player/bd63d210-f2be-4a42-936f-32087e999e74",
                   "name": "Alison Sharpe",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/72b62b72-b1b1-4336-b76a-c92d88432120",
                   "name": "Alison Robinson",
                   "score": "10"
                 }
@@ -1509,17 +2040,26 @@
         },
         {
           "players": [
-            "Alix Verge",
-            "Pam Fisher"
+            {
+              "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
+              "name": "Alix Verge"
+            },
+            {
+              "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
+              "name": "Pam Fisher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1c559257-459f-47a4-9881-91202549f31b",
               "players": [
                 {
+                  "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
                   "name": "Alix Verge",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
                   "name": "Pam Fisher",
                   "score": "4"
                 }
@@ -1528,12 +2068,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4d7487b0-bea8-4b6d-a464-9a7935125876",
               "players": [
                 {
+                  "playerId": "team-player/7082f7f7-516e-41d2-ab9d-1d76ea3ecceb",
                   "name": "Alix Verge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ebdebf56-6824-4e9d-b2a3-8d3a50fa330a",
                   "name": "Pam Fisher",
                   "score": "17"
                 }
@@ -1545,17 +2088,26 @@
         },
         {
           "players": [
-            "Malcolm Fletcher",
-            "Greg Bryant"
+            {
+              "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
+              "name": "Malcolm Fletcher"
+            },
+            {
+              "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
+              "name": "Greg Bryant"
+            }
           ],
           "games": [
             {
+              "gameId": "game/faf52f87-8499-496a-b8cf-4f61c59fe10a",
               "players": [
                 {
+                  "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
                   "name": "Malcolm Fletcher",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
                   "name": "Greg Bryant",
                   "score": "18"
                 }
@@ -1564,12 +2116,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7f0673ae-b43f-4858-8981-9181bdd2824f",
               "players": [
                 {
+                  "playerId": "team-player/60720b69-62e8-4b1c-b808-1e684a127713",
                   "name": "Malcolm Fletcher",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5b4d661a-3860-4ef7-8b09-dda20a42d3e6",
                   "name": "Greg Bryant",
                   "score": "17"
                 }

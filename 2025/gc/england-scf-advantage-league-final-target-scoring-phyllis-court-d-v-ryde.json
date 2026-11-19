@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5be0edec-949b-41e9-8f0b-5a7d6fc44165",
   "name": "England - SCF Advantage League Final (Target scoring, results display as %) - Phyllis Court ‘D’ v Ryde 'Clubs'",
   "sport": "gc",
   "firstDay": "2025-09-19",
   "lastDay": "2025-09-19",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Phyllis Court ‘D’",
       "shortName": "Phyllis Co",
       "players": [
-        "Bob Clapp (8)",
-        "Carol Huntington (5)",
-        "Dee McKibbin (5)",
-        "Philip Rowley (6)"
+        {
+          "playerId": "team-player/eb78da2d-205c-4d17-8f2f-9ae9c23eb753",
+          "name": "Bob Clapp (8)"
+        },
+        {
+          "playerId": "team-player/7607707a-521a-46bd-9335-480a7180cb21",
+          "name": "Carol Huntington (5)"
+        },
+        {
+          "playerId": "team-player/4e93b6bb-220b-49fe-a8e3-3086619c6416",
+          "name": "Dee McKibbin (5)"
+        },
+        {
+          "playerId": "team-player/293449e0-00b7-49ab-b4d6-3338b65b3d7e",
+          "name": "Philip Rowley (6)"
+        }
       ]
     },
     {
       "name": "Ryde ‘Clubs’",
       "shortName": "Ryde ‘Club",
       "players": [
-        "Harry Oldham (4)",
-        "Martin Briggs (3)",
-        "Mick Abbott (8)",
-        "Nick Westmore (5)"
+        {
+          "playerId": "team-player/0229651c-81ea-488a-8213-308fb06de430",
+          "name": "Harry Oldham (4)"
+        },
+        {
+          "playerId": "team-player/870875d2-1c42-4b9a-b8b9-13c561527f6e",
+          "name": "Martin Briggs (3)"
+        },
+        {
+          "playerId": "team-player/2c6c8a79-b605-4676-9522-5cbee599b61e",
+          "name": "Mick Abbott (8)"
+        },
+        {
+          "playerId": "team-player/8a4fd91d-5729-4cfe-aa18-418d1f17fc52",
+          "name": "Nick Westmore (5)"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/e73cea02-c5c1-4beb-848f-875ae3f4252b",
       "teams": [
         "Phyllis Court ‘D’",
         "Ryde ‘Clubs’"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Dee McKibbin (5)",
-            "Mick Abbott (8)"
+            {
+              "playerId": "team-player/4e93b6bb-220b-49fe-a8e3-3086619c6416",
+              "name": "Dee McKibbin (5)"
+            },
+            {
+              "playerId": "team-player/2c6c8a79-b605-4676-9522-5cbee599b61e",
+              "name": "Mick Abbott (8)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b4ad3bb-8988-40dc-b5ac-b3274d65c588",
               "players": [
                 {
+                  "playerId": "team-player/4e93b6bb-220b-49fe-a8e3-3086619c6416",
                   "name": "Dee McKibbin (5)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/2c6c8a79-b605-4676-9522-5cbee599b61e",
                   "name": "Mick Abbott (8)",
                   "score": "43"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Philip Rowley (6)",
-            "Harry Oldham (4)"
+            {
+              "playerId": "team-player/293449e0-00b7-49ab-b4d6-3338b65b3d7e",
+              "name": "Philip Rowley (6)"
+            },
+            {
+              "playerId": "team-player/0229651c-81ea-488a-8213-308fb06de430",
+              "name": "Harry Oldham (4)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4957ad6b-0f89-4064-9a13-9cde901c3a45",
               "players": [
                 {
+                  "playerId": "team-player/293449e0-00b7-49ab-b4d6-3338b65b3d7e",
                   "name": "Philip Rowley (6)",
                   "score": "86"
                 },
                 {
+                  "playerId": "team-player/0229651c-81ea-488a-8213-308fb06de430",
                   "name": "Harry Oldham (4)",
                   "score": "100"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Bob Clapp (8)",
-            "Martin Briggs (3)"
+            {
+              "playerId": "team-player/eb78da2d-205c-4d17-8f2f-9ae9c23eb753",
+              "name": "Bob Clapp (8)"
+            },
+            {
+              "playerId": "team-player/870875d2-1c42-4b9a-b8b9-13c561527f6e",
+              "name": "Martin Briggs (3)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6e76bf8-95d4-4102-958f-c6b582b6f340",
               "players": [
                 {
+                  "playerId": "team-player/eb78da2d-205c-4d17-8f2f-9ae9c23eb753",
                   "name": "Bob Clapp (8)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/870875d2-1c42-4b9a-b8b9-13c561527f6e",
                   "name": "Martin Briggs (3)",
                   "score": "44"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Carol Huntington (5)",
-            "Nick Westmore (5)"
+            {
+              "playerId": "team-player/7607707a-521a-46bd-9335-480a7180cb21",
+              "name": "Carol Huntington (5)"
+            },
+            {
+              "playerId": "team-player/8a4fd91d-5729-4cfe-aa18-418d1f17fc52",
+              "name": "Nick Westmore (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/69904d3a-b83c-4d6d-a4bc-cbf9fd1bdff9",
               "players": [
                 {
+                  "playerId": "team-player/7607707a-521a-46bd-9335-480a7180cb21",
                   "name": "Carol Huntington (5)",
                   "score": "71"
                 },
                 {
+                  "playerId": "team-player/8a4fd91d-5729-4cfe-aa18-418d1f17fc52",
                   "name": "Nick Westmore (5)",
                   "score": "100"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Dee McKibbin (5)",
-            "Nick Westmore (5)"
+            {
+              "playerId": "team-player/4e93b6bb-220b-49fe-a8e3-3086619c6416",
+              "name": "Dee McKibbin (5)"
+            },
+            {
+              "playerId": "team-player/8a4fd91d-5729-4cfe-aa18-418d1f17fc52",
+              "name": "Nick Westmore (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1951ca6c-70be-4cbe-a107-02a5920b4dd1",
               "players": [
                 {
+                  "playerId": "team-player/4e93b6bb-220b-49fe-a8e3-3086619c6416",
                   "name": "Dee McKibbin (5)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/8a4fd91d-5729-4cfe-aa18-418d1f17fc52",
                   "name": "Nick Westmore (5)",
                   "score": "14"
                 }
@@ -149,17 +222,26 @@
         },
         {
           "players": [
-            "Philip Rowley (6)",
-            "Martin Briggs (3)"
+            {
+              "playerId": "team-player/293449e0-00b7-49ab-b4d6-3338b65b3d7e",
+              "name": "Philip Rowley (6)"
+            },
+            {
+              "playerId": "team-player/870875d2-1c42-4b9a-b8b9-13c561527f6e",
+              "name": "Martin Briggs (3)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/82bc037b-3aac-4ed4-a3c2-a540d1d8d26b",
               "players": [
                 {
+                  "playerId": "team-player/293449e0-00b7-49ab-b4d6-3338b65b3d7e",
                   "name": "Philip Rowley (6)",
                   "score": "80"
                 },
                 {
+                  "playerId": "team-player/870875d2-1c42-4b9a-b8b9-13c561527f6e",
                   "name": "Martin Briggs (3)",
                   "score": "100"
                 }
@@ -171,17 +253,26 @@
         },
         {
           "players": [
-            "Bob Clapp (8)",
-            "Harry Oldham (4)"
+            {
+              "playerId": "team-player/eb78da2d-205c-4d17-8f2f-9ae9c23eb753",
+              "name": "Bob Clapp (8)"
+            },
+            {
+              "playerId": "team-player/0229651c-81ea-488a-8213-308fb06de430",
+              "name": "Harry Oldham (4)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/89eb4010-2210-4d57-ae46-66e52e0b9e42",
               "players": [
                 {
+                  "playerId": "team-player/eb78da2d-205c-4d17-8f2f-9ae9c23eb753",
                   "name": "Bob Clapp (8)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/0229651c-81ea-488a-8213-308fb06de430",
                   "name": "Harry Oldham (4)",
                   "score": "71"
                 }
@@ -193,17 +284,26 @@
         },
         {
           "players": [
-            "Carol Huntington (5)",
-            "Mick Abbott (8)"
+            {
+              "playerId": "team-player/7607707a-521a-46bd-9335-480a7180cb21",
+              "name": "Carol Huntington (5)"
+            },
+            {
+              "playerId": "team-player/2c6c8a79-b605-4676-9522-5cbee599b61e",
+              "name": "Mick Abbott (8)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dc643bed-e54b-4b2c-9901-378de84f292a",
               "players": [
                 {
+                  "playerId": "team-player/7607707a-521a-46bd-9335-480a7180cb21",
                   "name": "Carol Huntington (5)",
                   "score": "88"
                 },
                 {
+                  "playerId": "team-player/2c6c8a79-b605-4676-9522-5cbee599b61e",
                   "name": "Mick Abbott (8)",
                   "score": "100"
                 }
@@ -215,17 +315,26 @@
         },
         {
           "players": [
-            "Dee McKibbin (5)",
-            "Harry Oldham (4)"
+            {
+              "playerId": "team-player/4e93b6bb-220b-49fe-a8e3-3086619c6416",
+              "name": "Dee McKibbin (5)"
+            },
+            {
+              "playerId": "team-player/0229651c-81ea-488a-8213-308fb06de430",
+              "name": "Harry Oldham (4)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d8140dc7-d653-4f89-b9e3-bc809ad3a107",
               "players": [
                 {
+                  "playerId": "team-player/4e93b6bb-220b-49fe-a8e3-3086619c6416",
                   "name": "Dee McKibbin (5)",
                   "score": "71"
                 },
                 {
+                  "playerId": "team-player/0229651c-81ea-488a-8213-308fb06de430",
                   "name": "Harry Oldham (4)",
                   "score": "100"
                 }
@@ -237,17 +346,26 @@
         },
         {
           "players": [
-            "Carol Huntington (5)",
-            "Martin Briggs (3)"
+            {
+              "playerId": "team-player/7607707a-521a-46bd-9335-480a7180cb21",
+              "name": "Carol Huntington (5)"
+            },
+            {
+              "playerId": "team-player/870875d2-1c42-4b9a-b8b9-13c561527f6e",
+              "name": "Martin Briggs (3)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1a5ed061-3f38-4905-baf6-4da01e8685fd",
               "players": [
                 {
+                  "playerId": "team-player/7607707a-521a-46bd-9335-480a7180cb21",
                   "name": "Carol Huntington (5)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/870875d2-1c42-4b9a-b8b9-13c561527f6e",
                   "name": "Martin Briggs (3)",
                   "score": "67"
                 }
@@ -259,17 +377,26 @@
         },
         {
           "players": [
-            "Philip Rowley (6)",
-            "Mick Abbott (8)"
+            {
+              "playerId": "team-player/293449e0-00b7-49ab-b4d6-3338b65b3d7e",
+              "name": "Philip Rowley (6)"
+            },
+            {
+              "playerId": "team-player/2c6c8a79-b605-4676-9522-5cbee599b61e",
+              "name": "Mick Abbott (8)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a028527b-c30e-4a5e-84c9-5072a87c066f",
               "players": [
                 {
+                  "playerId": "team-player/293449e0-00b7-49ab-b4d6-3338b65b3d7e",
                   "name": "Philip Rowley (6)",
                   "score": "87"
                 },
                 {
+                  "playerId": "team-player/2c6c8a79-b605-4676-9522-5cbee599b61e",
                   "name": "Mick Abbott (8)",
                   "score": "100"
                 }
@@ -281,17 +408,26 @@
         },
         {
           "players": [
-            "Bob Clapp (8)",
-            "Nick Westmore (5)"
+            {
+              "playerId": "team-player/eb78da2d-205c-4d17-8f2f-9ae9c23eb753",
+              "name": "Bob Clapp (8)"
+            },
+            {
+              "playerId": "team-player/8a4fd91d-5729-4cfe-aa18-418d1f17fc52",
+              "name": "Nick Westmore (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ae490a2e-5b6c-4bdc-a7e1-e11bde14e98e",
               "players": [
                 {
+                  "playerId": "team-player/eb78da2d-205c-4d17-8f2f-9ae9c23eb753",
                   "name": "Bob Clapp (8)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/8a4fd91d-5729-4cfe-aa18-418d1f17fc52",
                   "name": "Nick Westmore (5)",
                   "score": "55"
                 }
@@ -303,17 +439,26 @@
         },
         {
           "players": [
-            "Carol Huntington (5)",
-            "Harry Oldham (4)"
+            {
+              "playerId": "team-player/7607707a-521a-46bd-9335-480a7180cb21",
+              "name": "Carol Huntington (5)"
+            },
+            {
+              "playerId": "team-player/0229651c-81ea-488a-8213-308fb06de430",
+              "name": "Harry Oldham (4)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/46801b21-e9d1-46c3-af3f-8fc12ef114da",
               "players": [
                 {
+                  "playerId": "team-player/7607707a-521a-46bd-9335-480a7180cb21",
                   "name": "Carol Huntington (5)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/0229651c-81ea-488a-8213-308fb06de430",
                   "name": "Harry Oldham (4)",
                   "score": "62"
                 }
@@ -325,17 +470,26 @@
         },
         {
           "players": [
-            "Philip Rowley (6)",
-            "Nick Westmore (5)"
+            {
+              "playerId": "team-player/293449e0-00b7-49ab-b4d6-3338b65b3d7e",
+              "name": "Philip Rowley (6)"
+            },
+            {
+              "playerId": "team-player/8a4fd91d-5729-4cfe-aa18-418d1f17fc52",
+              "name": "Nick Westmore (5)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a9902b82-a171-4b0d-b54a-199c3ed3b079",
               "players": [
                 {
+                  "playerId": "team-player/293449e0-00b7-49ab-b4d6-3338b65b3d7e",
                   "name": "Philip Rowley (6)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/8a4fd91d-5729-4cfe-aa18-418d1f17fc52",
                   "name": "Nick Westmore (5)",
                   "score": "50"
                 }
@@ -347,17 +501,26 @@
         },
         {
           "players": [
-            "Bob Clapp (8)",
-            "Mick Abbott (8)"
+            {
+              "playerId": "team-player/eb78da2d-205c-4d17-8f2f-9ae9c23eb753",
+              "name": "Bob Clapp (8)"
+            },
+            {
+              "playerId": "team-player/2c6c8a79-b605-4676-9522-5cbee599b61e",
+              "name": "Mick Abbott (8)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e23e746-dc6f-4c38-8a0d-a28f043f876c",
               "players": [
                 {
+                  "playerId": "team-player/eb78da2d-205c-4d17-8f2f-9ae9c23eb753",
                   "name": "Bob Clapp (8)",
                   "score": "100"
                 },
                 {
+                  "playerId": "team-player/2c6c8a79-b605-4676-9522-5cbee599b61e",
                   "name": "Mick Abbott (8)",
                   "score": "43"
                 }
@@ -369,17 +532,26 @@
         },
         {
           "players": [
-            "Dee McKibbin (5)",
-            "Martin Briggs (3)"
+            {
+              "playerId": "team-player/4e93b6bb-220b-49fe-a8e3-3086619c6416",
+              "name": "Dee McKibbin (5)"
+            },
+            {
+              "playerId": "team-player/870875d2-1c42-4b9a-b8b9-13c561527f6e",
+              "name": "Martin Briggs (3)"
+            }
           ],
           "games": [
             {
+              "gameId": "game/acc572e9-7db3-4b57-ac6b-d30a60ace762",
               "players": [
                 {
+                  "playerId": "team-player/4e93b6bb-220b-49fe-a8e3-3086619c6416",
                   "name": "Dee McKibbin (5)",
                   "score": "86"
                 },
                 {
+                  "playerId": "team-player/870875d2-1c42-4b9a-b8b9-13c561527f6e",
                   "name": "Martin Briggs (3)",
                   "score": "100"
                 }

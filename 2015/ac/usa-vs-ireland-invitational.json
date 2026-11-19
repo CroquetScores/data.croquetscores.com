@@ -1,47 +1,111 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f74630e9-0a2b-43ad-af4b-e028b213096d",
   "name": "USA vs. Ireland Invitational",
   "sport": "ac",
   "firstDay": "2015-08-20",
   "lastDay": "2015-08-23",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "United States",
       "shortName": "USA",
       "players": [
-        "Bent & Davies",
-        "Bent & Lamm",
-        "David Bent",
-        "Jeff Soo",
-        "Lamm & Davies",
-        "Rich Lamm",
-        "Soo & Bent",
-        "Soo & Davies",
-        "Soo & Lamm",
-        "Wayne Davies"
+        {
+          "playerId": "team-player/f108cd70-02f8-4b0b-a70c-3935e3ca2b94",
+          "name": "Bent & Davies"
+        },
+        {
+          "playerId": "team-player/612fdba3-cf3c-47bd-9409-36b4b8dc393b",
+          "name": "Bent & Lamm"
+        },
+        {
+          "playerId": "team-player/90a207ad-b820-457c-b603-2bfdb99cd73a",
+          "name": "David Bent"
+        },
+        {
+          "playerId": "team-player/98913d4c-75c3-459f-bc6b-fd8ea3859f7f",
+          "name": "Jeff Soo"
+        },
+        {
+          "playerId": "team-player/dd6174d4-03db-4aad-aa80-d511298a97e9",
+          "name": "Lamm & Davies"
+        },
+        {
+          "playerId": "team-player/bf64980f-e3f2-4e89-8f43-42c64fbc7e1c",
+          "name": "Rich Lamm"
+        },
+        {
+          "playerId": "team-player/27ddfe5f-213e-46f6-a485-64bca4a61a45",
+          "name": "Soo & Bent"
+        },
+        {
+          "playerId": "team-player/064c5f32-4062-42bd-959e-45383b939e56",
+          "name": "Soo & Davies"
+        },
+        {
+          "playerId": "team-player/c6b32538-0c97-43fe-abc7-2611fdb0a4e7",
+          "name": "Soo & Lamm"
+        },
+        {
+          "playerId": "team-player/9841533a-116b-4fa3-a844-7e6f3d7e2d54",
+          "name": "Wayne Davies"
+        }
       ]
     },
     {
       "name": "Ireland",
       "shortName": "IRL",
       "players": [
-        "Danny Johnston",
-        "Evan Newell",
-        "Fitzgerald & Healy",
-        "Fitzgerald & Newell",
-        "Healy & Newell",
-        "Johnston & Fitzgerald",
-        "Johnston & Healy",
-        "Johnston & Newell",
-        "Nathaniel Healy",
-        "Patsy Fitzgerald"
+        {
+          "playerId": "team-player/dc647080-35cd-4412-8d3d-cffa5ad009f5",
+          "name": "Danny Johnston"
+        },
+        {
+          "playerId": "team-player/30106764-f3ae-43ee-b89e-5eba8f660dde",
+          "name": "Evan Newell"
+        },
+        {
+          "playerId": "team-player/df1dfdf7-39f2-4e38-9c5c-717a83356b79",
+          "name": "Fitzgerald & Healy"
+        },
+        {
+          "playerId": "team-player/96a47aab-7c81-47ec-9797-6cd0946a8b38",
+          "name": "Fitzgerald & Newell"
+        },
+        {
+          "playerId": "team-player/2efb049d-07b8-46dc-9f9b-41da3b4821c1",
+          "name": "Healy & Newell"
+        },
+        {
+          "playerId": "team-player/331cf2ff-fb13-42fb-865d-8db174a7aad2",
+          "name": "Johnston & Fitzgerald"
+        },
+        {
+          "playerId": "team-player/59359365-e75d-4fb0-a527-56df45a13a90",
+          "name": "Johnston & Healy"
+        },
+        {
+          "playerId": "team-player/2ff4953f-82f5-4d5d-b492-43b277c31f53",
+          "name": "Johnston & Newell"
+        },
+        {
+          "playerId": "team-player/d642f969-c872-4abf-aefd-5256c2c856f5",
+          "name": "Nathaniel Healy"
+        },
+        {
+          "playerId": "team-player/2b73e93d-702b-44e1-8af8-5cc458ea6e3a",
+          "name": "Patsy Fitzgerald"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/f59fad48-1c4c-4c7b-bb49-6f7202064bca",
       "teams": [
         "United States",
         "Ireland"
@@ -51,17 +115,26 @@
       "matches": [
         {
           "players": [
-            "Soo & Davies",
-            "Johnston & Healy"
+            {
+              "playerId": "team-player/064c5f32-4062-42bd-959e-45383b939e56",
+              "name": "Soo & Davies"
+            },
+            {
+              "playerId": "team-player/59359365-e75d-4fb0-a527-56df45a13a90",
+              "name": "Johnston & Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b53f573d-41ae-442c-b002-c6880fb17eb5",
               "players": [
                 {
+                  "playerId": "team-player/064c5f32-4062-42bd-959e-45383b939e56",
                   "name": "Soo & Davies",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/59359365-e75d-4fb0-a527-56df45a13a90",
                   "name": "Johnston & Healy",
                   "score": "26"
                 }
@@ -70,12 +143,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/74c265d8-9a5d-4542-9852-4cf138a9e2dd",
               "players": [
                 {
+                  "playerId": "team-player/064c5f32-4062-42bd-959e-45383b939e56",
                   "name": "Soo & Davies",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/59359365-e75d-4fb0-a527-56df45a13a90",
                   "name": "Johnston & Healy",
                   "score": "20"
                 }
@@ -87,17 +163,26 @@
         },
         {
           "players": [
-            "Soo & Bent",
-            "Johnston & Newell"
+            {
+              "playerId": "team-player/27ddfe5f-213e-46f6-a485-64bca4a61a45",
+              "name": "Soo & Bent"
+            },
+            {
+              "playerId": "team-player/2ff4953f-82f5-4d5d-b492-43b277c31f53",
+              "name": "Johnston & Newell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4941d5d3-0423-46cb-b20f-5b0796476af6",
               "players": [
                 {
+                  "playerId": "team-player/27ddfe5f-213e-46f6-a485-64bca4a61a45",
                   "name": "Soo & Bent",
                   "score": "26tp (S)"
                 },
                 {
+                  "playerId": "team-player/2ff4953f-82f5-4d5d-b492-43b277c31f53",
                   "name": "Johnston & Newell",
                   "score": "10"
                 }
@@ -106,12 +191,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bc5adf47-aac1-40e5-a7fa-6143c47706b8",
               "players": [
                 {
+                  "playerId": "team-player/27ddfe5f-213e-46f6-a485-64bca4a61a45",
                   "name": "Soo & Bent",
                   "score": "26tp (B)"
                 },
                 {
+                  "playerId": "team-player/2ff4953f-82f5-4d5d-b492-43b277c31f53",
                   "name": "Johnston & Newell",
                   "score": "0"
                 }
@@ -123,17 +211,26 @@
         },
         {
           "players": [
-            "Bent & Lamm",
-            "Fitzgerald & Newell"
+            {
+              "playerId": "team-player/612fdba3-cf3c-47bd-9409-36b4b8dc393b",
+              "name": "Bent & Lamm"
+            },
+            {
+              "playerId": "team-player/96a47aab-7c81-47ec-9797-6cd0946a8b38",
+              "name": "Fitzgerald & Newell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/be35eb9c-93e6-4049-9c82-7a0b43cdae3b",
               "players": [
                 {
+                  "playerId": "team-player/612fdba3-cf3c-47bd-9409-36b4b8dc393b",
                   "name": "Bent & Lamm",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/96a47aab-7c81-47ec-9797-6cd0946a8b38",
                   "name": "Fitzgerald & Newell",
                   "score": "19"
                 }
@@ -142,12 +239,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a4edd8c9-9aa4-4425-93cc-8a6006ffdd74",
               "players": [
                 {
+                  "playerId": "team-player/612fdba3-cf3c-47bd-9409-36b4b8dc393b",
                   "name": "Bent & Lamm",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/96a47aab-7c81-47ec-9797-6cd0946a8b38",
                   "name": "Fitzgerald & Newell",
                   "score": "10"
                 }
@@ -159,17 +259,26 @@
         },
         {
           "players": [
-            "Lamm & Davies",
-            "Fitzgerald & Healy"
+            {
+              "playerId": "team-player/dd6174d4-03db-4aad-aa80-d511298a97e9",
+              "name": "Lamm & Davies"
+            },
+            {
+              "playerId": "team-player/df1dfdf7-39f2-4e38-9c5c-717a83356b79",
+              "name": "Fitzgerald & Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2ce6d63e-a303-4949-a4d6-4b5356556e6f",
               "players": [
                 {
+                  "playerId": "team-player/dd6174d4-03db-4aad-aa80-d511298a97e9",
                   "name": "Lamm & Davies",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/df1dfdf7-39f2-4e38-9c5c-717a83356b79",
                   "name": "Fitzgerald & Healy",
                   "score": "12"
                 }
@@ -178,12 +287,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bb4e329a-7dea-4ba4-8a53-8b121d105db6",
               "players": [
                 {
+                  "playerId": "team-player/dd6174d4-03db-4aad-aa80-d511298a97e9",
                   "name": "Lamm & Davies",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/df1dfdf7-39f2-4e38-9c5c-717a83356b79",
                   "name": "Fitzgerald & Healy",
                   "score": "24"
                 }
@@ -192,12 +304,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4edf027c-1e32-4035-bc17-6eb2e6403bf6",
               "players": [
                 {
+                  "playerId": "team-player/dd6174d4-03db-4aad-aa80-d511298a97e9",
                   "name": "Lamm & Davies",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/df1dfdf7-39f2-4e38-9c5c-717a83356b79",
                   "name": "Fitzgerald & Healy",
                   "score": "13"
                 }
@@ -209,17 +324,26 @@
         },
         {
           "players": [
-            "Jeff Soo",
-            "Danny Johnston"
+            {
+              "playerId": "team-player/98913d4c-75c3-459f-bc6b-fd8ea3859f7f",
+              "name": "Jeff Soo"
+            },
+            {
+              "playerId": "team-player/dc647080-35cd-4412-8d3d-cffa5ad009f5",
+              "name": "Danny Johnston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/866fe4fb-9c79-4501-8875-3a23258a3f57",
               "players": [
                 {
+                  "playerId": "team-player/98913d4c-75c3-459f-bc6b-fd8ea3859f7f",
                   "name": "Jeff Soo",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/dc647080-35cd-4412-8d3d-cffa5ad009f5",
                   "name": "Danny Johnston",
                   "score": "20"
                 }
@@ -228,12 +352,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0f87bf2a-ffe2-487f-a234-73972036ed43",
               "players": [
                 {
+                  "playerId": "team-player/98913d4c-75c3-459f-bc6b-fd8ea3859f7f",
                   "name": "Jeff Soo",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/dc647080-35cd-4412-8d3d-cffa5ad009f5",
                   "name": "Danny Johnston",
                   "score": "26tp"
                 }
@@ -242,12 +369,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2160e684-5ca4-4e64-bfb8-32ca0fec28dd",
               "players": [
                 {
+                  "playerId": "team-player/98913d4c-75c3-459f-bc6b-fd8ea3859f7f",
                   "name": "Jeff Soo",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/dc647080-35cd-4412-8d3d-cffa5ad009f5",
                   "name": "Danny Johnston",
                   "score": "0"
                 }
@@ -259,17 +389,26 @@
         },
         {
           "players": [
-            "Rich Lamm",
-            "Patsy Fitzgerald"
+            {
+              "playerId": "team-player/bf64980f-e3f2-4e89-8f43-42c64fbc7e1c",
+              "name": "Rich Lamm"
+            },
+            {
+              "playerId": "team-player/2b73e93d-702b-44e1-8af8-5cc458ea6e3a",
+              "name": "Patsy Fitzgerald"
+            }
           ],
           "games": [
             {
+              "gameId": "game/705749b8-c1e3-414c-963b-e69023a8c56f",
               "players": [
                 {
+                  "playerId": "team-player/bf64980f-e3f2-4e89-8f43-42c64fbc7e1c",
                   "name": "Rich Lamm",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/2b73e93d-702b-44e1-8af8-5cc458ea6e3a",
                   "name": "Patsy Fitzgerald",
                   "score": "26"
                 }
@@ -278,12 +417,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bfca9edb-1bf3-49be-8642-9963b0018953",
               "players": [
                 {
+                  "playerId": "team-player/bf64980f-e3f2-4e89-8f43-42c64fbc7e1c",
                   "name": "Rich Lamm",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/2b73e93d-702b-44e1-8af8-5cc458ea6e3a",
                   "name": "Patsy Fitzgerald",
                   "score": "26"
                 }
@@ -295,17 +437,26 @@
         },
         {
           "players": [
-            "Wayne Davies",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/9841533a-116b-4fa3-a844-7e6f3d7e2d54",
+              "name": "Wayne Davies"
+            },
+            {
+              "playerId": "team-player/d642f969-c872-4abf-aefd-5256c2c856f5",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/01d80004-535c-4cbb-8478-c68de25331c4",
               "players": [
                 {
+                  "playerId": "team-player/9841533a-116b-4fa3-a844-7e6f3d7e2d54",
                   "name": "Wayne Davies",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d642f969-c872-4abf-aefd-5256c2c856f5",
                   "name": "Nathaniel Healy",
                   "score": "12"
                 }
@@ -314,12 +465,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9ef5950d-3b20-4985-8737-1876e034dae9",
               "players": [
                 {
+                  "playerId": "team-player/9841533a-116b-4fa3-a844-7e6f3d7e2d54",
                   "name": "Wayne Davies",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d642f969-c872-4abf-aefd-5256c2c856f5",
                   "name": "Nathaniel Healy",
                   "score": "3"
                 }
@@ -331,17 +485,26 @@
         },
         {
           "players": [
-            "David Bent",
-            "Evan Newell"
+            {
+              "playerId": "team-player/90a207ad-b820-457c-b603-2bfdb99cd73a",
+              "name": "David Bent"
+            },
+            {
+              "playerId": "team-player/30106764-f3ae-43ee-b89e-5eba8f660dde",
+              "name": "Evan Newell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/899618b4-edd4-45f7-996a-5bfdec154d6f",
               "players": [
                 {
+                  "playerId": "team-player/90a207ad-b820-457c-b603-2bfdb99cd73a",
                   "name": "David Bent",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/30106764-f3ae-43ee-b89e-5eba8f660dde",
                   "name": "Evan Newell",
                   "score": "17"
                 }
@@ -350,12 +513,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ab19bf7a-f5a8-4c9f-a44a-40cd84df4830",
               "players": [
                 {
+                  "playerId": "team-player/90a207ad-b820-457c-b603-2bfdb99cd73a",
                   "name": "David Bent",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/30106764-f3ae-43ee-b89e-5eba8f660dde",
                   "name": "Evan Newell",
                   "score": "25"
                 }
@@ -364,12 +530,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/566f9c67-9706-43db-8092-476d925f93af",
               "players": [
                 {
+                  "playerId": "team-player/90a207ad-b820-457c-b603-2bfdb99cd73a",
                   "name": "David Bent",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/30106764-f3ae-43ee-b89e-5eba8f660dde",
                   "name": "Evan Newell",
                   "score": "22"
                 }
@@ -381,17 +550,26 @@
         },
         {
           "players": [
-            "Jeff Soo",
-            "Patsy Fitzgerald"
+            {
+              "playerId": "team-player/98913d4c-75c3-459f-bc6b-fd8ea3859f7f",
+              "name": "Jeff Soo"
+            },
+            {
+              "playerId": "team-player/2b73e93d-702b-44e1-8af8-5cc458ea6e3a",
+              "name": "Patsy Fitzgerald"
+            }
           ],
           "games": [
             {
+              "gameId": "game/da17f2f5-67b5-47df-ab2a-d26e95905ebd",
               "players": [
                 {
+                  "playerId": "team-player/98913d4c-75c3-459f-bc6b-fd8ea3859f7f",
                   "name": "Jeff Soo",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/2b73e93d-702b-44e1-8af8-5cc458ea6e3a",
                   "name": "Patsy Fitzgerald",
                   "score": "0"
                 }
@@ -400,12 +578,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/92b5eadb-b1cb-4372-8698-ee0867f69cb1",
               "players": [
                 {
+                  "playerId": "team-player/98913d4c-75c3-459f-bc6b-fd8ea3859f7f",
                   "name": "Jeff Soo",
                   "score": "26stp"
                 },
                 {
+                  "playerId": "team-player/2b73e93d-702b-44e1-8af8-5cc458ea6e3a",
                   "name": "Patsy Fitzgerald",
                   "score": "2"
                 }
@@ -417,17 +598,26 @@
         },
         {
           "players": [
-            "Rich Lamm",
-            "Danny Johnston"
+            {
+              "playerId": "team-player/bf64980f-e3f2-4e89-8f43-42c64fbc7e1c",
+              "name": "Rich Lamm"
+            },
+            {
+              "playerId": "team-player/dc647080-35cd-4412-8d3d-cffa5ad009f5",
+              "name": "Danny Johnston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dc3c2c45-5640-43f0-b284-3990849e2eae",
               "players": [
                 {
+                  "playerId": "team-player/bf64980f-e3f2-4e89-8f43-42c64fbc7e1c",
                   "name": "Rich Lamm",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/dc647080-35cd-4412-8d3d-cffa5ad009f5",
                   "name": "Danny Johnston",
                   "score": "9"
                 }
@@ -436,12 +626,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/96e5674e-4390-4014-8dfe-65afee15518f",
               "players": [
                 {
+                  "playerId": "team-player/bf64980f-e3f2-4e89-8f43-42c64fbc7e1c",
                   "name": "Rich Lamm",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/dc647080-35cd-4412-8d3d-cffa5ad009f5",
                   "name": "Danny Johnston",
                   "score": "26tp"
                 }
@@ -450,12 +643,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ebcb1c9e-0cf8-47cb-be10-f3e40fab1ce6",
               "players": [
                 {
+                  "playerId": "team-player/bf64980f-e3f2-4e89-8f43-42c64fbc7e1c",
                   "name": "Rich Lamm",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/dc647080-35cd-4412-8d3d-cffa5ad009f5",
                   "name": "Danny Johnston",
                   "score": "26"
                 }
@@ -467,17 +663,26 @@
         },
         {
           "players": [
-            "Wayne Davies",
-            "Evan Newell"
+            {
+              "playerId": "team-player/9841533a-116b-4fa3-a844-7e6f3d7e2d54",
+              "name": "Wayne Davies"
+            },
+            {
+              "playerId": "team-player/30106764-f3ae-43ee-b89e-5eba8f660dde",
+              "name": "Evan Newell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ebdedfde-5875-4694-962f-53ee1a8ed27a",
               "players": [
                 {
+                  "playerId": "team-player/9841533a-116b-4fa3-a844-7e6f3d7e2d54",
                   "name": "Wayne Davies",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/30106764-f3ae-43ee-b89e-5eba8f660dde",
                   "name": "Evan Newell",
                   "score": "19"
                 }
@@ -486,12 +691,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0dbc2308-41ec-40b4-aae6-641253950016",
               "players": [
                 {
+                  "playerId": "team-player/9841533a-116b-4fa3-a844-7e6f3d7e2d54",
                   "name": "Wayne Davies",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/30106764-f3ae-43ee-b89e-5eba8f660dde",
                   "name": "Evan Newell",
                   "score": "21"
                 }
@@ -503,17 +711,26 @@
         },
         {
           "players": [
-            "David Bent",
-            "Nathaniel Healy"
+            {
+              "playerId": "team-player/90a207ad-b820-457c-b603-2bfdb99cd73a",
+              "name": "David Bent"
+            },
+            {
+              "playerId": "team-player/d642f969-c872-4abf-aefd-5256c2c856f5",
+              "name": "Nathaniel Healy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa7947c7-843c-4652-9477-e0676394710b",
               "players": [
                 {
+                  "playerId": "team-player/90a207ad-b820-457c-b603-2bfdb99cd73a",
                   "name": "David Bent",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d642f969-c872-4abf-aefd-5256c2c856f5",
                   "name": "Nathaniel Healy",
                   "score": "13"
                 }
@@ -522,12 +739,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/02470caf-4809-4de7-b761-4028c9eab382",
               "players": [
                 {
+                  "playerId": "team-player/90a207ad-b820-457c-b603-2bfdb99cd73a",
                   "name": "David Bent",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d642f969-c872-4abf-aefd-5256c2c856f5",
                   "name": "Nathaniel Healy",
                   "score": "20"
                 }
@@ -539,17 +759,26 @@
         },
         {
           "players": [
-            "Soo & Lamm",
-            "Johnston & Fitzgerald"
+            {
+              "playerId": "team-player/c6b32538-0c97-43fe-abc7-2611fdb0a4e7",
+              "name": "Soo & Lamm"
+            },
+            {
+              "playerId": "team-player/331cf2ff-fb13-42fb-865d-8db174a7aad2",
+              "name": "Johnston & Fitzgerald"
+            }
           ],
           "games": [
             {
+              "gameId": "game/484d6d22-9781-4308-ba0d-44deb2416428",
               "players": [
                 {
+                  "playerId": "team-player/c6b32538-0c97-43fe-abc7-2611fdb0a4e7",
                   "name": "Soo & Lamm",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/331cf2ff-fb13-42fb-865d-8db174a7aad2",
                   "name": "Johnston & Fitzgerald",
                   "score": "26"
                 }
@@ -558,12 +787,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/50388b25-a6ce-482f-82fa-9f2967ee250a",
               "players": [
                 {
+                  "playerId": "team-player/c6b32538-0c97-43fe-abc7-2611fdb0a4e7",
                   "name": "Soo & Lamm",
                   "score": "26otp (J)"
                 },
                 {
+                  "playerId": "team-player/331cf2ff-fb13-42fb-865d-8db174a7aad2",
                   "name": "Johnston & Fitzgerald",
                   "score": "18"
                 }
@@ -572,12 +804,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b0644291-c9fb-47e9-b3e4-8a1ca9142f79",
               "players": [
                 {
+                  "playerId": "team-player/c6b32538-0c97-43fe-abc7-2611fdb0a4e7",
                   "name": "Soo & Lamm",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/331cf2ff-fb13-42fb-865d-8db174a7aad2",
                   "name": "Johnston & Fitzgerald",
                   "score": "26"
                 }
@@ -589,17 +824,26 @@
         },
         {
           "players": [
-            "Bent & Davies",
-            "Healy & Newell"
+            {
+              "playerId": "team-player/f108cd70-02f8-4b0b-a70c-3935e3ca2b94",
+              "name": "Bent & Davies"
+            },
+            {
+              "playerId": "team-player/2efb049d-07b8-46dc-9f9b-41da3b4821c1",
+              "name": "Healy & Newell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d6c63217-7751-4118-a80f-d7c15aea0895",
               "players": [
                 {
+                  "playerId": "team-player/f108cd70-02f8-4b0b-a70c-3935e3ca2b94",
                   "name": "Bent & Davies",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/2efb049d-07b8-46dc-9f9b-41da3b4821c1",
                   "name": "Healy & Newell",
                   "score": "26"
                 }
@@ -608,12 +852,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d7197853-c584-4022-b50f-f557bdcec3c1",
               "players": [
                 {
+                  "playerId": "team-player/f108cd70-02f8-4b0b-a70c-3935e3ca2b94",
                   "name": "Bent & Davies",
                   "score": "26stp (B)"
                 },
                 {
+                  "playerId": "team-player/2efb049d-07b8-46dc-9f9b-41da3b4821c1",
                   "name": "Healy & Newell",
                   "score": "11"
                 }

@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7c8d2521-f319-49c6-a540-a446b40310e6",
   "name": "NW Fed LPG Crake Valley v Ellesmere",
   "sport": "gc",
   "firstDay": "2024-04-11",
   "lastDay": "2024-04-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Crake Valley",
       "shortName": "Crake Vall",
       "players": [
-        "David Cornes",
-        "Neil Adams",
-        "Stephen Skelton",
-        "Stephen Skelton - meet again"
+        {
+          "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
+          "name": "David Cornes"
+        },
+        {
+          "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
+          "name": "Neil Adams"
+        },
+        {
+          "playerId": "team-player/1f3a06b1-c264-43ef-858b-f8f9d106a6c9",
+          "name": "Stephen Skelton"
+        },
+        {
+          "playerId": "team-player/13be3bd8-81ec-4124-b797-7829477a74c9",
+          "name": "Stephen Skelton - meet again"
+        }
       ]
     },
     {
       "name": "Ellesmere",
       "shortName": "Ellesmere",
       "players": [
-        "Alan Wright",
-        "Alan Wright - meet again",
-        "Keith Woodward",
-        "Keith Woodward - meet again",
-        "Tony Shields",
-        "Tony Shields - meet again"
+        {
+          "playerId": "team-player/b1c69016-b68f-44f0-ad99-1afe84bb6eaa",
+          "name": "Alan Wright"
+        },
+        {
+          "playerId": "team-player/9b8b66af-a319-4d73-a82d-feedf1ce501a",
+          "name": "Alan Wright - meet again"
+        },
+        {
+          "playerId": "team-player/7c899028-8607-4f69-9a65-0538dc7f77ac",
+          "name": "Keith Woodward"
+        },
+        {
+          "playerId": "team-player/950777c6-c144-4ce4-9127-2f789722da58",
+          "name": "Keith Woodward - meet again"
+        },
+        {
+          "playerId": "team-player/f8abfa1b-8cf1-4e28-91b9-c17cebb45eec",
+          "name": "Tony Shields"
+        },
+        {
+          "playerId": "team-player/42197886-be88-4cc4-990f-1d62661668ee",
+          "name": "Tony Shields - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/dbb305f2-a4bb-488e-b0e9-0a3081087252",
       "teams": [
         "Crake Valley",
         "Ellesmere"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "David Cornes",
-            "Tony Shields"
+            {
+              "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/f8abfa1b-8cf1-4e28-91b9-c17cebb45eec",
+              "name": "Tony Shields"
+            }
           ],
           "games": [
             {
+              "gameId": "game/97f847d0-bedd-4707-a500-f46a4229b994",
               "players": [
                 {
+                  "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f8abfa1b-8cf1-4e28-91b9-c17cebb45eec",
                   "name": "Tony Shields",
                   "score": "5"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Keith Woodward"
+            {
+              "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/7c899028-8607-4f69-9a65-0538dc7f77ac",
+              "name": "Keith Woodward"
+            }
           ],
           "games": [
             {
+              "gameId": "game/55cacb13-7189-48c5-ae4f-c865d17da2cc",
               "players": [
                 {
+                  "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7c899028-8607-4f69-9a65-0538dc7f77ac",
                   "name": "Keith Woodward",
                   "score": "3"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Stephen Skelton",
-            "Alan Wright"
+            {
+              "playerId": "team-player/1f3a06b1-c264-43ef-858b-f8f9d106a6c9",
+              "name": "Stephen Skelton"
+            },
+            {
+              "playerId": "team-player/b1c69016-b68f-44f0-ad99-1afe84bb6eaa",
+              "name": "Alan Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8fe7263b-c5ce-4fbe-a41e-de652ae4bd3f",
               "players": [
                 {
+                  "playerId": "team-player/1f3a06b1-c264-43ef-858b-f8f9d106a6c9",
                   "name": "Stephen Skelton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1c69016-b68f-44f0-ad99-1afe84bb6eaa",
                   "name": "Alan Wright",
                   "score": "5"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Alan Wright"
+            {
+              "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/b1c69016-b68f-44f0-ad99-1afe84bb6eaa",
+              "name": "Alan Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7e05104a-d93f-4efa-9ed3-409939be5b76",
               "players": [
                 {
+                  "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1c69016-b68f-44f0-ad99-1afe84bb6eaa",
                   "name": "Alan Wright",
                   "score": "4"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Stephen Skelton",
-            "Tony Shields"
+            {
+              "playerId": "team-player/1f3a06b1-c264-43ef-858b-f8f9d106a6c9",
+              "name": "Stephen Skelton"
+            },
+            {
+              "playerId": "team-player/f8abfa1b-8cf1-4e28-91b9-c17cebb45eec",
+              "name": "Tony Shields"
+            }
           ],
           "games": [
             {
+              "gameId": "game/157b1fc0-ab95-46dd-85c2-70a1070382e5",
               "players": [
                 {
+                  "playerId": "team-player/1f3a06b1-c264-43ef-858b-f8f9d106a6c9",
                   "name": "Stephen Skelton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f8abfa1b-8cf1-4e28-91b9-c17cebb45eec",
                   "name": "Tony Shields",
                   "score": "0"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Keith Woodward"
+            {
+              "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/7c899028-8607-4f69-9a65-0538dc7f77ac",
+              "name": "Keith Woodward"
+            }
           ],
           "games": [
             {
+              "gameId": "game/320a3096-6cef-4d09-a359-1d967d7c02de",
               "players": [
                 {
+                  "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7c899028-8607-4f69-9a65-0538dc7f77ac",
                   "name": "Keith Woodward",
                   "score": "3"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Stephen Skelton",
-            "Keith Woodward"
+            {
+              "playerId": "team-player/1f3a06b1-c264-43ef-858b-f8f9d106a6c9",
+              "name": "Stephen Skelton"
+            },
+            {
+              "playerId": "team-player/7c899028-8607-4f69-9a65-0538dc7f77ac",
+              "name": "Keith Woodward"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8cd1f6fd-e557-4c00-b7e4-d9b3d5bad32e",
               "players": [
                 {
+                  "playerId": "team-player/1f3a06b1-c264-43ef-858b-f8f9d106a6c9",
                   "name": "Stephen Skelton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7c899028-8607-4f69-9a65-0538dc7f77ac",
                   "name": "Keith Woodward",
                   "score": "4"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Alan Wright"
+            {
+              "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/b1c69016-b68f-44f0-ad99-1afe84bb6eaa",
+              "name": "Alan Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/28632d9c-0a87-4141-be15-8ca8be950e8a",
               "players": [
                 {
+                  "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b1c69016-b68f-44f0-ad99-1afe84bb6eaa",
                   "name": "Alan Wright",
                   "score": "0"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Tony Shields"
+            {
+              "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/f8abfa1b-8cf1-4e28-91b9-c17cebb45eec",
+              "name": "Tony Shields"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1baa67a-a008-4905-bd03-206e86cac4a4",
               "players": [
                 {
+                  "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f8abfa1b-8cf1-4e28-91b9-c17cebb45eec",
                   "name": "Tony Shields",
                   "score": "4"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Tony Shields - meet again"
+            {
+              "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/42197886-be88-4cc4-990f-1d62661668ee",
+              "name": "Tony Shields - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1df3270c-bdaf-46d3-867e-b0c6d24ae84f",
               "players": [
                 {
+                  "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/42197886-be88-4cc4-990f-1d62661668ee",
                   "name": "Tony Shields - meet again",
                   "score": "4"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Alan Wright - meet again"
+            {
+              "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/9b8b66af-a319-4d73-a82d-feedf1ce501a",
+              "name": "Alan Wright - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9985eb92-b1ad-4734-b736-6876b4fdaa0d",
               "players": [
                 {
+                  "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9b8b66af-a319-4d73-a82d-feedf1ce501a",
                   "name": "Alan Wright - meet again",
                   "score": "1"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Stephen Skelton - meet again",
-            "Keith Woodward"
+            {
+              "playerId": "team-player/13be3bd8-81ec-4124-b797-7829477a74c9",
+              "name": "Stephen Skelton - meet again"
+            },
+            {
+              "playerId": "team-player/7c899028-8607-4f69-9a65-0538dc7f77ac",
+              "name": "Keith Woodward"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e5f9610-96e0-4148-b3ba-07c64ffd9374",
               "players": [
                 {
+                  "playerId": "team-player/13be3bd8-81ec-4124-b797-7829477a74c9",
                   "name": "Stephen Skelton - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7c899028-8607-4f69-9a65-0538dc7f77ac",
                   "name": "Keith Woodward",
                   "score": "7"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Alan Wright - meet again"
+            {
+              "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/9b8b66af-a319-4d73-a82d-feedf1ce501a",
+              "name": "Alan Wright - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9246556f-2a9f-4cbf-a635-c52c10052b90",
               "players": [
                 {
+                  "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9b8b66af-a319-4d73-a82d-feedf1ce501a",
                   "name": "Alan Wright - meet again",
                   "score": "5"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Keith Woodward - meet again"
+            {
+              "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/950777c6-c144-4ce4-9127-2f789722da58",
+              "name": "Keith Woodward - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8a2c7596-af76-46ce-bec3-b3a579927ec5",
               "players": [
                 {
+                  "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/950777c6-c144-4ce4-9127-2f789722da58",
                   "name": "Keith Woodward - meet again",
                   "score": "4"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Stephen Skelton - meet again",
-            "Tony Shields"
+            {
+              "playerId": "team-player/13be3bd8-81ec-4124-b797-7829477a74c9",
+              "name": "Stephen Skelton - meet again"
+            },
+            {
+              "playerId": "team-player/f8abfa1b-8cf1-4e28-91b9-c17cebb45eec",
+              "name": "Tony Shields"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1fba709a-703c-4f71-bef4-03a726ed93d5",
               "players": [
                 {
+                  "playerId": "team-player/13be3bd8-81ec-4124-b797-7829477a74c9",
                   "name": "Stephen Skelton - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f8abfa1b-8cf1-4e28-91b9-c17cebb45eec",
                   "name": "Tony Shields",
                   "score": "1"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Tony Shields - meet again"
+            {
+              "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/42197886-be88-4cc4-990f-1d62661668ee",
+              "name": "Tony Shields - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/229c9e95-4334-437b-8a55-64d788141019",
               "players": [
                 {
+                  "playerId": "team-player/9d2ddd97-ab3d-45e0-b2f1-41707e00a39e",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/42197886-be88-4cc4-990f-1d62661668ee",
                   "name": "Tony Shields - meet again",
                   "score": "3"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Keith Woodward - meet again"
+            {
+              "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/950777c6-c144-4ce4-9127-2f789722da58",
+              "name": "Keith Woodward - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf674e09-68fc-431e-931a-f9587d750192",
               "players": [
                 {
+                  "playerId": "team-player/dc900882-35f8-4bc7-94a4-36217dbfe210",
                   "name": "David Cornes",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/950777c6-c144-4ce4-9127-2f789722da58",
                   "name": "Keith Woodward - meet again",
                   "score": "7"
                 }
@@ -415,17 +602,26 @@
         },
         {
           "players": [
-            "Stephen Skelton",
-            "Alan Wright - meet again"
+            {
+              "playerId": "team-player/1f3a06b1-c264-43ef-858b-f8f9d106a6c9",
+              "name": "Stephen Skelton"
+            },
+            {
+              "playerId": "team-player/9b8b66af-a319-4d73-a82d-feedf1ce501a",
+              "name": "Alan Wright - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b205c5d0-1385-4650-a94c-b695ec609180",
               "players": [
                 {
+                  "playerId": "team-player/1f3a06b1-c264-43ef-858b-f8f9d106a6c9",
                   "name": "Stephen Skelton",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/9b8b66af-a319-4d73-a82d-feedf1ce501a",
                   "name": "Alan Wright - meet again",
                   "score": "7"
                 }

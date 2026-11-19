@@ -1,54 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/d9077aad-ba7b-4223-82dc-4f668bdff36d",
   "name": "NSW GC Pennants Division 2 Finals",
   "sport": "gc",
   "firstDay": "2022-06-06",
   "lastDay": "2022-06-07",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Jamberoo",
       "shortName": "Jamberoo",
       "players": [
-        "Betty Ball",
-        "Betty Ball & Manual Gutierrez",
-        "Bob McCumstie",
-        "Carol Tieck",
-        "Carol Tieck & Ted Swan",
-        "Manuel Gutierrez"
+        {
+          "playerId": "team-player/36d4e17b-7158-4fca-b53a-66324fef6dd5",
+          "name": "Betty Ball"
+        },
+        {
+          "playerId": "team-player/5d8a6b1f-3d64-461a-bde0-c3c15b49589b",
+          "name": "Betty Ball & Manual Gutierrez"
+        },
+        {
+          "playerId": "team-player/fef7a391-aeec-40b3-8cf4-32cc3f6c79df",
+          "name": "Bob McCumstie"
+        },
+        {
+          "playerId": "team-player/67e3e056-477d-457b-b18a-4e9872d14870",
+          "name": "Carol Tieck"
+        },
+        {
+          "playerId": "team-player/3dff74dd-f9c9-4da4-b37d-22fbb259b3ec",
+          "name": "Carol Tieck & Ted Swan"
+        },
+        {
+          "playerId": "team-player/3306b1eb-1f2d-4d72-addd-0fc5c2ab10a3",
+          "name": "Manuel Gutierrez"
+        }
       ]
     },
     {
       "name": "Toronto",
       "shortName": "Toronto",
       "players": [
-        "Glenn Sellers",
-        "Jim Houston & Peter Reeve",
-        "Sue Sellers"
+        {
+          "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
+          "name": "Glenn Sellers"
+        },
+        {
+          "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
+          "name": "Jim Houston & Peter Reeve"
+        },
+        {
+          "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
+          "name": "Sue Sellers"
+        }
       ]
     },
     {
       "name": "Chatswood",
       "shortName": "Chatswood",
       "players": [
-        "Antoinette Jackson & John McMillan",
-        "Bob Berry",
-        "Pat Nosworthy"
+        {
+          "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
+          "name": "Antoinette Jackson & John McMillan"
+        },
+        {
+          "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
+          "name": "Bob Berry"
+        },
+        {
+          "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
+          "name": "Pat Nosworthy"
+        }
       ]
     },
     {
       "name": "Coogee",
       "shortName": "Coogee",
       "players": [
-        "Mike Martin",
-        "Stephen Rose & Colum Hughes",
-        "Val Lloyd"
+        {
+          "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
+          "name": "Mike Martin"
+        },
+        {
+          "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
+          "name": "Stephen Rose & Colum Hughes"
+        },
+        {
+          "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
+          "name": "Val Lloyd"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/a989cf82-c52e-4e76-865a-c896c744262d",
       "teams": [
         "Jamberoo",
         "Toronto"
@@ -58,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Betty Ball & Manual Gutierrez",
-            "Jim Houston & Peter Reeve"
+            {
+              "playerId": "team-player/5d8a6b1f-3d64-461a-bde0-c3c15b49589b",
+              "name": "Betty Ball & Manual Gutierrez"
+            },
+            {
+              "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
+              "name": "Jim Houston & Peter Reeve"
+            }
           ],
           "games": [
             {
+              "gameId": "game/19442a38-c8c1-40be-a857-935ad98f3460",
               "players": [
                 {
+                  "playerId": "team-player/5d8a6b1f-3d64-461a-bde0-c3c15b49589b",
                   "name": "Betty Ball & Manual Gutierrez",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
                   "name": "Jim Houston & Peter Reeve",
                   "score": "7"
                 }
@@ -77,12 +135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/903a8919-0e0c-4dbf-b16a-399a211a6c52",
               "players": [
                 {
+                  "playerId": "team-player/5d8a6b1f-3d64-461a-bde0-c3c15b49589b",
                   "name": "Betty Ball & Manual Gutierrez",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
                   "name": "Jim Houston & Peter Reeve",
                   "score": "7"
                 }
@@ -94,17 +155,26 @@
         },
         {
           "players": [
-            "Carol Tieck",
-            "Sue Sellers"
+            {
+              "playerId": "team-player/67e3e056-477d-457b-b18a-4e9872d14870",
+              "name": "Carol Tieck"
+            },
+            {
+              "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
+              "name": "Sue Sellers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5157a91f-a3f0-44c3-acc6-a9aeabd9cdb1",
               "players": [
                 {
+                  "playerId": "team-player/67e3e056-477d-457b-b18a-4e9872d14870",
                   "name": "Carol Tieck",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
                   "name": "Sue Sellers",
                   "score": "7"
                 }
@@ -113,12 +183,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/02255f39-f979-4800-b0bd-06ebe12bd50a",
               "players": [
                 {
+                  "playerId": "team-player/67e3e056-477d-457b-b18a-4e9872d14870",
                   "name": "Carol Tieck",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
                   "name": "Sue Sellers",
                   "score": "7"
                 }
@@ -130,17 +203,26 @@
         },
         {
           "players": [
-            "Bob McCumstie",
-            "Glenn Sellers"
+            {
+              "playerId": "team-player/fef7a391-aeec-40b3-8cf4-32cc3f6c79df",
+              "name": "Bob McCumstie"
+            },
+            {
+              "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
+              "name": "Glenn Sellers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2943d8ad-5b58-4653-894d-4ed9d908d32b",
               "players": [
                 {
+                  "playerId": "team-player/fef7a391-aeec-40b3-8cf4-32cc3f6c79df",
                   "name": "Bob McCumstie",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
                   "name": "Glenn Sellers",
                   "score": "6"
                 }
@@ -149,12 +231,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0f2194f3-fde8-47b1-b257-931aa6a155db",
               "players": [
                 {
+                  "playerId": "team-player/fef7a391-aeec-40b3-8cf4-32cc3f6c79df",
                   "name": "Bob McCumstie",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
                   "name": "Glenn Sellers",
                   "score": "7"
                 }
@@ -167,6 +252,7 @@
       ]
     },
     {
+      "competitionId": "competition/2e976128-7350-4ad8-abc5-77870146ec9f",
       "teams": [
         "Chatswood",
         "Coogee"
@@ -176,17 +262,26 @@
       "matches": [
         {
           "players": [
-            "Antoinette Jackson & John McMillan",
-            "Stephen Rose & Colum Hughes"
+            {
+              "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
+              "name": "Antoinette Jackson & John McMillan"
+            },
+            {
+              "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
+              "name": "Stephen Rose & Colum Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/142775f6-861b-4fc6-b514-24acad882aa2",
               "players": [
                 {
+                  "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
                   "name": "Antoinette Jackson & John McMillan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
                   "name": "Stephen Rose & Colum Hughes",
                   "score": "4"
                 }
@@ -195,12 +290,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/582b539a-51ea-467f-ad3e-1a1b43b49f15",
               "players": [
                 {
+                  "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
                   "name": "Antoinette Jackson & John McMillan",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
                   "name": "Stephen Rose & Colum Hughes",
                   "score": "7"
                 }
@@ -209,12 +307,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c34c39d4-4ef6-4a6a-813a-e501ce408481",
               "players": [
                 {
+                  "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
                   "name": "Antoinette Jackson & John McMillan",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
                   "name": "Stephen Rose & Colum Hughes",
                   "score": "7"
                 }
@@ -226,17 +327,26 @@
         },
         {
           "players": [
-            "Bob Berry",
-            "Val Lloyd"
+            {
+              "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
+              "name": "Bob Berry"
+            },
+            {
+              "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
+              "name": "Val Lloyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dbaad275-20bd-45ba-9226-559901011227",
               "players": [
                 {
+                  "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
                   "name": "Bob Berry",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
                   "name": "Val Lloyd",
                   "score": "7"
                 }
@@ -245,12 +355,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/de21d1a6-0d73-4e48-b4ec-42584e979b04",
               "players": [
                 {
+                  "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
                   "name": "Bob Berry",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
                   "name": "Val Lloyd",
                   "score": "7"
                 }
@@ -262,17 +375,26 @@
         },
         {
           "players": [
-            "Pat Nosworthy",
-            "Mike Martin"
+            {
+              "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
+              "name": "Pat Nosworthy"
+            },
+            {
+              "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
+              "name": "Mike Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1263ad57-7cf3-4392-bffb-67c3e3b645f0",
               "players": [
                 {
+                  "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
                   "name": "Pat Nosworthy",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
                   "name": "Mike Martin",
                   "score": "7"
                 }
@@ -281,12 +403,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8e66f87e-1bee-4f83-aa57-78fe032a18b0",
               "players": [
                 {
+                  "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
                   "name": "Pat Nosworthy",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
                   "name": "Mike Martin",
                   "score": "7"
                 }
@@ -299,6 +424,7 @@
       ]
     },
     {
+      "competitionId": "competition/0998fdff-cef6-486c-ba7a-db1870051d1e",
       "teams": [
         "Coogee",
         "Jamberoo"
@@ -308,17 +434,26 @@
       "matches": [
         {
           "players": [
-            "Stephen Rose & Colum Hughes",
-            "Carol Tieck & Ted Swan"
+            {
+              "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
+              "name": "Stephen Rose & Colum Hughes"
+            },
+            {
+              "playerId": "team-player/3dff74dd-f9c9-4da4-b37d-22fbb259b3ec",
+              "name": "Carol Tieck & Ted Swan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/812b1d84-fb2a-4afd-ae2e-76921ec5e6a1",
               "players": [
                 {
+                  "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
                   "name": "Stephen Rose & Colum Hughes",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3dff74dd-f9c9-4da4-b37d-22fbb259b3ec",
                   "name": "Carol Tieck & Ted Swan",
                   "score": "7"
                 }
@@ -327,12 +462,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fec023e6-9669-42b7-992b-b2599c363f20",
               "players": [
                 {
+                  "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
                   "name": "Stephen Rose & Colum Hughes",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3dff74dd-f9c9-4da4-b37d-22fbb259b3ec",
                   "name": "Carol Tieck & Ted Swan",
                   "score": "7"
                 }
@@ -344,17 +482,26 @@
         },
         {
           "players": [
-            "Val Lloyd",
-            "Bob McCumstie"
+            {
+              "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
+              "name": "Val Lloyd"
+            },
+            {
+              "playerId": "team-player/fef7a391-aeec-40b3-8cf4-32cc3f6c79df",
+              "name": "Bob McCumstie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d276683-1f78-435b-8cc7-50f22d32b636",
               "players": [
                 {
+                  "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
                   "name": "Val Lloyd",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fef7a391-aeec-40b3-8cf4-32cc3f6c79df",
                   "name": "Bob McCumstie",
                   "score": "4"
                 }
@@ -363,12 +510,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/aa2bdc22-0a20-4067-adf9-4d1799caf93a",
               "players": [
                 {
+                  "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
                   "name": "Val Lloyd",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fef7a391-aeec-40b3-8cf4-32cc3f6c79df",
                   "name": "Bob McCumstie",
                   "score": "6"
                 }
@@ -380,17 +530,26 @@
         },
         {
           "players": [
-            "Mike Martin",
-            "Manuel Gutierrez"
+            {
+              "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
+              "name": "Mike Martin"
+            },
+            {
+              "playerId": "team-player/3306b1eb-1f2d-4d72-addd-0fc5c2ab10a3",
+              "name": "Manuel Gutierrez"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fe31143e-8317-406f-a3ae-53d41576e9f1",
               "players": [
                 {
+                  "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
                   "name": "Mike Martin",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/3306b1eb-1f2d-4d72-addd-0fc5c2ab10a3",
                   "name": "Manuel Gutierrez",
                   "score": "7"
                 }
@@ -399,12 +558,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0bdc1b83-50ac-4f8f-baf3-62200bb5a3b8",
               "players": [
                 {
+                  "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
                   "name": "Mike Martin",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3306b1eb-1f2d-4d72-addd-0fc5c2ab10a3",
                   "name": "Manuel Gutierrez",
                   "score": "7"
                 }
@@ -417,6 +579,7 @@
       ]
     },
     {
+      "competitionId": "competition/69a65a03-1af3-4ea9-864d-b81cbc39be54",
       "teams": [
         "Toronto",
         "Chatswood"
@@ -426,17 +589,26 @@
       "matches": [
         {
           "players": [
-            "Jim Houston & Peter Reeve",
-            "Antoinette Jackson & John McMillan"
+            {
+              "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
+              "name": "Jim Houston & Peter Reeve"
+            },
+            {
+              "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
+              "name": "Antoinette Jackson & John McMillan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c608c6ca-6d5e-4b45-a031-a88ea8c42e40",
               "players": [
                 {
+                  "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
                   "name": "Jim Houston & Peter Reeve",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
                   "name": "Antoinette Jackson & John McMillan",
                   "score": "6"
                 }
@@ -445,12 +617,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7aa7a8c4-474c-4d73-ab36-c8dae11e5039",
               "players": [
                 {
+                  "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
                   "name": "Jim Houston & Peter Reeve",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
                   "name": "Antoinette Jackson & John McMillan",
                   "score": "6"
                 }
@@ -462,17 +637,26 @@
         },
         {
           "players": [
-            "Sue Sellers",
-            "Bob Berry"
+            {
+              "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
+              "name": "Sue Sellers"
+            },
+            {
+              "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
+              "name": "Bob Berry"
+            }
           ],
           "games": [
             {
+              "gameId": "game/01df9ee2-dae2-4ede-81e3-d23d4e07f3ee",
               "players": [
                 {
+                  "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
                   "name": "Sue Sellers",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
                   "name": "Bob Berry",
                   "score": "7"
                 }
@@ -481,12 +665,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0615d52e-81d1-41a6-9a68-58b880a436a0",
               "players": [
                 {
+                  "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
                   "name": "Sue Sellers",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
                   "name": "Bob Berry",
                   "score": "4"
                 }
@@ -495,12 +682,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/aaad03b4-8044-4781-af6d-343e8a71a491",
               "players": [
                 {
+                  "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
                   "name": "Sue Sellers",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
                   "name": "Bob Berry",
                   "score": "6"
                 }
@@ -512,17 +702,26 @@
         },
         {
           "players": [
-            "Glenn Sellers",
-            "Pat Nosworthy"
+            {
+              "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
+              "name": "Glenn Sellers"
+            },
+            {
+              "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
+              "name": "Pat Nosworthy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c09a45ac-60e1-401a-b716-3ce78615a4ab",
               "players": [
                 {
+                  "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
                   "name": "Glenn Sellers",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
                   "name": "Pat Nosworthy",
                   "score": "1"
                 }
@@ -531,12 +730,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4dc680ea-2412-4260-ad11-42bc6b61fa57",
               "players": [
                 {
+                  "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
                   "name": "Glenn Sellers",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
                   "name": "Pat Nosworthy",
                   "score": "3"
                 }
@@ -549,6 +751,7 @@
       ]
     },
     {
+      "competitionId": "competition/07c1b162-a30e-419b-9424-2377d88e8e40",
       "teams": [
         "Coogee",
         "Toronto"
@@ -558,17 +761,26 @@
       "matches": [
         {
           "players": [
-            "Stephen Rose & Colum Hughes",
-            "Jim Houston & Peter Reeve"
+            {
+              "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
+              "name": "Stephen Rose & Colum Hughes"
+            },
+            {
+              "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
+              "name": "Jim Houston & Peter Reeve"
+            }
           ],
           "games": [
             {
+              "gameId": "game/409cd30b-b6f2-483e-a275-8811244bd4d6",
               "players": [
                 {
+                  "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
                   "name": "Stephen Rose & Colum Hughes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
                   "name": "Jim Houston & Peter Reeve",
                   "score": "4"
                 }
@@ -577,12 +789,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ab70908f-aaba-4d31-a53b-57bc885292ef",
               "players": [
                 {
+                  "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
                   "name": "Stephen Rose & Colum Hughes",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
                   "name": "Jim Houston & Peter Reeve",
                   "score": "6"
                 }
@@ -591,12 +806,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1e714682-cd60-45ff-995b-fd4c8a16242d",
               "players": [
                 {
+                  "playerId": "team-player/b9b71ed2-48b9-4ac8-bec7-5ae6a47d4dd8",
                   "name": "Stephen Rose & Colum Hughes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4b959ae6-484c-40ea-9efe-d2d277b6d24a",
                   "name": "Jim Houston & Peter Reeve",
                   "score": "3"
                 }
@@ -608,17 +826,26 @@
         },
         {
           "players": [
-            "Val Lloyd",
-            "Sue Sellers"
+            {
+              "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
+              "name": "Val Lloyd"
+            },
+            {
+              "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
+              "name": "Sue Sellers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/06a6883c-8616-4208-b724-59d21bd27310",
               "players": [
                 {
+                  "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
                   "name": "Val Lloyd",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
                   "name": "Sue Sellers",
                   "score": "7"
                 }
@@ -627,12 +854,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e9cd43b9-c282-4331-b553-db869f7c58fa",
               "players": [
                 {
+                  "playerId": "team-player/4ab3effd-d7f8-45c3-b821-88997b9f232f",
                   "name": "Val Lloyd",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/1f7e70f7-66a5-4a5a-bf2b-4edc8aed3eef",
                   "name": "Sue Sellers",
                   "score": "7"
                 }
@@ -644,17 +874,26 @@
         },
         {
           "players": [
-            "Mike Martin",
-            "Glenn Sellers"
+            {
+              "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
+              "name": "Mike Martin"
+            },
+            {
+              "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
+              "name": "Glenn Sellers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1ef422da-5e6a-4415-b203-067930b0d6f0",
               "players": [
                 {
+                  "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
                   "name": "Mike Martin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
                   "name": "Glenn Sellers",
                   "score": "3"
                 }
@@ -663,12 +902,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1df07e50-228f-4609-96ab-417d68e9063c",
               "players": [
                 {
+                  "playerId": "team-player/3c88b20a-6158-4cdf-83a1-ea3019b4ab7a",
                   "name": "Mike Martin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d0e9e35d-4c00-446a-aeca-d9846c34e813",
                   "name": "Glenn Sellers",
                   "score": "5"
                 }
@@ -681,6 +923,7 @@
       ]
     },
     {
+      "competitionId": "competition/806d42d9-1048-4d31-adf6-29d3380a88fd",
       "teams": [
         "Jamberoo",
         "Chatswood"
@@ -690,17 +933,26 @@
       "matches": [
         {
           "players": [
-            "Carol Tieck & Ted Swan",
-            "Antoinette Jackson & John McMillan"
+            {
+              "playerId": "team-player/3dff74dd-f9c9-4da4-b37d-22fbb259b3ec",
+              "name": "Carol Tieck & Ted Swan"
+            },
+            {
+              "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
+              "name": "Antoinette Jackson & John McMillan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f24d3314-9e94-4f46-87ff-dade586a0aac",
               "players": [
                 {
+                  "playerId": "team-player/3dff74dd-f9c9-4da4-b37d-22fbb259b3ec",
                   "name": "Carol Tieck & Ted Swan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
                   "name": "Antoinette Jackson & John McMillan",
                   "score": "2"
                 }
@@ -709,12 +961,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1a3f95c9-b48b-4cb3-98e7-e94177f37932",
               "players": [
                 {
+                  "playerId": "team-player/3dff74dd-f9c9-4da4-b37d-22fbb259b3ec",
                   "name": "Carol Tieck & Ted Swan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd27d2f1-479d-4e9b-be72-0858dbeacb3d",
                   "name": "Antoinette Jackson & John McMillan",
                   "score": "3"
                 }
@@ -726,17 +981,26 @@
         },
         {
           "players": [
-            "Betty Ball",
-            "Bob Berry"
+            {
+              "playerId": "team-player/36d4e17b-7158-4fca-b53a-66324fef6dd5",
+              "name": "Betty Ball"
+            },
+            {
+              "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
+              "name": "Bob Berry"
+            }
           ],
           "games": [
             {
+              "gameId": "game/67962c19-7190-4bb3-b8c7-d1042a0f85d7",
               "players": [
                 {
+                  "playerId": "team-player/36d4e17b-7158-4fca-b53a-66324fef6dd5",
                   "name": "Betty Ball",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
                   "name": "Bob Berry",
                   "score": "7"
                 }
@@ -745,12 +1009,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/02a1723d-8389-463e-b40d-cefb86304f86",
               "players": [
                 {
+                  "playerId": "team-player/36d4e17b-7158-4fca-b53a-66324fef6dd5",
                   "name": "Betty Ball",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3b67e92c-e6b9-4940-b89b-61ec8f135ebe",
                   "name": "Bob Berry",
                   "score": "7"
                 }
@@ -762,17 +1029,26 @@
         },
         {
           "players": [
-            "Manuel Gutierrez",
-            "Pat Nosworthy"
+            {
+              "playerId": "team-player/3306b1eb-1f2d-4d72-addd-0fc5c2ab10a3",
+              "name": "Manuel Gutierrez"
+            },
+            {
+              "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
+              "name": "Pat Nosworthy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/876b9ae5-f407-4049-9a3d-91642a4dc440",
               "players": [
                 {
+                  "playerId": "team-player/3306b1eb-1f2d-4d72-addd-0fc5c2ab10a3",
                   "name": "Manuel Gutierrez",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
                   "name": "Pat Nosworthy",
                   "score": "0"
                 }
@@ -781,12 +1057,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f5270532-562b-4e7d-bb86-0887a0b203bf",
               "players": [
                 {
+                  "playerId": "team-player/3306b1eb-1f2d-4d72-addd-0fc5c2ab10a3",
                   "name": "Manuel Gutierrez",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d4db350b-6368-4578-a928-403e49904b91",
                   "name": "Pat Nosworthy",
                   "score": "4"
                 }

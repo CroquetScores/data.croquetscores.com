@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/8b050746-acd9-4875-aad2-51fafee6350a",
   "name": "Solomon Trophy",
   "sport": "ac",
   "firstDay": "2023-11-09",
   "lastDay": "2023-11-12",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Great Britain",
       "shortName": "Great Brit",
       "players": [
-        "Alain Giraud",
-        "Alain Giraud & Mark van Loon",
-        "Aston Wade",
-        "Debbie Lines",
-        "Gabrielle Higgins",
-        "Gabrielle Higgins & Debbie Lines",
-        "Mark van Loon",
-        "Stephen Mulliner",
-        "Stephen Mulliner & Aston Wade"
+        {
+          "playerId": "team-player/0d1c0a55-5e82-41cc-b94f-1190d16fb88b",
+          "name": "Alain Giraud"
+        },
+        {
+          "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
+          "name": "Alain Giraud & Mark van Loon"
+        },
+        {
+          "playerId": "team-player/349fdf7b-f6bf-47e6-adc6-65520a4d2348",
+          "name": "Aston Wade"
+        },
+        {
+          "playerId": "team-player/e2ac0aca-5dad-4a65-b5cc-b21d77d32d77",
+          "name": "Debbie Lines"
+        },
+        {
+          "playerId": "team-player/c40e8742-2fb0-4e45-8eb2-ef457987f50a",
+          "name": "Gabrielle Higgins"
+        },
+        {
+          "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
+          "name": "Gabrielle Higgins & Debbie Lines"
+        },
+        {
+          "playerId": "team-player/1c84f098-ebf8-4f7e-95b9-3ad9deb58bc6",
+          "name": "Mark van Loon"
+        },
+        {
+          "playerId": "team-player/ec096d2d-44f0-48c9-b8b0-d3cc1f237688",
+          "name": "Stephen Mulliner"
+        },
+        {
+          "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
+          "name": "Stephen Mulliner & Aston Wade"
+        }
       ]
     },
     {
       "name": "USA",
       "shortName": "USA",
       "players": [
-        "Ben Rothman",
-        "Kyle Maloof",
-        "Matthew Essick",
-        "Matthew Essick & Zack Watson",
-        "Stephen Morgan",
-        "Stephen Morgan & Ben Rothman",
-        "Tom Balding",
-        "Tom Balding & Kyle Maloof",
-        "Zack Watson"
+        {
+          "playerId": "team-player/a97d0070-8ea6-4dd0-b077-9f96833c7db5",
+          "name": "Ben Rothman"
+        },
+        {
+          "playerId": "team-player/56b17e89-6479-4950-bcd5-b6c91dac41c0",
+          "name": "Kyle Maloof"
+        },
+        {
+          "playerId": "team-player/38a815f1-03c6-47a2-85a8-33d40b0260af",
+          "name": "Matthew Essick"
+        },
+        {
+          "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
+          "name": "Matthew Essick & Zack Watson"
+        },
+        {
+          "playerId": "team-player/465e44bd-0e24-47db-877c-36f90f687743",
+          "name": "Stephen Morgan"
+        },
+        {
+          "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
+          "name": "Stephen Morgan & Ben Rothman"
+        },
+        {
+          "playerId": "team-player/67bc46d0-cee5-4c5c-a8cb-3b7179ba7657",
+          "name": "Tom Balding"
+        },
+        {
+          "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
+          "name": "Tom Balding & Kyle Maloof"
+        },
+        {
+          "playerId": "team-player/4583916d-38a1-4a29-8643-00ba69a71f28",
+          "name": "Zack Watson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1e743d6b-bb41-4bc2-a3a5-c69151d0a186",
       "teams": [
         "Great Britain",
         "USA"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Stephen Mulliner & Aston Wade",
-            "Matthew Essick & Zack Watson"
+            {
+              "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
+              "name": "Stephen Mulliner & Aston Wade"
+            },
+            {
+              "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
+              "name": "Matthew Essick & Zack Watson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3196043-fadf-46c0-81af-c4942bea8dce",
               "players": [
                 {
+                  "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
                   "name": "Stephen Mulliner & Aston Wade",
                   "score": "26tp (W)"
                 },
                 {
+                  "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "9"
                 }
@@ -68,12 +135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/20cbcfc7-ecb0-4b9a-9f13-2bad597afe3d",
               "players": [
                 {
+                  "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
                   "name": "Stephen Mulliner & Aston Wade",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26tp (E)"
                 }
@@ -82,12 +152,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9caa42ba-bb30-4404-b083-f22271181470",
               "players": [
                 {
+                  "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
                   "name": "Stephen Mulliner & Aston Wade",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "24"
                 }
@@ -99,17 +172,26 @@
         },
         {
           "players": [
-            "Gabrielle Higgins & Debbie Lines",
-            "Stephen Morgan & Ben Rothman"
+            {
+              "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
+              "name": "Gabrielle Higgins & Debbie Lines"
+            },
+            {
+              "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
+              "name": "Stephen Morgan & Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/88af689c-fa4c-4dee-88a2-64c75537f802",
               "players": [
                 {
+                  "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
                   "name": "Gabrielle Higgins & Debbie Lines",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
                   "name": "Stephen Morgan & Ben Rothman",
                   "score": "0"
                 }
@@ -118,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/38a09767-e105-42f7-9e30-995897aef333",
               "players": [
                 {
+                  "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
                   "name": "Gabrielle Higgins & Debbie Lines",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
                   "name": "Stephen Morgan & Ben Rothman",
                   "score": "26tp (M)"
                 }
@@ -132,12 +217,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a99496b0-30ca-42d2-a884-a2f97bab0c8c",
               "players": [
                 {
+                  "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
                   "name": "Gabrielle Higgins & Debbie Lines",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
                   "name": "Stephen Morgan & Ben Rothman",
                   "score": "0"
                 }
@@ -149,17 +237,26 @@
         },
         {
           "players": [
-            "Alain Giraud & Mark van Loon",
-            "Tom Balding & Kyle Maloof"
+            {
+              "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
+              "name": "Alain Giraud & Mark van Loon"
+            },
+            {
+              "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
+              "name": "Tom Balding & Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4763a25-45c6-4866-b20f-36116250004c",
               "players": [
                 {
+                  "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
                   "name": "Alain Giraud & Mark van Loon",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
                   "name": "Tom Balding & Kyle Maloof",
                   "score": "26tp (B)"
                 }
@@ -168,12 +265,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5a4582e3-a5c0-45c0-8027-88a170ff0a26",
               "players": [
                 {
+                  "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
                   "name": "Alain Giraud & Mark van Loon",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
                   "name": "Tom Balding & Kyle Maloof",
                   "score": "26tp (B)"
                 }
@@ -185,17 +285,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner & Aston Wade",
-            "Stephen Morgan & Ben Rothman"
+            {
+              "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
+              "name": "Stephen Mulliner & Aston Wade"
+            },
+            {
+              "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
+              "name": "Stephen Morgan & Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5dc303ea-c364-4f97-bba8-a49a453e9043",
               "players": [
                 {
+                  "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
                   "name": "Stephen Mulliner & Aston Wade",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
                   "name": "Stephen Morgan & Ben Rothman",
                   "score": "26tp (R)"
                 }
@@ -204,12 +313,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dd3c94e6-c368-4e53-8491-09ed68ffe5e4",
               "players": [
                 {
+                  "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
                   "name": "Stephen Mulliner & Aston Wade",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
                   "name": "Stephen Morgan & Ben Rothman",
                   "score": "26tp (R)"
                 }
@@ -221,17 +333,26 @@
         },
         {
           "players": [
-            "Alain Giraud & Mark van Loon",
-            "Matthew Essick & Zack Watson"
+            {
+              "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
+              "name": "Alain Giraud & Mark van Loon"
+            },
+            {
+              "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
+              "name": "Matthew Essick & Zack Watson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8a98f67-911e-470c-a66e-8c6facfd1d64",
               "players": [
                 {
+                  "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
                   "name": "Alain Giraud & Mark van Loon",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26"
                 }
@@ -240,12 +361,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6905e474-4253-4f55-931b-3a12396b26ab",
               "players": [
                 {
+                  "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
                   "name": "Alain Giraud & Mark van Loon",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26tp (E)"
                 }
@@ -257,17 +381,26 @@
         },
         {
           "players": [
-            "Gabrielle Higgins & Debbie Lines",
-            "Tom Balding & Kyle Maloof"
+            {
+              "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
+              "name": "Gabrielle Higgins & Debbie Lines"
+            },
+            {
+              "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
+              "name": "Tom Balding & Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/14a3373d-b9ab-44c1-b6cc-4e99ce52b916",
               "players": [
                 {
+                  "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
                   "name": "Gabrielle Higgins & Debbie Lines",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
                   "name": "Tom Balding & Kyle Maloof",
                   "score": "26"
                 }
@@ -276,12 +409,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a28b2502-ba62-4ca8-ad76-82e674930e8a",
               "players": [
                 {
+                  "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
                   "name": "Gabrielle Higgins & Debbie Lines",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
                   "name": "Tom Balding & Kyle Maloof",
                   "score": "26stp (M)"
                 }
@@ -293,17 +429,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner",
-            "Tom Balding"
+            {
+              "playerId": "team-player/ec096d2d-44f0-48c9-b8b0-d3cc1f237688",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/67bc46d0-cee5-4c5c-a8cb-3b7179ba7657",
+              "name": "Tom Balding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9384b8b5-d3af-4e49-9bed-89e1e11b59be",
               "players": [
                 {
+                  "playerId": "team-player/ec096d2d-44f0-48c9-b8b0-d3cc1f237688",
                   "name": "Stephen Mulliner",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/67bc46d0-cee5-4c5c-a8cb-3b7179ba7657",
                   "name": "Tom Balding",
                   "score": "26tp"
                 }
@@ -312,12 +457,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5d4a96c7-eb82-4763-b286-a77e67971356",
               "players": [
                 {
+                  "playerId": "team-player/ec096d2d-44f0-48c9-b8b0-d3cc1f237688",
                   "name": "Stephen Mulliner",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/67bc46d0-cee5-4c5c-a8cb-3b7179ba7657",
                   "name": "Tom Balding",
                   "score": "9"
                 }
@@ -326,12 +474,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/10c7c347-c254-41d4-a384-30bb9e3569a7",
               "players": [
                 {
+                  "playerId": "team-player/ec096d2d-44f0-48c9-b8b0-d3cc1f237688",
                   "name": "Stephen Mulliner",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/67bc46d0-cee5-4c5c-a8cb-3b7179ba7657",
                   "name": "Tom Balding",
                   "score": "14"
                 }
@@ -343,17 +494,26 @@
         },
         {
           "players": [
-            "Alain Giraud",
-            "Matthew Essick"
+            {
+              "playerId": "team-player/0d1c0a55-5e82-41cc-b94f-1190d16fb88b",
+              "name": "Alain Giraud"
+            },
+            {
+              "playerId": "team-player/38a815f1-03c6-47a2-85a8-33d40b0260af",
+              "name": "Matthew Essick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2eb087a4-f971-43e6-84ef-db17d0ac2083",
               "players": [
                 {
+                  "playerId": "team-player/0d1c0a55-5e82-41cc-b94f-1190d16fb88b",
                   "name": "Alain Giraud",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/38a815f1-03c6-47a2-85a8-33d40b0260af",
                   "name": "Matthew Essick",
                   "score": "5"
                 }
@@ -362,12 +522,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/addf7a42-15f1-4d57-b850-2cd486b4faa3",
               "players": [
                 {
+                  "playerId": "team-player/0d1c0a55-5e82-41cc-b94f-1190d16fb88b",
                   "name": "Alain Giraud",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/38a815f1-03c6-47a2-85a8-33d40b0260af",
                   "name": "Matthew Essick",
                   "score": "26tp"
                 }
@@ -376,12 +539,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/25baccff-8584-4a21-bb1a-f4797036ae3a",
               "players": [
                 {
+                  "playerId": "team-player/0d1c0a55-5e82-41cc-b94f-1190d16fb88b",
                   "name": "Alain Giraud",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/38a815f1-03c6-47a2-85a8-33d40b0260af",
                   "name": "Matthew Essick",
                   "score": "9"
                 }
@@ -393,17 +559,26 @@
         },
         {
           "players": [
-            "Mark van Loon",
-            "Kyle Maloof"
+            {
+              "playerId": "team-player/1c84f098-ebf8-4f7e-95b9-3ad9deb58bc6",
+              "name": "Mark van Loon"
+            },
+            {
+              "playerId": "team-player/56b17e89-6479-4950-bcd5-b6c91dac41c0",
+              "name": "Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e10e932-831f-4cd4-8fd6-46b488c041ac",
               "players": [
                 {
+                  "playerId": "team-player/1c84f098-ebf8-4f7e-95b9-3ad9deb58bc6",
                   "name": "Mark van Loon",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/56b17e89-6479-4950-bcd5-b6c91dac41c0",
                   "name": "Kyle Maloof",
                   "score": "26tp"
                 }
@@ -412,12 +587,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fa3c2d2d-0628-43f5-b793-dae7606e2a3c",
               "players": [
                 {
+                  "playerId": "team-player/1c84f098-ebf8-4f7e-95b9-3ad9deb58bc6",
                   "name": "Mark van Loon",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/56b17e89-6479-4950-bcd5-b6c91dac41c0",
                   "name": "Kyle Maloof",
                   "score": "16"
                 }
@@ -426,12 +604,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2a7df105-1bbb-4306-a21f-f2eaf68a9c6b",
               "players": [
                 {
+                  "playerId": "team-player/1c84f098-ebf8-4f7e-95b9-3ad9deb58bc6",
                   "name": "Mark van Loon",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/56b17e89-6479-4950-bcd5-b6c91dac41c0",
                   "name": "Kyle Maloof",
                   "score": "23"
                 }
@@ -443,17 +624,26 @@
         },
         {
           "players": [
-            "Debbie Lines",
-            "Zack Watson"
+            {
+              "playerId": "team-player/e2ac0aca-5dad-4a65-b5cc-b21d77d32d77",
+              "name": "Debbie Lines"
+            },
+            {
+              "playerId": "team-player/4583916d-38a1-4a29-8643-00ba69a71f28",
+              "name": "Zack Watson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5fe84356-8563-4b46-99c4-dc7f1b3914ee",
               "players": [
                 {
+                  "playerId": "team-player/e2ac0aca-5dad-4a65-b5cc-b21d77d32d77",
                   "name": "Debbie Lines",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/4583916d-38a1-4a29-8643-00ba69a71f28",
                   "name": "Zack Watson",
                   "score": "26otp"
                 }
@@ -462,12 +652,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/32eea107-66ad-47a4-82bd-2fe2419f05b5",
               "players": [
                 {
+                  "playerId": "team-player/e2ac0aca-5dad-4a65-b5cc-b21d77d32d77",
                   "name": "Debbie Lines",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/4583916d-38a1-4a29-8643-00ba69a71f28",
                   "name": "Zack Watson",
                   "score": "26"
                 }
@@ -479,17 +672,26 @@
         },
         {
           "players": [
-            "Gabrielle Higgins",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/c40e8742-2fb0-4e45-8eb2-ef457987f50a",
+              "name": "Gabrielle Higgins"
+            },
+            {
+              "playerId": "team-player/a97d0070-8ea6-4dd0-b077-9f96833c7db5",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/becdeb78-c807-49bb-a7e8-f31740bdd938",
               "players": [
                 {
+                  "playerId": "team-player/c40e8742-2fb0-4e45-8eb2-ef457987f50a",
                   "name": "Gabrielle Higgins",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/a97d0070-8ea6-4dd0-b077-9f96833c7db5",
                   "name": "Ben Rothman",
                   "score": "26tp"
                 }
@@ -498,12 +700,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/caa6f778-7776-4c37-9195-77388caaba0e",
               "players": [
                 {
+                  "playerId": "team-player/c40e8742-2fb0-4e45-8eb2-ef457987f50a",
                   "name": "Gabrielle Higgins",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a97d0070-8ea6-4dd0-b077-9f96833c7db5",
                   "name": "Ben Rothman",
                   "score": "26tp"
                 }
@@ -515,17 +720,26 @@
         },
         {
           "players": [
-            "Aston Wade",
-            "Stephen Morgan"
+            {
+              "playerId": "team-player/349fdf7b-f6bf-47e6-adc6-65520a4d2348",
+              "name": "Aston Wade"
+            },
+            {
+              "playerId": "team-player/465e44bd-0e24-47db-877c-36f90f687743",
+              "name": "Stephen Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4c61d3fd-f7c9-4752-9aaf-ac703f4ade16",
               "players": [
                 {
+                  "playerId": "team-player/349fdf7b-f6bf-47e6-adc6-65520a4d2348",
                   "name": "Aston Wade",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/465e44bd-0e24-47db-877c-36f90f687743",
                   "name": "Stephen Morgan",
                   "score": "26"
                 }
@@ -534,12 +748,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7614217d-32a0-4359-a9cb-b82f97cbf4a4",
               "players": [
                 {
+                  "playerId": "team-player/349fdf7b-f6bf-47e6-adc6-65520a4d2348",
                   "name": "Aston Wade",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/465e44bd-0e24-47db-877c-36f90f687743",
                   "name": "Stephen Morgan",
                   "score": "26"
                 }
@@ -551,17 +768,26 @@
         },
         {
           "players": [
-            "Gabrielle Higgins & Debbie Lines",
-            "Matthew Essick & Zack Watson"
+            {
+              "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
+              "name": "Gabrielle Higgins & Debbie Lines"
+            },
+            {
+              "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
+              "name": "Matthew Essick & Zack Watson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fb778c0b-b19d-4661-9ad8-dbfc4f70c6ea",
               "players": [
                 {
+                  "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
                   "name": "Gabrielle Higgins & Debbie Lines",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26tp (W)"
                 }
@@ -570,12 +796,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8c6b4832-fc74-4a22-a477-8f6e387397ba",
               "players": [
                 {
+                  "playerId": "team-player/bc36ecd0-ac75-4989-9309-ab0fa99d990d",
                   "name": "Gabrielle Higgins & Debbie Lines",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/b24cceed-138e-46ae-92c0-764876ee69ca",
                   "name": "Matthew Essick & Zack Watson",
                   "score": "26"
                 }
@@ -587,17 +816,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner & Aston Wade",
-            "Tom Balding & Kyle Maloof"
+            {
+              "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
+              "name": "Stephen Mulliner & Aston Wade"
+            },
+            {
+              "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
+              "name": "Tom Balding & Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/55107939-fb98-4279-b4af-299a7b562742",
               "players": [
                 {
+                  "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
                   "name": "Stephen Mulliner & Aston Wade",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
                   "name": "Tom Balding & Kyle Maloof",
                   "score": "26"
                 }
@@ -606,12 +844,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6e71829b-9e89-41aa-a325-0eb71ec2d664",
               "players": [
                 {
+                  "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
                   "name": "Stephen Mulliner & Aston Wade",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
                   "name": "Tom Balding & Kyle Maloof",
                   "score": "16"
                 }
@@ -620,12 +861,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/76f8999e-4ea5-43fd-a5a5-141a42a8776c",
               "players": [
                 {
+                  "playerId": "team-player/84053243-1350-4ea0-ad3f-77bab9a91f3a",
                   "name": "Stephen Mulliner & Aston Wade",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/932c5c24-ed3c-44e2-8b27-9efd0469a95f",
                   "name": "Tom Balding & Kyle Maloof",
                   "score": "26"
                 }
@@ -637,17 +881,26 @@
         },
         {
           "players": [
-            "Alain Giraud & Mark van Loon",
-            "Stephen Morgan & Ben Rothman"
+            {
+              "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
+              "name": "Alain Giraud & Mark van Loon"
+            },
+            {
+              "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
+              "name": "Stephen Morgan & Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e11180fd-6941-46f8-9850-e83439014f90",
               "players": [
                 {
+                  "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
                   "name": "Alain Giraud & Mark van Loon",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
                   "name": "Stephen Morgan & Ben Rothman",
                   "score": "26tp (M)"
                 }
@@ -656,12 +909,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/865a9d73-0c05-426b-9c1b-a754823ce89d",
               "players": [
                 {
+                  "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
                   "name": "Alain Giraud & Mark van Loon",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
                   "name": "Stephen Morgan & Ben Rothman",
                   "score": "9"
                 }
@@ -670,12 +926,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/df382ed9-4676-4078-95da-4d9833f506d5",
               "players": [
                 {
+                  "playerId": "team-player/da35cb2b-2512-4ce2-83f1-2759cd2a89c2",
                   "name": "Alain Giraud & Mark van Loon",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/ef84229b-1428-4984-8eec-0d70f46df0fc",
                   "name": "Stephen Morgan & Ben Rothman",
                   "score": "26"
                 }
@@ -687,17 +946,26 @@
         },
         {
           "players": [
-            "Gabrielle Higgins",
-            "Zack Watson"
+            {
+              "playerId": "team-player/c40e8742-2fb0-4e45-8eb2-ef457987f50a",
+              "name": "Gabrielle Higgins"
+            },
+            {
+              "playerId": "team-player/4583916d-38a1-4a29-8643-00ba69a71f28",
+              "name": "Zack Watson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f99722be-71f8-49c1-9516-5a7d08c48cde",
               "players": [
                 {
+                  "playerId": "team-player/c40e8742-2fb0-4e45-8eb2-ef457987f50a",
                   "name": "Gabrielle Higgins",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/4583916d-38a1-4a29-8643-00ba69a71f28",
                   "name": "Zack Watson",
                   "score": "26tp"
                 }
@@ -706,12 +974,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/387bd9f1-2f6c-4e84-b219-01836622ec7e",
               "players": [
                 {
+                  "playerId": "team-player/c40e8742-2fb0-4e45-8eb2-ef457987f50a",
                   "name": "Gabrielle Higgins",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/4583916d-38a1-4a29-8643-00ba69a71f28",
                   "name": "Zack Watson",
                   "score": "26tp"
                 }
@@ -723,17 +994,26 @@
         },
         {
           "players": [
-            "Alain Giraud",
-            "Tom Balding"
+            {
+              "playerId": "team-player/0d1c0a55-5e82-41cc-b94f-1190d16fb88b",
+              "name": "Alain Giraud"
+            },
+            {
+              "playerId": "team-player/67bc46d0-cee5-4c5c-a8cb-3b7179ba7657",
+              "name": "Tom Balding"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f357f27-1b26-4bba-b805-7b6e0db9e92f",
               "players": [
                 {
+                  "playerId": "team-player/0d1c0a55-5e82-41cc-b94f-1190d16fb88b",
                   "name": "Alain Giraud",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/67bc46d0-cee5-4c5c-a8cb-3b7179ba7657",
                   "name": "Tom Balding",
                   "score": "26tp"
                 }
@@ -742,12 +1022,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ab3610ce-dbb0-48b9-8896-ef20b8f649b1",
               "players": [
                 {
+                  "playerId": "team-player/0d1c0a55-5e82-41cc-b94f-1190d16fb88b",
                   "name": "Alain Giraud",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/67bc46d0-cee5-4c5c-a8cb-3b7179ba7657",
                   "name": "Tom Balding",
                   "score": "26tp"
                 }
@@ -759,17 +1042,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner",
-            "Matthew Essick"
+            {
+              "playerId": "team-player/ec096d2d-44f0-48c9-b8b0-d3cc1f237688",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/38a815f1-03c6-47a2-85a8-33d40b0260af",
+              "name": "Matthew Essick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ea1b0c2a-eb17-473a-9758-51561ca97c6a",
               "players": [
                 {
+                  "playerId": "team-player/ec096d2d-44f0-48c9-b8b0-d3cc1f237688",
                   "name": "Stephen Mulliner",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/38a815f1-03c6-47a2-85a8-33d40b0260af",
                   "name": "Matthew Essick",
                   "score": "26tp"
                 }
@@ -778,12 +1070,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2378345e-29f4-4fef-b23f-aee00d5a7c24",
               "players": [
                 {
+                  "playerId": "team-player/ec096d2d-44f0-48c9-b8b0-d3cc1f237688",
                   "name": "Stephen Mulliner",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/38a815f1-03c6-47a2-85a8-33d40b0260af",
                   "name": "Matthew Essick",
                   "score": "0"
                 }
@@ -792,12 +1087,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f8e4a89e-b65a-4f4c-92f3-2b52852e2720",
               "players": [
                 {
+                  "playerId": "team-player/ec096d2d-44f0-48c9-b8b0-d3cc1f237688",
                   "name": "Stephen Mulliner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/38a815f1-03c6-47a2-85a8-33d40b0260af",
                   "name": "Matthew Essick",
                   "score": "20"
                 }
@@ -809,17 +1107,26 @@
         },
         {
           "players": [
-            "Aston Wade",
-            "Kyle Maloof"
+            {
+              "playerId": "team-player/349fdf7b-f6bf-47e6-adc6-65520a4d2348",
+              "name": "Aston Wade"
+            },
+            {
+              "playerId": "team-player/56b17e89-6479-4950-bcd5-b6c91dac41c0",
+              "name": "Kyle Maloof"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd90a760-18c5-494d-992e-36e83373ebe4",
               "players": [
                 {
+                  "playerId": "team-player/349fdf7b-f6bf-47e6-adc6-65520a4d2348",
                   "name": "Aston Wade",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/56b17e89-6479-4950-bcd5-b6c91dac41c0",
                   "name": "Kyle Maloof",
                   "score": "16"
                 }
@@ -828,12 +1135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c664d273-fcd5-44a3-9fab-d7a9fd66f242",
               "players": [
                 {
+                  "playerId": "team-player/349fdf7b-f6bf-47e6-adc6-65520a4d2348",
                   "name": "Aston Wade",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/56b17e89-6479-4950-bcd5-b6c91dac41c0",
                   "name": "Kyle Maloof",
                   "score": "6"
                 }
@@ -845,17 +1155,26 @@
         },
         {
           "players": [
-            "Mark van Loon",
-            "Stephen Morgan"
+            {
+              "playerId": "team-player/1c84f098-ebf8-4f7e-95b9-3ad9deb58bc6",
+              "name": "Mark van Loon"
+            },
+            {
+              "playerId": "team-player/465e44bd-0e24-47db-877c-36f90f687743",
+              "name": "Stephen Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c51038c4-0f8b-4c51-abe5-d5cad49010a8",
               "players": [
                 {
+                  "playerId": "team-player/1c84f098-ebf8-4f7e-95b9-3ad9deb58bc6",
                   "name": "Mark van Loon",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/465e44bd-0e24-47db-877c-36f90f687743",
                   "name": "Stephen Morgan",
                   "score": "22"
                 }
@@ -864,12 +1183,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f4ec910c-1ef3-47b2-82b2-e962f16a49de",
               "players": [
                 {
+                  "playerId": "team-player/1c84f098-ebf8-4f7e-95b9-3ad9deb58bc6",
                   "name": "Mark van Loon",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/465e44bd-0e24-47db-877c-36f90f687743",
                   "name": "Stephen Morgan",
                   "score": "26"
                 }
@@ -878,12 +1200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ed6d1703-3d39-4e53-9bc2-48edbe34334c",
               "players": [
                 {
+                  "playerId": "team-player/1c84f098-ebf8-4f7e-95b9-3ad9deb58bc6",
                   "name": "Mark van Loon",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/465e44bd-0e24-47db-877c-36f90f687743",
                   "name": "Stephen Morgan",
                   "score": "26tp"
                 }
@@ -895,17 +1220,26 @@
         },
         {
           "players": [
-            "Debbie Lines",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/e2ac0aca-5dad-4a65-b5cc-b21d77d32d77",
+              "name": "Debbie Lines"
+            },
+            {
+              "playerId": "team-player/a97d0070-8ea6-4dd0-b077-9f96833c7db5",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1672c487-f475-4882-ad1d-7bb096385c8f",
               "players": [
                 {
+                  "playerId": "team-player/e2ac0aca-5dad-4a65-b5cc-b21d77d32d77",
                   "name": "Debbie Lines",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/a97d0070-8ea6-4dd0-b077-9f96833c7db5",
                   "name": "Ben Rothman",
                   "score": "26"
                 }
@@ -914,12 +1248,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a11d86c9-37c2-4910-939d-f907a6407027",
               "players": [
                 {
+                  "playerId": "team-player/e2ac0aca-5dad-4a65-b5cc-b21d77d32d77",
                   "name": "Debbie Lines",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/a97d0070-8ea6-4dd0-b077-9f96833c7db5",
                   "name": "Ben Rothman",
                   "score": "26tp"
                 }

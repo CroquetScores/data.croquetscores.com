@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/656d2fe5-cd38-41d7-a30f-a8f6c0674a9b",
   "name": "EACF Anderson Shield Final",
   "sport": "ac",
   "firstDay": "2022-09-11",
   "lastDay": "2022-09-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Letchworth",
       "shortName": "Letchworth",
       "players": [
-        "Brian & Colin",
-        "Brian Havill",
-        "Colin Davies",
-        "David Matthews",
-        "John Noble"
+        {
+          "playerId": "team-player/33ea9be5-09c8-4943-b930-27c682d99ac3",
+          "name": "Brian & Colin"
+        },
+        {
+          "playerId": "team-player/a277e55d-ed3e-4e6c-b0cd-0b525d6ae624",
+          "name": "Brian Havill"
+        },
+        {
+          "playerId": "team-player/5f210044-67e1-4ac7-b651-ce500656248a",
+          "name": "Colin Davies"
+        },
+        {
+          "playerId": "team-player/422a3e88-b156-43a6-97b8-baf908912124",
+          "name": "David Matthews"
+        },
+        {
+          "playerId": "team-player/80601e13-458c-4870-a28d-9587cbaa6a9c",
+          "name": "John Noble"
+        }
       ]
     },
     {
       "name": "Pinchbeck",
       "shortName": "Pinchbeck",
       "players": [
-        "Charles Ostler",
-        "Mike Bowser",
-        "Peter & Mike",
-        "Peter Hanley",
-        "Terrey Sparks"
+        {
+          "playerId": "team-player/df9c001a-5841-4fba-a5d9-22b303ea202c",
+          "name": "Charles Ostler"
+        },
+        {
+          "playerId": "team-player/0dcbcada-9ed4-41a6-8c76-e796d29200d6",
+          "name": "Mike Bowser"
+        },
+        {
+          "playerId": "team-player/ff4413b7-704a-44e7-8ae0-ccb4d40f7047",
+          "name": "Peter & Mike"
+        },
+        {
+          "playerId": "team-player/808b4c9c-a041-4d8a-a8c7-06ed8e4ab199",
+          "name": "Peter Hanley"
+        },
+        {
+          "playerId": "team-player/a3e97b19-02ba-48d3-b5c6-1f4d56fa4025",
+          "name": "Terrey Sparks"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/7889647f-0da1-47cc-9e4c-e4305d831e6d",
       "teams": [
         "Letchworth",
         "Pinchbeck"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "David Matthews",
-            "Terrey Sparks"
+            {
+              "playerId": "team-player/422a3e88-b156-43a6-97b8-baf908912124",
+              "name": "David Matthews"
+            },
+            {
+              "playerId": "team-player/a3e97b19-02ba-48d3-b5c6-1f4d56fa4025",
+              "name": "Terrey Sparks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ff8a066-d2fc-4855-9f3b-e125c340b887",
               "players": [
                 {
+                  "playerId": "team-player/422a3e88-b156-43a6-97b8-baf908912124",
                   "name": "David Matthews",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a3e97b19-02ba-48d3-b5c6-1f4d56fa4025",
                   "name": "Terrey Sparks",
                   "score": "8"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "John Noble",
-            "Charles Ostler"
+            {
+              "playerId": "team-player/80601e13-458c-4870-a28d-9587cbaa6a9c",
+              "name": "John Noble"
+            },
+            {
+              "playerId": "team-player/df9c001a-5841-4fba-a5d9-22b303ea202c",
+              "name": "Charles Ostler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/24e446ba-b0a5-4897-824a-9b454106c28f",
               "players": [
                 {
+                  "playerId": "team-player/80601e13-458c-4870-a28d-9587cbaa6a9c",
                   "name": "John Noble",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/df9c001a-5841-4fba-a5d9-22b303ea202c",
                   "name": "Charles Ostler",
                   "score": "10"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Brian Havill",
-            "Peter Hanley"
+            {
+              "playerId": "team-player/a277e55d-ed3e-4e6c-b0cd-0b525d6ae624",
+              "name": "Brian Havill"
+            },
+            {
+              "playerId": "team-player/808b4c9c-a041-4d8a-a8c7-06ed8e4ab199",
+              "name": "Peter Hanley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/24bc8ad0-cc7b-429c-b079-e0e423ecd6a4",
               "players": [
                 {
+                  "playerId": "team-player/a277e55d-ed3e-4e6c-b0cd-0b525d6ae624",
                   "name": "Brian Havill",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/808b4c9c-a041-4d8a-a8c7-06ed8e4ab199",
                   "name": "Peter Hanley",
                   "score": "9"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "John Noble",
-            "Terrey Sparks"
+            {
+              "playerId": "team-player/80601e13-458c-4870-a28d-9587cbaa6a9c",
+              "name": "John Noble"
+            },
+            {
+              "playerId": "team-player/a3e97b19-02ba-48d3-b5c6-1f4d56fa4025",
+              "name": "Terrey Sparks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5090e62e-8db4-4cf7-b002-85645508b736",
               "players": [
                 {
+                  "playerId": "team-player/80601e13-458c-4870-a28d-9587cbaa6a9c",
                   "name": "John Noble",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a3e97b19-02ba-48d3-b5c6-1f4d56fa4025",
                   "name": "Terrey Sparks",
                   "score": "13"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Colin Davies",
-            "Mike Bowser"
+            {
+              "playerId": "team-player/5f210044-67e1-4ac7-b651-ce500656248a",
+              "name": "Colin Davies"
+            },
+            {
+              "playerId": "team-player/0dcbcada-9ed4-41a6-8c76-e796d29200d6",
+              "name": "Mike Bowser"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2fbd5579-66a6-4d19-a6d3-123bd7cb18e7",
               "players": [
                 {
+                  "playerId": "team-player/5f210044-67e1-4ac7-b651-ce500656248a",
                   "name": "Colin Davies",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/0dcbcada-9ed4-41a6-8c76-e796d29200d6",
                   "name": "Mike Bowser",
                   "score": "20"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "David Matthews",
-            "Charles Ostler"
+            {
+              "playerId": "team-player/422a3e88-b156-43a6-97b8-baf908912124",
+              "name": "David Matthews"
+            },
+            {
+              "playerId": "team-player/df9c001a-5841-4fba-a5d9-22b303ea202c",
+              "name": "Charles Ostler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1529a732-5946-4bf2-93db-935cf9ff0fde",
               "players": [
                 {
+                  "playerId": "team-player/422a3e88-b156-43a6-97b8-baf908912124",
                   "name": "David Matthews",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/df9c001a-5841-4fba-a5d9-22b303ea202c",
                   "name": "Charles Ostler",
                   "score": "18"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Brian & Colin",
-            "Peter & Mike"
+            {
+              "playerId": "team-player/33ea9be5-09c8-4943-b930-27c682d99ac3",
+              "name": "Brian & Colin"
+            },
+            {
+              "playerId": "team-player/ff4413b7-704a-44e7-8ae0-ccb4d40f7047",
+              "name": "Peter & Mike"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aac10f1a-4855-4572-adbd-50d41d2063e9",
               "players": [
                 {
+                  "playerId": "team-player/33ea9be5-09c8-4943-b930-27c682d99ac3",
                   "name": "Brian & Colin",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/ff4413b7-704a-44e7-8ae0-ccb4d40f7047",
                   "name": "Peter & Mike",
                   "score": "17"
                 }

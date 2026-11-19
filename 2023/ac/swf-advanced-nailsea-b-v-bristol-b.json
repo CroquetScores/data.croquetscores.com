@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/6a799ca4-deb7-4c9b-ad0b-b448044ed0c8",
   "name": "SWF Advanced Nailsea B v Bristol B",
   "sport": "ac",
   "firstDay": "2023-06-06",
   "lastDay": "2023-06-06",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nailsea B",
       "shortName": "Nailsea B",
       "players": [
-        "David Hunt",
-        "Erica Malaiperuman",
-        "Geoff Hughes",
-        "Geoff Hughes & David Hunt",
-        "Robert Upton"
+        {
+          "playerId": "team-player/68d9f92f-2da1-4741-a887-b4791f233851",
+          "name": "David Hunt"
+        },
+        {
+          "playerId": "team-player/ff75d13f-918e-4400-87a3-081d3b690e69",
+          "name": "Erica Malaiperuman"
+        },
+        {
+          "playerId": "team-player/3523a66b-142b-49a7-b0d0-78263098eecd",
+          "name": "Geoff Hughes"
+        },
+        {
+          "playerId": "team-player/e8bdc011-2126-4dbd-b380-c9c8294acab4",
+          "name": "Geoff Hughes & David Hunt"
+        },
+        {
+          "playerId": "team-player/1d2eb3a3-5c39-4e1c-887c-7f29a852cecc",
+          "name": "Robert Upton"
+        }
       ]
     },
     {
       "name": "Bristol B",
       "shortName": "Bristol B",
       "players": [
-        "Dave Kibble",
-        "Dom Aarvold",
-        "Martin Leach",
-        "Martin Leach & Dom Aarvold",
-        "Wayne Wiseman"
+        {
+          "playerId": "team-player/6edce353-ba32-4cc0-b340-6e862c97e5bc",
+          "name": "Dave Kibble"
+        },
+        {
+          "playerId": "team-player/2c15428b-6058-43ee-9d08-6a4fc85dfd73",
+          "name": "Dom Aarvold"
+        },
+        {
+          "playerId": "team-player/85b26ecf-b3a9-4b44-915a-99e6ac481cb5",
+          "name": "Martin Leach"
+        },
+        {
+          "playerId": "team-player/8b38eef3-7d3b-43b0-b274-73c42563d1a8",
+          "name": "Martin Leach & Dom Aarvold"
+        },
+        {
+          "playerId": "team-player/95c05257-8775-4249-935b-c9868379a1e9",
+          "name": "Wayne Wiseman"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/bb0b8288-88ae-448d-9f7c-05f40e8281b7",
       "teams": [
         "Nailsea B",
         "Bristol B"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Robert Upton",
-            "Dave Kibble"
+            {
+              "playerId": "team-player/1d2eb3a3-5c39-4e1c-887c-7f29a852cecc",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/6edce353-ba32-4cc0-b340-6e862c97e5bc",
+              "name": "Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d36af5db-2cc5-4229-9c0e-590c18648dec",
               "players": [
                 {
+                  "playerId": "team-player/1d2eb3a3-5c39-4e1c-887c-7f29a852cecc",
                   "name": "Robert Upton",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/6edce353-ba32-4cc0-b340-6e862c97e5bc",
                   "name": "Dave Kibble",
                   "score": "26tp"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Erica Malaiperuman",
-            "Wayne Wiseman"
+            {
+              "playerId": "team-player/ff75d13f-918e-4400-87a3-081d3b690e69",
+              "name": "Erica Malaiperuman"
+            },
+            {
+              "playerId": "team-player/95c05257-8775-4249-935b-c9868379a1e9",
+              "name": "Wayne Wiseman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c4707d8a-56c7-4fca-89fd-602d3b5294f6",
               "players": [
                 {
+                  "playerId": "team-player/ff75d13f-918e-4400-87a3-081d3b690e69",
                   "name": "Erica Malaiperuman",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/95c05257-8775-4249-935b-c9868379a1e9",
                   "name": "Wayne Wiseman",
                   "score": "12"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Martin Leach"
+            {
+              "playerId": "team-player/1d2eb3a3-5c39-4e1c-887c-7f29a852cecc",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/85b26ecf-b3a9-4b44-915a-99e6ac481cb5",
+              "name": "Martin Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6a407995-0903-4bed-8057-4a2358bd5f98",
               "players": [
                 {
+                  "playerId": "team-player/1d2eb3a3-5c39-4e1c-887c-7f29a852cecc",
                   "name": "Robert Upton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/85b26ecf-b3a9-4b44-915a-99e6ac481cb5",
                   "name": "Martin Leach",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Erica Malaiperuman",
-            "Dave Kibble"
+            {
+              "playerId": "team-player/ff75d13f-918e-4400-87a3-081d3b690e69",
+              "name": "Erica Malaiperuman"
+            },
+            {
+              "playerId": "team-player/6edce353-ba32-4cc0-b340-6e862c97e5bc",
+              "name": "Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f8b30131-97cd-440e-b13d-03ebe57704a4",
               "players": [
                 {
+                  "playerId": "team-player/ff75d13f-918e-4400-87a3-081d3b690e69",
                   "name": "Erica Malaiperuman",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/6edce353-ba32-4cc0-b340-6e862c97e5bc",
                   "name": "Dave Kibble",
                   "score": "22"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Geoff Hughes",
-            "Wayne Wiseman"
+            {
+              "playerId": "team-player/3523a66b-142b-49a7-b0d0-78263098eecd",
+              "name": "Geoff Hughes"
+            },
+            {
+              "playerId": "team-player/95c05257-8775-4249-935b-c9868379a1e9",
+              "name": "Wayne Wiseman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c97a253e-3f36-4df3-a54c-de9e2f6b9e3a",
               "players": [
                 {
+                  "playerId": "team-player/3523a66b-142b-49a7-b0d0-78263098eecd",
                   "name": "Geoff Hughes",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/95c05257-8775-4249-935b-c9868379a1e9",
                   "name": "Wayne Wiseman",
                   "score": "13"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "David Hunt",
-            "Dom Aarvold"
+            {
+              "playerId": "team-player/68d9f92f-2da1-4741-a887-b4791f233851",
+              "name": "David Hunt"
+            },
+            {
+              "playerId": "team-player/2c15428b-6058-43ee-9d08-6a4fc85dfd73",
+              "name": "Dom Aarvold"
+            }
           ],
           "games": [
             {
+              "gameId": "game/896f803d-da09-4d19-a911-56e81e58aadd",
               "players": [
                 {
+                  "playerId": "team-player/68d9f92f-2da1-4741-a887-b4791f233851",
                   "name": "David Hunt",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/2c15428b-6058-43ee-9d08-6a4fc85dfd73",
                   "name": "Dom Aarvold",
                   "score": "21"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Geoff Hughes & David Hunt",
-            "Martin Leach & Dom Aarvold"
+            {
+              "playerId": "team-player/e8bdc011-2126-4dbd-b380-c9c8294acab4",
+              "name": "Geoff Hughes & David Hunt"
+            },
+            {
+              "playerId": "team-player/8b38eef3-7d3b-43b0-b274-73c42563d1a8",
+              "name": "Martin Leach & Dom Aarvold"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c1c53e7b-6b17-44ed-a47a-c78485e38675",
               "players": [
                 {
+                  "playerId": "team-player/e8bdc011-2126-4dbd-b380-c9c8294acab4",
                   "name": "Geoff Hughes & David Hunt",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/8b38eef3-7d3b-43b0-b274-73c42563d1a8",
                   "name": "Martin Leach & Dom Aarvold",
                   "score": "20"
                 }

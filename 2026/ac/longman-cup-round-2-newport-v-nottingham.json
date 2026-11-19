@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e14b0ff7-16f7-42b3-a6c3-8ce5f60c2226",
   "name": "Longman Cup Round 2 Newport v Nottingham",
   "sport": "ac",
   "firstDay": "2026-06-16",
   "lastDay": "2026-06-16",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Newport",
       "shortName": "Newport",
       "players": [
-        "Alex Lake",
-        "Alex Lake & Rod George",
-        "Mat Hardy",
-        "Nick Jones",
-        "Rod George"
+        {
+          "playerId": "team-player/207fe7ca-84a4-43b3-8271-e79af47f7ba8",
+          "name": "Alex Lake"
+        },
+        {
+          "playerId": "team-player/256361f4-f860-4134-abba-4dcb3fa0adaf",
+          "name": "Alex Lake & Rod George"
+        },
+        {
+          "playerId": "team-player/cb75765c-bea4-451e-b7be-efd2db67f188",
+          "name": "Mat Hardy"
+        },
+        {
+          "playerId": "team-player/cfd552eb-f503-4882-b5d2-ccf3d5d0af8c",
+          "name": "Nick Jones"
+        },
+        {
+          "playerId": "team-player/c04e4fe5-65b1-4c17-8a12-d9df056d6631",
+          "name": "Rod George"
+        }
       ]
     },
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "Ben Shelton",
-        "Ben Shelton & Roger Steeper",
-        "Roger Steeper",
-        "Sarah Butler",
-        "Tom Dewar"
+        {
+          "playerId": "team-player/c67ecb34-7b7a-474f-980e-9ce01bef68eb",
+          "name": "Ben Shelton"
+        },
+        {
+          "playerId": "team-player/4e6ac0be-0afe-431f-87d3-25ec94feda56",
+          "name": "Ben Shelton & Roger Steeper"
+        },
+        {
+          "playerId": "team-player/d8e55dc3-24a2-4774-8c54-eb1cd8b29d54",
+          "name": "Roger Steeper"
+        },
+        {
+          "playerId": "team-player/b3508c51-19d8-4235-8dd1-5656359a9559",
+          "name": "Sarah Butler"
+        },
+        {
+          "playerId": "team-player/0822f566-b37f-4846-99df-95115395c2e6",
+          "name": "Tom Dewar"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/99ac7450-2194-466e-a325-4ee600a3262f",
       "teams": [
         "Newport",
         "Nottingham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Alex Lake & Rod George",
-            "Ben Shelton & Roger Steeper"
+            {
+              "playerId": "team-player/256361f4-f860-4134-abba-4dcb3fa0adaf",
+              "name": "Alex Lake & Rod George"
+            },
+            {
+              "playerId": "team-player/4e6ac0be-0afe-431f-87d3-25ec94feda56",
+              "name": "Ben Shelton & Roger Steeper"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35833a63-994f-40e3-9283-812b3ac31755",
               "players": [
                 {
+                  "playerId": "team-player/256361f4-f860-4134-abba-4dcb3fa0adaf",
                   "name": "Alex Lake & Rod George",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/4e6ac0be-0afe-431f-87d3-25ec94feda56",
                   "name": "Ben Shelton & Roger Steeper",
                   "score": "16"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Mat Hardy",
-            "Tom Dewar"
+            {
+              "playerId": "team-player/cb75765c-bea4-451e-b7be-efd2db67f188",
+              "name": "Mat Hardy"
+            },
+            {
+              "playerId": "team-player/0822f566-b37f-4846-99df-95115395c2e6",
+              "name": "Tom Dewar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9fab7829-cf3d-4c27-850b-82b7a8b7eabf",
               "players": [
                 {
+                  "playerId": "team-player/cb75765c-bea4-451e-b7be-efd2db67f188",
                   "name": "Mat Hardy",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/0822f566-b37f-4846-99df-95115395c2e6",
                   "name": "Tom Dewar",
                   "score": "11"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Nick Jones",
-            "Sarah Butler"
+            {
+              "playerId": "team-player/cfd552eb-f503-4882-b5d2-ccf3d5d0af8c",
+              "name": "Nick Jones"
+            },
+            {
+              "playerId": "team-player/b3508c51-19d8-4235-8dd1-5656359a9559",
+              "name": "Sarah Butler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ed9a94a2-36f1-43c3-8dbc-c6c6b64d9758",
               "players": [
                 {
+                  "playerId": "team-player/cfd552eb-f503-4882-b5d2-ccf3d5d0af8c",
                   "name": "Nick Jones",
                   "score": "20T"
                 },
                 {
+                  "playerId": "team-player/b3508c51-19d8-4235-8dd1-5656359a9559",
                   "name": "Sarah Butler",
                   "score": "15"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Mat Hardy",
-            "Roger Steeper"
+            {
+              "playerId": "team-player/cb75765c-bea4-451e-b7be-efd2db67f188",
+              "name": "Mat Hardy"
+            },
+            {
+              "playerId": "team-player/d8e55dc3-24a2-4774-8c54-eb1cd8b29d54",
+              "name": "Roger Steeper"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9aae236b-3eeb-4782-86ac-21d2b5f010e0",
               "players": [
                 {
+                  "playerId": "team-player/cb75765c-bea4-451e-b7be-efd2db67f188",
                   "name": "Mat Hardy",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/d8e55dc3-24a2-4774-8c54-eb1cd8b29d54",
                   "name": "Roger Steeper",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Alex Lake",
-            "Tom Dewar"
+            {
+              "playerId": "team-player/207fe7ca-84a4-43b3-8271-e79af47f7ba8",
+              "name": "Alex Lake"
+            },
+            {
+              "playerId": "team-player/0822f566-b37f-4846-99df-95115395c2e6",
+              "name": "Tom Dewar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/750c9f16-c83f-4477-9980-e44976d9e6b4",
               "players": [
                 {
+                  "playerId": "team-player/207fe7ca-84a4-43b3-8271-e79af47f7ba8",
                   "name": "Alex Lake",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/0822f566-b37f-4846-99df-95115395c2e6",
                   "name": "Tom Dewar",
                   "score": "26"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Nick Jones",
-            "Ben Shelton"
+            {
+              "playerId": "team-player/cfd552eb-f503-4882-b5d2-ccf3d5d0af8c",
+              "name": "Nick Jones"
+            },
+            {
+              "playerId": "team-player/c67ecb34-7b7a-474f-980e-9ce01bef68eb",
+              "name": "Ben Shelton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6428cc2b-cb5d-4529-a31b-c6a007f01f43",
               "players": [
                 {
+                  "playerId": "team-player/cfd552eb-f503-4882-b5d2-ccf3d5d0af8c",
                   "name": "Nick Jones",
                   "score": "23T"
                 },
                 {
+                  "playerId": "team-player/c67ecb34-7b7a-474f-980e-9ce01bef68eb",
                   "name": "Ben Shelton",
                   "score": "21"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Rod George",
-            "Sarah Butler"
+            {
+              "playerId": "team-player/c04e4fe5-65b1-4c17-8a12-d9df056d6631",
+              "name": "Rod George"
+            },
+            {
+              "playerId": "team-player/b3508c51-19d8-4235-8dd1-5656359a9559",
+              "name": "Sarah Butler"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ccb34b42-17e6-446a-962a-6757d802d979",
               "players": [
                 {
+                  "playerId": "team-player/c04e4fe5-65b1-4c17-8a12-d9df056d6631",
                   "name": "Rod George",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/b3508c51-19d8-4235-8dd1-5656359a9559",
                   "name": "Sarah Butler",
                   "score": "26"
                 }

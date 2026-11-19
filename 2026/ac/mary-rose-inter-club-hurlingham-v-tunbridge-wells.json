@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/320d89ef-e2bd-4387-86e9-42fa506db4a8",
   "name": "Mary Rose Inter-Club - Hurlingham v Tunbridge Wells",
   "sport": "ac",
   "firstDay": "2026-05-08",
   "lastDay": "2026-05-08",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Hurlingham",
       "shortName": "Hurlingham",
       "players": [
-        "Andrew Wise",
-        "Andrew Wise & Guy Hewitt",
-        "Guy Hewitt",
-        "John Callander",
-        "Ludolph van Hasselt"
+        {
+          "playerId": "team-player/cf03772c-6d1d-4dcc-9e54-d3c730591be8",
+          "name": "Andrew Wise"
+        },
+        {
+          "playerId": "team-player/19da32bf-bcd5-495d-b216-ded219773146",
+          "name": "Andrew Wise & Guy Hewitt"
+        },
+        {
+          "playerId": "team-player/9e318564-93b4-4ed9-8103-1e447c64e42f",
+          "name": "Guy Hewitt"
+        },
+        {
+          "playerId": "team-player/539393d0-2e2c-415c-88a3-2ad72e7faf22",
+          "name": "John Callander"
+        },
+        {
+          "playerId": "team-player/87e8787c-72d3-4589-8709-67741df1b2fe",
+          "name": "Ludolph van Hasselt"
+        }
       ]
     },
     {
       "name": "Tunbridge Wells",
       "shortName": "Tunbridge",
       "players": [
-        "Jon Diamond",
-        "Philip Mann",
-        "Philip Mann & Jon Diamond",
-        "Philip Taylor",
-        "Timothy Luke"
+        {
+          "playerId": "team-player/b2881261-b836-43fe-9721-11e9516da7bd",
+          "name": "Jon Diamond"
+        },
+        {
+          "playerId": "team-player/195e7777-58a9-4872-8644-14b3cb00299e",
+          "name": "Philip Mann"
+        },
+        {
+          "playerId": "team-player/31c64a4d-cfdc-4466-bd7e-493e0c5eb1ca",
+          "name": "Philip Mann & Jon Diamond"
+        },
+        {
+          "playerId": "team-player/6ed42602-41e7-4a36-b7c6-36182d8f978d",
+          "name": "Philip Taylor"
+        },
+        {
+          "playerId": "team-player/5d5a57dd-442c-4c6c-bf77-799ff01aa0ec",
+          "name": "Timothy Luke"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/cd8343e8-3e54-4531-927b-7415f8417a00",
       "teams": [
         "Hurlingham",
         "Tunbridge Wells"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Andrew Wise & Guy Hewitt",
-            "Philip Mann & Jon Diamond"
+            {
+              "playerId": "team-player/19da32bf-bcd5-495d-b216-ded219773146",
+              "name": "Andrew Wise & Guy Hewitt"
+            },
+            {
+              "playerId": "team-player/31c64a4d-cfdc-4466-bd7e-493e0c5eb1ca",
+              "name": "Philip Mann & Jon Diamond"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b0cafecc-e351-4acf-9848-91fe89a957ac",
               "players": [
                 {
+                  "playerId": "team-player/19da32bf-bcd5-495d-b216-ded219773146",
                   "name": "Andrew Wise & Guy Hewitt",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/31c64a4d-cfdc-4466-bd7e-493e0c5eb1ca",
                   "name": "Philip Mann & Jon Diamond",
                   "score": "5"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Ludolph van Hasselt",
-            "Philip Taylor"
+            {
+              "playerId": "team-player/87e8787c-72d3-4589-8709-67741df1b2fe",
+              "name": "Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/6ed42602-41e7-4a36-b7c6-36182d8f978d",
+              "name": "Philip Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5727c918-f936-47d5-96c1-b94ac5344fdb",
               "players": [
                 {
+                  "playerId": "team-player/87e8787c-72d3-4589-8709-67741df1b2fe",
                   "name": "Ludolph van Hasselt",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/6ed42602-41e7-4a36-b7c6-36182d8f978d",
                   "name": "Philip Taylor",
                   "score": "5"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "John Callander",
-            "Timothy Luke"
+            {
+              "playerId": "team-player/539393d0-2e2c-415c-88a3-2ad72e7faf22",
+              "name": "John Callander"
+            },
+            {
+              "playerId": "team-player/5d5a57dd-442c-4c6c-bf77-799ff01aa0ec",
+              "name": "Timothy Luke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2a6e9c41-b8ea-4d7c-a489-185c212897c1",
               "players": [
                 {
+                  "playerId": "team-player/539393d0-2e2c-415c-88a3-2ad72e7faf22",
                   "name": "John Callander",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/5d5a57dd-442c-4c6c-bf77-799ff01aa0ec",
                   "name": "Timothy Luke",
                   "score": "9"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Andrew Wise",
-            "Philip Mann"
+            {
+              "playerId": "team-player/cf03772c-6d1d-4dcc-9e54-d3c730591be8",
+              "name": "Andrew Wise"
+            },
+            {
+              "playerId": "team-player/195e7777-58a9-4872-8644-14b3cb00299e",
+              "name": "Philip Mann"
+            }
           ],
           "games": [
             {
+              "gameId": "game/23f05737-229b-44c1-8c3d-6c3f5c53a732",
               "players": [
                 {
+                  "playerId": "team-player/cf03772c-6d1d-4dcc-9e54-d3c730591be8",
                   "name": "Andrew Wise",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/195e7777-58a9-4872-8644-14b3cb00299e",
                   "name": "Philip Mann",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Guy Hewitt",
-            "Jon Diamond"
+            {
+              "playerId": "team-player/9e318564-93b4-4ed9-8103-1e447c64e42f",
+              "name": "Guy Hewitt"
+            },
+            {
+              "playerId": "team-player/b2881261-b836-43fe-9721-11e9516da7bd",
+              "name": "Jon Diamond"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ecb2fa73-e044-4edd-a2ff-6bac2c91922d",
               "players": [
                 {
+                  "playerId": "team-player/9e318564-93b4-4ed9-8103-1e447c64e42f",
                   "name": "Guy Hewitt",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b2881261-b836-43fe-9721-11e9516da7bd",
                   "name": "Jon Diamond",
                   "score": "5"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Ludolph van Hasselt",
-            "Timothy Luke"
+            {
+              "playerId": "team-player/87e8787c-72d3-4589-8709-67741df1b2fe",
+              "name": "Ludolph van Hasselt"
+            },
+            {
+              "playerId": "team-player/5d5a57dd-442c-4c6c-bf77-799ff01aa0ec",
+              "name": "Timothy Luke"
+            }
           ],
           "games": [
             {
+              "gameId": "game/647ba762-7d93-4ba0-bdbf-8d480192de34",
               "players": [
                 {
+                  "playerId": "team-player/87e8787c-72d3-4589-8709-67741df1b2fe",
                   "name": "Ludolph van Hasselt",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5d5a57dd-442c-4c6c-bf77-799ff01aa0ec",
                   "name": "Timothy Luke",
                   "score": "11"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "John Callander",
-            "Philip Taylor"
+            {
+              "playerId": "team-player/539393d0-2e2c-415c-88a3-2ad72e7faf22",
+              "name": "John Callander"
+            },
+            {
+              "playerId": "team-player/6ed42602-41e7-4a36-b7c6-36182d8f978d",
+              "name": "Philip Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cc3888dc-1fc0-4964-a997-bef9474b8776",
               "players": [
                 {
+                  "playerId": "team-player/539393d0-2e2c-415c-88a3-2ad72e7faf22",
                   "name": "John Callander",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/6ed42602-41e7-4a36-b7c6-36182d8f978d",
                   "name": "Philip Taylor",
                   "score": "20"
                 }

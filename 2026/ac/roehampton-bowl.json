@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e1d2715e-31c4-4938-83c2-8fb35fae4457",
   "name": "Roehampton Bowl (AC)",
   "sport": "ac",
   "firstDay": "2026-10-04",
   "lastDay": "2026-10-04",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Mary Knapp",
-        "Peter Siddall",
-        "Tim and Mary",
-        "Tim RUSSELL"
+        {
+          "playerId": "team-player/81adfc18-5ace-40b7-979c-94610656aead",
+          "name": "Mary Knapp"
+        },
+        {
+          "playerId": "team-player/43cc7a29-2d98-49cf-be36-dbe6ffc40c76",
+          "name": "Peter Siddall"
+        },
+        {
+          "playerId": "team-player/823c7255-cb67-48ca-9024-5fdaedab5504",
+          "name": "Tim and Mary"
+        },
+        {
+          "playerId": "team-player/7fdca29d-4913-4320-a4bd-a3bd740655cf",
+          "name": "Tim RUSSELL"
+        }
       ]
     },
     {
       "name": "Hurlingham",
       "shortName": "Hurlingham",
       "players": [
-        "Martin Read",
-        "Nigel Polhill",
-        "Tom & Alan",
-        "Tom Coles"
+        {
+          "playerId": "team-player/f609c4e3-8be6-47aa-90d4-db29aac303ce",
+          "name": "Martin Read"
+        },
+        {
+          "playerId": "team-player/e86e8b99-c65c-424b-aa9e-2ac5ece1d697",
+          "name": "Nigel Polhill"
+        },
+        {
+          "playerId": "team-player/be2c89ef-756c-4d23-b657-7fc9e0ffe5b6",
+          "name": "Tom & Alan"
+        },
+        {
+          "playerId": "team-player/f8b5bf42-45ea-4533-9452-c18a2d9b04f5",
+          "name": "Tom Coles"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b2cfcb75-e95f-400a-9b6d-85d63e2b79f3",
       "teams": [
         "Roehampton",
         "Hurlingham"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Peter Siddall",
-            "Martin Read"
+            {
+              "playerId": "team-player/43cc7a29-2d98-49cf-be36-dbe6ffc40c76",
+              "name": "Peter Siddall"
+            },
+            {
+              "playerId": "team-player/f609c4e3-8be6-47aa-90d4-db29aac303ce",
+              "name": "Martin Read"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0875d6ea-74b9-46e0-96b1-a0d7e803d229",
               "players": [
                 {
+                  "playerId": "team-player/43cc7a29-2d98-49cf-be36-dbe6ffc40c76",
                   "name": "Peter Siddall",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/f609c4e3-8be6-47aa-90d4-db29aac303ce",
                   "name": "Martin Read",
                   "score": "15"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Mary Knapp",
-            "Martin Read"
+            {
+              "playerId": "team-player/81adfc18-5ace-40b7-979c-94610656aead",
+              "name": "Mary Knapp"
+            },
+            {
+              "playerId": "team-player/f609c4e3-8be6-47aa-90d4-db29aac303ce",
+              "name": "Martin Read"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0b0bb4e6-6915-413c-8c42-10876ede3e02",
               "players": [
                 {
+                  "playerId": "team-player/81adfc18-5ace-40b7-979c-94610656aead",
                   "name": "Mary Knapp",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/f609c4e3-8be6-47aa-90d4-db29aac303ce",
                   "name": "Martin Read",
                   "score": "20"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Tim and Mary",
-            "Tom & Alan"
+            {
+              "playerId": "team-player/823c7255-cb67-48ca-9024-5fdaedab5504",
+              "name": "Tim and Mary"
+            },
+            {
+              "playerId": "team-player/be2c89ef-756c-4d23-b657-7fc9e0ffe5b6",
+              "name": "Tom & Alan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/65e96382-8e1b-4170-9d0e-c1b1a9f119df",
               "players": [
                 {
+                  "playerId": "team-player/823c7255-cb67-48ca-9024-5fdaedab5504",
                   "name": "Tim and Mary",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/be2c89ef-756c-4d23-b657-7fc9e0ffe5b6",
                   "name": "Tom & Alan",
                   "score": "23"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Tim RUSSELL",
-            "Tom Coles"
+            {
+              "playerId": "team-player/7fdca29d-4913-4320-a4bd-a3bd740655cf",
+              "name": "Tim RUSSELL"
+            },
+            {
+              "playerId": "team-player/f8b5bf42-45ea-4533-9452-c18a2d9b04f5",
+              "name": "Tom Coles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a9ccabe7-433a-43bb-9a58-2c32d85d935a",
               "players": [
                 {
+                  "playerId": "team-player/7fdca29d-4913-4320-a4bd-a3bd740655cf",
                   "name": "Tim RUSSELL",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/f8b5bf42-45ea-4533-9452-c18a2d9b04f5",
                   "name": "Tom Coles",
                   "score": "26"
                 }

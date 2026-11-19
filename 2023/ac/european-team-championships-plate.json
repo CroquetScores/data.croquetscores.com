@@ -1,59 +1,87 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2b265785-ba90-45f2-bef4-6caa426ed6a7",
   "name": "European Team Championships AC Plate",
   "sport": "ac",
   "firstDay": "2023-08-05",
   "lastDay": "2023-08-05",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "SPAIN",
       "shortName": "ESP",
       "players": [
-        "Deborah ALBERTSEN"
+        {
+          "playerId": "team-player/a0c39f7c-2184-4fc6-ad32-191ff4582b9c",
+          "name": "Deborah ALBERTSEN"
+        }
       ]
     },
     {
       "name": "CZECHIA",
       "shortName": "CZECHIA",
       "players": [
-        "David HAJN",
-        "Otakar STANKUS"
+        {
+          "playerId": "team-player/d1c89198-1d02-4007-966a-c95067ae8629",
+          "name": "David HAJN"
+        },
+        {
+          "playerId": "team-player/d04b7ab8-a126-4635-8d7d-22cade70f391",
+          "name": "Otakar STANKUS"
+        }
       ]
     },
     {
       "name": "GERMANY",
       "shortName": "DEU",
       "players": [
-        "Joern VINNEN"
+        {
+          "playerId": "team-player/af21d168-0317-4257-b637-2d1546fc5e05",
+          "name": "Joern VINNEN"
+        }
       ]
     },
     {
       "name": "SWITZERLAND",
       "shortName": "CHE",
       "players": [
-        "Ian SEXTON",
-        "Peter PAYNE"
+        {
+          "playerId": "team-player/a8236885-93ea-4587-bc69-f0d095ea9519",
+          "name": "Ian SEXTON"
+        },
+        {
+          "playerId": "team-player/add6c7a3-d5fb-40a2-a2c6-d49e7531b4d0",
+          "name": "Peter PAYNE"
+        }
       ]
     },
     {
       "name": "SCOTLAND",
       "shortName": "SCO",
       "players": [
-        "David HOUSTON"
+        {
+          "playerId": "team-player/165ac6a2-5ccb-4180-a4fb-e324200790b1",
+          "name": "David HOUSTON"
+        }
       ]
     },
     {
       "name": "IRELAND",
       "shortName": "IRL",
       "players": [
-        "Nathaniel HEALY"
+        {
+          "playerId": "team-player/e1de1a95-8387-4562-b0c2-6577e1a8b65a",
+          "name": "Nathaniel HEALY"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b7a1fe51-7955-4664-99e7-d0430dc9f522",
       "teams": [
         "SPAIN",
         "CZECHIA"
@@ -63,17 +91,26 @@
       "matches": [
         {
           "players": [
-            "Deborah ALBERTSEN",
-            "David HAJN"
+            {
+              "playerId": "team-player/a0c39f7c-2184-4fc6-ad32-191ff4582b9c",
+              "name": "Deborah ALBERTSEN"
+            },
+            {
+              "playerId": "team-player/d1c89198-1d02-4007-966a-c95067ae8629",
+              "name": "David HAJN"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f8bc7bfb-f1ba-4cbf-be08-d69180c07adf",
               "players": [
                 {
+                  "playerId": "team-player/a0c39f7c-2184-4fc6-ad32-191ff4582b9c",
                   "name": "Deborah ALBERTSEN",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/d1c89198-1d02-4007-966a-c95067ae8629",
                   "name": "David HAJN",
                   "score": "26"
                 }
@@ -86,6 +123,7 @@
       ]
     },
     {
+      "competitionId": "competition/551f38a3-e656-431c-afc6-3d9aea576950",
       "teams": [
         "GERMANY",
         "SWITZERLAND"
@@ -95,17 +133,26 @@
       "matches": [
         {
           "players": [
-            "Joern VINNEN",
-            "Ian SEXTON"
+            {
+              "playerId": "team-player/af21d168-0317-4257-b637-2d1546fc5e05",
+              "name": "Joern VINNEN"
+            },
+            {
+              "playerId": "team-player/a8236885-93ea-4587-bc69-f0d095ea9519",
+              "name": "Ian SEXTON"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e38b1820-38f1-4ec4-829e-6c5f3b8fae5b",
               "players": [
                 {
+                  "playerId": "team-player/af21d168-0317-4257-b637-2d1546fc5e05",
                   "name": "Joern VINNEN",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/a8236885-93ea-4587-bc69-f0d095ea9519",
                   "name": "Ian SEXTON",
                   "score": "26"
                 }
@@ -118,6 +165,7 @@
       ]
     },
     {
+      "competitionId": "competition/16e47bd7-aeb2-4920-a0b8-574769b46c2c",
       "teams": [
         "SCOTLAND",
         "IRELAND"
@@ -127,17 +175,26 @@
       "matches": [
         {
           "players": [
-            "David HOUSTON",
-            "Nathaniel HEALY"
+            {
+              "playerId": "team-player/165ac6a2-5ccb-4180-a4fb-e324200790b1",
+              "name": "David HOUSTON"
+            },
+            {
+              "playerId": "team-player/e1de1a95-8387-4562-b0c2-6577e1a8b65a",
+              "name": "Nathaniel HEALY"
+            }
           ],
           "games": [
             {
+              "gameId": "game/98c39cef-09b9-44cf-af0f-5a16b85ff5bc",
               "players": [
                 {
+                  "playerId": "team-player/165ac6a2-5ccb-4180-a4fb-e324200790b1",
                   "name": "David HOUSTON",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/e1de1a95-8387-4562-b0c2-6577e1a8b65a",
                   "name": "Nathaniel HEALY",
                   "score": "26"
                 }
@@ -150,6 +207,7 @@
       ]
     },
     {
+      "competitionId": "competition/662907db-ae55-4a2e-8e9e-13f7ca2cb5fe",
       "teams": [
         "SPAIN",
         "IRELAND"
@@ -159,17 +217,26 @@
       "matches": [
         {
           "players": [
-            "Deborah ALBERTSEN",
-            "Nathaniel HEALY"
+            {
+              "playerId": "team-player/a0c39f7c-2184-4fc6-ad32-191ff4582b9c",
+              "name": "Deborah ALBERTSEN"
+            },
+            {
+              "playerId": "team-player/e1de1a95-8387-4562-b0c2-6577e1a8b65a",
+              "name": "Nathaniel HEALY"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad200d88-9cc5-41a7-ad2b-b52b2275a373",
               "players": [
                 {
+                  "playerId": "team-player/a0c39f7c-2184-4fc6-ad32-191ff4582b9c",
                   "name": "Deborah ALBERTSEN",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/e1de1a95-8387-4562-b0c2-6577e1a8b65a",
                   "name": "Nathaniel HEALY",
                   "score": "26"
                 }
@@ -182,6 +249,7 @@
       ]
     },
     {
+      "competitionId": "competition/75a0cdb9-1724-4721-97d7-9ba95ad8eca6",
       "teams": [
         "SWITZERLAND",
         "SCOTLAND"
@@ -191,17 +259,26 @@
       "matches": [
         {
           "players": [
-            "Ian SEXTON",
-            "David HOUSTON"
+            {
+              "playerId": "team-player/a8236885-93ea-4587-bc69-f0d095ea9519",
+              "name": "Ian SEXTON"
+            },
+            {
+              "playerId": "team-player/165ac6a2-5ccb-4180-a4fb-e324200790b1",
+              "name": "David HOUSTON"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2b1a0d39-4cb9-4a7c-958f-0e15bdf4458c",
               "players": [
                 {
+                  "playerId": "team-player/a8236885-93ea-4587-bc69-f0d095ea9519",
                   "name": "Ian SEXTON",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/165ac6a2-5ccb-4180-a4fb-e324200790b1",
                   "name": "David HOUSTON",
                   "score": "3"
                 }
@@ -214,6 +291,7 @@
       ]
     },
     {
+      "competitionId": "competition/fa8041cd-17fb-4cd9-86bb-d6875cd52c84",
       "teams": [
         "CZECHIA",
         "GERMANY"
@@ -223,17 +301,26 @@
       "matches": [
         {
           "players": [
-            "Otakar STANKUS",
-            "Joern VINNEN"
+            {
+              "playerId": "team-player/d04b7ab8-a126-4635-8d7d-22cade70f391",
+              "name": "Otakar STANKUS"
+            },
+            {
+              "playerId": "team-player/af21d168-0317-4257-b637-2d1546fc5e05",
+              "name": "Joern VINNEN"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35b805f4-9f2d-443c-aef4-d105c18aa1bd",
               "players": [
                 {
+                  "playerId": "team-player/d04b7ab8-a126-4635-8d7d-22cade70f391",
                   "name": "Otakar STANKUS",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/af21d168-0317-4257-b637-2d1546fc5e05",
                   "name": "Joern VINNEN",
                   "score": "26"
                 }

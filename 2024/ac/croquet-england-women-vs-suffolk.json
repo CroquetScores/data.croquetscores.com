@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/18bc4b44-13d3-4dc5-8a5e-419b41a91b75",
   "name": "Croquet England Women vs Suffolk",
   "sport": "ac",
   "firstDay": "2024-04-20",
   "lastDay": "2024-04-21",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Croquet England Women",
       "shortName": "Croquet En",
       "players": [
-        "Alison Maugham",
-        "Alison Maugham and Sophie McGlen",
-        "Annabel McDiarmid",
-        "Beatrice McGlen",
-        "Debbie Lines",
-        "Diana Wilson",
-        "Diana Wilson and Annabel McDiarmid",
-        "Gabrielle Higgins and Beatrice McGlen",
-        "Sophie McGlen"
+        {
+          "playerId": "team-player/e1f534c3-1f43-4dfc-8287-c0e4366caab2",
+          "name": "Alison Maugham"
+        },
+        {
+          "playerId": "team-player/adef3a6a-63a0-4cf5-ab88-478ab56b0223",
+          "name": "Alison Maugham and Sophie McGlen"
+        },
+        {
+          "playerId": "team-player/3515118e-e033-4839-8cc3-6039e9b1607f",
+          "name": "Annabel McDiarmid"
+        },
+        {
+          "playerId": "team-player/335ebf3f-a379-44d7-a2bb-b17678f1132b",
+          "name": "Beatrice McGlen"
+        },
+        {
+          "playerId": "team-player/4377cc3e-e772-4607-bffa-9347a8a58440",
+          "name": "Debbie Lines"
+        },
+        {
+          "playerId": "team-player/dae10da5-526b-4ad2-afce-d349192977a3",
+          "name": "Diana Wilson"
+        },
+        {
+          "playerId": "team-player/60459201-cce4-43bb-9868-591ef5a206d8",
+          "name": "Diana Wilson and Annabel McDiarmid"
+        },
+        {
+          "playerId": "team-player/1b2c7977-da9a-4142-850c-308906198875",
+          "name": "Gabrielle Higgins and Beatrice McGlen"
+        },
+        {
+          "playerId": "team-player/0089a473-6698-4e51-ba34-064efd27cd86",
+          "name": "Sophie McGlen"
+        }
       ]
     },
     {
       "name": "Suffolk",
       "shortName": "Suffolk",
       "players": [
-        "Albie Willett",
-        "Hugh Gilbert",
-        "Ken Knock",
-        "Mark Avery",
-        "Mark Avery and Ken Knock",
-        "Paul Hetherington",
-        "Paul Hetherington and Hugh Gilbert",
-        "Phil Eardley",
-        "Phil Eardley and Albie Willett"
+        {
+          "playerId": "team-player/8d7501c6-a1cb-486a-8eae-f2fcf5094497",
+          "name": "Albie Willett"
+        },
+        {
+          "playerId": "team-player/e534387f-4395-4e2f-80e2-153e1c27441b",
+          "name": "Hugh Gilbert"
+        },
+        {
+          "playerId": "team-player/aa334c74-ffc0-4108-9674-1f1a8d3f8296",
+          "name": "Ken Knock"
+        },
+        {
+          "playerId": "team-player/2e768265-1dce-4850-912a-5feb2358b395",
+          "name": "Mark Avery"
+        },
+        {
+          "playerId": "team-player/16fba413-d003-40d2-820e-f6c205fd716e",
+          "name": "Mark Avery and Ken Knock"
+        },
+        {
+          "playerId": "team-player/b91b802b-507f-42ee-b211-4fa3c0fdc7e1",
+          "name": "Paul Hetherington"
+        },
+        {
+          "playerId": "team-player/bfce572c-30b3-405a-a88d-58e22e74560b",
+          "name": "Paul Hetherington and Hugh Gilbert"
+        },
+        {
+          "playerId": "team-player/46442943-94b6-45c2-9bad-bf9db08e8357",
+          "name": "Phil Eardley"
+        },
+        {
+          "playerId": "team-player/cf0a0ce5-0e70-4f4a-a9f3-561e3a25761d",
+          "name": "Phil Eardley and Albie Willett"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/248fab5c-8ead-49ea-a175-6648724850f6",
       "teams": [
         "Croquet England Women",
         "Suffolk"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Debbie Lines",
-            "Mark Avery"
+            {
+              "playerId": "team-player/4377cc3e-e772-4607-bffa-9347a8a58440",
+              "name": "Debbie Lines"
+            },
+            {
+              "playerId": "team-player/2e768265-1dce-4850-912a-5feb2358b395",
+              "name": "Mark Avery"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6adfbd63-19ea-4941-930d-caf41b5ea86d",
               "players": [
                 {
+                  "playerId": "team-player/4377cc3e-e772-4607-bffa-9347a8a58440",
                   "name": "Debbie Lines",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/2e768265-1dce-4850-912a-5feb2358b395",
                   "name": "Mark Avery",
                   "score": "1"
                 }
@@ -68,12 +135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a3f62165-b7f1-4b46-9490-db4a5e3fd1c0",
               "players": [
                 {
+                  "playerId": "team-player/4377cc3e-e772-4607-bffa-9347a8a58440",
                   "name": "Debbie Lines",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/2e768265-1dce-4850-912a-5feb2358b395",
                   "name": "Mark Avery",
                   "score": "26TP"
                 }
@@ -82,12 +152,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ab68bdd9-7347-43c6-aae7-63361998a0cb",
               "players": [
                 {
+                  "playerId": "team-player/4377cc3e-e772-4607-bffa-9347a8a58440",
                   "name": "Debbie Lines",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/2e768265-1dce-4850-912a-5feb2358b395",
                   "name": "Mark Avery",
                   "score": "26TP"
                 }
@@ -99,17 +172,26 @@
         },
         {
           "players": [
-            "Alison Maugham",
-            "Paul Hetherington"
+            {
+              "playerId": "team-player/e1f534c3-1f43-4dfc-8287-c0e4366caab2",
+              "name": "Alison Maugham"
+            },
+            {
+              "playerId": "team-player/b91b802b-507f-42ee-b211-4fa3c0fdc7e1",
+              "name": "Paul Hetherington"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c8f4d15-5b99-4c53-9303-fc07d39e8b42",
               "players": [
                 {
+                  "playerId": "team-player/e1f534c3-1f43-4dfc-8287-c0e4366caab2",
                   "name": "Alison Maugham",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b91b802b-507f-42ee-b211-4fa3c0fdc7e1",
                   "name": "Paul Hetherington",
                   "score": "14"
                 }
@@ -118,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fb43219c-e3b9-452c-bf7c-8bc4cf55d504",
               "players": [
                 {
+                  "playerId": "team-player/e1f534c3-1f43-4dfc-8287-c0e4366caab2",
                   "name": "Alison Maugham",
                   "score": "26TP"
                 },
                 {
+                  "playerId": "team-player/b91b802b-507f-42ee-b211-4fa3c0fdc7e1",
                   "name": "Paul Hetherington",
                   "score": "0"
                 }
@@ -135,17 +220,26 @@
         },
         {
           "players": [
-            "Sophie McGlen",
-            "Hugh Gilbert"
+            {
+              "playerId": "team-player/0089a473-6698-4e51-ba34-064efd27cd86",
+              "name": "Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/e534387f-4395-4e2f-80e2-153e1c27441b",
+              "name": "Hugh Gilbert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/52fdb4f3-d4ba-411d-b1e9-8392753f806f",
               "players": [
                 {
+                  "playerId": "team-player/0089a473-6698-4e51-ba34-064efd27cd86",
                   "name": "Sophie McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e534387f-4395-4e2f-80e2-153e1c27441b",
                   "name": "Hugh Gilbert",
                   "score": "6"
                 }
@@ -154,12 +248,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/22005751-4f20-4a30-8ed2-ce3ae2e812f2",
               "players": [
                 {
+                  "playerId": "team-player/0089a473-6698-4e51-ba34-064efd27cd86",
                   "name": "Sophie McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e534387f-4395-4e2f-80e2-153e1c27441b",
                   "name": "Hugh Gilbert",
                   "score": "1"
                 }
@@ -171,17 +268,26 @@
         },
         {
           "players": [
-            "Diana Wilson",
-            "Ken Knock"
+            {
+              "playerId": "team-player/dae10da5-526b-4ad2-afce-d349192977a3",
+              "name": "Diana Wilson"
+            },
+            {
+              "playerId": "team-player/aa334c74-ffc0-4108-9674-1f1a8d3f8296",
+              "name": "Ken Knock"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5c3426b7-872f-45c0-8ac6-ac30d8c6e8b5",
               "players": [
                 {
+                  "playerId": "team-player/dae10da5-526b-4ad2-afce-d349192977a3",
                   "name": "Diana Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/aa334c74-ffc0-4108-9674-1f1a8d3f8296",
                   "name": "Ken Knock",
                   "score": "8"
                 }
@@ -190,12 +296,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cacd4198-c916-4ab1-8d73-7e000481c026",
               "players": [
                 {
+                  "playerId": "team-player/dae10da5-526b-4ad2-afce-d349192977a3",
                   "name": "Diana Wilson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/aa334c74-ffc0-4108-9674-1f1a8d3f8296",
                   "name": "Ken Knock",
                   "score": "13"
                 }
@@ -207,17 +316,26 @@
         },
         {
           "players": [
-            "Beatrice McGlen",
-            "Albie Willett"
+            {
+              "playerId": "team-player/335ebf3f-a379-44d7-a2bb-b17678f1132b",
+              "name": "Beatrice McGlen"
+            },
+            {
+              "playerId": "team-player/8d7501c6-a1cb-486a-8eae-f2fcf5094497",
+              "name": "Albie Willett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1d46b43d-eb24-491a-a281-680dad43f87c",
               "players": [
                 {
+                  "playerId": "team-player/335ebf3f-a379-44d7-a2bb-b17678f1132b",
                   "name": "Beatrice McGlen",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8d7501c6-a1cb-486a-8eae-f2fcf5094497",
                   "name": "Albie Willett",
                   "score": "26"
                 }
@@ -226,12 +344,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6a246b35-112f-4881-82db-227df49e536a",
               "players": [
                 {
+                  "playerId": "team-player/335ebf3f-a379-44d7-a2bb-b17678f1132b",
                   "name": "Beatrice McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/8d7501c6-a1cb-486a-8eae-f2fcf5094497",
                   "name": "Albie Willett",
                   "score": "4"
                 }
@@ -240,12 +361,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7503795c-1283-4724-9664-761bfb8d55aa",
               "players": [
                 {
+                  "playerId": "team-player/335ebf3f-a379-44d7-a2bb-b17678f1132b",
                   "name": "Beatrice McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/8d7501c6-a1cb-486a-8eae-f2fcf5094497",
                   "name": "Albie Willett",
                   "score": "19"
                 }
@@ -257,17 +381,26 @@
         },
         {
           "players": [
-            "Annabel McDiarmid",
-            "Phil Eardley"
+            {
+              "playerId": "team-player/3515118e-e033-4839-8cc3-6039e9b1607f",
+              "name": "Annabel McDiarmid"
+            },
+            {
+              "playerId": "team-player/46442943-94b6-45c2-9bad-bf9db08e8357",
+              "name": "Phil Eardley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e0523c4-9c5c-43e4-a6e8-85dd6b47aead",
               "players": [
                 {
+                  "playerId": "team-player/3515118e-e033-4839-8cc3-6039e9b1607f",
                   "name": "Annabel McDiarmid",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/46442943-94b6-45c2-9bad-bf9db08e8357",
                   "name": "Phil Eardley",
                   "score": "26"
                 }
@@ -276,12 +409,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f5365166-d3df-4ac6-8e63-53dd8657f202",
               "players": [
                 {
+                  "playerId": "team-player/3515118e-e033-4839-8cc3-6039e9b1607f",
                   "name": "Annabel McDiarmid",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/46442943-94b6-45c2-9bad-bf9db08e8357",
                   "name": "Phil Eardley",
                   "score": "26"
                 }
@@ -294,6 +430,7 @@
       ]
     },
     {
+      "competitionId": "competition/09213a92-ffd6-4612-96a1-69e8182be334",
       "teams": [
         "Croquet England Women",
         "Suffolk"
@@ -303,17 +440,26 @@
       "matches": [
         {
           "players": [
-            "Alison Maugham and Sophie McGlen",
-            "Mark Avery and Ken Knock"
+            {
+              "playerId": "team-player/adef3a6a-63a0-4cf5-ab88-478ab56b0223",
+              "name": "Alison Maugham and Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/16fba413-d003-40d2-820e-f6c205fd716e",
+              "name": "Mark Avery and Ken Knock"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0fed3cb4-b7db-4e7b-980e-fbe8cbda86a1",
               "players": [
                 {
+                  "playerId": "team-player/adef3a6a-63a0-4cf5-ab88-478ab56b0223",
                   "name": "Alison Maugham and Sophie McGlen",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/16fba413-d003-40d2-820e-f6c205fd716e",
                   "name": "Mark Avery and Ken Knock",
                   "score": "26"
                 }
@@ -325,17 +471,26 @@
         },
         {
           "players": [
-            "Diana Wilson and Annabel McDiarmid",
-            "Phil Eardley and Albie Willett"
+            {
+              "playerId": "team-player/60459201-cce4-43bb-9868-591ef5a206d8",
+              "name": "Diana Wilson and Annabel McDiarmid"
+            },
+            {
+              "playerId": "team-player/cf0a0ce5-0e70-4f4a-a9f3-561e3a25761d",
+              "name": "Phil Eardley and Albie Willett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/27aa97b9-84d7-4bee-88eb-4ef753623967",
               "players": [
                 {
+                  "playerId": "team-player/60459201-cce4-43bb-9868-591ef5a206d8",
                   "name": "Diana Wilson and Annabel McDiarmid",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/cf0a0ce5-0e70-4f4a-a9f3-561e3a25761d",
                   "name": "Phil Eardley and Albie Willett",
                   "score": "26"
                 }
@@ -347,17 +502,26 @@
         },
         {
           "players": [
-            "Gabrielle Higgins and Beatrice McGlen",
-            "Paul Hetherington and Hugh Gilbert"
+            {
+              "playerId": "team-player/1b2c7977-da9a-4142-850c-308906198875",
+              "name": "Gabrielle Higgins and Beatrice McGlen"
+            },
+            {
+              "playerId": "team-player/bfce572c-30b3-405a-a88d-58e22e74560b",
+              "name": "Paul Hetherington and Hugh Gilbert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cafcb03a-a4ce-47d8-9d5f-34262faadf30",
               "players": [
                 {
+                  "playerId": "team-player/1b2c7977-da9a-4142-850c-308906198875",
                   "name": "Gabrielle Higgins and Beatrice McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bfce572c-30b3-405a-a88d-58e22e74560b",
                   "name": "Paul Hetherington and Hugh Gilbert",
                   "score": "11"
                 }
@@ -369,17 +533,26 @@
         },
         {
           "players": [
-            "Gabrielle Higgins and Beatrice McGlen",
-            "Mark Avery and Ken Knock"
+            {
+              "playerId": "team-player/1b2c7977-da9a-4142-850c-308906198875",
+              "name": "Gabrielle Higgins and Beatrice McGlen"
+            },
+            {
+              "playerId": "team-player/16fba413-d003-40d2-820e-f6c205fd716e",
+              "name": "Mark Avery and Ken Knock"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c3de5fc-6d31-48d1-9560-26aabf5bbd29",
               "players": [
                 {
+                  "playerId": "team-player/1b2c7977-da9a-4142-850c-308906198875",
                   "name": "Gabrielle Higgins and Beatrice McGlen",
                   "score": "26OTP (A)"
                 },
                 {
+                  "playerId": "team-player/16fba413-d003-40d2-820e-f6c205fd716e",
                   "name": "Mark Avery and Ken Knock",
                   "score": "17"
                 }
@@ -391,17 +564,26 @@
         },
         {
           "players": [
-            "Alison Maugham and Sophie McGlen",
-            "Phil Eardley and Albie Willett"
+            {
+              "playerId": "team-player/adef3a6a-63a0-4cf5-ab88-478ab56b0223",
+              "name": "Alison Maugham and Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/cf0a0ce5-0e70-4f4a-a9f3-561e3a25761d",
+              "name": "Phil Eardley and Albie Willett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad187f36-584e-4827-aaf4-e933b1580617",
               "players": [
                 {
+                  "playerId": "team-player/adef3a6a-63a0-4cf5-ab88-478ab56b0223",
                   "name": "Alison Maugham and Sophie McGlen",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/cf0a0ce5-0e70-4f4a-a9f3-561e3a25761d",
                   "name": "Phil Eardley and Albie Willett",
                   "score": "26"
                 }
@@ -413,17 +595,26 @@
         },
         {
           "players": [
-            "Diana Wilson and Annabel McDiarmid",
-            "Paul Hetherington and Hugh Gilbert"
+            {
+              "playerId": "team-player/60459201-cce4-43bb-9868-591ef5a206d8",
+              "name": "Diana Wilson and Annabel McDiarmid"
+            },
+            {
+              "playerId": "team-player/bfce572c-30b3-405a-a88d-58e22e74560b",
+              "name": "Paul Hetherington and Hugh Gilbert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/211f7c3b-13c1-4ff9-b2ee-f2e4ba26ace5",
               "players": [
                 {
+                  "playerId": "team-player/60459201-cce4-43bb-9868-591ef5a206d8",
                   "name": "Diana Wilson and Annabel McDiarmid",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bfce572c-30b3-405a-a88d-58e22e74560b",
                   "name": "Paul Hetherington and Hugh Gilbert",
                   "score": "9"
                 }
@@ -435,17 +626,26 @@
         },
         {
           "players": [
-            "Diana Wilson and Annabel McDiarmid",
-            "Mark Avery and Ken Knock"
+            {
+              "playerId": "team-player/60459201-cce4-43bb-9868-591ef5a206d8",
+              "name": "Diana Wilson and Annabel McDiarmid"
+            },
+            {
+              "playerId": "team-player/16fba413-d003-40d2-820e-f6c205fd716e",
+              "name": "Mark Avery and Ken Knock"
+            }
           ],
           "games": [
             {
+              "gameId": "game/088d34e7-c828-4e77-9fe0-80919fbe0784",
               "players": [
                 {
+                  "playerId": "team-player/60459201-cce4-43bb-9868-591ef5a206d8",
                   "name": "Diana Wilson and Annabel McDiarmid",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/16fba413-d003-40d2-820e-f6c205fd716e",
                   "name": "Mark Avery and Ken Knock",
                   "score": "2"
                 }
@@ -457,17 +657,26 @@
         },
         {
           "players": [
-            "Alison Maugham and Sophie McGlen",
-            "Paul Hetherington and Hugh Gilbert"
+            {
+              "playerId": "team-player/adef3a6a-63a0-4cf5-ab88-478ab56b0223",
+              "name": "Alison Maugham and Sophie McGlen"
+            },
+            {
+              "playerId": "team-player/bfce572c-30b3-405a-a88d-58e22e74560b",
+              "name": "Paul Hetherington and Hugh Gilbert"
+            }
           ],
           "games": [
             {
+              "gameId": "game/571796e2-1ca8-42c1-85cb-733663a51620",
               "players": [
                 {
+                  "playerId": "team-player/adef3a6a-63a0-4cf5-ab88-478ab56b0223",
                   "name": "Alison Maugham and Sophie McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bfce572c-30b3-405a-a88d-58e22e74560b",
                   "name": "Paul Hetherington and Hugh Gilbert",
                   "score": "13"
                 }
@@ -479,17 +688,26 @@
         },
         {
           "players": [
-            "Gabrielle Higgins and Beatrice McGlen",
-            "Phil Eardley and Albie Willett"
+            {
+              "playerId": "team-player/1b2c7977-da9a-4142-850c-308906198875",
+              "name": "Gabrielle Higgins and Beatrice McGlen"
+            },
+            {
+              "playerId": "team-player/cf0a0ce5-0e70-4f4a-a9f3-561e3a25761d",
+              "name": "Phil Eardley and Albie Willett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d4b59ec-a025-40c0-a162-e2550fe6c1ce",
               "players": [
                 {
+                  "playerId": "team-player/1b2c7977-da9a-4142-850c-308906198875",
                   "name": "Gabrielle Higgins and Beatrice McGlen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cf0a0ce5-0e70-4f4a-a9f3-561e3a25761d",
                   "name": "Phil Eardley and Albie Willett",
                   "score": "19"
                 }

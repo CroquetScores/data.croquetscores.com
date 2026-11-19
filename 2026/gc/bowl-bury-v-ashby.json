@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/9ce25406-edb0-40e2-85fd-03c702fe5f8e",
   "name": "GC Bowl Bury v Ashby",
   "sport": "gc",
   "firstDay": "2026-08-23",
   "lastDay": "2026-08-23",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bury",
       "shortName": "Bury",
       "players": [
-        "Bernard Lord",
-        "Bernard Lord & David Barrett",
-        "David Artingstall",
-        "David Barrett",
-        "Simon Attwell"
+        {
+          "playerId": "team-player/a18cc5f1-14f0-43df-8a60-4ab28c3cf000",
+          "name": "Bernard Lord"
+        },
+        {
+          "playerId": "team-player/03c255e3-ef5e-4434-a389-7099934097fc",
+          "name": "Bernard Lord & David Barrett"
+        },
+        {
+          "playerId": "team-player/58a41bfd-db00-4b87-b57c-af1f539e6be2",
+          "name": "David Artingstall"
+        },
+        {
+          "playerId": "team-player/0c09b621-a3e3-417e-8b52-d13c23ff8913",
+          "name": "David Barrett"
+        },
+        {
+          "playerId": "team-player/46bcd86d-05ca-43d5-86c7-70a7c6c44692",
+          "name": "Simon Attwell"
+        }
       ]
     },
     {
       "name": "Ashby",
       "shortName": "Ashby",
       "players": [
-        "Maurice Upton",
-        "Maurice Upton & Stephanie White",
-        "Pete Bensley",
-        "Stephanie White",
-        "Steven Garratt"
+        {
+          "playerId": "team-player/5475c57b-d334-4201-9345-bdd830287b45",
+          "name": "Maurice Upton"
+        },
+        {
+          "playerId": "team-player/6b76810e-2104-4460-bd1a-a30f00b94120",
+          "name": "Maurice Upton & Stephanie White"
+        },
+        {
+          "playerId": "team-player/ff9efd66-7353-4490-b323-74f55022df12",
+          "name": "Pete Bensley"
+        },
+        {
+          "playerId": "team-player/106e093e-35f8-437a-b57c-33e5a146dce1",
+          "name": "Stephanie White"
+        },
+        {
+          "playerId": "team-player/daff1dee-5f2c-48d4-a169-f055a87505b8",
+          "name": "Steven Garratt"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/1269d1f4-67ec-463a-ac62-e2ede1bb20f4",
       "teams": [
         "Bury",
         "Ashby"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Bernard Lord & David Barrett",
-            "Maurice Upton & Stephanie White"
+            {
+              "playerId": "team-player/03c255e3-ef5e-4434-a389-7099934097fc",
+              "name": "Bernard Lord & David Barrett"
+            },
+            {
+              "playerId": "team-player/6b76810e-2104-4460-bd1a-a30f00b94120",
+              "name": "Maurice Upton & Stephanie White"
+            }
           ],
           "games": [
             {
+              "gameId": "game/908d6c86-f971-4c64-a1b0-98eb86224eed",
               "players": [
                 {
+                  "playerId": "team-player/03c255e3-ef5e-4434-a389-7099934097fc",
                   "name": "Bernard Lord & David Barrett",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6b76810e-2104-4460-bd1a-a30f00b94120",
                   "name": "Maurice Upton & Stephanie White",
                   "score": "6"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9bd36bb4-94f5-4cf4-a5ad-276ea7387475",
               "players": [
                 {
+                  "playerId": "team-player/03c255e3-ef5e-4434-a389-7099934097fc",
                   "name": "Bernard Lord & David Barrett",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/6b76810e-2104-4460-bd1a-a30f00b94120",
                   "name": "Maurice Upton & Stephanie White",
                   "score": "7"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2980c9b9-9c11-41b6-9209-d219b8995bac",
               "players": [
                 {
+                  "playerId": "team-player/03c255e3-ef5e-4434-a389-7099934097fc",
                   "name": "Bernard Lord & David Barrett",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/6b76810e-2104-4460-bd1a-a30f00b94120",
                   "name": "Maurice Upton & Stephanie White",
                   "score": "7"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "David Artingstall",
-            "Steven Garratt"
+            {
+              "playerId": "team-player/58a41bfd-db00-4b87-b57c-af1f539e6be2",
+              "name": "David Artingstall"
+            },
+            {
+              "playerId": "team-player/daff1dee-5f2c-48d4-a169-f055a87505b8",
+              "name": "Steven Garratt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/713b0926-52e5-4dc3-b0c9-b2ee60419d58",
               "players": [
                 {
+                  "playerId": "team-player/58a41bfd-db00-4b87-b57c-af1f539e6be2",
                   "name": "David Artingstall",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/daff1dee-5f2c-48d4-a169-f055a87505b8",
                   "name": "Steven Garratt",
                   "score": "2"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bcd00f0c-94fc-410b-8492-4b114019e131",
               "players": [
                 {
+                  "playerId": "team-player/58a41bfd-db00-4b87-b57c-af1f539e6be2",
                   "name": "David Artingstall",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/daff1dee-5f2c-48d4-a169-f055a87505b8",
                   "name": "Steven Garratt",
                   "score": "3"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Simon Attwell",
-            "Pete Bensley"
+            {
+              "playerId": "team-player/46bcd86d-05ca-43d5-86c7-70a7c6c44692",
+              "name": "Simon Attwell"
+            },
+            {
+              "playerId": "team-player/ff9efd66-7353-4490-b323-74f55022df12",
+              "name": "Pete Bensley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bae5def7-72b6-4f79-9f6c-50622a2e7a12",
               "players": [
                 {
+                  "playerId": "team-player/46bcd86d-05ca-43d5-86c7-70a7c6c44692",
                   "name": "Simon Attwell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ff9efd66-7353-4490-b323-74f55022df12",
                   "name": "Pete Bensley",
                   "score": "5"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3fc2c92a-4785-4b66-9547-f0fe8dd5fbe9",
               "players": [
                 {
+                  "playerId": "team-player/46bcd86d-05ca-43d5-86c7-70a7c6c44692",
                   "name": "Simon Attwell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ff9efd66-7353-4490-b323-74f55022df12",
                   "name": "Pete Bensley",
                   "score": "7"
                 }
@@ -160,12 +233,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/265d64c7-7a42-4ec3-a3cc-dd4c8b32cb30",
               "players": [
                 {
+                  "playerId": "team-player/46bcd86d-05ca-43d5-86c7-70a7c6c44692",
                   "name": "Simon Attwell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ff9efd66-7353-4490-b323-74f55022df12",
                   "name": "Pete Bensley",
                   "score": "5"
                 }
@@ -177,17 +253,26 @@
         },
         {
           "players": [
-            "Bernard Lord",
-            "Maurice Upton"
+            {
+              "playerId": "team-player/a18cc5f1-14f0-43df-8a60-4ab28c3cf000",
+              "name": "Bernard Lord"
+            },
+            {
+              "playerId": "team-player/5475c57b-d334-4201-9345-bdd830287b45",
+              "name": "Maurice Upton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/711e6c07-ddaf-46a8-997c-89f130decdea",
               "players": [
                 {
+                  "playerId": "team-player/a18cc5f1-14f0-43df-8a60-4ab28c3cf000",
                   "name": "Bernard Lord",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5475c57b-d334-4201-9345-bdd830287b45",
                   "name": "Maurice Upton",
                   "score": "5"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e00697a9-1dd5-40a0-9da1-42417b58423b",
               "players": [
                 {
+                  "playerId": "team-player/a18cc5f1-14f0-43df-8a60-4ab28c3cf000",
                   "name": "Bernard Lord",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5475c57b-d334-4201-9345-bdd830287b45",
                   "name": "Maurice Upton",
                   "score": "4"
                 }
@@ -213,17 +301,26 @@
         },
         {
           "players": [
-            "David Barrett",
-            "Stephanie White"
+            {
+              "playerId": "team-player/0c09b621-a3e3-417e-8b52-d13c23ff8913",
+              "name": "David Barrett"
+            },
+            {
+              "playerId": "team-player/106e093e-35f8-437a-b57c-33e5a146dce1",
+              "name": "Stephanie White"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30e981c5-52ed-42e3-81a3-d6baece95265",
               "players": [
                 {
+                  "playerId": "team-player/0c09b621-a3e3-417e-8b52-d13c23ff8913",
                   "name": "David Barrett",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/106e093e-35f8-437a-b57c-33e5a146dce1",
                   "name": "Stephanie White",
                   "score": "7"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "David Artingstall",
-            "Pete Bensley"
+            {
+              "playerId": "team-player/58a41bfd-db00-4b87-b57c-af1f539e6be2",
+              "name": "David Artingstall"
+            },
+            {
+              "playerId": "team-player/ff9efd66-7353-4490-b323-74f55022df12",
+              "name": "Pete Bensley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/280b1570-05f9-4f58-a2d9-dd2aef3efc6b",
               "players": [
                 {
+                  "playerId": "team-player/58a41bfd-db00-4b87-b57c-af1f539e6be2",
                   "name": "David Artingstall",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ff9efd66-7353-4490-b323-74f55022df12",
                   "name": "Pete Bensley",
                   "score": "5"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/42bcf2d9-4bbc-43fb-aac3-512a52632c3c",
               "players": [
                 {
+                  "playerId": "team-player/58a41bfd-db00-4b87-b57c-af1f539e6be2",
                   "name": "David Artingstall",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ff9efd66-7353-4490-b323-74f55022df12",
                   "name": "Pete Bensley",
                   "score": "5"
                 }
@@ -271,17 +380,26 @@
         },
         {
           "players": [
-            "Simon Attwell",
-            "Steven Garratt"
+            {
+              "playerId": "team-player/46bcd86d-05ca-43d5-86c7-70a7c6c44692",
+              "name": "Simon Attwell"
+            },
+            {
+              "playerId": "team-player/daff1dee-5f2c-48d4-a169-f055a87505b8",
+              "name": "Steven Garratt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d20aeb2a-9bfd-4864-82cb-e47812ef4367",
               "players": [
                 {
+                  "playerId": "team-player/46bcd86d-05ca-43d5-86c7-70a7c6c44692",
                   "name": "Simon Attwell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/daff1dee-5f2c-48d4-a169-f055a87505b8",
                   "name": "Steven Garratt",
                   "score": "7"
                 }
@@ -290,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/97f72fd8-bd56-4936-967f-2526906e7e0d",
               "players": [
                 {
+                  "playerId": "team-player/46bcd86d-05ca-43d5-86c7-70a7c6c44692",
                   "name": "Simon Attwell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/daff1dee-5f2c-48d4-a169-f055a87505b8",
                   "name": "Steven Garratt",
                   "score": "3"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9962faa6-74fc-488b-b52f-48857364aa9d",
               "players": [
                 {
+                  "playerId": "team-player/46bcd86d-05ca-43d5-86c7-70a7c6c44692",
                   "name": "Simon Attwell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/daff1dee-5f2c-48d4-a169-f055a87505b8",
                   "name": "Steven Garratt",
                   "score": "3"
                 }

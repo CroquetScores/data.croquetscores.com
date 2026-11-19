@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/94f74caf-4cd9-49dc-a85b-0545245cdb0d",
   "name": "Croquetwest AC Country V City",
   "sport": "ac",
   "firstDay": "2018-05-21",
   "lastDay": "2018-05-21",
   "country": "au",
   "region": "wa",
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Country",
       "shortName": "Country",
       "players": [
-        "Carmel Hodges",
-        "Carmel Hodges & Jock Fyfe",
-        "Dorothy Bull",
-        "Eric Ayling",
-        "Eric Ayling & Dorothy Bull",
-        "Jock Fyfe"
+        {
+          "playerId": "team-player/25b12925-c8dc-4db8-9bab-777bde11cc52",
+          "name": "Carmel Hodges"
+        },
+        {
+          "playerId": "team-player/91e0a79b-f3b7-47e6-becb-b90de8dabe13",
+          "name": "Carmel Hodges & Jock Fyfe"
+        },
+        {
+          "playerId": "team-player/a6d80ffb-b638-4f01-a578-4c2677524355",
+          "name": "Dorothy Bull"
+        },
+        {
+          "playerId": "team-player/3b335530-88e4-423f-9600-98b92a5e4c57",
+          "name": "Eric Ayling"
+        },
+        {
+          "playerId": "team-player/b3cccabe-82c9-4012-beff-eb0660b19182",
+          "name": "Eric Ayling & Dorothy Bull"
+        },
+        {
+          "playerId": "team-player/590e4ba9-d43f-4224-9a62-a3bd86a670b1",
+          "name": "Jock Fyfe"
+        }
       ]
     },
     {
       "name": "City",
       "shortName": "City",
       "players": [
-        "John Doepel",
-        "Michael Murphy",
-        "Peter Pekaar",
-        "Peter Pekaar & John Doepel",
-        "Ross Marshall",
-        "Ross Marshall & Michael Murphy"
+        {
+          "playerId": "team-player/32202848-c26c-49e4-8d65-3d76641ce8b1",
+          "name": "John Doepel"
+        },
+        {
+          "playerId": "team-player/55057080-7511-492f-a417-c58f0ecf7a11",
+          "name": "Michael Murphy"
+        },
+        {
+          "playerId": "team-player/ce7c081b-7a77-4b60-a20c-e366f683902a",
+          "name": "Peter Pekaar"
+        },
+        {
+          "playerId": "team-player/48d6dee4-ca5b-427d-b57c-f467428eaa9e",
+          "name": "Peter Pekaar & John Doepel"
+        },
+        {
+          "playerId": "team-player/7e8f10c5-94e9-41b2-bc13-4ffbd4d60354",
+          "name": "Ross Marshall"
+        },
+        {
+          "playerId": "team-player/34bc88d4-df50-410c-b7ee-efa6bf7d79a9",
+          "name": "Ross Marshall & Michael Murphy"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/8e458488-6ce1-41b9-b2c4-7f32d466f856",
       "teams": [
         "Country",
         "City"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Eric Ayling & Dorothy Bull",
-            "Ross Marshall & Michael Murphy"
+            {
+              "playerId": "team-player/b3cccabe-82c9-4012-beff-eb0660b19182",
+              "name": "Eric Ayling & Dorothy Bull"
+            },
+            {
+              "playerId": "team-player/34bc88d4-df50-410c-b7ee-efa6bf7d79a9",
+              "name": "Ross Marshall & Michael Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/17065408-7676-4c01-856b-140199446450",
               "players": [
                 {
+                  "playerId": "team-player/b3cccabe-82c9-4012-beff-eb0660b19182",
                   "name": "Eric Ayling & Dorothy Bull",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/34bc88d4-df50-410c-b7ee-efa6bf7d79a9",
                   "name": "Ross Marshall & Michael Murphy",
                   "score": "18"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Carmel Hodges & Jock Fyfe",
-            "Peter Pekaar & John Doepel"
+            {
+              "playerId": "team-player/91e0a79b-f3b7-47e6-becb-b90de8dabe13",
+              "name": "Carmel Hodges & Jock Fyfe"
+            },
+            {
+              "playerId": "team-player/48d6dee4-ca5b-427d-b57c-f467428eaa9e",
+              "name": "Peter Pekaar & John Doepel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c3817ed-cb41-4ef4-b3f8-8467c5e9132f",
               "players": [
                 {
+                  "playerId": "team-player/91e0a79b-f3b7-47e6-becb-b90de8dabe13",
                   "name": "Carmel Hodges & Jock Fyfe",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/48d6dee4-ca5b-427d-b57c-f467428eaa9e",
                   "name": "Peter Pekaar & John Doepel",
                   "score": "7"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Dorothy Bull",
-            "Michael Murphy"
+            {
+              "playerId": "team-player/a6d80ffb-b638-4f01-a578-4c2677524355",
+              "name": "Dorothy Bull"
+            },
+            {
+              "playerId": "team-player/55057080-7511-492f-a417-c58f0ecf7a11",
+              "name": "Michael Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/10d7990b-64e6-433f-8931-dfaec9b5a811",
               "players": [
                 {
+                  "playerId": "team-player/a6d80ffb-b638-4f01-a578-4c2677524355",
                   "name": "Dorothy Bull",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/55057080-7511-492f-a417-c58f0ecf7a11",
                   "name": "Michael Murphy",
                   "score": "16"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Eric Ayling",
-            "Ross Marshall"
+            {
+              "playerId": "team-player/3b335530-88e4-423f-9600-98b92a5e4c57",
+              "name": "Eric Ayling"
+            },
+            {
+              "playerId": "team-player/7e8f10c5-94e9-41b2-bc13-4ffbd4d60354",
+              "name": "Ross Marshall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49024f5e-cb14-480b-9c32-7a0e3255adf4",
               "players": [
                 {
+                  "playerId": "team-player/3b335530-88e4-423f-9600-98b92a5e4c57",
                   "name": "Eric Ayling",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/7e8f10c5-94e9-41b2-bc13-4ffbd4d60354",
                   "name": "Ross Marshall",
                   "score": "12"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Eric Ayling",
-            "Michael Murphy"
+            {
+              "playerId": "team-player/3b335530-88e4-423f-9600-98b92a5e4c57",
+              "name": "Eric Ayling"
+            },
+            {
+              "playerId": "team-player/55057080-7511-492f-a417-c58f0ecf7a11",
+              "name": "Michael Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9aad1b6c-4e9b-4838-ba6a-290b4b461c9a",
               "players": [
                 {
+                  "playerId": "team-player/3b335530-88e4-423f-9600-98b92a5e4c57",
                   "name": "Eric Ayling",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/55057080-7511-492f-a417-c58f0ecf7a11",
                   "name": "Michael Murphy",
                   "score": "1"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Dorothy Bull",
-            "Ross Marshall"
+            {
+              "playerId": "team-player/a6d80ffb-b638-4f01-a578-4c2677524355",
+              "name": "Dorothy Bull"
+            },
+            {
+              "playerId": "team-player/7e8f10c5-94e9-41b2-bc13-4ffbd4d60354",
+              "name": "Ross Marshall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c4e5e2e8-43fb-49c8-ba25-93a2e27e316f",
               "players": [
                 {
+                  "playerId": "team-player/a6d80ffb-b638-4f01-a578-4c2677524355",
                   "name": "Dorothy Bull",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/7e8f10c5-94e9-41b2-bc13-4ffbd4d60354",
                   "name": "Ross Marshall",
                   "score": "26"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "Carmel Hodges",
-            "John Doepel"
+            {
+              "playerId": "team-player/25b12925-c8dc-4db8-9bab-777bde11cc52",
+              "name": "Carmel Hodges"
+            },
+            {
+              "playerId": "team-player/32202848-c26c-49e4-8d65-3d76641ce8b1",
+              "name": "John Doepel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9fe2d897-43f5-4ade-be26-e98f6fa488b1",
               "players": [
                 {
+                  "playerId": "team-player/25b12925-c8dc-4db8-9bab-777bde11cc52",
                   "name": "Carmel Hodges",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/32202848-c26c-49e4-8d65-3d76641ce8b1",
                   "name": "John Doepel",
                   "score": "14"
                 }
@@ -197,17 +300,26 @@
         },
         {
           "players": [
-            "Jock Fyfe",
-            "Peter Pekaar"
+            {
+              "playerId": "team-player/590e4ba9-d43f-4224-9a62-a3bd86a670b1",
+              "name": "Jock Fyfe"
+            },
+            {
+              "playerId": "team-player/ce7c081b-7a77-4b60-a20c-e366f683902a",
+              "name": "Peter Pekaar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2c85eab0-0c97-49ae-bf68-f385ea42a3f8",
               "players": [
                 {
+                  "playerId": "team-player/590e4ba9-d43f-4224-9a62-a3bd86a670b1",
                   "name": "Jock Fyfe",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ce7c081b-7a77-4b60-a20c-e366f683902a",
                   "name": "Peter Pekaar",
                   "score": "12"
                 }
@@ -219,17 +331,26 @@
         },
         {
           "players": [
-            "Carmel Hodges",
-            "Peter Pekaar"
+            {
+              "playerId": "team-player/25b12925-c8dc-4db8-9bab-777bde11cc52",
+              "name": "Carmel Hodges"
+            },
+            {
+              "playerId": "team-player/ce7c081b-7a77-4b60-a20c-e366f683902a",
+              "name": "Peter Pekaar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8665a173-9f52-495f-a258-da37d21cca86",
               "players": [
                 {
+                  "playerId": "team-player/25b12925-c8dc-4db8-9bab-777bde11cc52",
                   "name": "Carmel Hodges",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ce7c081b-7a77-4b60-a20c-e366f683902a",
                   "name": "Peter Pekaar",
                   "score": "24"
                 }
@@ -241,17 +362,26 @@
         },
         {
           "players": [
-            "Jock Fyfe",
-            "John Doepel"
+            {
+              "playerId": "team-player/590e4ba9-d43f-4224-9a62-a3bd86a670b1",
+              "name": "Jock Fyfe"
+            },
+            {
+              "playerId": "team-player/32202848-c26c-49e4-8d65-3d76641ce8b1",
+              "name": "John Doepel"
+            }
           ],
           "games": [
             {
+              "gameId": "game/99561558-b8a9-467b-9371-f397c8904152",
               "players": [
                 {
+                  "playerId": "team-player/590e4ba9-d43f-4224-9a62-a3bd86a670b1",
                   "name": "Jock Fyfe",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/32202848-c26c-49e4-8d65-3d76641ce8b1",
                   "name": "John Doepel",
                   "score": "11"
                 }

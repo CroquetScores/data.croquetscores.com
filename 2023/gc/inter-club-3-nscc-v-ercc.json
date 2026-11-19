@@ -1,43 +1,95 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/dc240d56-7d94-46a5-8598-fa3e11d15f8f",
   "name": "Auckland Inter-club 3 NSCC v ERCC",
   "sport": "gc",
   "firstDay": "2023-11-14",
   "lastDay": "2023-11-14",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "North Shore CC",
       "shortName": "North Shor",
       "players": [
-        "Jenny + Mike",
-        "Jenny + Sue",
-        "Jenny Sonntag",
-        "Michele + Sue",
-        "Michele Wintle",
-        "Mike + Michele",
-        "Mike Crang",
-        "Sue Alexander"
+        {
+          "playerId": "team-player/abd56e80-5b3e-4c0b-9467-fcc0c2c4dc20",
+          "name": "Jenny + Mike"
+        },
+        {
+          "playerId": "team-player/be7d6ff4-4a07-455f-971f-e8b440ecfe8f",
+          "name": "Jenny + Sue"
+        },
+        {
+          "playerId": "team-player/76c2ce0f-8b54-4ed1-89ad-4ab8e26875be",
+          "name": "Jenny Sonntag"
+        },
+        {
+          "playerId": "team-player/28b62e3f-e52a-40a8-9982-dd4bb43527ed",
+          "name": "Michele + Sue"
+        },
+        {
+          "playerId": "team-player/c4eb1359-4b00-495e-9fe5-c4895887be7c",
+          "name": "Michele Wintle"
+        },
+        {
+          "playerId": "team-player/cdd3ed48-5288-4d18-a4c5-087d3d8112c1",
+          "name": "Mike + Michele"
+        },
+        {
+          "playerId": "team-player/9cf36da0-9d4a-4261-b02e-c5627b0c2714",
+          "name": "Mike Crang"
+        },
+        {
+          "playerId": "team-player/832bd3e5-f58b-43bf-af4a-84305bc5db9a",
+          "name": "Sue Alexander"
+        }
       ]
     },
     {
       "name": "Epsom-Remuera CC",
       "shortName": "Epsom-Remu",
       "players": [
-        "Jude + Peta",
-        "Jude Hudson",
-        "Lesley + Jude",
-        "Lesley Ansell",
-        "Peta Whisker",
-        "Sue + Lesley",
-        "Sue + Peta",
-        "Sue Allen"
+        {
+          "playerId": "team-player/e7d2d1c1-1c0f-483a-b6a1-4229388efde9",
+          "name": "Jude + Peta"
+        },
+        {
+          "playerId": "team-player/445bed67-ed1e-4a46-8949-d2cf7940c316",
+          "name": "Jude Hudson"
+        },
+        {
+          "playerId": "team-player/e86545f3-237d-4f67-ad1f-446ff5af74b9",
+          "name": "Lesley + Jude"
+        },
+        {
+          "playerId": "team-player/6a98bf12-3c2a-48e4-8765-595453a4c052",
+          "name": "Lesley Ansell"
+        },
+        {
+          "playerId": "team-player/73ec81dc-a929-4491-ba90-f7413baf6531",
+          "name": "Peta Whisker"
+        },
+        {
+          "playerId": "team-player/2470b5a8-53ae-4b0c-a47d-bd7fc14f6183",
+          "name": "Sue + Lesley"
+        },
+        {
+          "playerId": "team-player/e43242c5-d578-4b13-93b4-e01a75c39f6f",
+          "name": "Sue + Peta"
+        },
+        {
+          "playerId": "team-player/312e19d3-a618-4de5-8b32-c2b689d55f4b",
+          "name": "Sue Allen"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/cd291dee-714f-46e8-95b4-01b9571067ec",
       "teams": [
         "North Shore CC",
         "Epsom-Remuera CC"
@@ -47,17 +99,26 @@
       "matches": [
         {
           "players": [
-            "Jenny + Mike",
-            "Sue + Lesley"
+            {
+              "playerId": "team-player/abd56e80-5b3e-4c0b-9467-fcc0c2c4dc20",
+              "name": "Jenny + Mike"
+            },
+            {
+              "playerId": "team-player/2470b5a8-53ae-4b0c-a47d-bd7fc14f6183",
+              "name": "Sue + Lesley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ab39672-d425-46f2-ae63-672194d742fe",
               "players": [
                 {
+                  "playerId": "team-player/abd56e80-5b3e-4c0b-9467-fcc0c2c4dc20",
                   "name": "Jenny + Mike",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/2470b5a8-53ae-4b0c-a47d-bd7fc14f6183",
                   "name": "Sue + Lesley",
                   "score": "7"
                 }
@@ -69,17 +130,26 @@
         },
         {
           "players": [
-            "Michele + Sue",
-            "Jude + Peta"
+            {
+              "playerId": "team-player/28b62e3f-e52a-40a8-9982-dd4bb43527ed",
+              "name": "Michele + Sue"
+            },
+            {
+              "playerId": "team-player/e7d2d1c1-1c0f-483a-b6a1-4229388efde9",
+              "name": "Jude + Peta"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d02166a9-578b-4478-b1a8-bb96725e032b",
               "players": [
                 {
+                  "playerId": "team-player/28b62e3f-e52a-40a8-9982-dd4bb43527ed",
                   "name": "Michele + Sue",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e7d2d1c1-1c0f-483a-b6a1-4229388efde9",
                   "name": "Jude + Peta",
                   "score": "5"
                 }
@@ -91,17 +161,26 @@
         },
         {
           "players": [
-            "Jenny + Sue",
-            "Sue + Peta"
+            {
+              "playerId": "team-player/be7d6ff4-4a07-455f-971f-e8b440ecfe8f",
+              "name": "Jenny + Sue"
+            },
+            {
+              "playerId": "team-player/e43242c5-d578-4b13-93b4-e01a75c39f6f",
+              "name": "Sue + Peta"
+            }
           ],
           "games": [
             {
+              "gameId": "game/29484aeb-f7db-4d1f-ae57-db615eec5ec6",
               "players": [
                 {
+                  "playerId": "team-player/be7d6ff4-4a07-455f-971f-e8b440ecfe8f",
                   "name": "Jenny + Sue",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e43242c5-d578-4b13-93b4-e01a75c39f6f",
                   "name": "Sue + Peta",
                   "score": "7"
                 }
@@ -113,17 +192,26 @@
         },
         {
           "players": [
-            "Mike + Michele",
-            "Lesley + Jude"
+            {
+              "playerId": "team-player/cdd3ed48-5288-4d18-a4c5-087d3d8112c1",
+              "name": "Mike + Michele"
+            },
+            {
+              "playerId": "team-player/e86545f3-237d-4f67-ad1f-446ff5af74b9",
+              "name": "Lesley + Jude"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b344211-7929-46fc-b9fc-ee4fc4ce28c2",
               "players": [
                 {
+                  "playerId": "team-player/cdd3ed48-5288-4d18-a4c5-087d3d8112c1",
                   "name": "Mike + Michele",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e86545f3-237d-4f67-ad1f-446ff5af74b9",
                   "name": "Lesley + Jude",
                   "score": "5"
                 }
@@ -135,17 +223,26 @@
         },
         {
           "players": [
-            "Jenny Sonntag",
-            "Sue Allen"
+            {
+              "playerId": "team-player/76c2ce0f-8b54-4ed1-89ad-4ab8e26875be",
+              "name": "Jenny Sonntag"
+            },
+            {
+              "playerId": "team-player/312e19d3-a618-4de5-8b32-c2b689d55f4b",
+              "name": "Sue Allen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/71de3cc6-ce48-46a0-9f86-702ccbfe4f9e",
               "players": [
                 {
+                  "playerId": "team-player/76c2ce0f-8b54-4ed1-89ad-4ab8e26875be",
                   "name": "Jenny Sonntag",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/312e19d3-a618-4de5-8b32-c2b689d55f4b",
                   "name": "Sue Allen",
                   "score": "7"
                 }
@@ -157,17 +254,26 @@
         },
         {
           "players": [
-            "Mike Crang",
-            "Lesley Ansell"
+            {
+              "playerId": "team-player/9cf36da0-9d4a-4261-b02e-c5627b0c2714",
+              "name": "Mike Crang"
+            },
+            {
+              "playerId": "team-player/6a98bf12-3c2a-48e4-8765-595453a4c052",
+              "name": "Lesley Ansell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5914821b-c1dd-49c7-9cd8-60b4216e369d",
               "players": [
                 {
+                  "playerId": "team-player/9cf36da0-9d4a-4261-b02e-c5627b0c2714",
                   "name": "Mike Crang",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6a98bf12-3c2a-48e4-8765-595453a4c052",
                   "name": "Lesley Ansell",
                   "score": "5"
                 }
@@ -179,17 +285,26 @@
         },
         {
           "players": [
-            "Michele Wintle",
-            "Jude Hudson"
+            {
+              "playerId": "team-player/c4eb1359-4b00-495e-9fe5-c4895887be7c",
+              "name": "Michele Wintle"
+            },
+            {
+              "playerId": "team-player/445bed67-ed1e-4a46-8949-d2cf7940c316",
+              "name": "Jude Hudson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/895a6280-5c55-47cb-9042-2aafa716b0ae",
               "players": [
                 {
+                  "playerId": "team-player/c4eb1359-4b00-495e-9fe5-c4895887be7c",
                   "name": "Michele Wintle",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/445bed67-ed1e-4a46-8949-d2cf7940c316",
                   "name": "Jude Hudson",
                   "score": "5"
                 }
@@ -201,17 +316,26 @@
         },
         {
           "players": [
-            "Jenny Sonntag",
-            "Lesley Ansell"
+            {
+              "playerId": "team-player/76c2ce0f-8b54-4ed1-89ad-4ab8e26875be",
+              "name": "Jenny Sonntag"
+            },
+            {
+              "playerId": "team-player/6a98bf12-3c2a-48e4-8765-595453a4c052",
+              "name": "Lesley Ansell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d8f589b-b1eb-4b80-b800-c4bfa90f71b3",
               "players": [
                 {
+                  "playerId": "team-player/76c2ce0f-8b54-4ed1-89ad-4ab8e26875be",
                   "name": "Jenny Sonntag",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6a98bf12-3c2a-48e4-8765-595453a4c052",
                   "name": "Lesley Ansell",
                   "score": "2"
                 }
@@ -223,17 +347,26 @@
         },
         {
           "players": [
-            "Mike Crang",
-            "Sue Allen"
+            {
+              "playerId": "team-player/9cf36da0-9d4a-4261-b02e-c5627b0c2714",
+              "name": "Mike Crang"
+            },
+            {
+              "playerId": "team-player/312e19d3-a618-4de5-8b32-c2b689d55f4b",
+              "name": "Sue Allen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/793eaeee-e8d9-42cd-9509-7b90dd35ce88",
               "players": [
                 {
+                  "playerId": "team-player/9cf36da0-9d4a-4261-b02e-c5627b0c2714",
                   "name": "Mike Crang",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/312e19d3-a618-4de5-8b32-c2b689d55f4b",
                   "name": "Sue Allen",
                   "score": "3"
                 }
@@ -245,17 +378,26 @@
         },
         {
           "players": [
-            "Michele Wintle",
-            "Peta Whisker"
+            {
+              "playerId": "team-player/c4eb1359-4b00-495e-9fe5-c4895887be7c",
+              "name": "Michele Wintle"
+            },
+            {
+              "playerId": "team-player/73ec81dc-a929-4491-ba90-f7413baf6531",
+              "name": "Peta Whisker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f7a8bffb-d65b-42db-8521-ac578a439e85",
               "players": [
                 {
+                  "playerId": "team-player/c4eb1359-4b00-495e-9fe5-c4895887be7c",
                   "name": "Michele Wintle",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/73ec81dc-a929-4491-ba90-f7413baf6531",
                   "name": "Peta Whisker",
                   "score": "7"
                 }
@@ -267,17 +409,26 @@
         },
         {
           "players": [
-            "Sue Alexander",
-            "Jude Hudson"
+            {
+              "playerId": "team-player/832bd3e5-f58b-43bf-af4a-84305bc5db9a",
+              "name": "Sue Alexander"
+            },
+            {
+              "playerId": "team-player/445bed67-ed1e-4a46-8949-d2cf7940c316",
+              "name": "Jude Hudson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d7f5b034-8c44-4cbb-bacf-ae0c8b6640f7",
               "players": [
                 {
+                  "playerId": "team-player/832bd3e5-f58b-43bf-af4a-84305bc5db9a",
                   "name": "Sue Alexander",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/445bed67-ed1e-4a46-8949-d2cf7940c316",
                   "name": "Jude Hudson",
                   "score": "6"
                 }

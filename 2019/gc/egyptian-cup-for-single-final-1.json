@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/be546276-8c22-4510-8fb2-4b54e6ace7fd",
   "name": "Egyptian Cup for Single Final",
   "sport": "gc",
   "firstDay": "2019-03-23",
   "lastDay": "2019-03-23",
   "country": "eg",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Zamalek Club",
       "shortName": "Zamalek Cl",
       "players": [
-        "Ahmed Nasr",
-        "Amany Hassan",
-        "Hamy Erian",
-        "Khaled Kamel",
-        "Manal Khoder",
-        "Sayed Sabra"
+        {
+          "playerId": "team-player/186c55b2-bd55-4fda-b562-6978d44996c0",
+          "name": "Ahmed Nasr"
+        },
+        {
+          "playerId": "team-player/f188fd71-e8b4-40f8-9dd5-eb72275ac2a5",
+          "name": "Amany Hassan"
+        },
+        {
+          "playerId": "team-player/d8ec6ddf-56d9-4e30-b477-a64711883f55",
+          "name": "Hamy Erian"
+        },
+        {
+          "playerId": "team-player/9a009c8a-7325-4056-9461-e2c3a9e9175a",
+          "name": "Khaled Kamel"
+        },
+        {
+          "playerId": "team-player/c25a7580-517b-48b4-a8aa-a3c760222484",
+          "name": "Manal Khoder"
+        },
+        {
+          "playerId": "team-player/d6971547-8498-4541-b46c-87b78b42f246",
+          "name": "Sayed Sabra"
+        }
       ]
     },
     {
       "name": "Shooting Club",
       "shortName": "Shooting C",
       "players": [
-        "Abeer Mostafa",
-        "Ahmed Elaamary",
-        "Ahmed Elmahdy",
-        "Ahmed Hilal",
-        "Maram Nabil",
-        "Walid Wahban"
+        {
+          "playerId": "team-player/5128c770-5545-4381-bd00-887aa4e12f07",
+          "name": "Abeer Mostafa"
+        },
+        {
+          "playerId": "team-player/0eed15ac-0a43-43b7-9609-cc5d96796995",
+          "name": "Ahmed Elaamary"
+        },
+        {
+          "playerId": "team-player/3c48954e-3007-43ef-a42c-b8c702510c62",
+          "name": "Ahmed Elmahdy"
+        },
+        {
+          "playerId": "team-player/a589ee8a-a25b-4086-a8ac-ad23d5601545",
+          "name": "Ahmed Hilal"
+        },
+        {
+          "playerId": "team-player/37418fc0-0950-465c-8694-8b4a47ea3887",
+          "name": "Maram Nabil"
+        },
+        {
+          "playerId": "team-player/c0c2db18-c307-4b7d-9ab6-a9bed135ef50",
+          "name": "Walid Wahban"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/60cb9796-4d70-4611-8d45-932d09a8c63a",
       "teams": [
         "Zamalek Club",
         "Shooting Club"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Amany Hassan",
-            "Abeer Mostafa"
+            {
+              "playerId": "team-player/f188fd71-e8b4-40f8-9dd5-eb72275ac2a5",
+              "name": "Amany Hassan"
+            },
+            {
+              "playerId": "team-player/5128c770-5545-4381-bd00-887aa4e12f07",
+              "name": "Abeer Mostafa"
+            }
           ],
           "games": [
             {
+              "gameId": "game/19ad2ddc-416e-46ee-b19b-ea0883ecaafc",
               "players": [
                 {
+                  "playerId": "team-player/f188fd71-e8b4-40f8-9dd5-eb72275ac2a5",
                   "name": "Amany Hassan",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/5128c770-5545-4381-bd00-887aa4e12f07",
                   "name": "Abeer Mostafa",
                   "score": "7"
                 }
@@ -62,12 +111,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7d29b38f-86b1-4ab6-ab46-dfb3d6fc7c99",
               "players": [
                 {
+                  "playerId": "team-player/f188fd71-e8b4-40f8-9dd5-eb72275ac2a5",
                   "name": "Amany Hassan",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/5128c770-5545-4381-bd00-887aa4e12f07",
                   "name": "Abeer Mostafa",
                   "score": "7"
                 }
@@ -79,17 +131,26 @@
         },
         {
           "players": [
-            "Ahmed Nasr",
-            "Ahmed Elmahdy"
+            {
+              "playerId": "team-player/186c55b2-bd55-4fda-b562-6978d44996c0",
+              "name": "Ahmed Nasr"
+            },
+            {
+              "playerId": "team-player/3c48954e-3007-43ef-a42c-b8c702510c62",
+              "name": "Ahmed Elmahdy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7c66f57f-74bc-42ef-b631-6893eba4fdef",
               "players": [
                 {
+                  "playerId": "team-player/186c55b2-bd55-4fda-b562-6978d44996c0",
                   "name": "Ahmed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c48954e-3007-43ef-a42c-b8c702510c62",
                   "name": "Ahmed Elmahdy",
                   "score": "5"
                 }
@@ -98,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/267b03bb-b6e7-4a7e-903a-110b1c5b6aec",
               "players": [
                 {
+                  "playerId": "team-player/186c55b2-bd55-4fda-b562-6978d44996c0",
                   "name": "Ahmed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3c48954e-3007-43ef-a42c-b8c702510c62",
                   "name": "Ahmed Elmahdy",
                   "score": "4"
                 }
@@ -115,17 +179,26 @@
         },
         {
           "players": [
-            "Manal Khoder",
-            "Maram Nabil"
+            {
+              "playerId": "team-player/c25a7580-517b-48b4-a8aa-a3c760222484",
+              "name": "Manal Khoder"
+            },
+            {
+              "playerId": "team-player/37418fc0-0950-465c-8694-8b4a47ea3887",
+              "name": "Maram Nabil"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32db8652-75c4-4e3f-aca7-daa7d3a77c11",
               "players": [
                 {
+                  "playerId": "team-player/c25a7580-517b-48b4-a8aa-a3c760222484",
                   "name": "Manal Khoder",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/37418fc0-0950-465c-8694-8b4a47ea3887",
                   "name": "Maram Nabil",
                   "score": "4"
                 }
@@ -134,12 +207,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e0440a96-dee7-451e-b34b-f9042c2e643d",
               "players": [
                 {
+                  "playerId": "team-player/c25a7580-517b-48b4-a8aa-a3c760222484",
                   "name": "Manal Khoder",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/37418fc0-0950-465c-8694-8b4a47ea3887",
                   "name": "Maram Nabil",
                   "score": "7"
                 }
@@ -148,12 +224,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6b586816-6162-4633-8840-6bcd8d04f5df",
               "players": [
                 {
+                  "playerId": "team-player/c25a7580-517b-48b4-a8aa-a3c760222484",
                   "name": "Manal Khoder",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/37418fc0-0950-465c-8694-8b4a47ea3887",
                   "name": "Maram Nabil",
                   "score": "5"
                 }
@@ -165,17 +244,26 @@
         },
         {
           "players": [
-            "Hamy Erian",
-            "Ahmed Elaamary"
+            {
+              "playerId": "team-player/d8ec6ddf-56d9-4e30-b477-a64711883f55",
+              "name": "Hamy Erian"
+            },
+            {
+              "playerId": "team-player/0eed15ac-0a43-43b7-9609-cc5d96796995",
+              "name": "Ahmed Elaamary"
+            }
           ],
           "games": [
             {
+              "gameId": "game/08c8a8be-5c7f-4f13-85c7-dc555df0c2e9",
               "players": [
                 {
+                  "playerId": "team-player/d8ec6ddf-56d9-4e30-b477-a64711883f55",
                   "name": "Hamy Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0eed15ac-0a43-43b7-9609-cc5d96796995",
                   "name": "Ahmed Elaamary",
                   "score": "2"
                 }
@@ -184,12 +272,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d3877905-8004-41c9-905e-c6908169e048",
               "players": [
                 {
+                  "playerId": "team-player/d8ec6ddf-56d9-4e30-b477-a64711883f55",
                   "name": "Hamy Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0eed15ac-0a43-43b7-9609-cc5d96796995",
                   "name": "Ahmed Elaamary",
                   "score": "2"
                 }

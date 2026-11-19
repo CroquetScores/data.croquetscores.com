@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/262a1b6b-4c66-430a-b587-2a15a573e3ab",
   "name": "GC Bowl Ashby v Derby",
   "sport": "gc",
   "firstDay": "2025-05-08",
   "lastDay": "2025-05-08",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Ashby",
       "shortName": "Ashby",
       "players": [
-        "Judith Rowe",
-        "Martin Wroughton",
-        "Richard Sanville",
-        "Stephanie White",
-        "Stephanie White & Martin Wroughton"
+        {
+          "playerId": "team-player/407ba69f-ccf4-44ac-84ff-dc3354b95f49",
+          "name": "Judith Rowe"
+        },
+        {
+          "playerId": "team-player/06d1aae7-a8e5-40f2-af14-8c8b0e779e25",
+          "name": "Martin Wroughton"
+        },
+        {
+          "playerId": "team-player/92d63e1b-976f-4ad4-8b85-d6d999fbad49",
+          "name": "Richard Sanville"
+        },
+        {
+          "playerId": "team-player/71f8ca97-62ae-4e7b-af23-44edac2f1ab4",
+          "name": "Stephanie White"
+        },
+        {
+          "playerId": "team-player/476e89f6-b03b-4bf8-9cd4-6285b8df8c5a",
+          "name": "Stephanie White & Martin Wroughton"
+        }
       ]
     },
     {
       "name": "Derby",
       "shortName": "Derby",
       "players": [
-        "Frank Webster",
-        "Jack Blackmore",
-        "Jane Greaves",
-        "Kate Ibbitson",
-        "Kate Ibbitson & Frank Webster"
+        {
+          "playerId": "team-player/cb8a1e24-6824-4098-8cb5-0f9cea7c7138",
+          "name": "Frank Webster"
+        },
+        {
+          "playerId": "team-player/68c49d89-49f3-4a1f-b87c-c5230c4e898d",
+          "name": "Jack Blackmore"
+        },
+        {
+          "playerId": "team-player/a27d8f5b-238f-49a3-9dac-6bfa4db1dedd",
+          "name": "Jane Greaves"
+        },
+        {
+          "playerId": "team-player/427f6126-a82f-4ce0-912e-612bb0d0cd28",
+          "name": "Kate Ibbitson"
+        },
+        {
+          "playerId": "team-player/87b86160-38f5-4936-86e5-c9172f3ad033",
+          "name": "Kate Ibbitson & Frank Webster"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2bdbd0e2-a5f8-42ef-b619-9824d8d361f4",
       "teams": [
         "Ashby",
         "Derby"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Judith Rowe",
-            "Jane Greaves"
+            {
+              "playerId": "team-player/407ba69f-ccf4-44ac-84ff-dc3354b95f49",
+              "name": "Judith Rowe"
+            },
+            {
+              "playerId": "team-player/a27d8f5b-238f-49a3-9dac-6bfa4db1dedd",
+              "name": "Jane Greaves"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4c73aba-bd5a-4ba7-b919-fcecf263e7bf",
               "players": [
                 {
+                  "playerId": "team-player/407ba69f-ccf4-44ac-84ff-dc3354b95f49",
                   "name": "Judith Rowe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a27d8f5b-238f-49a3-9dac-6bfa4db1dedd",
                   "name": "Jane Greaves",
                   "score": "5"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3e29497d-cc4b-4fc1-8657-3ebec5c14058",
               "players": [
                 {
+                  "playerId": "team-player/407ba69f-ccf4-44ac-84ff-dc3354b95f49",
                   "name": "Judith Rowe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a27d8f5b-238f-49a3-9dac-6bfa4db1dedd",
                   "name": "Jane Greaves",
                   "score": "3"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Richard Sanville",
-            "Jack Blackmore"
+            {
+              "playerId": "team-player/92d63e1b-976f-4ad4-8b85-d6d999fbad49",
+              "name": "Richard Sanville"
+            },
+            {
+              "playerId": "team-player/68c49d89-49f3-4a1f-b87c-c5230c4e898d",
+              "name": "Jack Blackmore"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1cf8b513-77b2-459c-b6fc-818c38ba3248",
               "players": [
                 {
+                  "playerId": "team-player/92d63e1b-976f-4ad4-8b85-d6d999fbad49",
                   "name": "Richard Sanville",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/68c49d89-49f3-4a1f-b87c-c5230c4e898d",
                   "name": "Jack Blackmore",
                   "score": "4"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9c633cd9-b360-40b8-b7ce-e4e06eb80c06",
               "players": [
                 {
+                  "playerId": "team-player/92d63e1b-976f-4ad4-8b85-d6d999fbad49",
                   "name": "Richard Sanville",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/68c49d89-49f3-4a1f-b87c-c5230c4e898d",
                   "name": "Jack Blackmore",
                   "score": "5"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Stephanie White & Martin Wroughton",
-            "Kate Ibbitson & Frank Webster"
+            {
+              "playerId": "team-player/476e89f6-b03b-4bf8-9cd4-6285b8df8c5a",
+              "name": "Stephanie White & Martin Wroughton"
+            },
+            {
+              "playerId": "team-player/87b86160-38f5-4936-86e5-c9172f3ad033",
+              "name": "Kate Ibbitson & Frank Webster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f116eeca-12c1-4189-bf3a-4217fc6bcfa6",
               "players": [
                 {
+                  "playerId": "team-player/476e89f6-b03b-4bf8-9cd4-6285b8df8c5a",
                   "name": "Stephanie White & Martin Wroughton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87b86160-38f5-4936-86e5-c9172f3ad033",
                   "name": "Kate Ibbitson & Frank Webster",
                   "score": "3"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2a632434-5154-45cb-91f8-7ffb7613ebe6",
               "players": [
                 {
+                  "playerId": "team-player/476e89f6-b03b-4bf8-9cd4-6285b8df8c5a",
                   "name": "Stephanie White & Martin Wroughton",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/87b86160-38f5-4936-86e5-c9172f3ad033",
                   "name": "Kate Ibbitson & Frank Webster",
                   "score": "7"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0d59f6f5-e7c7-4a7e-86ad-179b1e91ec76",
               "players": [
                 {
+                  "playerId": "team-player/476e89f6-b03b-4bf8-9cd4-6285b8df8c5a",
                   "name": "Stephanie White & Martin Wroughton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87b86160-38f5-4936-86e5-c9172f3ad033",
                   "name": "Kate Ibbitson & Frank Webster",
                   "score": "2"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Richard Sanville",
-            "Jane Greaves"
+            {
+              "playerId": "team-player/92d63e1b-976f-4ad4-8b85-d6d999fbad49",
+              "name": "Richard Sanville"
+            },
+            {
+              "playerId": "team-player/a27d8f5b-238f-49a3-9dac-6bfa4db1dedd",
+              "name": "Jane Greaves"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e84cf66a-7f13-4c52-880d-8107b9bba80c",
               "players": [
                 {
+                  "playerId": "team-player/92d63e1b-976f-4ad4-8b85-d6d999fbad49",
                   "name": "Richard Sanville",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/a27d8f5b-238f-49a3-9dac-6bfa4db1dedd",
                   "name": "Jane Greaves",
                   "score": "7"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d7889a5d-b3d2-4c0e-acdf-6fd5e66b6b46",
               "players": [
                 {
+                  "playerId": "team-player/92d63e1b-976f-4ad4-8b85-d6d999fbad49",
                   "name": "Richard Sanville",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a27d8f5b-238f-49a3-9dac-6bfa4db1dedd",
                   "name": "Jane Greaves",
                   "score": "7"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Judith Rowe",
-            "Jack Blackmore"
+            {
+              "playerId": "team-player/407ba69f-ccf4-44ac-84ff-dc3354b95f49",
+              "name": "Judith Rowe"
+            },
+            {
+              "playerId": "team-player/68c49d89-49f3-4a1f-b87c-c5230c4e898d",
+              "name": "Jack Blackmore"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7c885561-b83e-4950-a838-37a6610cc8bf",
               "players": [
                 {
+                  "playerId": "team-player/407ba69f-ccf4-44ac-84ff-dc3354b95f49",
                   "name": "Judith Rowe",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/68c49d89-49f3-4a1f-b87c-c5230c4e898d",
                   "name": "Jack Blackmore",
                   "score": "7"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d23d3d17-7b37-47dd-98eb-0e49085e2cc4",
               "players": [
                 {
+                  "playerId": "team-player/407ba69f-ccf4-44ac-84ff-dc3354b95f49",
                   "name": "Judith Rowe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/68c49d89-49f3-4a1f-b87c-c5230c4e898d",
                   "name": "Jack Blackmore",
                   "score": "5"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6da448ff-3198-400c-9604-526e7dc063e0",
               "players": [
                 {
+                  "playerId": "team-player/407ba69f-ccf4-44ac-84ff-dc3354b95f49",
                   "name": "Judith Rowe",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/68c49d89-49f3-4a1f-b87c-c5230c4e898d",
                   "name": "Jack Blackmore",
                   "score": "7"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Martin Wroughton",
-            "Frank Webster"
+            {
+              "playerId": "team-player/06d1aae7-a8e5-40f2-af14-8c8b0e779e25",
+              "name": "Martin Wroughton"
+            },
+            {
+              "playerId": "team-player/cb8a1e24-6824-4098-8cb5-0f9cea7c7138",
+              "name": "Frank Webster"
+            }
           ],
           "games": [
             {
+              "gameId": "game/09f0ca83-3ee2-4c75-b452-58c1ae1df516",
               "players": [
                 {
+                  "playerId": "team-player/06d1aae7-a8e5-40f2-af14-8c8b0e779e25",
                   "name": "Martin Wroughton",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cb8a1e24-6824-4098-8cb5-0f9cea7c7138",
                   "name": "Frank Webster",
                   "score": "7"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4b0677ac-c304-4dfa-957b-97cfa3f14cce",
               "players": [
                 {
+                  "playerId": "team-player/06d1aae7-a8e5-40f2-af14-8c8b0e779e25",
                   "name": "Martin Wroughton",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cb8a1e24-6824-4098-8cb5-0f9cea7c7138",
                   "name": "Frank Webster",
                   "score": "7"
                 }
@@ -285,17 +397,26 @@
         },
         {
           "players": [
-            "Stephanie White",
-            "Kate Ibbitson"
+            {
+              "playerId": "team-player/71f8ca97-62ae-4e7b-af23-44edac2f1ab4",
+              "name": "Stephanie White"
+            },
+            {
+              "playerId": "team-player/427f6126-a82f-4ce0-912e-612bb0d0cd28",
+              "name": "Kate Ibbitson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a21bd7b5-e36d-4e78-8725-77aab5c86512",
               "players": [
                 {
+                  "playerId": "team-player/71f8ca97-62ae-4e7b-af23-44edac2f1ab4",
                   "name": "Stephanie White",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/427f6126-a82f-4ce0-912e-612bb0d0cd28",
                   "name": "Kate Ibbitson",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cc3f04bb-b5fe-4385-a7a6-5f1d393604b3",
               "players": [
                 {
+                  "playerId": "team-player/71f8ca97-62ae-4e7b-af23-44edac2f1ab4",
                   "name": "Stephanie White",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/427f6126-a82f-4ce0-912e-612bb0d0cd28",
                   "name": "Kate Ibbitson",
                   "score": "5"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/05b312c3-f2d8-424e-b895-eb1469b8559b",
               "players": [
                 {
+                  "playerId": "team-player/71f8ca97-62ae-4e7b-af23-44edac2f1ab4",
                   "name": "Stephanie White",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/427f6126-a82f-4ce0-912e-612bb0d0cd28",
                   "name": "Kate Ibbitson",
                   "score": "3"
                 }

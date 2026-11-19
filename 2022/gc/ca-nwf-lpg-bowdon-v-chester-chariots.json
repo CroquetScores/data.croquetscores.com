@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/492bc4ff-2342-46b9-930c-b2eefa79692a",
   "name": "CA NWF LPG Bowdon v Chester Chariots",
   "sport": "gc",
   "firstDay": "2022-08-18",
   "lastDay": "2022-08-18",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bowdon",
       "shortName": "Bowdon",
       "players": [
-        "Alan Mayne",
-        "Andrew Thomson",
-        "Andrew Thomson - meet again",
-        "Jack Good"
+        {
+          "playerId": "team-player/39bf2399-8c43-4929-bc69-a28152132950",
+          "name": "Alan Mayne"
+        },
+        {
+          "playerId": "team-player/0f9ffa39-b1c9-41ef-a073-51e58b3cdc31",
+          "name": "Andrew Thomson"
+        },
+        {
+          "playerId": "team-player/6a6a788d-077c-4741-848a-9300546217a7",
+          "name": "Andrew Thomson - meet again"
+        },
+        {
+          "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
+          "name": "Jack Good"
+        }
       ]
     },
     {
       "name": "Chester Chariots",
       "shortName": "Chester Ch",
       "players": [
-        "Brian Lussey",
-        "Brian Lussey - meet again",
-        "Pat Clare",
-        "Pat Clare - meet again",
-        "Tom Grievson",
-        "Tom Grievson - meet again"
+        {
+          "playerId": "team-player/47bb4bf8-c1f6-458a-9c57-a3fc838f9638",
+          "name": "Brian Lussey"
+        },
+        {
+          "playerId": "team-player/b653bf10-0703-46cf-90f3-3fa795164fdc",
+          "name": "Brian Lussey - meet again"
+        },
+        {
+          "playerId": "team-player/9c717be2-a174-426f-a05d-0303b9f1a7d9",
+          "name": "Pat Clare"
+        },
+        {
+          "playerId": "team-player/540b7770-4996-4fca-a94c-6982bfd5c9ac",
+          "name": "Pat Clare - meet again"
+        },
+        {
+          "playerId": "team-player/28642085-be5b-48dd-9580-144d0a9858fb",
+          "name": "Tom Grievson"
+        },
+        {
+          "playerId": "team-player/0949fbe6-71a1-4674-8eaa-b6234daf2fdc",
+          "name": "Tom Grievson - meet again"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/d4f16d7e-9aa9-4147-8e4a-ecd9c3647820",
       "teams": [
         "Bowdon",
         "Chester Chariots"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Jack Good",
-            "Pat Clare"
+            {
+              "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/9c717be2-a174-426f-a05d-0303b9f1a7d9",
+              "name": "Pat Clare"
+            }
           ],
           "games": [
             {
+              "gameId": "game/24781031-f52e-45d7-9e1a-8bb7a1385a31",
               "players": [
                 {
+                  "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c717be2-a174-426f-a05d-0303b9f1a7d9",
                   "name": "Pat Clare",
                   "score": "2"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Alan Mayne",
-            "Tom Grievson"
+            {
+              "playerId": "team-player/39bf2399-8c43-4929-bc69-a28152132950",
+              "name": "Alan Mayne"
+            },
+            {
+              "playerId": "team-player/28642085-be5b-48dd-9580-144d0a9858fb",
+              "name": "Tom Grievson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2c1401bc-bd5f-45d1-9f09-63952e2f1048",
               "players": [
                 {
+                  "playerId": "team-player/39bf2399-8c43-4929-bc69-a28152132950",
                   "name": "Alan Mayne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/28642085-be5b-48dd-9580-144d0a9858fb",
                   "name": "Tom Grievson",
                   "score": "5"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Andrew Thomson",
-            "Brian Lussey"
+            {
+              "playerId": "team-player/0f9ffa39-b1c9-41ef-a073-51e58b3cdc31",
+              "name": "Andrew Thomson"
+            },
+            {
+              "playerId": "team-player/47bb4bf8-c1f6-458a-9c57-a3fc838f9638",
+              "name": "Brian Lussey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6ff66a4c-8da8-463d-beaa-027f4e0e8bc5",
               "players": [
                 {
+                  "playerId": "team-player/0f9ffa39-b1c9-41ef-a073-51e58b3cdc31",
                   "name": "Andrew Thomson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/47bb4bf8-c1f6-458a-9c57-a3fc838f9638",
                   "name": "Brian Lussey",
                   "score": "6"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Pat Clare - meet again"
+            {
+              "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/540b7770-4996-4fca-a94c-6982bfd5c9ac",
+              "name": "Pat Clare - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5b6c1fc0-9919-4db7-b54d-6d0d328b3316",
               "players": [
                 {
+                  "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/540b7770-4996-4fca-a94c-6982bfd5c9ac",
                   "name": "Pat Clare - meet again",
                   "score": "3"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Andrew Thomson - meet again",
-            "Brian Lussey"
+            {
+              "playerId": "team-player/6a6a788d-077c-4741-848a-9300546217a7",
+              "name": "Andrew Thomson - meet again"
+            },
+            {
+              "playerId": "team-player/47bb4bf8-c1f6-458a-9c57-a3fc838f9638",
+              "name": "Brian Lussey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa49b81c-24d3-4d21-9c58-edb57cb5518f",
               "players": [
                 {
+                  "playerId": "team-player/6a6a788d-077c-4741-848a-9300546217a7",
                   "name": "Andrew Thomson - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/47bb4bf8-c1f6-458a-9c57-a3fc838f9638",
                   "name": "Brian Lussey",
                   "score": "7"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Brian Lussey"
+            {
+              "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/47bb4bf8-c1f6-458a-9c57-a3fc838f9638",
+              "name": "Brian Lussey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf395719-c277-44be-94b6-f6da925f3941",
               "players": [
                 {
+                  "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/47bb4bf8-c1f6-458a-9c57-a3fc838f9638",
                   "name": "Brian Lussey",
                   "score": "4"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Andrew Thomson",
-            "Tom Grievson"
+            {
+              "playerId": "team-player/0f9ffa39-b1c9-41ef-a073-51e58b3cdc31",
+              "name": "Andrew Thomson"
+            },
+            {
+              "playerId": "team-player/28642085-be5b-48dd-9580-144d0a9858fb",
+              "name": "Tom Grievson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c8b9deab-8194-4c1c-9e8b-b3caa58c8081",
               "players": [
                 {
+                  "playerId": "team-player/0f9ffa39-b1c9-41ef-a073-51e58b3cdc31",
                   "name": "Andrew Thomson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/28642085-be5b-48dd-9580-144d0a9858fb",
                   "name": "Tom Grievson",
                   "score": "3"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Alan Mayne",
-            "Pat Clare"
+            {
+              "playerId": "team-player/39bf2399-8c43-4929-bc69-a28152132950",
+              "name": "Alan Mayne"
+            },
+            {
+              "playerId": "team-player/9c717be2-a174-426f-a05d-0303b9f1a7d9",
+              "name": "Pat Clare"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9229f123-8a9d-444b-a251-47c86fd4fcad",
               "players": [
                 {
+                  "playerId": "team-player/39bf2399-8c43-4929-bc69-a28152132950",
                   "name": "Alan Mayne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c717be2-a174-426f-a05d-0303b9f1a7d9",
                   "name": "Pat Clare",
                   "score": "3"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Andrew Thomson - meet again",
-            "Tom Grievson"
+            {
+              "playerId": "team-player/6a6a788d-077c-4741-848a-9300546217a7",
+              "name": "Andrew Thomson - meet again"
+            },
+            {
+              "playerId": "team-player/28642085-be5b-48dd-9580-144d0a9858fb",
+              "name": "Tom Grievson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/069cca19-af75-4201-b69a-e9585b763ac3",
               "players": [
                 {
+                  "playerId": "team-player/6a6a788d-077c-4741-848a-9300546217a7",
                   "name": "Andrew Thomson - meet again",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/28642085-be5b-48dd-9580-144d0a9858fb",
                   "name": "Tom Grievson",
                   "score": "7"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Tom Grievson"
+            {
+              "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/28642085-be5b-48dd-9580-144d0a9858fb",
+              "name": "Tom Grievson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cd10a4d8-010f-49dd-b789-c293379d034c",
               "players": [
                 {
+                  "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
                   "name": "Jack Good",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/28642085-be5b-48dd-9580-144d0a9858fb",
                   "name": "Tom Grievson",
                   "score": "7"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Jack Good",
-            "Tom Grievson - meet again"
+            {
+              "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
+              "name": "Jack Good"
+            },
+            {
+              "playerId": "team-player/0949fbe6-71a1-4674-8eaa-b6234daf2fdc",
+              "name": "Tom Grievson - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/85703bef-05c9-4815-857e-1e5cc175cff9",
               "players": [
                 {
+                  "playerId": "team-player/b4038397-b668-415d-a53d-06e3a5a517c1",
                   "name": "Jack Good",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0949fbe6-71a1-4674-8eaa-b6234daf2fdc",
                   "name": "Tom Grievson - meet again",
                   "score": "5"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Alan Mayne",
-            "Brian Lussey"
+            {
+              "playerId": "team-player/39bf2399-8c43-4929-bc69-a28152132950",
+              "name": "Alan Mayne"
+            },
+            {
+              "playerId": "team-player/47bb4bf8-c1f6-458a-9c57-a3fc838f9638",
+              "name": "Brian Lussey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6605d845-5596-4774-857e-52c791e1f54f",
               "players": [
                 {
+                  "playerId": "team-player/39bf2399-8c43-4929-bc69-a28152132950",
                   "name": "Alan Mayne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/47bb4bf8-c1f6-458a-9c57-a3fc838f9638",
                   "name": "Brian Lussey",
                   "score": "3"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Alan Mayne",
-            "Brian Lussey - meet again"
+            {
+              "playerId": "team-player/39bf2399-8c43-4929-bc69-a28152132950",
+              "name": "Alan Mayne"
+            },
+            {
+              "playerId": "team-player/b653bf10-0703-46cf-90f3-3fa795164fdc",
+              "name": "Brian Lussey - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e7ae3fd3-3ebb-4df2-bc07-81696b918cb5",
               "players": [
                 {
+                  "playerId": "team-player/39bf2399-8c43-4929-bc69-a28152132950",
                   "name": "Alan Mayne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b653bf10-0703-46cf-90f3-3fa795164fdc",
                   "name": "Brian Lussey - meet again",
                   "score": "4"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Andrew Thomson",
-            "Pat Clare"
+            {
+              "playerId": "team-player/0f9ffa39-b1c9-41ef-a073-51e58b3cdc31",
+              "name": "Andrew Thomson"
+            },
+            {
+              "playerId": "team-player/9c717be2-a174-426f-a05d-0303b9f1a7d9",
+              "name": "Pat Clare"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8d09d416-cb82-4fc6-bf94-f7cb6b729275",
               "players": [
                 {
+                  "playerId": "team-player/0f9ffa39-b1c9-41ef-a073-51e58b3cdc31",
                   "name": "Andrew Thomson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/9c717be2-a174-426f-a05d-0303b9f1a7d9",
                   "name": "Pat Clare",
                   "score": "7"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Andrew Thomson - meet again",
-            "Pat Clare"
+            {
+              "playerId": "team-player/6a6a788d-077c-4741-848a-9300546217a7",
+              "name": "Andrew Thomson - meet again"
+            },
+            {
+              "playerId": "team-player/9c717be2-a174-426f-a05d-0303b9f1a7d9",
+              "name": "Pat Clare"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2a91389-aeaa-402f-a4d5-983bcf794bfb",
               "players": [
                 {
+                  "playerId": "team-player/6a6a788d-077c-4741-848a-9300546217a7",
                   "name": "Andrew Thomson - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9c717be2-a174-426f-a05d-0303b9f1a7d9",
                   "name": "Pat Clare",
                   "score": "6"
                 }

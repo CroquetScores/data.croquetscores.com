@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e647c21d-8408-4444-ac35-9edcc822c247",
   "name": "NW Fed LP GC Birkdale v Bury Sovereigns",
   "sport": "gc",
   "firstDay": "2026-08-14",
   "lastDay": "2026-08-14",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Birkdale",
       "shortName": "Birkdale",
       "players": [
-        "John Marsh",
-        "Mike Armstrong",
-        "Mike Armstrong - meet again",
-        "Simon Hancock",
-        "Simon Hancock - meet again"
+        {
+          "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
+          "name": "John Marsh"
+        },
+        {
+          "playerId": "team-player/ff1b1088-00c1-4af4-b5a3-37304bb4361f",
+          "name": "Mike Armstrong"
+        },
+        {
+          "playerId": "team-player/29760c25-1328-4764-9c14-1fca0d3869f3",
+          "name": "Mike Armstrong - meet again"
+        },
+        {
+          "playerId": "team-player/c8e65905-cbdd-4d61-bd36-8b253a52150d",
+          "name": "Simon Hancock"
+        },
+        {
+          "playerId": "team-player/b9924aab-0edd-44c5-9a4e-7d14bd788a14",
+          "name": "Simon Hancock - meet again"
+        }
       ]
     },
     {
       "name": "Bury Sovereigns",
       "shortName": "Bury Sover",
       "players": [
-        "David Aetingstall",
-        "David Artingstall",
-        "David Artingstall - meet again",
-        "Richard Leach",
-        "Simon Attwell"
+        {
+          "playerId": "team-player/f246eefb-0128-44b6-9f8e-ccc6bfb4c310",
+          "name": "David Aetingstall"
+        },
+        {
+          "playerId": "team-player/ac265ab3-69f8-43e7-904c-8607521333f5",
+          "name": "David Artingstall"
+        },
+        {
+          "playerId": "team-player/d0776882-33fc-4905-9281-67a293ce2598",
+          "name": "David Artingstall - meet again"
+        },
+        {
+          "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
+          "name": "Richard Leach"
+        },
+        {
+          "playerId": "team-player/d4914354-e04b-45de-8126-9bb7f45c5e2a",
+          "name": "Simon Attwell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/04b94bc7-80c5-4d44-b342-c565cd04d1f9",
       "teams": [
         "Birkdale",
         "Bury Sovereigns"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Mike Armstrong",
-            "Simon Attwell"
+            {
+              "playerId": "team-player/ff1b1088-00c1-4af4-b5a3-37304bb4361f",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/d4914354-e04b-45de-8126-9bb7f45c5e2a",
+              "name": "Simon Attwell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/087c9740-c7b0-442a-b4d9-66f5d0d4b75b",
               "players": [
                 {
+                  "playerId": "team-player/ff1b1088-00c1-4af4-b5a3-37304bb4361f",
                   "name": "Mike Armstrong",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d4914354-e04b-45de-8126-9bb7f45c5e2a",
                   "name": "Simon Attwell",
                   "score": "2"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "John Marsh",
-            "Richard Leach"
+            {
+              "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
+              "name": "John Marsh"
+            },
+            {
+              "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
+              "name": "Richard Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dfaa09dd-f7e3-434d-9875-540ffbbab4b1",
               "players": [
                 {
+                  "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
                   "name": "John Marsh",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
                   "name": "Richard Leach",
                   "score": "7"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Simon Hancock",
-            "David Artingstall"
+            {
+              "playerId": "team-player/c8e65905-cbdd-4d61-bd36-8b253a52150d",
+              "name": "Simon Hancock"
+            },
+            {
+              "playerId": "team-player/ac265ab3-69f8-43e7-904c-8607521333f5",
+              "name": "David Artingstall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/06288550-47a0-4811-bd8c-c18d307924c0",
               "players": [
                 {
+                  "playerId": "team-player/c8e65905-cbdd-4d61-bd36-8b253a52150d",
                   "name": "Simon Hancock",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ac265ab3-69f8-43e7-904c-8607521333f5",
                   "name": "David Artingstall",
                   "score": "6"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Mike Armstrong",
-            "David Artingstall"
+            {
+              "playerId": "team-player/ff1b1088-00c1-4af4-b5a3-37304bb4361f",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/ac265ab3-69f8-43e7-904c-8607521333f5",
+              "name": "David Artingstall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/11659fab-c0e7-4df2-ae5a-463e044fd704",
               "players": [
                 {
+                  "playerId": "team-player/ff1b1088-00c1-4af4-b5a3-37304bb4361f",
                   "name": "Mike Armstrong",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ac265ab3-69f8-43e7-904c-8607521333f5",
                   "name": "David Artingstall",
                   "score": "5"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "John Marsh",
-            "Simon Attwell"
+            {
+              "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
+              "name": "John Marsh"
+            },
+            {
+              "playerId": "team-player/d4914354-e04b-45de-8126-9bb7f45c5e2a",
+              "name": "Simon Attwell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/424f009c-f89a-4806-b9c2-67b3f1e940c9",
               "players": [
                 {
+                  "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
                   "name": "John Marsh",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d4914354-e04b-45de-8126-9bb7f45c5e2a",
                   "name": "Simon Attwell",
                   "score": "4"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Simon Hancock",
-            "Richard Leach"
+            {
+              "playerId": "team-player/c8e65905-cbdd-4d61-bd36-8b253a52150d",
+              "name": "Simon Hancock"
+            },
+            {
+              "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
+              "name": "Richard Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fd6691d2-aa3e-4902-955b-fabfd3a8c024",
               "players": [
                 {
+                  "playerId": "team-player/c8e65905-cbdd-4d61-bd36-8b253a52150d",
                   "name": "Simon Hancock",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
                   "name": "Richard Leach",
                   "score": "7"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Mike Armstrong",
-            "Richard Leach"
+            {
+              "playerId": "team-player/ff1b1088-00c1-4af4-b5a3-37304bb4361f",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
+              "name": "Richard Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cad97236-0183-4712-9d4c-d74f76577cf2",
               "players": [
                 {
+                  "playerId": "team-player/ff1b1088-00c1-4af4-b5a3-37304bb4361f",
                   "name": "Mike Armstrong",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
                   "name": "Richard Leach",
                   "score": "6"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "John Marsh",
-            "David Artingstall"
+            {
+              "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
+              "name": "John Marsh"
+            },
+            {
+              "playerId": "team-player/ac265ab3-69f8-43e7-904c-8607521333f5",
+              "name": "David Artingstall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a7242d26-a167-4fa3-9415-a3b16bc2e3c8",
               "players": [
                 {
+                  "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
                   "name": "John Marsh",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/ac265ab3-69f8-43e7-904c-8607521333f5",
                   "name": "David Artingstall",
                   "score": "7"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Simon Hancock",
-            "Simon Attwell"
+            {
+              "playerId": "team-player/c8e65905-cbdd-4d61-bd36-8b253a52150d",
+              "name": "Simon Hancock"
+            },
+            {
+              "playerId": "team-player/d4914354-e04b-45de-8126-9bb7f45c5e2a",
+              "name": "Simon Attwell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42cc522e-3ac3-4ce7-9c28-db0001aa736b",
               "players": [
                 {
+                  "playerId": "team-player/c8e65905-cbdd-4d61-bd36-8b253a52150d",
                   "name": "Simon Hancock",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d4914354-e04b-45de-8126-9bb7f45c5e2a",
                   "name": "Simon Attwell",
                   "score": "6"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Mike Armstrong",
-            "David Aetingstall"
+            {
+              "playerId": "team-player/ff1b1088-00c1-4af4-b5a3-37304bb4361f",
+              "name": "Mike Armstrong"
+            },
+            {
+              "playerId": "team-player/f246eefb-0128-44b6-9f8e-ccc6bfb4c310",
+              "name": "David Aetingstall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7165211-7cf6-43c4-9920-305d0f6eb65e",
               "players": [
                 {
+                  "playerId": "team-player/ff1b1088-00c1-4af4-b5a3-37304bb4361f",
                   "name": "Mike Armstrong",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f246eefb-0128-44b6-9f8e-ccc6bfb4c310",
                   "name": "David Aetingstall",
                   "score": "7"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "John Marsh",
-            "David Aetingstall"
+            {
+              "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
+              "name": "John Marsh"
+            },
+            {
+              "playerId": "team-player/f246eefb-0128-44b6-9f8e-ccc6bfb4c310",
+              "name": "David Aetingstall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dc8e6050-278b-4a7e-b09d-f457b8bedb39",
               "players": [
                 {
+                  "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
                   "name": "John Marsh",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f246eefb-0128-44b6-9f8e-ccc6bfb4c310",
                   "name": "David Aetingstall",
                   "score": "4"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Simon Hancock",
-            "David Aetingstall"
+            {
+              "playerId": "team-player/c8e65905-cbdd-4d61-bd36-8b253a52150d",
+              "name": "Simon Hancock"
+            },
+            {
+              "playerId": "team-player/f246eefb-0128-44b6-9f8e-ccc6bfb4c310",
+              "name": "David Aetingstall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7b001b38-f5c7-4dfb-8194-da3b1cb12e3d",
               "players": [
                 {
+                  "playerId": "team-player/c8e65905-cbdd-4d61-bd36-8b253a52150d",
                   "name": "Simon Hancock",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f246eefb-0128-44b6-9f8e-ccc6bfb4c310",
                   "name": "David Aetingstall",
                   "score": "7"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Mike Armstrong - meet again",
-            "David Artingstall"
+            {
+              "playerId": "team-player/29760c25-1328-4764-9c14-1fca0d3869f3",
+              "name": "Mike Armstrong - meet again"
+            },
+            {
+              "playerId": "team-player/ac265ab3-69f8-43e7-904c-8607521333f5",
+              "name": "David Artingstall"
+            }
           ],
           "games": [
             {
+              "gameId": "game/250824d7-b7f1-4a8b-85e8-80a6b81b6080",
               "players": [
                 {
+                  "playerId": "team-player/29760c25-1328-4764-9c14-1fca0d3869f3",
                   "name": "Mike Armstrong - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/ac265ab3-69f8-43e7-904c-8607521333f5",
                   "name": "David Artingstall",
                   "score": "7"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Simon Hancock - meet again",
-            "Richard Leach"
+            {
+              "playerId": "team-player/b9924aab-0edd-44c5-9a4e-7d14bd788a14",
+              "name": "Simon Hancock - meet again"
+            },
+            {
+              "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
+              "name": "Richard Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4fcbef6-322c-4e9c-844e-ccb57cf17ea0",
               "players": [
                 {
+                  "playerId": "team-player/b9924aab-0edd-44c5-9a4e-7d14bd788a14",
                   "name": "Simon Hancock - meet again",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
                   "name": "Richard Leach",
                   "score": "7"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Mike Armstrong - meet again",
-            "Richard Leach"
+            {
+              "playerId": "team-player/29760c25-1328-4764-9c14-1fca0d3869f3",
+              "name": "Mike Armstrong - meet again"
+            },
+            {
+              "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
+              "name": "Richard Leach"
+            }
           ],
           "games": [
             {
+              "gameId": "game/95e1d445-48d7-4ade-9028-d052bcb783aa",
               "players": [
                 {
+                  "playerId": "team-player/29760c25-1328-4764-9c14-1fca0d3869f3",
                   "name": "Mike Armstrong - meet again",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/26ccc8ac-43a5-4a3e-bec1-c5c8e6dd70a8",
                   "name": "Richard Leach",
                   "score": "7"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "John Marsh",
-            "David Artingstall - meet again"
+            {
+              "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
+              "name": "John Marsh"
+            },
+            {
+              "playerId": "team-player/d0776882-33fc-4905-9281-67a293ce2598",
+              "name": "David Artingstall - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/43ba0e14-125a-4341-9991-6ce0dc564f3e",
               "players": [
                 {
+                  "playerId": "team-player/36daa009-c51b-41c7-aa06-81524b7ecdbe",
                   "name": "John Marsh",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d0776882-33fc-4905-9281-67a293ce2598",
                   "name": "David Artingstall - meet again",
                   "score": "6"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "Simon Hancock - meet again",
-            "Simon Attwell"
+            {
+              "playerId": "team-player/b9924aab-0edd-44c5-9a4e-7d14bd788a14",
+              "name": "Simon Hancock - meet again"
+            },
+            {
+              "playerId": "team-player/d4914354-e04b-45de-8126-9bb7f45c5e2a",
+              "name": "Simon Attwell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f6164fc-6ff3-48fb-9eac-42f1e20ab741",
               "players": [
                 {
+                  "playerId": "team-player/b9924aab-0edd-44c5-9a4e-7d14bd788a14",
                   "name": "Simon Hancock - meet again",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/d4914354-e04b-45de-8126-9bb7f45c5e2a",
                   "name": "Simon Attwell",
                   "score": "7"
                 }

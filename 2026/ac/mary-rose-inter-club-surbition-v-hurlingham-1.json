@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0f2128bc-ccc3-4f56-93cf-1f5f3ad87930",
   "name": "Mary Rose Inter-Club - Surbition v Hurlingham",
   "sport": "ac",
   "firstDay": "2026-06-22",
   "lastDay": "2026-06-22",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Andy Dibben",
-        "Andy Dibben & Matt Cook",
-        "Julian Sheraton-Davis",
-        "Mary Knapp",
-        "Matt Cook"
+        {
+          "playerId": "team-player/16de5633-7209-4f8e-91c4-6fb7808bb420",
+          "name": "Andy Dibben"
+        },
+        {
+          "playerId": "team-player/a4e2473a-2fbd-4f73-8b88-26f32521eda2",
+          "name": "Andy Dibben & Matt Cook"
+        },
+        {
+          "playerId": "team-player/63caf41f-6d89-4e3d-9b33-681b113655c3",
+          "name": "Julian Sheraton-Davis"
+        },
+        {
+          "playerId": "team-player/531b0757-b8b7-426d-bc00-3aceb600544b",
+          "name": "Mary Knapp"
+        },
+        {
+          "playerId": "team-player/538da028-eabf-4872-b596-82379c90fb51",
+          "name": "Matt Cook"
+        }
       ]
     },
     {
       "name": "Hurlingham",
       "shortName": "Hurlingham",
       "players": [
-        "Andrew Wise",
-        "Andrew Wise & Ludolph van Hasselt",
-        "Guy Hewitt",
-        "Ludolph van Hasselt",
-        "Martin Read"
+        {
+          "playerId": "team-player/06dc9719-0322-49d8-83ef-da126c2a8921",
+          "name": "Andrew Wise"
+        },
+        {
+          "playerId": "team-player/f608e0d6-26b8-4d35-b120-0ab572455ffb",
+          "name": "Andrew Wise & Ludolph van Hasselt"
+        },
+        {
+          "playerId": "team-player/1d15a595-7734-4f77-8eeb-5415c68579c7",
+          "name": "Guy Hewitt"
+        },
+        {
+          "playerId": "team-player/eadae764-5b6a-4613-9c37-91bc03cf8f74",
+          "name": "Ludolph van Hasselt"
+        },
+        {
+          "playerId": "team-player/cec71526-32bf-4069-bb5d-8a8a038174a2",
+          "name": "Martin Read"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/0fd3ba83-71d0-449e-90a5-8205f31ac094",
       "teams": [
         "Surbiton",
         "Hurlingham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Andy Dibben & Matt Cook",
-            "Andrew Wise & Ludolph van Hasselt"
+            {
+              "playerId": "team-player/a4e2473a-2fbd-4f73-8b88-26f32521eda2",
+              "name": "Andy Dibben & Matt Cook"
+            },
+            {
+              "playerId": "team-player/f608e0d6-26b8-4d35-b120-0ab572455ffb",
+              "name": "Andrew Wise & Ludolph van Hasselt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9327fedf-118c-4d65-b6d0-df05bc34a0c6",
               "players": [
                 {
+                  "playerId": "team-player/a4e2473a-2fbd-4f73-8b88-26f32521eda2",
                   "name": "Andy Dibben & Matt Cook",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f608e0d6-26b8-4d35-b120-0ab572455ffb",
                   "name": "Andrew Wise & Ludolph van Hasselt",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Julian Sheraton-Davis",
-            "Guy Hewitt"
+            {
+              "playerId": "team-player/63caf41f-6d89-4e3d-9b33-681b113655c3",
+              "name": "Julian Sheraton-Davis"
+            },
+            {
+              "playerId": "team-player/1d15a595-7734-4f77-8eeb-5415c68579c7",
+              "name": "Guy Hewitt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1dfd611b-0303-4c20-be6a-daf3720f033f",
               "players": [
                 {
+                  "playerId": "team-player/63caf41f-6d89-4e3d-9b33-681b113655c3",
                   "name": "Julian Sheraton-Davis",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/1d15a595-7734-4f77-8eeb-5415c68579c7",
                   "name": "Guy Hewitt",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Mary Knapp",
-            "Martin Read"
+            {
+              "playerId": "team-player/531b0757-b8b7-426d-bc00-3aceb600544b",
+              "name": "Mary Knapp"
+            },
+            {
+              "playerId": "team-player/cec71526-32bf-4069-bb5d-8a8a038174a2",
+              "name": "Martin Read"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1af5424b-86ca-42d0-8e87-9251ac529531",
               "players": [
                 {
+                  "playerId": "team-player/531b0757-b8b7-426d-bc00-3aceb600544b",
                   "name": "Mary Knapp",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cec71526-32bf-4069-bb5d-8a8a038174a2",
                   "name": "Martin Read",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Matt Cook",
-            "Andrew Wise"
+            {
+              "playerId": "team-player/538da028-eabf-4872-b596-82379c90fb51",
+              "name": "Matt Cook"
+            },
+            {
+              "playerId": "team-player/06dc9719-0322-49d8-83ef-da126c2a8921",
+              "name": "Andrew Wise"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2aa5a980-7ede-4242-ba4c-b4e14c54456c",
               "players": [
                 {
+                  "playerId": "team-player/538da028-eabf-4872-b596-82379c90fb51",
                   "name": "Matt Cook",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/06dc9719-0322-49d8-83ef-da126c2a8921",
                   "name": "Andrew Wise",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Andy Dibben",
-            "Ludolph van Hasselt"
+            {
+              "playerId": "team-player/16de5633-7209-4f8e-91c4-6fb7808bb420",
+              "name": "Andy Dibben"
+            },
+            {
+              "playerId": "team-player/eadae764-5b6a-4613-9c37-91bc03cf8f74",
+              "name": "Ludolph van Hasselt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/13a5f337-ba64-45cc-8433-68afac03306a",
               "players": [
                 {
+                  "playerId": "team-player/16de5633-7209-4f8e-91c4-6fb7808bb420",
                   "name": "Andy Dibben",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/eadae764-5b6a-4613-9c37-91bc03cf8f74",
                   "name": "Ludolph van Hasselt",
                   "score": "20"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Mary Knapp",
-            "Guy Hewitt"
+            {
+              "playerId": "team-player/531b0757-b8b7-426d-bc00-3aceb600544b",
+              "name": "Mary Knapp"
+            },
+            {
+              "playerId": "team-player/1d15a595-7734-4f77-8eeb-5415c68579c7",
+              "name": "Guy Hewitt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bb1e8d5c-7d5d-45a1-aff8-f026266f3494",
               "players": [
                 {
+                  "playerId": "team-player/531b0757-b8b7-426d-bc00-3aceb600544b",
                   "name": "Mary Knapp",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/1d15a595-7734-4f77-8eeb-5415c68579c7",
                   "name": "Guy Hewitt",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Julian Sheraton-Davis",
-            "Martin Read"
+            {
+              "playerId": "team-player/63caf41f-6d89-4e3d-9b33-681b113655c3",
+              "name": "Julian Sheraton-Davis"
+            },
+            {
+              "playerId": "team-player/cec71526-32bf-4069-bb5d-8a8a038174a2",
+              "name": "Martin Read"
+            }
           ],
           "games": [
             {
+              "gameId": "game/29c5f87b-d635-4098-a17c-c69d8b2c101f",
               "players": [
                 {
+                  "playerId": "team-player/63caf41f-6d89-4e3d-9b33-681b113655c3",
                   "name": "Julian Sheraton-Davis",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/cec71526-32bf-4069-bb5d-8a8a038174a2",
                   "name": "Martin Read",
                   "score": "26"
                 }

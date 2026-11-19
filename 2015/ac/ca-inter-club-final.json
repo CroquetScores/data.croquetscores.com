@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/6ed91747-849c-4343-a9db-2a26e6046bc1",
   "name": "CA Inter Club Final",
   "sport": "ac",
   "firstDay": "2015-10-04",
   "lastDay": "2015-10-04",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Cheltenham",
       "shortName": "Cheltenham",
       "players": [
-        "Chris Williams",
-        "Chris Williams & Robert Wilkinson",
-        "Dave Kibble",
-        "Jeff Dawson & Malcolm Bigg",
-        "Robert Wilkinson",
-        "Sarah Hayes"
+        {
+          "playerId": "team-player/8f1cac9f-6442-405a-8d06-e01c4a4e3231",
+          "name": "Chris Williams"
+        },
+        {
+          "playerId": "team-player/05a06098-df75-411b-8f9b-850fbb41c74f",
+          "name": "Chris Williams & Robert Wilkinson"
+        },
+        {
+          "playerId": "team-player/0bfcd038-3b1b-4426-a7be-f01fbba4f299",
+          "name": "Dave Kibble"
+        },
+        {
+          "playerId": "team-player/427698ff-433c-4cf4-8408-47202030ac5a",
+          "name": "Jeff Dawson & Malcolm Bigg"
+        },
+        {
+          "playerId": "team-player/9c5d0841-98b5-44ff-94d7-d533e6859af1",
+          "name": "Robert Wilkinson"
+        },
+        {
+          "playerId": "team-player/72fc6203-4db8-41b3-a723-a6d84c7a2cf5",
+          "name": "Sarah Hayes"
+        }
       ]
     },
     {
       "name": "Woking",
       "shortName": "Woking",
       "players": [
-        "Annabel McDiarmid",
-        "Jeff Dawson",
-        "Malcolm Bigg",
-        "Mike Town"
+        {
+          "playerId": "team-player/d9b2ab21-a51d-4f81-bbb3-eb25a6bce25d",
+          "name": "Annabel McDiarmid"
+        },
+        {
+          "playerId": "team-player/7af81dc3-57a1-40ec-89e0-c317c2e9dbcf",
+          "name": "Jeff Dawson"
+        },
+        {
+          "playerId": "team-player/d2b3af75-2e37-40d5-a1dd-ba083faca98e",
+          "name": "Malcolm Bigg"
+        },
+        {
+          "playerId": "team-player/1db15ec4-2600-4c6f-b6a8-b5f67295e61c",
+          "name": "Mike Town"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/bb7508dc-9373-4403-ba37-99f618cddbb4",
       "teams": [
         "Cheltenham",
         "Woking"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Dave Kibble",
-            "Annabel McDiarmid"
+            {
+              "playerId": "team-player/0bfcd038-3b1b-4426-a7be-f01fbba4f299",
+              "name": "Dave Kibble"
+            },
+            {
+              "playerId": "team-player/d9b2ab21-a51d-4f81-bbb3-eb25a6bce25d",
+              "name": "Annabel McDiarmid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b71e6134-fdb8-4789-9ffb-dfa6a9a99296",
               "players": [
                 {
+                  "playerId": "team-player/0bfcd038-3b1b-4426-a7be-f01fbba4f299",
                   "name": "Dave Kibble",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d9b2ab21-a51d-4f81-bbb3-eb25a6bce25d",
                   "name": "Annabel McDiarmid",
                   "score": "25"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Sarah Hayes",
-            "Mike Town"
+            {
+              "playerId": "team-player/72fc6203-4db8-41b3-a723-a6d84c7a2cf5",
+              "name": "Sarah Hayes"
+            },
+            {
+              "playerId": "team-player/1db15ec4-2600-4c6f-b6a8-b5f67295e61c",
+              "name": "Mike Town"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f00ab62e-5e57-4c4f-bb2e-4eeed3fab7c1",
               "players": [
                 {
+                  "playerId": "team-player/72fc6203-4db8-41b3-a723-a6d84c7a2cf5",
                   "name": "Sarah Hayes",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/1db15ec4-2600-4c6f-b6a8-b5f67295e61c",
                   "name": "Mike Town",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Chris Williams",
-            "Jeff Dawson"
+            {
+              "playerId": "team-player/8f1cac9f-6442-405a-8d06-e01c4a4e3231",
+              "name": "Chris Williams"
+            },
+            {
+              "playerId": "team-player/7af81dc3-57a1-40ec-89e0-c317c2e9dbcf",
+              "name": "Jeff Dawson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1dcdfaa2-65da-422e-b38f-a2d0e6f68131",
               "players": [
                 {
+                  "playerId": "team-player/8f1cac9f-6442-405a-8d06-e01c4a4e3231",
                   "name": "Chris Williams",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/7af81dc3-57a1-40ec-89e0-c317c2e9dbcf",
                   "name": "Jeff Dawson",
                   "score": "26tp"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Sarah Hayes",
-            "Annabel McDiarmid"
+            {
+              "playerId": "team-player/72fc6203-4db8-41b3-a723-a6d84c7a2cf5",
+              "name": "Sarah Hayes"
+            },
+            {
+              "playerId": "team-player/d9b2ab21-a51d-4f81-bbb3-eb25a6bce25d",
+              "name": "Annabel McDiarmid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3e177612-de15-4029-ae95-f116e56f0a18",
               "players": [
                 {
+                  "playerId": "team-player/72fc6203-4db8-41b3-a723-a6d84c7a2cf5",
                   "name": "Sarah Hayes",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d9b2ab21-a51d-4f81-bbb3-eb25a6bce25d",
                   "name": "Annabel McDiarmid",
                   "score": "1"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Dave Kibble",
-            "Mike Town"
+            {
+              "playerId": "team-player/0bfcd038-3b1b-4426-a7be-f01fbba4f299",
+              "name": "Dave Kibble"
+            },
+            {
+              "playerId": "team-player/1db15ec4-2600-4c6f-b6a8-b5f67295e61c",
+              "name": "Mike Town"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3fb1bb0b-52fd-4e10-87ab-407019501019",
               "players": [
                 {
+                  "playerId": "team-player/0bfcd038-3b1b-4426-a7be-f01fbba4f299",
                   "name": "Dave Kibble",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/1db15ec4-2600-4c6f-b6a8-b5f67295e61c",
                   "name": "Mike Town",
                   "score": "26"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson",
-            "Malcolm Bigg"
+            {
+              "playerId": "team-player/9c5d0841-98b5-44ff-94d7-d533e6859af1",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/d2b3af75-2e37-40d5-a1dd-ba083faca98e",
+              "name": "Malcolm Bigg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6d30dbb-d800-4183-aac6-c7e03c06396f",
               "players": [
                 {
+                  "playerId": "team-player/9c5d0841-98b5-44ff-94d7-d533e6859af1",
                   "name": "Robert Wilkinson",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/d2b3af75-2e37-40d5-a1dd-ba083faca98e",
                   "name": "Malcolm Bigg",
                   "score": "18"
                 }

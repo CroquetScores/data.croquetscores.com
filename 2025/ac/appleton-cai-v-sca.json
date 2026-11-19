@@ -1,44 +1,99 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/adea0c1b-e930-4d37-8417-ae83aa9be8a9",
   "name": "Appleton CAI v SCA",
   "sport": "ac",
   "firstDay": "2025-05-10",
   "lastDay": "2025-05-11",
   "country": "ie",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "CAI",
       "shortName": "CAI",
       "players": [
-        "A Looney & D Styles",
-        "A Looney & H Spiers",
-        "Alan Looney",
-        "Clair Whyms",
-        "Duncan Styles",
-        "H Spiers & C Whyms",
-        "Huw Spiers",
-        "N Healy & D Styles",
-        "Nathaniel Healy"
+        {
+          "playerId": "team-player/05fdaea9-7c30-4d0d-a257-c78a597014ea",
+          "name": "A Looney & D Styles"
+        },
+        {
+          "playerId": "team-player/31b2c79f-e283-4513-a614-7904f30ad793",
+          "name": "A Looney & H Spiers"
+        },
+        {
+          "playerId": "team-player/65431bf2-7875-4f7c-b171-691e6bd08502",
+          "name": "Alan Looney"
+        },
+        {
+          "playerId": "team-player/47a825be-7f2b-4560-a5c0-a9b9b56672b4",
+          "name": "Clair Whyms"
+        },
+        {
+          "playerId": "team-player/b4e5b362-fd70-4e32-98f4-1eb58084c367",
+          "name": "Duncan Styles"
+        },
+        {
+          "playerId": "team-player/a9d2525d-fde6-4146-b997-256a47b6f37f",
+          "name": "H Spiers & C Whyms"
+        },
+        {
+          "playerId": "team-player/034d462e-9941-4ce5-8650-6aa588dcb0c8",
+          "name": "Huw Spiers"
+        },
+        {
+          "playerId": "team-player/17efbf48-8072-433e-a526-70f4b0f8b997",
+          "name": "N Healy & D Styles"
+        },
+        {
+          "playerId": "team-player/d5154775-b904-4342-8027-a52a416c01c8",
+          "name": "Nathaniel Healy"
+        }
       ]
     },
     {
       "name": "SCA",
       "shortName": "SCA",
       "players": [
-        "B Durward & R Binks",
-        "Brian Durward",
-        "D Houston & R Binks",
-        "David Houston",
-        "M Shanks & B Durward",
-        "M Shanks & D Houston",
-        "Mark Shanks",
-        "Roger Binks"
+        {
+          "playerId": "team-player/ec2b7acd-421c-40a6-ae93-e88065206f50",
+          "name": "B Durward & R Binks"
+        },
+        {
+          "playerId": "team-player/d3023b5f-aceb-4f88-96ba-f237f61c747c",
+          "name": "Brian Durward"
+        },
+        {
+          "playerId": "team-player/7b5eb978-e594-4870-962a-847acdff7025",
+          "name": "D Houston & R Binks"
+        },
+        {
+          "playerId": "team-player/7807f076-f590-4ca7-8778-ad1faccbbc52",
+          "name": "David Houston"
+        },
+        {
+          "playerId": "team-player/42e2fc55-5bae-40de-bcbf-74ee2a969f28",
+          "name": "M Shanks & B Durward"
+        },
+        {
+          "playerId": "team-player/2dd73d7f-2cee-4ddf-87fe-e6aebc43d688",
+          "name": "M Shanks & D Houston"
+        },
+        {
+          "playerId": "team-player/1e3d78c4-b20e-4a70-a153-b8b5d342606c",
+          "name": "Mark Shanks"
+        },
+        {
+          "playerId": "team-player/f1495d73-e2bb-4ffb-be7d-8a22bb3952ce",
+          "name": "Roger Binks"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/708b4174-9f90-4d62-b5d4-72da3c390549",
       "teams": [
         "CAI",
         "SCA"
@@ -48,17 +103,26 @@
       "matches": [
         {
           "players": [
-            "N Healy & D Styles",
-            "M Shanks & B Durward"
+            {
+              "playerId": "team-player/17efbf48-8072-433e-a526-70f4b0f8b997",
+              "name": "N Healy & D Styles"
+            },
+            {
+              "playerId": "team-player/42e2fc55-5bae-40de-bcbf-74ee2a969f28",
+              "name": "M Shanks & B Durward"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc086b71-5679-4946-b3bf-9e138ba3f7eb",
               "players": [
                 {
+                  "playerId": "team-player/17efbf48-8072-433e-a526-70f4b0f8b997",
                   "name": "N Healy & D Styles",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/42e2fc55-5bae-40de-bcbf-74ee2a969f28",
                   "name": "M Shanks & B Durward",
                   "score": "10"
                 }
@@ -70,17 +134,26 @@
         },
         {
           "players": [
-            "A Looney & H Spiers",
-            "D Houston & R Binks"
+            {
+              "playerId": "team-player/31b2c79f-e283-4513-a614-7904f30ad793",
+              "name": "A Looney & H Spiers"
+            },
+            {
+              "playerId": "team-player/7b5eb978-e594-4870-962a-847acdff7025",
+              "name": "D Houston & R Binks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b7629309-d619-4021-8c72-88d86899f848",
               "players": [
                 {
+                  "playerId": "team-player/31b2c79f-e283-4513-a614-7904f30ad793",
                   "name": "A Looney & H Spiers",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/7b5eb978-e594-4870-962a-847acdff7025",
                   "name": "D Houston & R Binks",
                   "score": "21"
                 }
@@ -92,17 +165,26 @@
         },
         {
           "players": [
-            "Huw Spiers",
-            "Roger Binks"
+            {
+              "playerId": "team-player/034d462e-9941-4ce5-8650-6aa588dcb0c8",
+              "name": "Huw Spiers"
+            },
+            {
+              "playerId": "team-player/f1495d73-e2bb-4ffb-be7d-8a22bb3952ce",
+              "name": "Roger Binks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a0513ff5-7d1f-4960-964e-0b9f010f55bd",
               "players": [
                 {
+                  "playerId": "team-player/034d462e-9941-4ce5-8650-6aa588dcb0c8",
                   "name": "Huw Spiers",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/f1495d73-e2bb-4ffb-be7d-8a22bb3952ce",
                   "name": "Roger Binks",
                   "score": "17"
                 }
@@ -114,17 +196,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "Mark Shanks"
+            {
+              "playerId": "team-player/d5154775-b904-4342-8027-a52a416c01c8",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/1e3d78c4-b20e-4a70-a153-b8b5d342606c",
+              "name": "Mark Shanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2d6e4c6-ad35-4fc8-bf61-47b1cb4b8621",
               "players": [
                 {
+                  "playerId": "team-player/d5154775-b904-4342-8027-a52a416c01c8",
                   "name": "Nathaniel Healy",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/1e3d78c4-b20e-4a70-a153-b8b5d342606c",
                   "name": "Mark Shanks",
                   "score": "20"
                 }
@@ -136,17 +227,26 @@
         },
         {
           "players": [
-            "Duncan Styles",
-            "Brian Durward"
+            {
+              "playerId": "team-player/b4e5b362-fd70-4e32-98f4-1eb58084c367",
+              "name": "Duncan Styles"
+            },
+            {
+              "playerId": "team-player/d3023b5f-aceb-4f88-96ba-f237f61c747c",
+              "name": "Brian Durward"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7cc14daf-03bb-4a5f-a00b-2bb14387ce22",
               "players": [
                 {
+                  "playerId": "team-player/b4e5b362-fd70-4e32-98f4-1eb58084c367",
                   "name": "Duncan Styles",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d3023b5f-aceb-4f88-96ba-f237f61c747c",
                   "name": "Brian Durward",
                   "score": "5"
                 }
@@ -158,17 +258,26 @@
         },
         {
           "players": [
-            "Alan Looney",
-            "David Houston"
+            {
+              "playerId": "team-player/65431bf2-7875-4f7c-b171-691e6bd08502",
+              "name": "Alan Looney"
+            },
+            {
+              "playerId": "team-player/7807f076-f590-4ca7-8778-ad1faccbbc52",
+              "name": "David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/01515f6e-6695-4408-8a18-3a4a596ef270",
               "players": [
                 {
+                  "playerId": "team-player/65431bf2-7875-4f7c-b171-691e6bd08502",
                   "name": "Alan Looney",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7807f076-f590-4ca7-8778-ad1faccbbc52",
                   "name": "David Houston",
                   "score": "5"
                 }
@@ -180,17 +289,26 @@
         },
         {
           "players": [
-            "Alan Looney",
-            "Mark Shanks"
+            {
+              "playerId": "team-player/65431bf2-7875-4f7c-b171-691e6bd08502",
+              "name": "Alan Looney"
+            },
+            {
+              "playerId": "team-player/1e3d78c4-b20e-4a70-a153-b8b5d342606c",
+              "name": "Mark Shanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3b09b8d0-996e-4dbd-a748-1c1a327c687a",
               "players": [
                 {
+                  "playerId": "team-player/65431bf2-7875-4f7c-b171-691e6bd08502",
                   "name": "Alan Looney",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1e3d78c4-b20e-4a70-a153-b8b5d342606c",
                   "name": "Mark Shanks",
                   "score": "26"
                 }
@@ -202,17 +320,26 @@
         },
         {
           "players": [
-            "Huw Spiers",
-            "Brian Durward"
+            {
+              "playerId": "team-player/034d462e-9941-4ce5-8650-6aa588dcb0c8",
+              "name": "Huw Spiers"
+            },
+            {
+              "playerId": "team-player/d3023b5f-aceb-4f88-96ba-f237f61c747c",
+              "name": "Brian Durward"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4806dec3-27f1-4064-8010-39235d3a18bc",
               "players": [
                 {
+                  "playerId": "team-player/034d462e-9941-4ce5-8650-6aa588dcb0c8",
                   "name": "Huw Spiers",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/d3023b5f-aceb-4f88-96ba-f237f61c747c",
                   "name": "Brian Durward",
                   "score": "26"
                 }
@@ -224,17 +351,26 @@
         },
         {
           "players": [
-            "Duncan Styles",
-            "Roger Binks"
+            {
+              "playerId": "team-player/b4e5b362-fd70-4e32-98f4-1eb58084c367",
+              "name": "Duncan Styles"
+            },
+            {
+              "playerId": "team-player/f1495d73-e2bb-4ffb-be7d-8a22bb3952ce",
+              "name": "Roger Binks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/905d3f1c-1a52-4eb3-8973-99e8e2714eff",
               "players": [
                 {
+                  "playerId": "team-player/b4e5b362-fd70-4e32-98f4-1eb58084c367",
                   "name": "Duncan Styles",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f1495d73-e2bb-4ffb-be7d-8a22bb3952ce",
                   "name": "Roger Binks",
                   "score": "2"
                 }
@@ -246,17 +382,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "David Houston"
+            {
+              "playerId": "team-player/d5154775-b904-4342-8027-a52a416c01c8",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/7807f076-f590-4ca7-8778-ad1faccbbc52",
+              "name": "David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/43ea6475-8f8d-45b1-8fe7-009db4677b66",
               "players": [
                 {
+                  "playerId": "team-player/d5154775-b904-4342-8027-a52a416c01c8",
                   "name": "Nathaniel Healy",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/7807f076-f590-4ca7-8778-ad1faccbbc52",
                   "name": "David Houston",
                   "score": "18"
                 }
@@ -268,17 +413,26 @@
         },
         {
           "players": [
-            "A Looney & D Styles",
-            "M Shanks & D Houston"
+            {
+              "playerId": "team-player/05fdaea9-7c30-4d0d-a257-c78a597014ea",
+              "name": "A Looney & D Styles"
+            },
+            {
+              "playerId": "team-player/2dd73d7f-2cee-4ddf-87fe-e6aebc43d688",
+              "name": "M Shanks & D Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49223b8f-46a7-4696-9fca-07f9f55a824b",
               "players": [
                 {
+                  "playerId": "team-player/05fdaea9-7c30-4d0d-a257-c78a597014ea",
                   "name": "A Looney & D Styles",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/2dd73d7f-2cee-4ddf-87fe-e6aebc43d688",
                   "name": "M Shanks & D Houston",
                   "score": "26"
                 }
@@ -290,17 +444,26 @@
         },
         {
           "players": [
-            "H Spiers & C Whyms",
-            "B Durward & R Binks"
+            {
+              "playerId": "team-player/a9d2525d-fde6-4146-b997-256a47b6f37f",
+              "name": "H Spiers & C Whyms"
+            },
+            {
+              "playerId": "team-player/ec2b7acd-421c-40a6-ae93-e88065206f50",
+              "name": "B Durward & R Binks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4301c0c-9ee6-417e-ad41-958bb8ee2441",
               "players": [
                 {
+                  "playerId": "team-player/a9d2525d-fde6-4146-b997-256a47b6f37f",
                   "name": "H Spiers & C Whyms",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/ec2b7acd-421c-40a6-ae93-e88065206f50",
                   "name": "B Durward & R Binks",
                   "score": "17"
                 }
@@ -312,17 +475,26 @@
         },
         {
           "players": [
-            "Alan Looney",
-            "Brian Durward"
+            {
+              "playerId": "team-player/65431bf2-7875-4f7c-b171-691e6bd08502",
+              "name": "Alan Looney"
+            },
+            {
+              "playerId": "team-player/d3023b5f-aceb-4f88-96ba-f237f61c747c",
+              "name": "Brian Durward"
+            }
           ],
           "games": [
             {
+              "gameId": "game/83bedb3e-a05a-434e-9605-7035af09cff8",
               "players": [
                 {
+                  "playerId": "team-player/65431bf2-7875-4f7c-b171-691e6bd08502",
                   "name": "Alan Looney",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d3023b5f-aceb-4f88-96ba-f237f61c747c",
                   "name": "Brian Durward",
                   "score": "3"
                 }
@@ -334,17 +506,26 @@
         },
         {
           "players": [
-            "Duncan Styles",
-            "Mark Shanks"
+            {
+              "playerId": "team-player/b4e5b362-fd70-4e32-98f4-1eb58084c367",
+              "name": "Duncan Styles"
+            },
+            {
+              "playerId": "team-player/1e3d78c4-b20e-4a70-a153-b8b5d342606c",
+              "name": "Mark Shanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ab34e38d-1c58-4c3f-b7fb-0fc33a1123eb",
               "players": [
                 {
+                  "playerId": "team-player/b4e5b362-fd70-4e32-98f4-1eb58084c367",
                   "name": "Duncan Styles",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1e3d78c4-b20e-4a70-a153-b8b5d342606c",
                   "name": "Mark Shanks",
                   "score": "16"
                 }
@@ -356,17 +537,26 @@
         },
         {
           "players": [
-            "Clair Whyms",
-            "Roger Binks"
+            {
+              "playerId": "team-player/47a825be-7f2b-4560-a5c0-a9b9b56672b4",
+              "name": "Clair Whyms"
+            },
+            {
+              "playerId": "team-player/f1495d73-e2bb-4ffb-be7d-8a22bb3952ce",
+              "name": "Roger Binks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5d4d28a-3ad0-4e99-96e7-e68079078aa6",
               "players": [
                 {
+                  "playerId": "team-player/47a825be-7f2b-4560-a5c0-a9b9b56672b4",
                   "name": "Clair Whyms",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/f1495d73-e2bb-4ffb-be7d-8a22bb3952ce",
                   "name": "Roger Binks",
                   "score": "23"
                 }
@@ -378,17 +568,26 @@
         },
         {
           "players": [
-            "Huw Spiers",
-            "David Houston"
+            {
+              "playerId": "team-player/034d462e-9941-4ce5-8650-6aa588dcb0c8",
+              "name": "Huw Spiers"
+            },
+            {
+              "playerId": "team-player/7807f076-f590-4ca7-8778-ad1faccbbc52",
+              "name": "David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/170c09b1-b3a1-422f-954a-15e948f4fea6",
               "players": [
                 {
+                  "playerId": "team-player/034d462e-9941-4ce5-8650-6aa588dcb0c8",
                   "name": "Huw Spiers",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/7807f076-f590-4ca7-8778-ad1faccbbc52",
                   "name": "David Houston",
                   "score": "18"
                 }

@@ -1,42 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b4bc10ac-d17e-4091-b139-321da3c6a876",
   "name": "SWCF LP Premier league Bristol A v Budleigh A",
   "sport": "gc",
   "firstDay": "2026-06-20",
   "lastDay": "2026-06-20",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol A",
       "shortName": "Bristol A",
       "players": [
-        "David Goacher",
-        "David Goacher & Dominic Aarvold",
-        "David Goacher & Louise Bradforth",
-        "Dom Aarvold",
-        "Dominic Aarvold & Josh Wise",
-        "Josh Wise & Martin Murray",
-        "Joshua Wise",
-        "Louise Bradforth",
-        "Martin Murray"
+        {
+          "playerId": "team-player/83043fcd-711b-4b6a-836d-33e8c8baedc5",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/977eb5c5-06b2-46cb-9204-4c1599ad8af0",
+          "name": "David Goacher & Dominic Aarvold"
+        },
+        {
+          "playerId": "team-player/4c46eb9b-a0c7-4774-879c-a7c077f24b2e",
+          "name": "David Goacher & Louise Bradforth"
+        },
+        {
+          "playerId": "team-player/1f6958a2-9c53-49df-b150-28143ee500ab",
+          "name": "Dom Aarvold"
+        },
+        {
+          "playerId": "team-player/b03e931d-401e-4b49-abd7-78d23ad128f1",
+          "name": "Dominic Aarvold & Josh Wise"
+        },
+        {
+          "playerId": "team-player/13f3d73c-24c3-4faf-80e8-abb83a816404",
+          "name": "Josh Wise & Martin Murray"
+        },
+        {
+          "playerId": "team-player/acf642d3-516a-437e-958f-0a46350c86da",
+          "name": "Joshua Wise"
+        },
+        {
+          "playerId": "team-player/f76b4616-260e-40bc-b4ad-7383dd40e5f3",
+          "name": "Louise Bradforth"
+        },
+        {
+          "playerId": "team-player/57df6191-ad41-43bf-8038-1ead8ed257aa",
+          "name": "Martin Murray"
+        }
       ]
     },
     {
       "name": "Budleigh A",
       "shortName": "Budleigh A",
       "players": [
-        "Niall Litton",
-        "Stuart M Smith",
-        "Stuart M Smith & Trevor Smith",
-        "Tim Spores",
-        "Tim Spores & Niall Litton",
-        "Trevor J Smith"
+        {
+          "playerId": "team-player/52e6b17e-eca1-403a-9164-1ec12965badd",
+          "name": "Niall Litton"
+        },
+        {
+          "playerId": "team-player/c48a8752-2a2d-415c-b1a9-bffc7d0d6cef",
+          "name": "Stuart M Smith"
+        },
+        {
+          "playerId": "team-player/ce8500ff-7e0e-49e1-98da-67e1146c6e2d",
+          "name": "Stuart M Smith & Trevor Smith"
+        },
+        {
+          "playerId": "team-player/bdc998ad-ec9f-4039-9481-7752d8fa8036",
+          "name": "Tim Spores"
+        },
+        {
+          "playerId": "team-player/6e48e81f-868b-45fc-9549-3228a19a6ba6",
+          "name": "Tim Spores & Niall Litton"
+        },
+        {
+          "playerId": "team-player/8d525483-16e9-4d4d-874e-21522f8d907c",
+          "name": "Trevor J Smith"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/abd98d84-8cbe-4070-9482-26173941a319",
       "teams": [
         "Bristol A",
         "Budleigh A"
@@ -46,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "David Goacher & Dominic Aarvold",
-            "Stuart M Smith & Trevor Smith"
+            {
+              "playerId": "team-player/977eb5c5-06b2-46cb-9204-4c1599ad8af0",
+              "name": "David Goacher & Dominic Aarvold"
+            },
+            {
+              "playerId": "team-player/ce8500ff-7e0e-49e1-98da-67e1146c6e2d",
+              "name": "Stuart M Smith & Trevor Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2c08a0d3-b0ed-457b-aa5b-99f81698220c",
               "players": [
                 {
+                  "playerId": "team-player/977eb5c5-06b2-46cb-9204-4c1599ad8af0",
                   "name": "David Goacher & Dominic Aarvold",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ce8500ff-7e0e-49e1-98da-67e1146c6e2d",
                   "name": "Stuart M Smith & Trevor Smith",
                   "score": "1"
                 }
@@ -68,17 +126,26 @@
         },
         {
           "players": [
-            "Josh Wise & Martin Murray",
-            "Tim Spores & Niall Litton"
+            {
+              "playerId": "team-player/13f3d73c-24c3-4faf-80e8-abb83a816404",
+              "name": "Josh Wise & Martin Murray"
+            },
+            {
+              "playerId": "team-player/6e48e81f-868b-45fc-9549-3228a19a6ba6",
+              "name": "Tim Spores & Niall Litton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a5a2d3e3-a95e-4354-a9ac-091c4fccf13f",
               "players": [
                 {
+                  "playerId": "team-player/13f3d73c-24c3-4faf-80e8-abb83a816404",
                   "name": "Josh Wise & Martin Murray",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6e48e81f-868b-45fc-9549-3228a19a6ba6",
                   "name": "Tim Spores & Niall Litton",
                   "score": "7"
                 }
@@ -90,17 +157,26 @@
         },
         {
           "players": [
-            "David Goacher & Louise Bradforth",
-            "Stuart M Smith & Trevor Smith"
+            {
+              "playerId": "team-player/4c46eb9b-a0c7-4774-879c-a7c077f24b2e",
+              "name": "David Goacher & Louise Bradforth"
+            },
+            {
+              "playerId": "team-player/ce8500ff-7e0e-49e1-98da-67e1146c6e2d",
+              "name": "Stuart M Smith & Trevor Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4755bf3a-cc4d-4d4e-9dff-41efe594c9a8",
               "players": [
                 {
+                  "playerId": "team-player/4c46eb9b-a0c7-4774-879c-a7c077f24b2e",
                   "name": "David Goacher & Louise Bradforth",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ce8500ff-7e0e-49e1-98da-67e1146c6e2d",
                   "name": "Stuart M Smith & Trevor Smith",
                   "score": "7"
                 }
@@ -112,17 +188,26 @@
         },
         {
           "players": [
-            "Dominic Aarvold & Josh Wise",
-            "Tim Spores & Niall Litton"
+            {
+              "playerId": "team-player/b03e931d-401e-4b49-abd7-78d23ad128f1",
+              "name": "Dominic Aarvold & Josh Wise"
+            },
+            {
+              "playerId": "team-player/6e48e81f-868b-45fc-9549-3228a19a6ba6",
+              "name": "Tim Spores & Niall Litton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd092159-6ea4-4a1c-b28b-7f4b2dd708d5",
               "players": [
                 {
+                  "playerId": "team-player/b03e931d-401e-4b49-abd7-78d23ad128f1",
                   "name": "Dominic Aarvold & Josh Wise",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6e48e81f-868b-45fc-9549-3228a19a6ba6",
                   "name": "Tim Spores & Niall Litton",
                   "score": "3"
                 }
@@ -134,17 +219,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Stuart M Smith"
+            {
+              "playerId": "team-player/83043fcd-711b-4b6a-836d-33e8c8baedc5",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/c48a8752-2a2d-415c-b1a9-bffc7d0d6cef",
+              "name": "Stuart M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/83fb7aaa-11c9-4287-ab44-9df13dc543ff",
               "players": [
                 {
+                  "playerId": "team-player/83043fcd-711b-4b6a-836d-33e8c8baedc5",
                   "name": "David Goacher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c48a8752-2a2d-415c-b1a9-bffc7d0d6cef",
                   "name": "Stuart M Smith",
                   "score": "2"
                 }
@@ -156,17 +250,26 @@
         },
         {
           "players": [
-            "Joshua Wise",
-            "Trevor J Smith"
+            {
+              "playerId": "team-player/acf642d3-516a-437e-958f-0a46350c86da",
+              "name": "Joshua Wise"
+            },
+            {
+              "playerId": "team-player/8d525483-16e9-4d4d-874e-21522f8d907c",
+              "name": "Trevor J Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/37073c62-3dee-467a-b897-d08cae9670d1",
               "players": [
                 {
+                  "playerId": "team-player/acf642d3-516a-437e-958f-0a46350c86da",
                   "name": "Joshua Wise",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8d525483-16e9-4d4d-874e-21522f8d907c",
                   "name": "Trevor J Smith",
                   "score": "7"
                 }
@@ -178,17 +281,26 @@
         },
         {
           "players": [
-            "Dom Aarvold",
-            "Niall Litton"
+            {
+              "playerId": "team-player/1f6958a2-9c53-49df-b150-28143ee500ab",
+              "name": "Dom Aarvold"
+            },
+            {
+              "playerId": "team-player/52e6b17e-eca1-403a-9164-1ec12965badd",
+              "name": "Niall Litton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf4d6e83-ac99-4fb8-8086-ad6528ae9c82",
               "players": [
                 {
+                  "playerId": "team-player/1f6958a2-9c53-49df-b150-28143ee500ab",
                   "name": "Dom Aarvold",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52e6b17e-eca1-403a-9164-1ec12965badd",
                   "name": "Niall Litton",
                   "score": "4"
                 }
@@ -200,17 +312,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "Tim Spores"
+            {
+              "playerId": "team-player/57df6191-ad41-43bf-8038-1ead8ed257aa",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/bdc998ad-ec9f-4039-9481-7752d8fa8036",
+              "name": "Tim Spores"
+            }
           ],
           "games": [
             {
+              "gameId": "game/946830ed-62b5-4c99-a1d4-d09f6fa13e7e",
               "players": [
                 {
+                  "playerId": "team-player/57df6191-ad41-43bf-8038-1ead8ed257aa",
                   "name": "Martin Murray",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/bdc998ad-ec9f-4039-9481-7752d8fa8036",
                   "name": "Tim Spores",
                   "score": "7"
                 }
@@ -222,17 +343,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Tim Spores"
+            {
+              "playerId": "team-player/83043fcd-711b-4b6a-836d-33e8c8baedc5",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/bdc998ad-ec9f-4039-9481-7752d8fa8036",
+              "name": "Tim Spores"
+            }
           ],
           "games": [
             {
+              "gameId": "game/43bf803a-c5b5-4359-9999-579423bda009",
               "players": [
                 {
+                  "playerId": "team-player/83043fcd-711b-4b6a-836d-33e8c8baedc5",
                   "name": "David Goacher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bdc998ad-ec9f-4039-9481-7752d8fa8036",
                   "name": "Tim Spores",
                   "score": "6"
                 }
@@ -244,17 +374,26 @@
         },
         {
           "players": [
-            "Dom Aarvold",
-            "Trevor J Smith"
+            {
+              "playerId": "team-player/1f6958a2-9c53-49df-b150-28143ee500ab",
+              "name": "Dom Aarvold"
+            },
+            {
+              "playerId": "team-player/8d525483-16e9-4d4d-874e-21522f8d907c",
+              "name": "Trevor J Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1fa3a489-c989-48a8-b53a-e542f2a8cb41",
               "players": [
                 {
+                  "playerId": "team-player/1f6958a2-9c53-49df-b150-28143ee500ab",
                   "name": "Dom Aarvold",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8d525483-16e9-4d4d-874e-21522f8d907c",
                   "name": "Trevor J Smith",
                   "score": "3"
                 }
@@ -266,17 +405,26 @@
         },
         {
           "players": [
-            "Joshua Wise",
-            "Stuart M Smith"
+            {
+              "playerId": "team-player/acf642d3-516a-437e-958f-0a46350c86da",
+              "name": "Joshua Wise"
+            },
+            {
+              "playerId": "team-player/c48a8752-2a2d-415c-b1a9-bffc7d0d6cef",
+              "name": "Stuart M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/55fa79f6-1690-438b-80a5-000d0a7f504c",
               "players": [
                 {
+                  "playerId": "team-player/acf642d3-516a-437e-958f-0a46350c86da",
                   "name": "Joshua Wise",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/c48a8752-2a2d-415c-b1a9-bffc7d0d6cef",
                   "name": "Stuart M Smith",
                   "score": "7"
                 }
@@ -288,17 +436,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "Niall Litton"
+            {
+              "playerId": "team-player/57df6191-ad41-43bf-8038-1ead8ed257aa",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/52e6b17e-eca1-403a-9164-1ec12965badd",
+              "name": "Niall Litton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/725cc983-182a-4592-ac00-590db5f59f3c",
               "players": [
                 {
+                  "playerId": "team-player/57df6191-ad41-43bf-8038-1ead8ed257aa",
                   "name": "Martin Murray",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/52e6b17e-eca1-403a-9164-1ec12965badd",
                   "name": "Niall Litton",
                   "score": "7"
                 }
@@ -310,17 +467,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Niall Litton"
+            {
+              "playerId": "team-player/83043fcd-711b-4b6a-836d-33e8c8baedc5",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/52e6b17e-eca1-403a-9164-1ec12965badd",
+              "name": "Niall Litton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/016e5134-6991-4787-8a60-4ea4efedf53f",
               "players": [
                 {
+                  "playerId": "team-player/83043fcd-711b-4b6a-836d-33e8c8baedc5",
                   "name": "David Goacher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52e6b17e-eca1-403a-9164-1ec12965badd",
                   "name": "Niall Litton",
                   "score": "4"
                 }
@@ -332,17 +498,26 @@
         },
         {
           "players": [
-            "Dom Aarvold",
-            "Stuart M Smith"
+            {
+              "playerId": "team-player/1f6958a2-9c53-49df-b150-28143ee500ab",
+              "name": "Dom Aarvold"
+            },
+            {
+              "playerId": "team-player/c48a8752-2a2d-415c-b1a9-bffc7d0d6cef",
+              "name": "Stuart M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dc76e2ee-5b7b-4362-bcf0-224639c839b6",
               "players": [
                 {
+                  "playerId": "team-player/1f6958a2-9c53-49df-b150-28143ee500ab",
                   "name": "Dom Aarvold",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c48a8752-2a2d-415c-b1a9-bffc7d0d6cef",
                   "name": "Stuart M Smith",
                   "score": "5"
                 }
@@ -354,17 +529,26 @@
         },
         {
           "players": [
-            "Louise Bradforth",
-            "Trevor J Smith"
+            {
+              "playerId": "team-player/f76b4616-260e-40bc-b4ad-7383dd40e5f3",
+              "name": "Louise Bradforth"
+            },
+            {
+              "playerId": "team-player/8d525483-16e9-4d4d-874e-21522f8d907c",
+              "name": "Trevor J Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/826e485f-06dd-4cb6-90cf-c038c45f8e05",
               "players": [
                 {
+                  "playerId": "team-player/f76b4616-260e-40bc-b4ad-7383dd40e5f3",
                   "name": "Louise Bradforth",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8d525483-16e9-4d4d-874e-21522f8d907c",
                   "name": "Trevor J Smith",
                   "score": "3"
                 }
@@ -376,17 +560,26 @@
         },
         {
           "players": [
-            "Louise Bradforth",
-            "Niall Litton"
+            {
+              "playerId": "team-player/f76b4616-260e-40bc-b4ad-7383dd40e5f3",
+              "name": "Louise Bradforth"
+            },
+            {
+              "playerId": "team-player/52e6b17e-eca1-403a-9164-1ec12965badd",
+              "name": "Niall Litton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54b379ec-36bf-42b2-a978-27e4b7c44f73",
               "players": [
                 {
+                  "playerId": "team-player/f76b4616-260e-40bc-b4ad-7383dd40e5f3",
                   "name": "Louise Bradforth",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/52e6b17e-eca1-403a-9164-1ec12965badd",
                   "name": "Niall Litton",
                   "score": "6"
                 }
@@ -398,17 +591,26 @@
         },
         {
           "players": [
-            "Martin Murray",
-            "Stuart M Smith"
+            {
+              "playerId": "team-player/57df6191-ad41-43bf-8038-1ead8ed257aa",
+              "name": "Martin Murray"
+            },
+            {
+              "playerId": "team-player/c48a8752-2a2d-415c-b1a9-bffc7d0d6cef",
+              "name": "Stuart M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5f4b369-1417-4327-a093-6247c2ffff03",
               "players": [
                 {
+                  "playerId": "team-player/57df6191-ad41-43bf-8038-1ead8ed257aa",
                   "name": "Martin Murray",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/c48a8752-2a2d-415c-b1a9-bffc7d0d6cef",
                   "name": "Stuart M Smith",
                   "score": "7"
                 }
@@ -420,17 +622,26 @@
         },
         {
           "players": [
-            "Joshua Wise",
-            "Tim Spores"
+            {
+              "playerId": "team-player/acf642d3-516a-437e-958f-0a46350c86da",
+              "name": "Joshua Wise"
+            },
+            {
+              "playerId": "team-player/bdc998ad-ec9f-4039-9481-7752d8fa8036",
+              "name": "Tim Spores"
+            }
           ],
           "games": [
             {
+              "gameId": "game/498f43d1-ec5d-46ac-9a25-df3ffcbae14c",
               "players": [
                 {
+                  "playerId": "team-player/acf642d3-516a-437e-958f-0a46350c86da",
                   "name": "Joshua Wise",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/bdc998ad-ec9f-4039-9481-7752d8fa8036",
                   "name": "Tim Spores",
                   "score": "7"
                 }
@@ -442,17 +653,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Trevor J Smith"
+            {
+              "playerId": "team-player/83043fcd-711b-4b6a-836d-33e8c8baedc5",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/8d525483-16e9-4d4d-874e-21522f8d907c",
+              "name": "Trevor J Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/80ed929d-c2fb-4dda-be6f-9d52058b0c4f",
               "players": [
                 {
+                  "playerId": "team-player/83043fcd-711b-4b6a-836d-33e8c8baedc5",
                   "name": "David Goacher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8d525483-16e9-4d4d-874e-21522f8d907c",
                   "name": "Trevor J Smith",
                   "score": "6"
                 }
@@ -464,17 +684,26 @@
         },
         {
           "players": [
-            "Dom Aarvold",
-            "Tim Spores"
+            {
+              "playerId": "team-player/1f6958a2-9c53-49df-b150-28143ee500ab",
+              "name": "Dom Aarvold"
+            },
+            {
+              "playerId": "team-player/bdc998ad-ec9f-4039-9481-7752d8fa8036",
+              "name": "Tim Spores"
+            }
           ],
           "games": [
             {
+              "gameId": "game/41ea480b-1c32-465e-9694-2fa928768d0c",
               "players": [
                 {
+                  "playerId": "team-player/1f6958a2-9c53-49df-b150-28143ee500ab",
                   "name": "Dom Aarvold",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bdc998ad-ec9f-4039-9481-7752d8fa8036",
                   "name": "Tim Spores",
                   "score": "4"
                 }

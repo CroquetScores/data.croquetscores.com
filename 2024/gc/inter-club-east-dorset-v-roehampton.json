@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f497f764-8e52-441c-826e-066ff110206a",
   "name": "GC inter Club - East Dorset v Roehampton",
   "sport": "gc",
   "firstDay": "2024-04-14",
   "lastDay": "2024-04-14",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "East Dorset",
       "shortName": "East Dorse",
       "players": [
-        "David Fuller",
-        "Jonathan Powe",
-        "Jonathan Powe & Steve Leonard",
-        "Mark Hamann",
-        "Steve Leonard"
+        {
+          "playerId": "team-player/9d1c28b0-0b28-40fe-ad21-7de231d051c0",
+          "name": "David Fuller"
+        },
+        {
+          "playerId": "team-player/2d12929b-40dd-44d2-b1f6-14e27583cb45",
+          "name": "Jonathan Powe"
+        },
+        {
+          "playerId": "team-player/a032dfe6-1789-4c06-8e8c-bae69901fa8d",
+          "name": "Jonathan Powe & Steve Leonard"
+        },
+        {
+          "playerId": "team-player/be8f9179-aa16-482b-8e2e-76b46add2751",
+          "name": "Mark Hamann"
+        },
+        {
+          "playerId": "team-player/91e1e828-f411-4e53-a12b-a019313a616d",
+          "name": "Steve Leonard"
+        }
       ]
     },
     {
       "name": "Roehampton",
       "shortName": "Roehampton",
       "players": [
-        "Joel Taylor",
-        "Mark Van Loon",
-        "Mark van Loon & Tim Russell",
-        "Nick Yates",
-        "Tim Russell"
+        {
+          "playerId": "team-player/f9a0aa62-03f3-4f8e-9438-5299afd2de4e",
+          "name": "Joel Taylor"
+        },
+        {
+          "playerId": "team-player/9c449b4a-959a-401b-8984-83fda09e5ff2",
+          "name": "Mark Van Loon"
+        },
+        {
+          "playerId": "team-player/e62b0519-7b12-4fee-8c42-cf1b2bc3eb5a",
+          "name": "Mark van Loon & Tim Russell"
+        },
+        {
+          "playerId": "team-player/0c606744-1c82-4f89-8383-430677a5effb",
+          "name": "Nick Yates"
+        },
+        {
+          "playerId": "team-player/b645971e-cbbb-441c-a495-4db8e0962793",
+          "name": "Tim Russell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/a6d84926-3dd2-425a-b148-4caba2e48d70",
       "teams": [
         "East Dorset",
         "Roehampton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Jonathan Powe & Steve Leonard",
-            "Mark van Loon & Tim Russell"
+            {
+              "playerId": "team-player/a032dfe6-1789-4c06-8e8c-bae69901fa8d",
+              "name": "Jonathan Powe & Steve Leonard"
+            },
+            {
+              "playerId": "team-player/e62b0519-7b12-4fee-8c42-cf1b2bc3eb5a",
+              "name": "Mark van Loon & Tim Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/63757a21-8ad8-4b18-9079-b33bc1f46134",
               "players": [
                 {
+                  "playerId": "team-player/a032dfe6-1789-4c06-8e8c-bae69901fa8d",
                   "name": "Jonathan Powe & Steve Leonard",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e62b0519-7b12-4fee-8c42-cf1b2bc3eb5a",
                   "name": "Mark van Loon & Tim Russell",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d959ad80-a810-4009-b6ee-eef01ac9f64a",
               "players": [
                 {
+                  "playerId": "team-player/a032dfe6-1789-4c06-8e8c-bae69901fa8d",
                   "name": "Jonathan Powe & Steve Leonard",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e62b0519-7b12-4fee-8c42-cf1b2bc3eb5a",
                   "name": "Mark van Loon & Tim Russell",
                   "score": "4"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "David Fuller",
-            "Nick Yates"
+            {
+              "playerId": "team-player/9d1c28b0-0b28-40fe-ad21-7de231d051c0",
+              "name": "David Fuller"
+            },
+            {
+              "playerId": "team-player/0c606744-1c82-4f89-8383-430677a5effb",
+              "name": "Nick Yates"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f18f41a-68a6-4db5-aaf2-32042228a273",
               "players": [
                 {
+                  "playerId": "team-player/9d1c28b0-0b28-40fe-ad21-7de231d051c0",
                   "name": "David Fuller",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/0c606744-1c82-4f89-8383-430677a5effb",
                   "name": "Nick Yates",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6a44beec-8b9b-4519-a983-4e6bc7d5f0e0",
               "players": [
                 {
+                  "playerId": "team-player/9d1c28b0-0b28-40fe-ad21-7de231d051c0",
                   "name": "David Fuller",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/0c606744-1c82-4f89-8383-430677a5effb",
                   "name": "Nick Yates",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Mark Hamann",
-            "Joel Taylor"
+            {
+              "playerId": "team-player/be8f9179-aa16-482b-8e2e-76b46add2751",
+              "name": "Mark Hamann"
+            },
+            {
+              "playerId": "team-player/f9a0aa62-03f3-4f8e-9438-5299afd2de4e",
+              "name": "Joel Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4d0bdde7-5c1a-4e04-a227-c8d258746aed",
               "players": [
                 {
+                  "playerId": "team-player/be8f9179-aa16-482b-8e2e-76b46add2751",
                   "name": "Mark Hamann",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f9a0aa62-03f3-4f8e-9438-5299afd2de4e",
                   "name": "Joel Taylor",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/81e98de0-95e1-43d0-8427-02c8b57a3af6",
               "players": [
                 {
+                  "playerId": "team-player/be8f9179-aa16-482b-8e2e-76b46add2751",
                   "name": "Mark Hamann",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f9a0aa62-03f3-4f8e-9438-5299afd2de4e",
                   "name": "Joel Taylor",
                   "score": "7"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "David Fuller",
-            "Joel Taylor"
+            {
+              "playerId": "team-player/9d1c28b0-0b28-40fe-ad21-7de231d051c0",
+              "name": "David Fuller"
+            },
+            {
+              "playerId": "team-player/f9a0aa62-03f3-4f8e-9438-5299afd2de4e",
+              "name": "Joel Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/161d7dee-8b99-49bb-9f2c-3b788dfa189d",
               "players": [
                 {
+                  "playerId": "team-player/9d1c28b0-0b28-40fe-ad21-7de231d051c0",
                   "name": "David Fuller",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/f9a0aa62-03f3-4f8e-9438-5299afd2de4e",
                   "name": "Joel Taylor",
                   "score": "7"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f15e41a4-4270-476a-a5f1-e46d407e3c64",
               "players": [
                 {
+                  "playerId": "team-player/9d1c28b0-0b28-40fe-ad21-7de231d051c0",
                   "name": "David Fuller",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f9a0aa62-03f3-4f8e-9438-5299afd2de4e",
                   "name": "Joel Taylor",
                   "score": "1"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d2744a4c-94ec-4b72-897d-857d16a935dd",
               "players": [
                 {
+                  "playerId": "team-player/9d1c28b0-0b28-40fe-ad21-7de231d051c0",
                   "name": "David Fuller",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/f9a0aa62-03f3-4f8e-9438-5299afd2de4e",
                   "name": "Joel Taylor",
                   "score": "7"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Steve Leonard",
-            "Tim Russell"
+            {
+              "playerId": "team-player/91e1e828-f411-4e53-a12b-a019313a616d",
+              "name": "Steve Leonard"
+            },
+            {
+              "playerId": "team-player/b645971e-cbbb-441c-a495-4db8e0962793",
+              "name": "Tim Russell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8e3ee54a-b1ab-4d88-9cf6-ce6b783a09b3",
               "players": [
                 {
+                  "playerId": "team-player/91e1e828-f411-4e53-a12b-a019313a616d",
                   "name": "Steve Leonard",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b645971e-cbbb-441c-a495-4db8e0962793",
                   "name": "Tim Russell",
                   "score": "2"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/80ab0958-8b33-4652-b479-ec99eedecb0f",
               "players": [
                 {
+                  "playerId": "team-player/91e1e828-f411-4e53-a12b-a019313a616d",
                   "name": "Steve Leonard",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b645971e-cbbb-441c-a495-4db8e0962793",
                   "name": "Tim Russell",
                   "score": "5"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Mark Hamann",
-            "Nick Yates"
+            {
+              "playerId": "team-player/be8f9179-aa16-482b-8e2e-76b46add2751",
+              "name": "Mark Hamann"
+            },
+            {
+              "playerId": "team-player/0c606744-1c82-4f89-8383-430677a5effb",
+              "name": "Nick Yates"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e4cba198-5473-4c3e-89c5-eda40eab98c3",
               "players": [
                 {
+                  "playerId": "team-player/be8f9179-aa16-482b-8e2e-76b46add2751",
                   "name": "Mark Hamann",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0c606744-1c82-4f89-8383-430677a5effb",
                   "name": "Nick Yates",
                   "score": "7"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/825f136e-8014-496c-830b-fb3187bf9ef4",
               "players": [
                 {
+                  "playerId": "team-player/be8f9179-aa16-482b-8e2e-76b46add2751",
                   "name": "Mark Hamann",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0c606744-1c82-4f89-8383-430677a5effb",
                   "name": "Nick Yates",
                   "score": "7"
                 }
@@ -271,17 +380,26 @@
         },
         {
           "players": [
-            "Jonathan Powe",
-            "Mark Van Loon"
+            {
+              "playerId": "team-player/2d12929b-40dd-44d2-b1f6-14e27583cb45",
+              "name": "Jonathan Powe"
+            },
+            {
+              "playerId": "team-player/9c449b4a-959a-401b-8984-83fda09e5ff2",
+              "name": "Mark Van Loon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/56498489-401b-4501-a868-1ae450abb214",
               "players": [
                 {
+                  "playerId": "team-player/2d12929b-40dd-44d2-b1f6-14e27583cb45",
                   "name": "Jonathan Powe",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9c449b4a-959a-401b-8984-83fda09e5ff2",
                   "name": "Mark Van Loon",
                   "score": "7"
                 }
@@ -290,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1c0806c8-a107-4089-87cd-71fa7650ff91",
               "players": [
                 {
+                  "playerId": "team-player/2d12929b-40dd-44d2-b1f6-14e27583cb45",
                   "name": "Jonathan Powe",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/9c449b4a-959a-401b-8984-83fda09e5ff2",
                   "name": "Mark Van Loon",
                   "score": "7"
                 }

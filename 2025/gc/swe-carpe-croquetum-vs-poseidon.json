@@ -1,34 +1,59 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/c020c5a1-827e-4097-8c20-24f9a6d93462",
   "name": "SWE Carpe Croquetum vs. Poseidon",
   "sport": "gc",
   "firstDay": "2025-05-01",
   "lastDay": "2025-05-01",
   "country": "se",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Carpe Croquetum",
       "shortName": "Carpe Croq",
       "players": [
-        "Daniel Larsson",
-        "Eje Elebo",
-        "Joi Elebo",
-        "Larsson / Elebo"
+        {
+          "playerId": "team-player/2fdd6af0-ab66-4a9b-b9ad-29b079f41d4d",
+          "name": "Daniel Larsson"
+        },
+        {
+          "playerId": "team-player/1074fc66-e76d-4280-96ef-1aae0dcfe1d6",
+          "name": "Eje Elebo"
+        },
+        {
+          "playerId": "team-player/99a21fd1-8c40-436c-af43-c7fc2375fa30",
+          "name": "Joi Elebo"
+        },
+        {
+          "playerId": "team-player/f7487a03-bc8b-4d35-a23a-464685b3a230",
+          "name": "Larsson / Elebo"
+        }
       ]
     },
     {
       "name": "Poseidon Croquet Club",
       "shortName": "Poseidon C",
       "players": [
-        "Anton Kamne",
-        "Axel Kamne",
-        "Kamne / Kamne"
+        {
+          "playerId": "team-player/bf9cb9cf-0c29-43d6-a6d0-9e66e336dba4",
+          "name": "Anton Kamne"
+        },
+        {
+          "playerId": "team-player/08ca9314-0890-4d24-acf6-1285285c9fe2",
+          "name": "Axel Kamne"
+        },
+        {
+          "playerId": "team-player/18e8eb85-4235-4b7d-bc12-e9118303575b",
+          "name": "Kamne / Kamne"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/cb96303d-e0fc-46e8-b67b-d0120e61f52a",
       "teams": [
         "Carpe Croquetum",
         "Poseidon Croquet Club"
@@ -38,17 +63,26 @@
       "matches": [
         {
           "players": [
-            "Joi Elebo",
-            "Axel Kamne"
+            {
+              "playerId": "team-player/99a21fd1-8c40-436c-af43-c7fc2375fa30",
+              "name": "Joi Elebo"
+            },
+            {
+              "playerId": "team-player/08ca9314-0890-4d24-acf6-1285285c9fe2",
+              "name": "Axel Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f34218c3-6ed6-4b69-9473-f7394a9c6f1d",
               "players": [
                 {
+                  "playerId": "team-player/99a21fd1-8c40-436c-af43-c7fc2375fa30",
                   "name": "Joi Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/08ca9314-0890-4d24-acf6-1285285c9fe2",
                   "name": "Axel Kamne",
                   "score": "1"
                 }
@@ -57,12 +91,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dca54fa9-1794-4d13-97d1-78a3644d7196",
               "players": [
                 {
+                  "playerId": "team-player/99a21fd1-8c40-436c-af43-c7fc2375fa30",
                   "name": "Joi Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/08ca9314-0890-4d24-acf6-1285285c9fe2",
                   "name": "Axel Kamne",
                   "score": "4"
                 }
@@ -74,17 +111,26 @@
         },
         {
           "players": [
-            "Daniel Larsson",
-            "Anton Kamne"
+            {
+              "playerId": "team-player/2fdd6af0-ab66-4a9b-b9ad-29b079f41d4d",
+              "name": "Daniel Larsson"
+            },
+            {
+              "playerId": "team-player/bf9cb9cf-0c29-43d6-a6d0-9e66e336dba4",
+              "name": "Anton Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f5907fd-52a3-4012-bf5c-304f07d7b5d5",
               "players": [
                 {
+                  "playerId": "team-player/2fdd6af0-ab66-4a9b-b9ad-29b079f41d4d",
                   "name": "Daniel Larsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf9cb9cf-0c29-43d6-a6d0-9e66e336dba4",
                   "name": "Anton Kamne",
                   "score": "3"
                 }
@@ -93,12 +139,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ae5c9936-cc19-40cb-9565-9c1cbf238f98",
               "players": [
                 {
+                  "playerId": "team-player/2fdd6af0-ab66-4a9b-b9ad-29b079f41d4d",
                   "name": "Daniel Larsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf9cb9cf-0c29-43d6-a6d0-9e66e336dba4",
                   "name": "Anton Kamne",
                   "score": "5"
                 }
@@ -110,17 +159,26 @@
         },
         {
           "players": [
-            "Larsson / Elebo",
-            "Kamne / Kamne"
+            {
+              "playerId": "team-player/f7487a03-bc8b-4d35-a23a-464685b3a230",
+              "name": "Larsson / Elebo"
+            },
+            {
+              "playerId": "team-player/18e8eb85-4235-4b7d-bc12-e9118303575b",
+              "name": "Kamne / Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6796330f-e9e5-407d-a23d-1145e2e6ed65",
               "players": [
                 {
+                  "playerId": "team-player/f7487a03-bc8b-4d35-a23a-464685b3a230",
                   "name": "Larsson / Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/18e8eb85-4235-4b7d-bc12-e9118303575b",
                   "name": "Kamne / Kamne",
                   "score": "3"
                 }
@@ -129,12 +187,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6db2a3d8-71eb-414a-9025-8639280ed67a",
               "players": [
                 {
+                  "playerId": "team-player/f7487a03-bc8b-4d35-a23a-464685b3a230",
                   "name": "Larsson / Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/18e8eb85-4235-4b7d-bc12-e9118303575b",
                   "name": "Kamne / Kamne",
                   "score": "6"
                 }
@@ -146,17 +207,26 @@
         },
         {
           "players": [
-            "Joi Elebo",
-            "Anton Kamne"
+            {
+              "playerId": "team-player/99a21fd1-8c40-436c-af43-c7fc2375fa30",
+              "name": "Joi Elebo"
+            },
+            {
+              "playerId": "team-player/bf9cb9cf-0c29-43d6-a6d0-9e66e336dba4",
+              "name": "Anton Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a6fc7600-a05a-4d38-a6f5-f1ba009b7a09",
               "players": [
                 {
+                  "playerId": "team-player/99a21fd1-8c40-436c-af43-c7fc2375fa30",
                   "name": "Joi Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf9cb9cf-0c29-43d6-a6d0-9e66e336dba4",
                   "name": "Anton Kamne",
                   "score": "5"
                 }
@@ -165,12 +235,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a9c026cd-5c32-4904-be2c-b4e8d7217767",
               "players": [
                 {
+                  "playerId": "team-player/99a21fd1-8c40-436c-af43-c7fc2375fa30",
                   "name": "Joi Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bf9cb9cf-0c29-43d6-a6d0-9e66e336dba4",
                   "name": "Anton Kamne",
                   "score": "5"
                 }
@@ -182,17 +255,26 @@
         },
         {
           "players": [
-            "Eje Elebo",
-            "Axel Kamne"
+            {
+              "playerId": "team-player/1074fc66-e76d-4280-96ef-1aae0dcfe1d6",
+              "name": "Eje Elebo"
+            },
+            {
+              "playerId": "team-player/08ca9314-0890-4d24-acf6-1285285c9fe2",
+              "name": "Axel Kamne"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff794618-233c-484b-bf86-a3fd93faaedb",
               "players": [
                 {
+                  "playerId": "team-player/1074fc66-e76d-4280-96ef-1aae0dcfe1d6",
                   "name": "Eje Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/08ca9314-0890-4d24-acf6-1285285c9fe2",
                   "name": "Axel Kamne",
                   "score": "2"
                 }
@@ -201,12 +283,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b534ff67-d282-4db3-9218-a7fcacf2b597",
               "players": [
                 {
+                  "playerId": "team-player/1074fc66-e76d-4280-96ef-1aae0dcfe1d6",
                   "name": "Eje Elebo",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/08ca9314-0890-4d24-acf6-1285285c9fe2",
                   "name": "Axel Kamne",
                   "score": "4"
                 }

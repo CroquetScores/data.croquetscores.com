@@ -1,57 +1,115 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0ba9713f-03bb-4930-ad69-723df0c84f86",
   "name": "1st GC RSHECC-RCPH Test Match",
   "sport": "gc",
   "firstDay": "2017-07-01",
   "lastDay": "2017-07-02",
   "country": "es",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "RSHECC-Singles",
       "shortName": "RSHECC-Sin",
       "players": [
-        "Andres Alvarez-Sala",
-        "Andres de Diego",
-        "Antonio Sainz de Vicuna",
-        "Gonzalo Alvarez-Sala",
-        "Jose Alvarez-Sala",
-        "Luis Alvarez-Sala"
+        {
+          "playerId": "team-player/d227628f-fbb5-40e6-9810-aca03417d898",
+          "name": "Andres Alvarez-Sala"
+        },
+        {
+          "playerId": "team-player/e41b8ff8-ec50-4ac4-8a04-650399de778c",
+          "name": "Andres de Diego"
+        },
+        {
+          "playerId": "team-player/6726b796-7c85-44ff-a8a9-b2a33ca637b8",
+          "name": "Antonio Sainz de Vicuna"
+        },
+        {
+          "playerId": "team-player/e4d3ae99-2917-4b40-b898-6cdce0fcffa1",
+          "name": "Gonzalo Alvarez-Sala"
+        },
+        {
+          "playerId": "team-player/49dc0542-595e-415a-a6b3-51fbe0fb8e37",
+          "name": "Jose Alvarez-Sala"
+        },
+        {
+          "playerId": "team-player/358c51c6-f53b-4af7-b658-2635506d30af",
+          "name": "Luis Alvarez-Sala"
+        }
       ]
     },
     {
       "name": "RCPH-Singles",
       "shortName": "RCPH-Singl",
       "players": [
-        "Begona Elzaburu",
-        "Cristina Solis",
-        "Giuseppe Lopez de Carrizosa",
-        "Lourdes Portela",
-        "Luis de Gortazar",
-        "Patricio Peman"
+        {
+          "playerId": "team-player/cbec41a9-9a6b-4b43-b4e5-a6beedcdd915",
+          "name": "Begona Elzaburu"
+        },
+        {
+          "playerId": "team-player/f9341221-4b56-4fd9-8311-998c6942ccc9",
+          "name": "Cristina Solis"
+        },
+        {
+          "playerId": "team-player/aeb6ba6b-489b-497c-8af3-5e2955761f82",
+          "name": "Giuseppe Lopez de Carrizosa"
+        },
+        {
+          "playerId": "team-player/6833411c-f18e-49ad-b560-42955ba56723",
+          "name": "Lourdes Portela"
+        },
+        {
+          "playerId": "team-player/2289aed4-10e5-432c-b8bd-20ed1ca91a5d",
+          "name": "Luis de Gortazar"
+        },
+        {
+          "playerId": "team-player/6b9739c7-6299-4c4c-ac25-d05c344027fd",
+          "name": "Patricio Peman"
+        }
       ]
     },
     {
       "name": "RSHECC-Doubles",
       "shortName": "RSHECC-Dou",
       "players": [
-        "Andres Alvarez-Sala/Antonio Sainz de Vicuna",
-        "Gonzalo Alvarez-Sala/Andres de Diego",
-        "Jose Alvarez-Sala/Luis Alvarez-Sala"
+        {
+          "playerId": "team-player/0637e67a-e5c2-4039-9987-84b0ee11d5e3",
+          "name": "Andres Alvarez-Sala/Antonio Sainz de Vicuna"
+        },
+        {
+          "playerId": "team-player/a77bb351-a75d-4bcb-98c4-e9b224662ccd",
+          "name": "Gonzalo Alvarez-Sala/Andres de Diego"
+        },
+        {
+          "playerId": "team-player/e80448dc-822c-448e-91e6-6af8f964bde9",
+          "name": "Jose Alvarez-Sala/Luis Alvarez-Sala"
+        }
       ]
     },
     {
       "name": "RCPH-Doubles",
       "shortName": "RCPH-Doubl",
       "players": [
-        "Giuseppe Lopez de Carrizosa/Cristina Solis",
-        "Luis de Gortazar/Lourdes Portela",
-        "Patricio Peman/Begona Elzaburu"
+        {
+          "playerId": "team-player/75667f1a-51d0-4f3d-9f24-daf16485e7c1",
+          "name": "Giuseppe Lopez de Carrizosa/Cristina Solis"
+        },
+        {
+          "playerId": "team-player/1b398396-3614-4e27-af81-1e1b25d06276",
+          "name": "Luis de Gortazar/Lourdes Portela"
+        },
+        {
+          "playerId": "team-player/847b19f6-d3a6-4345-add5-38c98938b290",
+          "name": "Patricio Peman/Begona Elzaburu"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/66f326a0-3a14-4f36-9962-7f74b5a911e6",
       "teams": [
         "RSHECC-Singles",
         "RCPH-Singles"
@@ -61,17 +119,26 @@
       "matches": [
         {
           "players": [
-            "Andres Alvarez-Sala",
-            "Cristina Solis"
+            {
+              "playerId": "team-player/d227628f-fbb5-40e6-9810-aca03417d898",
+              "name": "Andres Alvarez-Sala"
+            },
+            {
+              "playerId": "team-player/f9341221-4b56-4fd9-8311-998c6942ccc9",
+              "name": "Cristina Solis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7d7bb7bb-b5d9-402f-ac45-8c09b7af71cb",
               "players": [
                 {
+                  "playerId": "team-player/d227628f-fbb5-40e6-9810-aca03417d898",
                   "name": "Andres Alvarez-Sala",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f9341221-4b56-4fd9-8311-998c6942ccc9",
                   "name": "Cristina Solis",
                   "score": "3"
                 }
@@ -80,12 +147,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/875294ac-982c-4f92-bb75-525c82be0524",
               "players": [
                 {
+                  "playerId": "team-player/d227628f-fbb5-40e6-9810-aca03417d898",
                   "name": "Andres Alvarez-Sala",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f9341221-4b56-4fd9-8311-998c6942ccc9",
                   "name": "Cristina Solis",
                   "score": "3"
                 }
@@ -97,17 +167,26 @@
         },
         {
           "players": [
-            "Antonio Sainz de Vicuna",
-            "Giuseppe Lopez de Carrizosa"
+            {
+              "playerId": "team-player/6726b796-7c85-44ff-a8a9-b2a33ca637b8",
+              "name": "Antonio Sainz de Vicuna"
+            },
+            {
+              "playerId": "team-player/aeb6ba6b-489b-497c-8af3-5e2955761f82",
+              "name": "Giuseppe Lopez de Carrizosa"
+            }
           ],
           "games": [
             {
+              "gameId": "game/241932ff-74eb-4196-84b6-df9bd82c3489",
               "players": [
                 {
+                  "playerId": "team-player/6726b796-7c85-44ff-a8a9-b2a33ca637b8",
                   "name": "Antonio Sainz de Vicuna",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/aeb6ba6b-489b-497c-8af3-5e2955761f82",
                   "name": "Giuseppe Lopez de Carrizosa",
                   "score": "7"
                 }
@@ -116,12 +195,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/17f1ba82-f953-4338-a706-3a4f38add731",
               "players": [
                 {
+                  "playerId": "team-player/6726b796-7c85-44ff-a8a9-b2a33ca637b8",
                   "name": "Antonio Sainz de Vicuna",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/aeb6ba6b-489b-497c-8af3-5e2955761f82",
                   "name": "Giuseppe Lopez de Carrizosa",
                   "score": "7"
                 }
@@ -133,17 +215,26 @@
         },
         {
           "players": [
-            "Luis Alvarez-Sala",
-            "Patricio Peman"
+            {
+              "playerId": "team-player/358c51c6-f53b-4af7-b658-2635506d30af",
+              "name": "Luis Alvarez-Sala"
+            },
+            {
+              "playerId": "team-player/6b9739c7-6299-4c4c-ac25-d05c344027fd",
+              "name": "Patricio Peman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bd35f288-52b0-4703-abdc-c30c4223816f",
               "players": [
                 {
+                  "playerId": "team-player/358c51c6-f53b-4af7-b658-2635506d30af",
                   "name": "Luis Alvarez-Sala",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6b9739c7-6299-4c4c-ac25-d05c344027fd",
                   "name": "Patricio Peman",
                   "score": "3"
                 }
@@ -152,12 +243,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2259f2b9-0b11-4f32-a679-1dd23150ff13",
               "players": [
                 {
+                  "playerId": "team-player/358c51c6-f53b-4af7-b658-2635506d30af",
                   "name": "Luis Alvarez-Sala",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6b9739c7-6299-4c4c-ac25-d05c344027fd",
                   "name": "Patricio Peman",
                   "score": "7"
                 }
@@ -169,17 +263,26 @@
         },
         {
           "players": [
-            "Andres de Diego",
-            "Lourdes Portela"
+            {
+              "playerId": "team-player/e41b8ff8-ec50-4ac4-8a04-650399de778c",
+              "name": "Andres de Diego"
+            },
+            {
+              "playerId": "team-player/6833411c-f18e-49ad-b560-42955ba56723",
+              "name": "Lourdes Portela"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ce57a854-ed23-482f-8cfa-8759a33d259c",
               "players": [
                 {
+                  "playerId": "team-player/e41b8ff8-ec50-4ac4-8a04-650399de778c",
                   "name": "Andres de Diego",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6833411c-f18e-49ad-b560-42955ba56723",
                   "name": "Lourdes Portela",
                   "score": "4"
                 }
@@ -188,12 +291,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/530a341e-4e0a-4056-bc79-dfc45d1697c4",
               "players": [
                 {
+                  "playerId": "team-player/e41b8ff8-ec50-4ac4-8a04-650399de778c",
                   "name": "Andres de Diego",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6833411c-f18e-49ad-b560-42955ba56723",
                   "name": "Lourdes Portela",
                   "score": "2"
                 }
@@ -205,17 +311,26 @@
         },
         {
           "players": [
-            "Jose Alvarez-Sala",
-            "Begona Elzaburu"
+            {
+              "playerId": "team-player/49dc0542-595e-415a-a6b3-51fbe0fb8e37",
+              "name": "Jose Alvarez-Sala"
+            },
+            {
+              "playerId": "team-player/cbec41a9-9a6b-4b43-b4e5-a6beedcdd915",
+              "name": "Begona Elzaburu"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6fb0260b-20ef-44e9-a744-1b0b9298fd80",
               "players": [
                 {
+                  "playerId": "team-player/49dc0542-595e-415a-a6b3-51fbe0fb8e37",
                   "name": "Jose Alvarez-Sala",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cbec41a9-9a6b-4b43-b4e5-a6beedcdd915",
                   "name": "Begona Elzaburu",
                   "score": "5"
                 }
@@ -224,12 +339,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c50028f4-bb3f-4258-ae70-02f2e1454014",
               "players": [
                 {
+                  "playerId": "team-player/49dc0542-595e-415a-a6b3-51fbe0fb8e37",
                   "name": "Jose Alvarez-Sala",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cbec41a9-9a6b-4b43-b4e5-a6beedcdd915",
                   "name": "Begona Elzaburu",
                   "score": "1"
                 }
@@ -241,17 +359,26 @@
         },
         {
           "players": [
-            "Gonzalo Alvarez-Sala",
-            "Luis de Gortazar"
+            {
+              "playerId": "team-player/e4d3ae99-2917-4b40-b898-6cdce0fcffa1",
+              "name": "Gonzalo Alvarez-Sala"
+            },
+            {
+              "playerId": "team-player/2289aed4-10e5-432c-b8bd-20ed1ca91a5d",
+              "name": "Luis de Gortazar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9da5d9a-3cc6-43bb-b46f-2e920f379473",
               "players": [
                 {
+                  "playerId": "team-player/e4d3ae99-2917-4b40-b898-6cdce0fcffa1",
                   "name": "Gonzalo Alvarez-Sala",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2289aed4-10e5-432c-b8bd-20ed1ca91a5d",
                   "name": "Luis de Gortazar",
                   "score": "6"
                 }
@@ -260,12 +387,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6a074211-6305-4f61-a285-0dea38cf36a5",
               "players": [
                 {
+                  "playerId": "team-player/e4d3ae99-2917-4b40-b898-6cdce0fcffa1",
                   "name": "Gonzalo Alvarez-Sala",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2289aed4-10e5-432c-b8bd-20ed1ca91a5d",
                   "name": "Luis de Gortazar",
                   "score": "3"
                 }
@@ -278,6 +408,7 @@
       ]
     },
     {
+      "competitionId": "competition/c60d209e-f634-4474-aa61-9323c5ac12ba",
       "teams": [
         "RSHECC-Doubles",
         "RCPH-Doubles"
@@ -287,17 +418,26 @@
       "matches": [
         {
           "players": [
-            "Andres Alvarez-Sala/Antonio Sainz de Vicuna",
-            "Giuseppe Lopez de Carrizosa/Cristina Solis"
+            {
+              "playerId": "team-player/0637e67a-e5c2-4039-9987-84b0ee11d5e3",
+              "name": "Andres Alvarez-Sala/Antonio Sainz de Vicuna"
+            },
+            {
+              "playerId": "team-player/75667f1a-51d0-4f3d-9f24-daf16485e7c1",
+              "name": "Giuseppe Lopez de Carrizosa/Cristina Solis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7fde8f9a-695e-4dc9-8eca-e39bb2427dfe",
               "players": [
                 {
+                  "playerId": "team-player/0637e67a-e5c2-4039-9987-84b0ee11d5e3",
                   "name": "Andres Alvarez-Sala/Antonio Sainz de Vicuna",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/75667f1a-51d0-4f3d-9f24-daf16485e7c1",
                   "name": "Giuseppe Lopez de Carrizosa/Cristina Solis",
                   "score": "4"
                 }
@@ -309,17 +449,26 @@
         },
         {
           "players": [
-            "Gonzalo Alvarez-Sala/Andres de Diego",
-            "Patricio Peman/Begona Elzaburu"
+            {
+              "playerId": "team-player/a77bb351-a75d-4bcb-98c4-e9b224662ccd",
+              "name": "Gonzalo Alvarez-Sala/Andres de Diego"
+            },
+            {
+              "playerId": "team-player/847b19f6-d3a6-4345-add5-38c98938b290",
+              "name": "Patricio Peman/Begona Elzaburu"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d3a18f0c-68da-43a0-8b25-247bd3db53af",
               "players": [
                 {
+                  "playerId": "team-player/a77bb351-a75d-4bcb-98c4-e9b224662ccd",
                   "name": "Gonzalo Alvarez-Sala/Andres de Diego",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/847b19f6-d3a6-4345-add5-38c98938b290",
                   "name": "Patricio Peman/Begona Elzaburu",
                   "score": "4"
                 }
@@ -331,17 +480,26 @@
         },
         {
           "players": [
-            "Jose Alvarez-Sala/Luis Alvarez-Sala",
-            "Luis de Gortazar/Lourdes Portela"
+            {
+              "playerId": "team-player/e80448dc-822c-448e-91e6-6af8f964bde9",
+              "name": "Jose Alvarez-Sala/Luis Alvarez-Sala"
+            },
+            {
+              "playerId": "team-player/1b398396-3614-4e27-af81-1e1b25d06276",
+              "name": "Luis de Gortazar/Lourdes Portela"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f4c552a-6ce3-4184-918a-17beac621d93",
               "players": [
                 {
+                  "playerId": "team-player/e80448dc-822c-448e-91e6-6af8f964bde9",
                   "name": "Jose Alvarez-Sala/Luis Alvarez-Sala",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1b398396-3614-4e27-af81-1e1b25d06276",
                   "name": "Luis de Gortazar/Lourdes Portela",
                   "score": "7"
                 }
@@ -353,17 +511,26 @@
         },
         {
           "players": [
-            "Gonzalo Alvarez-Sala/Andres de Diego",
-            "Luis de Gortazar/Lourdes Portela"
+            {
+              "playerId": "team-player/a77bb351-a75d-4bcb-98c4-e9b224662ccd",
+              "name": "Gonzalo Alvarez-Sala/Andres de Diego"
+            },
+            {
+              "playerId": "team-player/1b398396-3614-4e27-af81-1e1b25d06276",
+              "name": "Luis de Gortazar/Lourdes Portela"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a1c0e1ab-ccdf-4417-82e4-9e702dee03f9",
               "players": [
                 {
+                  "playerId": "team-player/a77bb351-a75d-4bcb-98c4-e9b224662ccd",
                   "name": "Gonzalo Alvarez-Sala/Andres de Diego",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1b398396-3614-4e27-af81-1e1b25d06276",
                   "name": "Luis de Gortazar/Lourdes Portela",
                   "score": "4"
                 }
@@ -375,17 +542,26 @@
         },
         {
           "players": [
-            "Andres Alvarez-Sala/Antonio Sainz de Vicuna",
-            "Patricio Peman/Begona Elzaburu"
+            {
+              "playerId": "team-player/0637e67a-e5c2-4039-9987-84b0ee11d5e3",
+              "name": "Andres Alvarez-Sala/Antonio Sainz de Vicuna"
+            },
+            {
+              "playerId": "team-player/847b19f6-d3a6-4345-add5-38c98938b290",
+              "name": "Patricio Peman/Begona Elzaburu"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f1598a42-7b39-4e4e-83e8-6ddb0f84e24d",
               "players": [
                 {
+                  "playerId": "team-player/0637e67a-e5c2-4039-9987-84b0ee11d5e3",
                   "name": "Andres Alvarez-Sala/Antonio Sainz de Vicuna",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/847b19f6-d3a6-4345-add5-38c98938b290",
                   "name": "Patricio Peman/Begona Elzaburu",
                   "score": "7"
                 }
@@ -397,17 +573,26 @@
         },
         {
           "players": [
-            "Jose Alvarez-Sala/Luis Alvarez-Sala",
-            "Giuseppe Lopez de Carrizosa/Cristina Solis"
+            {
+              "playerId": "team-player/e80448dc-822c-448e-91e6-6af8f964bde9",
+              "name": "Jose Alvarez-Sala/Luis Alvarez-Sala"
+            },
+            {
+              "playerId": "team-player/75667f1a-51d0-4f3d-9f24-daf16485e7c1",
+              "name": "Giuseppe Lopez de Carrizosa/Cristina Solis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e70b0947-180a-4e36-b46f-18a97eb7fb3f",
               "players": [
                 {
+                  "playerId": "team-player/e80448dc-822c-448e-91e6-6af8f964bde9",
                   "name": "Jose Alvarez-Sala/Luis Alvarez-Sala",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/75667f1a-51d0-4f3d-9f24-daf16485e7c1",
                   "name": "Giuseppe Lopez de Carrizosa/Cristina Solis",
                   "score": "4"
                 }
@@ -419,17 +604,26 @@
         },
         {
           "players": [
-            "Gonzalo Alvarez-Sala/Andres de Diego",
-            "Giuseppe Lopez de Carrizosa/Cristina Solis"
+            {
+              "playerId": "team-player/a77bb351-a75d-4bcb-98c4-e9b224662ccd",
+              "name": "Gonzalo Alvarez-Sala/Andres de Diego"
+            },
+            {
+              "playerId": "team-player/75667f1a-51d0-4f3d-9f24-daf16485e7c1",
+              "name": "Giuseppe Lopez de Carrizosa/Cristina Solis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/51bfdbcb-5a31-464e-aefd-d552982cbab7",
               "players": [
                 {
+                  "playerId": "team-player/a77bb351-a75d-4bcb-98c4-e9b224662ccd",
                   "name": "Gonzalo Alvarez-Sala/Andres de Diego",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/75667f1a-51d0-4f3d-9f24-daf16485e7c1",
                   "name": "Giuseppe Lopez de Carrizosa/Cristina Solis",
                   "score": "2"
                 }
@@ -441,17 +635,26 @@
         },
         {
           "players": [
-            "Jose Alvarez-Sala/Luis Alvarez-Sala",
-            "Patricio Peman/Begona Elzaburu"
+            {
+              "playerId": "team-player/e80448dc-822c-448e-91e6-6af8f964bde9",
+              "name": "Jose Alvarez-Sala/Luis Alvarez-Sala"
+            },
+            {
+              "playerId": "team-player/847b19f6-d3a6-4345-add5-38c98938b290",
+              "name": "Patricio Peman/Begona Elzaburu"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5982212b-7153-4ecb-bd27-41084db3d9d8",
               "players": [
                 {
+                  "playerId": "team-player/e80448dc-822c-448e-91e6-6af8f964bde9",
                   "name": "Jose Alvarez-Sala/Luis Alvarez-Sala",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/847b19f6-d3a6-4345-add5-38c98938b290",
                   "name": "Patricio Peman/Begona Elzaburu",
                   "score": "3"
                 }
@@ -463,17 +666,26 @@
         },
         {
           "players": [
-            "Andres Alvarez-Sala/Antonio Sainz de Vicuna",
-            "Luis de Gortazar/Lourdes Portela"
+            {
+              "playerId": "team-player/0637e67a-e5c2-4039-9987-84b0ee11d5e3",
+              "name": "Andres Alvarez-Sala/Antonio Sainz de Vicuna"
+            },
+            {
+              "playerId": "team-player/1b398396-3614-4e27-af81-1e1b25d06276",
+              "name": "Luis de Gortazar/Lourdes Portela"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7bc6b6bc-d58e-454b-89ac-b6c81dcc055b",
               "players": [
                 {
+                  "playerId": "team-player/0637e67a-e5c2-4039-9987-84b0ee11d5e3",
                   "name": "Andres Alvarez-Sala/Antonio Sainz de Vicuna",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/1b398396-3614-4e27-af81-1e1b25d06276",
                   "name": "Luis de Gortazar/Lourdes Portela",
                   "score": "7"
                 }

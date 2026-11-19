@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/8ab4d1a6-a8bf-4558-bb38-acf8aa3121de",
   "name": "SECF GC Level League",
   "sport": "gc",
   "firstDay": "2021-06-04",
   "lastDay": "2021-06-04",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Merton",
       "shortName": "Merton",
       "players": [
-        "Graham Withrington",
-        "Julie Sheahan",
-        "Louise Taylor",
-        "Simon Ebdin"
+        {
+          "playerId": "team-player/3e65279a-7ac0-48c0-a15d-9e2d6926c009",
+          "name": "Graham Withrington"
+        },
+        {
+          "playerId": "team-player/bd87888e-7501-49a9-bc1a-5a478b2541d8",
+          "name": "Julie Sheahan"
+        },
+        {
+          "playerId": "team-player/c1fcc130-505c-485c-a4e9-fd899004929b",
+          "name": "Louise Taylor"
+        },
+        {
+          "playerId": "team-player/dd7ebda1-e556-4384-9e6f-17dffb0f61a3",
+          "name": "Simon Ebdin"
+        }
       ]
     },
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Alison Maugham",
-        "Don Beck",
-        "Gavin Taylor",
-        "Martin Burger"
+        {
+          "playerId": "team-player/e9cece89-fdd9-4d16-a081-27de97b26983",
+          "name": "Alison Maugham"
+        },
+        {
+          "playerId": "team-player/3a218595-4e48-4d09-951e-fdc321ad53b1",
+          "name": "Don Beck"
+        },
+        {
+          "playerId": "team-player/3909b040-ef1a-4964-a2fa-fc87dec6945e",
+          "name": "Gavin Taylor"
+        },
+        {
+          "playerId": "team-player/defd6f02-1c42-4a32-862a-cd39b43ec5b5",
+          "name": "Martin Burger"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/8b4b0529-23c0-49d7-9121-83a2cd2145d1",
       "teams": [
         "Merton",
         "Surbiton"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Simon Ebdin",
-            "Gavin Taylor"
+            {
+              "playerId": "team-player/dd7ebda1-e556-4384-9e6f-17dffb0f61a3",
+              "name": "Simon Ebdin"
+            },
+            {
+              "playerId": "team-player/3909b040-ef1a-4964-a2fa-fc87dec6945e",
+              "name": "Gavin Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a3b95659-9030-4001-bbb4-d5adcb429867",
               "players": [
                 {
+                  "playerId": "team-player/dd7ebda1-e556-4384-9e6f-17dffb0f61a3",
                   "name": "Simon Ebdin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3909b040-ef1a-4964-a2fa-fc87dec6945e",
                   "name": "Gavin Taylor",
                   "score": "2"
                 }
@@ -58,12 +95,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8e22dba4-1f1d-45d4-a013-39618fcc7769",
               "players": [
                 {
+                  "playerId": "team-player/dd7ebda1-e556-4384-9e6f-17dffb0f61a3",
                   "name": "Simon Ebdin",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3909b040-ef1a-4964-a2fa-fc87dec6945e",
                   "name": "Gavin Taylor",
                   "score": "7"
                 }
@@ -72,12 +112,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/960424e8-5d31-41b2-bad8-746fedea7576",
               "players": [
                 {
+                  "playerId": "team-player/dd7ebda1-e556-4384-9e6f-17dffb0f61a3",
                   "name": "Simon Ebdin",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3909b040-ef1a-4964-a2fa-fc87dec6945e",
                   "name": "Gavin Taylor",
                   "score": "7"
                 }
@@ -89,17 +132,26 @@
         },
         {
           "players": [
-            "Louise Taylor",
-            "Martin Burger"
+            {
+              "playerId": "team-player/c1fcc130-505c-485c-a4e9-fd899004929b",
+              "name": "Louise Taylor"
+            },
+            {
+              "playerId": "team-player/defd6f02-1c42-4a32-862a-cd39b43ec5b5",
+              "name": "Martin Burger"
+            }
           ],
           "games": [
             {
+              "gameId": "game/14f2a746-64a8-4e52-8a14-55c22e5163f1",
               "players": [
                 {
+                  "playerId": "team-player/c1fcc130-505c-485c-a4e9-fd899004929b",
                   "name": "Louise Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/defd6f02-1c42-4a32-862a-cd39b43ec5b5",
                   "name": "Martin Burger",
                   "score": "4"
                 }
@@ -108,12 +160,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4c1c8410-35ad-4253-8ee6-dd458f25d5ff",
               "players": [
                 {
+                  "playerId": "team-player/c1fcc130-505c-485c-a4e9-fd899004929b",
                   "name": "Louise Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/defd6f02-1c42-4a32-862a-cd39b43ec5b5",
                   "name": "Martin Burger",
                   "score": "4"
                 }
@@ -125,17 +180,26 @@
         },
         {
           "players": [
-            "Graham Withrington",
-            "Don Beck"
+            {
+              "playerId": "team-player/3e65279a-7ac0-48c0-a15d-9e2d6926c009",
+              "name": "Graham Withrington"
+            },
+            {
+              "playerId": "team-player/3a218595-4e48-4d09-951e-fdc321ad53b1",
+              "name": "Don Beck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/37e49f01-41e5-4afa-9bb0-597f2ff8e662",
               "players": [
                 {
+                  "playerId": "team-player/3e65279a-7ac0-48c0-a15d-9e2d6926c009",
                   "name": "Graham Withrington",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3a218595-4e48-4d09-951e-fdc321ad53b1",
                   "name": "Don Beck",
                   "score": "7"
                 }
@@ -144,12 +208,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/dec78089-cf50-4252-9894-c81819ca472c",
               "players": [
                 {
+                  "playerId": "team-player/3e65279a-7ac0-48c0-a15d-9e2d6926c009",
                   "name": "Graham Withrington",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3a218595-4e48-4d09-951e-fdc321ad53b1",
                   "name": "Don Beck",
                   "score": "7"
                 }
@@ -161,17 +228,26 @@
         },
         {
           "players": [
-            "Julie Sheahan",
-            "Alison Maugham"
+            {
+              "playerId": "team-player/bd87888e-7501-49a9-bc1a-5a478b2541d8",
+              "name": "Julie Sheahan"
+            },
+            {
+              "playerId": "team-player/e9cece89-fdd9-4d16-a081-27de97b26983",
+              "name": "Alison Maugham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6dd6a9a1-49ce-48dd-b156-92ede48a08eb",
               "players": [
                 {
+                  "playerId": "team-player/bd87888e-7501-49a9-bc1a-5a478b2541d8",
                   "name": "Julie Sheahan",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/e9cece89-fdd9-4d16-a081-27de97b26983",
                   "name": "Alison Maugham",
                   "score": "7"
                 }
@@ -180,12 +256,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1d88f928-3865-4808-a30a-1b982ecf4aae",
               "players": [
                 {
+                  "playerId": "team-player/bd87888e-7501-49a9-bc1a-5a478b2541d8",
                   "name": "Julie Sheahan",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e9cece89-fdd9-4d16-a081-27de97b26983",
                   "name": "Alison Maugham",
                   "score": "7"
                 }
@@ -197,17 +276,26 @@
         },
         {
           "players": [
-            "Simon Ebdin",
-            "Martin Burger"
+            {
+              "playerId": "team-player/dd7ebda1-e556-4384-9e6f-17dffb0f61a3",
+              "name": "Simon Ebdin"
+            },
+            {
+              "playerId": "team-player/defd6f02-1c42-4a32-862a-cd39b43ec5b5",
+              "name": "Martin Burger"
+            }
           ],
           "games": [
             {
+              "gameId": "game/444e28df-89ce-479a-961a-4700ddf411af",
               "players": [
                 {
+                  "playerId": "team-player/dd7ebda1-e556-4384-9e6f-17dffb0f61a3",
                   "name": "Simon Ebdin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/defd6f02-1c42-4a32-862a-cd39b43ec5b5",
                   "name": "Martin Burger",
                   "score": "6"
                 }
@@ -216,12 +304,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ea2557a2-d5fc-4d7a-b0e0-557efe143dc4",
               "players": [
                 {
+                  "playerId": "team-player/dd7ebda1-e556-4384-9e6f-17dffb0f61a3",
                   "name": "Simon Ebdin",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/defd6f02-1c42-4a32-862a-cd39b43ec5b5",
                   "name": "Martin Burger",
                   "score": "7"
                 }
@@ -230,12 +321,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e2cdfb81-4011-4f34-bc60-11667073ff7b",
               "players": [
                 {
+                  "playerId": "team-player/dd7ebda1-e556-4384-9e6f-17dffb0f61a3",
                   "name": "Simon Ebdin",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/defd6f02-1c42-4a32-862a-cd39b43ec5b5",
                   "name": "Martin Burger",
                   "score": "5"
                 }
@@ -247,17 +341,26 @@
         },
         {
           "players": [
-            "Louise Taylor",
-            "Gavin Taylor"
+            {
+              "playerId": "team-player/c1fcc130-505c-485c-a4e9-fd899004929b",
+              "name": "Louise Taylor"
+            },
+            {
+              "playerId": "team-player/3909b040-ef1a-4964-a2fa-fc87dec6945e",
+              "name": "Gavin Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc50a5a1-d84b-48ca-99bd-feb2dc9a97d1",
               "players": [
                 {
+                  "playerId": "team-player/c1fcc130-505c-485c-a4e9-fd899004929b",
                   "name": "Louise Taylor",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3909b040-ef1a-4964-a2fa-fc87dec6945e",
                   "name": "Gavin Taylor",
                   "score": "7"
                 }
@@ -266,12 +369,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c10b6c09-74ac-44d5-97a9-bfa75f0cce4f",
               "players": [
                 {
+                  "playerId": "team-player/c1fcc130-505c-485c-a4e9-fd899004929b",
                   "name": "Louise Taylor",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3909b040-ef1a-4964-a2fa-fc87dec6945e",
                   "name": "Gavin Taylor",
                   "score": "7"
                 }

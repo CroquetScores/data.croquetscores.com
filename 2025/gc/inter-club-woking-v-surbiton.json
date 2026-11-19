@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/5d5eec55-efff-4d68-9ab3-ff74e4c2ad28",
   "name": "GC Inter-Club : Woking v Surbiton",
   "sport": "gc",
   "firstDay": "2025-05-13",
   "lastDay": "2025-05-13",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Woking",
       "shortName": "Woking",
       "players": [
-        "Andrew Dutton",
-        "Colin Groves",
-        "M Town & C Groves",
-        "Mike Town",
-        "Sara Anderson"
+        {
+          "playerId": "team-player/1bc687ff-f053-4172-9073-3bdb7064b330",
+          "name": "Andrew Dutton"
+        },
+        {
+          "playerId": "team-player/1352aa7b-6814-4b05-adba-633a32b8bbb1",
+          "name": "Colin Groves"
+        },
+        {
+          "playerId": "team-player/3802e059-6f62-4587-a51f-cbf9a4abbc15",
+          "name": "M Town & C Groves"
+        },
+        {
+          "playerId": "team-player/38552963-ad99-4de7-bd4b-a81ee83eb96e",
+          "name": "Mike Town"
+        },
+        {
+          "playerId": "team-player/75d66ef4-c2cb-4d0d-9981-8297ed379989",
+          "name": "Sara Anderson"
+        }
       ]
     },
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Andy Dibben",
-        "Beryl Hughes",
-        "D Beck & B Hughes",
-        "Don Beck",
-        "Sue Pendry"
+        {
+          "playerId": "team-player/3a96475e-6441-464d-86f1-5458c0b8d274",
+          "name": "Andy Dibben"
+        },
+        {
+          "playerId": "team-player/d3a992f7-e195-4f12-ae2a-4054b81770d2",
+          "name": "Beryl Hughes"
+        },
+        {
+          "playerId": "team-player/e263a38d-3970-42e5-bf0a-15f8c5705866",
+          "name": "D Beck & B Hughes"
+        },
+        {
+          "playerId": "team-player/03dcc0e5-1abb-4ba0-8589-8f908834353f",
+          "name": "Don Beck"
+        },
+        {
+          "playerId": "team-player/7909538d-fb20-459f-a8dd-878280827e1a",
+          "name": "Sue Pendry"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/6797e474-8b5b-4f59-92d4-1ad250e89289",
       "teams": [
         "Woking",
         "Surbiton"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Andrew Dutton",
-            "Sue Pendry"
+            {
+              "playerId": "team-player/1bc687ff-f053-4172-9073-3bdb7064b330",
+              "name": "Andrew Dutton"
+            },
+            {
+              "playerId": "team-player/7909538d-fb20-459f-a8dd-878280827e1a",
+              "name": "Sue Pendry"
+            }
           ],
           "games": [
             {
+              "gameId": "game/52656acd-20e2-415e-aa39-81b178e19a45",
               "players": [
                 {
+                  "playerId": "team-player/1bc687ff-f053-4172-9073-3bdb7064b330",
                   "name": "Andrew Dutton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/7909538d-fb20-459f-a8dd-878280827e1a",
                   "name": "Sue Pendry",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/390c2e5e-dc06-414e-b9a0-064a668ea4cd",
               "players": [
                 {
+                  "playerId": "team-player/1bc687ff-f053-4172-9073-3bdb7064b330",
                   "name": "Andrew Dutton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7909538d-fb20-459f-a8dd-878280827e1a",
                   "name": "Sue Pendry",
                   "score": "3"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1e8435a7-5933-45e6-9273-6799cf4256e0",
               "players": [
                 {
+                  "playerId": "team-player/1bc687ff-f053-4172-9073-3bdb7064b330",
                   "name": "Andrew Dutton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7909538d-fb20-459f-a8dd-878280827e1a",
                   "name": "Sue Pendry",
                   "score": "7"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "Sara Anderson",
-            "Andy Dibben"
+            {
+              "playerId": "team-player/75d66ef4-c2cb-4d0d-9981-8297ed379989",
+              "name": "Sara Anderson"
+            },
+            {
+              "playerId": "team-player/3a96475e-6441-464d-86f1-5458c0b8d274",
+              "name": "Andy Dibben"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f6aa079-2a50-49f5-910f-52a98e993797",
               "players": [
                 {
+                  "playerId": "team-player/75d66ef4-c2cb-4d0d-9981-8297ed379989",
                   "name": "Sara Anderson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a96475e-6441-464d-86f1-5458c0b8d274",
                   "name": "Andy Dibben",
                   "score": "1"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6390530d-ab71-44bf-bd5d-accc1a709088",
               "players": [
                 {
+                  "playerId": "team-player/75d66ef4-c2cb-4d0d-9981-8297ed379989",
                   "name": "Sara Anderson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a96475e-6441-464d-86f1-5458c0b8d274",
                   "name": "Andy Dibben",
                   "score": "5"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Mike Town",
-            "Don Beck"
+            {
+              "playerId": "team-player/38552963-ad99-4de7-bd4b-a81ee83eb96e",
+              "name": "Mike Town"
+            },
+            {
+              "playerId": "team-player/03dcc0e5-1abb-4ba0-8589-8f908834353f",
+              "name": "Don Beck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c20ad426-4741-435d-a1be-13fb47e12262",
               "players": [
                 {
+                  "playerId": "team-player/38552963-ad99-4de7-bd4b-a81ee83eb96e",
                   "name": "Mike Town",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/03dcc0e5-1abb-4ba0-8589-8f908834353f",
                   "name": "Don Beck",
                   "score": "4"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/14b53eb7-a0d7-4ba2-86a8-9e117c6fa569",
               "players": [
                 {
+                  "playerId": "team-player/38552963-ad99-4de7-bd4b-a81ee83eb96e",
                   "name": "Mike Town",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/03dcc0e5-1abb-4ba0-8589-8f908834353f",
                   "name": "Don Beck",
                   "score": "6"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Colin Groves",
-            "Beryl Hughes"
+            {
+              "playerId": "team-player/1352aa7b-6814-4b05-adba-633a32b8bbb1",
+              "name": "Colin Groves"
+            },
+            {
+              "playerId": "team-player/d3a992f7-e195-4f12-ae2a-4054b81770d2",
+              "name": "Beryl Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ff46ffda-eac5-4511-ad7c-44cbabc0a044",
               "players": [
                 {
+                  "playerId": "team-player/1352aa7b-6814-4b05-adba-633a32b8bbb1",
                   "name": "Colin Groves",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d3a992f7-e195-4f12-ae2a-4054b81770d2",
                   "name": "Beryl Hughes",
                   "score": "3"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/10386911-b980-421d-bfcb-b81c84294413",
               "players": [
                 {
+                  "playerId": "team-player/1352aa7b-6814-4b05-adba-633a32b8bbb1",
                   "name": "Colin Groves",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d3a992f7-e195-4f12-ae2a-4054b81770d2",
                   "name": "Beryl Hughes",
                   "score": "6"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Andrew Dutton",
-            "Andy Dibben"
+            {
+              "playerId": "team-player/1bc687ff-f053-4172-9073-3bdb7064b330",
+              "name": "Andrew Dutton"
+            },
+            {
+              "playerId": "team-player/3a96475e-6441-464d-86f1-5458c0b8d274",
+              "name": "Andy Dibben"
+            }
           ],
           "games": [
             {
+              "gameId": "game/58948235-3064-46b8-b36c-cb395b158a31",
               "players": [
                 {
+                  "playerId": "team-player/1bc687ff-f053-4172-9073-3bdb7064b330",
                   "name": "Andrew Dutton",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3a96475e-6441-464d-86f1-5458c0b8d274",
                   "name": "Andy Dibben",
                   "score": "7"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/89ce5b5e-7288-4d9a-8dcd-2eb8b6cb682e",
               "players": [
                 {
+                  "playerId": "team-player/1bc687ff-f053-4172-9073-3bdb7064b330",
                   "name": "Andrew Dutton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3a96475e-6441-464d-86f1-5458c0b8d274",
                   "name": "Andy Dibben",
                   "score": "7"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Sara Anderson",
-            "Sue Pendry"
+            {
+              "playerId": "team-player/75d66ef4-c2cb-4d0d-9981-8297ed379989",
+              "name": "Sara Anderson"
+            },
+            {
+              "playerId": "team-player/7909538d-fb20-459f-a8dd-878280827e1a",
+              "name": "Sue Pendry"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d8dc7b86-6db9-4b3b-94a0-7e144dfecce2",
               "players": [
                 {
+                  "playerId": "team-player/75d66ef4-c2cb-4d0d-9981-8297ed379989",
                   "name": "Sara Anderson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7909538d-fb20-459f-a8dd-878280827e1a",
                   "name": "Sue Pendry",
                   "score": "6"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0857f40d-8d50-4ecf-a9cd-46ae448689a2",
               "players": [
                 {
+                  "playerId": "team-player/75d66ef4-c2cb-4d0d-9981-8297ed379989",
                   "name": "Sara Anderson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7909538d-fb20-459f-a8dd-878280827e1a",
                   "name": "Sue Pendry",
                   "score": "6"
                 }
@@ -271,17 +380,26 @@
         },
         {
           "players": [
-            "M Town & C Groves",
-            "D Beck & B Hughes"
+            {
+              "playerId": "team-player/3802e059-6f62-4587-a51f-cbf9a4abbc15",
+              "name": "M Town & C Groves"
+            },
+            {
+              "playerId": "team-player/e263a38d-3970-42e5-bf0a-15f8c5705866",
+              "name": "D Beck & B Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f3c45a7f-90f4-44db-a642-059a8fc08cca",
               "players": [
                 {
+                  "playerId": "team-player/3802e059-6f62-4587-a51f-cbf9a4abbc15",
                   "name": "M Town & C Groves",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e263a38d-3970-42e5-bf0a-15f8c5705866",
                   "name": "D Beck & B Hughes",
                   "score": "7"
                 }
@@ -290,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d1c0cfe1-d3a6-48f3-989d-6679edb81b8a",
               "players": [
                 {
+                  "playerId": "team-player/3802e059-6f62-4587-a51f-cbf9a4abbc15",
                   "name": "M Town & C Groves",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e263a38d-3970-42e5-bf0a-15f8c5705866",
                   "name": "D Beck & B Hughes",
                   "score": "4"
                 }

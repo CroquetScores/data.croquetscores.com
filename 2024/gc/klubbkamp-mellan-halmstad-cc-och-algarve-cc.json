@@ -1,43 +1,95 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/9541fab5-8253-4554-a5c8-1de3291d565a",
   "name": "Klubbkamp mellan Halmstad CC och Algarve CC",
   "sport": "gc",
   "firstDay": "2024-07-08",
   "lastDay": "2024-07-08",
   "country": "se",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Halmstad Croquet Club",
       "shortName": "Halmstad C",
       "players": [
-        "Bill Gustafsson",
-        "Bill Gustafsson - Gunilla Gustafsson",
-        "Gunilla Gustafsson",
-        "Lars Olsson",
-        "Lars Olsson - Bill Gustafsson",
-        "Marie Bengtsson",
-        "Marie Bengtsson - Bengt-Arne Bengtsson",
-        "Marie Bengtsson - Gunilla Gustafsson"
+        {
+          "playerId": "team-player/b8e2fe53-b913-4e59-a517-53fe79682e46",
+          "name": "Bill Gustafsson"
+        },
+        {
+          "playerId": "team-player/69a6f505-8d7a-446e-8c0c-62e2523c9e55",
+          "name": "Bill Gustafsson - Gunilla Gustafsson"
+        },
+        {
+          "playerId": "team-player/63e73bcc-f91a-43d8-9270-0338ba027ec5",
+          "name": "Gunilla Gustafsson"
+        },
+        {
+          "playerId": "team-player/843f12d7-0324-42ab-b9fa-ab8267e86be4",
+          "name": "Lars Olsson"
+        },
+        {
+          "playerId": "team-player/6cf8a571-624d-441b-a541-3e499bad2009",
+          "name": "Lars Olsson - Bill Gustafsson"
+        },
+        {
+          "playerId": "team-player/3a66211a-effe-421b-a61c-f8bec2c05301",
+          "name": "Marie Bengtsson"
+        },
+        {
+          "playerId": "team-player/3defd16f-3826-4546-b634-021a409f4293",
+          "name": "Marie Bengtsson - Bengt-Arne Bengtsson"
+        },
+        {
+          "playerId": "team-player/0418334b-c3e1-4ecb-ac24-4dd060646391",
+          "name": "Marie Bengtsson - Gunilla Gustafsson"
+        }
       ]
     },
     {
       "name": "Algarve Croquet Club",
       "shortName": "Algarve Cr",
       "players": [
-        "Astrid Nilsson",
-        "Astrid Nilsson - Kari Nikkarikoski",
-        "Christina Bran Dannberg",
-        "Christina Bran Dannberg - Astrid Nilsson",
-        "Christina Bran Dannberg - Peter Dannberg",
-        "Kari Nikkarikoski",
-        "Peter Dannberg",
-        "Peter Dannberg - Kari Nikkarikoski"
+        {
+          "playerId": "team-player/a71c6c16-f059-4eb2-9b71-14aa2f3cc26f",
+          "name": "Astrid Nilsson"
+        },
+        {
+          "playerId": "team-player/c3d7e71c-29cc-438b-afc9-2894b5e1e58a",
+          "name": "Astrid Nilsson - Kari Nikkarikoski"
+        },
+        {
+          "playerId": "team-player/e27aa740-8262-49aa-9f98-e71f9485def6",
+          "name": "Christina Bran Dannberg"
+        },
+        {
+          "playerId": "team-player/efa4311c-980b-4e28-b9e8-9b806f5a7edf",
+          "name": "Christina Bran Dannberg - Astrid Nilsson"
+        },
+        {
+          "playerId": "team-player/14df01af-7c74-4e08-b03e-0d7097f0fbdb",
+          "name": "Christina Bran Dannberg - Peter Dannberg"
+        },
+        {
+          "playerId": "team-player/8f60240e-c634-454d-b615-38cdf06e4d07",
+          "name": "Kari Nikkarikoski"
+        },
+        {
+          "playerId": "team-player/d52d3b57-4731-42c7-9102-93e439443c86",
+          "name": "Peter Dannberg"
+        },
+        {
+          "playerId": "team-player/e1a64612-c64c-4670-bca2-6f88ca3c37bc",
+          "name": "Peter Dannberg - Kari Nikkarikoski"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/562c9392-eccd-4adb-978a-652df8e13750",
       "teams": [
         "Halmstad Croquet Club",
         "Algarve Croquet Club"
@@ -47,17 +99,26 @@
       "matches": [
         {
           "players": [
-            "Lars Olsson",
-            "Christina Bran Dannberg"
+            {
+              "playerId": "team-player/843f12d7-0324-42ab-b9fa-ab8267e86be4",
+              "name": "Lars Olsson"
+            },
+            {
+              "playerId": "team-player/e27aa740-8262-49aa-9f98-e71f9485def6",
+              "name": "Christina Bran Dannberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/11f1e3ae-05ea-4216-93d5-e173aa1558d5",
               "players": [
                 {
+                  "playerId": "team-player/843f12d7-0324-42ab-b9fa-ab8267e86be4",
                   "name": "Lars Olsson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e27aa740-8262-49aa-9f98-e71f9485def6",
                   "name": "Christina Bran Dannberg",
                   "score": "7"
                 }
@@ -69,17 +130,26 @@
         },
         {
           "players": [
-            "Marie Bengtsson",
-            "Peter Dannberg"
+            {
+              "playerId": "team-player/3a66211a-effe-421b-a61c-f8bec2c05301",
+              "name": "Marie Bengtsson"
+            },
+            {
+              "playerId": "team-player/d52d3b57-4731-42c7-9102-93e439443c86",
+              "name": "Peter Dannberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/65969a1b-219a-478b-a33b-acfa7e4aa980",
               "players": [
                 {
+                  "playerId": "team-player/3a66211a-effe-421b-a61c-f8bec2c05301",
                   "name": "Marie Bengtsson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d52d3b57-4731-42c7-9102-93e439443c86",
                   "name": "Peter Dannberg",
                   "score": "7"
                 }
@@ -91,17 +161,26 @@
         },
         {
           "players": [
-            "Gunilla Gustafsson",
-            "Astrid Nilsson"
+            {
+              "playerId": "team-player/63e73bcc-f91a-43d8-9270-0338ba027ec5",
+              "name": "Gunilla Gustafsson"
+            },
+            {
+              "playerId": "team-player/a71c6c16-f059-4eb2-9b71-14aa2f3cc26f",
+              "name": "Astrid Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5d3a8b2b-9a1d-4c44-bb86-18ffcc062f8c",
               "players": [
                 {
+                  "playerId": "team-player/63e73bcc-f91a-43d8-9270-0338ba027ec5",
                   "name": "Gunilla Gustafsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a71c6c16-f059-4eb2-9b71-14aa2f3cc26f",
                   "name": "Astrid Nilsson",
                   "score": "6"
                 }
@@ -113,17 +192,26 @@
         },
         {
           "players": [
-            "Bill Gustafsson",
-            "Kari Nikkarikoski"
+            {
+              "playerId": "team-player/b8e2fe53-b913-4e59-a517-53fe79682e46",
+              "name": "Bill Gustafsson"
+            },
+            {
+              "playerId": "team-player/8f60240e-c634-454d-b615-38cdf06e4d07",
+              "name": "Kari Nikkarikoski"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49812444-e40c-47d0-ad46-c6a688814098",
               "players": [
                 {
+                  "playerId": "team-player/b8e2fe53-b913-4e59-a517-53fe79682e46",
                   "name": "Bill Gustafsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8f60240e-c634-454d-b615-38cdf06e4d07",
                   "name": "Kari Nikkarikoski",
                   "score": "2"
                 }
@@ -135,17 +223,26 @@
         },
         {
           "players": [
-            "Lars Olsson",
-            "Peter Dannberg"
+            {
+              "playerId": "team-player/843f12d7-0324-42ab-b9fa-ab8267e86be4",
+              "name": "Lars Olsson"
+            },
+            {
+              "playerId": "team-player/d52d3b57-4731-42c7-9102-93e439443c86",
+              "name": "Peter Dannberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a3c605df-9d34-41c7-8311-713666222ba9",
               "players": [
                 {
+                  "playerId": "team-player/843f12d7-0324-42ab-b9fa-ab8267e86be4",
                   "name": "Lars Olsson",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/d52d3b57-4731-42c7-9102-93e439443c86",
                   "name": "Peter Dannberg",
                   "score": "7"
                 }
@@ -157,17 +254,26 @@
         },
         {
           "players": [
-            "Marie Bengtsson",
-            "Astrid Nilsson"
+            {
+              "playerId": "team-player/3a66211a-effe-421b-a61c-f8bec2c05301",
+              "name": "Marie Bengtsson"
+            },
+            {
+              "playerId": "team-player/a71c6c16-f059-4eb2-9b71-14aa2f3cc26f",
+              "name": "Astrid Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dc70a02a-f5f3-43cb-bd9f-d71e73b7e619",
               "players": [
                 {
+                  "playerId": "team-player/3a66211a-effe-421b-a61c-f8bec2c05301",
                   "name": "Marie Bengtsson",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/a71c6c16-f059-4eb2-9b71-14aa2f3cc26f",
                   "name": "Astrid Nilsson",
                   "score": "7"
                 }
@@ -179,17 +285,26 @@
         },
         {
           "players": [
-            "Gunilla Gustafsson",
-            "Kari Nikkarikoski"
+            {
+              "playerId": "team-player/63e73bcc-f91a-43d8-9270-0338ba027ec5",
+              "name": "Gunilla Gustafsson"
+            },
+            {
+              "playerId": "team-player/8f60240e-c634-454d-b615-38cdf06e4d07",
+              "name": "Kari Nikkarikoski"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e0a46244-4661-42bf-b5dc-39bf25b9c182",
               "players": [
                 {
+                  "playerId": "team-player/63e73bcc-f91a-43d8-9270-0338ba027ec5",
                   "name": "Gunilla Gustafsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8f60240e-c634-454d-b615-38cdf06e4d07",
                   "name": "Kari Nikkarikoski",
                   "score": "3"
                 }
@@ -201,17 +316,26 @@
         },
         {
           "players": [
-            "Bill Gustafsson",
-            "Christina Bran Dannberg"
+            {
+              "playerId": "team-player/b8e2fe53-b913-4e59-a517-53fe79682e46",
+              "name": "Bill Gustafsson"
+            },
+            {
+              "playerId": "team-player/e27aa740-8262-49aa-9f98-e71f9485def6",
+              "name": "Christina Bran Dannberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bef5ab4e-97db-43db-99ac-ae2c99a762d7",
               "players": [
                 {
+                  "playerId": "team-player/b8e2fe53-b913-4e59-a517-53fe79682e46",
                   "name": "Bill Gustafsson",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/e27aa740-8262-49aa-9f98-e71f9485def6",
                   "name": "Christina Bran Dannberg",
                   "score": "7"
                 }
@@ -223,17 +347,26 @@
         },
         {
           "players": [
-            "Lars Olsson",
-            "Astrid Nilsson"
+            {
+              "playerId": "team-player/843f12d7-0324-42ab-b9fa-ab8267e86be4",
+              "name": "Lars Olsson"
+            },
+            {
+              "playerId": "team-player/a71c6c16-f059-4eb2-9b71-14aa2f3cc26f",
+              "name": "Astrid Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a6dab546-55c8-46ae-a17a-030f373ac1cf",
               "players": [
                 {
+                  "playerId": "team-player/843f12d7-0324-42ab-b9fa-ab8267e86be4",
                   "name": "Lars Olsson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/a71c6c16-f059-4eb2-9b71-14aa2f3cc26f",
                   "name": "Astrid Nilsson",
                   "score": "7"
                 }
@@ -245,17 +378,26 @@
         },
         {
           "players": [
-            "Marie Bengtsson",
-            "Kari Nikkarikoski"
+            {
+              "playerId": "team-player/3a66211a-effe-421b-a61c-f8bec2c05301",
+              "name": "Marie Bengtsson"
+            },
+            {
+              "playerId": "team-player/8f60240e-c634-454d-b615-38cdf06e4d07",
+              "name": "Kari Nikkarikoski"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b2c6aa84-342c-4818-84a6-77781911b4eb",
               "players": [
                 {
+                  "playerId": "team-player/3a66211a-effe-421b-a61c-f8bec2c05301",
                   "name": "Marie Bengtsson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/8f60240e-c634-454d-b615-38cdf06e4d07",
                   "name": "Kari Nikkarikoski",
                   "score": "7"
                 }
@@ -267,17 +409,26 @@
         },
         {
           "players": [
-            "Gunilla Gustafsson",
-            "Christina Bran Dannberg"
+            {
+              "playerId": "team-player/63e73bcc-f91a-43d8-9270-0338ba027ec5",
+              "name": "Gunilla Gustafsson"
+            },
+            {
+              "playerId": "team-player/e27aa740-8262-49aa-9f98-e71f9485def6",
+              "name": "Christina Bran Dannberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/da447dad-216f-4a16-be7c-be4018680fb0",
               "players": [
                 {
+                  "playerId": "team-player/63e73bcc-f91a-43d8-9270-0338ba027ec5",
                   "name": "Gunilla Gustafsson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e27aa740-8262-49aa-9f98-e71f9485def6",
                   "name": "Christina Bran Dannberg",
                   "score": "7"
                 }
@@ -289,17 +440,26 @@
         },
         {
           "players": [
-            "Bill Gustafsson",
-            "Peter Dannberg"
+            {
+              "playerId": "team-player/b8e2fe53-b913-4e59-a517-53fe79682e46",
+              "name": "Bill Gustafsson"
+            },
+            {
+              "playerId": "team-player/d52d3b57-4731-42c7-9102-93e439443c86",
+              "name": "Peter Dannberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3b5f047a-7d65-4e67-ab54-532f70309b5e",
               "players": [
                 {
+                  "playerId": "team-player/b8e2fe53-b913-4e59-a517-53fe79682e46",
                   "name": "Bill Gustafsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d52d3b57-4731-42c7-9102-93e439443c86",
                   "name": "Peter Dannberg",
                   "score": "5"
                 }
@@ -311,17 +471,26 @@
         },
         {
           "players": [
-            "Lars Olsson",
-            "Kari Nikkarikoski"
+            {
+              "playerId": "team-player/843f12d7-0324-42ab-b9fa-ab8267e86be4",
+              "name": "Lars Olsson"
+            },
+            {
+              "playerId": "team-player/8f60240e-c634-454d-b615-38cdf06e4d07",
+              "name": "Kari Nikkarikoski"
+            }
           ],
           "games": [
             {
+              "gameId": "game/77a7ee3d-40c7-4d58-b86e-3a67d14cec73",
               "players": [
                 {
+                  "playerId": "team-player/843f12d7-0324-42ab-b9fa-ab8267e86be4",
                   "name": "Lars Olsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8f60240e-c634-454d-b615-38cdf06e4d07",
                   "name": "Kari Nikkarikoski",
                   "score": "4"
                 }
@@ -333,17 +502,26 @@
         },
         {
           "players": [
-            "Marie Bengtsson",
-            "Christina Bran Dannberg"
+            {
+              "playerId": "team-player/3a66211a-effe-421b-a61c-f8bec2c05301",
+              "name": "Marie Bengtsson"
+            },
+            {
+              "playerId": "team-player/e27aa740-8262-49aa-9f98-e71f9485def6",
+              "name": "Christina Bran Dannberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3ef4cb2b-8ae1-4869-91cb-7fba2a2615da",
               "players": [
                 {
+                  "playerId": "team-player/3a66211a-effe-421b-a61c-f8bec2c05301",
                   "name": "Marie Bengtsson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e27aa740-8262-49aa-9f98-e71f9485def6",
                   "name": "Christina Bran Dannberg",
                   "score": "7"
                 }
@@ -355,17 +533,26 @@
         },
         {
           "players": [
-            "Gunilla Gustafsson",
-            "Peter Dannberg"
+            {
+              "playerId": "team-player/63e73bcc-f91a-43d8-9270-0338ba027ec5",
+              "name": "Gunilla Gustafsson"
+            },
+            {
+              "playerId": "team-player/d52d3b57-4731-42c7-9102-93e439443c86",
+              "name": "Peter Dannberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/087cf5c9-33fc-4988-9320-48a435aa24de",
               "players": [
                 {
+                  "playerId": "team-player/63e73bcc-f91a-43d8-9270-0338ba027ec5",
                   "name": "Gunilla Gustafsson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d52d3b57-4731-42c7-9102-93e439443c86",
                   "name": "Peter Dannberg",
                   "score": "7"
                 }
@@ -377,17 +564,26 @@
         },
         {
           "players": [
-            "Bill Gustafsson",
-            "Astrid Nilsson"
+            {
+              "playerId": "team-player/b8e2fe53-b913-4e59-a517-53fe79682e46",
+              "name": "Bill Gustafsson"
+            },
+            {
+              "playerId": "team-player/a71c6c16-f059-4eb2-9b71-14aa2f3cc26f",
+              "name": "Astrid Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e53c955-114d-4620-aded-2eae3e12512a",
               "players": [
                 {
+                  "playerId": "team-player/b8e2fe53-b913-4e59-a517-53fe79682e46",
                   "name": "Bill Gustafsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a71c6c16-f059-4eb2-9b71-14aa2f3cc26f",
                   "name": "Astrid Nilsson",
                   "score": "6"
                 }
@@ -399,17 +595,26 @@
         },
         {
           "players": [
-            "Lars Olsson - Bill Gustafsson",
-            "Peter Dannberg - Kari Nikkarikoski"
+            {
+              "playerId": "team-player/6cf8a571-624d-441b-a541-3e499bad2009",
+              "name": "Lars Olsson - Bill Gustafsson"
+            },
+            {
+              "playerId": "team-player/e1a64612-c64c-4670-bca2-6f88ca3c37bc",
+              "name": "Peter Dannberg - Kari Nikkarikoski"
+            }
           ],
           "games": [
             {
+              "gameId": "game/56496265-00e6-419a-9d8f-9e5a2a4b348c",
               "players": [
                 {
+                  "playerId": "team-player/6cf8a571-624d-441b-a541-3e499bad2009",
                   "name": "Lars Olsson - Bill Gustafsson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e1a64612-c64c-4670-bca2-6f88ca3c37bc",
                   "name": "Peter Dannberg - Kari Nikkarikoski",
                   "score": "7"
                 }
@@ -421,17 +626,26 @@
         },
         {
           "players": [
-            "Marie Bengtsson - Gunilla Gustafsson",
-            "Christina Bran Dannberg - Astrid Nilsson"
+            {
+              "playerId": "team-player/0418334b-c3e1-4ecb-ac24-4dd060646391",
+              "name": "Marie Bengtsson - Gunilla Gustafsson"
+            },
+            {
+              "playerId": "team-player/efa4311c-980b-4e28-b9e8-9b806f5a7edf",
+              "name": "Christina Bran Dannberg - Astrid Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d0709c6e-9fdc-4664-b1ec-fc7d8485a1f0",
               "players": [
                 {
+                  "playerId": "team-player/0418334b-c3e1-4ecb-ac24-4dd060646391",
                   "name": "Marie Bengtsson - Gunilla Gustafsson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/efa4311c-980b-4e28-b9e8-9b806f5a7edf",
                   "name": "Christina Bran Dannberg - Astrid Nilsson",
                   "score": "7"
                 }
@@ -443,17 +657,26 @@
         },
         {
           "players": [
-            "Marie Bengtsson - Bengt-Arne Bengtsson",
-            "Christina Bran Dannberg - Peter Dannberg"
+            {
+              "playerId": "team-player/3defd16f-3826-4546-b634-021a409f4293",
+              "name": "Marie Bengtsson - Bengt-Arne Bengtsson"
+            },
+            {
+              "playerId": "team-player/14df01af-7c74-4e08-b03e-0d7097f0fbdb",
+              "name": "Christina Bran Dannberg - Peter Dannberg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4ede5bdf-cd6b-4200-a4c2-ea86569c3112",
               "players": [
                 {
+                  "playerId": "team-player/3defd16f-3826-4546-b634-021a409f4293",
                   "name": "Marie Bengtsson - Bengt-Arne Bengtsson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/14df01af-7c74-4e08-b03e-0d7097f0fbdb",
                   "name": "Christina Bran Dannberg - Peter Dannberg",
                   "score": "7"
                 }
@@ -465,17 +688,26 @@
         },
         {
           "players": [
-            "Bill Gustafsson - Gunilla Gustafsson",
-            "Astrid Nilsson - Kari Nikkarikoski"
+            {
+              "playerId": "team-player/69a6f505-8d7a-446e-8c0c-62e2523c9e55",
+              "name": "Bill Gustafsson - Gunilla Gustafsson"
+            },
+            {
+              "playerId": "team-player/c3d7e71c-29cc-438b-afc9-2894b5e1e58a",
+              "name": "Astrid Nilsson - Kari Nikkarikoski"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ab8b1479-9a6a-4fc3-91bf-c6c8762fa3f8",
               "players": [
                 {
+                  "playerId": "team-player/69a6f505-8d7a-446e-8c0c-62e2523c9e55",
                   "name": "Bill Gustafsson - Gunilla Gustafsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c3d7e71c-29cc-438b-afc9-2894b5e1e58a",
                   "name": "Astrid Nilsson - Kari Nikkarikoski",
                   "score": "2"
                 }

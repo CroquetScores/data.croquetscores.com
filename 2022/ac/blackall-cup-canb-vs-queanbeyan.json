@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/90b0ce8c-052e-4ac5-a2d0-2996a99f81d3",
   "name": "Blackall Cup - Canb vs Queanbeyan",
   "sport": "ac",
   "firstDay": "2022-03-27",
   "lastDay": "2022-05-01",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Canberra",
       "shortName": "Canberra",
       "players": [
-        "Denese McCann = AC 11",
-        "Helen Druett & Susie Linge = GC",
-        "Janelle Wilson = AC 16",
-        "Peter Dale = GC 8",
-        "Sue Forrest = GC 5"
+        {
+          "playerId": "team-player/f17864a0-58af-4a3c-b6e8-097d1be95221",
+          "name": "Denese McCann = AC 11"
+        },
+        {
+          "playerId": "team-player/b3fddfc2-21cc-4649-a0c2-908ce168fea1",
+          "name": "Helen Druett & Susie Linge = GC"
+        },
+        {
+          "playerId": "team-player/8823e7ba-e062-4247-bacc-17f605b552d7",
+          "name": "Janelle Wilson = AC 16"
+        },
+        {
+          "playerId": "team-player/d7ab2c0d-d287-471f-8e59-2f82d623bba7",
+          "name": "Peter Dale = GC 8"
+        },
+        {
+          "playerId": "team-player/927e4ead-f48f-44ed-bc36-1301ad410a77",
+          "name": "Sue Forrest = GC 5"
+        }
       ]
     },
     {
       "name": "Queanbeyan",
       "shortName": "Queanbeyan",
       "players": [
-        "Ann Clifton & Maggie Gerbich",
-        "Ann Clifton = GC 10",
-        "Janelle McGarva = AC",
-        "Linda Nickels = AC 9",
-        "Paul Gerbich = GC 10"
+        {
+          "playerId": "team-player/6aa81362-04e5-4766-a282-195fc991f31a",
+          "name": "Ann Clifton & Maggie Gerbich"
+        },
+        {
+          "playerId": "team-player/1edc30b5-aa35-449e-ab17-0c0abed314fb",
+          "name": "Ann Clifton = GC 10"
+        },
+        {
+          "playerId": "team-player/f2f1b12f-47af-4c4b-86e1-80548d0614c1",
+          "name": "Janelle McGarva = AC"
+        },
+        {
+          "playerId": "team-player/4b0bf6a8-b267-44dd-aa23-1299c8e0cca5",
+          "name": "Linda Nickels = AC 9"
+        },
+        {
+          "playerId": "team-player/8a2c0acb-3166-4d78-96f1-543804a74482",
+          "name": "Paul Gerbich = GC 10"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/ead902c5-219b-4a51-8a0e-81d20584b8eb",
       "teams": [
         "Canberra",
         "Queanbeyan"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Helen Druett & Susie Linge = GC",
-            "Ann Clifton & Maggie Gerbich"
+            {
+              "playerId": "team-player/b3fddfc2-21cc-4649-a0c2-908ce168fea1",
+              "name": "Helen Druett & Susie Linge = GC"
+            },
+            {
+              "playerId": "team-player/6aa81362-04e5-4766-a282-195fc991f31a",
+              "name": "Ann Clifton & Maggie Gerbich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8d527f4-8edc-4ba2-b317-a238a8fac622",
               "players": [
                 {
+                  "playerId": "team-player/b3fddfc2-21cc-4649-a0c2-908ce168fea1",
                   "name": "Helen Druett & Susie Linge = GC",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/6aa81362-04e5-4766-a282-195fc991f31a",
                   "name": "Ann Clifton & Maggie Gerbich",
                   "score": "7"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Denese McCann = AC 11",
-            "Linda Nickels = AC 9"
+            {
+              "playerId": "team-player/f17864a0-58af-4a3c-b6e8-097d1be95221",
+              "name": "Denese McCann = AC 11"
+            },
+            {
+              "playerId": "team-player/4b0bf6a8-b267-44dd-aa23-1299c8e0cca5",
+              "name": "Linda Nickels = AC 9"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d2a91d2-f3dd-432a-8f0e-3f24792b3336",
               "players": [
                 {
+                  "playerId": "team-player/f17864a0-58af-4a3c-b6e8-097d1be95221",
                   "name": "Denese McCann = AC 11",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/4b0bf6a8-b267-44dd-aa23-1299c8e0cca5",
                   "name": "Linda Nickels = AC 9",
                   "score": "24"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Janelle Wilson = AC 16",
-            "Janelle McGarva = AC"
+            {
+              "playerId": "team-player/8823e7ba-e062-4247-bacc-17f605b552d7",
+              "name": "Janelle Wilson = AC 16"
+            },
+            {
+              "playerId": "team-player/f2f1b12f-47af-4c4b-86e1-80548d0614c1",
+              "name": "Janelle McGarva = AC"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7692ee65-db40-44f3-bffb-120c102f1f3d",
               "players": [
                 {
+                  "playerId": "team-player/8823e7ba-e062-4247-bacc-17f605b552d7",
                   "name": "Janelle Wilson = AC 16",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/f2f1b12f-47af-4c4b-86e1-80548d0614c1",
                   "name": "Janelle McGarva = AC",
                   "score": "10"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Peter Dale = GC 8",
-            "Paul Gerbich = GC 10"
+            {
+              "playerId": "team-player/d7ab2c0d-d287-471f-8e59-2f82d623bba7",
+              "name": "Peter Dale = GC 8"
+            },
+            {
+              "playerId": "team-player/8a2c0acb-3166-4d78-96f1-543804a74482",
+              "name": "Paul Gerbich = GC 10"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aa30b8f6-9c3c-4e35-a95b-fc0fc8c41c9c",
               "players": [
                 {
+                  "playerId": "team-player/d7ab2c0d-d287-471f-8e59-2f82d623bba7",
                   "name": "Peter Dale = GC 8",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/8a2c0acb-3166-4d78-96f1-543804a74482",
                   "name": "Paul Gerbich = GC 10",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Sue Forrest = GC 5",
-            "Ann Clifton = GC 10"
+            {
+              "playerId": "team-player/927e4ead-f48f-44ed-bc36-1301ad410a77",
+              "name": "Sue Forrest = GC 5"
+            },
+            {
+              "playerId": "team-player/1edc30b5-aa35-449e-ab17-0c0abed314fb",
+              "name": "Ann Clifton = GC 10"
+            }
           ],
           "games": [
             {
+              "gameId": "game/da2f63ba-6ab3-41da-b816-ee8a895d939e",
               "players": [
                 {
+                  "playerId": "team-player/927e4ead-f48f-44ed-bc36-1301ad410a77",
                   "name": "Sue Forrest = GC 5",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1edc30b5-aa35-449e-ab17-0c0abed314fb",
                   "name": "Ann Clifton = GC 10",
                   "score": "6"
                 }
@@ -152,6 +231,7 @@
       ]
     },
     {
+      "competitionId": "competition/558b6fc9-5615-42cd-83e8-f1346d8a50e4",
       "teams": [
         "Queanbeyan",
         "Canberra"

@@ -1,51 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0037a2c6-d65d-478c-a940-0a9f65c784d1",
   "name": "Fyrslaget 2023",
   "sport": "gc",
   "firstDay": "2023-09-23",
   "lastDay": "2023-09-23",
   "country": "se",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Team Kamne",
       "shortName": "Team Kamne",
       "players": [
-        "Bjorn Kamne",
-        "Bjorn Kamne / Ivar Rasmussen",
-        "Ivar Rasmussen"
+        {
+          "playerId": "team-player/1e5ca1e2-516f-404f-88ec-ab7efb67fa51",
+          "name": "Bjorn Kamne"
+        },
+        {
+          "playerId": "team-player/4b8ffcc3-f321-408c-ad9a-5491ffce4852",
+          "name": "Bjorn Kamne / Ivar Rasmussen"
+        },
+        {
+          "playerId": "team-player/a4dfc5df-eb4f-49ec-bc80-061ae26b5e54",
+          "name": "Ivar Rasmussen"
+        }
       ]
     },
     {
       "name": "Team Melin",
       "shortName": "Team Melin",
       "players": [
-        "Hans Melin",
-        "Hans Melin / Lars-Inge Nilsson",
-        "Lars-Inge Nilsson"
+        {
+          "playerId": "team-player/b15a0b78-63e5-4032-bb03-2b9e4322442a",
+          "name": "Hans Melin"
+        },
+        {
+          "playerId": "team-player/8e306a4a-406a-4a32-8630-210d957c2f65",
+          "name": "Hans Melin / Lars-Inge Nilsson"
+        },
+        {
+          "playerId": "team-player/0e886e7e-9dfe-40b1-a045-cef0b56bbffe",
+          "name": "Lars-Inge Nilsson"
+        }
       ]
     },
     {
       "name": "Team Larsson",
       "shortName": "Team Larss",
       "players": [
-        "Jorgen Larsson",
-        "Jorgen Larsson / Peter Groenborg",
-        "Peter Groenborg"
+        {
+          "playerId": "team-player/9173b7bd-0b6d-4dd3-865b-caaaaef65dc6",
+          "name": "Jorgen Larsson"
+        },
+        {
+          "playerId": "team-player/bfe2e064-a4bf-4b2f-8be4-65fd76398926",
+          "name": "Jorgen Larsson / Peter Groenborg"
+        },
+        {
+          "playerId": "team-player/396fe7ac-f7bd-47f4-811d-f1ee1e70cd4a",
+          "name": "Peter Groenborg"
+        }
       ]
     },
     {
       "name": "Team Johansson",
       "shortName": "Team Johan",
       "players": [
-        "Fredrik Hylander",
-        "Thomas Johansson",
-        "Thomas Johansson / Fredrik Hylander"
+        {
+          "playerId": "team-player/6a7e15e9-2df5-4e1e-9f52-dde6a66d002d",
+          "name": "Fredrik Hylander"
+        },
+        {
+          "playerId": "team-player/d6a11c66-b8ef-4560-86d8-f2b49d984600",
+          "name": "Thomas Johansson"
+        },
+        {
+          "playerId": "team-player/02fbcb0b-2a00-42f7-bf6d-768f020f44cb",
+          "name": "Thomas Johansson / Fredrik Hylander"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/5aa8a576-3143-4e21-bfe6-e1f734f7b1ab",
       "teams": [
         "Team Kamne",
         "Team Melin"
@@ -55,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Ivar Rasmussen",
-            "Lars-Inge Nilsson"
+            {
+              "playerId": "team-player/a4dfc5df-eb4f-49ec-bc80-061ae26b5e54",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/0e886e7e-9dfe-40b1-a045-cef0b56bbffe",
+              "name": "Lars-Inge Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/607cc089-c34e-4862-ad2b-7a270feaaeac",
               "players": [
                 {
+                  "playerId": "team-player/a4dfc5df-eb4f-49ec-bc80-061ae26b5e54",
                   "name": "Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0e886e7e-9dfe-40b1-a045-cef0b56bbffe",
                   "name": "Lars-Inge Nilsson",
                   "score": "2"
                 }
@@ -77,17 +126,26 @@
         },
         {
           "players": [
-            "Bjorn Kamne",
-            "Hans Melin"
+            {
+              "playerId": "team-player/1e5ca1e2-516f-404f-88ec-ab7efb67fa51",
+              "name": "Bjorn Kamne"
+            },
+            {
+              "playerId": "team-player/b15a0b78-63e5-4032-bb03-2b9e4322442a",
+              "name": "Hans Melin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/abc092c0-b5c3-4850-9111-7edefec5b73c",
               "players": [
                 {
+                  "playerId": "team-player/1e5ca1e2-516f-404f-88ec-ab7efb67fa51",
                   "name": "Bjorn Kamne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b15a0b78-63e5-4032-bb03-2b9e4322442a",
                   "name": "Hans Melin",
                   "score": "1"
                 }
@@ -99,17 +157,26 @@
         },
         {
           "players": [
-            "Bjorn Kamne / Ivar Rasmussen",
-            "Hans Melin / Lars-Inge Nilsson"
+            {
+              "playerId": "team-player/4b8ffcc3-f321-408c-ad9a-5491ffce4852",
+              "name": "Bjorn Kamne / Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/8e306a4a-406a-4a32-8630-210d957c2f65",
+              "name": "Hans Melin / Lars-Inge Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/952db61d-98cc-4d66-aa12-9d3272ff370d",
               "players": [
                 {
+                  "playerId": "team-player/4b8ffcc3-f321-408c-ad9a-5491ffce4852",
                   "name": "Bjorn Kamne / Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e306a4a-406a-4a32-8630-210d957c2f65",
                   "name": "Hans Melin / Lars-Inge Nilsson",
                   "score": "3"
                 }
@@ -121,17 +188,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Hans Melin"
+            {
+              "playerId": "team-player/a4dfc5df-eb4f-49ec-bc80-061ae26b5e54",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/b15a0b78-63e5-4032-bb03-2b9e4322442a",
+              "name": "Hans Melin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a29c02c0-693e-467f-98bb-44481cdd87c3",
               "players": [
                 {
+                  "playerId": "team-player/a4dfc5df-eb4f-49ec-bc80-061ae26b5e54",
                   "name": "Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b15a0b78-63e5-4032-bb03-2b9e4322442a",
                   "name": "Hans Melin",
                   "score": "2"
                 }
@@ -143,17 +219,26 @@
         },
         {
           "players": [
-            "Bjorn Kamne",
-            "Lars-Inge Nilsson"
+            {
+              "playerId": "team-player/1e5ca1e2-516f-404f-88ec-ab7efb67fa51",
+              "name": "Bjorn Kamne"
+            },
+            {
+              "playerId": "team-player/0e886e7e-9dfe-40b1-a045-cef0b56bbffe",
+              "name": "Lars-Inge Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f4e1722-f7f2-4249-adad-7a8654cb71d0",
               "players": [
                 {
+                  "playerId": "team-player/1e5ca1e2-516f-404f-88ec-ab7efb67fa51",
                   "name": "Bjorn Kamne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0e886e7e-9dfe-40b1-a045-cef0b56bbffe",
                   "name": "Lars-Inge Nilsson",
                   "score": "0"
                 }
@@ -166,6 +251,7 @@
       ]
     },
     {
+      "competitionId": "competition/10092b13-4a60-4ced-aabc-4efd03eb5915",
       "teams": [
         "Team Larsson",
         "Team Johansson"
@@ -175,17 +261,26 @@
       "matches": [
         {
           "players": [
-            "Jorgen Larsson",
-            "Fredrik Hylander"
+            {
+              "playerId": "team-player/9173b7bd-0b6d-4dd3-865b-caaaaef65dc6",
+              "name": "Jorgen Larsson"
+            },
+            {
+              "playerId": "team-player/6a7e15e9-2df5-4e1e-9f52-dde6a66d002d",
+              "name": "Fredrik Hylander"
+            }
           ],
           "games": [
             {
+              "gameId": "game/86b09bc9-6134-433c-80d3-f5b9dd726fbf",
               "players": [
                 {
+                  "playerId": "team-player/9173b7bd-0b6d-4dd3-865b-caaaaef65dc6",
                   "name": "Jorgen Larsson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6a7e15e9-2df5-4e1e-9f52-dde6a66d002d",
                   "name": "Fredrik Hylander",
                   "score": "6"
                 }
@@ -197,17 +292,26 @@
         },
         {
           "players": [
-            "Peter Groenborg",
-            "Thomas Johansson"
+            {
+              "playerId": "team-player/396fe7ac-f7bd-47f4-811d-f1ee1e70cd4a",
+              "name": "Peter Groenborg"
+            },
+            {
+              "playerId": "team-player/d6a11c66-b8ef-4560-86d8-f2b49d984600",
+              "name": "Thomas Johansson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/154f3242-5c7d-4ff2-b85e-a459191e4667",
               "players": [
                 {
+                  "playerId": "team-player/396fe7ac-f7bd-47f4-811d-f1ee1e70cd4a",
                   "name": "Peter Groenborg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d6a11c66-b8ef-4560-86d8-f2b49d984600",
                   "name": "Thomas Johansson",
                   "score": "5"
                 }
@@ -219,17 +323,26 @@
         },
         {
           "players": [
-            "Jorgen Larsson / Peter Groenborg",
-            "Thomas Johansson / Fredrik Hylander"
+            {
+              "playerId": "team-player/bfe2e064-a4bf-4b2f-8be4-65fd76398926",
+              "name": "Jorgen Larsson / Peter Groenborg"
+            },
+            {
+              "playerId": "team-player/02fbcb0b-2a00-42f7-bf6d-768f020f44cb",
+              "name": "Thomas Johansson / Fredrik Hylander"
+            }
           ],
           "games": [
             {
+              "gameId": "game/306f814d-d921-404c-bbd4-185ab860807b",
               "players": [
                 {
+                  "playerId": "team-player/bfe2e064-a4bf-4b2f-8be4-65fd76398926",
                   "name": "Jorgen Larsson / Peter Groenborg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/02fbcb0b-2a00-42f7-bf6d-768f020f44cb",
                   "name": "Thomas Johansson / Fredrik Hylander",
                   "score": "5"
                 }
@@ -241,17 +354,26 @@
         },
         {
           "players": [
-            "Peter Groenborg",
-            "Fredrik Hylander"
+            {
+              "playerId": "team-player/396fe7ac-f7bd-47f4-811d-f1ee1e70cd4a",
+              "name": "Peter Groenborg"
+            },
+            {
+              "playerId": "team-player/6a7e15e9-2df5-4e1e-9f52-dde6a66d002d",
+              "name": "Fredrik Hylander"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1c74aedf-0968-434c-9959-03f5c01535ac",
               "players": [
                 {
+                  "playerId": "team-player/396fe7ac-f7bd-47f4-811d-f1ee1e70cd4a",
                   "name": "Peter Groenborg",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/6a7e15e9-2df5-4e1e-9f52-dde6a66d002d",
                   "name": "Fredrik Hylander",
                   "score": "7"
                 }
@@ -263,17 +385,26 @@
         },
         {
           "players": [
-            "Jorgen Larsson",
-            "Thomas Johansson"
+            {
+              "playerId": "team-player/9173b7bd-0b6d-4dd3-865b-caaaaef65dc6",
+              "name": "Jorgen Larsson"
+            },
+            {
+              "playerId": "team-player/d6a11c66-b8ef-4560-86d8-f2b49d984600",
+              "name": "Thomas Johansson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a09ea2a7-9000-4cad-afa9-ccc2f870dc9d",
               "players": [
                 {
+                  "playerId": "team-player/9173b7bd-0b6d-4dd3-865b-caaaaef65dc6",
                   "name": "Jorgen Larsson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d6a11c66-b8ef-4560-86d8-f2b49d984600",
                   "name": "Thomas Johansson",
                   "score": "7"
                 }
@@ -286,6 +417,7 @@
       ]
     },
     {
+      "competitionId": "competition/5c425a59-5016-4134-9582-f03b915df1f7",
       "teams": [
         "Team Johansson",
         "Team Melin"
@@ -295,17 +427,26 @@
       "matches": [
         {
           "players": [
-            "Fredrik Hylander",
-            "Lars-Inge Nilsson"
+            {
+              "playerId": "team-player/6a7e15e9-2df5-4e1e-9f52-dde6a66d002d",
+              "name": "Fredrik Hylander"
+            },
+            {
+              "playerId": "team-player/0e886e7e-9dfe-40b1-a045-cef0b56bbffe",
+              "name": "Lars-Inge Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/527d6f51-f47d-499f-a7da-4f06db44e428",
               "players": [
                 {
+                  "playerId": "team-player/6a7e15e9-2df5-4e1e-9f52-dde6a66d002d",
                   "name": "Fredrik Hylander",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0e886e7e-9dfe-40b1-a045-cef0b56bbffe",
                   "name": "Lars-Inge Nilsson",
                   "score": "5"
                 }
@@ -317,17 +458,26 @@
         },
         {
           "players": [
-            "Thomas Johansson",
-            "Hans Melin"
+            {
+              "playerId": "team-player/d6a11c66-b8ef-4560-86d8-f2b49d984600",
+              "name": "Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/b15a0b78-63e5-4032-bb03-2b9e4322442a",
+              "name": "Hans Melin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0907430c-be0d-4281-8131-76422cc9435a",
               "players": [
                 {
+                  "playerId": "team-player/d6a11c66-b8ef-4560-86d8-f2b49d984600",
                   "name": "Thomas Johansson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b15a0b78-63e5-4032-bb03-2b9e4322442a",
                   "name": "Hans Melin",
                   "score": "3"
                 }
@@ -339,17 +489,26 @@
         },
         {
           "players": [
-            "Thomas Johansson / Fredrik Hylander",
-            "Hans Melin / Lars-Inge Nilsson"
+            {
+              "playerId": "team-player/02fbcb0b-2a00-42f7-bf6d-768f020f44cb",
+              "name": "Thomas Johansson / Fredrik Hylander"
+            },
+            {
+              "playerId": "team-player/8e306a4a-406a-4a32-8630-210d957c2f65",
+              "name": "Hans Melin / Lars-Inge Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/50a8ea22-7ec6-46d5-b168-bee325fb7ae2",
               "players": [
                 {
+                  "playerId": "team-player/02fbcb0b-2a00-42f7-bf6d-768f020f44cb",
                   "name": "Thomas Johansson / Fredrik Hylander",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8e306a4a-406a-4a32-8630-210d957c2f65",
                   "name": "Hans Melin / Lars-Inge Nilsson",
                   "score": "3"
                 }
@@ -361,17 +520,26 @@
         },
         {
           "players": [
-            "Thomas Johansson",
-            "Lars-Inge Nilsson"
+            {
+              "playerId": "team-player/d6a11c66-b8ef-4560-86d8-f2b49d984600",
+              "name": "Thomas Johansson"
+            },
+            {
+              "playerId": "team-player/0e886e7e-9dfe-40b1-a045-cef0b56bbffe",
+              "name": "Lars-Inge Nilsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49716d93-43b4-4832-a194-62cdf1d227ba",
               "players": [
                 {
+                  "playerId": "team-player/d6a11c66-b8ef-4560-86d8-f2b49d984600",
                   "name": "Thomas Johansson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0e886e7e-9dfe-40b1-a045-cef0b56bbffe",
                   "name": "Lars-Inge Nilsson",
                   "score": "4"
                 }
@@ -383,17 +551,26 @@
         },
         {
           "players": [
-            "Fredrik Hylander",
-            "Hans Melin"
+            {
+              "playerId": "team-player/6a7e15e9-2df5-4e1e-9f52-dde6a66d002d",
+              "name": "Fredrik Hylander"
+            },
+            {
+              "playerId": "team-player/b15a0b78-63e5-4032-bb03-2b9e4322442a",
+              "name": "Hans Melin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f57f94dc-1a39-46f8-b8e4-4380c22656ec",
               "players": [
                 {
+                  "playerId": "team-player/6a7e15e9-2df5-4e1e-9f52-dde6a66d002d",
                   "name": "Fredrik Hylander",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b15a0b78-63e5-4032-bb03-2b9e4322442a",
                   "name": "Hans Melin",
                   "score": "5"
                 }
@@ -406,6 +583,7 @@
       ]
     },
     {
+      "competitionId": "competition/b089aab2-4cca-452d-b950-1bb6a557db54",
       "teams": [
         "Team Kamne",
         "Team Larsson"
@@ -415,17 +593,26 @@
       "matches": [
         {
           "players": [
-            "Bjorn Kamne",
-            "Peter Groenborg"
+            {
+              "playerId": "team-player/1e5ca1e2-516f-404f-88ec-ab7efb67fa51",
+              "name": "Bjorn Kamne"
+            },
+            {
+              "playerId": "team-player/396fe7ac-f7bd-47f4-811d-f1ee1e70cd4a",
+              "name": "Peter Groenborg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b683d58-9382-44f1-a18c-8ba9674b3e54",
               "players": [
                 {
+                  "playerId": "team-player/1e5ca1e2-516f-404f-88ec-ab7efb67fa51",
                   "name": "Bjorn Kamne",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/396fe7ac-f7bd-47f4-811d-f1ee1e70cd4a",
                   "name": "Peter Groenborg",
                   "score": "7"
                 }
@@ -437,17 +624,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Jorgen Larsson"
+            {
+              "playerId": "team-player/a4dfc5df-eb4f-49ec-bc80-061ae26b5e54",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/9173b7bd-0b6d-4dd3-865b-caaaaef65dc6",
+              "name": "Jorgen Larsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/719ae0d8-d4c9-4be7-b889-de1783e988dc",
               "players": [
                 {
+                  "playerId": "team-player/a4dfc5df-eb4f-49ec-bc80-061ae26b5e54",
                   "name": "Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9173b7bd-0b6d-4dd3-865b-caaaaef65dc6",
                   "name": "Jorgen Larsson",
                   "score": "4"
                 }
@@ -459,17 +655,26 @@
         },
         {
           "players": [
-            "Bjorn Kamne / Ivar Rasmussen",
-            "Jorgen Larsson / Peter Groenborg"
+            {
+              "playerId": "team-player/4b8ffcc3-f321-408c-ad9a-5491ffce4852",
+              "name": "Bjorn Kamne / Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/bfe2e064-a4bf-4b2f-8be4-65fd76398926",
+              "name": "Jorgen Larsson / Peter Groenborg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2d3fdc54-2763-4d4b-886d-ecf667c4c07b",
               "players": [
                 {
+                  "playerId": "team-player/4b8ffcc3-f321-408c-ad9a-5491ffce4852",
                   "name": "Bjorn Kamne / Ivar Rasmussen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bfe2e064-a4bf-4b2f-8be4-65fd76398926",
                   "name": "Jorgen Larsson / Peter Groenborg",
                   "score": "4"
                 }
@@ -481,17 +686,26 @@
         },
         {
           "players": [
-            "Bjorn Kamne",
-            "Jorgen Larsson"
+            {
+              "playerId": "team-player/1e5ca1e2-516f-404f-88ec-ab7efb67fa51",
+              "name": "Bjorn Kamne"
+            },
+            {
+              "playerId": "team-player/9173b7bd-0b6d-4dd3-865b-caaaaef65dc6",
+              "name": "Jorgen Larsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54a7ac29-8fc2-4df1-874e-46b59c1891c0",
               "players": [
                 {
+                  "playerId": "team-player/1e5ca1e2-516f-404f-88ec-ab7efb67fa51",
                   "name": "Bjorn Kamne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9173b7bd-0b6d-4dd3-865b-caaaaef65dc6",
                   "name": "Jorgen Larsson",
                   "score": "6"
                 }
@@ -503,17 +717,26 @@
         },
         {
           "players": [
-            "Ivar Rasmussen",
-            "Peter Groenborg"
+            {
+              "playerId": "team-player/a4dfc5df-eb4f-49ec-bc80-061ae26b5e54",
+              "name": "Ivar Rasmussen"
+            },
+            {
+              "playerId": "team-player/396fe7ac-f7bd-47f4-811d-f1ee1e70cd4a",
+              "name": "Peter Groenborg"
+            }
           ],
           "games": [
             {
+              "gameId": "game/909fc9fb-7532-4199-b39b-d1edfa89a8b3",
               "players": [
                 {
+                  "playerId": "team-player/a4dfc5df-eb4f-49ec-bc80-061ae26b5e54",
                   "name": "Ivar Rasmussen",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/396fe7ac-f7bd-47f4-811d-f1ee1e70cd4a",
                   "name": "Peter Groenborg",
                   "score": "7"
                 }

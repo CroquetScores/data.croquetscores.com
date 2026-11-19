@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/d14d2fb7-9663-407c-817b-e00d7ad91a38",
   "name": "League Match of the Century",
   "sport": "ac",
   "firstDay": "2017-07-15",
   "lastDay": "2017-07-15",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "David Goacher",
-        "David Goacher & Ed Duckworth",
-        "Ed Duckworth",
-        "Richard M Smith",
-        "Robert Wilkinson"
+        {
+          "playerId": "team-player/bb5fbee1-b0e7-4c65-9b74-8cf39e9a823a",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/7c00e627-2228-4dde-adf3-326bd79e0840",
+          "name": "David Goacher & Ed Duckworth"
+        },
+        {
+          "playerId": "team-player/5729dc70-f44e-4840-98f2-5153ed3e798d",
+          "name": "Ed Duckworth"
+        },
+        {
+          "playerId": "team-player/cdb8e228-5fff-4c14-9e51-c92ac837a9f8",
+          "name": "Richard M Smith"
+        },
+        {
+          "playerId": "team-player/14fdfdc3-bb8e-444a-ac05-ecafb05a4976",
+          "name": "Robert Wilkinson"
+        }
       ]
     },
     {
       "name": "Nailsea",
       "shortName": "Nailsea",
       "players": [
-        "Geoff Hughes",
-        "Kristian Chambers",
-        "Kristian Chambers & Geoff Hughes",
-        "Marcus Evans",
-        "Mark Suter"
+        {
+          "playerId": "team-player/48bfc0e7-baca-4d03-8ece-46ca4c7d9be3",
+          "name": "Geoff Hughes"
+        },
+        {
+          "playerId": "team-player/9d17c6e2-89af-43fa-b2be-795baeaa1159",
+          "name": "Kristian Chambers"
+        },
+        {
+          "playerId": "team-player/ffa4247d-ea3c-4f94-918e-b60ed19d6708",
+          "name": "Kristian Chambers & Geoff Hughes"
+        },
+        {
+          "playerId": "team-player/419810bc-11bc-4a48-b613-430285bc242a",
+          "name": "Marcus Evans"
+        },
+        {
+          "playerId": "team-player/af6d56dd-5ca9-4753-b0f7-d29ec490481e",
+          "name": "Mark Suter"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/abb255c5-06fd-4822-99f8-f7ae0a9206c9",
       "teams": [
         "Bristol",
         "Nailsea"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Robert Wilkinson",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/14fdfdc3-bb8e-444a-ac05-ecafb05a4976",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/419810bc-11bc-4a48-b613-430285bc242a",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05e646ac-156a-4c59-a040-ff991f377820",
               "players": [
                 {
+                  "playerId": "team-player/14fdfdc3-bb8e-444a-ac05-ecafb05a4976",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/419810bc-11bc-4a48-b613-430285bc242a",
                   "name": "Marcus Evans",
                   "score": "4"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Mark Suter"
+            {
+              "playerId": "team-player/cdb8e228-5fff-4c14-9e51-c92ac837a9f8",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/af6d56dd-5ca9-4753-b0f7-d29ec490481e",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f3c91282-d786-46d4-b86c-7320767892d1",
               "players": [
                 {
+                  "playerId": "team-player/cdb8e228-5fff-4c14-9e51-c92ac837a9f8",
                   "name": "Richard M Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/af6d56dd-5ca9-4753-b0f7-d29ec490481e",
                   "name": "Mark Suter",
                   "score": "21"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "David Goacher & Ed Duckworth",
-            "Kristian Chambers & Geoff Hughes"
+            {
+              "playerId": "team-player/7c00e627-2228-4dde-adf3-326bd79e0840",
+              "name": "David Goacher & Ed Duckworth"
+            },
+            {
+              "playerId": "team-player/ffa4247d-ea3c-4f94-918e-b60ed19d6708",
+              "name": "Kristian Chambers & Geoff Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6293a14e-d215-40ea-a8a1-5520efe0672f",
               "players": [
                 {
+                  "playerId": "team-player/7c00e627-2228-4dde-adf3-326bd79e0840",
                   "name": "David Goacher & Ed Duckworth",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/ffa4247d-ea3c-4f94-918e-b60ed19d6708",
                   "name": "Kristian Chambers & Geoff Hughes",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson",
-            "Geoff Hughes"
+            {
+              "playerId": "team-player/14fdfdc3-bb8e-444a-ac05-ecafb05a4976",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/48bfc0e7-baca-4d03-8ece-46ca4c7d9be3",
+              "name": "Geoff Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ab2c4b17-0e89-4ecb-84e9-523b634e8ada",
               "players": [
                 {
+                  "playerId": "team-player/14fdfdc3-bb8e-444a-ac05-ecafb05a4976",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/48bfc0e7-baca-4d03-8ece-46ca4c7d9be3",
                   "name": "Geoff Hughes",
                   "score": "0"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Ed Duckworth",
-            "Mark Suter"
+            {
+              "playerId": "team-player/5729dc70-f44e-4840-98f2-5153ed3e798d",
+              "name": "Ed Duckworth"
+            },
+            {
+              "playerId": "team-player/af6d56dd-5ca9-4753-b0f7-d29ec490481e",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/90e96214-bae5-4c1c-898f-eb2d8d66fb24",
               "players": [
                 {
+                  "playerId": "team-player/5729dc70-f44e-4840-98f2-5153ed3e798d",
                   "name": "Ed Duckworth",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/af6d56dd-5ca9-4753-b0f7-d29ec490481e",
                   "name": "Mark Suter",
                   "score": "8"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/bb5fbee1-b0e7-4c65-9b74-8cf39e9a823a",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/419810bc-11bc-4a48-b613-430285bc242a",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e253273d-4273-4bc6-8683-19563612eae3",
               "players": [
                 {
+                  "playerId": "team-player/bb5fbee1-b0e7-4c65-9b74-8cf39e9a823a",
                   "name": "David Goacher",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/419810bc-11bc-4a48-b613-430285bc242a",
                   "name": "Marcus Evans",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Kristian Chambers"
+            {
+              "playerId": "team-player/cdb8e228-5fff-4c14-9e51-c92ac837a9f8",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/9d17c6e2-89af-43fa-b2be-795baeaa1159",
+              "name": "Kristian Chambers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3005df07-96d9-416b-91f6-c295a4ce8243",
               "players": [
                 {
+                  "playerId": "team-player/cdb8e228-5fff-4c14-9e51-c92ac837a9f8",
                   "name": "Richard M Smith",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/9d17c6e2-89af-43fa-b2be-795baeaa1159",
                   "name": "Kristian Chambers",
                   "score": "26"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Geoff Hughes"
+            {
+              "playerId": "team-player/cdb8e228-5fff-4c14-9e51-c92ac837a9f8",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/48bfc0e7-baca-4d03-8ece-46ca4c7d9be3",
+              "name": "Geoff Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35453306-4650-40f1-a60f-2059b453410c",
               "players": [
                 {
+                  "playerId": "team-player/cdb8e228-5fff-4c14-9e51-c92ac837a9f8",
                   "name": "Richard M Smith",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/48bfc0e7-baca-4d03-8ece-46ca4c7d9be3",
                   "name": "Geoff Hughes",
                   "score": "0"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Ed Duckworth",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/5729dc70-f44e-4840-98f2-5153ed3e798d",
+              "name": "Ed Duckworth"
+            },
+            {
+              "playerId": "team-player/419810bc-11bc-4a48-b613-430285bc242a",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6bcba294-846c-49ec-bf8b-fe71745e4906",
               "players": [
                 {
+                  "playerId": "team-player/5729dc70-f44e-4840-98f2-5153ed3e798d",
                   "name": "Ed Duckworth",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/419810bc-11bc-4a48-b613-430285bc242a",
                   "name": "Marcus Evans",
                   "score": "20tp"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson",
-            "Kristian Chambers"
+            {
+              "playerId": "team-player/14fdfdc3-bb8e-444a-ac05-ecafb05a4976",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/9d17c6e2-89af-43fa-b2be-795baeaa1159",
+              "name": "Kristian Chambers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a5281f96-2948-4157-b919-65e23591e91a",
               "players": [
                 {
+                  "playerId": "team-player/14fdfdc3-bb8e-444a-ac05-ecafb05a4976",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/9d17c6e2-89af-43fa-b2be-795baeaa1159",
                   "name": "Kristian Chambers",
                   "score": "18"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Mark Suter"
+            {
+              "playerId": "team-player/bb5fbee1-b0e7-4c65-9b74-8cf39e9a823a",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/af6d56dd-5ca9-4753-b0f7-d29ec490481e",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1ea50509-e7ba-4937-a745-0ed0e93fff5b",
               "players": [
                 {
+                  "playerId": "team-player/bb5fbee1-b0e7-4c65-9b74-8cf39e9a823a",
                   "name": "David Goacher",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/af6d56dd-5ca9-4753-b0f7-d29ec490481e",
                   "name": "Mark Suter",
                   "score": "26tp"
                 }

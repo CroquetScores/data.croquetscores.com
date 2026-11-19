@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/9b4a72d5-c860-4866-9e29-a428afce7d61",
   "name": "GC Murphy Inter-Club Shield Final",
   "sport": "gc",
   "firstDay": "2023-09-13",
   "lastDay": "2023-09-13",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "East Dorset",
       "shortName": "East Dorse",
       "players": [
-        "Andy Dochniak",
-        "Keith Southern",
-        "Keith Southern & Tim Hughes",
-        "Sandra Allan",
-        "Tim Hughes"
+        {
+          "playerId": "team-player/94da1529-c48c-4b19-956a-a407ce09a98e",
+          "name": "Andy Dochniak"
+        },
+        {
+          "playerId": "team-player/81972ed5-3e5f-4bbd-b6af-6fb9221716a5",
+          "name": "Keith Southern"
+        },
+        {
+          "playerId": "team-player/ecdfa963-7601-4835-a8a4-471cf41280e1",
+          "name": "Keith Southern & Tim Hughes"
+        },
+        {
+          "playerId": "team-player/015c4c8f-c12a-4011-8a9b-34ce484746ee",
+          "name": "Sandra Allan"
+        },
+        {
+          "playerId": "team-player/55d18bd4-afe8-4d05-9cbc-6aacffe3de2c",
+          "name": "Tim Hughes"
+        }
       ]
     },
     {
       "name": "Chester",
       "shortName": "Chester",
       "players": [
-        "Chris Thomas",
-        "Kerry Dadson",
-        "Mark Lloyd",
-        "Mark Lloyd & Sarah Clements",
-        "Sarah Clements"
+        {
+          "playerId": "team-player/0af7009f-d27d-4a38-a636-09eb2383d463",
+          "name": "Chris Thomas"
+        },
+        {
+          "playerId": "team-player/ff8da9a8-85ef-481b-afbb-1d7ec419e8a9",
+          "name": "Kerry Dadson"
+        },
+        {
+          "playerId": "team-player/7c132755-57b6-4f68-ad8c-153521a767dc",
+          "name": "Mark Lloyd"
+        },
+        {
+          "playerId": "team-player/9f5e6912-bf9d-471d-acfa-21eff742122d",
+          "name": "Mark Lloyd & Sarah Clements"
+        },
+        {
+          "playerId": "team-player/91ef7953-0116-406c-9763-67a440b327fc",
+          "name": "Sarah Clements"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/c4b0c1c1-1bbb-44cc-b530-fca935ca1dfc",
       "teams": [
         "East Dorset",
         "Chester"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Keith Southern & Tim Hughes",
-            "Mark Lloyd & Sarah Clements"
+            {
+              "playerId": "team-player/ecdfa963-7601-4835-a8a4-471cf41280e1",
+              "name": "Keith Southern & Tim Hughes"
+            },
+            {
+              "playerId": "team-player/9f5e6912-bf9d-471d-acfa-21eff742122d",
+              "name": "Mark Lloyd & Sarah Clements"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3b718083-2ef5-4251-a516-334616194b00",
               "players": [
                 {
+                  "playerId": "team-player/ecdfa963-7601-4835-a8a4-471cf41280e1",
                   "name": "Keith Southern & Tim Hughes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9f5e6912-bf9d-471d-acfa-21eff742122d",
                   "name": "Mark Lloyd & Sarah Clements",
                   "score": "5"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/51d6fba6-ee65-4061-963a-befccd7bdc8d",
               "players": [
                 {
+                  "playerId": "team-player/ecdfa963-7601-4835-a8a4-471cf41280e1",
                   "name": "Keith Southern & Tim Hughes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9f5e6912-bf9d-471d-acfa-21eff742122d",
                   "name": "Mark Lloyd & Sarah Clements",
                   "score": "5"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Sandra Allan",
-            "Kerry Dadson"
+            {
+              "playerId": "team-player/015c4c8f-c12a-4011-8a9b-34ce484746ee",
+              "name": "Sandra Allan"
+            },
+            {
+              "playerId": "team-player/ff8da9a8-85ef-481b-afbb-1d7ec419e8a9",
+              "name": "Kerry Dadson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/61b702a9-7984-4387-840f-ad5c06599c87",
               "players": [
                 {
+                  "playerId": "team-player/015c4c8f-c12a-4011-8a9b-34ce484746ee",
                   "name": "Sandra Allan",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ff8da9a8-85ef-481b-afbb-1d7ec419e8a9",
                   "name": "Kerry Dadson",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/eb73c5f2-a53e-4c46-94e0-9e864ac408c3",
               "players": [
                 {
+                  "playerId": "team-player/015c4c8f-c12a-4011-8a9b-34ce484746ee",
                   "name": "Sandra Allan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ff8da9a8-85ef-481b-afbb-1d7ec419e8a9",
                   "name": "Kerry Dadson",
                   "score": "3"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/64e438f3-139c-4b9e-8614-aa6be6da2280",
               "players": [
                 {
+                  "playerId": "team-player/015c4c8f-c12a-4011-8a9b-34ce484746ee",
                   "name": "Sandra Allan",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ff8da9a8-85ef-481b-afbb-1d7ec419e8a9",
                   "name": "Kerry Dadson",
                   "score": "7"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Andy Dochniak",
-            "Chris Thomas"
+            {
+              "playerId": "team-player/94da1529-c48c-4b19-956a-a407ce09a98e",
+              "name": "Andy Dochniak"
+            },
+            {
+              "playerId": "team-player/0af7009f-d27d-4a38-a636-09eb2383d463",
+              "name": "Chris Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/93bec55b-7b85-4f93-82c3-158924cf0cb2",
               "players": [
                 {
+                  "playerId": "team-player/94da1529-c48c-4b19-956a-a407ce09a98e",
                   "name": "Andy Dochniak",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0af7009f-d27d-4a38-a636-09eb2383d463",
                   "name": "Chris Thomas",
                   "score": "2"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5069fd6c-6af4-410f-b800-e277afba9816",
               "players": [
                 {
+                  "playerId": "team-player/94da1529-c48c-4b19-956a-a407ce09a98e",
                   "name": "Andy Dochniak",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0af7009f-d27d-4a38-a636-09eb2383d463",
                   "name": "Chris Thomas",
                   "score": "4"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "Tim Hughes",
-            "Sarah Clements"
+            {
+              "playerId": "team-player/55d18bd4-afe8-4d05-9cbc-6aacffe3de2c",
+              "name": "Tim Hughes"
+            },
+            {
+              "playerId": "team-player/91ef7953-0116-406c-9763-67a440b327fc",
+              "name": "Sarah Clements"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7e40895c-bc6a-4d89-b81f-d1006df3b27d",
               "players": [
                 {
+                  "playerId": "team-player/55d18bd4-afe8-4d05-9cbc-6aacffe3de2c",
                   "name": "Tim Hughes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/91ef7953-0116-406c-9763-67a440b327fc",
                   "name": "Sarah Clements",
                   "score": "4"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b657fb64-1816-4bd0-b445-855cb3c838dd",
               "players": [
                 {
+                  "playerId": "team-player/55d18bd4-afe8-4d05-9cbc-6aacffe3de2c",
                   "name": "Tim Hughes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/91ef7953-0116-406c-9763-67a440b327fc",
                   "name": "Sarah Clements",
                   "score": "6"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Sandra Allan",
-            "Chris Thomas"
+            {
+              "playerId": "team-player/015c4c8f-c12a-4011-8a9b-34ce484746ee",
+              "name": "Sandra Allan"
+            },
+            {
+              "playerId": "team-player/0af7009f-d27d-4a38-a636-09eb2383d463",
+              "name": "Chris Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4df63b30-336d-4baf-a8f4-3ca22c78a99b",
               "players": [
                 {
+                  "playerId": "team-player/015c4c8f-c12a-4011-8a9b-34ce484746ee",
                   "name": "Sandra Allan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0af7009f-d27d-4a38-a636-09eb2383d463",
                   "name": "Chris Thomas",
                   "score": "4"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ca72d1b9-a6c3-4e9a-b454-0201ff699593",
               "players": [
                 {
+                  "playerId": "team-player/015c4c8f-c12a-4011-8a9b-34ce484746ee",
                   "name": "Sandra Allan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0af7009f-d27d-4a38-a636-09eb2383d463",
                   "name": "Chris Thomas",
                   "score": "3"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Andy Dochniak",
-            "Kerry Dadson"
+            {
+              "playerId": "team-player/94da1529-c48c-4b19-956a-a407ce09a98e",
+              "name": "Andy Dochniak"
+            },
+            {
+              "playerId": "team-player/ff8da9a8-85ef-481b-afbb-1d7ec419e8a9",
+              "name": "Kerry Dadson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e6aa127-7a13-464a-82f4-ba0985cd9134",
               "players": [
                 {
+                  "playerId": "team-player/94da1529-c48c-4b19-956a-a407ce09a98e",
                   "name": "Andy Dochniak",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ff8da9a8-85ef-481b-afbb-1d7ec419e8a9",
                   "name": "Kerry Dadson",
                   "score": "6"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6357e5d7-7a6d-471c-a428-057897e774f5",
               "players": [
                 {
+                  "playerId": "team-player/94da1529-c48c-4b19-956a-a407ce09a98e",
                   "name": "Andy Dochniak",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ff8da9a8-85ef-481b-afbb-1d7ec419e8a9",
                   "name": "Kerry Dadson",
                   "score": "5"
                 }
@@ -271,17 +380,26 @@
         },
         {
           "players": [
-            "Keith Southern",
-            "Mark Lloyd"
+            {
+              "playerId": "team-player/81972ed5-3e5f-4bbd-b6af-6fb9221716a5",
+              "name": "Keith Southern"
+            },
+            {
+              "playerId": "team-player/7c132755-57b6-4f68-ad8c-153521a767dc",
+              "name": "Mark Lloyd"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f4befef-ecb0-4f68-9f06-ebdf7dc59ece",
               "players": [
                 {
+                  "playerId": "team-player/81972ed5-3e5f-4bbd-b6af-6fb9221716a5",
                   "name": "Keith Southern",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7c132755-57b6-4f68-ad8c-153521a767dc",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }
@@ -290,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d08c370a-a272-4b09-b782-6b780082f653",
               "players": [
                 {
+                  "playerId": "team-player/81972ed5-3e5f-4bbd-b6af-6fb9221716a5",
                   "name": "Keith Southern",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7c132755-57b6-4f68-ad8c-153521a767dc",
                   "name": "Mark Lloyd",
                   "score": "7"
                 }

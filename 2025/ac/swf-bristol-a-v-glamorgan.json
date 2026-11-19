@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b56ed2d1-4fd2-4932-ae60-44a8e2c7a7f3",
   "name": "SWF Parkstone Trophy Bristol A v Glamorgan",
   "sport": "ac",
   "firstDay": "2025-05-31",
   "lastDay": "2025-05-31",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol A",
       "shortName": "Bristol A",
       "players": [
-        "David Goacher",
-        "Ed Duckworth",
-        "Richard M Smith",
-        "Richard M Smith & Robert Wilkinson",
-        "Robert Wilkinson"
+        {
+          "playerId": "team-player/091165b0-96f1-49f2-983d-a11442919870",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/1596349c-c03e-47fb-9bd0-71ec32d9f575",
+          "name": "Ed Duckworth"
+        },
+        {
+          "playerId": "team-player/09c81921-8b37-4ec6-9e7e-ab9e67b57c3e",
+          "name": "Richard M Smith"
+        },
+        {
+          "playerId": "team-player/20c945bc-58db-4443-869d-b512a71a7fb7",
+          "name": "Richard M Smith & Robert Wilkinson"
+        },
+        {
+          "playerId": "team-player/b4a6e48a-ff9f-427c-86ed-f540dfd7bc4d",
+          "name": "Robert Wilkinson"
+        }
       ]
     },
     {
       "name": "Glamorgan",
       "shortName": "Glamorgan",
       "players": [
-        "Chris Williams",
-        "Chris Williams & Paul Pristavec",
-        "Garry McElwain",
-        "Paul Pristavec",
-        "Sarah Melvin"
+        {
+          "playerId": "team-player/d10e4e4f-9ecf-4730-908f-a0720885140e",
+          "name": "Chris Williams"
+        },
+        {
+          "playerId": "team-player/9fe307a2-9b94-4050-99a1-1fe4929fbe23",
+          "name": "Chris Williams & Paul Pristavec"
+        },
+        {
+          "playerId": "team-player/1ec24db1-d1a8-4528-bd76-4746ec9a3bc6",
+          "name": "Garry McElwain"
+        },
+        {
+          "playerId": "team-player/684d0db7-dde4-42b0-8564-38da131160fe",
+          "name": "Paul Pristavec"
+        },
+        {
+          "playerId": "team-player/b79c74a3-149a-4996-9229-e6167a0d7926",
+          "name": "Sarah Melvin"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/8f410a17-d88e-4c80-82ed-e8d477316aa7",
       "teams": [
         "Bristol A",
         "Glamorgan"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Ed Duckworth",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/1596349c-c03e-47fb-9bd0-71ec32d9f575",
+              "name": "Ed Duckworth"
+            },
+            {
+              "playerId": "team-player/b79c74a3-149a-4996-9229-e6167a0d7926",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4db8dd84-2665-4cd9-87b0-04c3868eeaa8",
               "players": [
                 {
+                  "playerId": "team-player/1596349c-c03e-47fb-9bd0-71ec32d9f575",
                   "name": "Ed Duckworth",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b79c74a3-149a-4996-9229-e6167a0d7926",
                   "name": "Sarah Melvin",
                   "score": "5"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/091165b0-96f1-49f2-983d-a11442919870",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/1ec24db1-d1a8-4528-bd76-4746ec9a3bc6",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/61cc8495-c18d-4aec-8db5-2d4720bed003",
               "players": [
                 {
+                  "playerId": "team-player/091165b0-96f1-49f2-983d-a11442919870",
                   "name": "David Goacher",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/1ec24db1-d1a8-4528-bd76-4746ec9a3bc6",
                   "name": "Garry McElwain",
                   "score": "3"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Richard M Smith & Robert Wilkinson",
-            "Chris Williams & Paul Pristavec"
+            {
+              "playerId": "team-player/20c945bc-58db-4443-869d-b512a71a7fb7",
+              "name": "Richard M Smith & Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/9fe307a2-9b94-4050-99a1-1fe4929fbe23",
+              "name": "Chris Williams & Paul Pristavec"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2b2f761-46b3-42d3-bef8-5e4998e37ec5",
               "players": [
                 {
+                  "playerId": "team-player/20c945bc-58db-4443-869d-b512a71a7fb7",
                   "name": "Richard M Smith & Robert Wilkinson",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/9fe307a2-9b94-4050-99a1-1fe4929fbe23",
                   "name": "Chris Williams & Paul Pristavec",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Sarah Melvin"
+            {
+              "playerId": "team-player/09c81921-8b37-4ec6-9e7e-ab9e67b57c3e",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/b79c74a3-149a-4996-9229-e6167a0d7926",
+              "name": "Sarah Melvin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a3c1011f-5414-41e0-a320-2b1949cc7bd3",
               "players": [
                 {
+                  "playerId": "team-player/09c81921-8b37-4ec6-9e7e-ab9e67b57c3e",
                   "name": "Richard M Smith",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/b79c74a3-149a-4996-9229-e6167a0d7926",
                   "name": "Sarah Melvin",
                   "score": "2"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Ed Duckworth",
-            "Garry McElwain"
+            {
+              "playerId": "team-player/1596349c-c03e-47fb-9bd0-71ec32d9f575",
+              "name": "Ed Duckworth"
+            },
+            {
+              "playerId": "team-player/1ec24db1-d1a8-4528-bd76-4746ec9a3bc6",
+              "name": "Garry McElwain"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c39e05ad-0571-4f2c-928e-e249abb24208",
               "players": [
                 {
+                  "playerId": "team-player/1596349c-c03e-47fb-9bd0-71ec32d9f575",
                   "name": "Ed Duckworth",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1ec24db1-d1a8-4528-bd76-4746ec9a3bc6",
                   "name": "Garry McElwain",
                   "score": "19"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson",
-            "Paul Pristavec"
+            {
+              "playerId": "team-player/b4a6e48a-ff9f-427c-86ed-f540dfd7bc4d",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/684d0db7-dde4-42b0-8564-38da131160fe",
+              "name": "Paul Pristavec"
+            }
           ],
           "games": [
             {
+              "gameId": "game/46c8e2e9-c7d6-4297-99ea-51577de128bd",
               "players": [
                 {
+                  "playerId": "team-player/b4a6e48a-ff9f-427c-86ed-f540dfd7bc4d",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/684d0db7-dde4-42b0-8564-38da131160fe",
                   "name": "Paul Pristavec",
                   "score": "17"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Chris Williams"
+            {
+              "playerId": "team-player/091165b0-96f1-49f2-983d-a11442919870",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/d10e4e4f-9ecf-4730-908f-a0720885140e",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/475a8763-f055-43df-9221-76286df3a01b",
               "players": [
                 {
+                  "playerId": "team-player/091165b0-96f1-49f2-983d-a11442919870",
                   "name": "David Goacher",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/d10e4e4f-9ecf-4730-908f-a0720885140e",
                   "name": "Chris Williams",
                   "score": "26tp"
                 }

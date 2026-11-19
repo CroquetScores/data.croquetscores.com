@@ -1,44 +1,81 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/1e8f93d6-c4b9-4e71-8a0f-deeb33e4412a",
   "name": "Rheingold Cup AC",
   "sport": "ac",
   "firstDay": "2017-06-04",
   "lastDay": "2017-06-05",
   "country": "at",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Austria",
       "shortName": "AUT",
       "players": [
-        "Andreas Hartmann",
-        "Heinz Hackl",
-        "Martin Guentner"
+        {
+          "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
+          "name": "Andreas Hartmann"
+        },
+        {
+          "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
+          "name": "Heinz Hackl"
+        },
+        {
+          "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
+          "name": "Martin Guentner"
+        }
       ]
     },
     {
       "name": "Switzerland",
       "shortName": "CHE",
       "players": [
-        "Danny Davids",
-        "Dave Underhill",
-        "Ian Sexton",
-        "Kerstin Loretz"
+        {
+          "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
+          "name": "Danny Davids"
+        },
+        {
+          "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
+          "name": "Dave Underhill"
+        },
+        {
+          "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
+          "name": "Ian Sexton"
+        },
+        {
+          "playerId": "team-player/01d4e5af-621e-42f6-a1dc-c61a27259f60",
+          "name": "Kerstin Loretz"
+        }
       ]
     },
     {
       "name": "Germany",
       "shortName": "DEU",
       "players": [
-        "Bruno Hess",
-        "Michael Boeer",
-        "Thomas Magin",
-        "Wolfgang Usbeck"
+        {
+          "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
+          "name": "Bruno Hess"
+        },
+        {
+          "playerId": "team-player/b1e0799d-1cb6-466d-9097-174bdedb2e46",
+          "name": "Michael Boeer"
+        },
+        {
+          "playerId": "team-player/bb4bdaca-be48-4723-92d2-91105780e34d",
+          "name": "Thomas Magin"
+        },
+        {
+          "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
+          "name": "Wolfgang Usbeck"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/da1680ff-3f3a-4f07-9cf4-0278142f77d5",
       "teams": [
         "Austria",
         "Switzerland"
@@ -48,17 +85,26 @@
       "matches": [
         {
           "players": [
-            "Heinz Hackl",
-            "Dave Underhill"
+            {
+              "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
+              "name": "Heinz Hackl"
+            },
+            {
+              "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
+              "name": "Dave Underhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/59f32c6d-bc72-4f07-9668-94b291008eda",
               "players": [
                 {
+                  "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
                   "name": "Heinz Hackl",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
                   "name": "Dave Underhill",
                   "score": "6"
                 }
@@ -70,17 +116,26 @@
         },
         {
           "players": [
-            "Heinz Hackl",
-            "Ian Sexton"
+            {
+              "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
+              "name": "Heinz Hackl"
+            },
+            {
+              "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
+              "name": "Ian Sexton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a1b536f-c59b-4fea-a1f4-51ed37e4e3dc",
               "players": [
                 {
+                  "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
                   "name": "Heinz Hackl",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
                   "name": "Ian Sexton",
                   "score": "26"
                 }
@@ -92,17 +147,26 @@
         },
         {
           "players": [
-            "Martin Guentner",
-            "Ian Sexton"
+            {
+              "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
+              "name": "Martin Guentner"
+            },
+            {
+              "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
+              "name": "Ian Sexton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4ec1bd7-903c-4877-bc92-3460aebe1c0e",
               "players": [
                 {
+                  "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
                   "name": "Martin Guentner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
                   "name": "Ian Sexton",
                   "score": "13"
                 }
@@ -114,17 +178,26 @@
         },
         {
           "players": [
-            "Martin Guentner",
-            "Dave Underhill"
+            {
+              "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
+              "name": "Martin Guentner"
+            },
+            {
+              "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
+              "name": "Dave Underhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ef99e199-690a-440a-89be-04eae075a18c",
               "players": [
                 {
+                  "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
                   "name": "Martin Guentner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
                   "name": "Dave Underhill",
                   "score": "9"
                 }
@@ -136,17 +209,26 @@
         },
         {
           "players": [
-            "Andreas Hartmann",
-            "Danny Davids"
+            {
+              "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
+              "name": "Andreas Hartmann"
+            },
+            {
+              "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
+              "name": "Danny Davids"
+            }
           ],
           "games": [
             {
+              "gameId": "game/70144c9a-a092-41de-a4be-d49eb70679ab",
               "players": [
                 {
+                  "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
                   "name": "Andreas Hartmann",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
                   "name": "Danny Davids",
                   "score": "18"
                 }
@@ -158,17 +240,26 @@
         },
         {
           "players": [
-            "Andreas Hartmann",
-            "Ian Sexton"
+            {
+              "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
+              "name": "Andreas Hartmann"
+            },
+            {
+              "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
+              "name": "Ian Sexton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/14f5cba7-ebac-438f-9597-91b2a3fa0bf7",
               "players": [
                 {
+                  "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
                   "name": "Andreas Hartmann",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
                   "name": "Ian Sexton",
                   "score": "26"
                 }
@@ -180,17 +271,26 @@
         },
         {
           "players": [
-            "Andreas Hartmann",
-            "Dave Underhill"
+            {
+              "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
+              "name": "Andreas Hartmann"
+            },
+            {
+              "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
+              "name": "Dave Underhill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a51baf62-bd03-4745-b0e1-8dd7812cd26e",
               "players": [
                 {
+                  "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
                   "name": "Andreas Hartmann",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
                   "name": "Dave Underhill",
                   "score": "13"
                 }
@@ -202,17 +302,26 @@
         },
         {
           "players": [
-            "Heinz Hackl",
-            "Danny Davids"
+            {
+              "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
+              "name": "Heinz Hackl"
+            },
+            {
+              "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
+              "name": "Danny Davids"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f0c3d06-c76f-40f5-af6b-7950af506d0b",
               "players": [
                 {
+                  "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
                   "name": "Heinz Hackl",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
                   "name": "Danny Davids",
                   "score": "19"
                 }
@@ -224,17 +333,26 @@
         },
         {
           "players": [
-            "Martin Guentner",
-            "Danny Davids"
+            {
+              "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
+              "name": "Martin Guentner"
+            },
+            {
+              "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
+              "name": "Danny Davids"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5c4f8519-91c5-4f1b-825e-aa337c1277ab",
               "players": [
                 {
+                  "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
                   "name": "Martin Guentner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
                   "name": "Danny Davids",
                   "score": "22"
                 }
@@ -247,6 +365,7 @@
       ]
     },
     {
+      "competitionId": "competition/1192cab2-394f-47ea-8434-a88915d965a7",
       "teams": [
         "Switzerland",
         "Germany"
@@ -256,17 +375,26 @@
       "matches": [
         {
           "players": [
-            "Danny Davids",
-            "Bruno Hess"
+            {
+              "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
+              "name": "Danny Davids"
+            },
+            {
+              "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
+              "name": "Bruno Hess"
+            }
           ],
           "games": [
             {
+              "gameId": "game/69130670-6aa9-4fc0-a687-51dd4f58376f",
               "players": [
                 {
+                  "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
                   "name": "Danny Davids",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
                   "name": "Bruno Hess",
                   "score": "22"
                 }
@@ -278,17 +406,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "Thomas Magin"
+            {
+              "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/bb4bdaca-be48-4723-92d2-91105780e34d",
+              "name": "Thomas Magin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b8125c7-27a8-45d8-a22a-144165ef7eba",
               "players": [
                 {
+                  "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
                   "name": "Ian Sexton",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bb4bdaca-be48-4723-92d2-91105780e34d",
                   "name": "Thomas Magin",
                   "score": "4"
                 }
@@ -300,17 +437,26 @@
         },
         {
           "players": [
-            "Dave Underhill",
-            "Bruno Hess"
+            {
+              "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
+              "name": "Dave Underhill"
+            },
+            {
+              "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
+              "name": "Bruno Hess"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54f57c01-5280-410c-9c28-b298e853ff12",
               "players": [
                 {
+                  "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
                   "name": "Dave Underhill",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
                   "name": "Bruno Hess",
                   "score": "24"
                 }
@@ -322,17 +468,26 @@
         },
         {
           "players": [
-            "Danny Davids",
-            "Wolfgang Usbeck"
+            {
+              "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
+              "name": "Danny Davids"
+            },
+            {
+              "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
+              "name": "Wolfgang Usbeck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/026bf807-188a-41aa-866b-3759816f002c",
               "players": [
                 {
+                  "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
                   "name": "Danny Davids",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
                   "name": "Wolfgang Usbeck",
                   "score": "26"
                 }
@@ -344,17 +499,26 @@
         },
         {
           "players": [
-            "Danny Davids",
-            "Thomas Magin"
+            {
+              "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
+              "name": "Danny Davids"
+            },
+            {
+              "playerId": "team-player/bb4bdaca-be48-4723-92d2-91105780e34d",
+              "name": "Thomas Magin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b284f1a3-cf4e-458e-931d-a2e0b9a2bce4",
               "players": [
                 {
+                  "playerId": "team-player/b768c333-57fc-4b10-8805-989fefeb3f57",
                   "name": "Danny Davids",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bb4bdaca-be48-4723-92d2-91105780e34d",
                   "name": "Thomas Magin",
                   "score": "16"
                 }
@@ -366,17 +530,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "Bruno Hess"
+            {
+              "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
+              "name": "Bruno Hess"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5e2b6311-1d58-42e4-b116-2db5b647647e",
               "players": [
                 {
+                  "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
                   "name": "Ian Sexton",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
                   "name": "Bruno Hess",
                   "score": "0"
                 }
@@ -388,17 +561,26 @@
         },
         {
           "players": [
-            "Dave Underhill",
-            "Wolfgang Usbeck"
+            {
+              "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
+              "name": "Dave Underhill"
+            },
+            {
+              "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
+              "name": "Wolfgang Usbeck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/197750c8-f74a-4fa9-b4ab-5417b733df60",
               "players": [
                 {
+                  "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
                   "name": "Dave Underhill",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
                   "name": "Wolfgang Usbeck",
                   "score": "20"
                 }
@@ -410,17 +592,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "Wolfgang Usbeck"
+            {
+              "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
+              "name": "Wolfgang Usbeck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/92dcdeff-448e-411d-9fe8-b23fcc083a8f",
               "players": [
                 {
+                  "playerId": "team-player/69d1f332-ed25-40d0-a1b4-a8504105f268",
                   "name": "Ian Sexton",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
                   "name": "Wolfgang Usbeck",
                   "score": "2"
                 }
@@ -432,17 +623,26 @@
         },
         {
           "players": [
-            "Dave Underhill",
-            "Michael Boeer"
+            {
+              "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
+              "name": "Dave Underhill"
+            },
+            {
+              "playerId": "team-player/b1e0799d-1cb6-466d-9097-174bdedb2e46",
+              "name": "Michael Boeer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9cef8565-2e52-40f1-9b9b-7ea975966911",
               "players": [
                 {
+                  "playerId": "team-player/d371d780-77e8-44f9-bed6-3ff94a6c1273",
                   "name": "Dave Underhill",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/b1e0799d-1cb6-466d-9097-174bdedb2e46",
                   "name": "Michael Boeer",
                   "score": "10"
                 }
@@ -455,6 +655,7 @@
       ]
     },
     {
+      "competitionId": "competition/36e74616-a99a-4d6d-8924-394a23949d9f",
       "teams": [
         "Germany",
         "Austria"
@@ -464,17 +665,26 @@
       "matches": [
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Andreas Hartmann"
+            {
+              "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
+              "name": "Andreas Hartmann"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d85909ac-44d0-473e-a537-875e3876d7e1",
               "players": [
                 {
+                  "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
                   "name": "Wolfgang Usbeck",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
                   "name": "Andreas Hartmann",
                   "score": "12"
                 }
@@ -486,17 +696,26 @@
         },
         {
           "players": [
-            "Michael Boeer",
-            "Martin Guentner"
+            {
+              "playerId": "team-player/b1e0799d-1cb6-466d-9097-174bdedb2e46",
+              "name": "Michael Boeer"
+            },
+            {
+              "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
+              "name": "Martin Guentner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/81099409-3756-4e29-b45a-cfb8dd164f53",
               "players": [
                 {
+                  "playerId": "team-player/b1e0799d-1cb6-466d-9097-174bdedb2e46",
                   "name": "Michael Boeer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
                   "name": "Martin Guentner",
                   "score": "26"
                 }
@@ -508,17 +727,26 @@
         },
         {
           "players": [
-            "Michael Boeer",
-            "Andreas Hartmann"
+            {
+              "playerId": "team-player/b1e0799d-1cb6-466d-9097-174bdedb2e46",
+              "name": "Michael Boeer"
+            },
+            {
+              "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
+              "name": "Andreas Hartmann"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ba3dc19e-9113-4793-9249-522b0b87077a",
               "players": [
                 {
+                  "playerId": "team-player/b1e0799d-1cb6-466d-9097-174bdedb2e46",
                   "name": "Michael Boeer",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
                   "name": "Andreas Hartmann",
                   "score": "24"
                 }
@@ -530,17 +758,26 @@
         },
         {
           "players": [
-            "Bruno Hess",
-            "Andreas Hartmann"
+            {
+              "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
+              "name": "Bruno Hess"
+            },
+            {
+              "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
+              "name": "Andreas Hartmann"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42d67085-2b01-4f04-b8fd-20500bfb07c9",
               "players": [
                 {
+                  "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
                   "name": "Bruno Hess",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a8e04622-bbb4-4732-852d-28726d7e401e",
                   "name": "Andreas Hartmann",
                   "score": "0"
                 }
@@ -552,17 +789,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Heinz Hackl"
+            {
+              "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
+              "name": "Heinz Hackl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f89ee9c4-c7ba-4a63-b900-5fe53ff01c3c",
               "players": [
                 {
+                  "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
                   "name": "Wolfgang Usbeck",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
                   "name": "Heinz Hackl",
                   "score": "4"
                 }
@@ -574,17 +820,26 @@
         },
         {
           "players": [
-            "Thomas Magin",
-            "Heinz Hackl"
+            {
+              "playerId": "team-player/bb4bdaca-be48-4723-92d2-91105780e34d",
+              "name": "Thomas Magin"
+            },
+            {
+              "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
+              "name": "Heinz Hackl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/40d9b0c9-2239-4cc5-af4f-dd1328a06183",
               "players": [
                 {
+                  "playerId": "team-player/bb4bdaca-be48-4723-92d2-91105780e34d",
                   "name": "Thomas Magin",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
                   "name": "Heinz Hackl",
                   "score": "19"
                 }
@@ -596,17 +851,26 @@
         },
         {
           "players": [
-            "Bruno Hess",
-            "Martin Guentner"
+            {
+              "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
+              "name": "Bruno Hess"
+            },
+            {
+              "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
+              "name": "Martin Guentner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c1fcbaf3-536f-47bc-ac65-054cc17e6c77",
               "players": [
                 {
+                  "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
                   "name": "Bruno Hess",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
                   "name": "Martin Guentner",
                   "score": "26"
                 }
@@ -618,17 +882,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Martin Guentner"
+            {
+              "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
+              "name": "Martin Guentner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/accf93d8-8b22-4166-aaa1-3ead51d76677",
               "players": [
                 {
+                  "playerId": "team-player/cc195657-530c-4533-bfc8-b8ac0f86e0ff",
                   "name": "Wolfgang Usbeck",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/41a95175-c74e-4455-91ae-3b4ab4fb6921",
                   "name": "Martin Guentner",
                   "score": "25"
                 }
@@ -640,17 +913,26 @@
         },
         {
           "players": [
-            "Bruno Hess",
-            "Heinz Hackl"
+            {
+              "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
+              "name": "Bruno Hess"
+            },
+            {
+              "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
+              "name": "Heinz Hackl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/48558699-4cf3-4bbe-97bc-63e02a6cebab",
               "players": [
                 {
+                  "playerId": "team-player/ba2a0aa7-94fd-4c4a-9ae9-33748b3a2457",
                   "name": "Bruno Hess",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/c7d7d8dc-7686-44e5-bf3d-9a833dadde05",
                   "name": "Heinz Hackl",
                   "score": "26"
                 }

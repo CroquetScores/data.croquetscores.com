@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/10d9fc1a-279c-455d-8187-a2077d521a1a",
   "name": "Croquet NSW Premier Pennants",
   "sport": "ac",
   "firstDay": "2013-07-07",
   "lastDay": "2013-08-04",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Canberra",
       "shortName": "Canberra",
       "players": [
-        "Alan Honey",
-        "Charlotte Morgan",
-        "Nick Chapman",
-        "Nick Chapman & Alan Honey",
-        "Stephen Richards",
-        "Stephen Richards & Nick Chapman",
-        "Tim Murphy",
-        "Tim Murphy & Charlotte Morgan"
+        {
+          "playerId": "team-player/092a25aa-ea95-494a-98c5-09576a96fd81",
+          "name": "Alan Honey"
+        },
+        {
+          "playerId": "team-player/52345b0e-6f59-44c4-a264-9bf4bd0aa8cd",
+          "name": "Charlotte Morgan"
+        },
+        {
+          "playerId": "team-player/74bb782e-8912-4a1b-9c64-1567c37fe8ec",
+          "name": "Nick Chapman"
+        },
+        {
+          "playerId": "team-player/8c587632-d339-4780-a6ef-3b98b1f739db",
+          "name": "Nick Chapman & Alan Honey"
+        },
+        {
+          "playerId": "team-player/9b4e9c2f-30e5-4868-8f96-ae827a08900d",
+          "name": "Stephen Richards"
+        },
+        {
+          "playerId": "team-player/c2cfae38-1f1f-4bed-98e1-ee4bce0f3e05",
+          "name": "Stephen Richards & Nick Chapman"
+        },
+        {
+          "playerId": "team-player/239b3325-ff20-4c69-920a-7eb274012c1a",
+          "name": "Tim Murphy"
+        },
+        {
+          "playerId": "team-player/e748dac9-b580-4bcd-87a7-cd91ae7c9e23",
+          "name": "Tim Murphy & Charlotte Morgan"
+        }
       ]
     },
     {
       "name": "Cammeray",
       "shortName": "Cammeray",
       "players": [
-        "Alan Walsh",
-        "Alan Walsh & Stephen Howes",
-        "Mike Hughes",
-        "Mike Hughes & Neil Hartley",
-        "Neil Hartley",
-        "Peter Landrebe",
-        "Peter Landrebe & Mike Hughes",
-        "Rosemary Landrebe",
-        "Rosemary Landrebe & Stephen Howes",
-        "Stephen Howes"
+        {
+          "playerId": "team-player/559ce76b-11a3-4141-b1fc-90ea880abe55",
+          "name": "Alan Walsh"
+        },
+        {
+          "playerId": "team-player/7a1991bb-dd6c-4633-b874-267c2a60dbdd",
+          "name": "Alan Walsh & Stephen Howes"
+        },
+        {
+          "playerId": "team-player/488c21e3-9498-486b-92cc-b8edcad17a55",
+          "name": "Mike Hughes"
+        },
+        {
+          "playerId": "team-player/5bdaef1f-a588-4fc3-827c-281d7d47b7d8",
+          "name": "Mike Hughes & Neil Hartley"
+        },
+        {
+          "playerId": "team-player/5f1d74eb-aedc-4a70-a478-0307395984e1",
+          "name": "Neil Hartley"
+        },
+        {
+          "playerId": "team-player/c30983db-75ad-4a8a-95f1-2595bc033349",
+          "name": "Peter Landrebe"
+        },
+        {
+          "playerId": "team-player/c1027cd3-7f1b-4e39-9901-8a632134dbce",
+          "name": "Peter Landrebe & Mike Hughes"
+        },
+        {
+          "playerId": "team-player/e665131f-4652-492e-95f7-2d93f24df81f",
+          "name": "Rosemary Landrebe"
+        },
+        {
+          "playerId": "team-player/d21bfaf2-0a2d-4913-a4e0-9883a7696c0c",
+          "name": "Rosemary Landrebe & Stephen Howes"
+        },
+        {
+          "playerId": "team-player/fa22f0c6-dc73-4916-98b1-87369f5acd12",
+          "name": "Stephen Howes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/e602134b-990e-48f7-adf9-29d921ee7059",
       "teams": [
         "Canberra",
         "Cammeray"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Nick Chapman & Alan Honey",
-            "Alan Walsh & Stephen Howes"
+            {
+              "playerId": "team-player/8c587632-d339-4780-a6ef-3b98b1f739db",
+              "name": "Nick Chapman & Alan Honey"
+            },
+            {
+              "playerId": "team-player/7a1991bb-dd6c-4633-b874-267c2a60dbdd",
+              "name": "Alan Walsh & Stephen Howes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b2237817-e6f4-41e2-9661-5c35f48e1349",
               "players": [
                 {
+                  "playerId": "team-player/8c587632-d339-4780-a6ef-3b98b1f739db",
                   "name": "Nick Chapman & Alan Honey",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/7a1991bb-dd6c-4633-b874-267c2a60dbdd",
                   "name": "Alan Walsh & Stephen Howes",
                   "score": "21"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "Tim Murphy & Charlotte Morgan",
-            "Mike Hughes & Neil Hartley"
+            {
+              "playerId": "team-player/e748dac9-b580-4bcd-87a7-cd91ae7c9e23",
+              "name": "Tim Murphy & Charlotte Morgan"
+            },
+            {
+              "playerId": "team-player/5bdaef1f-a588-4fc3-827c-281d7d47b7d8",
+              "name": "Mike Hughes & Neil Hartley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d43c7bde-471e-47ec-9a34-8cc81a7bbfcb",
               "players": [
                 {
+                  "playerId": "team-player/e748dac9-b580-4bcd-87a7-cd91ae7c9e23",
                   "name": "Tim Murphy & Charlotte Morgan",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/5bdaef1f-a588-4fc3-827c-281d7d47b7d8",
                   "name": "Mike Hughes & Neil Hartley",
                   "score": "11"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Alan Honey",
-            "Alan Walsh"
+            {
+              "playerId": "team-player/092a25aa-ea95-494a-98c5-09576a96fd81",
+              "name": "Alan Honey"
+            },
+            {
+              "playerId": "team-player/559ce76b-11a3-4141-b1fc-90ea880abe55",
+              "name": "Alan Walsh"
+            }
           ],
           "games": [
             {
+              "gameId": "game/98f48208-b9f6-4bac-baf9-055ba7fef93b",
               "players": [
                 {
+                  "playerId": "team-player/092a25aa-ea95-494a-98c5-09576a96fd81",
                   "name": "Alan Honey",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/559ce76b-11a3-4141-b1fc-90ea880abe55",
                   "name": "Alan Walsh",
                   "score": "5"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Nick Chapman",
-            "Stephen Howes"
+            {
+              "playerId": "team-player/74bb782e-8912-4a1b-9c64-1567c37fe8ec",
+              "name": "Nick Chapman"
+            },
+            {
+              "playerId": "team-player/fa22f0c6-dc73-4916-98b1-87369f5acd12",
+              "name": "Stephen Howes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f36616de-ad33-45a6-accb-d995d683422b",
               "players": [
                 {
+                  "playerId": "team-player/74bb782e-8912-4a1b-9c64-1567c37fe8ec",
                   "name": "Nick Chapman",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/fa22f0c6-dc73-4916-98b1-87369f5acd12",
                   "name": "Stephen Howes",
                   "score": "26"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "Tim Murphy",
-            "Mike Hughes"
+            {
+              "playerId": "team-player/239b3325-ff20-4c69-920a-7eb274012c1a",
+              "name": "Tim Murphy"
+            },
+            {
+              "playerId": "team-player/488c21e3-9498-486b-92cc-b8edcad17a55",
+              "name": "Mike Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/44f99f75-5fc8-484d-af93-3fb3f2e8db48",
               "players": [
                 {
+                  "playerId": "team-player/239b3325-ff20-4c69-920a-7eb274012c1a",
                   "name": "Tim Murphy",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/488c21e3-9498-486b-92cc-b8edcad17a55",
                   "name": "Mike Hughes",
                   "score": "7"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Charlotte Morgan",
-            "Neil Hartley"
+            {
+              "playerId": "team-player/52345b0e-6f59-44c4-a264-9bf4bd0aa8cd",
+              "name": "Charlotte Morgan"
+            },
+            {
+              "playerId": "team-player/5f1d74eb-aedc-4a70-a478-0307395984e1",
+              "name": "Neil Hartley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/946ca51a-70e1-45e6-906f-f45d6fb634a5",
               "players": [
                 {
+                  "playerId": "team-player/52345b0e-6f59-44c4-a264-9bf4bd0aa8cd",
                   "name": "Charlotte Morgan",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/5f1d74eb-aedc-4a70-a478-0307395984e1",
                   "name": "Neil Hartley",
                   "score": "21"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Tim Murphy",
-            "Alan Walsh"
+            {
+              "playerId": "team-player/239b3325-ff20-4c69-920a-7eb274012c1a",
+              "name": "Tim Murphy"
+            },
+            {
+              "playerId": "team-player/559ce76b-11a3-4141-b1fc-90ea880abe55",
+              "name": "Alan Walsh"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a9546921-8c7d-4419-b13b-0c9c7c2330ed",
               "players": [
                 {
+                  "playerId": "team-player/239b3325-ff20-4c69-920a-7eb274012c1a",
                   "name": "Tim Murphy",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/559ce76b-11a3-4141-b1fc-90ea880abe55",
                   "name": "Alan Walsh",
                   "score": "4"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Charlotte Morgan",
-            "Stephen Howes"
+            {
+              "playerId": "team-player/52345b0e-6f59-44c4-a264-9bf4bd0aa8cd",
+              "name": "Charlotte Morgan"
+            },
+            {
+              "playerId": "team-player/fa22f0c6-dc73-4916-98b1-87369f5acd12",
+              "name": "Stephen Howes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8acf4b3c-f4b2-4da1-9d7d-f2f9fcbb27d0",
               "players": [
                 {
+                  "playerId": "team-player/52345b0e-6f59-44c4-a264-9bf4bd0aa8cd",
                   "name": "Charlotte Morgan",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/fa22f0c6-dc73-4916-98b1-87369f5acd12",
                   "name": "Stephen Howes",
                   "score": "1"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "Alan Honey",
-            "Mike Hughes"
+            {
+              "playerId": "team-player/092a25aa-ea95-494a-98c5-09576a96fd81",
+              "name": "Alan Honey"
+            },
+            {
+              "playerId": "team-player/488c21e3-9498-486b-92cc-b8edcad17a55",
+              "name": "Mike Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c5e1de08-7035-4d51-a902-9e0feb5efc91",
               "players": [
                 {
+                  "playerId": "team-player/092a25aa-ea95-494a-98c5-09576a96fd81",
                   "name": "Alan Honey",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/488c21e3-9498-486b-92cc-b8edcad17a55",
                   "name": "Mike Hughes",
                   "score": "21"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "Nick Chapman",
-            "Neil Hartley"
+            {
+              "playerId": "team-player/74bb782e-8912-4a1b-9c64-1567c37fe8ec",
+              "name": "Nick Chapman"
+            },
+            {
+              "playerId": "team-player/5f1d74eb-aedc-4a70-a478-0307395984e1",
+              "name": "Neil Hartley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f2dcca0-12ed-428c-a970-cb76975872a4",
               "players": [
                 {
+                  "playerId": "team-player/74bb782e-8912-4a1b-9c64-1567c37fe8ec",
                   "name": "Nick Chapman",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/5f1d74eb-aedc-4a70-a478-0307395984e1",
                   "name": "Neil Hartley",
                   "score": "8"
                 }
@@ -270,6 +418,7 @@
       ]
     },
     {
+      "competitionId": "competition/206c4996-8d52-4b8f-981d-b59ac7bd16fe",
       "teams": [
         "Cammeray",
         "Canberra"
@@ -279,17 +428,26 @@
       "matches": [
         {
           "players": [
-            "Peter Landrebe & Mike Hughes",
-            "Tim Murphy & Charlotte Morgan"
+            {
+              "playerId": "team-player/c1027cd3-7f1b-4e39-9901-8a632134dbce",
+              "name": "Peter Landrebe & Mike Hughes"
+            },
+            {
+              "playerId": "team-player/e748dac9-b580-4bcd-87a7-cd91ae7c9e23",
+              "name": "Tim Murphy & Charlotte Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b7503e46-d753-427e-a593-9f6ea75186d4",
               "players": [
                 {
+                  "playerId": "team-player/c1027cd3-7f1b-4e39-9901-8a632134dbce",
                   "name": "Peter Landrebe & Mike Hughes",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e748dac9-b580-4bcd-87a7-cd91ae7c9e23",
                   "name": "Tim Murphy & Charlotte Morgan",
                   "score": "12"
                 }
@@ -301,17 +459,26 @@
         },
         {
           "players": [
-            "Rosemary Landrebe & Stephen Howes",
-            "Stephen Richards & Nick Chapman"
+            {
+              "playerId": "team-player/d21bfaf2-0a2d-4913-a4e0-9883a7696c0c",
+              "name": "Rosemary Landrebe & Stephen Howes"
+            },
+            {
+              "playerId": "team-player/c2cfae38-1f1f-4bed-98e1-ee4bce0f3e05",
+              "name": "Stephen Richards & Nick Chapman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2605b0fc-bb2f-44b9-9354-3665db2b9e68",
               "players": [
                 {
+                  "playerId": "team-player/d21bfaf2-0a2d-4913-a4e0-9883a7696c0c",
                   "name": "Rosemary Landrebe & Stephen Howes",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c2cfae38-1f1f-4bed-98e1-ee4bce0f3e05",
                   "name": "Stephen Richards & Nick Chapman",
                   "score": "8"
                 }
@@ -323,17 +490,26 @@
         },
         {
           "players": [
-            "Peter Landrebe",
-            "Tim Murphy"
+            {
+              "playerId": "team-player/c30983db-75ad-4a8a-95f1-2595bc033349",
+              "name": "Peter Landrebe"
+            },
+            {
+              "playerId": "team-player/239b3325-ff20-4c69-920a-7eb274012c1a",
+              "name": "Tim Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f7b1fe32-8b5b-4092-aacf-60c761dd4811",
               "players": [
                 {
+                  "playerId": "team-player/c30983db-75ad-4a8a-95f1-2595bc033349",
                   "name": "Peter Landrebe",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/239b3325-ff20-4c69-920a-7eb274012c1a",
                   "name": "Tim Murphy",
                   "score": "6"
                 }
@@ -345,17 +521,26 @@
         },
         {
           "players": [
-            "Rosemary Landrebe",
-            "Stephen Richards"
+            {
+              "playerId": "team-player/e665131f-4652-492e-95f7-2d93f24df81f",
+              "name": "Rosemary Landrebe"
+            },
+            {
+              "playerId": "team-player/9b4e9c2f-30e5-4868-8f96-ae827a08900d",
+              "name": "Stephen Richards"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a0eac33c-1253-4867-b0f2-230261af1276",
               "players": [
                 {
+                  "playerId": "team-player/e665131f-4652-492e-95f7-2d93f24df81f",
                   "name": "Rosemary Landrebe",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/9b4e9c2f-30e5-4868-8f96-ae827a08900d",
                   "name": "Stephen Richards",
                   "score": "26tp"
                 }
@@ -367,17 +552,26 @@
         },
         {
           "players": [
-            "Stephen Howes",
-            "Charlotte Morgan"
+            {
+              "playerId": "team-player/fa22f0c6-dc73-4916-98b1-87369f5acd12",
+              "name": "Stephen Howes"
+            },
+            {
+              "playerId": "team-player/52345b0e-6f59-44c4-a264-9bf4bd0aa8cd",
+              "name": "Charlotte Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/802c196c-8d2a-421b-9594-c8942b39dc6b",
               "players": [
                 {
+                  "playerId": "team-player/fa22f0c6-dc73-4916-98b1-87369f5acd12",
                   "name": "Stephen Howes",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/52345b0e-6f59-44c4-a264-9bf4bd0aa8cd",
                   "name": "Charlotte Morgan",
                   "score": "3"
                 }
@@ -389,17 +583,26 @@
         },
         {
           "players": [
-            "Mike Hughes",
-            "Nick Chapman"
+            {
+              "playerId": "team-player/488c21e3-9498-486b-92cc-b8edcad17a55",
+              "name": "Mike Hughes"
+            },
+            {
+              "playerId": "team-player/74bb782e-8912-4a1b-9c64-1567c37fe8ec",
+              "name": "Nick Chapman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/364d47a2-bcb7-4b27-bfba-b27cb602df4e",
               "players": [
                 {
+                  "playerId": "team-player/488c21e3-9498-486b-92cc-b8edcad17a55",
                   "name": "Mike Hughes",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/74bb782e-8912-4a1b-9c64-1567c37fe8ec",
                   "name": "Nick Chapman",
                   "score": "19"
                 }
@@ -411,17 +614,26 @@
         },
         {
           "players": [
-            "Peter Landrebe",
-            "Stephen Richards"
+            {
+              "playerId": "team-player/c30983db-75ad-4a8a-95f1-2595bc033349",
+              "name": "Peter Landrebe"
+            },
+            {
+              "playerId": "team-player/9b4e9c2f-30e5-4868-8f96-ae827a08900d",
+              "name": "Stephen Richards"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bf919b6b-391d-459e-8976-96f52655f66c",
               "players": [
                 {
+                  "playerId": "team-player/c30983db-75ad-4a8a-95f1-2595bc033349",
                   "name": "Peter Landrebe",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/9b4e9c2f-30e5-4868-8f96-ae827a08900d",
                   "name": "Stephen Richards",
                   "score": "26tp"
                 }
@@ -433,17 +645,26 @@
         },
         {
           "players": [
-            "Mike Hughes",
-            "Charlotte Morgan"
+            {
+              "playerId": "team-player/488c21e3-9498-486b-92cc-b8edcad17a55",
+              "name": "Mike Hughes"
+            },
+            {
+              "playerId": "team-player/52345b0e-6f59-44c4-a264-9bf4bd0aa8cd",
+              "name": "Charlotte Morgan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5b6e847-5fd7-4109-a41b-9fc47b4875c8",
               "players": [
                 {
+                  "playerId": "team-player/488c21e3-9498-486b-92cc-b8edcad17a55",
                   "name": "Mike Hughes",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/52345b0e-6f59-44c4-a264-9bf4bd0aa8cd",
                   "name": "Charlotte Morgan",
                   "score": "26tp"
                 }
@@ -455,17 +676,26 @@
         },
         {
           "players": [
-            "Rosemary Landrebe",
-            "Tim Murphy"
+            {
+              "playerId": "team-player/e665131f-4652-492e-95f7-2d93f24df81f",
+              "name": "Rosemary Landrebe"
+            },
+            {
+              "playerId": "team-player/239b3325-ff20-4c69-920a-7eb274012c1a",
+              "name": "Tim Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/78204c78-3549-4679-824f-73646b1d8616",
               "players": [
                 {
+                  "playerId": "team-player/e665131f-4652-492e-95f7-2d93f24df81f",
                   "name": "Rosemary Landrebe",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/239b3325-ff20-4c69-920a-7eb274012c1a",
                   "name": "Tim Murphy",
                   "score": "16"
                 }
@@ -477,17 +707,26 @@
         },
         {
           "players": [
-            "Stephen Howes",
-            "Nick Chapman"
+            {
+              "playerId": "team-player/fa22f0c6-dc73-4916-98b1-87369f5acd12",
+              "name": "Stephen Howes"
+            },
+            {
+              "playerId": "team-player/74bb782e-8912-4a1b-9c64-1567c37fe8ec",
+              "name": "Nick Chapman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0224ef02-a349-43df-8793-cd811eab2ee6",
               "players": [
                 {
+                  "playerId": "team-player/fa22f0c6-dc73-4916-98b1-87369f5acd12",
                   "name": "Stephen Howes",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/74bb782e-8912-4a1b-9c64-1567c37fe8ec",
                   "name": "Nick Chapman",
                   "score": "20"
                 }

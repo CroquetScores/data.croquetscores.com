@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/20ae6066-6026-4bdf-be3a-a556144c23d1",
   "name": "CAGC Inter Club Nottingham vs Watford",
   "sport": "gc",
   "firstDay": "2023-06-14",
   "lastDay": "2023-06-14",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "Cathy Turski",
-        "Euan Burridge",
-        "Euan Burridge & Ian Burridge",
-        "Ian Burridge",
-        "Ian Vincent"
+        {
+          "playerId": "team-player/2eea5d27-03d9-48dd-ab55-811e6a6a8c80",
+          "name": "Cathy Turski"
+        },
+        {
+          "playerId": "team-player/5c1aaee6-5408-41ca-bb00-4eca3ff7fab1",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/f6cc07bf-2fb5-42dc-88d1-64c7ffa3d182",
+          "name": "Euan Burridge & Ian Burridge"
+        },
+        {
+          "playerId": "team-player/94f94044-e2f6-4814-9dfc-7b3e7b754084",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/02f505dd-940f-4377-85c6-04abddf06dc0",
+          "name": "Ian Vincent"
+        }
       ]
     },
     {
       "name": "Watford",
       "shortName": "Watford",
       "players": [
-        "Jason Carley",
-        "John Taylor",
-        "Kevin Connelly",
-        "Nick Archer",
-        "Nick Archer & Jason Carley"
+        {
+          "playerId": "team-player/e3e74a26-d93b-429b-9eb1-a6c7d79d5e23",
+          "name": "Jason Carley"
+        },
+        {
+          "playerId": "team-player/4cc4b8ff-e043-4e21-a506-326c14787c21",
+          "name": "John Taylor"
+        },
+        {
+          "playerId": "team-player/8c299658-ecfd-41a2-a282-731dd7d27114",
+          "name": "Kevin Connelly"
+        },
+        {
+          "playerId": "team-player/6bb1c1c4-cf31-42e6-b50d-e514c899c3f8",
+          "name": "Nick Archer"
+        },
+        {
+          "playerId": "team-player/2485f274-0cf5-4d66-ba76-b114d34e2d4d",
+          "name": "Nick Archer & Jason Carley"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/c1536603-7aec-452d-a981-e00edd3001b2",
       "teams": [
         "Nottingham",
         "Watford"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Ian Vincent",
-            "Kevin Connelly"
+            {
+              "playerId": "team-player/02f505dd-940f-4377-85c6-04abddf06dc0",
+              "name": "Ian Vincent"
+            },
+            {
+              "playerId": "team-player/8c299658-ecfd-41a2-a282-731dd7d27114",
+              "name": "Kevin Connelly"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1c43a09a-cfea-431a-b9fd-4352e75022a5",
               "players": [
                 {
+                  "playerId": "team-player/02f505dd-940f-4377-85c6-04abddf06dc0",
                   "name": "Ian Vincent",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/8c299658-ecfd-41a2-a282-731dd7d27114",
                   "name": "Kevin Connelly",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3a46b6b6-cad6-42c8-8cf2-9ea0500fd8d8",
               "players": [
                 {
+                  "playerId": "team-player/02f505dd-940f-4377-85c6-04abddf06dc0",
                   "name": "Ian Vincent",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8c299658-ecfd-41a2-a282-731dd7d27114",
                   "name": "Kevin Connelly",
                   "score": "6"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5bcbcf7e-bd97-4d4b-ba5c-dee34d2479b3",
               "players": [
                 {
+                  "playerId": "team-player/02f505dd-940f-4377-85c6-04abddf06dc0",
                   "name": "Ian Vincent",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/8c299658-ecfd-41a2-a282-731dd7d27114",
                   "name": "Kevin Connelly",
                   "score": "7"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "Euan Burridge & Ian Burridge",
-            "Nick Archer & Jason Carley"
+            {
+              "playerId": "team-player/f6cc07bf-2fb5-42dc-88d1-64c7ffa3d182",
+              "name": "Euan Burridge & Ian Burridge"
+            },
+            {
+              "playerId": "team-player/2485f274-0cf5-4d66-ba76-b114d34e2d4d",
+              "name": "Nick Archer & Jason Carley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/171b4e79-d0ca-4be3-aebe-e6d83230f3b1",
               "players": [
                 {
+                  "playerId": "team-player/f6cc07bf-2fb5-42dc-88d1-64c7ffa3d182",
                   "name": "Euan Burridge & Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2485f274-0cf5-4d66-ba76-b114d34e2d4d",
                   "name": "Nick Archer & Jason Carley",
                   "score": "3"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b257684b-5871-49ee-b870-ae319492484b",
               "players": [
                 {
+                  "playerId": "team-player/f6cc07bf-2fb5-42dc-88d1-64c7ffa3d182",
                   "name": "Euan Burridge & Ian Burridge",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2485f274-0cf5-4d66-ba76-b114d34e2d4d",
                   "name": "Nick Archer & Jason Carley",
                   "score": "7"
                 }
@@ -124,12 +185,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2fdb7f72-8560-43b5-a1c8-e58ced67be28",
               "players": [
                 {
+                  "playerId": "team-player/f6cc07bf-2fb5-42dc-88d1-64c7ffa3d182",
                   "name": "Euan Burridge & Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2485f274-0cf5-4d66-ba76-b114d34e2d4d",
                   "name": "Nick Archer & Jason Carley",
                   "score": "3"
                 }
@@ -141,17 +205,26 @@
         },
         {
           "players": [
-            "Cathy Turski",
-            "John Taylor"
+            {
+              "playerId": "team-player/2eea5d27-03d9-48dd-ab55-811e6a6a8c80",
+              "name": "Cathy Turski"
+            },
+            {
+              "playerId": "team-player/4cc4b8ff-e043-4e21-a506-326c14787c21",
+              "name": "John Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e3460577-3034-46e7-90b4-5bcb5782f878",
               "players": [
                 {
+                  "playerId": "team-player/2eea5d27-03d9-48dd-ab55-811e6a6a8c80",
                   "name": "Cathy Turski",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4cc4b8ff-e043-4e21-a506-326c14787c21",
                   "name": "John Taylor",
                   "score": "5"
                 }
@@ -160,12 +233,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2f446444-a86f-4d1e-a9fe-b154b6a5e3e3",
               "players": [
                 {
+                  "playerId": "team-player/2eea5d27-03d9-48dd-ab55-811e6a6a8c80",
                   "name": "Cathy Turski",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4cc4b8ff-e043-4e21-a506-326c14787c21",
                   "name": "John Taylor",
                   "score": "7"
                 }
@@ -174,12 +250,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/07827c49-1c53-4496-b928-d14e91c480d5",
               "players": [
                 {
+                  "playerId": "team-player/2eea5d27-03d9-48dd-ab55-811e6a6a8c80",
                   "name": "Cathy Turski",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4cc4b8ff-e043-4e21-a506-326c14787c21",
                   "name": "John Taylor",
                   "score": "7"
                 }
@@ -191,17 +270,26 @@
         },
         {
           "players": [
-            "Euan Burridge",
-            "Nick Archer"
+            {
+              "playerId": "team-player/5c1aaee6-5408-41ca-bb00-4eca3ff7fab1",
+              "name": "Euan Burridge"
+            },
+            {
+              "playerId": "team-player/6bb1c1c4-cf31-42e6-b50d-e514c899c3f8",
+              "name": "Nick Archer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/635d52ec-6acb-42a8-b1a3-1c30f210b3b1",
               "players": [
                 {
+                  "playerId": "team-player/5c1aaee6-5408-41ca-bb00-4eca3ff7fab1",
                   "name": "Euan Burridge",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/6bb1c1c4-cf31-42e6-b50d-e514c899c3f8",
                   "name": "Nick Archer",
                   "score": "7"
                 }
@@ -210,12 +298,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ce4011e8-14aa-4e6f-8243-ad72174cd99f",
               "players": [
                 {
+                  "playerId": "team-player/5c1aaee6-5408-41ca-bb00-4eca3ff7fab1",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6bb1c1c4-cf31-42e6-b50d-e514c899c3f8",
                   "name": "Nick Archer",
                   "score": "3"
                 }
@@ -224,12 +315,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9bf32cca-18f4-4956-8372-bbff56e0c506",
               "players": [
                 {
+                  "playerId": "team-player/5c1aaee6-5408-41ca-bb00-4eca3ff7fab1",
                   "name": "Euan Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6bb1c1c4-cf31-42e6-b50d-e514c899c3f8",
                   "name": "Nick Archer",
                   "score": "4"
                 }
@@ -241,17 +335,26 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "Jason Carley"
+            {
+              "playerId": "team-player/94f94044-e2f6-4814-9dfc-7b3e7b754084",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/e3e74a26-d93b-429b-9eb1-a6c7d79d5e23",
+              "name": "Jason Carley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a8a90861-7542-4174-81d6-069a676dc08a",
               "players": [
                 {
+                  "playerId": "team-player/94f94044-e2f6-4814-9dfc-7b3e7b754084",
                   "name": "Ian Burridge",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e3e74a26-d93b-429b-9eb1-a6c7d79d5e23",
                   "name": "Jason Carley",
                   "score": "5"
                 }
@@ -260,12 +363,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9a96e07e-e918-4893-97b6-6d929a9976df",
               "players": [
                 {
+                  "playerId": "team-player/94f94044-e2f6-4814-9dfc-7b3e7b754084",
                   "name": "Ian Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e3e74a26-d93b-429b-9eb1-a6c7d79d5e23",
                   "name": "Jason Carley",
                   "score": "7"
                 }
@@ -274,12 +380,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7e1ed93a-2ade-4978-b221-bd77f3acb3b0",
               "players": [
                 {
+                  "playerId": "team-player/94f94044-e2f6-4814-9dfc-7b3e7b754084",
                   "name": "Ian Burridge",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e3e74a26-d93b-429b-9eb1-a6c7d79d5e23",
                   "name": "Jason Carley",
                   "score": "7"
                 }
@@ -291,17 +400,26 @@
         },
         {
           "players": [
-            "Ian Vincent",
-            "John Taylor"
+            {
+              "playerId": "team-player/02f505dd-940f-4377-85c6-04abddf06dc0",
+              "name": "Ian Vincent"
+            },
+            {
+              "playerId": "team-player/4cc4b8ff-e043-4e21-a506-326c14787c21",
+              "name": "John Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3ddcedba-4cbc-45b8-9b27-4ee8cd09bde7",
               "players": [
                 {
+                  "playerId": "team-player/02f505dd-940f-4377-85c6-04abddf06dc0",
                   "name": "Ian Vincent",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/4cc4b8ff-e043-4e21-a506-326c14787c21",
                   "name": "John Taylor",
                   "score": "7"
                 }
@@ -310,12 +428,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6972b756-ea15-4aec-87eb-d31b90eca9e7",
               "players": [
                 {
+                  "playerId": "team-player/02f505dd-940f-4377-85c6-04abddf06dc0",
                   "name": "Ian Vincent",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4cc4b8ff-e043-4e21-a506-326c14787c21",
                   "name": "John Taylor",
                   "score": "7"
                 }
@@ -327,17 +448,26 @@
         },
         {
           "players": [
-            "Cathy Turski",
-            "Kevin Connelly"
+            {
+              "playerId": "team-player/2eea5d27-03d9-48dd-ab55-811e6a6a8c80",
+              "name": "Cathy Turski"
+            },
+            {
+              "playerId": "team-player/8c299658-ecfd-41a2-a282-731dd7d27114",
+              "name": "Kevin Connelly"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5730c529-2a13-4de7-8749-2e60f25470e5",
               "players": [
                 {
+                  "playerId": "team-player/2eea5d27-03d9-48dd-ab55-811e6a6a8c80",
                   "name": "Cathy Turski",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/8c299658-ecfd-41a2-a282-731dd7d27114",
                   "name": "Kevin Connelly",
                   "score": "7"
                 }
@@ -346,12 +476,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0caa74de-c11a-48a4-8a3f-bda72ff21c80",
               "players": [
                 {
+                  "playerId": "team-player/2eea5d27-03d9-48dd-ab55-811e6a6a8c80",
                   "name": "Cathy Turski",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8c299658-ecfd-41a2-a282-731dd7d27114",
                   "name": "Kevin Connelly",
                   "score": "7"
                 }

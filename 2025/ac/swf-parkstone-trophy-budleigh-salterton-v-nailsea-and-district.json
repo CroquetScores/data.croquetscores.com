@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/71b30849-28de-4b84-8ded-1ef8e661dcb0",
   "name": "SWF Parkstone Trophy Budleigh Salterton v Nailsea & District A",
   "sport": "ac",
   "firstDay": "2025-08-17",
   "lastDay": "2025-08-17",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Budleigh Salterton",
       "shortName": "Budleigh S",
       "players": [
-        "Mark Huttley",
-        "Nigel Amos",
-        "Nigel Amos & Paul Whittall",
-        "Paul Whittall"
+        {
+          "playerId": "team-player/72589efd-45a3-422a-acbc-56c61f3b18d2",
+          "name": "Mark Huttley"
+        },
+        {
+          "playerId": "team-player/6ae34880-6318-457e-be9a-879f659bb2e0",
+          "name": "Nigel Amos"
+        },
+        {
+          "playerId": "team-player/00d7e33d-08b7-49c9-ad1a-f9b42c5506dc",
+          "name": "Nigel Amos & Paul Whittall"
+        },
+        {
+          "playerId": "team-player/6615b44a-70b5-4cbb-847a-3913aab5d920",
+          "name": "Paul Whittall"
+        }
       ]
     },
     {
       "name": "Nailsea & District A",
       "shortName": "Nailsea &",
       "players": [
-        "James Galpin",
-        "Kristian Chambers",
-        "Kristian Chambers & James Galpin",
-        "Marcus Evans"
+        {
+          "playerId": "team-player/12001337-bb4d-444e-b9c9-02fb2c119a5f",
+          "name": "James Galpin"
+        },
+        {
+          "playerId": "team-player/4d66d38d-bc0f-4c8e-b670-36c162fff358",
+          "name": "Kristian Chambers"
+        },
+        {
+          "playerId": "team-player/3c0dbd8c-e246-4ec0-a844-cdbcd5eb3916",
+          "name": "Kristian Chambers & James Galpin"
+        },
+        {
+          "playerId": "team-player/7253b9f6-1c3f-416c-af0e-adb998cc7f10",
+          "name": "Marcus Evans"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/28c68cb1-c28f-44a0-bc50-fc166305f711",
       "teams": [
         "Budleigh Salterton",
         "Nailsea & District A"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Nigel Amos & Paul Whittall",
-            "Kristian Chambers & James Galpin"
+            {
+              "playerId": "team-player/00d7e33d-08b7-49c9-ad1a-f9b42c5506dc",
+              "name": "Nigel Amos & Paul Whittall"
+            },
+            {
+              "playerId": "team-player/3c0dbd8c-e246-4ec0-a844-cdbcd5eb3916",
+              "name": "Kristian Chambers & James Galpin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c0c0038-37cc-4e89-9f18-46a354aed24d",
               "players": [
                 {
+                  "playerId": "team-player/00d7e33d-08b7-49c9-ad1a-f9b42c5506dc",
                   "name": "Nigel Amos & Paul Whittall",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/3c0dbd8c-e246-4ec0-a844-cdbcd5eb3916",
                   "name": "Kristian Chambers & James Galpin",
                   "score": "26tp"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Mark Huttley",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/72589efd-45a3-422a-acbc-56c61f3b18d2",
+              "name": "Mark Huttley"
+            },
+            {
+              "playerId": "team-player/7253b9f6-1c3f-416c-af0e-adb998cc7f10",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/07491e68-99c7-4d0a-8022-03a1355c3a3c",
               "players": [
                 {
+                  "playerId": "team-player/72589efd-45a3-422a-acbc-56c61f3b18d2",
                   "name": "Mark Huttley",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/7253b9f6-1c3f-416c-af0e-adb998cc7f10",
                   "name": "Marcus Evans",
                   "score": "10"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Mark Huttley",
-            "James Galpin"
+            {
+              "playerId": "team-player/72589efd-45a3-422a-acbc-56c61f3b18d2",
+              "name": "Mark Huttley"
+            },
+            {
+              "playerId": "team-player/12001337-bb4d-444e-b9c9-02fb2c119a5f",
+              "name": "James Galpin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1a684b74-9b25-4c81-b372-d65701b8bf16",
               "players": [
                 {
+                  "playerId": "team-player/72589efd-45a3-422a-acbc-56c61f3b18d2",
                   "name": "Mark Huttley",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/12001337-bb4d-444e-b9c9-02fb2c119a5f",
                   "name": "James Galpin",
                   "score": "22"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Nigel Amos",
-            "Marcus Evans"
+            {
+              "playerId": "team-player/6ae34880-6318-457e-be9a-879f659bb2e0",
+              "name": "Nigel Amos"
+            },
+            {
+              "playerId": "team-player/7253b9f6-1c3f-416c-af0e-adb998cc7f10",
+              "name": "Marcus Evans"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3141bc2-608f-495b-9675-2b73f9308f4e",
               "players": [
                 {
+                  "playerId": "team-player/6ae34880-6318-457e-be9a-879f659bb2e0",
                   "name": "Nigel Amos",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/7253b9f6-1c3f-416c-af0e-adb998cc7f10",
                   "name": "Marcus Evans",
                   "score": "26"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Paul Whittall",
-            "Kristian Chambers"
+            {
+              "playerId": "team-player/6615b44a-70b5-4cbb-847a-3913aab5d920",
+              "name": "Paul Whittall"
+            },
+            {
+              "playerId": "team-player/4d66d38d-bc0f-4c8e-b670-36c162fff358",
+              "name": "Kristian Chambers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f9231ad-0941-4b5e-a2d9-d4058d1c262c",
               "players": [
                 {
+                  "playerId": "team-player/6615b44a-70b5-4cbb-847a-3913aab5d920",
                   "name": "Paul Whittall",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/4d66d38d-bc0f-4c8e-b670-36c162fff358",
                   "name": "Kristian Chambers",
                   "score": "26"
                 }

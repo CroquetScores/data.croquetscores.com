@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4e3fbdf9-0f08-472a-ba50-c63d9d6b130f",
   "name": "GC Inter-Club 2026 - 1st Round - Dulwich v Watford",
   "sport": "gc",
   "firstDay": "2026-03-21",
   "lastDay": "2026-03-21",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Dulwich",
       "shortName": "Dulwich",
       "players": [
-        "Andrew Hobbs",
-        "Guy Scurfield",
-        "Pierre Beaudry",
-        "Simon & Guy",
-        "Simon Carter"
+        {
+          "playerId": "team-player/5b272a1b-4ebe-46d7-86c0-e531ebe3754d",
+          "name": "Andrew Hobbs"
+        },
+        {
+          "playerId": "team-player/0670c391-d546-4ef9-a46b-9770d17847b2",
+          "name": "Guy Scurfield"
+        },
+        {
+          "playerId": "team-player/d4a37bd2-dbb1-4b0b-8d2e-8cf24f4cbeca",
+          "name": "Pierre Beaudry"
+        },
+        {
+          "playerId": "team-player/dea62672-b83c-49e5-b456-fec2c9cad335",
+          "name": "Simon & Guy"
+        },
+        {
+          "playerId": "team-player/ba0bea15-bf89-4912-a119-b0add7712124",
+          "name": "Simon Carter"
+        }
       ]
     },
     {
       "name": "Watford",
       "shortName": "Watford",
       "players": [
-        "Eddie Chung",
-        "John Taylor",
-        "Kevin Connolly",
-        "Nick & John",
-        "Nick Archer"
+        {
+          "playerId": "team-player/ebaa2687-bb8b-4b6b-9383-ffaadaf212d7",
+          "name": "Eddie Chung"
+        },
+        {
+          "playerId": "team-player/5ca1632d-0d76-4d98-af45-5264bdbb0062",
+          "name": "John Taylor"
+        },
+        {
+          "playerId": "team-player/d327128d-ffea-4daa-972e-595d8ccd68c2",
+          "name": "Kevin Connolly"
+        },
+        {
+          "playerId": "team-player/469ed1a1-727c-42df-ac60-554a3a09ce9e",
+          "name": "Nick & John"
+        },
+        {
+          "playerId": "team-player/044adabe-37cb-4f17-9219-577013d149e3",
+          "name": "Nick Archer"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/46df8b38-673e-43c3-8da7-e5907bb0abc6",
       "teams": [
         "Dulwich",
         "Watford"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Simon & Guy",
-            "Nick & John"
+            {
+              "playerId": "team-player/dea62672-b83c-49e5-b456-fec2c9cad335",
+              "name": "Simon & Guy"
+            },
+            {
+              "playerId": "team-player/469ed1a1-727c-42df-ac60-554a3a09ce9e",
+              "name": "Nick & John"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca85d318-ac07-495c-b811-ca0b47122982",
               "players": [
                 {
+                  "playerId": "team-player/dea62672-b83c-49e5-b456-fec2c9cad335",
                   "name": "Simon & Guy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/469ed1a1-727c-42df-ac60-554a3a09ce9e",
                   "name": "Nick & John",
                   "score": "4"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/869a6030-8a44-4e37-80da-5414881dbf0f",
               "players": [
                 {
+                  "playerId": "team-player/dea62672-b83c-49e5-b456-fec2c9cad335",
                   "name": "Simon & Guy",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/469ed1a1-727c-42df-ac60-554a3a09ce9e",
                   "name": "Nick & John",
                   "score": "7"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/00a6e3e9-b29f-4af0-9dd1-85b0060aec4e",
               "players": [
                 {
+                  "playerId": "team-player/dea62672-b83c-49e5-b456-fec2c9cad335",
                   "name": "Simon & Guy",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/469ed1a1-727c-42df-ac60-554a3a09ce9e",
                   "name": "Nick & John",
                   "score": "4"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "Pierre Beaudry",
-            "Kevin Connolly"
+            {
+              "playerId": "team-player/d4a37bd2-dbb1-4b0b-8d2e-8cf24f4cbeca",
+              "name": "Pierre Beaudry"
+            },
+            {
+              "playerId": "team-player/d327128d-ffea-4daa-972e-595d8ccd68c2",
+              "name": "Kevin Connolly"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7475de0f-e30b-4460-b932-5fbb15b102d0",
               "players": [
                 {
+                  "playerId": "team-player/d4a37bd2-dbb1-4b0b-8d2e-8cf24f4cbeca",
                   "name": "Pierre Beaudry",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d327128d-ffea-4daa-972e-595d8ccd68c2",
                   "name": "Kevin Connolly",
                   "score": "3"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9a16db09-7d0f-4e85-8748-ea3f14d9bd60",
               "players": [
                 {
+                  "playerId": "team-player/d4a37bd2-dbb1-4b0b-8d2e-8cf24f4cbeca",
                   "name": "Pierre Beaudry",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d327128d-ffea-4daa-972e-595d8ccd68c2",
                   "name": "Kevin Connolly",
                   "score": "5"
                 }
@@ -127,17 +188,26 @@
         },
         {
           "players": [
-            "Andrew Hobbs",
-            "Eddie Chung"
+            {
+              "playerId": "team-player/5b272a1b-4ebe-46d7-86c0-e531ebe3754d",
+              "name": "Andrew Hobbs"
+            },
+            {
+              "playerId": "team-player/ebaa2687-bb8b-4b6b-9383-ffaadaf212d7",
+              "name": "Eddie Chung"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a6785a90-c807-4bd4-8aea-bcb969cd685b",
               "players": [
                 {
+                  "playerId": "team-player/5b272a1b-4ebe-46d7-86c0-e531ebe3754d",
                   "name": "Andrew Hobbs",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ebaa2687-bb8b-4b6b-9383-ffaadaf212d7",
                   "name": "Eddie Chung",
                   "score": "4"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f49e6441-1823-4396-aec5-beeb82b5b588",
               "players": [
                 {
+                  "playerId": "team-player/5b272a1b-4ebe-46d7-86c0-e531ebe3754d",
                   "name": "Andrew Hobbs",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ebaa2687-bb8b-4b6b-9383-ffaadaf212d7",
                   "name": "Eddie Chung",
                   "score": "7"
                 }
@@ -160,12 +233,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b9938fdd-867d-455c-a51a-1df58f00f2a3",
               "players": [
                 {
+                  "playerId": "team-player/5b272a1b-4ebe-46d7-86c0-e531ebe3754d",
                   "name": "Andrew Hobbs",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ebaa2687-bb8b-4b6b-9383-ffaadaf212d7",
                   "name": "Eddie Chung",
                   "score": "2"
                 }
@@ -177,17 +253,26 @@
         },
         {
           "players": [
-            "Simon Carter",
-            "Nick Archer"
+            {
+              "playerId": "team-player/ba0bea15-bf89-4912-a119-b0add7712124",
+              "name": "Simon Carter"
+            },
+            {
+              "playerId": "team-player/044adabe-37cb-4f17-9219-577013d149e3",
+              "name": "Nick Archer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/911a2b0b-fa00-4abe-b9aa-436899d3054c",
               "players": [
                 {
+                  "playerId": "team-player/ba0bea15-bf89-4912-a119-b0add7712124",
                   "name": "Simon Carter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/044adabe-37cb-4f17-9219-577013d149e3",
                   "name": "Nick Archer",
                   "score": "3"
                 }
@@ -196,12 +281,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/490b477b-abbd-41d6-9d43-dd6895e6e6b0",
               "players": [
                 {
+                  "playerId": "team-player/ba0bea15-bf89-4912-a119-b0add7712124",
                   "name": "Simon Carter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/044adabe-37cb-4f17-9219-577013d149e3",
                   "name": "Nick Archer",
                   "score": "6"
                 }
@@ -213,17 +301,26 @@
         },
         {
           "players": [
-            "Guy Scurfield",
-            "John Taylor"
+            {
+              "playerId": "team-player/0670c391-d546-4ef9-a46b-9770d17847b2",
+              "name": "Guy Scurfield"
+            },
+            {
+              "playerId": "team-player/5ca1632d-0d76-4d98-af45-5264bdbb0062",
+              "name": "John Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0034a2dc-7de8-40f6-8973-9dbe37336898",
               "players": [
                 {
+                  "playerId": "team-player/0670c391-d546-4ef9-a46b-9770d17847b2",
                   "name": "Guy Scurfield",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5ca1632d-0d76-4d98-af45-5264bdbb0062",
                   "name": "John Taylor",
                   "score": "6"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d79a2b41-26f4-438b-b4b5-089ad4b26321",
               "players": [
                 {
+                  "playerId": "team-player/0670c391-d546-4ef9-a46b-9770d17847b2",
                   "name": "Guy Scurfield",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/5ca1632d-0d76-4d98-af45-5264bdbb0062",
                   "name": "John Taylor",
                   "score": "7"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Pierre Beaudry",
-            "Eddie Chung"
+            {
+              "playerId": "team-player/d4a37bd2-dbb1-4b0b-8d2e-8cf24f4cbeca",
+              "name": "Pierre Beaudry"
+            },
+            {
+              "playerId": "team-player/ebaa2687-bb8b-4b6b-9383-ffaadaf212d7",
+              "name": "Eddie Chung"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ddc7451f-3a28-4008-a049-94bdf48f6132",
               "players": [
                 {
+                  "playerId": "team-player/d4a37bd2-dbb1-4b0b-8d2e-8cf24f4cbeca",
                   "name": "Pierre Beaudry",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ebaa2687-bb8b-4b6b-9383-ffaadaf212d7",
                   "name": "Eddie Chung",
                   "score": "2"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c98bc20c-2c7b-4036-8de4-9d335e0985dd",
               "players": [
                 {
+                  "playerId": "team-player/d4a37bd2-dbb1-4b0b-8d2e-8cf24f4cbeca",
                   "name": "Pierre Beaudry",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ebaa2687-bb8b-4b6b-9383-ffaadaf212d7",
                   "name": "Eddie Chung",
                   "score": "4"
                 }
@@ -285,17 +397,26 @@
         },
         {
           "players": [
-            "Andrew Hobbs",
-            "Kevin Connolly"
+            {
+              "playerId": "team-player/5b272a1b-4ebe-46d7-86c0-e531ebe3754d",
+              "name": "Andrew Hobbs"
+            },
+            {
+              "playerId": "team-player/d327128d-ffea-4daa-972e-595d8ccd68c2",
+              "name": "Kevin Connolly"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b5219120-6b80-4d08-abc1-1ce7de1ea386",
               "players": [
                 {
+                  "playerId": "team-player/5b272a1b-4ebe-46d7-86c0-e531ebe3754d",
                   "name": "Andrew Hobbs",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d327128d-ffea-4daa-972e-595d8ccd68c2",
                   "name": "Kevin Connolly",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9e252297-df4b-462a-ac06-8662c2fbb28a",
               "players": [
                 {
+                  "playerId": "team-player/5b272a1b-4ebe-46d7-86c0-e531ebe3754d",
                   "name": "Andrew Hobbs",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d327128d-ffea-4daa-972e-595d8ccd68c2",
                   "name": "Kevin Connolly",
                   "score": "7"
                 }

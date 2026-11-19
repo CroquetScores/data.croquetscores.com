@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b5247bd3-1b29-4728-9708-eff6f3759293",
   "name": "ERC ECL 2023 Qualifier - CERN CC (Switzerland)",
   "sport": "gc",
   "firstDay": "2023-06-10",
   "lastDay": "2023-06-11",
   "country": "ch",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "CERN CC (Switzerland)",
       "shortName": "CERN CC (S",
       "players": [
-        "Danny Davids",
-        "Davids D / Davids J",
-        "Ian Sexton",
-        "Peter Payne",
-        "Rikk Guidotti",
-        "Sexton / Payne"
+        {
+          "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
+          "name": "Danny Davids"
+        },
+        {
+          "playerId": "team-player/1f36e9d9-99c2-4969-96ae-036f320bcab4",
+          "name": "Davids D / Davids J"
+        },
+        {
+          "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
+          "name": "Ian Sexton"
+        },
+        {
+          "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
+          "name": "Peter Payne"
+        },
+        {
+          "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
+          "name": "Rikk Guidotti"
+        },
+        {
+          "playerId": "team-player/6a083d19-c0b3-422c-a132-089742d7b6bb",
+          "name": "Sexton / Payne"
+        }
       ]
     },
     {
       "name": "CC Suedwest (Germany)",
       "shortName": "CC Suedwes",
       "players": [
-        "Ferguson K / Boeer M",
-        "Ferguson R / Boeer-Patino",
-        "Kathrin Boeer",
-        "Kevin Ferguson",
-        "Michael Boeer",
-        "Raymond  Ferguson"
+        {
+          "playerId": "team-player/e932efe0-be93-4808-b6bd-7b6f72420982",
+          "name": "Ferguson K / Boeer M"
+        },
+        {
+          "playerId": "team-player/773f7070-606a-436a-80b5-4e7c93bb1c6f",
+          "name": "Ferguson R / Boeer-Patino"
+        },
+        {
+          "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
+          "name": "Kathrin Boeer"
+        },
+        {
+          "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
+          "name": "Kevin Ferguson"
+        },
+        {
+          "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
+          "name": "Michael Boeer"
+        },
+        {
+          "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
+          "name": "Raymond  Ferguson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/ad87d8b1-2788-4fcd-a35a-5febdf42cfc3",
       "teams": [
         "CERN CC (Switzerland)",
         "CC Suedwest (Germany)"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Ian Sexton",
-            "Kathrin Boeer"
+            {
+              "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
+              "name": "Kathrin Boeer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d5ae5f96-9544-4c7a-ae2b-d1fddb2a9824",
               "players": [
                 {
+                  "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
                   "name": "Kathrin Boeer",
                   "score": "0"
                 }
@@ -62,12 +111,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8b27c34c-c220-45c8-8e92-ed35754d9c89",
               "players": [
                 {
+                  "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
                   "name": "Kathrin Boeer",
                   "score": "1"
                 }
@@ -79,17 +131,26 @@
         },
         {
           "players": [
-            "Peter Payne",
-            "Raymond  Ferguson"
+            {
+              "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
+              "name": "Peter Payne"
+            },
+            {
+              "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
+              "name": "Raymond  Ferguson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d920661f-ccb5-42bf-bc34-f254f0fca638",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
                   "name": "Raymond  Ferguson",
                   "score": "7"
                 }
@@ -98,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fd85ae7d-06ab-4456-b46e-afa5d8c5e218",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
                   "name": "Raymond  Ferguson",
                   "score": "5"
                 }
@@ -112,12 +176,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c16b3515-6918-4233-bef4-22587f5bd2a9",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
                   "name": "Raymond  Ferguson",
                   "score": "7"
                 }
@@ -129,17 +196,26 @@
         },
         {
           "players": [
-            "Danny Davids",
-            "Michael Boeer"
+            {
+              "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
+              "name": "Danny Davids"
+            },
+            {
+              "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
+              "name": "Michael Boeer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/11255e69-ba87-4de1-951b-245e4ad945f3",
               "players": [
                 {
+                  "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
                   "name": "Danny Davids",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "7"
                 }
@@ -148,12 +224,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9c556d76-2d18-4202-bbdb-d276732f8d7c",
               "players": [
                 {
+                  "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
                   "name": "Danny Davids",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "4"
                 }
@@ -162,12 +241,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fbe48724-b65d-4abd-8da7-ba1e0feb1c94",
               "players": [
                 {
+                  "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
                   "name": "Danny Davids",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "6"
                 }
@@ -179,17 +261,26 @@
         },
         {
           "players": [
-            "Rikk Guidotti",
-            "Kevin Ferguson"
+            {
+              "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
+              "name": "Rikk Guidotti"
+            },
+            {
+              "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
+              "name": "Kevin Ferguson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/98fdb290-0cbb-4a8b-a365-e2da86698864",
               "players": [
                 {
+                  "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
                   "name": "Rikk Guidotti",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 }
@@ -198,12 +289,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d2009c41-f2c6-4a87-b5c7-6247315332c5",
               "players": [
                 {
+                  "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
                   "name": "Rikk Guidotti",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 }
@@ -215,17 +309,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "Raymond  Ferguson"
+            {
+              "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
+              "name": "Raymond  Ferguson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1e72819b-ad3f-4bcf-9f2f-68b7cbe84905",
               "players": [
                 {
+                  "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
                   "name": "Raymond  Ferguson",
                   "score": "5"
                 }
@@ -234,12 +337,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/53b4707d-d613-4370-a2ef-a246f1061ba4",
               "players": [
                 {
+                  "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
                   "name": "Raymond  Ferguson",
                   "score": "3"
                 }
@@ -251,17 +357,26 @@
         },
         {
           "players": [
-            "Peter Payne",
-            "Kathrin Boeer"
+            {
+              "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
+              "name": "Peter Payne"
+            },
+            {
+              "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
+              "name": "Kathrin Boeer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/355ad947-1a8b-4249-aa93-30f1bd5cc096",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
                   "name": "Kathrin Boeer",
                   "score": "4"
                 }
@@ -270,12 +385,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fcde7b3d-5d29-40ef-8653-4ea2904a300b",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
                   "name": "Kathrin Boeer",
                   "score": "3"
                 }
@@ -287,17 +405,26 @@
         },
         {
           "players": [
-            "Danny Davids",
-            "Kevin Ferguson"
+            {
+              "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
+              "name": "Danny Davids"
+            },
+            {
+              "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
+              "name": "Kevin Ferguson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5e07627a-fd43-4178-b2b1-b6f826350d96",
               "players": [
                 {
+                  "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
                   "name": "Danny Davids",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 }
@@ -306,12 +433,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bc173cae-a232-48b9-8df9-2da905e697d0",
               "players": [
                 {
+                  "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
                   "name": "Danny Davids",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 }
@@ -323,17 +453,26 @@
         },
         {
           "players": [
-            "Rikk Guidotti",
-            "Michael Boeer"
+            {
+              "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
+              "name": "Rikk Guidotti"
+            },
+            {
+              "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
+              "name": "Michael Boeer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e1e0c760-8054-4d1f-ae2e-7f89ac8bdcb8",
               "players": [
                 {
+                  "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
                   "name": "Rikk Guidotti",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "7"
                 }
@@ -342,12 +481,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/09c76e06-ac95-4fe0-ba6b-b28edba368eb",
               "players": [
                 {
+                  "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
                   "name": "Rikk Guidotti",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "7"
                 }
@@ -359,17 +501,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "Michael Boeer"
+            {
+              "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
+              "name": "Michael Boeer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0bb02391-09b7-476d-b23b-38414203eded",
               "players": [
                 {
+                  "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "3"
                 }
@@ -378,12 +529,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6f1100e3-224b-476e-8ce3-0b63a0880b2b",
               "players": [
                 {
+                  "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "3"
                 }
@@ -395,17 +549,26 @@
         },
         {
           "players": [
-            "Peter Payne",
-            "Kevin Ferguson"
+            {
+              "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
+              "name": "Peter Payne"
+            },
+            {
+              "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
+              "name": "Kevin Ferguson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1a987a59-1b2f-4a83-9bbc-3115a55cde93",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 }
@@ -414,12 +577,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/486b8356-a1ee-40a8-a843-a9257b7a3dbe",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
                   "name": "Kevin Ferguson",
                   "score": "5"
                 }
@@ -428,12 +594,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8991629d-a384-4427-a323-3d402b9cce56",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
                   "name": "Kevin Ferguson",
                   "score": "7"
                 }
@@ -445,17 +614,26 @@
         },
         {
           "players": [
-            "Danny Davids",
-            "Kathrin Boeer"
+            {
+              "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
+              "name": "Danny Davids"
+            },
+            {
+              "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
+              "name": "Kathrin Boeer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/df45d68a-cbb4-4472-b0c7-8ac0d6afd745",
               "players": [
                 {
+                  "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
                   "name": "Danny Davids",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
                   "name": "Kathrin Boeer",
                   "score": "4"
                 }
@@ -464,12 +642,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/05e4bb4f-707e-4cd0-95e3-847ec34f1e29",
               "players": [
                 {
+                  "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
                   "name": "Danny Davids",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
                   "name": "Kathrin Boeer",
                   "score": "4"
                 }
@@ -481,17 +662,26 @@
         },
         {
           "players": [
-            "Rikk Guidotti",
-            "Raymond  Ferguson"
+            {
+              "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
+              "name": "Rikk Guidotti"
+            },
+            {
+              "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
+              "name": "Raymond  Ferguson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8a053798-7677-4bb3-bc58-533d07cbe9f7",
               "players": [
                 {
+                  "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
                   "name": "Rikk Guidotti",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
                   "name": "Raymond  Ferguson",
                   "score": "7"
                 }
@@ -500,12 +690,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1d3de0d3-1344-42c3-86f7-ff0e2b3b4e07",
               "players": [
                 {
+                  "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
                   "name": "Rikk Guidotti",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
                   "name": "Raymond  Ferguson",
                   "score": "7"
                 }
@@ -517,17 +710,26 @@
         },
         {
           "players": [
-            "Ian Sexton",
-            "Kevin Ferguson"
+            {
+              "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
+              "name": "Ian Sexton"
+            },
+            {
+              "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
+              "name": "Kevin Ferguson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c36fda8c-faae-42ce-b4e6-7f6218fe2e3a",
               "players": [
                 {
+                  "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
                   "name": "Kevin Ferguson",
                   "score": "2"
                 }
@@ -536,12 +738,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/87e28354-93bc-4684-8d82-a42099c209ae",
               "players": [
                 {
+                  "playerId": "team-player/92fbfacb-567c-46d9-8203-b3fd12b70d8b",
                   "name": "Ian Sexton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3cbd7886-7108-410d-8f48-3e253eff4d4a",
                   "name": "Kevin Ferguson",
                   "score": "5"
                 }
@@ -553,17 +758,26 @@
         },
         {
           "players": [
-            "Peter Payne",
-            "Michael Boeer"
+            {
+              "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
+              "name": "Peter Payne"
+            },
+            {
+              "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
+              "name": "Michael Boeer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/56ac81c0-e310-45a3-9b44-7c9d52bfdd41",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "7"
                 }
@@ -572,12 +786,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f858b83a-cf7c-470f-807f-f4527fa26b61",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "4"
                 }
@@ -586,12 +803,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/51402921-1d9e-45f1-aedb-8ed16cd41620",
               "players": [
                 {
+                  "playerId": "team-player/0b925a8a-17f8-4313-b42a-52ded363a731",
                   "name": "Peter Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/007f9b90-e66b-4548-a9fe-e50b529e6ef6",
                   "name": "Michael Boeer",
                   "score": "2"
                 }
@@ -603,17 +823,26 @@
         },
         {
           "players": [
-            "Danny Davids",
-            "Raymond  Ferguson"
+            {
+              "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
+              "name": "Danny Davids"
+            },
+            {
+              "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
+              "name": "Raymond  Ferguson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8a94a34f-5a95-455f-b863-ad8b21d781d8",
               "players": [
                 {
+                  "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
                   "name": "Danny Davids",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
                   "name": "Raymond  Ferguson",
                   "score": "4"
                 }
@@ -622,12 +851,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f681e601-c4b9-4fbc-9e66-7f849eebbaf0",
               "players": [
                 {
+                  "playerId": "team-player/4479c00e-5e3b-44d2-92d6-60b4b26c45d1",
                   "name": "Danny Davids",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/87b6919f-0e81-4050-9895-89703fd53226",
                   "name": "Raymond  Ferguson",
                   "score": "3"
                 }
@@ -639,17 +871,26 @@
         },
         {
           "players": [
-            "Rikk Guidotti",
-            "Kathrin Boeer"
+            {
+              "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
+              "name": "Rikk Guidotti"
+            },
+            {
+              "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
+              "name": "Kathrin Boeer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ef179d23-233c-456c-a89c-73e1597f7a2d",
               "players": [
                 {
+                  "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
                   "name": "Rikk Guidotti",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
                   "name": "Kathrin Boeer",
                   "score": "6"
                 }
@@ -658,12 +899,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6c51fe40-4273-4975-a2df-a2ba2836da82",
               "players": [
                 {
+                  "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
                   "name": "Rikk Guidotti",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
                   "name": "Kathrin Boeer",
                   "score": "7"
                 }
@@ -672,12 +916,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1ddb7013-e0c9-4a45-b3b6-7b3f8e7192ef",
               "players": [
                 {
+                  "playerId": "team-player/f5937faa-bd66-4898-a8d4-9ee854cd7fb7",
                   "name": "Rikk Guidotti",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/b22ee50c-2272-429f-9527-95f58f31088d",
                   "name": "Kathrin Boeer",
                   "score": "7"
                 }
@@ -690,6 +937,7 @@
       ]
     },
     {
+      "competitionId": "competition/93010ca8-e697-4238-964c-34b32aab5253",
       "teams": [
         "CERN CC (Switzerland)",
         "CC Suedwest (Germany)"
@@ -699,17 +947,26 @@
       "matches": [
         {
           "players": [
-            "Sexton / Payne",
-            "Ferguson K / Boeer M"
+            {
+              "playerId": "team-player/6a083d19-c0b3-422c-a132-089742d7b6bb",
+              "name": "Sexton / Payne"
+            },
+            {
+              "playerId": "team-player/e932efe0-be93-4808-b6bd-7b6f72420982",
+              "name": "Ferguson K / Boeer M"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b199862d-a3f4-4997-9d98-0733a24da367",
               "players": [
                 {
+                  "playerId": "team-player/6a083d19-c0b3-422c-a132-089742d7b6bb",
                   "name": "Sexton / Payne",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e932efe0-be93-4808-b6bd-7b6f72420982",
                   "name": "Ferguson K / Boeer M",
                   "score": "2"
                 }
@@ -721,17 +978,26 @@
         },
         {
           "players": [
-            "Davids D / Davids J",
-            "Ferguson R / Boeer-Patino"
+            {
+              "playerId": "team-player/1f36e9d9-99c2-4969-96ae-036f320bcab4",
+              "name": "Davids D / Davids J"
+            },
+            {
+              "playerId": "team-player/773f7070-606a-436a-80b5-4e7c93bb1c6f",
+              "name": "Ferguson R / Boeer-Patino"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d8c9eaf8-a292-4e1f-82ae-792bcc194417",
               "players": [
                 {
+                  "playerId": "team-player/1f36e9d9-99c2-4969-96ae-036f320bcab4",
                   "name": "Davids D / Davids J",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/773f7070-606a-436a-80b5-4e7c93bb1c6f",
                   "name": "Ferguson R / Boeer-Patino",
                   "score": "7"
                 }

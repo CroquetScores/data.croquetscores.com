@@ -1,51 +1,127 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/6700af25-121d-4cbc-9734-4be6981ecb6d",
   "name": "Croquetwest AC Country v City",
   "sport": "ac",
   "firstDay": "2021-05-24",
   "lastDay": "2021-05-24",
   "country": "au",
   "region": "wa",
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Country",
       "shortName": "Country",
       "players": [
-        "Bernie Lynch",
-        "Dave Hedges",
-        "Eric Ayling",
-        "Eric Ayling & Robyn Dart",
-        "Gary Phipps",
-        "Jasmine Leggett",
-        "Jasmine Leggett and Dave Hedges",
-        "Max Woolf",
-        "Max Woolf & Gary Phipps",
-        "Robyn Dart",
-        "Sheila Twine",
-        "Sheila Twine and Bernie Lynch"
+        {
+          "playerId": "team-player/7c08d75e-c0d4-4547-b96d-27b9e5adacb2",
+          "name": "Bernie Lynch"
+        },
+        {
+          "playerId": "team-player/b2f36638-b4d0-49c5-b315-cf11c1c2ad85",
+          "name": "Dave Hedges"
+        },
+        {
+          "playerId": "team-player/6bc949da-a62a-4e49-bb0e-5afb5a89d224",
+          "name": "Eric Ayling"
+        },
+        {
+          "playerId": "team-player/2ae42612-bf07-4b6e-8a2b-e1edf9252352",
+          "name": "Eric Ayling & Robyn Dart"
+        },
+        {
+          "playerId": "team-player/ca47fe3e-5aa3-45e5-b73a-5a953e689c77",
+          "name": "Gary Phipps"
+        },
+        {
+          "playerId": "team-player/0da653a7-1e60-4c8d-9252-19d9a147b7ad",
+          "name": "Jasmine Leggett"
+        },
+        {
+          "playerId": "team-player/afabbe1e-a958-4a77-8ca4-fbba2cf0b929",
+          "name": "Jasmine Leggett and Dave Hedges"
+        },
+        {
+          "playerId": "team-player/115c9b9e-1467-4454-8384-323f0c21631c",
+          "name": "Max Woolf"
+        },
+        {
+          "playerId": "team-player/18c73769-a5f3-4a0f-bc2d-44763afa3b61",
+          "name": "Max Woolf & Gary Phipps"
+        },
+        {
+          "playerId": "team-player/1be35a2c-62ea-4972-9820-c129e1a492bb",
+          "name": "Robyn Dart"
+        },
+        {
+          "playerId": "team-player/03d0031b-97c2-4f1a-a92a-d523718cecbb",
+          "name": "Sheila Twine"
+        },
+        {
+          "playerId": "team-player/2dc2bc78-1168-4e04-81c4-85e7468075d1",
+          "name": "Sheila Twine and Bernie Lynch"
+        }
       ]
     },
     {
       "name": "City",
       "shortName": "City",
       "players": [
-        "Coral Broun",
-        "Coral Broun and Peter Pekaar",
-        "Elizabeth Petrich",
-        "Geoff Longshaw",
-        "James Brown",
-        "James Brown and Geoff Longshaw",
-        "Jeff Newcombe",
-        "Jeff Newcombe and Tim Barkes",
-        "Michael Murphy",
-        "Michael Murphy and Elizabeth Petrich",
-        "Peter Pekaar",
-        "Tim Barkes"
+        {
+          "playerId": "team-player/9fba4e4e-efa7-495b-8fae-5316d9471fbd",
+          "name": "Coral Broun"
+        },
+        {
+          "playerId": "team-player/2728637f-31e0-4773-b7a6-04a76f53387a",
+          "name": "Coral Broun and Peter Pekaar"
+        },
+        {
+          "playerId": "team-player/cbefa6ae-6994-4937-ab1d-d7f90e98c9f8",
+          "name": "Elizabeth Petrich"
+        },
+        {
+          "playerId": "team-player/cbf2947b-a408-45e1-90db-584ebdab51c3",
+          "name": "Geoff Longshaw"
+        },
+        {
+          "playerId": "team-player/ac7913f8-1e89-41d2-8c2a-382f8a3d50d4",
+          "name": "James Brown"
+        },
+        {
+          "playerId": "team-player/6ef6f10d-ceb5-4e68-971d-a0ec1355919e",
+          "name": "James Brown and Geoff Longshaw"
+        },
+        {
+          "playerId": "team-player/520c451e-0f1e-4969-918b-cf287b2b1b70",
+          "name": "Jeff Newcombe"
+        },
+        {
+          "playerId": "team-player/a2947b5e-3883-4f43-940b-8bf1e3da970c",
+          "name": "Jeff Newcombe and Tim Barkes"
+        },
+        {
+          "playerId": "team-player/53968cd4-7857-4190-b68c-79836dd91853",
+          "name": "Michael Murphy"
+        },
+        {
+          "playerId": "team-player/d1706582-29fd-45cc-94ad-52f8134404e4",
+          "name": "Michael Murphy and Elizabeth Petrich"
+        },
+        {
+          "playerId": "team-player/0d6cc5ef-3da7-4837-bf2a-53f47fac479a",
+          "name": "Peter Pekaar"
+        },
+        {
+          "playerId": "team-player/582de2ff-efa7-4417-97c8-7afbdeadbb91",
+          "name": "Tim Barkes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/c12930e9-6681-472f-a381-b2061fe5bbb8",
       "teams": [
         "Country",
         "City"
@@ -55,17 +131,26 @@
       "matches": [
         {
           "players": [
-            "Max Woolf & Gary Phipps",
-            "Jeff Newcombe and Tim Barkes"
+            {
+              "playerId": "team-player/18c73769-a5f3-4a0f-bc2d-44763afa3b61",
+              "name": "Max Woolf & Gary Phipps"
+            },
+            {
+              "playerId": "team-player/a2947b5e-3883-4f43-940b-8bf1e3da970c",
+              "name": "Jeff Newcombe and Tim Barkes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b16f8078-b34a-43ca-9707-f3898be16a9e",
               "players": [
                 {
+                  "playerId": "team-player/18c73769-a5f3-4a0f-bc2d-44763afa3b61",
                   "name": "Max Woolf & Gary Phipps",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/a2947b5e-3883-4f43-940b-8bf1e3da970c",
                   "name": "Jeff Newcombe and Tim Barkes",
                   "score": "26"
                 }
@@ -77,17 +162,26 @@
         },
         {
           "players": [
-            "Bernie Lynch",
-            "Michael Murphy"
+            {
+              "playerId": "team-player/7c08d75e-c0d4-4547-b96d-27b9e5adacb2",
+              "name": "Bernie Lynch"
+            },
+            {
+              "playerId": "team-player/53968cd4-7857-4190-b68c-79836dd91853",
+              "name": "Michael Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa36080e-9cbd-434b-8e5a-f1a550deb914",
               "players": [
                 {
+                  "playerId": "team-player/7c08d75e-c0d4-4547-b96d-27b9e5adacb2",
                   "name": "Bernie Lynch",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/53968cd4-7857-4190-b68c-79836dd91853",
                   "name": "Michael Murphy",
                   "score": "13"
                 }
@@ -99,17 +193,26 @@
         },
         {
           "players": [
-            "Sheila Twine",
-            "Elizabeth Petrich"
+            {
+              "playerId": "team-player/03d0031b-97c2-4f1a-a92a-d523718cecbb",
+              "name": "Sheila Twine"
+            },
+            {
+              "playerId": "team-player/cbefa6ae-6994-4937-ab1d-d7f90e98c9f8",
+              "name": "Elizabeth Petrich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4273d0cc-0892-4395-94a6-30b6aa01023a",
               "players": [
                 {
+                  "playerId": "team-player/03d0031b-97c2-4f1a-a92a-d523718cecbb",
                   "name": "Sheila Twine",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/cbefa6ae-6994-4937-ab1d-d7f90e98c9f8",
                   "name": "Elizabeth Petrich",
                   "score": "14"
                 }
@@ -121,17 +224,26 @@
         },
         {
           "players": [
-            "Jasmine Leggett",
-            "Geoff Longshaw"
+            {
+              "playerId": "team-player/0da653a7-1e60-4c8d-9252-19d9a147b7ad",
+              "name": "Jasmine Leggett"
+            },
+            {
+              "playerId": "team-player/cbf2947b-a408-45e1-90db-584ebdab51c3",
+              "name": "Geoff Longshaw"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8e9a6505-0e08-4788-ac19-6db5c3b702f1",
               "players": [
                 {
+                  "playerId": "team-player/0da653a7-1e60-4c8d-9252-19d9a147b7ad",
                   "name": "Jasmine Leggett",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/cbf2947b-a408-45e1-90db-584ebdab51c3",
                   "name": "Geoff Longshaw",
                   "score": "5"
                 }
@@ -143,17 +255,26 @@
         },
         {
           "players": [
-            "Dave Hedges",
-            "James Brown"
+            {
+              "playerId": "team-player/b2f36638-b4d0-49c5-b315-cf11c1c2ad85",
+              "name": "Dave Hedges"
+            },
+            {
+              "playerId": "team-player/ac7913f8-1e89-41d2-8c2a-382f8a3d50d4",
+              "name": "James Brown"
+            }
           ],
           "games": [
             {
+              "gameId": "game/67561b91-7e0e-4a7e-bcba-e0c1ddd6efac",
               "players": [
                 {
+                  "playerId": "team-player/b2f36638-b4d0-49c5-b315-cf11c1c2ad85",
                   "name": "Dave Hedges",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/ac7913f8-1e89-41d2-8c2a-382f8a3d50d4",
                   "name": "James Brown",
                   "score": "14"
                 }
@@ -165,17 +286,26 @@
         },
         {
           "players": [
-            "Eric Ayling & Robyn Dart",
-            "Coral Broun and Peter Pekaar"
+            {
+              "playerId": "team-player/2ae42612-bf07-4b6e-8a2b-e1edf9252352",
+              "name": "Eric Ayling & Robyn Dart"
+            },
+            {
+              "playerId": "team-player/2728637f-31e0-4773-b7a6-04a76f53387a",
+              "name": "Coral Broun and Peter Pekaar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f6d59b8-e96d-4b81-87dd-d9d4a870fe33",
               "players": [
                 {
+                  "playerId": "team-player/2ae42612-bf07-4b6e-8a2b-e1edf9252352",
                   "name": "Eric Ayling & Robyn Dart",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/2728637f-31e0-4773-b7a6-04a76f53387a",
                   "name": "Coral Broun and Peter Pekaar",
                   "score": "11"
                 }
@@ -187,17 +317,26 @@
         },
         {
           "players": [
-            "Eric Ayling",
-            "Peter Pekaar"
+            {
+              "playerId": "team-player/6bc949da-a62a-4e49-bb0e-5afb5a89d224",
+              "name": "Eric Ayling"
+            },
+            {
+              "playerId": "team-player/0d6cc5ef-3da7-4837-bf2a-53f47fac479a",
+              "name": "Peter Pekaar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/94fe4300-d21b-493e-aa97-4a00ae2eafd2",
               "players": [
                 {
+                  "playerId": "team-player/6bc949da-a62a-4e49-bb0e-5afb5a89d224",
                   "name": "Eric Ayling",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/0d6cc5ef-3da7-4837-bf2a-53f47fac479a",
                   "name": "Peter Pekaar",
                   "score": "3"
                 }
@@ -209,17 +348,26 @@
         },
         {
           "players": [
-            "Max Woolf",
-            "Tim Barkes"
+            {
+              "playerId": "team-player/115c9b9e-1467-4454-8384-323f0c21631c",
+              "name": "Max Woolf"
+            },
+            {
+              "playerId": "team-player/582de2ff-efa7-4417-97c8-7afbdeadbb91",
+              "name": "Tim Barkes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/509e5ae6-9cbb-4b13-8268-2ad123e6b8d7",
               "players": [
                 {
+                  "playerId": "team-player/115c9b9e-1467-4454-8384-323f0c21631c",
                   "name": "Max Woolf",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/582de2ff-efa7-4417-97c8-7afbdeadbb91",
                   "name": "Tim Barkes",
                   "score": "22"
                 }
@@ -231,17 +379,26 @@
         },
         {
           "players": [
-            "Gary Phipps",
-            "Jeff Newcombe"
+            {
+              "playerId": "team-player/ca47fe3e-5aa3-45e5-b73a-5a953e689c77",
+              "name": "Gary Phipps"
+            },
+            {
+              "playerId": "team-player/520c451e-0f1e-4969-918b-cf287b2b1b70",
+              "name": "Jeff Newcombe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4acb59e1-ddce-4141-b012-b1cbd43d389a",
               "players": [
                 {
+                  "playerId": "team-player/ca47fe3e-5aa3-45e5-b73a-5a953e689c77",
                   "name": "Gary Phipps",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/520c451e-0f1e-4969-918b-cf287b2b1b70",
                   "name": "Jeff Newcombe",
                   "score": "26"
                 }
@@ -253,17 +410,26 @@
         },
         {
           "players": [
-            "Robyn Dart",
-            "Coral Broun"
+            {
+              "playerId": "team-player/1be35a2c-62ea-4972-9820-c129e1a492bb",
+              "name": "Robyn Dart"
+            },
+            {
+              "playerId": "team-player/9fba4e4e-efa7-495b-8fae-5316d9471fbd",
+              "name": "Coral Broun"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e25cfc64-79db-4ec5-ba20-b08265d52341",
               "players": [
                 {
+                  "playerId": "team-player/1be35a2c-62ea-4972-9820-c129e1a492bb",
                   "name": "Robyn Dart",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/9fba4e4e-efa7-495b-8fae-5316d9471fbd",
                   "name": "Coral Broun",
                   "score": "13"
                 }
@@ -275,17 +441,26 @@
         },
         {
           "players": [
-            "Sheila Twine",
-            "Michael Murphy"
+            {
+              "playerId": "team-player/03d0031b-97c2-4f1a-a92a-d523718cecbb",
+              "name": "Sheila Twine"
+            },
+            {
+              "playerId": "team-player/53968cd4-7857-4190-b68c-79836dd91853",
+              "name": "Michael Murphy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c7690739-6641-4d80-9137-a59c19689005",
               "players": [
                 {
+                  "playerId": "team-player/03d0031b-97c2-4f1a-a92a-d523718cecbb",
                   "name": "Sheila Twine",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/53968cd4-7857-4190-b68c-79836dd91853",
                   "name": "Michael Murphy",
                   "score": "14"
                 }
@@ -297,17 +472,26 @@
         },
         {
           "players": [
-            "Jasmine Leggett",
-            "James Brown"
+            {
+              "playerId": "team-player/0da653a7-1e60-4c8d-9252-19d9a147b7ad",
+              "name": "Jasmine Leggett"
+            },
+            {
+              "playerId": "team-player/ac7913f8-1e89-41d2-8c2a-382f8a3d50d4",
+              "name": "James Brown"
+            }
           ],
           "games": [
             {
+              "gameId": "game/11935954-f92c-4da0-8074-cd015cc81816",
               "players": [
                 {
+                  "playerId": "team-player/0da653a7-1e60-4c8d-9252-19d9a147b7ad",
                   "name": "Jasmine Leggett",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/ac7913f8-1e89-41d2-8c2a-382f8a3d50d4",
                   "name": "James Brown",
                   "score": "19"
                 }
@@ -319,17 +503,26 @@
         },
         {
           "players": [
-            "Bernie Lynch",
-            "Elizabeth Petrich"
+            {
+              "playerId": "team-player/7c08d75e-c0d4-4547-b96d-27b9e5adacb2",
+              "name": "Bernie Lynch"
+            },
+            {
+              "playerId": "team-player/cbefa6ae-6994-4937-ab1d-d7f90e98c9f8",
+              "name": "Elizabeth Petrich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dc82afbe-94fa-44d7-91e4-186783a08651",
               "players": [
                 {
+                  "playerId": "team-player/7c08d75e-c0d4-4547-b96d-27b9e5adacb2",
                   "name": "Bernie Lynch",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/cbefa6ae-6994-4937-ab1d-d7f90e98c9f8",
                   "name": "Elizabeth Petrich",
                   "score": "12"
                 }
@@ -341,17 +534,26 @@
         },
         {
           "players": [
-            "Dave Hedges",
-            "Geoff Longshaw"
+            {
+              "playerId": "team-player/b2f36638-b4d0-49c5-b315-cf11c1c2ad85",
+              "name": "Dave Hedges"
+            },
+            {
+              "playerId": "team-player/cbf2947b-a408-45e1-90db-584ebdab51c3",
+              "name": "Geoff Longshaw"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b0c431cf-527f-40d8-9e2a-b3dcc5648af8",
               "players": [
                 {
+                  "playerId": "team-player/b2f36638-b4d0-49c5-b315-cf11c1c2ad85",
                   "name": "Dave Hedges",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/cbf2947b-a408-45e1-90db-584ebdab51c3",
                   "name": "Geoff Longshaw",
                   "score": "8"
                 }
@@ -363,17 +565,26 @@
         },
         {
           "players": [
-            "Max Woolf",
-            "Jeff Newcombe"
+            {
+              "playerId": "team-player/115c9b9e-1467-4454-8384-323f0c21631c",
+              "name": "Max Woolf"
+            },
+            {
+              "playerId": "team-player/520c451e-0f1e-4969-918b-cf287b2b1b70",
+              "name": "Jeff Newcombe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eaa65bea-f5b0-476e-b833-940752999692",
               "players": [
                 {
+                  "playerId": "team-player/115c9b9e-1467-4454-8384-323f0c21631c",
                   "name": "Max Woolf",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/520c451e-0f1e-4969-918b-cf287b2b1b70",
                   "name": "Jeff Newcombe",
                   "score": "26 TP"
                 }
@@ -385,17 +596,26 @@
         },
         {
           "players": [
-            "Gary Phipps",
-            "Tim Barkes"
+            {
+              "playerId": "team-player/ca47fe3e-5aa3-45e5-b73a-5a953e689c77",
+              "name": "Gary Phipps"
+            },
+            {
+              "playerId": "team-player/582de2ff-efa7-4417-97c8-7afbdeadbb91",
+              "name": "Tim Barkes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/28fab4e5-a217-40b3-8230-002b485316bf",
               "players": [
                 {
+                  "playerId": "team-player/ca47fe3e-5aa3-45e5-b73a-5a953e689c77",
                   "name": "Gary Phipps",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/582de2ff-efa7-4417-97c8-7afbdeadbb91",
                   "name": "Tim Barkes",
                   "score": "22"
                 }
@@ -407,17 +627,26 @@
         },
         {
           "players": [
-            "Robyn Dart",
-            "Peter Pekaar"
+            {
+              "playerId": "team-player/1be35a2c-62ea-4972-9820-c129e1a492bb",
+              "name": "Robyn Dart"
+            },
+            {
+              "playerId": "team-player/0d6cc5ef-3da7-4837-bf2a-53f47fac479a",
+              "name": "Peter Pekaar"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f0eb452-42e4-45a7-8378-33d7a7d1d214",
               "players": [
                 {
+                  "playerId": "team-player/1be35a2c-62ea-4972-9820-c129e1a492bb",
                   "name": "Robyn Dart",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/0d6cc5ef-3da7-4837-bf2a-53f47fac479a",
                   "name": "Peter Pekaar",
                   "score": "17"
                 }
@@ -429,17 +658,26 @@
         },
         {
           "players": [
-            "Sheila Twine and Bernie Lynch",
-            "Michael Murphy and Elizabeth Petrich"
+            {
+              "playerId": "team-player/2dc2bc78-1168-4e04-81c4-85e7468075d1",
+              "name": "Sheila Twine and Bernie Lynch"
+            },
+            {
+              "playerId": "team-player/d1706582-29fd-45cc-94ad-52f8134404e4",
+              "name": "Michael Murphy and Elizabeth Petrich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/832ff53b-5bce-404a-9006-ca0fe3dad48d",
               "players": [
                 {
+                  "playerId": "team-player/2dc2bc78-1168-4e04-81c4-85e7468075d1",
                   "name": "Sheila Twine and Bernie Lynch",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/d1706582-29fd-45cc-94ad-52f8134404e4",
                   "name": "Michael Murphy and Elizabeth Petrich",
                   "score": "18"
                 }
@@ -451,17 +689,26 @@
         },
         {
           "players": [
-            "Jasmine Leggett and Dave Hedges",
-            "James Brown and Geoff Longshaw"
+            {
+              "playerId": "team-player/afabbe1e-a958-4a77-8ca4-fbba2cf0b929",
+              "name": "Jasmine Leggett and Dave Hedges"
+            },
+            {
+              "playerId": "team-player/6ef6f10d-ceb5-4e68-971d-a0ec1355919e",
+              "name": "James Brown and Geoff Longshaw"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f80fe30-1fed-41df-9e01-5cd7aa30029b",
               "players": [
                 {
+                  "playerId": "team-player/afabbe1e-a958-4a77-8ca4-fbba2cf0b929",
                   "name": "Jasmine Leggett and Dave Hedges",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/6ef6f10d-ceb5-4e68-971d-a0ec1355919e",
                   "name": "James Brown and Geoff Longshaw",
                   "score": "10"
                 }
@@ -473,17 +720,26 @@
         },
         {
           "players": [
-            "Eric Ayling",
-            "Coral Broun"
+            {
+              "playerId": "team-player/6bc949da-a62a-4e49-bb0e-5afb5a89d224",
+              "name": "Eric Ayling"
+            },
+            {
+              "playerId": "team-player/9fba4e4e-efa7-495b-8fae-5316d9471fbd",
+              "name": "Coral Broun"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a674f965-4956-450b-aecc-6e7b1fdb7203",
               "players": [
                 {
+                  "playerId": "team-player/6bc949da-a62a-4e49-bb0e-5afb5a89d224",
                   "name": "Eric Ayling",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/9fba4e4e-efa7-495b-8fae-5316d9471fbd",
                   "name": "Coral Broun",
                   "score": "20"
                 }

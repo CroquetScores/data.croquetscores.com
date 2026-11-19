@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/e9669d6f-d160-4c2c-b19c-ac678b5fb97f",
   "name": "IC Colchester v Bristol",
   "sport": "ac",
   "firstDay": "2018-06-02",
   "lastDay": "2018-06-02",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Colchester",
       "shortName": "Colchester",
       "players": [
-        "Fulford/ Burridge",
-        "Ian Burridge",
-        "Jonathan Hills",
-        "Michael Heap",
-        "Robert Fulford"
+        {
+          "playerId": "team-player/06c76667-8810-476c-b1e2-5442b908807c",
+          "name": "Fulford/ Burridge"
+        },
+        {
+          "playerId": "team-player/d6f0e6cb-2b58-4ddd-924c-88f49c320d82",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/5b8fbe75-8deb-49d8-8bac-cae79a7e1e8c",
+          "name": "Jonathan Hills"
+        },
+        {
+          "playerId": "team-player/c17d61c3-4666-4d40-8724-463880a96def",
+          "name": "Michael Heap"
+        },
+        {
+          "playerId": "team-player/49c3caba-a6b0-4250-b27e-4099084d48c9",
+          "name": "Robert Fulford"
+        }
       ]
     },
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "Dave Kibble",
-        "David Goacher",
-        "Goacher/Smith",
-        "Richard M Smith",
-        "Robert Wilkinson"
+        {
+          "playerId": "team-player/2de65aba-39cc-4fdd-9ecc-9cd170c3d262",
+          "name": "Dave Kibble"
+        },
+        {
+          "playerId": "team-player/a0dbac3d-89ef-432f-95f5-c25d93994dea",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/6ee56686-6658-4f38-9707-3ca99b83b2bb",
+          "name": "Goacher/Smith"
+        },
+        {
+          "playerId": "team-player/475ca0a6-860d-4fb2-9a9c-894e67e8a2a6",
+          "name": "Richard M Smith"
+        },
+        {
+          "playerId": "team-player/15665a1b-dfd9-43ed-b64b-985a48ca1023",
+          "name": "Robert Wilkinson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/c78cb02e-f293-405a-a22f-a03997538f69",
       "teams": [
         "Colchester",
         "Bristol"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Fulford/ Burridge",
-            "Goacher/Smith"
+            {
+              "playerId": "team-player/06c76667-8810-476c-b1e2-5442b908807c",
+              "name": "Fulford/ Burridge"
+            },
+            {
+              "playerId": "team-player/6ee56686-6658-4f38-9707-3ca99b83b2bb",
+              "name": "Goacher/Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c9c5b377-c854-44c0-bd71-978112f81287",
               "players": [
                 {
+                  "playerId": "team-player/06c76667-8810-476c-b1e2-5442b908807c",
                   "name": "Fulford/ Burridge",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/6ee56686-6658-4f38-9707-3ca99b83b2bb",
                   "name": "Goacher/Smith",
                   "score": "0"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Michael Heap",
-            "Dave Kibble"
+            {
+              "playerId": "team-player/c17d61c3-4666-4d40-8724-463880a96def",
+              "name": "Michael Heap"
+            },
+            {
+              "playerId": "team-player/2de65aba-39cc-4fdd-9ecc-9cd170c3d262",
+              "name": "Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2f571fd5-9564-4e56-9627-d70f7f7e1d62",
               "players": [
                 {
+                  "playerId": "team-player/c17d61c3-4666-4d40-8724-463880a96def",
                   "name": "Michael Heap",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/2de65aba-39cc-4fdd-9ecc-9cd170c3d262",
                   "name": "Dave Kibble",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "Richard M Smith"
+            {
+              "playerId": "team-player/d6f0e6cb-2b58-4ddd-924c-88f49c320d82",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/475ca0a6-860d-4fb2-9a9c-894e67e8a2a6",
+              "name": "Richard M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d0e8c51c-ca5d-4edf-864f-d315d68ee0af",
               "players": [
                 {
+                  "playerId": "team-player/d6f0e6cb-2b58-4ddd-924c-88f49c320d82",
                   "name": "Ian Burridge",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/475ca0a6-860d-4fb2-9a9c-894e67e8a2a6",
                   "name": "Richard M Smith",
                   "score": "17"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Jonathan Hills",
-            "Robert Wilkinson"
+            {
+              "playerId": "team-player/5b8fbe75-8deb-49d8-8bac-cae79a7e1e8c",
+              "name": "Jonathan Hills"
+            },
+            {
+              "playerId": "team-player/15665a1b-dfd9-43ed-b64b-985a48ca1023",
+              "name": "Robert Wilkinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/985d3f3e-0de4-4b40-9c8a-8c209e7b5e0b",
               "players": [
                 {
+                  "playerId": "team-player/5b8fbe75-8deb-49d8-8bac-cae79a7e1e8c",
                   "name": "Jonathan Hills",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/15665a1b-dfd9-43ed-b64b-985a48ca1023",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Robert Fulford",
-            "David Goacher"
+            {
+              "playerId": "team-player/49c3caba-a6b0-4250-b27e-4099084d48c9",
+              "name": "Robert Fulford"
+            },
+            {
+              "playerId": "team-player/a0dbac3d-89ef-432f-95f5-c25d93994dea",
+              "name": "David Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/07fb2e5e-f51a-4938-bd78-521c656d36db",
               "players": [
                 {
+                  "playerId": "team-player/49c3caba-a6b0-4250-b27e-4099084d48c9",
                   "name": "Robert Fulford",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/a0dbac3d-89ef-432f-95f5-c25d93994dea",
                   "name": "David Goacher",
                   "score": "6"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Jonathan Hills",
-            "Dave Kibble"
+            {
+              "playerId": "team-player/5b8fbe75-8deb-49d8-8bac-cae79a7e1e8c",
+              "name": "Jonathan Hills"
+            },
+            {
+              "playerId": "team-player/2de65aba-39cc-4fdd-9ecc-9cd170c3d262",
+              "name": "Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/783121b7-8801-4a26-8cc1-c3ab0aa7b020",
               "players": [
                 {
+                  "playerId": "team-player/5b8fbe75-8deb-49d8-8bac-cae79a7e1e8c",
                   "name": "Jonathan Hills",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/2de65aba-39cc-4fdd-9ecc-9cd170c3d262",
                   "name": "Dave Kibble",
                   "score": "26tp"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Michael Heap",
-            "Robert Wilkinson"
+            {
+              "playerId": "team-player/c17d61c3-4666-4d40-8724-463880a96def",
+              "name": "Michael Heap"
+            },
+            {
+              "playerId": "team-player/15665a1b-dfd9-43ed-b64b-985a48ca1023",
+              "name": "Robert Wilkinson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1f1476ad-becd-4405-99eb-b3b8fba2c415",
               "players": [
                 {
+                  "playerId": "team-player/c17d61c3-4666-4d40-8724-463880a96def",
                   "name": "Michael Heap",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/15665a1b-dfd9-43ed-b64b-985a48ca1023",
                   "name": "Robert Wilkinson",
                   "score": "26"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Robert Fulford",
-            "Richard M Smith"
+            {
+              "playerId": "team-player/49c3caba-a6b0-4250-b27e-4099084d48c9",
+              "name": "Robert Fulford"
+            },
+            {
+              "playerId": "team-player/475ca0a6-860d-4fb2-9a9c-894e67e8a2a6",
+              "name": "Richard M Smith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30f33f8a-2d4c-4e97-9196-464ed2d58917",
               "players": [
                 {
+                  "playerId": "team-player/49c3caba-a6b0-4250-b27e-4099084d48c9",
                   "name": "Robert Fulford",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/475ca0a6-860d-4fb2-9a9c-894e67e8a2a6",
                   "name": "Richard M Smith",
                   "score": "26tp"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Ian Burridge",
-            "David Goacher"
+            {
+              "playerId": "team-player/d6f0e6cb-2b58-4ddd-924c-88f49c320d82",
+              "name": "Ian Burridge"
+            },
+            {
+              "playerId": "team-player/a0dbac3d-89ef-432f-95f5-c25d93994dea",
+              "name": "David Goacher"
+            }
           ],
           "games": [
             {
+              "gameId": "game/33d691c5-acdc-4b2d-8d1e-d20db6d1d94b",
               "players": [
                 {
+                  "playerId": "team-player/d6f0e6cb-2b58-4ddd-924c-88f49c320d82",
                   "name": "Ian Burridge",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/a0dbac3d-89ef-432f-95f5-c25d93994dea",
                   "name": "David Goacher",
                   "score": "26"
                 }

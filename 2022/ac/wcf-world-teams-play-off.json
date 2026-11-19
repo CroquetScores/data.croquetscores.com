@@ -1,41 +1,87 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/94c0d459-949a-4cd1-877b-47c16eb4c94d",
   "name": "WCF AC World Teams Play Off",
   "sport": "ac",
   "firstDay": "2022-08-08",
   "lastDay": "2022-08-08",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": true,
   "teams": [
     {
       "name": "Canada",
       "shortName": "CAN",
       "players": [
-        "Brian Cumming",
-        "Brian Cumming & Jim Wright",
-        "Brian Cumming & Pierre Dunn",
-        "Jim Wright",
-        "Jim Wright & Nick Mitchell",
-        "Nick Mitchell",
-        "Pierre Dunn"
+        {
+          "playerId": "team-player/ea8ca714-1a9b-4471-bb3f-f09e60d90a66",
+          "name": "Brian Cumming"
+        },
+        {
+          "playerId": "team-player/c2f448e7-699d-4bfe-8aeb-5265243b7563",
+          "name": "Brian Cumming & Jim Wright"
+        },
+        {
+          "playerId": "team-player/e8af8654-f5da-49ef-bcd6-b32be8c07f5b",
+          "name": "Brian Cumming & Pierre Dunn"
+        },
+        {
+          "playerId": "team-player/8fe719a7-d25b-4866-868e-7bfa7e0f43bc",
+          "name": "Jim Wright"
+        },
+        {
+          "playerId": "team-player/12f32528-1281-419d-b648-ccb33875c320",
+          "name": "Jim Wright & Nick Mitchell"
+        },
+        {
+          "playerId": "team-player/2230699a-1da5-45cf-9add-adf243278fdd",
+          "name": "Nick Mitchell"
+        },
+        {
+          "playerId": "team-player/a9e72180-1dbe-4fe4-be15-611752b32f16",
+          "name": "Pierre Dunn"
+        }
       ]
     },
     {
       "name": "Sweden",
       "shortName": "SWE",
       "players": [
-        "Joakim Norback",
-        "Joi Elebo",
-        "Joi Elebo & Joakim Norback",
-        "Lewis Palmer",
-        "Lewis Palmer & Joi Elebo",
-        "Lewis Palmer & Simon Carlsson",
-        "Simon Carlsson"
+        {
+          "playerId": "team-player/1fd12b24-e7ab-4028-aff4-64ce01eefc08",
+          "name": "Joakim Norback"
+        },
+        {
+          "playerId": "team-player/8e9f4f30-883b-440f-b176-3367e5ebbd43",
+          "name": "Joi Elebo"
+        },
+        {
+          "playerId": "team-player/e2b28972-b746-41ca-8374-4f22114d92c4",
+          "name": "Joi Elebo & Joakim Norback"
+        },
+        {
+          "playerId": "team-player/7dc54f3d-2a68-40c2-b1cb-ca880006350d",
+          "name": "Lewis Palmer"
+        },
+        {
+          "playerId": "team-player/89bc808e-5cbb-48dd-83c0-2b6c255c9202",
+          "name": "Lewis Palmer & Joi Elebo"
+        },
+        {
+          "playerId": "team-player/3be83b92-7e0c-484b-898f-398360876c00",
+          "name": "Lewis Palmer & Simon Carlsson"
+        },
+        {
+          "playerId": "team-player/61748606-434a-4497-b620-452e00c4b04e",
+          "name": "Simon Carlsson"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/5dbd35c2-5c0c-457a-87bc-a15cc5f89b14",
       "teams": [
         "Canada",
         "Sweden"
@@ -45,17 +91,26 @@
       "matches": [
         {
           "players": [
-            "Brian Cumming & Pierre Dunn",
-            "Lewis Palmer & Simon Carlsson"
+            {
+              "playerId": "team-player/e8af8654-f5da-49ef-bcd6-b32be8c07f5b",
+              "name": "Brian Cumming & Pierre Dunn"
+            },
+            {
+              "playerId": "team-player/3be83b92-7e0c-484b-898f-398360876c00",
+              "name": "Lewis Palmer & Simon Carlsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/027a0e64-7d15-41c3-9422-178f64d79fa5",
               "players": [
                 {
+                  "playerId": "team-player/e8af8654-f5da-49ef-bcd6-b32be8c07f5b",
                   "name": "Brian Cumming & Pierre Dunn",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3be83b92-7e0c-484b-898f-398360876c00",
                   "name": "Lewis Palmer & Simon Carlsson",
                   "score": "5"
                 }
@@ -67,17 +122,26 @@
         },
         {
           "players": [
-            "Jim Wright & Nick Mitchell",
-            "Joi Elebo & Joakim Norback"
+            {
+              "playerId": "team-player/12f32528-1281-419d-b648-ccb33875c320",
+              "name": "Jim Wright & Nick Mitchell"
+            },
+            {
+              "playerId": "team-player/e2b28972-b746-41ca-8374-4f22114d92c4",
+              "name": "Joi Elebo & Joakim Norback"
+            }
           ],
           "games": [
             {
+              "gameId": "game/86e3bbfc-1ee9-46a3-a8af-2f2983072e22",
               "players": [
                 {
+                  "playerId": "team-player/12f32528-1281-419d-b648-ccb33875c320",
                   "name": "Jim Wright & Nick Mitchell",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/e2b28972-b746-41ca-8374-4f22114d92c4",
                   "name": "Joi Elebo & Joakim Norback",
                   "score": "21"
                 }
@@ -89,17 +153,26 @@
         },
         {
           "players": [
-            "Brian Cumming & Jim Wright",
-            "Lewis Palmer & Joi Elebo"
+            {
+              "playerId": "team-player/c2f448e7-699d-4bfe-8aeb-5265243b7563",
+              "name": "Brian Cumming & Jim Wright"
+            },
+            {
+              "playerId": "team-player/89bc808e-5cbb-48dd-83c0-2b6c255c9202",
+              "name": "Lewis Palmer & Joi Elebo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f752eb8e-82c0-4235-b177-0f3673dc5318",
               "players": [
                 {
+                  "playerId": "team-player/c2f448e7-699d-4bfe-8aeb-5265243b7563",
                   "name": "Brian Cumming & Jim Wright",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/89bc808e-5cbb-48dd-83c0-2b6c255c9202",
                   "name": "Lewis Palmer & Joi Elebo",
                   "score": "26"
                 }
@@ -111,17 +184,26 @@
         },
         {
           "players": [
-            "Nick Mitchell",
-            "Simon Carlsson"
+            {
+              "playerId": "team-player/2230699a-1da5-45cf-9add-adf243278fdd",
+              "name": "Nick Mitchell"
+            },
+            {
+              "playerId": "team-player/61748606-434a-4497-b620-452e00c4b04e",
+              "name": "Simon Carlsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/23e50911-8901-4ccc-a8bb-532626c084fa",
               "players": [
                 {
+                  "playerId": "team-player/2230699a-1da5-45cf-9add-adf243278fdd",
                   "name": "Nick Mitchell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/61748606-434a-4497-b620-452e00c4b04e",
                   "name": "Simon Carlsson",
                   "score": "5"
                 }
@@ -133,17 +215,26 @@
         },
         {
           "players": [
-            "Pierre Dunn",
-            "Joakim Norback"
+            {
+              "playerId": "team-player/a9e72180-1dbe-4fe4-be15-611752b32f16",
+              "name": "Pierre Dunn"
+            },
+            {
+              "playerId": "team-player/1fd12b24-e7ab-4028-aff4-64ce01eefc08",
+              "name": "Joakim Norback"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c89c42f4-081b-43de-a207-5f3f575a12a0",
               "players": [
                 {
+                  "playerId": "team-player/a9e72180-1dbe-4fe4-be15-611752b32f16",
                   "name": "Pierre Dunn",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/1fd12b24-e7ab-4028-aff4-64ce01eefc08",
                   "name": "Joakim Norback",
                   "score": "20"
                 }
@@ -155,17 +246,26 @@
         },
         {
           "players": [
-            "Brian Cumming",
-            "Lewis Palmer"
+            {
+              "playerId": "team-player/ea8ca714-1a9b-4471-bb3f-f09e60d90a66",
+              "name": "Brian Cumming"
+            },
+            {
+              "playerId": "team-player/7dc54f3d-2a68-40c2-b1cb-ca880006350d",
+              "name": "Lewis Palmer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9c6cc34e-49b7-494c-bfec-06b8e8128877",
               "players": [
                 {
+                  "playerId": "team-player/ea8ca714-1a9b-4471-bb3f-f09e60d90a66",
                   "name": "Brian Cumming",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7dc54f3d-2a68-40c2-b1cb-ca880006350d",
                   "name": "Lewis Palmer",
                   "score": "2"
                 }
@@ -177,17 +277,26 @@
         },
         {
           "players": [
-            "Pierre Dunn",
-            "Simon Carlsson"
+            {
+              "playerId": "team-player/a9e72180-1dbe-4fe4-be15-611752b32f16",
+              "name": "Pierre Dunn"
+            },
+            {
+              "playerId": "team-player/61748606-434a-4497-b620-452e00c4b04e",
+              "name": "Simon Carlsson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f2123421-de16-4e1b-91f8-ef90a51a1976",
               "players": [
                 {
+                  "playerId": "team-player/a9e72180-1dbe-4fe4-be15-611752b32f16",
                   "name": "Pierre Dunn",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/61748606-434a-4497-b620-452e00c4b04e",
                   "name": "Simon Carlsson",
                   "score": "2"
                 }
@@ -199,17 +308,26 @@
         },
         {
           "players": [
-            "Nick Mitchell",
-            "Joakim Norback"
+            {
+              "playerId": "team-player/2230699a-1da5-45cf-9add-adf243278fdd",
+              "name": "Nick Mitchell"
+            },
+            {
+              "playerId": "team-player/1fd12b24-e7ab-4028-aff4-64ce01eefc08",
+              "name": "Joakim Norback"
+            }
           ],
           "games": [
             {
+              "gameId": "game/19cd6310-5f16-4735-9842-1baa1514b23e",
               "players": [
                 {
+                  "playerId": "team-player/2230699a-1da5-45cf-9add-adf243278fdd",
                   "name": "Nick Mitchell",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/1fd12b24-e7ab-4028-aff4-64ce01eefc08",
                   "name": "Joakim Norback",
                   "score": "23"
                 }
@@ -221,17 +339,26 @@
         },
         {
           "players": [
-            "Jim Wright",
-            "Joi Elebo"
+            {
+              "playerId": "team-player/8fe719a7-d25b-4866-868e-7bfa7e0f43bc",
+              "name": "Jim Wright"
+            },
+            {
+              "playerId": "team-player/8e9f4f30-883b-440f-b176-3367e5ebbd43",
+              "name": "Joi Elebo"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6daa4e4-7d1e-4430-a106-27973a950a26",
               "players": [
                 {
+                  "playerId": "team-player/8fe719a7-d25b-4866-868e-7bfa7e0f43bc",
                   "name": "Jim Wright",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/8e9f4f30-883b-440f-b176-3367e5ebbd43",
                   "name": "Joi Elebo",
                   "score": "26"
                 }

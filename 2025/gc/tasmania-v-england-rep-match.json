@@ -1,40 +1,83 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/f08891dd-47c6-4e33-86d8-64542716ef56",
   "name": "Tasmania v England GC Rep match",
   "sport": "gc",
   "firstDay": "2025-02-14",
   "lastDay": "2025-02-14",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Tasmania",
       "shortName": "TAS",
       "players": [
-        "Curtis & John",
-        "Curtis Mead",
-        "John Colquhoun",
-        "John Lee Archer",
-        "Malcolm & Patsy",
-        "Malcolm Maney",
-        "Patsy Paine"
+        {
+          "playerId": "team-player/971a9816-962b-4eec-83f3-c78bed1f687b",
+          "name": "Curtis & John"
+        },
+        {
+          "playerId": "team-player/55ad3ed7-462d-4042-8591-44313ae04cca",
+          "name": "Curtis Mead"
+        },
+        {
+          "playerId": "team-player/e8401642-6ea1-46a3-8e52-8eae0e1d2198",
+          "name": "John Colquhoun"
+        },
+        {
+          "playerId": "team-player/4105305a-84b7-4266-9ead-228976fe3e68",
+          "name": "John Lee Archer"
+        },
+        {
+          "playerId": "team-player/c0385f4d-03d0-410d-9b8e-3b3c684f3c84",
+          "name": "Malcolm & Patsy"
+        },
+        {
+          "playerId": "team-player/c4991f56-246b-49a2-be0e-4a766ff028e6",
+          "name": "Malcolm Maney"
+        },
+        {
+          "playerId": "team-player/cc4de52c-003c-4576-b349-ae94886b0f9f",
+          "name": "Patsy Paine"
+        }
       ]
     },
     {
       "name": "England",
       "shortName": "ENG",
       "players": [
-        "Aston & Jack",
-        "Aston Wade",
-        "Euan & Jamie",
-        "Euan Burridge",
-        "Jack Good",
-        "Jamie Burch"
+        {
+          "playerId": "team-player/f408eca3-6d74-40f3-9e79-52c711349cc0",
+          "name": "Aston & Jack"
+        },
+        {
+          "playerId": "team-player/26393d5c-fc53-4911-9a4c-2a96b0a2d883",
+          "name": "Aston Wade"
+        },
+        {
+          "playerId": "team-player/9643f2c7-c497-40c4-8e23-bd4df1c9572e",
+          "name": "Euan & Jamie"
+        },
+        {
+          "playerId": "team-player/45367cc3-67f2-4466-8d41-961ffb32ed6d",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/930e8fe4-641b-4e41-9f6f-bc3cf6199a49",
+          "name": "Jack Good"
+        },
+        {
+          "playerId": "team-player/bab29eb1-82ba-494d-91b2-c47270fa11c5",
+          "name": "Jamie Burch"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/4e115f50-d488-4b40-be58-a7e660dc8f99",
       "teams": [
         "Tasmania",
         "England"
@@ -44,17 +87,26 @@
       "matches": [
         {
           "players": [
-            "Malcolm & Patsy",
-            "Euan & Jamie"
+            {
+              "playerId": "team-player/c0385f4d-03d0-410d-9b8e-3b3c684f3c84",
+              "name": "Malcolm & Patsy"
+            },
+            {
+              "playerId": "team-player/9643f2c7-c497-40c4-8e23-bd4df1c9572e",
+              "name": "Euan & Jamie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d47d3746-9f23-4c77-8ce5-cf1aeeaebe60",
               "players": [
                 {
+                  "playerId": "team-player/c0385f4d-03d0-410d-9b8e-3b3c684f3c84",
                   "name": "Malcolm & Patsy",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9643f2c7-c497-40c4-8e23-bd4df1c9572e",
                   "name": "Euan & Jamie",
                   "score": "7"
                 }
@@ -63,12 +115,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bfc66c69-ed26-40e5-8249-61cf93543176",
               "players": [
                 {
+                  "playerId": "team-player/c0385f4d-03d0-410d-9b8e-3b3c684f3c84",
                   "name": "Malcolm & Patsy",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/9643f2c7-c497-40c4-8e23-bd4df1c9572e",
                   "name": "Euan & Jamie",
                   "score": "7"
                 }
@@ -80,17 +135,26 @@
         },
         {
           "players": [
-            "Curtis & John",
-            "Aston & Jack"
+            {
+              "playerId": "team-player/971a9816-962b-4eec-83f3-c78bed1f687b",
+              "name": "Curtis & John"
+            },
+            {
+              "playerId": "team-player/f408eca3-6d74-40f3-9e79-52c711349cc0",
+              "name": "Aston & Jack"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7b43d93e-4a75-4873-ba9e-cc5e53a8ff11",
               "players": [
                 {
+                  "playerId": "team-player/971a9816-962b-4eec-83f3-c78bed1f687b",
                   "name": "Curtis & John",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/f408eca3-6d74-40f3-9e79-52c711349cc0",
                   "name": "Aston & Jack",
                   "score": "7"
                 }
@@ -99,12 +163,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/92b96816-3a38-4ef4-8f2b-539fd7fa9205",
               "players": [
                 {
+                  "playerId": "team-player/971a9816-962b-4eec-83f3-c78bed1f687b",
                   "name": "Curtis & John",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f408eca3-6d74-40f3-9e79-52c711349cc0",
                   "name": "Aston & Jack",
                   "score": "7"
                 }
@@ -116,17 +183,26 @@
         },
         {
           "players": [
-            "Malcolm Maney",
-            "Jack Good"
+            {
+              "playerId": "team-player/c4991f56-246b-49a2-be0e-4a766ff028e6",
+              "name": "Malcolm Maney"
+            },
+            {
+              "playerId": "team-player/930e8fe4-641b-4e41-9f6f-bc3cf6199a49",
+              "name": "Jack Good"
+            }
           ],
           "games": [
             {
+              "gameId": "game/de048a65-cc11-48b3-aaf7-06f637ab6d55",
               "players": [
                 {
+                  "playerId": "team-player/c4991f56-246b-49a2-be0e-4a766ff028e6",
                   "name": "Malcolm Maney",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/930e8fe4-641b-4e41-9f6f-bc3cf6199a49",
                   "name": "Jack Good",
                   "score": "7"
                 }
@@ -135,12 +211,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1b1ecdb5-ad4c-4ca4-8c97-000b738d1913",
               "players": [
                 {
+                  "playerId": "team-player/c4991f56-246b-49a2-be0e-4a766ff028e6",
                   "name": "Malcolm Maney",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/930e8fe4-641b-4e41-9f6f-bc3cf6199a49",
                   "name": "Jack Good",
                   "score": "7"
                 }
@@ -152,17 +231,26 @@
         },
         {
           "players": [
-            "John Colquhoun",
-            "Jamie Burch"
+            {
+              "playerId": "team-player/e8401642-6ea1-46a3-8e52-8eae0e1d2198",
+              "name": "John Colquhoun"
+            },
+            {
+              "playerId": "team-player/bab29eb1-82ba-494d-91b2-c47270fa11c5",
+              "name": "Jamie Burch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a2cf3f79-ffde-4af6-8aa2-758e6c169013",
               "players": [
                 {
+                  "playerId": "team-player/e8401642-6ea1-46a3-8e52-8eae0e1d2198",
                   "name": "John Colquhoun",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/bab29eb1-82ba-494d-91b2-c47270fa11c5",
                   "name": "Jamie Burch",
                   "score": "7"
                 }
@@ -171,12 +259,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/73df4a30-fcd7-403a-888b-63c7d3a90b87",
               "players": [
                 {
+                  "playerId": "team-player/e8401642-6ea1-46a3-8e52-8eae0e1d2198",
                   "name": "John Colquhoun",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/bab29eb1-82ba-494d-91b2-c47270fa11c5",
                   "name": "Jamie Burch",
                   "score": "7"
                 }
@@ -188,17 +279,26 @@
         },
         {
           "players": [
-            "John Lee Archer",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/4105305a-84b7-4266-9ead-228976fe3e68",
+              "name": "John Lee Archer"
+            },
+            {
+              "playerId": "team-player/45367cc3-67f2-4466-8d41-961ffb32ed6d",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5882a99a-bab0-4c7b-bad2-1398b00be901",
               "players": [
                 {
+                  "playerId": "team-player/4105305a-84b7-4266-9ead-228976fe3e68",
                   "name": "John Lee Archer",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/45367cc3-67f2-4466-8d41-961ffb32ed6d",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -207,12 +307,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/215a8b89-bbe9-4c4d-8741-42b082d3e111",
               "players": [
                 {
+                  "playerId": "team-player/4105305a-84b7-4266-9ead-228976fe3e68",
                   "name": "John Lee Archer",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/45367cc3-67f2-4466-8d41-961ffb32ed6d",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -224,17 +327,26 @@
         },
         {
           "players": [
-            "Curtis Mead",
-            "Aston Wade"
+            {
+              "playerId": "team-player/55ad3ed7-462d-4042-8591-44313ae04cca",
+              "name": "Curtis Mead"
+            },
+            {
+              "playerId": "team-player/26393d5c-fc53-4911-9a4c-2a96b0a2d883",
+              "name": "Aston Wade"
+            }
           ],
           "games": [
             {
+              "gameId": "game/46e03db2-029f-41b9-b0bf-8a648db43c7c",
               "players": [
                 {
+                  "playerId": "team-player/55ad3ed7-462d-4042-8591-44313ae04cca",
                   "name": "Curtis Mead",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/26393d5c-fc53-4911-9a4c-2a96b0a2d883",
                   "name": "Aston Wade",
                   "score": "7"
                 }
@@ -243,12 +355,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cb21af73-1375-48ea-9539-cc192ea32b5f",
               "players": [
                 {
+                  "playerId": "team-player/55ad3ed7-462d-4042-8591-44313ae04cca",
                   "name": "Curtis Mead",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/26393d5c-fc53-4911-9a4c-2a96b0a2d883",
                   "name": "Aston Wade",
                   "score": "7"
                 }
@@ -260,17 +375,26 @@
         },
         {
           "players": [
-            "Curtis & John",
-            "Euan & Jamie"
+            {
+              "playerId": "team-player/971a9816-962b-4eec-83f3-c78bed1f687b",
+              "name": "Curtis & John"
+            },
+            {
+              "playerId": "team-player/9643f2c7-c497-40c4-8e23-bd4df1c9572e",
+              "name": "Euan & Jamie"
+            }
           ],
           "games": [
             {
+              "gameId": "game/09cabb02-33f8-4a6f-bf58-7ab374481d5b",
               "players": [
                 {
+                  "playerId": "team-player/971a9816-962b-4eec-83f3-c78bed1f687b",
                   "name": "Curtis & John",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/9643f2c7-c497-40c4-8e23-bd4df1c9572e",
                   "name": "Euan & Jamie",
                   "score": "7"
                 }
@@ -279,12 +403,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8e5ff772-2e12-4d25-ae87-c687861da5dc",
               "players": [
                 {
+                  "playerId": "team-player/971a9816-962b-4eec-83f3-c78bed1f687b",
                   "name": "Curtis & John",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/9643f2c7-c497-40c4-8e23-bd4df1c9572e",
                   "name": "Euan & Jamie",
                   "score": "7"
                 }
@@ -296,17 +423,26 @@
         },
         {
           "players": [
-            "Malcolm & Patsy",
-            "Aston & Jack"
+            {
+              "playerId": "team-player/c0385f4d-03d0-410d-9b8e-3b3c684f3c84",
+              "name": "Malcolm & Patsy"
+            },
+            {
+              "playerId": "team-player/f408eca3-6d74-40f3-9e79-52c711349cc0",
+              "name": "Aston & Jack"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8ccfd148-0446-4490-ad09-9983b817393d",
               "players": [
                 {
+                  "playerId": "team-player/c0385f4d-03d0-410d-9b8e-3b3c684f3c84",
                   "name": "Malcolm & Patsy",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f408eca3-6d74-40f3-9e79-52c711349cc0",
                   "name": "Aston & Jack",
                   "score": "7"
                 }
@@ -315,12 +451,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/27b497f5-804e-44c9-9739-0fda4a6b00f8",
               "players": [
                 {
+                  "playerId": "team-player/c0385f4d-03d0-410d-9b8e-3b3c684f3c84",
                   "name": "Malcolm & Patsy",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f408eca3-6d74-40f3-9e79-52c711349cc0",
                   "name": "Aston & Jack",
                   "score": "7"
                 }

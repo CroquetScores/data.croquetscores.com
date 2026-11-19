@@ -1,34 +1,73 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/90145d37-4b93-4619-8012-c1f82604db54",
   "name": "BNR GC Pennants Division 3 Round 1",
   "sport": "gc",
   "firstDay": "2024-04-07",
   "lastDay": "2024-04-07",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "McIlwraith CC",
       "shortName": "McIlwraith",
       "players": [
-        "Alan Stone",
-        "Alan Stone and Deb Camden",
-        "Deb Camden",
-        "Jenny Young",
-        "Jenny Young and Kerrie Hodgson",
-        "Kerrie Hodgson"
+        {
+          "playerId": "team-player/8433ac3f-1090-4912-a09a-77b2c9514028",
+          "name": "Alan Stone"
+        },
+        {
+          "playerId": "team-player/8740472d-103f-4374-b65c-451789b99dd5",
+          "name": "Alan Stone and Deb Camden"
+        },
+        {
+          "playerId": "team-player/ac302c8d-2926-4042-b0d2-eacb9b5b9adc",
+          "name": "Deb Camden"
+        },
+        {
+          "playerId": "team-player/3a769365-977c-47fb-8901-08d1bb47d540",
+          "name": "Jenny Young"
+        },
+        {
+          "playerId": "team-player/2ad3feec-24d3-40c4-a6e5-08c5c92f81dc",
+          "name": "Jenny Young and Kerrie Hodgson"
+        },
+        {
+          "playerId": "team-player/d5361679-a04b-45b4-8201-5a32272bffeb",
+          "name": "Kerrie Hodgson"
+        }
       ]
     },
     {
       "name": "Toombul CC",
       "shortName": "Toombul CC",
       "players": [
-        "Anne Wells",
-        "Arthur Wells",
-        "Cheryl De Amicis",
-        "Evan Henderson",
-        "Evan Henderson and Arthur Wells",
-        "John and Barbara Elsworthy"
+        {
+          "playerId": "team-player/3158ee69-5091-4495-a283-e9b348924983",
+          "name": "Anne Wells"
+        },
+        {
+          "playerId": "team-player/e95e2772-9a6d-47f8-a10d-e4c8805d72ff",
+          "name": "Arthur Wells"
+        },
+        {
+          "playerId": "team-player/f0d98773-cc8d-479d-bf37-9c5ed49dac48",
+          "name": "Cheryl De Amicis"
+        },
+        {
+          "playerId": "team-player/bfb2e6f9-9db6-4342-92bc-e73987e564ac",
+          "name": "Evan Henderson"
+        },
+        {
+          "playerId": "team-player/a4c7bc84-dd9d-4a78-944f-6fe005ad2fc7",
+          "name": "Evan Henderson and Arthur Wells"
+        },
+        {
+          "playerId": "team-player/d0340cab-3337-47eb-b10d-47454b5f5c94",
+          "name": "John and Barbara Elsworthy"
+        }
       ]
     },
     {
@@ -44,6 +83,7 @@
   ],
   "tests": [
     {
+      "competitionId": "competition/c25ff69f-46b4-4665-ba7b-5744a79b66b4",
       "teams": [
         "McIlwraith CC",
         "Toombul CC"
@@ -53,17 +93,26 @@
       "matches": [
         {
           "players": [
-            "Alan Stone and Deb Camden",
-            "John and Barbara Elsworthy"
+            {
+              "playerId": "team-player/8740472d-103f-4374-b65c-451789b99dd5",
+              "name": "Alan Stone and Deb Camden"
+            },
+            {
+              "playerId": "team-player/d0340cab-3337-47eb-b10d-47454b5f5c94",
+              "name": "John and Barbara Elsworthy"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6e0b675-846b-40d5-928e-84567f41ce03",
               "players": [
                 {
+                  "playerId": "team-player/8740472d-103f-4374-b65c-451789b99dd5",
                   "name": "Alan Stone and Deb Camden",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d0340cab-3337-47eb-b10d-47454b5f5c94",
                   "name": "John and Barbara Elsworthy",
                   "score": "7"
                 }
@@ -75,17 +124,26 @@
         },
         {
           "players": [
-            "Jenny Young and Kerrie Hodgson",
-            "Evan Henderson and Arthur Wells"
+            {
+              "playerId": "team-player/2ad3feec-24d3-40c4-a6e5-08c5c92f81dc",
+              "name": "Jenny Young and Kerrie Hodgson"
+            },
+            {
+              "playerId": "team-player/a4c7bc84-dd9d-4a78-944f-6fe005ad2fc7",
+              "name": "Evan Henderson and Arthur Wells"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb3c639e-f6b1-424c-90be-be628b394f05",
               "players": [
                 {
+                  "playerId": "team-player/2ad3feec-24d3-40c4-a6e5-08c5c92f81dc",
                   "name": "Jenny Young and Kerrie Hodgson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a4c7bc84-dd9d-4a78-944f-6fe005ad2fc7",
                   "name": "Evan Henderson and Arthur Wells",
                   "score": "6"
                 }
@@ -97,17 +155,26 @@
         },
         {
           "players": [
-            "Alan Stone",
-            "Evan Henderson"
+            {
+              "playerId": "team-player/8433ac3f-1090-4912-a09a-77b2c9514028",
+              "name": "Alan Stone"
+            },
+            {
+              "playerId": "team-player/bfb2e6f9-9db6-4342-92bc-e73987e564ac",
+              "name": "Evan Henderson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/724ca887-329d-434d-a886-ddb1f1aae4b9",
               "players": [
                 {
+                  "playerId": "team-player/8433ac3f-1090-4912-a09a-77b2c9514028",
                   "name": "Alan Stone",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bfb2e6f9-9db6-4342-92bc-e73987e564ac",
                   "name": "Evan Henderson",
                   "score": "3"
                 }
@@ -119,17 +186,26 @@
         },
         {
           "players": [
-            "Jenny Young",
-            "Anne Wells"
+            {
+              "playerId": "team-player/3a769365-977c-47fb-8901-08d1bb47d540",
+              "name": "Jenny Young"
+            },
+            {
+              "playerId": "team-player/3158ee69-5091-4495-a283-e9b348924983",
+              "name": "Anne Wells"
+            }
           ],
           "games": [
             {
+              "gameId": "game/275f78e5-b121-4255-925d-fe4842367726",
               "players": [
                 {
+                  "playerId": "team-player/3a769365-977c-47fb-8901-08d1bb47d540",
                   "name": "Jenny Young",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3158ee69-5091-4495-a283-e9b348924983",
                   "name": "Anne Wells",
                   "score": "5"
                 }
@@ -141,17 +217,26 @@
         },
         {
           "players": [
-            "Deb Camden",
-            "Cheryl De Amicis"
+            {
+              "playerId": "team-player/ac302c8d-2926-4042-b0d2-eacb9b5b9adc",
+              "name": "Deb Camden"
+            },
+            {
+              "playerId": "team-player/f0d98773-cc8d-479d-bf37-9c5ed49dac48",
+              "name": "Cheryl De Amicis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ea2d40fd-cbd4-4486-bf75-d94635d5fc9e",
               "players": [
                 {
+                  "playerId": "team-player/ac302c8d-2926-4042-b0d2-eacb9b5b9adc",
                   "name": "Deb Camden",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f0d98773-cc8d-479d-bf37-9c5ed49dac48",
                   "name": "Cheryl De Amicis",
                   "score": "5"
                 }
@@ -163,17 +248,26 @@
         },
         {
           "players": [
-            "Kerrie Hodgson",
-            "Anne Wells"
+            {
+              "playerId": "team-player/d5361679-a04b-45b4-8201-5a32272bffeb",
+              "name": "Kerrie Hodgson"
+            },
+            {
+              "playerId": "team-player/3158ee69-5091-4495-a283-e9b348924983",
+              "name": "Anne Wells"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5449e1ef-2afa-4f2f-9457-1a8f7e424156",
               "players": [
                 {
+                  "playerId": "team-player/d5361679-a04b-45b4-8201-5a32272bffeb",
                   "name": "Kerrie Hodgson",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3158ee69-5091-4495-a283-e9b348924983",
                   "name": "Anne Wells",
                   "score": "6"
                 }
@@ -185,17 +279,26 @@
         },
         {
           "players": [
-            "Alan Stone",
-            "Arthur Wells"
+            {
+              "playerId": "team-player/8433ac3f-1090-4912-a09a-77b2c9514028",
+              "name": "Alan Stone"
+            },
+            {
+              "playerId": "team-player/e95e2772-9a6d-47f8-a10d-e4c8805d72ff",
+              "name": "Arthur Wells"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e9323aae-e9f6-4adf-a01b-36903b755d7f",
               "players": [
                 {
+                  "playerId": "team-player/8433ac3f-1090-4912-a09a-77b2c9514028",
                   "name": "Alan Stone",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e95e2772-9a6d-47f8-a10d-e4c8805d72ff",
                   "name": "Arthur Wells",
                   "score": "2"
                 }
@@ -207,17 +310,26 @@
         },
         {
           "players": [
-            "Jenny Young",
-            "Evan Henderson"
+            {
+              "playerId": "team-player/3a769365-977c-47fb-8901-08d1bb47d540",
+              "name": "Jenny Young"
+            },
+            {
+              "playerId": "team-player/bfb2e6f9-9db6-4342-92bc-e73987e564ac",
+              "name": "Evan Henderson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0fe19443-4cb4-4079-8937-ccd091830174",
               "players": [
                 {
+                  "playerId": "team-player/3a769365-977c-47fb-8901-08d1bb47d540",
                   "name": "Jenny Young",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bfb2e6f9-9db6-4342-92bc-e73987e564ac",
                   "name": "Evan Henderson",
                   "score": "6"
                 }
@@ -229,17 +341,26 @@
         },
         {
           "players": [
-            "Deb Camden",
-            "Anne Wells"
+            {
+              "playerId": "team-player/ac302c8d-2926-4042-b0d2-eacb9b5b9adc",
+              "name": "Deb Camden"
+            },
+            {
+              "playerId": "team-player/3158ee69-5091-4495-a283-e9b348924983",
+              "name": "Anne Wells"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f4a87c2-deb9-4321-a740-e69106babfb4",
               "players": [
                 {
+                  "playerId": "team-player/ac302c8d-2926-4042-b0d2-eacb9b5b9adc",
                   "name": "Deb Camden",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3158ee69-5091-4495-a283-e9b348924983",
                   "name": "Anne Wells",
                   "score": "6"
                 }
@@ -251,17 +372,26 @@
         },
         {
           "players": [
-            "Kerrie Hodgson",
-            "Cheryl De Amicis"
+            {
+              "playerId": "team-player/d5361679-a04b-45b4-8201-5a32272bffeb",
+              "name": "Kerrie Hodgson"
+            },
+            {
+              "playerId": "team-player/f0d98773-cc8d-479d-bf37-9c5ed49dac48",
+              "name": "Cheryl De Amicis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9df26e9b-4f0a-4cff-b6be-f09e854bcf3e",
               "players": [
                 {
+                  "playerId": "team-player/d5361679-a04b-45b4-8201-5a32272bffeb",
                   "name": "Kerrie Hodgson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f0d98773-cc8d-479d-bf37-9c5ed49dac48",
                   "name": "Cheryl De Amicis",
                   "score": "7"
                 }
@@ -274,6 +404,7 @@
       ]
     },
     {
+      "competitionId": "competition/a67fc0fc-dc2e-4348-8ec1-b9e8c6335d1f",
       "teams": [
         "Eildon CC",
         "Merthyr CC"

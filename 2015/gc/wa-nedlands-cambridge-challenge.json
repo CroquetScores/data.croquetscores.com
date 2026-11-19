@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/38121502-f0ed-4a7a-9f44-37da8ed882dc",
   "name": "WA Nedlands Cambridge Challenge",
   "sport": "gc",
   "firstDay": "2015-11-15",
   "lastDay": "2015-11-15",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nedlands",
       "shortName": "Nedlands",
       "players": [
-        "Gaye Mathews/Elaine Bonds",
-        "Richard Lee/Val Hogan",
-        "Sue Roberts/Gwen Swarbrick",
-        "Terry Thomas/Morri Chong"
+        {
+          "playerId": "team-player/5bb49ee4-36c7-4cf6-a0b5-498bd3fed102",
+          "name": "Gaye Mathews/Elaine Bonds"
+        },
+        {
+          "playerId": "team-player/8eaa247e-fac1-4948-b6e5-67af6d82ed41",
+          "name": "Richard Lee/Val Hogan"
+        },
+        {
+          "playerId": "team-player/19e4c7d3-c509-432e-9727-56793aa157d1",
+          "name": "Sue Roberts/Gwen Swarbrick"
+        },
+        {
+          "playerId": "team-player/3a7cf231-20a8-4709-a896-09eb59eb190d",
+          "name": "Terry Thomas/Morri Chong"
+        }
       ]
     },
     {
       "name": "Cambridge",
       "shortName": "Cambridge",
       "players": [
-        "Brian Hadley/Robyn Cornish",
-        "David Gould/Jennifer Brand",
-        "Marion Barnes/Stephen Barnes",
-        "Wendy Pritchard/Barbara Henning"
+        {
+          "playerId": "team-player/6129ffc8-a823-4642-99e0-c9b61d33408e",
+          "name": "Brian Hadley/Robyn Cornish"
+        },
+        {
+          "playerId": "team-player/3b77bc30-95a8-4bee-96b9-bea0bec50a35",
+          "name": "David Gould/Jennifer Brand"
+        },
+        {
+          "playerId": "team-player/9987128f-632d-4c5a-9c11-c540421dc464",
+          "name": "Marion Barnes/Stephen Barnes"
+        },
+        {
+          "playerId": "team-player/004dd333-3c59-4ee9-9dfb-4243a39ae0a5",
+          "name": "Wendy Pritchard/Barbara Henning"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/e8926c62-d983-47b5-85fb-72c6e9c82cea",
       "teams": [
         "Nedlands",
         "Cambridge"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Richard Lee/Val Hogan",
-            "Brian Hadley/Robyn Cornish"
+            {
+              "playerId": "team-player/8eaa247e-fac1-4948-b6e5-67af6d82ed41",
+              "name": "Richard Lee/Val Hogan"
+            },
+            {
+              "playerId": "team-player/6129ffc8-a823-4642-99e0-c9b61d33408e",
+              "name": "Brian Hadley/Robyn Cornish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/07cb0f8c-a0c8-4ad9-8837-9b7a779d1cd8",
               "players": [
                 {
+                  "playerId": "team-player/8eaa247e-fac1-4948-b6e5-67af6d82ed41",
                   "name": "Richard Lee/Val Hogan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6129ffc8-a823-4642-99e0-c9b61d33408e",
                   "name": "Brian Hadley/Robyn Cornish",
                   "score": "3"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "Terry Thomas/Morri Chong",
-            "David Gould/Jennifer Brand"
+            {
+              "playerId": "team-player/3a7cf231-20a8-4709-a896-09eb59eb190d",
+              "name": "Terry Thomas/Morri Chong"
+            },
+            {
+              "playerId": "team-player/3b77bc30-95a8-4bee-96b9-bea0bec50a35",
+              "name": "David Gould/Jennifer Brand"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d5e1c948-dcc0-449c-a7d2-e994102ac72b",
               "players": [
                 {
+                  "playerId": "team-player/3a7cf231-20a8-4709-a896-09eb59eb190d",
                   "name": "Terry Thomas/Morri Chong",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3b77bc30-95a8-4bee-96b9-bea0bec50a35",
                   "name": "David Gould/Jennifer Brand",
                   "score": "2"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "Sue Roberts/Gwen Swarbrick",
-            "Wendy Pritchard/Barbara Henning"
+            {
+              "playerId": "team-player/19e4c7d3-c509-432e-9727-56793aa157d1",
+              "name": "Sue Roberts/Gwen Swarbrick"
+            },
+            {
+              "playerId": "team-player/004dd333-3c59-4ee9-9dfb-4243a39ae0a5",
+              "name": "Wendy Pritchard/Barbara Henning"
+            }
           ],
           "games": [
             {
+              "gameId": "game/12d9c0ec-cc33-437a-8f39-09c3b2e6cba4",
               "players": [
                 {
+                  "playerId": "team-player/19e4c7d3-c509-432e-9727-56793aa157d1",
                   "name": "Sue Roberts/Gwen Swarbrick",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/004dd333-3c59-4ee9-9dfb-4243a39ae0a5",
                   "name": "Wendy Pritchard/Barbara Henning",
                   "score": "7"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Gaye Mathews/Elaine Bonds",
-            "Marion Barnes/Stephen Barnes"
+            {
+              "playerId": "team-player/5bb49ee4-36c7-4cf6-a0b5-498bd3fed102",
+              "name": "Gaye Mathews/Elaine Bonds"
+            },
+            {
+              "playerId": "team-player/9987128f-632d-4c5a-9c11-c540421dc464",
+              "name": "Marion Barnes/Stephen Barnes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f7c44186-9b98-4c5c-9835-8e2c16627ec5",
               "players": [
                 {
+                  "playerId": "team-player/5bb49ee4-36c7-4cf6-a0b5-498bd3fed102",
                   "name": "Gaye Mathews/Elaine Bonds",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/9987128f-632d-4c5a-9c11-c540421dc464",
                   "name": "Marion Barnes/Stephen Barnes",
                   "score": "7"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Gaye Mathews/Elaine Bonds",
-            "Brian Hadley/Robyn Cornish"
+            {
+              "playerId": "team-player/5bb49ee4-36c7-4cf6-a0b5-498bd3fed102",
+              "name": "Gaye Mathews/Elaine Bonds"
+            },
+            {
+              "playerId": "team-player/6129ffc8-a823-4642-99e0-c9b61d33408e",
+              "name": "Brian Hadley/Robyn Cornish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/10cdcf12-1dc9-4d89-a998-9ec00a7429a9",
               "players": [
                 {
+                  "playerId": "team-player/5bb49ee4-36c7-4cf6-a0b5-498bd3fed102",
                   "name": "Gaye Mathews/Elaine Bonds",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6129ffc8-a823-4642-99e0-c9b61d33408e",
                   "name": "Brian Hadley/Robyn Cornish",
                   "score": "5"
                 }
@@ -149,17 +222,26 @@
         },
         {
           "players": [
-            "Richard Lee/Val Hogan",
-            "David Gould/Jennifer Brand"
+            {
+              "playerId": "team-player/8eaa247e-fac1-4948-b6e5-67af6d82ed41",
+              "name": "Richard Lee/Val Hogan"
+            },
+            {
+              "playerId": "team-player/3b77bc30-95a8-4bee-96b9-bea0bec50a35",
+              "name": "David Gould/Jennifer Brand"
+            }
           ],
           "games": [
             {
+              "gameId": "game/00230ed1-c9e4-4020-b0b0-89781f2520a1",
               "players": [
                 {
+                  "playerId": "team-player/8eaa247e-fac1-4948-b6e5-67af6d82ed41",
                   "name": "Richard Lee/Val Hogan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3b77bc30-95a8-4bee-96b9-bea0bec50a35",
                   "name": "David Gould/Jennifer Brand",
                   "score": "3"
                 }
@@ -171,17 +253,26 @@
         },
         {
           "players": [
-            "Terry Thomas/Morri Chong",
-            "Wendy Pritchard/Barbara Henning"
+            {
+              "playerId": "team-player/3a7cf231-20a8-4709-a896-09eb59eb190d",
+              "name": "Terry Thomas/Morri Chong"
+            },
+            {
+              "playerId": "team-player/004dd333-3c59-4ee9-9dfb-4243a39ae0a5",
+              "name": "Wendy Pritchard/Barbara Henning"
+            }
           ],
           "games": [
             {
+              "gameId": "game/84d39ae0-171f-4beb-8b90-4c3ba9638fbb",
               "players": [
                 {
+                  "playerId": "team-player/3a7cf231-20a8-4709-a896-09eb59eb190d",
                   "name": "Terry Thomas/Morri Chong",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/004dd333-3c59-4ee9-9dfb-4243a39ae0a5",
                   "name": "Wendy Pritchard/Barbara Henning",
                   "score": "4"
                 }
@@ -193,17 +284,26 @@
         },
         {
           "players": [
-            "Sue Roberts/Gwen Swarbrick",
-            "Marion Barnes/Stephen Barnes"
+            {
+              "playerId": "team-player/19e4c7d3-c509-432e-9727-56793aa157d1",
+              "name": "Sue Roberts/Gwen Swarbrick"
+            },
+            {
+              "playerId": "team-player/9987128f-632d-4c5a-9c11-c540421dc464",
+              "name": "Marion Barnes/Stephen Barnes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/69cc46aa-a9aa-4bed-b761-6d05d0627c60",
               "players": [
                 {
+                  "playerId": "team-player/19e4c7d3-c509-432e-9727-56793aa157d1",
                   "name": "Sue Roberts/Gwen Swarbrick",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9987128f-632d-4c5a-9c11-c540421dc464",
                   "name": "Marion Barnes/Stephen Barnes",
                   "score": "5"
                 }
@@ -215,17 +315,26 @@
         },
         {
           "players": [
-            "Sue Roberts/Gwen Swarbrick",
-            "Brian Hadley/Robyn Cornish"
+            {
+              "playerId": "team-player/19e4c7d3-c509-432e-9727-56793aa157d1",
+              "name": "Sue Roberts/Gwen Swarbrick"
+            },
+            {
+              "playerId": "team-player/6129ffc8-a823-4642-99e0-c9b61d33408e",
+              "name": "Brian Hadley/Robyn Cornish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7e69b415-2a93-4afa-a600-b2650375688d",
               "players": [
                 {
+                  "playerId": "team-player/19e4c7d3-c509-432e-9727-56793aa157d1",
                   "name": "Sue Roberts/Gwen Swarbrick",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/6129ffc8-a823-4642-99e0-c9b61d33408e",
                   "name": "Brian Hadley/Robyn Cornish",
                   "score": "7"
                 }
@@ -237,17 +346,26 @@
         },
         {
           "players": [
-            "Terry Thomas/Morri Chong",
-            "Marion Barnes/Stephen Barnes"
+            {
+              "playerId": "team-player/3a7cf231-20a8-4709-a896-09eb59eb190d",
+              "name": "Terry Thomas/Morri Chong"
+            },
+            {
+              "playerId": "team-player/9987128f-632d-4c5a-9c11-c540421dc464",
+              "name": "Marion Barnes/Stephen Barnes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1ca3cd6b-1062-4a5f-9b19-14025ab802a1",
               "players": [
                 {
+                  "playerId": "team-player/3a7cf231-20a8-4709-a896-09eb59eb190d",
                   "name": "Terry Thomas/Morri Chong",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9987128f-632d-4c5a-9c11-c540421dc464",
                   "name": "Marion Barnes/Stephen Barnes",
                   "score": "5"
                 }
@@ -259,17 +377,26 @@
         },
         {
           "players": [
-            "Gaye Mathews/Elaine Bonds",
-            "David Gould/Jennifer Brand"
+            {
+              "playerId": "team-player/5bb49ee4-36c7-4cf6-a0b5-498bd3fed102",
+              "name": "Gaye Mathews/Elaine Bonds"
+            },
+            {
+              "playerId": "team-player/3b77bc30-95a8-4bee-96b9-bea0bec50a35",
+              "name": "David Gould/Jennifer Brand"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1878951f-18e5-4328-b6d7-cdd66321aa1a",
               "players": [
                 {
+                  "playerId": "team-player/5bb49ee4-36c7-4cf6-a0b5-498bd3fed102",
                   "name": "Gaye Mathews/Elaine Bonds",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3b77bc30-95a8-4bee-96b9-bea0bec50a35",
                   "name": "David Gould/Jennifer Brand",
                   "score": "6"
                 }
@@ -281,17 +408,26 @@
         },
         {
           "players": [
-            "Terry Thomas/Morri Chong",
-            "Brian Hadley/Robyn Cornish"
+            {
+              "playerId": "team-player/3a7cf231-20a8-4709-a896-09eb59eb190d",
+              "name": "Terry Thomas/Morri Chong"
+            },
+            {
+              "playerId": "team-player/6129ffc8-a823-4642-99e0-c9b61d33408e",
+              "name": "Brian Hadley/Robyn Cornish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4fae5f22-d9e8-41ff-ac44-1ad23ed51fe3",
               "players": [
                 {
+                  "playerId": "team-player/3a7cf231-20a8-4709-a896-09eb59eb190d",
                   "name": "Terry Thomas/Morri Chong",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6129ffc8-a823-4642-99e0-c9b61d33408e",
                   "name": "Brian Hadley/Robyn Cornish",
                   "score": "4"
                 }
@@ -303,17 +439,26 @@
         },
         {
           "players": [
-            "Richard Lee/Val Hogan",
-            "Wendy Pritchard/Barbara Henning"
+            {
+              "playerId": "team-player/8eaa247e-fac1-4948-b6e5-67af6d82ed41",
+              "name": "Richard Lee/Val Hogan"
+            },
+            {
+              "playerId": "team-player/004dd333-3c59-4ee9-9dfb-4243a39ae0a5",
+              "name": "Wendy Pritchard/Barbara Henning"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6e6486da-a3d6-4210-9294-4d1ac7c731c0",
               "players": [
                 {
+                  "playerId": "team-player/8eaa247e-fac1-4948-b6e5-67af6d82ed41",
                   "name": "Richard Lee/Val Hogan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/004dd333-3c59-4ee9-9dfb-4243a39ae0a5",
                   "name": "Wendy Pritchard/Barbara Henning",
                   "score": "6"
                 }
@@ -325,17 +470,26 @@
         },
         {
           "players": [
-            "Gaye Mathews/Elaine Bonds",
-            "Wendy Pritchard/Barbara Henning"
+            {
+              "playerId": "team-player/5bb49ee4-36c7-4cf6-a0b5-498bd3fed102",
+              "name": "Gaye Mathews/Elaine Bonds"
+            },
+            {
+              "playerId": "team-player/004dd333-3c59-4ee9-9dfb-4243a39ae0a5",
+              "name": "Wendy Pritchard/Barbara Henning"
+            }
           ],
           "games": [
             {
+              "gameId": "game/008b4c40-8bfd-476b-a41c-b8478ab31901",
               "players": [
                 {
+                  "playerId": "team-player/5bb49ee4-36c7-4cf6-a0b5-498bd3fed102",
                   "name": "Gaye Mathews/Elaine Bonds",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/004dd333-3c59-4ee9-9dfb-4243a39ae0a5",
                   "name": "Wendy Pritchard/Barbara Henning",
                   "score": "4"
                 }
@@ -347,17 +501,26 @@
         },
         {
           "players": [
-            "Richard Lee/Val Hogan",
-            "Marion Barnes/Stephen Barnes"
+            {
+              "playerId": "team-player/8eaa247e-fac1-4948-b6e5-67af6d82ed41",
+              "name": "Richard Lee/Val Hogan"
+            },
+            {
+              "playerId": "team-player/9987128f-632d-4c5a-9c11-c540421dc464",
+              "name": "Marion Barnes/Stephen Barnes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/218c1109-0aad-45fa-869c-ba1ff00e6166",
               "players": [
                 {
+                  "playerId": "team-player/8eaa247e-fac1-4948-b6e5-67af6d82ed41",
                   "name": "Richard Lee/Val Hogan",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9987128f-632d-4c5a-9c11-c540421dc464",
                   "name": "Marion Barnes/Stephen Barnes",
                   "score": "2"
                 }
@@ -369,17 +532,26 @@
         },
         {
           "players": [
-            "Sue Roberts/Gwen Swarbrick",
-            "David Gould/Jennifer Brand"
+            {
+              "playerId": "team-player/19e4c7d3-c509-432e-9727-56793aa157d1",
+              "name": "Sue Roberts/Gwen Swarbrick"
+            },
+            {
+              "playerId": "team-player/3b77bc30-95a8-4bee-96b9-bea0bec50a35",
+              "name": "David Gould/Jennifer Brand"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e588659f-dfd6-40b0-afe7-202d3822aae5",
               "players": [
                 {
+                  "playerId": "team-player/19e4c7d3-c509-432e-9727-56793aa157d1",
                   "name": "Sue Roberts/Gwen Swarbrick",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3b77bc30-95a8-4bee-96b9-bea0bec50a35",
                   "name": "David Gould/Jennifer Brand",
                   "score": "7"
                 }

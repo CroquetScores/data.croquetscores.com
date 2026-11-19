@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/d4d79686-bcb9-4b1d-92ec-1c885cf1f743",
   "name": "Mary Rose Wrest Park vs Pinchbeck",
   "sport": "ac",
   "firstDay": "2026-05-11",
   "lastDay": "2026-05-11",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Wrest Park",
       "shortName": "Wrest Park",
       "players": [
-        "John Bevington",
-        "Peter Rothwell",
-        "Peter Rothwell & John Bevington",
-        "Tim Brewer",
-        "Tim Nurse"
+        {
+          "playerId": "team-player/d85f5bf8-08d1-4e80-905b-c513c85d4856",
+          "name": "John Bevington"
+        },
+        {
+          "playerId": "team-player/b502a91f-555c-452a-90b2-ffa013513aed",
+          "name": "Peter Rothwell"
+        },
+        {
+          "playerId": "team-player/d7bca470-24c8-4a0f-9df0-8bd25dcda8ea",
+          "name": "Peter Rothwell & John Bevington"
+        },
+        {
+          "playerId": "team-player/86961cc7-931c-4781-b21c-08aa41c1e50d",
+          "name": "Tim Brewer"
+        },
+        {
+          "playerId": "team-player/c466501c-ca9c-4b59-96d8-8662c494f4e2",
+          "name": "Tim Nurse"
+        }
       ]
     },
     {
       "name": "Pinchbeck",
       "shortName": "Pinchbeck",
       "players": [
-        "Adrian Kirby",
-        "Adrian Kirby & Peter Hanley",
-        "Jonathan Toye",
-        "Ken Knock",
-        "Peter Hanley"
+        {
+          "playerId": "team-player/1318956c-c4ac-42bc-88f2-3637a55ed38c",
+          "name": "Adrian Kirby"
+        },
+        {
+          "playerId": "team-player/eca4cc51-4936-45a7-82a5-4badc9e2b306",
+          "name": "Adrian Kirby & Peter Hanley"
+        },
+        {
+          "playerId": "team-player/2a0f22f7-ef14-451d-ade3-52cf018100f5",
+          "name": "Jonathan Toye"
+        },
+        {
+          "playerId": "team-player/ca120fc9-27b4-4054-88f9-80fc53253dbf",
+          "name": "Ken Knock"
+        },
+        {
+          "playerId": "team-player/26e85ccf-3d1e-4458-8729-6d275de2a27d",
+          "name": "Peter Hanley"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/ecbc2ede-8d12-487b-a60f-24140f49fb55",
       "teams": [
         "Wrest Park",
         "Pinchbeck"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Peter Rothwell & John Bevington",
-            "Adrian Kirby & Peter Hanley"
+            {
+              "playerId": "team-player/d7bca470-24c8-4a0f-9df0-8bd25dcda8ea",
+              "name": "Peter Rothwell & John Bevington"
+            },
+            {
+              "playerId": "team-player/eca4cc51-4936-45a7-82a5-4badc9e2b306",
+              "name": "Adrian Kirby & Peter Hanley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fccd5a62-2427-4efd-aa00-1ea707006aa2",
               "players": [
                 {
+                  "playerId": "team-player/d7bca470-24c8-4a0f-9df0-8bd25dcda8ea",
                   "name": "Peter Rothwell & John Bevington",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/eca4cc51-4936-45a7-82a5-4badc9e2b306",
                   "name": "Adrian Kirby & Peter Hanley",
                   "score": "14"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Tim Brewer",
-            "Jonathan Toye"
+            {
+              "playerId": "team-player/86961cc7-931c-4781-b21c-08aa41c1e50d",
+              "name": "Tim Brewer"
+            },
+            {
+              "playerId": "team-player/2a0f22f7-ef14-451d-ade3-52cf018100f5",
+              "name": "Jonathan Toye"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3413e893-c78a-42a7-89bd-bb18b2fe2115",
               "players": [
                 {
+                  "playerId": "team-player/86961cc7-931c-4781-b21c-08aa41c1e50d",
                   "name": "Tim Brewer",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2a0f22f7-ef14-451d-ade3-52cf018100f5",
                   "name": "Jonathan Toye",
                   "score": "11"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Tim Nurse",
-            "Ken Knock"
+            {
+              "playerId": "team-player/c466501c-ca9c-4b59-96d8-8662c494f4e2",
+              "name": "Tim Nurse"
+            },
+            {
+              "playerId": "team-player/ca120fc9-27b4-4054-88f9-80fc53253dbf",
+              "name": "Ken Knock"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5731650e-e3f3-4262-b202-314ade8fc6fe",
               "players": [
                 {
+                  "playerId": "team-player/c466501c-ca9c-4b59-96d8-8662c494f4e2",
                   "name": "Tim Nurse",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/ca120fc9-27b4-4054-88f9-80fc53253dbf",
                   "name": "Ken Knock",
                   "score": "26"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Peter Rothwell",
-            "Adrian Kirby"
+            {
+              "playerId": "team-player/b502a91f-555c-452a-90b2-ffa013513aed",
+              "name": "Peter Rothwell"
+            },
+            {
+              "playerId": "team-player/1318956c-c4ac-42bc-88f2-3637a55ed38c",
+              "name": "Adrian Kirby"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca7d6f40-eccb-4cfe-bc27-4b6623642792",
               "players": [
                 {
+                  "playerId": "team-player/b502a91f-555c-452a-90b2-ffa013513aed",
                   "name": "Peter Rothwell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/1318956c-c4ac-42bc-88f2-3637a55ed38c",
                   "name": "Adrian Kirby",
                   "score": "13"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "John Bevington",
-            "Peter Hanley"
+            {
+              "playerId": "team-player/d85f5bf8-08d1-4e80-905b-c513c85d4856",
+              "name": "John Bevington"
+            },
+            {
+              "playerId": "team-player/26e85ccf-3d1e-4458-8729-6d275de2a27d",
+              "name": "Peter Hanley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f461e7bc-47d1-433f-947c-242ac09b2b81",
               "players": [
                 {
+                  "playerId": "team-player/d85f5bf8-08d1-4e80-905b-c513c85d4856",
                   "name": "John Bevington",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/26e85ccf-3d1e-4458-8729-6d275de2a27d",
                   "name": "Peter Hanley",
                   "score": "26"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Tim Brewer",
-            "Ken Knock"
+            {
+              "playerId": "team-player/86961cc7-931c-4781-b21c-08aa41c1e50d",
+              "name": "Tim Brewer"
+            },
+            {
+              "playerId": "team-player/ca120fc9-27b4-4054-88f9-80fc53253dbf",
+              "name": "Ken Knock"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3e01c476-eaeb-46a3-a6bb-1db9dc04ab17",
               "players": [
                 {
+                  "playerId": "team-player/86961cc7-931c-4781-b21c-08aa41c1e50d",
                   "name": "Tim Brewer",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ca120fc9-27b4-4054-88f9-80fc53253dbf",
                   "name": "Ken Knock",
                   "score": "17"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Tim Nurse",
-            "Jonathan Toye"
+            {
+              "playerId": "team-player/c466501c-ca9c-4b59-96d8-8662c494f4e2",
+              "name": "Tim Nurse"
+            },
+            {
+              "playerId": "team-player/2a0f22f7-ef14-451d-ade3-52cf018100f5",
+              "name": "Jonathan Toye"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3da123e4-ce69-4400-820e-8e3c169db60d",
               "players": [
                 {
+                  "playerId": "team-player/c466501c-ca9c-4b59-96d8-8662c494f4e2",
                   "name": "Tim Nurse",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2a0f22f7-ef14-451d-ade3-52cf018100f5",
                   "name": "Jonathan Toye",
                   "score": "19"
                 }

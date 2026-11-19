@@ -1,51 +1,109 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0a99205b-4d69-4f8d-ae0c-9550331727c2",
   "name": "WCF AC World Teams Tier 3",
   "sport": "ac",
   "firstDay": "2022-08-13",
   "lastDay": "2022-08-14",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Czechia",
       "shortName": "Czechia",
       "players": [
-        "Jan Kral",
-        "Jan Kral & Stepan Hazdra",
-        "Otakar Stankus",
-        "Otakar Stankus & Stanislav Vorel",
-        "Stanislav Vorel",
-        "Stepan Hazdra"
+        {
+          "playerId": "team-player/70c6bba5-78a9-45e2-934c-bc87e24160c2",
+          "name": "Jan Kral"
+        },
+        {
+          "playerId": "team-player/cebefd15-b114-4a75-97f2-6aff0735efdd",
+          "name": "Jan Kral & Stepan Hazdra"
+        },
+        {
+          "playerId": "team-player/4084ceac-210e-483e-b2af-a8894700488c",
+          "name": "Otakar Stankus"
+        },
+        {
+          "playerId": "team-player/871f5094-a135-4a1c-b313-4c0fa423b9dc",
+          "name": "Otakar Stankus & Stanislav Vorel"
+        },
+        {
+          "playerId": "team-player/f6650822-382a-4a5e-b4be-d28bb29fe35d",
+          "name": "Stanislav Vorel"
+        },
+        {
+          "playerId": "team-player/ca439fb6-b519-4f81-971d-60fdac7a48a5",
+          "name": "Stepan Hazdra"
+        }
       ]
     },
     {
       "name": "Germany",
       "shortName": "DEU",
       "players": [
-        "Bruno Hess",
-        "Bruno Hess & Joern Vinnen",
-        "Joern Vinnen",
-        "John Swabey",
-        "Wolfgang Usbeck",
-        "Wolfgang Usbeck & John Swabey"
+        {
+          "playerId": "team-player/3ce9500b-9c3b-44d6-ad69-adea86a3853d",
+          "name": "Bruno Hess"
+        },
+        {
+          "playerId": "team-player/ff32fc9d-e725-4729-ad94-0d6a5d31597f",
+          "name": "Bruno Hess & Joern Vinnen"
+        },
+        {
+          "playerId": "team-player/ab317c6f-8797-4a5f-b0a0-67a355d0a41c",
+          "name": "Joern Vinnen"
+        },
+        {
+          "playerId": "team-player/699897a5-a47c-4034-978b-b046a92c550d",
+          "name": "John Swabey"
+        },
+        {
+          "playerId": "team-player/5035b8e9-72a7-47d1-baa2-8271193c4141",
+          "name": "Wolfgang Usbeck"
+        },
+        {
+          "playerId": "team-player/c7b55c74-06b8-44f4-b250-ea316681f7a8",
+          "name": "Wolfgang Usbeck & John Swabey"
+        }
       ]
     },
     {
       "name": "South Africa",
       "shortName": "ZAF",
       "players": [
-        "Andrew Hobbs",
-        "Andrew Hobbs & Christine Wakeham",
-        "Christine Wakeham",
-        "Judith Hanekom",
-        "Nick Harvey",
-        "Nick Harvey & Judith Hanekom"
+        {
+          "playerId": "team-player/7eb53f0e-1859-48c1-9edd-7d9cd80873c3",
+          "name": "Andrew Hobbs"
+        },
+        {
+          "playerId": "team-player/a4a82be1-abd9-46ed-ac1f-6d9184f69289",
+          "name": "Andrew Hobbs & Christine Wakeham"
+        },
+        {
+          "playerId": "team-player/3ce9722a-c344-434b-ad7c-b918fa42fdb6",
+          "name": "Christine Wakeham"
+        },
+        {
+          "playerId": "team-player/544208fd-fbf3-48ee-960c-0ac49f365981",
+          "name": "Judith Hanekom"
+        },
+        {
+          "playerId": "team-player/a4e50adf-92bc-4116-8cdf-df68966ad035",
+          "name": "Nick Harvey"
+        },
+        {
+          "playerId": "team-player/e8e81233-5442-4255-84c7-605de38ea494",
+          "name": "Nick Harvey & Judith Hanekom"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/fe3495ca-e33b-4802-9065-30dcb7ef7790",
       "teams": [
         "Czechia",
         "Germany"
@@ -55,17 +113,26 @@
       "matches": [
         {
           "players": [
-            "Jan Kral & Stepan Hazdra",
-            "Wolfgang Usbeck & John Swabey"
+            {
+              "playerId": "team-player/cebefd15-b114-4a75-97f2-6aff0735efdd",
+              "name": "Jan Kral & Stepan Hazdra"
+            },
+            {
+              "playerId": "team-player/c7b55c74-06b8-44f4-b250-ea316681f7a8",
+              "name": "Wolfgang Usbeck & John Swabey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6e71d265-0274-4daf-aed0-1d7fb3b009ac",
               "players": [
                 {
+                  "playerId": "team-player/cebefd15-b114-4a75-97f2-6aff0735efdd",
                   "name": "Jan Kral & Stepan Hazdra",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/c7b55c74-06b8-44f4-b250-ea316681f7a8",
                   "name": "Wolfgang Usbeck & John Swabey",
                   "score": "17"
                 }
@@ -77,17 +144,26 @@
         },
         {
           "players": [
-            "Jan Kral",
-            "Wolfgang Usbeck"
+            {
+              "playerId": "team-player/70c6bba5-78a9-45e2-934c-bc87e24160c2",
+              "name": "Jan Kral"
+            },
+            {
+              "playerId": "team-player/5035b8e9-72a7-47d1-baa2-8271193c4141",
+              "name": "Wolfgang Usbeck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bc71725f-e3f9-4d6f-ad99-e022d712046f",
               "players": [
                 {
+                  "playerId": "team-player/70c6bba5-78a9-45e2-934c-bc87e24160c2",
                   "name": "Jan Kral",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/5035b8e9-72a7-47d1-baa2-8271193c4141",
                   "name": "Wolfgang Usbeck",
                   "score": "26"
                 }
@@ -99,17 +175,26 @@
         },
         {
           "players": [
-            "Stanislav Vorel",
-            "Joern Vinnen"
+            {
+              "playerId": "team-player/f6650822-382a-4a5e-b4be-d28bb29fe35d",
+              "name": "Stanislav Vorel"
+            },
+            {
+              "playerId": "team-player/ab317c6f-8797-4a5f-b0a0-67a355d0a41c",
+              "name": "Joern Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8481bf1d-312b-41f0-9844-04416009d0f7",
               "players": [
                 {
+                  "playerId": "team-player/f6650822-382a-4a5e-b4be-d28bb29fe35d",
                   "name": "Stanislav Vorel",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ab317c6f-8797-4a5f-b0a0-67a355d0a41c",
                   "name": "Joern Vinnen",
                   "score": "26"
                 }
@@ -121,17 +206,26 @@
         },
         {
           "players": [
-            "Otakar Stankus",
-            "Wolfgang Usbeck"
+            {
+              "playerId": "team-player/4084ceac-210e-483e-b2af-a8894700488c",
+              "name": "Otakar Stankus"
+            },
+            {
+              "playerId": "team-player/5035b8e9-72a7-47d1-baa2-8271193c4141",
+              "name": "Wolfgang Usbeck"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f985a73d-9bd8-4aec-ad89-90c55d75edd7",
               "players": [
                 {
+                  "playerId": "team-player/4084ceac-210e-483e-b2af-a8894700488c",
                   "name": "Otakar Stankus",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/5035b8e9-72a7-47d1-baa2-8271193c4141",
                   "name": "Wolfgang Usbeck",
                   "score": "23"
                 }
@@ -143,17 +237,26 @@
         },
         {
           "players": [
-            "Stepan Hazdra",
-            "Joern Vinnen"
+            {
+              "playerId": "team-player/ca439fb6-b519-4f81-971d-60fdac7a48a5",
+              "name": "Stepan Hazdra"
+            },
+            {
+              "playerId": "team-player/ab317c6f-8797-4a5f-b0a0-67a355d0a41c",
+              "name": "Joern Vinnen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a97f81d2-6220-4c92-be81-310c9ba42cfe",
               "players": [
                 {
+                  "playerId": "team-player/ca439fb6-b519-4f81-971d-60fdac7a48a5",
                   "name": "Stepan Hazdra",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/ab317c6f-8797-4a5f-b0a0-67a355d0a41c",
                   "name": "Joern Vinnen",
                   "score": "26"
                 }
@@ -165,17 +268,26 @@
         },
         {
           "players": [
-            "Jan Kral",
-            "Bruno Hess"
+            {
+              "playerId": "team-player/70c6bba5-78a9-45e2-934c-bc87e24160c2",
+              "name": "Jan Kral"
+            },
+            {
+              "playerId": "team-player/3ce9500b-9c3b-44d6-ad69-adea86a3853d",
+              "name": "Bruno Hess"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d45b6ab9-1290-432a-8da5-0132e843c0b0",
               "players": [
                 {
+                  "playerId": "team-player/70c6bba5-78a9-45e2-934c-bc87e24160c2",
                   "name": "Jan Kral",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3ce9500b-9c3b-44d6-ad69-adea86a3853d",
                   "name": "Bruno Hess",
                   "score": "26"
                 }
@@ -187,17 +299,26 @@
         },
         {
           "players": [
-            "Stepan Hazdra",
-            "John Swabey"
+            {
+              "playerId": "team-player/ca439fb6-b519-4f81-971d-60fdac7a48a5",
+              "name": "Stepan Hazdra"
+            },
+            {
+              "playerId": "team-player/699897a5-a47c-4034-978b-b046a92c550d",
+              "name": "John Swabey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dfa38092-54f3-4af4-a120-5e7deb816427",
               "players": [
                 {
+                  "playerId": "team-player/ca439fb6-b519-4f81-971d-60fdac7a48a5",
                   "name": "Stepan Hazdra",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/699897a5-a47c-4034-978b-b046a92c550d",
                   "name": "John Swabey",
                   "score": "18"
                 }
@@ -210,6 +331,7 @@
       ]
     },
     {
+      "competitionId": "competition/60073c37-4af5-421c-ae5d-a972d55647c1",
       "teams": [
         "Czechia",
         "South Africa"
@@ -219,17 +341,26 @@
       "matches": [
         {
           "players": [
-            "Otakar Stankus & Stanislav Vorel",
-            "Nick Harvey & Judith Hanekom"
+            {
+              "playerId": "team-player/871f5094-a135-4a1c-b313-4c0fa423b9dc",
+              "name": "Otakar Stankus & Stanislav Vorel"
+            },
+            {
+              "playerId": "team-player/e8e81233-5442-4255-84c7-605de38ea494",
+              "name": "Nick Harvey & Judith Hanekom"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ad4d6ed2-e831-448f-bd4a-9b244448d354",
               "players": [
                 {
+                  "playerId": "team-player/871f5094-a135-4a1c-b313-4c0fa423b9dc",
                   "name": "Otakar Stankus & Stanislav Vorel",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/e8e81233-5442-4255-84c7-605de38ea494",
                   "name": "Nick Harvey & Judith Hanekom",
                   "score": "25"
                 }
@@ -241,17 +372,26 @@
         },
         {
           "players": [
-            "Otakar Stankus",
-            "Nick Harvey"
+            {
+              "playerId": "team-player/4084ceac-210e-483e-b2af-a8894700488c",
+              "name": "Otakar Stankus"
+            },
+            {
+              "playerId": "team-player/a4e50adf-92bc-4116-8cdf-df68966ad035",
+              "name": "Nick Harvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5c15a956-66c9-4b8f-8f93-f53b472fdd4c",
               "players": [
                 {
+                  "playerId": "team-player/4084ceac-210e-483e-b2af-a8894700488c",
                   "name": "Otakar Stankus",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/a4e50adf-92bc-4116-8cdf-df68966ad035",
                   "name": "Nick Harvey",
                   "score": "10"
                 }
@@ -263,17 +403,26 @@
         },
         {
           "players": [
-            "Stepan Hazdra",
-            "Christine Wakeham"
+            {
+              "playerId": "team-player/ca439fb6-b519-4f81-971d-60fdac7a48a5",
+              "name": "Stepan Hazdra"
+            },
+            {
+              "playerId": "team-player/3ce9722a-c344-434b-ad7c-b918fa42fdb6",
+              "name": "Christine Wakeham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b3a3e525-8acc-4dfc-ae4e-c35aa5ffa729",
               "players": [
                 {
+                  "playerId": "team-player/ca439fb6-b519-4f81-971d-60fdac7a48a5",
                   "name": "Stepan Hazdra",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/3ce9722a-c344-434b-ad7c-b918fa42fdb6",
                   "name": "Christine Wakeham",
                   "score": "20"
                 }
@@ -285,17 +434,26 @@
         },
         {
           "players": [
-            "Jan Kral",
-            "Andrew Hobbs"
+            {
+              "playerId": "team-player/70c6bba5-78a9-45e2-934c-bc87e24160c2",
+              "name": "Jan Kral"
+            },
+            {
+              "playerId": "team-player/7eb53f0e-1859-48c1-9edd-7d9cd80873c3",
+              "name": "Andrew Hobbs"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4291c92-1235-4678-a2ef-e81528b3ae38",
               "players": [
                 {
+                  "playerId": "team-player/70c6bba5-78a9-45e2-934c-bc87e24160c2",
                   "name": "Jan Kral",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7eb53f0e-1859-48c1-9edd-7d9cd80873c3",
                   "name": "Andrew Hobbs",
                   "score": "26"
                 }
@@ -307,17 +465,26 @@
         },
         {
           "players": [
-            "Stanislav Vorel",
-            "Judith Hanekom"
+            {
+              "playerId": "team-player/f6650822-382a-4a5e-b4be-d28bb29fe35d",
+              "name": "Stanislav Vorel"
+            },
+            {
+              "playerId": "team-player/544208fd-fbf3-48ee-960c-0ac49f365981",
+              "name": "Judith Hanekom"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cb37a226-31e4-41ae-8471-0a7af82fabf6",
               "players": [
                 {
+                  "playerId": "team-player/f6650822-382a-4a5e-b4be-d28bb29fe35d",
                   "name": "Stanislav Vorel",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/544208fd-fbf3-48ee-960c-0ac49f365981",
                   "name": "Judith Hanekom",
                   "score": "26"
                 }
@@ -329,17 +496,26 @@
         },
         {
           "players": [
-            "Otakar Stankus",
-            "Andrew Hobbs"
+            {
+              "playerId": "team-player/4084ceac-210e-483e-b2af-a8894700488c",
+              "name": "Otakar Stankus"
+            },
+            {
+              "playerId": "team-player/7eb53f0e-1859-48c1-9edd-7d9cd80873c3",
+              "name": "Andrew Hobbs"
+            }
           ],
           "games": [
             {
+              "gameId": "game/35aec401-33c6-4e47-a154-b4e490732f92",
               "players": [
                 {
+                  "playerId": "team-player/4084ceac-210e-483e-b2af-a8894700488c",
                   "name": "Otakar Stankus",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7eb53f0e-1859-48c1-9edd-7d9cd80873c3",
                   "name": "Andrew Hobbs",
                   "score": "26tp"
                 }
@@ -351,17 +527,26 @@
         },
         {
           "players": [
-            "Stepan Hazdra",
-            "Judith Hanekom"
+            {
+              "playerId": "team-player/ca439fb6-b519-4f81-971d-60fdac7a48a5",
+              "name": "Stepan Hazdra"
+            },
+            {
+              "playerId": "team-player/544208fd-fbf3-48ee-960c-0ac49f365981",
+              "name": "Judith Hanekom"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ec46324c-445e-4c0b-b611-2143a2fbc7df",
               "players": [
                 {
+                  "playerId": "team-player/ca439fb6-b519-4f81-971d-60fdac7a48a5",
                   "name": "Stepan Hazdra",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/544208fd-fbf3-48ee-960c-0ac49f365981",
                   "name": "Judith Hanekom",
                   "score": "26"
                 }
@@ -374,6 +559,7 @@
       ]
     },
     {
+      "competitionId": "competition/939afcc5-fa48-4c67-b967-a45977842f9f",
       "teams": [
         "Germany",
         "South Africa"
@@ -383,17 +569,26 @@
       "matches": [
         {
           "players": [
-            "Bruno Hess & Joern Vinnen",
-            "Andrew Hobbs & Christine Wakeham"
+            {
+              "playerId": "team-player/ff32fc9d-e725-4729-ad94-0d6a5d31597f",
+              "name": "Bruno Hess & Joern Vinnen"
+            },
+            {
+              "playerId": "team-player/a4a82be1-abd9-46ed-ac1f-6d9184f69289",
+              "name": "Andrew Hobbs & Christine Wakeham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2667c580-b8e7-4c78-ad34-d33de8730f6e",
               "players": [
                 {
+                  "playerId": "team-player/ff32fc9d-e725-4729-ad94-0d6a5d31597f",
                   "name": "Bruno Hess & Joern Vinnen",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/a4a82be1-abd9-46ed-ac1f-6d9184f69289",
                   "name": "Andrew Hobbs & Christine Wakeham",
                   "score": "16"
                 }
@@ -405,17 +600,26 @@
         },
         {
           "players": [
-            "Bruno Hess",
-            "Andrew Hobbs"
+            {
+              "playerId": "team-player/3ce9500b-9c3b-44d6-ad69-adea86a3853d",
+              "name": "Bruno Hess"
+            },
+            {
+              "playerId": "team-player/7eb53f0e-1859-48c1-9edd-7d9cd80873c3",
+              "name": "Andrew Hobbs"
+            }
           ],
           "games": [
             {
+              "gameId": "game/64b1c066-46ba-4c1d-8a56-7d407e1c1529",
               "players": [
                 {
+                  "playerId": "team-player/3ce9500b-9c3b-44d6-ad69-adea86a3853d",
                   "name": "Bruno Hess",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/7eb53f0e-1859-48c1-9edd-7d9cd80873c3",
                   "name": "Andrew Hobbs",
                   "score": "26"
                 }
@@ -427,17 +631,26 @@
         },
         {
           "players": [
-            "John Swabey",
-            "Judith Hanekom"
+            {
+              "playerId": "team-player/699897a5-a47c-4034-978b-b046a92c550d",
+              "name": "John Swabey"
+            },
+            {
+              "playerId": "team-player/544208fd-fbf3-48ee-960c-0ac49f365981",
+              "name": "Judith Hanekom"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5e39a714-65a9-4e2e-8447-5b304cb162bc",
               "players": [
                 {
+                  "playerId": "team-player/699897a5-a47c-4034-978b-b046a92c550d",
                   "name": "John Swabey",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/544208fd-fbf3-48ee-960c-0ac49f365981",
                   "name": "Judith Hanekom",
                   "score": "26"
                 }
@@ -449,17 +662,26 @@
         },
         {
           "players": [
-            "Bruno Hess",
-            "Nick Harvey"
+            {
+              "playerId": "team-player/3ce9500b-9c3b-44d6-ad69-adea86a3853d",
+              "name": "Bruno Hess"
+            },
+            {
+              "playerId": "team-player/a4e50adf-92bc-4116-8cdf-df68966ad035",
+              "name": "Nick Harvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/30ab4062-4ec9-42d4-a82c-e32e151b1605",
               "players": [
                 {
+                  "playerId": "team-player/3ce9500b-9c3b-44d6-ad69-adea86a3853d",
                   "name": "Bruno Hess",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/a4e50adf-92bc-4116-8cdf-df68966ad035",
                   "name": "Nick Harvey",
                   "score": "17"
                 }
@@ -471,17 +693,26 @@
         },
         {
           "players": [
-            "John Swabey",
-            "Christine Wakeham"
+            {
+              "playerId": "team-player/699897a5-a47c-4034-978b-b046a92c550d",
+              "name": "John Swabey"
+            },
+            {
+              "playerId": "team-player/3ce9722a-c344-434b-ad7c-b918fa42fdb6",
+              "name": "Christine Wakeham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e8bccd37-a981-4238-8720-1ac4a341b2e6",
               "players": [
                 {
+                  "playerId": "team-player/699897a5-a47c-4034-978b-b046a92c550d",
                   "name": "John Swabey",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3ce9722a-c344-434b-ad7c-b918fa42fdb6",
                   "name": "Christine Wakeham",
                   "score": "26"
                 }
@@ -493,17 +724,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Nick Harvey"
+            {
+              "playerId": "team-player/5035b8e9-72a7-47d1-baa2-8271193c4141",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/a4e50adf-92bc-4116-8cdf-df68966ad035",
+              "name": "Nick Harvey"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf6a88c2-aa9c-421f-9ed0-ca941d9daefe",
               "players": [
                 {
+                  "playerId": "team-player/5035b8e9-72a7-47d1-baa2-8271193c4141",
                   "name": "Wolfgang Usbeck",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/a4e50adf-92bc-4116-8cdf-df68966ad035",
                   "name": "Nick Harvey",
                   "score": "26"
                 }
@@ -515,17 +755,26 @@
         },
         {
           "players": [
-            "Joern Vinnen",
-            "Christine Wakeham"
+            {
+              "playerId": "team-player/ab317c6f-8797-4a5f-b0a0-67a355d0a41c",
+              "name": "Joern Vinnen"
+            },
+            {
+              "playerId": "team-player/3ce9722a-c344-434b-ad7c-b918fa42fdb6",
+              "name": "Christine Wakeham"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3804d1cb-5c32-4f69-a118-4ddc3d4f57a2",
               "players": [
                 {
+                  "playerId": "team-player/ab317c6f-8797-4a5f-b0a0-67a355d0a41c",
                   "name": "Joern Vinnen",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/3ce9722a-c344-434b-ad7c-b918fa42fdb6",
                   "name": "Christine Wakeham",
                   "score": "24"
                 }
@@ -537,17 +786,26 @@
         },
         {
           "players": [
-            "Wolfgang Usbeck",
-            "Andrew Hobbs"
+            {
+              "playerId": "team-player/5035b8e9-72a7-47d1-baa2-8271193c4141",
+              "name": "Wolfgang Usbeck"
+            },
+            {
+              "playerId": "team-player/7eb53f0e-1859-48c1-9edd-7d9cd80873c3",
+              "name": "Andrew Hobbs"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7c1b257a-08c3-470e-9b93-f6e494e764bb",
               "players": [
                 {
+                  "playerId": "team-player/5035b8e9-72a7-47d1-baa2-8271193c4141",
                   "name": "Wolfgang Usbeck",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7eb53f0e-1859-48c1-9edd-7d9cd80873c3",
                   "name": "Andrew Hobbs",
                   "score": "12"
                 }

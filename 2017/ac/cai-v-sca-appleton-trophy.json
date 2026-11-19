@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7865c8fc-c6d9-4b94-82dd-581944015e82",
   "name": "CAI v SCA (Appleton Trophy)",
   "sport": "ac",
   "firstDay": "2017-05-13",
   "lastDay": "2017-05-14",
   "country": "ie",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Croquet Association of Ireland",
       "shortName": "Croquet As",
       "players": [
-        "David McGrath",
-        "Evan Newell",
-        "Evan Newell & Dave McGrath",
-        "Frank Martin",
-        "Jack Clingan",
-        "Jane Morrison",
-        "Jane Morrison & Frank Martin",
-        "Nathaniel Healy",
-        "Nathaniel Healy & Jack Clingan"
+        {
+          "playerId": "team-player/611de86b-4136-48bf-a721-cb09943baefd",
+          "name": "David McGrath"
+        },
+        {
+          "playerId": "team-player/62bf81f8-3558-4585-81ac-042523b95172",
+          "name": "Evan Newell"
+        },
+        {
+          "playerId": "team-player/d72bf449-b967-4cc0-acb0-942332014f40",
+          "name": "Evan Newell & Dave McGrath"
+        },
+        {
+          "playerId": "team-player/77950753-e6bd-47e8-b779-d4fae65047ae",
+          "name": "Frank Martin"
+        },
+        {
+          "playerId": "team-player/f1d287d7-3c09-427c-9d73-a39ea1cc6c58",
+          "name": "Jack Clingan"
+        },
+        {
+          "playerId": "team-player/fe6d33b1-fb4a-4042-9228-a188c9b3f0a4",
+          "name": "Jane Morrison"
+        },
+        {
+          "playerId": "team-player/32e080e6-27de-49df-a34c-09737b9f2e5a",
+          "name": "Jane Morrison & Frank Martin"
+        },
+        {
+          "playerId": "team-player/c484e05c-29ac-4448-a96f-53dbd1ed661f",
+          "name": "Nathaniel Healy"
+        },
+        {
+          "playerId": "team-player/6483b463-37e4-4066-bf81-5341a05ed7d9",
+          "name": "Nathaniel Healy & Jack Clingan"
+        }
       ]
     },
     {
       "name": "Scottish Croquet Association",
       "shortName": "Scottish C",
       "players": [
-        "Alan Clark",
-        "Alan Wilson",
-        "AlanWilson & Chris Martin",
-        "Campbell Morrison",
-        "Campbell Morrison & Janice Duguid",
-        "Chris Martin",
-        "Janice Duguid",
-        "John Surgenor",
-        "John Surgenor & Alan Clark"
+        {
+          "playerId": "team-player/f00bff81-5b7a-4f26-be0d-7e8d4c379c37",
+          "name": "Alan Clark"
+        },
+        {
+          "playerId": "team-player/39c5da6b-7d43-45ef-9468-979175813ddf",
+          "name": "Alan Wilson"
+        },
+        {
+          "playerId": "team-player/92b6d57a-eff9-44f7-9c3d-9a770be2e18b",
+          "name": "AlanWilson & Chris Martin"
+        },
+        {
+          "playerId": "team-player/133072a2-5bae-4b33-8897-3743881e48b6",
+          "name": "Campbell Morrison"
+        },
+        {
+          "playerId": "team-player/96735de5-c1d4-4b51-a6ab-69646cc47e35",
+          "name": "Campbell Morrison & Janice Duguid"
+        },
+        {
+          "playerId": "team-player/14b30f7b-8b40-4f81-a7e4-39601eedfe04",
+          "name": "Chris Martin"
+        },
+        {
+          "playerId": "team-player/90350ecc-a159-4c99-aa2a-08bfa0bb52e6",
+          "name": "Janice Duguid"
+        },
+        {
+          "playerId": "team-player/3369804b-218d-425c-a3c5-c28b253fa2d8",
+          "name": "John Surgenor"
+        },
+        {
+          "playerId": "team-player/32fdbf87-7f4c-4e9e-a311-deb02df12b2b",
+          "name": "John Surgenor & Alan Clark"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/6fd349c1-a21b-40f8-adda-96c5123a6b84",
       "teams": [
         "Croquet Association of Ireland",
         "Scottish Croquet Association"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Evan Newell & Dave McGrath",
-            "John Surgenor & Alan Clark"
+            {
+              "playerId": "team-player/d72bf449-b967-4cc0-acb0-942332014f40",
+              "name": "Evan Newell & Dave McGrath"
+            },
+            {
+              "playerId": "team-player/32fdbf87-7f4c-4e9e-a311-deb02df12b2b",
+              "name": "John Surgenor & Alan Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7615a517-6937-4804-ac0a-19820d8b14ea",
               "players": [
                 {
+                  "playerId": "team-player/d72bf449-b967-4cc0-acb0-942332014f40",
                   "name": "Evan Newell & Dave McGrath",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/32fdbf87-7f4c-4e9e-a311-deb02df12b2b",
                   "name": "John Surgenor & Alan Clark",
                   "score": "15"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "Jane Morrison & Frank Martin",
-            "AlanWilson & Chris Martin"
+            {
+              "playerId": "team-player/32e080e6-27de-49df-a34c-09737b9f2e5a",
+              "name": "Jane Morrison & Frank Martin"
+            },
+            {
+              "playerId": "team-player/92b6d57a-eff9-44f7-9c3d-9a770be2e18b",
+              "name": "AlanWilson & Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/67306829-c5d8-48be-821d-14e4b9383cd1",
               "players": [
                 {
+                  "playerId": "team-player/32e080e6-27de-49df-a34c-09737b9f2e5a",
                   "name": "Jane Morrison & Frank Martin",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/92b6d57a-eff9-44f7-9c3d-9a770be2e18b",
                   "name": "AlanWilson & Chris Martin",
                   "score": "15"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/62bf81f8-3558-4585-81ac-042523b95172",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/39c5da6b-7d43-45ef-9468-979175813ddf",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3b644c77-effd-48bd-994f-d75708113db0",
               "players": [
                 {
+                  "playerId": "team-player/62bf81f8-3558-4585-81ac-042523b95172",
                   "name": "Evan Newell",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/39c5da6b-7d43-45ef-9468-979175813ddf",
                   "name": "Alan Wilson",
                   "score": "9"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Jane Morrison",
-            "Campbell Morrison"
+            {
+              "playerId": "team-player/fe6d33b1-fb4a-4042-9228-a188c9b3f0a4",
+              "name": "Jane Morrison"
+            },
+            {
+              "playerId": "team-player/133072a2-5bae-4b33-8897-3743881e48b6",
+              "name": "Campbell Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4f3b458-0754-4e05-a451-053abf1dd3e3",
               "players": [
                 {
+                  "playerId": "team-player/fe6d33b1-fb4a-4042-9228-a188c9b3f0a4",
                   "name": "Jane Morrison",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/133072a2-5bae-4b33-8897-3743881e48b6",
                   "name": "Campbell Morrison",
                   "score": "15"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "John Surgenor"
+            {
+              "playerId": "team-player/c484e05c-29ac-4448-a96f-53dbd1ed661f",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/3369804b-218d-425c-a3c5-c28b253fa2d8",
+              "name": "John Surgenor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5edf9b5c-f88b-4625-adb0-815493c510da",
               "players": [
                 {
+                  "playerId": "team-player/c484e05c-29ac-4448-a96f-53dbd1ed661f",
                   "name": "Nathaniel Healy",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3369804b-218d-425c-a3c5-c28b253fa2d8",
                   "name": "John Surgenor",
                   "score": "17"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Jack Clingan",
-            "Alan Clark"
+            {
+              "playerId": "team-player/f1d287d7-3c09-427c-9d73-a39ea1cc6c58",
+              "name": "Jack Clingan"
+            },
+            {
+              "playerId": "team-player/f00bff81-5b7a-4f26-be0d-7e8d4c379c37",
+              "name": "Alan Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6e76df5f-679b-48c8-99a7-a864de82991f",
               "players": [
                 {
+                  "playerId": "team-player/f1d287d7-3c09-427c-9d73-a39ea1cc6c58",
                   "name": "Jack Clingan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f00bff81-5b7a-4f26-be0d-7e8d4c379c37",
                   "name": "Alan Clark",
                   "score": "5"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Frank Martin",
-            "Janice Duguid"
+            {
+              "playerId": "team-player/77950753-e6bd-47e8-b779-d4fae65047ae",
+              "name": "Frank Martin"
+            },
+            {
+              "playerId": "team-player/90350ecc-a159-4c99-aa2a-08bfa0bb52e6",
+              "name": "Janice Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca9d66fe-8b2b-4380-aada-4eef888c857d",
               "players": [
                 {
+                  "playerId": "team-player/77950753-e6bd-47e8-b779-d4fae65047ae",
                   "name": "Frank Martin",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/90350ecc-a159-4c99-aa2a-08bfa0bb52e6",
                   "name": "Janice Duguid",
                   "score": "18"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "David McGrath",
-            "Chris Martin"
+            {
+              "playerId": "team-player/611de86b-4136-48bf-a721-cb09943baefd",
+              "name": "David McGrath"
+            },
+            {
+              "playerId": "team-player/14b30f7b-8b40-4f81-a7e4-39601eedfe04",
+              "name": "Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1ff6a301-fce8-4c10-9da1-d9bb1c57d83c",
               "players": [
                 {
+                  "playerId": "team-player/611de86b-4136-48bf-a721-cb09943baefd",
                   "name": "David McGrath",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/14b30f7b-8b40-4f81-a7e4-39601eedfe04",
                   "name": "Chris Martin",
                   "score": "26"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "John Surgenor"
+            {
+              "playerId": "team-player/62bf81f8-3558-4585-81ac-042523b95172",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/3369804b-218d-425c-a3c5-c28b253fa2d8",
+              "name": "John Surgenor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5745e025-79e0-4d3a-bd01-425f642604e4",
               "players": [
                 {
+                  "playerId": "team-player/62bf81f8-3558-4585-81ac-042523b95172",
                   "name": "Evan Newell",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/3369804b-218d-425c-a3c5-c28b253fa2d8",
                   "name": "John Surgenor",
                   "score": "2"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "Campbell Morrison"
+            {
+              "playerId": "team-player/c484e05c-29ac-4448-a96f-53dbd1ed661f",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/133072a2-5bae-4b33-8897-3743881e48b6",
+              "name": "Campbell Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8d1a7dfe-15ea-4126-841f-a1a0c573fa52",
               "players": [
                 {
+                  "playerId": "team-player/c484e05c-29ac-4448-a96f-53dbd1ed661f",
                   "name": "Nathaniel Healy",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/133072a2-5bae-4b33-8897-3743881e48b6",
                   "name": "Campbell Morrison",
                   "score": "26"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "David McGrath",
-            "Alan Clark"
+            {
+              "playerId": "team-player/611de86b-4136-48bf-a721-cb09943baefd",
+              "name": "David McGrath"
+            },
+            {
+              "playerId": "team-player/f00bff81-5b7a-4f26-be0d-7e8d4c379c37",
+              "name": "Alan Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/18f5b280-4863-4820-b8d5-28d7ba47edbf",
               "players": [
                 {
+                  "playerId": "team-player/611de86b-4136-48bf-a721-cb09943baefd",
                   "name": "David McGrath",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/f00bff81-5b7a-4f26-be0d-7e8d4c379c37",
                   "name": "Alan Clark",
                   "score": "26"
                 }
@@ -291,17 +448,26 @@
         },
         {
           "players": [
-            "Jack Clingan",
-            "Janice Duguid"
+            {
+              "playerId": "team-player/f1d287d7-3c09-427c-9d73-a39ea1cc6c58",
+              "name": "Jack Clingan"
+            },
+            {
+              "playerId": "team-player/90350ecc-a159-4c99-aa2a-08bfa0bb52e6",
+              "name": "Janice Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7ca1fe46-554a-4011-b64e-5eac6861b1c6",
               "players": [
                 {
+                  "playerId": "team-player/f1d287d7-3c09-427c-9d73-a39ea1cc6c58",
                   "name": "Jack Clingan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/90350ecc-a159-4c99-aa2a-08bfa0bb52e6",
                   "name": "Janice Duguid",
                   "score": "10"
                 }
@@ -313,17 +479,26 @@
         },
         {
           "players": [
-            "Frank Martin",
-            "Chris Martin"
+            {
+              "playerId": "team-player/77950753-e6bd-47e8-b779-d4fae65047ae",
+              "name": "Frank Martin"
+            },
+            {
+              "playerId": "team-player/14b30f7b-8b40-4f81-a7e4-39601eedfe04",
+              "name": "Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7b32f1b2-9738-43fa-aeaf-621b44002e27",
               "players": [
                 {
+                  "playerId": "team-player/77950753-e6bd-47e8-b779-d4fae65047ae",
                   "name": "Frank Martin",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/14b30f7b-8b40-4f81-a7e4-39601eedfe04",
                   "name": "Chris Martin",
                   "score": "22"
                 }
@@ -335,17 +510,26 @@
         },
         {
           "players": [
-            "Jane Morrison",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/fe6d33b1-fb4a-4042-9228-a188c9b3f0a4",
+              "name": "Jane Morrison"
+            },
+            {
+              "playerId": "team-player/39c5da6b-7d43-45ef-9468-979175813ddf",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ea2ad145-6b6d-4a9d-8382-fd7eb84d832d",
               "players": [
                 {
+                  "playerId": "team-player/fe6d33b1-fb4a-4042-9228-a188c9b3f0a4",
                   "name": "Jane Morrison",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/39c5da6b-7d43-45ef-9468-979175813ddf",
                   "name": "Alan Wilson",
                   "score": "23"
                 }
@@ -357,17 +541,26 @@
         },
         {
           "players": [
-            "Evan Newell & Dave McGrath",
-            "AlanWilson & Chris Martin"
+            {
+              "playerId": "team-player/d72bf449-b967-4cc0-acb0-942332014f40",
+              "name": "Evan Newell & Dave McGrath"
+            },
+            {
+              "playerId": "team-player/92b6d57a-eff9-44f7-9c3d-9a770be2e18b",
+              "name": "AlanWilson & Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d54570fc-1593-4794-870b-9539fdaee259",
               "players": [
                 {
+                  "playerId": "team-player/d72bf449-b967-4cc0-acb0-942332014f40",
                   "name": "Evan Newell & Dave McGrath",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/92b6d57a-eff9-44f7-9c3d-9a770be2e18b",
                   "name": "AlanWilson & Chris Martin",
                   "score": "26"
                 }
@@ -379,17 +572,26 @@
         },
         {
           "players": [
-            "Jane Morrison & Frank Martin",
-            "Campbell Morrison & Janice Duguid"
+            {
+              "playerId": "team-player/32e080e6-27de-49df-a34c-09737b9f2e5a",
+              "name": "Jane Morrison & Frank Martin"
+            },
+            {
+              "playerId": "team-player/96735de5-c1d4-4b51-a6ab-69646cc47e35",
+              "name": "Campbell Morrison & Janice Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd7026fd-14ac-453e-92f8-110e16e8fc47",
               "players": [
                 {
+                  "playerId": "team-player/32e080e6-27de-49df-a34c-09737b9f2e5a",
                   "name": "Jane Morrison & Frank Martin",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/96735de5-c1d4-4b51-a6ab-69646cc47e35",
                   "name": "Campbell Morrison & Janice Duguid",
                   "score": "21"
                 }
@@ -401,17 +603,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy & Jack Clingan",
-            "John Surgenor & Alan Clark"
+            {
+              "playerId": "team-player/6483b463-37e4-4066-bf81-5341a05ed7d9",
+              "name": "Nathaniel Healy & Jack Clingan"
+            },
+            {
+              "playerId": "team-player/32fdbf87-7f4c-4e9e-a311-deb02df12b2b",
+              "name": "John Surgenor & Alan Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/db3cb5a6-d9dd-4a7d-9c16-084ad222a7e6",
               "players": [
                 {
+                  "playerId": "team-player/6483b463-37e4-4066-bf81-5341a05ed7d9",
                   "name": "Nathaniel Healy & Jack Clingan",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/32fdbf87-7f4c-4e9e-a311-deb02df12b2b",
                   "name": "John Surgenor & Alan Clark",
                   "score": "26"
                 }
@@ -423,17 +634,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "Campbell Morrison"
+            {
+              "playerId": "team-player/62bf81f8-3558-4585-81ac-042523b95172",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/133072a2-5bae-4b33-8897-3743881e48b6",
+              "name": "Campbell Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/44b79730-3328-4363-ae57-0ed527267a4d",
               "players": [
                 {
+                  "playerId": "team-player/62bf81f8-3558-4585-81ac-042523b95172",
                   "name": "Evan Newell",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/133072a2-5bae-4b33-8897-3743881e48b6",
                   "name": "Campbell Morrison",
                   "score": "8"
                 }
@@ -445,17 +665,26 @@
         },
         {
           "players": [
-            "Jane Morrison",
-            "John Surgenor"
+            {
+              "playerId": "team-player/fe6d33b1-fb4a-4042-9228-a188c9b3f0a4",
+              "name": "Jane Morrison"
+            },
+            {
+              "playerId": "team-player/3369804b-218d-425c-a3c5-c28b253fa2d8",
+              "name": "John Surgenor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7aef5735-3393-4151-92ce-8cfd0688e76e",
               "players": [
                 {
+                  "playerId": "team-player/fe6d33b1-fb4a-4042-9228-a188c9b3f0a4",
                   "name": "Jane Morrison",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/3369804b-218d-425c-a3c5-c28b253fa2d8",
                   "name": "John Surgenor",
                   "score": "26"
                 }
@@ -467,17 +696,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/c484e05c-29ac-4448-a96f-53dbd1ed661f",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/39c5da6b-7d43-45ef-9468-979175813ddf",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6857f06-3086-4729-8418-446904a11c5f",
               "players": [
                 {
+                  "playerId": "team-player/c484e05c-29ac-4448-a96f-53dbd1ed661f",
                   "name": "Nathaniel Healy",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/39c5da6b-7d43-45ef-9468-979175813ddf",
                   "name": "Alan Wilson",
                   "score": "21"
                 }
@@ -489,17 +727,26 @@
         },
         {
           "players": [
-            "Jack Clingan",
-            "Chris Martin"
+            {
+              "playerId": "team-player/f1d287d7-3c09-427c-9d73-a39ea1cc6c58",
+              "name": "Jack Clingan"
+            },
+            {
+              "playerId": "team-player/14b30f7b-8b40-4f81-a7e4-39601eedfe04",
+              "name": "Chris Martin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0b4dc244-ac32-4bbd-ba5c-4ecdcf329e55",
               "players": [
                 {
+                  "playerId": "team-player/f1d287d7-3c09-427c-9d73-a39ea1cc6c58",
                   "name": "Jack Clingan",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/14b30f7b-8b40-4f81-a7e4-39601eedfe04",
                   "name": "Chris Martin",
                   "score": "3"
                 }
@@ -511,17 +758,26 @@
         },
         {
           "players": [
-            "Frank Martin",
-            "Alan Clark"
+            {
+              "playerId": "team-player/77950753-e6bd-47e8-b779-d4fae65047ae",
+              "name": "Frank Martin"
+            },
+            {
+              "playerId": "team-player/f00bff81-5b7a-4f26-be0d-7e8d4c379c37",
+              "name": "Alan Clark"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5cb1ba89-571c-4b60-a566-0b2d0b393303",
               "players": [
                 {
+                  "playerId": "team-player/77950753-e6bd-47e8-b779-d4fae65047ae",
                   "name": "Frank Martin",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f00bff81-5b7a-4f26-be0d-7e8d4c379c37",
                   "name": "Alan Clark",
                   "score": "26"
                 }
@@ -533,17 +789,26 @@
         },
         {
           "players": [
-            "David McGrath",
-            "Janice Duguid"
+            {
+              "playerId": "team-player/611de86b-4136-48bf-a721-cb09943baefd",
+              "name": "David McGrath"
+            },
+            {
+              "playerId": "team-player/90350ecc-a159-4c99-aa2a-08bfa0bb52e6",
+              "name": "Janice Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4e06ebf2-6625-44a0-b62b-926fc563abc1",
               "players": [
                 {
+                  "playerId": "team-player/611de86b-4136-48bf-a721-cb09943baefd",
                   "name": "David McGrath",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/90350ecc-a159-4c99-aa2a-08bfa0bb52e6",
                   "name": "Janice Duguid",
                   "score": "26"
                 }
@@ -555,17 +820,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy & Jack Clingan",
-            "Campbell Morrison & Janice Duguid"
+            {
+              "playerId": "team-player/6483b463-37e4-4066-bf81-5341a05ed7d9",
+              "name": "Nathaniel Healy & Jack Clingan"
+            },
+            {
+              "playerId": "team-player/96735de5-c1d4-4b51-a6ab-69646cc47e35",
+              "name": "Campbell Morrison & Janice Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a16b941-a625-4d19-9b91-49f52cb06025",
               "players": [
                 {
+                  "playerId": "team-player/6483b463-37e4-4066-bf81-5341a05ed7d9",
                   "name": "Nathaniel Healy & Jack Clingan",
                   "score": "26tp(H)"
                 },
                 {
+                  "playerId": "team-player/96735de5-c1d4-4b51-a6ab-69646cc47e35",
                   "name": "Campbell Morrison & Janice Duguid",
                   "score": "0"
                 }

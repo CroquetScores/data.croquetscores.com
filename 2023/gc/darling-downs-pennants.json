@@ -1,55 +1,125 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/4c77371b-9df8-4ace-a4e9-a0317ccbfb49",
   "name": "Darling Downs Pennants",
   "sport": "gc",
   "firstDay": "2023-08-19",
   "lastDay": "2023-09-02",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Laurel Bank",
       "shortName": "Laurel Ban",
       "players": [
-        "Andrew Hemming",
-        "Andrew Hemming & Susan Unger",
-        "Joy Wright",
-        "Pauline Jensen and Valmai Dennis",
-        "Peter Wright",
-        "Valmai Dennis",
-        "Valmai Dennis & Joy Wright"
+        {
+          "playerId": "team-player/10297447-4cf4-4d3e-b05c-0cadcd744c85",
+          "name": "Andrew Hemming"
+        },
+        {
+          "playerId": "team-player/1abd28fc-19b6-462d-a71c-a5f837257a19",
+          "name": "Andrew Hemming & Susan Unger"
+        },
+        {
+          "playerId": "team-player/dc39ea6e-a69f-44e7-b997-888a66a2b494",
+          "name": "Joy Wright"
+        },
+        {
+          "playerId": "team-player/7eb46a6a-390e-4ddd-99fb-a100bd8317df",
+          "name": "Pauline Jensen and Valmai Dennis"
+        },
+        {
+          "playerId": "team-player/7747a374-5f55-48bc-9727-eab06f7bdfb1",
+          "name": "Peter Wright"
+        },
+        {
+          "playerId": "team-player/4231763f-1a7a-455f-b646-527ca8383a35",
+          "name": "Valmai Dennis"
+        },
+        {
+          "playerId": "team-player/efd388e4-cea8-4243-bdff-b762a067cb02",
+          "name": "Valmai Dennis & Joy Wright"
+        }
       ]
     },
     {
       "name": "West Toowoomba",
       "shortName": "West Toowo",
       "players": [
-        "Bob Taylor",
-        "Bob Taylor & Sheryl Erhlich",
-        "David Watherston",
-        "David Watherston & Gyllyan Long",
-        "Gyllyan Long",
-        "Sheryl Ehrlich"
+        {
+          "playerId": "team-player/c060295d-5832-4125-9ea5-41bc7e5a09dd",
+          "name": "Bob Taylor"
+        },
+        {
+          "playerId": "team-player/0b55e290-52c6-403c-804c-b72a623e62c8",
+          "name": "Bob Taylor & Sheryl Erhlich"
+        },
+        {
+          "playerId": "team-player/58ec437a-a76f-44b5-94ee-0444caadf78d",
+          "name": "David Watherston"
+        },
+        {
+          "playerId": "team-player/1931bd22-7102-49f6-84e0-175e1a24e084",
+          "name": "David Watherston & Gyllyan Long"
+        },
+        {
+          "playerId": "team-player/f8b9cdbf-f790-46f3-8af1-32b0171d5a15",
+          "name": "Gyllyan Long"
+        },
+        {
+          "playerId": "team-player/283f5b3e-c058-4ea8-920c-6da74e7281f0",
+          "name": "Sheryl Ehrlich"
+        }
       ]
     },
     {
       "name": "Toowoomba",
       "shortName": "Toowoomba",
       "players": [
-        "Betty Salter",
-        "Elizabeth Schmidt",
-        "Elizabeth Schmidt & Betty Salter",
-        "Max Beattie",
-        "Max Beattie & Betty Salter",
-        "Rosemary Dean",
-        "Rosemary Dean & Tim Jones",
-        "Tim Jones",
-        "Tim Jones & Elizabeth Schmidt"
+        {
+          "playerId": "team-player/33f23142-0409-46c4-a315-7ebb558948c7",
+          "name": "Betty Salter"
+        },
+        {
+          "playerId": "team-player/af1e9ce8-65e4-48b3-9f6a-c36b2509010f",
+          "name": "Elizabeth Schmidt"
+        },
+        {
+          "playerId": "team-player/4a6d8ce8-2699-43a7-86d3-971237254e8b",
+          "name": "Elizabeth Schmidt & Betty Salter"
+        },
+        {
+          "playerId": "team-player/e9fb0e4d-9ae3-42a5-b28e-71c7ca02552a",
+          "name": "Max Beattie"
+        },
+        {
+          "playerId": "team-player/c6e77447-e920-4b8f-9806-f7bd175e7b89",
+          "name": "Max Beattie & Betty Salter"
+        },
+        {
+          "playerId": "team-player/93b647b2-f37a-490b-9828-38c4ab822491",
+          "name": "Rosemary Dean"
+        },
+        {
+          "playerId": "team-player/066da006-c27a-4fbc-8ee8-c038a8dcab7f",
+          "name": "Rosemary Dean & Tim Jones"
+        },
+        {
+          "playerId": "team-player/e4d1a745-fa4c-4ff0-867d-1ef29ed9041f",
+          "name": "Tim Jones"
+        },
+        {
+          "playerId": "team-player/ff99bd08-2dd6-4fd1-99d6-e8d2f82a995f",
+          "name": "Tim Jones & Elizabeth Schmidt"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/b62e7b1d-94b6-478f-95a3-d4600a75cc20",
       "teams": [
         "Laurel Bank",
         "West Toowoomba"
@@ -59,17 +129,26 @@
       "matches": [
         {
           "players": [
-            "Valmai Dennis & Joy Wright",
-            "Bob Taylor & Sheryl Erhlich"
+            {
+              "playerId": "team-player/efd388e4-cea8-4243-bdff-b762a067cb02",
+              "name": "Valmai Dennis & Joy Wright"
+            },
+            {
+              "playerId": "team-player/0b55e290-52c6-403c-804c-b72a623e62c8",
+              "name": "Bob Taylor & Sheryl Erhlich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2a8876f5-dc0d-4e4e-b850-ee9ca38dfd9f",
               "players": [
                 {
+                  "playerId": "team-player/efd388e4-cea8-4243-bdff-b762a067cb02",
                   "name": "Valmai Dennis & Joy Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0b55e290-52c6-403c-804c-b72a623e62c8",
                   "name": "Bob Taylor & Sheryl Erhlich",
                   "score": "1"
                 }
@@ -81,17 +160,26 @@
         },
         {
           "players": [
-            "Andrew Hemming & Susan Unger",
-            "David Watherston & Gyllyan Long"
+            {
+              "playerId": "team-player/1abd28fc-19b6-462d-a71c-a5f837257a19",
+              "name": "Andrew Hemming & Susan Unger"
+            },
+            {
+              "playerId": "team-player/1931bd22-7102-49f6-84e0-175e1a24e084",
+              "name": "David Watherston & Gyllyan Long"
+            }
           ],
           "games": [
             {
+              "gameId": "game/54aed2b1-83b4-422e-bcde-e72d339dacfe",
               "players": [
                 {
+                  "playerId": "team-player/1abd28fc-19b6-462d-a71c-a5f837257a19",
                   "name": "Andrew Hemming & Susan Unger",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1931bd22-7102-49f6-84e0-175e1a24e084",
                   "name": "David Watherston & Gyllyan Long",
                   "score": "5"
                 }
@@ -103,17 +191,26 @@
         },
         {
           "players": [
-            "Andrew Hemming & Susan Unger",
-            "Bob Taylor & Sheryl Erhlich"
+            {
+              "playerId": "team-player/1abd28fc-19b6-462d-a71c-a5f837257a19",
+              "name": "Andrew Hemming & Susan Unger"
+            },
+            {
+              "playerId": "team-player/0b55e290-52c6-403c-804c-b72a623e62c8",
+              "name": "Bob Taylor & Sheryl Erhlich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e76310d6-8cd2-4270-aec3-c39f75b158ae",
               "players": [
                 {
+                  "playerId": "team-player/1abd28fc-19b6-462d-a71c-a5f837257a19",
                   "name": "Andrew Hemming & Susan Unger",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0b55e290-52c6-403c-804c-b72a623e62c8",
                   "name": "Bob Taylor & Sheryl Erhlich",
                   "score": "6"
                 }
@@ -125,17 +222,26 @@
         },
         {
           "players": [
-            "Valmai Dennis & Joy Wright",
-            "David Watherston & Gyllyan Long"
+            {
+              "playerId": "team-player/efd388e4-cea8-4243-bdff-b762a067cb02",
+              "name": "Valmai Dennis & Joy Wright"
+            },
+            {
+              "playerId": "team-player/1931bd22-7102-49f6-84e0-175e1a24e084",
+              "name": "David Watherston & Gyllyan Long"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3d979cf8-f2bf-4bf1-bbc3-9cb546320d2d",
               "players": [
                 {
+                  "playerId": "team-player/efd388e4-cea8-4243-bdff-b762a067cb02",
                   "name": "Valmai Dennis & Joy Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1931bd22-7102-49f6-84e0-175e1a24e084",
                   "name": "David Watherston & Gyllyan Long",
                   "score": "3"
                 }
@@ -147,17 +253,26 @@
         },
         {
           "players": [
-            "Joy Wright",
-            "Bob Taylor"
+            {
+              "playerId": "team-player/dc39ea6e-a69f-44e7-b997-888a66a2b494",
+              "name": "Joy Wright"
+            },
+            {
+              "playerId": "team-player/c060295d-5832-4125-9ea5-41bc7e5a09dd",
+              "name": "Bob Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/82b54253-a496-4b0e-9921-73c92abd967f",
               "players": [
                 {
+                  "playerId": "team-player/dc39ea6e-a69f-44e7-b997-888a66a2b494",
                   "name": "Joy Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c060295d-5832-4125-9ea5-41bc7e5a09dd",
                   "name": "Bob Taylor",
                   "score": "5"
                 }
@@ -169,17 +284,26 @@
         },
         {
           "players": [
-            "Andrew Hemming",
-            "David Watherston"
+            {
+              "playerId": "team-player/10297447-4cf4-4d3e-b05c-0cadcd744c85",
+              "name": "Andrew Hemming"
+            },
+            {
+              "playerId": "team-player/58ec437a-a76f-44b5-94ee-0444caadf78d",
+              "name": "David Watherston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5395f83c-2117-4bf4-8e8a-e4036ac6dccc",
               "players": [
                 {
+                  "playerId": "team-player/10297447-4cf4-4d3e-b05c-0cadcd744c85",
                   "name": "Andrew Hemming",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/58ec437a-a76f-44b5-94ee-0444caadf78d",
                   "name": "David Watherston",
                   "score": "3"
                 }
@@ -191,17 +315,26 @@
         },
         {
           "players": [
-            "Valmai Dennis",
-            "Gyllyan Long"
+            {
+              "playerId": "team-player/4231763f-1a7a-455f-b646-527ca8383a35",
+              "name": "Valmai Dennis"
+            },
+            {
+              "playerId": "team-player/f8b9cdbf-f790-46f3-8af1-32b0171d5a15",
+              "name": "Gyllyan Long"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ae3c6103-1bcf-4b0d-996d-651dd906bb45",
               "players": [
                 {
+                  "playerId": "team-player/4231763f-1a7a-455f-b646-527ca8383a35",
                   "name": "Valmai Dennis",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f8b9cdbf-f790-46f3-8af1-32b0171d5a15",
                   "name": "Gyllyan Long",
                   "score": "4"
                 }
@@ -213,17 +346,26 @@
         },
         {
           "players": [
-            "Peter Wright",
-            "Sheryl Ehrlich"
+            {
+              "playerId": "team-player/7747a374-5f55-48bc-9727-eab06f7bdfb1",
+              "name": "Peter Wright"
+            },
+            {
+              "playerId": "team-player/283f5b3e-c058-4ea8-920c-6da74e7281f0",
+              "name": "Sheryl Ehrlich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ddcfec1c-6526-44c0-a357-7900a3f822ff",
               "players": [
                 {
+                  "playerId": "team-player/7747a374-5f55-48bc-9727-eab06f7bdfb1",
                   "name": "Peter Wright",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/283f5b3e-c058-4ea8-920c-6da74e7281f0",
                   "name": "Sheryl Ehrlich",
                   "score": "7"
                 }
@@ -235,17 +377,26 @@
         },
         {
           "players": [
-            "Joy Wright",
-            "David Watherston"
+            {
+              "playerId": "team-player/dc39ea6e-a69f-44e7-b997-888a66a2b494",
+              "name": "Joy Wright"
+            },
+            {
+              "playerId": "team-player/58ec437a-a76f-44b5-94ee-0444caadf78d",
+              "name": "David Watherston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8b9e483c-336e-4f99-adaa-7c756e39df3c",
               "players": [
                 {
+                  "playerId": "team-player/dc39ea6e-a69f-44e7-b997-888a66a2b494",
                   "name": "Joy Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/58ec437a-a76f-44b5-94ee-0444caadf78d",
                   "name": "David Watherston",
                   "score": "2"
                 }
@@ -257,17 +408,26 @@
         },
         {
           "players": [
-            "Peter Wright",
-            "Gyllyan Long"
+            {
+              "playerId": "team-player/7747a374-5f55-48bc-9727-eab06f7bdfb1",
+              "name": "Peter Wright"
+            },
+            {
+              "playerId": "team-player/f8b9cdbf-f790-46f3-8af1-32b0171d5a15",
+              "name": "Gyllyan Long"
+            }
           ],
           "games": [
             {
+              "gameId": "game/851cd5b7-bc8b-4a58-aa4f-e90765634448",
               "players": [
                 {
+                  "playerId": "team-player/7747a374-5f55-48bc-9727-eab06f7bdfb1",
                   "name": "Peter Wright",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f8b9cdbf-f790-46f3-8af1-32b0171d5a15",
                   "name": "Gyllyan Long",
                   "score": "7"
                 }
@@ -279,17 +439,26 @@
         },
         {
           "players": [
-            "Valmai Dennis",
-            "Sheryl Ehrlich"
+            {
+              "playerId": "team-player/4231763f-1a7a-455f-b646-527ca8383a35",
+              "name": "Valmai Dennis"
+            },
+            {
+              "playerId": "team-player/283f5b3e-c058-4ea8-920c-6da74e7281f0",
+              "name": "Sheryl Ehrlich"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b0261bc8-c949-4fac-bfa3-4427a8580d47",
               "players": [
                 {
+                  "playerId": "team-player/4231763f-1a7a-455f-b646-527ca8383a35",
                   "name": "Valmai Dennis",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/283f5b3e-c058-4ea8-920c-6da74e7281f0",
                   "name": "Sheryl Ehrlich",
                   "score": "3"
                 }
@@ -301,17 +470,26 @@
         },
         {
           "players": [
-            "Andrew Hemming",
-            "Bob Taylor"
+            {
+              "playerId": "team-player/10297447-4cf4-4d3e-b05c-0cadcd744c85",
+              "name": "Andrew Hemming"
+            },
+            {
+              "playerId": "team-player/c060295d-5832-4125-9ea5-41bc7e5a09dd",
+              "name": "Bob Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca995906-b701-41a9-b2de-d6dbfff49278",
               "players": [
                 {
+                  "playerId": "team-player/10297447-4cf4-4d3e-b05c-0cadcd744c85",
                   "name": "Andrew Hemming",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/c060295d-5832-4125-9ea5-41bc7e5a09dd",
                   "name": "Bob Taylor",
                   "score": "7"
                 }
@@ -324,6 +502,7 @@
       ]
     },
     {
+      "competitionId": "competition/c67661ef-5bbe-443d-8050-a9c4409c840e",
       "teams": [
         "West Toowoomba",
         "Toowoomba"
@@ -333,17 +512,26 @@
       "matches": [
         {
           "players": [
-            "David Watherston & Gyllyan Long",
-            "Elizabeth Schmidt & Betty Salter"
+            {
+              "playerId": "team-player/1931bd22-7102-49f6-84e0-175e1a24e084",
+              "name": "David Watherston & Gyllyan Long"
+            },
+            {
+              "playerId": "team-player/4a6d8ce8-2699-43a7-86d3-971237254e8b",
+              "name": "Elizabeth Schmidt & Betty Salter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/02426e14-bf71-4636-be10-d783d6e5385e",
               "players": [
                 {
+                  "playerId": "team-player/1931bd22-7102-49f6-84e0-175e1a24e084",
                   "name": "David Watherston & Gyllyan Long",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4a6d8ce8-2699-43a7-86d3-971237254e8b",
                   "name": "Elizabeth Schmidt & Betty Salter",
                   "score": "7"
                 }
@@ -355,17 +543,26 @@
         },
         {
           "players": [
-            "Bob Taylor & Sheryl Erhlich",
-            "Rosemary Dean & Tim Jones"
+            {
+              "playerId": "team-player/0b55e290-52c6-403c-804c-b72a623e62c8",
+              "name": "Bob Taylor & Sheryl Erhlich"
+            },
+            {
+              "playerId": "team-player/066da006-c27a-4fbc-8ee8-c038a8dcab7f",
+              "name": "Rosemary Dean & Tim Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cc87e071-f56f-45ad-8e5b-b97ee5e05a4c",
               "players": [
                 {
+                  "playerId": "team-player/0b55e290-52c6-403c-804c-b72a623e62c8",
                   "name": "Bob Taylor & Sheryl Erhlich",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/066da006-c27a-4fbc-8ee8-c038a8dcab7f",
                   "name": "Rosemary Dean & Tim Jones",
                   "score": "7"
                 }
@@ -377,17 +574,26 @@
         },
         {
           "players": [
-            "David Watherston & Gyllyan Long",
-            "Rosemary Dean & Tim Jones"
+            {
+              "playerId": "team-player/1931bd22-7102-49f6-84e0-175e1a24e084",
+              "name": "David Watherston & Gyllyan Long"
+            },
+            {
+              "playerId": "team-player/066da006-c27a-4fbc-8ee8-c038a8dcab7f",
+              "name": "Rosemary Dean & Tim Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ab7b7473-6851-4c13-8b24-46f32a000f80",
               "players": [
                 {
+                  "playerId": "team-player/1931bd22-7102-49f6-84e0-175e1a24e084",
                   "name": "David Watherston & Gyllyan Long",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/066da006-c27a-4fbc-8ee8-c038a8dcab7f",
                   "name": "Rosemary Dean & Tim Jones",
                   "score": "4"
                 }
@@ -399,17 +605,26 @@
         },
         {
           "players": [
-            "Bob Taylor & Sheryl Erhlich",
-            "Elizabeth Schmidt & Betty Salter"
+            {
+              "playerId": "team-player/0b55e290-52c6-403c-804c-b72a623e62c8",
+              "name": "Bob Taylor & Sheryl Erhlich"
+            },
+            {
+              "playerId": "team-player/4a6d8ce8-2699-43a7-86d3-971237254e8b",
+              "name": "Elizabeth Schmidt & Betty Salter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9f217a48-8544-4251-a3ec-f7add7f1d5a9",
               "players": [
                 {
+                  "playerId": "team-player/0b55e290-52c6-403c-804c-b72a623e62c8",
                   "name": "Bob Taylor & Sheryl Erhlich",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/4a6d8ce8-2699-43a7-86d3-971237254e8b",
                   "name": "Elizabeth Schmidt & Betty Salter",
                   "score": "5"
                 }
@@ -421,17 +636,26 @@
         },
         {
           "players": [
-            "David Watherston",
-            "Tim Jones"
+            {
+              "playerId": "team-player/58ec437a-a76f-44b5-94ee-0444caadf78d",
+              "name": "David Watherston"
+            },
+            {
+              "playerId": "team-player/e4d1a745-fa4c-4ff0-867d-1ef29ed9041f",
+              "name": "Tim Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bc957c59-8cd4-4ae2-a10f-5db2c5cd2898",
               "players": [
                 {
+                  "playerId": "team-player/58ec437a-a76f-44b5-94ee-0444caadf78d",
                   "name": "David Watherston",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/e4d1a745-fa4c-4ff0-867d-1ef29ed9041f",
                   "name": "Tim Jones",
                   "score": "6"
                 }
@@ -443,17 +667,26 @@
         },
         {
           "players": [
-            "Bob Taylor",
-            "Rosemary Dean"
+            {
+              "playerId": "team-player/c060295d-5832-4125-9ea5-41bc7e5a09dd",
+              "name": "Bob Taylor"
+            },
+            {
+              "playerId": "team-player/93b647b2-f37a-490b-9828-38c4ab822491",
+              "name": "Rosemary Dean"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa5786a6-6277-4db5-acfd-94bd35393c7a",
               "players": [
                 {
+                  "playerId": "team-player/c060295d-5832-4125-9ea5-41bc7e5a09dd",
                   "name": "Bob Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/93b647b2-f37a-490b-9828-38c4ab822491",
                   "name": "Rosemary Dean",
                   "score": "6"
                 }
@@ -465,17 +698,26 @@
         },
         {
           "players": [
-            "Gyllyan Long",
-            "Betty Salter"
+            {
+              "playerId": "team-player/f8b9cdbf-f790-46f3-8af1-32b0171d5a15",
+              "name": "Gyllyan Long"
+            },
+            {
+              "playerId": "team-player/33f23142-0409-46c4-a315-7ebb558948c7",
+              "name": "Betty Salter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c5a4946b-1ec3-4cc6-ac36-db14c94db19d",
               "players": [
                 {
+                  "playerId": "team-player/f8b9cdbf-f790-46f3-8af1-32b0171d5a15",
                   "name": "Gyllyan Long",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/33f23142-0409-46c4-a315-7ebb558948c7",
                   "name": "Betty Salter",
                   "score": "7"
                 }
@@ -487,17 +729,26 @@
         },
         {
           "players": [
-            "Sheryl Ehrlich",
-            "Elizabeth Schmidt"
+            {
+              "playerId": "team-player/283f5b3e-c058-4ea8-920c-6da74e7281f0",
+              "name": "Sheryl Ehrlich"
+            },
+            {
+              "playerId": "team-player/af1e9ce8-65e4-48b3-9f6a-c36b2509010f",
+              "name": "Elizabeth Schmidt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f29b7b02-e22d-439e-b6b1-b614a0f41b7a",
               "players": [
                 {
+                  "playerId": "team-player/283f5b3e-c058-4ea8-920c-6da74e7281f0",
                   "name": "Sheryl Ehrlich",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/af1e9ce8-65e4-48b3-9f6a-c36b2509010f",
                   "name": "Elizabeth Schmidt",
                   "score": "7"
                 }
@@ -509,17 +760,26 @@
         },
         {
           "players": [
-            "David Watherston",
-            "Rosemary Dean"
+            {
+              "playerId": "team-player/58ec437a-a76f-44b5-94ee-0444caadf78d",
+              "name": "David Watherston"
+            },
+            {
+              "playerId": "team-player/93b647b2-f37a-490b-9828-38c4ab822491",
+              "name": "Rosemary Dean"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d8e05e6-e551-45b8-8612-a4581a3a7b08",
               "players": [
                 {
+                  "playerId": "team-player/58ec437a-a76f-44b5-94ee-0444caadf78d",
                   "name": "David Watherston",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/93b647b2-f37a-490b-9828-38c4ab822491",
                   "name": "Rosemary Dean",
                   "score": "4"
                 }
@@ -531,17 +791,26 @@
         },
         {
           "players": [
-            "Gyllyan Long",
-            "Elizabeth Schmidt"
+            {
+              "playerId": "team-player/f8b9cdbf-f790-46f3-8af1-32b0171d5a15",
+              "name": "Gyllyan Long"
+            },
+            {
+              "playerId": "team-player/af1e9ce8-65e4-48b3-9f6a-c36b2509010f",
+              "name": "Elizabeth Schmidt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bd4d2ca4-40f2-4075-a29d-31a3a9d5ef39",
               "players": [
                 {
+                  "playerId": "team-player/f8b9cdbf-f790-46f3-8af1-32b0171d5a15",
                   "name": "Gyllyan Long",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/af1e9ce8-65e4-48b3-9f6a-c36b2509010f",
                   "name": "Elizabeth Schmidt",
                   "score": "5"
                 }
@@ -553,17 +822,26 @@
         },
         {
           "players": [
-            "Sheryl Ehrlich",
-            "Betty Salter"
+            {
+              "playerId": "team-player/283f5b3e-c058-4ea8-920c-6da74e7281f0",
+              "name": "Sheryl Ehrlich"
+            },
+            {
+              "playerId": "team-player/33f23142-0409-46c4-a315-7ebb558948c7",
+              "name": "Betty Salter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5288f8cf-1f3d-48d9-be50-22bfa27c3600",
               "players": [
                 {
+                  "playerId": "team-player/283f5b3e-c058-4ea8-920c-6da74e7281f0",
                   "name": "Sheryl Ehrlich",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/33f23142-0409-46c4-a315-7ebb558948c7",
                   "name": "Betty Salter",
                   "score": "7"
                 }
@@ -575,17 +853,26 @@
         },
         {
           "players": [
-            "Bob Taylor",
-            "Tim Jones"
+            {
+              "playerId": "team-player/c060295d-5832-4125-9ea5-41bc7e5a09dd",
+              "name": "Bob Taylor"
+            },
+            {
+              "playerId": "team-player/e4d1a745-fa4c-4ff0-867d-1ef29ed9041f",
+              "name": "Tim Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ea1fb342-37d2-43ed-b8c4-0ebfa9fb992f",
               "players": [
                 {
+                  "playerId": "team-player/c060295d-5832-4125-9ea5-41bc7e5a09dd",
                   "name": "Bob Taylor",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/e4d1a745-fa4c-4ff0-867d-1ef29ed9041f",
                   "name": "Tim Jones",
                   "score": "7"
                 }
@@ -598,6 +885,7 @@
       ]
     },
     {
+      "competitionId": "competition/8ab4f3a1-4ad8-46a6-9f4e-a93f33b151b1",
       "teams": [
         "Toowoomba",
         "Laurel Bank"
@@ -607,17 +895,26 @@
       "matches": [
         {
           "players": [
-            "Tim Jones & Elizabeth Schmidt",
-            "Andrew Hemming & Susan Unger"
+            {
+              "playerId": "team-player/ff99bd08-2dd6-4fd1-99d6-e8d2f82a995f",
+              "name": "Tim Jones & Elizabeth Schmidt"
+            },
+            {
+              "playerId": "team-player/1abd28fc-19b6-462d-a71c-a5f837257a19",
+              "name": "Andrew Hemming & Susan Unger"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7dacbf2c-a328-4c23-a432-d9eea3ad0f6d",
               "players": [
                 {
+                  "playerId": "team-player/ff99bd08-2dd6-4fd1-99d6-e8d2f82a995f",
                   "name": "Tim Jones & Elizabeth Schmidt",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1abd28fc-19b6-462d-a71c-a5f837257a19",
                   "name": "Andrew Hemming & Susan Unger",
                   "score": "5"
                 }
@@ -629,17 +926,26 @@
         },
         {
           "players": [
-            "Max Beattie & Betty Salter",
-            "Pauline Jensen and Valmai Dennis"
+            {
+              "playerId": "team-player/c6e77447-e920-4b8f-9806-f7bd175e7b89",
+              "name": "Max Beattie & Betty Salter"
+            },
+            {
+              "playerId": "team-player/7eb46a6a-390e-4ddd-99fb-a100bd8317df",
+              "name": "Pauline Jensen and Valmai Dennis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5e71e5f5-ac5f-43e3-9bf3-714628af4627",
               "players": [
                 {
+                  "playerId": "team-player/c6e77447-e920-4b8f-9806-f7bd175e7b89",
                   "name": "Max Beattie & Betty Salter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7eb46a6a-390e-4ddd-99fb-a100bd8317df",
                   "name": "Pauline Jensen and Valmai Dennis",
                   "score": "3"
                 }
@@ -651,17 +957,26 @@
         },
         {
           "players": [
-            "Tim Jones & Elizabeth Schmidt",
-            "Pauline Jensen and Valmai Dennis"
+            {
+              "playerId": "team-player/ff99bd08-2dd6-4fd1-99d6-e8d2f82a995f",
+              "name": "Tim Jones & Elizabeth Schmidt"
+            },
+            {
+              "playerId": "team-player/7eb46a6a-390e-4ddd-99fb-a100bd8317df",
+              "name": "Pauline Jensen and Valmai Dennis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8598bbb8-1dc9-4035-b4ff-2da199415e93",
               "players": [
                 {
+                  "playerId": "team-player/ff99bd08-2dd6-4fd1-99d6-e8d2f82a995f",
                   "name": "Tim Jones & Elizabeth Schmidt",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7eb46a6a-390e-4ddd-99fb-a100bd8317df",
                   "name": "Pauline Jensen and Valmai Dennis",
                   "score": "4"
                 }
@@ -673,17 +988,26 @@
         },
         {
           "players": [
-            "Max Beattie & Betty Salter",
-            "Andrew Hemming & Susan Unger"
+            {
+              "playerId": "team-player/c6e77447-e920-4b8f-9806-f7bd175e7b89",
+              "name": "Max Beattie & Betty Salter"
+            },
+            {
+              "playerId": "team-player/1abd28fc-19b6-462d-a71c-a5f837257a19",
+              "name": "Andrew Hemming & Susan Unger"
+            }
           ],
           "games": [
             {
+              "gameId": "game/046fba25-677f-45ce-aec9-f8bc685098ec",
               "players": [
                 {
+                  "playerId": "team-player/c6e77447-e920-4b8f-9806-f7bd175e7b89",
                   "name": "Max Beattie & Betty Salter",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/1abd28fc-19b6-462d-a71c-a5f837257a19",
                   "name": "Andrew Hemming & Susan Unger",
                   "score": "7"
                 }
@@ -695,17 +1019,26 @@
         },
         {
           "players": [
-            "Tim Jones",
-            "Andrew Hemming"
+            {
+              "playerId": "team-player/e4d1a745-fa4c-4ff0-867d-1ef29ed9041f",
+              "name": "Tim Jones"
+            },
+            {
+              "playerId": "team-player/10297447-4cf4-4d3e-b05c-0cadcd744c85",
+              "name": "Andrew Hemming"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c510b3c-1114-4b89-a73f-a86924ab9b89",
               "players": [
                 {
+                  "playerId": "team-player/e4d1a745-fa4c-4ff0-867d-1ef29ed9041f",
                   "name": "Tim Jones",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/10297447-4cf4-4d3e-b05c-0cadcd744c85",
                   "name": "Andrew Hemming",
                   "score": "7"
                 }
@@ -717,17 +1050,26 @@
         },
         {
           "players": [
-            "Max Beattie",
-            "Joy Wright"
+            {
+              "playerId": "team-player/e9fb0e4d-9ae3-42a5-b28e-71c7ca02552a",
+              "name": "Max Beattie"
+            },
+            {
+              "playerId": "team-player/dc39ea6e-a69f-44e7-b997-888a66a2b494",
+              "name": "Joy Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f671d17-90af-41d3-9e67-18d84c18892c",
               "players": [
                 {
+                  "playerId": "team-player/e9fb0e4d-9ae3-42a5-b28e-71c7ca02552a",
                   "name": "Max Beattie",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/dc39ea6e-a69f-44e7-b997-888a66a2b494",
                   "name": "Joy Wright",
                   "score": "7"
                 }
@@ -739,17 +1081,26 @@
         },
         {
           "players": [
-            "Elizabeth Schmidt",
-            "Valmai Dennis"
+            {
+              "playerId": "team-player/af1e9ce8-65e4-48b3-9f6a-c36b2509010f",
+              "name": "Elizabeth Schmidt"
+            },
+            {
+              "playerId": "team-player/4231763f-1a7a-455f-b646-527ca8383a35",
+              "name": "Valmai Dennis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/50edb794-cc07-484c-a068-a12af5fd2b8a",
               "players": [
                 {
+                  "playerId": "team-player/af1e9ce8-65e4-48b3-9f6a-c36b2509010f",
                   "name": "Elizabeth Schmidt",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4231763f-1a7a-455f-b646-527ca8383a35",
                   "name": "Valmai Dennis",
                   "score": "2"
                 }
@@ -761,17 +1112,26 @@
         },
         {
           "players": [
-            "Betty Salter",
-            "Peter Wright"
+            {
+              "playerId": "team-player/33f23142-0409-46c4-a315-7ebb558948c7",
+              "name": "Betty Salter"
+            },
+            {
+              "playerId": "team-player/7747a374-5f55-48bc-9727-eab06f7bdfb1",
+              "name": "Peter Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ab9e7fac-c8e4-46c2-a64b-d6227daf480b",
               "players": [
                 {
+                  "playerId": "team-player/33f23142-0409-46c4-a315-7ebb558948c7",
                   "name": "Betty Salter",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7747a374-5f55-48bc-9727-eab06f7bdfb1",
                   "name": "Peter Wright",
                   "score": "7"
                 }
@@ -783,17 +1143,26 @@
         },
         {
           "players": [
-            "Tim Jones",
-            "Joy Wright"
+            {
+              "playerId": "team-player/e4d1a745-fa4c-4ff0-867d-1ef29ed9041f",
+              "name": "Tim Jones"
+            },
+            {
+              "playerId": "team-player/dc39ea6e-a69f-44e7-b997-888a66a2b494",
+              "name": "Joy Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/19b62648-755e-4426-b7ec-d655a00e9ae1",
               "players": [
                 {
+                  "playerId": "team-player/e4d1a745-fa4c-4ff0-867d-1ef29ed9041f",
                   "name": "Tim Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/dc39ea6e-a69f-44e7-b997-888a66a2b494",
                   "name": "Joy Wright",
                   "score": "4"
                 }
@@ -805,17 +1174,26 @@
         },
         {
           "players": [
-            "Betty Salter",
-            "Valmai Dennis"
+            {
+              "playerId": "team-player/33f23142-0409-46c4-a315-7ebb558948c7",
+              "name": "Betty Salter"
+            },
+            {
+              "playerId": "team-player/4231763f-1a7a-455f-b646-527ca8383a35",
+              "name": "Valmai Dennis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/947171e9-0a3b-4020-a490-f3684c17c1a7",
               "players": [
                 {
+                  "playerId": "team-player/33f23142-0409-46c4-a315-7ebb558948c7",
                   "name": "Betty Salter",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4231763f-1a7a-455f-b646-527ca8383a35",
                   "name": "Valmai Dennis",
                   "score": "5"
                 }
@@ -827,17 +1205,26 @@
         },
         {
           "players": [
-            "Elizabeth Schmidt",
-            "Peter Wright"
+            {
+              "playerId": "team-player/af1e9ce8-65e4-48b3-9f6a-c36b2509010f",
+              "name": "Elizabeth Schmidt"
+            },
+            {
+              "playerId": "team-player/7747a374-5f55-48bc-9727-eab06f7bdfb1",
+              "name": "Peter Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ed6b4ee-3c57-4d25-ad19-d6895411b312",
               "players": [
                 {
+                  "playerId": "team-player/af1e9ce8-65e4-48b3-9f6a-c36b2509010f",
                   "name": "Elizabeth Schmidt",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7747a374-5f55-48bc-9727-eab06f7bdfb1",
                   "name": "Peter Wright",
                   "score": "6"
                 }
@@ -849,17 +1236,26 @@
         },
         {
           "players": [
-            "Max Beattie",
-            "Andrew Hemming"
+            {
+              "playerId": "team-player/e9fb0e4d-9ae3-42a5-b28e-71c7ca02552a",
+              "name": "Max Beattie"
+            },
+            {
+              "playerId": "team-player/10297447-4cf4-4d3e-b05c-0cadcd744c85",
+              "name": "Andrew Hemming"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4b37e41a-8118-4f32-980e-642e41ecfc8f",
               "players": [
                 {
+                  "playerId": "team-player/e9fb0e4d-9ae3-42a5-b28e-71c7ca02552a",
                   "name": "Max Beattie",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/10297447-4cf4-4d3e-b05c-0cadcd744c85",
                   "name": "Andrew Hemming",
                   "score": "7"
                 }

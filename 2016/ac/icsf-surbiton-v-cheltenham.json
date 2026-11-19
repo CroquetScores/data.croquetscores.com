@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0aa03f9a-7171-4b32-809e-36df6e4d5d10",
   "name": "ICSF: Surbiton v Cheltenham",
   "sport": "ac",
   "firstDay": "2016-08-20",
   "lastDay": "2016-08-20",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Surbiton",
       "shortName": "Surbiton",
       "players": [
-        "Chris Farthing",
-        "Sam Murray",
-        "Samir Patel",
-        "Stephen Mulliner",
-        "Stephen Mulliner & Samir Patel"
+        {
+          "playerId": "team-player/b47b4679-d947-4c29-8d80-731590dd5e55",
+          "name": "Chris Farthing"
+        },
+        {
+          "playerId": "team-player/0b6d02b3-f31b-4a68-be43-a0342234a73e",
+          "name": "Sam Murray"
+        },
+        {
+          "playerId": "team-player/5be21578-db77-4fd8-9311-e575e58169b2",
+          "name": "Samir Patel"
+        },
+        {
+          "playerId": "team-player/d2ac1cb6-0ef7-4af3-88e9-b265786e956a",
+          "name": "Stephen Mulliner"
+        },
+        {
+          "playerId": "team-player/2284a41b-244d-4bee-8fad-ea52f1e23cf6",
+          "name": "Stephen Mulliner & Samir Patel"
+        }
       ]
     },
     {
       "name": "Cheltenham",
       "shortName": "Cheltenham",
       "players": [
-        "Andrew Hope",
-        "Chris Williams",
-        "Chris Williams & Sarah Hayes",
-        "David Magee",
-        "Sarah Hayes"
+        {
+          "playerId": "team-player/e792fefc-59aa-4bd1-b1c9-45954208baf8",
+          "name": "Andrew Hope"
+        },
+        {
+          "playerId": "team-player/223904d9-f895-4ee7-96e0-bd44cd93b627",
+          "name": "Chris Williams"
+        },
+        {
+          "playerId": "team-player/7b4ca4af-60a5-41f8-875f-50668e2827d4",
+          "name": "Chris Williams & Sarah Hayes"
+        },
+        {
+          "playerId": "team-player/9fdb73e3-a38c-4c35-bfeb-e068cc2f59e3",
+          "name": "David Magee"
+        },
+        {
+          "playerId": "team-player/3d8b3789-9341-4884-aa6a-edb061e4e438",
+          "name": "Sarah Hayes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/4e18a9f0-3eca-4926-98d7-bc580dfc0875",
       "teams": [
         "Surbiton",
         "Cheltenham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Chris Farthing",
-            "Andrew Hope"
+            {
+              "playerId": "team-player/b47b4679-d947-4c29-8d80-731590dd5e55",
+              "name": "Chris Farthing"
+            },
+            {
+              "playerId": "team-player/e792fefc-59aa-4bd1-b1c9-45954208baf8",
+              "name": "Andrew Hope"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bf26ed84-3c01-4d89-97f2-b37048a36ca3",
               "players": [
                 {
+                  "playerId": "team-player/b47b4679-d947-4c29-8d80-731590dd5e55",
                   "name": "Chris Farthing",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e792fefc-59aa-4bd1-b1c9-45954208baf8",
                   "name": "Andrew Hope",
                   "score": "1"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "Chris Williams"
+            {
+              "playerId": "team-player/5be21578-db77-4fd8-9311-e575e58169b2",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/223904d9-f895-4ee7-96e0-bd44cd93b627",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca56ad31-709d-4b48-a159-d5274b68df41",
               "players": [
                 {
+                  "playerId": "team-player/5be21578-db77-4fd8-9311-e575e58169b2",
                   "name": "Samir Patel",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/223904d9-f895-4ee7-96e0-bd44cd93b627",
                   "name": "Chris Williams",
                   "score": "9"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Sam Murray",
-            "David Magee"
+            {
+              "playerId": "team-player/0b6d02b3-f31b-4a68-be43-a0342234a73e",
+              "name": "Sam Murray"
+            },
+            {
+              "playerId": "team-player/9fdb73e3-a38c-4c35-bfeb-e068cc2f59e3",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4426426-59f4-4faa-ae7b-325c69984597",
               "players": [
                 {
+                  "playerId": "team-player/0b6d02b3-f31b-4a68-be43-a0342234a73e",
                   "name": "Sam Murray",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/9fdb73e3-a38c-4c35-bfeb-e068cc2f59e3",
                   "name": "David Magee",
                   "score": "1"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner",
-            "Sarah Hayes"
+            {
+              "playerId": "team-player/d2ac1cb6-0ef7-4af3-88e9-b265786e956a",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/3d8b3789-9341-4884-aa6a-edb061e4e438",
+              "name": "Sarah Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9447cf4a-9006-4393-be1a-a41e89e6e0eb",
               "players": [
                 {
+                  "playerId": "team-player/d2ac1cb6-0ef7-4af3-88e9-b265786e956a",
                   "name": "Stephen Mulliner",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/3d8b3789-9341-4884-aa6a-edb061e4e438",
                   "name": "Sarah Hayes",
                   "score": "25"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Stephen Mulliner",
-            "Chris Williams"
+            {
+              "playerId": "team-player/d2ac1cb6-0ef7-4af3-88e9-b265786e956a",
+              "name": "Stephen Mulliner"
+            },
+            {
+              "playerId": "team-player/223904d9-f895-4ee7-96e0-bd44cd93b627",
+              "name": "Chris Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1c139147-106f-48d1-9fc0-16e125d93259",
               "players": [
                 {
+                  "playerId": "team-player/d2ac1cb6-0ef7-4af3-88e9-b265786e956a",
                   "name": "Stephen Mulliner",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/223904d9-f895-4ee7-96e0-bd44cd93b627",
                   "name": "Chris Williams",
                   "score": "6"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Chris Farthing",
-            "David Magee"
+            {
+              "playerId": "team-player/b47b4679-d947-4c29-8d80-731590dd5e55",
+              "name": "Chris Farthing"
+            },
+            {
+              "playerId": "team-player/9fdb73e3-a38c-4c35-bfeb-e068cc2f59e3",
+              "name": "David Magee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6ee72cb-1bcf-4cc6-9978-f4a66c7d56ba",
               "players": [
                 {
+                  "playerId": "team-player/b47b4679-d947-4c29-8d80-731590dd5e55",
                   "name": "Chris Farthing",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/9fdb73e3-a38c-4c35-bfeb-e068cc2f59e3",
                   "name": "David Magee",
                   "score": "9"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Samir Patel",
-            "Sarah Hayes"
+            {
+              "playerId": "team-player/5be21578-db77-4fd8-9311-e575e58169b2",
+              "name": "Samir Patel"
+            },
+            {
+              "playerId": "team-player/3d8b3789-9341-4884-aa6a-edb061e4e438",
+              "name": "Sarah Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/13bc7969-50f1-4369-b1f5-f53a9c29d3b2",
               "players": [
                 {
+                  "playerId": "team-player/5be21578-db77-4fd8-9311-e575e58169b2",
                   "name": "Samir Patel",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/3d8b3789-9341-4884-aa6a-edb061e4e438",
                   "name": "Sarah Hayes",
                   "score": "20"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Sam Murray",
-            "Andrew Hope"
+            {
+              "playerId": "team-player/0b6d02b3-f31b-4a68-be43-a0342234a73e",
+              "name": "Sam Murray"
+            },
+            {
+              "playerId": "team-player/e792fefc-59aa-4bd1-b1c9-45954208baf8",
+              "name": "Andrew Hope"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1e512ca7-c6de-4290-8cf9-82f35c9c9665",
               "players": [
                 {
+                  "playerId": "team-player/0b6d02b3-f31b-4a68-be43-a0342234a73e",
                   "name": "Sam Murray",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e792fefc-59aa-4bd1-b1c9-45954208baf8",
                   "name": "Andrew Hope",
                   "score": "24"
                 }

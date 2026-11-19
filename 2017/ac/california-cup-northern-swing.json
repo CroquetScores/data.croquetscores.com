@@ -1,49 +1,119 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/9afb9523-7af9-40c4-a410-98ae8cdb36b7",
   "name": "California Cup (Northern Swing)",
   "sport": "ac",
   "firstDay": "2017-05-18",
   "lastDay": "2017-05-19",
   "country": "us",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "California Vipers (South)",
       "shortName": "California",
       "players": [
-        "Bob Morford",
-        "Bob Morford and Kory Teoman",
-        "Jim Butts",
-        "Jim Butts and Steve Mossbrook",
-        "Kory Teoman",
-        "Leo Nikora",
-        "Leo Nikora and Pat Dugan",
-        "Pat Dugan",
-        "Steve Mossbrook"
+        {
+          "playerId": "team-player/80782de9-0d3d-4d89-af8b-0f5f9d903a45",
+          "name": "Bob Morford"
+        },
+        {
+          "playerId": "team-player/79065569-97a4-49e0-88fb-b8a0699db9d8",
+          "name": "Bob Morford and Kory Teoman"
+        },
+        {
+          "playerId": "team-player/bb6863c1-a7a4-4589-8d90-a20a2c8ededf",
+          "name": "Jim Butts"
+        },
+        {
+          "playerId": "team-player/103a9886-3aeb-4360-9c42-32c72de72cf2",
+          "name": "Jim Butts and Steve Mossbrook"
+        },
+        {
+          "playerId": "team-player/b4b5f0e1-0c9a-4646-94a5-08bb065e4361",
+          "name": "Kory Teoman"
+        },
+        {
+          "playerId": "team-player/047be9ad-1253-44eb-bb1c-85fdb9806fd7",
+          "name": "Leo Nikora"
+        },
+        {
+          "playerId": "team-player/ef1a5ceb-7217-4530-ab17-5409ba2b7231",
+          "name": "Leo Nikora and Pat Dugan"
+        },
+        {
+          "playerId": "team-player/89ba49b8-e77e-4574-96d4-af8316bca326",
+          "name": "Pat Dugan"
+        },
+        {
+          "playerId": "team-player/80ce2c06-09d6-4ee1-a4c2-6e14ee93b399",
+          "name": "Steve Mossbrook"
+        }
       ]
     },
     {
       "name": "California Berzerkers (North)",
       "shortName": "Californ 2",
       "players": [
-        "Ben Rothman",
-        "Ben Rothman and Karl-Heinz Kempfer",
-        "Erv Peterson",
-        "Jim Hanks",
-        "Jim Hanks and Mike Orgill",
-        "Jim Hanks and Nancy Chapman",
-        "Karl-Heinz Kempfer",
-        "Karl-Heiz Kempfer",
-        "Larry Lennox",
-        "Martyn Selman",
-        "Martyn Selman and Erv Peterson",
-        "Mike Orgill",
-        "Nancy Chapman"
+        {
+          "playerId": "team-player/f088152b-267d-43ed-a72c-9fd7f78955eb",
+          "name": "Ben Rothman"
+        },
+        {
+          "playerId": "team-player/510accc7-f7d5-4f93-b0a1-d158327c738e",
+          "name": "Ben Rothman and Karl-Heinz Kempfer"
+        },
+        {
+          "playerId": "team-player/d14cafc9-2973-48e3-97f3-63b6c5dbf0d4",
+          "name": "Erv Peterson"
+        },
+        {
+          "playerId": "team-player/a16f846e-74e5-42fd-bc82-66581ccdf17d",
+          "name": "Jim Hanks"
+        },
+        {
+          "playerId": "team-player/e7b186cb-0f12-4f09-9471-75d8eb7516a3",
+          "name": "Jim Hanks and Mike Orgill"
+        },
+        {
+          "playerId": "team-player/c85e5772-1aba-4473-8083-1fcdc0c0d3c4",
+          "name": "Jim Hanks and Nancy Chapman"
+        },
+        {
+          "playerId": "team-player/2e2be531-fc8c-428e-84d5-6233d33d36f5",
+          "name": "Karl-Heinz Kempfer"
+        },
+        {
+          "playerId": "team-player/db98e15f-fc37-4784-8e6e-9fb280f32ead",
+          "name": "Karl-Heiz Kempfer"
+        },
+        {
+          "playerId": "team-player/31cdae83-4a98-4bbd-a065-626183fccaf2",
+          "name": "Larry Lennox"
+        },
+        {
+          "playerId": "team-player/faf60359-a05d-4f9f-b39d-1f04eae943a6",
+          "name": "Martyn Selman"
+        },
+        {
+          "playerId": "team-player/c5a227ad-2322-49db-aab7-e103c47207af",
+          "name": "Martyn Selman and Erv Peterson"
+        },
+        {
+          "playerId": "team-player/02873ed7-60be-4afe-8cf5-10f25a113df7",
+          "name": "Mike Orgill"
+        },
+        {
+          "playerId": "team-player/037ea088-193a-4196-a1f1-aa0a81aad6c7",
+          "name": "Nancy Chapman"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/637cd17f-9d03-4b16-b36c-4c3c31f7fda9",
       "teams": [
         "California Vipers (South)",
         "California Berzerkers (North)"
@@ -53,17 +123,26 @@
       "matches": [
         {
           "players": [
-            "Bob Morford and Kory Teoman",
-            "Ben Rothman and Karl-Heinz Kempfer"
+            {
+              "playerId": "team-player/79065569-97a4-49e0-88fb-b8a0699db9d8",
+              "name": "Bob Morford and Kory Teoman"
+            },
+            {
+              "playerId": "team-player/510accc7-f7d5-4f93-b0a1-d158327c738e",
+              "name": "Ben Rothman and Karl-Heinz Kempfer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e3cc73d0-c3df-4738-a85b-5e2661f2ea74",
               "players": [
                 {
+                  "playerId": "team-player/79065569-97a4-49e0-88fb-b8a0699db9d8",
                   "name": "Bob Morford and Kory Teoman",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/510accc7-f7d5-4f93-b0a1-d158327c738e",
                   "name": "Ben Rothman and Karl-Heinz Kempfer",
                   "score": "26 TP (R)"
                 }
@@ -75,17 +154,26 @@
         },
         {
           "players": [
-            "Jim Butts and Steve Mossbrook",
-            "Jim Hanks and Nancy Chapman"
+            {
+              "playerId": "team-player/103a9886-3aeb-4360-9c42-32c72de72cf2",
+              "name": "Jim Butts and Steve Mossbrook"
+            },
+            {
+              "playerId": "team-player/c85e5772-1aba-4473-8083-1fcdc0c0d3c4",
+              "name": "Jim Hanks and Nancy Chapman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ade0e1ae-4830-4068-b221-27d5c9fb442e",
               "players": [
                 {
+                  "playerId": "team-player/103a9886-3aeb-4360-9c42-32c72de72cf2",
                   "name": "Jim Butts and Steve Mossbrook",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/c85e5772-1aba-4473-8083-1fcdc0c0d3c4",
                   "name": "Jim Hanks and Nancy Chapman",
                   "score": "15"
                 }
@@ -97,17 +185,26 @@
         },
         {
           "players": [
-            "Leo Nikora and Pat Dugan",
-            "Martyn Selman and Erv Peterson"
+            {
+              "playerId": "team-player/ef1a5ceb-7217-4530-ab17-5409ba2b7231",
+              "name": "Leo Nikora and Pat Dugan"
+            },
+            {
+              "playerId": "team-player/c5a227ad-2322-49db-aab7-e103c47207af",
+              "name": "Martyn Selman and Erv Peterson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/696f6dc3-8923-409b-8ee8-4c299e670d09",
               "players": [
                 {
+                  "playerId": "team-player/ef1a5ceb-7217-4530-ab17-5409ba2b7231",
                   "name": "Leo Nikora and Pat Dugan",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/c5a227ad-2322-49db-aab7-e103c47207af",
                   "name": "Martyn Selman and Erv Peterson",
                   "score": "14"
                 }
@@ -119,17 +216,26 @@
         },
         {
           "players": [
-            "Jim Butts and Steve Mossbrook",
-            "Martyn Selman and Erv Peterson"
+            {
+              "playerId": "team-player/103a9886-3aeb-4360-9c42-32c72de72cf2",
+              "name": "Jim Butts and Steve Mossbrook"
+            },
+            {
+              "playerId": "team-player/c5a227ad-2322-49db-aab7-e103c47207af",
+              "name": "Martyn Selman and Erv Peterson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f002ad16-0f3d-429b-bb27-d372af61e9dc",
               "players": [
                 {
+                  "playerId": "team-player/103a9886-3aeb-4360-9c42-32c72de72cf2",
                   "name": "Jim Butts and Steve Mossbrook",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/c5a227ad-2322-49db-aab7-e103c47207af",
                   "name": "Martyn Selman and Erv Peterson",
                   "score": "18"
                 }
@@ -141,17 +247,26 @@
         },
         {
           "players": [
-            "Bob Morford and Kory Teoman",
-            "Jim Hanks and Mike Orgill"
+            {
+              "playerId": "team-player/79065569-97a4-49e0-88fb-b8a0699db9d8",
+              "name": "Bob Morford and Kory Teoman"
+            },
+            {
+              "playerId": "team-player/e7b186cb-0f12-4f09-9471-75d8eb7516a3",
+              "name": "Jim Hanks and Mike Orgill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e0590eaa-8f71-4f8e-b92b-03da0994c54f",
               "players": [
                 {
+                  "playerId": "team-player/79065569-97a4-49e0-88fb-b8a0699db9d8",
                   "name": "Bob Morford and Kory Teoman",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/e7b186cb-0f12-4f09-9471-75d8eb7516a3",
                   "name": "Jim Hanks and Mike Orgill",
                   "score": "13"
                 }
@@ -163,17 +278,26 @@
         },
         {
           "players": [
-            "Leo Nikora and Pat Dugan",
-            "Ben Rothman and Karl-Heinz Kempfer"
+            {
+              "playerId": "team-player/ef1a5ceb-7217-4530-ab17-5409ba2b7231",
+              "name": "Leo Nikora and Pat Dugan"
+            },
+            {
+              "playerId": "team-player/510accc7-f7d5-4f93-b0a1-d158327c738e",
+              "name": "Ben Rothman and Karl-Heinz Kempfer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/135e6cf4-0dc4-4ad1-aa63-8dd4e3a80d28",
               "players": [
                 {
+                  "playerId": "team-player/ef1a5ceb-7217-4530-ab17-5409ba2b7231",
                   "name": "Leo Nikora and Pat Dugan",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/510accc7-f7d5-4f93-b0a1-d158327c738e",
                   "name": "Ben Rothman and Karl-Heinz Kempfer",
                   "score": "20"
                 }
@@ -185,17 +309,26 @@
         },
         {
           "players": [
-            "Leo Nikora and Pat Dugan",
-            "Jim Hanks and Mike Orgill"
+            {
+              "playerId": "team-player/ef1a5ceb-7217-4530-ab17-5409ba2b7231",
+              "name": "Leo Nikora and Pat Dugan"
+            },
+            {
+              "playerId": "team-player/e7b186cb-0f12-4f09-9471-75d8eb7516a3",
+              "name": "Jim Hanks and Mike Orgill"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9323329b-5e28-4c3f-99a1-6797ab35c000",
               "players": [
                 {
+                  "playerId": "team-player/ef1a5ceb-7217-4530-ab17-5409ba2b7231",
                   "name": "Leo Nikora and Pat Dugan",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/e7b186cb-0f12-4f09-9471-75d8eb7516a3",
                   "name": "Jim Hanks and Mike Orgill",
                   "score": "9"
                 }
@@ -207,17 +340,26 @@
         },
         {
           "players": [
-            "Bob Morford and Kory Teoman",
-            "Martyn Selman and Erv Peterson"
+            {
+              "playerId": "team-player/79065569-97a4-49e0-88fb-b8a0699db9d8",
+              "name": "Bob Morford and Kory Teoman"
+            },
+            {
+              "playerId": "team-player/c5a227ad-2322-49db-aab7-e103c47207af",
+              "name": "Martyn Selman and Erv Peterson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/350b3189-a659-439b-bd23-75cbe8b03dac",
               "players": [
                 {
+                  "playerId": "team-player/79065569-97a4-49e0-88fb-b8a0699db9d8",
                   "name": "Bob Morford and Kory Teoman",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/c5a227ad-2322-49db-aab7-e103c47207af",
                   "name": "Martyn Selman and Erv Peterson",
                   "score": "16"
                 }
@@ -229,17 +371,26 @@
         },
         {
           "players": [
-            "Jim Butts and Steve Mossbrook",
-            "Ben Rothman and Karl-Heinz Kempfer"
+            {
+              "playerId": "team-player/103a9886-3aeb-4360-9c42-32c72de72cf2",
+              "name": "Jim Butts and Steve Mossbrook"
+            },
+            {
+              "playerId": "team-player/510accc7-f7d5-4f93-b0a1-d158327c738e",
+              "name": "Ben Rothman and Karl-Heinz Kempfer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e664989a-a648-4711-a842-be3d075f6fbc",
               "players": [
                 {
+                  "playerId": "team-player/103a9886-3aeb-4360-9c42-32c72de72cf2",
                   "name": "Jim Butts and Steve Mossbrook",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/510accc7-f7d5-4f93-b0a1-d158327c738e",
                   "name": "Ben Rothman and Karl-Heinz Kempfer",
                   "score": "22"
                 }
@@ -251,17 +402,26 @@
         },
         {
           "players": [
-            "Steve Mossbrook",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/80ce2c06-09d6-4ee1-a4c2-6e14ee93b399",
+              "name": "Steve Mossbrook"
+            },
+            {
+              "playerId": "team-player/f088152b-267d-43ed-a72c-9fd7f78955eb",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/48c6441b-a78a-496e-9d22-1b1f61e5c7a8",
               "players": [
                 {
+                  "playerId": "team-player/80ce2c06-09d6-4ee1-a4c2-6e14ee93b399",
                   "name": "Steve Mossbrook",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f088152b-267d-43ed-a72c-9fd7f78955eb",
                   "name": "Ben Rothman",
                   "score": "26"
                 }
@@ -273,17 +433,26 @@
         },
         {
           "players": [
-            "Kory Teoman",
-            "Erv Peterson"
+            {
+              "playerId": "team-player/b4b5f0e1-0c9a-4646-94a5-08bb065e4361",
+              "name": "Kory Teoman"
+            },
+            {
+              "playerId": "team-player/d14cafc9-2973-48e3-97f3-63b6c5dbf0d4",
+              "name": "Erv Peterson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b1ecf98-a326-4f4f-89a0-20878bcf39a1",
               "players": [
                 {
+                  "playerId": "team-player/b4b5f0e1-0c9a-4646-94a5-08bb065e4361",
                   "name": "Kory Teoman",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d14cafc9-2973-48e3-97f3-63b6c5dbf0d4",
                   "name": "Erv Peterson",
                   "score": "26"
                 }
@@ -295,17 +464,26 @@
         },
         {
           "players": [
-            "Bob Morford",
-            "Nancy Chapman"
+            {
+              "playerId": "team-player/80782de9-0d3d-4d89-af8b-0f5f9d903a45",
+              "name": "Bob Morford"
+            },
+            {
+              "playerId": "team-player/037ea088-193a-4196-a1f1-aa0a81aad6c7",
+              "name": "Nancy Chapman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cee02bd8-f093-4f93-a4c5-4ad91e6626c7",
               "players": [
                 {
+                  "playerId": "team-player/80782de9-0d3d-4d89-af8b-0f5f9d903a45",
                   "name": "Bob Morford",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/037ea088-193a-4196-a1f1-aa0a81aad6c7",
                   "name": "Nancy Chapman",
                   "score": "9"
                 }
@@ -317,17 +495,26 @@
         },
         {
           "players": [
-            "Leo Nikora",
-            "Jim Hanks"
+            {
+              "playerId": "team-player/047be9ad-1253-44eb-bb1c-85fdb9806fd7",
+              "name": "Leo Nikora"
+            },
+            {
+              "playerId": "team-player/a16f846e-74e5-42fd-bc82-66581ccdf17d",
+              "name": "Jim Hanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c9e682e3-ec8d-47e9-905a-fde84ba62b4e",
               "players": [
                 {
+                  "playerId": "team-player/047be9ad-1253-44eb-bb1c-85fdb9806fd7",
                   "name": "Leo Nikora",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/a16f846e-74e5-42fd-bc82-66581ccdf17d",
                   "name": "Jim Hanks",
                   "score": "25"
                 }
@@ -339,17 +526,26 @@
         },
         {
           "players": [
-            "Leo Nikora",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/047be9ad-1253-44eb-bb1c-85fdb9806fd7",
+              "name": "Leo Nikora"
+            },
+            {
+              "playerId": "team-player/f088152b-267d-43ed-a72c-9fd7f78955eb",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ee39e25b-a9c4-47df-b565-5cc330235fb0",
               "players": [
                 {
+                  "playerId": "team-player/047be9ad-1253-44eb-bb1c-85fdb9806fd7",
                   "name": "Leo Nikora",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/f088152b-267d-43ed-a72c-9fd7f78955eb",
                   "name": "Ben Rothman",
                   "score": "26 TP"
                 }
@@ -361,17 +557,26 @@
         },
         {
           "players": [
-            "Jim Butts",
-            "Martyn Selman"
+            {
+              "playerId": "team-player/bb6863c1-a7a4-4589-8d90-a20a2c8ededf",
+              "name": "Jim Butts"
+            },
+            {
+              "playerId": "team-player/faf60359-a05d-4f9f-b39d-1f04eae943a6",
+              "name": "Martyn Selman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3539a2d8-6ad8-4ac1-b00b-cd8e148544e2",
               "players": [
                 {
+                  "playerId": "team-player/bb6863c1-a7a4-4589-8d90-a20a2c8ededf",
                   "name": "Jim Butts",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/faf60359-a05d-4f9f-b39d-1f04eae943a6",
                   "name": "Martyn Selman",
                   "score": "26"
                 }
@@ -383,17 +588,26 @@
         },
         {
           "players": [
-            "Bob Morford",
-            "Erv Peterson"
+            {
+              "playerId": "team-player/80782de9-0d3d-4d89-af8b-0f5f9d903a45",
+              "name": "Bob Morford"
+            },
+            {
+              "playerId": "team-player/d14cafc9-2973-48e3-97f3-63b6c5dbf0d4",
+              "name": "Erv Peterson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8926bcd6-f8ee-425f-8aca-64adbb9a7847",
               "players": [
                 {
+                  "playerId": "team-player/80782de9-0d3d-4d89-af8b-0f5f9d903a45",
                   "name": "Bob Morford",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d14cafc9-2973-48e3-97f3-63b6c5dbf0d4",
                   "name": "Erv Peterson",
                   "score": "21"
                 }
@@ -405,17 +619,26 @@
         },
         {
           "players": [
-            "Pat Dugan",
-            "Karl-Heinz Kempfer"
+            {
+              "playerId": "team-player/89ba49b8-e77e-4574-96d4-af8316bca326",
+              "name": "Pat Dugan"
+            },
+            {
+              "playerId": "team-player/2e2be531-fc8c-428e-84d5-6233d33d36f5",
+              "name": "Karl-Heinz Kempfer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/90e2c10f-e33b-46ff-a026-4ff70f1d12f2",
               "players": [
                 {
+                  "playerId": "team-player/89ba49b8-e77e-4574-96d4-af8316bca326",
                   "name": "Pat Dugan",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/2e2be531-fc8c-428e-84d5-6233d33d36f5",
                   "name": "Karl-Heinz Kempfer",
                   "score": "10"
                 }
@@ -427,17 +650,26 @@
         },
         {
           "players": [
-            "Jim Butts",
-            "Jim Hanks"
+            {
+              "playerId": "team-player/bb6863c1-a7a4-4589-8d90-a20a2c8ededf",
+              "name": "Jim Butts"
+            },
+            {
+              "playerId": "team-player/a16f846e-74e5-42fd-bc82-66581ccdf17d",
+              "name": "Jim Hanks"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6c30cf51-6107-4fce-8809-09388f2c517d",
               "players": [
                 {
+                  "playerId": "team-player/bb6863c1-a7a4-4589-8d90-a20a2c8ededf",
                   "name": "Jim Butts",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/a16f846e-74e5-42fd-bc82-66581ccdf17d",
                   "name": "Jim Hanks",
                   "score": "26"
                 }
@@ -449,17 +681,26 @@
         },
         {
           "players": [
-            "Steve Mossbrook",
-            "Martyn Selman"
+            {
+              "playerId": "team-player/80ce2c06-09d6-4ee1-a4c2-6e14ee93b399",
+              "name": "Steve Mossbrook"
+            },
+            {
+              "playerId": "team-player/faf60359-a05d-4f9f-b39d-1f04eae943a6",
+              "name": "Martyn Selman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e1daaa07-2b54-4b6c-b0ef-53e5ac9e742c",
               "players": [
                 {
+                  "playerId": "team-player/80ce2c06-09d6-4ee1-a4c2-6e14ee93b399",
                   "name": "Steve Mossbrook",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/faf60359-a05d-4f9f-b39d-1f04eae943a6",
                   "name": "Martyn Selman",
                   "score": "19"
                 }
@@ -471,17 +712,26 @@
         },
         {
           "players": [
-            "Kory Teoman",
-            "Karl-Heinz Kempfer"
+            {
+              "playerId": "team-player/b4b5f0e1-0c9a-4646-94a5-08bb065e4361",
+              "name": "Kory Teoman"
+            },
+            {
+              "playerId": "team-player/2e2be531-fc8c-428e-84d5-6233d33d36f5",
+              "name": "Karl-Heinz Kempfer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f6c3bbd1-4bee-4e03-892c-eed0d770c137",
               "players": [
                 {
+                  "playerId": "team-player/b4b5f0e1-0c9a-4646-94a5-08bb065e4361",
                   "name": "Kory Teoman",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/2e2be531-fc8c-428e-84d5-6233d33d36f5",
                   "name": "Karl-Heinz Kempfer",
                   "score": "26"
                 }
@@ -493,17 +743,26 @@
         },
         {
           "players": [
-            "Pat Dugan",
-            "Larry Lennox"
+            {
+              "playerId": "team-player/89ba49b8-e77e-4574-96d4-af8316bca326",
+              "name": "Pat Dugan"
+            },
+            {
+              "playerId": "team-player/31cdae83-4a98-4bbd-a065-626183fccaf2",
+              "name": "Larry Lennox"
+            }
           ],
           "games": [
             {
+              "gameId": "game/166f83d3-3931-458f-b4a8-92feb5e69b3f",
               "players": [
                 {
+                  "playerId": "team-player/89ba49b8-e77e-4574-96d4-af8316bca326",
                   "name": "Pat Dugan",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/31cdae83-4a98-4bbd-a065-626183fccaf2",
                   "name": "Larry Lennox",
                   "score": "7"
                 }
@@ -515,17 +774,26 @@
         },
         {
           "players": [
-            "Pat Dugan",
-            "Erv Peterson"
+            {
+              "playerId": "team-player/89ba49b8-e77e-4574-96d4-af8316bca326",
+              "name": "Pat Dugan"
+            },
+            {
+              "playerId": "team-player/d14cafc9-2973-48e3-97f3-63b6c5dbf0d4",
+              "name": "Erv Peterson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/12318983-80ee-4bf0-8a2d-651d9ed280b7",
               "players": [
                 {
+                  "playerId": "team-player/89ba49b8-e77e-4574-96d4-af8316bca326",
                   "name": "Pat Dugan",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/d14cafc9-2973-48e3-97f3-63b6c5dbf0d4",
                   "name": "Erv Peterson",
                   "score": "26"
                 }
@@ -537,17 +805,26 @@
         },
         {
           "players": [
-            "Jim Butts",
-            "Ben Rothman"
+            {
+              "playerId": "team-player/bb6863c1-a7a4-4589-8d90-a20a2c8ededf",
+              "name": "Jim Butts"
+            },
+            {
+              "playerId": "team-player/f088152b-267d-43ed-a72c-9fd7f78955eb",
+              "name": "Ben Rothman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/241b8411-fec7-482c-a5f7-f4cf67cf0cc0",
               "players": [
                 {
+                  "playerId": "team-player/bb6863c1-a7a4-4589-8d90-a20a2c8ededf",
                   "name": "Jim Butts",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/f088152b-267d-43ed-a72c-9fd7f78955eb",
                   "name": "Ben Rothman",
                   "score": "26"
                 }
@@ -559,17 +836,26 @@
         },
         {
           "players": [
-            "Leo Nikora",
-            "Martyn Selman"
+            {
+              "playerId": "team-player/047be9ad-1253-44eb-bb1c-85fdb9806fd7",
+              "name": "Leo Nikora"
+            },
+            {
+              "playerId": "team-player/faf60359-a05d-4f9f-b39d-1f04eae943a6",
+              "name": "Martyn Selman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3170311-f99c-45cc-b589-f5b40d91e0d7",
               "players": [
                 {
+                  "playerId": "team-player/047be9ad-1253-44eb-bb1c-85fdb9806fd7",
                   "name": "Leo Nikora",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/faf60359-a05d-4f9f-b39d-1f04eae943a6",
                   "name": "Martyn Selman",
                   "score": "11"
                 }
@@ -581,17 +867,26 @@
         },
         {
           "players": [
-            "Bob Morford",
-            "Karl-Heinz Kempfer"
+            {
+              "playerId": "team-player/80782de9-0d3d-4d89-af8b-0f5f9d903a45",
+              "name": "Bob Morford"
+            },
+            {
+              "playerId": "team-player/2e2be531-fc8c-428e-84d5-6233d33d36f5",
+              "name": "Karl-Heinz Kempfer"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1c886f54-7d5b-4e8f-ab71-1b88249e7667",
               "players": [
                 {
+                  "playerId": "team-player/80782de9-0d3d-4d89-af8b-0f5f9d903a45",
                   "name": "Bob Morford",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/2e2be531-fc8c-428e-84d5-6233d33d36f5",
                   "name": "Karl-Heinz Kempfer",
                   "score": "14"
                 }

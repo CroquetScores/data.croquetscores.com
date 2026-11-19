@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b1e9f9f9-552f-4499-9fd8-2b234f68849c",
   "name": "GC Inter Club Watford v Nottingham",
   "sport": "gc",
   "firstDay": "2024-05-01",
   "lastDay": "2024-05-01",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Watford",
       "shortName": "Watford",
       "players": [
-        "John Taylor",
-        "Kevin Connolly",
-        "Nick & John",
-        "Nick Archer",
-        "Simon Hathrell"
+        {
+          "playerId": "team-player/5152509d-229e-4ae1-bcdc-8db49e14fba9",
+          "name": "John Taylor"
+        },
+        {
+          "playerId": "team-player/4cfadcae-49e1-49f5-bc3c-ca7882c2668e",
+          "name": "Kevin Connolly"
+        },
+        {
+          "playerId": "team-player/1a803591-4ad1-4765-858d-a6ae01f737c0",
+          "name": "Nick & John"
+        },
+        {
+          "playerId": "team-player/1fdf90b6-417b-475a-9e5b-98930708df5e",
+          "name": "Nick Archer"
+        },
+        {
+          "playerId": "team-player/0982f03b-8382-4254-86f3-6493c14aced5",
+          "name": "Simon Hathrell"
+        }
       ]
     },
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "Euan Burridge",
-        "Ian & Euan",
-        "Ian Burridge",
-        "Ian Vincent",
-        "Paul Pinnock"
+        {
+          "playerId": "team-player/4037ff46-b5f7-45ce-8f34-88224c68e541",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/1e9c6a6d-aab2-4534-8df3-5ecb15745f85",
+          "name": "Ian & Euan"
+        },
+        {
+          "playerId": "team-player/2dded16d-8314-4fcc-8377-f3b5febe43e6",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/95209aa0-a58c-4be9-b68f-50edff9678e9",
+          "name": "Ian Vincent"
+        },
+        {
+          "playerId": "team-player/4b67d6c9-b4b8-4434-8277-020d39a42637",
+          "name": "Paul Pinnock"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2b2149e1-e252-49a5-b096-86c2ab6028bf",
       "teams": [
         "Watford",
         "Nottingham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Nick & John",
-            "Ian & Euan"
+            {
+              "playerId": "team-player/1a803591-4ad1-4765-858d-a6ae01f737c0",
+              "name": "Nick & John"
+            },
+            {
+              "playerId": "team-player/1e9c6a6d-aab2-4534-8df3-5ecb15745f85",
+              "name": "Ian & Euan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e94ddf8-82fa-42c1-b5a4-19885826bb9d",
               "players": [
                 {
+                  "playerId": "team-player/1a803591-4ad1-4765-858d-a6ae01f737c0",
                   "name": "Nick & John",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1e9c6a6d-aab2-4534-8df3-5ecb15745f85",
                   "name": "Ian & Euan",
                   "score": "5"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8cfe938e-9ab0-426f-bbf3-ad0c203c8dc9",
               "players": [
                 {
+                  "playerId": "team-player/1a803591-4ad1-4765-858d-a6ae01f737c0",
                   "name": "Nick & John",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1e9c6a6d-aab2-4534-8df3-5ecb15745f85",
                   "name": "Ian & Euan",
                   "score": "7"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f85455f2-46a6-4068-819e-35a644271261",
               "players": [
                 {
+                  "playerId": "team-player/1a803591-4ad1-4765-858d-a6ae01f737c0",
                   "name": "Nick & John",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1e9c6a6d-aab2-4534-8df3-5ecb15745f85",
                   "name": "Ian & Euan",
                   "score": "7"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "Kevin Connolly",
-            "Paul Pinnock"
+            {
+              "playerId": "team-player/4cfadcae-49e1-49f5-bc3c-ca7882c2668e",
+              "name": "Kevin Connolly"
+            },
+            {
+              "playerId": "team-player/4b67d6c9-b4b8-4434-8277-020d39a42637",
+              "name": "Paul Pinnock"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7fe094b9-5c1d-43b1-916b-41e675343f76",
               "players": [
                 {
+                  "playerId": "team-player/4cfadcae-49e1-49f5-bc3c-ca7882c2668e",
                   "name": "Kevin Connolly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4b67d6c9-b4b8-4434-8277-020d39a42637",
                   "name": "Paul Pinnock",
                   "score": "2"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1120795f-07ae-462d-999e-8042ddb49018",
               "players": [
                 {
+                  "playerId": "team-player/4cfadcae-49e1-49f5-bc3c-ca7882c2668e",
                   "name": "Kevin Connolly",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/4b67d6c9-b4b8-4434-8277-020d39a42637",
                   "name": "Paul Pinnock",
                   "score": "7"
                 }
@@ -124,12 +185,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9b5f56e8-2484-47c6-bb42-229fc8847eda",
               "players": [
                 {
+                  "playerId": "team-player/4cfadcae-49e1-49f5-bc3c-ca7882c2668e",
                   "name": "Kevin Connolly",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4b67d6c9-b4b8-4434-8277-020d39a42637",
                   "name": "Paul Pinnock",
                   "score": "4"
                 }
@@ -141,17 +205,26 @@
         },
         {
           "players": [
-            "Simon Hathrell",
-            "Ian Vincent"
+            {
+              "playerId": "team-player/0982f03b-8382-4254-86f3-6493c14aced5",
+              "name": "Simon Hathrell"
+            },
+            {
+              "playerId": "team-player/95209aa0-a58c-4be9-b68f-50edff9678e9",
+              "name": "Ian Vincent"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b6d4614-2ce9-4c72-ab12-60e33ed9673a",
               "players": [
                 {
+                  "playerId": "team-player/0982f03b-8382-4254-86f3-6493c14aced5",
                   "name": "Simon Hathrell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/95209aa0-a58c-4be9-b68f-50edff9678e9",
                   "name": "Ian Vincent",
                   "score": "7"
                 }
@@ -160,12 +233,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/925e268f-85fa-4107-bc88-cee466cf069b",
               "players": [
                 {
+                  "playerId": "team-player/0982f03b-8382-4254-86f3-6493c14aced5",
                   "name": "Simon Hathrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/95209aa0-a58c-4be9-b68f-50edff9678e9",
                   "name": "Ian Vincent",
                   "score": "3"
                 }
@@ -174,12 +250,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b895356a-871a-498e-9efb-3b0c0f25ec30",
               "players": [
                 {
+                  "playerId": "team-player/0982f03b-8382-4254-86f3-6493c14aced5",
                   "name": "Simon Hathrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/95209aa0-a58c-4be9-b68f-50edff9678e9",
                   "name": "Ian Vincent",
                   "score": "5"
                 }
@@ -191,17 +270,26 @@
         },
         {
           "players": [
-            "Nick Archer",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/1fdf90b6-417b-475a-9e5b-98930708df5e",
+              "name": "Nick Archer"
+            },
+            {
+              "playerId": "team-player/4037ff46-b5f7-45ce-8f34-88224c68e541",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9a51501e-b89e-4941-83f7-2cb5941a7da0",
               "players": [
                 {
+                  "playerId": "team-player/1fdf90b6-417b-475a-9e5b-98930708df5e",
                   "name": "Nick Archer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/4037ff46-b5f7-45ce-8f34-88224c68e541",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -210,12 +298,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e7e7b3c6-651d-4c6d-a360-0490ab9f13a0",
               "players": [
                 {
+                  "playerId": "team-player/1fdf90b6-417b-475a-9e5b-98930708df5e",
                   "name": "Nick Archer",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/4037ff46-b5f7-45ce-8f34-88224c68e541",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -227,17 +318,26 @@
         },
         {
           "players": [
-            "John Taylor",
-            "Ian Burridge"
+            {
+              "playerId": "team-player/5152509d-229e-4ae1-bcdc-8db49e14fba9",
+              "name": "John Taylor"
+            },
+            {
+              "playerId": "team-player/2dded16d-8314-4fcc-8377-f3b5febe43e6",
+              "name": "Ian Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/65477be7-fe96-49b6-ae5e-9807aafad589",
               "players": [
                 {
+                  "playerId": "team-player/5152509d-229e-4ae1-bcdc-8db49e14fba9",
                   "name": "John Taylor",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2dded16d-8314-4fcc-8377-f3b5febe43e6",
                   "name": "Ian Burridge",
                   "score": "7"
                 }
@@ -246,12 +346,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f230d71e-82de-4dd1-87d7-1dda86acb20a",
               "players": [
                 {
+                  "playerId": "team-player/5152509d-229e-4ae1-bcdc-8db49e14fba9",
                   "name": "John Taylor",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/2dded16d-8314-4fcc-8377-f3b5febe43e6",
                   "name": "Ian Burridge",
                   "score": "7"
                 }
@@ -263,17 +366,26 @@
         },
         {
           "players": [
-            "Kevin Connolly",
-            "Ian Vincent"
+            {
+              "playerId": "team-player/4cfadcae-49e1-49f5-bc3c-ca7882c2668e",
+              "name": "Kevin Connolly"
+            },
+            {
+              "playerId": "team-player/95209aa0-a58c-4be9-b68f-50edff9678e9",
+              "name": "Ian Vincent"
+            }
           ],
           "games": [
             {
+              "gameId": "game/018a1999-8b58-4cbb-89b3-f67e55af6f33",
               "players": [
                 {
+                  "playerId": "team-player/4cfadcae-49e1-49f5-bc3c-ca7882c2668e",
                   "name": "Kevin Connolly",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/95209aa0-a58c-4be9-b68f-50edff9678e9",
                   "name": "Ian Vincent",
                   "score": "7"
                 }
@@ -282,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d899f33c-e5bb-477e-9797-b2f2aa89903e",
               "players": [
                 {
+                  "playerId": "team-player/4cfadcae-49e1-49f5-bc3c-ca7882c2668e",
                   "name": "Kevin Connolly",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/95209aa0-a58c-4be9-b68f-50edff9678e9",
                   "name": "Ian Vincent",
                   "score": "7"
                 }
@@ -299,17 +414,26 @@
         },
         {
           "players": [
-            "Simon Hathrell",
-            "Paul Pinnock"
+            {
+              "playerId": "team-player/0982f03b-8382-4254-86f3-6493c14aced5",
+              "name": "Simon Hathrell"
+            },
+            {
+              "playerId": "team-player/4b67d6c9-b4b8-4434-8277-020d39a42637",
+              "name": "Paul Pinnock"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f9ab37a2-0970-4ff8-9973-baf3baeaab60",
               "players": [
                 {
+                  "playerId": "team-player/0982f03b-8382-4254-86f3-6493c14aced5",
                   "name": "Simon Hathrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4b67d6c9-b4b8-4434-8277-020d39a42637",
                   "name": "Paul Pinnock",
                   "score": "4"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fe738cb0-b42f-4a19-afc9-76add60cc9ef",
               "players": [
                 {
+                  "playerId": "team-player/0982f03b-8382-4254-86f3-6493c14aced5",
                   "name": "Simon Hathrell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4b67d6c9-b4b8-4434-8277-020d39a42637",
                   "name": "Paul Pinnock",
                   "score": "7"
                 }
@@ -332,12 +459,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b2dc1930-c11f-4d3a-9c43-3fcbfae7a024",
               "players": [
                 {
+                  "playerId": "team-player/0982f03b-8382-4254-86f3-6493c14aced5",
                   "name": "Simon Hathrell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4b67d6c9-b4b8-4434-8277-020d39a42637",
                   "name": "Paul Pinnock",
                   "score": "2"
                 }

@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/375a49bd-4fa8-421b-aea0-e6eccd425a42",
   "name": "EACF Open League Newport v Enfield",
   "sport": "gc",
   "firstDay": "2026-08-27",
   "lastDay": "2026-08-27",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Newport",
       "shortName": "Newport",
       "players": [
-        "Alex Lake",
-        "Alex Lake and Rod George",
-        "Andrew Gregory",
-        "Andrew Gregory and Colin Taylor",
-        "Colin Taylor",
-        "Rod George"
+        {
+          "playerId": "team-player/ed131376-46cf-4978-8fd3-30379b6ef559",
+          "name": "Alex Lake"
+        },
+        {
+          "playerId": "team-player/8a959f47-afa4-4655-9e07-2bf8107a4fef",
+          "name": "Alex Lake and Rod George"
+        },
+        {
+          "playerId": "team-player/80a31324-acce-4597-a8b2-4b5dded9317e",
+          "name": "Andrew Gregory"
+        },
+        {
+          "playerId": "team-player/419cab50-51b6-4a63-89a5-d6e0c4ab3496",
+          "name": "Andrew Gregory and Colin Taylor"
+        },
+        {
+          "playerId": "team-player/f11ed0a6-99cf-4b6e-b85f-e02196c2489c",
+          "name": "Colin Taylor"
+        },
+        {
+          "playerId": "team-player/cb15f97e-22b4-46fb-8139-55c39c12433b",
+          "name": "Rod George"
+        }
       ]
     },
     {
       "name": "Enfield",
       "shortName": "Enfield",
       "players": [
-        "Colin Carver",
-        "David Frost",
-        "Kim Taylor",
-        "Kim Taylor and Colin Carver",
-        "Thomas Halliday",
-        "Thomas Halliday and David Frost"
+        {
+          "playerId": "team-player/06bd5bd6-d479-4a21-9f2b-c6c9c13c0385",
+          "name": "Colin Carver"
+        },
+        {
+          "playerId": "team-player/7e4a8e17-6160-48ca-bcdd-27a3d3da2f6d",
+          "name": "David Frost"
+        },
+        {
+          "playerId": "team-player/bb4927e8-d848-4aa0-8e15-878f0aee0d67",
+          "name": "Kim Taylor"
+        },
+        {
+          "playerId": "team-player/d7883718-6a97-4f7c-9510-eb66b5208f14",
+          "name": "Kim Taylor and Colin Carver"
+        },
+        {
+          "playerId": "team-player/77ec740c-4833-42ff-8c09-b738880e9ebb",
+          "name": "Thomas Halliday"
+        },
+        {
+          "playerId": "team-player/cb063aab-8ee2-4bb5-8751-165ece3cb5b5",
+          "name": "Thomas Halliday and David Frost"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/054e9637-eff5-4dec-be34-4ad8cbf4c093",
       "teams": [
         "Newport",
         "Enfield"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Alex Lake",
-            "Kim Taylor"
+            {
+              "playerId": "team-player/ed131376-46cf-4978-8fd3-30379b6ef559",
+              "name": "Alex Lake"
+            },
+            {
+              "playerId": "team-player/bb4927e8-d848-4aa0-8e15-878f0aee0d67",
+              "name": "Kim Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8cf20524-8e0b-4b64-80b8-8a0c5b5c95a9",
               "players": [
                 {
+                  "playerId": "team-player/ed131376-46cf-4978-8fd3-30379b6ef559",
                   "name": "Alex Lake",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/bb4927e8-d848-4aa0-8e15-878f0aee0d67",
                   "name": "Kim Taylor",
                   "score": "7"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Andrew Gregory",
-            "Thomas Halliday"
+            {
+              "playerId": "team-player/80a31324-acce-4597-a8b2-4b5dded9317e",
+              "name": "Andrew Gregory"
+            },
+            {
+              "playerId": "team-player/77ec740c-4833-42ff-8c09-b738880e9ebb",
+              "name": "Thomas Halliday"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa863b6d-6bdc-47fa-bd15-8e178e619ee1",
               "players": [
                 {
+                  "playerId": "team-player/80a31324-acce-4597-a8b2-4b5dded9317e",
                   "name": "Andrew Gregory",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/77ec740c-4833-42ff-8c09-b738880e9ebb",
                   "name": "Thomas Halliday",
                   "score": "3"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Colin Taylor",
-            "David Frost"
+            {
+              "playerId": "team-player/f11ed0a6-99cf-4b6e-b85f-e02196c2489c",
+              "name": "Colin Taylor"
+            },
+            {
+              "playerId": "team-player/7e4a8e17-6160-48ca-bcdd-27a3d3da2f6d",
+              "name": "David Frost"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cb49c797-eee8-423e-a96f-df70b222e300",
               "players": [
                 {
+                  "playerId": "team-player/f11ed0a6-99cf-4b6e-b85f-e02196c2489c",
                   "name": "Colin Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7e4a8e17-6160-48ca-bcdd-27a3d3da2f6d",
                   "name": "David Frost",
                   "score": "6"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Rod George",
-            "Colin Carver"
+            {
+              "playerId": "team-player/cb15f97e-22b4-46fb-8139-55c39c12433b",
+              "name": "Rod George"
+            },
+            {
+              "playerId": "team-player/06bd5bd6-d479-4a21-9f2b-c6c9c13c0385",
+              "name": "Colin Carver"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ead036a2-0115-4abc-98b7-a1ad4036fe69",
               "players": [
                 {
+                  "playerId": "team-player/cb15f97e-22b4-46fb-8139-55c39c12433b",
                   "name": "Rod George",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/06bd5bd6-d479-4a21-9f2b-c6c9c13c0385",
                   "name": "Colin Carver",
                   "score": "7"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Rod George",
-            "David Frost"
+            {
+              "playerId": "team-player/cb15f97e-22b4-46fb-8139-55c39c12433b",
+              "name": "Rod George"
+            },
+            {
+              "playerId": "team-player/7e4a8e17-6160-48ca-bcdd-27a3d3da2f6d",
+              "name": "David Frost"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0cf444f3-1032-4666-88f6-6322e14e369d",
               "players": [
                 {
+                  "playerId": "team-player/cb15f97e-22b4-46fb-8139-55c39c12433b",
                   "name": "Rod George",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/7e4a8e17-6160-48ca-bcdd-27a3d3da2f6d",
                   "name": "David Frost",
                   "score": "7"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Colin Taylor",
-            "Colin Carver"
+            {
+              "playerId": "team-player/f11ed0a6-99cf-4b6e-b85f-e02196c2489c",
+              "name": "Colin Taylor"
+            },
+            {
+              "playerId": "team-player/06bd5bd6-d479-4a21-9f2b-c6c9c13c0385",
+              "name": "Colin Carver"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dec91fbe-eff7-497f-9a05-7eba6dc06ad9",
               "players": [
                 {
+                  "playerId": "team-player/f11ed0a6-99cf-4b6e-b85f-e02196c2489c",
                   "name": "Colin Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/06bd5bd6-d479-4a21-9f2b-c6c9c13c0385",
                   "name": "Colin Carver",
                   "score": "3"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "Andrew Gregory",
-            "Kim Taylor"
+            {
+              "playerId": "team-player/80a31324-acce-4597-a8b2-4b5dded9317e",
+              "name": "Andrew Gregory"
+            },
+            {
+              "playerId": "team-player/bb4927e8-d848-4aa0-8e15-878f0aee0d67",
+              "name": "Kim Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eb9ce01a-7a30-4cea-a698-1b6b1fc56ba0",
               "players": [
                 {
+                  "playerId": "team-player/80a31324-acce-4597-a8b2-4b5dded9317e",
                   "name": "Andrew Gregory",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/bb4927e8-d848-4aa0-8e15-878f0aee0d67",
                   "name": "Kim Taylor",
                   "score": "7"
                 }
@@ -197,17 +300,26 @@
         },
         {
           "players": [
-            "Alex Lake",
-            "Thomas Halliday"
+            {
+              "playerId": "team-player/ed131376-46cf-4978-8fd3-30379b6ef559",
+              "name": "Alex Lake"
+            },
+            {
+              "playerId": "team-player/77ec740c-4833-42ff-8c09-b738880e9ebb",
+              "name": "Thomas Halliday"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2aed315-1481-4f8c-b4f8-f4e9906a785a",
               "players": [
                 {
+                  "playerId": "team-player/ed131376-46cf-4978-8fd3-30379b6ef559",
                   "name": "Alex Lake",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/77ec740c-4833-42ff-8c09-b738880e9ebb",
                   "name": "Thomas Halliday",
                   "score": "5"
                 }
@@ -219,17 +331,26 @@
         },
         {
           "players": [
-            "Andrew Gregory",
-            "Colin Carver"
+            {
+              "playerId": "team-player/80a31324-acce-4597-a8b2-4b5dded9317e",
+              "name": "Andrew Gregory"
+            },
+            {
+              "playerId": "team-player/06bd5bd6-d479-4a21-9f2b-c6c9c13c0385",
+              "name": "Colin Carver"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d8e14880-4048-4c94-811e-7f7fabc4395f",
               "players": [
                 {
+                  "playerId": "team-player/80a31324-acce-4597-a8b2-4b5dded9317e",
                   "name": "Andrew Gregory",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/06bd5bd6-d479-4a21-9f2b-c6c9c13c0385",
                   "name": "Colin Carver",
                   "score": "5"
                 }
@@ -241,17 +362,26 @@
         },
         {
           "players": [
-            "Alex Lake",
-            "David Frost"
+            {
+              "playerId": "team-player/ed131376-46cf-4978-8fd3-30379b6ef559",
+              "name": "Alex Lake"
+            },
+            {
+              "playerId": "team-player/7e4a8e17-6160-48ca-bcdd-27a3d3da2f6d",
+              "name": "David Frost"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8177972e-0e7c-4424-a3d4-f06511a72a76",
               "players": [
                 {
+                  "playerId": "team-player/ed131376-46cf-4978-8fd3-30379b6ef559",
                   "name": "Alex Lake",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7e4a8e17-6160-48ca-bcdd-27a3d3da2f6d",
                   "name": "David Frost",
                   "score": "5"
                 }
@@ -263,17 +393,26 @@
         },
         {
           "players": [
-            "Rod George",
-            "Thomas Halliday"
+            {
+              "playerId": "team-player/cb15f97e-22b4-46fb-8139-55c39c12433b",
+              "name": "Rod George"
+            },
+            {
+              "playerId": "team-player/77ec740c-4833-42ff-8c09-b738880e9ebb",
+              "name": "Thomas Halliday"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac4c31de-a83e-4ffe-b5f9-5bcd859f0da6",
               "players": [
                 {
+                  "playerId": "team-player/cb15f97e-22b4-46fb-8139-55c39c12433b",
                   "name": "Rod George",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/77ec740c-4833-42ff-8c09-b738880e9ebb",
                   "name": "Thomas Halliday",
                   "score": "7"
                 }
@@ -285,17 +424,26 @@
         },
         {
           "players": [
-            "Colin Taylor",
-            "Kim Taylor"
+            {
+              "playerId": "team-player/f11ed0a6-99cf-4b6e-b85f-e02196c2489c",
+              "name": "Colin Taylor"
+            },
+            {
+              "playerId": "team-player/bb4927e8-d848-4aa0-8e15-878f0aee0d67",
+              "name": "Kim Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c44b712a-f5a2-41be-b6b2-b9852465a020",
               "players": [
                 {
+                  "playerId": "team-player/f11ed0a6-99cf-4b6e-b85f-e02196c2489c",
                   "name": "Colin Taylor",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/bb4927e8-d848-4aa0-8e15-878f0aee0d67",
                   "name": "Kim Taylor",
                   "score": "7"
                 }
@@ -307,17 +455,26 @@
         },
         {
           "players": [
-            "Colin Taylor",
-            "Thomas Halliday"
+            {
+              "playerId": "team-player/f11ed0a6-99cf-4b6e-b85f-e02196c2489c",
+              "name": "Colin Taylor"
+            },
+            {
+              "playerId": "team-player/77ec740c-4833-42ff-8c09-b738880e9ebb",
+              "name": "Thomas Halliday"
+            }
           ],
           "games": [
             {
+              "gameId": "game/20a1e0c7-83f2-41e1-adf0-4f3d883e1cf2",
               "players": [
                 {
+                  "playerId": "team-player/f11ed0a6-99cf-4b6e-b85f-e02196c2489c",
                   "name": "Colin Taylor",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/77ec740c-4833-42ff-8c09-b738880e9ebb",
                   "name": "Thomas Halliday",
                   "score": "7"
                 }
@@ -329,17 +486,26 @@
         },
         {
           "players": [
-            "Rod George",
-            "Kim Taylor"
+            {
+              "playerId": "team-player/cb15f97e-22b4-46fb-8139-55c39c12433b",
+              "name": "Rod George"
+            },
+            {
+              "playerId": "team-player/bb4927e8-d848-4aa0-8e15-878f0aee0d67",
+              "name": "Kim Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/77c733b2-bc46-41ff-8b73-5a2916706fbd",
               "players": [
                 {
+                  "playerId": "team-player/cb15f97e-22b4-46fb-8139-55c39c12433b",
                   "name": "Rod George",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/bb4927e8-d848-4aa0-8e15-878f0aee0d67",
                   "name": "Kim Taylor",
                   "score": "7"
                 }
@@ -351,17 +517,26 @@
         },
         {
           "players": [
-            "Alex Lake",
-            "Colin Carver"
+            {
+              "playerId": "team-player/ed131376-46cf-4978-8fd3-30379b6ef559",
+              "name": "Alex Lake"
+            },
+            {
+              "playerId": "team-player/06bd5bd6-d479-4a21-9f2b-c6c9c13c0385",
+              "name": "Colin Carver"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5ae34163-09df-4347-b7ac-995ee025f2dc",
               "players": [
                 {
+                  "playerId": "team-player/ed131376-46cf-4978-8fd3-30379b6ef559",
                   "name": "Alex Lake",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/06bd5bd6-d479-4a21-9f2b-c6c9c13c0385",
                   "name": "Colin Carver",
                   "score": "3"
                 }
@@ -373,17 +548,26 @@
         },
         {
           "players": [
-            "Andrew Gregory",
-            "David Frost"
+            {
+              "playerId": "team-player/80a31324-acce-4597-a8b2-4b5dded9317e",
+              "name": "Andrew Gregory"
+            },
+            {
+              "playerId": "team-player/7e4a8e17-6160-48ca-bcdd-27a3d3da2f6d",
+              "name": "David Frost"
+            }
           ],
           "games": [
             {
+              "gameId": "game/298533ec-7839-40a0-8990-0271d71ee8ca",
               "players": [
                 {
+                  "playerId": "team-player/80a31324-acce-4597-a8b2-4b5dded9317e",
                   "name": "Andrew Gregory",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7e4a8e17-6160-48ca-bcdd-27a3d3da2f6d",
                   "name": "David Frost",
                   "score": "5"
                 }
@@ -395,17 +579,26 @@
         },
         {
           "players": [
-            "Andrew Gregory and Colin Taylor",
-            "Kim Taylor and Colin Carver"
+            {
+              "playerId": "team-player/419cab50-51b6-4a63-89a5-d6e0c4ab3496",
+              "name": "Andrew Gregory and Colin Taylor"
+            },
+            {
+              "playerId": "team-player/d7883718-6a97-4f7c-9510-eb66b5208f14",
+              "name": "Kim Taylor and Colin Carver"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3cbd45ea-476a-445e-bf85-d485948ecb36",
               "players": [
                 {
+                  "playerId": "team-player/419cab50-51b6-4a63-89a5-d6e0c4ab3496",
                   "name": "Andrew Gregory and Colin Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d7883718-6a97-4f7c-9510-eb66b5208f14",
                   "name": "Kim Taylor and Colin Carver",
                   "score": "6"
                 }
@@ -417,17 +610,26 @@
         },
         {
           "players": [
-            "Andrew Gregory and Colin Taylor",
-            "Thomas Halliday and David Frost"
+            {
+              "playerId": "team-player/419cab50-51b6-4a63-89a5-d6e0c4ab3496",
+              "name": "Andrew Gregory and Colin Taylor"
+            },
+            {
+              "playerId": "team-player/cb063aab-8ee2-4bb5-8751-165ece3cb5b5",
+              "name": "Thomas Halliday and David Frost"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e4c024e-dcce-4746-a0ae-a69a307bcce0",
               "players": [
                 {
+                  "playerId": "team-player/419cab50-51b6-4a63-89a5-d6e0c4ab3496",
                   "name": "Andrew Gregory and Colin Taylor",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cb063aab-8ee2-4bb5-8751-165ece3cb5b5",
                   "name": "Thomas Halliday and David Frost",
                   "score": "6"
                 }
@@ -439,17 +641,26 @@
         },
         {
           "players": [
-            "Alex Lake and Rod George",
-            "Thomas Halliday and David Frost"
+            {
+              "playerId": "team-player/8a959f47-afa4-4655-9e07-2bf8107a4fef",
+              "name": "Alex Lake and Rod George"
+            },
+            {
+              "playerId": "team-player/cb063aab-8ee2-4bb5-8751-165ece3cb5b5",
+              "name": "Thomas Halliday and David Frost"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a65d8560-1a50-4239-83dc-49e6652a7892",
               "players": [
                 {
+                  "playerId": "team-player/8a959f47-afa4-4655-9e07-2bf8107a4fef",
                   "name": "Alex Lake and Rod George",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/cb063aab-8ee2-4bb5-8751-165ece3cb5b5",
                   "name": "Thomas Halliday and David Frost",
                   "score": "7"
                 }
@@ -461,17 +672,26 @@
         },
         {
           "players": [
-            "Alex Lake and Rod George",
-            "Kim Taylor and Colin Carver"
+            {
+              "playerId": "team-player/8a959f47-afa4-4655-9e07-2bf8107a4fef",
+              "name": "Alex Lake and Rod George"
+            },
+            {
+              "playerId": "team-player/d7883718-6a97-4f7c-9510-eb66b5208f14",
+              "name": "Kim Taylor and Colin Carver"
+            }
           ],
           "games": [
             {
+              "gameId": "game/51a5fd63-ba55-4665-9de9-97e66959f304",
               "players": [
                 {
+                  "playerId": "team-player/8a959f47-afa4-4655-9e07-2bf8107a4fef",
                   "name": "Alex Lake and Rod George",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d7883718-6a97-4f7c-9510-eb66b5208f14",
                   "name": "Kim Taylor and Colin Carver",
                   "score": "7"
                 }

@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/b931c78c-f34e-4174-be52-326495c2ea82",
   "name": "McWeeney Trophy (CAI v CA)",
   "sport": "ac",
   "firstDay": "2018-09-22",
   "lastDay": "2018-09-23",
   "country": "ie",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Croquet Association of Ireland",
       "shortName": "Croquet As",
       "players": [
-        "Alan Looney",
-        "Daniel Bennett",
-        "Evan Newell",
-        "Evan Newell and Daniel Bennett",
-        "Myles McWeeney",
-        "Nathaniel Healy",
-        "Nathaniel Healy and Alan Looney",
-        "Patsy Fitzgerald",
-        "Patsy Fitzgerald and Myles Mcweeney"
+        {
+          "playerId": "team-player/becbc903-1412-41a2-98c3-711d034b4867",
+          "name": "Alan Looney"
+        },
+        {
+          "playerId": "team-player/f92c53ff-d1ae-4371-a1bc-daa7561f6305",
+          "name": "Daniel Bennett"
+        },
+        {
+          "playerId": "team-player/8ad298a2-62cc-43de-acee-252dd88fee71",
+          "name": "Evan Newell"
+        },
+        {
+          "playerId": "team-player/969fb49b-b2e8-4e8f-be5b-91796c17277a",
+          "name": "Evan Newell and Daniel Bennett"
+        },
+        {
+          "playerId": "team-player/a8ffef97-29b9-4ec1-9b28-19d724fed8c4",
+          "name": "Myles McWeeney"
+        },
+        {
+          "playerId": "team-player/0f05e118-aa6f-4693-87e7-17340803df3e",
+          "name": "Nathaniel Healy"
+        },
+        {
+          "playerId": "team-player/63b4e385-22fb-4b64-bd89-99db2a926c98",
+          "name": "Nathaniel Healy and Alan Looney"
+        },
+        {
+          "playerId": "team-player/6a44df10-9f41-42b2-ac01-f8ce1e5dd741",
+          "name": "Patsy Fitzgerald"
+        },
+        {
+          "playerId": "team-player/9c77219b-e9b8-48a3-aae6-090b457ece0d",
+          "name": "Patsy Fitzgerald and Myles Mcweeney"
+        }
       ]
     },
     {
       "name": "The Croquet Association",
       "shortName": "The Croque",
       "players": [
-        "Alison Jones",
-        "Alison Jones and Richard M Stevens",
-        "Barry Holland",
-        "Nick Mounfield",
-        "Nick Mounfield and Barry Holland",
-        "Richard M Stevens",
-        "Richard Pepperell",
-        "Tom Weston",
-        "Tom Weston and Richard Pepperell"
+        {
+          "playerId": "team-player/f8459d1d-455a-4394-94c4-bc9f54d9ca54",
+          "name": "Alison Jones"
+        },
+        {
+          "playerId": "team-player/35feb44f-97c1-4777-a907-97cc9f20c33a",
+          "name": "Alison Jones and Richard M Stevens"
+        },
+        {
+          "playerId": "team-player/35940da6-b7e9-4deb-b180-bb069e0305e4",
+          "name": "Barry Holland"
+        },
+        {
+          "playerId": "team-player/8738a6cb-356d-4ba1-ae4a-9ed307f96c50",
+          "name": "Nick Mounfield"
+        },
+        {
+          "playerId": "team-player/a4cd1859-5775-4378-8e06-cd197bcbf093",
+          "name": "Nick Mounfield and Barry Holland"
+        },
+        {
+          "playerId": "team-player/cfb56841-12bb-48fa-a663-0e5fe0bbb170",
+          "name": "Richard M Stevens"
+        },
+        {
+          "playerId": "team-player/996f3c84-e23f-485d-8cea-855244ff4530",
+          "name": "Richard Pepperell"
+        },
+        {
+          "playerId": "team-player/3edb8005-add2-488a-b633-e84dfaf95438",
+          "name": "Tom Weston"
+        },
+        {
+          "playerId": "team-player/39f0caaf-e391-4757-9f34-7e93d06d6edf",
+          "name": "Tom Weston and Richard Pepperell"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/56297728-8378-4fc2-a7b3-4ee4a496c10c",
       "teams": [
         "Croquet Association of Ireland",
         "The Croquet Association"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "Patsy Fitzgerald and Myles Mcweeney",
-            "Alison Jones and Richard M Stevens"
+            {
+              "playerId": "team-player/9c77219b-e9b8-48a3-aae6-090b457ece0d",
+              "name": "Patsy Fitzgerald and Myles Mcweeney"
+            },
+            {
+              "playerId": "team-player/35feb44f-97c1-4777-a907-97cc9f20c33a",
+              "name": "Alison Jones and Richard M Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7041a367-a9f5-44b2-aac0-1737b60748ef",
               "players": [
                 {
+                  "playerId": "team-player/9c77219b-e9b8-48a3-aae6-090b457ece0d",
                   "name": "Patsy Fitzgerald and Myles Mcweeney",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/35feb44f-97c1-4777-a907-97cc9f20c33a",
                   "name": "Alison Jones and Richard M Stevens",
                   "score": "26"
                 }
@@ -71,17 +138,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy and Alan Looney",
-            "Tom Weston and Richard Pepperell"
+            {
+              "playerId": "team-player/63b4e385-22fb-4b64-bd89-99db2a926c98",
+              "name": "Nathaniel Healy and Alan Looney"
+            },
+            {
+              "playerId": "team-player/39f0caaf-e391-4757-9f34-7e93d06d6edf",
+              "name": "Tom Weston and Richard Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/082b1553-4fbf-4e1d-af92-3f9f43a8865b",
               "players": [
                 {
+                  "playerId": "team-player/63b4e385-22fb-4b64-bd89-99db2a926c98",
                   "name": "Nathaniel Healy and Alan Looney",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/39f0caaf-e391-4757-9f34-7e93d06d6edf",
                   "name": "Tom Weston and Richard Pepperell",
                   "score": "21"
                 }
@@ -93,17 +169,26 @@
         },
         {
           "players": [
-            "Evan Newell and Daniel Bennett",
-            "Nick Mounfield and Barry Holland"
+            {
+              "playerId": "team-player/969fb49b-b2e8-4e8f-be5b-91796c17277a",
+              "name": "Evan Newell and Daniel Bennett"
+            },
+            {
+              "playerId": "team-player/a4cd1859-5775-4378-8e06-cd197bcbf093",
+              "name": "Nick Mounfield and Barry Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f81578bb-9993-49aa-a18c-370ff6756835",
               "players": [
                 {
+                  "playerId": "team-player/969fb49b-b2e8-4e8f-be5b-91796c17277a",
                   "name": "Evan Newell and Daniel Bennett",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/a4cd1859-5775-4378-8e06-cd197bcbf093",
                   "name": "Nick Mounfield and Barry Holland",
                   "score": "23"
                 }
@@ -115,17 +200,26 @@
         },
         {
           "players": [
-            "Patsy Fitzgerald",
-            "Tom Weston"
+            {
+              "playerId": "team-player/6a44df10-9f41-42b2-ac01-f8ce1e5dd741",
+              "name": "Patsy Fitzgerald"
+            },
+            {
+              "playerId": "team-player/3edb8005-add2-488a-b633-e84dfaf95438",
+              "name": "Tom Weston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2737f67-a7c9-4c60-bde5-7168be12943d",
               "players": [
                 {
+                  "playerId": "team-player/6a44df10-9f41-42b2-ac01-f8ce1e5dd741",
                   "name": "Patsy Fitzgerald",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/3edb8005-add2-488a-b633-e84dfaf95438",
                   "name": "Tom Weston",
                   "score": "6"
                 }
@@ -137,17 +231,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "Nick Mounfield"
+            {
+              "playerId": "team-player/0f05e118-aa6f-4693-87e7-17340803df3e",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/8738a6cb-356d-4ba1-ae4a-9ed307f96c50",
+              "name": "Nick Mounfield"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34aa1081-c869-4427-a460-fed8b7b66312",
               "players": [
                 {
+                  "playerId": "team-player/0f05e118-aa6f-4693-87e7-17340803df3e",
                   "name": "Nathaniel Healy",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/8738a6cb-356d-4ba1-ae4a-9ed307f96c50",
                   "name": "Nick Mounfield",
                   "score": "26tp"
                 }
@@ -159,17 +262,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "Alison Jones"
+            {
+              "playerId": "team-player/8ad298a2-62cc-43de-acee-252dd88fee71",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/f8459d1d-455a-4394-94c4-bc9f54d9ca54",
+              "name": "Alison Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6d7f8b3e-f918-43c6-9ec9-0b4a4a04be1f",
               "players": [
                 {
+                  "playerId": "team-player/8ad298a2-62cc-43de-acee-252dd88fee71",
                   "name": "Evan Newell",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f8459d1d-455a-4394-94c4-bc9f54d9ca54",
                   "name": "Alison Jones",
                   "score": "26"
                 }
@@ -181,17 +293,26 @@
         },
         {
           "players": [
-            "Daniel Bennett",
-            "Richard M Stevens"
+            {
+              "playerId": "team-player/f92c53ff-d1ae-4371-a1bc-daa7561f6305",
+              "name": "Daniel Bennett"
+            },
+            {
+              "playerId": "team-player/cfb56841-12bb-48fa-a663-0e5fe0bbb170",
+              "name": "Richard M Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dedc20fe-71ff-47ac-8d65-e8e66ee0e41a",
               "players": [
                 {
+                  "playerId": "team-player/f92c53ff-d1ae-4371-a1bc-daa7561f6305",
                   "name": "Daniel Bennett",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/cfb56841-12bb-48fa-a663-0e5fe0bbb170",
                   "name": "Richard M Stevens",
                   "score": "21"
                 }
@@ -203,17 +324,26 @@
         },
         {
           "players": [
-            "Alan Looney",
-            "Barry Holland"
+            {
+              "playerId": "team-player/becbc903-1412-41a2-98c3-711d034b4867",
+              "name": "Alan Looney"
+            },
+            {
+              "playerId": "team-player/35940da6-b7e9-4deb-b180-bb069e0305e4",
+              "name": "Barry Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/847d8e69-a585-4fab-9ef2-aac25d60ea54",
               "players": [
                 {
+                  "playerId": "team-player/becbc903-1412-41a2-98c3-711d034b4867",
                   "name": "Alan Looney",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/35940da6-b7e9-4deb-b180-bb069e0305e4",
                   "name": "Barry Holland",
                   "score": "8"
                 }
@@ -225,17 +355,26 @@
         },
         {
           "players": [
-            "Myles McWeeney",
-            "Richard Pepperell"
+            {
+              "playerId": "team-player/a8ffef97-29b9-4ec1-9b28-19d724fed8c4",
+              "name": "Myles McWeeney"
+            },
+            {
+              "playerId": "team-player/996f3c84-e23f-485d-8cea-855244ff4530",
+              "name": "Richard Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/65b5e503-920b-4639-9c76-19402f46b5b6",
               "players": [
                 {
+                  "playerId": "team-player/a8ffef97-29b9-4ec1-9b28-19d724fed8c4",
                   "name": "Myles McWeeney",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/996f3c84-e23f-485d-8cea-855244ff4530",
                   "name": "Richard Pepperell",
                   "score": "15"
                 }
@@ -247,17 +386,26 @@
         },
         {
           "players": [
-            "Patsy Fitzgerald",
-            "Alison Jones"
+            {
+              "playerId": "team-player/6a44df10-9f41-42b2-ac01-f8ce1e5dd741",
+              "name": "Patsy Fitzgerald"
+            },
+            {
+              "playerId": "team-player/f8459d1d-455a-4394-94c4-bc9f54d9ca54",
+              "name": "Alison Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eadb174e-1173-4926-9fe8-56494eb8a6fd",
               "players": [
                 {
+                  "playerId": "team-player/6a44df10-9f41-42b2-ac01-f8ce1e5dd741",
                   "name": "Patsy Fitzgerald",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/f8459d1d-455a-4394-94c4-bc9f54d9ca54",
                   "name": "Alison Jones",
                   "score": "17"
                 }
@@ -269,17 +417,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "Nick Mounfield"
+            {
+              "playerId": "team-player/8ad298a2-62cc-43de-acee-252dd88fee71",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/8738a6cb-356d-4ba1-ae4a-9ed307f96c50",
+              "name": "Nick Mounfield"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3fd19983-89d8-4d25-aa64-4d373167ded9",
               "players": [
                 {
+                  "playerId": "team-player/8ad298a2-62cc-43de-acee-252dd88fee71",
                   "name": "Evan Newell",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/8738a6cb-356d-4ba1-ae4a-9ed307f96c50",
                   "name": "Nick Mounfield",
                   "score": "26tp"
                 }
@@ -291,17 +448,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "Tom Weston"
+            {
+              "playerId": "team-player/0f05e118-aa6f-4693-87e7-17340803df3e",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/3edb8005-add2-488a-b633-e84dfaf95438",
+              "name": "Tom Weston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/665c75d5-0134-4671-a691-38f9981df43b",
               "players": [
                 {
+                  "playerId": "team-player/0f05e118-aa6f-4693-87e7-17340803df3e",
                   "name": "Nathaniel Healy",
                   "score": "17"
                 },
                 {
+                  "playerId": "team-player/3edb8005-add2-488a-b633-e84dfaf95438",
                   "name": "Tom Weston",
                   "score": "26"
                 }
@@ -313,17 +479,26 @@
         },
         {
           "players": [
-            "Daniel Bennett",
-            "Barry Holland"
+            {
+              "playerId": "team-player/f92c53ff-d1ae-4371-a1bc-daa7561f6305",
+              "name": "Daniel Bennett"
+            },
+            {
+              "playerId": "team-player/35940da6-b7e9-4deb-b180-bb069e0305e4",
+              "name": "Barry Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa28e6a3-dfac-4def-8811-c942a91360f0",
               "players": [
                 {
+                  "playerId": "team-player/f92c53ff-d1ae-4371-a1bc-daa7561f6305",
                   "name": "Daniel Bennett",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/35940da6-b7e9-4deb-b180-bb069e0305e4",
                   "name": "Barry Holland",
                   "score": "10"
                 }
@@ -335,17 +510,26 @@
         },
         {
           "players": [
-            "Alan Looney",
-            "Richard Pepperell"
+            {
+              "playerId": "team-player/becbc903-1412-41a2-98c3-711d034b4867",
+              "name": "Alan Looney"
+            },
+            {
+              "playerId": "team-player/996f3c84-e23f-485d-8cea-855244ff4530",
+              "name": "Richard Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f3ce1821-6217-4b84-b105-a87c83b2860e",
               "players": [
                 {
+                  "playerId": "team-player/becbc903-1412-41a2-98c3-711d034b4867",
                   "name": "Alan Looney",
                   "score": "21"
                 },
                 {
+                  "playerId": "team-player/996f3c84-e23f-485d-8cea-855244ff4530",
                   "name": "Richard Pepperell",
                   "score": "16"
                 }
@@ -357,17 +541,26 @@
         },
         {
           "players": [
-            "Myles McWeeney",
-            "Richard M Stevens"
+            {
+              "playerId": "team-player/a8ffef97-29b9-4ec1-9b28-19d724fed8c4",
+              "name": "Myles McWeeney"
+            },
+            {
+              "playerId": "team-player/cfb56841-12bb-48fa-a663-0e5fe0bbb170",
+              "name": "Richard M Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6dde07f1-a69a-46eb-9d13-2de4a11f246b",
               "players": [
                 {
+                  "playerId": "team-player/a8ffef97-29b9-4ec1-9b28-19d724fed8c4",
                   "name": "Myles McWeeney",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/cfb56841-12bb-48fa-a663-0e5fe0bbb170",
                   "name": "Richard M Stevens",
                   "score": "26"
                 }
@@ -379,17 +572,26 @@
         },
         {
           "players": [
-            "Patsy Fitzgerald and Myles Mcweeney",
-            "Tom Weston and Richard Pepperell"
+            {
+              "playerId": "team-player/9c77219b-e9b8-48a3-aae6-090b457ece0d",
+              "name": "Patsy Fitzgerald and Myles Mcweeney"
+            },
+            {
+              "playerId": "team-player/39f0caaf-e391-4757-9f34-7e93d06d6edf",
+              "name": "Tom Weston and Richard Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/368b147b-fdae-40a9-a40b-1191a2d23e6e",
               "players": [
                 {
+                  "playerId": "team-player/9c77219b-e9b8-48a3-aae6-090b457ece0d",
                   "name": "Patsy Fitzgerald and Myles Mcweeney",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/39f0caaf-e391-4757-9f34-7e93d06d6edf",
                   "name": "Tom Weston and Richard Pepperell",
                   "score": "20"
                 }
@@ -401,17 +603,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy and Alan Looney",
-            "Nick Mounfield and Barry Holland"
+            {
+              "playerId": "team-player/63b4e385-22fb-4b64-bd89-99db2a926c98",
+              "name": "Nathaniel Healy and Alan Looney"
+            },
+            {
+              "playerId": "team-player/a4cd1859-5775-4378-8e06-cd197bcbf093",
+              "name": "Nick Mounfield and Barry Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/10bc10d9-c847-4028-937c-7a0989261aa2",
               "players": [
                 {
+                  "playerId": "team-player/63b4e385-22fb-4b64-bd89-99db2a926c98",
                   "name": "Nathaniel Healy and Alan Looney",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/a4cd1859-5775-4378-8e06-cd197bcbf093",
                   "name": "Nick Mounfield and Barry Holland",
                   "score": "21"
                 }
@@ -423,17 +634,26 @@
         },
         {
           "players": [
-            "Evan Newell and Daniel Bennett",
-            "Alison Jones and Richard M Stevens"
+            {
+              "playerId": "team-player/969fb49b-b2e8-4e8f-be5b-91796c17277a",
+              "name": "Evan Newell and Daniel Bennett"
+            },
+            {
+              "playerId": "team-player/35feb44f-97c1-4777-a907-97cc9f20c33a",
+              "name": "Alison Jones and Richard M Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa91519f-bf74-414c-81af-795b012cdafd",
               "players": [
                 {
+                  "playerId": "team-player/969fb49b-b2e8-4e8f-be5b-91796c17277a",
                   "name": "Evan Newell and Daniel Bennett",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/35feb44f-97c1-4777-a907-97cc9f20c33a",
                   "name": "Alison Jones and Richard M Stevens",
                   "score": "12"
                 }
@@ -445,17 +665,26 @@
         },
         {
           "players": [
-            "Patsy Fitzgerald",
-            "Nick Mounfield"
+            {
+              "playerId": "team-player/6a44df10-9f41-42b2-ac01-f8ce1e5dd741",
+              "name": "Patsy Fitzgerald"
+            },
+            {
+              "playerId": "team-player/8738a6cb-356d-4ba1-ae4a-9ed307f96c50",
+              "name": "Nick Mounfield"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ce789d5d-8db0-49af-825c-2358a745113c",
               "players": [
                 {
+                  "playerId": "team-player/6a44df10-9f41-42b2-ac01-f8ce1e5dd741",
                   "name": "Patsy Fitzgerald",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/8738a6cb-356d-4ba1-ae4a-9ed307f96c50",
                   "name": "Nick Mounfield",
                   "score": "0"
                 }
@@ -467,17 +696,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "Alison Jones"
+            {
+              "playerId": "team-player/0f05e118-aa6f-4693-87e7-17340803df3e",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/f8459d1d-455a-4394-94c4-bc9f54d9ca54",
+              "name": "Alison Jones"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6b31ae0d-9184-4f37-8916-2936be9b4394",
               "players": [
                 {
+                  "playerId": "team-player/0f05e118-aa6f-4693-87e7-17340803df3e",
                   "name": "Nathaniel Healy",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/f8459d1d-455a-4394-94c4-bc9f54d9ca54",
                   "name": "Alison Jones",
                   "score": "26"
                 }
@@ -489,17 +727,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "Tom Weston"
+            {
+              "playerId": "team-player/8ad298a2-62cc-43de-acee-252dd88fee71",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/3edb8005-add2-488a-b633-e84dfaf95438",
+              "name": "Tom Weston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a8481ff2-9f06-44d2-ba39-20c5708efea3",
               "players": [
                 {
+                  "playerId": "team-player/8ad298a2-62cc-43de-acee-252dd88fee71",
                   "name": "Evan Newell",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/3edb8005-add2-488a-b633-e84dfaf95438",
                   "name": "Tom Weston",
                   "score": "22"
                 }
@@ -511,17 +758,26 @@
         },
         {
           "players": [
-            "Daniel Bennett",
-            "Richard Pepperell"
+            {
+              "playerId": "team-player/f92c53ff-d1ae-4371-a1bc-daa7561f6305",
+              "name": "Daniel Bennett"
+            },
+            {
+              "playerId": "team-player/996f3c84-e23f-485d-8cea-855244ff4530",
+              "name": "Richard Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9e445712-61f1-4588-a18b-9cd5905e043f",
               "players": [
                 {
+                  "playerId": "team-player/f92c53ff-d1ae-4371-a1bc-daa7561f6305",
                   "name": "Daniel Bennett",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/996f3c84-e23f-485d-8cea-855244ff4530",
                   "name": "Richard Pepperell",
                   "score": "14"
                 }
@@ -533,17 +789,26 @@
         },
         {
           "players": [
-            "Alan Looney",
-            "Richard M Stevens"
+            {
+              "playerId": "team-player/becbc903-1412-41a2-98c3-711d034b4867",
+              "name": "Alan Looney"
+            },
+            {
+              "playerId": "team-player/cfb56841-12bb-48fa-a663-0e5fe0bbb170",
+              "name": "Richard M Stevens"
+            }
           ],
           "games": [
             {
+              "gameId": "game/828ba590-1a8b-4ef6-8be8-592a0ad1ca4b",
               "players": [
                 {
+                  "playerId": "team-player/becbc903-1412-41a2-98c3-711d034b4867",
                   "name": "Alan Looney",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/cfb56841-12bb-48fa-a663-0e5fe0bbb170",
                   "name": "Richard M Stevens",
                   "score": "26"
                 }
@@ -555,17 +820,26 @@
         },
         {
           "players": [
-            "Myles McWeeney",
-            "Barry Holland"
+            {
+              "playerId": "team-player/a8ffef97-29b9-4ec1-9b28-19d724fed8c4",
+              "name": "Myles McWeeney"
+            },
+            {
+              "playerId": "team-player/35940da6-b7e9-4deb-b180-bb069e0305e4",
+              "name": "Barry Holland"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dea56bd8-5788-4d29-8108-9c15c0f03b03",
               "players": [
                 {
+                  "playerId": "team-player/a8ffef97-29b9-4ec1-9b28-19d724fed8c4",
                   "name": "Myles McWeeney",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/35940da6-b7e9-4deb-b180-bb069e0305e4",
                   "name": "Barry Holland",
                   "score": "12"
                 }

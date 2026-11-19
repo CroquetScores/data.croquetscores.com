@@ -1,51 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/34c6a184-63c9-45f9-a740-d973e371b32d",
   "name": "CTI Intermediate Interclub (R5)",
   "sport": "gc",
   "firstDay": "2022-11-07",
   "lastDay": "2022-11-07",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "NP 1",
       "shortName": "NP 1",
       "players": [
-        "Betty McLeod",
-        "Graham Donlon",
-        "Graham Donlon & Betty McLeod"
+        {
+          "playerId": "team-player/5f04ceaf-2c4a-4f2e-8f69-be077b95acb4",
+          "name": "Betty McLeod"
+        },
+        {
+          "playerId": "team-player/b3eda588-50e1-403e-bd4d-63b4008d8fb2",
+          "name": "Graham Donlon"
+        },
+        {
+          "playerId": "team-player/d4f5f710-2cac-446d-a69f-97331d3488aa",
+          "name": "Graham Donlon & Betty McLeod"
+        }
       ]
     },
     {
       "name": "NP 2",
       "shortName": "NP 2",
       "players": [
-        "Annette Vickers",
-        "Annette Vickers & Desma Gaffney",
-        "Desma Gaffney"
+        {
+          "playerId": "team-player/1a59688d-5440-4cae-baa1-2f0b8124b5c5",
+          "name": "Annette Vickers"
+        },
+        {
+          "playerId": "team-player/2b53502f-8ab6-407c-a81a-de94fe773003",
+          "name": "Annette Vickers & Desma Gaffney"
+        },
+        {
+          "playerId": "team-player/c8bcf44e-888b-47b4-8559-8cac410a8bf3",
+          "name": "Desma Gaffney"
+        }
       ]
     },
     {
       "name": "WE",
       "shortName": "WE",
       "players": [
-        "Joyce Crummey",
-        "Joyce Crummey & Peg Smythe",
-        "Peg Smythe"
+        {
+          "playerId": "team-player/4d639d05-b117-4470-a23b-1b1cfaf8c9c4",
+          "name": "Joyce Crummey"
+        },
+        {
+          "playerId": "team-player/c07a9dbc-ef62-4ecb-ae8a-7ab35cab000b",
+          "name": "Joyce Crummey & Peg Smythe"
+        },
+        {
+          "playerId": "team-player/5595c556-8c8d-4279-8f59-62c410d624b2",
+          "name": "Peg Smythe"
+        }
       ]
     },
     {
       "name": "TS",
       "shortName": "TS",
       "players": [
-        "Les Ogle",
-        "Raewyn Shulper",
-        "Raewyn Shulper & Les Ogle"
+        {
+          "playerId": "team-player/3a149f6e-d75f-448a-aa64-d3803b067d6d",
+          "name": "Les Ogle"
+        },
+        {
+          "playerId": "team-player/0b95d6f8-5c10-400f-88a7-1fbff6e3ac30",
+          "name": "Raewyn Shulper"
+        },
+        {
+          "playerId": "team-player/c1b27e8d-a7c4-419e-ad1c-c4c5010c209b",
+          "name": "Raewyn Shulper & Les Ogle"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/f998e84a-3fcb-4554-9f98-511b8b08c789",
       "teams": [
         "NP 1",
         "NP 2"
@@ -55,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Graham Donlon",
-            "Annette Vickers"
+            {
+              "playerId": "team-player/b3eda588-50e1-403e-bd4d-63b4008d8fb2",
+              "name": "Graham Donlon"
+            },
+            {
+              "playerId": "team-player/1a59688d-5440-4cae-baa1-2f0b8124b5c5",
+              "name": "Annette Vickers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2f521f0f-cd05-4784-b359-eb40aa5e6a05",
               "players": [
                 {
+                  "playerId": "team-player/b3eda588-50e1-403e-bd4d-63b4008d8fb2",
                   "name": "Graham Donlon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/1a59688d-5440-4cae-baa1-2f0b8124b5c5",
                   "name": "Annette Vickers",
                   "score": "3"
                 }
@@ -77,17 +126,26 @@
         },
         {
           "players": [
-            "Betty McLeod",
-            "Desma Gaffney"
+            {
+              "playerId": "team-player/5f04ceaf-2c4a-4f2e-8f69-be077b95acb4",
+              "name": "Betty McLeod"
+            },
+            {
+              "playerId": "team-player/c8bcf44e-888b-47b4-8559-8cac410a8bf3",
+              "name": "Desma Gaffney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/98c7c7f1-2cc7-439b-bea1-6a4a77976c78",
               "players": [
                 {
+                  "playerId": "team-player/5f04ceaf-2c4a-4f2e-8f69-be077b95acb4",
                   "name": "Betty McLeod",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/c8bcf44e-888b-47b4-8559-8cac410a8bf3",
                   "name": "Desma Gaffney",
                   "score": "7"
                 }
@@ -99,17 +157,26 @@
         },
         {
           "players": [
-            "Graham Donlon",
-            "Desma Gaffney"
+            {
+              "playerId": "team-player/b3eda588-50e1-403e-bd4d-63b4008d8fb2",
+              "name": "Graham Donlon"
+            },
+            {
+              "playerId": "team-player/c8bcf44e-888b-47b4-8559-8cac410a8bf3",
+              "name": "Desma Gaffney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0c76ddcd-09eb-479f-aeed-294dfb685ac8",
               "players": [
                 {
+                  "playerId": "team-player/b3eda588-50e1-403e-bd4d-63b4008d8fb2",
                   "name": "Graham Donlon",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c8bcf44e-888b-47b4-8559-8cac410a8bf3",
                   "name": "Desma Gaffney",
                   "score": "6"
                 }
@@ -121,17 +188,26 @@
         },
         {
           "players": [
-            "Betty McLeod",
-            "Annette Vickers"
+            {
+              "playerId": "team-player/5f04ceaf-2c4a-4f2e-8f69-be077b95acb4",
+              "name": "Betty McLeod"
+            },
+            {
+              "playerId": "team-player/1a59688d-5440-4cae-baa1-2f0b8124b5c5",
+              "name": "Annette Vickers"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cf9231ae-1a5a-44cc-8a9f-806bd73b79eb",
               "players": [
                 {
+                  "playerId": "team-player/5f04ceaf-2c4a-4f2e-8f69-be077b95acb4",
                   "name": "Betty McLeod",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/1a59688d-5440-4cae-baa1-2f0b8124b5c5",
                   "name": "Annette Vickers",
                   "score": "7"
                 }
@@ -143,17 +219,26 @@
         },
         {
           "players": [
-            "Graham Donlon & Betty McLeod",
-            "Annette Vickers & Desma Gaffney"
+            {
+              "playerId": "team-player/d4f5f710-2cac-446d-a69f-97331d3488aa",
+              "name": "Graham Donlon & Betty McLeod"
+            },
+            {
+              "playerId": "team-player/2b53502f-8ab6-407c-a81a-de94fe773003",
+              "name": "Annette Vickers & Desma Gaffney"
+            }
           ],
           "games": [
             {
+              "gameId": "game/91017b39-e46d-4f29-b3ed-50c7584c36ff",
               "players": [
                 {
+                  "playerId": "team-player/d4f5f710-2cac-446d-a69f-97331d3488aa",
                   "name": "Graham Donlon & Betty McLeod",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2b53502f-8ab6-407c-a81a-de94fe773003",
                   "name": "Annette Vickers & Desma Gaffney",
                   "score": "5"
                 }
@@ -166,6 +251,7 @@
       ]
     },
     {
+      "competitionId": "competition/8161614c-8234-4b55-b507-5b53f8ba3985",
       "teams": [
         "WE",
         "TS"
@@ -175,17 +261,26 @@
       "matches": [
         {
           "players": [
-            "Joyce Crummey",
-            "Raewyn Shulper"
+            {
+              "playerId": "team-player/4d639d05-b117-4470-a23b-1b1cfaf8c9c4",
+              "name": "Joyce Crummey"
+            },
+            {
+              "playerId": "team-player/0b95d6f8-5c10-400f-88a7-1fbff6e3ac30",
+              "name": "Raewyn Shulper"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9e504e39-a343-4898-b4dc-418877b06543",
               "players": [
                 {
+                  "playerId": "team-player/4d639d05-b117-4470-a23b-1b1cfaf8c9c4",
                   "name": "Joyce Crummey",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0b95d6f8-5c10-400f-88a7-1fbff6e3ac30",
                   "name": "Raewyn Shulper",
                   "score": "4"
                 }
@@ -197,17 +292,26 @@
         },
         {
           "players": [
-            "Peg Smythe",
-            "Les Ogle"
+            {
+              "playerId": "team-player/5595c556-8c8d-4279-8f59-62c410d624b2",
+              "name": "Peg Smythe"
+            },
+            {
+              "playerId": "team-player/3a149f6e-d75f-448a-aa64-d3803b067d6d",
+              "name": "Les Ogle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/326dc8e1-76c4-48ce-833e-89eb40987161",
               "players": [
                 {
+                  "playerId": "team-player/5595c556-8c8d-4279-8f59-62c410d624b2",
                   "name": "Peg Smythe",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/3a149f6e-d75f-448a-aa64-d3803b067d6d",
                   "name": "Les Ogle",
                   "score": "7"
                 }
@@ -219,17 +323,26 @@
         },
         {
           "players": [
-            "Joyce Crummey",
-            "Les Ogle"
+            {
+              "playerId": "team-player/4d639d05-b117-4470-a23b-1b1cfaf8c9c4",
+              "name": "Joyce Crummey"
+            },
+            {
+              "playerId": "team-player/3a149f6e-d75f-448a-aa64-d3803b067d6d",
+              "name": "Les Ogle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/66d3b5ba-df63-4533-ae13-e5257c75d7ba",
               "players": [
                 {
+                  "playerId": "team-player/4d639d05-b117-4470-a23b-1b1cfaf8c9c4",
                   "name": "Joyce Crummey",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a149f6e-d75f-448a-aa64-d3803b067d6d",
                   "name": "Les Ogle",
                   "score": "4"
                 }
@@ -241,17 +354,26 @@
         },
         {
           "players": [
-            "Peg Smythe",
-            "Raewyn Shulper"
+            {
+              "playerId": "team-player/5595c556-8c8d-4279-8f59-62c410d624b2",
+              "name": "Peg Smythe"
+            },
+            {
+              "playerId": "team-player/0b95d6f8-5c10-400f-88a7-1fbff6e3ac30",
+              "name": "Raewyn Shulper"
+            }
           ],
           "games": [
             {
+              "gameId": "game/238778cb-69f3-4042-94f6-4ba0c351c61d",
               "players": [
                 {
+                  "playerId": "team-player/5595c556-8c8d-4279-8f59-62c410d624b2",
                   "name": "Peg Smythe",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0b95d6f8-5c10-400f-88a7-1fbff6e3ac30",
                   "name": "Raewyn Shulper",
                   "score": "6"
                 }
@@ -263,17 +385,26 @@
         },
         {
           "players": [
-            "Joyce Crummey & Peg Smythe",
-            "Raewyn Shulper & Les Ogle"
+            {
+              "playerId": "team-player/c07a9dbc-ef62-4ecb-ae8a-7ab35cab000b",
+              "name": "Joyce Crummey & Peg Smythe"
+            },
+            {
+              "playerId": "team-player/c1b27e8d-a7c4-419e-ad1c-c4c5010c209b",
+              "name": "Raewyn Shulper & Les Ogle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/176b6624-f868-4544-9c0d-a045241defee",
               "players": [
                 {
+                  "playerId": "team-player/c07a9dbc-ef62-4ecb-ae8a-7ab35cab000b",
                   "name": "Joyce Crummey & Peg Smythe",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/c1b27e8d-a7c4-419e-ad1c-c4c5010c209b",
                   "name": "Raewyn Shulper & Les Ogle",
                   "score": "7"
                 }

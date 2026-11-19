@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/a9c2467f-2628-4ac5-86c7-d294c1fb9171",
   "name": "IC SF: Bristol v Nottingham",
   "sport": "ac",
   "firstDay": "2019-09-15",
   "lastDay": "2019-09-15",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol",
       "shortName": "Bristol",
       "players": [
-        "David Goacher",
-        "David Goacher & Ed Duckworth",
-        "Ed Duckworth",
-        "Richard M Smith",
-        "Robert Wilkinson"
+        {
+          "playerId": "team-player/0b53ceeb-867e-4457-9a87-7a5646df7cb1",
+          "name": "David Goacher"
+        },
+        {
+          "playerId": "team-player/4752567b-a7fb-4fb3-9bd1-fc21413d2b0c",
+          "name": "David Goacher & Ed Duckworth"
+        },
+        {
+          "playerId": "team-player/88a81186-9f01-421c-8715-c3a3f99c0c25",
+          "name": "Ed Duckworth"
+        },
+        {
+          "playerId": "team-player/4b69d95a-ba82-41c7-81ae-9cacfa9cc796",
+          "name": "Richard M Smith"
+        },
+        {
+          "playerId": "team-player/556a36bb-d863-4593-b539-1a6d8e19e1e7",
+          "name": "Robert Wilkinson"
+        }
       ]
     },
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "E John Davis",
-        "Omied Hallam",
-        "Paddy Chapman",
-        "Paddy Chapman & Omied Hallam",
-        "Richard White"
+        {
+          "playerId": "team-player/f2e0d57b-b79d-47d5-89f0-f7b3dd4694e0",
+          "name": "E John Davis"
+        },
+        {
+          "playerId": "team-player/3d8b1662-d97e-4044-ae3e-ea006bd93215",
+          "name": "Omied Hallam"
+        },
+        {
+          "playerId": "team-player/c856127f-42b0-455b-a9e8-3f93f8af18d1",
+          "name": "Paddy Chapman"
+        },
+        {
+          "playerId": "team-player/4759d803-6457-4c96-a4ee-adb11243635d",
+          "name": "Paddy Chapman & Omied Hallam"
+        },
+        {
+          "playerId": "team-player/2523ddc2-d836-47d1-80ad-9e17148082f5",
+          "name": "Richard White"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/4333ee2b-dd7b-47ca-a0a9-305c70b9877e",
       "teams": [
         "Bristol",
         "Nottingham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Robert Wilkinson",
-            "Richard White"
+            {
+              "playerId": "team-player/556a36bb-d863-4593-b539-1a6d8e19e1e7",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/2523ddc2-d836-47d1-80ad-9e17148082f5",
+              "name": "Richard White"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c29b7053-3794-4118-801f-2c241389e61e",
               "players": [
                 {
+                  "playerId": "team-player/556a36bb-d863-4593-b539-1a6d8e19e1e7",
                   "name": "Robert Wilkinson",
                   "score": "26 TP"
                 },
                 {
+                  "playerId": "team-player/2523ddc2-d836-47d1-80ad-9e17148082f5",
                   "name": "Richard White",
                   "score": "4"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "David Goacher & Ed Duckworth",
-            "Paddy Chapman & Omied Hallam"
+            {
+              "playerId": "team-player/4752567b-a7fb-4fb3-9bd1-fc21413d2b0c",
+              "name": "David Goacher & Ed Duckworth"
+            },
+            {
+              "playerId": "team-player/4759d803-6457-4c96-a4ee-adb11243635d",
+              "name": "Paddy Chapman & Omied Hallam"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a6d5752-03b5-4408-b147-875f6f08565f",
               "players": [
                 {
+                  "playerId": "team-player/4752567b-a7fb-4fb3-9bd1-fc21413d2b0c",
                   "name": "David Goacher & Ed Duckworth",
                   "score": "12 OTP"
                 },
                 {
+                  "playerId": "team-player/4759d803-6457-4c96-a4ee-adb11243635d",
                   "name": "Paddy Chapman & Omied Hallam",
                   "score": "26"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "E John Davis"
+            {
+              "playerId": "team-player/4b69d95a-ba82-41c7-81ae-9cacfa9cc796",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/f2e0d57b-b79d-47d5-89f0-f7b3dd4694e0",
+              "name": "E John Davis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/be5873e6-8a40-48e2-bbc7-049ae1c8cb03",
               "players": [
                 {
+                  "playerId": "team-player/4b69d95a-ba82-41c7-81ae-9cacfa9cc796",
                   "name": "Richard M Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f2e0d57b-b79d-47d5-89f0-f7b3dd4694e0",
                   "name": "E John Davis",
                   "score": "7"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Robert Wilkinson",
-            "E John Davis"
+            {
+              "playerId": "team-player/556a36bb-d863-4593-b539-1a6d8e19e1e7",
+              "name": "Robert Wilkinson"
+            },
+            {
+              "playerId": "team-player/f2e0d57b-b79d-47d5-89f0-f7b3dd4694e0",
+              "name": "E John Davis"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49089b3e-2c15-49fb-ad82-514cd725668a",
               "players": [
                 {
+                  "playerId": "team-player/556a36bb-d863-4593-b539-1a6d8e19e1e7",
                   "name": "Robert Wilkinson",
                   "score": "26 TP"
                 },
                 {
+                  "playerId": "team-player/f2e0d57b-b79d-47d5-89f0-f7b3dd4694e0",
                   "name": "E John Davis",
                   "score": "9"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "David Goacher",
-            "Paddy Chapman"
+            {
+              "playerId": "team-player/0b53ceeb-867e-4457-9a87-7a5646df7cb1",
+              "name": "David Goacher"
+            },
+            {
+              "playerId": "team-player/c856127f-42b0-455b-a9e8-3f93f8af18d1",
+              "name": "Paddy Chapman"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f41e387-b3cb-4170-b33d-48fb01e0ce62",
               "players": [
                 {
+                  "playerId": "team-player/0b53ceeb-867e-4457-9a87-7a5646df7cb1",
                   "name": "David Goacher",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/c856127f-42b0-455b-a9e8-3f93f8af18d1",
                   "name": "Paddy Chapman",
                   "score": "26 TP"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Ed Duckworth",
-            "Omied Hallam"
+            {
+              "playerId": "team-player/88a81186-9f01-421c-8715-c3a3f99c0c25",
+              "name": "Ed Duckworth"
+            },
+            {
+              "playerId": "team-player/3d8b1662-d97e-4044-ae3e-ea006bd93215",
+              "name": "Omied Hallam"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9224a1cd-8e5f-4943-a82b-a41e2d1fe442",
               "players": [
                 {
+                  "playerId": "team-player/88a81186-9f01-421c-8715-c3a3f99c0c25",
                   "name": "Ed Duckworth",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/3d8b1662-d97e-4044-ae3e-ea006bd93215",
                   "name": "Omied Hallam",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Richard M Smith",
-            "Richard White"
+            {
+              "playerId": "team-player/4b69d95a-ba82-41c7-81ae-9cacfa9cc796",
+              "name": "Richard M Smith"
+            },
+            {
+              "playerId": "team-player/2523ddc2-d836-47d1-80ad-9e17148082f5",
+              "name": "Richard White"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f3f526da-bbe7-469e-8d1d-20020216b571",
               "players": [
                 {
+                  "playerId": "team-player/4b69d95a-ba82-41c7-81ae-9cacfa9cc796",
                   "name": "Richard M Smith",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/2523ddc2-d836-47d1-80ad-9e17148082f5",
                   "name": "Richard White",
                   "score": "22"
                 }

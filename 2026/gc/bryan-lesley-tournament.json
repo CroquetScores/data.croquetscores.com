@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/8190b957-24f7-41ee-9e90-6cc22ee40d1a",
   "name": "Bryan Lesley Challenge",
   "sport": "gc",
   "firstDay": "2026-03-28",
   "lastDay": "2026-03-28",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Matamata",
       "shortName": "Matamata",
       "players": [
-        "Beverley Davison & Julie Conway",
-        "Callan McGrath & Liz Allen",
-        "Leo Craig & Adrienne Craig",
-        "Neville Fursdon & Di Meyler",
-        "Ross Burling & Craig Campbell"
+        {
+          "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
+          "name": "Beverley Davison & Julie Conway"
+        },
+        {
+          "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
+          "name": "Callan McGrath & Liz Allen"
+        },
+        {
+          "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
+          "name": "Leo Craig & Adrienne Craig"
+        },
+        {
+          "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
+          "name": "Neville Fursdon & Di Meyler"
+        },
+        {
+          "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
+          "name": "Ross Burling & Craig Campbell"
+        }
       ]
     },
     {
       "name": "Morrinsville",
       "shortName": "Morrinsvil",
       "players": [
-        "Christine Wilton & Judy Blyth",
-        "Clem Apted & Gail Rowe",
-        "Grace Everest & Sheila Bosch",
-        "Joe Beattie & Trish Priscott",
-        "Pat Anderton & Pat Rowe"
+        {
+          "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
+          "name": "Christine Wilton & Judy Blyth"
+        },
+        {
+          "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
+          "name": "Clem Apted & Gail Rowe"
+        },
+        {
+          "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
+          "name": "Grace Everest & Sheila Bosch"
+        },
+        {
+          "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
+          "name": "Joe Beattie & Trish Priscott"
+        },
+        {
+          "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
+          "name": "Pat Anderton & Pat Rowe"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/00217913-6686-4b18-ba7b-e99844e56df4",
       "teams": [
         "Matamata",
         "Morrinsville"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Leo Craig & Adrienne Craig",
-            "Pat Anderton & Pat Rowe"
+            {
+              "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
+              "name": "Leo Craig & Adrienne Craig"
+            },
+            {
+              "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
+              "name": "Pat Anderton & Pat Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/214ad6c2-2df5-4334-90d9-740091115e72",
               "players": [
                 {
+                  "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
                   "name": "Leo Craig & Adrienne Craig",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
                   "name": "Pat Anderton & Pat Rowe",
                   "score": "5"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Ross Burling & Craig Campbell",
-            "Grace Everest & Sheila Bosch"
+            {
+              "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
+              "name": "Ross Burling & Craig Campbell"
+            },
+            {
+              "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
+              "name": "Grace Everest & Sheila Bosch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b36ccd96-36a8-41b5-b7b6-935d34e7a765",
               "players": [
                 {
+                  "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
                   "name": "Ross Burling & Craig Campbell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
                   "name": "Grace Everest & Sheila Bosch",
                   "score": "1"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Callan McGrath & Liz Allen",
-            "Joe Beattie & Trish Priscott"
+            {
+              "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
+              "name": "Callan McGrath & Liz Allen"
+            },
+            {
+              "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
+              "name": "Joe Beattie & Trish Priscott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/785a72d4-7f3a-49e5-8bc9-40dfa8163aad",
               "players": [
                 {
+                  "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
                   "name": "Callan McGrath & Liz Allen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
                   "name": "Joe Beattie & Trish Priscott",
                   "score": "6"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Neville Fursdon & Di Meyler",
-            "Christine Wilton & Judy Blyth"
+            {
+              "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
+              "name": "Neville Fursdon & Di Meyler"
+            },
+            {
+              "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
+              "name": "Christine Wilton & Judy Blyth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/70e27616-b8c6-4fe3-93ae-95670cdc72b4",
               "players": [
                 {
+                  "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
                   "name": "Neville Fursdon & Di Meyler",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
                   "name": "Christine Wilton & Judy Blyth",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Beverley Davison & Julie Conway",
-            "Clem Apted & Gail Rowe"
+            {
+              "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
+              "name": "Beverley Davison & Julie Conway"
+            },
+            {
+              "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
+              "name": "Clem Apted & Gail Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a04a6149-66bc-4f6d-9e9c-cebf965836c8",
               "players": [
                 {
+                  "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
                   "name": "Beverley Davison & Julie Conway",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
                   "name": "Clem Apted & Gail Rowe",
                   "score": "5"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Ross Burling & Craig Campbell",
-            "Clem Apted & Gail Rowe"
+            {
+              "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
+              "name": "Ross Burling & Craig Campbell"
+            },
+            {
+              "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
+              "name": "Clem Apted & Gail Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e6d45b6e-889e-4a68-8c3a-90006f090bf0",
               "players": [
                 {
+                  "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
                   "name": "Ross Burling & Craig Campbell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
                   "name": "Clem Apted & Gail Rowe",
                   "score": "1"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Callan McGrath & Liz Allen",
-            "Pat Anderton & Pat Rowe"
+            {
+              "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
+              "name": "Callan McGrath & Liz Allen"
+            },
+            {
+              "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
+              "name": "Pat Anderton & Pat Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/19859cb3-8f68-4e6e-8946-623b2cd96fc3",
               "players": [
                 {
+                  "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
                   "name": "Callan McGrath & Liz Allen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
                   "name": "Pat Anderton & Pat Rowe",
                   "score": "7"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Neville Fursdon & Di Meyler",
-            "Grace Everest & Sheila Bosch"
+            {
+              "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
+              "name": "Neville Fursdon & Di Meyler"
+            },
+            {
+              "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
+              "name": "Grace Everest & Sheila Bosch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b6fa6e1e-fd34-47ee-8c02-e6d743fe5102",
               "players": [
                 {
+                  "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
                   "name": "Neville Fursdon & Di Meyler",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
                   "name": "Grace Everest & Sheila Bosch",
                   "score": "5"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Beverley Davison & Julie Conway",
-            "Joe Beattie & Trish Priscott"
+            {
+              "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
+              "name": "Beverley Davison & Julie Conway"
+            },
+            {
+              "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
+              "name": "Joe Beattie & Trish Priscott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b1d76401-8235-4620-b294-3b78ac9d539c",
               "players": [
                 {
+                  "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
                   "name": "Beverley Davison & Julie Conway",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
                   "name": "Joe Beattie & Trish Priscott",
                   "score": "0"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Leo Craig & Adrienne Craig",
-            "Christine Wilton & Judy Blyth"
+            {
+              "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
+              "name": "Leo Craig & Adrienne Craig"
+            },
+            {
+              "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
+              "name": "Christine Wilton & Judy Blyth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34c6bf3b-56c1-42c2-a3e6-bc12299e17cf",
               "players": [
                 {
+                  "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
                   "name": "Leo Craig & Adrienne Craig",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
                   "name": "Christine Wilton & Judy Blyth",
                   "score": "6"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Callan McGrath & Liz Allen",
-            "Christine Wilton & Judy Blyth"
+            {
+              "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
+              "name": "Callan McGrath & Liz Allen"
+            },
+            {
+              "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
+              "name": "Christine Wilton & Judy Blyth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42faa601-a145-433b-8ca7-568a1ebad098",
               "players": [
                 {
+                  "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
                   "name": "Callan McGrath & Liz Allen",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
                   "name": "Christine Wilton & Judy Blyth",
                   "score": "4"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Neville Fursdon & Di Meyler",
-            "Clem Apted & Gail Rowe"
+            {
+              "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
+              "name": "Neville Fursdon & Di Meyler"
+            },
+            {
+              "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
+              "name": "Clem Apted & Gail Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc62643d-5a6e-4d18-a1f6-f1bc06f0d611",
               "players": [
                 {
+                  "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
                   "name": "Neville Fursdon & Di Meyler",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
                   "name": "Clem Apted & Gail Rowe",
                   "score": "6"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Beverley Davison & Julie Conway",
-            "Pat Anderton & Pat Rowe"
+            {
+              "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
+              "name": "Beverley Davison & Julie Conway"
+            },
+            {
+              "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
+              "name": "Pat Anderton & Pat Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c9f0f34e-ddfd-45b8-99dc-53b526a8746d",
               "players": [
                 {
+                  "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
                   "name": "Beverley Davison & Julie Conway",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
                   "name": "Pat Anderton & Pat Rowe",
                   "score": "5"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Leo Craig & Adrienne Craig",
-            "Grace Everest & Sheila Bosch"
+            {
+              "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
+              "name": "Leo Craig & Adrienne Craig"
+            },
+            {
+              "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
+              "name": "Grace Everest & Sheila Bosch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/55d96991-ff9e-4ffc-bdce-8a4a482695a4",
               "players": [
                 {
+                  "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
                   "name": "Leo Craig & Adrienne Craig",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
                   "name": "Grace Everest & Sheila Bosch",
                   "score": "4"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Ross Burling & Craig Campbell",
-            "Joe Beattie & Trish Priscott"
+            {
+              "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
+              "name": "Ross Burling & Craig Campbell"
+            },
+            {
+              "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
+              "name": "Joe Beattie & Trish Priscott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b1256f0-99c4-47e1-9b60-47147b1df91a",
               "players": [
                 {
+                  "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
                   "name": "Ross Burling & Craig Campbell",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
                   "name": "Joe Beattie & Trish Priscott",
                   "score": "3"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Neville Fursdon & Di Meyler",
-            "Joe Beattie & Trish Priscott"
+            {
+              "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
+              "name": "Neville Fursdon & Di Meyler"
+            },
+            {
+              "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
+              "name": "Joe Beattie & Trish Priscott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/36110dd1-7e7d-41d4-9c12-5d6b424ca25c",
               "players": [
                 {
+                  "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
                   "name": "Neville Fursdon & Di Meyler",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
                   "name": "Joe Beattie & Trish Priscott",
                   "score": "7"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "Beverley Davison & Julie Conway",
-            "Christine Wilton & Judy Blyth"
+            {
+              "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
+              "name": "Beverley Davison & Julie Conway"
+            },
+            {
+              "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
+              "name": "Christine Wilton & Judy Blyth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f4d09b4e-a813-42b6-a073-dbbb68b42924",
               "players": [
                 {
+                  "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
                   "name": "Beverley Davison & Julie Conway",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
                   "name": "Christine Wilton & Judy Blyth",
                   "score": "3"
                 }
@@ -415,17 +602,26 @@
         },
         {
           "players": [
-            "Leo Craig & Adrienne Craig",
-            "Clem Apted & Gail Rowe"
+            {
+              "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
+              "name": "Leo Craig & Adrienne Craig"
+            },
+            {
+              "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
+              "name": "Clem Apted & Gail Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f56b51e4-1085-4620-9f0c-20f1352cd622",
               "players": [
                 {
+                  "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
                   "name": "Leo Craig & Adrienne Craig",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
                   "name": "Clem Apted & Gail Rowe",
                   "score": "7"
                 }
@@ -437,17 +633,26 @@
         },
         {
           "players": [
-            "Ross Burling & Craig Campbell",
-            "Pat Anderton & Pat Rowe"
+            {
+              "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
+              "name": "Ross Burling & Craig Campbell"
+            },
+            {
+              "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
+              "name": "Pat Anderton & Pat Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd40a94d-0efa-42a3-ae55-1ba6ab8fbe5c",
               "players": [
                 {
+                  "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
                   "name": "Ross Burling & Craig Campbell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
                   "name": "Pat Anderton & Pat Rowe",
                   "score": "2"
                 }
@@ -459,17 +664,26 @@
         },
         {
           "players": [
-            "Callan McGrath & Liz Allen",
-            "Grace Everest & Sheila Bosch"
+            {
+              "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
+              "name": "Callan McGrath & Liz Allen"
+            },
+            {
+              "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
+              "name": "Grace Everest & Sheila Bosch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/135ecdd8-d1f2-4cff-bb40-29507e20279b",
               "players": [
                 {
+                  "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
                   "name": "Callan McGrath & Liz Allen",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
                   "name": "Grace Everest & Sheila Bosch",
                   "score": "7"
                 }
@@ -481,17 +695,26 @@
         },
         {
           "players": [
-            "Beverley Davison & Julie Conway",
-            "Grace Everest & Sheila Bosch"
+            {
+              "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
+              "name": "Beverley Davison & Julie Conway"
+            },
+            {
+              "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
+              "name": "Grace Everest & Sheila Bosch"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2a0bfc18-9bfb-47a4-91ba-bd47f1b8fdd9",
               "players": [
                 {
+                  "playerId": "team-player/062e61e9-b852-4ead-9790-08e664c9e184",
                   "name": "Beverley Davison & Julie Conway",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f1cadd47-0ae8-49f3-8c80-9ff73081ee27",
                   "name": "Grace Everest & Sheila Bosch",
                   "score": "2"
                 }
@@ -503,17 +726,26 @@
         },
         {
           "players": [
-            "Leo Craig & Adrienne Craig",
-            "Joe Beattie & Trish Priscott"
+            {
+              "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
+              "name": "Leo Craig & Adrienne Craig"
+            },
+            {
+              "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
+              "name": "Joe Beattie & Trish Priscott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ba8e3a3b-b69c-409a-b10c-3dabcd033fda",
               "players": [
                 {
+                  "playerId": "team-player/7801e9b0-516b-4608-9263-90db6aa032ae",
                   "name": "Leo Craig & Adrienne Craig",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3755975c-d05a-4c57-b7e3-7f8004ef3f96",
                   "name": "Joe Beattie & Trish Priscott",
                   "score": "7"
                 }
@@ -525,17 +757,26 @@
         },
         {
           "players": [
-            "Ross Burling & Craig Campbell",
-            "Christine Wilton & Judy Blyth"
+            {
+              "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
+              "name": "Ross Burling & Craig Campbell"
+            },
+            {
+              "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
+              "name": "Christine Wilton & Judy Blyth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42699f5a-7126-4df8-a4b9-b02ceee54442",
               "players": [
                 {
+                  "playerId": "team-player/9db9dc65-b7d2-4e28-92d2-1dedd8848f79",
                   "name": "Ross Burling & Craig Campbell",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/188d9919-a867-482e-9cc5-fbafaf75c363",
                   "name": "Christine Wilton & Judy Blyth",
                   "score": "5"
                 }
@@ -547,17 +788,26 @@
         },
         {
           "players": [
-            "Callan McGrath & Liz Allen",
-            "Clem Apted & Gail Rowe"
+            {
+              "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
+              "name": "Callan McGrath & Liz Allen"
+            },
+            {
+              "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
+              "name": "Clem Apted & Gail Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b444c7b-7481-46fd-97a1-1767972686ca",
               "players": [
                 {
+                  "playerId": "team-player/b7d4fb09-3853-4379-baad-49b61a3a5cd7",
                   "name": "Callan McGrath & Liz Allen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/323c8c15-2545-4720-aacc-8f892b768a99",
                   "name": "Clem Apted & Gail Rowe",
                   "score": "3"
                 }
@@ -569,17 +819,26 @@
         },
         {
           "players": [
-            "Neville Fursdon & Di Meyler",
-            "Pat Anderton & Pat Rowe"
+            {
+              "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
+              "name": "Neville Fursdon & Di Meyler"
+            },
+            {
+              "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
+              "name": "Pat Anderton & Pat Rowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b1bab499-cbc5-4d4f-8557-58217e21c79b",
               "players": [
                 {
+                  "playerId": "team-player/bcdaf5b5-71a3-4469-819f-5085e2d5570c",
                   "name": "Neville Fursdon & Di Meyler",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0533232b-7c4d-4f6c-a0a8-9bf8ad6ca114",
                   "name": "Pat Anderton & Pat Rowe",
                   "score": "4"
                 }

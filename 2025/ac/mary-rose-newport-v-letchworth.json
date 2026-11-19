@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/ac5e4b1f-2fa6-4f83-a2a3-cd68c905ad6b",
   "name": "Mary Rose Newport v Letchworth",
   "sport": "ac",
   "firstDay": "2025-06-19",
   "lastDay": "2025-06-19",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Newport",
       "shortName": "Newport",
       "players": [
-        "Alex Lake",
-        "Fran Lambert",
-        "Jerome Gasson",
-        "Mat Hardy",
-        "Mat Hardy & Fran Lambert"
+        {
+          "playerId": "team-player/8274f9bb-764b-47a0-948f-68147c862cd0",
+          "name": "Alex Lake"
+        },
+        {
+          "playerId": "team-player/e75e0615-670b-4ac0-add6-c0cccda25407",
+          "name": "Fran Lambert"
+        },
+        {
+          "playerId": "team-player/e01b0cbf-28ea-472b-9cbe-6a9d095d38c6",
+          "name": "Jerome Gasson"
+        },
+        {
+          "playerId": "team-player/6ea40129-25ba-4f18-bfe3-e97c2b5eead8",
+          "name": "Mat Hardy"
+        },
+        {
+          "playerId": "team-player/46fbff48-042d-4b21-ab41-c05296377b82",
+          "name": "Mat Hardy & Fran Lambert"
+        }
       ]
     },
     {
       "name": "Letchworth",
       "shortName": "Letchworth",
       "players": [
-        "Colin Davies",
-        "Heather Bennett",
-        "Heather Bennett & Keith Rhodes",
-        "Jeremy Scott",
-        "Keith Rhodes"
+        {
+          "playerId": "team-player/6a7a6654-5ed3-4482-ade3-0dfcf7d2c7a5",
+          "name": "Colin Davies"
+        },
+        {
+          "playerId": "team-player/f3689dd7-0ac6-404c-a077-90910d6df32a",
+          "name": "Heather Bennett"
+        },
+        {
+          "playerId": "team-player/17c08648-27eb-4625-bd28-e94f7341e0cc",
+          "name": "Heather Bennett & Keith Rhodes"
+        },
+        {
+          "playerId": "team-player/87ea26f9-fed2-45b3-b58d-ddecf5b7048d",
+          "name": "Jeremy Scott"
+        },
+        {
+          "playerId": "team-player/4c5b71b6-f425-401b-99d6-7ba94b309f66",
+          "name": "Keith Rhodes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/74c43c16-b95e-4e07-80d1-101142d3f0e7",
       "teams": [
         "Newport",
         "Letchworth"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Mat Hardy",
-            "Heather Bennett & Keith Rhodes"
+            {
+              "playerId": "team-player/6ea40129-25ba-4f18-bfe3-e97c2b5eead8",
+              "name": "Mat Hardy"
+            },
+            {
+              "playerId": "team-player/17c08648-27eb-4625-bd28-e94f7341e0cc",
+              "name": "Heather Bennett & Keith Rhodes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8fcf7bdd-8338-460b-afc7-3e789287af61",
               "players": [
                 {
+                  "playerId": "team-player/6ea40129-25ba-4f18-bfe3-e97c2b5eead8",
                   "name": "Mat Hardy",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/17c08648-27eb-4625-bd28-e94f7341e0cc",
                   "name": "Heather Bennett & Keith Rhodes",
                   "score": "26"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Alex Lake",
-            "Colin Davies"
+            {
+              "playerId": "team-player/8274f9bb-764b-47a0-948f-68147c862cd0",
+              "name": "Alex Lake"
+            },
+            {
+              "playerId": "team-player/6a7a6654-5ed3-4482-ade3-0dfcf7d2c7a5",
+              "name": "Colin Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af3795d1-e50f-4df9-9b81-47002be1e9f4",
               "players": [
                 {
+                  "playerId": "team-player/8274f9bb-764b-47a0-948f-68147c862cd0",
                   "name": "Alex Lake",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/6a7a6654-5ed3-4482-ade3-0dfcf7d2c7a5",
                   "name": "Colin Davies",
                   "score": "18"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Jerome Gasson",
-            "Jeremy Scott"
+            {
+              "playerId": "team-player/e01b0cbf-28ea-472b-9cbe-6a9d095d38c6",
+              "name": "Jerome Gasson"
+            },
+            {
+              "playerId": "team-player/87ea26f9-fed2-45b3-b58d-ddecf5b7048d",
+              "name": "Jeremy Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e393a197-1a83-4688-9aca-2986410ed7cf",
               "players": [
                 {
+                  "playerId": "team-player/e01b0cbf-28ea-472b-9cbe-6a9d095d38c6",
                   "name": "Jerome Gasson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/87ea26f9-fed2-45b3-b58d-ddecf5b7048d",
                   "name": "Jeremy Scott",
                   "score": "20"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Mat Hardy",
-            "Heather Bennett"
+            {
+              "playerId": "team-player/6ea40129-25ba-4f18-bfe3-e97c2b5eead8",
+              "name": "Mat Hardy"
+            },
+            {
+              "playerId": "team-player/f3689dd7-0ac6-404c-a077-90910d6df32a",
+              "name": "Heather Bennett"
+            }
           ],
           "games": [
             {
+              "gameId": "game/783e22d9-c23b-4915-8fc1-c5688b3988e4",
               "players": [
                 {
+                  "playerId": "team-player/6ea40129-25ba-4f18-bfe3-e97c2b5eead8",
                   "name": "Mat Hardy",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f3689dd7-0ac6-404c-a077-90910d6df32a",
                   "name": "Heather Bennett",
                   "score": "11"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Fran Lambert",
-            "Keith Rhodes"
+            {
+              "playerId": "team-player/e75e0615-670b-4ac0-add6-c0cccda25407",
+              "name": "Fran Lambert"
+            },
+            {
+              "playerId": "team-player/4c5b71b6-f425-401b-99d6-7ba94b309f66",
+              "name": "Keith Rhodes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/58027696-93fb-41e8-9260-7419867e5693",
               "players": [
                 {
+                  "playerId": "team-player/e75e0615-670b-4ac0-add6-c0cccda25407",
                   "name": "Fran Lambert",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/4c5b71b6-f425-401b-99d6-7ba94b309f66",
                   "name": "Keith Rhodes",
                   "score": "26"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Alex Lake",
-            "Jeremy Scott"
+            {
+              "playerId": "team-player/8274f9bb-764b-47a0-948f-68147c862cd0",
+              "name": "Alex Lake"
+            },
+            {
+              "playerId": "team-player/87ea26f9-fed2-45b3-b58d-ddecf5b7048d",
+              "name": "Jeremy Scott"
+            }
           ],
           "games": [
             {
+              "gameId": "game/933d2348-8f6f-46b3-8a90-596815b0505e",
               "players": [
                 {
+                  "playerId": "team-player/8274f9bb-764b-47a0-948f-68147c862cd0",
                   "name": "Alex Lake",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/87ea26f9-fed2-45b3-b58d-ddecf5b7048d",
                   "name": "Jeremy Scott",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Jerome Gasson",
-            "Colin Davies"
+            {
+              "playerId": "team-player/e01b0cbf-28ea-472b-9cbe-6a9d095d38c6",
+              "name": "Jerome Gasson"
+            },
+            {
+              "playerId": "team-player/6a7a6654-5ed3-4482-ade3-0dfcf7d2c7a5",
+              "name": "Colin Davies"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fc3912da-4857-4865-90ab-c4bb3c2a5e0e",
               "players": [
                 {
+                  "playerId": "team-player/e01b0cbf-28ea-472b-9cbe-6a9d095d38c6",
                   "name": "Jerome Gasson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/6a7a6654-5ed3-4482-ade3-0dfcf7d2c7a5",
                   "name": "Colin Davies",
                   "score": "1"
                 }

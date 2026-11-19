@@ -1,46 +1,107 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/d0b3db00-377a-4bd0-81e2-deeef124f0e7",
   "name": "CAI v SCA (Appleton trophy)",
   "sport": "ac",
   "firstDay": "2015-05-16",
   "lastDay": "2015-05-17",
   "country": "ie",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "CAI",
       "shortName": "CAI",
       "players": [
-        "Evan Newell",
-        "Evan Newell & John-Francis Martin",
-        "Frank Martin",
-        "Jane Morrison",
-        "Jane Morrison & Frank Martin",
-        "John McAuley sen",
-        "John-Francis Martin",
-        "Nathaniel Healy",
-        "Nathaniel Healy & John McAuley sen",
-        "Sylvia Briggs"
+        {
+          "playerId": "team-player/05581647-d610-4bb5-8f49-15a68e190f27",
+          "name": "Evan Newell"
+        },
+        {
+          "playerId": "team-player/4cf74a19-2c17-4953-bacc-a28c4e49979b",
+          "name": "Evan Newell & John-Francis Martin"
+        },
+        {
+          "playerId": "team-player/31c81357-dd17-40b1-9ffc-83ac2dc47192",
+          "name": "Frank Martin"
+        },
+        {
+          "playerId": "team-player/6eeebf81-75be-40f0-840f-83c44473005a",
+          "name": "Jane Morrison"
+        },
+        {
+          "playerId": "team-player/9df68e72-11e4-4ae7-86b2-0276bc25d554",
+          "name": "Jane Morrison & Frank Martin"
+        },
+        {
+          "playerId": "team-player/19927b0d-373d-418a-aa79-1ab1991dce13",
+          "name": "John McAuley sen"
+        },
+        {
+          "playerId": "team-player/d19b9e52-aca9-42f1-8dd3-3c550b71d8cd",
+          "name": "John-Francis Martin"
+        },
+        {
+          "playerId": "team-player/1aa0828a-f971-494b-ba74-b75280684f8c",
+          "name": "Nathaniel Healy"
+        },
+        {
+          "playerId": "team-player/e368e8a7-a4fb-4b50-bed4-a007082146b6",
+          "name": "Nathaniel Healy & John McAuley sen"
+        },
+        {
+          "playerId": "team-player/6ccff8cc-f293-44e8-b1b2-ce5c38778655",
+          "name": "Sylvia Briggs"
+        }
       ]
     },
     {
       "name": "SCA",
       "shortName": "SCA",
       "players": [
-        "Alan Wilson",
-        "Alan Wilson & Hamish Duguid",
-        "Campbell Morrison",
-        "Campbell Morrison & Janice Duguid",
-        "David Houston",
-        "Hamish Duguid",
-        "Janice Duguid",
-        "Robert Inder",
-        "Robert Inder & David Houston"
+        {
+          "playerId": "team-player/39fca918-d0c2-4c6b-8582-84ce89bbd17b",
+          "name": "Alan Wilson"
+        },
+        {
+          "playerId": "team-player/460d1378-eee7-4c53-9d48-46c807614d6c",
+          "name": "Alan Wilson & Hamish Duguid"
+        },
+        {
+          "playerId": "team-player/7ff4b84b-b2a0-4542-a8fb-49bec9de9b7d",
+          "name": "Campbell Morrison"
+        },
+        {
+          "playerId": "team-player/b2d48754-8a2c-49ba-a90d-2447b5caf3b4",
+          "name": "Campbell Morrison & Janice Duguid"
+        },
+        {
+          "playerId": "team-player/dd08310c-9932-4d77-b5ad-9df7446cfacd",
+          "name": "David Houston"
+        },
+        {
+          "playerId": "team-player/51b0ec06-3572-452b-9a19-cef33db2f0de",
+          "name": "Hamish Duguid"
+        },
+        {
+          "playerId": "team-player/6af1d073-4a5a-4e1f-88dc-f5f54c416e73",
+          "name": "Janice Duguid"
+        },
+        {
+          "playerId": "team-player/7439dc77-b0ee-424d-9b0e-306031223294",
+          "name": "Robert Inder"
+        },
+        {
+          "playerId": "team-player/e00e0bc8-40ce-4380-9fa4-814346b7d455",
+          "name": "Robert Inder & David Houston"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/7d0153f5-b919-4a73-b7e8-f515a419c066",
       "teams": [
         "CAI",
         "SCA"
@@ -50,17 +111,26 @@
       "matches": [
         {
           "players": [
-            "Jane Morrison & Frank Martin",
-            "Campbell Morrison & Janice Duguid"
+            {
+              "playerId": "team-player/9df68e72-11e4-4ae7-86b2-0276bc25d554",
+              "name": "Jane Morrison & Frank Martin"
+            },
+            {
+              "playerId": "team-player/b2d48754-8a2c-49ba-a90d-2447b5caf3b4",
+              "name": "Campbell Morrison & Janice Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0bd67fc4-1eff-4550-878d-de25a4eb6b0e",
               "players": [
                 {
+                  "playerId": "team-player/9df68e72-11e4-4ae7-86b2-0276bc25d554",
                   "name": "Jane Morrison & Frank Martin",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/b2d48754-8a2c-49ba-a90d-2447b5caf3b4",
                   "name": "Campbell Morrison & Janice Duguid",
                   "score": "21"
                 }
@@ -72,17 +142,26 @@
         },
         {
           "players": [
-            "Evan Newell & John-Francis Martin",
-            "Alan Wilson & Hamish Duguid"
+            {
+              "playerId": "team-player/4cf74a19-2c17-4953-bacc-a28c4e49979b",
+              "name": "Evan Newell & John-Francis Martin"
+            },
+            {
+              "playerId": "team-player/460d1378-eee7-4c53-9d48-46c807614d6c",
+              "name": "Alan Wilson & Hamish Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eab7cbd8-ac51-473d-84d0-d8127c91a2c3",
               "players": [
                 {
+                  "playerId": "team-player/4cf74a19-2c17-4953-bacc-a28c4e49979b",
                   "name": "Evan Newell & John-Francis Martin",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/460d1378-eee7-4c53-9d48-46c807614d6c",
                   "name": "Alan Wilson & Hamish Duguid",
                   "score": "8"
                 }
@@ -94,17 +173,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy & John McAuley sen",
-            "Robert Inder & David Houston"
+            {
+              "playerId": "team-player/e368e8a7-a4fb-4b50-bed4-a007082146b6",
+              "name": "Nathaniel Healy & John McAuley sen"
+            },
+            {
+              "playerId": "team-player/e00e0bc8-40ce-4380-9fa4-814346b7d455",
+              "name": "Robert Inder & David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/27db510c-f84e-4aef-87ce-c2b3c2c94004",
               "players": [
                 {
+                  "playerId": "team-player/e368e8a7-a4fb-4b50-bed4-a007082146b6",
                   "name": "Nathaniel Healy & John McAuley sen",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/e00e0bc8-40ce-4380-9fa4-814346b7d455",
                   "name": "Robert Inder & David Houston",
                   "score": "12"
                 }
@@ -116,17 +204,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/1aa0828a-f971-494b-ba74-b75280684f8c",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/39fca918-d0c2-4c6b-8582-84ce89bbd17b",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1bc375bb-4ce0-427f-ac80-b2464a62c5e5",
               "players": [
                 {
+                  "playerId": "team-player/1aa0828a-f971-494b-ba74-b75280684f8c",
                   "name": "Nathaniel Healy",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/39fca918-d0c2-4c6b-8582-84ce89bbd17b",
                   "name": "Alan Wilson",
                   "score": "1"
                 }
@@ -138,17 +235,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "Robert Inder"
+            {
+              "playerId": "team-player/05581647-d610-4bb5-8f49-15a68e190f27",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/7439dc77-b0ee-424d-9b0e-306031223294",
+              "name": "Robert Inder"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3e306aff-8c25-4d28-9593-04cb2e3227dc",
               "players": [
                 {
+                  "playerId": "team-player/05581647-d610-4bb5-8f49-15a68e190f27",
                   "name": "Evan Newell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7439dc77-b0ee-424d-9b0e-306031223294",
                   "name": "Robert Inder",
                   "score": "1"
                 }
@@ -160,17 +266,26 @@
         },
         {
           "players": [
-            "Jane Morrison",
-            "Campbell Morrison"
+            {
+              "playerId": "team-player/6eeebf81-75be-40f0-840f-83c44473005a",
+              "name": "Jane Morrison"
+            },
+            {
+              "playerId": "team-player/7ff4b84b-b2a0-4542-a8fb-49bec9de9b7d",
+              "name": "Campbell Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9a0807a8-ba92-4c59-8443-e6bbcbc982d0",
               "players": [
                 {
+                  "playerId": "team-player/6eeebf81-75be-40f0-840f-83c44473005a",
                   "name": "Jane Morrison",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7ff4b84b-b2a0-4542-a8fb-49bec9de9b7d",
                   "name": "Campbell Morrison",
                   "score": "4"
                 }
@@ -182,17 +297,26 @@
         },
         {
           "players": [
-            "Frank Martin",
-            "David Houston"
+            {
+              "playerId": "team-player/31c81357-dd17-40b1-9ffc-83ac2dc47192",
+              "name": "Frank Martin"
+            },
+            {
+              "playerId": "team-player/dd08310c-9932-4d77-b5ad-9df7446cfacd",
+              "name": "David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f8a406c-c2c0-4423-820b-0034ac9c6998",
               "players": [
                 {
+                  "playerId": "team-player/31c81357-dd17-40b1-9ffc-83ac2dc47192",
                   "name": "Frank Martin",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/dd08310c-9932-4d77-b5ad-9df7446cfacd",
                   "name": "David Houston",
                   "score": "4"
                 }
@@ -204,17 +328,26 @@
         },
         {
           "players": [
-            "John-Francis Martin",
-            "Janice Duguid"
+            {
+              "playerId": "team-player/d19b9e52-aca9-42f1-8dd3-3c550b71d8cd",
+              "name": "John-Francis Martin"
+            },
+            {
+              "playerId": "team-player/6af1d073-4a5a-4e1f-88dc-f5f54c416e73",
+              "name": "Janice Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ca57a6ce-e35f-43b4-989e-a812b60674f7",
               "players": [
                 {
+                  "playerId": "team-player/d19b9e52-aca9-42f1-8dd3-3c550b71d8cd",
                   "name": "John-Francis Martin",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/6af1d073-4a5a-4e1f-88dc-f5f54c416e73",
                   "name": "Janice Duguid",
                   "score": "16"
                 }
@@ -226,17 +359,26 @@
         },
         {
           "players": [
-            "John McAuley sen",
-            "Hamish Duguid"
+            {
+              "playerId": "team-player/19927b0d-373d-418a-aa79-1ab1991dce13",
+              "name": "John McAuley sen"
+            },
+            {
+              "playerId": "team-player/51b0ec06-3572-452b-9a19-cef33db2f0de",
+              "name": "Hamish Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bba2fff2-369f-4a7e-9dd5-32c5d3fc3cb9",
               "players": [
                 {
+                  "playerId": "team-player/19927b0d-373d-418a-aa79-1ab1991dce13",
                   "name": "John McAuley sen",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/51b0ec06-3572-452b-9a19-cef33db2f0de",
                   "name": "Hamish Duguid",
                   "score": "6"
                 }
@@ -248,17 +390,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "Robert Inder"
+            {
+              "playerId": "team-player/1aa0828a-f971-494b-ba74-b75280684f8c",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/7439dc77-b0ee-424d-9b0e-306031223294",
+              "name": "Robert Inder"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4c114a09-d01b-4a5b-b5ca-89e31df2b9dd",
               "players": [
                 {
+                  "playerId": "team-player/1aa0828a-f971-494b-ba74-b75280684f8c",
                   "name": "Nathaniel Healy",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7439dc77-b0ee-424d-9b0e-306031223294",
                   "name": "Robert Inder",
                   "score": "15"
                 }
@@ -270,17 +421,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "Campbell Morrison"
+            {
+              "playerId": "team-player/05581647-d610-4bb5-8f49-15a68e190f27",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/7ff4b84b-b2a0-4542-a8fb-49bec9de9b7d",
+              "name": "Campbell Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5b582dd1-94d5-406d-8372-5bf55aa2205e",
               "players": [
                 {
+                  "playerId": "team-player/05581647-d610-4bb5-8f49-15a68e190f27",
                   "name": "Evan Newell",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/7ff4b84b-b2a0-4542-a8fb-49bec9de9b7d",
                   "name": "Campbell Morrison",
                   "score": "26"
                 }
@@ -292,17 +452,26 @@
         },
         {
           "players": [
-            "Jane Morrison",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/6eeebf81-75be-40f0-840f-83c44473005a",
+              "name": "Jane Morrison"
+            },
+            {
+              "playerId": "team-player/39fca918-d0c2-4c6b-8582-84ce89bbd17b",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1ece6656-1714-463f-9629-cc5224ecdc8f",
               "players": [
                 {
+                  "playerId": "team-player/6eeebf81-75be-40f0-840f-83c44473005a",
                   "name": "Jane Morrison",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/39fca918-d0c2-4c6b-8582-84ce89bbd17b",
                   "name": "Alan Wilson",
                   "score": "0"
                 }
@@ -314,17 +483,26 @@
         },
         {
           "players": [
-            "John McAuley sen",
-            "David Houston"
+            {
+              "playerId": "team-player/19927b0d-373d-418a-aa79-1ab1991dce13",
+              "name": "John McAuley sen"
+            },
+            {
+              "playerId": "team-player/dd08310c-9932-4d77-b5ad-9df7446cfacd",
+              "name": "David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fece79a4-6490-4c86-9657-e3c969b00287",
               "players": [
                 {
+                  "playerId": "team-player/19927b0d-373d-418a-aa79-1ab1991dce13",
                   "name": "John McAuley sen",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/dd08310c-9932-4d77-b5ad-9df7446cfacd",
                   "name": "David Houston",
                   "score": "26"
                 }
@@ -336,17 +514,26 @@
         },
         {
           "players": [
-            "Jane Morrison & Frank Martin",
-            "Alan Wilson & Hamish Duguid"
+            {
+              "playerId": "team-player/9df68e72-11e4-4ae7-86b2-0276bc25d554",
+              "name": "Jane Morrison & Frank Martin"
+            },
+            {
+              "playerId": "team-player/460d1378-eee7-4c53-9d48-46c807614d6c",
+              "name": "Alan Wilson & Hamish Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c5de6eb7-7250-4b58-9f7d-e54c0b4dd210",
               "players": [
                 {
+                  "playerId": "team-player/9df68e72-11e4-4ae7-86b2-0276bc25d554",
                   "name": "Jane Morrison & Frank Martin",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/460d1378-eee7-4c53-9d48-46c807614d6c",
                   "name": "Alan Wilson & Hamish Duguid",
                   "score": "4"
                 }
@@ -358,17 +545,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy & John McAuley sen",
-            "Campbell Morrison & Janice Duguid"
+            {
+              "playerId": "team-player/e368e8a7-a4fb-4b50-bed4-a007082146b6",
+              "name": "Nathaniel Healy & John McAuley sen"
+            },
+            {
+              "playerId": "team-player/b2d48754-8a2c-49ba-a90d-2447b5caf3b4",
+              "name": "Campbell Morrison & Janice Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c32fc770-5747-4af5-873d-4a7860fb016d",
               "players": [
                 {
+                  "playerId": "team-player/e368e8a7-a4fb-4b50-bed4-a007082146b6",
                   "name": "Nathaniel Healy & John McAuley sen",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/b2d48754-8a2c-49ba-a90d-2447b5caf3b4",
                   "name": "Campbell Morrison & Janice Duguid",
                   "score": "26"
                 }
@@ -380,17 +576,26 @@
         },
         {
           "players": [
-            "Evan Newell & John-Francis Martin",
-            "Robert Inder & David Houston"
+            {
+              "playerId": "team-player/4cf74a19-2c17-4953-bacc-a28c4e49979b",
+              "name": "Evan Newell & John-Francis Martin"
+            },
+            {
+              "playerId": "team-player/e00e0bc8-40ce-4380-9fa4-814346b7d455",
+              "name": "Robert Inder & David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/83887f0b-135f-40b6-9551-697f796f51a6",
               "players": [
                 {
+                  "playerId": "team-player/4cf74a19-2c17-4953-bacc-a28c4e49979b",
                   "name": "Evan Newell & John-Francis Martin",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e00e0bc8-40ce-4380-9fa4-814346b7d455",
                   "name": "Robert Inder & David Houston",
                   "score": "12"
                 }
@@ -402,17 +607,26 @@
         },
         {
           "players": [
-            "Evan Newell",
-            "Alan Wilson"
+            {
+              "playerId": "team-player/05581647-d610-4bb5-8f49-15a68e190f27",
+              "name": "Evan Newell"
+            },
+            {
+              "playerId": "team-player/39fca918-d0c2-4c6b-8582-84ce89bbd17b",
+              "name": "Alan Wilson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/45bd62bf-af8f-4e4d-a52b-0f6c3af1da4e",
               "players": [
                 {
+                  "playerId": "team-player/05581647-d610-4bb5-8f49-15a68e190f27",
                   "name": "Evan Newell",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/39fca918-d0c2-4c6b-8582-84ce89bbd17b",
                   "name": "Alan Wilson",
                   "score": "0"
                 }
@@ -424,17 +638,26 @@
         },
         {
           "players": [
-            "Nathaniel Healy",
-            "Campbell Morrison"
+            {
+              "playerId": "team-player/1aa0828a-f971-494b-ba74-b75280684f8c",
+              "name": "Nathaniel Healy"
+            },
+            {
+              "playerId": "team-player/7ff4b84b-b2a0-4542-a8fb-49bec9de9b7d",
+              "name": "Campbell Morrison"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4f76bd8d-3beb-4527-a211-e9541609aa87",
               "players": [
                 {
+                  "playerId": "team-player/1aa0828a-f971-494b-ba74-b75280684f8c",
                   "name": "Nathaniel Healy",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/7ff4b84b-b2a0-4542-a8fb-49bec9de9b7d",
                   "name": "Campbell Morrison",
                   "score": "9"
                 }
@@ -446,17 +669,26 @@
         },
         {
           "players": [
-            "Jane Morrison",
-            "Robert Inder"
+            {
+              "playerId": "team-player/6eeebf81-75be-40f0-840f-83c44473005a",
+              "name": "Jane Morrison"
+            },
+            {
+              "playerId": "team-player/7439dc77-b0ee-424d-9b0e-306031223294",
+              "name": "Robert Inder"
+            }
           ],
           "games": [
             {
+              "gameId": "game/043e06c6-d2ea-4976-91e5-c87ca2558656",
               "players": [
                 {
+                  "playerId": "team-player/6eeebf81-75be-40f0-840f-83c44473005a",
                   "name": "Jane Morrison",
                   "score": "16"
                 },
                 {
+                  "playerId": "team-player/7439dc77-b0ee-424d-9b0e-306031223294",
                   "name": "Robert Inder",
                   "score": "23"
                 }
@@ -468,17 +700,26 @@
         },
         {
           "players": [
-            "Frank Martin",
-            "Hamish Duguid"
+            {
+              "playerId": "team-player/31c81357-dd17-40b1-9ffc-83ac2dc47192",
+              "name": "Frank Martin"
+            },
+            {
+              "playerId": "team-player/51b0ec06-3572-452b-9a19-cef33db2f0de",
+              "name": "Hamish Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/82cddd1a-1c6e-4c0b-b772-6d18dfbe3b6e",
               "players": [
                 {
+                  "playerId": "team-player/31c81357-dd17-40b1-9ffc-83ac2dc47192",
                   "name": "Frank Martin",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/51b0ec06-3572-452b-9a19-cef33db2f0de",
                   "name": "Hamish Duguid",
                   "score": "7"
                 }
@@ -490,17 +731,26 @@
         },
         {
           "players": [
-            "John McAuley sen",
-            "Janice Duguid"
+            {
+              "playerId": "team-player/19927b0d-373d-418a-aa79-1ab1991dce13",
+              "name": "John McAuley sen"
+            },
+            {
+              "playerId": "team-player/6af1d073-4a5a-4e1f-88dc-f5f54c416e73",
+              "name": "Janice Duguid"
+            }
           ],
           "games": [
             {
+              "gameId": "game/78988e97-73aa-4588-9792-d35f6729b150",
               "players": [
                 {
+                  "playerId": "team-player/19927b0d-373d-418a-aa79-1ab1991dce13",
                   "name": "John McAuley sen",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/6af1d073-4a5a-4e1f-88dc-f5f54c416e73",
                   "name": "Janice Duguid",
                   "score": "19"
                 }
@@ -512,17 +762,26 @@
         },
         {
           "players": [
-            "John-Francis Martin",
-            "David Houston"
+            {
+              "playerId": "team-player/d19b9e52-aca9-42f1-8dd3-3c550b71d8cd",
+              "name": "John-Francis Martin"
+            },
+            {
+              "playerId": "team-player/dd08310c-9932-4d77-b5ad-9df7446cfacd",
+              "name": "David Houston"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b8bf6804-c001-45c0-a896-e3d84ecc98f3",
               "players": [
                 {
+                  "playerId": "team-player/d19b9e52-aca9-42f1-8dd3-3c550b71d8cd",
                   "name": "John-Francis Martin",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/dd08310c-9932-4d77-b5ad-9df7446cfacd",
                   "name": "David Houston",
                   "score": "8"
                 }

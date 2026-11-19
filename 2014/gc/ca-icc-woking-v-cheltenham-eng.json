@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/43c2c252-4bda-4254-b502-04110a7cd110",
   "name": "CA ICC Woking v Cheltenham (ENG)",
   "sport": "gc",
   "firstDay": "2014-06-24",
   "lastDay": "2014-06-24",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Woking",
       "shortName": "Woking",
       "players": [
-        "Bernard Jones",
-        "Jeff Dawson",
-        "Jeff Dawson & Malcolm Bigg",
-        "Malcolm Bigg",
-        "Mike Town"
+        {
+          "playerId": "team-player/27d8c6c6-0de0-442a-81b7-356bf898e0cd",
+          "name": "Bernard Jones"
+        },
+        {
+          "playerId": "team-player/17ecb4bf-3111-4bab-a9e8-387e4f1495ec",
+          "name": "Jeff Dawson"
+        },
+        {
+          "playerId": "team-player/d92b2fd8-2ad6-4000-8981-ca8134a5b000",
+          "name": "Jeff Dawson & Malcolm Bigg"
+        },
+        {
+          "playerId": "team-player/6448203c-9ae9-4d33-bf10-a6167f84096a",
+          "name": "Malcolm Bigg"
+        },
+        {
+          "playerId": "team-player/a3869d66-97f8-4031-8895-c2a16001d7b0",
+          "name": "Mike Town"
+        }
       ]
     },
     {
       "name": "Cheltenham",
       "shortName": "Cheltenham",
       "players": [
-        "Dave Kibble",
-        "Les Bowker",
-        "Richard Thompson",
-        "Richard Thompson & Dave Kibble",
-        "Tony Forbes"
+        {
+          "playerId": "team-player/e83fe1a7-40bb-443c-a311-9c19dcd260eb",
+          "name": "Dave Kibble"
+        },
+        {
+          "playerId": "team-player/c449b776-3685-447e-84ec-7ec43a06412a",
+          "name": "Les Bowker"
+        },
+        {
+          "playerId": "team-player/eaee6396-4a70-4336-97a7-d638478c9527",
+          "name": "Richard Thompson"
+        },
+        {
+          "playerId": "team-player/fe2ffb87-d249-4952-a7ac-4b8c56d2eda2",
+          "name": "Richard Thompson & Dave Kibble"
+        },
+        {
+          "playerId": "team-player/b4b3d5e5-20d7-488e-9374-f9c5fe5861da",
+          "name": "Tony Forbes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/fab56823-3a41-4dc1-9abc-6a4c84597b70",
       "teams": [
         "Woking",
         "Cheltenham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Mike Town",
-            "Les Bowker"
+            {
+              "playerId": "team-player/a3869d66-97f8-4031-8895-c2a16001d7b0",
+              "name": "Mike Town"
+            },
+            {
+              "playerId": "team-player/c449b776-3685-447e-84ec-7ec43a06412a",
+              "name": "Les Bowker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e0e18974-318d-4bb0-804d-9326f583f547",
               "players": [
                 {
+                  "playerId": "team-player/a3869d66-97f8-4031-8895-c2a16001d7b0",
                   "name": "Mike Town",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c449b776-3685-447e-84ec-7ec43a06412a",
                   "name": "Les Bowker",
                   "score": "2"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d6ac0a4d-efbc-4be6-b9b8-398911476840",
               "players": [
                 {
+                  "playerId": "team-player/a3869d66-97f8-4031-8895-c2a16001d7b0",
                   "name": "Mike Town",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c449b776-3685-447e-84ec-7ec43a06412a",
                   "name": "Les Bowker",
                   "score": "4"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Bernard Jones",
-            "Tony Forbes"
+            {
+              "playerId": "team-player/27d8c6c6-0de0-442a-81b7-356bf898e0cd",
+              "name": "Bernard Jones"
+            },
+            {
+              "playerId": "team-player/b4b3d5e5-20d7-488e-9374-f9c5fe5861da",
+              "name": "Tony Forbes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5bbd1560-c904-4fb9-bb77-1cf4cfbe9503",
               "players": [
                 {
+                  "playerId": "team-player/27d8c6c6-0de0-442a-81b7-356bf898e0cd",
                   "name": "Bernard Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b4b3d5e5-20d7-488e-9374-f9c5fe5861da",
                   "name": "Tony Forbes",
                   "score": "6"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a98aa629-7384-41c2-a615-35cda5c44865",
               "players": [
                 {
+                  "playerId": "team-player/27d8c6c6-0de0-442a-81b7-356bf898e0cd",
                   "name": "Bernard Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b4b3d5e5-20d7-488e-9374-f9c5fe5861da",
                   "name": "Tony Forbes",
                   "score": "5"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Jeff Dawson",
-            "Richard Thompson"
+            {
+              "playerId": "team-player/17ecb4bf-3111-4bab-a9e8-387e4f1495ec",
+              "name": "Jeff Dawson"
+            },
+            {
+              "playerId": "team-player/eaee6396-4a70-4336-97a7-d638478c9527",
+              "name": "Richard Thompson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f399df46-3c4e-4d0a-b011-7757d81dd81e",
               "players": [
                 {
+                  "playerId": "team-player/17ecb4bf-3111-4bab-a9e8-387e4f1495ec",
                   "name": "Jeff Dawson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/eaee6396-4a70-4336-97a7-d638478c9527",
                   "name": "Richard Thompson",
                   "score": "3"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ae8fc9d4-c31e-4061-a49c-fbdaf7dad413",
               "players": [
                 {
+                  "playerId": "team-player/17ecb4bf-3111-4bab-a9e8-387e4f1495ec",
                   "name": "Jeff Dawson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/eaee6396-4a70-4336-97a7-d638478c9527",
                   "name": "Richard Thompson",
                   "score": "4"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "Malcolm Bigg",
-            "Dave Kibble"
+            {
+              "playerId": "team-player/6448203c-9ae9-4d33-bf10-a6167f84096a",
+              "name": "Malcolm Bigg"
+            },
+            {
+              "playerId": "team-player/e83fe1a7-40bb-443c-a311-9c19dcd260eb",
+              "name": "Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/42e9131c-546d-4ccf-b6dc-1f7379d415cb",
               "players": [
                 {
+                  "playerId": "team-player/6448203c-9ae9-4d33-bf10-a6167f84096a",
                   "name": "Malcolm Bigg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e83fe1a7-40bb-443c-a311-9c19dcd260eb",
                   "name": "Dave Kibble",
                   "score": "4"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f91b6c19-9eda-4ceb-8cde-176b8f08f5b5",
               "players": [
                 {
+                  "playerId": "team-player/6448203c-9ae9-4d33-bf10-a6167f84096a",
                   "name": "Malcolm Bigg",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/e83fe1a7-40bb-443c-a311-9c19dcd260eb",
                   "name": "Dave Kibble",
                   "score": "7"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/00be80ef-5554-42a6-bb03-b64d756a2223",
               "players": [
                 {
+                  "playerId": "team-player/6448203c-9ae9-4d33-bf10-a6167f84096a",
                   "name": "Malcolm Bigg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e83fe1a7-40bb-443c-a311-9c19dcd260eb",
                   "name": "Dave Kibble",
                   "score": "5"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Mike Town",
-            "Tony Forbes"
+            {
+              "playerId": "team-player/a3869d66-97f8-4031-8895-c2a16001d7b0",
+              "name": "Mike Town"
+            },
+            {
+              "playerId": "team-player/b4b3d5e5-20d7-488e-9374-f9c5fe5861da",
+              "name": "Tony Forbes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/20660e4d-0af8-47b9-b763-980d11ac6c4a",
               "players": [
                 {
+                  "playerId": "team-player/a3869d66-97f8-4031-8895-c2a16001d7b0",
                   "name": "Mike Town",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b4b3d5e5-20d7-488e-9374-f9c5fe5861da",
                   "name": "Tony Forbes",
                   "score": "5"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0a397dbb-d14c-47d4-a929-0abdb46e02d7",
               "players": [
                 {
+                  "playerId": "team-player/a3869d66-97f8-4031-8895-c2a16001d7b0",
                   "name": "Mike Town",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b4b3d5e5-20d7-488e-9374-f9c5fe5861da",
                   "name": "Tony Forbes",
                   "score": "7"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c4835405-1978-4f29-bbb4-d898ab6f6f7a",
               "players": [
                 {
+                  "playerId": "team-player/a3869d66-97f8-4031-8895-c2a16001d7b0",
                   "name": "Mike Town",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b4b3d5e5-20d7-488e-9374-f9c5fe5861da",
                   "name": "Tony Forbes",
                   "score": "2"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Bernard Jones",
-            "Les Bowker"
+            {
+              "playerId": "team-player/27d8c6c6-0de0-442a-81b7-356bf898e0cd",
+              "name": "Bernard Jones"
+            },
+            {
+              "playerId": "team-player/c449b776-3685-447e-84ec-7ec43a06412a",
+              "name": "Les Bowker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/da1ac309-405e-439d-ab9b-d7d7e284eb82",
               "players": [
                 {
+                  "playerId": "team-player/27d8c6c6-0de0-442a-81b7-356bf898e0cd",
                   "name": "Bernard Jones",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/c449b776-3685-447e-84ec-7ec43a06412a",
                   "name": "Les Bowker",
                   "score": "6"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f519bcb0-cd8c-41cc-ba9b-36eda0a70606",
               "players": [
                 {
+                  "playerId": "team-player/27d8c6c6-0de0-442a-81b7-356bf898e0cd",
                   "name": "Bernard Jones",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/c449b776-3685-447e-84ec-7ec43a06412a",
                   "name": "Les Bowker",
                   "score": "7"
                 }
@@ -282,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/24c630a0-1a76-43f5-afcf-c87d9c0d3cec",
               "players": [
                 {
+                  "playerId": "team-player/27d8c6c6-0de0-442a-81b7-356bf898e0cd",
                   "name": "Bernard Jones",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/c449b776-3685-447e-84ec-7ec43a06412a",
                   "name": "Les Bowker",
                   "score": "7"
                 }
@@ -299,17 +414,26 @@
         },
         {
           "players": [
-            "Jeff Dawson & Malcolm Bigg",
-            "Richard Thompson & Dave Kibble"
+            {
+              "playerId": "team-player/d92b2fd8-2ad6-4000-8981-ca8134a5b000",
+              "name": "Jeff Dawson & Malcolm Bigg"
+            },
+            {
+              "playerId": "team-player/fe2ffb87-d249-4952-a7ac-4b8c56d2eda2",
+              "name": "Richard Thompson & Dave Kibble"
+            }
           ],
           "games": [
             {
+              "gameId": "game/15b00e98-aff9-483e-a78f-a7a320a3306e",
               "players": [
                 {
+                  "playerId": "team-player/d92b2fd8-2ad6-4000-8981-ca8134a5b000",
                   "name": "Jeff Dawson & Malcolm Bigg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fe2ffb87-d249-4952-a7ac-4b8c56d2eda2",
                   "name": "Richard Thompson & Dave Kibble",
                   "score": "2"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/c6f14c7f-b3dd-4810-ae10-5ecb4f5d4804",
               "players": [
                 {
+                  "playerId": "team-player/d92b2fd8-2ad6-4000-8981-ca8134a5b000",
                   "name": "Jeff Dawson & Malcolm Bigg",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fe2ffb87-d249-4952-a7ac-4b8c56d2eda2",
                   "name": "Richard Thompson & Dave Kibble",
                   "score": "2"
                 }

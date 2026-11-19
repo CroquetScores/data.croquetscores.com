@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/7755bd73-39f8-4ff4-a69c-18f0473c0335",
   "name": "NW FED Crake v Llanfairfechan",
   "sport": "gc",
   "firstDay": "2023-06-19",
   "lastDay": "2023-06-19",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Crake Valley",
       "shortName": "Crake Vall",
       "players": [
-        "David Cornes",
-        "David Cornes - meet again",
-        "Neil Adams",
-        "Sandra Cornes",
-        "Sandra Cornes - meet again"
+        {
+          "playerId": "team-player/534db672-08cc-471a-8521-7acbe8516f64",
+          "name": "David Cornes"
+        },
+        {
+          "playerId": "team-player/32bf0431-3032-4fa3-b824-a7ffa794758e",
+          "name": "David Cornes - meet again"
+        },
+        {
+          "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
+          "name": "Neil Adams"
+        },
+        {
+          "playerId": "team-player/dda51420-ff38-41b8-8cbd-d27c4a304073",
+          "name": "Sandra Cornes"
+        },
+        {
+          "playerId": "team-player/bfef9d23-9453-4d3d-a5aa-bcf5504a903d",
+          "name": "Sandra Cornes - meet again"
+        }
       ]
     },
     {
       "name": "Llanfairfechan",
       "shortName": "Llanfairfe",
       "players": [
-        "Giles Pepperell",
-        "Giles Pepperell - meet again",
-        "Liz Jordon",
-        "Liz Jordon - meet again",
-        "Martyn Seal"
+        {
+          "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
+          "name": "Giles Pepperell"
+        },
+        {
+          "playerId": "team-player/f6fd954d-efc2-4249-9664-e90edd4be1df",
+          "name": "Giles Pepperell - meet again"
+        },
+        {
+          "playerId": "team-player/a2c26abf-600f-448e-b794-c0466c0ac81f",
+          "name": "Liz Jordon"
+        },
+        {
+          "playerId": "team-player/d62ae78c-27e2-47e3-8045-8054c99760fd",
+          "name": "Liz Jordon - meet again"
+        },
+        {
+          "playerId": "team-player/8aca512b-3633-46f4-ab5a-195990e3bbb7",
+          "name": "Martyn Seal"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/91a457bc-f75d-426a-bf44-6e2df18b0c6f",
       "teams": [
         "Crake Valley",
         "Llanfairfechan"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "David Cornes",
-            "Liz Jordon"
+            {
+              "playerId": "team-player/534db672-08cc-471a-8521-7acbe8516f64",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/a2c26abf-600f-448e-b794-c0466c0ac81f",
+              "name": "Liz Jordon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/398ee211-d0c7-45ce-bcb8-91481d347e8b",
               "players": [
                 {
+                  "playerId": "team-player/534db672-08cc-471a-8521-7acbe8516f64",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a2c26abf-600f-448e-b794-c0466c0ac81f",
                   "name": "Liz Jordon",
                   "score": "6"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Martyn Seal"
+            {
+              "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/8aca512b-3633-46f4-ab5a-195990e3bbb7",
+              "name": "Martyn Seal"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7549ac0c-b178-41eb-b1a3-80d09fc79c34",
               "players": [
                 {
+                  "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8aca512b-3633-46f4-ab5a-195990e3bbb7",
                   "name": "Martyn Seal",
                   "score": "5"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Sandra Cornes",
-            "Giles Pepperell"
+            {
+              "playerId": "team-player/dda51420-ff38-41b8-8cbd-d27c4a304073",
+              "name": "Sandra Cornes"
+            },
+            {
+              "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
+              "name": "Giles Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/60bb9aa9-a4f3-456b-9724-ac36ab849dea",
               "players": [
                 {
+                  "playerId": "team-player/dda51420-ff38-41b8-8cbd-d27c4a304073",
                   "name": "Sandra Cornes",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
                   "name": "Giles Pepperell",
                   "score": "7"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Giles Pepperell"
+            {
+              "playerId": "team-player/534db672-08cc-471a-8521-7acbe8516f64",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
+              "name": "Giles Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6233e3ce-e4ba-47fa-a135-4b105ccc9b27",
               "players": [
                 {
+                  "playerId": "team-player/534db672-08cc-471a-8521-7acbe8516f64",
                   "name": "David Cornes",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
                   "name": "Giles Pepperell",
                   "score": "7"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Liz Jordon"
+            {
+              "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/a2c26abf-600f-448e-b794-c0466c0ac81f",
+              "name": "Liz Jordon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d5cc4c5b-49b4-44dc-991a-f463d78a9104",
               "players": [
                 {
+                  "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a2c26abf-600f-448e-b794-c0466c0ac81f",
                   "name": "Liz Jordon",
                   "score": "2"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Sandra Cornes",
-            "Martyn Seal"
+            {
+              "playerId": "team-player/dda51420-ff38-41b8-8cbd-d27c4a304073",
+              "name": "Sandra Cornes"
+            },
+            {
+              "playerId": "team-player/8aca512b-3633-46f4-ab5a-195990e3bbb7",
+              "name": "Martyn Seal"
+            }
           ],
           "games": [
             {
+              "gameId": "game/665ed3d2-f74a-4bdd-8422-9dfb810f86f3",
               "players": [
                 {
+                  "playerId": "team-player/dda51420-ff38-41b8-8cbd-d27c4a304073",
                   "name": "Sandra Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8aca512b-3633-46f4-ab5a-195990e3bbb7",
                   "name": "Martyn Seal",
                   "score": "6"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Martyn Seal"
+            {
+              "playerId": "team-player/534db672-08cc-471a-8521-7acbe8516f64",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/8aca512b-3633-46f4-ab5a-195990e3bbb7",
+              "name": "Martyn Seal"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0b68a5bf-c732-4ec0-96cd-cea9d14b0770",
               "players": [
                 {
+                  "playerId": "team-player/534db672-08cc-471a-8521-7acbe8516f64",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8aca512b-3633-46f4-ab5a-195990e3bbb7",
                   "name": "Martyn Seal",
                   "score": "3"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Giles Pepperell"
+            {
+              "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
+              "name": "Giles Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/32fce6c7-eee1-4740-bae6-8a808912a399",
               "players": [
                 {
+                  "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
                   "name": "Giles Pepperell",
                   "score": "2"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Sandra Cornes",
-            "Liz Jordon"
+            {
+              "playerId": "team-player/dda51420-ff38-41b8-8cbd-d27c4a304073",
+              "name": "Sandra Cornes"
+            },
+            {
+              "playerId": "team-player/a2c26abf-600f-448e-b794-c0466c0ac81f",
+              "name": "Liz Jordon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6b8eb110-d6e5-4dca-81f3-dbfff3212713",
               "players": [
                 {
+                  "playerId": "team-player/dda51420-ff38-41b8-8cbd-d27c4a304073",
                   "name": "Sandra Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a2c26abf-600f-448e-b794-c0466c0ac81f",
                   "name": "Liz Jordon",
                   "score": "6"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "David Cornes",
-            "Liz Jordon - meet again"
+            {
+              "playerId": "team-player/534db672-08cc-471a-8521-7acbe8516f64",
+              "name": "David Cornes"
+            },
+            {
+              "playerId": "team-player/d62ae78c-27e2-47e3-8045-8054c99760fd",
+              "name": "Liz Jordon - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5a185451-08d5-4928-81df-267b98d0a18d",
               "players": [
                 {
+                  "playerId": "team-player/534db672-08cc-471a-8521-7acbe8516f64",
                   "name": "David Cornes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d62ae78c-27e2-47e3-8045-8054c99760fd",
                   "name": "Liz Jordon - meet again",
                   "score": "3"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Sandra Cornes - meet again",
-            "Giles Pepperell"
+            {
+              "playerId": "team-player/bfef9d23-9453-4d3d-a5aa-bcf5504a903d",
+              "name": "Sandra Cornes - meet again"
+            },
+            {
+              "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
+              "name": "Giles Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bf8d4c2c-c08a-4d07-ae5c-681ddd3fd782",
               "players": [
                 {
+                  "playerId": "team-player/bfef9d23-9453-4d3d-a5aa-bcf5504a903d",
                   "name": "Sandra Cornes - meet again",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
                   "name": "Giles Pepperell",
                   "score": "7"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "David Cornes - meet again",
-            "Giles Pepperell"
+            {
+              "playerId": "team-player/32bf0431-3032-4fa3-b824-a7ffa794758e",
+              "name": "David Cornes - meet again"
+            },
+            {
+              "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
+              "name": "Giles Pepperell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2496e3c9-4fc8-4971-bb37-0c848387f2bc",
               "players": [
                 {
+                  "playerId": "team-player/32bf0431-3032-4fa3-b824-a7ffa794758e",
                   "name": "David Cornes - meet again",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/3fbede38-7058-4ceb-850b-059fb31675d5",
                   "name": "Giles Pepperell",
                   "score": "7"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Liz Jordon - meet again"
+            {
+              "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/d62ae78c-27e2-47e3-8045-8054c99760fd",
+              "name": "Liz Jordon - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/995e7617-5670-4743-9a9d-51ca6ac638f5",
               "players": [
                 {
+                  "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/d62ae78c-27e2-47e3-8045-8054c99760fd",
                   "name": "Liz Jordon - meet again",
                   "score": "6"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "David Cornes - meet again",
-            "Martyn Seal"
+            {
+              "playerId": "team-player/32bf0431-3032-4fa3-b824-a7ffa794758e",
+              "name": "David Cornes - meet again"
+            },
+            {
+              "playerId": "team-player/8aca512b-3633-46f4-ab5a-195990e3bbb7",
+              "name": "Martyn Seal"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b1500287-b0d8-4925-9e27-c36504f44762",
               "players": [
                 {
+                  "playerId": "team-player/32bf0431-3032-4fa3-b824-a7ffa794758e",
                   "name": "David Cornes - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8aca512b-3633-46f4-ab5a-195990e3bbb7",
                   "name": "Martyn Seal",
                   "score": "4"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Neil Adams",
-            "Giles Pepperell - meet again"
+            {
+              "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
+              "name": "Neil Adams"
+            },
+            {
+              "playerId": "team-player/f6fd954d-efc2-4249-9664-e90edd4be1df",
+              "name": "Giles Pepperell - meet again"
+            }
           ],
           "games": [
             {
+              "gameId": "game/79790452-d6e7-49e2-9537-06d78b5f3e66",
               "players": [
                 {
+                  "playerId": "team-player/36bd76b3-c20f-407a-a33d-9a31d8aef263",
                   "name": "Neil Adams",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f6fd954d-efc2-4249-9664-e90edd4be1df",
                   "name": "Giles Pepperell - meet again",
                   "score": "5"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Sandra Cornes - meet again",
-            "Liz Jordon"
+            {
+              "playerId": "team-player/bfef9d23-9453-4d3d-a5aa-bcf5504a903d",
+              "name": "Sandra Cornes - meet again"
+            },
+            {
+              "playerId": "team-player/a2c26abf-600f-448e-b794-c0466c0ac81f",
+              "name": "Liz Jordon"
+            }
           ],
           "games": [
             {
+              "gameId": "game/962ac210-2233-4d5a-a6db-c8ab75203c03",
               "players": [
                 {
+                  "playerId": "team-player/bfef9d23-9453-4d3d-a5aa-bcf5504a903d",
                   "name": "Sandra Cornes - meet again",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/a2c26abf-600f-448e-b794-c0466c0ac81f",
                   "name": "Liz Jordon",
                   "score": "4"
                 }

@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/c9d1ae44-14ce-4166-8dc1-cb22fb12a9ec",
   "name": "SWF Parkstone Trophy Bristol \"C\" vs Bath",
   "sport": "ac",
   "firstDay": "2024-06-13",
   "lastDay": "2024-06-13",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bristol C",
       "shortName": "Bristol C",
       "players": [
-        "Bob Whiffen",
-        "Eric Soakell",
-        "Eric Soakell & Frances Ransom",
-        "Frances Ransom",
-        "Mike Salisbury"
+        {
+          "playerId": "team-player/17f876b2-9dc4-4d1a-80d9-0260976ffeb4",
+          "name": "Bob Whiffen"
+        },
+        {
+          "playerId": "team-player/7153743e-79d8-4864-9fa5-dc69f7e3a8f9",
+          "name": "Eric Soakell"
+        },
+        {
+          "playerId": "team-player/a1e06c18-b385-4cdc-9179-9ec2db3ab8c5",
+          "name": "Eric Soakell & Frances Ransom"
+        },
+        {
+          "playerId": "team-player/47c43a3e-cf6e-4999-bee7-3fed2474cc1e",
+          "name": "Frances Ransom"
+        },
+        {
+          "playerId": "team-player/e61798b0-aac0-46c3-8918-316357cede45",
+          "name": "Mike Salisbury"
+        }
       ]
     },
     {
       "name": "Bath",
       "shortName": "Bath",
       "players": [
-        "Neil Pinker",
-        "Peter Miles",
-        "Phillip de Glanville",
-        "Roger Hayes",
-        "Roger Hayes & Philip de Glanville"
+        {
+          "playerId": "team-player/56900c58-976b-4443-9639-9d1cc33a90ff",
+          "name": "Neil Pinker"
+        },
+        {
+          "playerId": "team-player/7e599f5a-4cac-41d9-984b-7bbb66248d64",
+          "name": "Peter Miles"
+        },
+        {
+          "playerId": "team-player/ad275750-a966-4cd1-a600-993e1140c5ad",
+          "name": "Phillip de Glanville"
+        },
+        {
+          "playerId": "team-player/79007e0a-ef15-4178-bd50-096bce23a8b8",
+          "name": "Roger Hayes"
+        },
+        {
+          "playerId": "team-player/e497e859-5c43-406c-818d-62e75af106fa",
+          "name": "Roger Hayes & Philip de Glanville"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/e734aba3-f6ce-4bd0-8897-ce408d50f75a",
       "teams": [
         "Bristol C",
         "Bath"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Eric Soakell & Frances Ransom",
-            "Roger Hayes & Philip de Glanville"
+            {
+              "playerId": "team-player/a1e06c18-b385-4cdc-9179-9ec2db3ab8c5",
+              "name": "Eric Soakell & Frances Ransom"
+            },
+            {
+              "playerId": "team-player/e497e859-5c43-406c-818d-62e75af106fa",
+              "name": "Roger Hayes & Philip de Glanville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2fc62abe-aa78-4411-9a29-e9d39767ace5",
               "players": [
                 {
+                  "playerId": "team-player/a1e06c18-b385-4cdc-9179-9ec2db3ab8c5",
                   "name": "Eric Soakell & Frances Ransom",
                   "score": "11"
                 },
                 {
+                  "playerId": "team-player/e497e859-5c43-406c-818d-62e75af106fa",
                   "name": "Roger Hayes & Philip de Glanville",
                   "score": "18t"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Mike Salisbury",
-            "Peter Miles"
+            {
+              "playerId": "team-player/e61798b0-aac0-46c3-8918-316357cede45",
+              "name": "Mike Salisbury"
+            },
+            {
+              "playerId": "team-player/7e599f5a-4cac-41d9-984b-7bbb66248d64",
+              "name": "Peter Miles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/660cca08-4897-43f3-9e0f-be63f73d779c",
               "players": [
                 {
+                  "playerId": "team-player/e61798b0-aac0-46c3-8918-316357cede45",
                   "name": "Mike Salisbury",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/7e599f5a-4cac-41d9-984b-7bbb66248d64",
                   "name": "Peter Miles",
                   "score": "22t"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Bob Whiffen",
-            "Neil Pinker"
+            {
+              "playerId": "team-player/17f876b2-9dc4-4d1a-80d9-0260976ffeb4",
+              "name": "Bob Whiffen"
+            },
+            {
+              "playerId": "team-player/56900c58-976b-4443-9639-9d1cc33a90ff",
+              "name": "Neil Pinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fbb0d3ec-fd08-4446-9627-37344fa8a915",
               "players": [
                 {
+                  "playerId": "team-player/17f876b2-9dc4-4d1a-80d9-0260976ffeb4",
                   "name": "Bob Whiffen",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/56900c58-976b-4443-9639-9d1cc33a90ff",
                   "name": "Neil Pinker",
                   "score": "8"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Eric Soakell",
-            "Roger Hayes"
+            {
+              "playerId": "team-player/7153743e-79d8-4864-9fa5-dc69f7e3a8f9",
+              "name": "Eric Soakell"
+            },
+            {
+              "playerId": "team-player/79007e0a-ef15-4178-bd50-096bce23a8b8",
+              "name": "Roger Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2b4bdd22-fe88-4212-8960-10e1ce253588",
               "players": [
                 {
+                  "playerId": "team-player/7153743e-79d8-4864-9fa5-dc69f7e3a8f9",
                   "name": "Eric Soakell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/79007e0a-ef15-4178-bd50-096bce23a8b8",
                   "name": "Roger Hayes",
                   "score": "8"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Bob Whiffen",
-            "Peter Miles"
+            {
+              "playerId": "team-player/17f876b2-9dc4-4d1a-80d9-0260976ffeb4",
+              "name": "Bob Whiffen"
+            },
+            {
+              "playerId": "team-player/7e599f5a-4cac-41d9-984b-7bbb66248d64",
+              "name": "Peter Miles"
+            }
           ],
           "games": [
             {
+              "gameId": "game/747b7c2a-c709-4087-9b9d-95aedc8e5a7a",
               "players": [
                 {
+                  "playerId": "team-player/17f876b2-9dc4-4d1a-80d9-0260976ffeb4",
                   "name": "Bob Whiffen",
                   "score": "14"
                 },
                 {
+                  "playerId": "team-player/7e599f5a-4cac-41d9-984b-7bbb66248d64",
                   "name": "Peter Miles",
                   "score": "26"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Mike Salisbury",
-            "Neil Pinker"
+            {
+              "playerId": "team-player/e61798b0-aac0-46c3-8918-316357cede45",
+              "name": "Mike Salisbury"
+            },
+            {
+              "playerId": "team-player/56900c58-976b-4443-9639-9d1cc33a90ff",
+              "name": "Neil Pinker"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e7b88600-60ec-43c1-bb7d-888a63d944ba",
               "players": [
                 {
+                  "playerId": "team-player/e61798b0-aac0-46c3-8918-316357cede45",
                   "name": "Mike Salisbury",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/56900c58-976b-4443-9639-9d1cc33a90ff",
                   "name": "Neil Pinker",
                   "score": "26"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Frances Ransom",
-            "Phillip de Glanville"
+            {
+              "playerId": "team-player/47c43a3e-cf6e-4999-bee7-3fed2474cc1e",
+              "name": "Frances Ransom"
+            },
+            {
+              "playerId": "team-player/ad275750-a966-4cd1-a600-993e1140c5ad",
+              "name": "Phillip de Glanville"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f0f6d54d-73ef-4533-965e-316f2971e624",
               "players": [
                 {
+                  "playerId": "team-player/47c43a3e-cf6e-4999-bee7-3fed2474cc1e",
                   "name": "Frances Ransom",
                   "score": "13"
                 },
                 {
+                  "playerId": "team-player/ad275750-a966-4cd1-a600-993e1140c5ad",
                   "name": "Phillip de Glanville",
                   "score": "18t"
                 }

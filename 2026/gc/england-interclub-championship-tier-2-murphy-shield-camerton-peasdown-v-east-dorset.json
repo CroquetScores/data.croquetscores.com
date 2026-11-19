@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/27da3997-284e-4c19-aba8-c85dff34beb3",
   "name": "England - GC Inter-Club Championship Tier 2 ( Murphy Shield) - Camerton & Peasedown v East Dorset",
   "sport": "gc",
   "firstDay": "2026-04-21",
   "lastDay": "2026-04-21",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Camerton & Peasedown",
       "shortName": "Camerton &",
       "players": [
-        "David Richards",
-        "David Richards & Mark Godfrey-James",
-        "Des Back",
-        "Mark Godfrey-James",
-        "Nigel Wulcko"
+        {
+          "playerId": "team-player/02a1b938-a3a9-4d6c-ab75-12df06435985",
+          "name": "David Richards"
+        },
+        {
+          "playerId": "team-player/545e8b00-e980-4313-bc4f-1f7906be03ab",
+          "name": "David Richards & Mark Godfrey-James"
+        },
+        {
+          "playerId": "team-player/af28a236-8666-4d3c-9428-65eaceb37c59",
+          "name": "Des Back"
+        },
+        {
+          "playerId": "team-player/cbb8b93d-dcac-43cc-979c-227ae8b7f4ad",
+          "name": "Mark Godfrey-James"
+        },
+        {
+          "playerId": "team-player/a34c5279-26a7-4b26-8a8a-b5cba0a91f21",
+          "name": "Nigel Wulcko"
+        }
       ]
     },
     {
       "name": "East Dorset",
       "shortName": "East Dorse",
       "players": [
-        "Greg Vaughn",
-        "Greg Vaughn & Mark Hamann",
-        "Mark Hamann",
-        "Michelle Leonard",
-        "Tim Hughes"
+        {
+          "playerId": "team-player/f42e6e95-7542-4a20-acb8-1e14d7421ec2",
+          "name": "Greg Vaughn"
+        },
+        {
+          "playerId": "team-player/cd1f3a90-40dd-445b-8438-91ac2312ea1d",
+          "name": "Greg Vaughn & Mark Hamann"
+        },
+        {
+          "playerId": "team-player/bc7e4659-389e-4e98-82f8-56cd829adb64",
+          "name": "Mark Hamann"
+        },
+        {
+          "playerId": "team-player/7d2258f4-e2fe-4ac5-bca5-7a774125511f",
+          "name": "Michelle Leonard"
+        },
+        {
+          "playerId": "team-player/8694eda3-2b2f-4807-bd55-f3d3246fe32d",
+          "name": "Tim Hughes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/99b661cb-56ee-4fb2-bcf3-11ca4f82e8c3",
       "teams": [
         "Camerton & Peasedown",
         "East Dorset"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "David Richards & Mark Godfrey-James",
-            "Greg Vaughn & Mark Hamann"
+            {
+              "playerId": "team-player/545e8b00-e980-4313-bc4f-1f7906be03ab",
+              "name": "David Richards & Mark Godfrey-James"
+            },
+            {
+              "playerId": "team-player/cd1f3a90-40dd-445b-8438-91ac2312ea1d",
+              "name": "Greg Vaughn & Mark Hamann"
+            }
           ],
           "games": [
             {
+              "gameId": "game/91035cbe-fe16-4ec4-a0a2-290b453dcff4",
               "players": [
                 {
+                  "playerId": "team-player/545e8b00-e980-4313-bc4f-1f7906be03ab",
                   "name": "David Richards & Mark Godfrey-James",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cd1f3a90-40dd-445b-8438-91ac2312ea1d",
                   "name": "Greg Vaughn & Mark Hamann",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/361d2a1e-9235-4253-bbeb-4a2679a5996d",
               "players": [
                 {
+                  "playerId": "team-player/545e8b00-e980-4313-bc4f-1f7906be03ab",
                   "name": "David Richards & Mark Godfrey-James",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/cd1f3a90-40dd-445b-8438-91ac2312ea1d",
                   "name": "Greg Vaughn & Mark Hamann",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Des Back",
-            "Michelle Leonard"
+            {
+              "playerId": "team-player/af28a236-8666-4d3c-9428-65eaceb37c59",
+              "name": "Des Back"
+            },
+            {
+              "playerId": "team-player/7d2258f4-e2fe-4ac5-bca5-7a774125511f",
+              "name": "Michelle Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7cabfcc4-f642-4a36-9641-a24a585616ea",
               "players": [
                 {
+                  "playerId": "team-player/af28a236-8666-4d3c-9428-65eaceb37c59",
                   "name": "Des Back",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7d2258f4-e2fe-4ac5-bca5-7a774125511f",
                   "name": "Michelle Leonard",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/612cb30d-84c9-4564-9cec-4f5149897e16",
               "players": [
                 {
+                  "playerId": "team-player/af28a236-8666-4d3c-9428-65eaceb37c59",
                   "name": "Des Back",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/7d2258f4-e2fe-4ac5-bca5-7a774125511f",
                   "name": "Michelle Leonard",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Nigel Wulcko",
-            "Tim Hughes"
+            {
+              "playerId": "team-player/a34c5279-26a7-4b26-8a8a-b5cba0a91f21",
+              "name": "Nigel Wulcko"
+            },
+            {
+              "playerId": "team-player/8694eda3-2b2f-4807-bd55-f3d3246fe32d",
+              "name": "Tim Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0e33dbc9-bcc0-4a15-a3f6-97dbcce54f65",
               "players": [
                 {
+                  "playerId": "team-player/a34c5279-26a7-4b26-8a8a-b5cba0a91f21",
                   "name": "Nigel Wulcko",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8694eda3-2b2f-4807-bd55-f3d3246fe32d",
                   "name": "Tim Hughes",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/586e7b46-28fd-4c2f-974d-1d205e69b8bf",
               "players": [
                 {
+                  "playerId": "team-player/a34c5279-26a7-4b26-8a8a-b5cba0a91f21",
                   "name": "Nigel Wulcko",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8694eda3-2b2f-4807-bd55-f3d3246fe32d",
                   "name": "Tim Hughes",
                   "score": "4"
                 }
@@ -146,12 +216,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/e789410b-3ef5-4644-b186-63023d14cbf6",
               "players": [
                 {
+                  "playerId": "team-player/a34c5279-26a7-4b26-8a8a-b5cba0a91f21",
                   "name": "Nigel Wulcko",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8694eda3-2b2f-4807-bd55-f3d3246fe32d",
                   "name": "Tim Hughes",
                   "score": "7"
                 }
@@ -163,17 +236,26 @@
         },
         {
           "players": [
-            "David Richards",
-            "Greg Vaughn"
+            {
+              "playerId": "team-player/02a1b938-a3a9-4d6c-ab75-12df06435985",
+              "name": "David Richards"
+            },
+            {
+              "playerId": "team-player/f42e6e95-7542-4a20-acb8-1e14d7421ec2",
+              "name": "Greg Vaughn"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e3b29edb-dc06-4a7a-a687-582bede20419",
               "players": [
                 {
+                  "playerId": "team-player/02a1b938-a3a9-4d6c-ab75-12df06435985",
                   "name": "David Richards",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f42e6e95-7542-4a20-acb8-1e14d7421ec2",
                   "name": "Greg Vaughn",
                   "score": "2"
                 }
@@ -182,12 +264,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/06d6f21b-5451-466b-bf7b-695ce556bfb5",
               "players": [
                 {
+                  "playerId": "team-player/02a1b938-a3a9-4d6c-ab75-12df06435985",
                   "name": "David Richards",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f42e6e95-7542-4a20-acb8-1e14d7421ec2",
                   "name": "Greg Vaughn",
                   "score": "5"
                 }
@@ -199,17 +284,26 @@
         },
         {
           "players": [
-            "Mark Godfrey-James",
-            "Mark Hamann"
+            {
+              "playerId": "team-player/cbb8b93d-dcac-43cc-979c-227ae8b7f4ad",
+              "name": "Mark Godfrey-James"
+            },
+            {
+              "playerId": "team-player/bc7e4659-389e-4e98-82f8-56cd829adb64",
+              "name": "Mark Hamann"
+            }
           ],
           "games": [
             {
+              "gameId": "game/47bcd18e-1984-48f1-87f9-2a352c6042b9",
               "players": [
                 {
+                  "playerId": "team-player/cbb8b93d-dcac-43cc-979c-227ae8b7f4ad",
                   "name": "Mark Godfrey-James",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bc7e4659-389e-4e98-82f8-56cd829adb64",
                   "name": "Mark Hamann",
                   "score": "4"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4296c99e-9162-44b5-89c1-a0d3cc5697d7",
               "players": [
                 {
+                  "playerId": "team-player/cbb8b93d-dcac-43cc-979c-227ae8b7f4ad",
                   "name": "Mark Godfrey-James",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/bc7e4659-389e-4e98-82f8-56cd829adb64",
                   "name": "Mark Hamann",
                   "score": "7"
                 }
@@ -232,12 +329,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a6b5f5ab-3e82-45fd-a2c5-99961fa04c53",
               "players": [
                 {
+                  "playerId": "team-player/cbb8b93d-dcac-43cc-979c-227ae8b7f4ad",
                   "name": "Mark Godfrey-James",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/bc7e4659-389e-4e98-82f8-56cd829adb64",
                   "name": "Mark Hamann",
                   "score": "3"
                 }
@@ -249,17 +349,26 @@
         },
         {
           "players": [
-            "Des Back",
-            "Tim Hughes"
+            {
+              "playerId": "team-player/af28a236-8666-4d3c-9428-65eaceb37c59",
+              "name": "Des Back"
+            },
+            {
+              "playerId": "team-player/8694eda3-2b2f-4807-bd55-f3d3246fe32d",
+              "name": "Tim Hughes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fedd3af3-cb38-4093-a196-d40646483f9b",
               "players": [
                 {
+                  "playerId": "team-player/af28a236-8666-4d3c-9428-65eaceb37c59",
                   "name": "Des Back",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8694eda3-2b2f-4807-bd55-f3d3246fe32d",
                   "name": "Tim Hughes",
                   "score": "7"
                 }
@@ -268,12 +377,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bd94d280-72aa-41d6-97c1-1f0b013f47ec",
               "players": [
                 {
+                  "playerId": "team-player/af28a236-8666-4d3c-9428-65eaceb37c59",
                   "name": "Des Back",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8694eda3-2b2f-4807-bd55-f3d3246fe32d",
                   "name": "Tim Hughes",
                   "score": "7"
                 }
@@ -285,17 +397,26 @@
         },
         {
           "players": [
-            "Nigel Wulcko",
-            "Michelle Leonard"
+            {
+              "playerId": "team-player/a34c5279-26a7-4b26-8a8a-b5cba0a91f21",
+              "name": "Nigel Wulcko"
+            },
+            {
+              "playerId": "team-player/7d2258f4-e2fe-4ac5-bca5-7a774125511f",
+              "name": "Michelle Leonard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a2ec2273-11d5-4d55-8fa7-6b3686f0a224",
               "players": [
                 {
+                  "playerId": "team-player/a34c5279-26a7-4b26-8a8a-b5cba0a91f21",
                   "name": "Nigel Wulcko",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/7d2258f4-e2fe-4ac5-bca5-7a774125511f",
                   "name": "Michelle Leonard",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/0ae9c8c6-9103-4cae-b6fe-63301d7da9aa",
               "players": [
                 {
+                  "playerId": "team-player/a34c5279-26a7-4b26-8a8a-b5cba0a91f21",
                   "name": "Nigel Wulcko",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7d2258f4-e2fe-4ac5-bca5-7a774125511f",
                   "name": "Michelle Leonard",
                   "score": "5"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/843156ff-03d5-40d0-95c6-780f8ac3d9cb",
               "players": [
                 {
+                  "playerId": "team-player/a34c5279-26a7-4b26-8a8a-b5cba0a91f21",
                   "name": "Nigel Wulcko",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/7d2258f4-e2fe-4ac5-bca5-7a774125511f",
                   "name": "Michelle Leonard",
                   "score": "5"
                 }

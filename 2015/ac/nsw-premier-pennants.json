@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/0db62551-632e-4e21-86a7-1a82cd529e1c",
   "name": "NSW Premier Pennants",
   "sport": "ac",
   "firstDay": "2015-07-25",
   "lastDay": "2015-07-25",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Cammeray",
       "shortName": "Cammeray",
       "players": [
-        "Alan Walsh",
-        "Alan Walsh & Ken Edwards",
-        "Ken Edwards",
-        "Mike Hughes",
-        "Peter Landrebe",
-        "Peter Landrebe & Mike Hughes"
+        {
+          "playerId": "team-player/ce1fe94d-3c28-4cdb-826c-ae28339ae75a",
+          "name": "Alan Walsh"
+        },
+        {
+          "playerId": "team-player/435eb827-6af4-418b-8d96-0202b6a43cc6",
+          "name": "Alan Walsh & Ken Edwards"
+        },
+        {
+          "playerId": "team-player/cef847ef-4d86-4fbc-9e8f-dcd7cb16d2a4",
+          "name": "Ken Edwards"
+        },
+        {
+          "playerId": "team-player/06a8d563-72b6-4097-bc15-734fe3d8fd03",
+          "name": "Mike Hughes"
+        },
+        {
+          "playerId": "team-player/b92c74a7-458f-442b-966c-e8bcc372d692",
+          "name": "Peter Landrebe"
+        },
+        {
+          "playerId": "team-player/1b029828-fd35-4df4-9a24-4ab016a0ad52",
+          "name": "Peter Landrebe & Mike Hughes"
+        }
       ]
     },
     {
       "name": "Hunter",
       "shortName": "Hunter",
       "players": [
-        "Alix Verge",
-        "Alix Verge & Pam Gentle",
-        "John Levick",
-        "John Levick & Steve Harden",
-        "Pam Gentle",
-        "Steve Harden"
+        {
+          "playerId": "team-player/cbb0d177-3279-43bf-8bf6-98c22debb31e",
+          "name": "Alix Verge"
+        },
+        {
+          "playerId": "team-player/e563cbee-0c1e-41e3-a466-51fb1cab49d7",
+          "name": "Alix Verge & Pam Gentle"
+        },
+        {
+          "playerId": "team-player/bf7a3fa6-8ea5-4d36-87ce-814b94e2baba",
+          "name": "John Levick"
+        },
+        {
+          "playerId": "team-player/fbb3c568-911b-4a09-bef3-e7418d7a8869",
+          "name": "John Levick & Steve Harden"
+        },
+        {
+          "playerId": "team-player/7fdff259-cbd8-47c7-9b13-311bc6a965e9",
+          "name": "Pam Gentle"
+        },
+        {
+          "playerId": "team-player/36754a4c-6524-4068-8512-5f6c9a7590fa",
+          "name": "Steve Harden"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/a33d7349-eafd-4c69-a278-1f941d851ed3",
       "teams": [
         "Cammeray",
         "Hunter"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Alan Walsh & Ken Edwards",
-            "John Levick & Steve Harden"
+            {
+              "playerId": "team-player/435eb827-6af4-418b-8d96-0202b6a43cc6",
+              "name": "Alan Walsh & Ken Edwards"
+            },
+            {
+              "playerId": "team-player/fbb3c568-911b-4a09-bef3-e7418d7a8869",
+              "name": "John Levick & Steve Harden"
+            }
           ],
           "games": [
             {
+              "gameId": "game/34d51816-8d6c-4c8d-8024-6f0930f21412",
               "players": [
                 {
+                  "playerId": "team-player/435eb827-6af4-418b-8d96-0202b6a43cc6",
                   "name": "Alan Walsh & Ken Edwards",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/fbb3c568-911b-4a09-bef3-e7418d7a8869",
                   "name": "John Levick & Steve Harden",
                   "score": "9"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Peter Landrebe & Mike Hughes",
-            "Alix Verge & Pam Gentle"
+            {
+              "playerId": "team-player/1b029828-fd35-4df4-9a24-4ab016a0ad52",
+              "name": "Peter Landrebe & Mike Hughes"
+            },
+            {
+              "playerId": "team-player/e563cbee-0c1e-41e3-a466-51fb1cab49d7",
+              "name": "Alix Verge & Pam Gentle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0d45319b-fc8c-4adf-adc7-38f056d484dd",
               "players": [
                 {
+                  "playerId": "team-player/1b029828-fd35-4df4-9a24-4ab016a0ad52",
                   "name": "Peter Landrebe & Mike Hughes",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/e563cbee-0c1e-41e3-a466-51fb1cab49d7",
                   "name": "Alix Verge & Pam Gentle",
                   "score": "13"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "Peter Landrebe",
-            "John Levick"
+            {
+              "playerId": "team-player/b92c74a7-458f-442b-966c-e8bcc372d692",
+              "name": "Peter Landrebe"
+            },
+            {
+              "playerId": "team-player/bf7a3fa6-8ea5-4d36-87ce-814b94e2baba",
+              "name": "John Levick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2bfba8e9-2618-4c78-a892-8e8e6757d2fe",
               "players": [
                 {
+                  "playerId": "team-player/b92c74a7-458f-442b-966c-e8bcc372d692",
                   "name": "Peter Landrebe",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/bf7a3fa6-8ea5-4d36-87ce-814b94e2baba",
                   "name": "John Levick",
                   "score": "26"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Alan Walsh",
-            "Alix Verge"
+            {
+              "playerId": "team-player/ce1fe94d-3c28-4cdb-826c-ae28339ae75a",
+              "name": "Alan Walsh"
+            },
+            {
+              "playerId": "team-player/cbb0d177-3279-43bf-8bf6-98c22debb31e",
+              "name": "Alix Verge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7a944002-dc0b-459b-ba56-58b5a826cb07",
               "players": [
                 {
+                  "playerId": "team-player/ce1fe94d-3c28-4cdb-826c-ae28339ae75a",
                   "name": "Alan Walsh",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cbb0d177-3279-43bf-8bf6-98c22debb31e",
                   "name": "Alix Verge",
                   "score": "7"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Mike Hughes",
-            "Steve Harden"
+            {
+              "playerId": "team-player/06a8d563-72b6-4097-bc15-734fe3d8fd03",
+              "name": "Mike Hughes"
+            },
+            {
+              "playerId": "team-player/36754a4c-6524-4068-8512-5f6c9a7590fa",
+              "name": "Steve Harden"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6cd8ecd0-f664-4aca-80bb-222e186b0c30",
               "players": [
                 {
+                  "playerId": "team-player/06a8d563-72b6-4097-bc15-734fe3d8fd03",
                   "name": "Mike Hughes",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/36754a4c-6524-4068-8512-5f6c9a7590fa",
                   "name": "Steve Harden",
                   "score": "16"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Ken Edwards",
-            "Pam Gentle"
+            {
+              "playerId": "team-player/cef847ef-4d86-4fbc-9e8f-dcd7cb16d2a4",
+              "name": "Ken Edwards"
+            },
+            {
+              "playerId": "team-player/7fdff259-cbd8-47c7-9b13-311bc6a965e9",
+              "name": "Pam Gentle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/22d1a6c6-ace8-4e17-8d54-407d2d8f8f4a",
               "players": [
                 {
+                  "playerId": "team-player/cef847ef-4d86-4fbc-9e8f-dcd7cb16d2a4",
                   "name": "Ken Edwards",
                   "score": "22"
                 },
                 {
+                  "playerId": "team-player/7fdff259-cbd8-47c7-9b13-311bc6a965e9",
                   "name": "Pam Gentle",
                   "score": "4"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "Alan Walsh",
-            "John Levick"
+            {
+              "playerId": "team-player/ce1fe94d-3c28-4cdb-826c-ae28339ae75a",
+              "name": "Alan Walsh"
+            },
+            {
+              "playerId": "team-player/bf7a3fa6-8ea5-4d36-87ce-814b94e2baba",
+              "name": "John Levick"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7437c1f3-da2c-4a1a-af0a-ea8ccdd5f2fe",
               "players": [
                 {
+                  "playerId": "team-player/ce1fe94d-3c28-4cdb-826c-ae28339ae75a",
                   "name": "Alan Walsh",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/bf7a3fa6-8ea5-4d36-87ce-814b94e2baba",
                   "name": "John Levick",
                   "score": "1"
                 }
@@ -197,17 +300,26 @@
         },
         {
           "players": [
-            "Ken Edwards",
-            "Steve Harden"
+            {
+              "playerId": "team-player/cef847ef-4d86-4fbc-9e8f-dcd7cb16d2a4",
+              "name": "Ken Edwards"
+            },
+            {
+              "playerId": "team-player/36754a4c-6524-4068-8512-5f6c9a7590fa",
+              "name": "Steve Harden"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5f89f7a6-93d8-44b0-a262-0752b004b3d9",
               "players": [
                 {
+                  "playerId": "team-player/cef847ef-4d86-4fbc-9e8f-dcd7cb16d2a4",
                   "name": "Ken Edwards",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/36754a4c-6524-4068-8512-5f6c9a7590fa",
                   "name": "Steve Harden",
                   "score": "26"
                 }
@@ -219,17 +331,26 @@
         },
         {
           "players": [
-            "Peter Landrebe",
-            "Alix Verge"
+            {
+              "playerId": "team-player/b92c74a7-458f-442b-966c-e8bcc372d692",
+              "name": "Peter Landrebe"
+            },
+            {
+              "playerId": "team-player/cbb0d177-3279-43bf-8bf6-98c22debb31e",
+              "name": "Alix Verge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/93a74b2d-4387-43d5-87e9-c38de3d2d606",
               "players": [
                 {
+                  "playerId": "team-player/b92c74a7-458f-442b-966c-e8bcc372d692",
                   "name": "Peter Landrebe",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/cbb0d177-3279-43bf-8bf6-98c22debb31e",
                   "name": "Alix Verge",
                   "score": "9"
                 }
@@ -241,17 +362,26 @@
         },
         {
           "players": [
-            "Mike Hughes",
-            "Pam Gentle"
+            {
+              "playerId": "team-player/06a8d563-72b6-4097-bc15-734fe3d8fd03",
+              "name": "Mike Hughes"
+            },
+            {
+              "playerId": "team-player/7fdff259-cbd8-47c7-9b13-311bc6a965e9",
+              "name": "Pam Gentle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b90ed821-2e3b-4235-ab0d-d8a72b9afeaf",
               "players": [
                 {
+                  "playerId": "team-player/06a8d563-72b6-4097-bc15-734fe3d8fd03",
                   "name": "Mike Hughes",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/7fdff259-cbd8-47c7-9b13-311bc6a965e9",
                   "name": "Pam Gentle",
                   "score": "15"
                 }

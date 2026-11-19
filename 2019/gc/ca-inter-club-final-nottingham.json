@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/80fd2417-7b54-4c69-8637-cbdd7d72763a",
   "name": "CA GC Inter-Club FINAL: Phyllis Court vs Nottingham",
   "sport": "gc",
   "firstDay": "2019-09-28",
   "lastDay": "2019-09-28",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Phyllis Court",
       "shortName": "Phyllis Co",
       "players": [
-        "Charles Von Schmieder",
-        "Charles Von Schmieder & Raouf Allim",
-        "Christopher Roberts",
-        "Ian Norris",
-        "Raouf Allim"
+        {
+          "playerId": "team-player/a54acc27-ddc0-41af-a70a-569a17d636be",
+          "name": "Charles Von Schmieder"
+        },
+        {
+          "playerId": "team-player/80aa6c9f-6b60-4adb-949a-5932fc66520a",
+          "name": "Charles Von Schmieder & Raouf Allim"
+        },
+        {
+          "playerId": "team-player/b5f83d29-138f-4858-a327-624f9479b0f0",
+          "name": "Christopher Roberts"
+        },
+        {
+          "playerId": "team-player/70b8d3cd-582f-4eaa-b5ee-8e892ce58b64",
+          "name": "Ian Norris"
+        },
+        {
+          "playerId": "team-player/bac0bb16-9db9-49ac-b811-05a3ec6f9bf7",
+          "name": "Raouf Allim"
+        }
       ]
     },
     {
       "name": "Nottingham",
       "shortName": "Nottingham",
       "players": [
-        "Euan Burridge",
-        "Ian Burridge",
-        "James Death",
-        "James Death & Ian Burridge",
-        "Richard Bilton"
+        {
+          "playerId": "team-player/cdae2edc-9ad0-4bc0-8e7a-c1b4ee470369",
+          "name": "Euan Burridge"
+        },
+        {
+          "playerId": "team-player/402a0942-6d83-4bdb-bcaa-de7775cc4513",
+          "name": "Ian Burridge"
+        },
+        {
+          "playerId": "team-player/ae5262de-8543-4fbd-b999-f6c05fc62d68",
+          "name": "James Death"
+        },
+        {
+          "playerId": "team-player/3ebfe99d-7d62-4766-a226-e080150fd46a",
+          "name": "James Death & Ian Burridge"
+        },
+        {
+          "playerId": "team-player/30b64aeb-43b8-41e9-8792-8eef691bad7f",
+          "name": "Richard Bilton"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/2339e22c-9d9c-4178-9b4b-afab5cedd0d0",
       "teams": [
         "Phyllis Court",
         "Nottingham"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Charles Von Schmieder & Raouf Allim",
-            "James Death & Ian Burridge"
+            {
+              "playerId": "team-player/80aa6c9f-6b60-4adb-949a-5932fc66520a",
+              "name": "Charles Von Schmieder & Raouf Allim"
+            },
+            {
+              "playerId": "team-player/3ebfe99d-7d62-4766-a226-e080150fd46a",
+              "name": "James Death & Ian Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e99299d8-6695-47d6-b2bc-ab3dc87aa330",
               "players": [
                 {
+                  "playerId": "team-player/80aa6c9f-6b60-4adb-949a-5932fc66520a",
                   "name": "Charles Von Schmieder & Raouf Allim",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/3ebfe99d-7d62-4766-a226-e080150fd46a",
                   "name": "James Death & Ian Burridge",
                   "score": "7"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/d8883f82-68d0-4787-8707-8776ede3053d",
               "players": [
                 {
+                  "playerId": "team-player/80aa6c9f-6b60-4adb-949a-5932fc66520a",
                   "name": "Charles Von Schmieder & Raouf Allim",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3ebfe99d-7d62-4766-a226-e080150fd46a",
                   "name": "James Death & Ian Burridge",
                   "score": "7"
                 }
@@ -77,17 +123,26 @@
         },
         {
           "players": [
-            "Ian Norris",
-            "Richard Bilton"
+            {
+              "playerId": "team-player/70b8d3cd-582f-4eaa-b5ee-8e892ce58b64",
+              "name": "Ian Norris"
+            },
+            {
+              "playerId": "team-player/30b64aeb-43b8-41e9-8792-8eef691bad7f",
+              "name": "Richard Bilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/eca61121-0a26-43c8-9ff5-a1e8d3bb6391",
               "players": [
                 {
+                  "playerId": "team-player/70b8d3cd-582f-4eaa-b5ee-8e892ce58b64",
                   "name": "Ian Norris",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/30b64aeb-43b8-41e9-8792-8eef691bad7f",
                   "name": "Richard Bilton",
                   "score": "7"
                 }
@@ -96,12 +151,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/590deafa-7f0f-440d-becf-3bbff2b28b17",
               "players": [
                 {
+                  "playerId": "team-player/70b8d3cd-582f-4eaa-b5ee-8e892ce58b64",
                   "name": "Ian Norris",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/30b64aeb-43b8-41e9-8792-8eef691bad7f",
                   "name": "Richard Bilton",
                   "score": "7"
                 }
@@ -113,17 +171,26 @@
         },
         {
           "players": [
-            "Christopher Roberts",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/b5f83d29-138f-4858-a327-624f9479b0f0",
+              "name": "Christopher Roberts"
+            },
+            {
+              "playerId": "team-player/cdae2edc-9ad0-4bc0-8e7a-c1b4ee470369",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/dd322090-8884-4add-90dc-d4dde4237cd3",
               "players": [
                 {
+                  "playerId": "team-player/b5f83d29-138f-4858-a327-624f9479b0f0",
                   "name": "Christopher Roberts",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cdae2edc-9ad0-4bc0-8e7a-c1b4ee470369",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -132,12 +199,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9d6a300f-5b58-485d-8747-54483e649107",
               "players": [
                 {
+                  "playerId": "team-player/b5f83d29-138f-4858-a327-624f9479b0f0",
                   "name": "Christopher Roberts",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cdae2edc-9ad0-4bc0-8e7a-c1b4ee470369",
                   "name": "Euan Burridge",
                   "score": "7"
                 }
@@ -149,17 +219,26 @@
         },
         {
           "players": [
-            "Ian Norris",
-            "Euan Burridge"
+            {
+              "playerId": "team-player/70b8d3cd-582f-4eaa-b5ee-8e892ce58b64",
+              "name": "Ian Norris"
+            },
+            {
+              "playerId": "team-player/cdae2edc-9ad0-4bc0-8e7a-c1b4ee470369",
+              "name": "Euan Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/47cf50e9-26fc-4315-97e7-50fd2502bd88",
               "players": [
                 {
+                  "playerId": "team-player/70b8d3cd-582f-4eaa-b5ee-8e892ce58b64",
                   "name": "Ian Norris",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cdae2edc-9ad0-4bc0-8e7a-c1b4ee470369",
                   "name": "Euan Burridge",
                   "score": "4"
                 }
@@ -168,12 +247,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f8d10cf1-3275-423d-93c1-858b2304b349",
               "players": [
                 {
+                  "playerId": "team-player/70b8d3cd-582f-4eaa-b5ee-8e892ce58b64",
                   "name": "Ian Norris",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cdae2edc-9ad0-4bc0-8e7a-c1b4ee470369",
                   "name": "Euan Burridge",
                   "score": "6"
                 }
@@ -185,17 +267,26 @@
         },
         {
           "players": [
-            "Raouf Allim",
-            "Ian Burridge"
+            {
+              "playerId": "team-player/bac0bb16-9db9-49ac-b811-05a3ec6f9bf7",
+              "name": "Raouf Allim"
+            },
+            {
+              "playerId": "team-player/402a0942-6d83-4bdb-bcaa-de7775cc4513",
+              "name": "Ian Burridge"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1ce990d2-dc4b-42f8-a575-443e254b71e9",
               "players": [
                 {
+                  "playerId": "team-player/bac0bb16-9db9-49ac-b811-05a3ec6f9bf7",
                   "name": "Raouf Allim",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/402a0942-6d83-4bdb-bcaa-de7775cc4513",
                   "name": "Ian Burridge",
                   "score": "7"
                 }
@@ -204,12 +295,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2a9c25d7-23ee-44d8-8e7c-ef3458cbf895",
               "players": [
                 {
+                  "playerId": "team-player/bac0bb16-9db9-49ac-b811-05a3ec6f9bf7",
                   "name": "Raouf Allim",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/402a0942-6d83-4bdb-bcaa-de7775cc4513",
                   "name": "Ian Burridge",
                   "score": "6"
                 }
@@ -218,12 +312,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fe58ddda-1b37-4be2-bd32-634753af69ac",
               "players": [
                 {
+                  "playerId": "team-player/bac0bb16-9db9-49ac-b811-05a3ec6f9bf7",
                   "name": "Raouf Allim",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/402a0942-6d83-4bdb-bcaa-de7775cc4513",
                   "name": "Ian Burridge",
                   "score": "7"
                 }
@@ -235,17 +332,26 @@
         },
         {
           "players": [
-            "Christopher Roberts",
-            "Richard Bilton"
+            {
+              "playerId": "team-player/b5f83d29-138f-4858-a327-624f9479b0f0",
+              "name": "Christopher Roberts"
+            },
+            {
+              "playerId": "team-player/30b64aeb-43b8-41e9-8792-8eef691bad7f",
+              "name": "Richard Bilton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f50c2e66-a65e-4289-9042-c4ceb90ba44c",
               "players": [
                 {
+                  "playerId": "team-player/b5f83d29-138f-4858-a327-624f9479b0f0",
                   "name": "Christopher Roberts",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/30b64aeb-43b8-41e9-8792-8eef691bad7f",
                   "name": "Richard Bilton",
                   "score": "7"
                 }
@@ -254,12 +360,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/bbf10b25-8ebe-4144-bace-83a83da9ad37",
               "players": [
                 {
+                  "playerId": "team-player/b5f83d29-138f-4858-a327-624f9479b0f0",
                   "name": "Christopher Roberts",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/30b64aeb-43b8-41e9-8792-8eef691bad7f",
                   "name": "Richard Bilton",
                   "score": "7"
                 }
@@ -271,17 +380,26 @@
         },
         {
           "players": [
-            "Charles Von Schmieder",
-            "James Death"
+            {
+              "playerId": "team-player/a54acc27-ddc0-41af-a70a-569a17d636be",
+              "name": "Charles Von Schmieder"
+            },
+            {
+              "playerId": "team-player/ae5262de-8543-4fbd-b999-f6c05fc62d68",
+              "name": "James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2e8219a2-a450-4b6a-94e0-465b67753735",
               "players": [
                 {
+                  "playerId": "team-player/a54acc27-ddc0-41af-a70a-569a17d636be",
                   "name": "Charles Von Schmieder",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/ae5262de-8543-4fbd-b999-f6c05fc62d68",
                   "name": "James Death",
                   "score": "4"
                 }
@@ -290,12 +408,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9cf8ea45-ffcc-4081-b325-ed6bae71f714",
               "players": [
                 {
+                  "playerId": "team-player/a54acc27-ddc0-41af-a70a-569a17d636be",
                   "name": "Charles Von Schmieder",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ae5262de-8543-4fbd-b999-f6c05fc62d68",
                   "name": "James Death",
                   "score": "7"
                 }
@@ -304,12 +425,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cc2af1f8-5414-4c2b-8969-d724b61b5bb7",
               "players": [
                 {
+                  "playerId": "team-player/a54acc27-ddc0-41af-a70a-569a17d636be",
                   "name": "Charles Von Schmieder",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/ae5262de-8543-4fbd-b999-f6c05fc62d68",
                   "name": "James Death",
                   "score": "7"
                 }

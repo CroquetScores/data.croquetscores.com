@@ -1,42 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/3be6ab1c-71e9-4edf-89e0-ce290f5e8bb0",
   "name": "SWCF Level Glamorgan v Weston s Mare",
   "sport": "gc",
   "firstDay": "2022-07-03",
   "lastDay": "2022-07-03",
   "country": "wales",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Glamorgan",
       "shortName": "Glamorgan",
       "players": [
-        "Evans & Beach",
-        "James Beach",
-        "John Evans",
-        "Kevin Ham",
-        "Robert Upton",
-        "Upton & Ham"
+        {
+          "playerId": "team-player/f8c9306d-a5c8-497a-929a-f5f50e24ec2b",
+          "name": "Evans & Beach"
+        },
+        {
+          "playerId": "team-player/af940c8a-23b1-45f0-bb43-18015759212d",
+          "name": "James Beach"
+        },
+        {
+          "playerId": "team-player/881840b8-e406-4922-b5d9-6b27d4df07b0",
+          "name": "John Evans"
+        },
+        {
+          "playerId": "team-player/3b2ffcb8-e42f-4318-92ef-eeef8a502e01",
+          "name": "Kevin Ham"
+        },
+        {
+          "playerId": "team-player/0c3cbbeb-b876-4f5a-86c7-d609e64e2979",
+          "name": "Robert Upton"
+        },
+        {
+          "playerId": "team-player/31806f6c-c16d-4e29-b0be-547f933205a3",
+          "name": "Upton & Ham"
+        }
       ]
     },
     {
       "name": "Weston Super Mare",
       "shortName": "Weston Sup",
       "players": [
-        "Binning & D Norfolk",
-        "Douglas Norfolk",
-        "Gary Searle",
-        "Gerald Williams",
-        "Gordon Taylor",
-        "Lance Binning",
-        "Susan Norfolk",
-        "Taylor &S Norfolk",
-        "Williams &Taylor"
+        {
+          "playerId": "team-player/9a62308e-e9c3-4056-b8f5-7877216c3ca7",
+          "name": "Binning & D Norfolk"
+        },
+        {
+          "playerId": "team-player/666acb28-1a0a-474b-a37d-a51c80a4c48d",
+          "name": "Douglas Norfolk"
+        },
+        {
+          "playerId": "team-player/0585aabd-d1a2-449e-be93-ac5bbd7d362a",
+          "name": "Gary Searle"
+        },
+        {
+          "playerId": "team-player/4dd9d620-6c75-4657-9f32-49ac103ecaed",
+          "name": "Gerald Williams"
+        },
+        {
+          "playerId": "team-player/cb522ee0-d751-4bd9-b47b-e59ab5aa9af0",
+          "name": "Gordon Taylor"
+        },
+        {
+          "playerId": "team-player/716a49d7-e32c-47c2-9112-c16b03677188",
+          "name": "Lance Binning"
+        },
+        {
+          "playerId": "team-player/5c26d259-d096-44d2-8018-3936e27938f4",
+          "name": "Susan Norfolk"
+        },
+        {
+          "playerId": "team-player/4ec89eb8-bbdf-4d9e-a062-8cbe36a9bae5",
+          "name": "Taylor &S Norfolk"
+        },
+        {
+          "playerId": "team-player/b87a90ef-aab8-4aa8-b8d1-22cb700bbbd8",
+          "name": "Williams &Taylor"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/20fc9e52-db63-407f-984f-da1c26807ed4",
       "teams": [
         "Glamorgan",
         "Weston Super Mare"
@@ -46,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Upton & Ham",
-            "Binning & D Norfolk"
+            {
+              "playerId": "team-player/31806f6c-c16d-4e29-b0be-547f933205a3",
+              "name": "Upton & Ham"
+            },
+            {
+              "playerId": "team-player/9a62308e-e9c3-4056-b8f5-7877216c3ca7",
+              "name": "Binning & D Norfolk"
+            }
           ],
           "games": [
             {
+              "gameId": "game/18636426-a707-48ec-b325-f3ef1a17bed5",
               "players": [
                 {
+                  "playerId": "team-player/31806f6c-c16d-4e29-b0be-547f933205a3",
                   "name": "Upton & Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/9a62308e-e9c3-4056-b8f5-7877216c3ca7",
                   "name": "Binning & D Norfolk",
                   "score": "6"
                 }
@@ -68,17 +126,26 @@
         },
         {
           "players": [
-            "Evans & Beach",
-            "Williams &Taylor"
+            {
+              "playerId": "team-player/f8c9306d-a5c8-497a-929a-f5f50e24ec2b",
+              "name": "Evans & Beach"
+            },
+            {
+              "playerId": "team-player/b87a90ef-aab8-4aa8-b8d1-22cb700bbbd8",
+              "name": "Williams &Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/69063379-deee-4e86-b806-b91047faea6b",
               "players": [
                 {
+                  "playerId": "team-player/f8c9306d-a5c8-497a-929a-f5f50e24ec2b",
                   "name": "Evans & Beach",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b87a90ef-aab8-4aa8-b8d1-22cb700bbbd8",
                   "name": "Williams &Taylor",
                   "score": "3"
                 }
@@ -90,17 +157,26 @@
         },
         {
           "players": [
-            "Upton & Ham",
-            "Taylor &S Norfolk"
+            {
+              "playerId": "team-player/31806f6c-c16d-4e29-b0be-547f933205a3",
+              "name": "Upton & Ham"
+            },
+            {
+              "playerId": "team-player/4ec89eb8-bbdf-4d9e-a062-8cbe36a9bae5",
+              "name": "Taylor &S Norfolk"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1e6f416d-90ed-46ff-8934-d4282b586c48",
               "players": [
                 {
+                  "playerId": "team-player/31806f6c-c16d-4e29-b0be-547f933205a3",
                   "name": "Upton & Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4ec89eb8-bbdf-4d9e-a062-8cbe36a9bae5",
                   "name": "Taylor &S Norfolk",
                   "score": "6"
                 }
@@ -112,17 +188,26 @@
         },
         {
           "players": [
-            "Evans & Beach",
-            "Binning & D Norfolk"
+            {
+              "playerId": "team-player/f8c9306d-a5c8-497a-929a-f5f50e24ec2b",
+              "name": "Evans & Beach"
+            },
+            {
+              "playerId": "team-player/9a62308e-e9c3-4056-b8f5-7877216c3ca7",
+              "name": "Binning & D Norfolk"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9e186d4e-44f8-4196-827a-ef653222d931",
               "players": [
                 {
+                  "playerId": "team-player/f8c9306d-a5c8-497a-929a-f5f50e24ec2b",
                   "name": "Evans & Beach",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/9a62308e-e9c3-4056-b8f5-7877216c3ca7",
                   "name": "Binning & D Norfolk",
                   "score": "7"
                 }
@@ -134,17 +219,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Gary Searle"
+            {
+              "playerId": "team-player/881840b8-e406-4922-b5d9-6b27d4df07b0",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/0585aabd-d1a2-449e-be93-ac5bbd7d362a",
+              "name": "Gary Searle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/09bd7f94-8c34-4ea1-b18f-088945884895",
               "players": [
                 {
+                  "playerId": "team-player/881840b8-e406-4922-b5d9-6b27d4df07b0",
                   "name": "John Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0585aabd-d1a2-449e-be93-ac5bbd7d362a",
                   "name": "Gary Searle",
                   "score": "6"
                 }
@@ -156,17 +250,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Gordon Taylor"
+            {
+              "playerId": "team-player/0c3cbbeb-b876-4f5a-86c7-d609e64e2979",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/cb522ee0-d751-4bd9-b47b-e59ab5aa9af0",
+              "name": "Gordon Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/89b79951-cb1e-4f4b-a536-48213d586e34",
               "players": [
                 {
+                  "playerId": "team-player/0c3cbbeb-b876-4f5a-86c7-d609e64e2979",
                   "name": "Robert Upton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/cb522ee0-d751-4bd9-b47b-e59ab5aa9af0",
                   "name": "Gordon Taylor",
                   "score": "3"
                 }
@@ -178,17 +281,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Lance Binning"
+            {
+              "playerId": "team-player/3b2ffcb8-e42f-4318-92ef-eeef8a502e01",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/716a49d7-e32c-47c2-9112-c16b03677188",
+              "name": "Lance Binning"
+            }
           ],
           "games": [
             {
+              "gameId": "game/df70bd38-0a5c-4cd7-8858-0e56edd2bb2a",
               "players": [
                 {
+                  "playerId": "team-player/3b2ffcb8-e42f-4318-92ef-eeef8a502e01",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/716a49d7-e32c-47c2-9112-c16b03677188",
                   "name": "Lance Binning",
                   "score": "5"
                 }
@@ -200,17 +312,26 @@
         },
         {
           "players": [
-            "James Beach",
-            "Gerald Williams"
+            {
+              "playerId": "team-player/af940c8a-23b1-45f0-bb43-18015759212d",
+              "name": "James Beach"
+            },
+            {
+              "playerId": "team-player/4dd9d620-6c75-4657-9f32-49ac103ecaed",
+              "name": "Gerald Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c4c750dc-44b0-48e5-a6f4-1fd927531c15",
               "players": [
                 {
+                  "playerId": "team-player/af940c8a-23b1-45f0-bb43-18015759212d",
                   "name": "James Beach",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4dd9d620-6c75-4657-9f32-49ac103ecaed",
                   "name": "Gerald Williams",
                   "score": "4"
                 }
@@ -222,17 +343,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Douglas Norfolk"
+            {
+              "playerId": "team-player/881840b8-e406-4922-b5d9-6b27d4df07b0",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/666acb28-1a0a-474b-a37d-a51c80a4c48d",
+              "name": "Douglas Norfolk"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a01ece5f-0001-4088-a724-6c4e88bb2b5d",
               "players": [
                 {
+                  "playerId": "team-player/881840b8-e406-4922-b5d9-6b27d4df07b0",
                   "name": "John Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/666acb28-1a0a-474b-a37d-a51c80a4c48d",
                   "name": "Douglas Norfolk",
                   "score": "0"
                 }
@@ -244,17 +374,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Susan Norfolk"
+            {
+              "playerId": "team-player/0c3cbbeb-b876-4f5a-86c7-d609e64e2979",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/5c26d259-d096-44d2-8018-3936e27938f4",
+              "name": "Susan Norfolk"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9da2229e-bdcb-4d4d-ada3-a0a2b5ad0ed5",
               "players": [
                 {
+                  "playerId": "team-player/0c3cbbeb-b876-4f5a-86c7-d609e64e2979",
                   "name": "Robert Upton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/5c26d259-d096-44d2-8018-3936e27938f4",
                   "name": "Susan Norfolk",
                   "score": "1"
                 }
@@ -266,17 +405,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Douglas Norfolk"
+            {
+              "playerId": "team-player/3b2ffcb8-e42f-4318-92ef-eeef8a502e01",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/666acb28-1a0a-474b-a37d-a51c80a4c48d",
+              "name": "Douglas Norfolk"
+            }
           ],
           "games": [
             {
+              "gameId": "game/047deaaa-b3ce-4535-a9ff-911da4a57b46",
               "players": [
                 {
+                  "playerId": "team-player/3b2ffcb8-e42f-4318-92ef-eeef8a502e01",
                   "name": "Kevin Ham",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/666acb28-1a0a-474b-a37d-a51c80a4c48d",
                   "name": "Douglas Norfolk",
                   "score": "0"
                 }
@@ -288,17 +436,26 @@
         },
         {
           "players": [
-            "James Beach",
-            "Gary Searle"
+            {
+              "playerId": "team-player/af940c8a-23b1-45f0-bb43-18015759212d",
+              "name": "James Beach"
+            },
+            {
+              "playerId": "team-player/0585aabd-d1a2-449e-be93-ac5bbd7d362a",
+              "name": "Gary Searle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a4b35880-893f-46b2-b30a-f171bf71c261",
               "players": [
                 {
+                  "playerId": "team-player/af940c8a-23b1-45f0-bb43-18015759212d",
                   "name": "James Beach",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0585aabd-d1a2-449e-be93-ac5bbd7d362a",
                   "name": "Gary Searle",
                   "score": "7"
                 }
@@ -310,17 +467,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Gerald Williams"
+            {
+              "playerId": "team-player/881840b8-e406-4922-b5d9-6b27d4df07b0",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/4dd9d620-6c75-4657-9f32-49ac103ecaed",
+              "name": "Gerald Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/49c973e9-37eb-44a0-96bd-fc7684f58089",
               "players": [
                 {
+                  "playerId": "team-player/881840b8-e406-4922-b5d9-6b27d4df07b0",
                   "name": "John Evans",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4dd9d620-6c75-4657-9f32-49ac103ecaed",
                   "name": "Gerald Williams",
                   "score": "2"
                 }
@@ -332,17 +498,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Gary Searle"
+            {
+              "playerId": "team-player/3b2ffcb8-e42f-4318-92ef-eeef8a502e01",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/0585aabd-d1a2-449e-be93-ac5bbd7d362a",
+              "name": "Gary Searle"
+            }
           ],
           "games": [
             {
+              "gameId": "game/669dee11-e60b-4656-86ab-3e98d3efc3a2",
               "players": [
                 {
+                  "playerId": "team-player/3b2ffcb8-e42f-4318-92ef-eeef8a502e01",
                   "name": "Kevin Ham",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/0585aabd-d1a2-449e-be93-ac5bbd7d362a",
                   "name": "Gary Searle",
                   "score": "7"
                 }
@@ -354,17 +529,26 @@
         },
         {
           "players": [
-            "James Beach",
-            "Gordon Taylor"
+            {
+              "playerId": "team-player/af940c8a-23b1-45f0-bb43-18015759212d",
+              "name": "James Beach"
+            },
+            {
+              "playerId": "team-player/cb522ee0-d751-4bd9-b47b-e59ab5aa9af0",
+              "name": "Gordon Taylor"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2cf77a32-503a-42bd-844b-83d8c02bc7dd",
               "players": [
                 {
+                  "playerId": "team-player/af940c8a-23b1-45f0-bb43-18015759212d",
                   "name": "James Beach",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/cb522ee0-d751-4bd9-b47b-e59ab5aa9af0",
                   "name": "Gordon Taylor",
                   "score": "4"
                 }
@@ -376,17 +560,26 @@
         },
         {
           "players": [
-            "John Evans",
-            "Lance Binning"
+            {
+              "playerId": "team-player/881840b8-e406-4922-b5d9-6b27d4df07b0",
+              "name": "John Evans"
+            },
+            {
+              "playerId": "team-player/716a49d7-e32c-47c2-9112-c16b03677188",
+              "name": "Lance Binning"
+            }
           ],
           "games": [
             {
+              "gameId": "game/05b1f695-df4b-49d9-b43e-b72b4d3b7251",
               "players": [
                 {
+                  "playerId": "team-player/881840b8-e406-4922-b5d9-6b27d4df07b0",
                   "name": "John Evans",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/716a49d7-e32c-47c2-9112-c16b03677188",
                   "name": "Lance Binning",
                   "score": "7"
                 }
@@ -398,17 +591,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Douglas Norfolk"
+            {
+              "playerId": "team-player/0c3cbbeb-b876-4f5a-86c7-d609e64e2979",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/666acb28-1a0a-474b-a37d-a51c80a4c48d",
+              "name": "Douglas Norfolk"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d3cdba15-0c9a-43e2-b8f1-e7843cce698e",
               "players": [
                 {
+                  "playerId": "team-player/0c3cbbeb-b876-4f5a-86c7-d609e64e2979",
                   "name": "Robert Upton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/666acb28-1a0a-474b-a37d-a51c80a4c48d",
                   "name": "Douglas Norfolk",
                   "score": "4"
                 }
@@ -420,17 +622,26 @@
         },
         {
           "players": [
-            "Kevin Ham",
-            "Gerald Williams"
+            {
+              "playerId": "team-player/3b2ffcb8-e42f-4318-92ef-eeef8a502e01",
+              "name": "Kevin Ham"
+            },
+            {
+              "playerId": "team-player/4dd9d620-6c75-4657-9f32-49ac103ecaed",
+              "name": "Gerald Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9ae8b322-d0c2-4662-9dfe-732da5d516d7",
               "players": [
                 {
+                  "playerId": "team-player/3b2ffcb8-e42f-4318-92ef-eeef8a502e01",
                   "name": "Kevin Ham",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4dd9d620-6c75-4657-9f32-49ac103ecaed",
                   "name": "Gerald Williams",
                   "score": "5"
                 }
@@ -442,17 +653,26 @@
         },
         {
           "players": [
-            "James Beach",
-            "Lance Binning"
+            {
+              "playerId": "team-player/af940c8a-23b1-45f0-bb43-18015759212d",
+              "name": "James Beach"
+            },
+            {
+              "playerId": "team-player/716a49d7-e32c-47c2-9112-c16b03677188",
+              "name": "Lance Binning"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2b264ccb-8538-4060-8c8d-927308f18d24",
               "players": [
                 {
+                  "playerId": "team-player/af940c8a-23b1-45f0-bb43-18015759212d",
                   "name": "James Beach",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/716a49d7-e32c-47c2-9112-c16b03677188",
                   "name": "Lance Binning",
                   "score": "7"
                 }
@@ -464,17 +684,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Gerald Williams"
+            {
+              "playerId": "team-player/0c3cbbeb-b876-4f5a-86c7-d609e64e2979",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/4dd9d620-6c75-4657-9f32-49ac103ecaed",
+              "name": "Gerald Williams"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3acde4b4-152c-44c3-9c03-0fbcdf821a82",
               "players": [
                 {
+                  "playerId": "team-player/0c3cbbeb-b876-4f5a-86c7-d609e64e2979",
                   "name": "Robert Upton",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/4dd9d620-6c75-4657-9f32-49ac103ecaed",
                   "name": "Gerald Williams",
                   "score": "5"
                 }

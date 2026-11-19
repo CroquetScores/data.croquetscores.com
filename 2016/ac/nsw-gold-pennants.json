@@ -1,38 +1,75 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2fb94d39-f8d9-48d2-94b9-54f957653d71",
   "name": "NSW Gold Pennants",
   "sport": "ac",
   "firstDay": "2016-06-08",
   "lastDay": "2016-06-15",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Killara",
       "shortName": "Killara",
       "players": [
-        "Greg Deakin",
-        "Greg Deakin & Ron Buist",
-        "Peter Montague",
-        "Peter Montague & Ron Humpherson",
-        "Ron Buist",
-        "Ron Humpherson"
+        {
+          "playerId": "team-player/06151847-afce-4926-8cae-103f2819bb1e",
+          "name": "Greg Deakin"
+        },
+        {
+          "playerId": "team-player/6ce3e0a4-1280-42a0-b3aa-2bfabcbcc27d",
+          "name": "Greg Deakin & Ron Buist"
+        },
+        {
+          "playerId": "team-player/d56453a0-1e02-4369-b499-547892d6f8cb",
+          "name": "Peter Montague"
+        },
+        {
+          "playerId": "team-player/8e9fa4dc-943a-478c-97d8-f17a06e1a58c",
+          "name": "Peter Montague & Ron Humpherson"
+        },
+        {
+          "playerId": "team-player/9b0866d2-bfb4-4880-ae3c-791922b2136d",
+          "name": "Ron Buist"
+        },
+        {
+          "playerId": "team-player/4e7bff58-2a2c-4723-8711-c8d2da1bfafd",
+          "name": "Ron Humpherson"
+        }
       ]
     },
     {
       "name": "Cammeray",
       "shortName": "Cammeray",
       "players": [
-        "Annette Du Preez",
-        "Barbara McDonald & Annette du Preez",
-        "Barbara McDonald & David Stanton",
-        "Steve Miles",
-        "Sue Nichols"
+        {
+          "playerId": "team-player/01abb658-166b-40f5-9a6a-8f11c58a307b",
+          "name": "Annette Du Preez"
+        },
+        {
+          "playerId": "team-player/ec0a4d11-d731-4c9d-aea0-c55317a2e1d2",
+          "name": "Barbara McDonald & Annette du Preez"
+        },
+        {
+          "playerId": "team-player/ebaff90d-7b83-4340-9e42-92b74e60c42d",
+          "name": "Barbara McDonald & David Stanton"
+        },
+        {
+          "playerId": "team-player/b027ee65-7930-483e-b102-32f0965e980d",
+          "name": "Steve Miles"
+        },
+        {
+          "playerId": "team-player/fa0bfe08-268e-4af8-9552-cb7a89b630aa",
+          "name": "Sue Nichols"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/3f259fcb-1929-4568-a331-56f9d606da68",
       "teams": [
         "Killara",
         "Cammeray"
@@ -42,17 +79,26 @@
       "matches": [
         {
           "players": [
-            "Peter Montague & Ron Humpherson",
-            "Barbara McDonald & David Stanton"
+            {
+              "playerId": "team-player/8e9fa4dc-943a-478c-97d8-f17a06e1a58c",
+              "name": "Peter Montague & Ron Humpherson"
+            },
+            {
+              "playerId": "team-player/ebaff90d-7b83-4340-9e42-92b74e60c42d",
+              "name": "Barbara McDonald & David Stanton"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e23fb291-899c-48ab-8172-f933400e99ef",
               "players": [
                 {
+                  "playerId": "team-player/8e9fa4dc-943a-478c-97d8-f17a06e1a58c",
                   "name": "Peter Montague & Ron Humpherson",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/ebaff90d-7b83-4340-9e42-92b74e60c42d",
                   "name": "Barbara McDonald & David Stanton",
                   "score": "3"
                 }
@@ -64,17 +110,26 @@
         },
         {
           "players": [
-            "Greg Deakin",
-            "Sue Nichols"
+            {
+              "playerId": "team-player/06151847-afce-4926-8cae-103f2819bb1e",
+              "name": "Greg Deakin"
+            },
+            {
+              "playerId": "team-player/fa0bfe08-268e-4af8-9552-cb7a89b630aa",
+              "name": "Sue Nichols"
+            }
           ],
           "games": [
             {
+              "gameId": "game/136232eb-7c3c-41e7-aa39-26f89bc76527",
               "players": [
                 {
+                  "playerId": "team-player/06151847-afce-4926-8cae-103f2819bb1e",
                   "name": "Greg Deakin",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/fa0bfe08-268e-4af8-9552-cb7a89b630aa",
                   "name": "Sue Nichols",
                   "score": "26"
                 }
@@ -86,17 +141,26 @@
         },
         {
           "players": [
-            "Ron Buist",
-            "Annette Du Preez"
+            {
+              "playerId": "team-player/9b0866d2-bfb4-4880-ae3c-791922b2136d",
+              "name": "Ron Buist"
+            },
+            {
+              "playerId": "team-player/01abb658-166b-40f5-9a6a-8f11c58a307b",
+              "name": "Annette Du Preez"
+            }
           ],
           "games": [
             {
+              "gameId": "game/913ba72c-5a29-4fad-8aa1-5bab3a2a9714",
               "players": [
                 {
+                  "playerId": "team-player/9b0866d2-bfb4-4880-ae3c-791922b2136d",
                   "name": "Ron Buist",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/01abb658-166b-40f5-9a6a-8f11c58a307b",
                   "name": "Annette Du Preez",
                   "score": "22"
                 }
@@ -109,6 +173,7 @@
       ]
     },
     {
+      "competitionId": "competition/0b7cb052-f4dd-4226-b214-79d2d8404364",
       "teams": [
         "Cammeray",
         "Killara"
@@ -118,17 +183,26 @@
       "matches": [
         {
           "players": [
-            "Sue Nichols",
-            "Ron Humpherson"
+            {
+              "playerId": "team-player/fa0bfe08-268e-4af8-9552-cb7a89b630aa",
+              "name": "Sue Nichols"
+            },
+            {
+              "playerId": "team-player/4e7bff58-2a2c-4723-8711-c8d2da1bfafd",
+              "name": "Ron Humpherson"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af867ae2-c18b-44c7-aec0-903fc833cc01",
               "players": [
                 {
+                  "playerId": "team-player/fa0bfe08-268e-4af8-9552-cb7a89b630aa",
                   "name": "Sue Nichols",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/4e7bff58-2a2c-4723-8711-c8d2da1bfafd",
                   "name": "Ron Humpherson",
                   "score": "3"
                 }
@@ -140,17 +214,26 @@
         },
         {
           "players": [
-            "Steve Miles",
-            "Peter Montague"
+            {
+              "playerId": "team-player/b027ee65-7930-483e-b102-32f0965e980d",
+              "name": "Steve Miles"
+            },
+            {
+              "playerId": "team-player/d56453a0-1e02-4369-b499-547892d6f8cb",
+              "name": "Peter Montague"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3c7dafd5-3424-461e-927c-5d28d3bfaae8",
               "players": [
                 {
+                  "playerId": "team-player/b027ee65-7930-483e-b102-32f0965e980d",
                   "name": "Steve Miles",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/d56453a0-1e02-4369-b499-547892d6f8cb",
                   "name": "Peter Montague",
                   "score": "19"
                 }
@@ -162,17 +245,26 @@
         },
         {
           "players": [
-            "Barbara McDonald & Annette du Preez",
-            "Greg Deakin & Ron Buist"
+            {
+              "playerId": "team-player/ec0a4d11-d731-4c9d-aea0-c55317a2e1d2",
+              "name": "Barbara McDonald & Annette du Preez"
+            },
+            {
+              "playerId": "team-player/6ce3e0a4-1280-42a0-b3aa-2bfabcbcc27d",
+              "name": "Greg Deakin & Ron Buist"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d8aa4904-324a-4a7f-8c6b-2abb645aa7d2",
               "players": [
                 {
+                  "playerId": "team-player/ec0a4d11-d731-4c9d-aea0-c55317a2e1d2",
                   "name": "Barbara McDonald & Annette du Preez",
                   "score": "19"
                 },
                 {
+                  "playerId": "team-player/6ce3e0a4-1280-42a0-b3aa-2bfabcbcc27d",
                   "name": "Greg Deakin & Ron Buist",
                   "score": "18"
                 }

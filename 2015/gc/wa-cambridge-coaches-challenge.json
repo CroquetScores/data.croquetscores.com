@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/c47b221e-6e8b-4b73-b95e-27c372e959e9",
   "name": "WA Cambridge Coach's Challenge",
   "sport": "gc",
   "firstDay": "2015-08-12",
   "lastDay": "2015-08-12",
   "country": "au",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Davids Team",
       "shortName": "Davids Tea",
       "players": [
-        "Brian Hadley",
-        "David Gould",
-        "Elfie Von Knoll",
-        "Gould Hadley",
-        "Pekaar Von Knoll",
-        "Peter Pekaar"
+        {
+          "playerId": "team-player/d01e39e4-3f4d-4c3b-9723-6d7f983e201f",
+          "name": "Brian Hadley"
+        },
+        {
+          "playerId": "team-player/367eafcf-a8b4-491c-9ea4-ce1b78023f70",
+          "name": "David Gould"
+        },
+        {
+          "playerId": "team-player/42442dc4-cf01-4fd5-8cbe-e8b2c4ddb427",
+          "name": "Elfie Von Knoll"
+        },
+        {
+          "playerId": "team-player/b891c480-2f46-4b06-89b1-285cffd4b0d2",
+          "name": "Gould Hadley"
+        },
+        {
+          "playerId": "team-player/b50559be-b206-41e2-8be4-aa17c62115b7",
+          "name": "Pekaar Von Knoll"
+        },
+        {
+          "playerId": "team-player/bab3edd6-7308-4ebd-88ae-ac4144eb2fd0",
+          "name": "Peter Pekaar"
+        }
       ]
     },
     {
       "name": "Robyns Team",
       "shortName": "Robyns Tea",
       "players": [
-        "Cornish Cook",
-        "Di Cook",
-        "Lana Denteith",
-        "Pritchard Denteith",
-        "Robyn Cornish",
-        "Wendy Pritchard"
+        {
+          "playerId": "team-player/f0cefab1-b886-45a2-9e07-c3ee6f9663fd",
+          "name": "Cornish Cook"
+        },
+        {
+          "playerId": "team-player/fa01eb9e-798e-4246-b420-e5e4b46fbdbb",
+          "name": "Di Cook"
+        },
+        {
+          "playerId": "team-player/4ae485e1-b9de-4560-ab21-b1a349d0cce2",
+          "name": "Lana Denteith"
+        },
+        {
+          "playerId": "team-player/e37e6caf-2a80-4c45-806d-5e35a2641315",
+          "name": "Pritchard Denteith"
+        },
+        {
+          "playerId": "team-player/f8127bf2-b588-4b9f-9376-4761c0309156",
+          "name": "Robyn Cornish"
+        },
+        {
+          "playerId": "team-player/d9443498-446f-4f7c-9a88-52eddcd9b74a",
+          "name": "Wendy Pritchard"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/bc6c29f4-6412-4331-84c1-a3998ccdd5fb",
       "teams": [
         "Davids Team",
         "Robyns Team"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Gould Hadley",
-            "Pritchard Denteith"
+            {
+              "playerId": "team-player/b891c480-2f46-4b06-89b1-285cffd4b0d2",
+              "name": "Gould Hadley"
+            },
+            {
+              "playerId": "team-player/e37e6caf-2a80-4c45-806d-5e35a2641315",
+              "name": "Pritchard Denteith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/83261fcb-d4c7-4549-aad8-8ba35909abb7",
               "players": [
                 {
+                  "playerId": "team-player/b891c480-2f46-4b06-89b1-285cffd4b0d2",
                   "name": "Gould Hadley",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e37e6caf-2a80-4c45-806d-5e35a2641315",
                   "name": "Pritchard Denteith",
                   "score": "0"
                 }
@@ -65,17 +114,26 @@
         },
         {
           "players": [
-            "Pekaar Von Knoll",
-            "Cornish Cook"
+            {
+              "playerId": "team-player/b50559be-b206-41e2-8be4-aa17c62115b7",
+              "name": "Pekaar Von Knoll"
+            },
+            {
+              "playerId": "team-player/f0cefab1-b886-45a2-9e07-c3ee6f9663fd",
+              "name": "Cornish Cook"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e4fcc046-e3e7-418a-96ee-2fadfcf3c500",
               "players": [
                 {
+                  "playerId": "team-player/b50559be-b206-41e2-8be4-aa17c62115b7",
                   "name": "Pekaar Von Knoll",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f0cefab1-b886-45a2-9e07-c3ee6f9663fd",
                   "name": "Cornish Cook",
                   "score": "7"
                 }
@@ -87,17 +145,26 @@
         },
         {
           "players": [
-            "David Gould",
-            "Robyn Cornish"
+            {
+              "playerId": "team-player/367eafcf-a8b4-491c-9ea4-ce1b78023f70",
+              "name": "David Gould"
+            },
+            {
+              "playerId": "team-player/f8127bf2-b588-4b9f-9376-4761c0309156",
+              "name": "Robyn Cornish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/31092947-3acc-4546-b685-a63993afa532",
               "players": [
                 {
+                  "playerId": "team-player/367eafcf-a8b4-491c-9ea4-ce1b78023f70",
                   "name": "David Gould",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/f8127bf2-b588-4b9f-9376-4761c0309156",
                   "name": "Robyn Cornish",
                   "score": "2"
                 }
@@ -109,17 +176,26 @@
         },
         {
           "players": [
-            "Brian Hadley",
-            "Di Cook"
+            {
+              "playerId": "team-player/d01e39e4-3f4d-4c3b-9723-6d7f983e201f",
+              "name": "Brian Hadley"
+            },
+            {
+              "playerId": "team-player/fa01eb9e-798e-4246-b420-e5e4b46fbdbb",
+              "name": "Di Cook"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fe4b6351-61ce-4d04-88a1-4880dea47baf",
               "players": [
                 {
+                  "playerId": "team-player/d01e39e4-3f4d-4c3b-9723-6d7f983e201f",
                   "name": "Brian Hadley",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fa01eb9e-798e-4246-b420-e5e4b46fbdbb",
                   "name": "Di Cook",
                   "score": "4"
                 }
@@ -131,17 +207,26 @@
         },
         {
           "players": [
-            "Peter Pekaar",
-            "Lana Denteith"
+            {
+              "playerId": "team-player/bab3edd6-7308-4ebd-88ae-ac4144eb2fd0",
+              "name": "Peter Pekaar"
+            },
+            {
+              "playerId": "team-player/4ae485e1-b9de-4560-ab21-b1a349d0cce2",
+              "name": "Lana Denteith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fe631f45-acd8-4a2f-8a4c-f1c5b1b6c541",
               "players": [
                 {
+                  "playerId": "team-player/bab3edd6-7308-4ebd-88ae-ac4144eb2fd0",
                   "name": "Peter Pekaar",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4ae485e1-b9de-4560-ab21-b1a349d0cce2",
                   "name": "Lana Denteith",
                   "score": "3"
                 }
@@ -153,17 +238,26 @@
         },
         {
           "players": [
-            "Elfie Von Knoll",
-            "Wendy Pritchard"
+            {
+              "playerId": "team-player/42442dc4-cf01-4fd5-8cbe-e8b2c4ddb427",
+              "name": "Elfie Von Knoll"
+            },
+            {
+              "playerId": "team-player/d9443498-446f-4f7c-9a88-52eddcd9b74a",
+              "name": "Wendy Pritchard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a0d9b2a8-601f-467b-ae78-975386bdf2eb",
               "players": [
                 {
+                  "playerId": "team-player/42442dc4-cf01-4fd5-8cbe-e8b2c4ddb427",
                   "name": "Elfie Von Knoll",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/d9443498-446f-4f7c-9a88-52eddcd9b74a",
                   "name": "Wendy Pritchard",
                   "score": "6"
                 }
@@ -175,17 +269,26 @@
         },
         {
           "players": [
-            "David Gould",
-            "Di Cook"
+            {
+              "playerId": "team-player/367eafcf-a8b4-491c-9ea4-ce1b78023f70",
+              "name": "David Gould"
+            },
+            {
+              "playerId": "team-player/fa01eb9e-798e-4246-b420-e5e4b46fbdbb",
+              "name": "Di Cook"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3db5ab96-7fd8-4c11-971f-2c26ed79252c",
               "players": [
                 {
+                  "playerId": "team-player/367eafcf-a8b4-491c-9ea4-ce1b78023f70",
                   "name": "David Gould",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fa01eb9e-798e-4246-b420-e5e4b46fbdbb",
                   "name": "Di Cook",
                   "score": "3"
                 }
@@ -197,17 +300,26 @@
         },
         {
           "players": [
-            "Peter Pekaar",
-            "Wendy Pritchard"
+            {
+              "playerId": "team-player/bab3edd6-7308-4ebd-88ae-ac4144eb2fd0",
+              "name": "Peter Pekaar"
+            },
+            {
+              "playerId": "team-player/d9443498-446f-4f7c-9a88-52eddcd9b74a",
+              "name": "Wendy Pritchard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ffb59cc8-1fbf-463c-bed6-4abcdc2fd099",
               "players": [
                 {
+                  "playerId": "team-player/bab3edd6-7308-4ebd-88ae-ac4144eb2fd0",
                   "name": "Peter Pekaar",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/d9443498-446f-4f7c-9a88-52eddcd9b74a",
                   "name": "Wendy Pritchard",
                   "score": "7"
                 }
@@ -219,17 +331,26 @@
         },
         {
           "players": [
-            "Brian Hadley",
-            "Robyn Cornish"
+            {
+              "playerId": "team-player/d01e39e4-3f4d-4c3b-9723-6d7f983e201f",
+              "name": "Brian Hadley"
+            },
+            {
+              "playerId": "team-player/f8127bf2-b588-4b9f-9376-4761c0309156",
+              "name": "Robyn Cornish"
+            }
           ],
           "games": [
             {
+              "gameId": "game/438e5f81-6d91-47ba-9ca8-8a77ba1eb2b1",
               "players": [
                 {
+                  "playerId": "team-player/d01e39e4-3f4d-4c3b-9723-6d7f983e201f",
                   "name": "Brian Hadley",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f8127bf2-b588-4b9f-9376-4761c0309156",
                   "name": "Robyn Cornish",
                   "score": "5"
                 }
@@ -241,17 +362,26 @@
         },
         {
           "players": [
-            "Elfie Von Knoll",
-            "Lana Denteith"
+            {
+              "playerId": "team-player/42442dc4-cf01-4fd5-8cbe-e8b2c4ddb427",
+              "name": "Elfie Von Knoll"
+            },
+            {
+              "playerId": "team-player/4ae485e1-b9de-4560-ab21-b1a349d0cce2",
+              "name": "Lana Denteith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/340486e5-b3ab-4096-8487-32b81ea5a09b",
               "players": [
                 {
+                  "playerId": "team-player/42442dc4-cf01-4fd5-8cbe-e8b2c4ddb427",
                   "name": "Elfie Von Knoll",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/4ae485e1-b9de-4560-ab21-b1a349d0cce2",
                   "name": "Lana Denteith",
                   "score": "5"
                 }
@@ -263,17 +393,26 @@
         },
         {
           "players": [
-            "Gould Hadley",
-            "Cornish Cook"
+            {
+              "playerId": "team-player/b891c480-2f46-4b06-89b1-285cffd4b0d2",
+              "name": "Gould Hadley"
+            },
+            {
+              "playerId": "team-player/f0cefab1-b886-45a2-9e07-c3ee6f9663fd",
+              "name": "Cornish Cook"
+            }
           ],
           "games": [
             {
+              "gameId": "game/06eff68b-ed99-4d4b-815f-99c97b1928b8",
               "players": [
                 {
+                  "playerId": "team-player/b891c480-2f46-4b06-89b1-285cffd4b0d2",
                   "name": "Gould Hadley",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f0cefab1-b886-45a2-9e07-c3ee6f9663fd",
                   "name": "Cornish Cook",
                   "score": "6"
                 }
@@ -285,17 +424,26 @@
         },
         {
           "players": [
-            "Pekaar Von Knoll",
-            "Pritchard Denteith"
+            {
+              "playerId": "team-player/b50559be-b206-41e2-8be4-aa17c62115b7",
+              "name": "Pekaar Von Knoll"
+            },
+            {
+              "playerId": "team-player/e37e6caf-2a80-4c45-806d-5e35a2641315",
+              "name": "Pritchard Denteith"
+            }
           ],
           "games": [
             {
+              "gameId": "game/087fac43-8dcc-4362-bf94-f8e6de419119",
               "players": [
                 {
+                  "playerId": "team-player/b50559be-b206-41e2-8be4-aa17c62115b7",
                   "name": "Pekaar Von Knoll",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/e37e6caf-2a80-4c45-806d-5e35a2641315",
                   "name": "Pritchard Denteith",
                   "score": "7"
                 }

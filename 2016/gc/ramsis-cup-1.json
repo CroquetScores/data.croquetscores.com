@@ -1,45 +1,103 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/793b44a0-87c4-40f4-9d68-b528110da189",
   "name": "Ramsis Cup",
   "sport": "gc",
   "firstDay": "2016-05-13",
   "lastDay": "2016-05-14",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Egypt",
       "shortName": "EGY",
       "players": [
-        "A. Baher & A. Ramsis",
-        "A. Nasr & H. Erian",
-        "Ahmed Nasr`",
-        "Amir Ramsis",
-        "Amr Baher",
-        "Hamy Erian",
-        "M. Nasr & M. Karem",
-        "Mohamed Karem",
-        "Mohamed Nasr"
+        {
+          "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
+          "name": "A. Baher & A. Ramsis"
+        },
+        {
+          "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
+          "name": "A. Nasr & H. Erian"
+        },
+        {
+          "playerId": "team-player/130b23b3-6541-47c0-9507-cb67125df81d",
+          "name": "Ahmed Nasr`"
+        },
+        {
+          "playerId": "team-player/f43275d1-4695-4e36-8aed-7c5626e53daa",
+          "name": "Amir Ramsis"
+        },
+        {
+          "playerId": "team-player/f6e97178-e55a-4790-b60b-d9363a58151b",
+          "name": "Amr Baher"
+        },
+        {
+          "playerId": "team-player/ef36cef3-c2bc-47b4-9d12-ca6307cef95e",
+          "name": "Hamy Erian"
+        },
+        {
+          "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
+          "name": "M. Nasr & M. Karem"
+        },
+        {
+          "playerId": "team-player/e2a5bcfe-d18b-4845-9f38-fb2a5207ece1",
+          "name": "Mohamed Karem"
+        },
+        {
+          "playerId": "team-player/a876c089-d35e-427f-aef2-ff2fa00b3aa4",
+          "name": "Mohamed Nasr"
+        }
       ]
     },
     {
       "name": "Rest of the World",
       "shortName": "Rest of th",
       "players": [
-        "Danny Huneycutt",
-        "R. Bamford & S. Mulliner",
-        "R. Fulford & W. Gee",
-        "Reg Bamford",
-        "Robert Fulford",
-        "S. Abdelwahab & D. Huneycutt",
-        "Sherif Abdelwahab",
-        "Stephen Mulliner",
-        "William Gee"
+        {
+          "playerId": "team-player/b50f3d80-982e-4f4a-ad68-e54fe9366c52",
+          "name": "Danny Huneycutt"
+        },
+        {
+          "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
+          "name": "R. Bamford & S. Mulliner"
+        },
+        {
+          "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
+          "name": "R. Fulford & W. Gee"
+        },
+        {
+          "playerId": "team-player/8ae26db4-0472-4b92-a259-60c355068b2f",
+          "name": "Reg Bamford"
+        },
+        {
+          "playerId": "team-player/71b4dd11-0e3f-4050-a00d-b1e3bfd672be",
+          "name": "Robert Fulford"
+        },
+        {
+          "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
+          "name": "S. Abdelwahab & D. Huneycutt"
+        },
+        {
+          "playerId": "team-player/0adef72b-f79f-4d7b-9706-efc524175356",
+          "name": "Sherif Abdelwahab"
+        },
+        {
+          "playerId": "team-player/fd1eb667-faee-4ed7-9dc1-dbdca2cd39ab",
+          "name": "Stephen Mulliner"
+        },
+        {
+          "playerId": "team-player/53e55ebe-95c1-48ed-85c3-2580cbb3ee4b",
+          "name": "William Gee"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/7098e720-f9da-4245-b984-14e6caf63dc2",
       "teams": [
         "Egypt",
         "Rest of the World"
@@ -49,17 +107,26 @@
       "matches": [
         {
           "players": [
-            "A. Nasr & H. Erian",
-            "R. Fulford & W. Gee"
+            {
+              "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
+              "name": "A. Nasr & H. Erian"
+            },
+            {
+              "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
+              "name": "R. Fulford & W. Gee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/b4dbbb81-eb49-4f3e-b432-e7b78d2e38d4",
               "players": [
                 {
+                  "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
                   "name": "A. Nasr & H. Erian",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
                   "name": "R. Fulford & W. Gee",
                   "score": "7"
                 }
@@ -68,12 +135,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9cd47596-381c-4fcb-8a70-295735358a03",
               "players": [
                 {
+                  "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
                   "name": "A. Nasr & H. Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
                   "name": "R. Fulford & W. Gee",
                   "score": "2"
                 }
@@ -82,12 +152,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f51333d3-ba8c-458f-93c2-057bf6d2f69a",
               "players": [
                 {
+                  "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
                   "name": "A. Nasr & H. Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
                   "name": "R. Fulford & W. Gee",
                   "score": "6"
                 }
@@ -99,17 +172,26 @@
         },
         {
           "players": [
-            "M. Nasr & M. Karem",
-            "R. Bamford & S. Mulliner"
+            {
+              "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
+              "name": "M. Nasr & M. Karem"
+            },
+            {
+              "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
+              "name": "R. Bamford & S. Mulliner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8ee778d9-8577-47af-b9ea-d74bdee9bd6b",
               "players": [
                 {
+                  "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
                   "name": "M. Nasr & M. Karem",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
                   "name": "R. Bamford & S. Mulliner",
                   "score": "7"
                 }
@@ -118,12 +200,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/84b1836b-3e65-45a8-be75-1e17c94922fb",
               "players": [
                 {
+                  "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
                   "name": "M. Nasr & M. Karem",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
                   "name": "R. Bamford & S. Mulliner",
                   "score": "2"
                 }
@@ -132,12 +217,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ce8887f7-af5e-4c11-baf7-0ac7905b127c",
               "players": [
                 {
+                  "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
                   "name": "M. Nasr & M. Karem",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
                   "name": "R. Bamford & S. Mulliner",
                   "score": "7"
                 }
@@ -149,17 +237,26 @@
         },
         {
           "players": [
-            "A. Baher & A. Ramsis",
-            "S. Abdelwahab & D. Huneycutt"
+            {
+              "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
+              "name": "A. Baher & A. Ramsis"
+            },
+            {
+              "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
+              "name": "S. Abdelwahab & D. Huneycutt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c0cb1a8f-7965-4d1d-a0c3-f681c43496b9",
               "players": [
                 {
+                  "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
                   "name": "A. Baher & A. Ramsis",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
                   "name": "S. Abdelwahab & D. Huneycutt",
                   "score": "7"
                 }
@@ -168,12 +265,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/df316c65-cd31-44a7-91e2-213058953bab",
               "players": [
                 {
+                  "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
                   "name": "A. Baher & A. Ramsis",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
                   "name": "S. Abdelwahab & D. Huneycutt",
                   "score": "7"
                 }
@@ -185,17 +285,26 @@
         },
         {
           "players": [
-            "Ahmed Nasr`",
-            "Robert Fulford"
+            {
+              "playerId": "team-player/130b23b3-6541-47c0-9507-cb67125df81d",
+              "name": "Ahmed Nasr`"
+            },
+            {
+              "playerId": "team-player/71b4dd11-0e3f-4050-a00d-b1e3bfd672be",
+              "name": "Robert Fulford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/23f891c2-b096-492f-871e-8eac4ce559bd",
               "players": [
                 {
+                  "playerId": "team-player/130b23b3-6541-47c0-9507-cb67125df81d",
                   "name": "Ahmed Nasr`",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/71b4dd11-0e3f-4050-a00d-b1e3bfd672be",
                   "name": "Robert Fulford",
                   "score": "7"
                 }
@@ -204,12 +313,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1cc3b9b5-1c52-4b60-8d3c-2838fedc507f",
               "players": [
                 {
+                  "playerId": "team-player/130b23b3-6541-47c0-9507-cb67125df81d",
                   "name": "Ahmed Nasr`",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/71b4dd11-0e3f-4050-a00d-b1e3bfd672be",
                   "name": "Robert Fulford",
                   "score": "7"
                 }
@@ -221,17 +333,26 @@
         },
         {
           "players": [
-            "Hamy Erian",
-            "Stephen Mulliner"
+            {
+              "playerId": "team-player/ef36cef3-c2bc-47b4-9d12-ca6307cef95e",
+              "name": "Hamy Erian"
+            },
+            {
+              "playerId": "team-player/fd1eb667-faee-4ed7-9dc1-dbdca2cd39ab",
+              "name": "Stephen Mulliner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a8d3de2b-85ff-48fd-ba9a-90eab1bfb938",
               "players": [
                 {
+                  "playerId": "team-player/ef36cef3-c2bc-47b4-9d12-ca6307cef95e",
                   "name": "Hamy Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd1eb667-faee-4ed7-9dc1-dbdca2cd39ab",
                   "name": "Stephen Mulliner",
                   "score": "4"
                 }
@@ -240,12 +361,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2229b8f2-c8a4-4531-a728-0484f6223080",
               "players": [
                 {
+                  "playerId": "team-player/ef36cef3-c2bc-47b4-9d12-ca6307cef95e",
                   "name": "Hamy Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd1eb667-faee-4ed7-9dc1-dbdca2cd39ab",
                   "name": "Stephen Mulliner",
                   "score": "6"
                 }
@@ -257,17 +381,26 @@
         },
         {
           "players": [
-            "Amr Baher",
-            "William Gee"
+            {
+              "playerId": "team-player/f6e97178-e55a-4790-b60b-d9363a58151b",
+              "name": "Amr Baher"
+            },
+            {
+              "playerId": "team-player/53e55ebe-95c1-48ed-85c3-2580cbb3ee4b",
+              "name": "William Gee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7f8bfb10-a647-4689-811b-d049b93fdd50",
               "players": [
                 {
+                  "playerId": "team-player/f6e97178-e55a-4790-b60b-d9363a58151b",
                   "name": "Amr Baher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/53e55ebe-95c1-48ed-85c3-2580cbb3ee4b",
                   "name": "William Gee",
                   "score": "5"
                 }
@@ -276,12 +409,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/db340221-25a8-4d9a-bf6e-8d4e1b8ea67b",
               "players": [
                 {
+                  "playerId": "team-player/f6e97178-e55a-4790-b60b-d9363a58151b",
                   "name": "Amr Baher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/53e55ebe-95c1-48ed-85c3-2580cbb3ee4b",
                   "name": "William Gee",
                   "score": "5"
                 }
@@ -293,17 +429,26 @@
         },
         {
           "players": [
-            "A. Nasr & H. Erian",
-            "S. Abdelwahab & D. Huneycutt"
+            {
+              "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
+              "name": "A. Nasr & H. Erian"
+            },
+            {
+              "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
+              "name": "S. Abdelwahab & D. Huneycutt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4aec24eb-9582-4a14-934e-a3b62b2cce10",
               "players": [
                 {
+                  "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
                   "name": "A. Nasr & H. Erian",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
                   "name": "S. Abdelwahab & D. Huneycutt",
                   "score": "7"
                 }
@@ -312,12 +457,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6e173189-98c9-4062-bced-cd7dc46b318a",
               "players": [
                 {
+                  "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
                   "name": "A. Nasr & H. Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
                   "name": "S. Abdelwahab & D. Huneycutt",
                   "score": "1"
                 }
@@ -326,12 +474,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/37fdaaf5-4d40-427a-8ac4-a77b777b1927",
               "players": [
                 {
+                  "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
                   "name": "A. Nasr & H. Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
                   "name": "S. Abdelwahab & D. Huneycutt",
                   "score": "4"
                 }
@@ -343,17 +494,26 @@
         },
         {
           "players": [
-            "M. Nasr & M. Karem",
-            "R. Fulford & W. Gee"
+            {
+              "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
+              "name": "M. Nasr & M. Karem"
+            },
+            {
+              "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
+              "name": "R. Fulford & W. Gee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/381b29aa-4886-4b97-8541-71e813b819f4",
               "players": [
                 {
+                  "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
                   "name": "M. Nasr & M. Karem",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
                   "name": "R. Fulford & W. Gee",
                   "score": "7"
                 }
@@ -362,12 +522,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ae3b22bc-6f50-4780-86a7-8f5dd5801c4c",
               "players": [
                 {
+                  "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
                   "name": "M. Nasr & M. Karem",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
                   "name": "R. Fulford & W. Gee",
                   "score": "3"
                 }
@@ -376,12 +539,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ae6585a2-9241-4a75-a007-8d5d6df5c953",
               "players": [
                 {
+                  "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
                   "name": "M. Nasr & M. Karem",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
                   "name": "R. Fulford & W. Gee",
                   "score": "7"
                 }
@@ -393,17 +559,26 @@
         },
         {
           "players": [
-            "A. Baher & A. Ramsis",
-            "R. Bamford & S. Mulliner"
+            {
+              "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
+              "name": "A. Baher & A. Ramsis"
+            },
+            {
+              "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
+              "name": "R. Bamford & S. Mulliner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9fb1648d-4564-41b6-a00a-ac6c1e9f2a03",
               "players": [
                 {
+                  "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
                   "name": "A. Baher & A. Ramsis",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
                   "name": "R. Bamford & S. Mulliner",
                   "score": "7"
                 }
@@ -412,12 +587,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/758ea0ae-9890-40f3-b0e5-f405463fd2b7",
               "players": [
                 {
+                  "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
                   "name": "A. Baher & A. Ramsis",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
                   "name": "R. Bamford & S. Mulliner",
                   "score": "5"
                 }
@@ -426,12 +604,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/71c34879-05e1-483a-a884-43625ee2e18c",
               "players": [
                 {
+                  "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
                   "name": "A. Baher & A. Ramsis",
                   "score": "2"
                 },
                 {
+                  "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
                   "name": "R. Bamford & S. Mulliner",
                   "score": "7"
                 }
@@ -443,17 +624,26 @@
         },
         {
           "players": [
-            "Mohamed Karem",
-            "Reg Bamford"
+            {
+              "playerId": "team-player/e2a5bcfe-d18b-4845-9f38-fb2a5207ece1",
+              "name": "Mohamed Karem"
+            },
+            {
+              "playerId": "team-player/8ae26db4-0472-4b92-a259-60c355068b2f",
+              "name": "Reg Bamford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/820dd06d-0b86-44e8-8640-b940bfe8333a",
               "players": [
                 {
+                  "playerId": "team-player/e2a5bcfe-d18b-4845-9f38-fb2a5207ece1",
                   "name": "Mohamed Karem",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8ae26db4-0472-4b92-a259-60c355068b2f",
                   "name": "Reg Bamford",
                   "score": "4"
                 }
@@ -462,12 +652,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/08c2c9b9-dfd0-43be-961c-fc1484ceaa6e",
               "players": [
                 {
+                  "playerId": "team-player/e2a5bcfe-d18b-4845-9f38-fb2a5207ece1",
                   "name": "Mohamed Karem",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8ae26db4-0472-4b92-a259-60c355068b2f",
                   "name": "Reg Bamford",
                   "score": "7"
                 }
@@ -476,12 +669,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ecc2b562-c41b-46d0-a827-3b06970311c7",
               "players": [
                 {
+                  "playerId": "team-player/e2a5bcfe-d18b-4845-9f38-fb2a5207ece1",
                   "name": "Mohamed Karem",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/8ae26db4-0472-4b92-a259-60c355068b2f",
                   "name": "Reg Bamford",
                   "score": "7"
                 }
@@ -493,17 +689,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr",
-            "Danny Huneycutt"
+            {
+              "playerId": "team-player/a876c089-d35e-427f-aef2-ff2fa00b3aa4",
+              "name": "Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/b50f3d80-982e-4f4a-ad68-e54fe9366c52",
+              "name": "Danny Huneycutt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/56b5b68a-0e49-44f8-9a68-908c7272d182",
               "players": [
                 {
+                  "playerId": "team-player/a876c089-d35e-427f-aef2-ff2fa00b3aa4",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b50f3d80-982e-4f4a-ad68-e54fe9366c52",
                   "name": "Danny Huneycutt",
                   "score": "6"
                 }
@@ -512,12 +717,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5c6f0cd2-2e84-4c47-b11a-f0d8e562dcc4",
               "players": [
                 {
+                  "playerId": "team-player/a876c089-d35e-427f-aef2-ff2fa00b3aa4",
                   "name": "Mohamed Nasr",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/b50f3d80-982e-4f4a-ad68-e54fe9366c52",
                   "name": "Danny Huneycutt",
                   "score": "7"
                 }
@@ -526,12 +734,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/6ccc4b18-afac-4e58-9b3c-b1239df22d5e",
               "players": [
                 {
+                  "playerId": "team-player/a876c089-d35e-427f-aef2-ff2fa00b3aa4",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b50f3d80-982e-4f4a-ad68-e54fe9366c52",
                   "name": "Danny Huneycutt",
                   "score": "3"
                 }
@@ -543,17 +754,26 @@
         },
         {
           "players": [
-            "Amir Ramsis",
-            "Sherif Abdelwahab"
+            {
+              "playerId": "team-player/f43275d1-4695-4e36-8aed-7c5626e53daa",
+              "name": "Amir Ramsis"
+            },
+            {
+              "playerId": "team-player/0adef72b-f79f-4d7b-9706-efc524175356",
+              "name": "Sherif Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f903ef9a-b215-4dda-9eb7-73a1da75e360",
               "players": [
                 {
+                  "playerId": "team-player/f43275d1-4695-4e36-8aed-7c5626e53daa",
                   "name": "Amir Ramsis",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/0adef72b-f79f-4d7b-9706-efc524175356",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 }
@@ -562,12 +782,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/776c46db-76c5-47a1-bb57-aa829dac38b4",
               "players": [
                 {
+                  "playerId": "team-player/f43275d1-4695-4e36-8aed-7c5626e53daa",
                   "name": "Amir Ramsis",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/0adef72b-f79f-4d7b-9706-efc524175356",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 }
@@ -579,17 +802,26 @@
         },
         {
           "players": [
-            "A. Nasr & H. Erian",
-            "R. Bamford & S. Mulliner"
+            {
+              "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
+              "name": "A. Nasr & H. Erian"
+            },
+            {
+              "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
+              "name": "R. Bamford & S. Mulliner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1d5a32bb-2013-4527-8a52-c3e573c07a93",
               "players": [
                 {
+                  "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
                   "name": "A. Nasr & H. Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
                   "name": "R. Bamford & S. Mulliner",
                   "score": "3"
                 }
@@ -598,12 +830,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/59cc9f34-6ab6-4819-8b54-aa50cae8ef27",
               "players": [
                 {
+                  "playerId": "team-player/fda99465-e380-475a-a933-64597eaff549",
                   "name": "A. Nasr & H. Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/69dd6d74-1bfc-4ef3-b43c-f11752538450",
                   "name": "R. Bamford & S. Mulliner",
                   "score": "5"
                 }
@@ -615,17 +850,26 @@
         },
         {
           "players": [
-            "M. Nasr & M. Karem",
-            "S. Abdelwahab & D. Huneycutt"
+            {
+              "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
+              "name": "M. Nasr & M. Karem"
+            },
+            {
+              "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
+              "name": "S. Abdelwahab & D. Huneycutt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7a34d618-bcfd-45b6-9814-f6e7e9504dd3",
               "players": [
                 {
+                  "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
                   "name": "M. Nasr & M. Karem",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
                   "name": "S. Abdelwahab & D. Huneycutt",
                   "score": "7"
                 }
@@ -634,12 +878,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5f20e5af-5a94-4a0a-98b1-cd96bea76e8c",
               "players": [
                 {
+                  "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
                   "name": "M. Nasr & M. Karem",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
                   "name": "S. Abdelwahab & D. Huneycutt",
                   "score": "4"
                 }
@@ -648,12 +895,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/075b1739-4090-40af-96bc-7bc5658c44cf",
               "players": [
                 {
+                  "playerId": "team-player/3ba81ba0-03f7-41fa-a7c8-7106c4fbdff7",
                   "name": "M. Nasr & M. Karem",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/733769b5-ad07-420d-9149-0524d8e2e3b1",
                   "name": "S. Abdelwahab & D. Huneycutt",
                   "score": "5"
                 }
@@ -665,17 +915,26 @@
         },
         {
           "players": [
-            "A. Baher & A. Ramsis",
-            "R. Fulford & W. Gee"
+            {
+              "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
+              "name": "A. Baher & A. Ramsis"
+            },
+            {
+              "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
+              "name": "R. Fulford & W. Gee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2fdc2e89-438e-498b-aef6-f512cb72615f",
               "players": [
                 {
+                  "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
                   "name": "A. Baher & A. Ramsis",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
                   "name": "R. Fulford & W. Gee",
                   "score": "5"
                 }
@@ -684,12 +943,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/cc854c56-3905-4ff9-910a-ac9308b259cf",
               "players": [
                 {
+                  "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
                   "name": "A. Baher & A. Ramsis",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
                   "name": "R. Fulford & W. Gee",
                   "score": "7"
                 }
@@ -698,12 +960,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8b7d2ed2-ab56-423b-b70f-c47f38988c39",
               "players": [
                 {
+                  "playerId": "team-player/4f130f89-5ba0-422e-8434-483f06b74632",
                   "name": "A. Baher & A. Ramsis",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/90a530e9-b43d-4b4f-9a03-0282c3d067da",
                   "name": "R. Fulford & W. Gee",
                   "score": "7"
                 }
@@ -715,17 +980,26 @@
         },
         {
           "players": [
-            "Amir Ramsis",
-            "William Gee"
+            {
+              "playerId": "team-player/f43275d1-4695-4e36-8aed-7c5626e53daa",
+              "name": "Amir Ramsis"
+            },
+            {
+              "playerId": "team-player/53e55ebe-95c1-48ed-85c3-2580cbb3ee4b",
+              "name": "William Gee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d426c4b8-964d-4f6c-b720-58bbf05cabc9",
               "players": [
                 {
+                  "playerId": "team-player/f43275d1-4695-4e36-8aed-7c5626e53daa",
                   "name": "Amir Ramsis",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/53e55ebe-95c1-48ed-85c3-2580cbb3ee4b",
                   "name": "William Gee",
                   "score": "7"
                 }
@@ -734,12 +1008,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/da44826f-c1da-4f89-b61d-db09b7e547c9",
               "players": [
                 {
+                  "playerId": "team-player/f43275d1-4695-4e36-8aed-7c5626e53daa",
                   "name": "Amir Ramsis",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/53e55ebe-95c1-48ed-85c3-2580cbb3ee4b",
                   "name": "William Gee",
                   "score": "7"
                 }
@@ -751,17 +1028,26 @@
         },
         {
           "players": [
-            "Hamy Erian",
-            "Danny Huneycutt"
+            {
+              "playerId": "team-player/ef36cef3-c2bc-47b4-9d12-ca6307cef95e",
+              "name": "Hamy Erian"
+            },
+            {
+              "playerId": "team-player/b50f3d80-982e-4f4a-ad68-e54fe9366c52",
+              "name": "Danny Huneycutt"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d2abaa34-7510-40b5-8526-cc3f0822f5d3",
               "players": [
                 {
+                  "playerId": "team-player/ef36cef3-c2bc-47b4-9d12-ca6307cef95e",
                   "name": "Hamy Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b50f3d80-982e-4f4a-ad68-e54fe9366c52",
                   "name": "Danny Huneycutt",
                   "score": "4"
                 }
@@ -770,12 +1056,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/1516cd3f-f338-49c7-a2e7-98e1a2346498",
               "players": [
                 {
+                  "playerId": "team-player/ef36cef3-c2bc-47b4-9d12-ca6307cef95e",
                   "name": "Hamy Erian",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/b50f3d80-982e-4f4a-ad68-e54fe9366c52",
                   "name": "Danny Huneycutt",
                   "score": "4"
                 }
@@ -787,17 +1076,26 @@
         },
         {
           "players": [
-            "Amr Baher",
-            "Sherif Abdelwahab"
+            {
+              "playerId": "team-player/f6e97178-e55a-4790-b60b-d9363a58151b",
+              "name": "Amr Baher"
+            },
+            {
+              "playerId": "team-player/0adef72b-f79f-4d7b-9706-efc524175356",
+              "name": "Sherif Abdelwahab"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9e47cb86-059f-4e51-91f5-1c444909f88a",
               "players": [
                 {
+                  "playerId": "team-player/f6e97178-e55a-4790-b60b-d9363a58151b",
                   "name": "Amr Baher",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/0adef72b-f79f-4d7b-9706-efc524175356",
                   "name": "Sherif Abdelwahab",
                   "score": "7"
                 }
@@ -806,12 +1104,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8b979f18-2a2c-4f02-899a-a68279aedd0b",
               "players": [
                 {
+                  "playerId": "team-player/f6e97178-e55a-4790-b60b-d9363a58151b",
                   "name": "Amr Baher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0adef72b-f79f-4d7b-9706-efc524175356",
                   "name": "Sherif Abdelwahab",
                   "score": "5"
                 }
@@ -820,12 +1121,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4ab1c123-5ef8-46a6-9a97-c5beadfae1b5",
               "players": [
                 {
+                  "playerId": "team-player/f6e97178-e55a-4790-b60b-d9363a58151b",
                   "name": "Amr Baher",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/0adef72b-f79f-4d7b-9706-efc524175356",
                   "name": "Sherif Abdelwahab",
                   "score": "6"
                 }
@@ -837,17 +1141,26 @@
         },
         {
           "players": [
-            "Mohamed Karem",
-            "Robert Fulford"
+            {
+              "playerId": "team-player/e2a5bcfe-d18b-4845-9f38-fb2a5207ece1",
+              "name": "Mohamed Karem"
+            },
+            {
+              "playerId": "team-player/71b4dd11-0e3f-4050-a00d-b1e3bfd672be",
+              "name": "Robert Fulford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d6cad828-aa06-4421-947e-dfbc4ec9fd9c",
               "players": [
                 {
+                  "playerId": "team-player/e2a5bcfe-d18b-4845-9f38-fb2a5207ece1",
                   "name": "Mohamed Karem",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/71b4dd11-0e3f-4050-a00d-b1e3bfd672be",
                   "name": "Robert Fulford",
                   "score": "4"
                 }
@@ -856,12 +1169,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/866a2163-4903-49af-b759-f5ef966fdf2f",
               "players": [
                 {
+                  "playerId": "team-player/e2a5bcfe-d18b-4845-9f38-fb2a5207ece1",
                   "name": "Mohamed Karem",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/71b4dd11-0e3f-4050-a00d-b1e3bfd672be",
                   "name": "Robert Fulford",
                   "score": "1"
                 }
@@ -873,17 +1189,26 @@
         },
         {
           "players": [
-            "Ahmed Nasr`",
-            "Reg Bamford"
+            {
+              "playerId": "team-player/130b23b3-6541-47c0-9507-cb67125df81d",
+              "name": "Ahmed Nasr`"
+            },
+            {
+              "playerId": "team-player/8ae26db4-0472-4b92-a259-60c355068b2f",
+              "name": "Reg Bamford"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1ee843f3-eeb7-4a77-ba7a-6806a5050f74",
               "players": [
                 {
+                  "playerId": "team-player/130b23b3-6541-47c0-9507-cb67125df81d",
                   "name": "Ahmed Nasr`",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/8ae26db4-0472-4b92-a259-60c355068b2f",
                   "name": "Reg Bamford",
                   "score": "7"
                 }
@@ -892,12 +1217,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ba4612f5-61d6-4984-bfe4-2e4967dc5863",
               "players": [
                 {
+                  "playerId": "team-player/130b23b3-6541-47c0-9507-cb67125df81d",
                   "name": "Ahmed Nasr`",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/8ae26db4-0472-4b92-a259-60c355068b2f",
                   "name": "Reg Bamford",
                   "score": "6"
                 }
@@ -906,12 +1234,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/4960ee9b-e766-4827-b117-97b55af67d12",
               "players": [
                 {
+                  "playerId": "team-player/130b23b3-6541-47c0-9507-cb67125df81d",
                   "name": "Ahmed Nasr`",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/8ae26db4-0472-4b92-a259-60c355068b2f",
                   "name": "Reg Bamford",
                   "score": "7"
                 }
@@ -923,17 +1254,26 @@
         },
         {
           "players": [
-            "Mohamed Nasr",
-            "Stephen Mulliner"
+            {
+              "playerId": "team-player/a876c089-d35e-427f-aef2-ff2fa00b3aa4",
+              "name": "Mohamed Nasr"
+            },
+            {
+              "playerId": "team-player/fd1eb667-faee-4ed7-9dc1-dbdca2cd39ab",
+              "name": "Stephen Mulliner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e7a1f6d6-9c5e-4f9d-a1bc-660e88491a6d",
               "players": [
                 {
+                  "playerId": "team-player/a876c089-d35e-427f-aef2-ff2fa00b3aa4",
                   "name": "Mohamed Nasr",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/fd1eb667-faee-4ed7-9dc1-dbdca2cd39ab",
                   "name": "Stephen Mulliner",
                   "score": "6"
                 }
@@ -942,12 +1282,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3f45a860-1bb5-4cb0-8329-f06d0d110270",
               "players": [
                 {
+                  "playerId": "team-player/a876c089-d35e-427f-aef2-ff2fa00b3aa4",
                   "name": "Mohamed Nasr",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/fd1eb667-faee-4ed7-9dc1-dbdca2cd39ab",
                   "name": "Stephen Mulliner",
                   "score": "7"
                 }
@@ -956,12 +1299,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/ff4379df-dd79-4c31-987e-bfcaacbd9005",
               "players": [
                 {
+                  "playerId": "team-player/a876c089-d35e-427f-aef2-ff2fa00b3aa4",
                   "name": "Mohamed Nasr",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/fd1eb667-faee-4ed7-9dc1-dbdca2cd39ab",
                   "name": "Stephen Mulliner",
                   "score": "7"
                 }

@@ -1,51 +1,91 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/8fd37fdb-c0e9-4a33-aadb-373b52b41252",
   "name": "CTI Senior Interclub (R3)",
   "sport": "gc",
   "firstDay": "2022-10-10",
   "lastDay": "2022-10-10",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "TS",
       "shortName": "TS",
       "players": [
-        "Brian Reader",
-        "Brian Reader & Cheryl Gyde",
-        "Cheryl Gyde"
+        {
+          "playerId": "team-player/8d047f96-6249-4b9a-a73e-c5124a9e3aa5",
+          "name": "Brian Reader"
+        },
+        {
+          "playerId": "team-player/9ccb211e-345b-4ab6-b77e-28c05ed4e683",
+          "name": "Brian Reader & Cheryl Gyde"
+        },
+        {
+          "playerId": "team-player/76359374-6180-420b-a631-c1b4a27f5d49",
+          "name": "Cheryl Gyde"
+        }
       ]
     },
     {
       "name": "WE",
       "shortName": "WE",
       "players": [
-        "Lorraine Chard & Margaret Dobbin",
-        "Lorriane Chard",
-        "Margaret Dobbin"
+        {
+          "playerId": "team-player/4fc0ca41-3f29-4157-85ce-4493270efc78",
+          "name": "Lorraine Chard & Margaret Dobbin"
+        },
+        {
+          "playerId": "team-player/41052e1b-2bbb-44e0-914f-4c11bdd51a08",
+          "name": "Lorriane Chard"
+        },
+        {
+          "playerId": "team-player/4651f75f-400e-447b-93a3-9753cebb846c",
+          "name": "Margaret Dobbin"
+        }
       ]
     },
     {
       "name": "NP 1",
       "shortName": "NP 1",
       "players": [
-        "Bob Thomas",
-        "Bob Thomas & Lyn Nickel",
-        "Lyn Nickel"
+        {
+          "playerId": "team-player/03636a13-6fc3-4279-80d2-12b14a7727db",
+          "name": "Bob Thomas"
+        },
+        {
+          "playerId": "team-player/6ed18bc6-3293-4483-ba2a-9220ff131bd4",
+          "name": "Bob Thomas & Lyn Nickel"
+        },
+        {
+          "playerId": "team-player/bce49e2e-c172-439b-a6cb-ca14c6aee869",
+          "name": "Lyn Nickel"
+        }
       ]
     },
     {
       "name": "NP 2",
       "shortName": "NP 2",
       "players": [
-        "Bryan Blencowe",
-        "Bryan Blencowe & Marie Wellington",
-        "Marie Wellington"
+        {
+          "playerId": "team-player/307f9ec3-e476-48c8-bb50-b6759596ac04",
+          "name": "Bryan Blencowe"
+        },
+        {
+          "playerId": "team-player/e952c89a-f191-443e-875d-5fd74ed60e21",
+          "name": "Bryan Blencowe & Marie Wellington"
+        },
+        {
+          "playerId": "team-player/eb72c125-0ea4-4a7c-8329-fc502507ab34",
+          "name": "Marie Wellington"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/aa4abc2b-e529-43a0-b23d-ff47ec7400ea",
       "teams": [
         "TS",
         "WE"
@@ -55,17 +95,26 @@
       "matches": [
         {
           "players": [
-            "Brian Reader & Cheryl Gyde",
-            "Lorraine Chard & Margaret Dobbin"
+            {
+              "playerId": "team-player/9ccb211e-345b-4ab6-b77e-28c05ed4e683",
+              "name": "Brian Reader & Cheryl Gyde"
+            },
+            {
+              "playerId": "team-player/4fc0ca41-3f29-4157-85ce-4493270efc78",
+              "name": "Lorraine Chard & Margaret Dobbin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fa67c404-168d-439a-b5b5-f3a44b25660e",
               "players": [
                 {
+                  "playerId": "team-player/9ccb211e-345b-4ab6-b77e-28c05ed4e683",
                   "name": "Brian Reader & Cheryl Gyde",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/4fc0ca41-3f29-4157-85ce-4493270efc78",
                   "name": "Lorraine Chard & Margaret Dobbin",
                   "score": "6"
                 }
@@ -77,17 +126,26 @@
         },
         {
           "players": [
-            "Cheryl Gyde",
-            "Lorriane Chard"
+            {
+              "playerId": "team-player/76359374-6180-420b-a631-c1b4a27f5d49",
+              "name": "Cheryl Gyde"
+            },
+            {
+              "playerId": "team-player/41052e1b-2bbb-44e0-914f-4c11bdd51a08",
+              "name": "Lorriane Chard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/fb9bbca3-8561-4819-9cf9-b51b7748dd24",
               "players": [
                 {
+                  "playerId": "team-player/76359374-6180-420b-a631-c1b4a27f5d49",
                   "name": "Cheryl Gyde",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/41052e1b-2bbb-44e0-914f-4c11bdd51a08",
                   "name": "Lorriane Chard",
                   "score": "7"
                 }
@@ -99,17 +157,26 @@
         },
         {
           "players": [
-            "Brian Reader",
-            "Margaret Dobbin"
+            {
+              "playerId": "team-player/8d047f96-6249-4b9a-a73e-c5124a9e3aa5",
+              "name": "Brian Reader"
+            },
+            {
+              "playerId": "team-player/4651f75f-400e-447b-93a3-9753cebb846c",
+              "name": "Margaret Dobbin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/aca487c2-29e8-49d4-8cbd-3297d26043f6",
               "players": [
                 {
+                  "playerId": "team-player/8d047f96-6249-4b9a-a73e-c5124a9e3aa5",
                   "name": "Brian Reader",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/4651f75f-400e-447b-93a3-9753cebb846c",
                   "name": "Margaret Dobbin",
                   "score": "7"
                 }
@@ -121,17 +188,26 @@
         },
         {
           "players": [
-            "Brian Reader",
-            "Lorriane Chard"
+            {
+              "playerId": "team-player/8d047f96-6249-4b9a-a73e-c5124a9e3aa5",
+              "name": "Brian Reader"
+            },
+            {
+              "playerId": "team-player/41052e1b-2bbb-44e0-914f-4c11bdd51a08",
+              "name": "Lorriane Chard"
+            }
           ],
           "games": [
             {
+              "gameId": "game/db1e9172-90d9-497b-8870-0be5ac292d5d",
               "players": [
                 {
+                  "playerId": "team-player/8d047f96-6249-4b9a-a73e-c5124a9e3aa5",
                   "name": "Brian Reader",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/41052e1b-2bbb-44e0-914f-4c11bdd51a08",
                   "name": "Lorriane Chard",
                   "score": "7"
                 }
@@ -143,17 +219,26 @@
         },
         {
           "players": [
-            "Cheryl Gyde",
-            "Margaret Dobbin"
+            {
+              "playerId": "team-player/76359374-6180-420b-a631-c1b4a27f5d49",
+              "name": "Cheryl Gyde"
+            },
+            {
+              "playerId": "team-player/4651f75f-400e-447b-93a3-9753cebb846c",
+              "name": "Margaret Dobbin"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e1351c9b-8821-4119-a484-237e8d481791",
               "players": [
                 {
+                  "playerId": "team-player/76359374-6180-420b-a631-c1b4a27f5d49",
                   "name": "Cheryl Gyde",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/4651f75f-400e-447b-93a3-9753cebb846c",
                   "name": "Margaret Dobbin",
                   "score": "7"
                 }
@@ -166,6 +251,7 @@
       ]
     },
     {
+      "competitionId": "competition/da93fd8f-3ff3-4125-bf26-5b189aff3264",
       "teams": [
         "NP 1",
         "NP 2"
@@ -175,17 +261,26 @@
       "matches": [
         {
           "players": [
-            "Bob Thomas",
-            "Bryan Blencowe"
+            {
+              "playerId": "team-player/03636a13-6fc3-4279-80d2-12b14a7727db",
+              "name": "Bob Thomas"
+            },
+            {
+              "playerId": "team-player/307f9ec3-e476-48c8-bb50-b6759596ac04",
+              "name": "Bryan Blencowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0f313bed-afb0-4da1-8f6a-bf6609eca4f9",
               "players": [
                 {
+                  "playerId": "team-player/03636a13-6fc3-4279-80d2-12b14a7727db",
                   "name": "Bob Thomas",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/307f9ec3-e476-48c8-bb50-b6759596ac04",
                   "name": "Bryan Blencowe",
                   "score": "7"
                 }
@@ -197,17 +292,26 @@
         },
         {
           "players": [
-            "Lyn Nickel",
-            "Marie Wellington"
+            {
+              "playerId": "team-player/bce49e2e-c172-439b-a6cb-ca14c6aee869",
+              "name": "Lyn Nickel"
+            },
+            {
+              "playerId": "team-player/eb72c125-0ea4-4a7c-8329-fc502507ab34",
+              "name": "Marie Wellington"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a58e9de8-7afc-49ad-b01e-5b9a9df9b1b6",
               "players": [
                 {
+                  "playerId": "team-player/bce49e2e-c172-439b-a6cb-ca14c6aee869",
                   "name": "Lyn Nickel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/eb72c125-0ea4-4a7c-8329-fc502507ab34",
                   "name": "Marie Wellington",
                   "score": "4"
                 }
@@ -219,17 +323,26 @@
         },
         {
           "players": [
-            "Bob Thomas & Lyn Nickel",
-            "Bryan Blencowe & Marie Wellington"
+            {
+              "playerId": "team-player/6ed18bc6-3293-4483-ba2a-9220ff131bd4",
+              "name": "Bob Thomas & Lyn Nickel"
+            },
+            {
+              "playerId": "team-player/e952c89a-f191-443e-875d-5fd74ed60e21",
+              "name": "Bryan Blencowe & Marie Wellington"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d354ce24-16e4-48d8-aa36-093dac53ec6c",
               "players": [
                 {
+                  "playerId": "team-player/6ed18bc6-3293-4483-ba2a-9220ff131bd4",
                   "name": "Bob Thomas & Lyn Nickel",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/e952c89a-f191-443e-875d-5fd74ed60e21",
                   "name": "Bryan Blencowe & Marie Wellington",
                   "score": "2"
                 }
@@ -241,17 +354,26 @@
         },
         {
           "players": [
-            "Bob Thomas",
-            "Marie Wellington"
+            {
+              "playerId": "team-player/03636a13-6fc3-4279-80d2-12b14a7727db",
+              "name": "Bob Thomas"
+            },
+            {
+              "playerId": "team-player/eb72c125-0ea4-4a7c-8329-fc502507ab34",
+              "name": "Marie Wellington"
+            }
           ],
           "games": [
             {
+              "gameId": "game/372a9351-3ee5-456f-98d1-ce2407f44610",
               "players": [
                 {
+                  "playerId": "team-player/03636a13-6fc3-4279-80d2-12b14a7727db",
                   "name": "Bob Thomas",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/eb72c125-0ea4-4a7c-8329-fc502507ab34",
                   "name": "Marie Wellington",
                   "score": "6"
                 }
@@ -263,17 +385,26 @@
         },
         {
           "players": [
-            "Lyn Nickel",
-            "Bryan Blencowe"
+            {
+              "playerId": "team-player/bce49e2e-c172-439b-a6cb-ca14c6aee869",
+              "name": "Lyn Nickel"
+            },
+            {
+              "playerId": "team-player/307f9ec3-e476-48c8-bb50-b6759596ac04",
+              "name": "Bryan Blencowe"
+            }
           ],
           "games": [
             {
+              "gameId": "game/360e5b9a-127f-4206-8de8-727d8cfa5e8f",
               "players": [
                 {
+                  "playerId": "team-player/bce49e2e-c172-439b-a6cb-ca14c6aee869",
                   "name": "Lyn Nickel",
                   "score": "4"
                 },
                 {
+                  "playerId": "team-player/307f9ec3-e476-48c8-bb50-b6759596ac04",
                   "name": "Bryan Blencowe",
                   "score": "7"
                 }

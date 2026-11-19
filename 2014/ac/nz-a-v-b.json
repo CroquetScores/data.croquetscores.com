@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/72684420-eb50-4d3d-9ebe-5d12e843764d",
   "name": "NZ A v B",
   "sport": "ac",
   "firstDay": "2014-11-10",
   "lastDay": "2014-12-10",
   "country": "nz",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "NZ A Team",
       "shortName": "NZ A Team",
       "players": [
-        "Chris Shilling",
-        "Edmund Fordyce",
-        "Greg Bryant",
-        "Mike Crashley",
-        "Steve Jones"
+        {
+          "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
+          "name": "Chris Shilling"
+        },
+        {
+          "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
+          "name": "Edmund Fordyce"
+        },
+        {
+          "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
+          "name": "Greg Bryant"
+        },
+        {
+          "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
+          "name": "Mike Crashley"
+        },
+        {
+          "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
+          "name": "Steve Jones"
+        }
       ]
     },
     {
       "name": "NZ B Team",
       "shortName": "NZ B Team",
       "players": [
-        "Aiken Hakes",
-        "Brian Bullen",
-        "Michael Wright",
-        "Paul Skinley",
-        "Peter Filbee"
+        {
+          "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
+          "name": "Aiken Hakes"
+        },
+        {
+          "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
+          "name": "Brian Bullen"
+        },
+        {
+          "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
+          "name": "Michael Wright"
+        },
+        {
+          "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
+          "name": "Paul Skinley"
+        },
+        {
+          "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
+          "name": "Peter Filbee"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/cbc3b7e4-6db6-4430-aa4e-677dae9f5944",
       "teams": [
         "NZ A Team",
         "NZ B Team"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Edmund Fordyce",
-            "Aiken Hakes"
+            {
+              "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
+              "name": "Edmund Fordyce"
+            },
+            {
+              "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
+              "name": "Aiken Hakes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f42aee41-8ed8-4322-85cd-457d6bcef121",
               "players": [
                 {
+                  "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
                   "name": "Edmund Fordyce",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
                   "name": "Aiken Hakes",
                   "score": "26tp"
                 }
@@ -63,17 +106,26 @@
         },
         {
           "players": [
-            "Greg Bryant",
-            "Michael Wright"
+            {
+              "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
+              "name": "Greg Bryant"
+            },
+            {
+              "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
+              "name": "Michael Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f515db2b-1cd6-40af-be08-6d67bbefd211",
               "players": [
                 {
+                  "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
                   "name": "Greg Bryant",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
                   "name": "Michael Wright",
                   "score": "2"
                 }
@@ -85,17 +137,26 @@
         },
         {
           "players": [
-            "Mike Crashley",
-            "Paul Skinley"
+            {
+              "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
+              "name": "Mike Crashley"
+            },
+            {
+              "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
+              "name": "Paul Skinley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1b4a99e9-e4a6-43fc-a903-2c26aa79bf8a",
               "players": [
                 {
+                  "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
                   "name": "Mike Crashley",
                   "score": "0"
                 },
                 {
+                  "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
                   "name": "Paul Skinley",
                   "score": "26tp"
                 }
@@ -107,17 +168,26 @@
         },
         {
           "players": [
-            "Steve Jones",
-            "Peter Filbee"
+            {
+              "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
+              "name": "Steve Jones"
+            },
+            {
+              "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
+              "name": "Peter Filbee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/0ae7acf4-4968-4929-8fb9-2f2aa3fe9d5b",
               "players": [
                 {
+                  "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
                   "name": "Steve Jones",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
                   "name": "Peter Filbee",
                   "score": "4"
                 }
@@ -129,17 +199,26 @@
         },
         {
           "players": [
-            "Chris Shilling",
-            "Brian Bullen"
+            {
+              "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
+              "name": "Chris Shilling"
+            },
+            {
+              "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
+              "name": "Brian Bullen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7eb739c0-ffda-4d19-8699-5bf699023280",
               "players": [
                 {
+                  "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
                   "name": "Chris Shilling",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
                   "name": "Brian Bullen",
                   "score": "14"
                 }
@@ -151,17 +230,26 @@
         },
         {
           "players": [
-            "Greg Bryant",
-            "Brian Bullen"
+            {
+              "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
+              "name": "Greg Bryant"
+            },
+            {
+              "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
+              "name": "Brian Bullen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6dc8333f-cbaf-40b2-9bf2-0f1656d14673",
               "players": [
                 {
+                  "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
                   "name": "Greg Bryant",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
                   "name": "Brian Bullen",
                   "score": "16"
                 }
@@ -173,17 +261,26 @@
         },
         {
           "players": [
-            "Mike Crashley",
-            "Aiken Hakes"
+            {
+              "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
+              "name": "Mike Crashley"
+            },
+            {
+              "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
+              "name": "Aiken Hakes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e4f4676a-6ce0-4915-9ec1-6b597b13124d",
               "players": [
                 {
+                  "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
                   "name": "Mike Crashley",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
                   "name": "Aiken Hakes",
                   "score": "26"
                 }
@@ -195,17 +292,26 @@
         },
         {
           "players": [
-            "Edmund Fordyce",
-            "Michael Wright"
+            {
+              "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
+              "name": "Edmund Fordyce"
+            },
+            {
+              "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
+              "name": "Michael Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ddc9d526-6e93-4933-b07a-a205b05bf729",
               "players": [
                 {
+                  "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
                   "name": "Edmund Fordyce",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
                   "name": "Michael Wright",
                   "score": "26"
                 }
@@ -217,17 +323,26 @@
         },
         {
           "players": [
-            "Chris Shilling",
-            "Peter Filbee"
+            {
+              "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
+              "name": "Chris Shilling"
+            },
+            {
+              "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
+              "name": "Peter Filbee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c2a156de-2a31-40dd-a045-dbf19123ed43",
               "players": [
                 {
+                  "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
                   "name": "Chris Shilling",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
                   "name": "Peter Filbee",
                   "score": "9"
                 }
@@ -239,17 +354,26 @@
         },
         {
           "players": [
-            "Steve Jones",
-            "Paul Skinley"
+            {
+              "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
+              "name": "Steve Jones"
+            },
+            {
+              "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
+              "name": "Paul Skinley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/f8952bd2-810f-4f2b-8812-f986edbb610e",
               "players": [
                 {
+                  "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
                   "name": "Steve Jones",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
                   "name": "Paul Skinley",
                   "score": "26"
                 }
@@ -261,17 +385,26 @@
         },
         {
           "players": [
-            "Greg Bryant",
-            "Peter Filbee"
+            {
+              "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
+              "name": "Greg Bryant"
+            },
+            {
+              "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
+              "name": "Peter Filbee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/37c0141c-c43f-4c1c-b206-90455cfb940a",
               "players": [
                 {
+                  "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
                   "name": "Greg Bryant",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
                   "name": "Peter Filbee",
                   "score": "11"
                 }
@@ -283,17 +416,26 @@
         },
         {
           "players": [
-            "Chris Shilling",
-            "Paul Skinley"
+            {
+              "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
+              "name": "Chris Shilling"
+            },
+            {
+              "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
+              "name": "Paul Skinley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/02e34959-3205-448c-b664-da8088e7b378",
               "players": [
                 {
+                  "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
                   "name": "Chris Shilling",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
                   "name": "Paul Skinley",
                   "score": "26TP"
                 }
@@ -305,17 +447,26 @@
         },
         {
           "players": [
-            "Steve Jones",
-            "Aiken Hakes"
+            {
+              "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
+              "name": "Steve Jones"
+            },
+            {
+              "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
+              "name": "Aiken Hakes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9946c74e-de8a-4916-931f-a93f8acd8159",
               "players": [
                 {
+                  "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
                   "name": "Steve Jones",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
                   "name": "Aiken Hakes",
                   "score": "26"
                 }
@@ -327,17 +478,26 @@
         },
         {
           "players": [
-            "Mike Crashley",
-            "Michael Wright"
+            {
+              "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
+              "name": "Mike Crashley"
+            },
+            {
+              "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
+              "name": "Michael Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/93ba3e32-5baf-4849-9724-25d434c25cf6",
               "players": [
                 {
+                  "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
                   "name": "Mike Crashley",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
                   "name": "Michael Wright",
                   "score": "26"
                 }
@@ -349,17 +509,26 @@
         },
         {
           "players": [
-            "Edmund Fordyce",
-            "Brian Bullen"
+            {
+              "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
+              "name": "Edmund Fordyce"
+            },
+            {
+              "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
+              "name": "Brian Bullen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9b8b6cfc-f33a-4bdd-a1ee-ee2de63e9282",
               "players": [
                 {
+                  "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
                   "name": "Edmund Fordyce",
                   "score": "24"
                 },
                 {
+                  "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
                   "name": "Brian Bullen",
                   "score": "26"
                 }
@@ -371,17 +540,26 @@
         },
         {
           "players": [
-            "Greg Bryant",
-            "Aiken Hakes"
+            {
+              "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
+              "name": "Greg Bryant"
+            },
+            {
+              "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
+              "name": "Aiken Hakes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/bc23aaea-6eb6-4cc9-a83e-c4c59073eaaf",
               "players": [
                 {
+                  "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
                   "name": "Greg Bryant",
                   "score": "26tpo"
                 },
                 {
+                  "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
                   "name": "Aiken Hakes",
                   "score": "14"
                 }
@@ -393,17 +571,26 @@
         },
         {
           "players": [
-            "Chris Shilling",
-            "Michael Wright"
+            {
+              "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
+              "name": "Chris Shilling"
+            },
+            {
+              "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
+              "name": "Michael Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/af9dac9b-5267-4a14-b629-da5e36373536",
               "players": [
                 {
+                  "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
                   "name": "Chris Shilling",
                   "score": "26tp"
                 },
                 {
+                  "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
                   "name": "Michael Wright",
                   "score": "3"
                 }
@@ -415,17 +602,26 @@
         },
         {
           "players": [
-            "Edmund Fordyce",
-            "Paul Skinley"
+            {
+              "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
+              "name": "Edmund Fordyce"
+            },
+            {
+              "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
+              "name": "Paul Skinley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/d9325ad6-1acd-4fda-b5d7-1f4ca3b7fb13",
               "players": [
                 {
+                  "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
                   "name": "Edmund Fordyce",
                   "score": "10"
                 },
                 {
+                  "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
                   "name": "Paul Skinley",
                   "score": "26tp"
                 }
@@ -437,17 +633,26 @@
         },
         {
           "players": [
-            "Mike Crashley",
-            "Peter Filbee"
+            {
+              "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
+              "name": "Mike Crashley"
+            },
+            {
+              "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
+              "name": "Peter Filbee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/5a01bfb3-35f1-4463-a5de-0194adcd067c",
               "players": [
                 {
+                  "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
                   "name": "Mike Crashley",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
                   "name": "Peter Filbee",
                   "score": "26"
                 }
@@ -459,17 +664,26 @@
         },
         {
           "players": [
-            "Steve Jones",
-            "Brian Bullen"
+            {
+              "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
+              "name": "Steve Jones"
+            },
+            {
+              "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
+              "name": "Brian Bullen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/52b614b6-f441-472b-bc55-89ce7426f9d4",
               "players": [
                 {
+                  "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
                   "name": "Steve Jones",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
                   "name": "Brian Bullen",
                   "score": "22"
                 }
@@ -481,17 +695,26 @@
         },
         {
           "players": [
-            "Greg Bryant",
-            "Paul Skinley"
+            {
+              "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
+              "name": "Greg Bryant"
+            },
+            {
+              "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
+              "name": "Paul Skinley"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8163c3c3-1302-44f8-bad3-680c54d8f642",
               "players": [
                 {
+                  "playerId": "team-player/c0afdaa2-4ff8-47ab-a11a-259e440f2892",
                   "name": "Greg Bryant",
                   "score": "25"
                 },
                 {
+                  "playerId": "team-player/e7181cde-6157-48b1-a894-ebe29a0e2d67",
                   "name": "Paul Skinley",
                   "score": "26"
                 }
@@ -503,17 +726,26 @@
         },
         {
           "players": [
-            "Edmund Fordyce",
-            "Peter Filbee"
+            {
+              "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
+              "name": "Edmund Fordyce"
+            },
+            {
+              "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
+              "name": "Peter Filbee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/9480148d-3597-4a53-a4ad-c44045b6b33c",
               "players": [
                 {
+                  "playerId": "team-player/272ef1ef-19e0-47a9-9917-b3f4188caa7f",
                   "name": "Edmund Fordyce",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d4a5bdf8-232a-43f6-bd66-da26979081e0",
                   "name": "Peter Filbee",
                   "score": "13"
                 }
@@ -525,17 +757,26 @@
         },
         {
           "players": [
-            "Steve Jones",
-            "Michael Wright"
+            {
+              "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
+              "name": "Steve Jones"
+            },
+            {
+              "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
+              "name": "Michael Wright"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e8468265-6d6d-4419-b2ad-ca0d863c3047",
               "players": [
                 {
+                  "playerId": "team-player/d7aeaf98-79e4-4ade-8741-61a4d956b2b0",
                   "name": "Steve Jones",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/f19a2ab2-760f-492e-85f9-28a732eeb86c",
                   "name": "Michael Wright",
                   "score": "9"
                 }
@@ -547,17 +788,26 @@
         },
         {
           "players": [
-            "Chris Shilling",
-            "Aiken Hakes"
+            {
+              "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
+              "name": "Chris Shilling"
+            },
+            {
+              "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
+              "name": "Aiken Hakes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/73c240d7-55a8-4b51-9a97-9613b27d0556",
               "players": [
                 {
+                  "playerId": "team-player/89fd2c3a-3c94-421e-a30a-52f14a29f5af",
                   "name": "Chris Shilling",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/40b00ae9-5ded-43dc-b3a4-75b3ab68e7c3",
                   "name": "Aiken Hakes",
                   "score": "26tp"
                 }
@@ -569,17 +819,26 @@
         },
         {
           "players": [
-            "Mike Crashley",
-            "Brian Bullen"
+            {
+              "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
+              "name": "Mike Crashley"
+            },
+            {
+              "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
+              "name": "Brian Bullen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2c6d8641-fd44-4076-8949-fe816a7d2854",
               "players": [
                 {
+                  "playerId": "team-player/66fd77da-6cf9-4c5d-9dfb-48f85aeff625",
                   "name": "Mike Crashley",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/21bfaaff-5880-40d2-bd08-aa0a6251fe7d",
                   "name": "Brian Bullen",
                   "score": "20"
                 }

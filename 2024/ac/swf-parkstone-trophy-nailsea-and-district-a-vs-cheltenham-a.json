@@ -1,36 +1,67 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/21c6835f-c0aa-4163-93d5-a44f90a62a14",
   "name": "SWF Parkstone Trophy Nailsea and District A vs Cheltenham A",
   "sport": "ac",
   "firstDay": "2024-08-04",
   "lastDay": "2024-08-04",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Nailsea and District A",
       "shortName": "Nailsea an",
       "players": [
-        "Geoff Hughes",
-        "Geoff Hughes & Robert Upton",
-        "Marcus Evans",
-        "Robert Upton"
+        {
+          "playerId": "team-player/5ec2cb32-7780-4de5-8528-e24f6fdf844c",
+          "name": "Geoff Hughes"
+        },
+        {
+          "playerId": "team-player/d27c20cf-6e81-4060-8d79-b919d2e55ae2",
+          "name": "Geoff Hughes & Robert Upton"
+        },
+        {
+          "playerId": "team-player/f033cd9f-4a6f-4dcf-b3cc-b4f043e41464",
+          "name": "Marcus Evans"
+        },
+        {
+          "playerId": "team-player/30b456fe-fa09-4954-bcab-0f3a87539475",
+          "name": "Robert Upton"
+        }
       ]
     },
     {
       "name": "Cheltenham A",
       "shortName": "Cheltenham",
       "players": [
-        "James Death",
-        "James Death & Louise Bradforth",
-        "Louise Bradforth",
-        "Mark Suter",
-        "Sarah Hayes"
+        {
+          "playerId": "team-player/f7125464-aaad-46be-ae42-89d197767e96",
+          "name": "James Death"
+        },
+        {
+          "playerId": "team-player/7936169f-1ea4-4b83-b3f9-9e67bee324d8",
+          "name": "James Death & Louise Bradforth"
+        },
+        {
+          "playerId": "team-player/f79369d3-a331-44f7-9269-5b92db1c3b8e",
+          "name": "Louise Bradforth"
+        },
+        {
+          "playerId": "team-player/e8825bb5-3e62-4081-abaf-b933bff37a5a",
+          "name": "Mark Suter"
+        },
+        {
+          "playerId": "team-player/6581b4af-9255-49fe-8996-4c172dfb1750",
+          "name": "Sarah Hayes"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/d92c9198-f68f-4480-9edc-164d6097915f",
       "teams": [
         "Nailsea and District A",
         "Cheltenham A"
@@ -40,17 +71,26 @@
       "matches": [
         {
           "players": [
-            "Marcus Evans",
-            "Mark Suter"
+            {
+              "playerId": "team-player/f033cd9f-4a6f-4dcf-b3cc-b4f043e41464",
+              "name": "Marcus Evans"
+            },
+            {
+              "playerId": "team-player/e8825bb5-3e62-4081-abaf-b933bff37a5a",
+              "name": "Mark Suter"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1e03f63f-fa3c-4b45-902b-e80c21654daa",
               "players": [
                 {
+                  "playerId": "team-player/f033cd9f-4a6f-4dcf-b3cc-b4f043e41464",
                   "name": "Marcus Evans",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e8825bb5-3e62-4081-abaf-b933bff37a5a",
                   "name": "Mark Suter",
                   "score": "0"
                 }
@@ -62,17 +102,26 @@
         },
         {
           "players": [
-            "Geoff Hughes & Robert Upton",
-            "James Death & Louise Bradforth"
+            {
+              "playerId": "team-player/d27c20cf-6e81-4060-8d79-b919d2e55ae2",
+              "name": "Geoff Hughes & Robert Upton"
+            },
+            {
+              "playerId": "team-player/7936169f-1ea4-4b83-b3f9-9e67bee324d8",
+              "name": "James Death & Louise Bradforth"
+            }
           ],
           "games": [
             {
+              "gameId": "game/997ea86a-dd20-4313-bf3d-8149da93c4fd",
               "players": [
                 {
+                  "playerId": "team-player/d27c20cf-6e81-4060-8d79-b919d2e55ae2",
                   "name": "Geoff Hughes & Robert Upton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/7936169f-1ea4-4b83-b3f9-9e67bee324d8",
                   "name": "James Death & Louise Bradforth",
                   "score": "26"
                 }
@@ -84,17 +133,26 @@
         },
         {
           "players": [
-            "Marcus Evans",
-            "James Death"
+            {
+              "playerId": "team-player/f033cd9f-4a6f-4dcf-b3cc-b4f043e41464",
+              "name": "Marcus Evans"
+            },
+            {
+              "playerId": "team-player/f7125464-aaad-46be-ae42-89d197767e96",
+              "name": "James Death"
+            }
           ],
           "games": [
             {
+              "gameId": "game/55f7a7d9-955f-4a8d-9402-caadc1bc40b8",
               "players": [
                 {
+                  "playerId": "team-player/f033cd9f-4a6f-4dcf-b3cc-b4f043e41464",
                   "name": "Marcus Evans",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/f7125464-aaad-46be-ae42-89d197767e96",
                   "name": "James Death",
                   "score": "26TP"
                 }
@@ -106,17 +164,26 @@
         },
         {
           "players": [
-            "Robert Upton",
-            "Sarah Hayes"
+            {
+              "playerId": "team-player/30b456fe-fa09-4954-bcab-0f3a87539475",
+              "name": "Robert Upton"
+            },
+            {
+              "playerId": "team-player/6581b4af-9255-49fe-8996-4c172dfb1750",
+              "name": "Sarah Hayes"
+            }
           ],
           "games": [
             {
+              "gameId": "game/cc1565c2-00e9-4cf5-b72c-f100e39a8d91",
               "players": [
                 {
+                  "playerId": "team-player/30b456fe-fa09-4954-bcab-0f3a87539475",
                   "name": "Robert Upton",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/6581b4af-9255-49fe-8996-4c172dfb1750",
                   "name": "Sarah Hayes",
                   "score": "26"
                 }

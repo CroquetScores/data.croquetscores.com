@@ -1,35 +1,63 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/2a67c381-1c94-4c70-a5cc-4ab10d3c36bd",
   "name": "SWCF Advanced AC League Div 3: Bath vs Sidmouth B",
   "sport": "ac",
   "firstDay": "2026-07-29",
   "lastDay": "2026-07-29",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Bath",
       "shortName": "Bath",
       "players": [
-        "David Prescott",
-        "Martin Alabaster",
-        "Neil Pinker",
-        "Neil Pinker & Martin Alabaster"
+        {
+          "playerId": "team-player/fc3a1fd9-bb93-44d4-8247-1f984fd1f79b",
+          "name": "David Prescott"
+        },
+        {
+          "playerId": "team-player/a9c5c071-2317-4286-ab4a-425ea918f582",
+          "name": "Martin Alabaster"
+        },
+        {
+          "playerId": "team-player/d3ee30ab-6f21-4eb3-898f-a80d7f386430",
+          "name": "Neil Pinker"
+        },
+        {
+          "playerId": "team-player/ef1c10e7-28f0-4386-9a1e-9ffbe8629587",
+          "name": "Neil Pinker & Martin Alabaster"
+        }
       ]
     },
     {
       "name": "Sidmouth B",
       "shortName": "Sidmouth B",
       "players": [
-        "Andrew Thomas",
-        "Chris Donovan",
-        "Richard Wood",
-        "Richard Wood & Chris Donovan"
+        {
+          "playerId": "team-player/d46b33bb-66cb-4add-ae48-a35874ab4657",
+          "name": "Andrew Thomas"
+        },
+        {
+          "playerId": "team-player/9a4eb727-e580-47b6-89c5-6f3ef1638316",
+          "name": "Chris Donovan"
+        },
+        {
+          "playerId": "team-player/1c99e5e6-8cec-4c28-8f02-b28f4dba3c26",
+          "name": "Richard Wood"
+        },
+        {
+          "playerId": "team-player/4202e826-b99a-4ef7-8114-c8329430181b",
+          "name": "Richard Wood & Chris Donovan"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/07bf10e4-9991-433c-b8de-d82385336c71",
       "teams": [
         "Bath",
         "Sidmouth B"
@@ -39,17 +67,26 @@
       "matches": [
         {
           "players": [
-            "Neil Pinker & Martin Alabaster",
-            "Richard Wood & Chris Donovan"
+            {
+              "playerId": "team-player/ef1c10e7-28f0-4386-9a1e-9ffbe8629587",
+              "name": "Neil Pinker & Martin Alabaster"
+            },
+            {
+              "playerId": "team-player/4202e826-b99a-4ef7-8114-c8329430181b",
+              "name": "Richard Wood & Chris Donovan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/e391601d-aece-4550-85dd-5350261aa745",
               "players": [
                 {
+                  "playerId": "team-player/ef1c10e7-28f0-4386-9a1e-9ffbe8629587",
                   "name": "Neil Pinker & Martin Alabaster",
                   "score": "23"
                 },
                 {
+                  "playerId": "team-player/4202e826-b99a-4ef7-8114-c8329430181b",
                   "name": "Richard Wood & Chris Donovan",
                   "score": "21"
                 }
@@ -61,17 +98,26 @@
         },
         {
           "players": [
-            "David Prescott",
-            "Andrew Thomas"
+            {
+              "playerId": "team-player/fc3a1fd9-bb93-44d4-8247-1f984fd1f79b",
+              "name": "David Prescott"
+            },
+            {
+              "playerId": "team-player/d46b33bb-66cb-4add-ae48-a35874ab4657",
+              "name": "Andrew Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c4068fad-6591-4369-832b-9f7f8dcb4d68",
               "players": [
                 {
+                  "playerId": "team-player/fc3a1fd9-bb93-44d4-8247-1f984fd1f79b",
                   "name": "David Prescott",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/d46b33bb-66cb-4add-ae48-a35874ab4657",
                   "name": "Andrew Thomas",
                   "score": "19"
                 }
@@ -83,17 +129,26 @@
         },
         {
           "players": [
-            "David Prescott",
-            "Richard Wood"
+            {
+              "playerId": "team-player/fc3a1fd9-bb93-44d4-8247-1f984fd1f79b",
+              "name": "David Prescott"
+            },
+            {
+              "playerId": "team-player/1c99e5e6-8cec-4c28-8f02-b28f4dba3c26",
+              "name": "Richard Wood"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1d8b04ec-6077-49bb-bdb6-defa23dc2138",
               "players": [
                 {
+                  "playerId": "team-player/fc3a1fd9-bb93-44d4-8247-1f984fd1f79b",
                   "name": "David Prescott",
                   "score": "12"
                 },
                 {
+                  "playerId": "team-player/1c99e5e6-8cec-4c28-8f02-b28f4dba3c26",
                   "name": "Richard Wood",
                   "score": "21"
                 }
@@ -105,17 +160,26 @@
         },
         {
           "players": [
-            "Neil Pinker",
-            "Andrew Thomas"
+            {
+              "playerId": "team-player/d3ee30ab-6f21-4eb3-898f-a80d7f386430",
+              "name": "Neil Pinker"
+            },
+            {
+              "playerId": "team-player/d46b33bb-66cb-4add-ae48-a35874ab4657",
+              "name": "Andrew Thomas"
+            }
           ],
           "games": [
             {
+              "gameId": "game/3a514457-0d79-400e-b90a-26f6dc37e5e8",
               "players": [
                 {
+                  "playerId": "team-player/d3ee30ab-6f21-4eb3-898f-a80d7f386430",
                   "name": "Neil Pinker",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/d46b33bb-66cb-4add-ae48-a35874ab4657",
                   "name": "Andrew Thomas",
                   "score": "26"
                 }
@@ -127,17 +191,26 @@
         },
         {
           "players": [
-            "Martin Alabaster",
-            "Chris Donovan"
+            {
+              "playerId": "team-player/a9c5c071-2317-4286-ab4a-425ea918f582",
+              "name": "Martin Alabaster"
+            },
+            {
+              "playerId": "team-player/9a4eb727-e580-47b6-89c5-6f3ef1638316",
+              "name": "Chris Donovan"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ac70e112-c0fb-414a-bfd5-d1a0a7399134",
               "players": [
                 {
+                  "playerId": "team-player/a9c5c071-2317-4286-ab4a-425ea918f582",
                   "name": "Martin Alabaster",
                   "score": "8"
                 },
                 {
+                  "playerId": "team-player/9a4eb727-e580-47b6-89c5-6f3ef1638316",
                   "name": "Chris Donovan",
                   "score": "26"
                 }

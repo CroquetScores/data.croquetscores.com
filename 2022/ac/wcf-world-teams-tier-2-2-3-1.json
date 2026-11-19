@@ -1,39 +1,79 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/bb2a92a6-9c3e-4074-9ea8-7ede01955ca4",
   "name": "WCF AC World Teams Tier 2.2",
   "sport": "ac",
   "firstDay": "2022-08-13",
   "lastDay": "2022-08-14",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Canada",
       "shortName": "CAN",
       "players": [
-        "Brian Cumming",
-        "Brian Cumming & Nick Mitchell",
-        "Jim Wright",
-        "Jim Wright & Pierre Dunn",
-        "Nick Mitchell",
-        "Pierre Dunn"
+        {
+          "playerId": "team-player/f5a1fb45-276f-4f04-926f-809c508e430b",
+          "name": "Brian Cumming"
+        },
+        {
+          "playerId": "team-player/1fa45fc1-a047-4120-8a40-89ed8a2f9d19",
+          "name": "Brian Cumming & Nick Mitchell"
+        },
+        {
+          "playerId": "team-player/2aa74efb-d5b7-49ee-a22d-4de603eb5f1d",
+          "name": "Jim Wright"
+        },
+        {
+          "playerId": "team-player/e6cb36f2-fc57-443f-ab13-84c21094fabb",
+          "name": "Jim Wright & Pierre Dunn"
+        },
+        {
+          "playerId": "team-player/73708865-29d2-4897-b1b5-fa2a6679c67b",
+          "name": "Nick Mitchell"
+        },
+        {
+          "playerId": "team-player/7e044487-8daf-453d-9a66-3c7b13e9874b",
+          "name": "Pierre Dunn"
+        }
       ]
     },
     {
       "name": "Austria",
       "shortName": "AUT",
       "players": [
-        "Christophe Bergen",
-        "Heinz Hackl",
-        "Heinz Hackl & Christophe Bergen",
-        "Martin Guentner",
-        "Max Walderdorff",
-        "Max Walderdorff & Martin Guentner"
+        {
+          "playerId": "team-player/149aaeef-d6ed-4d34-b0d0-29b9834bf3f7",
+          "name": "Christophe Bergen"
+        },
+        {
+          "playerId": "team-player/e2d33595-b3c7-422f-9ed7-3a070b5c6974",
+          "name": "Heinz Hackl"
+        },
+        {
+          "playerId": "team-player/526b7d92-ac0b-4f92-a1b3-66c9e68bf373",
+          "name": "Heinz Hackl & Christophe Bergen"
+        },
+        {
+          "playerId": "team-player/830d47bb-0f74-42d1-b26b-b8ffa99a8c0a",
+          "name": "Martin Guentner"
+        },
+        {
+          "playerId": "team-player/e709c2b4-35c5-429b-b9d6-0cee77d3ddf1",
+          "name": "Max Walderdorff"
+        },
+        {
+          "playerId": "team-player/942ecf91-21b6-4d2d-8379-ad67f262be1c",
+          "name": "Max Walderdorff & Martin Guentner"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/72ce6df3-a6e5-4112-9fd9-c395df933ec6",
       "teams": [
         "Canada",
         "Austria"
@@ -43,17 +83,26 @@
       "matches": [
         {
           "players": [
-            "Brian Cumming & Nick Mitchell",
-            "Max Walderdorff & Martin Guentner"
+            {
+              "playerId": "team-player/1fa45fc1-a047-4120-8a40-89ed8a2f9d19",
+              "name": "Brian Cumming & Nick Mitchell"
+            },
+            {
+              "playerId": "team-player/942ecf91-21b6-4d2d-8379-ad67f262be1c",
+              "name": "Max Walderdorff & Martin Guentner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/8a6f4a42-2f84-4824-bc6e-039c4959b9e2",
               "players": [
                 {
+                  "playerId": "team-player/1fa45fc1-a047-4120-8a40-89ed8a2f9d19",
                   "name": "Brian Cumming & Nick Mitchell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/942ecf91-21b6-4d2d-8379-ad67f262be1c",
                   "name": "Max Walderdorff & Martin Guentner",
                   "score": "24"
                 }
@@ -62,12 +111,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/f15ba507-4fc1-4c6a-846d-097fe8405307",
               "players": [
                 {
+                  "playerId": "team-player/1fa45fc1-a047-4120-8a40-89ed8a2f9d19",
                   "name": "Brian Cumming & Nick Mitchell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/942ecf91-21b6-4d2d-8379-ad67f262be1c",
                   "name": "Max Walderdorff & Martin Guentner",
                   "score": "16"
                 }
@@ -79,17 +131,26 @@
         },
         {
           "players": [
-            "Jim Wright & Pierre Dunn",
-            "Heinz Hackl & Christophe Bergen"
+            {
+              "playerId": "team-player/e6cb36f2-fc57-443f-ab13-84c21094fabb",
+              "name": "Jim Wright & Pierre Dunn"
+            },
+            {
+              "playerId": "team-player/526b7d92-ac0b-4f92-a1b3-66c9e68bf373",
+              "name": "Heinz Hackl & Christophe Bergen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/ae01ab86-756c-44ab-9290-6553a5fb78c0",
               "players": [
                 {
+                  "playerId": "team-player/e6cb36f2-fc57-443f-ab13-84c21094fabb",
                   "name": "Jim Wright & Pierre Dunn",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/526b7d92-ac0b-4f92-a1b3-66c9e68bf373",
                   "name": "Heinz Hackl & Christophe Bergen",
                   "score": "13"
                 }
@@ -98,12 +159,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/82ef9b97-66bf-4f42-bfa1-8c878aa99c25",
               "players": [
                 {
+                  "playerId": "team-player/e6cb36f2-fc57-443f-ab13-84c21094fabb",
                   "name": "Jim Wright & Pierre Dunn",
                   "score": "9"
                 },
                 {
+                  "playerId": "team-player/526b7d92-ac0b-4f92-a1b3-66c9e68bf373",
                   "name": "Heinz Hackl & Christophe Bergen",
                   "score": "11T"
                 }
@@ -112,12 +176,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/a4b629af-18fc-46e1-a2a4-8d11b9d86cdd",
               "players": [
                 {
+                  "playerId": "team-player/e6cb36f2-fc57-443f-ab13-84c21094fabb",
                   "name": "Jim Wright & Pierre Dunn",
                   "score": "20T"
                 },
                 {
+                  "playerId": "team-player/526b7d92-ac0b-4f92-a1b3-66c9e68bf373",
                   "name": "Heinz Hackl & Christophe Bergen",
                   "score": "15"
                 }
@@ -129,17 +196,26 @@
         },
         {
           "players": [
-            "Nick Mitchell",
-            "Martin Guentner"
+            {
+              "playerId": "team-player/73708865-29d2-4897-b1b5-fa2a6679c67b",
+              "name": "Nick Mitchell"
+            },
+            {
+              "playerId": "team-player/830d47bb-0f74-42d1-b26b-b8ffa99a8c0a",
+              "name": "Martin Guentner"
+            }
           ],
           "games": [
             {
+              "gameId": "game/742f80b1-e6c9-4cb6-a51b-f01a8f708fbc",
               "players": [
                 {
+                  "playerId": "team-player/73708865-29d2-4897-b1b5-fa2a6679c67b",
                   "name": "Nick Mitchell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/830d47bb-0f74-42d1-b26b-b8ffa99a8c0a",
                   "name": "Martin Guentner",
                   "score": "9"
                 }
@@ -148,12 +224,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/8cca73da-66be-461c-8e51-ec482359571c",
               "players": [
                 {
+                  "playerId": "team-player/73708865-29d2-4897-b1b5-fa2a6679c67b",
                   "name": "Nick Mitchell",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/830d47bb-0f74-42d1-b26b-b8ffa99a8c0a",
                   "name": "Martin Guentner",
                   "score": "23"
                 }
@@ -165,17 +244,26 @@
         },
         {
           "players": [
-            "Brian Cumming",
-            "Max Walderdorff"
+            {
+              "playerId": "team-player/f5a1fb45-276f-4f04-926f-809c508e430b",
+              "name": "Brian Cumming"
+            },
+            {
+              "playerId": "team-player/e709c2b4-35c5-429b-b9d6-0cee77d3ddf1",
+              "name": "Max Walderdorff"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c3d0e607-6f3f-4d01-8a5b-e2963172c99a",
               "players": [
                 {
+                  "playerId": "team-player/f5a1fb45-276f-4f04-926f-809c508e430b",
                   "name": "Brian Cumming",
                   "score": "26"
                 },
                 {
+                  "playerId": "team-player/e709c2b4-35c5-429b-b9d6-0cee77d3ddf1",
                   "name": "Max Walderdorff",
                   "score": "9"
                 }
@@ -184,12 +272,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3ae5f021-80fc-4103-b310-5a1d0f7e68fd",
               "players": [
                 {
+                  "playerId": "team-player/f5a1fb45-276f-4f04-926f-809c508e430b",
                   "name": "Brian Cumming",
                   "score": "20"
                 },
                 {
+                  "playerId": "team-player/e709c2b4-35c5-429b-b9d6-0cee77d3ddf1",
                   "name": "Max Walderdorff",
                   "score": "26"
                 }
@@ -198,12 +289,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7a4ef937-d281-4ed9-80cb-11f12d652fb6",
               "players": [
                 {
+                  "playerId": "team-player/f5a1fb45-276f-4f04-926f-809c508e430b",
                   "name": "Brian Cumming",
                   "score": "20T"
                 },
                 {
+                  "playerId": "team-player/e709c2b4-35c5-429b-b9d6-0cee77d3ddf1",
                   "name": "Max Walderdorff",
                   "score": "14"
                 }
@@ -215,17 +309,26 @@
         },
         {
           "players": [
-            "Pierre Dunn",
-            "Heinz Hackl"
+            {
+              "playerId": "team-player/7e044487-8daf-453d-9a66-3c7b13e9874b",
+              "name": "Pierre Dunn"
+            },
+            {
+              "playerId": "team-player/e2d33595-b3c7-422f-9ed7-3a070b5c6974",
+              "name": "Heinz Hackl"
+            }
           ],
           "games": [
             {
+              "gameId": "game/93ea4c04-b3ee-46a7-b330-fab40f531ce0",
               "players": [
                 {
+                  "playerId": "team-player/7e044487-8daf-453d-9a66-3c7b13e9874b",
                   "name": "Pierre Dunn",
                   "score": "18"
                 },
                 {
+                  "playerId": "team-player/e2d33595-b3c7-422f-9ed7-3a070b5c6974",
                   "name": "Heinz Hackl",
                   "score": "21T"
                 }
@@ -234,12 +337,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/9a277cef-dfca-49cc-9a9a-b4b0b51acf20",
               "players": [
                 {
+                  "playerId": "team-player/7e044487-8daf-453d-9a66-3c7b13e9874b",
                   "name": "Pierre Dunn",
                   "score": "21T"
                 },
                 {
+                  "playerId": "team-player/e2d33595-b3c7-422f-9ed7-3a070b5c6974",
                   "name": "Heinz Hackl",
                   "score": "8"
                 }
@@ -248,12 +354,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fb4d29f2-24c7-4836-9196-1465f45e43e9",
               "players": [
                 {
+                  "playerId": "team-player/7e044487-8daf-453d-9a66-3c7b13e9874b",
                   "name": "Pierre Dunn",
                   "score": "15"
                 },
                 {
+                  "playerId": "team-player/e2d33595-b3c7-422f-9ed7-3a070b5c6974",
                   "name": "Heinz Hackl",
                   "score": "16T"
                 }
@@ -265,17 +374,26 @@
         },
         {
           "players": [
-            "Jim Wright",
-            "Christophe Bergen"
+            {
+              "playerId": "team-player/2aa74efb-d5b7-49ee-a22d-4de603eb5f1d",
+              "name": "Jim Wright"
+            },
+            {
+              "playerId": "team-player/149aaeef-d6ed-4d34-b0d0-29b9834bf3f7",
+              "name": "Christophe Bergen"
+            }
           ],
           "games": [
             {
+              "gameId": "game/4a269849-82e6-4c45-8a15-d46343a1124a",
               "players": [
                 {
+                  "playerId": "team-player/2aa74efb-d5b7-49ee-a22d-4de603eb5f1d",
                   "name": "Jim Wright",
                   "score": "22T"
                 },
                 {
+                  "playerId": "team-player/149aaeef-d6ed-4d34-b0d0-29b9834bf3f7",
                   "name": "Christophe Bergen",
                   "score": "12"
                 }
@@ -284,12 +402,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/3ee58da3-0d10-41ed-95ed-10c01f61eb5c",
               "players": [
                 {
+                  "playerId": "team-player/2aa74efb-d5b7-49ee-a22d-4de603eb5f1d",
                   "name": "Jim Wright",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/149aaeef-d6ed-4d34-b0d0-29b9834bf3f7",
                   "name": "Christophe Bergen",
                   "score": "15T"
                 }
@@ -298,12 +419,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/2d0b8549-7504-4a97-838f-5b097e3548e8",
               "players": [
                 {
+                  "playerId": "team-player/2aa74efb-d5b7-49ee-a22d-4de603eb5f1d",
                   "name": "Jim Wright",
                   "score": "12T"
                 },
                 {
+                  "playerId": "team-player/149aaeef-d6ed-4d34-b0d0-29b9834bf3f7",
                   "name": "Christophe Bergen",
                   "score": "8"
                 }

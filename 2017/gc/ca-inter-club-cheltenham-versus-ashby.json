@@ -1,37 +1,71 @@
 {
-  "layout": 1,
+  "layout": 2,
+  "tournamentId": "tournament/40d2d58d-0ca9-4bf5-bdcd-73617567a5cf",
   "name": "CA GC Inter-Club:  Cheltenham versus Ashby",
   "sport": "gc",
   "firstDay": "2017-07-09",
   "lastDay": "2017-07-09",
   "country": "england",
   "region": null,
+  "national": false,
+  "international": false,
   "teams": [
     {
       "name": "Cheltenham",
       "shortName": "Cheltenham",
       "players": [
-        "Mark Suter",
-        "Richard Thompson",
-        "Sarah Hayes",
-        "Suter & Hayes",
-        "Tony Forbes"
+        {
+          "playerId": "team-player/a943706b-e333-4b1f-a586-a207e1ace8e8",
+          "name": "Mark Suter"
+        },
+        {
+          "playerId": "team-player/7893032d-1bb0-41eb-8018-4fd194fab118",
+          "name": "Richard Thompson"
+        },
+        {
+          "playerId": "team-player/82719472-dc5f-46d1-8b82-e7129c1fde09",
+          "name": "Sarah Hayes"
+        },
+        {
+          "playerId": "team-player/d0a39e52-6850-4482-bb43-606660d4421c",
+          "name": "Suter & Hayes"
+        },
+        {
+          "playerId": "team-player/93ee2832-2ef2-4452-812f-ef8ad58e86ee",
+          "name": "Tony Forbes"
+        }
       ]
     },
     {
       "name": "Ashby",
       "shortName": "Ashby",
       "players": [
-        "David Bell",
-        "Gee & King",
-        "Mike O'Brian",
-        "Tim King",
-        "Will Gee"
+        {
+          "playerId": "team-player/eec38ef4-0509-4b71-9548-39acc8e6c3a2",
+          "name": "David Bell"
+        },
+        {
+          "playerId": "team-player/2d9fd35d-b5da-4f32-9ff3-74336365a751",
+          "name": "Gee & King"
+        },
+        {
+          "playerId": "team-player/3a516337-8419-46a9-81db-f6d9bb14a03f",
+          "name": "Mike O'Brian"
+        },
+        {
+          "playerId": "team-player/030a2fc0-6541-43fa-813d-757f33c8a60e",
+          "name": "Tim King"
+        },
+        {
+          "playerId": "team-player/f3164201-db0f-4b92-96dd-2ec9930409c8",
+          "name": "Will Gee"
+        }
       ]
     }
   ],
   "tests": [
     {
+      "competitionId": "competition/3da923d3-a1eb-4181-8f8e-f4790cb44431",
       "teams": [
         "Cheltenham",
         "Ashby"
@@ -41,17 +75,26 @@
       "matches": [
         {
           "players": [
-            "Suter & Hayes",
-            "Gee & King"
+            {
+              "playerId": "team-player/d0a39e52-6850-4482-bb43-606660d4421c",
+              "name": "Suter & Hayes"
+            },
+            {
+              "playerId": "team-player/2d9fd35d-b5da-4f32-9ff3-74336365a751",
+              "name": "Gee & King"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a8e1e5c5-4fb8-4a23-a12f-637db7153e6a",
               "players": [
                 {
+                  "playerId": "team-player/d0a39e52-6850-4482-bb43-606660d4421c",
                   "name": "Suter & Hayes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d9fd35d-b5da-4f32-9ff3-74336365a751",
                   "name": "Gee & King",
                   "score": "6"
                 }
@@ -60,12 +103,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/15f1787c-a78c-4791-8d39-2e010b1ff2d3",
               "players": [
                 {
+                  "playerId": "team-player/d0a39e52-6850-4482-bb43-606660d4421c",
                   "name": "Suter & Hayes",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/2d9fd35d-b5da-4f32-9ff3-74336365a751",
                   "name": "Gee & King",
                   "score": "7"
                 }
@@ -74,12 +120,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/decc3ef7-6e5a-4345-865a-5fc147d2e6f4",
               "players": [
                 {
+                  "playerId": "team-player/d0a39e52-6850-4482-bb43-606660d4421c",
                   "name": "Suter & Hayes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/2d9fd35d-b5da-4f32-9ff3-74336365a751",
                   "name": "Gee & King",
                   "score": "4"
                 }
@@ -91,17 +140,26 @@
         },
         {
           "players": [
-            "Richard Thompson",
-            "Mike O'Brian"
+            {
+              "playerId": "team-player/7893032d-1bb0-41eb-8018-4fd194fab118",
+              "name": "Richard Thompson"
+            },
+            {
+              "playerId": "team-player/3a516337-8419-46a9-81db-f6d9bb14a03f",
+              "name": "Mike O'Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/2eabcb93-a2e6-4a14-a761-d663ef004d15",
               "players": [
                 {
+                  "playerId": "team-player/7893032d-1bb0-41eb-8018-4fd194fab118",
                   "name": "Richard Thompson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3a516337-8419-46a9-81db-f6d9bb14a03f",
                   "name": "Mike O'Brian",
                   "score": "7"
                 }
@@ -110,12 +168,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7b9a7582-cea9-41e5-ade3-ae66b7222810",
               "players": [
                 {
+                  "playerId": "team-player/7893032d-1bb0-41eb-8018-4fd194fab118",
                   "name": "Richard Thompson",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a516337-8419-46a9-81db-f6d9bb14a03f",
                   "name": "Mike O'Brian",
                   "score": "5"
                 }
@@ -124,12 +185,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7cd3a6cc-f033-41cb-bd36-16b703c997d5",
               "players": [
                 {
+                  "playerId": "team-player/7893032d-1bb0-41eb-8018-4fd194fab118",
                   "name": "Richard Thompson",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/3a516337-8419-46a9-81db-f6d9bb14a03f",
                   "name": "Mike O'Brian",
                   "score": "7"
                 }
@@ -141,17 +205,26 @@
         },
         {
           "players": [
-            "Tony Forbes",
-            "David Bell"
+            {
+              "playerId": "team-player/93ee2832-2ef2-4452-812f-ef8ad58e86ee",
+              "name": "Tony Forbes"
+            },
+            {
+              "playerId": "team-player/eec38ef4-0509-4b71-9548-39acc8e6c3a2",
+              "name": "David Bell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/7a2ab100-5847-4215-9e4f-abc8215f0509",
               "players": [
                 {
+                  "playerId": "team-player/93ee2832-2ef2-4452-812f-ef8ad58e86ee",
                   "name": "Tony Forbes",
                   "score": "1"
                 },
                 {
+                  "playerId": "team-player/eec38ef4-0509-4b71-9548-39acc8e6c3a2",
                   "name": "David Bell",
                   "score": "7"
                 }
@@ -160,12 +233,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/5634a800-80b1-4ab4-956c-efade29dc216",
               "players": [
                 {
+                  "playerId": "team-player/93ee2832-2ef2-4452-812f-ef8ad58e86ee",
                   "name": "Tony Forbes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/eec38ef4-0509-4b71-9548-39acc8e6c3a2",
                   "name": "David Bell",
                   "score": "6"
                 }
@@ -174,12 +250,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/fae4518b-e269-41ba-ad2b-f089e7b87a06",
               "players": [
                 {
+                  "playerId": "team-player/93ee2832-2ef2-4452-812f-ef8ad58e86ee",
                   "name": "Tony Forbes",
                   "score": "3"
                 },
                 {
+                  "playerId": "team-player/eec38ef4-0509-4b71-9548-39acc8e6c3a2",
                   "name": "David Bell",
                   "score": "7"
                 }
@@ -191,17 +270,26 @@
         },
         {
           "players": [
-            "Richard Thompson",
-            "David Bell"
+            {
+              "playerId": "team-player/7893032d-1bb0-41eb-8018-4fd194fab118",
+              "name": "Richard Thompson"
+            },
+            {
+              "playerId": "team-player/eec38ef4-0509-4b71-9548-39acc8e6c3a2",
+              "name": "David Bell"
+            }
           ],
           "games": [
             {
+              "gameId": "game/a7cd3b19-b203-4b3b-93a0-3c83cbd80fac",
               "players": [
                 {
+                  "playerId": "team-player/7893032d-1bb0-41eb-8018-4fd194fab118",
                   "name": "Richard Thompson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/eec38ef4-0509-4b71-9548-39acc8e6c3a2",
                   "name": "David Bell",
                   "score": "7"
                 }
@@ -210,12 +298,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/120bbf90-2b16-4c9d-b340-868fc5fb9ca1",
               "players": [
                 {
+                  "playerId": "team-player/7893032d-1bb0-41eb-8018-4fd194fab118",
                   "name": "Richard Thompson",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/eec38ef4-0509-4b71-9548-39acc8e6c3a2",
                   "name": "David Bell",
                   "score": "7"
                 }
@@ -227,17 +318,26 @@
         },
         {
           "players": [
-            "Tony Forbes",
-            "Mike O'Brian"
+            {
+              "playerId": "team-player/93ee2832-2ef2-4452-812f-ef8ad58e86ee",
+              "name": "Tony Forbes"
+            },
+            {
+              "playerId": "team-player/3a516337-8419-46a9-81db-f6d9bb14a03f",
+              "name": "Mike O'Brian"
+            }
           ],
           "games": [
             {
+              "gameId": "game/6b57ae79-ef39-4474-9a21-091a40c00822",
               "players": [
                 {
+                  "playerId": "team-player/93ee2832-2ef2-4452-812f-ef8ad58e86ee",
                   "name": "Tony Forbes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a516337-8419-46a9-81db-f6d9bb14a03f",
                   "name": "Mike O'Brian",
                   "score": "4"
                 }
@@ -246,12 +346,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/b404975a-2ca3-4403-868e-9e2f485c5ca8",
               "players": [
                 {
+                  "playerId": "team-player/93ee2832-2ef2-4452-812f-ef8ad58e86ee",
                   "name": "Tony Forbes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/3a516337-8419-46a9-81db-f6d9bb14a03f",
                   "name": "Mike O'Brian",
                   "score": "5"
                 }
@@ -263,17 +366,26 @@
         },
         {
           "players": [
-            "Mark Suter",
-            "Will Gee"
+            {
+              "playerId": "team-player/a943706b-e333-4b1f-a586-a207e1ace8e8",
+              "name": "Mark Suter"
+            },
+            {
+              "playerId": "team-player/f3164201-db0f-4b92-96dd-2ec9930409c8",
+              "name": "Will Gee"
+            }
           ],
           "games": [
             {
+              "gameId": "game/c51e3c99-05dc-41fa-957d-a60233d70fd4",
               "players": [
                 {
+                  "playerId": "team-player/a943706b-e333-4b1f-a586-a207e1ace8e8",
                   "name": "Mark Suter",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/f3164201-db0f-4b92-96dd-2ec9930409c8",
                   "name": "Will Gee",
                   "score": "7"
                 }
@@ -282,12 +394,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/7bd7aa82-0ab4-4bdb-a487-1d617fa12a5f",
               "players": [
                 {
+                  "playerId": "team-player/a943706b-e333-4b1f-a586-a207e1ace8e8",
                   "name": "Mark Suter",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/f3164201-db0f-4b92-96dd-2ec9930409c8",
                   "name": "Will Gee",
                   "score": "7"
                 }
@@ -299,17 +414,26 @@
         },
         {
           "players": [
-            "Sarah Hayes",
-            "Tim King"
+            {
+              "playerId": "team-player/82719472-dc5f-46d1-8b82-e7129c1fde09",
+              "name": "Sarah Hayes"
+            },
+            {
+              "playerId": "team-player/030a2fc0-6541-43fa-813d-757f33c8a60e",
+              "name": "Tim King"
+            }
           ],
           "games": [
             {
+              "gameId": "game/1246a3e6-d345-4fbe-afd6-74d3f28a4c07",
               "players": [
                 {
+                  "playerId": "team-player/82719472-dc5f-46d1-8b82-e7129c1fde09",
                   "name": "Sarah Hayes",
                   "score": "6"
                 },
                 {
+                  "playerId": "team-player/030a2fc0-6541-43fa-813d-757f33c8a60e",
                   "name": "Tim King",
                   "score": "7"
                 }
@@ -318,12 +442,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/84009ce1-17e8-4a38-a6a7-e18d4feb48f8",
               "players": [
                 {
+                  "playerId": "team-player/82719472-dc5f-46d1-8b82-e7129c1fde09",
                   "name": "Sarah Hayes",
                   "score": "7"
                 },
                 {
+                  "playerId": "team-player/030a2fc0-6541-43fa-813d-757f33c8a60e",
                   "name": "Tim King",
                   "score": "3"
                 }
@@ -332,12 +459,15 @@
               "withdrawn": false
             },
             {
+              "gameId": "game/83fdaf2f-5e58-4f19-99a8-98aa149923b0",
               "players": [
                 {
+                  "playerId": "team-player/82719472-dc5f-46d1-8b82-e7129c1fde09",
                   "name": "Sarah Hayes",
                   "score": "5"
                 },
                 {
+                  "playerId": "team-player/030a2fc0-6541-43fa-813d-757f33c8a60e",
                   "name": "Tim King",
                   "score": "7"
                 }
