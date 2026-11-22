@@ -34,16 +34,15 @@ them apart.
 
 Every file is JSON, laid out the same way each run with the same things in the
 same order, so a file changes only when what it says has changed. It has
-`layout`, which is the version of this layout and is `1` now. A reader is told
-when the layout changes by that number going up.
+`layout`, which is the version of this layout and is `2` now. A reader is told
+when the layout changes, except additional fields, by that number going up.
 
 A file says the tournament's `name`, `sport`, `firstDay` and `lastDay`,
 `country` and `region` (which is `null` where it has none).
 
 A tournament played by players has:
 
-- `players`: each by `name`, and `representing`, or `null` where they represent
-  nothing.
+- `players`: each by `name`, and `representing`, `worldRankingName`, `handicap`.
 - `competitions`: each with its `name`, its `kind` (`block`, `knockout` or
   `swiss`) and its games. A knockout has `matches` in place of `games`, each
   being the two players who met and the games between them in the order they
